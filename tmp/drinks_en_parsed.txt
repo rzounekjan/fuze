@@ -1,0 +1,217 @@
+
+[H3] beer on tap
+ITEM: name="" | weight="" | allergens="" | price="" | desc="Our beers are crafted by our brewmaster Aleš Paik along with his colleagues Martin and Štěpán."
+ITEM: name="TransFUZE 12" | weight="0,3l/0,5l" | allergens="" | price="59/69  CZK" | desc="Our traditional light lager, full-bodied with a fresh taste and balanced bitterness, unpasteurized, unfiltered"
+ITEM: name="DisFuze 10" | weight="0,3l/0,5l" | allergens="" | price="59/69  CZK" | desc="Light draft beer, Abv 3.5%Czech classic, honest &quot;desítka,&quot; very drinkable refreshing beer with higher bitterness."
+ITEM: name="InFUZE IPA 12" | weight="04l" | allergens="" | price="85  CZK" | desc="style: Session IPA, 12-degree beer, 4.9% ABVtop-fermented beer, light and refreshing, unpasteurized, unfiltered with citrus aroma, cold-hopped (dry hopping)"
+ITEM: name="FUZEnáč 13 semi-dark" | weight="0,3l/0,5l" | allergens="" | price="69/78  CZK" | desc="Our bottom-fermented beer, amber color with a distinct smoky aroma, full malt smoked flavor, unpasteurized, unfiltered"
+ITEM: name="Kasteel Rouge 18" | weight="0,25l" | allergens="" | price="118  CZK" | desc="Top-fermented, 8% dark beer aged 6 months on cherries, from Belgian brewery Van Honsebrouck, rich cherry flavor and aroma"
+ITEM: name="Zichovec Passion Fruit 12" | weight="0,4l" | allergens="" | price="94  CZK" | desc="Sour ale, intensely sour with a strong passion fruit flavor and aroma"
+ITEM: name="Beer tasting" | weight="6x 0,15l" | allergens="" | price="285  CZK" | desc="6 samples of the above beers on a stylish board"
+ITEM: name="FUZEro" | weight="0,4l" | allergens="" | price="69  CZK" | desc="our IPL, non-alcoholic lager hopped with American and cold New Zealand hops, with a delicate malt flavor, higher bitterness in the finish, and a beautiful, fresh hop aroma, unpasteurized, unfiltered"
+ITEM: name="Maisel`s Weisse Non-Alcoholic /bottled/" | weight="0,33l" | allergens="" | price="79  CZK" | desc="bavarian Weizenbier, a non-alcoholic wheat beer"
+
+[H3] ciders
+ITEM: name="Opre` Cider" | weight="0,33l" | allergens="" | price="89  CZK" | desc="Craft apple cider from Slovak family farm"
+ITEM: name="Opre` Sour Cherry" | weight="0,33l" | allergens="" | price="96  CZK" | desc="Combines apple cider with refreshing cherry juice"
+
+[H3] waters and mineral waters
+ITEM: name="Filtered water in a carafe" | weight="0,75l" | allergens="" | price="89  CZK" | desc="Still / Sparkling"
+ITEM: name="Glass of filtered water" | weight="0,3l" | allergens="" | price="35  CZK" | desc="Still / Sparkling"
+ITEM: name="Infused water in a carafe" | weight="0,75l" | allergens="" | price="99  CZK" | desc="Citrus / Mint"
+ITEM: name="Mattoni Grand still" | weight="0,33l" | allergens="" | price="45  CZK" | desc="natural decarbonated mineral water"
+ITEM: name="Vratislavická mineral water" | weight="0,75l" | allergens="" | price="119  CZK" | desc="natural mineral water, medium mineralized with silicon content, naturally carbonated"
+
+[H3] our homemade lemonades
+ITEM: name="Grapefruit and mango" | weight="0,4l" | allergens="" | price="84  CZK" | desc=""
+ITEM: name="Raspberry and white chocolate" | weight="0,4l" | allergens="" | price="84  CZK" | desc=""
+ITEM: name="Plum and cardamom" | weight="0,4l" | allergens="" | price="84  CZK" | desc=""
+ITEM: name="Homemade lemonade" | weight="0,4l" | allergens="" | price="84  CZK" | desc=""
+ITEM: name="Our homemade iced tea" | weight="0,4l" | allergens="" | price="86  CZK" | desc="Jasmine and peach"
+ITEM: name="Fresh juice" | weight="0,2l" | allergens="" | price="125  CZK" | desc="Orange / Grapefruit"
+
+[H3] bottled lemonades
+ITEM: name="Coca Cola / Coca Cola Zero" | weight="0,33l" | allergens="" | price="65  CZK" | desc=""
+ITEM: name="Thomas Henry Tonic" | weight="0,2l" | allergens="" | price="75  CZK" | desc=""
+ITEM: name="Fever-Tree Tonic" | weight="0,2l" | allergens="" | price="85  CZK" | desc=""
+ITEM: name="Fever-Tree Ginger Beer" | weight="0,2l" | allergens="" | price="85  CZK" | desc=""
+ITEM: name="Red Bull" | weight="0,2l" | allergens="" | price="99  CZK" | desc="can"
+
+[H3] coffee, tea and hot drinks
+ITEM: name="Espresso" | weight="9g" | allergens="" | price="66  CZK" | desc=""
+ITEM: name="Espresso macchiato" | weight="9g" | allergens="" | price="78  CZK" | desc=""
+ITEM: name="Cappuccino" | weight="9g" | allergens="" | price="85  CZK" | desc=""
+ITEM: name="Caffé latte" | weight="9g" | allergens="" | price="88  CZK" | desc=""
+ITEM: name="Flat white" | weight="18g" | allergens="" | price="99  CZK" | desc=""
+ITEM: name="Double espresso" | weight="18g" | allergens="" | price="89  CZK" | desc=""
+ITEM: name="Americano caffé / Lungo" | weight="9g" | allergens="" | price="79  CZK" | desc=""
+ITEM: name="Espresso with whipped cream" | weight="9g" | allergens="" | price="85  CZK" | desc=""
+ITEM: name="Loose-leaf tea" | weight="" | allergens="" | price="89  CZK" | desc="black, green, or fruit"
+ITEM: name="Tea with fresh mint or ginger" | weight="" | allergens="" | price="89  CZK" | desc=""
+ITEM: name="Hot Gingerbread Cider" | weight="0,33l" | allergens="" | price="98  CZK" | desc="Spicy, with a scent of cloves and cinnamon"
+ITEM: name="Hot Chocolate" | weight="" | allergens="" | price="85  CZK" | desc="With fresh whipped cream"
+ITEM: name="Chai latte" | weight="" | allergens="" | price="99  CZK" | desc="Tea with a mixture of exotic spices, sugar, and hot milk"
+ITEM: name="Mulled wine" | weight="0,15l" | allergens="" | price="85  CZK" | desc="Red / White, with spices and orange"
+
+[H3] wines by the glass
+ITEM: name="Charmat de Vinselekt Pálava" | weight="0,1l" | allergens="" | price="99  CZK" | desc="Vinselect Michlovský, Extra dry"
+ITEM: name="Cremant de Vinselekt" | weight="0,1l" | allergens="" | price="115  CZK" | desc="(Pinot, Chardonnay) Vinselect Michlovský, Extra Brut"
+ITEM: name="Rulandské šedé" | weight="0,15l" | allergens="" | price="95  CZK" | desc="Kolby Moravia, semi-dry"
+ITEM: name="Cuvée white" | weight="0,15l" | allergens="" | price="98  CZK" | desc="Kraus Bohemia"
+ITEM: name="Grüner Veltliner" | weight="0,15l" | allergens="" | price="109  CZK" | desc="Heuriger Austria"
+ITEM: name="Chardonnay" | weight="0,15l" | allergens="" | price="125  CZK" | desc="Adulation California"
+ITEM: name="Modrý Portugal rosé" | weight="0,15l" | allergens="" | price="95  CZK" | desc="Kolby Moravia"
+ITEM: name="Modrý Portugal" | weight="0,15l" | allergens="" | price="95  CZK" | desc="Kolby Moravia"
+ITEM: name="Red cuvée" | weight="0,15l" | allergens="" | price="98  CZK" | desc="Kraus Bohemia"
+ITEM: name="Pinot Noir" | weight="0,15l" | allergens="" | price="125  CZK" | desc="Adulation California"
+
+[H3] aperitifs
+ITEM: name="Aperol Spritz" | weight="" | allergens="" | price="155  CZK" | desc="Aperol, charmat, soda"
+ITEM: name="Hugo Spritz" | weight="" | allergens="" | price="155  CZK" | desc="charmat, elderflower elixir, lime, mint, soda"
+ITEM: name="Mimosa" | weight="" | allergens="" | price="168  CZK" | desc="charmat, pear and peach syrup, cucumber slices"
+ITEM: name="Kir" | weight="" | allergens="" | price="165  CZK" | desc="crème de cassis, charmat"
+ITEM: name="Campari Bitter" | weight="0,06l" | allergens="" | price="87  CZK" | desc=""
+ITEM: name="Martini Dry" | weight="0,08l" | allergens="" | price="79  CZK" | desc=""
+ITEM: name="Cinzano Rosso / Bianco" | weight="0,08l" | allergens="" | price="79  CZK" | desc=""
+ITEM: name="Grahams Porto Tawny 10y" | weight="0,06l" | allergens="" | price="225  CZK" | desc=""
+
+[H3] non-alcoholic aperitifs and cocktails
+ITEM: name="Crodino" | weight="0,175l" | allergens="" | price="109  CZK" | desc="non-alcoholic bitter"
+ITEM: name="Martini Floreale Alcohol free & Thomas Henry Tonic" | weight="" | allergens="" | price="165  CZK" | desc="non-alcoholic Martini, tonic, dried orange"
+ITEM: name="Bitter soda J.Gasco" | weight="0,2l" | allergens="" | price="115  CZK" | desc="non-alcoholic bitter soda"
+ITEM: name="Tanqueray Alcohol Free & Fever-Tree Tonic" | weight="" | allergens="" | price="199  CZK" | desc="non-alcoholic G&T with lime"
+
+[H3] classic cocktails
+ITEM: name="Negroni" | weight="" | allergens="" | price="195  CZK" | desc="Gin, Campari, Cinzano Rosso"
+ITEM: name="Margarita" | weight="" | allergens="" | price="185  CZK" | desc="Tequila, Cointreau, lime juice"
+ITEM: name="Mojito" | weight="" | allergens="" | price="185  CZK" | desc="Rum, mint, lime, brown sugar"
+ITEM: name="Frozen Strawberry Daiquiri" | weight="" | allergens="" | price="195  CZK" | desc="Rum, lime juice, strawberry purée, sugar"
+ITEM: name="Cuba Libre" | weight="" | allergens="" | price="165  CZK" | desc="Rum, lime juice, Coca-Cola"
+ITEM: name="May-Tai" | weight="" | allergens="" | price="199  CZK" | desc="White and dark rum, Curaçao, almond syrup, lime juice"
+ITEM: name="Porn star Martini" | weight="" | allergens="" | price="232  CZK" | desc="Vanilla vodka, passionfruit liqueur, lime juice, charmat"
+ITEM: name="Skinny bitch" | weight="" | allergens="" | price="125  CZK" | desc="Vodka, lime juice, soda"
+ITEM: name="Cosmopolitan" | weight="" | allergens="" | price="160  CZK" | desc="Vodka, Cointreau, cranberry juice, lime juice"
+ITEM: name="Moscow mule" | weight="" | allergens="" | price="185  CZK" | desc="Vodka, ginger beer, lime"
+ITEM: name="French Martini" | weight="" | allergens="" | price="195  CZK" | desc="Vodka, raspberry liqueur, pineapple juice"
+ITEM: name="Espresso Martini" | weight="" | allergens="" | price="195  CZK" | desc="Vodka, coffee liqueur, espresso"
+ITEM: name="Paloma" | weight="" | allergens="" | price="195  CZK" | desc="tequila, limited juice, agave syrup, grapefruit J.Gasco Soda Rosa, salt"
+
+[H3] fuze cocktails
+ITEM: name="Truffle Negroni" | weight="" | allergens="" | price="205  CZK" | desc="truffle gin, Campari, Cinzano rosso"
+ITEM: name="Fizzy Fuze" | weight="" | allergens="" | price="175  CZK" | desc="Gin, lime juice, soda, elderberry syrup"
+ITEM: name="Florence Fashion" | weight="" | allergens="" | price="245  CZK" | desc="Whiskey, peach syrup, chocolate bitters"
+ITEM: name="A.M. Spritz" | weight="" | allergens="" | price="185  CZK" | desc="Crémant, gin, elderflower syrup, lime"
+ITEM: name="Passionate" | weight="" | allergens="" | price="175  CZK" | desc="Rum, passion fruit, melon syrup, cranberry juice"
+
+[H3] gin&tonic
+ITEM: name="Tanqueray & Thomas Henry Tonic" | weight="" | allergens="" | price="188  CZK" | desc="Classic"
+ITEM: name="Fiesta Garage 22 & Guilti tonic lime" | weight="" | allergens="" | price="219  CZK" | desc="playful with lime"
+ITEM: name="Hendrick`s & Thomas Henry Tonic" | weight="" | allergens="" | price="208  CZK" | desc="With cucumber"
+ITEM: name="Endorphin Magic imaGINe & Fever-Tree Tonic" | weight="" | allergens="" | price="239  CZK" | desc="illusionistic with blueberries"
+ITEM: name="Flame of Passion Pink Gin & Thomas Henry Pink Grapefruit Tonic" | weight="" | allergens="" | price="228  CZK" | desc="Pink grapefruit"
+ITEM: name="Endorphin Copper Moon & Fever-Tree Mediterranean Tonic" | weight="" | allergens="" | price="228  CZK" | desc="Mediterranean herbs"
+
+[H3] fruit brandies 0.03L
+ITEM: name="Slivovitz" | weight="" | allergens="" | price="105  CZK" | desc="Radlík (Plum brandy)"
+ITEM: name="Slivovice ze sudu" | weight="" | allergens="" | price="140  CZK" | desc="Radlík (Barrel-aged plum brandy)"
+ITEM: name="Hruškovice Williams" | weight="" | allergens="" | price="110  CZK" | desc="Skanzen (Williams pear brandy)"
+ITEM: name="Hruškovice ze sudu" | weight="" | allergens="" | price="140  CZK" | desc="Radlík (Barrel-aged pear brandy)"
+ITEM: name="Meruňkovice" | weight="" | allergens="" | price="120  CZK" | desc="Svach (Apricot brandy)"
+ITEM: name="Višňovice" | weight="" | allergens="" | price="98  CZK" | desc="Zubří (Cherry brandy)"
+ITEM: name="Jablkovice" | weight="" | allergens="" | price="98  CZK" | desc="Galí (Apple brandy)"
+ITEM: name="Rybízovice" | weight="" | allergens="" | price="160  CZK" | desc="Raspenava (Currant brandy)"
+ITEM: name="Vínovice ze sudu" | weight="" | allergens="" | price="149  CZK" | desc="Radlík (Barrel-aged grape brandy)"
+ITEM: name="Tramínovice" | weight="" | allergens="" | price="135  CZK" | desc="Kolby (Grape brandy)"
+ITEM: name="Poněšická Mrkvovice" | weight="" | allergens="" | price="123  CZK" | desc="(Carrot brandy)"
+ITEM: name="Malinovice Silver" | weight="" | allergens="" | price="175  CZK" | desc="Martenz (Raspberry Brandy)"
+
+[H3] vodka 0.03L
+ITEM: name="Anton Kaapl LEGIONARY" | weight="" | allergens="" | price="75  CZK" | desc=""
+ITEM: name="Nemiroff" | weight="" | allergens="" | price="85  CZK" | desc=""
+ITEM: name="Grey Goose" | weight="" | allergens="" | price="135  CZK" | desc=""
+
+[H3] gins 0.03l
+ITEM: name="Tanqueray" | weight="" | allergens="" | price="89  CZK" | desc=""
+ITEM: name="Hendrick`s" | weight="" | allergens="" | price="126  CZK" | desc=""
+ITEM: name="Starej Dobrej Gin" | weight="" | allergens="" | price="159  CZK" | desc="Poněšice"
+ITEM: name="Truffle gin" | weight="" | allergens="" | price="155  CZK" | desc="Garage 22"
+
+[H3] rums 0,03L
+ITEM: name="Havana Club Anejo 3 Anos" | weight="" | allergens="" | price="66  CZK" | desc=""
+ITEM: name="El Dorado 12y" | weight="" | allergens="" | price="149  CZK" | desc=""
+ITEM: name="Mount Gay XO" | weight="" | allergens="" | price="186  CZK" | desc=""
+ITEM: name="Abuelo 7y" | weight="" | allergens="" | price="135  CZK" | desc=""
+ITEM: name="Eminente Reserva 7y" | weight="" | allergens="" | price="172  CZK" | desc=""
+ITEM: name="Dimplomatico" | weight="" | allergens="" | price="149  CZK" | desc=""
+ITEM: name="Zacapa 23y" | weight="rumy 0,03L" | allergens="" | price="165  CZK" | desc=""
+
+[H3] tequilas 0,03L
+ITEM: name="Tres Alegres Compadres Blanco" | weight="" | allergens="" | price="89  CZK" | desc=""
+ITEM: name="Herradura Reposado" | weight="" | allergens="" | price="168  CZK" | desc=""
+ITEM: name="Tequila Corralejo Reposado" | weight="" | allergens="" | price="149  CZK" | desc="100% Agave"
+ITEM: name="La Cofradia Reposado Rosé „ ed.Catrina ”" | weight="" | allergens="" | price="185  CZK" | desc=""
+ITEM: name="La Cofradia Black „ ed.Catrina ”" | weight="" | allergens="" | price="185  CZK" | desc=""
+
+[H3] whisky, whiskey, bourbon 0,03L
+ITEM: name="Goldcock blended" | weight="" | allergens="" | price="62  CZK" | desc=""
+ITEM: name="Glenfiddich 15y" | weight="" | allergens="" | price="165  CZK" | desc=""
+ITEM: name="Talisker 10y" | weight="" | allergens="" | price="165  CZK" | desc=""
+ITEM: name="Monkey Shoulder" | weight="" | allergens="" | price="112  CZK" | desc=""
+ITEM: name="Jameson" | weight="" | allergens="" | price="75  CZK" | desc=""
+ITEM: name="Jack Daniels" | weight="" | allergens="" | price="105  CZK" | desc=""
+
+[H3] brandy and cognac 0,03L
+ITEM: name="Metaxa *****" | weight="" | allergens="" | price="75  CZK" | desc=""
+ITEM: name="Remy Martin 1738" | weight="" | allergens="" | price="170  CZK" | desc=""
+
+[H3] spirits & liqueurs 0,03L
+ITEM: name="Fuzovice" | weight="" | allergens="" | price="140  CZK" | desc="FUZE/Agnes"
+ITEM: name="Absinth St. Antoine" | weight="" | allergens="" | price="165  CZK" | desc="Žufánek"
+ITEM: name="Kmínka" | weight="" | allergens="" | price="78  CZK" | desc="Garage 32 (Caraway spirit)"
+ITEM: name="Kontušovka" | weight="" | allergens="" | price="95  CZK" | desc="Žufánek (Herbal liqueur)"
+ITEM: name="Walnut liqueur" | weight="" | allergens="" | price="119  CZK" | desc="Radlik"
+ITEM: name="Hustopečská Mandlovka" | weight="" | allergens="" | price="98  CZK" | desc="(almond liqueur)"
+ITEM: name="Jägermeister" | weight="" | allergens="" | price="65  CZK" | desc=""
+ITEM: name="Poděbradská Samička" | weight="" | allergens="" | price="58  CZK" | desc="(Regional herbal liqueur)"
+ITEM: name="Becherovka" | weight="" | allergens="" | price="65  CZK" | desc="Unfiltered"
+ITEM: name="Smoked Grappa Bepi Tosolini" | weight="" | allergens="" | price="195  CZK" | desc=""
+ITEM: name="Bezový elixír R.Jelínek" | weight="" | allergens="" | price="58  CZK" | desc="(Elderflower liquer)"
+ITEM: name="Créme de cassis" | weight="" | allergens="" | price="68  CZK" | desc="Le Duc Charmant, Jenčík"
+ITEM: name="Egg liqueur" | weight="" | allergens="" | price="50  CZK" | desc="Bartida"
+ITEM: name="Griotte Original" | weight="" | allergens="" | price="50  CZK" | desc="Bartida (Sour cherry liqueur)"
+ITEM: name="Zelená" | weight="" | allergens="" | price="50  CZK" | desc="Bartida (Herbal mint liqueur)"
+ITEM: name="Zelená" | weight="" | allergens="" | price="58  CZK" | desc="Svach (Herbal mint liqueur)"
+
+[H3] Bubbles
+ITEM: name="Charmat from Vinselekt Pálava" | weight="0,75L" | allergens="" | price="699  CZK" | desc="Vinselect Michlovský, extra dry – Moravia"
+ITEM: name="Cremant de Vinselekt (Pinot, Chardonnay)" | weight="0,75L" | allergens="" | price="849  CZK" | desc="Vinselect Michlovský, extra brut – Moravia"
+ITEM: name="Angels & Cowboys" | weight="0,75L" | allergens="" | price="1199  CZK" | desc="NV, brut - North Coast, California"
+
+[H3] white wines
+ITEM: name="Riesling" | weight="0,75L" | allergens="" | price="469  CZK" | desc="late harvest Gotberg – Pálava, Moravia"
+ITEM: name="Pinot Gris" | weight="0,75L" | allergens="" | price="479  CZK" | desc="late harvest Reisten – Mikulov, Moravia"
+ITEM: name="Hibernal" | weight="0,75L" | allergens="" | price="495  CZK" | desc="late harvest Bílkovi – Velkopavlovicko, Moravia"
+ITEM: name="Sauvignon" | weight="0,75L" | allergens="" | price="626  CZK" | desc="Typik VOC Lukáš Halkoci – Znojemsko, Moravia"
+ITEM: name="Welschriesling" | weight="0,75L" | allergens="" | price="660  CZK" | desc="late harvest Milan Sůkal – Slovácko, Moravia"
+ITEM: name="Pálava" | weight="0,75L" | allergens="" | price="506  CZK" | desc="late harvest Vinselect Michlovský – Lednicko-Valtice area, Moravia"
+ITEM: name="Poysdorfer Saurüssel" | weight="0,75L" | allergens="" | price="629  CZK" | desc="Grüner Veltliner, Hauser – Weinviertel, Austria"
+ITEM: name="Grüner Veltliner" | weight="0,75L" | allergens="" | price="723  CZK" | desc="Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria"
+ITEM: name="Riesling Rheingau" | weight="0,75L" | allergens="" | price="999  CZK" | desc="QbA Dry Eva Fricke – Rheingau, Germany"
+ITEM: name="Riesling" | weight="0,75L" | allergens="" | price="595  CZK" | desc="Red Stone QbA dry Gunderloch – Rheinhessen, Germany"
+ITEM: name="Riesling" | weight="0,75L" | allergens="" | price="975  CZK" | desc="Tradition Brauneberg Fritz Haag – Mosel, Germany"
+ITEM: name="Weisser Burgunder" | weight="0,75L" | allergens="" | price="725  CZK" | desc="Pinot Blanc, Tradition Trocken Philipp Kuhn – Pfalz, Germany"
+ITEM: name="Sauvignon Blanc" | weight="0,75L" | allergens="" | price="789  CZK" | desc="Lapis Luna - North Coast, California"
+ITEM: name="Chardonnay" | weight="0,75L" | allergens="" | price="975  CZK" | desc="Knotty Vines – California"
+
+[H3] rosé wines
+ITEM: name="Merlot Rosé" | weight="0,75L" | allergens="" | price="405  CZK" | desc="late harvest Bílkovi – Velkopavlovicko, Moravia"
+
+[H3] red wines
+ITEM: name="Pinot Noir" | weight="0,75L" | allergens="" | price="425  CZK" | desc="Roučí Malé Kraus – Mělnicko, Bohemia"
+ITEM: name="Dornfelder" | weight="0,75L" | allergens="" | price="419  CZK" | desc="Bílkovi - Velkopavlovicko, Moravia"
+ITEM: name="Cuvée Red (Cabernet Sauvignon, Merlot)" | weight="0,75L" | allergens="" | price="649  CZK" | desc="Kolby – Mikulovsko, Moravia"
+ITEM: name="Nina Cuvée (Merlot, Blaufränkisch)" | weight="0,75L" | allergens="" | price="699  CZK" | desc="Bílkovi – Velkopavlovicko, Moravia"
+ITEM: name="Zweigelt" | weight="0,75L" | allergens="" | price="660  CZK" | desc="Weingut Feiler-Artinger – Burgenland, Austria"
+ITEM: name="Pinot Noir" | weight="0,75L" | allergens="" | price="959  CZK" | desc="Tradition Philip Kuhn – Pfalz, Germany"
+ITEM: name="Cabernet Sauvignon" | weight="0,75L" | allergens="" | price="789  CZK" | desc="Lapis Luna - Lodi, California"
+ITEM: name="Zinfandel" | weight="0,75L" | allergens="" | price="995  CZK" | desc="Hendry Ranch HRW - Napa Valley, California"

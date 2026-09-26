@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="50%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+    <linearGradient id="innerGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fef3c7" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.3" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#451a03" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Dark container background for transparent canvas -->
+  <rect x="32" y="32" width="448" height="448" rx="112" fill="url(#bgGrad)" stroke="#fbbf24" stroke-width="12" stroke-opacity="0.8" filter="url(#shadow)"/>
+  
+  <!-- Subtle inner border highlight -->
+  <rect x="52" y="52" width="408" height="408" rx="92" fill="none" stroke="url(#innerGlow)" stroke-width="6" />
+
+  <!-- Monogram FZ -->
+  <text x="256" y="340" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="900" font-size="220" fill="#0c0a09" text-anchor="middle" letter-spacing="4">FZ</text>
+
+  <!-- Sparkle accent -->
+  <polygon points="380,90 395,125 430,140 395,155 380,190 365,155 330,140 365,125" fill="#fef3c7" opacity="0.95" />
+</svg>

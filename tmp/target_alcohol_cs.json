@@ -1,0 +1,2062 @@
+[
+  {
+    "cat_id": "gin-a-tonic",
+    "id": "gt-tanqueray",
+    "name": "Tanqueray & Thomas Henry Tonic",
+    "price": "188 Kč",
+    "weight": "",
+    "description": "Klasický s limetou, suchý London Dry profil a německý chininový tonik",
+    "questions": [
+      {
+        "id": "gt-tanqueray-ing-1",
+        "question": "Která z následujících surovin patří do podsložky Tanqueray & Thomas Henry Tonic?",
+        "correctAnswer": "Klasický s limetou",
+        "distractors": [
+          "Bílý rum",
+          "Stařený rum"
+        ],
+        "explanation": "V podsložce Tanqueray & Thomas Henry Tonic je obsaženo: Klasický s limetou. Kompletní receptura položky: Klasický s limetou, suchý London Dry profil a německý chininový tonik."
+      },
+      {
+        "id": "gt-tanqueray-ing-2",
+        "question": "Která z následujících surovin patří do podsložky Tanqueray & Thomas Henry Tonic?",
+        "correctAnswer": "Suchý London Dry profil a německý chininový tonik",
+        "distractors": [
+          "Modrá agáve (tequila)",
+          "Campari"
+        ],
+        "explanation": "V podsložce Tanqueray & Thomas Henry Tonic je obsaženo: Suchý London Dry profil a německý chininový tonik. Kompletní receptura položky: Klasický s limetou, suchý London Dry profil a německý chininový tonik."
+      }
+    ]
+  },
+  {
+    "cat_id": "gin-a-tonic",
+    "id": "gt-fiesta-garage22",
+    "name": "Fiesta Garage 22 & Guilti tonic lime",
+    "price": "219 Kč",
+    "weight": "",
+    "description": "Zábavný s limetou, řemeslný pražský gin z Holešovic a limetkový tonik",
+    "questions": [
+      {
+        "id": "gt-fiesta-garage22-ing-1",
+        "question": "Která z následujících surovin patří do podsložky Fiesta Garage 22 & Guilti tonic lime?",
+        "correctAnswer": "Zábavný s limetou",
+        "distractors": [
+          "Bílý rum",
+          "Stařený rum"
+        ],
+        "explanation": "V podsložce Fiesta Garage 22 & Guilti tonic lime je obsaženo: Zábavný s limetou. Kompletní receptura položky: Zábavný s limetou, řemeslný pražský gin z Holešovic a limetkový tonik."
+      },
+      {
+        "id": "gt-fiesta-garage22-ing-2",
+        "question": "Který destilát nebo likér je klíčovou složkou nápoje Fiesta Garage 22 & Guilti tonic lime?",
+        "correctAnswer": "Řemeslný pražský gin z Holešovic a limetkový tonik",
+        "distractors": [
+          "Modrá agáve (tequila)",
+          "Campari"
+        ],
+        "explanation": "V podsložce Fiesta Garage 22 & Guilti tonic lime je obsaženo: Řemeslný pražský gin z Holešovic a limetkový tonik. Kompletní receptura položky: Zábavný s limetou, řemeslný pražský gin z Holešovic a limetkový tonik."
+      }
+    ]
+  },
+  {
+    "cat_id": "gin-a-tonic",
+    "id": "gt-hendricks",
+    "name": "Hendrick`s & Thomas Henry Tonic",
+    "price": "208 Kč",
+    "weight": "",
+    "description": "Svěží s okurkou, skotský gin infuzovaný okurkou a bulharskou růží",
+    "questions": [
+      {
+        "id": "gt-hendricks-ing-1",
+        "question": "Který druh nakládaných okurek obsahuje podsložka Hendrick`s & Thomas Henry Tonic?",
+        "correctAnswer": "Svěží s okurkou",
+        "distractors": [
+          "Bílý rum",
+          "Stařený rum"
+        ],
+        "explanation": "V podsložce Hendrick`s & Thomas Henry Tonic je obsaženo: Svěží s okurkou. Kompletní receptura položky: Svěží s okurkou, skotský gin infuzovaný okurkou a bulharskou růží."
+      },
+      {
+        "id": "gt-hendricks-ing-2",
+        "question": "Který druh nakládaných okurek obsahuje podsložka Hendrick`s & Thomas Henry Tonic?",
+        "correctAnswer": "Skotský gin infuzovaný okurkou a bulharskou růží",
+        "distractors": [
+          "Modrá agáve (tequila)",
+          "Campari"
+        ],
+        "explanation": "V podsložce Hendrick`s & Thomas Henry Tonic je obsaženo: Skotský gin infuzovaný okurkou a bulharskou růží. Kompletní receptura položky: Svěží s okurkou, skotský gin infuzovaný okurkou a bulharskou růží."
+      }
+    ]
+  },
+  {
+    "cat_id": "gin-a-tonic",
+    "id": "gt-endorphin-imagine",
+    "name": "Endorphin Magic imaGINe & Fever-Tree Tonic",
+    "price": "239 Kč",
+    "weight": "",
+    "description": "Iluzionistický s borůvkami, barvoměnný gin infuzovaný květem klitorie (butterfly pea flower)",
+    "questions": [
+      {
+        "id": "gt-endorphin-imagine-ing-1",
+        "question": "Která z následujících surovin patří do podsložky Endorphin Magic imaGINe & Fever-Tree Tonic?",
+        "correctAnswer": "Iluzionistický s borůvkami",
+        "distractors": [
+          "Bílý rum",
+          "Stařený rum"
+        ],
+        "explanation": "V podsložce Endorphin Magic imaGINe & Fever-Tree Tonic je obsaženo: Iluzionistický s borůvkami. Kompletní receptura položky: Iluzionistický s borůvkami, barvoměnný gin infuzovaný květem klitorie (butterfly pea flower)."
+      },
+      {
+        "id": "gt-endorphin-imagine-ing-2",
+        "question": "Který destilát nebo likér je klíčovou složkou nápoje Endorphin Magic imaGINe & Fever-Tree Tonic?",
+        "correctAnswer": "Barvoměnný gin infuzovaný květem klitorie (butterfly pea flower)",
+        "distractors": [
+          "Modrá agáve (tequila)",
+          "Campari"
+        ],
+        "explanation": "V podsložce Endorphin Magic imaGINe & Fever-Tree Tonic je obsaženo: Barvoměnný gin infuzovaný květem klitorie (butterfly pea flower). Kompletní receptura položky: Iluzionistický s borůvkami, barvoměnný gin infuzovaný květem klitorie (butterfly pea flower)."
+      }
+    ]
+  },
+  {
+    "cat_id": "gin-a-tonic",
+    "id": "gt-flame-of-passion",
+    "name": "Flame of Passion Pink Gin & Thomas Henry Pink Grapefruit Tonic",
+    "price": "228 Kč",
+    "weight": "",
+    "description": "Podmanivý se sušeným grepem, jemně ovocný růžový gin s grepovým tonikem",
+    "questions": [
+      {
+        "id": "gt-flame-of-passion-ing-1",
+        "question": "Která z následujících surovin patří do podsložky Flame of Passion Pink Gin & Thomas Henry Pink Grapefruit Tonic?",
+        "correctAnswer": "Podmanivý se sušeným grepem",
+        "distractors": [
+          "Bílý rum",
+          "Stařený rum"
+        ],
+        "explanation": "V podsložce Flame of Passion Pink Gin & Thomas Henry Pink Grapefruit Tonic je obsaženo: Podmanivý se sušeným grepem. Kompletní receptura položky: Podmanivý se sušeným grepem, jemně ovocný růžový gin s grepovým tonikem."
+      },
+      {
+        "id": "gt-flame-of-passion-ing-2",
+        "question": "Který destilát nebo likér je klíčovou složkou nápoje Flame of Passion Pink Gin & Thomas Henry Pink Grapefruit Tonic?",
+        "correctAnswer": "Jemně ovocný růžový gin s grepovým tonikem",
+        "distractors": [
+          "Modrá agáve (tequila)",
+          "Campari"
+        ],
+        "explanation": "V podsložce Flame of Passion Pink Gin & Thomas Henry Pink Grapefruit Tonic je obsaženo: Jemně ovocný růžový gin s grepovým tonikem. Kompletní receptura položky: Podmanivý se sušeným grepem, jemně ovocný růžový gin s grepovým tonikem."
+      }
+    ]
+  },
+  {
+    "cat_id": "gin-a-tonic",
+    "id": "gt-endorphin-copper-moon",
+    "name": "Endorphin Copper Moon & Fever-Tree Mediterranean Tonic",
+    "price": "228 Kč",
+    "weight": "",
+    "description": "Plný bylinek a pepře, řemeslný gin a středomořský tonik",
+    "questions": [
+      {
+        "id": "gt-endorphin-copper-moon-ing-1",
+        "question": "Která bylinka, koření či aromatická surovina dochucuje Endorphin Copper Moon & Fever-Tree Mediterranean Tonic?",
+        "correctAnswer": "Plný bylinek a pepře",
+        "distractors": [
+          "Stařený rum",
+          "Modrá agáve (tequila)"
+        ],
+        "explanation": "V podsložce Endorphin Copper Moon & Fever-Tree Mediterranean Tonic je obsaženo: Plný bylinek a pepře. Kompletní receptura položky: Plný bylinek a pepře, řemeslný gin a středomořský tonik."
+      },
+      {
+        "id": "gt-endorphin-copper-moon-ing-2",
+        "question": "Který destilát nebo likér je klíčovou složkou nápoje Endorphin Copper Moon & Fever-Tree Mediterranean Tonic?",
+        "correctAnswer": "Řemeslný gin a středomořský tonik",
+        "distractors": [
+          "Campari",
+          "Cointreau"
+        ],
+        "explanation": "V podsložce Endorphin Copper Moon & Fever-Tree Mediterranean Tonic je obsaženo: Řemeslný gin a středomořský tonik. Kompletní receptura položky: Plný bylinek a pepře, řemeslný gin a středomořský tonik."
+      }
+    ]
+  },
+  {
+    "cat_id": "ovocne-destilaty",
+    "id": "slivovice-radlik",
+    "name": "Slivovice Radlík",
+    "price": "105 Kč",
+    "weight": "0,03l",
+    "description": "0,03l jemná švestková pálenka z oceňovaného jihočeského lihovaru Radlík u Jílového u Prahy",
+    "questions": [
+      {
+        "id": "slivovice-radlik-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Slivovice Radlík?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Slivovice Radlík je 0,03 l."
+      },
+      {
+        "id": "slivovice-radlik-ing-1",
+        "question": "Která z následujících surovin patří do podsložky Slivovice Radlík?",
+        "correctAnswer": "Jemná švestková pálenka z oceňovaného jihočeského lihovaru Radlík u Jílového u Prahy",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Slivovice Radlík je obsaženo: Jemná švestková pálenka z oceňovaného jihočeského lihovaru Radlík u Jílového u Prahy. Kompletní receptura položky: 0,03l jemná švestková pálenka z oceňovaného jihočeského lihovaru Radlík u Jílového u Prahy."
+      }
+    ]
+  },
+  {
+    "cat_id": "ovocne-destilaty",
+    "id": "slivovice-ze-sudu-radlik",
+    "name": "Slivovice ze sudu Radlík",
+    "price": "140 Kč",
+    "weight": "0,03l",
+    "description": "0,03l švestkový destilát dozrávající v dřevěných dubových sudech, se zlatavou barvou a tóny vanilky",
+    "questions": [
+      {
+        "id": "slivovice-ze-sudu-radlik-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Slivovice ze sudu Radlík?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Slivovice ze sudu Radlík je 0,03 l."
+      },
+      {
+        "id": "slivovice-ze-sudu-radlik-ing-1",
+        "question": "Která z následujících surovin patří do podsložky Slivovice ze sudu Radlík?",
+        "correctAnswer": "Švestkový destilát dozrávající v dřevěných dubových sudech",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Slivovice ze sudu Radlík je obsaženo: Švestkový destilát dozrávající v dřevěných dubových sudech. Kompletní receptura položky: 0,03l švestkový destilát dozrávající v dřevěných dubových sudech, se zlatavou barvou a tóny vanilky."
+      },
+      {
+        "id": "slivovice-ze-sudu-radlik-ing-2",
+        "question": "Která z následujících surovin patří do podsložky Slivovice ze sudu Radlík?",
+        "correctAnswer": "Se zlatavou barvou a tóny vanilky",
+        "distractors": [
+          "Zlatožluté meruňky",
+          "Zrání v dubovém sudu"
+        ],
+        "explanation": "V podsložce Slivovice ze sudu Radlík je obsaženo: Se zlatavou barvou a tóny vanilky. Kompletní receptura položky: 0,03l švestkový destilát dozrávající v dřevěných dubových sudech, se zlatavou barvou a tóny vanilky."
+      }
+    ]
+  },
+  {
+    "cat_id": "ovocne-destilaty",
+    "id": "hruskovice-skanzen",
+    "name": "Hruškovice Williams Skanzen",
+    "price": "110 Kč",
+    "weight": "0,03l",
+    "description": "0,03l intenzivně aromatická pálenka z vyzrálých hrušek odrůdy Williams z lihovaru Skanzen Modrá",
+    "questions": [
+      {
+        "id": "hruskovice-skanzen-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Hruškovice Williams Skanzen?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Hruškovice Williams Skanzen je 0,03 l."
+      },
+      {
+        "id": "hruskovice-skanzen-ing-1",
+        "question": "Která odrůdová či vinařská vlastnost charakterizuje víno Hruškovice Williams Skanzen?",
+        "correctAnswer": "Intenzivně aromatická pálenka z vyzrálých hrušek odrůdy Williams z lihovaru Skanzen Modrá",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Hruškovice Williams Skanzen je obsaženo: Intenzivně aromatická pálenka z vyzrálých hrušek odrůdy Williams z lihovaru Skanzen Modrá. Kompletní receptura položky: 0,03l intenzivně aromatická pálenka z vyzrálých hrušek odrůdy Williams z lihovaru Skanzen Modrá."
+      }
+    ]
+  },
+  {
+    "cat_id": "ovocne-destilaty",
+    "id": "hruskovice-ze-sudu-radlik",
+    "name": "Hruškovice ze sudu Radlík",
+    "price": "140 Kč",
+    "weight": "0,03l",
+    "description": "0,03l hruškový destilát stařený v dubových sudech, spojení ovoce a jemného dřeva",
+    "questions": [
+      {
+        "id": "hruskovice-ze-sudu-radlik-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Hruškovice ze sudu Radlík?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Hruškovice ze sudu Radlík je 0,03 l."
+      },
+      {
+        "id": "hruskovice-ze-sudu-radlik-ing-1",
+        "question": "Která z následujících surovin patří do podsložky Hruškovice ze sudu Radlík?",
+        "correctAnswer": "Hruškový destilát stařený v dubových sudech",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Hruškovice ze sudu Radlík je obsaženo: Hruškový destilát stařený v dubových sudech. Kompletní receptura položky: 0,03l hruškový destilát stařený v dubových sudech, spojení ovoce a jemného dřeva."
+      },
+      {
+        "id": "hruskovice-ze-sudu-radlik-ing-2",
+        "question": "Která z následujících surovin patří do podsložky Hruškovice ze sudu Radlík?",
+        "correctAnswer": "Spojení ovoce a jemného dřeva",
+        "distractors": [
+          "Zlatožluté meruňky",
+          "Zrání v dubovém sudu"
+        ],
+        "explanation": "V podsložce Hruškovice ze sudu Radlík je obsaženo: Spojení ovoce a jemného dřeva. Kompletní receptura položky: 0,03l hruškový destilát stařený v dubových sudech, spojení ovoce a jemného dřeva."
+      }
+    ]
+  },
+  {
+    "cat_id": "ovocne-destilaty",
+    "id": "merunkovice-svach",
+    "name": "Meruňkovice Svach",
+    "price": "120 Kč",
+    "weight": "0,03l",
+    "description": "0,03l lahodná meruňková pálenka z rodinné destilérky Svachovka u Českého Krumlova",
+    "questions": [
+      {
+        "id": "merunkovice-svach-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Meruňkovice Svach?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Meruňkovice Svach je 0,03 l."
+      },
+      {
+        "id": "merunkovice-svach-ing-1",
+        "question": "Který destilát nebo likér je klíčovou složkou nápoje Meruňkovice Svach?",
+        "correctAnswer": "Lahodná meruňková pálenka z rodinné destilérky Svachovka u Českého Krumlova",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Meruňkovice Svach je obsaženo: Lahodná meruňková pálenka z rodinné destilérky Svachovka u Českého Krumlova. Kompletní receptura položky: 0,03l lahodná meruňková pálenka z rodinné destilérky Svachovka u Českého Krumlova."
+      }
+    ]
+  },
+  {
+    "cat_id": "ovocne-destilaty",
+    "id": "visnovice-zubri",
+    "name": "Višňovice Zubří",
+    "price": "98 Kč",
+    "weight": "0,03l",
+    "description": "0,03l poctivý destilát ze zralých višní z valašského Zubří s jemným mandlovým podtónem z pecek",
+    "questions": [
+      {
+        "id": "visnovice-zubri-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Višňovice Zubří?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Višňovice Zubří je 0,03 l."
+      },
+      {
+        "id": "visnovice-zubri-ing-1",
+        "question": "Která z následujících surovin patří do podsložky Višňovice Zubří?",
+        "correctAnswer": "Poctivý destilát ze zralých višní z valašského Zubří s jemným mandlovým podtónem z pecek",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Višňovice Zubří je obsaženo: Poctivý destilát ze zralých višní z valašského Zubří s jemným mandlovým podtónem z pecek. Kompletní receptura položky: 0,03l poctivý destilát ze zralých višní z valašského Zubří s jemným mandlovým podtónem z pecek."
+      }
+    ]
+  },
+  {
+    "cat_id": "ovocne-destilaty",
+    "id": "jablkovice-galli",
+    "name": "Jablkovice Galli",
+    "price": "98 Kč",
+    "weight": "0,03l",
+    "description": "0,03l čistý a svěží jablečný destilát z českých jablek z lihovaru Galli",
+    "questions": [
+      {
+        "id": "jablkovice-galli-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Jablkovice Galli?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Jablkovice Galli je 0,03 l."
+      },
+      {
+        "id": "jablkovice-galli-ing-1",
+        "question": "Která z následujících surovin patří do podsložky Jablkovice Galli?",
+        "correctAnswer": "Čistý a svěží jablečný destilát z českých jablek z lihovaru Galli",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Jablkovice Galli je obsaženo: Čistý a svěží jablečný destilát z českých jablek z lihovaru Galli. Kompletní receptura položky: 0,03l čistý a svěží jablečný destilát z českých jablek z lihovaru Galli."
+      }
+    ]
+  },
+  {
+    "cat_id": "ovocne-destilaty",
+    "id": "rybizovice-raspenava",
+    "name": "Rybízovice Raspenava",
+    "price": "160 Kč",
+    "weight": "0,03l",
+    "description": "0,03l raritní a vysoce ceněný destilát z černého a červeného rybízu z Raspenavy",
+    "questions": [
+      {
+        "id": "rybizovice-raspenava-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Rybízovice Raspenava?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Rybízovice Raspenava je 0,03 l."
+      },
+      {
+        "id": "rybizovice-raspenava-ing-1",
+        "question": "Která z následujících surovin patří do podsložky Rybízovice Raspenava?",
+        "correctAnswer": "Raritní a vysoce ceněný destilát z černého a červeného rybízu z Raspenavy",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Rybízovice Raspenava je obsaženo: Raritní a vysoce ceněný destilát z černého a červeného rybízu z Raspenavy. Kompletní receptura položky: 0,03l raritní a vysoce ceněný destilát z černého a červeného rybízu z Raspenavy."
+      }
+    ]
+  },
+  {
+    "cat_id": "ovocne-destilaty",
+    "id": "vinovice-ze-sudu-radlik",
+    "name": "Vínovice ze sudu Radlík",
+    "price": "149 Kč",
+    "weight": "0,03l",
+    "description": "0,03l destilát z vinných hroznů školený v dubových sudech od Radlíku",
+    "questions": [
+      {
+        "id": "vinovice-ze-sudu-radlik-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Vínovice ze sudu Radlík?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Vínovice ze sudu Radlík je 0,03 l."
+      },
+      {
+        "id": "vinovice-ze-sudu-radlik-ing-1",
+        "question": "Kterou zeleninovou či ovocnou složku obsahuje podsložka Vínovice ze sudu Radlík?",
+        "correctAnswer": "Destilát z vinných hroznů školený v dubových sudech od Radlíku",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Vínovice ze sudu Radlík je obsaženo: Destilát z vinných hroznů školený v dubových sudech od Radlíku. Kompletní receptura položky: 0,03l destilát z vinných hroznů školený v dubových sudech od Radlíku."
+      }
+    ]
+  },
+  {
+    "cat_id": "ovocne-destilaty",
+    "id": "traminovice-kolby",
+    "name": "Tramínovice Kolby",
+    "price": "135 Kč",
+    "weight": "0,03l",
+    "description": "0,03l odrůdová pálenka z hroznů Tramínu červeného z vinařství Kolby (Pouzdřany)",
+    "questions": [
+      {
+        "id": "traminovice-kolby-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Tramínovice Kolby?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Tramínovice Kolby je 0,03 l."
+      },
+      {
+        "id": "traminovice-kolby-ing-1",
+        "question": "Kterou zeleninovou či ovocnou složku obsahuje podsložka Tramínovice Kolby?",
+        "correctAnswer": "Odrůdová pálenka z hroznů Tramínu červeného z vinařství Kolby (Pouzdřany)",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Tramínovice Kolby je obsaženo: Odrůdová pálenka z hroznů Tramínu červeného z vinařství Kolby (Pouzdřany). Kompletní receptura položky: 0,03l odrůdová pálenka z hroznů Tramínu červeného z vinařství Kolby (Pouzdřany)."
+      }
+    ]
+  },
+  {
+    "cat_id": "ovocne-destilaty",
+    "id": "ponesicka-mrkvovice",
+    "name": "Poněšická Mrkvovice",
+    "price": "123 Kč",
+    "weight": "0,03l",
+    "description": "0,03l unikátní raritní zeleninový destilát z karotky z legendární jihočeské palírny Poněšice",
+    "questions": [
+      {
+        "id": "ponesicka-mrkvovice-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Poněšická Mrkvovice?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Poněšická Mrkvovice je 0,03 l."
+      },
+      {
+        "id": "ponesicka-mrkvovice-ing-1",
+        "question": "Kterou zeleninovou či ovocnou složku obsahuje podsložka Poněšická Mrkvovice?",
+        "correctAnswer": "Unikátní raritní zeleninový destilát z karotky z legendární jihočeské palírny Poněšice",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Poněšická Mrkvovice je obsaženo: Unikátní raritní zeleninový destilát z karotky z legendární jihočeské palírny Poněšice. Kompletní receptura položky: 0,03l unikátní raritní zeleninový destilát z karotky z legendární jihočeské palírny Poněšice."
+      }
+    ]
+  },
+  {
+    "cat_id": "ovocne-destilaty",
+    "id": "malinovice-silver-martenz",
+    "name": "Malinovice Silver Martenz",
+    "price": "175 Kč",
+    "weight": "0,03l",
+    "description": "0,03l luxusní malinový průtahový destilát z vybraných malin s intenzivní vůní lesního ovoce",
+    "questions": [
+      {
+        "id": "malinovice-silver-martenz-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Malinovice Silver Martenz?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Malinovice Silver Martenz je 0,03 l."
+      },
+      {
+        "id": "malinovice-silver-martenz-ing-1",
+        "question": "Která z následujících surovin patří do podsložky Malinovice Silver Martenz?",
+        "correctAnswer": "Luxusní malinový průtahový destilát z vybraných malin s intenzivní vůní lesního ovoce",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Malinovice Silver Martenz je obsaženo: Luxusní malinový průtahový destilát z vybraných malin s intenzivní vůní lesního ovoce. Kompletní receptura položky: 0,03l luxusní malinový průtahový destilát z vybraných malin s intenzivní vůní lesního ovoce."
+      }
+    ]
+  },
+  {
+    "cat_id": "vodky",
+    "id": "anton-kaapl-legionar",
+    "name": "Anton Kaapl LEGIONÄR",
+    "price": "75 Kč",
+    "weight": "0,03l",
+    "description": "0,03l prémiová jihočeská řemeslná vodka z rodinného lihovaru Jílovice, destilovaná s měkkou šumavskou pramenitou vodou",
+    "questions": [
+      {
+        "id": "anton-kaapl-legionar-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Anton Kaapl LEGIONÄR?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Anton Kaapl LEGIONÄR je 0,03 l."
+      },
+      {
+        "id": "anton-kaapl-legionar-ing-1",
+        "question": "Který destilát nebo likér je klíčovou složkou nápoje Anton Kaapl LEGIONÄR?",
+        "correctAnswer": "Prémiová jihočeská řemeslná vodka z rodinného lihovaru Jílovice",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Anton Kaapl LEGIONÄR je obsaženo: Prémiová jihočeská řemeslná vodka z rodinného lihovaru Jílovice. Kompletní receptura položky: 0,03l prémiová jihočeská řemeslná vodka z rodinného lihovaru Jílovice, destilovaná s měkkou šumavskou pramenitou vodou."
+      },
+      {
+        "id": "anton-kaapl-legionar-ing-2",
+        "question": "Která z následujících surovin patří do podsložky Anton Kaapl LEGIONÄR?",
+        "correctAnswer": "Destilovaná s měkkou šumavskou pramenitou vodou",
+        "distractors": [
+          "Zlatožluté meruňky",
+          "Zrání v dubovém sudu"
+        ],
+        "explanation": "V podsložce Anton Kaapl LEGIONÄR je obsaženo: Destilovaná s měkkou šumavskou pramenitou vodou. Kompletní receptura položky: 0,03l prémiová jihočeská řemeslná vodka z rodinného lihovaru Jílovice, destilovaná s měkkou šumavskou pramenitou vodou."
+      }
+    ]
+  },
+  {
+    "cat_id": "vodky",
+    "id": "nemiroff",
+    "name": "Nemiroff",
+    "price": "85 Kč",
+    "weight": "0,03l",
+    "description": "0,03l slavná prémiová pšeničná vodka s vícestupňovou filtrací",
+    "questions": [
+      {
+        "id": "nemiroff-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Nemiroff?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Nemiroff je 0,03 l."
+      },
+      {
+        "id": "nemiroff-ing-1",
+        "question": "Který destilát nebo likér je klíčovou složkou nápoje Nemiroff?",
+        "correctAnswer": "Slavná prémiová pšeničná vodka s vícestupňovou filtrací",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Nemiroff je obsaženo: Slavná prémiová pšeničná vodka s vícestupňovou filtrací. Kompletní receptura položky: 0,03l slavná prémiová pšeničná vodka s vícestupňovou filtrací."
+      }
+    ]
+  },
+  {
+    "cat_id": "vodky",
+    "id": "grey-goose",
+    "name": "Grey Goose",
+    "price": "135 Kč",
+    "weight": "0,03l",
+    "description": "0,03l luxusní francouzská vodka vyráběná z ozimé pšenice z oblasti Picardie a vápencem filtrované pramenité vody z Gensac-la-Pallue",
+    "questions": [
+      {
+        "id": "grey-goose-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Grey Goose?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Grey Goose je 0,03 l."
+      },
+      {
+        "id": "grey-goose-ing-1",
+        "question": "Který destilát nebo likér je klíčovou složkou nápoje Grey Goose?",
+        "correctAnswer": "Luxusní francouzská vodka vyráběná z ozimé pšenice z oblasti Picardie a vápencem filtrované pramenité vody z Gensac-la-Pallue",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Grey Goose je obsaženo: Luxusní francouzská vodka vyráběná z ozimé pšenice z oblasti Picardie a vápencem filtrované pramenité vody z Gensac-la-Pallue. Kompletní receptura položky: 0,03l luxusní francouzská vodka vyráběná z ozimé pšenice z oblasti Picardie a vápencem filtrované pramenité vody z Gensac-la-Pallue."
+      }
+    ]
+  },
+  {
+    "cat_id": "rumy",
+    "id": "havana-club-3",
+    "name": "Havana Club Anejo 3 Anos",
+    "price": "66 Kč",
+    "weight": "0,03l",
+    "description": "0,03l tradiční kubánský bílý rum zrající 3 roky v sudech z bílého dubu, základ pro Mojito a Daiquiri",
+    "questions": [
+      {
+        "id": "havana-club-3-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Havana Club Anejo 3 Anos?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Havana Club Anejo 3 Anos je 0,03 l."
+      },
+      {
+        "id": "havana-club-3-ing-1",
+        "question": "Který destilát nebo likér je klíčovou složkou nápoje Havana Club Anejo 3 Anos?",
+        "correctAnswer": "Tradiční kubánský bílý rum zrající 3 roky v sudech z bílého dubu",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Havana Club Anejo 3 Anos je obsaženo: Tradiční kubánský bílý rum zrající 3 roky v sudech z bílého dubu. Kompletní receptura položky: 0,03l tradiční kubánský bílý rum zrající 3 roky v sudech z bílého dubu, základ pro Mojito a Daiquiri."
+      },
+      {
+        "id": "havana-club-3-ing-2",
+        "question": "Která z následujících surovin patří do podsložky Havana Club Anejo 3 Anos?",
+        "correctAnswer": "Základ pro Mojito a Daiquiri",
+        "distractors": [
+          "Zlatožluté meruňky",
+          "Zrání v dubovém sudu"
+        ],
+        "explanation": "V podsložce Havana Club Anejo 3 Anos je obsaženo: Základ pro Mojito a Daiquiri. Kompletní receptura položky: 0,03l tradiční kubánský bílý rum zrající 3 roky v sudech z bílého dubu, základ pro Mojito a Daiquiri."
+      }
+    ]
+  },
+  {
+    "cat_id": "rumy",
+    "id": "el-dorado-12y",
+    "name": "El Dorado 12y",
+    "price": "149 Kč",
+    "weight": "0,03l",
+    "description": "0,03l guyanský melasový rum zrající 12 let v tropech u řeky Demerara, bohaté tóny medu, rozinek a karamelu",
+    "questions": [
+      {
+        "id": "el-dorado-12y-vol",
+        "question": "Jaký je servírovací objem / míra podsložky El Dorado 12y?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky El Dorado 12y je 0,03 l."
+      },
+      {
+        "id": "el-dorado-12y-ing-1",
+        "question": "Který destilát nebo likér je klíčovou složkou nápoje El Dorado 12y?",
+        "correctAnswer": "Guyanský melasový rum zrající 12 let v tropech u řeky Demerara",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce El Dorado 12y je obsaženo: Guyanský melasový rum zrající 12 let v tropech u řeky Demerara. Kompletní receptura položky: 0,03l guyanský melasový rum zrající 12 let v tropech u řeky Demerara, bohaté tóny medu, rozinek a karamelu."
+      },
+      {
+        "id": "el-dorado-12y-ing-2",
+        "question": "Která z následujících surovin patří do podsložky El Dorado 12y?",
+        "correctAnswer": "Bohaté tóny medu",
+        "distractors": [
+          "Zlatožluté meruňky",
+          "Zrání v dubovém sudu"
+        ],
+        "explanation": "V podsložce El Dorado 12y je obsaženo: Bohaté tóny medu. Kompletní receptura položky: 0,03l guyanský melasový rum zrající 12 let v tropech u řeky Demerara, bohaté tóny medu, rozinek a karamelu."
+      },
+      {
+        "id": "el-dorado-12y-ing-3",
+        "question": "Která z následujících surovin patří do podsložky El Dorado 12y?",
+        "correctAnswer": "Rozinek a karamelu",
+        "distractors": [
+          "Filtrace přes dřevěné uhlí",
+          "Pramenitá horská voda"
+        ],
+        "explanation": "V podsložce El Dorado 12y je obsaženo: Rozinek a karamelu. Kompletní receptura položky: 0,03l guyanský melasový rum zrající 12 let v tropech u řeky Demerara, bohaté tóny medu, rozinek a karamelu."
+      }
+    ]
+  },
+  {
+    "cat_id": "rumy",
+    "id": "mount-gay-xo",
+    "name": "Mount Gay XO",
+    "price": "186 Kč",
+    "weight": "0,03l",
+    "description": "0,03l prémiový barbadoský rum z nejstarší fungující palírny na světě (od roku 1703), blend rezerv stařených v sudech po bourbonu, koňaku a americké whisky",
+    "questions": [
+      {
+        "id": "mount-gay-xo-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Mount Gay XO?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Mount Gay XO je 0,03 l."
+      },
+      {
+        "id": "mount-gay-xo-ing-1",
+        "question": "Který destilát nebo likér je klíčovou složkou nápoje Mount Gay XO?",
+        "correctAnswer": "Prémiový barbadoský rum z nejstarší fungující palírny na světě (od roku 1703)",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Mount Gay XO je obsaženo: Prémiový barbadoský rum z nejstarší fungující palírny na světě (od roku 1703). Kompletní receptura položky: 0,03l prémiový barbadoský rum z nejstarší fungující palírny na světě (od roku 1703), blend rezerv stařených v sudech po bourbonu, koňaku a americké whisky."
+      },
+      {
+        "id": "mount-gay-xo-ing-2",
+        "question": "Který destilát nebo likér je klíčovou složkou nápoje Mount Gay XO?",
+        "correctAnswer": "Blend rezerv stařených v sudech po bourbonu",
+        "distractors": [
+          "Zlatožluté meruňky",
+          "Zrání v dubovém sudu"
+        ],
+        "explanation": "V podsložce Mount Gay XO je obsaženo: Blend rezerv stařených v sudech po bourbonu. Kompletní receptura položky: 0,03l prémiový barbadoský rum z nejstarší fungující palírny na světě (od roku 1703), blend rezerv stařených v sudech po bourbonu, koňaku a americké whisky."
+      },
+      {
+        "id": "mount-gay-xo-ing-3",
+        "question": "Který destilát nebo likér je klíčovou složkou nápoje Mount Gay XO?",
+        "correctAnswer": "Koňaku a americké whisky",
+        "distractors": [
+          "Filtrace přes dřevěné uhlí",
+          "Pramenitá horská voda"
+        ],
+        "explanation": "V podsložce Mount Gay XO je obsaženo: Koňaku a americké whisky. Kompletní receptura položky: 0,03l prémiový barbadoský rum z nejstarší fungující palírny na světě (od roku 1703), blend rezerv stařených v sudech po bourbonu, koňaku a americké whisky."
+      }
+    ]
+  },
+  {
+    "cat_id": "rumy",
+    "id": "abuelo-7y",
+    "name": "Abuelo 7y",
+    "price": "135 Kč",
+    "weight": "0,03l",
+    "description": "0,03l panamský rum vyráběný z vlastní třtinové melasy, zrající 7 let v malých sudech z bílého dubu",
+    "questions": [
+      {
+        "id": "abuelo-7y-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Abuelo 7y?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Abuelo 7y je 0,03 l."
+      },
+      {
+        "id": "abuelo-7y-ing-1",
+        "question": "Který destilát nebo likér je klíčovou složkou nápoje Abuelo 7y?",
+        "correctAnswer": "Panamský rum vyráběný z vlastní třtinové melasy",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Abuelo 7y je obsaženo: Panamský rum vyráběný z vlastní třtinové melasy. Kompletní receptura položky: 0,03l panamský rum vyráběný z vlastní třtinové melasy, zrající 7 let v malých sudech z bílého dubu."
+      },
+      {
+        "id": "abuelo-7y-ing-2",
+        "question": "Která z následujících surovin patří do podsložky Abuelo 7y?",
+        "correctAnswer": "Zrající 7 let v malých sudech z bílého dubu",
+        "distractors": [
+          "Zlatožluté meruňky",
+          "Zrání v dubovém sudu"
+        ],
+        "explanation": "V podsložce Abuelo 7y je obsaženo: Zrající 7 let v malých sudech z bílého dubu. Kompletní receptura položky: 0,03l panamský rum vyráběný z vlastní třtinové melasy, zrající 7 let v malých sudech z bílého dubu."
+      }
+    ]
+  },
+  {
+    "cat_id": "rumy",
+    "id": "eminente-reserva-7y",
+    "name": "Eminente Reserva 7y",
+    "price": "172 Kč",
+    "weight": "0,03l",
+    "description": "0,03l kubánský prémiový rum s vysokým 70% podílem stařených aguardientes (třtinových pálenek), zrající v sudech po whisky",
+    "questions": [
+      {
+        "id": "eminente-reserva-7y-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Eminente Reserva 7y?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Eminente Reserva 7y je 0,03 l."
+      },
+      {
+        "id": "eminente-reserva-7y-ing-1",
+        "question": "Který destilát nebo likér je klíčovou složkou nápoje Eminente Reserva 7y?",
+        "correctAnswer": "Kubánský prémiový rum s vysokým 70% podílem stařených aguardientes (třtinových pálenek)",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Eminente Reserva 7y je obsaženo: Kubánský prémiový rum s vysokým 70% podílem stařených aguardientes (třtinových pálenek). Kompletní receptura položky: 0,03l kubánský prémiový rum s vysokým 70% podílem stařených aguardientes (třtinových pálenek), zrající v sudech po whisky."
+      },
+      {
+        "id": "eminente-reserva-7y-ing-2",
+        "question": "Který destilát nebo likér je klíčovou složkou nápoje Eminente Reserva 7y?",
+        "correctAnswer": "Zrající v sudech po whisky",
+        "distractors": [
+          "Zlatožluté meruňky",
+          "Zrání v dubovém sudu"
+        ],
+        "explanation": "V podsložce Eminente Reserva 7y je obsaženo: Zrající v sudech po whisky. Kompletní receptura položky: 0,03l kubánský prémiový rum s vysokým 70% podílem stařených aguardientes (třtinových pálenek), zrající v sudech po whisky."
+      }
+    ]
+  },
+  {
+    "cat_id": "rumy",
+    "id": "diplomatico",
+    "name": "Diplomático Reserva Exclusiva",
+    "price": "149 Kč",
+    "weight": "0,03l",
+    "description": "0,03l venezuelský rum zrající až 12 let v sudech po bourbonu, sametově sladký s tóny čokolády, vanilky a pomerančové kůry",
+    "questions": [
+      {
+        "id": "diplomatico-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Diplomático Reserva Exclusiva?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Diplomático Reserva Exclusiva je 0,03 l."
+      },
+      {
+        "id": "diplomatico-ing-1",
+        "question": "Který destilát nebo likér je klíčovou složkou nápoje Diplomático Reserva Exclusiva?",
+        "correctAnswer": "Venezuelský rum zrající až 12 let v sudech po bourbonu",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Diplomático Reserva Exclusiva je obsaženo: Venezuelský rum zrající až 12 let v sudech po bourbonu. Kompletní receptura položky: 0,03l venezuelský rum zrající až 12 let v sudech po bourbonu, sametově sladký s tóny čokolády, vanilky a pomerančové kůry."
+      },
+      {
+        "id": "diplomatico-ing-2",
+        "question": "Která pivovarská surovina nebo vlastnost charakterizuje Diplomático Reserva Exclusiva?",
+        "correctAnswer": "Sametově sladký s tóny čokolády",
+        "distractors": [
+          "Zlatožluté meruňky",
+          "Zrání v dubovém sudu"
+        ],
+        "explanation": "V podsložce Diplomático Reserva Exclusiva je obsaženo: Sametově sladký s tóny čokolády. Kompletní receptura položky: 0,03l venezuelský rum zrající až 12 let v sudech po bourbonu, sametově sladký s tóny čokolády, vanilky a pomerančové kůry."
+      },
+      {
+        "id": "diplomatico-ing-3",
+        "question": "Která z následujících surovin patří do podsložky Diplomático Reserva Exclusiva?",
+        "correctAnswer": "Vanilky a pomerančové kůry",
+        "distractors": [
+          "Filtrace přes dřevěné uhlí",
+          "Pramenitá horská voda"
+        ],
+        "explanation": "V podsložce Diplomático Reserva Exclusiva je obsaženo: Vanilky a pomerančové kůry. Kompletní receptura položky: 0,03l venezuelský rum zrající až 12 let v sudech po bourbonu, sametově sladký s tóny čokolády, vanilky a pomerančové kůry."
+      }
+    ]
+  },
+  {
+    "cat_id": "rumy",
+    "id": "zacapa-23y",
+    "name": "Zacapa 23y",
+    "price": "165 Kč",
+    "weight": "0,03l",
+    "description": "0,03l guatemalský rum z panenského třtinového medu zrající metodou Solera v nadmořské výšce 2 300 m",
+    "questions": [
+      {
+        "id": "zacapa-23y-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Zacapa 23y?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Zacapa 23y je 0,03 l."
+      },
+      {
+        "id": "zacapa-23y-ing-1",
+        "question": "Který destilát nebo likér je klíčovou složkou nápoje Zacapa 23y?",
+        "correctAnswer": "Guatemalský rum z panenského třtinového medu zrající metodou Solera v nadmořské výšce 2 300 m",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Zacapa 23y je obsaženo: Guatemalský rum z panenského třtinového medu zrající metodou Solera v nadmořské výšce 2 300 m. Kompletní receptura položky: 0,03l guatemalský rum z panenského třtinového medu zrající metodou Solera v nadmořské výšce 2 300 m."
+      }
+    ]
+  },
+  {
+    "cat_id": "tequily",
+    "id": "tres-alegres-compadres",
+    "name": "Tres Alegres Compadres Blanco",
+    "price": "89 Kč",
+    "weight": "0,03l",
+    "description": "0,03l neuleželá čistá tequila ze 100% modré agáve s tóny bylin, citrusů a pečené agáve",
+    "questions": [
+      {
+        "id": "tres-alegres-compadres-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Tres Alegres Compadres Blanco?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Tres Alegres Compadres Blanco je 0,03 l."
+      },
+      {
+        "id": "tres-alegres-compadres-ing-1",
+        "question": "Která bylinka, koření či aromatická surovina dochucuje Tres Alegres Compadres Blanco?",
+        "correctAnswer": "Neuleželá čistá tequila ze 100% modré agáve s tóny bylin",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Tres Alegres Compadres Blanco je obsaženo: Neuleželá čistá tequila ze 100% modré agáve s tóny bylin. Kompletní receptura položky: 0,03l neuleželá čistá tequila ze 100% modré agáve s tóny bylin, citrusů a pečené agáve."
+      },
+      {
+        "id": "tres-alegres-compadres-ing-2",
+        "question": "Která z následujících surovin patří do podsložky Tres Alegres Compadres Blanco?",
+        "correctAnswer": "Citrusů a pečené agáve",
+        "distractors": [
+          "Zlatožluté meruňky",
+          "Zrání v dubovém sudu"
+        ],
+        "explanation": "V podsložce Tres Alegres Compadres Blanco je obsaženo: Citrusů a pečené agáve. Kompletní receptura položky: 0,03l neuleželá čistá tequila ze 100% modré agáve s tóny bylin, citrusů a pečené agáve."
+      }
+    ]
+  },
+  {
+    "cat_id": "tequily",
+    "id": "herradura-reposado",
+    "name": "Herradura Reposado",
+    "price": "168 Kč",
+    "weight": "0,03l",
+    "description": "0,03l prémiová tequila zrající celých 11 měsíců v sudech z amerického bílého dubu (zákon vyžaduje jen 2 měsíce)",
+    "questions": [
+      {
+        "id": "herradura-reposado-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Herradura Reposado?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Herradura Reposado je 0,03 l."
+      },
+      {
+        "id": "herradura-reposado-ing-1",
+        "question": "Který destilát nebo likér je klíčovou složkou nápoje Herradura Reposado?",
+        "correctAnswer": "Prémiová tequila zrající celých 11 měsíců v sudech z amerického bílého dubu (zákon vyžaduje jen 2 měsíce)",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Herradura Reposado je obsaženo: Prémiová tequila zrající celých 11 měsíců v sudech z amerického bílého dubu (zákon vyžaduje jen 2 měsíce). Kompletní receptura položky: 0,03l prémiová tequila zrající celých 11 měsíců v sudech z amerického bílého dubu (zákon vyžaduje jen 2 měsíce)."
+      }
+    ]
+  },
+  {
+    "cat_id": "tequily",
+    "id": "corralejo-reposado",
+    "name": "Tequila Corralejo Reposado",
+    "price": "149 Kč",
+    "weight": "0,03l",
+    "description": "0,03l 100% Agave, zrající 4 měsíce v unikátní kombinaci amerických, francouzských a mexických dubových sudů",
+    "questions": [
+      {
+        "id": "corralejo-reposado-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Tequila Corralejo Reposado?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Tequila Corralejo Reposado je 0,03 l."
+      },
+      {
+        "id": "corralejo-reposado-ing-1",
+        "question": "Která z následujících surovin patří do podsložky Tequila Corralejo Reposado?",
+        "correctAnswer": "100% Agave",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Tequila Corralejo Reposado je obsaženo: 100% Agave. Kompletní receptura položky: 0,03l 100% Agave, zrající 4 měsíce v unikátní kombinaci amerických, francouzských a mexických dubových sudů."
+      },
+      {
+        "id": "corralejo-reposado-ing-2",
+        "question": "Která z následujících surovin patří do podsložky Tequila Corralejo Reposado?",
+        "correctAnswer": "Zrající 4 měsíce v unikátní kombinaci amerických",
+        "distractors": [
+          "Zlatožluté meruňky",
+          "Zrání v dubovém sudu"
+        ],
+        "explanation": "V podsložce Tequila Corralejo Reposado je obsaženo: Zrající 4 měsíce v unikátní kombinaci amerických. Kompletní receptura položky: 0,03l 100% Agave, zrající 4 měsíce v unikátní kombinaci amerických, francouzských a mexických dubových sudů."
+      },
+      {
+        "id": "corralejo-reposado-ing-3",
+        "question": "Která z následujících surovin patří do podsložky Tequila Corralejo Reposado?",
+        "correctAnswer": "Francouzských a mexických dubových sudů",
+        "distractors": [
+          "Filtrace přes dřevěné uhlí",
+          "Pramenitá horská voda"
+        ],
+        "explanation": "V podsložce Tequila Corralejo Reposado je obsaženo: Francouzských a mexických dubových sudů. Kompletní receptura položky: 0,03l 100% Agave, zrající 4 měsíce v unikátní kombinaci amerických, francouzských a mexických dubových sudů."
+      }
+    ]
+  },
+  {
+    "cat_id": "tequily",
+    "id": "cofradia-rose-catrina",
+    "name": "La Cofradia Reposado Rosé „ed. Catrina”",
+    "price": "185 Kč",
+    "weight": "0,03l",
+    "description": "0,03l limitovaná edice v ručně malované keramické lahvi s motivem lebky Catrina, zrající v sudech po červeném víně s růžovým nádechem",
+    "questions": [
+      {
+        "id": "cofradia-rose-catrina-vol",
+        "question": "Jaký je servírovací objem / míra podsložky La Cofradia Reposado Rosé „ed. Catrina”?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky La Cofradia Reposado Rosé „ed. Catrina” je 0,03 l."
+      },
+      {
+        "id": "cofradia-rose-catrina-ing-1",
+        "question": "Která z následujících surovin patří do podsložky La Cofradia Reposado Rosé „ed. Catrina”?",
+        "correctAnswer": "Limitovaná edice v ručně malované keramické lahvi s motivem lebky Catrina",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce La Cofradia Reposado Rosé „ed. Catrina” je obsaženo: Limitovaná edice v ručně malované keramické lahvi s motivem lebky Catrina. Kompletní receptura položky: 0,03l limitovaná edice v ručně malované keramické lahvi s motivem lebky Catrina, zrající v sudech po červeném víně s růžovým nádechem."
+      },
+      {
+        "id": "cofradia-rose-catrina-ing-2",
+        "question": "Která z následujících surovin patří do podsložky La Cofradia Reposado Rosé „ed. Catrina”?",
+        "correctAnswer": "Zrající v sudech po červeném víně s růžovým nádechem",
+        "distractors": [
+          "Zlatožluté meruňky",
+          "Zrání v dubovém sudu"
+        ],
+        "explanation": "V podsložce La Cofradia Reposado Rosé „ed. Catrina” je obsaženo: Zrající v sudech po červeném víně s růžovým nádechem. Kompletní receptura položky: 0,03l limitovaná edice v ručně malované keramické lahvi s motivem lebky Catrina, zrající v sudech po červeném víně s růžovým nádechem."
+      }
+    ]
+  },
+  {
+    "cat_id": "tequily",
+    "id": "cofradia-black-catrina",
+    "name": "La Cofradia Black „ed. Catrina”",
+    "price": "185 Kč",
+    "weight": "0,03l",
+    "description": "0,03l černá sběratelská keramická edice Catrina, tequila zrající v silně vypálených dubových sudech s kouřovým tělem",
+    "questions": [
+      {
+        "id": "cofradia-black-catrina-vol",
+        "question": "Jaký je servírovací objem / míra podsložky La Cofradia Black „ed. Catrina”?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky La Cofradia Black „ed. Catrina” je 0,03 l."
+      },
+      {
+        "id": "cofradia-black-catrina-ing-1",
+        "question": "Která odrůdová či vinařská vlastnost charakterizuje víno La Cofradia Black „ed. Catrina”?",
+        "correctAnswer": "Černá sběratelská keramická edice Catrina",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce La Cofradia Black „ed. Catrina” je obsaženo: Černá sběratelská keramická edice Catrina. Kompletní receptura položky: 0,03l černá sběratelská keramická edice Catrina, tequila zrající v silně vypálených dubových sudech s kouřovým tělem."
+      },
+      {
+        "id": "cofradia-black-catrina-ing-2",
+        "question": "Který destilát nebo likér je klíčovou složkou nápoje La Cofradia Black „ed. Catrina”?",
+        "correctAnswer": "Tequila zrající v silně vypálených dubových sudech s kouřovým tělem",
+        "distractors": [
+          "Zlatožluté meruňky",
+          "Zrání v dubovém sudu"
+        ],
+        "explanation": "V podsložce La Cofradia Black „ed. Catrina” je obsaženo: Tequila zrající v silně vypálených dubových sudech s kouřovým tělem. Kompletní receptura položky: 0,03l černá sběratelská keramická edice Catrina, tequila zrající v silně vypálených dubových sudech s kouřovým tělem."
+      }
+    ]
+  },
+  {
+    "cat_id": "whisky-whiskey-bourbon",
+    "id": "goldcock-blended",
+    "name": "Goldcock blended",
+    "price": "62 Kč",
+    "weight": "0,03l",
+    "description": "0,03l tradiční česká whisky z Těšetic z moravského ječmene, zrající v českých dubových sudech z bednárny v Těšeticích",
+    "questions": [
+      {
+        "id": "goldcock-blended-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Goldcock blended?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Goldcock blended je 0,03 l."
+      },
+      {
+        "id": "goldcock-blended-ing-1",
+        "question": "Který destilát nebo likér je klíčovou složkou nápoje Goldcock blended?",
+        "correctAnswer": "Tradiční česká whisky z Těšetic z moravského ječmene",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Goldcock blended je obsaženo: Tradiční česká whisky z Těšetic z moravského ječmene. Kompletní receptura položky: 0,03l tradiční česká whisky z Těšetic z moravského ječmene, zrající v českých dubových sudech z bednárny v Těšeticích."
+      },
+      {
+        "id": "goldcock-blended-ing-2",
+        "question": "Která z následujících surovin patří do podsložky Goldcock blended?",
+        "correctAnswer": "Zrající v českých dubových sudech z bednárny v Těšeticích",
+        "distractors": [
+          "Zlatožluté meruňky",
+          "Zrání v dubovém sudu"
+        ],
+        "explanation": "V podsložce Goldcock blended je obsaženo: Zrající v českých dubových sudech z bednárny v Těšeticích. Kompletní receptura položky: 0,03l tradiční česká whisky z Těšetic z moravského ječmene, zrající v českých dubových sudech z bednárny v Těšeticích."
+      }
+    ]
+  },
+  {
+    "cat_id": "whisky-whiskey-bourbon",
+    "id": "glenfiddich-15y",
+    "name": "Glenfiddich 15y",
+    "price": "165 Kč",
+    "weight": "0,03l",
+    "description": "0,03l skotská single malt whisky zrající unikátním systémem Solera ve třech typech sudů: po sherry, bourbonu a v novém dubu",
+    "questions": [
+      {
+        "id": "glenfiddich-15y-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Glenfiddich 15y?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Glenfiddich 15y je 0,03 l."
+      },
+      {
+        "id": "glenfiddich-15y-ing-1",
+        "question": "Který destilát nebo likér je klíčovou složkou nápoje Glenfiddich 15y?",
+        "correctAnswer": "Skotská single malt whisky zrající unikátním systémem Solera ve třech typech sudů: po sherry",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Glenfiddich 15y je obsaženo: Skotská single malt whisky zrající unikátním systémem Solera ve třech typech sudů: po sherry. Kompletní receptura položky: 0,03l skotská single malt whisky zrající unikátním systémem Solera ve třech typech sudů: po sherry, bourbonu a v novém dubu."
+      },
+      {
+        "id": "glenfiddich-15y-ing-2",
+        "question": "Který destilát nebo likér je klíčovou složkou nápoje Glenfiddich 15y?",
+        "correctAnswer": "Bourbonu a v novém dubu",
+        "distractors": [
+          "Zlatožluté meruňky",
+          "Zrání v dubovém sudu"
+        ],
+        "explanation": "V podsložce Glenfiddich 15y je obsaženo: Bourbonu a v novém dubu. Kompletní receptura položky: 0,03l skotská single malt whisky zrající unikátním systémem Solera ve třech typech sudů: po sherry, bourbonu a v novém dubu."
+      }
+    ]
+  },
+  {
+    "cat_id": "whisky-whiskey-bourbon",
+    "id": "talisker-10y",
+    "name": "Talisker 10y",
+    "price": "165 Kč",
+    "weight": "0,03l",
+    "description": "0,03l ikonická ostrovní single malt whisky z drsného skotského ostrova Skye, výrazně rašelinová, kouřová s tóny mořské soli a černého pepře",
+    "questions": [
+      {
+        "id": "talisker-10y-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Talisker 10y?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Talisker 10y je 0,03 l."
+      },
+      {
+        "id": "talisker-10y-ing-1",
+        "question": "Který destilát nebo likér je klíčovou složkou nápoje Talisker 10y?",
+        "correctAnswer": "Ikonická ostrovní single malt whisky z drsného skotského ostrova Skye",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Talisker 10y je obsaženo: Ikonická ostrovní single malt whisky z drsného skotského ostrova Skye. Kompletní receptura položky: 0,03l ikonická ostrovní single malt whisky z drsného skotského ostrova Skye, výrazně rašelinová, kouřová s tóny mořské soli a černého pepře."
+      },
+      {
+        "id": "talisker-10y-ing-2",
+        "question": "Která z následujících surovin patří do podsložky Talisker 10y?",
+        "correctAnswer": "Výrazně rašelinová",
+        "distractors": [
+          "Zlatožluté meruňky",
+          "Zrání v dubovém sudu"
+        ],
+        "explanation": "V podsložce Talisker 10y je obsaženo: Výrazně rašelinová. Kompletní receptura položky: 0,03l ikonická ostrovní single malt whisky z drsného skotského ostrova Skye, výrazně rašelinová, kouřová s tóny mořské soli a černého pepře."
+      },
+      {
+        "id": "talisker-10y-ing-3",
+        "question": "Která z následujících surovin patří do podsložky Talisker 10y?",
+        "correctAnswer": "Kouřová s tóny mořské soli a černého pepře",
+        "distractors": [
+          "Filtrace přes dřevěné uhlí",
+          "Pramenitá horská voda"
+        ],
+        "explanation": "V podsložce Talisker 10y je obsaženo: Kouřová s tóny mořské soli a černého pepře. Kompletní receptura položky: 0,03l ikonická ostrovní single malt whisky z drsného skotského ostrova Skye, výrazně rašelinová, kouřová s tóny mořské soli a černého pepře."
+      }
+    ]
+  },
+  {
+    "cat_id": "whisky-whiskey-bourbon",
+    "id": "monkey-shoulder",
+    "name": "Monkey Shoulder",
+    "price": "112 Kč",
+    "weight": "0,03l",
+    "description": "0,03l skotská blended malt whisky míchaná ze tří předních palíren z oblasti Speyside, lahodná s vanilkovým nádechem",
+    "questions": [
+      {
+        "id": "monkey-shoulder-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Monkey Shoulder?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Monkey Shoulder je 0,03 l."
+      },
+      {
+        "id": "monkey-shoulder-ing-1",
+        "question": "Který destilát nebo likér je klíčovou složkou nápoje Monkey Shoulder?",
+        "correctAnswer": "Skotská blended malt whisky míchaná ze tří předních palíren z oblasti Speyside",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Monkey Shoulder je obsaženo: Skotská blended malt whisky míchaná ze tří předních palíren z oblasti Speyside. Kompletní receptura položky: 0,03l skotská blended malt whisky míchaná ze tří předních palíren z oblasti Speyside, lahodná s vanilkovým nádechem."
+      },
+      {
+        "id": "monkey-shoulder-ing-2",
+        "question": "Která z následujících surovin patří do podsložky Monkey Shoulder?",
+        "correctAnswer": "Lahodná s vanilkovým nádechem",
+        "distractors": [
+          "Zlatožluté meruňky",
+          "Zrání v dubovém sudu"
+        ],
+        "explanation": "V podsložce Monkey Shoulder je obsaženo: Lahodná s vanilkovým nádechem. Kompletní receptura položky: 0,03l skotská blended malt whisky míchaná ze tří předních palíren z oblasti Speyside, lahodná s vanilkovým nádechem."
+      }
+    ]
+  },
+  {
+    "cat_id": "whisky-whiskey-bourbon",
+    "id": "jameson",
+    "name": "Jameson",
+    "price": "75 Kč",
+    "weight": "0,03l",
+    "description": "0,03l nejprodávanější irská whiskey na světě, třikrát destilovaná pro maximální jemnost",
+    "questions": [
+      {
+        "id": "jameson-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Jameson?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Jameson je 0,03 l."
+      },
+      {
+        "id": "jameson-ing-1",
+        "question": "Která z následujících surovin patří do podsložky Jameson?",
+        "correctAnswer": "Nejprodávanější irská whiskey na světě",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Jameson je obsaženo: Nejprodávanější irská whiskey na světě. Kompletní receptura položky: 0,03l nejprodávanější irská whiskey na světě, třikrát destilovaná pro maximální jemnost."
+      },
+      {
+        "id": "jameson-ing-2",
+        "question": "Která z následujících surovin patří do podsložky Jameson?",
+        "correctAnswer": "Třikrát destilovaná pro maximální jemnost",
+        "distractors": [
+          "Zlatožluté meruňky",
+          "Zrání v dubovém sudu"
+        ],
+        "explanation": "V podsložce Jameson je obsaženo: Třikrát destilovaná pro maximální jemnost. Kompletní receptura položky: 0,03l nejprodávanější irská whiskey na světě, třikrát destilovaná pro maximální jemnost."
+      }
+    ]
+  },
+  {
+    "cat_id": "whisky-whiskey-bourbon",
+    "id": "jack-daniels",
+    "name": "Jack Daniels",
+    "price": "105 Kč",
+    "weight": "0,03l",
+    "description": "0,03l Tennessee whiskey filtrovaná kapku po kapce přes třímetrovou vrstvu uhlí z javoru cukrového (Lincoln County Process)",
+    "questions": [
+      {
+        "id": "jack-daniels-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Jack Daniels?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Jack Daniels je 0,03 l."
+      },
+      {
+        "id": "jack-daniels-ing-1",
+        "question": "Která z následujících surovin patří do podsložky Jack Daniels?",
+        "correctAnswer": "Tennessee whiskey filtrovaná kapku po kapce přes třímetrovou vrstvu uhlí z javoru cukrového (Lincoln County Process)",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Jack Daniels je obsaženo: Tennessee whiskey filtrovaná kapku po kapce přes třímetrovou vrstvu uhlí z javoru cukrového (Lincoln County Process). Kompletní receptura položky: 0,03l Tennessee whiskey filtrovaná kapku po kapce přes třímetrovou vrstvu uhlí z javoru cukrového (Lincoln County Process)."
+      }
+    ]
+  },
+  {
+    "cat_id": "brandy-a-cognac",
+    "id": "metaxa-5",
+    "name": "Metaxa *****",
+    "price": "75 Kč",
+    "weight": "0,03l",
+    "description": "0,03l řecká pálenka s tajnou směsí muškátových vín z egejských ostrovů Samos a Lemnos a středomořských bylin",
+    "questions": [
+      {
+        "id": "metaxa-5-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Metaxa *****?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Metaxa ***** je 0,03 l."
+      },
+      {
+        "id": "metaxa-5-ing-1",
+        "question": "Která bylinka, koření či aromatická surovina dochucuje Metaxa *****?",
+        "correctAnswer": "Řecká pálenka s tajnou směsí muškátových vín z egejských ostrovů Samos a Lemnos a středomořských bylin",
+        "distractors": [
+          "Libeček",
+          "Estragon"
+        ],
+        "explanation": "V podsložce Metaxa ***** je obsaženo: Řecká pálenka s tajnou směsí muškátových vín z egejských ostrovů Samos a Lemnos a středomořských bylin. Kompletní receptura položky: 0,03l řecká pálenka s tajnou směsí muškátových vín z egejských ostrovů Samos a Lemnos a středomořských bylin."
+      }
+    ]
+  },
+  {
+    "cat_id": "brandy-a-cognac",
+    "id": "remy-martin-1738",
+    "name": "Remy Martin 1738",
+    "price": "170 Kč",
+    "weight": "0,03l",
+    "description": "0,03l prestižní francouzský koňak Fine Champagne (1738 Accord Royal) zrající v silně opálených dubových sudech, plný tónů fíků, švestek a karamelu",
+    "questions": [
+      {
+        "id": "remy-martin-1738-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Remy Martin 1738?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Remy Martin 1738 je 0,03 l."
+      },
+      {
+        "id": "remy-martin-1738-ing-1",
+        "question": "Který destilát nebo likér je klíčovou složkou nápoje Remy Martin 1738?",
+        "correctAnswer": "Prestižní francouzský koňak Fine Champagne (1738 Accord Royal) zrající v silně opálených dubových sudech",
+        "distractors": [
+          "Vepřová panenka",
+          "Telecí kýta"
+        ],
+        "explanation": "V podsložce Remy Martin 1738 je obsaženo: Prestižní francouzský koňak Fine Champagne (1738 Accord Royal) zrající v silně opálených dubových sudech. Kompletní receptura položky: 0,03l prestižní francouzský koňak Fine Champagne (1738 Accord Royal) zrající v silně opálených dubových sudech, plný tónů fíků, švestek a karamelu."
+      },
+      {
+        "id": "remy-martin-1738-ing-2",
+        "question": "Která z následujících surovin patří do podsložky Remy Martin 1738?",
+        "correctAnswer": "Plný tónů fíků",
+        "distractors": [
+          "Kachní prsa",
+          "Vykoštěný pstruh"
+        ],
+        "explanation": "V podsložce Remy Martin 1738 je obsaženo: Plný tónů fíků. Kompletní receptura položky: 0,03l prestižní francouzský koňak Fine Champagne (1738 Accord Royal) zrající v silně opálených dubových sudech, plný tónů fíků, švestek a karamelu."
+      },
+      {
+        "id": "remy-martin-1738-ing-3",
+        "question": "Která z následujících surovin patří do podsložky Remy Martin 1738?",
+        "correctAnswer": "Švestek a karamelu",
+        "distractors": [
+          "Hovězí svíčková",
+          "Vepřový bok Duroc"
+        ],
+        "explanation": "V podsložce Remy Martin 1738 je obsaženo: Švestek a karamelu. Kompletní receptura položky: 0,03l prestižní francouzský koňak Fine Champagne (1738 Accord Royal) zrající v silně opálených dubových sudech, plný tónů fíků, švestek a karamelu."
+      }
+    ]
+  },
+  {
+    "cat_id": "palenky-a-likery",
+    "id": "fuzovice",
+    "name": "Fuzovice",
+    "price": "140 Kč",
+    "weight": "0,03l",
+    "description": "0,03l FUZE/Agnes 45 %, naše jedinečná autorská pálenka z pivní mladiny uvařené z plzeňského a mnichovského sladu s chmelem Mandarina Bavaria",
+    "questions": [
+      {
+        "id": "fuzovice-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Fuzovice?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Fuzovice je 0,03 l."
+      },
+      {
+        "id": "fuzovice-ing-1",
+        "question": "Která z následujících surovin patří do podsložky Fuzovice?",
+        "correctAnswer": "FUZE/Agnes 45 %",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Fuzovice je obsaženo: FUZE/Agnes 45 %. Kompletní receptura položky: 0,03l FUZE/Agnes 45 %, naše jedinečná autorská pálenka z pivní mladiny uvařené z plzeňského a mnichovského sladu s chmelem Mandarina Bavaria."
+      },
+      {
+        "id": "fuzovice-ing-2",
+        "question": "Která pivovarská surovina nebo vlastnost charakterizuje Fuzovice?",
+        "correctAnswer": "Naše jedinečná autorská pálenka z pivní mladiny uvařené z plzeňského a mnichovského sladu s chmelem Mandarina Bavaria",
+        "distractors": [
+          "Zlatožluté meruňky",
+          "Zrání v dubovém sudu"
+        ],
+        "explanation": "V podsložce Fuzovice je obsaženo: Naše jedinečná autorská pálenka z pivní mladiny uvařené z plzeňského a mnichovského sladu s chmelem Mandarina Bavaria. Kompletní receptura položky: 0,03l FUZE/Agnes 45 %, naše jedinečná autorská pálenka z pivní mladiny uvařené z plzeňského a mnichovského sladu s chmelem Mandarina Bavaria."
+      }
+    ]
+  },
+  {
+    "cat_id": "palenky-a-likery",
+    "id": "absinth-st-antoine",
+    "name": "Absinth St. Antoine",
+    "price": "165 Kč",
+    "weight": "0,03l",
+    "description": "0,03l Žufánek, přírodní destilovaný absint z pravého pelyňku pravého (Artemisia absinthium), anýzu a fenyklu",
+    "questions": [
+      {
+        "id": "absinth-st-antoine-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Absinth St. Antoine?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Absinth St. Antoine je 0,03 l."
+      },
+      {
+        "id": "absinth-st-antoine-ing-1",
+        "question": "Která z následujících surovin patří do podsložky Absinth St. Antoine?",
+        "correctAnswer": "Žufánek",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Absinth St. Antoine je obsaženo: Žufánek. Kompletní receptura položky: 0,03l Žufánek, přírodní destilovaný absint z pravého pelyňku pravého (Artemisia absinthium), anýzu a fenyklu."
+      },
+      {
+        "id": "absinth-st-antoine-ing-2",
+        "question": "Která z následujících surovin patří do podsložky Absinth St. Antoine?",
+        "correctAnswer": "Přírodní destilovaný absint z pravého pelyňku pravého (Artemisia absinthium)",
+        "distractors": [
+          "Zlatožluté meruňky",
+          "Zrání v dubovém sudu"
+        ],
+        "explanation": "V podsložce Absinth St. Antoine je obsaženo: Přírodní destilovaný absint z pravého pelyňku pravého (Artemisia absinthium). Kompletní receptura položky: 0,03l Žufánek, přírodní destilovaný absint z pravého pelyňku pravého (Artemisia absinthium), anýzu a fenyklu."
+      },
+      {
+        "id": "absinth-st-antoine-ing-3",
+        "question": "Která z následujících surovin patří do podsložky Absinth St. Antoine?",
+        "correctAnswer": "Anýzu a fenyklu",
+        "distractors": [
+          "Filtrace přes dřevěné uhlí",
+          "Pramenitá horská voda"
+        ],
+        "explanation": "V podsložce Absinth St. Antoine je obsaženo: Anýzu a fenyklu. Kompletní receptura položky: 0,03l Žufánek, přírodní destilovaný absint z pravého pelyňku pravého (Artemisia absinthium), anýzu a fenyklu."
+      }
+    ]
+  },
+  {
+    "cat_id": "palenky-a-likery",
+    "id": "kminka-garage22",
+    "name": "Kmínka",
+    "price": "78 Kč",
+    "weight": "0,03l",
+    "description": "0,03l Garage 22, moderní řemeslný likér s destilovaným českým kmínem a citrusovou kůrou z pražských Holešovic",
+    "questions": [
+      {
+        "id": "kminka-garage22-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Kmínka?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Kmínka je 0,03 l."
+      },
+      {
+        "id": "kminka-garage22-ing-1",
+        "question": "Která z následujících surovin patří do podsložky Kmínka?",
+        "correctAnswer": "Garage 22",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Kmínka je obsaženo: Garage 22. Kompletní receptura položky: 0,03l Garage 22, moderní řemeslný likér s destilovaným českým kmínem a citrusovou kůrou z pražských Holešovic."
+      },
+      {
+        "id": "kminka-garage22-ing-2",
+        "question": "Která bylinka, koření či aromatická surovina dochucuje Kmínka?",
+        "correctAnswer": "Moderní řemeslný likér s destilovaným českým kmínem a citrusovou kůrou z pražských Holešovic",
+        "distractors": [
+          "Zlatožluté meruňky",
+          "Zrání v dubovém sudu"
+        ],
+        "explanation": "V podsložce Kmínka je obsaženo: Moderní řemeslný likér s destilovaným českým kmínem a citrusovou kůrou z pražských Holešovic. Kompletní receptura položky: 0,03l Garage 22, moderní řemeslný likér s destilovaným českým kmínem a citrusovou kůrou z pražských Holešovic."
+      }
+    ]
+  },
+  {
+    "cat_id": "palenky-a-likery",
+    "id": "kontusovka-zufanek",
+    "name": "Kontušovka",
+    "price": "95 Kč",
+    "weight": "0,03l",
+    "description": "0,03l Žufánek, tradiční staročeský anýzový bylinný likér s koriandrem, fenyklem a badyánem podle receptury z 19. století",
+    "questions": [
+      {
+        "id": "kontusovka-zufanek-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Kontušovka?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Kontušovka je 0,03 l."
+      },
+      {
+        "id": "kontusovka-zufanek-ing-1",
+        "question": "Která z následujících surovin patří do podsložky Kontušovka?",
+        "correctAnswer": "Žufánek",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Kontušovka je obsaženo: Žufánek. Kompletní receptura položky: 0,03l Žufánek, tradiční staročeský anýzový bylinný likér s koriandrem, fenyklem a badyánem podle receptury z 19. století."
+      },
+      {
+        "id": "kontusovka-zufanek-ing-2",
+        "question": "Která bylinka, koření či aromatická surovina dochucuje Kontušovka?",
+        "correctAnswer": "Tradiční staročeský anýzový bylinný likér s koriandrem",
+        "distractors": [
+          "Zlatožluté meruňky",
+          "Zrání v dubovém sudu"
+        ],
+        "explanation": "V podsložce Kontušovka je obsaženo: Tradiční staročeský anýzový bylinný likér s koriandrem. Kompletní receptura položky: 0,03l Žufánek, tradiční staročeský anýzový bylinný likér s koriandrem, fenyklem a badyánem podle receptury z 19. století."
+      },
+      {
+        "id": "kontusovka-zufanek-ing-3",
+        "question": "Která z následujících surovin patří do podsložky Kontušovka?",
+        "correctAnswer": "Fenyklem a badyánem podle receptury z 19. století",
+        "distractors": [
+          "Filtrace přes dřevěné uhlí",
+          "Pramenitá horská voda"
+        ],
+        "explanation": "V podsložce Kontušovka je obsaženo: Fenyklem a badyánem podle receptury z 19. století. Kompletní receptura položky: 0,03l Žufánek, tradiční staročeský anýzový bylinný likér s koriandrem, fenyklem a badyánem podle receptury z 19. století."
+      }
+    ]
+  },
+  {
+    "cat_id": "palenky-a-likery",
+    "id": "orechovy-liker-radlik",
+    "name": "Ořechový likér",
+    "price": "119 Kč",
+    "weight": "0,03l",
+    "description": "0,03l Radlík, jemný ořechový likér macerovaný ze zelených svatojánských vlašských ořechů a tajné směsi koření",
+    "questions": [
+      {
+        "id": "orechovy-liker-radlik-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Ořechový likér?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Ořechový likér je 0,03 l."
+      },
+      {
+        "id": "orechovy-liker-radlik-ing-1",
+        "question": "Která z následujících surovin patří do podsložky Ořechový likér?",
+        "correctAnswer": "Radlík",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Ořechový likér je obsaženo: Radlík. Kompletní receptura položky: 0,03l Radlík, jemný ořechový likér macerovaný ze zelených svatojánských vlašských ořechů a tajné směsi koření."
+      },
+      {
+        "id": "orechovy-liker-radlik-ing-2",
+        "question": "Kterou zeleninovou či ovocnou složku obsahuje podsložka Ořechový likér?",
+        "correctAnswer": "Jemný ořechový likér macerovaný ze zelených svatojánských vlašských ořechů a tajné směsi koření",
+        "distractors": [
+          "Zlatožluté meruňky",
+          "Zrání v dubovém sudu"
+        ],
+        "explanation": "V podsložce Ořechový likér je obsaženo: Jemný ořechový likér macerovaný ze zelených svatojánských vlašských ořechů a tajné směsi koření. Kompletní receptura položky: 0,03l Radlík, jemný ořechový likér macerovaný ze zelených svatojánských vlašských ořechů a tajné směsi koření."
+      }
+    ]
+  },
+  {
+    "cat_id": "palenky-a-likery",
+    "id": "hustopecska-mandlovka",
+    "name": "Hustopečská Mandlovka",
+    "price": "98 Kč",
+    "weight": "0,03l",
+    "description": "0,03l originální moravská mandlová lihovina z mandloňových sadů v Hustopečích",
+    "questions": [
+      {
+        "id": "hustopecska-mandlovka-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Hustopečská Mandlovka?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Hustopečská Mandlovka je 0,03 l."
+      },
+      {
+        "id": "hustopecska-mandlovka-ing-1",
+        "question": "Který destilát nebo likér je klíčovou složkou nápoje Hustopečská Mandlovka?",
+        "correctAnswer": "Originální moravská mandlová lihovina z mandloňových sadů v Hustopečích",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Hustopečská Mandlovka je obsaženo: Originální moravská mandlová lihovina z mandloňových sadů v Hustopečích. Kompletní receptura položky: 0,03l originální moravská mandlová lihovina z mandloňových sadů v Hustopečích."
+      }
+    ]
+  },
+  {
+    "cat_id": "palenky-a-likery",
+    "id": "jagermeister",
+    "name": "Jägermeister",
+    "price": "65 Kč",
+    "weight": "0,03l",
+    "description": "0,03l německý bylinný likér z 56 bylin, květů, kořenů a plodů zrající rok v dubových sudech",
+    "questions": [
+      {
+        "id": "jagermeister-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Jägermeister?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Jägermeister je 0,03 l."
+      },
+      {
+        "id": "jagermeister-ing-1",
+        "question": "Která bylinka, koření či aromatická surovina dochucuje Jägermeister?",
+        "correctAnswer": "Německý bylinný likér z 56 bylin",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Jägermeister je obsaženo: Německý bylinný likér z 56 bylin. Kompletní receptura položky: 0,03l německý bylinný likér z 56 bylin, květů, kořenů a plodů zrající rok v dubových sudech."
+      },
+      {
+        "id": "jagermeister-ing-2",
+        "question": "Která z následujících surovin patří do podsložky Jägermeister?",
+        "correctAnswer": "Květů",
+        "distractors": [
+          "Zlatožluté meruňky",
+          "Zrání v dubovém sudu"
+        ],
+        "explanation": "V podsložce Jägermeister je obsaženo: Květů. Kompletní receptura položky: 0,03l německý bylinný likér z 56 bylin, květů, kořenů a plodů zrající rok v dubových sudech."
+      },
+      {
+        "id": "jagermeister-ing-3",
+        "question": "Která z následujících surovin patří do podsložky Jägermeister?",
+        "correctAnswer": "Kořenů a plodů zrající rok v dubových sudech",
+        "distractors": [
+          "Filtrace přes dřevěné uhlí",
+          "Pramenitá horská voda"
+        ],
+        "explanation": "V podsložce Jägermeister je obsaženo: Kořenů a plodů zrající rok v dubových sudech. Kompletní receptura položky: 0,03l německý bylinný likér z 56 bylin, květů, kořenů a plodů zrající rok v dubových sudech."
+      }
+    ]
+  },
+  {
+    "cat_id": "palenky-a-likery",
+    "id": "podebradska-samicka",
+    "name": "Poděbradská Samička",
+    "price": "58 Kč",
+    "weight": "0,03l",
+    "description": "0,03l tradiční polabský bylinný likér s vyváženou hořkosladkou chutí",
+    "questions": [
+      {
+        "id": "podebradska-samicka-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Poděbradská Samička?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Poděbradská Samička je 0,03 l."
+      },
+      {
+        "id": "podebradska-samicka-ing-1",
+        "question": "Která bylinka, koření či aromatická surovina dochucuje Poděbradská Samička?",
+        "correctAnswer": "Tradiční polabský bylinný likér s vyváženou hořkosladkou chutí",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Poděbradská Samička je obsaženo: Tradiční polabský bylinný likér s vyváženou hořkosladkou chutí. Kompletní receptura položky: 0,03l tradiční polabský bylinný likér s vyváženou hořkosladkou chutí."
+      }
+    ]
+  },
+  {
+    "cat_id": "palenky-a-likery",
+    "id": "becherovka-unfiltered",
+    "name": "Becherovka Unfiltered",
+    "price": "65 Kč",
+    "weight": "0,03l",
+    "description": "0,03l karlovarský bylinný likér v nefiltrované prémiové podobě se zlatavým zákalem a intenzivnější chutí bylin",
+    "questions": [
+      {
+        "id": "becherovka-unfiltered-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Becherovka Unfiltered?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Becherovka Unfiltered je 0,03 l."
+      },
+      {
+        "id": "becherovka-unfiltered-ing-1",
+        "question": "Která bylinka, koření či aromatická surovina dochucuje Becherovka Unfiltered?",
+        "correctAnswer": "Karlovarský bylinný likér v nefiltrované prémiové podobě se zlatavým zákalem a intenzivnější chutí bylin",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Becherovka Unfiltered je obsaženo: Karlovarský bylinný likér v nefiltrované prémiové podobě se zlatavým zákalem a intenzivnější chutí bylin. Kompletní receptura položky: 0,03l karlovarský bylinný likér v nefiltrované prémiové podobě se zlatavým zákalem a intenzivnější chutí bylin."
+      }
+    ]
+  },
+  {
+    "cat_id": "palenky-a-likery",
+    "id": "smoked-grappa-tosolini",
+    "name": "Smoked Grappa Bepi Tosolini",
+    "price": "195 Kč",
+    "weight": "0,03l",
+    "description": "0,03l ušlechtilá italská grappa z vylisovaných hroznů uzená dubovým dřevem z rodinné palírny v Udine",
+    "questions": [
+      {
+        "id": "smoked-grappa-tosolini-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Smoked Grappa Bepi Tosolini?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Smoked Grappa Bepi Tosolini je 0,03 l."
+      },
+      {
+        "id": "smoked-grappa-tosolini-ing-1",
+        "question": "Kterou zeleninovou či ovocnou složku obsahuje podsložka Smoked Grappa Bepi Tosolini?",
+        "correctAnswer": "Ušlechtilá italská grappa z vylisovaných hroznů uzená dubovým dřevem z rodinné palírny v Udine",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Smoked Grappa Bepi Tosolini je obsaženo: Ušlechtilá italská grappa z vylisovaných hroznů uzená dubovým dřevem z rodinné palírny v Udine. Kompletní receptura položky: 0,03l ušlechtilá italská grappa z vylisovaných hroznů uzená dubovým dřevem z rodinné palírny v Udine."
+      }
+    ]
+  },
+  {
+    "cat_id": "palenky-a-likery",
+    "id": "bezovy-elixir-jelinek",
+    "name": "Bezový elixír R.Jelínek",
+    "price": "58 Kč",
+    "weight": "0,03l",
+    "description": "0,03l moravský likér z květů černého bezu od vizovického Rudolfa Jelínka",
+    "questions": [
+      {
+        "id": "bezovy-elixir-jelinek-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Bezový elixír R.Jelínek?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Bezový elixír R.Jelínek je 0,03 l."
+      },
+      {
+        "id": "bezovy-elixir-jelinek-ing-1",
+        "question": "Která z následujících surovin patří do podsložky Bezový elixír R.Jelínek?",
+        "correctAnswer": "Moravský likér z květů černého bezu od vizovického Rudolfa Jelínka",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Bezový elixír R.Jelínek je obsaženo: Moravský likér z květů černého bezu od vizovického Rudolfa Jelínka. Kompletní receptura položky: 0,03l moravský likér z květů černého bezu od vizovického Rudolfa Jelínka."
+      }
+    ]
+  },
+  {
+    "cat_id": "palenky-a-likery",
+    "id": "creme-de-cassis",
+    "name": "Créme de cassis",
+    "price": "68 Kč",
+    "weight": "0,03l",
+    "description": "0,03l Le Duc Charmant / Jenčík, lahodný hustý likér z černého rybízu",
+    "questions": [
+      {
+        "id": "creme-de-cassis-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Créme de cassis?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Créme de cassis je 0,03 l."
+      },
+      {
+        "id": "creme-de-cassis-ing-1",
+        "question": "Která z následujících surovin patří do podsložky Créme de cassis?",
+        "correctAnswer": "Le Duc Charmant / Jenčík",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Créme de cassis je obsaženo: Le Duc Charmant / Jenčík. Kompletní receptura položky: 0,03l Le Duc Charmant / Jenčík, lahodný hustý likér z černého rybízu."
+      },
+      {
+        "id": "creme-de-cassis-ing-2",
+        "question": "Která z následujících surovin patří do podsložky Créme de cassis?",
+        "correctAnswer": "Lahodný hustý likér z černého rybízu",
+        "distractors": [
+          "Zlatožluté meruňky",
+          "Zrání v dubovém sudu"
+        ],
+        "explanation": "V podsložce Créme de cassis je obsaženo: Lahodný hustý likér z černého rybízu. Kompletní receptura položky: 0,03l Le Duc Charmant / Jenčík, lahodný hustý likér z černého rybízu."
+      }
+    ]
+  },
+  {
+    "cat_id": "palenky-a-likery",
+    "id": "vajecnak-bartida",
+    "name": "Vaječňák Bartida",
+    "price": "50 Kč",
+    "weight": "0,03l",
+    "description": "0,03l poctivý hustý vaječný likér s mimořádným podílem vaječných žloutků a kapkou třtinového rumu",
+    "questions": [
+      {
+        "id": "vajecnak-bartida-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Vaječňák Bartida?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Vaječňák Bartida je 0,03 l."
+      },
+      {
+        "id": "vajecnak-bartida-ing-1",
+        "question": "Který destilát nebo likér je klíčovou složkou nápoje Vaječňák Bartida?",
+        "correctAnswer": "Poctivý hustý vaječný likér s mimořádným podílem vaječných žloutků a kapkou třtinového rumu",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Vaječňák Bartida je obsaženo: Poctivý hustý vaječný likér s mimořádným podílem vaječných žloutků a kapkou třtinového rumu. Kompletní receptura položky: 0,03l poctivý hustý vaječný likér s mimořádným podílem vaječných žloutků a kapkou třtinového rumu."
+      }
+    ]
+  },
+  {
+    "cat_id": "palenky-a-likery",
+    "id": "griotte-bartida",
+    "name": "Griotte Original Bartida",
+    "price": "50 Kč",
+    "weight": "0,03l",
+    "description": "0,03l prémiový višňový likér s vysokým podílem čisté višňové šťávy a ovocného destilátu",
+    "questions": [
+      {
+        "id": "griotte-bartida-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Griotte Original Bartida?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Griotte Original Bartida je 0,03 l."
+      },
+      {
+        "id": "griotte-bartida-ing-1",
+        "question": "Která z následujících surovin patří do podsložky Griotte Original Bartida?",
+        "correctAnswer": "Prémiový višňový likér s vysokým podílem čisté višňové šťávy a ovocného destilátu",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Griotte Original Bartida je obsaženo: Prémiový višňový likér s vysokým podílem čisté višňové šťávy a ovocného destilátu. Kompletní receptura položky: 0,03l prémiový višňový likér s vysokým podílem čisté višňové šťávy a ovocného destilátu."
+      }
+    ]
+  },
+  {
+    "cat_id": "palenky-a-likery",
+    "id": "zelena-bartida",
+    "name": "Zelená Bartida",
+    "price": "50 Kč",
+    "weight": "0,03l",
+    "description": "0,03l prémiový peprmintový likér vyráběný z pravého přírodního oleje máty peprné",
+    "questions": [
+      {
+        "id": "zelena-bartida-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Zelená Bartida?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Zelená Bartida je 0,03 l."
+      },
+      {
+        "id": "zelena-bartida-ing-1",
+        "question": "Která z následujících surovin patří do podsložky Zelená Bartida?",
+        "correctAnswer": "Prémiový peprmintový likér vyráběný z pravého přírodního oleje máty peprné",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Zelená Bartida je obsaženo: Prémiový peprmintový likér vyráběný z pravého přírodního oleje máty peprné. Kompletní receptura položky: 0,03l prémiový peprmintový likér vyráběný z pravého přírodního oleje máty peprné."
+      }
+    ]
+  },
+  {
+    "cat_id": "palenky-a-likery",
+    "id": "zelena-svach",
+    "name": "Zelená Svach",
+    "price": "58 Kč",
+    "weight": "0,03l",
+    "description": "0,03l řemeslný jihočeský peprmintový likér z lihovaru Svachovka z pravé macerované máty peprné",
+    "questions": [
+      {
+        "id": "zelena-svach-vol",
+        "question": "Jaký je servírovací objem / míra podsložky Zelená Svach?",
+        "correctAnswer": "0,03 l",
+        "distractors": [
+          "0,05 l",
+          "0,02 l"
+        ],
+        "explanation": "Servírovací míra / objem podsložky Zelená Svach je 0,03 l."
+      },
+      {
+        "id": "zelena-svach-ing-1",
+        "question": "Která z následujících surovin patří do podsložky Zelená Svach?",
+        "correctAnswer": "Řemeslný jihočeský peprmintový likér z lihovaru Svachovka z pravé macerované máty peprné",
+        "distractors": [
+          "Švestkový kvas",
+          "Hrušky Williams"
+        ],
+        "explanation": "V podsložce Zelená Svach je obsaženo: Řemeslný jihočeský peprmintový likér z lihovaru Svachovka z pravé macerované máty peprné. Kompletní receptura položky: 0,03l řemeslný jihočeský peprmintový likér z lihovaru Svachovka z pravé macerované máty peprné."
+      }
+    ]
+  }
+]

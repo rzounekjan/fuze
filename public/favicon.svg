@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="50%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#92400e" />
+    </linearGradient>
+    <linearGradient id="goldGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fef3c7" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded tile matching Header FZ logo -->
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#bgGrad)" stroke="#fbbf24" stroke-width="2" stroke-opacity="0.7"/>
+  
+  <!-- Subtle inner border highlight -->
+  <rect x="5" y="5" width="54" height="54" rx="13" fill="none" stroke="url(#goldGlow)" stroke-width="1.2" />
+
+  <!-- Monogram FZ -->
+  <text x="32" y="43" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="900" font-size="28" fill="#1c1917" text-anchor="middle" letter-spacing="1">FZ</text>
+  
+  <!-- Warm sparkle accent -->
+  <polygon points="48,12 50,16 54,18 50,20 48,24 46,20 42,18 46,16" fill="#fef3c7" opacity="0.9" />
+</svg>

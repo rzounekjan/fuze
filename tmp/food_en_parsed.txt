@@ -1,0 +1,72 @@
+
+[H3] appetizers and small dishes with beer
+ITEM: name="Sliced beef tartare" | weight="90g" | allergens="/l/3/7/" | price="239  CZK" | desc="from tip of the sirloin, tiny pickles, marinated shallots, parsley leaf, toasted on beef lard, and confit garlic"
+ITEM: name="Our veal sausage with morels" | weight="100g" | allergens="/1/3/7/8/10/" | price="219  CZK" | desc="chestnuts and dried plums, truffte sauce, beer crumble"
+ITEM: name="Foie gras pâté" | weight="100g" | allergens="/1/3/7/" | price="315  CZK" | desc="in Kasteel Rouge beer jel ly, cherry sauce, toasted butter briochel"
+ITEM: name="Thin slices of pork belly" | weight="100g" | allergens="/10/" | price="169  CZK" | desc="hop-smoked, crispy pork cracklings, over roasted apples and horseradish, fried peas"
+ITEM: name="Fried chicken croquettes" | weight="100g" | allergens="/1/3/7/14/" | price="175  CZK" | desc="with cheddar, our salsa verde, lovage mayonnaise"
+ITEM: name="Olomouc curd cheese spread" | weight="" | allergens="/1/3/7/10/" | price="199  CZK" | desc="with onion and paprika-mustard seed mayonnaise on toasted sourdough, horseradish and pickled vegetables"
+ITEM: name="Truffle popcorn" | weight="" | allergens="/7/" | price="139  CZK" | desc="with parmesan"
+ITEM: name="Homemade potatoes" | weight="" | allergens="/7/" | price="125  CZK" | desc="spicy smoked mayonnaise"
+
+[H3] soups
+ITEM: name="Beef consommé" | weight="" | allergens="/9/" | price="109  CZK" | desc="delicate liver dumpling, vegetables"
+ITEM: name="Creamy lobster soup" | weight="" | allergens="/1/2/3/7/9/" | price="269  CZK" | desc="with saffron and brandy, topped with puff pastry"
+
+[H3] salad
+ITEM: name="Caesar salad" | weight="" | allergens="/1/3/4/7/10/" | price="289  CZK" | desc="with gril led chicken breast, parmesan, and croutons"
+ITEM: name="Waldorf salad" | weight="" | allergens="/8/9/10/" | price="245  CZK" | desc="with apples, celery, grapes, and walnut mayonnaise dressing"
+
+[H3] from the stove and oven
+ITEM: name="Roasted Pork Knuckle" | weight="1pc" | allergens="/1/10/" | price="459  CZK" | desc="/offered daily until sold out/ mustard, grated horseradish, cabbage salad with horseradish"
+ITEM: name="Thick-cut pork schnitzel" | weight="200g" | allergens="/1/3/4/7/10/" | price="309  CZK" | desc="from Duroc pork, fines herbes sauce, potato mash, and crispy potato crisps"
+ITEM: name="Pork ribs" | weight="500g" | allergens="/1/3/6/7/10/" | price="379  CZK" | desc="marinated and slow-roasted in our beer, candied bacon, pearl onions, apple BBQ glaze, our cabbage salad with horseradish, and toasted garlic brioche"
+ITEM: name="Braised beef with dill sauce" | weight="200g" | allergens="/1/3/7/" | price="345  CZK" | desc="served with egg, baby potatoes and dill oil"
+ITEM: name="Pasta filled with delicate chicken mixture" | weight="" | allergens="/l/3/7/" | price="299  CZK" | desc="baked in porcini sauce served with grilled oyster mushrooms and herb oil"
+ITEM: name="Shrimp roll 12 pcs Argentine red shrimp" | weight="" | allergens="/1/2/3/5/7/9/10/" | price="666  CZK" | desc="in a butter brioche, cocktail sauce with cognac, salad greens, our fries, Choron sauce"
+ITEM: name="Fillet of deboned rainbow trout" | weight="180g" | allergens="/3/4/7/" | price="399  CZK" | desc="pan-seared in butter, choron sauce, roasted tomatoes, herb salad, and roasted winter vegetables"
+ITEM: name="BeefWellington" | weight="200g" | allergens="/1/3/7/10/" | price="675  CZK" | desc="tenderloin wrapped in mushroom and duck liver duxelles, seasoned with truffte, veal demi-glace, smoked potatoes"
+ITEM: name="Beef burger" | weight="200g" | allergens="/1/3/7/" | price="449  CZK" | desc="with smoked blue cheese and duck foie gras, roasted onion mayonnaise, potato straw and small homemade fries"
+ITEM: name="Thor`s Hammer beef knuckle" | weight="700g" | allergens="/1/11/" | price="1490  CZK" | desc="slow-braised in our tandoori, Kasteel Rouge sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked potatoes, and our cabbage salad with horseradish. Serves 2 to 4 people"
+
+[H3] from the grill and wood-fired oven
+ITEM: name="US Prime beef sirloin" | weight="250g" | allergens="" | price="519  CZK" | desc=""
+ITEM: name="US Prime beef ribeye" | weight="250g" | allergens="" | price="985  CZK" | desc=""
+ITEM: name="US Prime beef burger" | weight="200g" | allergens="/l/3/7/10/" | price="369  CZK" | desc="gril led bacon, cheddar, onion marmalade, spicy mayonnaise"
+ITEM: name="Grilled pork belly" | weight="300g" | allergens="/2/4/6/" | price="299  CZK" | desc="caramelized yuzu sauce, grilled spring onion, chimichurri sauce"
+ITEM: name="Our pastrami from US Prime beef ribs" | weight="200g" | allergens="/l/3/7/10/" | price="455  CZK" | desc="raclette cheese and cabbage salad with horseradish in toasted sourdough bread, pickled vegetables"
+ITEM: name="½ Roasted chicken in our tandoori" | weight="" | allergens="" | price="279  CZK" | desc="BBQ version: brushed with spicy barbecue sauce, crispy onions, and herb butter l/7TRUFFLE version: drizzled with trutfte butter, potato crisps, chives 7CAESAR version: brushed with anchovy, parmesan, and mustard sauce, served with fried capers 4/7/10"
+ITEM: name="Weekly specialties from our tandoori oven are available upon request. Ask your server for details." | weight="" | allergens="" | price="" | desc=""
+
+[H3] hot sauces
+ITEM: name="" | weight="" | allergens="/7/9/10/" | price="69  CZK" | desc=""
+ITEM: name="" | weight="" | allergens="/3/10/" | price="69  CZK" | desc=""
+ITEM: name="Our fines herbes sauce" | weight="" | allergens="/4/9/10/" | price="69  CZK" | desc=""
+ITEM: name="Truffle Sauce" | weight="" | allergens="/7/10/" | price="79  CZK" | desc=""
+
+[H3] cold sauces
+ITEM: name="Spicy smoked mayonnaise" | weight="" | allergens="/3/7/" | price="59  CZK" | desc=""
+ITEM: name="Our salsa verde" | weight="" | allergens="" | price="59  CZK" | desc=""
+ITEM: name="Cucumber relish" | weight="" | allergens="" | price="65  CZK" | desc=""
+ITEM: name="Ketchup" | weight="" | allergens="" | price="40  CZK" | desc=""
+
+[H3] Sides
+ITEM: name="Our fries" | weight="" | allergens="" | price="89  CZK" | desc=""
+ITEM: name="Fries" | weight="" | allergens="/3/7/" | price="149  CZK" | desc="with truffle mayonnaise and Red Leicester cheese"
+ITEM: name="Potato mash" | weight="" | allergens="/7/" | price="89  CZK" | desc="with butter and potato crisps"
+ITEM: name="Smoked potatoes" | weight="" | allergens="/7/" | price="99  CZK" | desc="with butter"
+ITEM: name="Salad of tom lettuce leaves" | weight="" | allergens="/10/" | price="129  CZK" | desc="with green tomatoes and beer vinaigrette"
+ITEM: name="Roasted winter vegetables" | weight="" | allergens="/9/" | price="129  CZK" | desc="with cardamom and maple syrup"
+ITEM: name="Cabbage salad with horseradish" | weight="" | allergens="/3/7/11/" | price="99  CZK" | desc="with raisins, winevinegar, and mayonnaise"
+ITEM: name="Toasted garlic brioche" | weight="" | allergens="/1/3/7/" | price="79  CZK" | desc=""
+ITEM: name="Sourdough bread" | weight="" | allergens="/1/3/7/" | price="45  CZK" | desc=""
+
+[H3] Desserts
+ITEM: name="Ganache Cakes" | weight="" | allergens="/1/3/7/8/" | price="209  CZK" | desc="in the shape of hop cones made from Valrhona Dulcey chocolate, chocolate soil, and sour cherry sauce"
+ITEM: name="Caramel shred pancake" | weight="" | allergens="/1/3/7/" | price="169  CZK" | desc="with salted caramel and crunchy praline"
+ITEM: name="Beer ice cream" | weight="" | allergens="/1/3/7/" | price="139  CZK" | desc="with malt crumble, whipped cream"
+
+[H3] for children
+ITEM: name="Chicken schnitzel" | weight="100g" | allergens="/1/3/7/" | price="125  CZK" | desc="with mashed potatoes"
+ITEM: name="Mini cheeseburger" | weight="100g" | allergens="/1/3/7/10/" | price="129  CZK" | desc="with cheddar, lettuce, tomato, and fries"
+ITEM: name="Semolina porridge" | weight="" | allergens="/1/7/" | price="119  CZK" | desc="with fruit compote"

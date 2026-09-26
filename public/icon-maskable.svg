@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGradMask" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="50%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+    <linearGradient id="innerGlowMask" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fef3c7" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.3" />
+    </linearGradient>
+  </defs>
+
+  <!-- Full bleed background covering all 512x512 -->
+  <rect width="512" height="512" fill="url(#bgGradMask)" />
+
+  <!-- Safe zone inner border (starts around 80px to stay inside 80% mask) -->
+  <rect x="76" y="76" width="360" height="360" rx="72" fill="none" stroke="url(#innerGlowMask)" stroke-width="8" stroke-opacity="0.7"/>
+
+  <!-- Monogram FZ centered inside safe zone -->
+  <text x="256" y="325" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="900" font-size="180" fill="#0c0a09" text-anchor="middle" letter-spacing="4">FZ</text>
+
+  <!-- Sparkle accent within safe zone -->
+  <polygon points="360,110 372,138 400,150 372,162 360,190 348,162 320,150 348,138" fill="#fef3c7" opacity="0.95" />
+</svg>
