@@ -2105,8 +2105,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   },
   {
     "id": "gril",
-    "name": "From the grill and wood-fired oven",
-    "badge": "From the grill and wood-fired oven",
+    "name": "From the grill and tandoori",
+    "badge": "From the grill and tandoori",
     "description": "Prime cuts, burgers, and smoked meats charred over open fire and embers",
     "iconName": "Flame",
     "items": [
@@ -5138,8 +5138,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   },
   {
     "id": "nase-domaci-limonady",
-    "name": "Our homemade lemonades",
-    "badge": "Our homemade lemonades",
+    "name": "Homemade lemonades",
+    "badge": "Homemade lemonades",
     "description": "Handcrafted sodas made with fresh fruits, purees, and herbs",
     "iconName": "CupSoda",
     "items": [
@@ -5383,8 +5383,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   },
   {
     "id": "lahvove-limonady",
-    "name": "Bottled lemonades",
-    "badge": "Bottled lemonades",
+    "name": "Bottled soft drinks",
+    "badge": "Bottled soft drinks",
     "description": "Premium bottled tonics, sodas, and refreshing soft drinks",
     "iconName": "CupSoda",
     "items": [
@@ -5557,8 +5557,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   },
   {
     "id": "kava-caj-a-horke-napoje",
-    "name": "Coffee, tea and hot drinks",
-    "badge": "Coffee, tea and hot drinks",
+    "name": "Hot drinks",
+    "badge": "Hot drinks",
     "description": "Nordbeans specialty coffee, loose-leaf teas, and warming seasonal drinks",
     "iconName": "Coffee",
     "items": [
@@ -7893,8 +7893,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   },
   {
     "id": "koktejly-fuze",
-    "name": "Fuze cocktails",
-    "badge": "Fuze cocktails",
+    "name": "Signature cocktails",
+    "badge": "Signature cocktails",
     "description": "Signature in-house craft cocktails blending modern mixology with beer & spirits",
     "iconName": "Martini",
     "items": [
