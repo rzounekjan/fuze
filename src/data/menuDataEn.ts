@@ -2614,66 +2614,56 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
     "iconName": "Soup",
     "items": [
       {
-        "id": "peprova-omacka",
-        "name": "Pepper sauce",
+        "id": "cognac-sauce",
+        "name": "Cognac sauce",
         "price": "69 CZK",
         "allergens": [
           "7",
           "9",
           "10"
         ],
-        "description": "creamy peppercorn sauce with cracked green and black pepper",
-        "notes": "Classic rich peppercorn cream sauce with deep savory notes.",
+        "description": "warm cognac sauce",
+        "notes": "Delicate reduction of veal stock with cream and French cognac.",
         "questions": [
           {
-            "id": "peprova-omacka-ing-1",
-            "question": "Which sauce, dressing, or glaze accompanies Pepper sauce?",
-            "correctAnswer": "Creamy peppercorn sauce with cracked green",
+            "id": "cognac-sauce-ing-1",
+            "question": "Which sauce, dressing, or reduction belongs to Cognac sauce?",
+            "correctAnswer": "Warm cognac sauce",
             "distractors": [
-              "Lovage",
-              "Tarragon"
+              "Choron sauce",
+              "Our salsa verde"
             ],
-            "explanation": "In Pepper sauce, this component is present: Creamy peppercorn sauce with cracked green. Full recipe ingredients: creamy peppercorn sauce with cracked green and black pepper."
+            "explanation": "Cognac sauce contains: Warm cognac sauce. Full recipe ingredients: warm cognac sauce."
           },
           {
-            "id": "peprova-omacka-ing-2",
-            "question": "Which ingredient is part of Pepper sauce?",
-            "correctAnswer": "Black pepper",
-            "distractors": [
-              "Marjoram",
-              "Coriander / cilantro"
-            ],
-            "explanation": "In Pepper sauce, this component is present: Black pepper. Full recipe ingredients: creamy peppercorn sauce with cracked green and black pepper."
-          },
-          {
-            "id": "peprova-omacka-allergen-7",
-            "question": "Which of the following allergens is present in Pepper sauce?",
+            "id": "cognac-sauce-allergen-7",
+            "question": "Which of the following allergens is present in Cognac sauce?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 11 – Sesame seeds and products thereof",
               "Allergen No. 2 – Crustaceans and products thereof"
             ],
-            "explanation": "Pepper sauce contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
+            "explanation": "Cognac sauce contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
           },
           {
-            "id": "peprova-omacka-allergen-9",
-            "question": "Which of the following allergens is present in Pepper sauce?",
+            "id": "cognac-sauce-allergen-9",
+            "question": "Which of the following allergens is present in Cognac sauce?",
             "correctAnswer": "Allergen No. 9 – Celery and products thereof",
             "distractors": [
               "Allergen No. 13 – Lupin and products thereof",
               "Allergen No. 4 – Fish and products thereof"
             ],
-            "explanation": "Pepper sauce contains Allergen No. 9 – Celery and products thereof (celeriac in broth, celery stalk, celery seed). All allergens present in this item: Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
+            "explanation": "Cognac sauce contains Allergen No. 9 – Celery and products thereof (celeriac in broth, celery stalk, celery seed). All allergens present in this item: Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
           },
           {
-            "id": "peprova-omacka-allergen-10",
-            "question": "Which of the following allergens is present in Pepper sauce?",
+            "id": "cognac-sauce-allergen-10",
+            "question": "Which of the following allergens is present in Cognac sauce?",
             "correctAnswer": "Allergen No. 10 – Mustard and products thereof",
             "distractors": [
               "Allergen No. 14 – Molluscs and products thereof",
               "Allergen No. 5 – Peanuts and products thereof"
             ],
-            "explanation": "Pepper sauce contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
+            "explanation": "Cognac sauce contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
           }
         ]
       },

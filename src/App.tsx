@@ -210,8 +210,17 @@ export default function App() {
       const matchCat = targetCats.find(c => c.id === selectedCategory.id) || null;
       setSelectedCategory(matchCat);
       if (selectedItem && matchCat) {
-        const matchItem = matchCat.items.find(i => i.id === selectedItem.id) || null;
-        setSelectedItem(matchItem);
+        let matchItem = matchCat.items.find(i => i.id === selectedItem.id);
+        if (!matchItem) {
+          const currentCat = (lang === 'en' ? MENU_CATEGORIES : MENU_CATEGORIES_EN).find(c => c.id === selectedCategory.id);
+          if (currentCat) {
+            const idx = currentCat.items.findIndex(i => i.id === selectedItem.id);
+            if (idx >= 0 && idx < matchCat.items.length) {
+              matchItem = matchCat.items[idx];
+            }
+          }
+        }
+        setSelectedItem(matchItem || null);
       }
     }
   };
