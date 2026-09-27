@@ -38,13 +38,13 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "tatarak",
         "name": "Krájený hovězí tatarák",
         "weight": "90g",
-        "price": "239 Kč",
         "allergens": [
           "1",
           "3",
           "7"
         ],
         "description": "z květové špičky, okurčičky cornichons, marinované šalotky, pažitka, na hovězím loji opečená topinka a konfitovaný česnek, bramborová sláma",
+        "price": "239 Kč",
         "notes": "Maso je krájené, nikoli mleté. Topinka se opéká na hovězím loji pro plnou chuť.",
         "questions": [
           {
@@ -55,7 +55,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
               "100 g",
               "150 g"
             ],
-            "explanation": "Gramáž porce podsložky Krájený hovězí tatarák je 90g."
+            "explanation": "Gramáž / velikost porce podsložky Krájený hovězí tatarák je 90g."
           },
           {
             "id": "tatarak-ing-1",
@@ -118,16 +118,6 @@ export const MENU_CATEGORIES: MenuCategory[] = [
             "explanation": "V podsložce Krájený hovězí tatarák je obsaženo: Bramborová sláma. Kompletní receptura položky: z květové špičky, okurčičky cornichons, marinované šalotky, pažitka, na hovězím loji opečená topinka a konfitovaný česnek, bramborová sláma."
           },
           {
-            "id": "tatarak-ing-7",
-            "question": "Jaká příloha, pečivo či křupavá složka doplňuje podsložku Krájený hovězí tatarák?",
-            "correctAnswer": "Bramborová sláma",
-            "distractors": [
-              "Zauzené rohlíčkové brambory",
-              "Pivní sušenka"
-            ],
-            "explanation": "V podsložce Krájený hovězí tatarák je obsaženo: Bramborová sláma. Kompletní receptura položky: z květové špičky, okurčičky cornichons, marinované šalotky, pažitka, na hovězím loji opečená topinka a konfitovaný česnek, bramborová sláma."
-          },
-          {
             "id": "tatarak-allergen-1",
             "question": "Který z následujících alergenů obsahuje podsložka Krájený hovězí tatarák?",
             "correctAnswer": "Alergen č. 1 – Obiloviny obsahující lepek",
@@ -163,7 +153,6 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "klobasa-smrze",
         "name": "Naše telecí klobása se smrži",
         "weight": "100g",
-        "price": "219 Kč",
         "allergens": [
           "1",
           "3",
@@ -172,7 +161,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "10"
         ],
         "description": "kaštany a sušenými švestkami, lanýžová omáčka, pivní sušenka",
-        "notes": "Jemné telecí dílo obohacené luxusními jarními houbami smrži a sušeným ovocem.",
+        "price": "219 Kč",
+        "notes": "Vlastní výroba klobásy s kousky smržů a kaštanů.",
         "questions": [
           {
             "id": "klobasa-smrze-vol",
@@ -182,7 +172,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
               "150 g",
               "200 g"
             ],
-            "explanation": "Gramáž porce podsložky Naše telecí klobása se smrži je 100g."
+            "explanation": "Gramáž / velikost porce podsložky Naše telecí klobása se smrži je 100g."
           },
           {
             "id": "klobasa-smrze-ing-1",
@@ -270,14 +260,14 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "foie-gras",
         "name": "Paštika z kachních foie gras",
         "weight": "100g",
-        "price": "315 Kč",
         "allergens": [
           "1",
           "3",
           "7"
         ],
         "description": "v želé z piva Kasteel Rouge, višňová omáčka, opečená máslová brioška",
-        "notes": "Dokonalé spojení tučných kachních jater s višňovým belgickým speciálem Kasteel Rouge.",
+        "price": "315 Kč",
+        "notes": "Pivní želé z belgického višňového piva Kasteel Rouge.",
         "questions": [
           {
             "id": "foie-gras-vol",
@@ -287,7 +277,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
               "150 g",
               "200 g"
             ],
-            "explanation": "Gramáž porce podsložky Paštika z kachních foie gras je 100g."
+            "explanation": "Gramáž / velikost porce podsložky Paštika z kachních foie gras je 100g."
           },
           {
             "id": "foie-gras-ing-1",
@@ -355,14 +345,14 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "veprovy-bok-platky",
         "name": "Tenké plátky vepřového boku",
         "weight": "100g",
-        "price": "169 Kč",
         "allergens": [
           "1",
           "4",
           "10"
         ],
         "description": "zauzeného chmelem, křupavé vepřové krekry, pyré z pečených jablek a hořčice, smažený hrách",
-        "notes": "Unikátní technika uzení na pivovarském chmelu pro zemitě bylinkový tón.",
+        "price": "169 Kč",
+        "notes": "Bok je zauzený sušeným aromatickým chmelem.",
         "questions": [
           {
             "id": "veprovy-bok-platky-vol",
@@ -372,11 +362,11 @@ export const MENU_CATEGORIES: MenuCategory[] = [
               "150 g",
               "200 g"
             ],
-            "explanation": "Gramáž porce podsložky Tenké plátky vepřového boku je 100g."
+            "explanation": "Gramáž / velikost porce podsložky Tenké plátky vepřového boku je 100g."
           },
           {
             "id": "veprovy-bok-platky-ing-1",
-            "question": "Která pivovarská surovina nebo vlastnost charakterizuje Tenké plátky vepřového boku?",
+            "question": "Která z následujících surovin patří do podsložky Tenké plátky vepřového boku?",
             "correctAnswer": "Zauzeného chmelem",
             "distractors": [
               "Vepřová panenka",
@@ -450,7 +440,6 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "kureci-krokety",
         "name": "Smažené kuřecí krokety",
         "weight": "100g",
-        "price": "175 Kč",
         "allergens": [
           "1",
           "3",
@@ -458,6 +447,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "14"
         ],
         "description": "s čedarem, naše salsa verde, libečková majonéza",
+        "price": "175 Kč",
+        "notes": "Křupavé krokety plněné kuřecím masem a rozteklým vyzrálým čedarem.",
         "questions": [
           {
             "id": "kureci-krokety-vol",
@@ -467,7 +458,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
               "150 g",
               "200 g"
             ],
-            "explanation": "Gramáž porce podsložky Smažené kuřecí krokety je 100g."
+            "explanation": "Gramáž / velikost porce podsložky Smažené kuřecí krokety je 100g."
           },
           {
             "id": "kureci-krokety-ing-1",
@@ -544,7 +535,6 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       {
         "id": "olomoucke-tvaruzky",
         "name": "Sekané olomoucké tvarůžky",
-        "price": "199 Kč",
         "allergens": [
           "1",
           "3",
@@ -552,6 +542,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "10"
         ],
         "description": "s cibulkou, majonézou s paprikou a hořčičným semínkem na opečeném kváskovém chlebu, křen, kyselá zeleninka",
+        "price": "199 Kč",
+        "notes": "Tradiční moravské zrající tvarůžky podávané na křupavém chlebu.",
         "questions": [
           {
             "id": "olomoucke-tvaruzky-ing-1",
@@ -641,17 +633,18 @@ export const MENU_CATEGORIES: MenuCategory[] = [
     "id": "chutovky",
     "name": "Chuťovka",
     "badge": "Chuťovka",
-    "description": "Drobné delikatesy a slané pochoutky ideální ke sklence piva či vína",
-    "iconName": "Sparkles",
+    "description": "Drobné pochutiny k pivu a vínu z naší kuchyně",
+    "iconName": "Cookie",
     "items": [
       {
         "id": "lanyzovy-popcorn",
         "name": "Lanýžový popcorn",
-        "price": "139 Kč",
         "allergens": [
           "7"
         ],
         "description": "s parmazánem",
+        "price": "139 Kč",
+        "notes": "Čerstvě pražený kukuřičný popcorn ovoněný lanýžovým olejem a sypaný parmazánem.",
         "questions": [
           {
             "id": "lanyzovy-popcorn-ing-1",
@@ -678,11 +671,12 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       {
         "id": "domaci-bramburky",
         "name": "Naše domácí brambůrky",
-        "price": "125 Kč",
         "allergens": [
           "7"
         ],
         "description": "pikantní zauzená majonéza",
+        "price": "125 Kč",
+        "notes": "Ručně krájené a smažené bramborové lupínky s domácí majonézou.",
         "questions": [
           {
             "id": "domaci-bramburky-ing-1",
@@ -712,17 +706,18 @@ export const MENU_CATEGORIES: MenuCategory[] = [
     "id": "polevky",
     "name": "Polévky",
     "badge": "Polévky",
-    "description": "Poctivé horké vývary a krémy z nejlepších surovin",
+    "description": "Poctivé polévky a vývary podle tradičních receptur",
     "iconName": "Soup",
     "items": [
       {
         "id": "hovezi-consomme",
         "name": "Hovězí consommé",
-        "price": "109 Kč",
         "allergens": [
           "9"
         ],
         "description": "jemný játrový knedlíček, zelenina",
+        "price": "109 Kč",
+        "notes": "Dlouze tažený a čištěný hovězí vývar.",
         "questions": [
           {
             "id": "hovezi-consomme-ing-1",
@@ -759,7 +754,6 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       {
         "id": "kremova-humri",
         "name": "Krémová humří polévka",
-        "price": "269 Kč",
         "allergens": [
           "1",
           "2",
@@ -768,7 +762,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "9"
         ],
         "description": "s klobáskou a zeleninou, zapečená listovým těstem",
-        "notes": "Servíruje se v misce zapečené křupavou kupolí z listového těsta přímo z pece.",
+        "price": "269 Kč",
+        "notes": "Luxusní bisque z humřích krunýřů pod čepicí z listového těsta.",
         "questions": [
           {
             "id": "kremova-humri-ing-1",
@@ -848,13 +843,12 @@ export const MENU_CATEGORIES: MenuCategory[] = [
     "id": "salaty",
     "name": "Saláty",
     "badge": "Saláty",
-    "description": "Svěží zeleninové saláty s vyladěnou zálivkou",
+    "description": "Čerstvé saláty s originálními dresinky a kvalitními surovinami",
     "iconName": "Salad",
     "items": [
       {
         "id": "caesar-salat",
         "name": "Caesar salát",
-        "price": "289 Kč",
         "allergens": [
           "1",
           "3",
@@ -863,6 +857,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "10"
         ],
         "description": "s trhaným kuřetem pečeným v peci, opečenou slaninou, parmezánem a krutony",
+        "price": "289 Kč",
+        "notes": "Klasický salát s kuřecím masem pečeným v naší hliněné peci.",
         "questions": [
           {
             "id": "caesar-salat-ing-1",
@@ -949,13 +945,14 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       {
         "id": "waldorf-salat",
         "name": "Waldorf salát",
-        "price": "245 Kč",
         "allergens": [
           "8",
           "9",
           "10"
         ],
         "description": "jablka, řapíkatý celer, hrozny, nakládané vlašské ořechy, majonézový dresing",
+        "price": "245 Kč",
+        "notes": "Osvěžující kombinace ovoce, ořechů a celeru.",
         "questions": [
           {
             "id": "waldorf-salat-ing-1",
@@ -1045,60 +1042,70 @@ export const MENU_CATEGORIES: MenuCategory[] = [
     "id": "sporak",
     "name": "Ze sporáku a trouby",
     "badge": "Ze sporáku a trouby",
-    "description": "Tradiční i moderní hlavní chody pomalu tažené a pečené",
-    "iconName": "CookingPot",
+    "description": "Tradiční i moderní teplá jídla připravovaná v naší kuchyni",
+    "iconName": "Flame",
     "items": [
       {
         "id": "pecene-koleno",
         "name": "Pečené vepřové koleno",
         "weight": "1ks",
-        "price": "459 Kč",
         "allergens": [
           "1",
           "10"
         ],
-        "description": "hořčice, strouhaný křen, zelný salát s křenem",
-        "notes": "v nabídce každý den vždy do vyprodání",
+        "description": "v nabídce každý den vždy do vyprodání, hořčice, strouhaný křen, zelný salát s křenem",
+        "price": "459 Kč",
+        "notes": "Pekařské vepřové koleno pečené dozlatova s křupavou kůrčičkou.",
         "questions": [
           {
             "id": "pecene-koleno-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Pečené vepřové koleno?",
+            "question": "Jaká je velikost porce podsložky Pečené vepřové koleno?",
             "correctAnswer": "1ks",
             "distractors": [
               "2 ks",
               "1/2 ks"
             ],
-            "explanation": "Servírovací míra / objem podsložky Pečené vepřové koleno je 1ks."
+            "explanation": "Gramáž / velikost porce podsložky Pečené vepřové koleno je 1ks."
           },
           {
             "id": "pecene-koleno-ing-1",
             "question": "Která z následujících surovin patří do podsložky Pečené vepřové koleno?",
-            "correctAnswer": "Hořčice",
+            "correctAnswer": "V nabídce každý den vždy do vyprodání",
             "distractors": [
               "Vepřová panenka",
               "Telecí kýta"
             ],
-            "explanation": "V podsložce Pečené vepřové koleno je obsaženo: Hořčice. Kompletní receptura položky: hořčice, strouhaný křen, zelný salát s křenem."
+            "explanation": "V podsložce Pečené vepřové koleno je obsaženo: V nabídce každý den vždy do vyprodání. Kompletní receptura položky: v nabídce každý den vždy do vyprodání, hořčice, strouhaný křen, zelný salát s křenem."
           },
           {
             "id": "pecene-koleno-ing-2",
             "question": "Která z následujících surovin patří do podsložky Pečené vepřové koleno?",
-            "correctAnswer": "Strouhaný křen",
+            "correctAnswer": "Hořčice",
             "distractors": [
               "Kachní prsa",
               "Vykoštěný pstruh"
             ],
-            "explanation": "V podsložce Pečené vepřové koleno je obsaženo: Strouhaný křen. Kompletní receptura položky: hořčice, strouhaný křen, zelný salát s křenem."
+            "explanation": "V podsložce Pečené vepřové koleno je obsaženo: Hořčice. Kompletní receptura položky: v nabídce každý den vždy do vyprodání, hořčice, strouhaný křen, zelný salát s křenem."
           },
           {
             "id": "pecene-koleno-ing-3",
-            "question": "Kterou zeleninovou či ovocnou složku obsahuje podsložka Pečené vepřové koleno?",
-            "correctAnswer": "Zelný salát s křenem",
+            "question": "Která z následujících surovin patří do podsložky Pečené vepřové koleno?",
+            "correctAnswer": "Strouhaný křen",
             "distractors": [
               "Hovězí svíčková",
               "Vepřový bok Duroc"
             ],
-            "explanation": "V podsložce Pečené vepřové koleno je obsaženo: Zelný salát s křenem. Kompletní receptura položky: hořčice, strouhaný křen, zelný salát s křenem."
+            "explanation": "V podsložce Pečené vepřové koleno je obsaženo: Strouhaný křen. Kompletní receptura položky: v nabídce každý den vždy do vyprodání, hořčice, strouhaný křen, zelný salát s křenem."
+          },
+          {
+            "id": "pecene-koleno-ing-4",
+            "question": "Kterou zeleninovou či ovocnou složku obsahuje podsložka Pečené vepřové koleno?",
+            "correctAnswer": "Zelný salát s křenem",
+            "distractors": [
+              "Jelení hřbet",
+              "Jehněčí kotletka"
+            ],
+            "explanation": "V podsložce Pečené vepřové koleno je obsaženo: Zelný salát s křenem. Kompletní receptura položky: v nabídce každý den vždy do vyprodání, hořčice, strouhaný křen, zelný salát s křenem."
           },
           {
             "id": "pecene-koleno-allergen-1",
@@ -1126,7 +1133,6 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "veprovy-rizek-duroc",
         "name": "Vysoký vepřový řízek",
         "weight": "200g",
-        "price": "309 Kč",
         "allergens": [
           "1",
           "3",
@@ -1135,6 +1141,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "10"
         ],
         "description": "z plemene Duroc, omáčka fines herbes, bramborová kaše a bramborové křupky",
+        "price": "309 Kč",
+        "notes": "Šťavnatý řízek z prémiového plemene Duroc s máslovou kaší.",
         "questions": [
           {
             "id": "veprovy-rizek-duroc-vol",
@@ -1144,7 +1152,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
               "150 g",
               "250 g"
             ],
-            "explanation": "Gramáž porce podsložky Vysoký vepřový řízek je 200g."
+            "explanation": "Gramáž / velikost porce podsložky Vysoký vepřový řízek je 200g."
           },
           {
             "id": "veprovy-rizek-duroc-ing-1",
@@ -1173,16 +1181,6 @@ export const MENU_CATEGORIES: MenuCategory[] = [
             "distractors": [
               "Zauzené rohlíčkové brambory",
               "Pivní sušenka"
-            ],
-            "explanation": "V podsložce Vysoký vepřový řízek je obsaženo: Bramborová kaše a bramborové křupky. Kompletní receptura položky: z plemene Duroc, omáčka fines herbes, bramborová kaše a bramborové křupky."
-          },
-          {
-            "id": "veprovy-rizek-duroc-ing-4",
-            "question": "Jaká příloha, pečivo či křupavá složka doplňuje podsložku Vysoký vepřový řízek?",
-            "correctAnswer": "Bramborová kaše a bramborové křupky",
-            "distractors": [
-              "Křupavé vepřové krekry",
-              "Na hovězím loji opečená topinka"
             ],
             "explanation": "V podsložce Vysoký vepřový řízek je obsaženo: Bramborová kaše a bramborové křupky. Kompletní receptura položky: z plemene Duroc, omáčka fines herbes, bramborová kaše a bramborové křupky."
           },
@@ -1242,7 +1240,6 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "veprova-zebra",
         "name": "Vepřová žebra",
         "weight": "500g",
-        "price": "379 Kč",
         "allergens": [
           "1",
           "3",
@@ -1251,6 +1248,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "10"
         ],
         "description": "marinovaná a pečená s naším pivem, kandovaná slanina, perlové cibulky, jablečná bbq omáčka, náš zelný salát s křenem, opečená česneková brioška",
+        "price": "379 Kč",
+        "notes": "Pomalu pečená žebra glazovaná pivem a jablečnou BBQ omáčkou.",
         "questions": [
           {
             "id": "veprova-zebra-vol",
@@ -1260,7 +1259,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
               "400 g",
               "600 g"
             ],
-            "explanation": "Gramáž porce podsložky Vepřová žebra je 500g."
+            "explanation": "Gramáž / velikost porce podsložky Vepřová žebra je 500g."
           },
           {
             "id": "veprova-zebra-ing-1",
@@ -1378,13 +1377,14 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "hovezi-koprovka",
         "name": "Tažené hovězí maso s koprovou omáčkou",
         "weight": "200g",
-        "price": "345 Kč",
         "allergens": [
           "1",
           "3",
           "7"
         ],
         "description": "vejce, rohlíčkové brambory, koprový olej",
+        "price": "345 Kč",
+        "notes": "Křehké tažené maso v jemné smetanové omáčce s čerstvým koprem.",
         "questions": [
           {
             "id": "hovezi-koprovka-vol",
@@ -1394,7 +1394,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
               "150 g",
               "250 g"
             ],
-            "explanation": "Gramáž porce podsložky Tažené hovězí maso s koprovou omáčkou je 200g."
+            "explanation": "Gramáž / velikost porce podsložky Tažené hovězí maso s koprovou omáčkou je 200g."
           },
           {
             "id": "hovezi-koprovka-ing-1",
@@ -1461,13 +1461,14 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       {
         "id": "testoviny-kureci",
         "name": "Těstoviny plněné jemnou kuřecí směsí",
-        "price": "299 Kč",
         "allergens": [
           "1",
           "3",
           "7"
         ],
         "description": "zapečené v hříbkové omáčce, grilovaná hlíva ústřičná, bylinkový olej",
+        "price": "299 Kč",
+        "notes": "Domácí plněné těstoviny přelité lesní hříbkovou omáčkou.",
         "questions": [
           {
             "id": "testoviny-kureci-ing-1",
@@ -1534,7 +1535,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       {
         "id": "shrimp-roll",
         "name": "Shrimp roll",
-        "price": "666 Kč",
+        "weight": "12ks",
         "allergens": [
           "1",
           "2",
@@ -1545,26 +1546,28 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "10"
         ],
         "description": "12ks argentinských červených krevet v máslové briošce, koktejlová omáčka s koňakem, salátek, naše hranolky, choron omáčka",
+        "price": "666 Kč",
+        "notes": "Luxusní krevetový roll v nadýchané máslové briošce.",
         "questions": [
           {
             "id": "shrimp-roll-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Shrimp roll?",
-            "correctAnswer": "12 ks",
+            "question": "Jaká je velikost porce podsložky Shrimp roll?",
+            "correctAnswer": "12ks",
             "distractors": [
-              "2 ks",
-              "1/2 ks"
+              "8 ks",
+              "16 ks"
             ],
-            "explanation": "Servírovací míra / objem podsložky Shrimp roll je 12 ks."
+            "explanation": "Gramáž / velikost porce podsložky Shrimp roll je 12ks."
           },
           {
             "id": "shrimp-roll-ing-1",
             "question": "Který sýr či mléčná přísada je součástí receptury Shrimp roll?",
-            "correctAnswer": "Argentinských červených krevet v máslové briošce",
+            "correctAnswer": "12ks argentinských červených krevet v máslové briošce",
             "distractors": [
               "Omáčka Choron",
               "Naše salsa verde"
             ],
-            "explanation": "V podsložce Shrimp roll je obsaženo: Argentinských červených krevet v máslové briošce. Kompletní receptura položky: 12ks argentinských červených krevet v máslové briošce, koktejlová omáčka s koňakem, salátek, naše hranolky, choron omáčka."
+            "explanation": "V podsložce Shrimp roll je obsaženo: 12ks argentinských červených krevet v máslové briošce. Kompletní receptura položky: 12ks argentinských červených krevet v máslové briošce, koktejlová omáčka s koňakem, salátek, naše hranolky, choron omáčka."
           },
           {
             "id": "shrimp-roll-ing-2",
@@ -1682,13 +1685,14 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "vykosteny-pstruh",
         "name": "Filátka vykostěného pstruha",
         "weight": "180g",
-        "price": "399 Kč",
         "allergens": [
           "3",
           "4",
           "7"
         ],
         "description": "opečená na másle, choron omáčka, pečená rajčátka, bylinkový salát, pečená zimní zelenina",
+        "price": "399 Kč",
+        "notes": "Čerstvý pstruh z lokálního chovu bez kostí na přepuštěném másle.",
         "questions": [
           {
             "id": "vykosteny-pstruh-vol",
@@ -1698,7 +1702,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
               "150 g",
               "200 g"
             ],
-            "explanation": "Gramáž porce podsložky Filátka vykostěného pstruha je 180g."
+            "explanation": "Gramáž / velikost porce podsložky Filátka vykostěného pstruha je 180g."
           },
           {
             "id": "vykosteny-pstruh-ing-1",
@@ -1786,7 +1790,6 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "svickova-wellington",
         "name": "Svíčková Wellington",
         "weight": "200g",
-        "price": "675 Kč",
         "allergens": [
           "1",
           "3",
@@ -1794,6 +1797,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "10"
         ],
         "description": "pečená dorůžova se směsí duxelles ochucené lanýži, koňaková omáčka, zauzené rohlíčkové brambory",
+        "price": "675 Kč",
+        "notes": "Hovězí svíčková zabalená v duxelles a máslovém listovém těstě.",
         "questions": [
           {
             "id": "svickova-wellington-vol",
@@ -1803,7 +1808,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
               "150 g",
               "250 g"
             ],
-            "explanation": "Gramáž porce podsložky Svíčková Wellington je 200g."
+            "explanation": "Gramáž / velikost porce podsložky Svíčková Wellington je 200g."
           },
           {
             "id": "svickova-wellington-ing-1",
@@ -1832,16 +1837,6 @@ export const MENU_CATEGORIES: MenuCategory[] = [
             "distractors": [
               "Bramborové křupky",
               "Naše hranolky"
-            ],
-            "explanation": "V podsložce Svíčková Wellington je obsaženo: Zauzené rohlíčkové brambory. Kompletní receptura položky: pečená dorůžova se směsí duxelles ochucené lanýži, koňaková omáčka, zauzené rohlíčkové brambory."
-          },
-          {
-            "id": "svickova-wellington-ing-4",
-            "question": "Jaká příloha, pečivo či křupavá složka doplňuje podsložku Svíčková Wellington?",
-            "correctAnswer": "Zauzené rohlíčkové brambory",
-            "distractors": [
-              "Pivní sušenka",
-              "Křupavé vepřové krekry"
             ],
             "explanation": "V podsložce Svíčková Wellington je obsaženo: Zauzené rohlíčkové brambory. Kompletní receptura položky: pečená dorůžova se směsí duxelles ochucené lanýži, koňaková omáčka, zauzené rohlíčkové brambory."
           },
@@ -1888,130 +1883,17 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         ]
       },
       {
-        "id": "thors-hammer",
-        "name": "Thor`s Hammer hovězí koleno",
-        "weight": "700g",
-        "price": "1490 Kč",
-        "allergens": [
-          "1",
-          "11"
-        ],
-        "description": "tažené v naší hliněné peci, omáčka z Kasteel Rouge, pálené šalotky, opečená česneková brioška, naše salsa verde, zauzené rohlíčkové brambory, náš zelný salát s křenem",
-        "notes": "Monumentální jídlo pečené pomalu v hliněné peci určené ke sdílení pro 2 až 4 hosty.",
-        "questions": [
-          {
-            "id": "thors-hammer-vol",
-            "question": "Jaká je gramáž porce podsložky Thor`s Hammer hovězí koleno?",
-            "correctAnswer": "700g",
-            "distractors": [
-              "500 g",
-              "800 g"
-            ],
-            "explanation": "Gramáž porce podsložky Thor`s Hammer hovězí koleno je 700g."
-          },
-          {
-            "id": "thors-hammer-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Thor`s Hammer hovězí koleno?",
-            "correctAnswer": "Tažené v naší hliněné peci",
-            "distractors": [
-              "Vepřová panenka",
-              "Telecí kýta"
-            ],
-            "explanation": "V podsložce Thor`s Hammer hovězí koleno je obsaženo: Tažené v naší hliněné peci. Kompletní receptura položky: tažené v naší hliněné peci, omáčka z Kasteel Rouge, pálené šalotky, opečená česneková brioška, naše salsa verde, zauzené rohlíčkové brambory, náš zelný salát s křenem."
-          },
-          {
-            "id": "thors-hammer-ing-2",
-            "question": "Která omáčka, dresink či redukce patří k podsložce Thor`s Hammer hovězí koleno?",
-            "correctAnswer": "Omáčka z Kasteel Rouge",
-            "distractors": [
-              "Jablečná BBQ omáčka",
-              "Libečková majonéza"
-            ],
-            "explanation": "V podsložce Thor`s Hammer hovězí koleno je obsaženo: Omáčka z Kasteel Rouge. Kompletní receptura položky: tažené v naší hliněné peci, omáčka z Kasteel Rouge, pálené šalotky, opečená česneková brioška, naše salsa verde, zauzené rohlíčkové brambory, náš zelný salát s křenem."
-          },
-          {
-            "id": "thors-hammer-ing-3",
-            "question": "Jaký druh cibulky či šalotky je součástí receptury Thor`s Hammer hovězí koleno?",
-            "correctAnswer": "Pálené šalotky",
-            "distractors": [
-              "Grilované papričky Padrón",
-              "Sterilované feferonky"
-            ],
-            "explanation": "V podsložce Thor`s Hammer hovězí koleno je obsaženo: Pálené šalotky. Kompletní receptura položky: tažené v naší hliněné peci, omáčka z Kasteel Rouge, pálené šalotky, opečená česneková brioška, naše salsa verde, zauzené rohlíčkové brambory, náš zelný salát s křenem."
-          },
-          {
-            "id": "thors-hammer-ing-4",
-            "question": "V jaké formě či úpravě je česnek součástí podsložky Thor`s Hammer hovězí koleno?",
-            "correctAnswer": "Opečená česneková brioška",
-            "distractors": [
-              "Pivní sušenka",
-              "Křupavé vepřové krekry"
-            ],
-            "explanation": "V podsložce Thor`s Hammer hovězí koleno je obsaženo: Opečená česneková brioška. Kompletní receptura položky: tažené v naší hliněné peci, omáčka z Kasteel Rouge, pálené šalotky, opečená česneková brioška, naše salsa verde, zauzené rohlíčkové brambory, náš zelný salát s křenem."
-          },
-          {
-            "id": "thors-hammer-ing-5",
-            "question": "Která omáčka, dresink či redukce patří k podsložce Thor`s Hammer hovězí koleno?",
-            "correctAnswer": "Naše salsa verde",
-            "distractors": [
-              "Lanýžová omáčka",
-              "Omáčka Choron"
-            ],
-            "explanation": "V podsložce Thor`s Hammer hovězí koleno je obsaženo: Naše salsa verde. Kompletní receptura položky: tažené v naší hliněné peci, omáčka z Kasteel Rouge, pálené šalotky, opečená česneková brioška, naše salsa verde, zauzené rohlíčkové brambory, náš zelný salát s křenem."
-          },
-          {
-            "id": "thors-hammer-ing-6",
-            "question": "Jaká příloha, pečivo či křupavá složka doplňuje podsložku Thor`s Hammer hovězí koleno?",
-            "correctAnswer": "Zauzené rohlíčkové brambory",
-            "distractors": [
-              "Kváskový chléb",
-              "Bramborová sláma"
-            ],
-            "explanation": "V podsložce Thor`s Hammer hovězí koleno je obsaženo: Zauzené rohlíčkové brambory. Kompletní receptura položky: tažené v naší hliněné peci, omáčka z Kasteel Rouge, pálené šalotky, opečená česneková brioška, naše salsa verde, zauzené rohlíčkové brambory, náš zelný salát s křenem."
-          },
-          {
-            "id": "thors-hammer-ing-7",
-            "question": "Kterou zeleninovou či ovocnou složku obsahuje podsložka Thor`s Hammer hovězí koleno?",
-            "correctAnswer": "Náš zelný salát s křenem",
-            "distractors": [
-              "Kachní prsa",
-              "Vykoštěný pstruh"
-            ],
-            "explanation": "V podsložce Thor`s Hammer hovězí koleno je obsaženo: Náš zelný salát s křenem. Kompletní receptura položky: tažené v naší hliněné peci, omáčka z Kasteel Rouge, pálené šalotky, opečená česneková brioška, naše salsa verde, zauzené rohlíčkové brambory, náš zelný salát s křenem."
-          },
-          {
-            "id": "thors-hammer-allergen-1",
-            "question": "Který z následujících alergenů obsahuje podsložka Thor`s Hammer hovězí koleno?",
-            "correctAnswer": "Alergen č. 1 – Obiloviny obsahující lepek",
-            "distractors": [
-              "Alergen č. 3 – Vejce a výrobky z nich",
-              "Alergen č. 8 – Skořápkové plody (ořechy)"
-            ],
-            "explanation": "Thor`s Hammer hovězí koleno obsahuje Alergen č. 1 – Obiloviny obsahující lepek (kváskové pečivo, mouka, strouhanka, slad v pivu). Všechny evidované alergeny této podsložky: Obiloviny obsahující lepek, Sezamová semena (sezam) a výrobky z nich."
-          },
-          {
-            "id": "thors-hammer-allergen-11",
-            "question": "Který z následujících alergenů obsahuje podsložka Thor`s Hammer hovězí koleno?",
-            "correctAnswer": "Alergen č. 11 – Sezamová semena (sezam)",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 6 – Sójové boby (sója)"
-            ],
-            "explanation": "Thor`s Hammer hovězí koleno obsahuje Alergen č. 11 – Sezamová semena (sezam) (sezamový olej, tahini, sezam na briošce). Všechny evidované alergeny této podsložky: Obiloviny obsahující lepek, Sezamová semena (sezam) a výrobky z nich."
-          }
-        ]
-      },
-      {
         "id": "burger-foie-gras",
         "name": "Hovězí burger",
         "weight": "200g",
-        "price": "449 Kč",
         "allergens": [
           "1",
           "3",
           "7"
         ],
         "description": "s uzenou nivou a kachními foie gras, majonéza z pečené cibule, bramborová sláma, malé domácí hranolky",
+        "price": "449 Kč",
+        "notes": "Gurmánský burger s uzeným modrým sýrem a plátkem foie gras.",
         "questions": [
           {
             "id": "burger-foie-gras-vol",
@@ -2021,7 +1903,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
               "150 g",
               "250 g"
             ],
-            "explanation": "Gramáž porce podsložky Hovězí burger je 200g."
+            "explanation": "Gramáž / velikost porce podsložky Hovězí burger je 200g."
           },
           {
             "id": "burger-foie-gras-ing-1",
@@ -2094,6 +1976,120 @@ export const MENU_CATEGORIES: MenuCategory[] = [
             "explanation": "Hovězí burger obsahuje Alergen č. 7 – Mléko a výrobky z něj (včetně laktózy) (máslo, sýr, smetana, tvaroh, mléčná pěna). Všechny evidované alergeny této podsložky: Obiloviny obsahující lepek, Vejce a výrobky z nich, Mléko a výrobky z něj (včetně laktózy)."
           }
         ]
+      },
+      {
+        "id": "thors-hammer",
+        "name": "Thor`s Hammer hovězí koleno",
+        "weight": "700g",
+        "allergens": [
+          "1",
+          "11"
+        ],
+        "description": "tažené v naší hliněné peci, omáčka z Kasteel Rouge, pálené šalotky, opečená česneková brioška, naše salsa verde, zauzené rohlíčkové brambory, náš zelný salát s křenem. Pro 2 až 4 osoby",
+        "price": "1490 Kč",
+        "notes": "Monstrózní koleno na kosti tažené dlouhé hodiny v hliněné peci.",
+        "questions": [
+          {
+            "id": "thors-hammer-vol",
+            "question": "Jaká je gramáž porce podsložky Thor`s Hammer hovězí koleno?",
+            "correctAnswer": "700g",
+            "distractors": [
+              "500 g",
+              "800 g"
+            ],
+            "explanation": "Gramáž / velikost porce podsložky Thor`s Hammer hovězí koleno je 700g."
+          },
+          {
+            "id": "thors-hammer-ing-1",
+            "question": "Která z následujících surovin patří do podsložky Thor`s Hammer hovězí koleno?",
+            "correctAnswer": "Tažené v naší hliněné peci",
+            "distractors": [
+              "Vepřová panenka",
+              "Telecí kýta"
+            ],
+            "explanation": "V podsložce Thor`s Hammer hovězí koleno je obsaženo: Tažené v naší hliněné peci. Kompletní receptura položky: tažené v naší hliněné peci, omáčka z Kasteel Rouge, pálené šalotky, opečená česneková brioška, naše salsa verde, zauzené rohlíčkové brambory, náš zelný salát s křenem. Pro 2 až 4 osoby."
+          },
+          {
+            "id": "thors-hammer-ing-2",
+            "question": "Která omáčka, dresink či redukce patří k podsložce Thor`s Hammer hovězí koleno?",
+            "correctAnswer": "Omáčka z Kasteel Rouge",
+            "distractors": [
+              "Jablečná BBQ omáčka",
+              "Libečková majonéza"
+            ],
+            "explanation": "V podsložce Thor`s Hammer hovězí koleno je obsaženo: Omáčka z Kasteel Rouge. Kompletní receptura položky: tažené v naší hliněné peci, omáčka z Kasteel Rouge, pálené šalotky, opečená česneková brioška, naše salsa verde, zauzené rohlíčkové brambory, náš zelný salát s křenem. Pro 2 až 4 osoby."
+          },
+          {
+            "id": "thors-hammer-ing-3",
+            "question": "Jaký druh cibulky či šalotky je součástí receptury Thor`s Hammer hovězí koleno?",
+            "correctAnswer": "Pálené šalotky",
+            "distractors": [
+              "Grilované papričky Padrón",
+              "Sterilované feferonky"
+            ],
+            "explanation": "V podsložce Thor`s Hammer hovězí koleno je obsaženo: Pálené šalotky. Kompletní receptura položky: tažené v naší hliněné peci, omáčka z Kasteel Rouge, pálené šalotky, opečená česneková brioška, naše salsa verde, zauzené rohlíčkové brambory, náš zelný salát s křenem. Pro 2 až 4 osoby."
+          },
+          {
+            "id": "thors-hammer-ing-4",
+            "question": "V jaké formě či úpravě je česnek součástí podsložky Thor`s Hammer hovězí koleno?",
+            "correctAnswer": "Opečená česneková brioška",
+            "distractors": [
+              "Pivní sušenka",
+              "Křupavé vepřové krekry"
+            ],
+            "explanation": "V podsložce Thor`s Hammer hovězí koleno je obsaženo: Opečená česneková brioška. Kompletní receptura položky: tažené v naší hliněné peci, omáčka z Kasteel Rouge, pálené šalotky, opečená česneková brioška, naše salsa verde, zauzené rohlíčkové brambory, náš zelný salát s křenem. Pro 2 až 4 osoby."
+          },
+          {
+            "id": "thors-hammer-ing-5",
+            "question": "Která omáčka, dresink či redukce patří k podsložce Thor`s Hammer hovězí koleno?",
+            "correctAnswer": "Naše salsa verde",
+            "distractors": [
+              "Lanýžová omáčka",
+              "Omáčka Choron"
+            ],
+            "explanation": "V podsložce Thor`s Hammer hovězí koleno je obsaženo: Naše salsa verde. Kompletní receptura položky: tažené v naší hliněné peci, omáčka z Kasteel Rouge, pálené šalotky, opečená česneková brioška, naše salsa verde, zauzené rohlíčkové brambory, náš zelný salát s křenem. Pro 2 až 4 osoby."
+          },
+          {
+            "id": "thors-hammer-ing-6",
+            "question": "Jaká příloha, pečivo či křupavá složka doplňuje podsložku Thor`s Hammer hovězí koleno?",
+            "correctAnswer": "Zauzené rohlíčkové brambory",
+            "distractors": [
+              "Kváskový chléb",
+              "Bramborová sláma"
+            ],
+            "explanation": "V podsložce Thor`s Hammer hovězí koleno je obsaženo: Zauzené rohlíčkové brambory. Kompletní receptura položky: tažené v naší hliněné peci, omáčka z Kasteel Rouge, pálené šalotky, opečená česneková brioška, naše salsa verde, zauzené rohlíčkové brambory, náš zelný salát s křenem. Pro 2 až 4 osoby."
+          },
+          {
+            "id": "thors-hammer-ing-7",
+            "question": "Kterou zeleninovou či ovocnou složku obsahuje podsložka Thor`s Hammer hovězí koleno?",
+            "correctAnswer": "Náš zelný salát s křenem. Pro 2 až 4 osoby",
+            "distractors": [
+              "Kachní prsa",
+              "Vykoštěný pstruh"
+            ],
+            "explanation": "V podsložce Thor`s Hammer hovězí koleno je obsaženo: Náš zelný salát s křenem. Pro 2 až 4 osoby. Kompletní receptura položky: tažené v naší hliněné peci, omáčka z Kasteel Rouge, pálené šalotky, opečená česneková brioška, naše salsa verde, zauzené rohlíčkové brambory, náš zelný salát s křenem. Pro 2 až 4 osoby."
+          },
+          {
+            "id": "thors-hammer-allergen-1",
+            "question": "Který z následujících alergenů obsahuje podsložka Thor`s Hammer hovězí koleno?",
+            "correctAnswer": "Alergen č. 1 – Obiloviny obsahující lepek",
+            "distractors": [
+              "Alergen č. 3 – Vejce a výrobky z nich",
+              "Alergen č. 8 – Skořápkové plody (ořechy)"
+            ],
+            "explanation": "Thor`s Hammer hovězí koleno obsahuje Alergen č. 1 – Obiloviny obsahující lepek (kváskové pečivo, mouka, strouhanka, slad v pivu). Všechny evidované alergeny této podsložky: Obiloviny obsahující lepek, Sezamová semena (sezam) a výrobky z nich."
+          },
+          {
+            "id": "thors-hammer-allergen-11",
+            "question": "Který z následujících alergenů obsahuje podsložka Thor`s Hammer hovězí koleno?",
+            "correctAnswer": "Alergen č. 11 – Sezamová semena (sezam)",
+            "distractors": [
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 6 – Sójové boby (sója)"
+            ],
+            "explanation": "Thor`s Hammer hovězí koleno obsahuje Alergen č. 11 – Sezamová semena (sezam) (sezamový olej, tahini, sezam na briošce). Všechny evidované alergeny této podsložky: Obiloviny obsahující lepek, Sezamová semena (sezam) a výrobky z nich."
+          }
+        ]
       }
     ]
   },
@@ -2101,45 +2097,68 @@ export const MENU_CATEGORIES: MenuCategory[] = [
     "id": "gril",
     "name": "Z grilu a pece na dřevo",
     "badge": "Z grilu a pece na dřevo",
-    "description": "Šťavnaté steaky, burgery a speciality pečené na dřevě",
-    "iconName": "FlameKindling",
+    "description": "Speciality připravené na dřevěném uhlí a v hliněné peci",
+    "iconName": "Flame",
     "items": [
       {
-        "id": "us-prime-steaky",
-        "name": "US Prime hovězí steaky (Květová špička & Vysoký roštěnec)",
+        "id": "us-prime-kvetova-spicka",
+        "name": "US Prime hovězí květová špička",
         "weight": "250g",
-        "price": "519 / 985 Kč",
-        "description": "US Prime hovězí květová špička 250g (519 Kč) nebo US Prime vysoký roštěnec 250g (985 Kč), opečené papričky Padrón",
+        "allergens": [],
+        "description": "opečené papričky Padrón",
+        "price": "519 Kč",
+        "notes": "Vyzrálý řez US Prime květové špičky (rump cap / picanha) grilovaný na dřevěném uhlí.",
         "questions": [
           {
-            "id": "us-prime-steaky-vol",
-            "question": "Jaká je gramáž porce podsložky US Prime hovězí steaky (Květová špička & Vysoký roštěnec)?",
+            "id": "us-prime-kvetova-spicka-vol",
+            "question": "Jaká je gramáž porce podsložky US Prime hovězí květová špička?",
             "correctAnswer": "250g",
             "distractors": [
               "200 g",
               "300 g"
             ],
-            "explanation": "Gramáž porce podsložky US Prime hovězí steaky (Květová špička & Vysoký roštěnec) je 250g."
+            "explanation": "Gramáž / velikost porce podsložky US Prime hovězí květová špička je 250g."
           },
           {
-            "id": "us-prime-steaky-ing-1",
-            "question": "Která masová surovina tvoří základ podsložky US Prime hovězí steaky (Květová špička & Vysoký roštěnec)?",
-            "correctAnswer": "US Prime hovězí květová špička 250g (519 Kč) nebo US Prime vysoký roštěnec 250g (985 Kč)",
-            "distractors": [
-              "Telecí kýta",
-              "Kachní prsa"
-            ],
-            "explanation": "V podsložce US Prime hovězí steaky (Květová špička & Vysoký roštěnec) je obsaženo: US Prime hovězí květová špička 250g (519 Kč) nebo US Prime vysoký roštěnec 250g (985 Kč). Kompletní receptura položky: US Prime hovězí květová špička 250g (519 Kč) nebo US Prime vysoký roštěnec 250g (985 Kč), opečené papričky Padrón."
-          },
-          {
-            "id": "us-prime-steaky-ing-2",
-            "question": "Která z následujících surovin patří do podsložky US Prime hovězí steaky (Květová špička & Vysoký roštěnec)?",
+            "id": "us-prime-kvetova-spicka-ing-1",
+            "question": "Která z následujících surovin patří do podsložky US Prime hovězí květová špička?",
             "correctAnswer": "Opečené papričky Padrón",
             "distractors": [
-              "Vykoštěný pstruh",
-              "Hovězí svíčková"
+              "Vepřová panenka",
+              "Telecí kýta"
             ],
-            "explanation": "V podsložce US Prime hovězí steaky (Květová špička & Vysoký roštěnec) je obsaženo: Opečené papričky Padrón. Kompletní receptura položky: US Prime hovězí květová špička 250g (519 Kč) nebo US Prime vysoký roštěnec 250g (985 Kč), opečené papričky Padrón."
+            "explanation": "V podsložce US Prime hovězí květová špička je obsaženo: Opečené papričky Padrón. Kompletní receptura položky: opečené papričky Padrón."
+          }
+        ]
+      },
+      {
+        "id": "us-prime-rostenec",
+        "name": "US Prime vysoký roštěnec",
+        "weight": "250g",
+        "allergens": [],
+        "description": "opečené papričky Padrón",
+        "price": "985 Kč",
+        "notes": "Špičkový mramorovaný ribeye steak z amerického chovu US Prime.",
+        "questions": [
+          {
+            "id": "us-prime-rostenec-vol",
+            "question": "Jaká je gramáž porce podsložky US Prime vysoký roštěnec?",
+            "correctAnswer": "250g",
+            "distractors": [
+              "200 g",
+              "300 g"
+            ],
+            "explanation": "Gramáž / velikost porce podsložky US Prime vysoký roštěnec je 250g."
+          },
+          {
+            "id": "us-prime-rostenec-ing-1",
+            "question": "Která z následujících surovin patří do podsložky US Prime vysoký roštěnec?",
+            "correctAnswer": "Opečené papričky Padrón",
+            "distractors": [
+              "Vepřová panenka",
+              "Telecí kýta"
+            ],
+            "explanation": "V podsložce US Prime vysoký roštěnec je obsaženo: Opečené papričky Padrón. Kompletní receptura položky: opečené papričky Padrón."
           }
         ]
       },
@@ -2147,7 +2166,6 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "us-prime-burger",
         "name": "US Prime hovězí burger",
         "weight": "200g",
-        "price": "369 Kč",
         "allergens": [
           "1",
           "3",
@@ -2155,6 +2173,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "10"
         ],
         "description": "opečená slanina, čedar, cibulová marmeláda a pikantní majonéza",
+        "price": "369 Kč",
+        "notes": "Mleté vyzrálé maso z amerického býka US Prime na dřevěném uhlí.",
         "questions": [
           {
             "id": "us-prime-burger-vol",
@@ -2164,7 +2184,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
               "150 g",
               "250 g"
             ],
-            "explanation": "Gramáž porce podsložky US Prime hovězí burger je 200g."
+            "explanation": "Gramáž / velikost porce podsložky US Prime hovězí burger je 200g."
           },
           {
             "id": "us-prime-burger-ing-1",
@@ -2193,16 +2213,6 @@ export const MENU_CATEGORIES: MenuCategory[] = [
             "distractors": [
               "Grilované papričky Padrón",
               "Sterilované feferonky"
-            ],
-            "explanation": "V podsložce US Prime hovězí burger je obsaženo: Cibulová marmeláda a pikantní majonéza. Kompletní receptura položky: opečená slanina, čedar, cibulová marmeláda a pikantní majonéza."
-          },
-          {
-            "id": "us-prime-burger-ing-4",
-            "question": "Jaký druh cibulky či šalotky je součástí receptury US Prime hovězí burger?",
-            "correctAnswer": "Cibulová marmeláda a pikantní majonéza",
-            "distractors": [
-              "Kvašené okurky (kvašáky)",
-              "Sušená rajčata"
             ],
             "explanation": "V podsložce US Prime hovězí burger je obsaženo: Cibulová marmeláda a pikantní majonéza. Kompletní receptura položky: opečená slanina, čedar, cibulová marmeláda a pikantní majonéza."
           },
@@ -2252,13 +2262,14 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "grilovany-bucek-yuzu",
         "name": "Grilovaný vepřový bůček",
         "weight": "300g",
-        "price": "299 Kč",
         "allergens": [
           "2",
           "4",
           "6"
         ],
         "description": "karamelizovaná yuzu omáčka, grilovaná jarní cibulka, chimmichurri omáčka",
+        "price": "299 Kč",
+        "notes": "Křupavý bůček s citrusovým asijským yuzu a svěží bylinkovou omáčkou.",
         "questions": [
           {
             "id": "grilovany-bucek-yuzu-vol",
@@ -2268,7 +2279,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
               "250 g",
               "350 g"
             ],
-            "explanation": "Gramáž porce podsložky Grilovaný vepřový bůček je 300g."
+            "explanation": "Gramáž / velikost porce podsložky Grilovaný vepřový bůček je 300g."
           },
           {
             "id": "grilovany-bucek-yuzu-ing-1",
@@ -2336,7 +2347,6 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "nase-pastrami",
         "name": "Naše pastrami",
         "weight": "200g",
-        "price": "455 Kč",
         "allergens": [
           "1",
           "3",
@@ -2344,6 +2354,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "10"
         ],
         "description": "z US Prime hovězího žebra pečeného v hliněné peci, sýr raclette a zelný salát s křenem v opečeném kváskovém chlebu, nakládaná zelenina",
+        "price": "455 Kč",
+        "notes": "Vlastní naložené a zauzené hovězí žebro pečené v hliněné peci.",
         "questions": [
           {
             "id": "nase-pastrami-vol",
@@ -2353,7 +2365,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
               "150 g",
               "250 g"
             ],
-            "explanation": "Gramáž porce podsložky Naše pastrami je 200g."
+            "explanation": "Gramáž / velikost porce podsložky Naše pastrami je 200g."
           },
           {
             "id": "nase-pastrami-ing-1",
@@ -2430,88 +2442,145 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       {
         "id": "pecene-kure-pec",
         "name": "½ Kuře pečené v naší hliněné peci",
-        "price": "279,-",
-        "description": "Možnost výběru ze 3 variant: BBQ (jablečná omáčka, cibulka, bylinkové máslo), TRUFFLE (lanýžové máslo, bramborové křupky, pažitka) nebo CAESAR (omáčka z ančoviček, parmezánu a hořčice, smažené kapary)",
+        "allergens": [
+          "1",
+          "4",
+          "7",
+          "10"
+        ],
+        "description": "jako BBQ potřené pikantní jablečnou omáčkou, křupavá cibulka a bylinkové máslo (alergeny 1, 7); jako TRUFFLE přelité lanýžovým máslem, bramborové křupky, pažitka (alergen 7); jako CAESAR potřené omáčkou z ančoviček, parmezánu a hořčice, smažené kapary (alergeny 4, 7, 10)",
+        "price": "279 Kč",
+        "notes": "Šťavnatá půlka kuřete pečená v autentické hliněné peci, na výběr ze tří stylů úpravy.",
         "questions": [
           {
             "id": "pecene-kure-pec-ing-1",
             "question": "Která omáčka, dresink či redukce patří k podsložce ½ Kuře pečené v naší hliněné peci?",
-            "correctAnswer": "Možnost výběru ze 3 variant: BBQ (jablečná omáčka",
+            "correctAnswer": "Jako BBQ potřené pikantní jablečnou omáčkou",
             "distractors": [
               "Omáčka Choron",
               "Naše salsa verde"
             ],
-            "explanation": "V podsložce ½ Kuře pečené v naší hliněné peci je obsaženo: Možnost výběru ze 3 variant: BBQ (jablečná omáčka. Kompletní receptura položky: Možnost výběru ze 3 variant: BBQ (jablečná omáčka, cibulka, bylinkové máslo), TRUFFLE (lanýžové máslo, bramborové křupky, pažitka) nebo CAESAR (omáčka z ančoviček, parmezánu a hořčice, smažené kapary)."
+            "explanation": "V podsložce ½ Kuře pečené v naší hliněné peci je obsaženo: Jako BBQ potřené pikantní jablečnou omáčkou. Kompletní receptura položky: jako BBQ potřené pikantní jablečnou omáčkou, křupavá cibulka a bylinkové máslo (alergeny 1, 7); jako TRUFFLE přelité lanýžovým máslem, bramborové křupky, pažitka (alergen 7); jako CAESAR potřené omáčkou z ančoviček, parmezánu a hořčice, smažené kapary (alergeny 4, 7, 10)."
           },
           {
             "id": "pecene-kure-pec-ing-2",
             "question": "Jaký druh cibulky či šalotky je součástí receptury ½ Kuře pečené v naší hliněné peci?",
-            "correctAnswer": "Cibulka",
+            "correctAnswer": "Křupavá cibulka a bylinkové máslo (alergeny 1",
             "distractors": [
               "Kysané bílé zelí",
               "Nakládané perlové cibulky"
             ],
-            "explanation": "V podsložce ½ Kuře pečené v naší hliněné peci je obsaženo: Cibulka. Kompletní receptura položky: Možnost výběru ze 3 variant: BBQ (jablečná omáčka, cibulka, bylinkové máslo), TRUFFLE (lanýžové máslo, bramborové křupky, pažitka) nebo CAESAR (omáčka z ančoviček, parmezánu a hořčice, smažené kapary)."
+            "explanation": "V podsložce ½ Kuře pečené v naší hliněné peci je obsaženo: Křupavá cibulka a bylinkové máslo (alergeny 1. Kompletní receptura položky: jako BBQ potřené pikantní jablečnou omáčkou, křupavá cibulka a bylinkové máslo (alergeny 1, 7); jako TRUFFLE přelité lanýžovým máslem, bramborové křupky, pažitka (alergen 7); jako CAESAR potřené omáčkou z ančoviček, parmezánu a hořčice, smažené kapary (alergeny 4, 7, 10)."
           },
           {
             "id": "pecene-kure-pec-ing-3",
-            "question": "Která bylinka, koření či aromatická surovina dochucuje ½ Kuře pečené v naší hliněné peci?",
-            "correctAnswer": "Bylinkové máslo)",
-            "distractors": [
-              "Hladkolistá petrželka",
-              "Drcený kmín"
-            ],
-            "explanation": "V podsložce ½ Kuře pečené v naší hliněné peci je obsaženo: Bylinkové máslo). Kompletní receptura položky: Možnost výběru ze 3 variant: BBQ (jablečná omáčka, cibulka, bylinkové máslo), TRUFFLE (lanýžové máslo, bramborové křupky, pažitka) nebo CAESAR (omáčka z ančoviček, parmezánu a hořčice, smažené kapary)."
-          },
-          {
-            "id": "pecene-kure-pec-ing-4",
-            "question": "Který sýr či mléčná přísada je součástí receptury ½ Kuře pečené v naší hliněné peci?",
-            "correctAnswer": "TRUFFLE (lanýžové máslo",
-            "distractors": [
-              "Koňaková omáčka",
-              "Koprová omáčka"
-            ],
-            "explanation": "V podsložce ½ Kuře pečené v naší hliněné peci je obsaženo: TRUFFLE (lanýžové máslo. Kompletní receptura položky: Možnost výběru ze 3 variant: BBQ (jablečná omáčka, cibulka, bylinkové máslo), TRUFFLE (lanýžové máslo, bramborové křupky, pažitka) nebo CAESAR (omáčka z ančoviček, parmezánu a hořčice, smažené kapary)."
-          },
-          {
-            "id": "pecene-kure-pec-ing-5",
-            "question": "Jaká příloha, pečivo či křupavá složka doplňuje podsložku ½ Kuře pečené v naší hliněné peci?",
-            "correctAnswer": "Bramborové křupky",
-            "distractors": [
-              "Na hovězím loji opečená topinka",
-              "Máslová brioška"
-            ],
-            "explanation": "V podsložce ½ Kuře pečené v naší hliněné peci je obsaženo: Bramborové křupky. Kompletní receptura položky: Možnost výběru ze 3 variant: BBQ (jablečná omáčka, cibulka, bylinkové máslo), TRUFFLE (lanýžové máslo, bramborové křupky, pažitka) nebo CAESAR (omáčka z ančoviček, parmezánu a hořčice, smažené kapary)."
-          },
-          {
-            "id": "pecene-kure-pec-ing-6",
-            "question": "Která bylinka, koření či aromatická surovina dochucuje ½ Kuře pečené v naší hliněné peci?",
-            "correctAnswer": "Pažitka) nebo CAESAR (omáčka z ančoviček",
-            "distractors": [
-              "Libeček",
-              "Estragon"
-            ],
-            "explanation": "V podsložce ½ Kuře pečené v naší hliněné peci je obsaženo: Pažitka) nebo CAESAR (omáčka z ančoviček. Kompletní receptura položky: Možnost výběru ze 3 variant: BBQ (jablečná omáčka, cibulka, bylinkové máslo), TRUFFLE (lanýžové máslo, bramborové křupky, pažitka) nebo CAESAR (omáčka z ančoviček, parmezánu a hořčice, smažené kapary)."
-          },
-          {
-            "id": "pecene-kure-pec-ing-7",
             "question": "Která z následujících surovin patří do podsložky ½ Kuře pečené v naší hliněné peci?",
-            "correctAnswer": "Parmezánu a hořčice",
-            "distractors": [
-              "Kachní prsa",
-              "Vykoštěný pstruh"
-            ],
-            "explanation": "V podsložce ½ Kuře pečené v naší hliněné peci je obsaženo: Parmezánu a hořčice. Kompletní receptura položky: Možnost výběru ze 3 variant: BBQ (jablečná omáčka, cibulka, bylinkové máslo), TRUFFLE (lanýžové máslo, bramborové křupky, pažitka) nebo CAESAR (omáčka z ančoviček, parmezánu a hořčice, smažené kapary)."
-          },
-          {
-            "id": "pecene-kure-pec-ing-8",
-            "question": "Která z následujících surovin patří do podsložky ½ Kuře pečené v naší hliněné peci?",
-            "correctAnswer": "Smažené kapary)",
+            "correctAnswer": "7); jako TRUFFLE přelité lanýžovým máslem",
             "distractors": [
               "Hovězí svíčková",
               "Vepřový bok Duroc"
             ],
-            "explanation": "V podsložce ½ Kuře pečené v naší hliněné peci je obsaženo: Smažené kapary). Kompletní receptura položky: Možnost výběru ze 3 variant: BBQ (jablečná omáčka, cibulka, bylinkové máslo), TRUFFLE (lanýžové máslo, bramborové křupky, pažitka) nebo CAESAR (omáčka z ančoviček, parmezánu a hořčice, smažené kapary)."
+            "explanation": "V podsložce ½ Kuře pečené v naší hliněné peci je obsaženo: 7); jako TRUFFLE přelité lanýžovým máslem. Kompletní receptura položky: jako BBQ potřené pikantní jablečnou omáčkou, křupavá cibulka a bylinkové máslo (alergeny 1, 7); jako TRUFFLE přelité lanýžovým máslem, bramborové křupky, pažitka (alergen 7); jako CAESAR potřené omáčkou z ančoviček, parmezánu a hořčice, smažené kapary (alergeny 4, 7, 10)."
+          },
+          {
+            "id": "pecene-kure-pec-ing-4",
+            "question": "Jaká příloha, pečivo či křupavá složka doplňuje podsložku ½ Kuře pečené v naší hliněné peci?",
+            "correctAnswer": "Bramborové křupky",
+            "distractors": [
+              "Pivní sušenka",
+              "Křupavé vepřové krekry"
+            ],
+            "explanation": "V podsložce ½ Kuře pečené v naší hliněné peci je obsaženo: Bramborové křupky. Kompletní receptura položky: jako BBQ potřené pikantní jablečnou omáčkou, křupavá cibulka a bylinkové máslo (alergeny 1, 7); jako TRUFFLE přelité lanýžovým máslem, bramborové křupky, pažitka (alergen 7); jako CAESAR potřené omáčkou z ančoviček, parmezánu a hořčice, smažené kapary (alergeny 4, 7, 10)."
+          },
+          {
+            "id": "pecene-kure-pec-ing-5",
+            "question": "Která bylinka, koření či aromatická surovina dochucuje ½ Kuře pečené v naší hliněné peci?",
+            "correctAnswer": "Pažitka (alergen 7); jako CAESAR potřené omáčkou z ančoviček",
+            "distractors": [
+              "Tymián",
+              "Čerstvá pažitka"
+            ],
+            "explanation": "V podsložce ½ Kuře pečené v naší hliněné peci je obsaženo: Pažitka (alergen 7); jako CAESAR potřené omáčkou z ančoviček. Kompletní receptura položky: jako BBQ potřené pikantní jablečnou omáčkou, křupavá cibulka a bylinkové máslo (alergeny 1, 7); jako TRUFFLE přelité lanýžovým máslem, bramborové křupky, pažitka (alergen 7); jako CAESAR potřené omáčkou z ančoviček, parmezánu a hořčice, smažené kapary (alergeny 4, 7, 10)."
+          },
+          {
+            "id": "pecene-kure-pec-ing-6",
+            "question": "Která z následujících surovin patří do podsložky ½ Kuře pečené v naší hliněné peci?",
+            "correctAnswer": "Parmezánu a hořčice",
+            "distractors": [
+              "Vepřová panenka",
+              "Telecí kýta"
+            ],
+            "explanation": "V podsložce ½ Kuře pečené v naší hliněné peci je obsaženo: Parmezánu a hořčice. Kompletní receptura položky: jako BBQ potřené pikantní jablečnou omáčkou, křupavá cibulka a bylinkové máslo (alergeny 1, 7); jako TRUFFLE přelité lanýžovým máslem, bramborové křupky, pažitka (alergen 7); jako CAESAR potřené omáčkou z ančoviček, parmezánu a hořčice, smažené kapary (alergeny 4, 7, 10)."
+          },
+          {
+            "id": "pecene-kure-pec-ing-7",
+            "question": "Která z následujících surovin patří do podsložky ½ Kuře pečené v naší hliněné peci?",
+            "correctAnswer": "Smažené kapary (alergeny 4",
+            "distractors": [
+              "Kachní prsa",
+              "Vykoštěný pstruh"
+            ],
+            "explanation": "V podsložce ½ Kuře pečené v naší hliněné peci je obsaženo: Smažené kapary (alergeny 4. Kompletní receptura položky: jako BBQ potřené pikantní jablečnou omáčkou, křupavá cibulka a bylinkové máslo (alergeny 1, 7); jako TRUFFLE přelité lanýžovým máslem, bramborové křupky, pažitka (alergen 7); jako CAESAR potřené omáčkou z ančoviček, parmezánu a hořčice, smažené kapary (alergeny 4, 7, 10)."
+          },
+          {
+            "id": "pecene-kure-pec-ing-8",
+            "question": "Která z následujících surovin patří do podsložky ½ Kuře pečené v naší hliněné peci?",
+            "correctAnswer": "7",
+            "distractors": [
+              "Hovězí svíčková",
+              "Vepřový bok Duroc"
+            ],
+            "explanation": "V podsložce ½ Kuře pečené v naší hliněné peci je obsaženo: 7. Kompletní receptura položky: jako BBQ potřené pikantní jablečnou omáčkou, křupavá cibulka a bylinkové máslo (alergeny 1, 7); jako TRUFFLE přelité lanýžovým máslem, bramborové křupky, pažitka (alergen 7); jako CAESAR potřené omáčkou z ančoviček, parmezánu a hořčice, smažené kapary (alergeny 4, 7, 10)."
+          },
+          {
+            "id": "pecene-kure-pec-ing-9",
+            "question": "Která z následujících surovin patří do podsložky ½ Kuře pečené v naší hliněné peci?",
+            "correctAnswer": "10)",
+            "distractors": [
+              "Jelení hřbet",
+              "Jehněčí kotletka"
+            ],
+            "explanation": "V podsložce ½ Kuře pečené v naší hliněné peci je obsaženo: 10). Kompletní receptura položky: jako BBQ potřené pikantní jablečnou omáčkou, křupavá cibulka a bylinkové máslo (alergeny 1, 7); jako TRUFFLE přelité lanýžovým máslem, bramborové křupky, pažitka (alergen 7); jako CAESAR potřené omáčkou z ančoviček, parmezánu a hořčice, smažené kapary (alergeny 4, 7, 10)."
+          },
+          {
+            "id": "pecene-kure-pec-allergen-1",
+            "question": "Který z následujících alergenů obsahuje podsložka ½ Kuře pečené v naší hliněné peci?",
+            "correctAnswer": "Alergen č. 1 – Obiloviny obsahující lepek",
+            "distractors": [
+              "Alergen č. 3 – Vejce a výrobky z nich",
+              "Alergen č. 11 – Sezamová semena (sezam)"
+            ],
+            "explanation": "½ Kuře pečené v naší hliněné peci obsahuje Alergen č. 1 – Obiloviny obsahující lepek (kváskové pečivo, mouka, strouhanka, slad v pivu). Všechny evidované alergeny této podsložky: Obiloviny obsahující lepek, Ryby a výrobky z nich, Mléko a výrobky z něj (včetně laktózy), Hořčice a výrobky z ní."
+          },
+          {
+            "id": "pecene-kure-pec-allergen-4",
+            "question": "Který z následujících alergenů obsahuje podsložka ½ Kuře pečené v naší hliněné peci?",
+            "correctAnswer": "Alergen č. 4 – Ryby a výrobky z nich",
+            "distractors": [
+              "Alergen č. 8 – Skořápkové plody (ořechy)",
+              "Alergen č. 14 – Měkkýši a výrobky z nich"
+            ],
+            "explanation": "½ Kuře pečené v naší hliněné peci obsahuje Alergen č. 4 – Ryby a výrobky z nich (pstruh, rybí maso, ančovičky, worcester). Všechny evidované alergeny této podsložky: Obiloviny obsahující lepek, Ryby a výrobky z nich, Mléko a výrobky z něj (včetně laktózy), Hořčice a výrobky z ní."
+          },
+          {
+            "id": "pecene-kure-pec-allergen-7",
+            "question": "Který z následujících alergenů obsahuje podsložka ½ Kuře pečené v naší hliněné peci?",
+            "correctAnswer": "Alergen č. 7 – Mléko a výrobky z něj (včetně laktózy)",
+            "distractors": [
+              "Alergen č. 12 – Oxid siřičitý a siřičitany",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+            ],
+            "explanation": "½ Kuře pečené v naší hliněné peci obsahuje Alergen č. 7 – Mléko a výrobky z něj (včetně laktózy) (máslo, sýr, smetana, tvaroh, mléčná pěna). Všechny evidované alergeny této podsložky: Obiloviny obsahující lepek, Ryby a výrobky z nich, Mléko a výrobky z něj (včetně laktózy), Hořčice a výrobky z ní."
+          },
+          {
+            "id": "pecene-kure-pec-allergen-10",
+            "question": "Který z následujících alergenů obsahuje podsložka ½ Kuře pečené v naší hliněné peci?",
+            "correctAnswer": "Alergen č. 10 – Hořčice a výrobky z ní",
+            "distractors": [
+              "Alergen č. 2 – Korýši a výrobky z nich",
+              "Alergen č. 9 – Celer a výrobky z něj"
+            ],
+            "explanation": "½ Kuře pečené v naší hliněné peci obsahuje Alergen č. 10 – Hořčice a výrobky z ní (hořčičné semínko, dijonská hořčice, dresink). Všechny evidované alergeny této podsložky: Obiloviny obsahující lepek, Ryby a výrobky z nich, Mléko a výrobky z něj (včetně laktózy), Hořčice a výrobky z ní."
           }
         ]
       }
@@ -2521,19 +2590,20 @@ export const MENU_CATEGORIES: MenuCategory[] = [
     "id": "teple-omacky",
     "name": "Teplé omáčky",
     "badge": "Teplé omáčky",
-    "description": "Teplé kulinářské redukce a emulze k masům a přílohám",
-    "iconName": "Droplet",
+    "description": "Domácí teplé omáčky připravované redukcí z poctivých vývarů a surovin",
+    "iconName": "Soup",
     "items": [
       {
         "id": "omacka-konakova",
         "name": "Koňaková",
-        "price": "69 Kč",
         "allergens": [
           "7",
           "9",
           "10"
         ],
         "description": "teplá koňaková omáčka",
+        "price": "69 Kč",
+        "notes": "Jemná redukce z telecího fondu se smetanou a francouzským koňakem.",
         "questions": [
           {
             "id": "omacka-konakova-ing-1",
@@ -2580,22 +2650,23 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       {
         "id": "omacka-choron",
         "name": "Choron",
-        "price": "69 Kč",
         "allergens": [
           "3",
           "10"
         ],
-        "description": "teplá rajčatová omáčka choron",
+        "description": "teplá omáčka choron",
+        "price": "69 Kč",
+        "notes": "Klasická teplá emulgovaná bearnská omáčka zjemněná rajčatovým protlakem.",
         "questions": [
           {
             "id": "omacka-choron-ing-1",
             "question": "Která omáčka, dresink či redukce patří k podsložce Choron?",
-            "correctAnswer": "Teplá rajčatová omáčka choron",
+            "correctAnswer": "Teplá omáčka choron",
             "distractors": [
-              "Marinované šalotky",
-              "Pečená kořenová zelenina"
+              "Naše salsa verde",
+              "Višňová omáčka"
             ],
-            "explanation": "V podsložce Choron je obsaženo: Teplá rajčatová omáčka choron. Kompletní receptura položky: teplá rajčatová omáčka choron."
+            "explanation": "V podsložce Choron je obsaženo: Teplá omáčka choron. Kompletní receptura položky: teplá omáčka choron."
           },
           {
             "id": "omacka-choron-allergen-3",
@@ -2622,13 +2693,14 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       {
         "id": "omacka-fines-herbes",
         "name": "Naše fines herbes",
-        "price": "69 Kč",
         "allergens": [
           "4",
           "9",
           "10"
         ],
         "description": "teplá bylinková omáčka fines herbes",
+        "price": "69 Kč",
+        "notes": "Máslová omáčka s čerstvými bylinkami, petrželkou, pažitkou a kapkou ančoviček.",
         "questions": [
           {
             "id": "omacka-fines-herbes-ing-1",
@@ -2675,12 +2747,13 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       {
         "id": "omacka-lanyzova",
         "name": "Lanýžová",
-        "price": "79 Kč",
         "allergens": [
           "7",
           "10"
         ],
         "description": "teplá krémová lanýžová omáčka",
+        "price": "79 Kč",
+        "notes": "Hustá smetanová omáčka s černými lanýži.",
         "questions": [
           {
             "id": "omacka-lanyzova-ing-1",
@@ -2720,18 +2793,19 @@ export const MENU_CATEGORIES: MenuCategory[] = [
     "id": "studene-omacky",
     "name": "Studené omáčky",
     "badge": "Studené omáčky",
-    "description": "Domácí majonézy, salsy a studené omáčky",
+    "description": "Čerstvé studené dipy a omáčky z bylinek a domácích surovin",
     "iconName": "Droplet",
     "items": [
       {
         "id": "omacka-pikantni-majo",
         "name": "Pikantní zauzená majonéza",
-        "price": "59 Kč",
         "allergens": [
           "3",
           "7"
         ],
         "description": "pikantní zauzená majonéza",
+        "price": "59 Kč",
+        "notes": "Domácí majonéza s uzenou paprikou a kapkou chilli.",
         "questions": [
           {
             "id": "omacka-pikantni-majo-ing-1",
@@ -2768,114 +2842,60 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       {
         "id": "omacka-salsa-verde",
         "name": "Naše salsa verde",
+        "allergens": [],
+        "description": "naše čerstvá bylinková salsa verde",
         "price": "59 Kč",
-        "description": "naše bylinková salsa verde",
+        "notes": "Svěží zelená omáčka z čerstvých bylinek, olivového oleje a citronu.",
         "questions": [
           {
             "id": "omacka-salsa-verde-ing-1",
             "question": "Která bylinka, koření či aromatická surovina dochucuje Naše salsa verde?",
-            "correctAnswer": "Naše bylinková salsa verde",
+            "correctAnswer": "Naše čerstvá bylinková salsa verde",
             "distractors": [
               "Libeček",
               "Estragon"
             ],
-            "explanation": "V podsložce Naše salsa verde je obsaženo: Naše bylinková salsa verde. Kompletní receptura položky: naše bylinková salsa verde."
+            "explanation": "V podsložce Naše salsa verde je obsaženo: Naše čerstvá bylinková salsa verde. Kompletní receptura položky: naše čerstvá bylinková salsa verde."
           }
         ]
       },
       {
         "id": "omacka-chimichurri",
         "name": "Chimmichurri omáčka",
+        "allergens": [],
+        "description": "čerstvá bylinková chimmichurri omáčka",
         "price": "65 Kč",
-        "description": "čerstvé bylinky, petrželka a oregano, česnek, chilli, olivový olej",
+        "notes": "Jihoamerická bylinková omáčka z petrželky, oregana, česneku a chilli.",
         "questions": [
           {
             "id": "omacka-chimichurri-ing-1",
             "question": "Která bylinka, koření či aromatická surovina dochucuje Chimmichurri omáčka?",
-            "correctAnswer": "Čerstvé bylinky",
+            "correctAnswer": "Čerstvá bylinková chimmichurri omáčka",
             "distractors": [
               "Libeček",
               "Estragon"
             ],
-            "explanation": "V podsložce Chimmichurri omáčka je obsaženo: Čerstvé bylinky. Kompletní receptura položky: čerstvé bylinky, petrželka a oregano, česnek, chilli, olivový olej."
-          },
-          {
-            "id": "omacka-chimichurri-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Chimmichurri omáčka?",
-            "correctAnswer": "Petrželka a oregano",
-            "distractors": [
-              "Kachní prsa",
-              "Vykoštěný pstruh"
-            ],
-            "explanation": "V podsložce Chimmichurri omáčka je obsaženo: Petrželka a oregano. Kompletní receptura položky: čerstvé bylinky, petrželka a oregano, česnek, chilli, olivový olej."
-          },
-          {
-            "id": "omacka-chimichurri-ing-3",
-            "question": "V jaké formě či úpravě je česnek součástí podsložky Chimmichurri omáčka?",
-            "correctAnswer": "Česnek",
-            "distractors": [
-              "Hladkolistá petrželka",
-              "Drcený kmín"
-            ],
-            "explanation": "V podsložce Chimmichurri omáčka je obsaženo: Česnek. Kompletní receptura položky: čerstvé bylinky, petrželka a oregano, česnek, chilli, olivový olej."
-          },
-          {
-            "id": "omacka-chimichurri-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Chimmichurri omáčka?",
-            "correctAnswer": "Chilli",
-            "distractors": [
-              "Jelení hřbet",
-              "Jehněčí kotletka"
-            ],
-            "explanation": "V podsložce Chimmichurri omáčka je obsaženo: Chilli. Kompletní receptura položky: čerstvé bylinky, petrželka a oregano, česnek, chilli, olivový olej."
-          },
-          {
-            "id": "omacka-chimichurri-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Chimmichurri omáčka?",
-            "correctAnswer": "Olivový olej",
-            "distractors": [
-              "Krůtí prsa",
-              "Hovězí květová špička"
-            ],
-            "explanation": "V podsložce Chimmichurri omáčka je obsaženo: Olivový olej. Kompletní receptura položky: čerstvé bylinky, petrželka a oregano, česnek, chilli, olivový olej."
+            "explanation": "V podsložce Chimmichurri omáčka je obsaženo: Čerstvá bylinková chimmichurri omáčka. Kompletní receptura položky: čerstvá bylinková chimmichurri omáčka."
           }
         ]
       },
       {
         "id": "omacka-kecup",
         "name": "Kečup",
+        "allergens": [],
+        "description": "tradiční rajčatový kečup",
         "price": "40 Kč",
-        "description": "vyzrálá rajčata, kvasný ocet, směs koření",
+        "notes": "Domácí jemně kořeněný kečup z vyzrálých rajčat.",
         "questions": [
           {
             "id": "omacka-kecup-ing-1",
-            "question": "Kterou zeleninovou či ovocnou složku obsahuje podsložka Kečup?",
-            "correctAnswer": "Vyzrálá rajčata",
+            "question": "Která omáčka, dresink či redukce patří k podsložce Kečup?",
+            "correctAnswer": "Tradiční rajčatový kečup",
             "distractors": [
               "Marinované šalotky",
               "Pečená kořenová zelenina"
             ],
-            "explanation": "V podsložce Kečup je obsaženo: Vyzrálá rajčata. Kompletní receptura položky: vyzrálá rajčata, kvasný ocet, směs koření."
-          },
-          {
-            "id": "omacka-kecup-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Kečup?",
-            "correctAnswer": "Kvasný ocet",
-            "distractors": [
-              "Kachní prsa",
-              "Vykoštěný pstruh"
-            ],
-            "explanation": "V podsložce Kečup je obsaženo: Kvasný ocet. Kompletní receptura položky: vyzrálá rajčata, kvasný ocet, směs koření."
-          },
-          {
-            "id": "omacka-kecup-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Kečup?",
-            "correctAnswer": "Směs koření",
-            "distractors": [
-              "Hovězí svíčková",
-              "Vepřový bok Duroc"
-            ],
-            "explanation": "V podsložce Kečup je obsaženo: Směs koření. Kompletní receptura položky: vyzrálá rajčata, kvasný ocet, směs koření."
+            "explanation": "V podsložce Kečup je obsaženo: Tradiční rajčatový kečup. Kompletní receptura položky: tradiční rajčatový kečup."
           }
         ]
       }
@@ -2885,56 +2905,39 @@ export const MENU_CATEGORIES: MenuCategory[] = [
     "id": "prilohy",
     "name": "Přílohy",
     "badge": "Přílohy",
-    "description": "Čerstvé bramborové přílohy, briošky a zelenina",
-    "iconName": "Wheat",
+    "description": "Kvalitní přílohy připravované s láskou k detailu",
+    "iconName": "Utensils",
     "items": [
       {
         "id": "nase-hranolky",
         "name": "Naše hranolky",
+        "allergens": [],
+        "description": "čerstvé smažené hranolky",
         "price": "89 Kč",
-        "description": "čerstvé brambory, hovězí lůj na smažení, mořská sůl",
+        "notes": "Dvakrát smažené čerstvé bramborové hranolky.",
         "questions": [
           {
             "id": "nase-hranolky-ing-1",
             "question": "Jaká příloha, pečivo či křupavá složka doplňuje podsložku Naše hranolky?",
-            "correctAnswer": "Čerstvé brambory",
+            "correctAnswer": "Čerstvé smažené hranolky",
             "distractors": [
               "Máslová brioška",
               "Kváskový chléb"
             ],
-            "explanation": "V podsložce Naše hranolky je obsaženo: Čerstvé brambory. Kompletní receptura položky: čerstvé brambory, hovězí lůj na smažení, mořská sůl."
-          },
-          {
-            "id": "nase-hranolky-ing-2",
-            "question": "Která masová surovina tvoří základ podsložky Naše hranolky?",
-            "correctAnswer": "Hovězí lůj na smažení",
-            "distractors": [
-              "Kachní prsa",
-              "Vykoštěný pstruh"
-            ],
-            "explanation": "V podsložce Naše hranolky je obsaženo: Hovězí lůj na smažení. Kompletní receptura položky: čerstvé brambory, hovězí lůj na smažení, mořská sůl."
-          },
-          {
-            "id": "nase-hranolky-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Naše hranolky?",
-            "correctAnswer": "Mořská sůl",
-            "distractors": [
-              "Hovězí svíčková",
-              "Vepřový bok Duroc"
-            ],
-            "explanation": "V podsložce Naše hranolky je obsaženo: Mořská sůl. Kompletní receptura položky: čerstvé brambory, hovězí lůj na smažení, mořská sůl."
+            "explanation": "V podsložce Naše hranolky je obsaženo: Čerstvé smažené hranolky. Kompletní receptura položky: čerstvé smažené hranolky."
           }
         ]
       },
       {
         "id": "hranolky-red-leicester",
         "name": "Hranolky",
-        "price": "149 Kč",
         "allergens": [
           "3",
           "7"
         ],
         "description": "s lanýžovou majonézou a sýrem Red Leicester",
+        "price": "149 Kč",
+        "notes": "Naše hranolky přelité lanýžovou majonézou a sypané červeným čedarem Red Leicester.",
         "questions": [
           {
             "id": "hranolky-red-leicester-ing-1",
@@ -2971,11 +2974,12 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       {
         "id": "bramborova-kase",
         "name": "Bramborová kaše",
-        "price": "89 Kč",
         "allergens": [
           "7"
         ],
         "description": "máslo, bramborová sláma",
+        "price": "89 Kč",
+        "notes": "Hladká máslová bramborová kaše posypaná křupavou bramborovou slámou.",
         "questions": [
           {
             "id": "bramborova-kase-ing-1",
@@ -3012,11 +3016,12 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       {
         "id": "zauzene-rohlicek-brambory",
         "name": "Zauzené rohlíčkové brambory",
-        "price": "99 Kč",
         "allergens": [
           "7"
         ],
         "description": "máslo",
+        "price": "99 Kč",
+        "notes": "Zauzené lojovité rohlíčkové brambory maštěné přepuštěným máslem.",
         "questions": [
           {
             "id": "zauzene-rohlicek-brambory-ing-1",
@@ -3043,11 +3048,12 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       {
         "id": "salat-trhane-listy",
         "name": "Salát z trhaných salátových listů",
-        "price": "129 Kč",
         "allergens": [
           "10"
         ],
         "description": "a zeleného rajčete, pivní vinaigrette",
+        "price": "129 Kč",
+        "notes": "Čerstvé křupavé listy se zeleným rajčetem a zálivkou z piva a hořčice.",
         "questions": [
           {
             "id": "salat-trhane-listy-ing-1",
@@ -3084,11 +3090,12 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       {
         "id": "pecena-zimni-zelenina",
         "name": "Pečená zimní zelenina",
-        "price": "129 Kč",
         "allergens": [
           "9"
         ],
         "description": "s kardamomem a javorovým sirupem",
+        "price": "129 Kč",
+        "notes": "Kořenová zimní zelenina glazuovaná javorovým sirupem a kardamomem.",
         "questions": [
           {
             "id": "pecena-zimni-zelenina-ing-1",
@@ -3115,13 +3122,14 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       {
         "id": "zelny-salat-kren",
         "name": "Náš zelný salát s křenem",
-        "price": "99 Kč",
         "allergens": [
           "3",
           "7",
           "11"
         ],
         "description": "rozinkami, vinným octem a majonézou",
+        "price": "99 Kč",
+        "notes": "Křupavý zelný salát s řízným strouhaným křenem, rozinkami a dresinkem.",
         "questions": [
           {
             "id": "zelny-salat-kren-ing-1",
@@ -3140,16 +3148,6 @@ export const MENU_CATEGORIES: MenuCategory[] = [
             "distractors": [
               "Višňová omáčka",
               "Jablečná BBQ omáčka"
-            ],
-            "explanation": "V podsložce Náš zelný salát s křenem je obsaženo: Vinným octem a majonézou. Kompletní receptura položky: rozinkami, vinným octem a majonézou."
-          },
-          {
-            "id": "zelny-salat-kren-ing-3",
-            "question": "Která omáčka, dresink či redukce patří k podsložce Náš zelný salát s křenem?",
-            "correctAnswer": "Vinným octem a majonézou",
-            "distractors": [
-              "Libečková majonéza",
-              "Pikantní zauzená majonéza"
             ],
             "explanation": "V podsložce Náš zelný salát s křenem je obsaženo: Vinným octem a majonézou. Kompletní receptura položky: rozinkami, vinným octem a majonézou."
           },
@@ -3188,33 +3186,24 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       {
         "id": "cesnekova-brioska",
         "name": "Opečená česneková brioška",
-        "price": "79 Kč",
         "allergens": [
           "1",
           "3",
           "7"
         ],
-        "description": "česnekové máslo, opečená brioška",
+        "description": "opečená česneková brioška",
+        "price": "79 Kč",
+        "notes": "Máslová brioška potřená česnekovým máslem a zapečená dorůžova.",
         "questions": [
           {
             "id": "cesnekova-brioska-ing-1",
             "question": "V jaké formě či úpravě je česnek součástí podsložky Opečená česneková brioška?",
-            "correctAnswer": "Česnekové máslo",
+            "correctAnswer": "Opečená česneková brioška",
             "distractors": [
-              "Libeček",
-              "Estragon"
+              "Máslová brioška",
+              "Kváskový chléb"
             ],
-            "explanation": "V podsložce Opečená česneková brioška je obsaženo: Česnekové máslo. Kompletní receptura položky: česnekové máslo, opečená brioška."
-          },
-          {
-            "id": "cesnekova-brioska-ing-2",
-            "question": "Jaká příloha, pečivo či křupavá složka doplňuje podsložku Opečená česneková brioška?",
-            "correctAnswer": "Opečená brioška",
-            "distractors": [
-              "Bramborová sláma",
-              "Bramborová kaše"
-            ],
-            "explanation": "V podsložce Opečená česneková brioška je obsaženo: Opečená brioška. Kompletní receptura položky: česnekové máslo, opečená brioška."
+            "explanation": "V podsložce Opečená česneková brioška je obsaženo: Opečená česneková brioška. Kompletní receptura položky: opečená česneková brioška."
           },
           {
             "id": "cesnekova-brioska-allergen-1",
@@ -3251,33 +3240,24 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       {
         "id": "kvaskovy-chleb",
         "name": "Kváskový chléb",
-        "price": "45 Kč",
         "allergens": [
           "1",
           "3",
           "7"
         ],
-        "description": "tradiční kvásek, drcený kmín",
+        "description": "čerstvý kváskový chléb",
+        "price": "45 Kč",
+        "notes": "Krajíce poctivého řemeslného kváskového chleba s kmínem.",
         "questions": [
           {
             "id": "kvaskovy-chleb-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Kváskový chléb?",
-            "correctAnswer": "Tradiční kvásek",
+            "question": "Jaká příloha, pečivo či křupavá složka doplňuje podsložku Kváskový chléb?",
+            "correctAnswer": "Čerstvý kváskový chléb",
             "distractors": [
-              "Vepřová panenka",
-              "Telecí kýta"
+              "Máslová brioška",
+              "Bramborová sláma"
             ],
-            "explanation": "V podsložce Kváskový chléb je obsaženo: Tradiční kvásek. Kompletní receptura položky: tradiční kvásek, drcený kmín."
-          },
-          {
-            "id": "kvaskovy-chleb-ing-2",
-            "question": "Která bylinka, koření či aromatická surovina dochucuje Kváskový chléb?",
-            "correctAnswer": "Drcený kmín",
-            "distractors": [
-              "Majoránka",
-              "Koriandr"
-            ],
-            "explanation": "V podsložce Kváskový chléb je obsaženo: Drcený kmín. Kompletní receptura položky: tradiční kvásek, drcený kmín."
+            "explanation": "V podsložce Kváskový chléb je obsaženo: Čerstvý kváskový chléb. Kompletní receptura položky: čerstvý kváskový chléb."
           },
           {
             "id": "kvaskovy-chleb-allergen-1",
@@ -3317,13 +3297,12 @@ export const MENU_CATEGORIES: MenuCategory[] = [
     "id": "dezerty",
     "name": "Dezerty",
     "badge": "Dezerty",
-    "description": "Řemeslné sladké tečky a autorská pivní zmrzlina",
+    "description": "Sladká tečka na závěr z naší cukrářské dílny",
     "iconName": "Cake",
     "items": [
       {
         "id": "dortik-ganache-sisky",
         "name": "Dortíky s ganache",
-        "price": "209 Kč",
         "allergens": [
           "1",
           "3",
@@ -3331,11 +3310,12 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "8"
         ],
         "description": "ve tvaru chmelových šišek z čokolády Valrhona Dulcey, čokoládová hlína a višňová omáčka",
-        "notes": "Ikonický vizuální dezert odkazující na surovinu piva – chmel.",
+        "price": "209 Kč",
+        "notes": "Originální dezert ve tvaru chmelové šišky z karamelové blond čokolády Valrhona Dulcey.",
         "questions": [
           {
             "id": "dortik-ganache-sisky-ing-1",
-            "question": "Která pivovarská surovina nebo vlastnost charakterizuje Dortíky s ganache?",
+            "question": "Která z následujících surovin patří do podsložky Dortíky s ganache?",
             "correctAnswer": "Ve tvaru chmelových šišek z čokolády Valrhona Dulcey",
             "distractors": [
               "Vepřová panenka",
@@ -3350,16 +3330,6 @@ export const MENU_CATEGORIES: MenuCategory[] = [
             "distractors": [
               "Jablečná BBQ omáčka",
               "Libečková majonéza"
-            ],
-            "explanation": "V podsložce Dortíky s ganache je obsaženo: Čokoládová hlína a višňová omáčka. Kompletní receptura položky: ve tvaru chmelových šišek z čokolády Valrhona Dulcey, čokoládová hlína a višňová omáčka."
-          },
-          {
-            "id": "dortik-ganache-sisky-ing-3",
-            "question": "Která omáčka, dresink či redukce patří k podsložce Dortíky s ganache?",
-            "correctAnswer": "Čokoládová hlína a višňová omáčka",
-            "distractors": [
-              "Pikantní zauzená majonéza",
-              "Koňaková omáčka"
             ],
             "explanation": "V podsložce Dortíky s ganache je obsaženo: Čokoládová hlína a višňová omáčka. Kompletní receptura položky: ve tvaru chmelových šišek z čokolády Valrhona Dulcey, čokoládová hlína a višňová omáčka."
           },
@@ -3408,13 +3378,14 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       {
         "id": "karamelovy-trhanec",
         "name": "Karamelový trhanec",
-        "price": "169 Kč",
         "allergens": [
           "1",
           "3",
           "7"
         ],
         "description": "s pečenými švestkami, zmrzlina z vaječného likéru",
+        "price": "169 Kč",
+        "notes": "Nadýchaný rakouský trhanec se zkaramelizovaným cukrem a švestkami.",
         "questions": [
           {
             "id": "karamelovy-trhanec-ing-1",
@@ -3471,17 +3442,18 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       {
         "id": "pivni-zmrzlina",
         "name": "Naše pivní zmrzlina",
-        "price": "139 Kč",
         "allergens": [
           "1",
           "3",
           "7"
         ],
         "description": "se sladovou žmolenkou, šlehačka",
+        "price": "139 Kč",
+        "notes": "Domácí smetanová zmrzlina s infuzí tmavého piva a křupavým ječným sladem.",
         "questions": [
           {
             "id": "pivni-zmrzlina-ing-1",
-            "question": "Která pivovarská surovina nebo vlastnost charakterizuje Naše pivní zmrzlina?",
+            "question": "Která z následujících surovin patří do podsložky Naše pivní zmrzlina?",
             "correctAnswer": "Se sladovou žmolenkou",
             "distractors": [
               "Vepřová panenka",
@@ -3537,20 +3509,21 @@ export const MENU_CATEGORIES: MenuCategory[] = [
     "id": "pro-deti",
     "name": "Pro děti",
     "badge": "Pro děti",
-    "description": "Vyvážená a oblíbená jídla připravená speciálně pro malé návštěvníky",
-    "iconName": "Utensils",
+    "description": "Oblíbená dětská jídla z kvalitních surovin a v menších porcích",
+    "iconName": "Smile",
     "items": [
       {
         "id": "kureci-rizek",
         "name": "Kuřecí řízek",
         "weight": "100g",
-        "price": "125 Kč",
         "allergens": [
           "1",
           "3",
           "7"
         ],
         "description": "bramborová kaše",
+        "price": "125 Kč",
+        "notes": "Jemný smažený kuřecí řízek s máslovou bramborovou kaší.",
         "questions": [
           {
             "id": "kureci-rizek-vol",
@@ -3560,7 +3533,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
               "150 g",
               "200 g"
             ],
-            "explanation": "Gramáž porce podsložky Kuřecí řízek je 100g."
+            "explanation": "Gramáž / velikost porce podsložky Kuřecí řízek je 100g."
           },
           {
             "id": "kureci-rizek-ing-1",
@@ -3608,7 +3581,6 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "cheeseburger-deti",
         "name": "Cheeseburger",
         "weight": "100g",
-        "price": "129 Kč",
         "allergens": [
           "1",
           "3",
@@ -3616,6 +3588,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "10"
         ],
         "description": "s čedarem, salátem, rajčaty a kečupem, domácí hranolky",
+        "price": "129 Kč",
+        "notes": "Dětský hovězí burger s čedarem, kečupem a křupavými hranolky.",
         "questions": [
           {
             "id": "cheeseburger-deti-vol",
@@ -3625,7 +3599,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
               "150 g",
               "200 g"
             ],
-            "explanation": "Gramáž porce podsložky Cheeseburger je 100g."
+            "explanation": "Gramáž / velikost porce podsložky Cheeseburger je 100g."
           },
           {
             "id": "cheeseburger-deti-ing-1",
@@ -3712,12 +3686,13 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       {
         "id": "krupicova-kase",
         "name": "Krupicová kaše",
-        "price": "119 Kč",
         "allergens": [
           "1",
           "7"
         ],
         "description": "z espumy s kakaem a máslem",
+        "price": "119 Kč",
+        "notes": "Nadýchaná jemná krupicová pěna z espumy s poctivým kakaem a máslem.",
         "questions": [
           {
             "id": "krupicova-kase-ing-1",

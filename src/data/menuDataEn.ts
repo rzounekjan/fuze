@@ -4,22 +4,22 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   {
     "id": "predkrmy",
     "name": "Appetizers and small dishes",
-    "badge": "Appetizers & small dishes",
-    "description": "Signature starters paired perfectly with beer",
+    "badge": "Appetizers and small dishes",
+    "description": "Author appetizers highlighting aged ingredients, local craft, and beer pairing",
     "iconName": "Utensils",
     "items": [
       {
         "id": "tatarak",
         "name": "Sliced beef tartare",
         "weight": "90g",
-        "price": "239 CZK",
         "allergens": [
           "1",
           "3",
           "7"
         ],
-        "description": "from tip of the sirloin, tiny pickles, marinated shallots, parsley leaf, sourdough toasted on beef lard, confit garlic, potato straw",
-        "notes": "from tip of the sirloin, cornichons, marinated shallots, chives, toasted sourdough on beef lard, confit garlic, and potato straw",
+        "description": "from tip of the sirloin, cornichons, marinated shallots, chives, toasted sourdough on beef lard and confit garlic, potato straw",
+        "price": "239 CZK",
+        "notes": "Hand-sliced prime beef tartare served with crispy potato straw and sourdough bread toasted on beef tallow.",
         "questions": [
           {
             "id": "tatarak-vol",
@@ -29,7 +29,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "100 g",
               "150 g"
             ],
-            "explanation": "The portion weight of Sliced beef tartare is 90g."
+            "explanation": "The portion size / weight of Sliced beef tartare is 90g."
           },
           {
             "id": "tatarak-ing-1",
@@ -39,67 +39,57 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Sliced beef tartare, this component is present: From tip of the sirloin. Full recipe ingredients: from tip of the sirloin, tiny pickles, marinated shallots, parsley leaf, sourdough toasted on beef lard, confit garlic, potato straw."
+            "explanation": "In Sliced beef tartare, this component is present: From tip of the sirloin. Full recipe ingredients: from tip of the sirloin, cornichons, marinated shallots, chives, toasted sourdough on beef lard and confit garlic, potato straw."
           },
           {
             "id": "tatarak-ing-2",
             "question": "Which pickled ingredient is included in Sliced beef tartare?",
-            "correctAnswer": "Tiny pickles",
+            "correctAnswer": "Cornichons",
             "distractors": [
-              "Pickled pearl onions",
-              "Grilled Padron peppers"
+              "Grilled Padron peppers",
+              "Pickled chili peppers"
             ],
-            "explanation": "In Sliced beef tartare, this component is present: Tiny pickles. Full recipe ingredients: from tip of the sirloin, tiny pickles, marinated shallots, parsley leaf, sourdough toasted on beef lard, confit garlic, potato straw."
+            "explanation": "In Sliced beef tartare, this component is present: Cornichons. Full recipe ingredients: from tip of the sirloin, cornichons, marinated shallots, chives, toasted sourdough on beef lard and confit garlic, potato straw."
           },
           {
             "id": "tatarak-ing-3",
             "question": "Which onion or shallot ingredient is included in Sliced beef tartare?",
             "correctAnswer": "Marinated shallots",
             "distractors": [
-              "Pickled chili peppers",
-              "Fermented dill pickles"
+              "Fermented dill pickles",
+              "Sun-dried tomatoes"
             ],
-            "explanation": "In Sliced beef tartare, this component is present: Marinated shallots. Full recipe ingredients: from tip of the sirloin, tiny pickles, marinated shallots, parsley leaf, sourdough toasted on beef lard, confit garlic, potato straw."
+            "explanation": "In Sliced beef tartare, this component is present: Marinated shallots. Full recipe ingredients: from tip of the sirloin, cornichons, marinated shallots, chives, toasted sourdough on beef lard and confit garlic, potato straw."
           },
           {
             "id": "tatarak-ing-4",
-            "question": "Which ingredient is part of Sliced beef tartare?",
-            "correctAnswer": "Parsley leaf",
+            "question": "Which fresh herb or spice seasoning finishes Sliced beef tartare?",
+            "correctAnswer": "Chives",
             "distractors": [
-              "Venison saddle",
-              "Lamb chop"
+              "Fresh rosemary",
+              "Thyme"
             ],
-            "explanation": "In Sliced beef tartare, this component is present: Parsley leaf. Full recipe ingredients: from tip of the sirloin, tiny pickles, marinated shallots, parsley leaf, sourdough toasted on beef lard, confit garlic, potato straw."
+            "explanation": "In Sliced beef tartare, this component is present: Chives. Full recipe ingredients: from tip of the sirloin, cornichons, marinated shallots, chives, toasted sourdough on beef lard and confit garlic, potato straw."
           },
           {
             "id": "tatarak-ing-5",
-            "question": "Which bread, side, or crispy garnish accompanies Sliced beef tartare?",
-            "correctAnswer": "Sourdough toasted on beef lard",
+            "question": "In what culinary form is garlic included in Sliced beef tartare?",
+            "correctAnswer": "Toasted sourdough on beef lard and confit garlic",
             "distractors": [
-              "Toasted sourdough on beef lard",
-              "Butter brioche"
+              "Sourdough bread",
+              "Mashed potatoes"
             ],
-            "explanation": "In Sliced beef tartare, this component is present: Sourdough toasted on beef lard. Full recipe ingredients: from tip of the sirloin, tiny pickles, marinated shallots, parsley leaf, sourdough toasted on beef lard, confit garlic, potato straw."
+            "explanation": "In Sliced beef tartare, this component is present: Toasted sourdough on beef lard and confit garlic. Full recipe ingredients: from tip of the sirloin, cornichons, marinated shallots, chives, toasted sourdough on beef lard and confit garlic, potato straw."
           },
           {
             "id": "tatarak-ing-6",
-            "question": "In what culinary form is garlic included in Sliced beef tartare?",
-            "correctAnswer": "Confit garlic",
-            "distractors": [
-              "Lovage",
-              "Tarragon"
-            ],
-            "explanation": "In Sliced beef tartare, this component is present: Confit garlic. Full recipe ingredients: from tip of the sirloin, tiny pickles, marinated shallots, parsley leaf, sourdough toasted on beef lard, confit garlic, potato straw."
-          },
-          {
-            "id": "tatarak-ing-7",
             "question": "Which bread, side, or crispy garnish accompanies Sliced beef tartare?",
             "correctAnswer": "Potato straw",
             "distractors": [
               "Potato crisps",
               "Homemade fries"
             ],
-            "explanation": "In Sliced beef tartare, this component is present: Potato straw. Full recipe ingredients: from tip of the sirloin, tiny pickles, marinated shallots, parsley leaf, sourdough toasted on beef lard, confit garlic, potato straw."
+            "explanation": "In Sliced beef tartare, this component is present: Potato straw. Full recipe ingredients: from tip of the sirloin, cornichons, marinated shallots, chives, toasted sourdough on beef lard and confit garlic, potato straw."
           },
           {
             "id": "tatarak-allergen-1",
@@ -137,7 +127,6 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "id": "klobasa-smrze",
         "name": "Our veal sausage with morels",
         "weight": "100g",
-        "price": "219 CZK",
         "allergens": [
           "1",
           "3",
@@ -145,8 +134,9 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
           "8",
           "10"
         ],
-        "description": "chestnuts and dried plums, truffle sauce, beer crumble",
-        "notes": "chestnuts and dried plums, truffle sauce, beer crumble",
+        "description": "chestnuts and dried plums, truffle sauce, beer biscuit",
+        "price": "219 CZK",
+        "notes": "House-made artisanal veal sausage with morels, chestnuts, and truffle sauce.",
         "questions": [
           {
             "id": "klobasa-smrze-vol",
@@ -156,7 +146,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "150 g",
               "200 g"
             ],
-            "explanation": "The portion weight of Our veal sausage with morels is 100g."
+            "explanation": "The portion size / weight of Our veal sausage with morels is 100g."
           },
           {
             "id": "klobasa-smrze-ing-1",
@@ -166,7 +156,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Our veal sausage with morels, this component is present: Chestnuts and dried plums. Full recipe ingredients: chestnuts and dried plums, truffle sauce, beer crumble."
+            "explanation": "In Our veal sausage with morels, this component is present: Chestnuts and dried plums. Full recipe ingredients: chestnuts and dried plums, truffle sauce, beer biscuit."
           },
           {
             "id": "klobasa-smrze-ing-2",
@@ -176,17 +166,17 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Apple BBQ sauce",
               "Lovage mayonnaise"
             ],
-            "explanation": "In Our veal sausage with morels, this component is present: Truffle sauce. Full recipe ingredients: chestnuts and dried plums, truffle sauce, beer crumble."
+            "explanation": "In Our veal sausage with morels, this component is present: Truffle sauce. Full recipe ingredients: chestnuts and dried plums, truffle sauce, beer biscuit."
           },
           {
             "id": "klobasa-smrze-ing-3",
-            "question": "Which spirit or liqueur is a signature component of Our veal sausage with morels?",
-            "correctAnswer": "Beer crumble",
+            "question": "Which bread, side, or crispy garnish accompanies Our veal sausage with morels?",
+            "correctAnswer": "Beer biscuit",
             "distractors": [
               "Beef tenderloin",
               "Duroc pork belly"
             ],
-            "explanation": "In Our veal sausage with morels, this component is present: Beer crumble. Full recipe ingredients: chestnuts and dried plums, truffle sauce, beer crumble."
+            "explanation": "In Our veal sausage with morels, this component is present: Beer biscuit. Full recipe ingredients: chestnuts and dried plums, truffle sauce, beer biscuit."
           },
           {
             "id": "klobasa-smrze-allergen-1",
@@ -244,14 +234,14 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "id": "foie-gras",
         "name": "Foie gras pâté",
         "weight": "100g",
-        "price": "315 CZK",
         "allergens": [
           "1",
           "3",
           "7"
         ],
         "description": "in Kasteel Rouge beer jelly, cherry sauce, toasted butter brioche",
-        "notes": "in Kasteel Rouge beer jelly, cherry sauce, toasted butter brioche",
+        "price": "315 CZK",
+        "notes": "Rich duck foie gras pâté glazed with Belgian cherry beer jelly.",
         "questions": [
           {
             "id": "foie-gras-vol",
@@ -261,7 +251,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "150 g",
               "200 g"
             ],
-            "explanation": "The portion weight of Foie gras pâté is 100g."
+            "explanation": "The portion size / weight of Foie gras pâté is 100g."
           },
           {
             "id": "foie-gras-ing-1",
@@ -329,14 +319,14 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "id": "veprovy-bok-platky",
         "name": "Thin slices of pork belly",
         "weight": "100g",
-        "price": "169 CZK",
         "allergens": [
           "1",
           "4",
           "10"
         ],
-        "description": "hop-smoked, crispy pork cracklings, over roasted apples and horseradish, fried peas",
-        "notes": "hop-smoked, crispy pork cracklings, oven-roasted apple and mustard purée, fresh horseradish, and fried peas",
+        "description": "hop-smoked, crispy pork cracklings, purée of roasted apples and mustard, fried peas",
+        "price": "169 CZK",
+        "notes": "Delicate slices of hop-smoked pork belly with roasted apple and mustard purée.",
         "questions": [
           {
             "id": "veprovy-bok-platky-vol",
@@ -346,17 +336,17 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "150 g",
               "200 g"
             ],
-            "explanation": "The portion weight of Thin slices of pork belly is 100g."
+            "explanation": "The portion size / weight of Thin slices of pork belly is 100g."
           },
           {
             "id": "veprovy-bok-platky-ing-1",
-            "question": "Which brewing raw material or trait characterizes Thin slices of pork belly?",
+            "question": "Which ingredient is part of Thin slices of pork belly?",
             "correctAnswer": "Hop-smoked",
             "distractors": [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Thin slices of pork belly, this component is present: Hop-smoked. Full recipe ingredients: hop-smoked, crispy pork cracklings, over roasted apples and horseradish, fried peas."
+            "explanation": "In Thin slices of pork belly, this component is present: Hop-smoked. Full recipe ingredients: hop-smoked, crispy pork cracklings, purée of roasted apples and mustard, fried peas."
           },
           {
             "id": "veprovy-bok-platky-ing-2",
@@ -366,17 +356,17 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Duck breast",
               "Deboned trout"
             ],
-            "explanation": "In Thin slices of pork belly, this component is present: Crispy pork cracklings. Full recipe ingredients: hop-smoked, crispy pork cracklings, over roasted apples and horseradish, fried peas."
+            "explanation": "In Thin slices of pork belly, this component is present: Crispy pork cracklings. Full recipe ingredients: hop-smoked, crispy pork cracklings, purée of roasted apples and mustard, fried peas."
           },
           {
             "id": "veprovy-bok-platky-ing-3",
             "question": "Which vegetable or fruit component is included in Thin slices of pork belly?",
-            "correctAnswer": "Over roasted apples and horseradish",
+            "correctAnswer": "Purée of roasted apples and mustard",
             "distractors": [
               "Grilled Padron peppers",
               "Pickled chili peppers"
             ],
-            "explanation": "In Thin slices of pork belly, this component is present: Over roasted apples and horseradish. Full recipe ingredients: hop-smoked, crispy pork cracklings, over roasted apples and horseradish, fried peas."
+            "explanation": "In Thin slices of pork belly, this component is present: Purée of roasted apples and mustard. Full recipe ingredients: hop-smoked, crispy pork cracklings, purée of roasted apples and mustard, fried peas."
           },
           {
             "id": "veprovy-bok-platky-ing-4",
@@ -386,7 +376,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Venison saddle",
               "Lamb chop"
             ],
-            "explanation": "In Thin slices of pork belly, this component is present: Fried peas. Full recipe ingredients: hop-smoked, crispy pork cracklings, over roasted apples and horseradish, fried peas."
+            "explanation": "In Thin slices of pork belly, this component is present: Fried peas. Full recipe ingredients: hop-smoked, crispy pork cracklings, purée of roasted apples and mustard, fried peas."
           },
           {
             "id": "veprovy-bok-platky-allergen-1",
@@ -424,7 +414,6 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "id": "kureci-krokety",
         "name": "Fried chicken croquettes",
         "weight": "100g",
-        "price": "175 CZK",
         "allergens": [
           "1",
           "3",
@@ -432,7 +421,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
           "14"
         ],
         "description": "with cheddar, our salsa verde, lovage mayonnaise",
-        "notes": "with cheddar, our salsa verde, lovage mayonnaise",
+        "price": "175 CZK",
+        "notes": "Crispy chicken croquettes with melting cheddar and fresh herb salsa verde.",
         "questions": [
           {
             "id": "kureci-krokety-vol",
@@ -442,7 +432,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "150 g",
               "200 g"
             ],
-            "explanation": "The portion weight of Fried chicken croquettes is 100g."
+            "explanation": "The portion size / weight of Fried chicken croquettes is 100g."
           },
           {
             "id": "kureci-krokety-ing-1",
@@ -518,97 +508,96 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "olomoucke-tvaruzky",
-        "name": "Olomouc curd cheese spread",
-        "weight": "",
-        "price": "199 CZK",
+        "name": "Chopped Olomouc curd cheese",
         "allergens": [
           "1",
           "3",
           "7",
           "10"
         ],
-        "description": "with onion and paprika-mustard seed mayonnaise on toasted sourdough, horseradish and pickled vegetables",
-        "notes": "with onion, marjoram, paprika and mustard seeds on toasted sourdough bread, horseradish and pickled vegetables",
+        "description": "with onion, paprika mayonnaise and mustard seeds on toasted sourdough bread, horseradish, pickled vegetables",
+        "price": "199 CZK",
+        "notes": "Pungent traditional ripened Moravian curd cheese served on toasted sourdough.",
         "questions": [
           {
             "id": "olomoucke-tvaruzky-ing-1",
-            "question": "Which bread, side, or crispy garnish accompanies Olomouc curd cheese spread?",
-            "correctAnswer": "With onion and paprika-mustard seed mayonnaise on toasted sourdough",
+            "question": "Which onion or shallot ingredient is included in Chopped Olomouc curd cheese?",
+            "correctAnswer": "With onion",
             "distractors": [
-              "Butter brioche",
-              "Sourdough bread"
+              "Marinated shallots",
+              "Roasted root vegetables"
             ],
-            "explanation": "In Olomouc curd cheese spread, this component is present: With onion and paprika-mustard seed mayonnaise on toasted sourdough. Full recipe ingredients: with onion and paprika-mustard seed mayonnaise on toasted sourdough, horseradish and pickled vegetables."
+            "explanation": "In Chopped Olomouc curd cheese, this component is present: With onion. Full recipe ingredients: with onion, paprika mayonnaise and mustard seeds on toasted sourdough bread, horseradish, pickled vegetables."
           },
           {
             "id": "olomoucke-tvaruzky-ing-2",
-            "question": "Which pickled ingredient is included in Olomouc curd cheese spread?",
-            "correctAnswer": "Horseradish and pickled vegetables",
+            "question": "Which bread, side, or crispy garnish accompanies Chopped Olomouc curd cheese?",
+            "correctAnswer": "Paprika mayonnaise and mustard seeds on toasted sourdough bread",
             "distractors": [
-              "Sauerkraut",
-              "Pickled pearl onions"
+              "Mashed potatoes",
+              "Potato crisps"
             ],
-            "explanation": "In Olomouc curd cheese spread, this component is present: Horseradish and pickled vegetables. Full recipe ingredients: with onion and paprika-mustard seed mayonnaise on toasted sourdough, horseradish and pickled vegetables."
+            "explanation": "In Chopped Olomouc curd cheese, this component is present: Paprika mayonnaise and mustard seeds on toasted sourdough bread. Full recipe ingredients: with onion, paprika mayonnaise and mustard seeds on toasted sourdough bread, horseradish, pickled vegetables."
           },
           {
             "id": "olomoucke-tvaruzky-ing-3",
-            "question": "Which pickled ingredient is included in Olomouc curd cheese spread?",
-            "correctAnswer": "Horseradish and pickled vegetables",
+            "question": "Which ingredient is part of Chopped Olomouc curd cheese?",
+            "correctAnswer": "Horseradish",
             "distractors": [
-              "Grilled Padron peppers",
-              "Pickled chili peppers"
+              "Beef tenderloin",
+              "Duroc pork belly"
             ],
-            "explanation": "In Olomouc curd cheese spread, this component is present: Horseradish and pickled vegetables. Full recipe ingredients: with onion and paprika-mustard seed mayonnaise on toasted sourdough, horseradish and pickled vegetables."
+            "explanation": "In Chopped Olomouc curd cheese, this component is present: Horseradish. Full recipe ingredients: with onion, paprika mayonnaise and mustard seeds on toasted sourdough bread, horseradish, pickled vegetables."
           },
           {
             "id": "olomoucke-tvaruzky-ing-4",
-            "question": "Which pickled ingredient is included in Olomouc curd cheese spread?",
-            "correctAnswer": "Horseradish and pickled vegetables",
+            "question": "Which pickled ingredient is included in Chopped Olomouc curd cheese?",
+            "correctAnswer": "Pickled vegetables",
             "distractors": [
               "Fermented dill pickles",
               "Sun-dried tomatoes"
             ],
-            "explanation": "In Olomouc curd cheese spread, this component is present: Horseradish and pickled vegetables. Full recipe ingredients: with onion and paprika-mustard seed mayonnaise on toasted sourdough, horseradish and pickled vegetables."
+            "explanation": "In Chopped Olomouc curd cheese, this component is present: Pickled vegetables. Full recipe ingredients: with onion, paprika mayonnaise and mustard seeds on toasted sourdough bread, horseradish, pickled vegetables."
           },
           {
             "id": "olomoucke-tvaruzky-allergen-1",
-            "question": "Which of the following allergens is present in Olomouc curd cheese spread?",
+            "question": "Which of the following allergens is present in Chopped Olomouc curd cheese?",
             "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
             "distractors": [
               "Allergen No. 4 – Fish and products thereof",
               "Allergen No. 11 – Sesame seeds and products thereof"
             ],
-            "explanation": "Olomouc curd cheese spread contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Chopped Olomouc curd cheese contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
             "id": "olomoucke-tvaruzky-allergen-3",
-            "question": "Which of the following allergens is present in Olomouc curd cheese spread?",
+            "question": "Which of the following allergens is present in Chopped Olomouc curd cheese?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
               "Allergen No. 6 – Soybeans and products thereof",
               "Allergen No. 13 – Lupin and products thereof"
             ],
-            "explanation": "Olomouc curd cheese spread contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Chopped Olomouc curd cheese contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
             "id": "olomoucke-tvaruzky-allergen-7",
-            "question": "Which of the following allergens is present in Olomouc curd cheese spread?",
+            "question": "Which of the following allergens is present in Chopped Olomouc curd cheese?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 12 – Sulphur dioxide and sulphites",
               "Allergen No. 5 – Peanuts and products thereof"
             ],
-            "explanation": "Olomouc curd cheese spread contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Chopped Olomouc curd cheese contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
             "id": "olomoucke-tvaruzky-allergen-10",
-            "question": "Which of the following allergens is present in Olomouc curd cheese spread?",
+            "question": "Which of the following allergens is present in Chopped Olomouc curd cheese?",
             "correctAnswer": "Allergen No. 10 – Mustard and products thereof",
             "distractors": [
               "Allergen No. 2 – Crustaceans and products thereof",
               "Allergen No. 9 – Celery and products thereof"
             ],
-            "explanation": "Olomouc curd cheese spread contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Chopped Olomouc curd cheese contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           }
         ]
       }
@@ -617,20 +606,19 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   {
     "id": "chutovky",
     "name": "Bar snacks",
-    "badge": "Bar Snacks",
-    "description": "Small bites and savory snacks to accompany drinks",
-    "iconName": "Sparkles",
+    "badge": "Bar snacks",
+    "description": "Savory small bites to accompany beer and wine from our kitchen",
+    "iconName": "Cookie",
     "items": [
       {
         "id": "lanyzovy-popcorn",
         "name": "Truffle popcorn",
-        "weight": "",
-        "price": "139 CZK",
         "allergens": [
           "7"
         ],
         "description": "with parmesan",
-        "notes": "with parmesan",
+        "price": "139 CZK",
+        "notes": "Freshly popped corn tossed with fragrant truffle oil and finely grated parmesan.",
         "questions": [
           {
             "id": "lanyzovy-popcorn-ing-1",
@@ -656,34 +644,33 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "domaci-bramburky",
-        "name": "Homemade potatoes",
-        "weight": "",
-        "price": "125 CZK",
+        "name": "Our homemade potato crisps",
         "allergens": [
           "7"
         ],
         "description": "spicy smoked mayonnaise",
-        "notes": "with spicy smoked mayonnaise",
+        "price": "125 CZK",
+        "notes": "Hand-cut crispy potato chips served with our signature smoked mayonnaise.",
         "questions": [
           {
             "id": "domaci-bramburky-ing-1",
-            "question": "Which sauce, dressing, or reduction accompanies Homemade potatoes?",
+            "question": "Which sauce, dressing, or reduction accompanies Our homemade potato crisps?",
             "correctAnswer": "Spicy smoked mayonnaise",
             "distractors": [
               "Choron sauce",
               "Our salsa verde"
             ],
-            "explanation": "In Homemade potatoes, this component is present: Spicy smoked mayonnaise. Full recipe ingredients: spicy smoked mayonnaise."
+            "explanation": "In Our homemade potato crisps, this component is present: Spicy smoked mayonnaise. Full recipe ingredients: spicy smoked mayonnaise."
           },
           {
             "id": "domaci-bramburky-allergen-7",
-            "question": "Which of the following allergens is present in Homemade potatoes?",
+            "question": "Which of the following allergens is present in Our homemade potato crisps?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 9 – Celery and products thereof",
               "Allergen No. 14 – Molluscs and products thereof"
             ],
-            "explanation": "Homemade potatoes contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Milk and products thereof (including lactose)."
+            "explanation": "Our homemade potato crisps contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Milk and products thereof (including lactose)."
           }
         ]
       }
@@ -693,19 +680,18 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
     "id": "polevky",
     "name": "Soups",
     "badge": "Soups",
-    "description": "Hearty broths and creamy soups made with premium ingredients",
+    "description": "Rich traditional broths and hearty soups made from scratch",
     "iconName": "Soup",
     "items": [
       {
         "id": "hovezi-consomme",
         "name": "Beef consommé",
-        "weight": "",
-        "price": "109 CZK",
         "allergens": [
           "9"
         ],
         "description": "delicate liver dumpling, vegetables",
-        "notes": "delicate liver dumpling, vegetables",
+        "price": "109 CZK",
+        "notes": "Crystal-clear slow-simmered beef broth with homemade liver dumpling.",
         "questions": [
           {
             "id": "hovezi-consomme-ing-1",
@@ -742,8 +728,6 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "kremova-humri",
         "name": "Creamy lobster soup",
-        "weight": "",
-        "price": "269 CZK",
         "allergens": [
           "1",
           "2",
@@ -751,28 +735,29 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
           "7",
           "9"
         ],
-        "description": "with saffron and brandy, topped with puff pastry",
-        "notes": "with seafood sausage and vegetables, saffron and brandy, baked under puff pastry",
+        "description": "with sausage and vegetables, baked in puff pastry crust",
+        "price": "269 CZK",
+        "notes": "Velvety lobster bisque sealed with golden flaky puff pastry.",
         "questions": [
           {
             "id": "kremova-humri-ing-1",
-            "question": "Which ingredient is part of Creamy lobster soup?",
-            "correctAnswer": "With saffron and brandy",
+            "question": "Which meat or seafood ingredient forms the base of Creamy lobster soup?",
+            "correctAnswer": "With sausage and vegetables",
             "distractors": [
-              "Pork tenderloin",
-              "Veal leg"
+              "Marinated shallots",
+              "Roasted root vegetables"
             ],
-            "explanation": "In Creamy lobster soup, this component is present: With saffron and brandy. Full recipe ingredients: with saffron and brandy, topped with puff pastry."
+            "explanation": "In Creamy lobster soup, this component is present: With sausage and vegetables. Full recipe ingredients: with sausage and vegetables, baked in puff pastry crust."
           },
           {
             "id": "kremova-humri-ing-2",
             "question": "Which ingredient is part of Creamy lobster soup?",
-            "correctAnswer": "Topped with puff pastry",
+            "correctAnswer": "Baked in puff pastry crust",
             "distractors": [
               "Duck breast",
               "Deboned trout"
             ],
-            "explanation": "In Creamy lobster soup, this component is present: Topped with puff pastry. Full recipe ingredients: with saffron and brandy, topped with puff pastry."
+            "explanation": "In Creamy lobster soup, this component is present: Baked in puff pastry crust. Full recipe ingredients: with sausage and vegetables, baked in puff pastry crust."
           },
           {
             "id": "kremova-humri-allergen-1",
@@ -832,14 +817,12 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
     "id": "salaty",
     "name": "Salads",
     "badge": "Salads",
-    "description": "Crisp salads with balanced dressings",
+    "description": "Crisp vibrant salads paired with homemade dressings and fresh herbs",
     "iconName": "Salad",
     "items": [
       {
         "id": "caesar-salat",
         "name": "Caesar salad",
-        "weight": "",
-        "price": "289 CZK",
         "allergens": [
           "1",
           "3",
@@ -847,18 +830,19 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
           "7",
           "10"
         ],
-        "description": "with oven-roasted pulled chicken, crispy bacon, parmesan and croutons",
-        "notes": "with oven-roasted pulled chicken, crispy bacon, parmesan, and croutons",
+        "description": "with oven-pulled chicken, crispy bacon, parmesan and croutons",
+        "price": "289 CZK",
+        "notes": "Romaine lettuce with tandoori pulled chicken, parmesan shavings, and house dressing.",
         "questions": [
           {
             "id": "caesar-salat-ing-1",
             "question": "Which meat or seafood ingredient forms the base of Caesar salad?",
-            "correctAnswer": "With oven-roasted pulled chicken",
+            "correctAnswer": "With oven-pulled chicken",
             "distractors": [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Caesar salad, this component is present: With oven-roasted pulled chicken. Full recipe ingredients: with oven-roasted pulled chicken, crispy bacon, parmesan and croutons."
+            "explanation": "In Caesar salad, this component is present: With oven-pulled chicken. Full recipe ingredients: with oven-pulled chicken, crispy bacon, parmesan and croutons."
           },
           {
             "id": "caesar-salat-ing-2",
@@ -868,7 +852,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Duck breast",
               "Deboned trout"
             ],
-            "explanation": "In Caesar salad, this component is present: Crispy bacon. Full recipe ingredients: with oven-roasted pulled chicken, crispy bacon, parmesan and croutons."
+            "explanation": "In Caesar salad, this component is present: Crispy bacon. Full recipe ingredients: with oven-pulled chicken, crispy bacon, parmesan and croutons."
           },
           {
             "id": "caesar-salat-ing-3",
@@ -878,7 +862,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Beef tenderloin",
               "Duroc pork belly"
             ],
-            "explanation": "In Caesar salad, this component is present: Parmesan and croutons. Full recipe ingredients: with oven-roasted pulled chicken, crispy bacon, parmesan and croutons."
+            "explanation": "In Caesar salad, this component is present: Parmesan and croutons. Full recipe ingredients: with oven-pulled chicken, crispy bacon, parmesan and croutons."
           },
           {
             "id": "caesar-salat-allergen-1",
@@ -935,15 +919,14 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "waldorf-salat",
         "name": "Waldorf salad",
-        "weight": "",
-        "price": "245 CZK",
         "allergens": [
           "8",
           "9",
           "10"
         ],
-        "description": "apples, celery, grapes, pickled walnuts, walnut mayonnaise dressing",
-        "notes": "with apples, celery, grapes, and walnut mayonnaise dressing",
+        "description": "apples, celery stalks, grapes, pickled walnuts, mayonnaise dressing",
+        "price": "245 CZK",
+        "notes": "Crisp apples, celery, sweet grapes, and pickled walnuts with creamy dressing.",
         "questions": [
           {
             "id": "waldorf-salat-ing-1",
@@ -953,17 +936,17 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Marinated shallots",
               "Roasted root vegetables"
             ],
-            "explanation": "In Waldorf salad, this component is present: Apples. Full recipe ingredients: apples, celery, grapes, pickled walnuts, walnut mayonnaise dressing."
+            "explanation": "In Waldorf salad, this component is present: Apples. Full recipe ingredients: apples, celery stalks, grapes, pickled walnuts, mayonnaise dressing."
           },
           {
             "id": "waldorf-salat-ing-2",
             "question": "Which vegetable or fruit component is included in Waldorf salad?",
-            "correctAnswer": "Celery",
+            "correctAnswer": "Celery stalks",
             "distractors": [
               "Sauerkraut",
               "Pickled pearl onions"
             ],
-            "explanation": "In Waldorf salad, this component is present: Celery. Full recipe ingredients: apples, celery, grapes, pickled walnuts, walnut mayonnaise dressing."
+            "explanation": "In Waldorf salad, this component is present: Celery stalks. Full recipe ingredients: apples, celery stalks, grapes, pickled walnuts, mayonnaise dressing."
           },
           {
             "id": "waldorf-salat-ing-3",
@@ -973,7 +956,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Beef tenderloin",
               "Duroc pork belly"
             ],
-            "explanation": "In Waldorf salad, this component is present: Grapes. Full recipe ingredients: apples, celery, grapes, pickled walnuts, walnut mayonnaise dressing."
+            "explanation": "In Waldorf salad, this component is present: Grapes. Full recipe ingredients: apples, celery stalks, grapes, pickled walnuts, mayonnaise dressing."
           },
           {
             "id": "waldorf-salat-ing-4",
@@ -983,17 +966,17 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented dill pickles",
               "Sun-dried tomatoes"
             ],
-            "explanation": "In Waldorf salad, this component is present: Pickled walnuts. Full recipe ingredients: apples, celery, grapes, pickled walnuts, walnut mayonnaise dressing."
+            "explanation": "In Waldorf salad, this component is present: Pickled walnuts. Full recipe ingredients: apples, celery stalks, grapes, pickled walnuts, mayonnaise dressing."
           },
           {
             "id": "waldorf-salat-ing-5",
             "question": "Which sauce, dressing, or reduction accompanies Waldorf salad?",
-            "correctAnswer": "Walnut mayonnaise dressing",
+            "correctAnswer": "Mayonnaise dressing",
             "distractors": [
               "Cheddar cheese",
               "Truffle sauce"
             ],
-            "explanation": "In Waldorf salad, this component is present: Walnut mayonnaise dressing. Full recipe ingredients: apples, celery, grapes, pickled walnuts, walnut mayonnaise dressing."
+            "explanation": "In Waldorf salad, this component is present: Mayonnaise dressing. Full recipe ingredients: apples, celery stalks, grapes, pickled walnuts, mayonnaise dressing."
           },
           {
             "id": "waldorf-salat-allergen-8",
@@ -1031,90 +1014,99 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   },
   {
     "id": "sporak",
-    "name": "From the stove and oven",
-    "badge": "Stove & oven",
-    "description": "Slow-cooked classics and oven-baked main courses",
-    "iconName": "CookingPot",
+    "name": "From the stove & oven",
+    "badge": "From the stove & oven",
+    "description": "Traditional and contemporary hearty warm dishes crafted in our kitchen",
+    "iconName": "Flame",
     "items": [
       {
         "id": "pecene-koleno",
-        "name": "Roasted Pork Knuckle",
+        "name": "Roasted pork knuckle",
         "weight": "1ks",
-        "price": "459 CZK",
         "allergens": [
           "1",
           "10"
         ],
-        "description": "mustard, grated horseradish, cabbage salad with horseradish",
-        "notes": "/offered daily until sold out/ mustard, grated horseradish, cabbage salad with horseradish",
+        "description": "available daily until sold out, mustard, freshly grated horseradish, cabbage salad with horseradish",
+        "price": "459 CZK",
+        "notes": "Crispy roasted pork knuckle served with freshly grated horseradish and mustard.",
         "questions": [
           {
             "id": "pecene-koleno-vol",
-            "question": "What is the serving volume / measure of Roasted Pork Knuckle?",
+            "question": "What is the portion size of Roasted pork knuckle?",
             "correctAnswer": "1ks",
             "distractors": [
               "2 pcs",
               "1/2 pc"
             ],
-            "explanation": "The serving measure of Roasted Pork Knuckle is 1ks."
+            "explanation": "The portion size / weight of Roasted pork knuckle is 1ks."
           },
           {
             "id": "pecene-koleno-ing-1",
-            "question": "Which ingredient is part of Roasted Pork Knuckle?",
-            "correctAnswer": "Mustard",
+            "question": "Which ingredient is part of Roasted pork knuckle?",
+            "correctAnswer": "Available daily until sold out",
             "distractors": [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Roasted Pork Knuckle, this component is present: Mustard. Full recipe ingredients: mustard, grated horseradish, cabbage salad with horseradish."
+            "explanation": "In Roasted pork knuckle, this component is present: Available daily until sold out. Full recipe ingredients: available daily until sold out, mustard, freshly grated horseradish, cabbage salad with horseradish."
           },
           {
             "id": "pecene-koleno-ing-2",
-            "question": "Which ingredient is part of Roasted Pork Knuckle?",
-            "correctAnswer": "Grated horseradish",
+            "question": "Which ingredient is part of Roasted pork knuckle?",
+            "correctAnswer": "Mustard",
             "distractors": [
               "Duck breast",
               "Deboned trout"
             ],
-            "explanation": "In Roasted Pork Knuckle, this component is present: Grated horseradish. Full recipe ingredients: mustard, grated horseradish, cabbage salad with horseradish."
+            "explanation": "In Roasted pork knuckle, this component is present: Mustard. Full recipe ingredients: available daily until sold out, mustard, freshly grated horseradish, cabbage salad with horseradish."
           },
           {
             "id": "pecene-koleno-ing-3",
-            "question": "Which vegetable or fruit component is included in Roasted Pork Knuckle?",
+            "question": "Which ingredient is part of Roasted pork knuckle?",
+            "correctAnswer": "Freshly grated horseradish",
+            "distractors": [
+              "Beef tenderloin",
+              "Duroc pork belly"
+            ],
+            "explanation": "In Roasted pork knuckle, this component is present: Freshly grated horseradish. Full recipe ingredients: available daily until sold out, mustard, freshly grated horseradish, cabbage salad with horseradish."
+          },
+          {
+            "id": "pecene-koleno-ing-4",
+            "question": "Which vegetable or fruit component is included in Roasted pork knuckle?",
             "correctAnswer": "Cabbage salad with horseradish",
             "distractors": [
-              "Grilled Padron peppers",
-              "Pickled chili peppers"
+              "Fermented dill pickles",
+              "Sun-dried tomatoes"
             ],
-            "explanation": "In Roasted Pork Knuckle, this component is present: Cabbage salad with horseradish. Full recipe ingredients: mustard, grated horseradish, cabbage salad with horseradish."
+            "explanation": "In Roasted pork knuckle, this component is present: Cabbage salad with horseradish. Full recipe ingredients: available daily until sold out, mustard, freshly grated horseradish, cabbage salad with horseradish."
           },
           {
             "id": "pecene-koleno-allergen-1",
-            "question": "Which of the following allergens is present in Roasted Pork Knuckle?",
+            "question": "Which of the following allergens is present in Roasted pork knuckle?",
             "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
             "distractors": [
               "Allergen No. 3 – Eggs and products thereof",
               "Allergen No. 8 – Tree nuts and products thereof"
             ],
-            "explanation": "Roasted Pork Knuckle contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Mustard and products thereof."
+            "explanation": "Roasted pork knuckle contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Mustard and products thereof."
           },
           {
             "id": "pecene-koleno-allergen-10",
-            "question": "Which of the following allergens is present in Roasted Pork Knuckle?",
+            "question": "Which of the following allergens is present in Roasted pork knuckle?",
             "correctAnswer": "Allergen No. 10 – Mustard and products thereof",
             "distractors": [
               "Allergen No. 13 – Lupin and products thereof",
               "Allergen No. 5 – Peanuts and products thereof"
             ],
-            "explanation": "Roasted Pork Knuckle contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Cereals containing gluten, Mustard and products thereof."
+            "explanation": "Roasted pork knuckle contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Cereals containing gluten, Mustard and products thereof."
           }
         ]
       },
       {
         "id": "veprovy-rizek-duroc",
-        "name": "Thick-cut pork schnitzel",
+        "name": "Duroc pork schnitzel",
         "weight": "200g",
-        "price": "309 CZK",
         "allergens": [
           "1",
           "3",
@@ -1122,108 +1114,99 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
           "7",
           "10"
         ],
-        "description": "from Duroc pork, fines herbes sauce, potato mash, and crispy potato crisps",
-        "notes": "from Duroc pork, fines herbes sauce, potato mash, and crispy potato crisps",
+        "description": "from Duroc breed, fines herbes sauce, mashed potatoes and potato crisps",
+        "price": "309 CZK",
+        "notes": "Thick cutlet of premium Duroc pork served with buttery mashed potatoes.",
         "questions": [
           {
             "id": "veprovy-rizek-duroc-vol",
-            "question": "What is the portion weight of Thick-cut pork schnitzel?",
+            "question": "What is the portion weight of Duroc pork schnitzel?",
             "correctAnswer": "200g",
             "distractors": [
               "150 g",
               "250 g"
             ],
-            "explanation": "The portion weight of Thick-cut pork schnitzel is 200g."
+            "explanation": "The portion size / weight of Duroc pork schnitzel is 200g."
           },
           {
             "id": "veprovy-rizek-duroc-ing-1",
-            "question": "Which meat or seafood ingredient forms the base of Thick-cut pork schnitzel?",
-            "correctAnswer": "From Duroc pork",
+            "question": "Which ingredient is part of Duroc pork schnitzel?",
+            "correctAnswer": "From Duroc breed",
             "distractors": [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Thick-cut pork schnitzel, this component is present: From Duroc pork. Full recipe ingredients: from Duroc pork, fines herbes sauce, potato mash, and crispy potato crisps."
+            "explanation": "In Duroc pork schnitzel, this component is present: From Duroc breed. Full recipe ingredients: from Duroc breed, fines herbes sauce, mashed potatoes and potato crisps."
           },
           {
             "id": "veprovy-rizek-duroc-ing-2",
-            "question": "Which fresh herb or spice seasoning finishes Thick-cut pork schnitzel?",
+            "question": "Which fresh herb or spice seasoning finishes Duroc pork schnitzel?",
             "correctAnswer": "Fines herbes sauce",
             "distractors": [
               "Marjoram",
               "Coriander / cilantro"
             ],
-            "explanation": "In Thick-cut pork schnitzel, this component is present: Fines herbes sauce. Full recipe ingredients: from Duroc pork, fines herbes sauce, potato mash, and crispy potato crisps."
+            "explanation": "In Duroc pork schnitzel, this component is present: Fines herbes sauce. Full recipe ingredients: from Duroc breed, fines herbes sauce, mashed potatoes and potato crisps."
           },
           {
             "id": "veprovy-rizek-duroc-ing-3",
-            "question": "Which bread, side, or crispy garnish accompanies Thick-cut pork schnitzel?",
-            "correctAnswer": "Potato mash",
+            "question": "Which bread, side, or crispy garnish accompanies Duroc pork schnitzel?",
+            "correctAnswer": "Mashed potatoes and potato crisps",
             "distractors": [
-              "Homemade fries",
-              "Smoked fingerling potatoes"
+              "Smoked fingerling potatoes",
+              "Beer biscuit"
             ],
-            "explanation": "In Thick-cut pork schnitzel, this component is present: Potato mash. Full recipe ingredients: from Duroc pork, fines herbes sauce, potato mash, and crispy potato crisps."
-          },
-          {
-            "id": "veprovy-rizek-duroc-ing-4",
-            "question": "Which bread, side, or crispy garnish accompanies Thick-cut pork schnitzel?",
-            "correctAnswer": "Crispy potato crisps",
-            "distractors": [
-              "Beer biscuit",
-              "Crispy pork cracklings"
-            ],
-            "explanation": "In Thick-cut pork schnitzel, this component is present: Crispy potato crisps. Full recipe ingredients: from Duroc pork, fines herbes sauce, potato mash, and crispy potato crisps."
+            "explanation": "In Duroc pork schnitzel, this component is present: Mashed potatoes and potato crisps. Full recipe ingredients: from Duroc breed, fines herbes sauce, mashed potatoes and potato crisps."
           },
           {
             "id": "veprovy-rizek-duroc-allergen-1",
-            "question": "Which of the following allergens is present in Thick-cut pork schnitzel?",
+            "question": "Which of the following allergens is present in Duroc pork schnitzel?",
             "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
             "distractors": [
               "Allergen No. 5 – Peanuts and products thereof",
               "Allergen No. 12 – Sulphur dioxide and sulphites"
             ],
-            "explanation": "Thick-cut pork schnitzel contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Duroc pork schnitzel contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
             "id": "veprovy-rizek-duroc-allergen-3",
-            "question": "Which of the following allergens is present in Thick-cut pork schnitzel?",
+            "question": "Which of the following allergens is present in Duroc pork schnitzel?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
               "Allergen No. 8 – Tree nuts and products thereof",
               "Allergen No. 14 – Molluscs and products thereof"
             ],
-            "explanation": "Thick-cut pork schnitzel contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Duroc pork schnitzel contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
             "id": "veprovy-rizek-duroc-allergen-4",
-            "question": "Which of the following allergens is present in Thick-cut pork schnitzel?",
+            "question": "Which of the following allergens is present in Duroc pork schnitzel?",
             "correctAnswer": "Allergen No. 4 – Fish and products thereof",
             "distractors": [
               "Allergen No. 9 – Celery and products thereof",
               "Allergen No. 2 – Crustaceans and products thereof"
             ],
-            "explanation": "Thick-cut pork schnitzel contains Allergen No. 4 – Fish and products thereof (trout, anchovies, fish sauce, worcestershire). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Duroc pork schnitzel contains Allergen No. 4 – Fish and products thereof (trout, anchovies, fish sauce, worcestershire). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
             "id": "veprovy-rizek-duroc-allergen-7",
-            "question": "Which of the following allergens is present in Thick-cut pork schnitzel?",
+            "question": "Which of the following allergens is present in Duroc pork schnitzel?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 13 – Lupin and products thereof",
               "Allergen No. 8 – Tree nuts and products thereof"
             ],
-            "explanation": "Thick-cut pork schnitzel contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Duroc pork schnitzel contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
             "id": "veprovy-rizek-duroc-allergen-10",
-            "question": "Which of the following allergens is present in Thick-cut pork schnitzel?",
+            "question": "Which of the following allergens is present in Duroc pork schnitzel?",
             "correctAnswer": "Allergen No. 10 – Mustard and products thereof",
             "distractors": [
               "Allergen No. 5 – Peanuts and products thereof",
               "Allergen No. 12 – Sulphur dioxide and sulphites"
             ],
-            "explanation": "Thick-cut pork schnitzel contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Duroc pork schnitzel contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           }
         ]
       },
@@ -1231,7 +1214,6 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "id": "veprova-zebra",
         "name": "Pork ribs",
         "weight": "500g",
-        "price": "379 CZK",
         "allergens": [
           "1",
           "3",
@@ -1239,8 +1221,9 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
           "7",
           "10"
         ],
-        "description": "marinated and slow-roasted in our beer, candied bacon, pearl onions, apple BBQ glaze, our cabbage salad with horseradish, toasted garlic brioche",
-        "notes": "marinated and slow-roasted in our beer, candied bacon, pearl onions, apple BBQ glaze, our cabbage salad with horseradish, and toasted garlic brioche",
+        "description": "marinated and roasted with our beer, candied bacon, pearl onions, apple bbq sauce, our cabbage salad with horseradish, toasted garlic brioche",
+        "price": "379 CZK",
+        "notes": "Tender beer-glazed pork ribs with homemade apple barbecue sauce and garlic brioche.",
         "questions": [
           {
             "id": "veprova-zebra-vol",
@@ -1250,17 +1233,17 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "400 g",
               "600 g"
             ],
-            "explanation": "The portion weight of Pork ribs is 500g."
+            "explanation": "The portion size / weight of Pork ribs is 500g."
           },
           {
             "id": "veprova-zebra-ing-1",
             "question": "Which ingredient is part of Pork ribs?",
-            "correctAnswer": "Marinated and slow-roasted in our beer",
+            "correctAnswer": "Marinated and roasted with our beer",
             "distractors": [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Pork ribs, this component is present: Marinated and slow-roasted in our beer. Full recipe ingredients: marinated and slow-roasted in our beer, candied bacon, pearl onions, apple BBQ glaze, our cabbage salad with horseradish, toasted garlic brioche."
+            "explanation": "In Pork ribs, this component is present: Marinated and roasted with our beer. Full recipe ingredients: marinated and roasted with our beer, candied bacon, pearl onions, apple bbq sauce, our cabbage salad with horseradish, toasted garlic brioche."
           },
           {
             "id": "veprova-zebra-ing-2",
@@ -1270,7 +1253,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Duck breast",
               "Deboned trout"
             ],
-            "explanation": "In Pork ribs, this component is present: Candied bacon. Full recipe ingredients: marinated and slow-roasted in our beer, candied bacon, pearl onions, apple BBQ glaze, our cabbage salad with horseradish, toasted garlic brioche."
+            "explanation": "In Pork ribs, this component is present: Candied bacon. Full recipe ingredients: marinated and roasted with our beer, candied bacon, pearl onions, apple bbq sauce, our cabbage salad with horseradish, toasted garlic brioche."
           },
           {
             "id": "veprova-zebra-ing-3",
@@ -1280,17 +1263,17 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Pickled chili peppers",
               "Fermented dill pickles"
             ],
-            "explanation": "In Pork ribs, this component is present: Pearl onions. Full recipe ingredients: marinated and slow-roasted in our beer, candied bacon, pearl onions, apple BBQ glaze, our cabbage salad with horseradish, toasted garlic brioche."
+            "explanation": "In Pork ribs, this component is present: Pearl onions. Full recipe ingredients: marinated and roasted with our beer, candied bacon, pearl onions, apple bbq sauce, our cabbage salad with horseradish, toasted garlic brioche."
           },
           {
             "id": "veprova-zebra-ing-4",
-            "question": "Which vegetable or fruit component is included in Pork ribs?",
-            "correctAnswer": "Apple BBQ glaze",
+            "question": "Which sauce, dressing, or reduction accompanies Pork ribs?",
+            "correctAnswer": "Apple bbq sauce",
             "distractors": [
               "Sun-dried tomatoes",
               "Pickled ginger"
             ],
-            "explanation": "In Pork ribs, this component is present: Apple BBQ glaze. Full recipe ingredients: marinated and slow-roasted in our beer, candied bacon, pearl onions, apple BBQ glaze, our cabbage salad with horseradish, toasted garlic brioche."
+            "explanation": "In Pork ribs, this component is present: Apple bbq sauce. Full recipe ingredients: marinated and roasted with our beer, candied bacon, pearl onions, apple bbq sauce, our cabbage salad with horseradish, toasted garlic brioche."
           },
           {
             "id": "veprova-zebra-ing-5",
@@ -1300,7 +1283,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Cornichons",
               "Marinated shallots"
             ],
-            "explanation": "In Pork ribs, this component is present: Our cabbage salad with horseradish. Full recipe ingredients: marinated and slow-roasted in our beer, candied bacon, pearl onions, apple BBQ glaze, our cabbage salad with horseradish, toasted garlic brioche."
+            "explanation": "In Pork ribs, this component is present: Our cabbage salad with horseradish. Full recipe ingredients: marinated and roasted with our beer, candied bacon, pearl onions, apple bbq sauce, our cabbage salad with horseradish, toasted garlic brioche."
           },
           {
             "id": "veprova-zebra-ing-6",
@@ -1310,7 +1293,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Butter brioche",
               "Sourdough bread"
             ],
-            "explanation": "In Pork ribs, this component is present: Toasted garlic brioche. Full recipe ingredients: marinated and slow-roasted in our beer, candied bacon, pearl onions, apple BBQ glaze, our cabbage salad with horseradish, toasted garlic brioche."
+            "explanation": "In Pork ribs, this component is present: Toasted garlic brioche. Full recipe ingredients: marinated and roasted with our beer, candied bacon, pearl onions, apple bbq sauce, our cabbage salad with horseradish, toasted garlic brioche."
           },
           {
             "id": "veprova-zebra-allergen-1",
@@ -1368,14 +1351,14 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "id": "hovezi-koprovka",
         "name": "Braised beef with dill sauce",
         "weight": "200g",
-        "price": "345 CZK",
         "allergens": [
           "1",
           "3",
           "7"
         ],
-        "description": "served with egg, baby potatoes and dill oil",
-        "notes": "served with egg, baby potatoes and dill oil",
+        "description": "egg, fingerling potatoes, dill oil",
+        "price": "345 CZK",
+        "notes": "Classic Czech creamy dill sauce with tender braised beef and buttered potatoes.",
         "questions": [
           {
             "id": "hovezi-koprovka-vol",
@@ -1385,37 +1368,37 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "150 g",
               "250 g"
             ],
-            "explanation": "The portion weight of Braised beef with dill sauce is 200g."
+            "explanation": "The portion size / weight of Braised beef with dill sauce is 200g."
           },
           {
             "id": "hovezi-koprovka-ing-1",
             "question": "Which ingredient is part of Braised beef with dill sauce?",
-            "correctAnswer": "Served with egg",
+            "correctAnswer": "Egg",
             "distractors": [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Braised beef with dill sauce, this component is present: Served with egg. Full recipe ingredients: served with egg, baby potatoes and dill oil."
+            "explanation": "In Braised beef with dill sauce, this component is present: Egg. Full recipe ingredients: egg, fingerling potatoes, dill oil."
           },
           {
             "id": "hovezi-koprovka-ing-2",
             "question": "Which bread, side, or crispy garnish accompanies Braised beef with dill sauce?",
-            "correctAnswer": "Baby potatoes and dill oil",
+            "correctAnswer": "Fingerling potatoes",
             "distractors": [
               "Potato straw",
               "Mashed potatoes"
             ],
-            "explanation": "In Braised beef with dill sauce, this component is present: Baby potatoes and dill oil. Full recipe ingredients: served with egg, baby potatoes and dill oil."
+            "explanation": "In Braised beef with dill sauce, this component is present: Fingerling potatoes. Full recipe ingredients: egg, fingerling potatoes, dill oil."
           },
           {
             "id": "hovezi-koprovka-ing-3",
-            "question": "Which bread, side, or crispy garnish accompanies Braised beef with dill sauce?",
-            "correctAnswer": "Baby potatoes and dill oil",
+            "question": "Which ingredient is part of Braised beef with dill sauce?",
+            "correctAnswer": "Dill oil",
             "distractors": [
-              "Potato crisps",
-              "Homemade fries"
+              "Beef tenderloin",
+              "Duroc pork belly"
             ],
-            "explanation": "In Braised beef with dill sauce, this component is present: Baby potatoes and dill oil. Full recipe ingredients: served with egg, baby potatoes and dill oil."
+            "explanation": "In Braised beef with dill sauce, this component is present: Dill oil. Full recipe ingredients: egg, fingerling potatoes, dill oil."
           },
           {
             "id": "hovezi-koprovka-allergen-1",
@@ -1451,84 +1434,82 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "testoviny-kureci",
-        "name": "Pasta filled with delicate chicken mixture",
-        "weight": "",
-        "price": "299 CZK",
+        "name": "Pasta filled with tender chicken mixture",
         "allergens": [
           "1",
           "3",
           "7"
         ],
-        "description": "baked in porcini sauce, grilled oyster mushrooms, herb oil",
-        "notes": "baked in porcini sauce served with grilled oyster mushrooms and herb oil",
+        "description": "baked in mushroom sauce, grilled oyster mushrooms, herb oil",
+        "price": "299 CZK",
+        "notes": "House-made stuffed pasta baked in wild mushroom cream sauce.",
         "questions": [
           {
             "id": "testoviny-kureci-ing-1",
-            "question": "Which sauce, dressing, or reduction accompanies Pasta filled with delicate chicken mixture?",
-            "correctAnswer": "Baked in porcini sauce",
+            "question": "Which sauce, dressing, or reduction accompanies Pasta filled with tender chicken mixture?",
+            "correctAnswer": "Baked in mushroom sauce",
             "distractors": [
               "Choron sauce",
               "Our salsa verde"
             ],
-            "explanation": "In Pasta filled with delicate chicken mixture, this component is present: Baked in porcini sauce. Full recipe ingredients: baked in porcini sauce, grilled oyster mushrooms, herb oil."
+            "explanation": "In Pasta filled with tender chicken mixture, this component is present: Baked in mushroom sauce. Full recipe ingredients: baked in mushroom sauce, grilled oyster mushrooms, herb oil."
           },
           {
             "id": "testoviny-kureci-ing-2",
-            "question": "Which ingredient is part of Pasta filled with delicate chicken mixture?",
+            "question": "Which ingredient is part of Pasta filled with tender chicken mixture?",
             "correctAnswer": "Grilled oyster mushrooms",
             "distractors": [
               "Duck breast",
               "Deboned trout"
             ],
-            "explanation": "In Pasta filled with delicate chicken mixture, this component is present: Grilled oyster mushrooms. Full recipe ingredients: baked in porcini sauce, grilled oyster mushrooms, herb oil."
+            "explanation": "In Pasta filled with tender chicken mixture, this component is present: Grilled oyster mushrooms. Full recipe ingredients: baked in mushroom sauce, grilled oyster mushrooms, herb oil."
           },
           {
             "id": "testoviny-kureci-ing-3",
-            "question": "Which fresh herb or spice seasoning finishes Pasta filled with delicate chicken mixture?",
+            "question": "Which fresh herb or spice seasoning finishes Pasta filled with tender chicken mixture?",
             "correctAnswer": "Herb oil",
             "distractors": [
               "Flat-leaf parsley",
               "Crushed caraway"
             ],
-            "explanation": "In Pasta filled with delicate chicken mixture, this component is present: Herb oil. Full recipe ingredients: baked in porcini sauce, grilled oyster mushrooms, herb oil."
+            "explanation": "In Pasta filled with tender chicken mixture, this component is present: Herb oil. Full recipe ingredients: baked in mushroom sauce, grilled oyster mushrooms, herb oil."
           },
           {
             "id": "testoviny-kureci-allergen-1",
-            "question": "Which of the following allergens is present in Pasta filled with delicate chicken mixture?",
+            "question": "Which of the following allergens is present in Pasta filled with tender chicken mixture?",
             "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
             "distractors": [
               "Allergen No. 4 – Fish and products thereof",
               "Allergen No. 10 – Mustard and products thereof"
             ],
-            "explanation": "Pasta filled with delicate chicken mixture contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Pasta filled with tender chicken mixture contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
           },
           {
             "id": "testoviny-kureci-allergen-3",
-            "question": "Which of the following allergens is present in Pasta filled with delicate chicken mixture?",
+            "question": "Which of the following allergens is present in Pasta filled with tender chicken mixture?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
               "Allergen No. 6 – Soybeans and products thereof",
               "Allergen No. 12 – Sulphur dioxide and sulphites"
             ],
-            "explanation": "Pasta filled with delicate chicken mixture contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Pasta filled with tender chicken mixture contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
           },
           {
             "id": "testoviny-kureci-allergen-7",
-            "question": "Which of the following allergens is present in Pasta filled with delicate chicken mixture?",
+            "question": "Which of the following allergens is present in Pasta filled with tender chicken mixture?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 11 – Sesame seeds and products thereof",
               "Allergen No. 4 – Fish and products thereof"
             ],
-            "explanation": "Pasta filled with delicate chicken mixture contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Pasta filled with tender chicken mixture contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
           }
         ]
       },
       {
         "id": "shrimp-roll",
-        "name": "Shrimp roll 12 pcs Argentine red shrimp",
-        "weight": "",
-        "price": "666 CZK",
+        "name": "Shrimp roll",
+        "weight": "12ks",
         "allergens": [
           "1",
           "2",
@@ -1538,558 +1519,549 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
           "9",
           "10"
         ],
-        "description": "in a butter brioche, cocktail sauce with cognac, salad greens, our fries, Choron sauce",
-        "notes": "in a butter brioche, cocktail sauce with cognac, salad greens, our fries, Choron sauce",
+        "description": "12 pcs Argentine red shrimp in butter brioche, cocktail sauce with cognac, salad, our fries, choron sauce",
+        "price": "666 CZK",
+        "notes": "Juicy Argentine red prawns in warm buttered brioche with cognac cocktail sauce.",
         "questions": [
           {
             "id": "shrimp-roll-vol",
-            "question": "What is the serving volume / measure of Shrimp roll 12 pcs Argentine red shrimp?",
-            "correctAnswer": "12 ks",
+            "question": "What is the portion size of Shrimp roll?",
+            "correctAnswer": "12ks",
             "distractors": [
-              "2 pcs",
-              "1/2 pc"
+              "8 pcs",
+              "16 pcs"
             ],
-            "explanation": "The serving measure of Shrimp roll 12 pcs Argentine red shrimp is 12 ks."
+            "explanation": "The portion size / weight of Shrimp roll is 12ks."
           },
           {
             "id": "shrimp-roll-ing-1",
-            "question": "Which bread, side, or crispy garnish accompanies Shrimp roll 12 pcs Argentine red shrimp?",
-            "correctAnswer": "In a butter brioche",
+            "question": "Which bread, side, or crispy garnish accompanies Shrimp roll?",
+            "correctAnswer": "12 pcs Argentine red shrimp in butter brioche",
             "distractors": [
               "Sourdough bread",
               "Potato straw"
             ],
-            "explanation": "In Shrimp roll 12 pcs Argentine red shrimp, this component is present: In a butter brioche. Full recipe ingredients: in a butter brioche, cocktail sauce with cognac, salad greens, our fries, Choron sauce."
+            "explanation": "In Shrimp roll, this component is present: 12 pcs Argentine red shrimp in butter brioche. Full recipe ingredients: 12 pcs Argentine red shrimp in butter brioche, cocktail sauce with cognac, salad, our fries, choron sauce."
           },
           {
             "id": "shrimp-roll-ing-2",
-            "question": "Which sauce, dressing, or reduction accompanies Shrimp roll 12 pcs Argentine red shrimp?",
+            "question": "Which sauce, dressing, or reduction accompanies Shrimp roll?",
             "correctAnswer": "Cocktail sauce with cognac",
             "distractors": [
               "Apple BBQ sauce",
               "Lovage mayonnaise"
             ],
-            "explanation": "In Shrimp roll 12 pcs Argentine red shrimp, this component is present: Cocktail sauce with cognac. Full recipe ingredients: in a butter brioche, cocktail sauce with cognac, salad greens, our fries, Choron sauce."
+            "explanation": "In Shrimp roll, this component is present: Cocktail sauce with cognac. Full recipe ingredients: 12 pcs Argentine red shrimp in butter brioche, cocktail sauce with cognac, salad, our fries, choron sauce."
           },
           {
             "id": "shrimp-roll-ing-3",
-            "question": "Which ingredient is part of Shrimp roll 12 pcs Argentine red shrimp?",
-            "correctAnswer": "Salad greens",
+            "question": "Which ingredient is part of Shrimp roll?",
+            "correctAnswer": "Salad",
             "distractors": [
               "Beef tenderloin",
               "Duroc pork belly"
             ],
-            "explanation": "In Shrimp roll 12 pcs Argentine red shrimp, this component is present: Salad greens. Full recipe ingredients: in a butter brioche, cocktail sauce with cognac, salad greens, our fries, Choron sauce."
+            "explanation": "In Shrimp roll, this component is present: Salad. Full recipe ingredients: 12 pcs Argentine red shrimp in butter brioche, cocktail sauce with cognac, salad, our fries, choron sauce."
           },
           {
             "id": "shrimp-roll-ing-4",
-            "question": "Which bread, side, or crispy garnish accompanies Shrimp roll 12 pcs Argentine red shrimp?",
+            "question": "Which bread, side, or crispy garnish accompanies Shrimp roll?",
             "correctAnswer": "Our fries",
             "distractors": [
               "Beer biscuit",
               "Crispy pork cracklings"
             ],
-            "explanation": "In Shrimp roll 12 pcs Argentine red shrimp, this component is present: Our fries. Full recipe ingredients: in a butter brioche, cocktail sauce with cognac, salad greens, our fries, Choron sauce."
+            "explanation": "In Shrimp roll, this component is present: Our fries. Full recipe ingredients: 12 pcs Argentine red shrimp in butter brioche, cocktail sauce with cognac, salad, our fries, choron sauce."
           },
           {
             "id": "shrimp-roll-ing-5",
-            "question": "Which sauce, dressing, or reduction accompanies Shrimp roll 12 pcs Argentine red shrimp?",
+            "question": "Which sauce, dressing, or reduction accompanies Shrimp roll?",
             "correctAnswer": "Choron sauce",
             "distractors": [
               "Truffle sauce",
               "Our salsa verde"
             ],
-            "explanation": "In Shrimp roll 12 pcs Argentine red shrimp, this component is present: Choron sauce. Full recipe ingredients: in a butter brioche, cocktail sauce with cognac, salad greens, our fries, Choron sauce."
+            "explanation": "In Shrimp roll, this component is present: Choron sauce. Full recipe ingredients: 12 pcs Argentine red shrimp in butter brioche, cocktail sauce with cognac, salad, our fries, choron sauce."
           },
           {
             "id": "shrimp-roll-allergen-1",
-            "question": "Which of the following allergens is present in Shrimp roll 12 pcs Argentine red shrimp?",
+            "question": "Which of the following allergens is present in Shrimp roll?",
             "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
             "distractors": [
               "Allergen No. 6 – Soybeans and products thereof",
               "Allergen No. 14 – Molluscs and products thereof"
             ],
-            "explanation": "Shrimp roll 12 pcs Argentine red shrimp contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Peanuts and products thereof, Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
+            "explanation": "Shrimp roll contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Peanuts and products thereof, Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
           },
           {
             "id": "shrimp-roll-allergen-2",
-            "question": "Which of the following allergens is present in Shrimp roll 12 pcs Argentine red shrimp?",
+            "question": "Which of the following allergens is present in Shrimp roll?",
             "correctAnswer": "Allergen No. 2 – Crustaceans and products thereof",
             "distractors": [
               "Allergen No. 8 – Tree nuts and products thereof",
               "Allergen No. 4 – Fish and products thereof"
             ],
-            "explanation": "Shrimp roll 12 pcs Argentine red shrimp contains Allergen No. 2 – Crustaceans and products thereof (prawns, shrimps, crabs, lobster). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Peanuts and products thereof, Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
+            "explanation": "Shrimp roll contains Allergen No. 2 – Crustaceans and products thereof (prawns, shrimps, crabs, lobster). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Peanuts and products thereof, Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
           },
           {
             "id": "shrimp-roll-allergen-3",
-            "question": "Which of the following allergens is present in Shrimp roll 12 pcs Argentine red shrimp?",
+            "question": "Which of the following allergens is present in Shrimp roll?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
               "Allergen No. 11 – Sesame seeds and products thereof",
               "Allergen No. 6 – Soybeans and products thereof"
             ],
-            "explanation": "Shrimp roll 12 pcs Argentine red shrimp contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Peanuts and products thereof, Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
+            "explanation": "Shrimp roll contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Peanuts and products thereof, Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
           },
           {
             "id": "shrimp-roll-allergen-5",
-            "question": "Which of the following allergens is present in Shrimp roll 12 pcs Argentine red shrimp?",
+            "question": "Which of the following allergens is present in Shrimp roll?",
             "correctAnswer": "Allergen No. 5 – Peanuts and products thereof",
             "distractors": [
               "Allergen No. 13 – Lupin and products thereof",
               "Allergen No. 11 – Sesame seeds and products thereof"
             ],
-            "explanation": "Shrimp roll 12 pcs Argentine red shrimp contains Allergen No. 5 – Peanuts and products thereof (peanuts, peanut oil, satay sauce). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Peanuts and products thereof, Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
+            "explanation": "Shrimp roll contains Allergen No. 5 – Peanuts and products thereof (peanuts, peanut oil, satay sauce). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Peanuts and products thereof, Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
           },
           {
             "id": "shrimp-roll-allergen-7",
-            "question": "Which of the following allergens is present in Shrimp roll 12 pcs Argentine red shrimp?",
+            "question": "Which of the following allergens is present in Shrimp roll?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 4 – Fish and products thereof",
               "Allergen No. 13 – Lupin and products thereof"
             ],
-            "explanation": "Shrimp roll 12 pcs Argentine red shrimp contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Peanuts and products thereof, Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
+            "explanation": "Shrimp roll contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Peanuts and products thereof, Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
           },
           {
             "id": "shrimp-roll-allergen-9",
-            "question": "Which of the following allergens is present in Shrimp roll 12 pcs Argentine red shrimp?",
+            "question": "Which of the following allergens is present in Shrimp roll?",
             "correctAnswer": "Allergen No. 9 – Celery and products thereof",
             "distractors": [
               "Allergen No. 8 – Tree nuts and products thereof",
               "Allergen No. 4 – Fish and products thereof"
             ],
-            "explanation": "Shrimp roll 12 pcs Argentine red shrimp contains Allergen No. 9 – Celery and products thereof (celeriac in broth, celery stalk, celery seed). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Peanuts and products thereof, Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
+            "explanation": "Shrimp roll contains Allergen No. 9 – Celery and products thereof (celeriac in broth, celery stalk, celery seed). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Peanuts and products thereof, Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
           },
           {
             "id": "shrimp-roll-allergen-10",
-            "question": "Which of the following allergens is present in Shrimp roll 12 pcs Argentine red shrimp?",
+            "question": "Which of the following allergens is present in Shrimp roll?",
             "correctAnswer": "Allergen No. 10 – Mustard and products thereof",
             "distractors": [
               "Allergen No. 11 – Sesame seeds and products thereof",
               "Allergen No. 6 – Soybeans and products thereof"
             ],
-            "explanation": "Shrimp roll 12 pcs Argentine red shrimp contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Peanuts and products thereof, Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
+            "explanation": "Shrimp roll contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Peanuts and products thereof, Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
           }
         ]
       },
       {
         "id": "vykosteny-pstruh",
-        "name": "Fillet of deboned rainbow trout",
+        "name": "Deboned trout fillets",
         "weight": "180g",
-        "price": "399 CZK",
         "allergens": [
           "3",
           "4",
           "7"
         ],
-        "description": "pan-seared in butter, choron sauce, roasted tomatoes, herb salad, and roasted winter vegetables",
-        "notes": "pan-seared in butter, choron sauce, roasted tomatoes, herb salad, and roasted winter vegetables",
+        "description": "pan-fried on butter, choron sauce, roasted cherry tomatoes, herb salad, roasted winter vegetables",
+        "price": "399 CZK",
+        "notes": "Fresh boneless trout pan-seared with butter, roasted vegetables, and sauce choron.",
         "questions": [
           {
             "id": "vykosteny-pstruh-vol",
-            "question": "What is the portion weight of Fillet of deboned rainbow trout?",
+            "question": "What is the portion weight of Deboned trout fillets?",
             "correctAnswer": "180g",
             "distractors": [
               "150 g",
               "200 g"
             ],
-            "explanation": "The portion weight of Fillet of deboned rainbow trout is 180g."
+            "explanation": "The portion size / weight of Deboned trout fillets is 180g."
           },
           {
             "id": "vykosteny-pstruh-ing-1",
-            "question": "Which cheese or dairy ingredient is included in Fillet of deboned rainbow trout?",
-            "correctAnswer": "Pan-seared in butter",
+            "question": "Which cheese or dairy ingredient is included in Deboned trout fillets?",
+            "correctAnswer": "Pan-fried on butter",
             "distractors": [
               "Our salsa verde",
               "Sour cherry sauce"
             ],
-            "explanation": "In Fillet of deboned rainbow trout, this component is present: Pan-seared in butter. Full recipe ingredients: pan-seared in butter, choron sauce, roasted tomatoes, herb salad, and roasted winter vegetables."
+            "explanation": "In Deboned trout fillets, this component is present: Pan-fried on butter. Full recipe ingredients: pan-fried on butter, choron sauce, roasted cherry tomatoes, herb salad, roasted winter vegetables."
           },
           {
             "id": "vykosteny-pstruh-ing-2",
-            "question": "Which sauce, dressing, or reduction accompanies Fillet of deboned rainbow trout?",
+            "question": "Which sauce, dressing, or reduction accompanies Deboned trout fillets?",
             "correctAnswer": "Choron sauce",
             "distractors": [
               "Apple BBQ sauce",
               "Lovage mayonnaise"
             ],
-            "explanation": "In Fillet of deboned rainbow trout, this component is present: Choron sauce. Full recipe ingredients: pan-seared in butter, choron sauce, roasted tomatoes, herb salad, and roasted winter vegetables."
+            "explanation": "In Deboned trout fillets, this component is present: Choron sauce. Full recipe ingredients: pan-fried on butter, choron sauce, roasted cherry tomatoes, herb salad, roasted winter vegetables."
           },
           {
             "id": "vykosteny-pstruh-ing-3",
-            "question": "Which vegetable or fruit component is included in Fillet of deboned rainbow trout?",
-            "correctAnswer": "Roasted tomatoes",
+            "question": "Which vegetable or fruit component is included in Deboned trout fillets?",
+            "correctAnswer": "Roasted cherry tomatoes",
             "distractors": [
               "Beef tenderloin",
               "Duroc pork belly"
             ],
-            "explanation": "In Fillet of deboned rainbow trout, this component is present: Roasted tomatoes. Full recipe ingredients: pan-seared in butter, choron sauce, roasted tomatoes, herb salad, and roasted winter vegetables."
+            "explanation": "In Deboned trout fillets, this component is present: Roasted cherry tomatoes. Full recipe ingredients: pan-fried on butter, choron sauce, roasted cherry tomatoes, herb salad, roasted winter vegetables."
           },
           {
             "id": "vykosteny-pstruh-ing-4",
-            "question": "Which fresh herb or spice seasoning finishes Fillet of deboned rainbow trout?",
+            "question": "Which fresh herb or spice seasoning finishes Deboned trout fillets?",
             "correctAnswer": "Herb salad",
             "distractors": [
               "Ground cardamom",
               "Fresh rosemary"
             ],
-            "explanation": "In Fillet of deboned rainbow trout, this component is present: Herb salad. Full recipe ingredients: pan-seared in butter, choron sauce, roasted tomatoes, herb salad, and roasted winter vegetables."
+            "explanation": "In Deboned trout fillets, this component is present: Herb salad. Full recipe ingredients: pan-fried on butter, choron sauce, roasted cherry tomatoes, herb salad, roasted winter vegetables."
           },
           {
             "id": "vykosteny-pstruh-ing-5",
-            "question": "Which ingredient is part of Fillet of deboned rainbow trout?",
+            "question": "Which ingredient is part of Deboned trout fillets?",
             "correctAnswer": "Roasted winter vegetables",
             "distractors": [
               "Pickled ginger",
               "Cornichons"
             ],
-            "explanation": "In Fillet of deboned rainbow trout, this component is present: Roasted winter vegetables. Full recipe ingredients: pan-seared in butter, choron sauce, roasted tomatoes, herb salad, and roasted winter vegetables."
+            "explanation": "In Deboned trout fillets, this component is present: Roasted winter vegetables. Full recipe ingredients: pan-fried on butter, choron sauce, roasted cherry tomatoes, herb salad, roasted winter vegetables."
           },
           {
             "id": "vykosteny-pstruh-allergen-3",
-            "question": "Which of the following allergens is present in Fillet of deboned rainbow trout?",
+            "question": "Which of the following allergens is present in Deboned trout fillets?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
               "Allergen No. 6 – Soybeans and products thereof",
               "Allergen No. 12 – Sulphur dioxide and sulphites"
             ],
-            "explanation": "Fillet of deboned rainbow trout contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Deboned trout fillets contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose)."
           },
           {
             "id": "vykosteny-pstruh-allergen-4",
-            "question": "Which of the following allergens is present in Fillet of deboned rainbow trout?",
+            "question": "Which of the following allergens is present in Deboned trout fillets?",
             "correctAnswer": "Allergen No. 4 – Fish and products thereof",
             "distractors": [
               "Allergen No. 8 – Tree nuts and products thereof",
               "Allergen No. 13 – Lupin and products thereof"
             ],
-            "explanation": "Fillet of deboned rainbow trout contains Allergen No. 4 – Fish and products thereof (trout, anchovies, fish sauce, worcestershire). All allergens present in this item: Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Deboned trout fillets contains Allergen No. 4 – Fish and products thereof (trout, anchovies, fish sauce, worcestershire). All allergens present in this item: Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose)."
           },
           {
             "id": "vykosteny-pstruh-allergen-7",
-            "question": "Which of the following allergens is present in Fillet of deboned rainbow trout?",
+            "question": "Which of the following allergens is present in Deboned trout fillets?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 11 – Sesame seeds and products thereof",
               "Allergen No. 2 – Crustaceans and products thereof"
             ],
-            "explanation": "Fillet of deboned rainbow trout contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Deboned trout fillets contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose)."
           }
         ]
       },
       {
         "id": "svickova-wellington",
-        "name": "BeefWellington",
+        "name": "Beef Wellington",
         "weight": "200g",
-        "price": "675 CZK",
         "allergens": [
           "1",
           "3",
           "7",
           "10"
         ],
-        "description": "tenderloin wrapped in mushroom and duck liver duxelles, seasoned with truffle, veal demi-glace, smoked potatoes",
-        "notes": "tenderloin wrapped in mushroom and duck liver duxelles seasoned with truffle, cognac sauce, smoked fingerling potatoes",
+        "description": "roasted medium rare with truffle-flavored mushroom duxelles, cognac sauce, smoked fingerling potatoes",
+        "price": "675 CZK",
+        "notes": "Prime beef tenderloin wrapped in truffle duxelles and flaky pastry.",
         "questions": [
           {
             "id": "svickova-wellington-vol",
-            "question": "What is the portion weight of BeefWellington?",
+            "question": "What is the portion weight of Beef Wellington?",
             "correctAnswer": "200g",
             "distractors": [
               "150 g",
               "250 g"
             ],
-            "explanation": "The portion weight of BeefWellington is 200g."
+            "explanation": "The portion size / weight of Beef Wellington is 200g."
           },
           {
             "id": "svickova-wellington-ing-1",
-            "question": "Which meat or seafood ingredient forms the base of BeefWellington?",
-            "correctAnswer": "Tenderloin wrapped in mushroom and duck liver duxelles",
+            "question": "Which ingredient is part of Beef Wellington?",
+            "correctAnswer": "Roasted medium rare with truffle-flavored mushroom duxelles",
             "distractors": [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In BeefWellington, this component is present: Tenderloin wrapped in mushroom and duck liver duxelles. Full recipe ingredients: tenderloin wrapped in mushroom and duck liver duxelles, seasoned with truffle, veal demi-glace, smoked potatoes."
+            "explanation": "In Beef Wellington, this component is present: Roasted medium rare with truffle-flavored mushroom duxelles. Full recipe ingredients: roasted medium rare with truffle-flavored mushroom duxelles, cognac sauce, smoked fingerling potatoes."
           },
           {
             "id": "svickova-wellington-ing-2",
-            "question": "Which ingredient is part of BeefWellington?",
-            "correctAnswer": "Seasoned with truffle",
+            "question": "Which sauce, dressing, or reduction accompanies Beef Wellington?",
+            "correctAnswer": "Cognac sauce",
             "distractors": [
-              "Duck breast",
-              "Deboned trout"
+              "Sour cherry sauce",
+              "Apple BBQ sauce"
             ],
-            "explanation": "In BeefWellington, this component is present: Seasoned with truffle. Full recipe ingredients: tenderloin wrapped in mushroom and duck liver duxelles, seasoned with truffle, veal demi-glace, smoked potatoes."
+            "explanation": "In Beef Wellington, this component is present: Cognac sauce. Full recipe ingredients: roasted medium rare with truffle-flavored mushroom duxelles, cognac sauce, smoked fingerling potatoes."
           },
           {
             "id": "svickova-wellington-ing-3",
-            "question": "Which meat or seafood ingredient forms the base of BeefWellington?",
-            "correctAnswer": "Veal demi-glace",
+            "question": "Which bread, side, or crispy garnish accompanies Beef Wellington?",
+            "correctAnswer": "Smoked fingerling potatoes",
             "distractors": [
-              "Beef tenderloin",
-              "Duroc pork belly"
+              "Potato crisps",
+              "Homemade fries"
             ],
-            "explanation": "In BeefWellington, this component is present: Veal demi-glace. Full recipe ingredients: tenderloin wrapped in mushroom and duck liver duxelles, seasoned with truffle, veal demi-glace, smoked potatoes."
-          },
-          {
-            "id": "svickova-wellington-ing-4",
-            "question": "Which bread, side, or crispy garnish accompanies BeefWellington?",
-            "correctAnswer": "Smoked potatoes",
-            "distractors": [
-              "Smoked fingerling potatoes",
-              "Beer biscuit"
-            ],
-            "explanation": "In BeefWellington, this component is present: Smoked potatoes. Full recipe ingredients: tenderloin wrapped in mushroom and duck liver duxelles, seasoned with truffle, veal demi-glace, smoked potatoes."
+            "explanation": "In Beef Wellington, this component is present: Smoked fingerling potatoes. Full recipe ingredients: roasted medium rare with truffle-flavored mushroom duxelles, cognac sauce, smoked fingerling potatoes."
           },
           {
             "id": "svickova-wellington-allergen-1",
-            "question": "Which of the following allergens is present in BeefWellington?",
+            "question": "Which of the following allergens is present in Beef Wellington?",
             "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
             "distractors": [
               "Allergen No. 4 – Fish and products thereof",
               "Allergen No. 11 – Sesame seeds and products thereof"
             ],
-            "explanation": "BeefWellington contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Beef Wellington contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
             "id": "svickova-wellington-allergen-3",
-            "question": "Which of the following allergens is present in BeefWellington?",
+            "question": "Which of the following allergens is present in Beef Wellington?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
               "Allergen No. 6 – Soybeans and products thereof",
               "Allergen No. 13 – Lupin and products thereof"
             ],
-            "explanation": "BeefWellington contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Beef Wellington contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
             "id": "svickova-wellington-allergen-7",
-            "question": "Which of the following allergens is present in BeefWellington?",
+            "question": "Which of the following allergens is present in Beef Wellington?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 12 – Sulphur dioxide and sulphites",
               "Allergen No. 5 – Peanuts and products thereof"
             ],
-            "explanation": "BeefWellington contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Beef Wellington contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
             "id": "svickova-wellington-allergen-10",
-            "question": "Which of the following allergens is present in BeefWellington?",
+            "question": "Which of the following allergens is present in Beef Wellington?",
             "correctAnswer": "Allergen No. 10 – Mustard and products thereof",
             "distractors": [
               "Allergen No. 2 – Crustaceans and products thereof",
               "Allergen No. 9 – Celery and products thereof"
             ],
-            "explanation": "BeefWellington contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
-          }
-        ]
-      },
-      {
-        "id": "thors-hammer",
-        "name": "Thor`s Hammer beef knuckle",
-        "weight": "700g",
-        "price": "1490 CZK",
-        "allergens": [
-          "1",
-          "11"
-        ],
-        "description": "slow-braised in our tandoori, Kasteel Rouge sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked potatoes, and our cabbage salad with horseradish",
-        "notes": "slow-braised in our tandoori, Kasteel Rouge sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked potatoes, and our cabbage salad with horseradish. Serves 2 to 4 people",
-        "questions": [
-          {
-            "id": "thors-hammer-vol",
-            "question": "What is the portion weight of Thor`s Hammer beef knuckle?",
-            "correctAnswer": "700g",
-            "distractors": [
-              "500 g",
-              "800 g"
-            ],
-            "explanation": "The portion weight of Thor`s Hammer beef knuckle is 700g."
-          },
-          {
-            "id": "thors-hammer-ing-1",
-            "question": "Which ingredient is part of Thor`s Hammer beef knuckle?",
-            "correctAnswer": "Slow-braised in our tandoori",
-            "distractors": [
-              "Pork tenderloin",
-              "Veal leg"
-            ],
-            "explanation": "In Thor`s Hammer beef knuckle, this component is present: Slow-braised in our tandoori. Full recipe ingredients: slow-braised in our tandoori, Kasteel Rouge sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked potatoes, and our cabbage salad with horseradish."
-          },
-          {
-            "id": "thors-hammer-ing-2",
-            "question": "Which sauce, dressing, or reduction accompanies Thor`s Hammer beef knuckle?",
-            "correctAnswer": "Kasteel Rouge sauce",
-            "distractors": [
-              "Apple BBQ sauce",
-              "Lovage mayonnaise"
-            ],
-            "explanation": "In Thor`s Hammer beef knuckle, this component is present: Kasteel Rouge sauce. Full recipe ingredients: slow-braised in our tandoori, Kasteel Rouge sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked potatoes, and our cabbage salad with horseradish."
-          },
-          {
-            "id": "thors-hammer-ing-3",
-            "question": "Which onion or shallot ingredient is included in Thor`s Hammer beef knuckle?",
-            "correctAnswer": "Charred shallots",
-            "distractors": [
-              "Grilled Padron peppers",
-              "Pickled chili peppers"
-            ],
-            "explanation": "In Thor`s Hammer beef knuckle, this component is present: Charred shallots. Full recipe ingredients: slow-braised in our tandoori, Kasteel Rouge sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked potatoes, and our cabbage salad with horseradish."
-          },
-          {
-            "id": "thors-hammer-ing-4",
-            "question": "In what culinary form is garlic included in Thor`s Hammer beef knuckle?",
-            "correctAnswer": "Toasted garlic brioche",
-            "distractors": [
-              "Smoked fingerling potatoes",
-              "Beer biscuit"
-            ],
-            "explanation": "In Thor`s Hammer beef knuckle, this component is present: Toasted garlic brioche. Full recipe ingredients: slow-braised in our tandoori, Kasteel Rouge sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked potatoes, and our cabbage salad with horseradish."
-          },
-          {
-            "id": "thors-hammer-ing-5",
-            "question": "Which sauce, dressing, or reduction accompanies Thor`s Hammer beef knuckle?",
-            "correctAnswer": "Our salsa verde",
-            "distractors": [
-              "Truffle sauce",
-              "Choron sauce"
-            ],
-            "explanation": "In Thor`s Hammer beef knuckle, this component is present: Our salsa verde. Full recipe ingredients: slow-braised in our tandoori, Kasteel Rouge sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked potatoes, and our cabbage salad with horseradish."
-          },
-          {
-            "id": "thors-hammer-ing-6",
-            "question": "Which bread, side, or crispy garnish accompanies Thor`s Hammer beef knuckle?",
-            "correctAnswer": "Smoked potatoes",
-            "distractors": [
-              "Butter brioche",
-              "Sourdough bread"
-            ],
-            "explanation": "In Thor`s Hammer beef knuckle, this component is present: Smoked potatoes. Full recipe ingredients: slow-braised in our tandoori, Kasteel Rouge sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked potatoes, and our cabbage salad with horseradish."
-          },
-          {
-            "id": "thors-hammer-ing-7",
-            "question": "Which vegetable or fruit component is included in Thor`s Hammer beef knuckle?",
-            "correctAnswer": "Our cabbage salad with horseradish",
-            "distractors": [
-              "Sauerkraut",
-              "Pickled pearl onions"
-            ],
-            "explanation": "In Thor`s Hammer beef knuckle, this component is present: Our cabbage salad with horseradish. Full recipe ingredients: slow-braised in our tandoori, Kasteel Rouge sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked potatoes, and our cabbage salad with horseradish."
-          },
-          {
-            "id": "thors-hammer-allergen-1",
-            "question": "Which of the following allergens is present in Thor`s Hammer beef knuckle?",
-            "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
-            "distractors": [
-              "Allergen No. 3 – Eggs and products thereof",
-              "Allergen No. 8 – Tree nuts and products thereof"
-            ],
-            "explanation": "Thor`s Hammer beef knuckle contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Sesame seeds and products thereof."
-          },
-          {
-            "id": "thors-hammer-allergen-11",
-            "question": "Which of the following allergens is present in Thor`s Hammer beef knuckle?",
-            "correctAnswer": "Allergen No. 11 – Sesame seeds and products thereof",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 6 – Soybeans and products thereof"
-            ],
-            "explanation": "Thor`s Hammer beef knuckle contains Allergen No. 11 – Sesame seeds and products thereof (sesame oil, tahini, sesame brioche). All allergens present in this item: Cereals containing gluten, Sesame seeds and products thereof."
+            "explanation": "Beef Wellington contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           }
         ]
       },
       {
         "id": "burger-foie-gras",
-        "name": "Beef burger",
+        "name": "Beef burger with foie gras",
         "weight": "200g",
-        "price": "449 CZK",
         "allergens": [
           "1",
           "3",
           "7"
         ],
-        "description": "with smoked blue cheese and duck foie gras, roasted onion mayonnaise, potato straw and small homemade fries",
-        "notes": "with smoked blue cheese and duck foie gras, roasted onion mayonnaise, potato straw and small homemade fries",
+        "description": "with smoked blue cheese and duck foie gras, roasted onion mayonnaise, potato straw, small homemade fries",
+        "price": "449 CZK",
+        "notes": "Gourmet beef burger topped with smoked niva cheese, duck foie gras, and potato straw.",
         "questions": [
           {
             "id": "burger-foie-gras-vol",
-            "question": "What is the portion weight of Beef burger?",
+            "question": "What is the portion weight of Beef burger with foie gras?",
             "correctAnswer": "200g",
             "distractors": [
               "150 g",
               "250 g"
             ],
-            "explanation": "The portion weight of Beef burger is 200g."
+            "explanation": "The portion size / weight of Beef burger with foie gras is 200g."
           },
           {
             "id": "burger-foie-gras-ing-1",
-            "question": "Which cheese or dairy ingredient is included in Beef burger?",
+            "question": "Which cheese or dairy ingredient is included in Beef burger with foie gras?",
             "correctAnswer": "With smoked blue cheese and duck foie gras",
             "distractors": [
               "Choron sauce",
               "Our salsa verde"
             ],
-            "explanation": "In Beef burger, this component is present: With smoked blue cheese and duck foie gras. Full recipe ingredients: with smoked blue cheese and duck foie gras, roasted onion mayonnaise, potato straw and small homemade fries."
+            "explanation": "In Beef burger with foie gras, this component is present: With smoked blue cheese and duck foie gras. Full recipe ingredients: with smoked blue cheese and duck foie gras, roasted onion mayonnaise, potato straw, small homemade fries."
           },
           {
             "id": "burger-foie-gras-ing-2",
-            "question": "Which onion or shallot ingredient is included in Beef burger?",
+            "question": "Which onion or shallot ingredient is included in Beef burger with foie gras?",
             "correctAnswer": "Roasted onion mayonnaise",
             "distractors": [
               "Sauerkraut",
               "Pickled pearl onions"
             ],
-            "explanation": "In Beef burger, this component is present: Roasted onion mayonnaise. Full recipe ingredients: with smoked blue cheese and duck foie gras, roasted onion mayonnaise, potato straw and small homemade fries."
+            "explanation": "In Beef burger with foie gras, this component is present: Roasted onion mayonnaise. Full recipe ingredients: with smoked blue cheese and duck foie gras, roasted onion mayonnaise, potato straw, small homemade fries."
           },
           {
             "id": "burger-foie-gras-ing-3",
-            "question": "Which bread, side, or crispy garnish accompanies Beef burger?",
-            "correctAnswer": "Potato straw and small homemade fries",
+            "question": "Which bread, side, or crispy garnish accompanies Beef burger with foie gras?",
+            "correctAnswer": "Potato straw",
             "distractors": [
               "Smoked fingerling potatoes",
               "Beer biscuit"
             ],
-            "explanation": "In Beef burger, this component is present: Potato straw and small homemade fries. Full recipe ingredients: with smoked blue cheese and duck foie gras, roasted onion mayonnaise, potato straw and small homemade fries."
+            "explanation": "In Beef burger with foie gras, this component is present: Potato straw. Full recipe ingredients: with smoked blue cheese and duck foie gras, roasted onion mayonnaise, potato straw, small homemade fries."
           },
           {
             "id": "burger-foie-gras-ing-4",
-            "question": "Which bread, side, or crispy garnish accompanies Beef burger?",
-            "correctAnswer": "Potato straw and small homemade fries",
+            "question": "Which bread, side, or crispy garnish accompanies Beef burger with foie gras?",
+            "correctAnswer": "Small homemade fries",
             "distractors": [
               "Crispy pork cracklings",
               "Toasted sourdough on beef lard"
             ],
-            "explanation": "In Beef burger, this component is present: Potato straw and small homemade fries. Full recipe ingredients: with smoked blue cheese and duck foie gras, roasted onion mayonnaise, potato straw and small homemade fries."
+            "explanation": "In Beef burger with foie gras, this component is present: Small homemade fries. Full recipe ingredients: with smoked blue cheese and duck foie gras, roasted onion mayonnaise, potato straw, small homemade fries."
           },
           {
             "id": "burger-foie-gras-allergen-1",
-            "question": "Which of the following allergens is present in Beef burger?",
+            "question": "Which of the following allergens is present in Beef burger with foie gras?",
             "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
             "distractors": [
               "Allergen No. 4 – Fish and products thereof",
               "Allergen No. 10 – Mustard and products thereof"
             ],
-            "explanation": "Beef burger contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Beef burger with foie gras contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
           },
           {
             "id": "burger-foie-gras-allergen-3",
-            "question": "Which of the following allergens is present in Beef burger?",
+            "question": "Which of the following allergens is present in Beef burger with foie gras?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
               "Allergen No. 6 – Soybeans and products thereof",
               "Allergen No. 12 – Sulphur dioxide and sulphites"
             ],
-            "explanation": "Beef burger contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Beef burger with foie gras contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
           },
           {
             "id": "burger-foie-gras-allergen-7",
-            "question": "Which of the following allergens is present in Beef burger?",
+            "question": "Which of the following allergens is present in Beef burger with foie gras?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 11 – Sesame seeds and products thereof",
               "Allergen No. 4 – Fish and products thereof"
             ],
-            "explanation": "Beef burger contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Beef burger with foie gras contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
+          }
+        ]
+      },
+      {
+        "id": "thors-hammer",
+        "name": "Thor`s Hammer beef shank",
+        "weight": "700g",
+        "allergens": [
+          "1",
+          "11"
+        ],
+        "description": "slow-cooked in our clay oven, Kasteel Rouge beer sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked fingerling potatoes, our cabbage salad with horseradish. For 2 to 4 guests",
+        "price": "1490 CZK",
+        "notes": "Massive bone-in beef shank braised in our clay oven with Belgian cherry beer sauce.",
+        "questions": [
+          {
+            "id": "thors-hammer-vol",
+            "question": "What is the portion weight of Thor`s Hammer beef shank?",
+            "correctAnswer": "700g",
+            "distractors": [
+              "500 g",
+              "800 g"
+            ],
+            "explanation": "The portion size / weight of Thor`s Hammer beef shank is 700g."
+          },
+          {
+            "id": "thors-hammer-ing-1",
+            "question": "Which ingredient is part of Thor`s Hammer beef shank?",
+            "correctAnswer": "Slow-cooked in our clay oven",
+            "distractors": [
+              "Pork tenderloin",
+              "Veal leg"
+            ],
+            "explanation": "In Thor`s Hammer beef shank, this component is present: Slow-cooked in our clay oven. Full recipe ingredients: slow-cooked in our clay oven, Kasteel Rouge beer sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked fingerling potatoes, our cabbage salad with horseradish. For 2 to 4 guests."
+          },
+          {
+            "id": "thors-hammer-ing-2",
+            "question": "Which sauce, dressing, or reduction accompanies Thor`s Hammer beef shank?",
+            "correctAnswer": "Kasteel Rouge beer sauce",
+            "distractors": [
+              "Apple BBQ sauce",
+              "Lovage mayonnaise"
+            ],
+            "explanation": "In Thor`s Hammer beef shank, this component is present: Kasteel Rouge beer sauce. Full recipe ingredients: slow-cooked in our clay oven, Kasteel Rouge beer sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked fingerling potatoes, our cabbage salad with horseradish. For 2 to 4 guests."
+          },
+          {
+            "id": "thors-hammer-ing-3",
+            "question": "Which onion or shallot ingredient is included in Thor`s Hammer beef shank?",
+            "correctAnswer": "Charred shallots",
+            "distractors": [
+              "Grilled Padron peppers",
+              "Pickled chili peppers"
+            ],
+            "explanation": "In Thor`s Hammer beef shank, this component is present: Charred shallots. Full recipe ingredients: slow-cooked in our clay oven, Kasteel Rouge beer sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked fingerling potatoes, our cabbage salad with horseradish. For 2 to 4 guests."
+          },
+          {
+            "id": "thors-hammer-ing-4",
+            "question": "In what culinary form is garlic included in Thor`s Hammer beef shank?",
+            "correctAnswer": "Toasted garlic brioche",
+            "distractors": [
+              "Beer biscuit",
+              "Crispy pork cracklings"
+            ],
+            "explanation": "In Thor`s Hammer beef shank, this component is present: Toasted garlic brioche. Full recipe ingredients: slow-cooked in our clay oven, Kasteel Rouge beer sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked fingerling potatoes, our cabbage salad with horseradish. For 2 to 4 guests."
+          },
+          {
+            "id": "thors-hammer-ing-5",
+            "question": "Which sauce, dressing, or reduction accompanies Thor`s Hammer beef shank?",
+            "correctAnswer": "Our salsa verde",
+            "distractors": [
+              "Truffle sauce",
+              "Choron sauce"
+            ],
+            "explanation": "In Thor`s Hammer beef shank, this component is present: Our salsa verde. Full recipe ingredients: slow-cooked in our clay oven, Kasteel Rouge beer sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked fingerling potatoes, our cabbage salad with horseradish. For 2 to 4 guests."
+          },
+          {
+            "id": "thors-hammer-ing-6",
+            "question": "Which bread, side, or crispy garnish accompanies Thor`s Hammer beef shank?",
+            "correctAnswer": "Smoked fingerling potatoes",
+            "distractors": [
+              "Sourdough bread",
+              "Potato straw"
+            ],
+            "explanation": "In Thor`s Hammer beef shank, this component is present: Smoked fingerling potatoes. Full recipe ingredients: slow-cooked in our clay oven, Kasteel Rouge beer sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked fingerling potatoes, our cabbage salad with horseradish. For 2 to 4 guests."
+          },
+          {
+            "id": "thors-hammer-ing-7",
+            "question": "Which vegetable or fruit component is included in Thor`s Hammer beef shank?",
+            "correctAnswer": "Our cabbage salad with horseradish. For 2 to 4 guests",
+            "distractors": [
+              "Sauerkraut",
+              "Pickled pearl onions"
+            ],
+            "explanation": "In Thor`s Hammer beef shank, this component is present: Our cabbage salad with horseradish. For 2 to 4 guests. Full recipe ingredients: slow-cooked in our clay oven, Kasteel Rouge beer sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked fingerling potatoes, our cabbage salad with horseradish. For 2 to 4 guests."
+          },
+          {
+            "id": "thors-hammer-allergen-1",
+            "question": "Which of the following allergens is present in Thor`s Hammer beef shank?",
+            "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
+            "distractors": [
+              "Allergen No. 3 – Eggs and products thereof",
+              "Allergen No. 8 – Tree nuts and products thereof"
+            ],
+            "explanation": "Thor`s Hammer beef shank contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Sesame seeds and products thereof."
+          },
+          {
+            "id": "thors-hammer-allergen-11",
+            "question": "Which of the following allergens is present in Thor`s Hammer beef shank?",
+            "correctAnswer": "Allergen No. 11 – Sesame seeds and products thereof",
+            "distractors": [
+              "Allergen No. 14 – Molluscs and products thereof",
+              "Allergen No. 6 – Soybeans and products thereof"
+            ],
+            "explanation": "Thor`s Hammer beef shank contains Allergen No. 11 – Sesame seeds and products thereof (sesame oil, tahini, sesame brioche). All allergens present in this item: Cereals containing gluten, Sesame seeds and products thereof."
           }
         ]
       }
@@ -2098,48 +2070,69 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   {
     "id": "gril",
     "name": "From the grill and wood-fired oven",
-    "badge": "Grill & wood oven",
-    "description": "Juicy steaks, burgers, and wood-fired specialties",
-    "iconName": "FlameKindling",
+    "badge": "From the grill and wood-fired oven",
+    "description": "Charcoal and clay oven specialties grilled over open fire and embers",
+    "iconName": "Flame",
     "items": [
       {
-        "id": "us-prime-steaky",
-        "name": "US Prime beef steaks (Sirloin & Ribeye)",
+        "id": "us-prime-kvetova-spicka",
+        "name": "US Prime beef sirloin tip",
         "weight": "250g",
-        "price": "519 / 985 CZK",
         "allergens": [],
-        "description": "US Prime beef sirloin 250g (519 CZK) or US Prime beef ribeye 250g (985 CZK), blistered Padron peppers",
-        "notes": "US Prime beef sirloin 250g | US Prime beef ribeye 250g",
+        "description": "roasted Padrón peppers",
+        "price": "519 CZK",
+        "notes": "Aged US Prime sirloin cap (picanha) grilled over charcoal with blistered Padrón peppers.",
         "questions": [
           {
-            "id": "us-prime-steaky-vol",
-            "question": "What is the portion weight of US Prime beef steaks (Sirloin & Ribeye)?",
+            "id": "us-prime-kvetova-spicka-vol",
+            "question": "What is the portion weight of US Prime beef sirloin tip?",
             "correctAnswer": "250g",
             "distractors": [
               "200 g",
               "300 g"
             ],
-            "explanation": "The portion weight of US Prime beef steaks (Sirloin & Ribeye) is 250g."
+            "explanation": "The portion size / weight of US Prime beef sirloin tip is 250g."
           },
           {
-            "id": "us-prime-steaky-ing-1",
-            "question": "Which meat or seafood ingredient forms the base of US Prime beef steaks (Sirloin & Ribeye)?",
-            "correctAnswer": "US Prime beef sirloin 250g (519 CZK) or US Prime beef ribeye 250g (985 CZK)",
+            "id": "us-prime-kvetova-spicka-ing-1",
+            "question": "Which ingredient is part of US Prime beef sirloin tip?",
+            "correctAnswer": "Roasted Padrón peppers",
             "distractors": [
-              "Pork tenderloin",
-              "Veal leg"
+              "Lovage",
+              "Tarragon"
             ],
-            "explanation": "In US Prime beef steaks (Sirloin & Ribeye), this component is present: US Prime beef sirloin 250g (519 CZK) or US Prime beef ribeye 250g (985 CZK). Full recipe ingredients: US Prime beef sirloin 250g (519 CZK) or US Prime beef ribeye 250g (985 CZK), blistered Padron peppers."
+            "explanation": "In US Prime beef sirloin tip, this component is present: Roasted Padrón peppers. Full recipe ingredients: roasted Padrón peppers."
+          }
+        ]
+      },
+      {
+        "id": "us-prime-rostenec",
+        "name": "US Prime ribeye steak",
+        "weight": "250g",
+        "allergens": [],
+        "description": "roasted Padrón peppers",
+        "price": "985 CZK",
+        "notes": "Exquisitely marbled US Prime ribeye steak char-grilled over real wood.",
+        "questions": [
+          {
+            "id": "us-prime-rostenec-vol",
+            "question": "What is the portion weight of US Prime ribeye steak?",
+            "correctAnswer": "250g",
+            "distractors": [
+              "200 g",
+              "300 g"
+            ],
+            "explanation": "The portion size / weight of US Prime ribeye steak is 250g."
           },
           {
-            "id": "us-prime-steaky-ing-2",
-            "question": "Which ingredient is part of US Prime beef steaks (Sirloin & Ribeye)?",
-            "correctAnswer": "Blistered Padron peppers",
+            "id": "us-prime-rostenec-ing-1",
+            "question": "Which ingredient is part of US Prime ribeye steak?",
+            "correctAnswer": "Roasted Padrón peppers",
             "distractors": [
-              "Marjoram",
-              "Coriander / cilantro"
+              "Lovage",
+              "Tarragon"
             ],
-            "explanation": "In US Prime beef steaks (Sirloin & Ribeye), this component is present: Blistered Padron peppers. Full recipe ingredients: US Prime beef sirloin 250g (519 CZK) or US Prime beef ribeye 250g (985 CZK), blistered Padron peppers."
+            "explanation": "In US Prime ribeye steak, this component is present: Roasted Padrón peppers. Full recipe ingredients: roasted Padrón peppers."
           }
         ]
       },
@@ -2147,15 +2140,15 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "id": "us-prime-burger",
         "name": "US Prime beef burger",
         "weight": "200g",
-        "price": "369 CZK",
         "allergens": [
           "1",
           "3",
           "7",
           "10"
         ],
-        "description": "grilled bacon, cheddar, onion marmalade, spicy mayonnaise",
-        "notes": "grilled bacon, cheddar, onion marmalade, spicy mayonnaise",
+        "description": "crispy bacon, cheddar, onion marmalade and spicy mayonnaise",
+        "price": "369 CZK",
+        "notes": "Charcoal-grilled US Prime beef patty with melted cheddar and bacon.",
         "questions": [
           {
             "id": "us-prime-burger-vol",
@@ -2165,17 +2158,17 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "150 g",
               "250 g"
             ],
-            "explanation": "The portion weight of US Prime beef burger is 200g."
+            "explanation": "The portion size / weight of US Prime beef burger is 200g."
           },
           {
             "id": "us-prime-burger-ing-1",
             "question": "Which ingredient is part of US Prime beef burger?",
-            "correctAnswer": "Grilled bacon",
+            "correctAnswer": "Crispy bacon",
             "distractors": [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In US Prime beef burger, this component is present: Grilled bacon. Full recipe ingredients: grilled bacon, cheddar, onion marmalade, spicy mayonnaise."
+            "explanation": "In US Prime beef burger, this component is present: Crispy bacon. Full recipe ingredients: crispy bacon, cheddar, onion marmalade and spicy mayonnaise."
           },
           {
             "id": "us-prime-burger-ing-2",
@@ -2185,27 +2178,17 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Duck breast",
               "Deboned trout"
             ],
-            "explanation": "In US Prime beef burger, this component is present: Cheddar. Full recipe ingredients: grilled bacon, cheddar, onion marmalade, spicy mayonnaise."
+            "explanation": "In US Prime beef burger, this component is present: Cheddar. Full recipe ingredients: crispy bacon, cheddar, onion marmalade and spicy mayonnaise."
           },
           {
             "id": "us-prime-burger-ing-3",
             "question": "Which onion or shallot ingredient is included in US Prime beef burger?",
-            "correctAnswer": "Onion marmalade",
+            "correctAnswer": "Onion marmalade and spicy mayonnaise",
             "distractors": [
               "Grilled Padron peppers",
               "Pickled chili peppers"
             ],
-            "explanation": "In US Prime beef burger, this component is present: Onion marmalade. Full recipe ingredients: grilled bacon, cheddar, onion marmalade, spicy mayonnaise."
-          },
-          {
-            "id": "us-prime-burger-ing-4",
-            "question": "Which sauce, dressing, or reduction accompanies US Prime beef burger?",
-            "correctAnswer": "Spicy mayonnaise",
-            "distractors": [
-              "Cognac sauce",
-              "Dill sauce"
-            ],
-            "explanation": "In US Prime beef burger, this component is present: Spicy mayonnaise. Full recipe ingredients: grilled bacon, cheddar, onion marmalade, spicy mayonnaise."
+            "explanation": "In US Prime beef burger, this component is present: Onion marmalade and spicy mayonnaise. Full recipe ingredients: crispy bacon, cheddar, onion marmalade and spicy mayonnaise."
           },
           {
             "id": "us-prime-burger-allergen-1",
@@ -2253,14 +2236,14 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "id": "grilovany-bucek-yuzu",
         "name": "Grilled pork belly",
         "weight": "300g",
-        "price": "299 CZK",
         "allergens": [
           "2",
           "4",
           "6"
         ],
-        "description": "caramelized yuzu sauce, grilled spring onion, chimichurri sauce",
-        "notes": "caramelized yuzu sauce, grilled spring onion, chimichurri sauce",
+        "description": "caramelized yuzu sauce, grilled spring onions, chimmichurri sauce",
+        "price": "299 CZK",
+        "notes": "Crispy grilled pork belly glazed with citrusy yuzu and fresh chimichurri.",
         "questions": [
           {
             "id": "grilovany-bucek-yuzu-vol",
@@ -2270,7 +2253,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "250 g",
               "350 g"
             ],
-            "explanation": "The portion weight of Grilled pork belly is 300g."
+            "explanation": "The portion size / weight of Grilled pork belly is 300g."
           },
           {
             "id": "grilovany-bucek-yuzu-ing-1",
@@ -2280,27 +2263,27 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Choron sauce",
               "Our salsa verde"
             ],
-            "explanation": "In Grilled pork belly, this component is present: Caramelized yuzu sauce. Full recipe ingredients: caramelized yuzu sauce, grilled spring onion, chimichurri sauce."
+            "explanation": "In Grilled pork belly, this component is present: Caramelized yuzu sauce. Full recipe ingredients: caramelized yuzu sauce, grilled spring onions, chimmichurri sauce."
           },
           {
             "id": "grilovany-bucek-yuzu-ing-2",
             "question": "Which onion or shallot ingredient is included in Grilled pork belly?",
-            "correctAnswer": "Grilled spring onion",
+            "correctAnswer": "Grilled spring onions",
             "distractors": [
               "Sauerkraut",
               "Pickled pearl onions"
             ],
-            "explanation": "In Grilled pork belly, this component is present: Grilled spring onion. Full recipe ingredients: caramelized yuzu sauce, grilled spring onion, chimichurri sauce."
+            "explanation": "In Grilled pork belly, this component is present: Grilled spring onions. Full recipe ingredients: caramelized yuzu sauce, grilled spring onions, chimmichurri sauce."
           },
           {
             "id": "grilovany-bucek-yuzu-ing-3",
             "question": "Which sauce, dressing, or reduction accompanies Grilled pork belly?",
-            "correctAnswer": "Chimichurri sauce",
+            "correctAnswer": "Chimmichurri sauce",
             "distractors": [
               "Lovage mayonnaise",
               "Spicy smoked mayonnaise"
             ],
-            "explanation": "In Grilled pork belly, this component is present: Chimichurri sauce. Full recipe ingredients: caramelized yuzu sauce, grilled spring onion, chimichurri sauce."
+            "explanation": "In Grilled pork belly, this component is present: Chimmichurri sauce. Full recipe ingredients: caramelized yuzu sauce, grilled spring onions, chimmichurri sauce."
           },
           {
             "id": "grilovany-bucek-yuzu-allergen-2",
@@ -2338,15 +2321,15 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "id": "nase-pastrami",
         "name": "Our pastrami",
         "weight": "200g",
-        "price": "455 CZK",
         "allergens": [
           "1",
           "3",
           "7",
           "10"
         ],
-        "description": "from US Prime beef ribs baked in clay oven, raclette cheese and cabbage salad with horseradish in toasted sourdough bread, pickled vegetables",
-        "notes": "raclette cheese and cabbage salad with horseradish in toasted sourdough bread, pickled vegetables",
+        "description": "from US Prime beef rib roasted in clay oven, raclette cheese and cabbage salad with horseradish in toasted sourdough bread, pickled vegetables",
+        "price": "455 CZK",
+        "notes": "In-house smoked and roasted US Prime beef short rib pastrami on sourdough.",
         "questions": [
           {
             "id": "nase-pastrami-vol",
@@ -2356,17 +2339,17 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "150 g",
               "250 g"
             ],
-            "explanation": "The portion weight of Our pastrami is 200g."
+            "explanation": "The portion size / weight of Our pastrami is 200g."
           },
           {
             "id": "nase-pastrami-ing-1",
             "question": "Which meat or seafood ingredient forms the base of Our pastrami?",
-            "correctAnswer": "From US Prime beef ribs baked in clay oven",
+            "correctAnswer": "From US Prime beef rib roasted in clay oven",
             "distractors": [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Our pastrami, this component is present: From US Prime beef ribs baked in clay oven. Full recipe ingredients: from US Prime beef ribs baked in clay oven, raclette cheese and cabbage salad with horseradish in toasted sourdough bread, pickled vegetables."
+            "explanation": "In Our pastrami, this component is present: From US Prime beef rib roasted in clay oven. Full recipe ingredients: from US Prime beef rib roasted in clay oven, raclette cheese and cabbage salad with horseradish in toasted sourdough bread, pickled vegetables."
           },
           {
             "id": "nase-pastrami-ing-2",
@@ -2376,7 +2359,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Mashed potatoes",
               "Potato crisps"
             ],
-            "explanation": "In Our pastrami, this component is present: Raclette cheese and cabbage salad with horseradish in toasted sourdough bread. Full recipe ingredients: from US Prime beef ribs baked in clay oven, raclette cheese and cabbage salad with horseradish in toasted sourdough bread, pickled vegetables."
+            "explanation": "In Our pastrami, this component is present: Raclette cheese and cabbage salad with horseradish in toasted sourdough bread. Full recipe ingredients: from US Prime beef rib roasted in clay oven, raclette cheese and cabbage salad with horseradish in toasted sourdough bread, pickled vegetables."
           },
           {
             "id": "nase-pastrami-ing-3",
@@ -2386,7 +2369,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Grilled Padron peppers",
               "Pickled chili peppers"
             ],
-            "explanation": "In Our pastrami, this component is present: Pickled vegetables. Full recipe ingredients: from US Prime beef ribs baked in clay oven, raclette cheese and cabbage salad with horseradish in toasted sourdough bread, pickled vegetables."
+            "explanation": "In Our pastrami, this component is present: Pickled vegetables. Full recipe ingredients: from US Prime beef rib roasted in clay oven, raclette cheese and cabbage salad with horseradish in toasted sourdough bread, pickled vegetables."
           },
           {
             "id": "nase-pastrami-allergen-1",
@@ -2432,97 +2415,146 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "pecene-kure-pec",
-        "name": "½ Roasted chicken in our tandoori",
-        "weight": "",
-        "price": "279,-",
+        "name": "½ Roasted chicken in our clay oven",
         "allergens": [
           "1",
           "4",
           "7",
           "10"
         ],
-        "description": "BBQ version: brushed with spicy barbecue sauce, crispy onions, and herb butter /1/7/ | TRUFFLE version: drizzled with truffle butter, potato crisps, chives /7/ | CAESAR version: brushed with anchovy, parmesan, and mustard sauce, served with fried capers /4/7/10/",
-        "notes": "BBQ version, TRUFFLE version or CAESAR version",
+        "description": "as BBQ glazed with spicy apple sauce, crispy onions and herb butter (allergens 1, 7); as TRUFFLE drizzled with truffle butter, potato crisps, chives (allergen 7); as CAESAR coated with anchovy, parmesan and mustard sauce, fried capers (allergens 4, 7, 10)",
+        "price": "279 CZK",
+        "notes": "Succulent half chicken roasted in our clay oven, choice of BBQ, Truffle, or Caesar seasoning.",
         "questions": [
           {
             "id": "pecene-kure-pec-ing-1",
-            "question": "Which sauce, dressing, or reduction accompanies ½ Roasted chicken in our tandoori?",
-            "correctAnswer": "BBQ version: brushed with spicy barbecue sauce",
+            "question": "Which sauce, dressing, or reduction accompanies ½ Roasted chicken in our clay oven?",
+            "correctAnswer": "As BBQ glazed with spicy apple sauce",
             "distractors": [
-              "Choron sauce",
-              "Our salsa verde"
+              "Marinated shallots",
+              "Roasted root vegetables"
             ],
-            "explanation": "In ½ Roasted chicken in our tandoori, this component is present: BBQ version: brushed with spicy barbecue sauce. Full recipe ingredients: BBQ version: brushed with spicy barbecue sauce, crispy onions, and herb butter /1/7/ | TRUFFLE version: drizzled with truffle butter, potato crisps, chives /7/ | CAESAR version: brushed with anchovy, parmesan, and mustard sauce, served with fried capers /4/7/10/."
+            "explanation": "In ½ Roasted chicken in our clay oven, this component is present: As BBQ glazed with spicy apple sauce. Full recipe ingredients: as BBQ glazed with spicy apple sauce, crispy onions and herb butter (allergens 1, 7); as TRUFFLE drizzled with truffle butter, potato crisps, chives (allergen 7); as CAESAR coated with anchovy, parmesan and mustard sauce, fried capers (allergens 4, 7, 10)."
           },
           {
             "id": "pecene-kure-pec-ing-2",
-            "question": "Which onion or shallot ingredient is included in ½ Roasted chicken in our tandoori?",
-            "correctAnswer": "Crispy onions",
+            "question": "Which onion or shallot ingredient is included in ½ Roasted chicken in our clay oven?",
+            "correctAnswer": "Crispy onions and herb butter (allergens 1",
             "distractors": [
               "Sauerkraut",
               "Pickled pearl onions"
             ],
-            "explanation": "In ½ Roasted chicken in our tandoori, this component is present: Crispy onions. Full recipe ingredients: BBQ version: brushed with spicy barbecue sauce, crispy onions, and herb butter /1/7/ | TRUFFLE version: drizzled with truffle butter, potato crisps, chives /7/ | CAESAR version: brushed with anchovy, parmesan, and mustard sauce, served with fried capers /4/7/10/."
+            "explanation": "In ½ Roasted chicken in our clay oven, this component is present: Crispy onions and herb butter (allergens 1. Full recipe ingredients: as BBQ glazed with spicy apple sauce, crispy onions and herb butter (allergens 1, 7); as TRUFFLE drizzled with truffle butter, potato crisps, chives (allergen 7); as CAESAR coated with anchovy, parmesan and mustard sauce, fried capers (allergens 4, 7, 10)."
           },
           {
             "id": "pecene-kure-pec-ing-3",
-            "question": "Which fresh herb or spice seasoning finishes ½ Roasted chicken in our tandoori?",
-            "correctAnswer": "Herb butter /1/7/ | TRUFFLE version: drizzled with truffle butter",
+            "question": "Which cheese or dairy ingredient is included in ½ Roasted chicken in our clay oven?",
+            "correctAnswer": "7); as TRUFFLE drizzled with truffle butter",
             "distractors": [
-              "Flat-leaf parsley",
-              "Crushed caraway"
+              "Lovage mayonnaise",
+              "Spicy smoked mayonnaise"
             ],
-            "explanation": "In ½ Roasted chicken in our tandoori, this component is present: Herb butter /1/7/ | TRUFFLE version: drizzled with truffle butter. Full recipe ingredients: BBQ version: brushed with spicy barbecue sauce, crispy onions, and herb butter /1/7/ | TRUFFLE version: drizzled with truffle butter, potato crisps, chives /7/ | CAESAR version: brushed with anchovy, parmesan, and mustard sauce, served with fried capers /4/7/10/."
+            "explanation": "In ½ Roasted chicken in our clay oven, this component is present: 7); as TRUFFLE drizzled with truffle butter. Full recipe ingredients: as BBQ glazed with spicy apple sauce, crispy onions and herb butter (allergens 1, 7); as TRUFFLE drizzled with truffle butter, potato crisps, chives (allergen 7); as CAESAR coated with anchovy, parmesan and mustard sauce, fried capers (allergens 4, 7, 10)."
           },
           {
             "id": "pecene-kure-pec-ing-4",
-            "question": "Which bread, side, or crispy garnish accompanies ½ Roasted chicken in our tandoori?",
+            "question": "Which bread, side, or crispy garnish accompanies ½ Roasted chicken in our clay oven?",
             "correctAnswer": "Potato crisps",
             "distractors": [
               "Beer biscuit",
               "Crispy pork cracklings"
             ],
-            "explanation": "In ½ Roasted chicken in our tandoori, this component is present: Potato crisps. Full recipe ingredients: BBQ version: brushed with spicy barbecue sauce, crispy onions, and herb butter /1/7/ | TRUFFLE version: drizzled with truffle butter, potato crisps, chives /7/ | CAESAR version: brushed with anchovy, parmesan, and mustard sauce, served with fried capers /4/7/10/."
+            "explanation": "In ½ Roasted chicken in our clay oven, this component is present: Potato crisps. Full recipe ingredients: as BBQ glazed with spicy apple sauce, crispy onions and herb butter (allergens 1, 7); as TRUFFLE drizzled with truffle butter, potato crisps, chives (allergen 7); as CAESAR coated with anchovy, parmesan and mustard sauce, fried capers (allergens 4, 7, 10)."
           },
           {
             "id": "pecene-kure-pec-ing-5",
-            "question": "Which fresh herb or spice seasoning finishes ½ Roasted chicken in our tandoori?",
-            "correctAnswer": "Chives /7/ | CAESAR version: brushed with anchovy",
+            "question": "Which fresh herb or spice seasoning finishes ½ Roasted chicken in our clay oven?",
+            "correctAnswer": "Chives (allergen 7); as CAESAR coated with anchovy",
             "distractors": [
               "Thyme",
               "Fresh chives"
             ],
-            "explanation": "In ½ Roasted chicken in our tandoori, this component is present: Chives /7/ | CAESAR version: brushed with anchovy. Full recipe ingredients: BBQ version: brushed with spicy barbecue sauce, crispy onions, and herb butter /1/7/ | TRUFFLE version: drizzled with truffle butter, potato crisps, chives /7/ | CAESAR version: brushed with anchovy, parmesan, and mustard sauce, served with fried capers /4/7/10/."
+            "explanation": "In ½ Roasted chicken in our clay oven, this component is present: Chives (allergen 7); as CAESAR coated with anchovy. Full recipe ingredients: as BBQ glazed with spicy apple sauce, crispy onions and herb butter (allergens 1, 7); as TRUFFLE drizzled with truffle butter, potato crisps, chives (allergen 7); as CAESAR coated with anchovy, parmesan and mustard sauce, fried capers (allergens 4, 7, 10)."
           },
           {
             "id": "pecene-kure-pec-ing-6",
-            "question": "Which cheese or dairy ingredient is included in ½ Roasted chicken in our tandoori?",
-            "correctAnswer": "Parmesan",
+            "question": "Which sauce, dressing, or reduction accompanies ½ Roasted chicken in our clay oven?",
+            "correctAnswer": "Parmesan and mustard sauce",
             "distractors": [
-              "Pork tenderloin",
-              "Veal leg"
+              "Choron sauce",
+              "Our salsa verde"
             ],
-            "explanation": "In ½ Roasted chicken in our tandoori, this component is present: Parmesan. Full recipe ingredients: BBQ version: brushed with spicy barbecue sauce, crispy onions, and herb butter /1/7/ | TRUFFLE version: drizzled with truffle butter, potato crisps, chives /7/ | CAESAR version: brushed with anchovy, parmesan, and mustard sauce, served with fried capers /4/7/10/."
+            "explanation": "In ½ Roasted chicken in our clay oven, this component is present: Parmesan and mustard sauce. Full recipe ingredients: as BBQ glazed with spicy apple sauce, crispy onions and herb butter (allergens 1, 7); as TRUFFLE drizzled with truffle butter, potato crisps, chives (allergen 7); as CAESAR coated with anchovy, parmesan and mustard sauce, fried capers (allergens 4, 7, 10)."
           },
           {
             "id": "pecene-kure-pec-ing-7",
-            "question": "Which sauce, dressing, or reduction accompanies ½ Roasted chicken in our tandoori?",
-            "correctAnswer": "Mustard sauce",
+            "question": "Which ingredient is part of ½ Roasted chicken in our clay oven?",
+            "correctAnswer": "Fried capers (allergens 4",
             "distractors": [
-              "Sour cherry sauce",
-              "Apple BBQ sauce"
+              "Duck breast",
+              "Deboned trout"
             ],
-            "explanation": "In ½ Roasted chicken in our tandoori, this component is present: Mustard sauce. Full recipe ingredients: BBQ version: brushed with spicy barbecue sauce, crispy onions, and herb butter /1/7/ | TRUFFLE version: drizzled with truffle butter, potato crisps, chives /7/ | CAESAR version: brushed with anchovy, parmesan, and mustard sauce, served with fried capers /4/7/10/."
+            "explanation": "In ½ Roasted chicken in our clay oven, this component is present: Fried capers (allergens 4. Full recipe ingredients: as BBQ glazed with spicy apple sauce, crispy onions and herb butter (allergens 1, 7); as TRUFFLE drizzled with truffle butter, potato crisps, chives (allergen 7); as CAESAR coated with anchovy, parmesan and mustard sauce, fried capers (allergens 4, 7, 10)."
           },
           {
             "id": "pecene-kure-pec-ing-8",
-            "question": "Which ingredient is part of ½ Roasted chicken in our tandoori?",
-            "correctAnswer": "Served with fried capers /4/7/10/",
+            "question": "Which ingredient is part of ½ Roasted chicken in our clay oven?",
+            "correctAnswer": "7",
             "distractors": [
               "Beef tenderloin",
               "Duroc pork belly"
             ],
-            "explanation": "In ½ Roasted chicken in our tandoori, this component is present: Served with fried capers /4/7/10/. Full recipe ingredients: BBQ version: brushed with spicy barbecue sauce, crispy onions, and herb butter /1/7/ | TRUFFLE version: drizzled with truffle butter, potato crisps, chives /7/ | CAESAR version: brushed with anchovy, parmesan, and mustard sauce, served with fried capers /4/7/10/."
+            "explanation": "In ½ Roasted chicken in our clay oven, this component is present: 7. Full recipe ingredients: as BBQ glazed with spicy apple sauce, crispy onions and herb butter (allergens 1, 7); as TRUFFLE drizzled with truffle butter, potato crisps, chives (allergen 7); as CAESAR coated with anchovy, parmesan and mustard sauce, fried capers (allergens 4, 7, 10)."
+          },
+          {
+            "id": "pecene-kure-pec-ing-9",
+            "question": "Which ingredient is part of ½ Roasted chicken in our clay oven?",
+            "correctAnswer": "10)",
+            "distractors": [
+              "Venison saddle",
+              "Lamb chop"
+            ],
+            "explanation": "In ½ Roasted chicken in our clay oven, this component is present: 10). Full recipe ingredients: as BBQ glazed with spicy apple sauce, crispy onions and herb butter (allergens 1, 7); as TRUFFLE drizzled with truffle butter, potato crisps, chives (allergen 7); as CAESAR coated with anchovy, parmesan and mustard sauce, fried capers (allergens 4, 7, 10)."
+          },
+          {
+            "id": "pecene-kure-pec-allergen-1",
+            "question": "Which of the following allergens is present in ½ Roasted chicken in our clay oven?",
+            "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
+            "distractors": [
+              "Allergen No. 3 – Eggs and products thereof",
+              "Allergen No. 11 – Sesame seeds and products thereof"
+            ],
+            "explanation": "½ Roasted chicken in our clay oven contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+          },
+          {
+            "id": "pecene-kure-pec-allergen-4",
+            "question": "Which of the following allergens is present in ½ Roasted chicken in our clay oven?",
+            "correctAnswer": "Allergen No. 4 – Fish and products thereof",
+            "distractors": [
+              "Allergen No. 8 – Tree nuts and products thereof",
+              "Allergen No. 14 – Molluscs and products thereof"
+            ],
+            "explanation": "½ Roasted chicken in our clay oven contains Allergen No. 4 – Fish and products thereof (trout, anchovies, fish sauce, worcestershire). All allergens present in this item: Cereals containing gluten, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+          },
+          {
+            "id": "pecene-kure-pec-allergen-7",
+            "question": "Which of the following allergens is present in ½ Roasted chicken in our clay oven?",
+            "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
+            "distractors": [
+              "Allergen No. 12 – Sulphur dioxide and sulphites",
+              "Allergen No. 5 – Peanuts and products thereof"
+            ],
+            "explanation": "½ Roasted chicken in our clay oven contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+          },
+          {
+            "id": "pecene-kure-pec-allergen-10",
+            "question": "Which of the following allergens is present in ½ Roasted chicken in our clay oven?",
+            "correctAnswer": "Allergen No. 10 – Mustard and products thereof",
+            "distractors": [
+              "Allergen No. 2 – Crustaceans and products thereof",
+              "Allergen No. 9 – Celery and products thereof"
+            ],
+            "explanation": "½ Roasted chicken in our clay oven contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Cereals containing gluten, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           }
         ]
       }
@@ -2530,23 +2562,22 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   },
   {
     "id": "teple-omacky",
-    "name": "Hot sauces",
-    "badge": "Hot sauces",
-    "description": "Warm culinary reductions and emulsions",
-    "iconName": "Droplet",
+    "name": "Warm sauces",
+    "badge": "Warm sauces",
+    "description": "Homemade warm sauces reduced from authentic broths, butter, and seasonings",
+    "iconName": "Soup",
     "items": [
       {
         "id": "omacka-konakova",
         "name": "Cognac sauce",
-        "weight": "",
-        "price": "69 CZK",
         "allergens": [
           "7",
           "9",
           "10"
         ],
         "description": "warm cognac sauce",
-        "notes": "Warm cognac reduction sauce with veal stock and cream",
+        "price": "69 CZK",
+        "notes": "Warm veal jus reduction with cream and French cognac.",
         "questions": [
           {
             "id": "omacka-konakova-ing-1",
@@ -2592,144 +2623,141 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "omacka-choron",
-        "name": "Choron sauce",
-        "weight": "",
-        "price": "69 CZK",
+        "name": "Choron",
         "allergens": [
           "3",
           "10"
         ],
         "description": "warm choron sauce",
-        "notes": "Warm béarnaise-style sauce enriched with tomato reduction",
+        "price": "69 CZK",
+        "notes": "Warm tarragon-infused béarnaise sauce enriched with tomato concassé.",
         "questions": [
           {
             "id": "omacka-choron-ing-1",
-            "question": "Which sauce, dressing, or reduction accompanies Choron sauce?",
+            "question": "Which sauce, dressing, or reduction accompanies Choron?",
             "correctAnswer": "Warm choron sauce",
             "distractors": [
               "Our salsa verde",
               "Sour cherry sauce"
             ],
-            "explanation": "In Choron sauce, this component is present: Warm choron sauce. Full recipe ingredients: warm choron sauce."
+            "explanation": "In Choron, this component is present: Warm choron sauce. Full recipe ingredients: warm choron sauce."
           },
           {
             "id": "omacka-choron-allergen-3",
-            "question": "Which of the following allergens is present in Choron sauce?",
+            "question": "Which of the following allergens is present in Choron?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
               "Allergen No. 5 – Peanuts and products thereof",
               "Allergen No. 11 – Sesame seeds and products thereof"
             ],
-            "explanation": "Choron sauce contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Eggs and products thereof, Mustard and products thereof."
+            "explanation": "Choron contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Eggs and products thereof, Mustard and products thereof."
           },
           {
             "id": "omacka-choron-allergen-10",
-            "question": "Which of the following allergens is present in Choron sauce?",
+            "question": "Which of the following allergens is present in Choron?",
             "correctAnswer": "Allergen No. 10 – Mustard and products thereof",
             "distractors": [
               "Allergen No. 13 – Lupin and products thereof",
               "Allergen No. 5 – Peanuts and products thereof"
             ],
-            "explanation": "Choron sauce contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Eggs and products thereof, Mustard and products thereof."
+            "explanation": "Choron contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Eggs and products thereof, Mustard and products thereof."
           }
         ]
       },
       {
         "id": "omacka-fines-herbes",
-        "name": "Our fines herbes sauce",
-        "weight": "",
-        "price": "69 CZK",
+        "name": "Our fines herbes",
         "allergens": [
           "4",
           "9",
           "10"
         ],
         "description": "warm fines herbes sauce",
-        "notes": "Our warm herb butter emulsion with fines herbes",
+        "price": "69 CZK",
+        "notes": "Warm butter emulsion sauce infused with fresh herbs and a touch of anchovy.",
         "questions": [
           {
             "id": "omacka-fines-herbes-ing-1",
-            "question": "Which fresh herb or spice seasoning finishes Our fines herbes sauce?",
+            "question": "Which fresh herb or spice seasoning finishes Our fines herbes?",
             "correctAnswer": "Warm fines herbes sauce",
             "distractors": [
               "Lovage",
               "Tarragon"
             ],
-            "explanation": "In Our fines herbes sauce, this component is present: Warm fines herbes sauce. Full recipe ingredients: warm fines herbes sauce."
+            "explanation": "In Our fines herbes, this component is present: Warm fines herbes sauce. Full recipe ingredients: warm fines herbes sauce."
           },
           {
             "id": "omacka-fines-herbes-allergen-4",
-            "question": "Which of the following allergens is present in Our fines herbes sauce?",
+            "question": "Which of the following allergens is present in Our fines herbes?",
             "correctAnswer": "Allergen No. 4 – Fish and products thereof",
             "distractors": [
               "Allergen No. 6 – Soybeans and products thereof",
               "Allergen No. 13 – Lupin and products thereof"
             ],
-            "explanation": "Our fines herbes sauce contains Allergen No. 4 – Fish and products thereof (trout, anchovies, fish sauce, worcestershire). All allergens present in this item: Fish and products thereof, Celery and products thereof, Mustard and products thereof."
+            "explanation": "Our fines herbes contains Allergen No. 4 – Fish and products thereof (trout, anchovies, fish sauce, worcestershire). All allergens present in this item: Fish and products thereof, Celery and products thereof, Mustard and products thereof."
           },
           {
             "id": "omacka-fines-herbes-allergen-9",
-            "question": "Which of the following allergens is present in Our fines herbes sauce?",
+            "question": "Which of the following allergens is present in Our fines herbes?",
             "correctAnswer": "Allergen No. 9 – Celery and products thereof",
             "distractors": [
               "Allergen No. 13 – Lupin and products thereof",
               "Allergen No. 5 – Peanuts and products thereof"
             ],
-            "explanation": "Our fines herbes sauce contains Allergen No. 9 – Celery and products thereof (celeriac in broth, celery stalk, celery seed). All allergens present in this item: Fish and products thereof, Celery and products thereof, Mustard and products thereof."
+            "explanation": "Our fines herbes contains Allergen No. 9 – Celery and products thereof (celeriac in broth, celery stalk, celery seed). All allergens present in this item: Fish and products thereof, Celery and products thereof, Mustard and products thereof."
           },
           {
             "id": "omacka-fines-herbes-allergen-10",
-            "question": "Which of the following allergens is present in Our fines herbes sauce?",
+            "question": "Which of the following allergens is present in Our fines herbes?",
             "correctAnswer": "Allergen No. 10 – Mustard and products thereof",
             "distractors": [
               "Allergen No. 14 – Molluscs and products thereof",
               "Allergen No. 6 – Soybeans and products thereof"
             ],
-            "explanation": "Our fines herbes sauce contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Fish and products thereof, Celery and products thereof, Mustard and products thereof."
+            "explanation": "Our fines herbes contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Fish and products thereof, Celery and products thereof, Mustard and products thereof."
           }
         ]
       },
       {
         "id": "omacka-lanyzova",
-        "name": "Truffle Sauce",
-        "weight": "",
-        "price": "79 CZK",
+        "name": "Truffle sauce",
         "allergens": [
           "7",
           "10"
         ],
         "description": "warm creamy truffle sauce",
-        "notes": "Warm truffle cream sauce",
+        "price": "79 CZK",
+        "notes": "Rich creamy reduction infused with black truffles.",
         "questions": [
           {
             "id": "omacka-lanyzova-ing-1",
-            "question": "Which sauce, dressing, or reduction accompanies Truffle Sauce?",
+            "question": "Which sauce, dressing, or reduction accompanies Truffle sauce?",
             "correctAnswer": "Warm creamy truffle sauce",
             "distractors": [
               "Our salsa verde",
               "Sour cherry sauce"
             ],
-            "explanation": "In Truffle Sauce, this component is present: Warm creamy truffle sauce. Full recipe ingredients: warm creamy truffle sauce."
+            "explanation": "In Truffle sauce, this component is present: Warm creamy truffle sauce. Full recipe ingredients: warm creamy truffle sauce."
           },
           {
             "id": "omacka-lanyzova-allergen-7",
-            "question": "Which of the following allergens is present in Truffle Sauce?",
+            "question": "Which of the following allergens is present in Truffle sauce?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 9 – Celery and products thereof",
               "Allergen No. 1 – Cereals containing gluten"
             ],
-            "explanation": "Truffle Sauce contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Truffle sauce contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
             "id": "omacka-lanyzova-allergen-10",
-            "question": "Which of the following allergens is present in Truffle Sauce?",
+            "question": "Which of the following allergens is present in Truffle sauce?",
             "correctAnswer": "Allergen No. 10 – Mustard and products thereof",
             "distractors": [
               "Allergen No. 13 – Lupin and products thereof",
               "Allergen No. 4 – Fish and products thereof"
             ],
-            "explanation": "Truffle Sauce contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Truffle sauce contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Milk and products thereof (including lactose), Mustard and products thereof."
           }
         ]
       }
@@ -2739,20 +2767,19 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
     "id": "studene-omacky",
     "name": "Cold sauces",
     "badge": "Cold sauces",
-    "description": "Homemade mayonnaises, salsas, and cold sauces",
+    "description": "Fresh dips and cold dressings prepared from fresh herbs and spices",
     "iconName": "Droplet",
     "items": [
       {
         "id": "omacka-pikantni-majo",
         "name": "Spicy smoked mayonnaise",
-        "weight": "",
-        "price": "59 CZK",
         "allergens": [
           "3",
           "7"
         ],
         "description": "spicy smoked mayonnaise",
-        "notes": "Spicy smoked mayonnaise",
+        "price": "59 CZK",
+        "notes": "Homemade mayonnaise with smoked paprika and mild chili.",
         "questions": [
           {
             "id": "omacka-pikantni-majo-ing-1",
@@ -2789,123 +2816,60 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "omacka-salsa-verde",
         "name": "Our salsa verde",
-        "weight": "",
-        "price": "59 CZK",
         "allergens": [],
-        "description": "our herbal salsa verde",
-        "notes": "Our salsa verde",
+        "description": "our fresh herb salsa verde",
+        "price": "59 CZK",
+        "notes": "Vibrant sauce made with parsley, capers, garlic, and extra virgin olive oil.",
         "questions": [
           {
             "id": "omacka-salsa-verde-ing-1",
             "question": "Which fresh herb or spice seasoning finishes Our salsa verde?",
-            "correctAnswer": "Our herbal salsa verde",
+            "correctAnswer": "Our fresh herb salsa verde",
             "distractors": [
               "Lovage",
               "Tarragon"
             ],
-            "explanation": "In Our salsa verde, this component is present: Our herbal salsa verde. Full recipe ingredients: our herbal salsa verde."
+            "explanation": "In Our salsa verde, this component is present: Our fresh herb salsa verde. Full recipe ingredients: our fresh herb salsa verde."
           }
         ]
       },
       {
         "id": "omacka-chimichurri",
-        "name": "Chimichurri sauce",
-        "weight": "",
-        "price": "65 CZK",
+        "name": "Chimmichurri sauce",
         "allergens": [],
-        "description": "fresh herbs, parsley and oregano, garlic, chili, olive oil",
-        "notes": "Fresh Argentine herb sauce with parsley, oregano, garlic, chili, and olive oil",
+        "description": "fresh herb chimmichurri sauce",
+        "price": "65 CZK",
+        "notes": "Argentine herb sauce of fresh parsley, oregano, garlic, chili, and olive oil.",
         "questions": [
           {
             "id": "omacka-chimichurri-ing-1",
-            "question": "Which fresh herb or spice seasoning finishes Chimichurri sauce?",
-            "correctAnswer": "Fresh herbs",
+            "question": "Which fresh herb or spice seasoning finishes Chimmichurri sauce?",
+            "correctAnswer": "Fresh herb chimmichurri sauce",
             "distractors": [
               "Lovage",
               "Tarragon"
             ],
-            "explanation": "In Chimichurri sauce, this component is present: Fresh herbs. Full recipe ingredients: fresh herbs, parsley and oregano, garlic, chili, olive oil."
-          },
-          {
-            "id": "omacka-chimichurri-ing-2",
-            "question": "Which ingredient is part of Chimichurri sauce?",
-            "correctAnswer": "Parsley and oregano",
-            "distractors": [
-              "Duck breast",
-              "Deboned trout"
-            ],
-            "explanation": "In Chimichurri sauce, this component is present: Parsley and oregano. Full recipe ingredients: fresh herbs, parsley and oregano, garlic, chili, olive oil."
-          },
-          {
-            "id": "omacka-chimichurri-ing-3",
-            "question": "In what culinary form is garlic included in Chimichurri sauce?",
-            "correctAnswer": "Garlic",
-            "distractors": [
-              "Flat-leaf parsley",
-              "Crushed caraway"
-            ],
-            "explanation": "In Chimichurri sauce, this component is present: Garlic. Full recipe ingredients: fresh herbs, parsley and oregano, garlic, chili, olive oil."
-          },
-          {
-            "id": "omacka-chimichurri-ing-4",
-            "question": "Which ingredient is part of Chimichurri sauce?",
-            "correctAnswer": "Chili",
-            "distractors": [
-              "Venison saddle",
-              "Lamb chop"
-            ],
-            "explanation": "In Chimichurri sauce, this component is present: Chili. Full recipe ingredients: fresh herbs, parsley and oregano, garlic, chili, olive oil."
-          },
-          {
-            "id": "omacka-chimichurri-ing-5",
-            "question": "Which ingredient is part of Chimichurri sauce?",
-            "correctAnswer": "Olive oil",
-            "distractors": [
-              "Turkey breast",
-              "Beef sirloin tip"
-            ],
-            "explanation": "In Chimichurri sauce, this component is present: Olive oil. Full recipe ingredients: fresh herbs, parsley and oregano, garlic, chili, olive oil."
+            "explanation": "In Chimmichurri sauce, this component is present: Fresh herb chimmichurri sauce. Full recipe ingredients: fresh herb chimmichurri sauce."
           }
         ]
       },
       {
         "id": "omacka-kecup",
         "name": "Ketchup",
-        "weight": "",
-        "price": "40 CZK",
         "allergens": [],
-        "description": "sun-ripened tomatoes, vinegar, spice blend",
-        "notes": "Ketchup",
+        "description": "traditional tomato ketchup",
+        "price": "40 CZK",
+        "notes": "Slow-cooked artisan ketchup made from sun-ripened tomatoes.",
         "questions": [
           {
             "id": "omacka-kecup-ing-1",
-            "question": "Which vegetable or fruit component is included in Ketchup?",
-            "correctAnswer": "Sun-ripened tomatoes",
+            "question": "Which sauce, dressing, or reduction accompanies Ketchup?",
+            "correctAnswer": "Traditional tomato ketchup",
             "distractors": [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Ketchup, this component is present: Sun-ripened tomatoes. Full recipe ingredients: sun-ripened tomatoes, vinegar, spice blend."
-          },
-          {
-            "id": "omacka-kecup-ing-2",
-            "question": "Which ingredient is part of Ketchup?",
-            "correctAnswer": "Vinegar",
-            "distractors": [
-              "Duck breast",
-              "Deboned trout"
-            ],
-            "explanation": "In Ketchup, this component is present: Vinegar. Full recipe ingredients: sun-ripened tomatoes, vinegar, spice blend."
-          },
-          {
-            "id": "omacka-kecup-ing-3",
-            "question": "Which ingredient is part of Ketchup?",
-            "correctAnswer": "Spice blend",
-            "distractors": [
-              "Beef tenderloin",
-              "Duroc pork belly"
-            ],
-            "explanation": "In Ketchup, this component is present: Spice blend. Full recipe ingredients: sun-ripened tomatoes, vinegar, spice blend."
+            "explanation": "In Ketchup, this component is present: Traditional tomato ketchup. Full recipe ingredients: traditional tomato ketchup."
           }
         ]
       }
@@ -2913,63 +2877,41 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   },
   {
     "id": "prilohy",
-    "name": "Sides",
-    "badge": "Sides",
-    "description": "Fresh potato sides, brioches, and vegetables",
-    "iconName": "Wheat",
+    "name": "Side dishes",
+    "badge": "Side dishes",
+    "description": "Premium freshly prepared sides to accompany your feast",
+    "iconName": "Utensils",
     "items": [
       {
         "id": "nase-hranolky",
         "name": "Our fries",
-        "weight": "",
-        "price": "89 CZK",
         "allergens": [],
-        "description": "fresh potatoes, beef lard for frying, sea salt",
-        "notes": "Our fries",
+        "description": "fresh homemade fries",
+        "price": "89 CZK",
+        "notes": "Hand-cut potatoes twice-fried in beef tallow for ultimate crunch.",
         "questions": [
           {
             "id": "nase-hranolky-ing-1",
             "question": "Which bread, side, or crispy garnish accompanies Our fries?",
-            "correctAnswer": "Fresh potatoes",
+            "correctAnswer": "Fresh homemade fries",
             "distractors": [
               "Butter brioche",
               "Sourdough bread"
             ],
-            "explanation": "In Our fries, this component is present: Fresh potatoes. Full recipe ingredients: fresh potatoes, beef lard for frying, sea salt."
-          },
-          {
-            "id": "nase-hranolky-ing-2",
-            "question": "Which meat or seafood ingredient forms the base of Our fries?",
-            "correctAnswer": "Beef lard for frying",
-            "distractors": [
-              "Duck breast",
-              "Deboned trout"
-            ],
-            "explanation": "In Our fries, this component is present: Beef lard for frying. Full recipe ingredients: fresh potatoes, beef lard for frying, sea salt."
-          },
-          {
-            "id": "nase-hranolky-ing-3",
-            "question": "Which ingredient is part of Our fries?",
-            "correctAnswer": "Sea salt",
-            "distractors": [
-              "Beef tenderloin",
-              "Duroc pork belly"
-            ],
-            "explanation": "In Our fries, this component is present: Sea salt. Full recipe ingredients: fresh potatoes, beef lard for frying, sea salt."
+            "explanation": "In Our fries, this component is present: Fresh homemade fries. Full recipe ingredients: fresh homemade fries."
           }
         ]
       },
       {
         "id": "hranolky-red-leicester",
         "name": "Fries",
-        "weight": "",
-        "price": "149 CZK",
         "allergens": [
           "3",
           "7"
         ],
         "description": "with truffle mayonnaise and Red Leicester cheese",
-        "notes": "with truffle mayonnaise and Red Leicester cheese",
+        "price": "149 CZK",
+        "notes": "Our signature fries topped with truffle mayo and shredded Red Leicester.",
         "questions": [
           {
             "id": "hranolky-red-leicester-ing-1",
@@ -3005,133 +2947,129 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "bramborova-kase",
-        "name": "Potato mash",
-        "weight": "",
-        "price": "89 CZK",
+        "name": "Mashed potatoes",
         "allergens": [
           "7"
         ],
         "description": "butter, potato straw",
-        "notes": "with butter and potato crisps",
+        "price": "89 CZK",
+        "notes": "Creamy buttered mashed potatoes finished with crispy potato straw.",
         "questions": [
           {
             "id": "bramborova-kase-ing-1",
-            "question": "Which cheese or dairy ingredient is included in Potato mash?",
+            "question": "Which cheese or dairy ingredient is included in Mashed potatoes?",
             "correctAnswer": "Butter",
             "distractors": [
               "Choron sauce",
               "Our salsa verde"
             ],
-            "explanation": "In Potato mash, this component is present: Butter. Full recipe ingredients: butter, potato straw."
+            "explanation": "In Mashed potatoes, this component is present: Butter. Full recipe ingredients: butter, potato straw."
           },
           {
             "id": "bramborova-kase-ing-2",
-            "question": "Which bread, side, or crispy garnish accompanies Potato mash?",
+            "question": "Which bread, side, or crispy garnish accompanies Mashed potatoes?",
             "correctAnswer": "Potato straw",
             "distractors": [
               "Potato crisps",
               "Homemade fries"
             ],
-            "explanation": "In Potato mash, this component is present: Potato straw. Full recipe ingredients: butter, potato straw."
+            "explanation": "In Mashed potatoes, this component is present: Potato straw. Full recipe ingredients: butter, potato straw."
           },
           {
             "id": "bramborova-kase-allergen-7",
-            "question": "Which of the following allergens is present in Potato mash?",
+            "question": "Which of the following allergens is present in Mashed potatoes?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 9 – Celery and products thereof",
               "Allergen No. 14 – Molluscs and products thereof"
             ],
-            "explanation": "Potato mash contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Milk and products thereof (including lactose)."
+            "explanation": "Mashed potatoes contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Milk and products thereof (including lactose)."
           }
         ]
       },
       {
         "id": "zauzene-rohlicek-brambory",
-        "name": "Smoked potatoes",
-        "weight": "",
-        "price": "99 CZK",
+        "name": "Smoked fingerling potatoes",
         "allergens": [
           "7"
         ],
         "description": "butter",
-        "notes": "with butter",
+        "price": "99 CZK",
+        "notes": "Beechwood-smoked fingerling potatoes tossed in clarified butter.",
         "questions": [
           {
             "id": "zauzene-rohlicek-brambory-ing-1",
-            "question": "Which cheese or dairy ingredient is included in Smoked potatoes?",
+            "question": "Which cheese or dairy ingredient is included in Smoked fingerling potatoes?",
             "correctAnswer": "Butter",
             "distractors": [
               "Choron sauce",
               "Our salsa verde"
             ],
-            "explanation": "In Smoked potatoes, this component is present: Butter. Full recipe ingredients: butter."
+            "explanation": "In Smoked fingerling potatoes, this component is present: Butter. Full recipe ingredients: butter."
           },
           {
             "id": "zauzene-rohlicek-brambory-allergen-7",
-            "question": "Which of the following allergens is present in Smoked potatoes?",
+            "question": "Which of the following allergens is present in Smoked fingerling potatoes?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 9 – Celery and products thereof",
               "Allergen No. 14 – Molluscs and products thereof"
             ],
-            "explanation": "Smoked potatoes contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Milk and products thereof (including lactose)."
+            "explanation": "Smoked fingerling potatoes contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Milk and products thereof (including lactose)."
           }
         ]
       },
       {
         "id": "salat-trhane-listy",
-        "name": "Salad of torn lettuce leaves",
-        "weight": "",
-        "price": "129 CZK",
+        "name": "Torn leaf salad",
         "allergens": [
           "10"
         ],
         "description": "and green tomato, beer vinaigrette",
-        "notes": "with green tomatoes and beer vinaigrette",
+        "price": "129 CZK",
+        "notes": "Crispy garden lettuce leaves with pickled green tomato and beer dressing.",
         "questions": [
           {
             "id": "salat-trhane-listy-ing-1",
-            "question": "Which vegetable or fruit component is included in Salad of torn lettuce leaves?",
+            "question": "Which vegetable or fruit component is included in Torn leaf salad?",
             "correctAnswer": "Green tomato",
             "distractors": [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Salad of torn lettuce leaves, this component is present: Green tomato. Full recipe ingredients: and green tomato, beer vinaigrette."
+            "explanation": "In Torn leaf salad, this component is present: Green tomato. Full recipe ingredients: and green tomato, beer vinaigrette."
           },
           {
             "id": "salat-trhane-listy-ing-2",
-            "question": "Which ingredient is part of Salad of torn lettuce leaves?",
+            "question": "Which ingredient is part of Torn leaf salad?",
             "correctAnswer": "Beer vinaigrette",
             "distractors": [
               "Duck breast",
               "Deboned trout"
             ],
-            "explanation": "In Salad of torn lettuce leaves, this component is present: Beer vinaigrette. Full recipe ingredients: and green tomato, beer vinaigrette."
+            "explanation": "In Torn leaf salad, this component is present: Beer vinaigrette. Full recipe ingredients: and green tomato, beer vinaigrette."
           },
           {
             "id": "salat-trhane-listy-allergen-10",
-            "question": "Which of the following allergens is present in Salad of torn lettuce leaves?",
+            "question": "Which of the following allergens is present in Torn leaf salad?",
             "correctAnswer": "Allergen No. 10 – Mustard and products thereof",
             "distractors": [
               "Allergen No. 12 – Sulphur dioxide and sulphites",
               "Allergen No. 3 – Eggs and products thereof"
             ],
-            "explanation": "Salad of torn lettuce leaves contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Mustard and products thereof."
+            "explanation": "Torn leaf salad contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Mustard and products thereof."
           }
         ]
       },
       {
         "id": "pecena-zimni-zelenina",
         "name": "Roasted winter vegetables",
-        "weight": "",
-        "price": "129 CZK",
         "allergens": [
           "9"
         ],
         "description": "with cardamom and maple syrup",
-        "notes": "with cardamom and maple syrup",
+        "price": "129 CZK",
+        "notes": "Oven-roasted root vegetables glazed with pure maple syrup and cardamom.",
         "questions": [
           {
             "id": "pecena-zimni-zelenina-ing-1",
@@ -3157,111 +3095,89 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "zelny-salat-kren",
-        "name": "Cabbage salad with horseradish",
-        "weight": "",
-        "price": "99 CZK",
+        "name": "Our cabbage salad with horseradish",
         "allergens": [
           "3",
           "7",
           "11"
         ],
-        "description": "raisins, wine vinegar, and mayonnaise",
-        "notes": "with raisins, wine vinegar, and mayonnaise",
+        "description": "raisins, wine vinegar and mayonnaise",
+        "price": "99 CZK",
+        "notes": "Crunchy shredded cabbage salad with freshly grated horseradish and sweet raisins.",
         "questions": [
           {
             "id": "zelny-salat-kren-ing-1",
-            "question": "Which ingredient is part of Cabbage salad with horseradish?",
+            "question": "Which ingredient is part of Our cabbage salad with horseradish?",
             "correctAnswer": "Raisins",
             "distractors": [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Cabbage salad with horseradish, this component is present: Raisins. Full recipe ingredients: raisins, wine vinegar, and mayonnaise."
+            "explanation": "In Our cabbage salad with horseradish, this component is present: Raisins. Full recipe ingredients: raisins, wine vinegar and mayonnaise."
           },
           {
             "id": "zelny-salat-kren-ing-2",
-            "question": "Which ingredient is part of Cabbage salad with horseradish?",
-            "correctAnswer": "Wine vinegar",
+            "question": "Which sauce, dressing, or reduction accompanies Our cabbage salad with horseradish?",
+            "correctAnswer": "Wine vinegar and mayonnaise",
             "distractors": [
-              "Duck breast",
-              "Deboned trout"
+              "Sour cherry sauce",
+              "Apple BBQ sauce"
             ],
-            "explanation": "In Cabbage salad with horseradish, this component is present: Wine vinegar. Full recipe ingredients: raisins, wine vinegar, and mayonnaise."
-          },
-          {
-            "id": "zelny-salat-kren-ing-3",
-            "question": "Which sauce, dressing, or reduction accompanies Cabbage salad with horseradish?",
-            "correctAnswer": "Mayonnaise",
-            "distractors": [
-              "Cognac sauce",
-              "Dill sauce"
-            ],
-            "explanation": "In Cabbage salad with horseradish, this component is present: Mayonnaise. Full recipe ingredients: raisins, wine vinegar, and mayonnaise."
+            "explanation": "In Our cabbage salad with horseradish, this component is present: Wine vinegar and mayonnaise. Full recipe ingredients: raisins, wine vinegar and mayonnaise."
           },
           {
             "id": "zelny-salat-kren-allergen-3",
-            "question": "Which of the following allergens is present in Cabbage salad with horseradish?",
+            "question": "Which of the following allergens is present in Our cabbage salad with horseradish?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
               "Allergen No. 5 – Peanuts and products thereof",
               "Allergen No. 12 – Sulphur dioxide and sulphites"
             ],
-            "explanation": "Cabbage salad with horseradish contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Eggs and products thereof, Milk and products thereof (including lactose), Sesame seeds and products thereof."
+            "explanation": "Our cabbage salad with horseradish contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Eggs and products thereof, Milk and products thereof (including lactose), Sesame seeds and products thereof."
           },
           {
             "id": "zelny-salat-kren-allergen-7",
-            "question": "Which of the following allergens is present in Cabbage salad with horseradish?",
+            "question": "Which of the following allergens is present in Our cabbage salad with horseradish?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 10 – Mustard and products thereof",
               "Allergen No. 2 – Crustaceans and products thereof"
             ],
-            "explanation": "Cabbage salad with horseradish contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Eggs and products thereof, Milk and products thereof (including lactose), Sesame seeds and products thereof."
+            "explanation": "Our cabbage salad with horseradish contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Eggs and products thereof, Milk and products thereof (including lactose), Sesame seeds and products thereof."
           },
           {
             "id": "zelny-salat-kren-allergen-11",
-            "question": "Which of the following allergens is present in Cabbage salad with horseradish?",
+            "question": "Which of the following allergens is present in Our cabbage salad with horseradish?",
             "correctAnswer": "Allergen No. 11 – Sesame seeds and products thereof",
             "distractors": [
               "Allergen No. 1 – Cereals containing gluten",
               "Allergen No. 8 – Tree nuts and products thereof"
             ],
-            "explanation": "Cabbage salad with horseradish contains Allergen No. 11 – Sesame seeds and products thereof (sesame oil, tahini, sesame brioche). All allergens present in this item: Eggs and products thereof, Milk and products thereof (including lactose), Sesame seeds and products thereof."
+            "explanation": "Our cabbage salad with horseradish contains Allergen No. 11 – Sesame seeds and products thereof (sesame oil, tahini, sesame brioche). All allergens present in this item: Eggs and products thereof, Milk and products thereof (including lactose), Sesame seeds and products thereof."
           }
         ]
       },
       {
         "id": "cesnekova-brioska",
         "name": "Toasted garlic brioche",
-        "weight": "",
-        "price": "79 CZK",
         "allergens": [
           "1",
           "3",
           "7"
         ],
-        "description": "garlic butter, toasted brioche",
-        "notes": "Toasted garlic brioche",
+        "description": "toasted garlic brioche",
+        "price": "79 CZK",
+        "notes": "Fluffy butter brioche spread with garlic butter and toasted.",
         "questions": [
           {
             "id": "cesnekova-brioska-ing-1",
             "question": "In what culinary form is garlic included in Toasted garlic brioche?",
-            "correctAnswer": "Garlic butter",
+            "correctAnswer": "Toasted garlic brioche",
             "distractors": [
-              "Lovage",
-              "Tarragon"
+              "Butter brioche",
+              "Sourdough bread"
             ],
-            "explanation": "In Toasted garlic brioche, this component is present: Garlic butter. Full recipe ingredients: garlic butter, toasted brioche."
-          },
-          {
-            "id": "cesnekova-brioska-ing-2",
-            "question": "Which bread, side, or crispy garnish accompanies Toasted garlic brioche?",
-            "correctAnswer": "Toasted brioche",
-            "distractors": [
-              "Potato straw",
-              "Mashed potatoes"
-            ],
-            "explanation": "In Toasted garlic brioche, this component is present: Toasted brioche. Full recipe ingredients: garlic butter, toasted brioche."
+            "explanation": "In Toasted garlic brioche, this component is present: Toasted garlic brioche. Full recipe ingredients: toasted garlic brioche."
           },
           {
             "id": "cesnekova-brioska-allergen-1",
@@ -3298,35 +3214,24 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "kvaskovy-chleb",
         "name": "Sourdough bread",
-        "weight": "",
-        "price": "45 CZK",
         "allergens": [
           "1",
           "3",
           "7"
         ],
-        "description": "traditional sourdough, crushed caraway",
-        "notes": "Sourdough bread",
+        "description": "fresh artisanal sourdough bread",
+        "price": "45 CZK",
+        "notes": "Thick slices of crusty artisanal sourdough rye-wheat bread.",
         "questions": [
           {
             "id": "kvaskovy-chleb-ing-1",
             "question": "Which bread, side, or crispy garnish accompanies Sourdough bread?",
-            "correctAnswer": "Traditional sourdough",
+            "correctAnswer": "Fresh artisanal sourdough bread",
             "distractors": [
-              "Pork tenderloin",
-              "Veal leg"
+              "Butter brioche",
+              "Potato straw"
             ],
-            "explanation": "In Sourdough bread, this component is present: Traditional sourdough. Full recipe ingredients: traditional sourdough, crushed caraway."
-          },
-          {
-            "id": "kvaskovy-chleb-ing-2",
-            "question": "Which fresh herb or spice seasoning finishes Sourdough bread?",
-            "correctAnswer": "Crushed caraway",
-            "distractors": [
-              "Duck breast",
-              "Deboned trout"
-            ],
-            "explanation": "In Sourdough bread, this component is present: Crushed caraway. Full recipe ingredients: traditional sourdough, crushed caraway."
+            "explanation": "In Sourdough bread, this component is present: Fresh artisanal sourdough bread. Full recipe ingredients: fresh artisanal sourdough bread."
           },
           {
             "id": "kvaskovy-chleb-allergen-1",
@@ -3366,222 +3271,209 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
     "id": "dezerty",
     "name": "Desserts",
     "badge": "Desserts",
-    "description": "Artisanal desserts and house beer ice cream",
+    "description": "Sweet indulgences made by our pastry chefs to complete your meal",
     "iconName": "Cake",
     "items": [
       {
         "id": "dortik-ganache-sisky",
-        "name": "Ganache Cakes",
-        "weight": "",
-        "price": "209 CZK",
+        "name": "Ganache cakes",
         "allergens": [
           "1",
           "3",
           "7",
           "8"
         ],
-        "description": "in the shape of hop cones made from Valrhona Dulcey chocolate, chocolate soil, and sour cherry sauce",
-        "notes": "in the shape of hop cones made from Valrhona Dulcey chocolate, chocolate soil, and sour cherry sauce",
+        "description": "in the shape of hop cones from Valrhona Dulcey chocolate, chocolate soil and sour cherry sauce",
+        "price": "209 CZK",
+        "notes": "Artisanal hop-cone shaped pastry with caramelized blond Valrhona Dulcey chocolate.",
         "questions": [
           {
             "id": "dortik-ganache-sisky-ing-1",
-            "question": "Which brewing raw material or trait characterizes Ganache Cakes?",
-            "correctAnswer": "In the shape of hop cones made from Valrhona Dulcey chocolate",
+            "question": "Which ingredient is part of Ganache cakes?",
+            "correctAnswer": "In the shape of hop cones from Valrhona Dulcey chocolate",
             "distractors": [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Ganache Cakes, this component is present: In the shape of hop cones made from Valrhona Dulcey chocolate. Full recipe ingredients: in the shape of hop cones made from Valrhona Dulcey chocolate, chocolate soil, and sour cherry sauce."
+            "explanation": "In Ganache cakes, this component is present: In the shape of hop cones from Valrhona Dulcey chocolate. Full recipe ingredients: in the shape of hop cones from Valrhona Dulcey chocolate, chocolate soil and sour cherry sauce."
           },
           {
             "id": "dortik-ganache-sisky-ing-2",
-            "question": "Which ingredient is part of Ganache Cakes?",
-            "correctAnswer": "Chocolate soil",
+            "question": "Which sauce, dressing, or reduction accompanies Ganache cakes?",
+            "correctAnswer": "Chocolate soil and sour cherry sauce",
             "distractors": [
-              "Duck breast",
-              "Deboned trout"
+              "Apple BBQ sauce",
+              "Lovage mayonnaise"
             ],
-            "explanation": "In Ganache Cakes, this component is present: Chocolate soil. Full recipe ingredients: in the shape of hop cones made from Valrhona Dulcey chocolate, chocolate soil, and sour cherry sauce."
-          },
-          {
-            "id": "dortik-ganache-sisky-ing-3",
-            "question": "Which sauce, dressing, or reduction accompanies Ganache Cakes?",
-            "correctAnswer": "Sour cherry sauce",
-            "distractors": [
-              "Spicy smoked mayonnaise",
-              "Cognac sauce"
-            ],
-            "explanation": "In Ganache Cakes, this component is present: Sour cherry sauce. Full recipe ingredients: in the shape of hop cones made from Valrhona Dulcey chocolate, chocolate soil, and sour cherry sauce."
+            "explanation": "In Ganache cakes, this component is present: Chocolate soil and sour cherry sauce. Full recipe ingredients: in the shape of hop cones from Valrhona Dulcey chocolate, chocolate soil and sour cherry sauce."
           },
           {
             "id": "dortik-ganache-sisky-allergen-1",
-            "question": "Which of the following allergens is present in Ganache Cakes?",
+            "question": "Which of the following allergens is present in Ganache cakes?",
             "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
             "distractors": [
               "Allergen No. 4 – Fish and products thereof",
               "Allergen No. 11 – Sesame seeds and products thereof"
             ],
-            "explanation": "Ganache Cakes contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Tree nuts and products thereof."
+            "explanation": "Ganache cakes contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Tree nuts and products thereof."
           },
           {
             "id": "dortik-ganache-sisky-allergen-3",
-            "question": "Which of the following allergens is present in Ganache Cakes?",
+            "question": "Which of the following allergens is present in Ganache cakes?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
               "Allergen No. 6 – Soybeans and products thereof",
               "Allergen No. 13 – Lupin and products thereof"
             ],
-            "explanation": "Ganache Cakes contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Tree nuts and products thereof."
+            "explanation": "Ganache cakes contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Tree nuts and products thereof."
           },
           {
             "id": "dortik-ganache-sisky-allergen-7",
-            "question": "Which of the following allergens is present in Ganache Cakes?",
+            "question": "Which of the following allergens is present in Ganache cakes?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 12 – Sulphur dioxide and sulphites",
               "Allergen No. 5 – Peanuts and products thereof"
             ],
-            "explanation": "Ganache Cakes contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Tree nuts and products thereof."
+            "explanation": "Ganache cakes contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Tree nuts and products thereof."
           },
           {
             "id": "dortik-ganache-sisky-allergen-8",
-            "question": "Which of the following allergens is present in Ganache Cakes?",
+            "question": "Which of the following allergens is present in Ganache cakes?",
             "correctAnswer": "Allergen No. 8 – Tree nuts and products thereof",
             "distractors": [
               "Allergen No. 13 – Lupin and products thereof",
               "Allergen No. 6 – Soybeans and products thereof"
             ],
-            "explanation": "Ganache Cakes contains Allergen No. 8 – Tree nuts and products thereof (walnuts, almonds, hazelnuts, cashews). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Tree nuts and products thereof."
+            "explanation": "Ganache cakes contains Allergen No. 8 – Tree nuts and products thereof (walnuts, almonds, hazelnuts, cashews). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Tree nuts and products thereof."
           }
         ]
       },
       {
         "id": "karamelovy-trhanec",
-        "name": "Caramel shred pancake",
-        "weight": "",
-        "price": "169 CZK",
+        "name": "Caramel Kaiserschmarrn",
         "allergens": [
           "1",
           "3",
           "7"
         ],
-        "description": "with roasted plums, eggnog liqueur ice cream",
-        "notes": "with roasted spiced plums and house eggnog ice cream",
+        "description": "with roasted plums, eggnog ice cream",
+        "price": "169 CZK",
+        "notes": "Fluffy caramelized shredded pancake served with spiced plums and egg liqueur ice cream.",
         "questions": [
           {
             "id": "karamelovy-trhanec-ing-1",
-            "question": "Which ingredient is part of Caramel shred pancake?",
+            "question": "Which ingredient is part of Caramel Kaiserschmarrn?",
             "correctAnswer": "With roasted plums",
             "distractors": [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Caramel shred pancake, this component is present: With roasted plums. Full recipe ingredients: with roasted plums, eggnog liqueur ice cream."
+            "explanation": "In Caramel Kaiserschmarrn, this component is present: With roasted plums. Full recipe ingredients: with roasted plums, eggnog ice cream."
           },
           {
             "id": "karamelovy-trhanec-ing-2",
-            "question": "Which ingredient is part of Caramel shred pancake?",
-            "correctAnswer": "Eggnog liqueur ice cream",
+            "question": "Which ingredient is part of Caramel Kaiserschmarrn?",
+            "correctAnswer": "Eggnog ice cream",
             "distractors": [
               "Duck breast",
               "Deboned trout"
             ],
-            "explanation": "In Caramel shred pancake, this component is present: Eggnog liqueur ice cream. Full recipe ingredients: with roasted plums, eggnog liqueur ice cream."
+            "explanation": "In Caramel Kaiserschmarrn, this component is present: Eggnog ice cream. Full recipe ingredients: with roasted plums, eggnog ice cream."
           },
           {
             "id": "karamelovy-trhanec-allergen-1",
-            "question": "Which of the following allergens is present in Caramel shred pancake?",
+            "question": "Which of the following allergens is present in Caramel Kaiserschmarrn?",
             "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
             "distractors": [
               "Allergen No. 4 – Fish and products thereof",
               "Allergen No. 10 – Mustard and products thereof"
             ],
-            "explanation": "Caramel shred pancake contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Caramel Kaiserschmarrn contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
           },
           {
             "id": "karamelovy-trhanec-allergen-3",
-            "question": "Which of the following allergens is present in Caramel shred pancake?",
+            "question": "Which of the following allergens is present in Caramel Kaiserschmarrn?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
               "Allergen No. 6 – Soybeans and products thereof",
               "Allergen No. 12 – Sulphur dioxide and sulphites"
             ],
-            "explanation": "Caramel shred pancake contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Caramel Kaiserschmarrn contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
           },
           {
             "id": "karamelovy-trhanec-allergen-7",
-            "question": "Which of the following allergens is present in Caramel shred pancake?",
+            "question": "Which of the following allergens is present in Caramel Kaiserschmarrn?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 11 – Sesame seeds and products thereof",
               "Allergen No. 4 – Fish and products thereof"
             ],
-            "explanation": "Caramel shred pancake contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Caramel Kaiserschmarrn contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
           }
         ]
       },
       {
         "id": "pivni-zmrzlina",
-        "name": "Beer ice cream",
-        "weight": "",
-        "price": "139 CZK",
+        "name": "Our beer ice cream",
         "allergens": [
           "1",
           "3",
           "7"
         ],
         "description": "with malt crumble, whipped cream",
-        "notes": "with malt crumble, whipped cream",
+        "price": "139 CZK",
+        "notes": "Unique house-made ice cream made with dark lager and malted barley crumble.",
         "questions": [
           {
             "id": "pivni-zmrzlina-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Beer ice cream?",
+            "question": "Which ingredient is part of Our beer ice cream?",
             "correctAnswer": "With malt crumble",
             "distractors": [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Beer ice cream, this component is present: With malt crumble. Full recipe ingredients: with malt crumble, whipped cream."
+            "explanation": "In Our beer ice cream, this component is present: With malt crumble. Full recipe ingredients: with malt crumble, whipped cream."
           },
           {
             "id": "pivni-zmrzlina-ing-2",
-            "question": "Which ingredient is part of Beer ice cream?",
+            "question": "Which ingredient is part of Our beer ice cream?",
             "correctAnswer": "Whipped cream",
             "distractors": [
               "Duck breast",
               "Deboned trout"
             ],
-            "explanation": "In Beer ice cream, this component is present: Whipped cream. Full recipe ingredients: with malt crumble, whipped cream."
+            "explanation": "In Our beer ice cream, this component is present: Whipped cream. Full recipe ingredients: with malt crumble, whipped cream."
           },
           {
             "id": "pivni-zmrzlina-allergen-1",
-            "question": "Which of the following allergens is present in Beer ice cream?",
+            "question": "Which of the following allergens is present in Our beer ice cream?",
             "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
             "distractors": [
               "Allergen No. 4 – Fish and products thereof",
               "Allergen No. 10 – Mustard and products thereof"
             ],
-            "explanation": "Beer ice cream contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Our beer ice cream contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
           },
           {
             "id": "pivni-zmrzlina-allergen-3",
-            "question": "Which of the following allergens is present in Beer ice cream?",
+            "question": "Which of the following allergens is present in Our beer ice cream?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
               "Allergen No. 6 – Soybeans and products thereof",
               "Allergen No. 12 – Sulphur dioxide and sulphites"
             ],
-            "explanation": "Beer ice cream contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Our beer ice cream contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
           },
           {
             "id": "pivni-zmrzlina-allergen-7",
-            "question": "Which of the following allergens is present in Beer ice cream?",
+            "question": "Which of the following allergens is present in Our beer ice cream?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 11 – Sesame seeds and products thereof",
               "Allergen No. 4 – Fish and products thereof"
             ],
-            "explanation": "Beer ice cream contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Our beer ice cream contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
           }
         ]
       }
@@ -3589,22 +3481,23 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   },
   {
     "id": "pro-deti",
-    "name": "For children",
-    "badge": "For children",
-    "description": "Specially prepared dishes loved by our youngest guests",
-    "iconName": "Utensils",
+    "name": "Kids menu",
+    "badge": "Kids menu",
+    "description": "Kid-approved meals made with premium ingredients in smaller portions",
+    "iconName": "Smile",
     "items": [
       {
         "id": "kureci-rizek",
         "name": "Chicken schnitzel",
         "weight": "100g",
-        "price": "125 CZK",
         "allergens": [
           "1",
           "3",
           "7"
         ],
         "description": "mashed potatoes",
+        "price": "125 CZK",
+        "notes": "Tender golden fried chicken cutlet with creamy mashed potatoes.",
         "questions": [
           {
             "id": "kureci-rizek-vol",
@@ -3614,7 +3507,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "150 g",
               "200 g"
             ],
-            "explanation": "The portion weight of Chicken schnitzel is 100g."
+            "explanation": "The portion size / weight of Chicken schnitzel is 100g."
           },
           {
             "id": "kureci-rizek-ing-1",
@@ -3660,148 +3553,150 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "cheeseburger-deti",
-        "name": "Mini cheeseburger",
+        "name": "Cheeseburger",
         "weight": "100g",
-        "price": "129 CZK",
         "allergens": [
           "1",
           "3",
           "7",
           "10"
         ],
-        "description": "with cheddar, lettuce, tomato and ketchup, fries",
+        "description": "with cheddar, lettuce, tomatoes and ketchup, homemade fries",
+        "price": "129 CZK",
+        "notes": "Kid-friendly beef burger with cheddar, fresh vegetables, ketchup, and crispy fries.",
         "questions": [
           {
             "id": "cheeseburger-deti-vol",
-            "question": "What is the portion weight of Mini cheeseburger?",
+            "question": "What is the portion weight of Cheeseburger?",
             "correctAnswer": "100g",
             "distractors": [
               "150 g",
               "200 g"
             ],
-            "explanation": "The portion weight of Mini cheeseburger is 100g."
+            "explanation": "The portion size / weight of Cheeseburger is 100g."
           },
           {
             "id": "cheeseburger-deti-ing-1",
-            "question": "Which cheese or dairy ingredient is included in Mini cheeseburger?",
+            "question": "Which cheese or dairy ingredient is included in Cheeseburger?",
             "correctAnswer": "With cheddar",
             "distractors": [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Mini cheeseburger, this component is present: With cheddar. Full recipe ingredients: with cheddar, lettuce, tomato and ketchup, fries."
+            "explanation": "In Cheeseburger, this component is present: With cheddar. Full recipe ingredients: with cheddar, lettuce, tomatoes and ketchup, homemade fries."
           },
           {
             "id": "cheeseburger-deti-ing-2",
-            "question": "Which ingredient is part of Mini cheeseburger?",
+            "question": "Which ingredient is part of Cheeseburger?",
             "correctAnswer": "Lettuce",
             "distractors": [
               "Duck breast",
               "Deboned trout"
             ],
-            "explanation": "In Mini cheeseburger, this component is present: Lettuce. Full recipe ingredients: with cheddar, lettuce, tomato and ketchup, fries."
+            "explanation": "In Cheeseburger, this component is present: Lettuce. Full recipe ingredients: with cheddar, lettuce, tomatoes and ketchup, homemade fries."
           },
           {
             "id": "cheeseburger-deti-ing-3",
-            "question": "Which sauce, dressing, or reduction accompanies Mini cheeseburger?",
-            "correctAnswer": "Tomato and ketchup",
+            "question": "Which sauce, dressing, or reduction accompanies Cheeseburger?",
+            "correctAnswer": "Tomatoes and ketchup",
             "distractors": [
               "Beef tenderloin",
               "Duroc pork belly"
             ],
-            "explanation": "In Mini cheeseburger, this component is present: Tomato and ketchup. Full recipe ingredients: with cheddar, lettuce, tomato and ketchup, fries."
+            "explanation": "In Cheeseburger, this component is present: Tomatoes and ketchup. Full recipe ingredients: with cheddar, lettuce, tomatoes and ketchup, homemade fries."
           },
           {
             "id": "cheeseburger-deti-ing-4",
-            "question": "Which bread, side, or crispy garnish accompanies Mini cheeseburger?",
-            "correctAnswer": "Fries",
+            "question": "Which bread, side, or crispy garnish accompanies Cheeseburger?",
+            "correctAnswer": "Homemade fries",
             "distractors": [
               "Beer biscuit",
               "Crispy pork cracklings"
             ],
-            "explanation": "In Mini cheeseburger, this component is present: Fries. Full recipe ingredients: with cheddar, lettuce, tomato and ketchup, fries."
+            "explanation": "In Cheeseburger, this component is present: Homemade fries. Full recipe ingredients: with cheddar, lettuce, tomatoes and ketchup, homemade fries."
           },
           {
             "id": "cheeseburger-deti-allergen-1",
-            "question": "Which of the following allergens is present in Mini cheeseburger?",
+            "question": "Which of the following allergens is present in Cheeseburger?",
             "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
             "distractors": [
               "Allergen No. 4 – Fish and products thereof",
               "Allergen No. 11 – Sesame seeds and products thereof"
             ],
-            "explanation": "Mini cheeseburger contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Cheeseburger contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
             "id": "cheeseburger-deti-allergen-3",
-            "question": "Which of the following allergens is present in Mini cheeseburger?",
+            "question": "Which of the following allergens is present in Cheeseburger?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
               "Allergen No. 6 – Soybeans and products thereof",
               "Allergen No. 13 – Lupin and products thereof"
             ],
-            "explanation": "Mini cheeseburger contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Cheeseburger contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
             "id": "cheeseburger-deti-allergen-7",
-            "question": "Which of the following allergens is present in Mini cheeseburger?",
+            "question": "Which of the following allergens is present in Cheeseburger?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 12 – Sulphur dioxide and sulphites",
               "Allergen No. 5 – Peanuts and products thereof"
             ],
-            "explanation": "Mini cheeseburger contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Cheeseburger contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
             "id": "cheeseburger-deti-allergen-10",
-            "question": "Which of the following allergens is present in Mini cheeseburger?",
+            "question": "Which of the following allergens is present in Cheeseburger?",
             "correctAnswer": "Allergen No. 10 – Mustard and products thereof",
             "distractors": [
               "Allergen No. 2 – Crustaceans and products thereof",
               "Allergen No. 9 – Celery and products thereof"
             ],
-            "explanation": "Mini cheeseburger contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Cheeseburger contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           }
         ]
       },
       {
         "id": "krupicova-kase",
-        "name": "Semolina porridge",
-        "price": "119 CZK",
+        "name": "Semolina pudding",
         "allergens": [
           "1",
           "7"
         ],
-        "description": "from foam with cocoa and butter",
+        "description": "from foam espuma with cocoa and butter",
+        "price": "119 CZK",
+        "notes": "Warm light semolina porridge served from an espuma siphon with butter and cocoa.",
         "questions": [
           {
             "id": "krupicova-kase-ing-1",
-            "question": "Which cheese or dairy ingredient is included in Semolina porridge?",
-            "correctAnswer": "From foam with cocoa and butter",
+            "question": "Which cheese or dairy ingredient is included in Semolina pudding?",
+            "correctAnswer": "From foam espuma with cocoa and butter",
             "distractors": [
               "Choron sauce",
               "Our salsa verde"
             ],
-            "explanation": "In Semolina porridge, this component is present: From foam with cocoa and butter. Full recipe ingredients: from foam with cocoa and butter."
+            "explanation": "In Semolina pudding, this component is present: From foam espuma with cocoa and butter. Full recipe ingredients: from foam espuma with cocoa and butter."
           },
           {
             "id": "krupicova-kase-allergen-1",
-            "question": "Which of the following allergens is present in Semolina porridge?",
+            "question": "Which of the following allergens is present in Semolina pudding?",
             "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
             "distractors": [
               "Allergen No. 3 – Eggs and products thereof",
               "Allergen No. 9 – Celery and products thereof"
             ],
-            "explanation": "Semolina porridge contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Milk and products thereof (including lactose)."
+            "explanation": "Semolina pudding contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Milk and products thereof (including lactose)."
           },
           {
             "id": "krupicova-kase-allergen-7",
-            "question": "Which of the following allergens is present in Semolina porridge?",
+            "question": "Which of the following allergens is present in Semolina pudding?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 10 – Mustard and products thereof",
               "Allergen No. 2 – Crustaceans and products thereof"
             ],
-            "explanation": "Semolina porridge contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Milk and products thereof (including lactose)."
+            "explanation": "Semolina pudding contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Milk and products thereof (including lactose)."
           }
         ]
       }
