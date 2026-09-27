@@ -3010,54 +3010,54 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "hranolky-lanyz",
-        "name": "Fries with truffle mayonnaise and Red Leicester cheese",
+        "name": "Fries",
         "price": "149 CZK",
         "allergens": [
           "3",
           "7"
         ],
-        "description": "crispy fries with truffle mayonnaise, grated Red Leicester cheese",
+        "description": "with truffle mayonnaise and Red Leicester cheese",
         "notes": "Indulgent loaded fries tossed in truffle mayo and melted English Red Leicester.",
         "questions": [
           {
             "id": "hranolky-lanyz-ing-1",
-            "question": "Which bread, side, or crispy garnish accompanies Fries with truffle mayonnaise and Red Leicester cheese?",
-            "correctAnswer": "Crispy fries with truffle mayonnaise",
+            "question": "Which sauce, dressing, or condiment accompanies Fries?",
+            "correctAnswer": "Truffle mayonnaise",
             "distractors": [
               "Butter brioche",
               "Sourdough bread"
             ],
-            "explanation": "In Fries with truffle mayonnaise and Red Leicester cheese, this component is present: Crispy fries with truffle mayonnaise. Full recipe ingredients: crispy fries with truffle mayonnaise, grated Red Leicester cheese."
+            "explanation": "In Fries, this component is present: Truffle mayonnaise. Full recipe ingredients: with truffle mayonnaise and Red Leicester cheese."
           },
           {
             "id": "hranolky-lanyz-ing-2",
-            "question": "Which cheese or dairy component is included in Fries with truffle mayonnaise and Red Leicester cheese?",
-            "correctAnswer": "Grated Red Leicester cheese",
+            "question": "Which cheese or dairy component is included in Fries?",
+            "correctAnswer": "Red Leicester cheese",
             "distractors": [
               "Sour cherry sauce",
               "Apple BBQ glaze"
             ],
-            "explanation": "In Fries with truffle mayonnaise and Red Leicester cheese, this component is present: Grated Red Leicester cheese. Full recipe ingredients: crispy fries with truffle mayonnaise, grated Red Leicester cheese."
+            "explanation": "In Fries, this component is present: Red Leicester cheese. Full recipe ingredients: with truffle mayonnaise and Red Leicester cheese."
           },
           {
             "id": "hranolky-lanyz-allergen-3",
-            "question": "Which of the following allergens is present in Fries with truffle mayonnaise and Red Leicester cheese?",
+            "question": "Which of the following allergens is present in Fries?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
               "Allergen No. 5 – Peanuts and products thereof",
               "Allergen No. 11 – Sesame seeds and products thereof"
             ],
-            "explanation": "Fries with truffle mayonnaise and Red Leicester cheese contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Eggs and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Fries contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Eggs and products thereof, Milk and products thereof (including lactose)."
           },
           {
             "id": "hranolky-lanyz-allergen-7",
-            "question": "Which of the following allergens is present in Fries with truffle mayonnaise and Red Leicester cheese?",
+            "question": "Which of the following allergens is present in Fries?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 10 – Mustard and products thereof",
               "Allergen No. 1 – Cereals containing gluten"
             ],
-            "explanation": "Fries with truffle mayonnaise and Red Leicester cheese contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Eggs and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Fries contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Eggs and products thereof, Milk and products thereof (including lactose)."
           }
         ]
       },
@@ -3068,8 +3068,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "7"
         ],
-        "description": "with butter, potato crisps",
-        "notes": "Silky smooth potato mash enriched with farm butter and crunchy crisps.",
+        "description": "with butter, potato straws",
+        "notes": "Silky smooth potato mash enriched with farm butter and crunchy potato straws.",
         "questions": [
           {
             "id": "bramborova-kase-ing-1",
@@ -3079,17 +3079,17 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Choron sauce",
               "Our salsa verde"
             ],
-            "explanation": "In Potato mash, this component is present: Butter. Full recipe ingredients: with butter, potato crisps."
+            "explanation": "In Potato mash, this component is present: Butter. Full recipe ingredients: with butter, potato straws."
           },
           {
             "id": "bramborova-kase-ing-2",
             "question": "Which bread, side, or crispy garnish accompanies Potato mash?",
-            "correctAnswer": "Potato crisps",
+            "correctAnswer": "Potato straws",
             "distractors": [
-              "Potato straw",
+              "Potato crisps",
               "Mashed potatoes"
             ],
-            "explanation": "In Potato mash, this component is present: Potato crisps. Full recipe ingredients: with butter, potato crisps."
+            "explanation": "In Potato mash, this component is present: Potato straws. Full recipe ingredients: with butter, potato straws."
           },
           {
             "id": "bramborova-kase-allergen-7",
@@ -4569,6 +4569,178 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Allergen No. 8 – Tree nuts and products thereof"
             ],
             "explanation": "Maisel`s Weisse Non-Alcoholic /bottled/ contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten."
+          }
+        ]
+      },
+      {
+        "id": "transfuze-sebou",
+        "name": "TransFUZE",
+        "weight": "0.5l",
+        "price": "69 CZK",
+        "allergens": [
+          "1"
+        ],
+        "description": "take your favorite beer to go - in a can or freshly tapped in a PET bottle",
+        "notes": "Takeaway beer: in a can or freshly tapped in a PET bottle.",
+        "questions": [
+          {
+            "id": "transfuze-sebou-vol",
+            "question": "What is the packaging volume of TransFUZE beer to go?",
+            "correctAnswer": "0.5l",
+            "distractors": [
+              "0.3l",
+              "1.0l"
+            ],
+            "explanation": "The packaging volume of TransFUZE beer to go is 0.5l."
+          },
+          {
+            "id": "transfuze-sebou-pkg",
+            "question": "In what packaging can you take TransFUZE beer to go?",
+            "correctAnswer": "In a can or freshly tapped in a PET bottle",
+            "distractors": [
+              "Only in a returnable glass bottle",
+              "In a 5l stainless steel mini keg"
+            ],
+            "explanation": "TransFUZE: take your favorite beer to go - in a can or freshly tapped in a PET bottle."
+          },
+          {
+            "id": "transfuze-sebou-allergen-1",
+            "question": "Which allergen is present in TransFUZE beer?",
+            "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
+            "distractors": [
+              "Allergen No. 7 – Milk and milk products (including lactose)",
+              "Allergen No. 12 – Sulphur dioxide and sulphites"
+            ],
+            "explanation": "TransFUZE beer contains Allergen No. 1 – Cereals containing gluten (malt in beer)."
+          }
+        ]
+      },
+      {
+        "id": "disfuze-sebou",
+        "name": "DisFUZE",
+        "weight": "0.5l",
+        "price": "69 CZK",
+        "allergens": [
+          "1"
+        ],
+        "description": "take your favorite beer to go - in a can or freshly tapped in a PET bottle",
+        "notes": "Takeaway beer: in a can or freshly tapped in a PET bottle.",
+        "questions": [
+          {
+            "id": "disfuze-sebou-vol",
+            "question": "What is the packaging volume of DisFUZE beer to go?",
+            "correctAnswer": "0.5l",
+            "distractors": [
+              "0.3l",
+              "1.0l"
+            ],
+            "explanation": "The packaging volume of DisFUZE beer to go is 0.5l."
+          },
+          {
+            "id": "disfuze-sebou-pkg",
+            "question": "In what packaging can you take DisFUZE beer to go?",
+            "correctAnswer": "In a can or freshly tapped in a PET bottle",
+            "distractors": [
+              "Only in a returnable glass bottle",
+              "In a 5l stainless steel mini keg"
+            ],
+            "explanation": "DisFUZE: take your favorite beer to go - in a can or freshly tapped in a PET bottle."
+          },
+          {
+            "id": "disfuze-sebou-allergen-1",
+            "question": "Which allergen is present in DisFUZE beer?",
+            "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
+            "distractors": [
+              "Allergen No. 7 – Milk and milk products (including lactose)",
+              "Allergen No. 12 – Sulphur dioxide and sulphites"
+            ],
+            "explanation": "DisFUZE beer contains Allergen No. 1 – Cereals containing gluten (malt in beer)."
+          }
+        ]
+      },
+      {
+        "id": "fuzenac-sebou",
+        "name": "FUZEnáč",
+        "weight": "0.5l",
+        "price": "78 CZK",
+        "allergens": [
+          "1"
+        ],
+        "description": "take your favorite beer to go - in a can or freshly tapped in a PET bottle",
+        "notes": "Takeaway beer: in a can or freshly tapped in a PET bottle.",
+        "questions": [
+          {
+            "id": "fuzenac-sebou-vol",
+            "question": "What is the packaging volume of FUZEnáč beer to go?",
+            "correctAnswer": "0.5l",
+            "distractors": [
+              "0.3l",
+              "1.0l"
+            ],
+            "explanation": "The packaging volume of FUZEnáč beer to go is 0.5l."
+          },
+          {
+            "id": "fuzenac-sebou-pkg",
+            "question": "In what packaging can you take FUZEnáč beer to go?",
+            "correctAnswer": "In a can or freshly tapped in a PET bottle",
+            "distractors": [
+              "Only in a returnable glass bottle",
+              "In a 5l stainless steel mini keg"
+            ],
+            "explanation": "FUZEnáč: take your favorite beer to go - in a can or freshly tapped in a PET bottle."
+          },
+          {
+            "id": "fuzenac-sebou-allergen-1",
+            "question": "Which allergen is present in FUZEnáč beer?",
+            "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
+            "distractors": [
+              "Allergen No. 7 – Milk and milk products (including lactose)",
+              "Allergen No. 12 – Sulphur dioxide and sulphites"
+            ],
+            "explanation": "FUZEnáč beer contains Allergen No. 1 – Cereals containing gluten (malt in beer)."
+          }
+        ]
+      },
+      {
+        "id": "infuze-sebou",
+        "name": "InFUZE",
+        "weight": "0.5l",
+        "price": "106 CZK",
+        "allergens": [
+          "1"
+        ],
+        "description": "take your favorite beer to go - in a can or freshly tapped in a PET bottle",
+        "notes": "Takeaway beer: in a can or freshly tapped in a PET bottle.",
+        "questions": [
+          {
+            "id": "infuze-sebou-vol",
+            "question": "What is the packaging volume of InFUZE beer to go?",
+            "correctAnswer": "0.5l",
+            "distractors": [
+              "0.3l",
+              "1.0l"
+            ],
+            "explanation": "The packaging volume of InFUZE beer to go is 0.5l."
+          },
+          {
+            "id": "infuze-sebou-pkg",
+            "question": "In what packaging can you take InFUZE beer to go?",
+            "correctAnswer": "In a can or freshly tapped in a PET bottle",
+            "distractors": [
+              "Only in a returnable glass bottle",
+              "In a 5l stainless steel mini keg"
+            ],
+            "explanation": "InFUZE: take your favorite beer to go - in a can or freshly tapped in a PET bottle."
+          },
+          {
+            "id": "infuze-sebou-allergen-1",
+            "question": "Which allergen is present in InFUZE beer?",
+            "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
+            "distractors": [
+              "Allergen No. 7 – Milk and milk products (including lactose)",
+              "Allergen No. 12 – Sulphur dioxide and sulphites"
+            ],
+            "explanation": "InFUZE beer contains Allergen No. 1 – Cereals containing gluten (malt in beer)."
           }
         ]
       }

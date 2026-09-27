@@ -161,24 +161,6 @@ export default function App() {
 
       {/* Main Content Area */}
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
-        {language === 'en' && (
-          <div className="mb-6 p-4 rounded-xl bg-amber-950/30 border border-amber-800/40 text-amber-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-sm animate-fadeIn">
-            <div className="flex items-center gap-3">
-              <span className="text-2xl">🇬🇧</span>
-              <div>
-                <p className="font-semibold text-amber-100">Anglická verze menu a trenažéru (English Menu Training)</p>
-                <p className="text-xs text-stone-300">Skupiny, položky menu i testové otázky jsou v angličtině. Statistiky úspěšnosti a sérií jsou pro anglickou verzi vedeny odděleně.</p>
-              </div>
-            </div>
-            <button
-              type="button"
-              onClick={() => handleLanguageChange('cs')}
-              className="px-3 py-1.5 rounded-lg bg-stone-800 hover:bg-stone-700 text-amber-300 font-semibold text-xs whitespace-nowrap transition-colors border border-amber-800/40"
-            >
-              🇨🇿 Přepnout do CZ
-            </button>
-          </div>
-        )}
         {currentTab === 'train' && (
           <>
             {/* View 1: Quiz screen when Item is selected */}
