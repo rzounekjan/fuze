@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { MENU_CATEGORIES, MenuCategory, MenuItem } from './data/menuData';
 import { MENU_CATEGORIES_EN } from './data/menuDataEn';
 import { getStoredStats, resetStats, UserStats } from './utils/storage';
@@ -11,20 +11,89 @@ import { MenuExplorer } from './components/MenuExplorer';
 import { OfflineIndicator } from './components/OfflineIndicator';
 import { RotateCcw } from 'lucide-react';
 
+const NAV_STATE_KEY = 'fuze_nav_state';
+
+interface PersistedNavState {
+  currentTab: 'train' | 'exam' | 'catalog';
+  categoryId: string | null;
+  itemId: string | null;
+  isCategoryRunner: boolean;
+  categoryItemIndex: number;
+  lastSelectedCategoryId: string | null;
+  scrollY: number;
+}
+
+function readStoredNavState(): Partial<PersistedNavState> {
+  try {
+    const raw = sessionStorage.getItem(NAV_STATE_KEY) || localStorage.getItem(NAV_STATE_KEY);
+    if (raw) {
+      return JSON.parse(raw);
+    }
+  } catch (e) {
+    console.error('Failed to parse nav state', e);
+  }
+  return {};
+}
+
 export default function App() {
-  const [currentTab, setCurrentTab] = useState<'train' | 'exam' | 'catalog'>('train');
-  const [selectedCategory, setSelectedCategory] = useState<MenuCategory | null>(null);
-  const [lastSelectedCategoryId, setLastSelectedCategoryId] = useState<string | null>(null);
-  const [selectedItem, setSelectedItem] = useState<MenuItem | null>(null);
   const [language, setLanguage] = useState<'cs' | 'en'>(() => {
     const saved = localStorage.getItem('fuze_language');
     return saved === 'en' || saved === 'cs' ? saved : 'cs';
   });
-  const [stats, setStats] = useState<UserStats>(() => getStoredStats(language));
-  const [showResetModal, setShowResetModal] = useState<boolean>(false);
 
   // Dynamic categories based on active language
   const activeCategories = language === 'en' ? MENU_CATEGORIES_EN : MENU_CATEGORIES;
+
+  const [currentTab, setCurrentTab] = useState<'train' | 'exam' | 'catalog'>(() => {
+    const nav = readStoredNavState();
+    if (nav.currentTab && ['train', 'exam', 'catalog'].includes(nav.currentTab)) {
+      return nav.currentTab;
+    }
+    return 'train';
+  });
+
+  const [selectedCategory, setSelectedCategory] = useState<MenuCategory | null>(() => {
+    const nav = readStoredNavState();
+    if (nav.categoryId) {
+      const savedLang = localStorage.getItem('fuze_language');
+      const lang = savedLang === 'en' || savedLang === 'cs' ? savedLang : 'cs';
+      const cats = lang === 'en' ? MENU_CATEGORIES_EN : MENU_CATEGORIES;
+      return cats.find(c => c.id === nav.categoryId) || null;
+    }
+    return null;
+  });
+
+  const [lastSelectedCategoryId, setLastSelectedCategoryId] = useState<string | null>(() => {
+    const nav = readStoredNavState();
+    return nav.lastSelectedCategoryId || null;
+  });
+
+  const [selectedItem, setSelectedItem] = useState<MenuItem | null>(() => {
+    const nav = readStoredNavState();
+    if (nav.categoryId && nav.itemId) {
+      const savedLang = localStorage.getItem('fuze_language');
+      const lang = savedLang === 'en' || savedLang === 'cs' ? savedLang : 'cs';
+      const cats = lang === 'en' ? MENU_CATEGORIES_EN : MENU_CATEGORIES;
+      const cat = cats.find(c => c.id === nav.categoryId);
+      if (cat) {
+        return cat.items.find(i => i.id === nav.itemId) || null;
+      }
+    }
+    return null;
+  });
+
+  // Category quiz runner state (when testing all items in category sequentially)
+  const [isCategoryRunner, setIsCategoryRunner] = useState<boolean>(() => {
+    const nav = readStoredNavState();
+    return Boolean(nav.isCategoryRunner);
+  });
+  const [categoryItemIndex, setCategoryItemIndex] = useState<number>(() => {
+    const nav = readStoredNavState();
+    return typeof nav.categoryItemIndex === 'number' ? nav.categoryItemIndex : 0;
+  });
+
+  const [stats, setStats] = useState<UserStats>(() => getStoredStats(language));
+  const [showResetModal, setShowResetModal] = useState<boolean>(false);
 
   // Dynamic total items and questions count based on active language
   // Automatically recalculates whenever items or questions are added/removed in either language
@@ -38,6 +107,97 @@ export default function App() {
       0
     );
   }, [activeCategories]);
+
+  // Restore scroll position on initial render/refresh
+  useEffect(() => {
+    if ('scrollRestoration' in window.history) {
+      window.history.scrollRestoration = 'manual';
+    }
+
+    const nav = readStoredNavState();
+    const targetScrollY = typeof nav.scrollY === 'number' ? nav.scrollY : 0;
+    if (targetScrollY > 0) {
+      const restore = () => {
+        window.scrollTo({ top: targetScrollY, behavior: 'instant' });
+      };
+
+      restore();
+      const t1 = setTimeout(restore, 40);
+      const t2 = setTimeout(restore, 120);
+      const t3 = setTimeout(restore, 300);
+
+      return () => {
+        clearTimeout(t1);
+        clearTimeout(t2);
+        clearTimeout(t3);
+      };
+    }
+  }, []);
+
+  // Track scroll position continuously
+  useEffect(() => {
+    let scrollTimer: NodeJS.Timeout;
+
+    const recordScroll = () => {
+      try {
+        const raw = sessionStorage.getItem(NAV_STATE_KEY) || localStorage.getItem(NAV_STATE_KEY);
+        const data = raw ? JSON.parse(raw) : {};
+        data.scrollY = window.scrollY;
+        const serialized = JSON.stringify(data);
+        sessionStorage.setItem(NAV_STATE_KEY, serialized);
+        localStorage.setItem(NAV_STATE_KEY, serialized);
+      } catch (e) {}
+    };
+
+    const handleScroll = () => {
+      clearTimeout(scrollTimer);
+      scrollTimer = setTimeout(recordScroll, 80);
+    };
+
+    const handleBeforeUnload = () => {
+      recordScroll();
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    window.addEventListener('beforeunload', handleBeforeUnload);
+
+    return () => {
+      clearTimeout(scrollTimer);
+      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('beforeunload', handleBeforeUnload);
+    };
+  }, []);
+
+  // Sync navigation state to storage whenever it changes
+  useEffect(() => {
+    try {
+      const raw = sessionStorage.getItem(NAV_STATE_KEY) || localStorage.getItem(NAV_STATE_KEY);
+      const prev = raw ? JSON.parse(raw) : {};
+      const state: PersistedNavState = {
+        currentTab,
+        categoryId: selectedCategory ? selectedCategory.id : null,
+        itemId: selectedItem ? selectedItem.id : null,
+        isCategoryRunner,
+        categoryItemIndex,
+        lastSelectedCategoryId,
+        scrollY: typeof prev.scrollY === 'number' ? prev.scrollY : window.scrollY,
+      };
+      const serialized = JSON.stringify(state);
+      sessionStorage.setItem(NAV_STATE_KEY, serialized);
+      localStorage.setItem(NAV_STATE_KEY, serialized);
+    } catch (e) {}
+  }, [currentTab, selectedCategory, selectedItem, isCategoryRunner, categoryItemIndex, lastSelectedCategoryId]);
+
+  const saveNavStateImmediate = (patch: Partial<PersistedNavState>) => {
+    try {
+      const raw = sessionStorage.getItem(NAV_STATE_KEY) || localStorage.getItem(NAV_STATE_KEY);
+      const prev = raw ? JSON.parse(raw) : {};
+      const updated = { ...prev, ...patch };
+      const serialized = JSON.stringify(updated);
+      sessionStorage.setItem(NAV_STATE_KEY, serialized);
+      localStorage.setItem(NAV_STATE_KEY, serialized);
+    } catch (e) {}
+  };
 
   const handleLanguageChange = (lang: 'cs' | 'en') => {
     setLanguage(lang);
@@ -56,10 +216,6 @@ export default function App() {
     }
   };
 
-  // Category quiz runner state (when testing all items in category sequentially)
-  const [isCategoryRunner, setIsCategoryRunner] = useState<boolean>(false);
-  const [categoryItemIndex, setCategoryItemIndex] = useState<number>(0);
-
   const refreshStats = () => {
     setStats(getStoredStats(language));
   };
@@ -77,12 +233,30 @@ export default function App() {
     setSelectedItem(null);
     setIsCategoryRunner(false);
     window.scrollTo({ top: 0, behavior: 'instant' });
+    saveNavStateImmediate({
+      currentTab: 'train',
+      categoryId: cat.id,
+      itemId: null,
+      isCategoryRunner: false,
+      categoryItemIndex: 0,
+      lastSelectedCategoryId: cat.id,
+      scrollY: 0,
+    });
   };
 
   const handleSelectItem = (item: MenuItem) => {
     setSelectedItem(item);
     setIsCategoryRunner(false);
     window.scrollTo({ top: 0, behavior: 'instant' });
+    saveNavStateImmediate({
+      currentTab: 'train',
+      categoryId: selectedCategory ? selectedCategory.id : null,
+      itemId: item.id,
+      isCategoryRunner: false,
+      categoryItemIndex: 0,
+      lastSelectedCategoryId,
+      scrollY: 0,
+    });
   };
 
   const handleStartQuizFromExplorer = (cat: MenuCategory, item: MenuItem) => {
@@ -92,15 +266,25 @@ export default function App() {
     setCurrentTab('train');
     setIsCategoryRunner(false);
     window.scrollTo({ top: 0, behavior: 'instant' });
+    saveNavStateImmediate({
+      currentTab: 'train',
+      categoryId: cat.id,
+      itemId: item.id,
+      isCategoryRunner: false,
+      categoryItemIndex: 0,
+      lastSelectedCategoryId: cat.id,
+      scrollY: 0,
+    });
   };
 
   const handleBackToCategories = () => {
-    if (selectedCategory) {
-      setLastSelectedCategoryId(selectedCategory.id);
-    }
+    const catId = selectedCategory ? selectedCategory.id : null;
     setSelectedCategory(null);
     setSelectedItem(null);
     setIsCategoryRunner(false);
+    if (catId) {
+      setLastSelectedCategoryId(catId);
+    }
   };
 
   const handleQuizEntireCategory = () => {
@@ -193,6 +377,7 @@ export default function App() {
                 onSelectCategory={handleSelectCategory}
                 stats={stats}
                 lastSelectedCategoryId={lastSelectedCategoryId}
+                onClearLastSelectedCategory={() => setLastSelectedCategoryId(null)}
                 language={language}
               />
             )}

@@ -36,7 +36,18 @@ export const QuizView: React.FC<QuizViewProps> = ({
   onAnswerRecorded,
   language = 'cs'
 }) => {
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(() => {
+    try {
+      const saved = sessionStorage.getItem(`fuze_quiz_qidx_${item.id}`);
+      if (saved !== null) {
+        const val = parseInt(saved, 10);
+        if (!isNaN(val) && val >= 0 && val < item.questions.length) {
+          return val;
+        }
+      }
+    } catch (e) {}
+    return 0;
+  });
   const [selectedOption, setSelectedOption] = useState<ShuffledOption | null>(null);
   const [hasAnswered, setHasAnswered] = useState(false);
   const [scoreHistory, setScoreHistory] = useState<boolean[]>([]);
@@ -45,15 +56,31 @@ export const QuizView: React.FC<QuizViewProps> = ({
   // Guard timestamp to prevent ghost clicks, key releases, and rapid touch events on new questions
   const transitionTimestampRef = useRef<number>(Date.now());
 
-  // Reset state whenever the item changes
+  // Reset or restore state whenever the item changes
   useEffect(() => {
-    setCurrentQuestionIndex(0);
+    let initialIdx = 0;
+    try {
+      const saved = sessionStorage.getItem(`fuze_quiz_qidx_${item.id}`);
+      if (saved !== null) {
+        const val = parseInt(saved, 10);
+        if (!isNaN(val) && val >= 0 && val < item.questions.length) {
+          initialIdx = val;
+        }
+      }
+    } catch (e) {}
+    setCurrentQuestionIndex(initialIdx);
     setSelectedOption(null);
     setHasAnswered(false);
     setScoreHistory([]);
     setShowFullRecipe(false);
     transitionTimestampRef.current = Date.now();
   }, [item.id]);
+
+  useEffect(() => {
+    try {
+      sessionStorage.setItem(`fuze_quiz_qidx_${item.id}`, currentQuestionIndex.toString());
+    } catch (e) {}
+  }, [item.id, currentQuestionIndex]);
 
   const currentQuestion = item.questions[currentQuestionIndex] || item.questions[0];
 
@@ -164,12 +191,18 @@ export const QuizView: React.FC<QuizViewProps> = ({
       onNextItem();
     } else {
       // Finished all questions for this item
+      try {
+        sessionStorage.removeItem(`fuze_quiz_qidx_${item.id}`);
+      } catch (e) {}
       setShowFullRecipe(true);
     }
   };
 
   const handleRestartQuiz = () => {
     transitionTimestampRef.current = Date.now();
+    try {
+      sessionStorage.removeItem(`fuze_quiz_qidx_${item.id}`);
+    } catch (e) {}
     setCurrentQuestionIndex(0);
     setSelectedOption(null);
     setHasAnswered(false);

@@ -82,9 +82,51 @@ export const RandomExam: React.FC<RandomExamProps> = ({
     setIsFinished(false);
   };
 
+  const EXAM_STORAGE_KEY = `fuze_exam_session_${language}`;
+
   useEffect(() => {
+    try {
+      const saved = sessionStorage.getItem(EXAM_STORAGE_KEY);
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        if (Array.isArray(parsed.examQuestions) && parsed.examQuestions.length > 0) {
+          setExamQuestions(parsed.examQuestions);
+          setCurrentIndex(typeof parsed.currentIndex === 'number' ? parsed.currentIndex : 0);
+          setUserAnswers(parsed.userAnswers || []);
+          setIsFinished(Boolean(parsed.isFinished));
+          return;
+        }
+      }
+    } catch (e) {}
     initExam();
-  }, [categories]);
+  }, [categories, language]);
+
+  useEffect(() => {
+    if (examQuestions.length > 0) {
+      try {
+        sessionStorage.setItem(EXAM_STORAGE_KEY, JSON.stringify({
+          examQuestions,
+          currentIndex,
+          userAnswers,
+          isFinished
+        }));
+      } catch (e) {}
+    }
+  }, [examQuestions, currentIndex, userAnswers, isFinished, EXAM_STORAGE_KEY]);
+
+  const handleExitExam = () => {
+    try {
+      sessionStorage.removeItem(EXAM_STORAGE_KEY);
+    } catch (e) {}
+    onExit();
+  };
+
+  const handleRestartExam = () => {
+    try {
+      sessionStorage.removeItem(EXAM_STORAGE_KEY);
+    } catch (e) {}
+    initExam();
+  };
 
   const currentQ = examQuestions[currentIndex];
 
@@ -218,14 +260,14 @@ export const RandomExam: React.FC<RandomExamProps> = ({
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
             <button
-              onClick={initExam}
+              onClick={handleRestartExam}
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-2.5 rounded-xl bg-amber-600 hover:bg-amber-500 text-stone-950 font-bold text-sm transition-all shadow-md shadow-amber-950/40"
             >
               <RotateCcw className="w-4 h-4" />
               <span>Spustit nový test (Mix 10)</span>
             </button>
             <button
-              onClick={onExit}
+              onClick={handleExitExam}
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-2.5 rounded-xl bg-stone-800 hover:bg-stone-700 text-stone-200 text-sm font-semibold transition-colors"
             >
               <span>Zpět na výuku po skupinách</span>
@@ -284,7 +326,7 @@ export const RandomExam: React.FC<RandomExamProps> = ({
       {/* Top Header */}
       <div className="flex items-center justify-between pb-3 border-b border-stone-800">
         <button
-          onClick={onExit}
+          onClick={handleExitExam}
           className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg bg-stone-800/90 hover:bg-stone-700/90 text-stone-200 hover:text-amber-300 border border-stone-700/80 hover:border-amber-500/40 text-xs font-semibold transition-all shadow-sm active:scale-[0.98] group"
         >
           <ArrowLeft className="w-4 h-4 text-stone-400 group-hover:text-amber-400 group-hover:-translate-x-0.5 transition-all" />

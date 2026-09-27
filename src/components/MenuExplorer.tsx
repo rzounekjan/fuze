@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { MenuCategory, MenuItem } from '../data/menuData';
 import { Search, Play, HelpCircle, Utensils, CheckCircle2, ChevronRight, Tag } from 'lucide-react';
 import { AudioPronounceButton } from './AudioPronounceButton';
@@ -16,8 +16,27 @@ export const MenuExplorer: React.FC<MenuExplorerProps> = ({
   masteredIds,
   language = 'cs'
 }) => {
-  const [search, setSearch] = useState('');
-  const [selectedCatId, setSelectedCatId] = useState<string>('all');
+  const [search, setSearch] = useState(() => {
+    try {
+      return sessionStorage.getItem('fuze_catalog_search') || '';
+    } catch (e) {
+      return '';
+    }
+  });
+  const [selectedCatId, setSelectedCatId] = useState<string>(() => {
+    try {
+      return sessionStorage.getItem('fuze_catalog_cat') || 'all';
+    } catch (e) {
+      return 'all';
+    }
+  });
+
+  useEffect(() => {
+    try {
+      sessionStorage.setItem('fuze_catalog_search', search);
+      sessionStorage.setItem('fuze_catalog_cat', selectedCatId);
+    } catch (e) {}
+  }, [search, selectedCatId]);
 
   const filteredItems = categories.flatMap(cat => {
     if (selectedCatId !== 'all' && cat.id !== selectedCatId) return [];

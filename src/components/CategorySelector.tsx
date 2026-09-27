@@ -14,6 +14,7 @@ interface CategorySelectorProps {
   onSelectCategory: (category: MenuCategory) => void;
   stats: UserStats;
   lastSelectedCategoryId?: string | null;
+  onClearLastSelectedCategory?: () => void;
   language?: 'cs' | 'en';
 }
 
@@ -43,6 +44,7 @@ export const CategorySelector: React.FC<CategorySelectorProps> = ({
   onSelectCategory,
   stats,
   lastSelectedCategoryId,
+  onClearLastSelectedCategory,
   language = 'cs'
 }) => {
   // When returning to the main menu with a previously selected category,
@@ -55,10 +57,11 @@ export const CategorySelector: React.FC<CategorySelectorProps> = ({
       if (targetElement) {
         targetElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }
-    }, 100);
+      onClearLastSelectedCategory?.();
+    }, 120);
 
     return () => clearTimeout(timer);
-  }, [lastSelectedCategoryId]);
+  }, [lastSelectedCategoryId, onClearLastSelectedCategory]);
 
   return (
     <div className="space-y-6">
