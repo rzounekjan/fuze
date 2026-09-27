@@ -149,28 +149,31 @@ export const Header: React.FC<HeaderProps> = ({
           {/* Desktop Stats & Controls */}
           <div className="hidden lg:flex items-center gap-3 text-xs">
             {/* Úspěšné otázky v řadě (ikona ohně) */}
-            <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-stone-800/60 border border-stone-800 text-stone-300" title="Úspěšné otázky v řadě">
+            <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-stone-800/60 border border-stone-800 text-stone-300" title={language === 'en' ? 'Consecutive correct answers streak' : 'Úspěšné otázky v řadě'}>
               <span className="text-amber-400 font-bold">🔥 {stats.currentStreak}</span>
-              <span className="text-stone-400">v řadě</span>
+              <span className="text-stone-400">{language === 'en' ? 'streak' : 'v řadě'}</span>
             </div>
 
             {/* Přehled splněných otázek/ingrediencí označené ikonou poháru */}
             <div
               className="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-stone-800/60 border border-stone-800 text-stone-300"
-              title={`Splněno ${masteredQuestionsCount} z ${totalQuestions} otázek/ingrediencí (${stats.masteredItemIds.length} z ${totalItemsCount} položek menu plně)`}
+              title={language === 'en'
+                ? `Mastered ${masteredQuestionsCount} of ${totalQuestions} questions (${stats.masteredItemIds.length} of ${totalItemsCount} menu items)`
+                : `Splněno ${masteredQuestionsCount} z ${totalQuestions} otázek/ingrediencí (${stats.masteredItemIds.length} z ${totalItemsCount} položek menu plně)`
+              }
             >
               <Trophy className="w-3.5 h-3.5 text-amber-400 shrink-0" />
               <span>
-                <strong className="text-stone-100 font-bold">{masteredQuestionsCount}</strong>/{totalQuestions} splněno
+                <strong className="text-stone-100 font-bold">{masteredQuestionsCount}</strong>/{totalQuestions} {language === 'en' ? 'mastered' : 'splněno'}
               </span>
               <span className="text-stone-400 text-[11px] hidden xl:inline">
-                ({stats.masteredItemIds.length}/{totalItemsCount} položek)
+                ({stats.masteredItemIds.length}/{totalItemsCount} {language === 'en' ? 'items' : 'položek'})
               </span>
             </div>
 
             {/* Percentuální úspěšnost */}
-            <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-stone-800/60 border border-stone-800 text-stone-300" title="Percentuální úspěšnost">
-              <span className="text-stone-400">Úspěšnost:</span>
+            <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-stone-800/60 border border-stone-800 text-stone-300" title={language === 'en' ? 'Percentage accuracy' : 'Percentuální úspěšnost'}>
+              <span className="text-stone-400">{language === 'en' ? 'Accuracy:' : 'Úspěšnost:'}</span>
               <span className={`font-bold ${accuracy >= 80 ? 'text-emerald-400' : accuracy >= 50 ? 'text-amber-400' : 'text-stone-300'}`}>
                 {stats.totalAnswered > 0 ? `${accuracy}%` : '–'}
               </span>
@@ -179,7 +182,7 @@ export const Header: React.FC<HeaderProps> = ({
             {/* Sound toggle */}
             <button
               onClick={handleToggleSound}
-              title={soundOn ? 'Vypnout zvuky' : 'Zapnout zvuky'}
+              title={soundOn ? (language === 'en' ? 'Mute sound' : 'Vypnout zvuky') : (language === 'en' ? 'Unmute sound' : 'Zapnout zvuky')}
               className="p-1.5 rounded-lg bg-stone-800/80 hover:bg-stone-700 text-stone-300 transition-colors"
             >
               {soundOn ? <Volume2 className="w-4 h-4 text-amber-400" /> : <VolumeX className="w-4 h-4 text-stone-500" />}
@@ -188,11 +191,11 @@ export const Header: React.FC<HeaderProps> = ({
             {/* Reset button */}
             <button
               onClick={onResetStats}
-              title="Resetovat skóre a statistiky"
+              title={language === 'en' ? 'Reset score and statistics' : 'Resetovat skóre a statistiky'}
               className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-stone-800/80 hover:bg-rose-950/40 text-stone-400 hover:text-rose-300 border border-stone-700/60 hover:border-rose-900/50 transition-colors"
             >
               <RotateCcw className="w-3.5 h-3.5" />
-              <span>Resetovat skóre</span>
+              <span>{language === 'en' ? 'Reset score' : 'Resetovat skóre'}</span>
             </button>
           </div>
         </div>
@@ -201,15 +204,18 @@ export const Header: React.FC<HeaderProps> = ({
         {/* Pouze: ikona ohně a úspěšné otázky v řadě, přehled splněných podsložek označené ikonou poháru, percentuální úspěšnost a reset */}
         <div className="lg:hidden mt-2.5 pt-2.5 border-t border-stone-800/80 grid grid-cols-4 gap-1.5 text-xs">
           {/* Úspěšné otázky v řadě (ikona ohně) */}
-          <div className="flex items-center justify-center gap-1 px-1.5 py-1.5 rounded-lg bg-stone-800/70 border border-stone-800 text-stone-300 text-center" title="Úspěšné otázky v řadě">
+          <div className="flex items-center justify-center gap-1 px-1.5 py-1.5 rounded-lg bg-stone-800/70 border border-stone-800 text-stone-300 text-center" title={language === 'en' ? 'Consecutive correct answers streak' : 'Úspěšné otázky v řadě'}>
             <span className="text-amber-400 font-bold text-xs">🔥 {stats.currentStreak}</span>
-            <span className="text-[10px] text-stone-400 hidden xs:inline">v řadě</span>
+            <span className="text-[10px] text-stone-400 hidden xs:inline">{language === 'en' ? 'streak' : 'v řadě'}</span>
           </div>
 
           {/* Přehled splněných otázek/ingrediencí označené ikonou poháru */}
           <div
             className="flex items-center justify-center gap-1 px-1.5 py-1.5 rounded-lg bg-stone-800/70 border border-stone-800 text-stone-300 text-center"
-            title={`Splněno ${masteredQuestionsCount} z ${totalQuestions} otázek/ingrediencí (${stats.masteredItemIds.length}/${totalItemsCount} položek menu plně)`}
+            title={language === 'en'
+              ? `Mastered ${masteredQuestionsCount} of ${totalQuestions} questions (${stats.masteredItemIds.length}/${totalItemsCount} items)`
+              : `Splněno ${masteredQuestionsCount} z ${totalQuestions} otázek/ingrediencí (${stats.masteredItemIds.length}/${totalItemsCount} položek menu plně)`
+            }
           >
             <Trophy className="w-3.5 h-3.5 text-amber-400 shrink-0" />
             <span className="text-[11px] truncate">
@@ -218,7 +224,7 @@ export const Header: React.FC<HeaderProps> = ({
           </div>
 
           {/* Percentuální úspěšnost */}
-          <div className="flex items-center justify-center gap-1 px-1.5 py-1.5 rounded-lg bg-stone-800/70 border border-stone-800 text-stone-300 text-center" title="Percentuální úspěšnost">
+          <div className="flex items-center justify-center gap-1 px-1.5 py-1.5 rounded-lg bg-stone-800/70 border border-stone-800 text-stone-300 text-center" title={language === 'en' ? 'Percentage accuracy' : 'Percentuální úspěšnost'}>
             <span className={`font-bold text-[11px] ${accuracy >= 80 ? 'text-emerald-400' : accuracy >= 50 ? 'text-amber-400' : 'text-stone-300'}`}>
               {stats.totalAnswered > 0 ? `${accuracy}%` : '0%'}
             </span>
@@ -227,7 +233,7 @@ export const Header: React.FC<HeaderProps> = ({
           {/* Resetování skóre */}
           <button
             onClick={onResetStats}
-            title="Resetovat skóre a statistiky"
+            title={language === 'en' ? 'Reset score and statistics' : 'Resetovat skóre a statistiky'}
             className="flex items-center justify-center gap-1 px-1.5 py-1.5 rounded-lg bg-stone-800/80 hover:bg-rose-950/50 text-stone-300 hover:text-rose-300 border border-stone-700/70 hover:border-rose-900/50 active:scale-95 transition-all text-center"
           >
             <RotateCcw className="w-3 h-3 text-rose-400 shrink-0" />

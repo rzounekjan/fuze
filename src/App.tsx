@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { MENU_CATEGORIES, MenuCategory, MenuItem, TOTAL_ITEMS_COUNT, TOTAL_QUESTIONS_COUNT } from './data/menuData';
+import React, { useState, useMemo } from 'react';
+import { MENU_CATEGORIES, MenuCategory, MenuItem } from './data/menuData';
 import { MENU_CATEGORIES_EN } from './data/menuDataEn';
 import { getStoredStats, resetStats, UserStats } from './utils/storage';
 import { Header } from './components/Header';
@@ -25,6 +25,19 @@ export default function App() {
 
   // Dynamic categories based on active language
   const activeCategories = language === 'en' ? MENU_CATEGORIES_EN : MENU_CATEGORIES;
+
+  // Dynamic total items and questions count based on active language
+  // Automatically recalculates whenever items or questions are added/removed in either language
+  const activeTotalItemsCount = useMemo(() => {
+    return activeCategories.reduce((acc, cat) => acc + cat.items.length, 0);
+  }, [activeCategories]);
+
+  const activeTotalQuestionsCount = useMemo(() => {
+    return activeCategories.reduce(
+      (acc, cat) => acc + cat.items.reduce((qAcc, item) => qAcc + (item.questions ? item.questions.length : 0), 0),
+      0
+    );
+  }, [activeCategories]);
 
   const handleLanguageChange = (lang: 'cs' | 'en') => {
     setLanguage(lang);
@@ -139,8 +152,8 @@ export default function App() {
           }
         }}
         stats={stats}
-        totalItemsCount={TOTAL_ITEMS_COUNT}
-        totalQuestionsCount={TOTAL_QUESTIONS_COUNT}
+        totalItemsCount={activeTotalItemsCount}
+        totalQuestionsCount={activeTotalQuestionsCount}
         onResetStats={() => setShowResetModal(true)}
         language={language}
         onLanguageChange={handleLanguageChange}
