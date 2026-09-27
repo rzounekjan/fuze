@@ -3923,7 +3923,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "1"
         ],
-        "description": "Our traditional light lager, full-bodied with a fresh taste and balanced bitterness, unpasteurized, unfiltered",
+        "description": "0,3l/0,5l Our traditional light lager, full-bodied with a fresh taste and balanced bitterness, unpasteurized, unfiltered",
         "notes": "Our traditional light lager, full-bodied with a fresh taste and balanced bitterness, unpasteurized, unfiltered",
         "questions": [
           {
@@ -3944,7 +3944,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Munich malt",
               "Saaz semi-early red hop"
             ],
-            "explanation": "In TransFUZE 12, this component is present: Our traditional light lager. Full recipe ingredients: Our traditional light lager, full-bodied with a fresh taste and balanced bitterness, unpasteurized, unfiltered."
+            "explanation": "In TransFUZE 12, this component is present: Our traditional light lager. Official FUZE menu: 0,3l/0,5l Our traditional light lager, full-bodied with a fresh taste and balanced bitterness, unpasteurized, unfiltered."
           },
           {
             "id": "transfuze-12-ing-2",
@@ -3954,7 +3954,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Citra hops",
               "Mandarina Bavaria hops"
             ],
-            "explanation": "In TransFUZE 12, this component is present: Full-bodied with a fresh taste and balanced bitterness. Full recipe ingredients: Our traditional light lager, full-bodied with a fresh taste and balanced bitterness, unpasteurized, unfiltered."
+            "explanation": "In TransFUZE 12, this component is present: Full-bodied with a fresh taste and balanced bitterness. Official FUZE menu: 0,3l/0,5l Our traditional light lager, full-bodied with a fresh taste and balanced bitterness, unpasteurized, unfiltered."
           },
           {
             "id": "transfuze-12-ing-3",
@@ -3964,7 +3964,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Bottom-fermenting lager yeast",
               "Top-fermenting ale yeast"
             ],
-            "explanation": "In TransFUZE 12, this component is present: Unpasteurized. Full recipe ingredients: Our traditional light lager, full-bodied with a fresh taste and balanced bitterness, unpasteurized, unfiltered."
+            "explanation": "In TransFUZE 12, this component is present: Unpasteurized. Official FUZE menu: 0,3l/0,5l Our traditional light lager, full-bodied with a fresh taste and balanced bitterness, unpasteurized, unfiltered."
           },
           {
             "id": "transfuze-12-ing-4",
@@ -3974,7 +3974,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Wheat malt",
               "Roasted caramel malt"
             ],
-            "explanation": "In TransFUZE 12, this component is present: Unfiltered. Full recipe ingredients: Our traditional light lager, full-bodied with a fresh taste and balanced bitterness, unpasteurized, unfiltered."
+            "explanation": "In TransFUZE 12, this component is present: Unfiltered. Official FUZE menu: 0,3l/0,5l Our traditional light lager, full-bodied with a fresh taste and balanced bitterness, unpasteurized, unfiltered."
           },
           {
             "id": "transfuze-12-ing-5",
@@ -3984,7 +3984,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Sladek hops",
               "Pilsner barley malt"
             ],
-            "explanation": "In TransFUZE 12, this component is present: Unfiltered. Full recipe ingredients: Our traditional light lager, full-bodied with a fresh taste and balanced bitterness, unpasteurized, unfiltered."
+            "explanation": "In TransFUZE 12, this component is present: Unfiltered. Official FUZE menu: 0,3l/0,5l Our traditional light lager, full-bodied with a fresh taste and balanced bitterness, unpasteurized, unfiltered."
           },
           {
             "id": "transfuze-12-allergen-1",
@@ -4006,7 +4006,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "1"
         ],
-        "description": "Light draft beer, Abv 3.5% Czech classic, honest \"desítka,\" very drinkable refreshing beer with higher bitterness.",
+        "description": "0,3l/0,5l Light draft beer, Abv 3.5%Czech classic, honest &quot;desítka,&quot; very drinkable refreshing beer with higher bitterness.",
         "notes": "Light draft beer, Abv 3.5% Czech classic, honest \"desítka,\" very drinkable refreshing beer with higher bitterness.",
         "questions": [
           {
@@ -4027,7 +4027,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Munich malt",
               "Saaz semi-early red hop"
             ],
-            "explanation": "In DisFuze 10, this component is present: Light draft beer. Full recipe ingredients: Light draft beer, Abv 3.5% Czech classic, honest \"desítka,\" very drinkable refreshing beer with higher bitterness.."
+            "explanation": "In DisFuze 10, this component is present: Light draft beer. Official FUZE menu: 0,3l/0,5l Light draft beer, Abv 3.5%Czech classic, honest &quot;desítka,&quot; very drinkable refreshing beer with higher bitterness.."
           },
           {
             "id": "disfuze-10-ing-2",
@@ -4037,7 +4037,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Citra hops",
               "Mandarina Bavaria hops"
             ],
-            "explanation": "In DisFuze 10, this component is present: Abv 3.5% Czech classic. Full recipe ingredients: Light draft beer, Abv 3.5% Czech classic, honest \"desítka,\" very drinkable refreshing beer with higher bitterness.."
+            "explanation": "In DisFuze 10, this component is present: Abv 3.5% Czech classic. Official FUZE menu: 0,3l/0,5l Light draft beer, Abv 3.5%Czech classic, honest &quot;desítka,&quot; very drinkable refreshing beer with higher bitterness.."
           },
           {
             "id": "disfuze-10-ing-3",
@@ -4047,7 +4047,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Bottom-fermenting lager yeast",
               "Top-fermenting ale yeast"
             ],
-            "explanation": "In DisFuze 10, this component is present: Honest \"desítka. Full recipe ingredients: Light draft beer, Abv 3.5% Czech classic, honest \"desítka,\" very drinkable refreshing beer with higher bitterness.."
+            "explanation": "In DisFuze 10, this component is present: Honest \"desítka. Official FUZE menu: 0,3l/0,5l Light draft beer, Abv 3.5%Czech classic, honest &quot;desítka,&quot; very drinkable refreshing beer with higher bitterness.."
           },
           {
             "id": "disfuze-10-ing-4",
@@ -4057,7 +4057,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Wheat malt",
               "Roasted caramel malt"
             ],
-            "explanation": "In DisFuze 10, this component is present: \" very drinkable refreshing beer with higher bitterness. Full recipe ingredients: Light draft beer, Abv 3.5% Czech classic, honest \"desítka,\" very drinkable refreshing beer with higher bitterness.."
+            "explanation": "In DisFuze 10, this component is present: \" very drinkable refreshing beer with higher bitterness. Official FUZE menu: 0,3l/0,5l Light draft beer, Abv 3.5%Czech classic, honest &quot;desítka,&quot; very drinkable refreshing beer with higher bitterness.."
           },
           {
             "id": "disfuze-10-ing-5",
@@ -4067,7 +4067,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Sladek hops",
               "Pilsner barley malt"
             ],
-            "explanation": "In DisFuze 10, this component is present: \" very drinkable refreshing beer with higher bitterness. Full recipe ingredients: Light draft beer, Abv 3.5% Czech classic, honest \"desítka,\" very drinkable refreshing beer with higher bitterness.."
+            "explanation": "In DisFuze 10, this component is present: \" very drinkable refreshing beer with higher bitterness. Official FUZE menu: 0,3l/0,5l Light draft beer, Abv 3.5%Czech classic, honest &quot;desítka,&quot; very drinkable refreshing beer with higher bitterness.."
           },
           {
             "id": "disfuze-10-ing-6",
@@ -4077,7 +4077,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Munich malt",
               "Saaz semi-early red hop"
             ],
-            "explanation": "In DisFuze 10, this component is present: \" very drinkable refreshing beer with higher bitterness. Full recipe ingredients: Light draft beer, Abv 3.5% Czech classic, honest \"desítka,\" very drinkable refreshing beer with higher bitterness.."
+            "explanation": "In DisFuze 10, this component is present: \" very drinkable refreshing beer with higher bitterness. Official FUZE menu: 0,3l/0,5l Light draft beer, Abv 3.5%Czech classic, honest &quot;desítka,&quot; very drinkable refreshing beer with higher bitterness.."
           },
           {
             "id": "disfuze-10-ing-7",
@@ -4087,7 +4087,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Citra hops",
               "Mandarina Bavaria hops"
             ],
-            "explanation": "In DisFuze 10, this component is present: \" very drinkable refreshing beer with higher bitterness. Full recipe ingredients: Light draft beer, Abv 3.5% Czech classic, honest \"desítka,\" very drinkable refreshing beer with higher bitterness.."
+            "explanation": "In DisFuze 10, this component is present: \" very drinkable refreshing beer with higher bitterness. Official FUZE menu: 0,3l/0,5l Light draft beer, Abv 3.5%Czech classic, honest &quot;desítka,&quot; very drinkable refreshing beer with higher bitterness.."
           },
           {
             "id": "disfuze-10-allergen-1",
@@ -4109,7 +4109,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "1"
         ],
-        "description": "style: Session IPA, 12-degree beer, 4.9% ABV top-fermented beer, light and refreshing, unpasteurized, unfiltered with citrus aroma, cold-hopped (dry hopping)",
+        "description": "04l style: Session IPA, 12-degree beer, 4.9% ABVtop-fermented beer, light and refreshing, unpasteurized, unfiltered with citrus aroma, cold-hopped (dry hopping)",
         "notes": "style: Session IPA, 12-degree beer, 4.9% ABV top-fermented beer, light and refreshing, unpasteurized, unfiltered with citrus aroma, cold-hopped (dry hopping)",
         "questions": [
           {
@@ -4130,7 +4130,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Munich malt",
               "Saaz semi-early red hop"
             ],
-            "explanation": "In InFUZE IPA 12, this component is present: Style: Session IPA. Full recipe ingredients: style: Session IPA, 12-degree beer, 4.9% ABV top-fermented beer, light and refreshing, unpasteurized, unfiltered with citrus aroma, cold-hopped (dry hopping)."
+            "explanation": "In InFUZE IPA 12, this component is present: Style: Session IPA. Official FUZE menu: 04l style: Session IPA, 12-degree beer, 4.9% ABVtop-fermented beer, light and refreshing, unpasteurized, unfiltered with citrus aroma, cold-hopped (dry hopping)."
           },
           {
             "id": "infuze-ipa-12-ing-2",
@@ -4140,7 +4140,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Citra hops",
               "Mandarina Bavaria hops"
             ],
-            "explanation": "In InFUZE IPA 12, this component is present: 12-degree beer. Full recipe ingredients: style: Session IPA, 12-degree beer, 4.9% ABV top-fermented beer, light and refreshing, unpasteurized, unfiltered with citrus aroma, cold-hopped (dry hopping)."
+            "explanation": "In InFUZE IPA 12, this component is present: 12-degree beer. Official FUZE menu: 04l style: Session IPA, 12-degree beer, 4.9% ABVtop-fermented beer, light and refreshing, unpasteurized, unfiltered with citrus aroma, cold-hopped (dry hopping)."
           },
           {
             "id": "infuze-ipa-12-ing-3",
@@ -4150,7 +4150,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Bottom-fermenting lager yeast",
               "Top-fermenting ale yeast"
             ],
-            "explanation": "In InFUZE IPA 12, this component is present: 4.9% ABV top-fermented beer. Full recipe ingredients: style: Session IPA, 12-degree beer, 4.9% ABV top-fermented beer, light and refreshing, unpasteurized, unfiltered with citrus aroma, cold-hopped (dry hopping)."
+            "explanation": "In InFUZE IPA 12, this component is present: 4.9% ABV top-fermented beer. Official FUZE menu: 04l style: Session IPA, 12-degree beer, 4.9% ABVtop-fermented beer, light and refreshing, unpasteurized, unfiltered with citrus aroma, cold-hopped (dry hopping)."
           },
           {
             "id": "infuze-ipa-12-ing-4",
@@ -4160,7 +4160,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Wheat malt",
               "Roasted caramel malt"
             ],
-            "explanation": "In InFUZE IPA 12, this component is present: Light and refreshing. Full recipe ingredients: style: Session IPA, 12-degree beer, 4.9% ABV top-fermented beer, light and refreshing, unpasteurized, unfiltered with citrus aroma, cold-hopped (dry hopping)."
+            "explanation": "In InFUZE IPA 12, this component is present: Light and refreshing. Official FUZE menu: 04l style: Session IPA, 12-degree beer, 4.9% ABVtop-fermented beer, light and refreshing, unpasteurized, unfiltered with citrus aroma, cold-hopped (dry hopping)."
           },
           {
             "id": "infuze-ipa-12-ing-5",
@@ -4170,7 +4170,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Sladek hops",
               "Pilsner barley malt"
             ],
-            "explanation": "In InFUZE IPA 12, this component is present: Unpasteurized. Full recipe ingredients: style: Session IPA, 12-degree beer, 4.9% ABV top-fermented beer, light and refreshing, unpasteurized, unfiltered with citrus aroma, cold-hopped (dry hopping)."
+            "explanation": "In InFUZE IPA 12, this component is present: Unpasteurized. Official FUZE menu: 04l style: Session IPA, 12-degree beer, 4.9% ABVtop-fermented beer, light and refreshing, unpasteurized, unfiltered with citrus aroma, cold-hopped (dry hopping)."
           },
           {
             "id": "infuze-ipa-12-ing-6",
@@ -4180,7 +4180,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Munich malt",
               "Saaz semi-early red hop"
             ],
-            "explanation": "In InFUZE IPA 12, this component is present: Unfiltered with citrus aroma. Full recipe ingredients: style: Session IPA, 12-degree beer, 4.9% ABV top-fermented beer, light and refreshing, unpasteurized, unfiltered with citrus aroma, cold-hopped (dry hopping)."
+            "explanation": "In InFUZE IPA 12, this component is present: Unfiltered with citrus aroma. Official FUZE menu: 04l style: Session IPA, 12-degree beer, 4.9% ABVtop-fermented beer, light and refreshing, unpasteurized, unfiltered with citrus aroma, cold-hopped (dry hopping)."
           },
           {
             "id": "infuze-ipa-12-ing-7",
@@ -4190,7 +4190,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Citra hops",
               "Mandarina Bavaria hops"
             ],
-            "explanation": "In InFUZE IPA 12, this component is present: Cold-hopped (dry hopping). Full recipe ingredients: style: Session IPA, 12-degree beer, 4.9% ABV top-fermented beer, light and refreshing, unpasteurized, unfiltered with citrus aroma, cold-hopped (dry hopping)."
+            "explanation": "In InFUZE IPA 12, this component is present: Cold-hopped (dry hopping). Official FUZE menu: 04l style: Session IPA, 12-degree beer, 4.9% ABVtop-fermented beer, light and refreshing, unpasteurized, unfiltered with citrus aroma, cold-hopped (dry hopping)."
           },
           {
             "id": "infuze-ipa-12-ing-8",
@@ -4200,7 +4200,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Bottom-fermenting lager yeast",
               "Top-fermenting ale yeast"
             ],
-            "explanation": "In InFUZE IPA 12, this component is present: Cold-hopped (dry hopping). Full recipe ingredients: style: Session IPA, 12-degree beer, 4.9% ABV top-fermented beer, light and refreshing, unpasteurized, unfiltered with citrus aroma, cold-hopped (dry hopping)."
+            "explanation": "In InFUZE IPA 12, this component is present: Cold-hopped (dry hopping). Official FUZE menu: 04l style: Session IPA, 12-degree beer, 4.9% ABVtop-fermented beer, light and refreshing, unpasteurized, unfiltered with citrus aroma, cold-hopped (dry hopping)."
           },
           {
             "id": "infuze-ipa-12-allergen-1",
@@ -4222,7 +4222,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "1"
         ],
-        "description": "Our bottom-fermented beer, amber color with a distinct smoky aroma, full malt smoked flavor, unpasteurized, unfiltered",
+        "description": "0,3l/0,5l Our bottom-fermented beer, amber color with a distinct smoky aroma, full malt smoked flavor, unpasteurized, unfiltered",
         "notes": "Our bottom-fermented beer, amber color with a distinct smoky aroma, full malt smoked flavor, unpasteurized, unfiltered",
         "questions": [
           {
@@ -4243,7 +4243,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Munich malt",
               "Saaz semi-early red hop"
             ],
-            "explanation": "In FUZEnáč 13 semi-dark, this component is present: Our bottom-fermented beer. Full recipe ingredients: Our bottom-fermented beer, amber color with a distinct smoky aroma, full malt smoked flavor, unpasteurized, unfiltered."
+            "explanation": "In FUZEnáč 13 semi-dark, this component is present: Our bottom-fermented beer. Official FUZE menu: 0,3l/0,5l Our bottom-fermented beer, amber color with a distinct smoky aroma, full malt smoked flavor, unpasteurized, unfiltered."
           },
           {
             "id": "fuzenac-13-ing-2",
@@ -4253,7 +4253,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Citra hops",
               "Mandarina Bavaria hops"
             ],
-            "explanation": "In FUZEnáč 13 semi-dark, this component is present: Amber color with a distinct smoky aroma. Full recipe ingredients: Our bottom-fermented beer, amber color with a distinct smoky aroma, full malt smoked flavor, unpasteurized, unfiltered."
+            "explanation": "In FUZEnáč 13 semi-dark, this component is present: Amber color with a distinct smoky aroma. Official FUZE menu: 0,3l/0,5l Our bottom-fermented beer, amber color with a distinct smoky aroma, full malt smoked flavor, unpasteurized, unfiltered."
           },
           {
             "id": "fuzenac-13-ing-3",
@@ -4263,7 +4263,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Bottom-fermenting lager yeast",
               "Top-fermenting ale yeast"
             ],
-            "explanation": "In FUZEnáč 13 semi-dark, this component is present: Full malt smoked flavor. Full recipe ingredients: Our bottom-fermented beer, amber color with a distinct smoky aroma, full malt smoked flavor, unpasteurized, unfiltered."
+            "explanation": "In FUZEnáč 13 semi-dark, this component is present: Full malt smoked flavor. Official FUZE menu: 0,3l/0,5l Our bottom-fermented beer, amber color with a distinct smoky aroma, full malt smoked flavor, unpasteurized, unfiltered."
           },
           {
             "id": "fuzenac-13-ing-4",
@@ -4273,7 +4273,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Wheat malt",
               "Roasted caramel malt"
             ],
-            "explanation": "In FUZEnáč 13 semi-dark, this component is present: Unpasteurized. Full recipe ingredients: Our bottom-fermented beer, amber color with a distinct smoky aroma, full malt smoked flavor, unpasteurized, unfiltered."
+            "explanation": "In FUZEnáč 13 semi-dark, this component is present: Unpasteurized. Official FUZE menu: 0,3l/0,5l Our bottom-fermented beer, amber color with a distinct smoky aroma, full malt smoked flavor, unpasteurized, unfiltered."
           },
           {
             "id": "fuzenac-13-ing-5",
@@ -4283,7 +4283,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Sladek hops",
               "Pilsner barley malt"
             ],
-            "explanation": "In FUZEnáč 13 semi-dark, this component is present: Unfiltered. Full recipe ingredients: Our bottom-fermented beer, amber color with a distinct smoky aroma, full malt smoked flavor, unpasteurized, unfiltered."
+            "explanation": "In FUZEnáč 13 semi-dark, this component is present: Unfiltered. Official FUZE menu: 0,3l/0,5l Our bottom-fermented beer, amber color with a distinct smoky aroma, full malt smoked flavor, unpasteurized, unfiltered."
           },
           {
             "id": "fuzenac-13-allergen-1",
@@ -4305,7 +4305,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "1"
         ],
-        "description": "Top-fermented, 8% dark beer aged 6 months on cherries, from Belgian brewery Van Honsebrouck, rich cherry flavor and aroma",
+        "description": "0,25l Top-fermented, 8% dark beer aged 6 months on cherries, from Belgian brewery Van Honsebrouck, rich cherry flavor and aroma",
         "notes": "Top-fermented, 8% dark beer aged 6 months on cherries, from Belgian brewery Van Honsebrouck, rich cherry flavor and aroma",
         "questions": [
           {
@@ -4326,7 +4326,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Munich malt",
               "Saaz semi-early red hop"
             ],
-            "explanation": "In Kasteel Rouge 18, this component is present: Top-fermented. Full recipe ingredients: Top-fermented, 8% dark beer aged 6 months on cherries, from Belgian brewery Van Honsebrouck, rich cherry flavor and aroma."
+            "explanation": "In Kasteel Rouge 18, this component is present: Top-fermented. Official FUZE menu: 0,25l Top-fermented, 8% dark beer aged 6 months on cherries, from Belgian brewery Van Honsebrouck, rich cherry flavor and aroma."
           },
           {
             "id": "kasteel-rouge-18-ing-2",
@@ -4336,7 +4336,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Citra hops",
               "Mandarina Bavaria hops"
             ],
-            "explanation": "In Kasteel Rouge 18, this component is present: 8% dark beer aged 6 months on cherries. Full recipe ingredients: Top-fermented, 8% dark beer aged 6 months on cherries, from Belgian brewery Van Honsebrouck, rich cherry flavor and aroma."
+            "explanation": "In Kasteel Rouge 18, this component is present: 8% dark beer aged 6 months on cherries. Official FUZE menu: 0,25l Top-fermented, 8% dark beer aged 6 months on cherries, from Belgian brewery Van Honsebrouck, rich cherry flavor and aroma."
           },
           {
             "id": "kasteel-rouge-18-ing-3",
@@ -4346,7 +4346,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Bottom-fermenting lager yeast",
               "Top-fermenting ale yeast"
             ],
-            "explanation": "In Kasteel Rouge 18, this component is present: From Belgian brewery Van Honsebrouck. Full recipe ingredients: Top-fermented, 8% dark beer aged 6 months on cherries, from Belgian brewery Van Honsebrouck, rich cherry flavor and aroma."
+            "explanation": "In Kasteel Rouge 18, this component is present: From Belgian brewery Van Honsebrouck. Official FUZE menu: 0,25l Top-fermented, 8% dark beer aged 6 months on cherries, from Belgian brewery Van Honsebrouck, rich cherry flavor and aroma."
           },
           {
             "id": "kasteel-rouge-18-ing-4",
@@ -4356,7 +4356,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Wheat malt",
               "Roasted caramel malt"
             ],
-            "explanation": "In Kasteel Rouge 18, this component is present: Rich cherry flavor and aroma. Full recipe ingredients: Top-fermented, 8% dark beer aged 6 months on cherries, from Belgian brewery Van Honsebrouck, rich cherry flavor and aroma."
+            "explanation": "In Kasteel Rouge 18, this component is present: Rich cherry flavor and aroma. Official FUZE menu: 0,25l Top-fermented, 8% dark beer aged 6 months on cherries, from Belgian brewery Van Honsebrouck, rich cherry flavor and aroma."
           },
           {
             "id": "kasteel-rouge-18-allergen-1",
@@ -4378,7 +4378,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "1"
         ],
-        "description": "Sour ale, intensely sour with a strong passion fruit flavor and aroma",
+        "description": "0,4l Sour ale, intensely sour with a strong passion fruit flavor and aroma",
         "notes": "Sour ale, intensely sour with a strong passion fruit flavor and aroma",
         "questions": [
           {
@@ -4399,7 +4399,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Munich malt",
               "Saaz semi-early red hop"
             ],
-            "explanation": "In Zichovec Passion Fruit 12, this component is present: Sour ale. Full recipe ingredients: Sour ale, intensely sour with a strong passion fruit flavor and aroma."
+            "explanation": "In Zichovec Passion Fruit 12, this component is present: Sour ale. Official FUZE menu: 0,4l Sour ale, intensely sour with a strong passion fruit flavor and aroma."
           },
           {
             "id": "zichovec-passion-fruit-ing-2",
@@ -4409,7 +4409,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Citra hops",
               "Mandarina Bavaria hops"
             ],
-            "explanation": "In Zichovec Passion Fruit 12, this component is present: Intensely sour with a strong passion fruit flavor and aroma. Full recipe ingredients: Sour ale, intensely sour with a strong passion fruit flavor and aroma."
+            "explanation": "In Zichovec Passion Fruit 12, this component is present: Intensely sour with a strong passion fruit flavor and aroma. Official FUZE menu: 0,4l Sour ale, intensely sour with a strong passion fruit flavor and aroma."
           },
           {
             "id": "zichovec-passion-fruit-allergen-1",
@@ -4431,7 +4431,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "1"
         ],
-        "description": "6 samples of the above beers on a stylish board",
+        "description": "6x 0,15l 6 samples of the above beers on a stylish board",
         "notes": "6 samples of the above beers on a stylish board",
         "questions": [
           {
@@ -4452,7 +4452,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Munich malt",
               "Saaz semi-early red hop"
             ],
-            "explanation": "In Beer tasting, this component is present: 6 samples of the above beers on a stylish board. Full recipe ingredients: 6 samples of the above beers on a stylish board."
+            "explanation": "In Beer tasting, this component is present: 6 samples of the above beers on a stylish board. Official FUZE menu: 6x 0,15l 6 samples of the above beers on a stylish board."
           },
           {
             "id": "degustace-piv-allergen-1",
@@ -4473,7 +4473,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "1"
         ],
-        "description": "our full-flavored non-alcoholic beer with delicate hop aroma",
+        "description": "0,4l our IPL, non-alcoholic lager hopped with American and cold New Zealand hops, with a delicate malt flavor, higher bitterness in the finish, and a beautiful, fresh hop aroma, unpasteurized, unfiltered",
         "notes": "Refreshing zero-alcohol craft brew on draft.",
         "id": "fuzero",
         "questions": [
@@ -4495,7 +4495,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In FUZEro, this component is present: Our full-flavored non-alcoholic beer with delicate hop aroma. Full recipe ingredients: our full-flavored non-alcoholic beer with delicate hop aroma."
+            "explanation": "In FUZEro, this component is present: Our full-flavored non-alcoholic beer with delicate hop aroma. Official FUZE menu: 0,4l our IPL, non-alcoholic lager hopped with American and cold New Zealand hops, with a delicate malt flavor, higher bitterness in the finish, and a beautiful, fresh hop aroma, unpasteurized, unfiltered."
           },
           {
             "id": "fuzero-allergen-1",
@@ -4517,7 +4517,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "1"
         ],
-        "description": "bavarian Weizenbier, a non-alcoholic wheat beer",
+        "description": "0,33l bavarian Weizenbier, a non-alcoholic wheat beer",
         "notes": "bavarian Weizenbier, a non-alcoholic wheat beer",
         "questions": [
           {
@@ -4538,7 +4538,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Munich malt",
               "Saaz semi-early red hop"
             ],
-            "explanation": "In Maisel`s Weisse Non-Alcoholic /bottled/, this component is present: Bavarian Weizenbier. Full recipe ingredients: bavarian Weizenbier, a non-alcoholic wheat beer."
+            "explanation": "In Maisel`s Weisse Non-Alcoholic /bottled/, this component is present: Bavarian Weizenbier. Official FUZE menu: 0,33l bavarian Weizenbier, a non-alcoholic wheat beer."
           },
           {
             "id": "maisels-weisse-ing-2",
@@ -4548,7 +4548,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Citra hops",
               "Mandarina Bavaria hops"
             ],
-            "explanation": "In Maisel`s Weisse Non-Alcoholic /bottled/, this component is present: Non-alcoholic wheat beer. Full recipe ingredients: bavarian Weizenbier, a non-alcoholic wheat beer."
+            "explanation": "In Maisel`s Weisse Non-Alcoholic /bottled/, this component is present: Non-alcoholic wheat beer. Official FUZE menu: 0,33l bavarian Weizenbier, a non-alcoholic wheat beer."
           },
           {
             "id": "maisels-weisse-ing-3",
@@ -4558,7 +4558,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Bottom-fermenting lager yeast",
               "Top-fermenting ale yeast"
             ],
-            "explanation": "In Maisel`s Weisse Non-Alcoholic /bottled/, this component is present: Non-alcoholic wheat beer. Full recipe ingredients: bavarian Weizenbier, a non-alcoholic wheat beer."
+            "explanation": "In Maisel`s Weisse Non-Alcoholic /bottled/, this component is present: Non-alcoholic wheat beer. Official FUZE menu: 0,33l bavarian Weizenbier, a non-alcoholic wheat beer."
           },
           {
             "id": "maisels-weisse-allergen-1",
@@ -4589,7 +4589,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Craft apple cider from Slovak family farm",
+        "description": "0,33l Craft apple cider from Slovak family farm",
         "notes": "Craft apple cider from Slovak family farm",
         "questions": [
           {
@@ -4610,7 +4610,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Munich malt",
               "Saaz semi-early red hop"
             ],
-            "explanation": "In Opre` Cider, this component is present: Craft apple cider from Slovak family farm. Full recipe ingredients: Craft apple cider from Slovak family farm."
+            "explanation": "In Opre` Cider, this component is present: Craft apple cider from Slovak family farm. Official FUZE menu: 0,33l Craft apple cider from Slovak family farm."
           },
           {
             "id": "opre-cider-ing-2",
@@ -4620,7 +4620,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Citra hops",
               "Mandarina Bavaria hops"
             ],
-            "explanation": "In Opre` Cider, this component is present: Craft apple cider from Slovak family farm. Full recipe ingredients: Craft apple cider from Slovak family farm."
+            "explanation": "In Opre` Cider, this component is present: Craft apple cider from Slovak family farm. Official FUZE menu: 0,33l Craft apple cider from Slovak family farm."
           }
         ]
       },
@@ -4632,7 +4632,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Combines apple cider with refreshing cherry juice",
+        "description": "0,33l Combines apple cider with refreshing cherry juice",
         "notes": "Combines apple cider with refreshing cherry juice",
         "questions": [
           {
@@ -4653,7 +4653,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Munich malt",
               "Saaz semi-early red hop"
             ],
-            "explanation": "In Opre` Sour Cherry, this component is present: Combines apple cider with refreshing cherry juice. Full recipe ingredients: Combines apple cider with refreshing cherry juice."
+            "explanation": "In Opre` Sour Cherry, this component is present: Combines apple cider with refreshing cherry juice. Official FUZE menu: 0,33l Combines apple cider with refreshing cherry juice."
           },
           {
             "id": "opre-sour-cherry-ing-2",
@@ -4663,7 +4663,98 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Citra hops",
               "Mandarina Bavaria hops"
             ],
-            "explanation": "In Opre` Sour Cherry, this component is present: Combines apple cider with refreshing cherry juice. Full recipe ingredients: Combines apple cider with refreshing cherry juice."
+            "explanation": "In Opre` Sour Cherry, this component is present: Combines apple cider with refreshing cherry juice. Official FUZE menu: 0,33l Combines apple cider with refreshing cherry juice."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kombucha",
+    "name": "Kombucha",
+    "badge": "Kombucha",
+    "description": "Living, unpasteurized fermented tea drinks with natural herbs and fruit infusions",
+    "iconName": "Sparkles",
+    "items": [
+      {
+        "id": "appio-tatranske-byliny",
+        "name": "Appio Tatra herbs",
+        "weight": "0.33l",
+        "price": "129 CZK",
+        "allergens": [],
+        "description": "living, natural, premium fermented kombucha without pasteurization with 10 kinds of hand-picked herbs directly beneath the Tatras",
+        "notes": "Unpasteurized artisanal kombucha with wild herbs harvested beneath the High Tatras.",
+        "questions": [
+          {
+            "id": "appio-tatranske-byliny-vol",
+            "question": "What is the serving measure of Appio Tatra herbs?",
+            "correctAnswer": "0.33l",
+            "distractors": [
+              "0.25l",
+              "0.5l"
+            ],
+            "explanation": "The serving measure of Appio Tatra herbs is 0.33l."
+          },
+          {
+            "id": "appio-tatranske-byliny-ing-1",
+            "question": "Which herbs form the flavor foundation of Appio Tatra herbs?",
+            "correctAnswer": "10 kinds of hand-picked herbs directly beneath the Tatras",
+            "distractors": [
+              "Dried rosehips and hibiscus",
+              "Wild strawberries and mint"
+            ],
+            "explanation": "In Appio Tatra herbs, this component is present: 10 kinds of hand-picked herbs directly beneath the Tatras. Living, natural, premium fermented kombucha without pasteurization."
+          },
+          {
+            "id": "appio-tatranske-byliny-ing-2",
+            "question": "What production method is used for Appio Tatra herbs kombucha?",
+            "correctAnswer": "Living fermentation without pasteurization",
+            "distractors": [
+              "Pasteurized micro-filtration",
+              "Cold vacuum distillation"
+            ],
+            "explanation": "Appio Tatra herbs is a living, natural, premium fermented kombucha crafted without pasteurization."
+          }
+        ]
+      },
+      {
+        "id": "oppio-tresen-skorice",
+        "name": "Oppio cherry and cinnamon",
+        "weight": "0.33l",
+        "price": "129 CZK",
+        "allergens": [],
+        "description": "sweet, warming and gently nostalgic flavor of cherry with cinnamon",
+        "notes": "Gently sparkling kombucha infused with sweet cherry and fragrant warming cinnamon.",
+        "questions": [
+          {
+            "id": "oppio-tresen-skorice-vol",
+            "question": "What is the serving measure of Oppio cherry and cinnamon?",
+            "correctAnswer": "0.33l",
+            "distractors": [
+              "0.25l",
+              "0.5l"
+            ],
+            "explanation": "The serving measure of Oppio cherry and cinnamon is 0.33l."
+          },
+          {
+            "id": "oppio-tresen-skorice-ing-1",
+            "question": "Which fruit and spice combination characterizes Oppio cherry and cinnamon?",
+            "correctAnswer": "Flavor of cherry with cinnamon",
+            "distractors": [
+              "Apple with fresh ginger",
+              "Blackcurrant with star anise"
+            ],
+            "explanation": "In Oppio cherry and cinnamon, this component is present: Flavor of cherry with cinnamon. Sweet, warming and gently nostalgic profile."
+          },
+          {
+            "id": "oppio-tresen-skorice-ing-2",
+            "question": "What taste profile describes Oppio cherry and cinnamon?",
+            "correctAnswer": "Sweet, warming and gently nostalgic flavor",
+            "distractors": [
+              "Distinctly sour and astringent profile",
+              "Bitter herbal profile"
+            ],
+            "explanation": "Oppio cherry and cinnamon delivers a sweet, warming, and gently nostalgic flavor combination of cherry and cinnamon."
           }
         ]
       }
@@ -4682,7 +4773,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.75l",
         "price": "89 CZK",
         "allergens": [],
-        "description": "Still / Sparkling",
+        "description": "0,75l Still / Sparkling",
         "notes": "Still / Sparkling",
         "questions": [
           {
@@ -4703,16 +4794,16 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh grapefruit juice",
               "Raspberry purée"
             ],
-            "explanation": "In Filtered water in a carafe, this component is present: Still / Sparkling. Full recipe ingredients: Still / Sparkling."
+            "explanation": "In Filtered water in a carafe, this component is present: Still / Sparkling. Official FUZE menu: 0,75l Still / Sparkling."
           }
         ]
       },
       {
         "name": "Glass of filtered water",
         "weight": "0.3l",
-        "price": "39 CZK",
+        "price": "35 CZK",
         "allergens": [],
-        "description": "pure filtered water, still or sparkling",
+        "description": "0,3l Still / Sparkling",
         "notes": "Chilled micro-filtered fresh water.",
         "id": "sklenice-filtrovane-vody",
         "questions": [
@@ -4734,7 +4825,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Glass of filtered water, this component is present: Pure filtered water. Full recipe ingredients: pure filtered water, still or sparkling."
+            "explanation": "In Glass of filtered water, this component is present: Pure filtered water. Official FUZE menu: 0,3l Still / Sparkling."
           },
           {
             "id": "sklenice-filtrovane-vody-ing-2",
@@ -4744,7 +4835,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Duck breast",
               "Deboned trout"
             ],
-            "explanation": "In Glass of filtered water, this component is present: Still or sparkling. Full recipe ingredients: pure filtered water, still or sparkling."
+            "explanation": "In Glass of filtered water, this component is present: Still or sparkling. Official FUZE menu: 0,3l Still / Sparkling."
           }
         ]
       },
@@ -4754,7 +4845,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.75l",
         "price": "99 CZK",
         "allergens": [],
-        "description": "Citrus / Mint",
+        "description": "0,75l Citrus / Mint",
         "notes": "Citrus / Mint",
         "questions": [
           {
@@ -4775,7 +4866,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh grapefruit juice",
               "Raspberry purée"
             ],
-            "explanation": "In Infused water in a carafe, this component is present: Citrus / Mint. Full recipe ingredients: Citrus / Mint."
+            "explanation": "In Infused water in a carafe, this component is present: Citrus / Mint. Official FUZE menu: 0,75l Citrus / Mint."
           },
           {
             "id": "infuzovana-voda-ing-2",
@@ -4785,7 +4876,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White chocolate",
               "Plum purée"
             ],
-            "explanation": "In Infused water in a carafe, this component is present: Citrus / Mint. Full recipe ingredients: Citrus / Mint."
+            "explanation": "In Infused water in a carafe, this component is present: Citrus / Mint. Official FUZE menu: 0,75l Citrus / Mint."
           }
         ]
       },
@@ -4795,7 +4886,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.33l",
         "price": "45 CZK",
         "allergens": [],
-        "description": "natural decarbonated mineral water",
+        "description": "0,33l natural decarbonated mineral water",
         "notes": "natural decarbonated mineral water",
         "questions": [
           {
@@ -4816,7 +4907,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh grapefruit juice",
               "Raspberry purée"
             ],
-            "explanation": "In Mattoni Grand still, this component is present: Natural decarbonated mineral water. Full recipe ingredients: natural decarbonated mineral water."
+            "explanation": "In Mattoni Grand still, this component is present: Natural decarbonated mineral water. Official FUZE menu: 0,33l natural decarbonated mineral water."
           }
         ]
       },
@@ -4826,7 +4917,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.75l",
         "price": "119 CZK",
         "allergens": [],
-        "description": "natural mineral water, medium mineralized with silicon content, naturally carbonated",
+        "description": "0,75l natural mineral water, medium mineralized with silicon content, naturally carbonated",
         "notes": "natural mineral water, medium mineralized with silicon content, naturally carbonated",
         "questions": [
           {
@@ -4847,7 +4938,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh grapefruit juice",
               "Raspberry purée"
             ],
-            "explanation": "In Vratislavická mineral water, this component is present: Natural mineral water. Full recipe ingredients: natural mineral water, medium mineralized with silicon content, naturally carbonated."
+            "explanation": "In Vratislavická mineral water, this component is present: Natural mineral water. Official FUZE menu: 0,75l natural mineral water, medium mineralized with silicon content, naturally carbonated."
           },
           {
             "id": "vratislavicka-kyselka-ing-2",
@@ -4857,7 +4948,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White chocolate",
               "Plum purée"
             ],
-            "explanation": "In Vratislavická mineral water, this component is present: Medium mineralized with silicon content. Full recipe ingredients: natural mineral water, medium mineralized with silicon content, naturally carbonated."
+            "explanation": "In Vratislavická mineral water, this component is present: Medium mineralized with silicon content. Official FUZE menu: 0,75l natural mineral water, medium mineralized with silicon content, naturally carbonated."
           },
           {
             "id": "vratislavicka-kyselka-ing-3",
@@ -4867,7 +4958,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Crushed cardamom",
               "Ginger infusion"
             ],
-            "explanation": "In Vratislavická mineral water, this component is present: Naturally carbonated. Full recipe ingredients: natural mineral water, medium mineralized with silicon content, naturally carbonated."
+            "explanation": "In Vratislavická mineral water, this component is present: Naturally carbonated. Official FUZE menu: 0,75l natural mineral water, medium mineralized with silicon content, naturally carbonated."
           }
         ]
       }
@@ -4886,7 +4977,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.4l",
         "price": "84 CZK",
         "allergens": [],
-        "description": "Fresh homemade grapefruit and mango lemonade",
+        "description": "0,4l",
         "notes": "Grapefruit and mango",
         "questions": [
           {
@@ -4907,7 +4998,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh grapefruit juice",
               "Raspberry purée"
             ],
-            "explanation": "In Grapefruit and mango, this component is present: Fresh homemade grapefruit and mango lemonade. Full recipe ingredients: Fresh homemade grapefruit and mango lemonade."
+            "explanation": "In Grapefruit and mango, this component is present: Fresh homemade grapefruit and mango lemonade. Official FUZE menu: 0,4l."
           }
         ]
       },
@@ -4917,7 +5008,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.4l",
         "price": "84 CZK",
         "allergens": [],
-        "description": "Fresh homemade raspberry and white chocolate lemonade",
+        "description": "0,4l",
         "notes": "Raspberry and white chocolate",
         "questions": [
           {
@@ -4938,7 +5029,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh grapefruit juice",
               "Raspberry purée"
             ],
-            "explanation": "In Raspberry and white chocolate, this component is present: Fresh homemade raspberry and white chocolate lemonade. Full recipe ingredients: Fresh homemade raspberry and white chocolate lemonade."
+            "explanation": "In Raspberry and white chocolate, this component is present: Fresh homemade raspberry and white chocolate lemonade. Official FUZE menu: 0,4l."
           },
           {
             "id": "malina-a-bila-cokolada-ing-2",
@@ -4948,7 +5039,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Plum purée",
               "Crushed cardamom"
             ],
-            "explanation": "In Raspberry and white chocolate, this component is present: Fresh homemade raspberry and white chocolate lemonade. Full recipe ingredients: Fresh homemade raspberry and white chocolate lemonade."
+            "explanation": "In Raspberry and white chocolate, this component is present: Fresh homemade raspberry and white chocolate lemonade. Official FUZE menu: 0,4l."
           },
           {
             "id": "malina-a-bila-cokolada-ing-3",
@@ -4958,7 +5049,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Ginger infusion",
               "Lemongrass"
             ],
-            "explanation": "In Raspberry and white chocolate, this component is present: Fresh homemade raspberry and white chocolate lemonade. Full recipe ingredients: Fresh homemade raspberry and white chocolate lemonade."
+            "explanation": "In Raspberry and white chocolate, this component is present: Fresh homemade raspberry and white chocolate lemonade. Official FUZE menu: 0,4l."
           }
         ]
       },
@@ -4968,7 +5059,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.4l",
         "price": "84 CZK",
         "allergens": [],
-        "description": "Fresh homemade plum and cardamom lemonade",
+        "description": "0,4l",
         "notes": "Plum and cardamom",
         "questions": [
           {
@@ -4989,7 +5080,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh grapefruit juice",
               "Raspberry purée"
             ],
-            "explanation": "In Plum and cardamom, this component is present: Fresh homemade plum and cardamom lemonade. Full recipe ingredients: Fresh homemade plum and cardamom lemonade."
+            "explanation": "In Plum and cardamom, this component is present: Fresh homemade plum and cardamom lemonade. Official FUZE menu: 0,4l."
           }
         ]
       },
@@ -4999,7 +5090,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.4l",
         "price": "84 CZK",
         "allergens": [],
-        "description": "Classic homemade lemon and lime lemonade",
+        "description": "0,4l",
         "notes": "Homemade lemonade",
         "questions": [
           {
@@ -5020,7 +5111,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh grapefruit juice",
               "Raspberry purée"
             ],
-            "explanation": "In Homemade lemonade, this component is present: Classic homemade lemon and lime lemonade. Full recipe ingredients: Classic homemade lemon and lime lemonade."
+            "explanation": "In Homemade lemonade, this component is present: Classic homemade lemon and lime lemonade. Official FUZE menu: 0,4l."
           },
           {
             "id": "domaci-citronada-ing-2",
@@ -5030,7 +5121,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White chocolate",
               "Plum purée"
             ],
-            "explanation": "In Homemade lemonade, this component is present: Classic homemade lemon and lime lemonade. Full recipe ingredients: Classic homemade lemon and lime lemonade."
+            "explanation": "In Homemade lemonade, this component is present: Classic homemade lemon and lime lemonade. Official FUZE menu: 0,4l."
           },
           {
             "id": "domaci-citronada-ing-3",
@@ -5040,7 +5131,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Crushed cardamom",
               "Ginger infusion"
             ],
-            "explanation": "In Homemade lemonade, this component is present: Classic homemade lemon and lime lemonade. Full recipe ingredients: Classic homemade lemon and lime lemonade."
+            "explanation": "In Homemade lemonade, this component is present: Classic homemade lemon and lime lemonade. Official FUZE menu: 0,4l."
           }
         ]
       },
@@ -5050,7 +5141,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.4l",
         "price": "86 CZK",
         "allergens": [],
-        "description": "Jasmine and peach",
+        "description": "0,4l Jasmine and peach",
         "notes": "Jasmine and peach",
         "questions": [
           {
@@ -5071,7 +5162,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh grapefruit juice",
               "Raspberry purée"
             ],
-            "explanation": "In Our homemade iced tea, this component is present: Jasmine and peach. Full recipe ingredients: Jasmine and peach."
+            "explanation": "In Our homemade iced tea, this component is present: Jasmine and peach. Official FUZE menu: 0,4l Jasmine and peach."
           },
           {
             "id": "nase-ledovy-caj-ing-2",
@@ -5081,7 +5172,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White chocolate",
               "Plum purée"
             ],
-            "explanation": "In Our homemade iced tea, this component is present: Jasmine and peach. Full recipe ingredients: Jasmine and peach."
+            "explanation": "In Our homemade iced tea, this component is present: Jasmine and peach. Official FUZE menu: 0,4l Jasmine and peach."
           }
         ]
       },
@@ -5091,7 +5182,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.2l",
         "price": "125 CZK",
         "allergens": [],
-        "description": "Orange / Grapefruit",
+        "description": "0,2l Orange / Grapefruit",
         "notes": "Orange / Grapefruit",
         "questions": [
           {
@@ -5112,7 +5203,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh grapefruit juice",
               "Raspberry purée"
             ],
-            "explanation": "In Fresh juice, this component is present: Orange / Grapefruit. Full recipe ingredients: Orange / Grapefruit."
+            "explanation": "In Fresh juice, this component is present: Orange / Grapefruit. Official FUZE menu: 0,2l Orange / Grapefruit."
           }
         ]
       }
@@ -5131,7 +5222,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.33l",
         "price": "65 CZK",
         "allergens": [],
-        "description": "Classic Coca Cola or zero sugar Coca Cola",
+        "description": "0,33l",
         "notes": "Coca Cola / Coca Cola Zero",
         "questions": [
           {
@@ -5152,7 +5243,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh grapefruit juice",
               "Raspberry purée"
             ],
-            "explanation": "In Coca Cola / Coca Cola Zero, this component is present: Classic Coca Cola or zero sugar Coca Cola. Full recipe ingredients: Classic Coca Cola or zero sugar Coca Cola."
+            "explanation": "In Coca Cola / Coca Cola Zero, this component is present: Classic Coca Cola or zero sugar Coca Cola. Official FUZE menu: 0,33l."
           },
           {
             "id": "coca-cola-ing-2",
@@ -5162,7 +5253,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White chocolate",
               "Plum purée"
             ],
-            "explanation": "In Coca Cola / Coca Cola Zero, this component is present: Classic Coca Cola or zero sugar Coca Cola. Full recipe ingredients: Classic Coca Cola or zero sugar Coca Cola."
+            "explanation": "In Coca Cola / Coca Cola Zero, this component is present: Classic Coca Cola or zero sugar Coca Cola. Official FUZE menu: 0,33l."
           }
         ]
       },
@@ -5172,7 +5263,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.2l",
         "price": "75 CZK",
         "allergens": [],
-        "description": "Premium botanical tonic water",
+        "description": "0,2l",
         "notes": "Thomas Henry Tonic",
         "questions": [
           {
@@ -5193,7 +5284,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh grapefruit juice",
               "Raspberry purée"
             ],
-            "explanation": "In Thomas Henry Tonic, this component is present: Premium botanical tonic water. Full recipe ingredients: Premium botanical tonic water."
+            "explanation": "In Thomas Henry Tonic, this component is present: Premium botanical tonic water. Official FUZE menu: 0,2l."
           }
         ]
       },
@@ -5203,7 +5294,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.2l",
         "price": "85 CZK",
         "allergens": [],
-        "description": "Artisan tonic with natural quinine",
+        "description": "0,2l",
         "notes": "Fever-Tree Tonic",
         "questions": [
           {
@@ -5224,7 +5315,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh grapefruit juice",
               "Raspberry purée"
             ],
-            "explanation": "In Fever-Tree Tonic, this component is present: Artisan tonic with natural quinine. Full recipe ingredients: Artisan tonic with natural quinine."
+            "explanation": "In Fever-Tree Tonic, this component is present: Artisan tonic with natural quinine. Official FUZE menu: 0,2l."
           }
         ]
       },
@@ -5234,7 +5325,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.2l",
         "price": "85 CZK",
         "allergens": [],
-        "description": "Fiery brewed ginger beer",
+        "description": "0,2l",
         "notes": "Fever-Tree Ginger Beer",
         "questions": [
           {
@@ -5255,7 +5346,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh grapefruit juice",
               "Raspberry purée"
             ],
-            "explanation": "In Fever-Tree Ginger Beer, this component is present: Fiery brewed ginger beer. Full recipe ingredients: Fiery brewed ginger beer."
+            "explanation": "In Fever-Tree Ginger Beer, this component is present: Fiery brewed ginger beer. Official FUZE menu: 0,2l."
           }
         ]
       },
@@ -5265,7 +5356,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.2l",
         "price": "99 CZK",
         "allergens": [],
-        "description": "can",
+        "description": "0,2l can",
         "notes": "can",
         "questions": [
           {
@@ -5286,7 +5377,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh grapefruit juice",
               "Raspberry purée"
             ],
-            "explanation": "In Red Bull, this component is present: Can. Full recipe ingredients: can."
+            "explanation": "In Red Bull, this component is present: Can. Official FUZE menu: 0,2l can."
           }
         ]
       }
@@ -5305,7 +5396,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "9g",
         "price": "66 CZK",
         "allergens": [],
-        "description": "Single shot espresso (9g)",
+        "description": "9g",
         "notes": "Espresso",
         "questions": [
           {
@@ -5326,7 +5417,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh grapefruit juice",
               "Raspberry purée"
             ],
-            "explanation": "In Espresso, this component is present: Single shot espresso (9g). Full recipe ingredients: Single shot espresso (9g)."
+            "explanation": "In Espresso, this component is present: Single shot espresso (9g). Official FUZE menu: 9g."
           },
           {
             "id": "espresso-ing-2",
@@ -5336,7 +5427,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White chocolate",
               "Plum purée"
             ],
-            "explanation": "In Espresso, this component is present: Single shot espresso (9g). Full recipe ingredients: Single shot espresso (9g)."
+            "explanation": "In Espresso, this component is present: Single shot espresso (9g). Official FUZE menu: 9g."
           }
         ]
       },
@@ -5348,7 +5439,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "7"
         ],
-        "description": "Espresso with milk foam (9g)",
+        "description": "9g",
         "notes": "Espresso macchiato",
         "questions": [
           {
@@ -5369,7 +5460,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh grapefruit juice",
               "Raspberry purée"
             ],
-            "explanation": "In Espresso macchiato, this component is present: Espresso with milk foam (9g). Full recipe ingredients: Espresso with milk foam (9g)."
+            "explanation": "In Espresso macchiato, this component is present: Espresso with milk foam (9g). Official FUZE menu: 9g."
           }
         ]
       },
@@ -5381,7 +5472,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "7"
         ],
-        "description": "Espresso, steamed milk, rich foam (9g)",
+        "description": "9g",
         "notes": "Cappuccino",
         "questions": [
           {
@@ -5402,7 +5493,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh grapefruit juice",
               "Raspberry purée"
             ],
-            "explanation": "In Cappuccino, this component is present: Espresso. Full recipe ingredients: Espresso, steamed milk, rich foam (9g)."
+            "explanation": "In Cappuccino, this component is present: Espresso. Official FUZE menu: 9g."
           },
           {
             "id": "cappuccino-ing-2",
@@ -5412,7 +5503,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White chocolate",
               "Plum purée"
             ],
-            "explanation": "In Cappuccino, this component is present: Steamed milk. Full recipe ingredients: Espresso, steamed milk, rich foam (9g)."
+            "explanation": "In Cappuccino, this component is present: Steamed milk. Official FUZE menu: 9g."
           },
           {
             "id": "cappuccino-ing-3",
@@ -5422,7 +5513,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Crushed cardamom",
               "Ginger infusion"
             ],
-            "explanation": "In Cappuccino, this component is present: Rich foam (9g). Full recipe ingredients: Espresso, steamed milk, rich foam (9g)."
+            "explanation": "In Cappuccino, this component is present: Rich foam (9g). Official FUZE menu: 9g."
           }
         ]
       },
@@ -5434,7 +5525,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "7"
         ],
-        "description": "Espresso with steamed milk in a tall glass (9g)",
+        "description": "9g",
         "notes": "Caffé latte",
         "questions": [
           {
@@ -5455,7 +5546,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh grapefruit juice",
               "Raspberry purée"
             ],
-            "explanation": "In Caffé latte, this component is present: Espresso with steamed milk in a tall glass (9g). Full recipe ingredients: Espresso with steamed milk in a tall glass (9g)."
+            "explanation": "In Caffé latte, this component is present: Espresso with steamed milk in a tall glass (9g). Official FUZE menu: 9g."
           }
         ]
       },
@@ -5467,7 +5558,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "7"
         ],
-        "description": "Double espresso with microfoam (18g)",
+        "description": "18g",
         "notes": "Flat white",
         "questions": [
           {
@@ -5488,7 +5579,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh grapefruit juice",
               "Raspberry purée"
             ],
-            "explanation": "In Flat white, this component is present: Double espresso with microfoam (18g). Full recipe ingredients: Double espresso with microfoam (18g)."
+            "explanation": "In Flat white, this component is present: Double espresso with microfoam (18g). Official FUZE menu: 18g."
           }
         ]
       },
@@ -5498,7 +5589,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "18g",
         "price": "89 CZK",
         "allergens": [],
-        "description": "Double shot espresso (18g)",
+        "description": "18g",
         "notes": "Double espresso",
         "questions": [
           {
@@ -5519,7 +5610,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh grapefruit juice",
               "Raspberry purée"
             ],
-            "explanation": "In Double espresso, this component is present: Double shot espresso (18g). Full recipe ingredients: Double shot espresso (18g)."
+            "explanation": "In Double espresso, this component is present: Double shot espresso (18g). Official FUZE menu: 18g."
           }
         ]
       },
@@ -5529,7 +5620,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "9g",
         "price": "79 CZK",
         "allergens": [],
-        "description": "Espresso diluted with hot water (9g)",
+        "description": "9g",
         "notes": "Americano caffé / Lungo",
         "questions": [
           {
@@ -5550,7 +5641,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh grapefruit juice",
               "Raspberry purée"
             ],
-            "explanation": "In Americano caffé / Lungo, this component is present: Espresso diluted with hot water (9g). Full recipe ingredients: Espresso diluted with hot water (9g)."
+            "explanation": "In Americano caffé / Lungo, this component is present: Espresso diluted with hot water (9g). Official FUZE menu: 9g."
           }
         ]
       },
@@ -5562,7 +5653,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "7"
         ],
-        "description": "Espresso topped with fresh whipped cream (9g)",
+        "description": "9g",
         "notes": "Espresso with whipped cream",
         "questions": [
           {
@@ -5583,7 +5674,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh grapefruit juice",
               "Raspberry purée"
             ],
-            "explanation": "In Espresso with whipped cream, this component is present: Espresso topped with fresh whipped cream (9g). Full recipe ingredients: Espresso topped with fresh whipped cream (9g)."
+            "explanation": "In Espresso with whipped cream, this component is present: Espresso topped with fresh whipped cream (9g). Official FUZE menu: 9g."
           }
         ]
       },
@@ -5604,7 +5695,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh grapefruit juice",
               "Raspberry purée"
             ],
-            "explanation": "In Loose-leaf tea, this component is present: Black. Full recipe ingredients: black, green, or fruit."
+            "explanation": "In Loose-leaf tea, this component is present: Black. Official FUZE menu: black, green, or fruit."
           },
           {
             "id": "sypany-caj-ing-2",
@@ -5614,7 +5705,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White chocolate",
               "Plum purée"
             ],
-            "explanation": "In Loose-leaf tea, this component is present: Green. Full recipe ingredients: black, green, or fruit."
+            "explanation": "In Loose-leaf tea, this component is present: Green. Official FUZE menu: black, green, or fruit."
           },
           {
             "id": "sypany-caj-ing-3",
@@ -5624,7 +5715,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Crushed cardamom",
               "Ginger infusion"
             ],
-            "explanation": "In Loose-leaf tea, this component is present: Or fruit. Full recipe ingredients: black, green, or fruit."
+            "explanation": "In Loose-leaf tea, this component is present: Or fruit. Official FUZE menu: black, green, or fruit."
           }
         ]
       },
@@ -5645,7 +5736,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh grapefruit juice",
               "Raspberry purée"
             ],
-            "explanation": "In Tea with fresh mint or ginger, this component is present: Fresh mint or fresh ginger tea served with honey and lemon. Full recipe ingredients: Fresh mint or fresh ginger tea served with honey and lemon."
+            "explanation": "In Tea with fresh mint or ginger, this component is present: Fresh mint or fresh ginger tea served with honey and lemon. Official FUZE menu: Fresh mint or fresh ginger tea served with honey and lemon."
           },
           {
             "id": "caj-mata-zazvor-ing-2",
@@ -5655,7 +5746,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White chocolate",
               "Plum purée"
             ],
-            "explanation": "In Tea with fresh mint or ginger, this component is present: Fresh mint or fresh ginger tea served with honey and lemon. Full recipe ingredients: Fresh mint or fresh ginger tea served with honey and lemon."
+            "explanation": "In Tea with fresh mint or ginger, this component is present: Fresh mint or fresh ginger tea served with honey and lemon. Official FUZE menu: Fresh mint or fresh ginger tea served with honey and lemon."
           },
           {
             "id": "caj-mata-zazvor-ing-3",
@@ -5665,7 +5756,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Crushed cardamom",
               "Ginger infusion"
             ],
-            "explanation": "In Tea with fresh mint or ginger, this component is present: Fresh mint or fresh ginger tea served with honey and lemon. Full recipe ingredients: Fresh mint or fresh ginger tea served with honey and lemon."
+            "explanation": "In Tea with fresh mint or ginger, this component is present: Fresh mint or fresh ginger tea served with honey and lemon. Official FUZE menu: Fresh mint or fresh ginger tea served with honey and lemon."
           }
         ]
       },
@@ -5677,7 +5768,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Spicy, with a scent of cloves and cinnamon",
+        "description": "0,33l Spicy, with a scent of cloves and cinnamon",
         "notes": "Spicy, with a scent of cloves and cinnamon",
         "questions": [
           {
@@ -5698,7 +5789,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh grapefruit juice",
               "Raspberry purée"
             ],
-            "explanation": "In Hot Gingerbread Cider, this component is present: Spicy. Full recipe ingredients: Spicy, with a scent of cloves and cinnamon."
+            "explanation": "In Hot Gingerbread Cider, this component is present: Spicy. Official FUZE menu: 0,33l Spicy, with a scent of cloves and cinnamon."
           },
           {
             "id": "opre-gingerbread-cider-ing-2",
@@ -5708,7 +5799,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White chocolate",
               "Plum purée"
             ],
-            "explanation": "In Hot Gingerbread Cider, this component is present: With a scent of cloves and cinnamon. Full recipe ingredients: Spicy, with a scent of cloves and cinnamon."
+            "explanation": "In Hot Gingerbread Cider, this component is present: With a scent of cloves and cinnamon. Official FUZE menu: 0,33l Spicy, with a scent of cloves and cinnamon."
           }
         ]
       },
@@ -5731,7 +5822,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh grapefruit juice",
               "Raspberry purée"
             ],
-            "explanation": "In Hot Chocolate, this component is present: With fresh whipped cream. Full recipe ingredients: With fresh whipped cream."
+            "explanation": "In Hot Chocolate, this component is present: With fresh whipped cream. Official FUZE menu: With fresh whipped cream."
           }
         ]
       },
@@ -5754,7 +5845,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh grapefruit juice",
               "Raspberry purée"
             ],
-            "explanation": "In Chai latte, this component is present: Tea with a mixture of exotic spices. Full recipe ingredients: Tea with a mixture of exotic spices, sugar, and hot milk."
+            "explanation": "In Chai latte, this component is present: Tea with a mixture of exotic spices. Official FUZE menu: Tea with a mixture of exotic spices, sugar, and hot milk."
           },
           {
             "id": "chai-latte-ing-2",
@@ -5764,7 +5855,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White chocolate",
               "Plum purée"
             ],
-            "explanation": "In Chai latte, this component is present: Sugar. Full recipe ingredients: Tea with a mixture of exotic spices, sugar, and hot milk."
+            "explanation": "In Chai latte, this component is present: Sugar. Official FUZE menu: Tea with a mixture of exotic spices, sugar, and hot milk."
           },
           {
             "id": "chai-latte-ing-3",
@@ -5774,7 +5865,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Crushed cardamom",
               "Ginger infusion"
             ],
-            "explanation": "In Chai latte, this component is present: Hot milk. Full recipe ingredients: Tea with a mixture of exotic spices, sugar, and hot milk."
+            "explanation": "In Chai latte, this component is present: Hot milk. Official FUZE menu: Tea with a mixture of exotic spices, sugar, and hot milk."
           }
         ]
       },
@@ -5786,7 +5877,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Red / White, with spices and orange",
+        "description": "0,15l Red / White, with spices and orange",
         "notes": "Red / White, with spices and orange",
         "questions": [
           {
@@ -5807,7 +5898,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh grapefruit juice",
               "Raspberry purée"
             ],
-            "explanation": "In Mulled wine, this component is present: Red / White. Full recipe ingredients: Red / White, with spices and orange."
+            "explanation": "In Mulled wine, this component is present: Red / White. Official FUZE menu: 0,15l Red / White, with spices and orange."
           },
           {
             "id": "svarene-vino-ing-2",
@@ -5817,7 +5908,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White chocolate",
               "Plum purée"
             ],
-            "explanation": "In Mulled wine, this component is present: With spices and orange. Full recipe ingredients: Red / White, with spices and orange."
+            "explanation": "In Mulled wine, this component is present: With spices and orange. Official FUZE menu: 0,15l Red / White, with spices and orange."
           }
         ]
       }
@@ -5833,11 +5924,11 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "name": "Charmat de Vinselekt Pálava",
         "weight": "0.1l",
-        "price": "115 CZK",
+        "price": "99 CZK",
         "allergens": [
           "12"
         ],
-        "description": "sparkling wine, Vinselekt Michlovský, Moravia",
+        "description": "0,1l Vinselect Michlovský, Extra dry",
         "notes": "Aromatic sparkling wine by the glass.",
         "id": "sklo-charmat-palava",
         "questions": [
@@ -5859,7 +5950,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Charmat de Vinselekt Pálava, this component is present: Sparkling wine. Full recipe ingredients: sparkling wine, Vinselekt Michlovský, Moravia."
+            "explanation": "In Charmat de Vinselekt Pálava, this component is present: Sparkling wine. Official FUZE menu: 0,1l Vinselect Michlovský, Extra dry."
           },
           {
             "id": "sklo-charmat-palava-ing-2",
@@ -5869,7 +5960,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Duck breast",
               "Deboned trout"
             ],
-            "explanation": "In Charmat de Vinselekt Pálava, this component is present: Vinselekt Michlovský. Full recipe ingredients: sparkling wine, Vinselekt Michlovský, Moravia."
+            "explanation": "In Charmat de Vinselekt Pálava, this component is present: Vinselekt Michlovský. Official FUZE menu: 0,1l Vinselect Michlovský, Extra dry."
           },
           {
             "id": "sklo-charmat-palava-ing-3",
@@ -5879,7 +5970,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Beef tenderloin",
               "Duroc pork belly"
             ],
-            "explanation": "In Charmat de Vinselekt Pálava, this component is present: Moravia. Full recipe ingredients: sparkling wine, Vinselekt Michlovský, Moravia."
+            "explanation": "In Charmat de Vinselekt Pálava, this component is present: Moravia. Official FUZE menu: 0,1l Vinselect Michlovský, Extra dry."
           },
           {
             "id": "sklo-charmat-palava-allergen-12",
@@ -5894,13 +5985,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         ]
       },
       {
-        "name": "Crémant de Vinselekt",
+        "name": "Cremant de Vinselekt",
         "weight": "0.1l",
-        "price": "135 CZK",
+        "price": "115 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Pinot, Chardonnay, traditional method extra brut, Vinselekt Michlovský",
+        "description": "0,1l (Pinot, Chardonnay) Vinselect Michlovský, Extra Brut",
         "notes": "Refined bottle-fermented traditional sparkler.",
         "id": "sklo-cremant-vinselekt",
         "questions": [
@@ -5922,7 +6013,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Crémant de Vinselekt, this component is present: Pinot. Full recipe ingredients: Pinot, Chardonnay, traditional method extra brut, Vinselekt Michlovský."
+            "explanation": "In Cremant de Vinselekt, this component is present: Pinot. Official FUZE menu: 0,1l (Pinot, Chardonnay) Vinselect Michlovský, Extra Brut."
           },
           {
             "id": "sklo-cremant-vinselekt-ing-2",
@@ -5932,7 +6023,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Duck breast",
               "Deboned trout"
             ],
-            "explanation": "In Crémant de Vinselekt, this component is present: Chardonnay. Full recipe ingredients: Pinot, Chardonnay, traditional method extra brut, Vinselekt Michlovský."
+            "explanation": "In Cremant de Vinselekt, this component is present: Chardonnay. Official FUZE menu: 0,1l (Pinot, Chardonnay) Vinselect Michlovský, Extra Brut."
           },
           {
             "id": "sklo-cremant-vinselekt-ing-3",
@@ -5942,7 +6033,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Beef tenderloin",
               "Duroc pork belly"
             ],
-            "explanation": "In Crémant de Vinselekt, this component is present: Traditional method extra brut. Full recipe ingredients: Pinot, Chardonnay, traditional method extra brut, Vinselekt Michlovský."
+            "explanation": "In Cremant de Vinselekt, this component is present: Traditional method extra brut. Official FUZE menu: 0,1l (Pinot, Chardonnay) Vinselect Michlovský, Extra Brut."
           },
           {
             "id": "sklo-cremant-vinselekt-ing-4",
@@ -5952,7 +6043,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Venison saddle",
               "Lamb chop"
             ],
-            "explanation": "In Crémant de Vinselekt, this component is present: Vinselekt Michlovský. Full recipe ingredients: Pinot, Chardonnay, traditional method extra brut, Vinselekt Michlovský."
+            "explanation": "In Cremant de Vinselekt, this component is present: Vinselekt Michlovský. Official FUZE menu: 0,1l (Pinot, Chardonnay) Vinselect Michlovský, Extra Brut."
           },
           {
             "id": "sklo-cremant-vinselekt-allergen-12",
@@ -5968,13 +6059,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "sklo-rulandske-sede",
-        "name": "Rulandské šedé (Pinot Gris) – Dva kopce Kolby",
+        "name": "Rulandské šedé",
         "weight": "0.15l",
         "price": "95 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Dva kopce Kolby, semi-dry – Mikulov region, Moravia. Balanced and juicy, bouquet of white peach and orchard fruit.",
+        "description": "0,15l Kolby Moravia, semi-dry",
         "notes": "Dva kopce Kolby, semi-dry – Mikulov region, Moravia. Balanced and juicy, bouquet of white peach and orchard fruit.",
         "questions": [
           {
@@ -5995,7 +6086,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Rulandské šedé (Pinot Gris) – Dva kopce Kolby, this component is present: Dva kopce Kolby. Full recipe ingredients: Dva kopce Kolby, semi-dry – Mikulov region, Moravia. Balanced and juicy, bouquet of white peach and orchard fruit.."
+            "explanation": "In Rulandské šedé, this component is present: Dva kopce Kolby. Official FUZE menu: 0,15l Kolby Moravia, semi-dry."
           },
           {
             "id": "sklo-rulandske-sede-ing-2",
@@ -6005,7 +6096,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kolby winery",
               "Kraus winery"
             ],
-            "explanation": "In Rulandské šedé (Pinot Gris) – Dva kopce Kolby, this component is present: Semi-dry – Mikulov region. Full recipe ingredients: Dva kopce Kolby, semi-dry – Mikulov region, Moravia. Balanced and juicy, bouquet of white peach and orchard fruit.."
+            "explanation": "In Rulandské šedé, this component is present: Semi-dry – Mikulov region. Official FUZE menu: 0,15l Kolby Moravia, semi-dry."
           },
           {
             "id": "sklo-rulandske-sede-ing-3",
@@ -6015,7 +6106,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Michlovsky winery",
               "Mikulov subregion"
             ],
-            "explanation": "In Rulandské šedé (Pinot Gris) – Dva kopce Kolby, this component is present: Moravia. Balanced and juicy. Full recipe ingredients: Dva kopce Kolby, semi-dry – Mikulov region, Moravia. Balanced and juicy, bouquet of white peach and orchard fruit.."
+            "explanation": "In Rulandské šedé, this component is present: Moravia. Balanced and juicy. Official FUZE menu: 0,15l Kolby Moravia, semi-dry."
           },
           {
             "id": "sklo-rulandske-sede-ing-4",
@@ -6025,7 +6116,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Velke Pavlovice subregion",
               "Melnik subregion"
             ],
-            "explanation": "In Rulandské šedé (Pinot Gris) – Dva kopce Kolby, this component is present: Bouquet of white peach and orchard fruit. Full recipe ingredients: Dva kopce Kolby, semi-dry – Mikulov region, Moravia. Balanced and juicy, bouquet of white peach and orchard fruit.."
+            "explanation": "In Rulandské šedé, this component is present: Bouquet of white peach and orchard fruit. Official FUZE menu: 0,15l Kolby Moravia, semi-dry."
           },
           {
             "id": "sklo-rulandske-sede-ing-5",
@@ -6035,7 +6126,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Vibrant acidity and mineral notes",
               "Late harvest"
             ],
-            "explanation": "In Rulandské šedé (Pinot Gris) – Dva kopce Kolby, this component is present: Bouquet of white peach and orchard fruit. Full recipe ingredients: Dva kopce Kolby, semi-dry – Mikulov region, Moravia. Balanced and juicy, bouquet of white peach and orchard fruit.."
+            "explanation": "In Rulandské šedé, this component is present: Bouquet of white peach and orchard fruit. Official FUZE menu: 0,15l Kolby Moravia, semi-dry."
           },
           {
             "id": "sklo-rulandske-sede-allergen-12",
@@ -6050,13 +6141,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         ]
       },
       {
-        "name": "White Cuvée",
+        "name": "Cuvée white",
         "weight": "0.15l",
-        "price": "105 CZK",
+        "price": "98 CZK",
         "allergens": [
           "12"
         ],
-        "description": "fresh crisp white wine cuvée",
+        "description": "0,15l Kraus Bohemia",
         "notes": "Pleasant everyday white blend.",
         "id": "sklo-cuvee-bile",
         "questions": [
@@ -6078,7 +6169,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In White Cuvée, this component is present: Fresh crisp white wine cuvée. Full recipe ingredients: fresh crisp white wine cuvée."
+            "explanation": "In Cuvée white, this component is present: Fresh crisp white wine cuvée. Official FUZE menu: 0,15l Kraus Bohemia."
           },
           {
             "id": "sklo-cuvee-bile-allergen-12",
@@ -6094,13 +6185,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "sklo-gruner-veltliner",
-        "name": "Grüner Veltliner – Heuriger",
+        "name": "Grüner Veltliner",
         "weight": "0.15l",
         "price": "109 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Heuriger – Lower Austria. Fresh, light, delicate citrus aroma with crisp notes of green apple.",
+        "description": "0,15l Heuriger Austria",
         "notes": "Heuriger – Lower Austria. Fresh, light, delicate citrus aroma with crisp notes of green apple.",
         "questions": [
           {
@@ -6121,7 +6212,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Grüner Veltliner – Heuriger, this component is present: Heuriger – Lower Austria. Fresh. Full recipe ingredients: Heuriger – Lower Austria. Fresh, light, delicate citrus aroma with crisp notes of green apple.."
+            "explanation": "In Grüner Veltliner, this component is present: Heuriger – Lower Austria. Fresh. Official FUZE menu: 0,15l Heuriger Austria."
           },
           {
             "id": "sklo-gruner-veltliner-ing-2",
@@ -6131,7 +6222,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kolby winery",
               "Kraus winery"
             ],
-            "explanation": "In Grüner Veltliner – Heuriger, this component is present: Light. Full recipe ingredients: Heuriger – Lower Austria. Fresh, light, delicate citrus aroma with crisp notes of green apple.."
+            "explanation": "In Grüner Veltliner, this component is present: Light. Official FUZE menu: 0,15l Heuriger Austria."
           },
           {
             "id": "sklo-gruner-veltliner-ing-3",
@@ -6141,7 +6232,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Michlovsky winery",
               "Mikulov subregion"
             ],
-            "explanation": "In Grüner Veltliner – Heuriger, this component is present: Delicate citrus aroma with crisp notes of green apple. Full recipe ingredients: Heuriger – Lower Austria. Fresh, light, delicate citrus aroma with crisp notes of green apple.."
+            "explanation": "In Grüner Veltliner, this component is present: Delicate citrus aroma with crisp notes of green apple. Official FUZE menu: 0,15l Heuriger Austria."
           },
           {
             "id": "sklo-gruner-veltliner-ing-4",
@@ -6151,7 +6242,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Velke Pavlovice subregion",
               "Melnik subregion"
             ],
-            "explanation": "In Grüner Veltliner – Heuriger, this component is present: Delicate citrus aroma with crisp notes of green apple. Full recipe ingredients: Heuriger – Lower Austria. Fresh, light, delicate citrus aroma with crisp notes of green apple.."
+            "explanation": "In Grüner Veltliner, this component is present: Delicate citrus aroma with crisp notes of green apple. Official FUZE menu: 0,15l Heuriger Austria."
           },
           {
             "id": "sklo-gruner-veltliner-allergen-12",
@@ -6166,13 +6257,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         ]
       },
       {
-        "name": "Chardonnay – Adulation",
+        "name": "Chardonnay",
         "weight": "0.15l",
-        "price": "145 CZK",
+        "price": "125 CZK",
         "allergens": [
           "12"
         ],
-        "description": "California Chardonnay with vanilla oak notes",
+        "description": "0,15l Adulation California",
         "notes": "Full-bodied California white with tropical fruits and subtle oak.",
         "id": "sklo-chardonnay",
         "questions": [
@@ -6194,7 +6285,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Chardonnay – Adulation, this component is present: California Chardonnay with vanilla oak notes. Full recipe ingredients: California Chardonnay with vanilla oak notes."
+            "explanation": "In Chardonnay, this component is present: California Chardonnay with vanilla oak notes. Official FUZE menu: 0,15l Adulation California."
           },
           {
             "id": "sklo-chardonnay-allergen-12",
@@ -6210,13 +6301,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "sklo-modry-portugal-rose",
-        "name": "Modrý Portugal – Rosé Dva kopce Kolby",
+        "name": "Modrý Portugal rosé",
         "weight": "0.15l",
         "price": "95 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Mikulov region, Moravia. Fresh, salmon-pink color, summer berry finish, aroma with notes of fresh strawberries and cherries.",
+        "description": "0,15l Kolby Moravia",
         "notes": "Mikulov region, Moravia. Fresh, salmon-pink color, summer berry finish, aroma with notes of fresh strawberries and cherries.",
         "questions": [
           {
@@ -6237,7 +6328,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Modrý Portugal – Rosé Dva kopce Kolby, this component is present: Mikulov region. Full recipe ingredients: Mikulov region, Moravia. Fresh, salmon-pink color, summer berry finish, aroma with notes of fresh strawberries and cherries.."
+            "explanation": "In Modrý Portugal rosé, this component is present: Mikulov region. Official FUZE menu: 0,15l Kolby Moravia."
           },
           {
             "id": "sklo-modry-portugal-rose-ing-2",
@@ -6247,7 +6338,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kolby winery",
               "Kraus winery"
             ],
-            "explanation": "In Modrý Portugal – Rosé Dva kopce Kolby, this component is present: Moravia. Fresh. Full recipe ingredients: Mikulov region, Moravia. Fresh, salmon-pink color, summer berry finish, aroma with notes of fresh strawberries and cherries.."
+            "explanation": "In Modrý Portugal rosé, this component is present: Moravia. Fresh. Official FUZE menu: 0,15l Kolby Moravia."
           },
           {
             "id": "sklo-modry-portugal-rose-ing-3",
@@ -6257,7 +6348,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Michlovsky winery",
               "Mikulov subregion"
             ],
-            "explanation": "In Modrý Portugal – Rosé Dva kopce Kolby, this component is present: Salmon-pink color. Full recipe ingredients: Mikulov region, Moravia. Fresh, salmon-pink color, summer berry finish, aroma with notes of fresh strawberries and cherries.."
+            "explanation": "In Modrý Portugal rosé, this component is present: Salmon-pink color. Official FUZE menu: 0,15l Kolby Moravia."
           },
           {
             "id": "sklo-modry-portugal-rose-ing-4",
@@ -6267,7 +6358,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Velke Pavlovice subregion",
               "Melnik subregion"
             ],
-            "explanation": "In Modrý Portugal – Rosé Dva kopce Kolby, this component is present: Summer berry finish. Full recipe ingredients: Mikulov region, Moravia. Fresh, salmon-pink color, summer berry finish, aroma with notes of fresh strawberries and cherries.."
+            "explanation": "In Modrý Portugal rosé, this component is present: Summer berry finish. Official FUZE menu: 0,15l Kolby Moravia."
           },
           {
             "id": "sklo-modry-portugal-rose-ing-5",
@@ -6277,7 +6368,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Vibrant acidity and mineral notes",
               "Late harvest"
             ],
-            "explanation": "In Modrý Portugal – Rosé Dva kopce Kolby, this component is present: Aroma with notes of fresh strawberries and cherries. Full recipe ingredients: Mikulov region, Moravia. Fresh, salmon-pink color, summer berry finish, aroma with notes of fresh strawberries and cherries.."
+            "explanation": "In Modrý Portugal rosé, this component is present: Aroma with notes of fresh strawberries and cherries. Official FUZE menu: 0,15l Kolby Moravia."
           },
           {
             "id": "sklo-modry-portugal-rose-allergen-12",
@@ -6292,13 +6383,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         ]
       },
       {
-        "name": "Modrý Portugal – Kolby",
+        "name": "Modrý Portugal",
         "weight": "0.15l",
-        "price": "115 CZK",
+        "price": "95 CZK",
         "allergens": [
           "12"
         ],
-        "description": "light elegant red wine with red berry notes, Kolby",
+        "description": "0,15l Kolby Moravia",
         "notes": "Smooth approachable Moravian red.",
         "id": "sklo-modry-portugal",
         "questions": [
@@ -6320,7 +6411,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Modrý Portugal – Kolby, this component is present: Light elegant red wine with red berry notes. Full recipe ingredients: light elegant red wine with red berry notes, Kolby."
+            "explanation": "In Modrý Portugal, this component is present: Light elegant red wine with red berry notes. Official FUZE menu: 0,15l Kolby Moravia."
           },
           {
             "id": "sklo-modry-portugal-ing-2",
@@ -6330,7 +6421,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Duck breast",
               "Deboned trout"
             ],
-            "explanation": "In Modrý Portugal – Kolby, this component is present: Kolby. Full recipe ingredients: light elegant red wine with red berry notes, Kolby."
+            "explanation": "In Modrý Portugal, this component is present: Kolby. Official FUZE menu: 0,15l Kolby Moravia."
           },
           {
             "id": "sklo-modry-portugal-allergen-12",
@@ -6345,13 +6436,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         ]
       },
       {
-        "name": "Red Cuvée – Kraus",
+        "name": "Red cuvée",
         "weight": "0.15l",
-        "price": "115 CZK",
+        "price": "98 CZK",
         "allergens": [
           "12"
         ],
-        "description": "balanced harmonious red blend, Kraus winery",
+        "description": "0,15l Kraus Bohemia",
         "notes": "Velvety dry red cuvée from Mělník.",
         "id": "sklo-cuvee-cervene",
         "questions": [
@@ -6373,7 +6464,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Red Cuvée – Kraus, this component is present: Balanced harmonious red blend. Full recipe ingredients: balanced harmonious red blend, Kraus winery."
+            "explanation": "In Red cuvée, this component is present: Balanced harmonious red blend. Official FUZE menu: 0,15l Kraus Bohemia."
           },
           {
             "id": "sklo-cuvee-cervene-ing-2",
@@ -6383,7 +6474,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Duck breast",
               "Deboned trout"
             ],
-            "explanation": "In Red Cuvée – Kraus, this component is present: Kraus winery. Full recipe ingredients: balanced harmonious red blend, Kraus winery."
+            "explanation": "In Red cuvée, this component is present: Kraus winery. Official FUZE menu: 0,15l Kraus Bohemia."
           },
           {
             "id": "sklo-cuvee-cervene-allergen-12",
@@ -6398,13 +6489,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         ]
       },
       {
-        "name": "Pinot Noir – Adulation",
+        "name": "Pinot Noir",
         "weight": "0.15l",
-        "price": "155 CZK",
+        "price": "125 CZK",
         "allergens": [
           "12"
         ],
-        "description": "ripe cherries and subtle spice, California Pinot Noir",
+        "description": "0,15l Adulation California",
         "notes": "Expressive California red wine.",
         "id": "sklo-pinot-noir",
         "questions": [
@@ -6426,7 +6517,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Pinot Noir – Adulation, this component is present: Ripe cherries. Full recipe ingredients: ripe cherries and subtle spice, California Pinot Noir."
+            "explanation": "In Pinot Noir, this component is present: Ripe cherries. Official FUZE menu: 0,15l Adulation California."
           },
           {
             "id": "sklo-pinot-noir-ing-2",
@@ -6436,7 +6527,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Duck breast",
               "Deboned trout"
             ],
-            "explanation": "In Pinot Noir – Adulation, this component is present: Subtle spice. Full recipe ingredients: ripe cherries and subtle spice, California Pinot Noir."
+            "explanation": "In Pinot Noir, this component is present: Subtle spice. Official FUZE menu: 0,15l Adulation California."
           },
           {
             "id": "sklo-pinot-noir-ing-3",
@@ -6446,7 +6537,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Beef tenderloin",
               "Duroc pork belly"
             ],
-            "explanation": "In Pinot Noir – Adulation, this component is present: California Pinot Noir. Full recipe ingredients: ripe cherries and subtle spice, California Pinot Noir."
+            "explanation": "In Pinot Noir, this component is present: California Pinot Noir. Official FUZE menu: 0,15l Adulation California."
           },
           {
             "id": "sklo-pinot-noir-allergen-12",
@@ -6486,7 +6577,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In Aperol Spritz, this component is present: Aperol. Full recipe ingredients: Aperol, charmat, soda."
+            "explanation": "In Aperol Spritz, this component is present: Aperol. Official FUZE menu: Aperol, charmat, soda."
           },
           {
             "id": "aperol-spritz-ing-2",
@@ -6496,7 +6587,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Campari"
             ],
-            "explanation": "In Aperol Spritz, this component is present: Charmat. Full recipe ingredients: Aperol, charmat, soda."
+            "explanation": "In Aperol Spritz, this component is present: Charmat. Official FUZE menu: Aperol, charmat, soda."
           },
           {
             "id": "aperol-spritz-ing-3",
@@ -6506,7 +6597,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Cointreau",
               "Cinzano rosso"
             ],
-            "explanation": "In Aperol Spritz, this component is present: Soda. Full recipe ingredients: Aperol, charmat, soda."
+            "explanation": "In Aperol Spritz, this component is present: Soda. Official FUZE menu: Aperol, charmat, soda."
           },
           {
             "id": "aperol-spritz-ing-4",
@@ -6516,7 +6607,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh lime juice",
               "Thomas Henry tonic"
             ],
-            "explanation": "In Aperol Spritz, this component is present: Soda. Full recipe ingredients: Aperol, charmat, soda."
+            "explanation": "In Aperol Spritz, this component is present: Soda. Official FUZE menu: Aperol, charmat, soda."
           },
           {
             "id": "aperol-spritz-ing-5",
@@ -6526,7 +6617,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Craft gin",
               "White rum"
             ],
-            "explanation": "In Aperol Spritz, this component is present: Soda. Full recipe ingredients: Aperol, charmat, soda."
+            "explanation": "In Aperol Spritz, this component is present: Soda. Official FUZE menu: Aperol, charmat, soda."
           }
         ]
       },
@@ -6547,7 +6638,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In Hugo Spritz, this component is present: Charmat. Full recipe ingredients: charmat, elderflower elixir, lime, mint, soda."
+            "explanation": "In Hugo Spritz, this component is present: Charmat. Official FUZE menu: charmat, elderflower elixir, lime, mint, soda."
           },
           {
             "id": "hugo-spritz-ing-2",
@@ -6557,7 +6648,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Campari"
             ],
-            "explanation": "In Hugo Spritz, this component is present: Elderflower elixir. Full recipe ingredients: charmat, elderflower elixir, lime, mint, soda."
+            "explanation": "In Hugo Spritz, this component is present: Elderflower elixir. Official FUZE menu: charmat, elderflower elixir, lime, mint, soda."
           },
           {
             "id": "hugo-spritz-ing-3",
@@ -6567,7 +6658,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Cointreau",
               "Cinzano rosso"
             ],
-            "explanation": "In Hugo Spritz, this component is present: Lime. Full recipe ingredients: charmat, elderflower elixir, lime, mint, soda."
+            "explanation": "In Hugo Spritz, this component is present: Lime. Official FUZE menu: charmat, elderflower elixir, lime, mint, soda."
           },
           {
             "id": "hugo-spritz-ing-4",
@@ -6577,7 +6668,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Thomas Henry tonic",
               "Craft gin"
             ],
-            "explanation": "In Hugo Spritz, this component is present: Mint. Full recipe ingredients: charmat, elderflower elixir, lime, mint, soda."
+            "explanation": "In Hugo Spritz, this component is present: Mint. Official FUZE menu: charmat, elderflower elixir, lime, mint, soda."
           },
           {
             "id": "hugo-spritz-ing-5",
@@ -6587,7 +6678,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In Hugo Spritz, this component is present: Soda. Full recipe ingredients: charmat, elderflower elixir, lime, mint, soda."
+            "explanation": "In Hugo Spritz, this component is present: Soda. Official FUZE menu: charmat, elderflower elixir, lime, mint, soda."
           }
         ]
       },
@@ -6608,7 +6699,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In Mimosa, this component is present: Charmat. Full recipe ingredients: charmat, pear and peach syrup, cucumber slices."
+            "explanation": "In Mimosa, this component is present: Charmat. Official FUZE menu: charmat, pear and peach syrup, cucumber slices."
           },
           {
             "id": "mimosa-ing-2",
@@ -6618,7 +6709,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Campari"
             ],
-            "explanation": "In Mimosa, this component is present: Pear and peach syrup. Full recipe ingredients: charmat, pear and peach syrup, cucumber slices."
+            "explanation": "In Mimosa, this component is present: Pear and peach syrup. Official FUZE menu: charmat, pear and peach syrup, cucumber slices."
           },
           {
             "id": "mimosa-ing-3",
@@ -6628,7 +6719,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Cointreau",
               "Cinzano rosso"
             ],
-            "explanation": "In Mimosa, this component is present: Cucumber slices. Full recipe ingredients: charmat, pear and peach syrup, cucumber slices."
+            "explanation": "In Mimosa, this component is present: Cucumber slices. Official FUZE menu: charmat, pear and peach syrup, cucumber slices."
           }
         ]
       },
@@ -6638,7 +6729,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "",
         "price": "165 CZK",
         "allergens": [],
-        "description": "white wine, Crème de cassis",
+        "description": "crème de cassis, charmat",
         "notes": "white wine, Crème de cassis",
         "questions": [
           {
@@ -6649,7 +6740,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In Kir, this component is present: White wine. Full recipe ingredients: white wine, Crème de cassis."
+            "explanation": "In Kir, this component is present: White wine. Official FUZE menu: crème de cassis, charmat."
           },
           {
             "id": "kir-ing-2",
@@ -6659,7 +6750,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Campari"
             ],
-            "explanation": "In Kir, this component is present: Crème de cassis. Full recipe ingredients: white wine, Crème de cassis."
+            "explanation": "In Kir, this component is present: Crème de cassis. Official FUZE menu: crème de cassis, charmat."
           }
         ]
       },
@@ -6669,7 +6760,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.06l",
         "price": "87 CZK",
         "allergens": [],
-        "description": "Italian red bitter aperitif",
+        "description": "0,06l",
         "notes": "Campari Bitter",
         "questions": [
           {
@@ -6690,7 +6781,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In Campari Bitter, this component is present: Italian red bitter aperitif. Full recipe ingredients: Italian red bitter aperitif."
+            "explanation": "In Campari Bitter, this component is present: Italian red bitter aperitif. Official FUZE menu: 0,06l."
           }
         ]
       },
@@ -6700,7 +6791,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.08l",
         "price": "79 CZK",
         "allergens": [],
-        "description": "Classic Italian extra dry vermouth",
+        "description": "0,08l",
         "notes": "Martini Dry",
         "questions": [
           {
@@ -6721,17 +6812,17 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In Martini Dry, this component is present: Classic Italian extra dry vermouth. Full recipe ingredients: Classic Italian extra dry vermouth."
+            "explanation": "In Martini Dry, this component is present: Classic Italian extra dry vermouth. Official FUZE menu: 0,08l."
           }
         ]
       },
       {
         "id": "cinzano-rosso-bianco",
-        "name": "Cinzano",
+        "name": "Cinzano Rosso / Bianco",
         "weight": "0.08l",
         "price": "79 CZK",
         "allergens": [],
-        "description": "Rosso / Bianco",
+        "description": "0,08l",
         "notes": "Rosso / Bianco",
         "questions": [
           {
@@ -6752,7 +6843,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In Cinzano, this component is present: Rosso / Bianco. Full recipe ingredients: Rosso / Bianco."
+            "explanation": "In Cinzano Rosso / Bianco, this component is present: Rosso / Bianco. Official FUZE menu: 0,08l."
           },
           {
             "id": "cinzano-rosso-bianco-ing-2",
@@ -6762,19 +6853,19 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Campari"
             ],
-            "explanation": "In Cinzano, this component is present: Rosso / Bianco. Full recipe ingredients: Rosso / Bianco."
+            "explanation": "In Cinzano Rosso / Bianco, this component is present: Rosso / Bianco. Official FUZE menu: 0,08l."
           }
         ]
       },
       {
         "id": "grahams-porto-10y",
-        "name": "Graham's Porto 10y",
+        "name": "Grahams Porto Tawny 10y",
         "weight": "0.06l",
         "price": "225 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Ten-year-old aged Tawny Port with mellow dried fruit notes",
+        "description": "0,06l",
         "notes": "Graham's Porto 10y",
         "questions": [
           {
@@ -6795,7 +6886,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In Graham's Porto 10y, this component is present: Ten-year-old aged Tawny Port with mellow dried fruit notes. Full recipe ingredients: Ten-year-old aged Tawny Port with mellow dried fruit notes."
+            "explanation": "In Grahams Porto Tawny 10y, this component is present: Ten-year-old aged Tawny Port with mellow dried fruit notes. Official FUZE menu: 0,06l."
           },
           {
             "id": "grahams-porto-10y-ing-2",
@@ -6805,7 +6896,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Campari"
             ],
-            "explanation": "In Graham's Porto 10y, this component is present: Ten-year-old aged Tawny Port with mellow dried fruit notes. Full recipe ingredients: Ten-year-old aged Tawny Port with mellow dried fruit notes."
+            "explanation": "In Grahams Porto Tawny 10y, this component is present: Ten-year-old aged Tawny Port with mellow dried fruit notes. Official FUZE menu: 0,06l."
           }
         ]
       }
@@ -6824,7 +6915,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.175l",
         "price": "109 CZK",
         "allergens": [],
-        "description": "Non-alcoholic bitter aperitif",
+        "description": "0,175l non-alcoholic bitter",
         "notes": "Non-alcoholic bitter aperitif",
         "questions": [
           {
@@ -6845,7 +6936,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In Crodino, this component is present: Non-alcoholic bitter aperitif. Full recipe ingredients: Non-alcoholic bitter aperitif."
+            "explanation": "In Crodino, this component is present: Non-alcoholic bitter aperitif. Official FUZE menu: 0,175l non-alcoholic bitter."
           },
           {
             "id": "crodino-ing-2",
@@ -6855,7 +6946,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Campari"
             ],
-            "explanation": "In Crodino, this component is present: Non-alcoholic bitter aperitif. Full recipe ingredients: Non-alcoholic bitter aperitif."
+            "explanation": "In Crodino, this component is present: Non-alcoholic bitter aperitif. Official FUZE menu: 0,175l non-alcoholic bitter."
           }
         ]
       },
@@ -6865,7 +6956,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "",
         "price": "165 CZK",
         "allergens": [],
-        "description": "Non-alcoholic floral aperitif paired with botanical tonic",
+        "description": "non-alcoholic Martini, tonic, dried orange",
         "notes": "Martini Floreale Alcohol free & Thomas Henry Tonic",
         "questions": [
           {
@@ -6876,7 +6967,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In Martini Floreale Alcohol free & Thomas Henry Tonic, this component is present: Non-alcoholic floral aperitif paired with botanical tonic. Full recipe ingredients: Non-alcoholic floral aperitif paired with botanical tonic."
+            "explanation": "In Martini Floreale Alcohol free & Thomas Henry Tonic, this component is present: Non-alcoholic floral aperitif paired with botanical tonic. Official FUZE menu: non-alcoholic Martini, tonic, dried orange."
           },
           {
             "id": "martini-floreale-tonic-ing-2",
@@ -6886,7 +6977,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Campari"
             ],
-            "explanation": "In Martini Floreale Alcohol free & Thomas Henry Tonic, this component is present: Non-alcoholic floral aperitif paired with botanical tonic. Full recipe ingredients: Non-alcoholic floral aperitif paired with botanical tonic."
+            "explanation": "In Martini Floreale Alcohol free & Thomas Henry Tonic, this component is present: Non-alcoholic floral aperitif paired with botanical tonic. Official FUZE menu: non-alcoholic Martini, tonic, dried orange."
           },
           {
             "id": "martini-floreale-tonic-ing-3",
@@ -6896,7 +6987,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Cointreau",
               "Cinzano rosso"
             ],
-            "explanation": "In Martini Floreale Alcohol free & Thomas Henry Tonic, this component is present: Non-alcoholic floral aperitif paired with botanical tonic. Full recipe ingredients: Non-alcoholic floral aperitif paired with botanical tonic."
+            "explanation": "In Martini Floreale Alcohol free & Thomas Henry Tonic, this component is present: Non-alcoholic floral aperitif paired with botanical tonic. Official FUZE menu: non-alcoholic Martini, tonic, dried orange."
           }
         ]
       },
@@ -6906,7 +6997,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.2l",
         "price": "115 CZK",
         "allergens": [],
-        "description": "Italian non-alcoholic bitter soda",
+        "description": "0,2l non-alcoholic bitter soda",
         "notes": "Bitter soda J.Gasco",
         "questions": [
           {
@@ -6927,7 +7018,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In Bitter soda J.Gasco, this component is present: Italian non-alcoholic bitter soda. Full recipe ingredients: Italian non-alcoholic bitter soda."
+            "explanation": "In Bitter soda J.Gasco, this component is present: Italian non-alcoholic bitter soda. Official FUZE menu: 0,2l non-alcoholic bitter soda."
           },
           {
             "id": "bitter-soda-gasco-ing-2",
@@ -6937,7 +7028,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Campari"
             ],
-            "explanation": "In Bitter soda J.Gasco, this component is present: Italian non-alcoholic bitter soda. Full recipe ingredients: Italian non-alcoholic bitter soda."
+            "explanation": "In Bitter soda J.Gasco, this component is present: Italian non-alcoholic bitter soda. Official FUZE menu: 0,2l non-alcoholic bitter soda."
           }
         ]
       },
@@ -6947,7 +7038,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "",
         "price": "199 CZK",
         "allergens": [],
-        "description": "Distilled non-alcoholic botanical gin paired with premium tonic",
+        "description": "non-alcoholic G&T with lime",
         "notes": "Tanqueray Alcohol Free & Fever-Tree Tonic",
         "questions": [
           {
@@ -6958,7 +7049,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In Tanqueray Alcohol Free & Fever-Tree Tonic, this component is present: Distilled non-alcoholic botanical gin paired with premium tonic. Full recipe ingredients: Distilled non-alcoholic botanical gin paired with premium tonic."
+            "explanation": "In Tanqueray Alcohol Free & Fever-Tree Tonic, this component is present: Distilled non-alcoholic botanical gin paired with premium tonic. Official FUZE menu: non-alcoholic G&T with lime."
           },
           {
             "id": "tanqueray-00-tonic-ing-2",
@@ -6968,7 +7059,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Campari"
             ],
-            "explanation": "In Tanqueray Alcohol Free & Fever-Tree Tonic, this component is present: Distilled non-alcoholic botanical gin paired with premium tonic. Full recipe ingredients: Distilled non-alcoholic botanical gin paired with premium tonic."
+            "explanation": "In Tanqueray Alcohol Free & Fever-Tree Tonic, this component is present: Distilled non-alcoholic botanical gin paired with premium tonic. Official FUZE menu: non-alcoholic G&T with lime."
           }
         ]
       }
@@ -6987,7 +7078,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "",
         "price": "195 CZK",
         "allergens": [],
-        "description": "Campari, Tanqueray gin, Cinzano rosso",
+        "description": "Gin, Campari, Cinzano Rosso",
         "notes": "Campari, Tanqueray gin, Cinzano rosso",
         "questions": [
           {
@@ -6998,7 +7089,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In Negroni, this component is present: Campari. Full recipe ingredients: Campari, Tanqueray gin, Cinzano rosso."
+            "explanation": "In Negroni, this component is present: Campari. Official FUZE menu: Gin, Campari, Cinzano Rosso."
           },
           {
             "id": "negroni-ing-2",
@@ -7008,7 +7099,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Cointreau"
             ],
-            "explanation": "In Negroni, this component is present: Tanqueray gin. Full recipe ingredients: Campari, Tanqueray gin, Cinzano rosso."
+            "explanation": "In Negroni, this component is present: Tanqueray gin. Official FUZE menu: Gin, Campari, Cinzano Rosso."
           },
           {
             "id": "negroni-ing-3",
@@ -7018,7 +7109,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh lime juice",
               "Soda water"
             ],
-            "explanation": "In Negroni, this component is present: Cinzano rosso. Full recipe ingredients: Campari, Tanqueray gin, Cinzano rosso."
+            "explanation": "In Negroni, this component is present: Cinzano rosso. Official FUZE menu: Gin, Campari, Cinzano Rosso."
           }
         ]
       },
@@ -7028,7 +7119,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "",
         "price": "185 CZK",
         "allergens": [],
-        "description": "Tres Alegres tequila, Cointreau, lime juice, salt",
+        "description": "Tequila, Cointreau, lime juice",
         "notes": "Tres Alegres tequila, Cointreau, lime juice, salt",
         "questions": [
           {
@@ -7039,7 +7130,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In Margarita, this component is present: Tres Alegres tequila. Full recipe ingredients: Tres Alegres tequila, Cointreau, lime juice, salt."
+            "explanation": "In Margarita, this component is present: Tres Alegres tequila. Official FUZE menu: Tequila, Cointreau, lime juice."
           },
           {
             "id": "margarita-ing-2",
@@ -7049,7 +7140,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Campari"
             ],
-            "explanation": "In Margarita, this component is present: Cointreau. Full recipe ingredients: Tres Alegres tequila, Cointreau, lime juice, salt."
+            "explanation": "In Margarita, this component is present: Cointreau. Official FUZE menu: Tequila, Cointreau, lime juice."
           },
           {
             "id": "margarita-ing-3",
@@ -7059,7 +7150,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Cinzano rosso",
               "Soda water"
             ],
-            "explanation": "In Margarita, this component is present: Lime juice. Full recipe ingredients: Tres Alegres tequila, Cointreau, lime juice, salt."
+            "explanation": "In Margarita, this component is present: Lime juice. Official FUZE menu: Tequila, Cointreau, lime juice."
           },
           {
             "id": "margarita-ing-4",
@@ -7069,7 +7160,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Thomas Henry tonic",
               "Craft gin"
             ],
-            "explanation": "In Margarita, this component is present: Salt. Full recipe ingredients: Tres Alegres tequila, Cointreau, lime juice, salt."
+            "explanation": "In Margarita, this component is present: Salt. Official FUZE menu: Tequila, Cointreau, lime juice."
           }
         ]
       },
@@ -7079,7 +7170,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "",
         "price": "185 CZK",
         "allergens": [],
-        "description": "Rum, fresh lime, mint leaves, cane sugar, soda",
+        "description": "Rum, mint, lime, brown sugar",
         "notes": "White rum, fresh lime, mint leaves, cane sugar, soda",
         "questions": [
           {
@@ -7090,7 +7181,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Campari"
             ],
-            "explanation": "In Mojito, this component is present: Rum. Full recipe ingredients: Rum, fresh lime, mint leaves, cane sugar, soda."
+            "explanation": "In Mojito, this component is present: Rum. Official FUZE menu: Rum, mint, lime, brown sugar."
           },
           {
             "id": "mojito-ing-2",
@@ -7100,7 +7191,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Cointreau",
               "Cinzano rosso"
             ],
-            "explanation": "In Mojito, this component is present: Fresh lime. Full recipe ingredients: Rum, fresh lime, mint leaves, cane sugar, soda."
+            "explanation": "In Mojito, this component is present: Fresh lime. Official FUZE menu: Rum, mint, lime, brown sugar."
           },
           {
             "id": "mojito-ing-3",
@@ -7110,7 +7201,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Thomas Henry tonic",
               "Craft gin"
             ],
-            "explanation": "In Mojito, this component is present: Mint leaves. Full recipe ingredients: Rum, fresh lime, mint leaves, cane sugar, soda."
+            "explanation": "In Mojito, this component is present: Mint leaves. Official FUZE menu: Rum, mint, lime, brown sugar."
           },
           {
             "id": "mojito-ing-4",
@@ -7120,7 +7211,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Campari"
             ],
-            "explanation": "In Mojito, this component is present: Cane sugar. Full recipe ingredients: Rum, fresh lime, mint leaves, cane sugar, soda."
+            "explanation": "In Mojito, this component is present: Cane sugar. Official FUZE menu: Rum, mint, lime, brown sugar."
           },
           {
             "id": "mojito-ing-5",
@@ -7130,7 +7221,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Cointreau",
               "Cinzano rosso"
             ],
-            "explanation": "In Mojito, this component is present: Soda. Full recipe ingredients: Rum, fresh lime, mint leaves, cane sugar, soda."
+            "explanation": "In Mojito, this component is present: Soda. Official FUZE menu: Rum, mint, lime, brown sugar."
           }
         ]
       },
@@ -7140,7 +7231,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "",
         "price": "195 CZK",
         "allergens": [],
-        "description": "Rum, fresh strawberry purée, lime juice",
+        "description": "Rum, lime juice, strawberry purée, sugar",
         "notes": "Rum, fresh strawberry purée, lime juice",
         "questions": [
           {
@@ -7151,7 +7242,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Campari"
             ],
-            "explanation": "In Frozen Strawberry Daiquiri, this component is present: Rum. Full recipe ingredients: Rum, fresh strawberry purée, lime juice."
+            "explanation": "In Frozen Strawberry Daiquiri, this component is present: Rum. Official FUZE menu: Rum, lime juice, strawberry purée, sugar."
           },
           {
             "id": "frozen-strawberry-daiquiri-ing-2",
@@ -7161,7 +7252,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Cointreau",
               "Cinzano rosso"
             ],
-            "explanation": "In Frozen Strawberry Daiquiri, this component is present: Fresh strawberry purée. Full recipe ingredients: Rum, fresh strawberry purée, lime juice."
+            "explanation": "In Frozen Strawberry Daiquiri, this component is present: Fresh strawberry purée. Official FUZE menu: Rum, lime juice, strawberry purée, sugar."
           },
           {
             "id": "frozen-strawberry-daiquiri-ing-3",
@@ -7171,7 +7262,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Soda water",
               "Thomas Henry tonic"
             ],
-            "explanation": "In Frozen Strawberry Daiquiri, this component is present: Lime juice. Full recipe ingredients: Rum, fresh strawberry purée, lime juice."
+            "explanation": "In Frozen Strawberry Daiquiri, this component is present: Lime juice. Official FUZE menu: Rum, lime juice, strawberry purée, sugar."
           },
           {
             "id": "frozen-strawberry-daiquiri-ing-4",
@@ -7181,7 +7272,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Craft gin",
               "Blue agave tequila"
             ],
-            "explanation": "In Frozen Strawberry Daiquiri, this component is present: Lime juice. Full recipe ingredients: Rum, fresh strawberry purée, lime juice."
+            "explanation": "In Frozen Strawberry Daiquiri, this component is present: Lime juice. Official FUZE menu: Rum, lime juice, strawberry purée, sugar."
           }
         ]
       },
@@ -7202,7 +7293,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Campari"
             ],
-            "explanation": "In Cuba Libre, this component is present: Rum. Full recipe ingredients: Rum, lime juice, Coca-Cola."
+            "explanation": "In Cuba Libre, this component is present: Rum. Official FUZE menu: Rum, lime juice, Coca-Cola."
           },
           {
             "id": "cuba-libre-ing-2",
@@ -7212,7 +7303,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Cointreau",
               "Cinzano rosso"
             ],
-            "explanation": "In Cuba Libre, this component is present: Lime juice. Full recipe ingredients: Rum, lime juice, Coca-Cola."
+            "explanation": "In Cuba Libre, this component is present: Lime juice. Official FUZE menu: Rum, lime juice, Coca-Cola."
           },
           {
             "id": "cuba-libre-ing-3",
@@ -7222,7 +7313,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Soda water",
               "Thomas Henry tonic"
             ],
-            "explanation": "In Cuba Libre, this component is present: Coca-Cola. Full recipe ingredients: Rum, lime juice, Coca-Cola."
+            "explanation": "In Cuba Libre, this component is present: Coca-Cola. Official FUZE menu: Rum, lime juice, Coca-Cola."
           }
         ]
       },
@@ -7245,7 +7336,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In May-Tai, this component is present: White and dark rum. Full recipe ingredients: White and dark rum, Curaçao, almond syrup, lime juice."
+            "explanation": "In May-Tai, this component is present: White and dark rum. Official FUZE menu: White and dark rum, Curaçao, almond syrup, lime juice."
           },
           {
             "id": "mai-tai-ing-2",
@@ -7255,7 +7346,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Campari"
             ],
-            "explanation": "In May-Tai, this component is present: Curaçao. Full recipe ingredients: White and dark rum, Curaçao, almond syrup, lime juice."
+            "explanation": "In May-Tai, this component is present: Curaçao. Official FUZE menu: White and dark rum, Curaçao, almond syrup, lime juice."
           },
           {
             "id": "mai-tai-ing-3",
@@ -7265,7 +7356,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Cointreau",
               "Cinzano rosso"
             ],
-            "explanation": "In May-Tai, this component is present: Almond syrup. Full recipe ingredients: White and dark rum, Curaçao, almond syrup, lime juice."
+            "explanation": "In May-Tai, this component is present: Almond syrup. Official FUZE menu: White and dark rum, Curaçao, almond syrup, lime juice."
           },
           {
             "id": "mai-tai-ing-4",
@@ -7275,7 +7366,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Soda water",
               "Thomas Henry tonic"
             ],
-            "explanation": "In May-Tai, this component is present: Lime juice. Full recipe ingredients: White and dark rum, Curaçao, almond syrup, lime juice."
+            "explanation": "In May-Tai, this component is present: Lime juice. Official FUZE menu: White and dark rum, Curaçao, almond syrup, lime juice."
           }
         ]
       },
@@ -7296,7 +7387,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In Porn star Martini, this component is present: Vanilla vodka. Full recipe ingredients: Vanilla vodka, passionfruit liqueur, lime juice, charmat."
+            "explanation": "In Porn star Martini, this component is present: Vanilla vodka. Official FUZE menu: Vanilla vodka, passionfruit liqueur, lime juice, charmat."
           },
           {
             "id": "porn-star-martini-ing-2",
@@ -7306,7 +7397,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Campari"
             ],
-            "explanation": "In Porn star Martini, this component is present: Passionfruit liqueur. Full recipe ingredients: Vanilla vodka, passionfruit liqueur, lime juice, charmat."
+            "explanation": "In Porn star Martini, this component is present: Passionfruit liqueur. Official FUZE menu: Vanilla vodka, passionfruit liqueur, lime juice, charmat."
           },
           {
             "id": "porn-star-martini-ing-3",
@@ -7316,7 +7407,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Cointreau",
               "Cinzano rosso"
             ],
-            "explanation": "In Porn star Martini, this component is present: Lime juice. Full recipe ingredients: Vanilla vodka, passionfruit liqueur, lime juice, charmat."
+            "explanation": "In Porn star Martini, this component is present: Lime juice. Official FUZE menu: Vanilla vodka, passionfruit liqueur, lime juice, charmat."
           },
           {
             "id": "porn-star-martini-ing-4",
@@ -7326,7 +7417,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Soda water",
               "Thomas Henry tonic"
             ],
-            "explanation": "In Porn star Martini, this component is present: Charmat. Full recipe ingredients: Vanilla vodka, passionfruit liqueur, lime juice, charmat."
+            "explanation": "In Porn star Martini, this component is present: Charmat. Official FUZE menu: Vanilla vodka, passionfruit liqueur, lime juice, charmat."
           },
           {
             "id": "porn-star-martini-ing-5",
@@ -7336,7 +7427,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Craft gin",
               "White rum"
             ],
-            "explanation": "In Porn star Martini, this component is present: Charmat. Full recipe ingredients: Vanilla vodka, passionfruit liqueur, lime juice, charmat."
+            "explanation": "In Porn star Martini, this component is present: Charmat. Official FUZE menu: Vanilla vodka, passionfruit liqueur, lime juice, charmat."
           }
         ]
       },
@@ -7357,7 +7448,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In Skinny bitch, this component is present: Vodka. Full recipe ingredients: Vodka, lime juice, soda."
+            "explanation": "In Skinny bitch, this component is present: Vodka. Official FUZE menu: Vodka, lime juice, soda."
           },
           {
             "id": "skinny-bitch-ing-2",
@@ -7367,7 +7458,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Campari"
             ],
-            "explanation": "In Skinny bitch, this component is present: Lime juice. Full recipe ingredients: Vodka, lime juice, soda."
+            "explanation": "In Skinny bitch, this component is present: Lime juice. Official FUZE menu: Vodka, lime juice, soda."
           },
           {
             "id": "skinny-bitch-ing-3",
@@ -7377,7 +7468,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Cointreau",
               "Cinzano rosso"
             ],
-            "explanation": "In Skinny bitch, this component is present: Soda. Full recipe ingredients: Vodka, lime juice, soda."
+            "explanation": "In Skinny bitch, this component is present: Soda. Official FUZE menu: Vodka, lime juice, soda."
           }
         ]
       },
@@ -7398,7 +7489,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In Cosmopolitan, this component is present: Vodka. Full recipe ingredients: Vodka, Cointreau, cranberry juice, lime juice."
+            "explanation": "In Cosmopolitan, this component is present: Vodka. Official FUZE menu: Vodka, Cointreau, cranberry juice, lime juice."
           },
           {
             "id": "cosmopolitan-ing-2",
@@ -7408,7 +7499,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Campari"
             ],
-            "explanation": "In Cosmopolitan, this component is present: Cointreau. Full recipe ingredients: Vodka, Cointreau, cranberry juice, lime juice."
+            "explanation": "In Cosmopolitan, this component is present: Cointreau. Official FUZE menu: Vodka, Cointreau, cranberry juice, lime juice."
           },
           {
             "id": "cosmopolitan-ing-3",
@@ -7418,7 +7509,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Cinzano rosso",
               "Soda water"
             ],
-            "explanation": "In Cosmopolitan, this component is present: Cranberry juice. Full recipe ingredients: Vodka, Cointreau, cranberry juice, lime juice."
+            "explanation": "In Cosmopolitan, this component is present: Cranberry juice. Official FUZE menu: Vodka, Cointreau, cranberry juice, lime juice."
           },
           {
             "id": "cosmopolitan-ing-4",
@@ -7428,7 +7519,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Thomas Henry tonic",
               "Craft gin"
             ],
-            "explanation": "In Cosmopolitan, this component is present: Lime juice. Full recipe ingredients: Vodka, Cointreau, cranberry juice, lime juice."
+            "explanation": "In Cosmopolitan, this component is present: Lime juice. Official FUZE menu: Vodka, Cointreau, cranberry juice, lime juice."
           }
         ]
       },
@@ -7449,7 +7540,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In Moscow mule, this component is present: Vodka. Full recipe ingredients: Vodka, ginger beer, lime."
+            "explanation": "In Moscow mule, this component is present: Vodka. Official FUZE menu: Vodka, ginger beer, lime."
           },
           {
             "id": "moscow-mule-ing-2",
@@ -7459,7 +7550,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Campari"
             ],
-            "explanation": "In Moscow mule, this component is present: Ginger beer. Full recipe ingredients: Vodka, ginger beer, lime."
+            "explanation": "In Moscow mule, this component is present: Ginger beer. Official FUZE menu: Vodka, ginger beer, lime."
           },
           {
             "id": "moscow-mule-ing-3",
@@ -7469,7 +7560,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Cointreau",
               "Cinzano rosso"
             ],
-            "explanation": "In Moscow mule, this component is present: Lime. Full recipe ingredients: Vodka, ginger beer, lime."
+            "explanation": "In Moscow mule, this component is present: Lime. Official FUZE menu: Vodka, ginger beer, lime."
           }
         ]
       },
@@ -7490,7 +7581,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In French Martini, this component is present: Vodka. Full recipe ingredients: Vodka, raspberry liqueur, pineapple juice."
+            "explanation": "In French Martini, this component is present: Vodka. Official FUZE menu: Vodka, raspberry liqueur, pineapple juice."
           },
           {
             "id": "french-martini-ing-2",
@@ -7500,7 +7591,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Campari"
             ],
-            "explanation": "In French Martini, this component is present: Raspberry liqueur. Full recipe ingredients: Vodka, raspberry liqueur, pineapple juice."
+            "explanation": "In French Martini, this component is present: Raspberry liqueur. Official FUZE menu: Vodka, raspberry liqueur, pineapple juice."
           },
           {
             "id": "french-martini-ing-3",
@@ -7510,7 +7601,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Cointreau",
               "Cinzano rosso"
             ],
-            "explanation": "In French Martini, this component is present: Pineapple juice. Full recipe ingredients: Vodka, raspberry liqueur, pineapple juice."
+            "explanation": "In French Martini, this component is present: Pineapple juice. Official FUZE menu: Vodka, raspberry liqueur, pineapple juice."
           }
         ]
       },
@@ -7531,7 +7622,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In Espresso Martini, this component is present: Vodka. Full recipe ingredients: Vodka, coffee liqueur, espresso."
+            "explanation": "In Espresso Martini, this component is present: Vodka. Official FUZE menu: Vodka, coffee liqueur, espresso."
           },
           {
             "id": "espresso-martini-ing-2",
@@ -7541,7 +7632,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Campari"
             ],
-            "explanation": "In Espresso Martini, this component is present: Coffee liqueur. Full recipe ingredients: Vodka, coffee liqueur, espresso."
+            "explanation": "In Espresso Martini, this component is present: Coffee liqueur. Official FUZE menu: Vodka, coffee liqueur, espresso."
           },
           {
             "id": "espresso-martini-ing-3",
@@ -7551,7 +7642,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Cointreau",
               "Cinzano rosso"
             ],
-            "explanation": "In Espresso Martini, this component is present: Espresso. Full recipe ingredients: Vodka, coffee liqueur, espresso."
+            "explanation": "In Espresso Martini, this component is present: Espresso. Official FUZE menu: Vodka, coffee liqueur, espresso."
           },
           {
             "id": "espresso-martini-ing-4",
@@ -7561,7 +7652,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh lime juice",
               "Soda water"
             ],
-            "explanation": "In Espresso Martini, this component is present: Espresso. Full recipe ingredients: Vodka, coffee liqueur, espresso."
+            "explanation": "In Espresso Martini, this component is present: Espresso. Official FUZE menu: Vodka, coffee liqueur, espresso."
           }
         ]
       },
@@ -7571,7 +7662,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "",
         "price": "195 CZK",
         "allergens": [],
-        "description": "tequila, lime juice, agave syrup, grapefruit J.Gasco Soda Rosa, salt",
+        "description": "tequila, limited juice, agave syrup, grapefruit J.Gasco Soda Rosa, salt",
         "notes": "tequila, lime juice, agave syrup, grapefruit J.Gasco Soda Rosa, salt",
         "questions": [
           {
@@ -7582,7 +7673,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In Paloma, this component is present: Tequila. Full recipe ingredients: tequila, lime juice, agave syrup, grapefruit J.Gasco Soda Rosa, salt."
+            "explanation": "In Paloma, this component is present: Tequila. Official FUZE menu: tequila, limited juice, agave syrup, grapefruit J.Gasco Soda Rosa, salt."
           },
           {
             "id": "paloma-ing-2",
@@ -7592,7 +7683,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Campari",
               "Cointreau"
             ],
-            "explanation": "In Paloma, this component is present: Lime juice. Full recipe ingredients: tequila, lime juice, agave syrup, grapefruit J.Gasco Soda Rosa, salt."
+            "explanation": "In Paloma, this component is present: Lime juice. Official FUZE menu: tequila, limited juice, agave syrup, grapefruit J.Gasco Soda Rosa, salt."
           },
           {
             "id": "paloma-ing-3",
@@ -7602,7 +7693,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Cinzano rosso",
               "Soda water"
             ],
-            "explanation": "In Paloma, this component is present: Agave syrup. Full recipe ingredients: tequila, lime juice, agave syrup, grapefruit J.Gasco Soda Rosa, salt."
+            "explanation": "In Paloma, this component is present: Agave syrup. Official FUZE menu: tequila, limited juice, agave syrup, grapefruit J.Gasco Soda Rosa, salt."
           },
           {
             "id": "paloma-ing-4",
@@ -7612,7 +7703,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Thomas Henry tonic",
               "Craft gin"
             ],
-            "explanation": "In Paloma, this component is present: Grapefruit J.Gasco Soda Rosa. Full recipe ingredients: tequila, lime juice, agave syrup, grapefruit J.Gasco Soda Rosa, salt."
+            "explanation": "In Paloma, this component is present: Grapefruit J.Gasco Soda Rosa. Official FUZE menu: tequila, limited juice, agave syrup, grapefruit J.Gasco Soda Rosa, salt."
           },
           {
             "id": "paloma-ing-5",
@@ -7622,7 +7713,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In Paloma, this component is present: Salt. Full recipe ingredients: tequila, lime juice, agave syrup, grapefruit J.Gasco Soda Rosa, salt."
+            "explanation": "In Paloma, this component is present: Salt. Official FUZE menu: tequila, limited juice, agave syrup, grapefruit J.Gasco Soda Rosa, salt."
           }
         ]
       }
@@ -7652,7 +7743,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In Truffle Negroni, this component is present: Truffle gin. Full recipe ingredients: truffle gin, Campari, Cinzano rosso."
+            "explanation": "In Truffle Negroni, this component is present: Truffle gin. Official FUZE menu: truffle gin, Campari, Cinzano rosso."
           },
           {
             "id": "truffle-negroni-ing-2",
@@ -7662,7 +7753,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Cointreau"
             ],
-            "explanation": "In Truffle Negroni, this component is present: Campari. Full recipe ingredients: truffle gin, Campari, Cinzano rosso."
+            "explanation": "In Truffle Negroni, this component is present: Campari. Official FUZE menu: truffle gin, Campari, Cinzano rosso."
           },
           {
             "id": "truffle-negroni-ing-3",
@@ -7672,7 +7763,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh lime juice",
               "Soda water"
             ],
-            "explanation": "In Truffle Negroni, this component is present: Cinzano rosso. Full recipe ingredients: truffle gin, Campari, Cinzano rosso."
+            "explanation": "In Truffle Negroni, this component is present: Cinzano rosso. Official FUZE menu: truffle gin, Campari, Cinzano rosso."
           }
         ]
       },
@@ -7693,7 +7784,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aged dark rum",
               "Blue agave tequila"
             ],
-            "explanation": "In Fizzy Fuze, this component is present: Gin. Full recipe ingredients: Gin, lime juice, soda, elderberry syrup."
+            "explanation": "In Fizzy Fuze, this component is present: Gin. Official FUZE menu: Gin, lime juice, soda, elderberry syrup."
           },
           {
             "id": "fizzy-fuze-ing-2",
@@ -7703,7 +7794,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Campari",
               "Cointreau"
             ],
-            "explanation": "In Fizzy Fuze, this component is present: Lime juice. Full recipe ingredients: Gin, lime juice, soda, elderberry syrup."
+            "explanation": "In Fizzy Fuze, this component is present: Lime juice. Official FUZE menu: Gin, lime juice, soda, elderberry syrup."
           },
           {
             "id": "fizzy-fuze-ing-3",
@@ -7713,7 +7804,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Cinzano rosso",
               "Thomas Henry tonic"
             ],
-            "explanation": "In Fizzy Fuze, this component is present: Soda. Full recipe ingredients: Gin, lime juice, soda, elderberry syrup."
+            "explanation": "In Fizzy Fuze, this component is present: Soda. Official FUZE menu: Gin, lime juice, soda, elderberry syrup."
           },
           {
             "id": "fizzy-fuze-ing-4",
@@ -7723,7 +7814,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In Fizzy Fuze, this component is present: Elderberry syrup. Full recipe ingredients: Gin, lime juice, soda, elderberry syrup."
+            "explanation": "In Fizzy Fuze, this component is present: Elderberry syrup. Official FUZE menu: Gin, lime juice, soda, elderberry syrup."
           },
           {
             "id": "fizzy-fuze-ing-5",
@@ -7733,7 +7824,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Campari"
             ],
-            "explanation": "In Fizzy Fuze, this component is present: Elderberry syrup. Full recipe ingredients: Gin, lime juice, soda, elderberry syrup."
+            "explanation": "In Fizzy Fuze, this component is present: Elderberry syrup. Official FUZE menu: Gin, lime juice, soda, elderberry syrup."
           },
           {
             "id": "fizzy-fuze-ing-6",
@@ -7743,7 +7834,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Cointreau",
               "Cinzano rosso"
             ],
-            "explanation": "In Fizzy Fuze, this component is present: Elderberry syrup. Full recipe ingredients: Gin, lime juice, soda, elderberry syrup."
+            "explanation": "In Fizzy Fuze, this component is present: Elderberry syrup. Official FUZE menu: Gin, lime juice, soda, elderberry syrup."
           }
         ]
       },
@@ -7764,7 +7855,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In Florence Fashion, this component is present: Whiskey. Full recipe ingredients: Whiskey, peach syrup, chocolate bitters."
+            "explanation": "In Florence Fashion, this component is present: Whiskey. Official FUZE menu: Whiskey, peach syrup, chocolate bitters."
           },
           {
             "id": "florencia-fashion-ing-2",
@@ -7774,7 +7865,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Campari"
             ],
-            "explanation": "In Florence Fashion, this component is present: Peach syrup. Full recipe ingredients: Whiskey, peach syrup, chocolate bitters."
+            "explanation": "In Florence Fashion, this component is present: Peach syrup. Official FUZE menu: Whiskey, peach syrup, chocolate bitters."
           },
           {
             "id": "florencia-fashion-ing-3",
@@ -7784,7 +7875,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Cointreau",
               "Cinzano rosso"
             ],
-            "explanation": "In Florence Fashion, this component is present: Chocolate bitters. Full recipe ingredients: Whiskey, peach syrup, chocolate bitters."
+            "explanation": "In Florence Fashion, this component is present: Chocolate bitters. Official FUZE menu: Whiskey, peach syrup, chocolate bitters."
           }
         ]
       },
@@ -7805,7 +7896,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aged dark rum",
               "Blue agave tequila"
             ],
-            "explanation": "In A.M. Spritz, this component is present: Crémant. Full recipe ingredients: Crémant, gin, elderflower syrup, lime."
+            "explanation": "In A.M. Spritz, this component is present: Crémant. Official FUZE menu: Crémant, gin, elderflower syrup, lime."
           },
           {
             "id": "am-spritz-ing-2",
@@ -7815,7 +7906,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Campari",
               "Cointreau"
             ],
-            "explanation": "In A.M. Spritz, this component is present: Gin. Full recipe ingredients: Crémant, gin, elderflower syrup, lime."
+            "explanation": "In A.M. Spritz, this component is present: Gin. Official FUZE menu: Crémant, gin, elderflower syrup, lime."
           },
           {
             "id": "am-spritz-ing-3",
@@ -7825,7 +7916,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Cinzano rosso",
               "Soda water"
             ],
-            "explanation": "In A.M. Spritz, this component is present: Elderflower syrup. Full recipe ingredients: Crémant, gin, elderflower syrup, lime."
+            "explanation": "In A.M. Spritz, this component is present: Elderflower syrup. Official FUZE menu: Crémant, gin, elderflower syrup, lime."
           },
           {
             "id": "am-spritz-ing-4",
@@ -7835,7 +7926,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Thomas Henry tonic",
               "White rum"
             ],
-            "explanation": "In A.M. Spritz, this component is present: Lime. Full recipe ingredients: Crémant, gin, elderflower syrup, lime."
+            "explanation": "In A.M. Spritz, this component is present: Lime. Official FUZE menu: Crémant, gin, elderflower syrup, lime."
           }
         ]
       },
@@ -7856,7 +7947,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Campari"
             ],
-            "explanation": "In Passionate, this component is present: Rum. Full recipe ingredients: Rum, passion fruit, melon syrup, cranberry juice."
+            "explanation": "In Passionate, this component is present: Rum. Official FUZE menu: Rum, passion fruit, melon syrup, cranberry juice."
           },
           {
             "id": "passionata-ing-2",
@@ -7866,7 +7957,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Cointreau",
               "Cinzano rosso"
             ],
-            "explanation": "In Passionate, this component is present: Passion fruit. Full recipe ingredients: Rum, passion fruit, melon syrup, cranberry juice."
+            "explanation": "In Passionate, this component is present: Passion fruit. Official FUZE menu: Rum, passion fruit, melon syrup, cranberry juice."
           },
           {
             "id": "passionata-ing-3",
@@ -7876,7 +7967,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fresh lime juice",
               "Soda water"
             ],
-            "explanation": "In Passionate, this component is present: Melon syrup. Full recipe ingredients: Rum, passion fruit, melon syrup, cranberry juice."
+            "explanation": "In Passionate, this component is present: Melon syrup. Official FUZE menu: Rum, passion fruit, melon syrup, cranberry juice."
           },
           {
             "id": "passionata-ing-4",
@@ -7886,7 +7977,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Thomas Henry tonic",
               "Craft gin"
             ],
-            "explanation": "In Passionate, this component is present: Cranberry juice. Full recipe ingredients: Rum, passion fruit, melon syrup, cranberry juice."
+            "explanation": "In Passionate, this component is present: Cranberry juice. Official FUZE menu: Rum, passion fruit, melon syrup, cranberry juice."
           }
         ]
       }
@@ -7905,7 +7996,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "",
         "price": "188 CZK",
         "allergens": [],
-        "description": "Classic with lime, dry London Dry profile and German quinine tonic",
+        "description": "Classic",
         "notes": "Classic",
         "questions": [
           {
@@ -7916,7 +8007,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In Tanqueray & Thomas Henry Tonic, this component is present: Classic with lime. Full recipe ingredients: Classic with lime, dry London Dry profile and German quinine tonic."
+            "explanation": "In Tanqueray & Thomas Henry Tonic, this component is present: Classic with lime. Official FUZE menu: Classic."
           },
           {
             "id": "gt-tanqueray-ing-2",
@@ -7926,7 +8017,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Campari"
             ],
-            "explanation": "In Tanqueray & Thomas Henry Tonic, this component is present: Dry London Dry profile and German quinine tonic. Full recipe ingredients: Classic with lime, dry London Dry profile and German quinine tonic."
+            "explanation": "In Tanqueray & Thomas Henry Tonic, this component is present: Dry London Dry profile and German quinine tonic. Official FUZE menu: Classic."
           }
         ]
       },
@@ -7936,7 +8027,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "",
         "price": "219 CZK",
         "allergens": [],
-        "description": "Playful with lime, craft Prague gin from Holešovice and lime tonic",
+        "description": "playful with lime",
         "notes": "playful with lime",
         "questions": [
           {
@@ -7947,7 +8038,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In Fiesta Garage 22 & Guilti tonic lime, this component is present: Playful with lime. Full recipe ingredients: Playful with lime, craft Prague gin from Holešovice and lime tonic."
+            "explanation": "In Fiesta Garage 22 & Guilti tonic lime, this component is present: Playful with lime. Official FUZE menu: playful with lime."
           },
           {
             "id": "gt-fiesta-garage22-ing-2",
@@ -7957,7 +8048,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Campari"
             ],
-            "explanation": "In Fiesta Garage 22 & Guilti tonic lime, this component is present: Craft Prague gin from Holešovice and lime tonic. Full recipe ingredients: Playful with lime, craft Prague gin from Holešovice and lime tonic."
+            "explanation": "In Fiesta Garage 22 & Guilti tonic lime, this component is present: Craft Prague gin from Holešovice and lime tonic. Official FUZE menu: playful with lime."
           }
         ]
       },
@@ -7967,7 +8058,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "",
         "price": "208 CZK",
         "allergens": [],
-        "description": "Fresh with cucumber, Scottish gin infused with cucumber and Bulgarian rose",
+        "description": "With cucumber",
         "notes": "With cucumber",
         "questions": [
           {
@@ -7978,7 +8069,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In Hendrick`s & Thomas Henry Tonic, this component is present: Fresh with cucumber. Full recipe ingredients: Fresh with cucumber, Scottish gin infused with cucumber and Bulgarian rose."
+            "explanation": "In Hendrick`s & Thomas Henry Tonic, this component is present: Fresh with cucumber. Official FUZE menu: With cucumber."
           },
           {
             "id": "gt-hendricks-ing-2",
@@ -7988,7 +8079,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Campari"
             ],
-            "explanation": "In Hendrick`s & Thomas Henry Tonic, this component is present: Scottish gin infused with cucumber and Bulgarian rose. Full recipe ingredients: Fresh with cucumber, Scottish gin infused with cucumber and Bulgarian rose."
+            "explanation": "In Hendrick`s & Thomas Henry Tonic, this component is present: Scottish gin infused with cucumber and Bulgarian rose. Official FUZE menu: With cucumber."
           }
         ]
       },
@@ -7998,7 +8089,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "",
         "price": "239 CZK",
         "allergens": [],
-        "description": "Illusionist with blueberries, color-changing gin infused with butterfly pea flower",
+        "description": "illusionistic with blueberries",
         "notes": "illusionistic with blueberries",
         "questions": [
           {
@@ -8009,7 +8100,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In Endorphin Magic imaGINe & Fever-Tree Tonic, this component is present: Illusionist with blueberries. Full recipe ingredients: Illusionist with blueberries, color-changing gin infused with butterfly pea flower."
+            "explanation": "In Endorphin Magic imaGINe & Fever-Tree Tonic, this component is present: Illusionist with blueberries. Official FUZE menu: illusionistic with blueberries."
           },
           {
             "id": "gt-endorphin-imagine-ing-2",
@@ -8019,7 +8110,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Campari"
             ],
-            "explanation": "In Endorphin Magic imaGINe & Fever-Tree Tonic, this component is present: Color-changing gin infused with butterfly pea flower. Full recipe ingredients: Illusionist with blueberries, color-changing gin infused with butterfly pea flower."
+            "explanation": "In Endorphin Magic imaGINe & Fever-Tree Tonic, this component is present: Color-changing gin infused with butterfly pea flower. Official FUZE menu: illusionistic with blueberries."
           }
         ]
       },
@@ -8029,7 +8120,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "",
         "price": "228 CZK",
         "allergens": [],
-        "description": "Captivating with dried grapefruit, subtle fruity pink gin with grapefruit tonic",
+        "description": "Pink grapefruit",
         "notes": "Pink grapefruit",
         "questions": [
           {
@@ -8040,7 +8131,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "White rum",
               "Aged dark rum"
             ],
-            "explanation": "In Flame of Passion Pink Gin & Thomas Henry Pink Grapefruit Tonic, this component is present: Captivating with dried grapefruit. Full recipe ingredients: Captivating with dried grapefruit, subtle fruity pink gin with grapefruit tonic."
+            "explanation": "In Flame of Passion Pink Gin & Thomas Henry Pink Grapefruit Tonic, this component is present: Captivating with dried grapefruit. Official FUZE menu: Pink grapefruit."
           },
           {
             "id": "gt-flame-of-passion-ing-2",
@@ -8050,7 +8141,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Blue agave tequila",
               "Campari"
             ],
-            "explanation": "In Flame of Passion Pink Gin & Thomas Henry Pink Grapefruit Tonic, this component is present: Subtle fruity pink gin with grapefruit tonic. Full recipe ingredients: Captivating with dried grapefruit, subtle fruity pink gin with grapefruit tonic."
+            "explanation": "In Flame of Passion Pink Gin & Thomas Henry Pink Grapefruit Tonic, this component is present: Subtle fruity pink gin with grapefruit tonic. Official FUZE menu: Pink grapefruit."
           }
         ]
       },
@@ -8060,7 +8151,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "",
         "price": "228 CZK",
         "allergens": [],
-        "description": "Rich in herbs and pepper, craft gin and Mediterranean tonic",
+        "description": "Mediterranean herbs",
         "notes": "Mediterranean herbs",
         "questions": [
           {
@@ -8071,7 +8162,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aged dark rum",
               "Blue agave tequila"
             ],
-            "explanation": "In Endorphin Copper Moon & Fever-Tree Mediterranean Tonic, this component is present: Rich in herbs and pepper. Full recipe ingredients: Rich in herbs and pepper, craft gin and Mediterranean tonic."
+            "explanation": "In Endorphin Copper Moon & Fever-Tree Mediterranean Tonic, this component is present: Rich in herbs and pepper. Official FUZE menu: Mediterranean herbs."
           },
           {
             "id": "gt-endorphin-copper-moon-ing-2",
@@ -8081,7 +8172,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Campari",
               "Cointreau"
             ],
-            "explanation": "In Endorphin Copper Moon & Fever-Tree Mediterranean Tonic, this component is present: Craft gin and Mediterranean tonic. Full recipe ingredients: Rich in herbs and pepper, craft gin and Mediterranean tonic."
+            "explanation": "In Endorphin Copper Moon & Fever-Tree Mediterranean Tonic, this component is present: Craft gin and Mediterranean tonic. Official FUZE menu: Mediterranean herbs."
           }
         ]
       }
@@ -8100,7 +8191,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.03l",
         "price": "105 CZK",
         "allergens": [],
-        "description": "0.03l gentle plum brandy from the award-winning South Bohemian distillery Radlík near Jílové u Prahy",
+        "description": "Radlík (Plum brandy)",
         "notes": "Radlík (Plum brandy)",
         "questions": [
           {
@@ -8121,7 +8212,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Slivovitz, this component is present: Gentle plum brandy from the award-winning South Bohemian distillery Radlík near Jílové u Prahy. Full recipe ingredients: 0.03l gentle plum brandy from the award-winning South Bohemian distillery Radlík near Jílové u Prahy."
+            "explanation": "In Slivovitz, this component is present: Gentle plum brandy from the award-winning South Bohemian distillery Radlík near Jílové u Prahy. Official FUZE menu: Radlík (Plum brandy)."
           }
         ]
       },
@@ -8131,7 +8222,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.03l",
         "price": "140 CZK",
         "allergens": [],
-        "description": "0.03l plum spirit aged in oak wood casks, golden in color with vanilla notes",
+        "description": "Radlík (Barrel-aged plum brandy)",
         "notes": "Radlík (Barrel-aged plum brandy)",
         "questions": [
           {
@@ -8152,7 +8243,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Slivovice ze sudu, this component is present: Plum spirit aged in oak wood casks. Full recipe ingredients: 0.03l plum spirit aged in oak wood casks, golden in color with vanilla notes."
+            "explanation": "In Slivovice ze sudu, this component is present: Plum spirit aged in oak wood casks. Official FUZE menu: Radlík (Barrel-aged plum brandy)."
           },
           {
             "id": "slivovice-ze-sudu-radlik-ing-2",
@@ -8162,7 +8253,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Golden apricots",
               "Oak barrel aging"
             ],
-            "explanation": "In Slivovice ze sudu, this component is present: Golden in color with vanilla notes. Full recipe ingredients: 0.03l plum spirit aged in oak wood casks, golden in color with vanilla notes."
+            "explanation": "In Slivovice ze sudu, this component is present: Golden in color with vanilla notes. Official FUZE menu: Radlík (Barrel-aged plum brandy)."
           }
         ]
       },
@@ -8172,7 +8263,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.03l",
         "price": "110 CZK",
         "allergens": [],
-        "description": "0.03l intensely aromatic spirit from ripe Williams pears from Skanzen Modrá distillery",
+        "description": "Skanzen (Williams pear brandy)",
         "notes": "Skanzen (Williams pear brandy)",
         "questions": [
           {
@@ -8193,7 +8284,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Golden apricots"
             ],
-            "explanation": "In Hruškovice Williams, this component is present: Intensely aromatic spirit from ripe Williams pears from Skanzen Modrá distillery. Full recipe ingredients: 0.03l intensely aromatic spirit from ripe Williams pears from Skanzen Modrá distillery."
+            "explanation": "In Hruškovice Williams, this component is present: Intensely aromatic spirit from ripe Williams pears from Skanzen Modrá distillery. Official FUZE menu: Skanzen (Williams pear brandy)."
           }
         ]
       },
@@ -8203,7 +8294,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.03l",
         "price": "140 CZK",
         "allergens": [],
-        "description": "0.03l pear spirit aged in oak casks, harmonious blend of orchard fruit and delicate wood",
+        "description": "Radlík (Barrel-aged pear brandy)",
         "notes": "Radlík (Barrel-aged pear brandy)",
         "questions": [
           {
@@ -8224,7 +8315,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Hruškovice ze sudu, this component is present: Pear spirit aged in oak casks. Full recipe ingredients: 0.03l pear spirit aged in oak casks, harmonious blend of orchard fruit and delicate wood."
+            "explanation": "In Hruškovice ze sudu, this component is present: Pear spirit aged in oak casks. Official FUZE menu: Radlík (Barrel-aged pear brandy)."
           },
           {
             "id": "hruskovice-ze-sudu-radlik-ing-2",
@@ -8234,7 +8325,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Golden apricots",
               "Oak barrel aging"
             ],
-            "explanation": "In Hruškovice ze sudu, this component is present: Harmonious blend of orchard fruit and delicate wood. Full recipe ingredients: 0.03l pear spirit aged in oak casks, harmonious blend of orchard fruit and delicate wood."
+            "explanation": "In Hruškovice ze sudu, this component is present: Harmonious blend of orchard fruit and delicate wood. Official FUZE menu: Radlík (Barrel-aged pear brandy)."
           }
         ]
       },
@@ -8244,7 +8335,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.03l",
         "price": "120 CZK",
         "allergens": [],
-        "description": "0.03l delicious apricot brandy from family distillery Svachovka near Český Krumlov",
+        "description": "Svach (Apricot brandy)",
         "notes": "Svach (Apricot brandy)",
         "questions": [
           {
@@ -8265,7 +8356,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Meruňkovice, this component is present: Delicious apricot brandy from family distillery Svachovka near Český Krumlov. Full recipe ingredients: 0.03l delicious apricot brandy from family distillery Svachovka near Český Krumlov."
+            "explanation": "In Meruňkovice, this component is present: Delicious apricot brandy from family distillery Svachovka near Český Krumlov. Official FUZE menu: Svach (Apricot brandy)."
           }
         ]
       },
@@ -8275,7 +8366,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.03l",
         "price": "98 CZK",
         "allergens": [],
-        "description": "0.03l authentic sour cherry spirit from Wallachian Zubří with delicate almond undertones from cherry pits",
+        "description": "Zubří (Cherry brandy)",
         "notes": "Zubří (Cherry brandy)",
         "questions": [
           {
@@ -8296,7 +8387,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Višňovice, this component is present: Authentic sour cherry spirit from Wallachian Zubří with delicate almond undertones from cherry pits. Full recipe ingredients: 0.03l authentic sour cherry spirit from Wallachian Zubří with delicate almond undertones from cherry pits."
+            "explanation": "In Višňovice, this component is present: Authentic sour cherry spirit from Wallachian Zubří with delicate almond undertones from cherry pits. Official FUZE menu: Zubří (Cherry brandy)."
           }
         ]
       },
@@ -8306,7 +8397,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.03l",
         "price": "98 CZK",
         "allergens": [],
-        "description": "0.03l crisp and fresh apple brandy from selected Czech apples from Galli distillery",
+        "description": "Galí (Apple brandy)",
         "notes": "Galí (Apple brandy)",
         "questions": [
           {
@@ -8327,7 +8418,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Jablkovice, this component is present: Crisp and fresh apple brandy from selected Czech apples from Galli distillery. Full recipe ingredients: 0.03l crisp and fresh apple brandy from selected Czech apples from Galli distillery."
+            "explanation": "In Jablkovice, this component is present: Crisp and fresh apple brandy from selected Czech apples from Galli distillery. Official FUZE menu: Galí (Apple brandy)."
           }
         ]
       },
@@ -8337,7 +8428,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.03l",
         "price": "160 CZK",
         "allergens": [],
-        "description": "0.03l rare and highly prized eau-de-vie from black and red currants from Raspenava",
+        "description": "Raspenava (Currant brandy)",
         "notes": "Raspenava (Currant brandy)",
         "questions": [
           {
@@ -8358,7 +8449,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Rybízovice, this component is present: Rare and highly prized eau-de-vie from black and red currants from Raspenava. Full recipe ingredients: 0.03l rare and highly prized eau-de-vie from black and red currants from Raspenava."
+            "explanation": "In Rybízovice, this component is present: Rare and highly prized eau-de-vie from black and red currants from Raspenava. Official FUZE menu: Raspenava (Currant brandy)."
           }
         ]
       },
@@ -8368,7 +8459,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.03l",
         "price": "149 CZK",
         "allergens": [],
-        "description": "0.03l grape spirit matured in oak barrels from Radlík distillery",
+        "description": "Radlík (Barrel-aged grape brandy)",
         "notes": "Radlík (Barrel-aged grape brandy)",
         "questions": [
           {
@@ -8389,7 +8480,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Vínovice ze sudu, this component is present: Grape spirit matured in oak barrels from Radlík distillery. Full recipe ingredients: 0.03l grape spirit matured in oak barrels from Radlík distillery."
+            "explanation": "In Vínovice ze sudu, this component is present: Grape spirit matured in oak barrels from Radlík distillery. Official FUZE menu: Radlík (Barrel-aged grape brandy)."
           }
         ]
       },
@@ -8399,7 +8490,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.03l",
         "price": "135 CZK",
         "allergens": [],
-        "description": "0.03l varietal grape brandy from Gewürztraminer (Tramín červený) grapes from Kolby winery (Pouzdřany)",
+        "description": "Kolby (Grape brandy)",
         "notes": "Kolby (Grape brandy)",
         "questions": [
           {
@@ -8420,7 +8511,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Tramínovice, this component is present: Varietal grape brandy from Gewürztraminer (Tramín červený) grapes from Kolby winery (Pouzdřany). Full recipe ingredients: 0.03l varietal grape brandy from Gewürztraminer (Tramín červený) grapes from Kolby winery (Pouzdřany)."
+            "explanation": "In Tramínovice, this component is present: Varietal grape brandy from Gewürztraminer (Tramín červený) grapes from Kolby winery (Pouzdřany). Official FUZE menu: Kolby (Grape brandy)."
           }
         ]
       },
@@ -8430,7 +8521,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.03l",
         "price": "123 CZK",
         "allergens": [],
-        "description": "0.03l unique and rare vegetable eau-de-vie from sweet carrots from legendary South Bohemian Poněšice distillery",
+        "description": "(Carrot brandy)",
         "notes": "(Carrot brandy)",
         "questions": [
           {
@@ -8451,7 +8542,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Poněšická Mrkvovice, this component is present: Unique and rare vegetable eau-de-vie from sweet carrots from legendary South Bohemian Poněšice distillery. Full recipe ingredients: 0.03l unique and rare vegetable eau-de-vie from sweet carrots from legendary South Bohemian Poněšice distillery."
+            "explanation": "In Poněšická Mrkvovice, this component is present: Unique and rare vegetable eau-de-vie from sweet carrots from legendary South Bohemian Poněšice distillery. Official FUZE menu: (Carrot brandy)."
           }
         ]
       },
@@ -8461,7 +8552,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.03l",
         "price": "175 CZK",
         "allergens": [],
-        "description": "0.03l luxurious raspberry geist distilled from selected wild raspberries with intense forest berry aroma",
+        "description": "Martenz (Raspberry Brandy)",
         "notes": "Martenz (Raspberry Brandy)",
         "questions": [
           {
@@ -8482,7 +8573,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Malinovice Silver, this component is present: Luxurious raspberry geist distilled from selected wild raspberries with intense forest berry aroma. Full recipe ingredients: 0.03l luxurious raspberry geist distilled from selected wild raspberries with intense forest berry aroma."
+            "explanation": "In Malinovice Silver, this component is present: Luxurious raspberry geist distilled from selected wild raspberries with intense forest berry aroma. Official FUZE menu: Martenz (Raspberry Brandy)."
           }
         ]
       }
@@ -8522,7 +8613,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Anton Kaapl LEGIONARY, this component is present: Premium South Bohemian craft vodka from family distillery Jílovice. Full recipe ingredients: 0.03l premium South Bohemian craft vodka from family distillery Jílovice, distilled with soft Bohemian Forest (Šumava) spring water."
+            "explanation": "In Anton Kaapl LEGIONARY, this component is present: Premium South Bohemian craft vodka from family distillery Jílovice. Official FUZE menu: 0.03l premium South Bohemian craft vodka from family distillery Jílovice, distilled with soft Bohemian Forest (Šumava) spring water."
           },
           {
             "id": "anton-kaapl-legionar-ing-2",
@@ -8532,7 +8623,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Golden apricots",
               "Oak barrel aging"
             ],
-            "explanation": "In Anton Kaapl LEGIONARY, this component is present: Distilled with soft Bohemian Forest (Šumava) spring water. Full recipe ingredients: 0.03l premium South Bohemian craft vodka from family distillery Jílovice, distilled with soft Bohemian Forest (Šumava) spring water."
+            "explanation": "In Anton Kaapl LEGIONARY, this component is present: Distilled with soft Bohemian Forest (Šumava) spring water. Official FUZE menu: 0.03l premium South Bohemian craft vodka from family distillery Jílovice, distilled with soft Bohemian Forest (Šumava) spring water."
           }
         ]
       },
@@ -8563,7 +8654,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Nemiroff, this component is present: Celebrated premium wheat vodka with multi-stage filtration. Full recipe ingredients: 0.03l celebrated premium wheat vodka with multi-stage filtration."
+            "explanation": "In Nemiroff, this component is present: Celebrated premium wheat vodka with multi-stage filtration. Official FUZE menu: 0.03l celebrated premium wheat vodka with multi-stage filtration."
           }
         ]
       },
@@ -8594,7 +8685,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Grey Goose, this component is present: Luxurious French vodka crafted from winter wheat from Picardy and limestone-filtered spring water from Gensac-la-Pallue. Full recipe ingredients: 0.03l luxurious French vodka crafted from winter wheat from Picardy and limestone-filtered spring water from Gensac-la-Pallue."
+            "explanation": "In Grey Goose, this component is present: Luxurious French vodka crafted from winter wheat from Picardy and limestone-filtered spring water from Gensac-la-Pallue. Official FUZE menu: 0.03l luxurious French vodka crafted from winter wheat from Picardy and limestone-filtered spring water from Gensac-la-Pallue."
           }
         ]
       }
@@ -8608,9 +8699,9 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
     "iconName": "Flame",
     "items": [
       {
-        "name": "Tanqueray London Dry Gin",
+        "name": "Tanqueray",
         "weight": "0.03l",
-        "price": "85 CZK",
+        "price": "89 CZK",
         "allergens": [],
         "description": "classic London Dry gin with distinct juniper and citrus notes",
         "notes": "Iconic four-botanical distilled gin.",
@@ -8634,7 +8725,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Tanqueray London Dry Gin, this component is present: Classic London Dry gin with distinct juniper. Full recipe ingredients: classic London Dry gin with distinct juniper and citrus notes."
+            "explanation": "In Tanqueray, this component is present: Classic London Dry gin with distinct juniper. Official FUZE menu: classic London Dry gin with distinct juniper and citrus notes."
           },
           {
             "id": "gin-tanqueray-ing-2",
@@ -8644,14 +8735,14 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Duck breast",
               "Deboned trout"
             ],
-            "explanation": "In Tanqueray London Dry Gin, this component is present: Citrus notes. Full recipe ingredients: classic London Dry gin with distinct juniper and citrus notes."
+            "explanation": "In Tanqueray, this component is present: Citrus notes. Official FUZE menu: classic London Dry gin with distinct juniper and citrus notes."
           }
         ]
       },
       {
-        "name": "Hendrick`s Gin",
+        "name": "Hendrick`s",
         "weight": "0.03l",
-        "price": "105 CZK",
+        "price": "126 CZK",
         "allergens": [],
         "description": "Scottish gin distilled with cucumber and Bulgarian rose petal essence",
         "notes": "Uniquely refreshing botanical Scottish gin.",
@@ -8675,7 +8766,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Hendrick`s Gin, this component is present: Scottish gin distilled with cucumber. Full recipe ingredients: Scottish gin distilled with cucumber and Bulgarian rose petal essence."
+            "explanation": "In Hendrick`s, this component is present: Scottish gin distilled with cucumber. Official FUZE menu: Scottish gin distilled with cucumber and Bulgarian rose petal essence."
           },
           {
             "id": "gin-hendricks-ing-2",
@@ -8685,16 +8776,16 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Duck breast",
               "Deboned trout"
             ],
-            "explanation": "In Hendrick`s Gin, this component is present: Bulgarian rose petal essence. Full recipe ingredients: Scottish gin distilled with cucumber and Bulgarian rose petal essence."
+            "explanation": "In Hendrick`s, this component is present: Bulgarian rose petal essence. Official FUZE menu: Scottish gin distilled with cucumber and Bulgarian rose petal essence."
           }
         ]
       },
       {
         "name": "Starej Dobrej Gin",
         "weight": "0.03l",
-        "price": "85 CZK",
+        "price": "159 CZK",
         "allergens": [],
-        "description": "traditional Czech artisanal gin with rich herbal profile",
+        "description": "Poněšice",
         "notes": "Craft small-batch Czech gin.",
         "id": "gin-starej-dobrej",
         "questions": [
@@ -8716,16 +8807,16 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Lovage",
               "Tarragon"
             ],
-            "explanation": "In Starej Dobrej Gin, this component is present: Traditional Czech artisanal gin with rich herbal profile. Full recipe ingredients: traditional Czech artisanal gin with rich herbal profile."
+            "explanation": "In Starej Dobrej Gin, this component is present: Traditional Czech artisanal gin with rich herbal profile. Official FUZE menu: Poněšice."
           }
         ]
       },
       {
-        "name": "Truffle Gin",
+        "name": "Truffle gin",
         "weight": "0.03l",
-        "price": "125 CZK",
+        "price": "155 CZK",
         "allergens": [],
-        "description": "exclusive craft gin infused with aromatic winter truffles",
+        "description": "Garage 22",
         "notes": "Earthy and luxurious gastronomic spirit.",
         "id": "gin-truffle",
         "questions": [
@@ -8747,7 +8838,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Truffle Gin, this component is present: Exclusive craft gin infused with aromatic winter truffles. Full recipe ingredients: exclusive craft gin infused with aromatic winter truffles."
+            "explanation": "In Truffle gin, this component is present: Exclusive craft gin infused with aromatic winter truffles. Official FUZE menu: Garage 22."
           }
         ]
       }
@@ -8787,7 +8878,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Havana Club Anejo 3 Anos, this component is present: Traditional Cuban white rum aged 3 years in white oak casks. Full recipe ingredients: 0.03l traditional Cuban white rum aged 3 years in white oak casks, essential base for Mojito and Daiquiri."
+            "explanation": "In Havana Club Anejo 3 Anos, this component is present: Traditional Cuban white rum aged 3 years in white oak casks. Official FUZE menu: 0.03l traditional Cuban white rum aged 3 years in white oak casks, essential base for Mojito and Daiquiri."
           },
           {
             "id": "havana-club-3-ing-2",
@@ -8797,7 +8888,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Golden apricots",
               "Oak barrel aging"
             ],
-            "explanation": "In Havana Club Anejo 3 Anos, this component is present: Essential base for Mojito and Daiquiri. Full recipe ingredients: 0.03l traditional Cuban white rum aged 3 years in white oak casks, essential base for Mojito and Daiquiri."
+            "explanation": "In Havana Club Anejo 3 Anos, this component is present: Essential base for Mojito and Daiquiri. Official FUZE menu: 0.03l traditional Cuban white rum aged 3 years in white oak casks, essential base for Mojito and Daiquiri."
           }
         ]
       },
@@ -8828,7 +8919,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In El Dorado 12y, this component is present: Guyanese molasses rum aged 12 years in the tropics along Demerara river. Full recipe ingredients: 0.03l Guyanese molasses rum aged 12 years in the tropics along Demerara river, rich notes of honey, raisins, and caramel."
+            "explanation": "In El Dorado 12y, this component is present: Guyanese molasses rum aged 12 years in the tropics along Demerara river. Official FUZE menu: 0.03l Guyanese molasses rum aged 12 years in the tropics along Demerara river, rich notes of honey, raisins, and caramel."
           },
           {
             "id": "el-dorado-12y-ing-2",
@@ -8838,7 +8929,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Golden apricots",
               "Oak barrel aging"
             ],
-            "explanation": "In El Dorado 12y, this component is present: Rich notes of honey. Full recipe ingredients: 0.03l Guyanese molasses rum aged 12 years in the tropics along Demerara river, rich notes of honey, raisins, and caramel."
+            "explanation": "In El Dorado 12y, this component is present: Rich notes of honey. Official FUZE menu: 0.03l Guyanese molasses rum aged 12 years in the tropics along Demerara river, rich notes of honey, raisins, and caramel."
           },
           {
             "id": "el-dorado-12y-ing-3",
@@ -8848,7 +8939,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Charcoal filtration",
               "Mountain spring water"
             ],
-            "explanation": "In El Dorado 12y, this component is present: Raisins. Full recipe ingredients: 0.03l Guyanese molasses rum aged 12 years in the tropics along Demerara river, rich notes of honey, raisins, and caramel."
+            "explanation": "In El Dorado 12y, this component is present: Raisins. Official FUZE menu: 0.03l Guyanese molasses rum aged 12 years in the tropics along Demerara river, rich notes of honey, raisins, and caramel."
           },
           {
             "id": "el-dorado-12y-ing-4",
@@ -8858,7 +8949,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Cane molasses",
               "100% blue agave"
             ],
-            "explanation": "In El Dorado 12y, this component is present: Caramel. Full recipe ingredients: 0.03l Guyanese molasses rum aged 12 years in the tropics along Demerara river, rich notes of honey, raisins, and caramel."
+            "explanation": "In El Dorado 12y, this component is present: Caramel. Official FUZE menu: 0.03l Guyanese molasses rum aged 12 years in the tropics along Demerara river, rich notes of honey, raisins, and caramel."
           }
         ]
       },
@@ -8889,7 +8980,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Mount Gay XO, this component is present: Premium Barbadian rum from the world's oldest operating distillery (since 1703). Full recipe ingredients: 0.03l premium Barbadian rum from the world's oldest operating distillery (since 1703), blend of reserves aged in bourbon, cognac, and American whiskey casks."
+            "explanation": "In Mount Gay XO, this component is present: Premium Barbadian rum from the world's oldest operating distillery (since 1703). Official FUZE menu: 0.03l premium Barbadian rum from the world's oldest operating distillery (since 1703), blend of reserves aged in bourbon, cognac, and American whiskey casks."
           },
           {
             "id": "mount-gay-xo-ing-2",
@@ -8899,7 +8990,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Golden apricots",
               "Oak barrel aging"
             ],
-            "explanation": "In Mount Gay XO, this component is present: Blend of reserves aged in bourbon. Full recipe ingredients: 0.03l premium Barbadian rum from the world's oldest operating distillery (since 1703), blend of reserves aged in bourbon, cognac, and American whiskey casks."
+            "explanation": "In Mount Gay XO, this component is present: Blend of reserves aged in bourbon. Official FUZE menu: 0.03l premium Barbadian rum from the world's oldest operating distillery (since 1703), blend of reserves aged in bourbon, cognac, and American whiskey casks."
           },
           {
             "id": "mount-gay-xo-ing-3",
@@ -8909,7 +9000,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Charcoal filtration",
               "Mountain spring water"
             ],
-            "explanation": "In Mount Gay XO, this component is present: Cognac. Full recipe ingredients: 0.03l premium Barbadian rum from the world's oldest operating distillery (since 1703), blend of reserves aged in bourbon, cognac, and American whiskey casks."
+            "explanation": "In Mount Gay XO, this component is present: Cognac. Official FUZE menu: 0.03l premium Barbadian rum from the world's oldest operating distillery (since 1703), blend of reserves aged in bourbon, cognac, and American whiskey casks."
           },
           {
             "id": "mount-gay-xo-ing-4",
@@ -8919,7 +9010,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Cane molasses",
               "100% blue agave"
             ],
-            "explanation": "In Mount Gay XO, this component is present: American whiskey casks. Full recipe ingredients: 0.03l premium Barbadian rum from the world's oldest operating distillery (since 1703), blend of reserves aged in bourbon, cognac, and American whiskey casks."
+            "explanation": "In Mount Gay XO, this component is present: American whiskey casks. Official FUZE menu: 0.03l premium Barbadian rum from the world's oldest operating distillery (since 1703), blend of reserves aged in bourbon, cognac, and American whiskey casks."
           }
         ]
       },
@@ -8950,7 +9041,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Abuelo 7y, this component is present: Panamanian rum made from estate-grown cane molasses. Full recipe ingredients: 0.03l Panamanian rum made from estate-grown cane molasses, aged 7 years in small white oak barrels."
+            "explanation": "In Abuelo 7y, this component is present: Panamanian rum made from estate-grown cane molasses. Official FUZE menu: 0.03l Panamanian rum made from estate-grown cane molasses, aged 7 years in small white oak barrels."
           },
           {
             "id": "abuelo-7y-ing-2",
@@ -8960,7 +9051,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Golden apricots",
               "Oak barrel aging"
             ],
-            "explanation": "In Abuelo 7y, this component is present: Aged 7 years in small white oak barrels. Full recipe ingredients: 0.03l Panamanian rum made from estate-grown cane molasses, aged 7 years in small white oak barrels."
+            "explanation": "In Abuelo 7y, this component is present: Aged 7 years in small white oak barrels. Official FUZE menu: 0.03l Panamanian rum made from estate-grown cane molasses, aged 7 years in small white oak barrels."
           }
         ]
       },
@@ -8991,7 +9082,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Eminente Reserva 7y, this component is present: Cuban premium rum with a high 70% share of aged aguardientes (cane spirits). Full recipe ingredients: 0.03l Cuban premium rum with a high 70% share of aged aguardientes (cane spirits), aged in whisky casks."
+            "explanation": "In Eminente Reserva 7y, this component is present: Cuban premium rum with a high 70% share of aged aguardientes (cane spirits). Official FUZE menu: 0.03l Cuban premium rum with a high 70% share of aged aguardientes (cane spirits), aged in whisky casks."
           },
           {
             "id": "eminente-reserva-7y-ing-2",
@@ -9001,7 +9092,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Golden apricots",
               "Oak barrel aging"
             ],
-            "explanation": "In Eminente Reserva 7y, this component is present: Aged in whisky casks. Full recipe ingredients: 0.03l Cuban premium rum with a high 70% share of aged aguardientes (cane spirits), aged in whisky casks."
+            "explanation": "In Eminente Reserva 7y, this component is present: Aged in whisky casks. Official FUZE menu: 0.03l Cuban premium rum with a high 70% share of aged aguardientes (cane spirits), aged in whisky casks."
           }
         ]
       },
@@ -9032,7 +9123,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Dimplomatico, this component is present: Venezuelan rum aged up to 12 years in bourbon casks. Full recipe ingredients: 0.03l Venezuelan rum aged up to 12 years in bourbon casks, velvety sweet with notes of chocolate, vanilla, and orange peel."
+            "explanation": "In Dimplomatico, this component is present: Venezuelan rum aged up to 12 years in bourbon casks. Official FUZE menu: 0.03l Venezuelan rum aged up to 12 years in bourbon casks, velvety sweet with notes of chocolate, vanilla, and orange peel."
           },
           {
             "id": "diplomatico-ing-2",
@@ -9042,7 +9133,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Golden apricots",
               "Oak barrel aging"
             ],
-            "explanation": "In Dimplomatico, this component is present: Velvety sweet with notes of chocolate. Full recipe ingredients: 0.03l Venezuelan rum aged up to 12 years in bourbon casks, velvety sweet with notes of chocolate, vanilla, and orange peel."
+            "explanation": "In Dimplomatico, this component is present: Velvety sweet with notes of chocolate. Official FUZE menu: 0.03l Venezuelan rum aged up to 12 years in bourbon casks, velvety sweet with notes of chocolate, vanilla, and orange peel."
           },
           {
             "id": "diplomatico-ing-3",
@@ -9052,7 +9143,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Charcoal filtration",
               "Mountain spring water"
             ],
-            "explanation": "In Dimplomatico, this component is present: Vanilla. Full recipe ingredients: 0.03l Venezuelan rum aged up to 12 years in bourbon casks, velvety sweet with notes of chocolate, vanilla, and orange peel."
+            "explanation": "In Dimplomatico, this component is present: Vanilla. Official FUZE menu: 0.03l Venezuelan rum aged up to 12 years in bourbon casks, velvety sweet with notes of chocolate, vanilla, and orange peel."
           },
           {
             "id": "diplomatico-ing-4",
@@ -9062,7 +9153,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Cane molasses",
               "100% blue agave"
             ],
-            "explanation": "In Dimplomatico, this component is present: Orange peel. Full recipe ingredients: 0.03l Venezuelan rum aged up to 12 years in bourbon casks, velvety sweet with notes of chocolate, vanilla, and orange peel."
+            "explanation": "In Dimplomatico, this component is present: Orange peel. Official FUZE menu: 0.03l Venezuelan rum aged up to 12 years in bourbon casks, velvety sweet with notes of chocolate, vanilla, and orange peel."
           }
         ]
       },
@@ -9072,7 +9163,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.03l",
         "price": "165 CZK",
         "allergens": [],
-        "description": "0.03l Guatemalan rum from virgin sugarcane honey, aged via the Solera system at an altitude of 2,300 meters",
+        "description": "rumy 0,03L",
         "notes": "Zacapa 23y",
         "questions": [
           {
@@ -9093,7 +9184,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Zacapa 23y, this component is present: Guatemalan rum from virgin sugarcane honey. Full recipe ingredients: 0.03l Guatemalan rum from virgin sugarcane honey, aged via the Solera system at an altitude of 2,300 meters."
+            "explanation": "In Zacapa 23y, this component is present: Guatemalan rum from virgin sugarcane honey. Official FUZE menu: rumy 0,03L."
           },
           {
             "id": "zacapa-23y-ing-2",
@@ -9103,7 +9194,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Golden apricots",
               "Oak barrel aging"
             ],
-            "explanation": "In Zacapa 23y, this component is present: Aged via the Solera system at an altitude of 2,300 meters. Full recipe ingredients: 0.03l Guatemalan rum from virgin sugarcane honey, aged via the Solera system at an altitude of 2,300 meters."
+            "explanation": "In Zacapa 23y, this component is present: Aged via the Solera system at an altitude of 2,300 meters. Official FUZE menu: rumy 0,03L."
           }
         ]
       }
@@ -9143,7 +9234,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Tres Alegres Compadres Blanco, this component is present: Unaged pure tequila from 100% blue agave with notes of wild herbs. Full recipe ingredients: 0.03l unaged pure tequila from 100% blue agave with notes of wild herbs, citrus, and roasted agave."
+            "explanation": "In Tres Alegres Compadres Blanco, this component is present: Unaged pure tequila from 100% blue agave with notes of wild herbs. Official FUZE menu: 0.03l unaged pure tequila from 100% blue agave with notes of wild herbs, citrus, and roasted agave."
           },
           {
             "id": "tres-alegres-compadres-ing-2",
@@ -9153,7 +9244,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Golden apricots",
               "Oak barrel aging"
             ],
-            "explanation": "In Tres Alegres Compadres Blanco, this component is present: Citrus. Full recipe ingredients: 0.03l unaged pure tequila from 100% blue agave with notes of wild herbs, citrus, and roasted agave."
+            "explanation": "In Tres Alegres Compadres Blanco, this component is present: Citrus. Official FUZE menu: 0.03l unaged pure tequila from 100% blue agave with notes of wild herbs, citrus, and roasted agave."
           },
           {
             "id": "tres-alegres-compadres-ing-3",
@@ -9163,7 +9254,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Charcoal filtration",
               "Mountain spring water"
             ],
-            "explanation": "In Tres Alegres Compadres Blanco, this component is present: Roasted agave. Full recipe ingredients: 0.03l unaged pure tequila from 100% blue agave with notes of wild herbs, citrus, and roasted agave."
+            "explanation": "In Tres Alegres Compadres Blanco, this component is present: Roasted agave. Official FUZE menu: 0.03l unaged pure tequila from 100% blue agave with notes of wild herbs, citrus, and roasted agave."
           }
         ]
       },
@@ -9194,7 +9285,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Herradura Reposado, this component is present: Premium tequila aged a full 11 months in American white oak barrels (standards require only 2 months). Full recipe ingredients: 0.03l premium tequila aged a full 11 months in American white oak barrels (standards require only 2 months)."
+            "explanation": "In Herradura Reposado, this component is present: Premium tequila aged a full 11 months in American white oak barrels (standards require only 2 months). Official FUZE menu: 0.03l premium tequila aged a full 11 months in American white oak barrels (standards require only 2 months)."
           }
         ]
       },
@@ -9204,7 +9295,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.03l",
         "price": "149 CZK",
         "allergens": [],
-        "description": "0.03l 100% Agave, aged 4 months in a unique combination of American, French, and Mexican oak barrels",
+        "description": "100% Agave",
         "notes": "100% Agave",
         "questions": [
           {
@@ -9225,7 +9316,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Tequila Corralejo Reposado, this component is present: 100% Agave. Full recipe ingredients: 0.03l 100% Agave, aged 4 months in a unique combination of American, French, and Mexican oak barrels."
+            "explanation": "In Tequila Corralejo Reposado, this component is present: 100% Agave. Official FUZE menu: 100% Agave."
           },
           {
             "id": "corralejo-reposado-ing-2",
@@ -9235,7 +9326,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Golden apricots",
               "Oak barrel aging"
             ],
-            "explanation": "In Tequila Corralejo Reposado, this component is present: Aged 4 months in a unique combination of American. Full recipe ingredients: 0.03l 100% Agave, aged 4 months in a unique combination of American, French, and Mexican oak barrels."
+            "explanation": "In Tequila Corralejo Reposado, this component is present: Aged 4 months in a unique combination of American. Official FUZE menu: 100% Agave."
           },
           {
             "id": "corralejo-reposado-ing-3",
@@ -9245,7 +9336,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Charcoal filtration",
               "Mountain spring water"
             ],
-            "explanation": "In Tequila Corralejo Reposado, this component is present: French. Full recipe ingredients: 0.03l 100% Agave, aged 4 months in a unique combination of American, French, and Mexican oak barrels."
+            "explanation": "In Tequila Corralejo Reposado, this component is present: French. Official FUZE menu: 100% Agave."
           },
           {
             "id": "corralejo-reposado-ing-4",
@@ -9255,7 +9346,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Cane molasses",
               "100% blue agave"
             ],
-            "explanation": "In Tequila Corralejo Reposado, this component is present: Mexican oak barrels. Full recipe ingredients: 0.03l 100% Agave, aged 4 months in a unique combination of American, French, and Mexican oak barrels."
+            "explanation": "In Tequila Corralejo Reposado, this component is present: Mexican oak barrels. Official FUZE menu: 100% Agave."
           }
         ]
       },
@@ -9286,7 +9377,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In La Cofradia Reposado Rosé „ ed.Catrina ”, this component is present: Limited edition in hand-painted ceramic skull bottle Catrina. Full recipe ingredients: 0.03l limited edition in hand-painted ceramic skull bottle Catrina, aged in red wine barrels with a pink hue."
+            "explanation": "In La Cofradia Reposado Rosé „ ed.Catrina ”, this component is present: Limited edition in hand-painted ceramic skull bottle Catrina. Official FUZE menu: 0.03l limited edition in hand-painted ceramic skull bottle Catrina, aged in red wine barrels with a pink hue."
           },
           {
             "id": "cofradia-rose-catrina-ing-2",
@@ -9296,7 +9387,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Golden apricots",
               "Oak barrel aging"
             ],
-            "explanation": "In La Cofradia Reposado Rosé „ ed.Catrina ”, this component is present: Aged in red wine barrels with a pink hue. Full recipe ingredients: 0.03l limited edition in hand-painted ceramic skull bottle Catrina, aged in red wine barrels with a pink hue."
+            "explanation": "In La Cofradia Reposado Rosé „ ed.Catrina ”, this component is present: Aged in red wine barrels with a pink hue. Official FUZE menu: 0.03l limited edition in hand-painted ceramic skull bottle Catrina, aged in red wine barrels with a pink hue."
           }
         ]
       },
@@ -9327,7 +9418,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In La Cofradia Black „ ed.Catrina ”, this component is present: Black collectible ceramic Catrina edition. Full recipe ingredients: 0.03l black collectible ceramic Catrina edition, tequila aged in heavily charred oak barrels with a smoky body."
+            "explanation": "In La Cofradia Black „ ed.Catrina ”, this component is present: Black collectible ceramic Catrina edition. Official FUZE menu: 0.03l black collectible ceramic Catrina edition, tequila aged in heavily charred oak barrels with a smoky body."
           },
           {
             "id": "cofradia-black-catrina-ing-2",
@@ -9337,7 +9428,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Golden apricots",
               "Oak barrel aging"
             ],
-            "explanation": "In La Cofradia Black „ ed.Catrina ”, this component is present: Tequila aged in heavily charred oak barrels with a smoky body. Full recipe ingredients: 0.03l black collectible ceramic Catrina edition, tequila aged in heavily charred oak barrels with a smoky body."
+            "explanation": "In La Cofradia Black „ ed.Catrina ”, this component is present: Tequila aged in heavily charred oak barrels with a smoky body. Official FUZE menu: 0.03l black collectible ceramic Catrina edition, tequila aged in heavily charred oak barrels with a smoky body."
           }
         ]
       }
@@ -9377,7 +9468,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Goldcock blended, this component is present: Traditional Czech whisky from Těšetice made from Moravian barley. Full recipe ingredients: 0.03l traditional Czech whisky from Těšetice made from Moravian barley, matured in Czech oak casks crafted in Těšetice coopery."
+            "explanation": "In Goldcock blended, this component is present: Traditional Czech whisky from Těšetice made from Moravian barley. Official FUZE menu: 0.03l traditional Czech whisky from Těšetice made from Moravian barley, matured in Czech oak casks crafted in Těšetice coopery."
           },
           {
             "id": "goldcock-blended-ing-2",
@@ -9387,7 +9478,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Golden apricots",
               "Oak barrel aging"
             ],
-            "explanation": "In Goldcock blended, this component is present: Matured in Czech oak casks crafted in Těšetice coopery. Full recipe ingredients: 0.03l traditional Czech whisky from Těšetice made from Moravian barley, matured in Czech oak casks crafted in Těšetice coopery."
+            "explanation": "In Goldcock blended, this component is present: Matured in Czech oak casks crafted in Těšetice coopery. Official FUZE menu: 0.03l traditional Czech whisky from Těšetice made from Moravian barley, matured in Czech oak casks crafted in Těšetice coopery."
           }
         ]
       },
@@ -9418,7 +9509,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Glenfiddich 15y, this component is present: Scottish single malt whisky matured using a unique Solera vat in three cask types: sherry. Full recipe ingredients: 0.03l Scottish single malt whisky matured using a unique Solera vat in three cask types: sherry, bourbon, and new oak."
+            "explanation": "In Glenfiddich 15y, this component is present: Scottish single malt whisky matured using a unique Solera vat in three cask types: sherry. Official FUZE menu: 0.03l Scottish single malt whisky matured using a unique Solera vat in three cask types: sherry, bourbon, and new oak."
           },
           {
             "id": "glenfiddich-15y-ing-2",
@@ -9428,7 +9519,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Golden apricots",
               "Oak barrel aging"
             ],
-            "explanation": "In Glenfiddich 15y, this component is present: Bourbon. Full recipe ingredients: 0.03l Scottish single malt whisky matured using a unique Solera vat in three cask types: sherry, bourbon, and new oak."
+            "explanation": "In Glenfiddich 15y, this component is present: Bourbon. Official FUZE menu: 0.03l Scottish single malt whisky matured using a unique Solera vat in three cask types: sherry, bourbon, and new oak."
           },
           {
             "id": "glenfiddich-15y-ing-3",
@@ -9438,7 +9529,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Charcoal filtration",
               "Mountain spring water"
             ],
-            "explanation": "In Glenfiddich 15y, this component is present: New oak. Full recipe ingredients: 0.03l Scottish single malt whisky matured using a unique Solera vat in three cask types: sherry, bourbon, and new oak."
+            "explanation": "In Glenfiddich 15y, this component is present: New oak. Official FUZE menu: 0.03l Scottish single malt whisky matured using a unique Solera vat in three cask types: sherry, bourbon, and new oak."
           }
         ]
       },
@@ -9469,7 +9560,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Talisker 10y, this component is present: Iconic maritime single malt whisky from the rugged Isle of Skye. Full recipe ingredients: 0.03l iconic maritime single malt whisky from the rugged Isle of Skye, intensely peaty and smoky with sea salt and black pepper."
+            "explanation": "In Talisker 10y, this component is present: Iconic maritime single malt whisky from the rugged Isle of Skye. Official FUZE menu: 0.03l iconic maritime single malt whisky from the rugged Isle of Skye, intensely peaty and smoky with sea salt and black pepper."
           },
           {
             "id": "talisker-10y-ing-2",
@@ -9479,7 +9570,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Golden apricots",
               "Oak barrel aging"
             ],
-            "explanation": "In Talisker 10y, this component is present: Intensely peaty and smoky with sea salt and black pepper. Full recipe ingredients: 0.03l iconic maritime single malt whisky from the rugged Isle of Skye, intensely peaty and smoky with sea salt and black pepper."
+            "explanation": "In Talisker 10y, this component is present: Intensely peaty and smoky with sea salt and black pepper. Official FUZE menu: 0.03l iconic maritime single malt whisky from the rugged Isle of Skye, intensely peaty and smoky with sea salt and black pepper."
           },
           {
             "id": "talisker-10y-ing-3",
@@ -9489,7 +9580,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Charcoal filtration",
               "Mountain spring water"
             ],
-            "explanation": "In Talisker 10y, this component is present: Intensely peaty and smoky with sea salt and black pepper. Full recipe ingredients: 0.03l iconic maritime single malt whisky from the rugged Isle of Skye, intensely peaty and smoky with sea salt and black pepper."
+            "explanation": "In Talisker 10y, this component is present: Intensely peaty and smoky with sea salt and black pepper. Official FUZE menu: 0.03l iconic maritime single malt whisky from the rugged Isle of Skye, intensely peaty and smoky with sea salt and black pepper."
           }
         ]
       },
@@ -9520,7 +9611,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Monkey Shoulder, this component is present: Scottish blended malt whisky marrying malts from three renowned Speyside distilleries. Full recipe ingredients: 0.03l Scottish blended malt whisky marrying malts from three renowned Speyside distilleries, smooth with rich vanilla notes."
+            "explanation": "In Monkey Shoulder, this component is present: Scottish blended malt whisky marrying malts from three renowned Speyside distilleries. Official FUZE menu: 0.03l Scottish blended malt whisky marrying malts from three renowned Speyside distilleries, smooth with rich vanilla notes."
           },
           {
             "id": "monkey-shoulder-ing-2",
@@ -9530,7 +9621,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Golden apricots",
               "Oak barrel aging"
             ],
-            "explanation": "In Monkey Shoulder, this component is present: Smooth with rich vanilla notes. Full recipe ingredients: 0.03l Scottish blended malt whisky marrying malts from three renowned Speyside distilleries, smooth with rich vanilla notes."
+            "explanation": "In Monkey Shoulder, this component is present: Smooth with rich vanilla notes. Official FUZE menu: 0.03l Scottish blended malt whisky marrying malts from three renowned Speyside distilleries, smooth with rich vanilla notes."
           }
         ]
       },
@@ -9561,7 +9652,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Jameson, this component is present: World's best-selling Irish whiskey. Full recipe ingredients: 0.03l world's best-selling Irish whiskey, triple distilled for exceptional smoothness."
+            "explanation": "In Jameson, this component is present: World's best-selling Irish whiskey. Official FUZE menu: 0.03l world's best-selling Irish whiskey, triple distilled for exceptional smoothness."
           },
           {
             "id": "jameson-ing-2",
@@ -9571,7 +9662,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Golden apricots",
               "Oak barrel aging"
             ],
-            "explanation": "In Jameson, this component is present: Triple distilled for exceptional smoothness. Full recipe ingredients: 0.03l world's best-selling Irish whiskey, triple distilled for exceptional smoothness."
+            "explanation": "In Jameson, this component is present: Triple distilled for exceptional smoothness. Official FUZE menu: 0.03l world's best-selling Irish whiskey, triple distilled for exceptional smoothness."
           }
         ]
       },
@@ -9602,7 +9693,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Jack Daniels, this component is present: Tennessee whiskey filtered drop by drop through a 10-foot layer of sugar maple charcoal (Lincoln County Process). Full recipe ingredients: 0.03l Tennessee whiskey filtered drop by drop through a 10-foot layer of sugar maple charcoal (Lincoln County Process)."
+            "explanation": "In Jack Daniels, this component is present: Tennessee whiskey filtered drop by drop through a 10-foot layer of sugar maple charcoal (Lincoln County Process). Official FUZE menu: 0.03l Tennessee whiskey filtered drop by drop through a 10-foot layer of sugar maple charcoal (Lincoln County Process)."
           }
         ]
       }
@@ -9642,7 +9733,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Metaxa *****, this component is present: Greek amber spirit blended with Muscat wines from Aegean islands Samos and Lemnos and Mediterranean botanicals. Full recipe ingredients: 0.03l Greek amber spirit blended with Muscat wines from Aegean islands Samos and Lemnos and Mediterranean botanicals."
+            "explanation": "In Metaxa *****, this component is present: Greek amber spirit blended with Muscat wines from Aegean islands Samos and Lemnos and Mediterranean botanicals. Official FUZE menu: 0.03l Greek amber spirit blended with Muscat wines from Aegean islands Samos and Lemnos and Mediterranean botanicals."
           }
         ]
       },
@@ -9673,7 +9764,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Butter brioche",
               "Sourdough bread"
             ],
-            "explanation": "In Remy Martin 1738, this component is present: Prestigious French Fine Champagne Cognac (1738 Accord Royal) matured in toasted oak barrels. Full recipe ingredients: 0.03l prestigious French Fine Champagne Cognac (1738 Accord Royal) matured in toasted oak barrels, rich with figs, plums, and caramel."
+            "explanation": "In Remy Martin 1738, this component is present: Prestigious French Fine Champagne Cognac (1738 Accord Royal) matured in toasted oak barrels. Official FUZE menu: 0.03l prestigious French Fine Champagne Cognac (1738 Accord Royal) matured in toasted oak barrels, rich with figs, plums, and caramel."
           },
           {
             "id": "remy-martin-1738-ing-2",
@@ -9683,7 +9774,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Duck breast",
               "Deboned trout"
             ],
-            "explanation": "In Remy Martin 1738, this component is present: Rich with figs. Full recipe ingredients: 0.03l prestigious French Fine Champagne Cognac (1738 Accord Royal) matured in toasted oak barrels, rich with figs, plums, and caramel."
+            "explanation": "In Remy Martin 1738, this component is present: Rich with figs. Official FUZE menu: 0.03l prestigious French Fine Champagne Cognac (1738 Accord Royal) matured in toasted oak barrels, rich with figs, plums, and caramel."
           },
           {
             "id": "remy-martin-1738-ing-3",
@@ -9693,7 +9784,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Beef tenderloin",
               "Duroc pork belly"
             ],
-            "explanation": "In Remy Martin 1738, this component is present: Plums. Full recipe ingredients: 0.03l prestigious French Fine Champagne Cognac (1738 Accord Royal) matured in toasted oak barrels, rich with figs, plums, and caramel."
+            "explanation": "In Remy Martin 1738, this component is present: Plums. Official FUZE menu: 0.03l prestigious French Fine Champagne Cognac (1738 Accord Royal) matured in toasted oak barrels, rich with figs, plums, and caramel."
           },
           {
             "id": "remy-martin-1738-ing-4",
@@ -9703,7 +9794,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Venison saddle",
               "Lamb chop"
             ],
-            "explanation": "In Remy Martin 1738, this component is present: Caramel. Full recipe ingredients: 0.03l prestigious French Fine Champagne Cognac (1738 Accord Royal) matured in toasted oak barrels, rich with figs, plums, and caramel."
+            "explanation": "In Remy Martin 1738, this component is present: Caramel. Official FUZE menu: 0.03l prestigious French Fine Champagne Cognac (1738 Accord Royal) matured in toasted oak barrels, rich with figs, plums, and caramel."
           }
         ]
       }
@@ -9722,7 +9813,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.03l",
         "price": "140 CZK",
         "allergens": [],
-        "description": "0.03l FUZE/Agnes 45 %, our signature custom beer spirit distilled from brewery wort brewed from Pilsner and Munich malt with Mandarina Bavaria hops",
+        "description": "FUZE/Agnes",
         "notes": "FUZE/Agnes",
         "questions": [
           {
@@ -9743,7 +9834,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Fuzovice, this component is present: FUZE/Agnes 45 %. Full recipe ingredients: 0.03l FUZE/Agnes 45 %, our signature custom beer spirit distilled from brewery wort brewed from Pilsner and Munich malt with Mandarina Bavaria hops."
+            "explanation": "In Fuzovice, this component is present: FUZE/Agnes 45 %. Official FUZE menu: FUZE/Agnes."
           },
           {
             "id": "fuzovice-ing-2",
@@ -9753,7 +9844,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Golden apricots",
               "Oak barrel aging"
             ],
-            "explanation": "In Fuzovice, this component is present: Our signature custom beer spirit distilled from brewery wort brewed from Pilsner and Munich malt with Mandarina Bavaria hops. Full recipe ingredients: 0.03l FUZE/Agnes 45 %, our signature custom beer spirit distilled from brewery wort brewed from Pilsner and Munich malt with Mandarina Bavaria hops."
+            "explanation": "In Fuzovice, this component is present: Our signature custom beer spirit distilled from brewery wort brewed from Pilsner and Munich malt with Mandarina Bavaria hops. Official FUZE menu: FUZE/Agnes."
           }
         ]
       },
@@ -9763,7 +9854,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.03l",
         "price": "165 CZK",
         "allergens": [],
-        "description": "0.03l Žufánek, all-natural distilled absinthe made from real grand wormwood (Artemisia absinthium), anise, and fennel",
+        "description": "Žufánek",
         "notes": "Žufánek",
         "questions": [
           {
@@ -9784,7 +9875,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Absinth St. Antoine, this component is present: Žufánek. Full recipe ingredients: 0.03l Žufánek, all-natural distilled absinthe made from real grand wormwood (Artemisia absinthium), anise, and fennel."
+            "explanation": "In Absinth St. Antoine, this component is present: Žufánek. Official FUZE menu: Žufánek."
           },
           {
             "id": "absinth-st-antoine-ing-2",
@@ -9794,7 +9885,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Golden apricots",
               "Oak barrel aging"
             ],
-            "explanation": "In Absinth St. Antoine, this component is present: All-natural distilled absinthe made from real grand wormwood (Artemisia absinthium). Full recipe ingredients: 0.03l Žufánek, all-natural distilled absinthe made from real grand wormwood (Artemisia absinthium), anise, and fennel."
+            "explanation": "In Absinth St. Antoine, this component is present: All-natural distilled absinthe made from real grand wormwood (Artemisia absinthium). Official FUZE menu: Žufánek."
           },
           {
             "id": "absinth-st-antoine-ing-3",
@@ -9804,7 +9895,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Charcoal filtration",
               "Mountain spring water"
             ],
-            "explanation": "In Absinth St. Antoine, this component is present: Anise. Full recipe ingredients: 0.03l Žufánek, all-natural distilled absinthe made from real grand wormwood (Artemisia absinthium), anise, and fennel."
+            "explanation": "In Absinth St. Antoine, this component is present: Anise. Official FUZE menu: Žufánek."
           },
           {
             "id": "absinth-st-antoine-ing-4",
@@ -9814,7 +9905,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Cane molasses",
               "100% blue agave"
             ],
-            "explanation": "In Absinth St. Antoine, this component is present: Fennel. Full recipe ingredients: 0.03l Žufánek, all-natural distilled absinthe made from real grand wormwood (Artemisia absinthium), anise, and fennel."
+            "explanation": "In Absinth St. Antoine, this component is present: Fennel. Official FUZE menu: Žufánek."
           }
         ]
       },
@@ -9824,7 +9915,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.03l",
         "price": "78 CZK",
         "allergens": [],
-        "description": "0.03l Garage 22, modern craft liqueur with distilled Czech caraway seeds and citrus peel from Prague's Holešovice",
+        "description": "Garage 32 (Caraway spirit)",
         "notes": "Garage 32 (Caraway spirit)",
         "questions": [
           {
@@ -9845,7 +9936,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Kmínka, this component is present: Garage 22. Full recipe ingredients: 0.03l Garage 22, modern craft liqueur with distilled Czech caraway seeds and citrus peel from Prague's Holešovice."
+            "explanation": "In Kmínka, this component is present: Garage 22. Official FUZE menu: Garage 32 (Caraway spirit)."
           },
           {
             "id": "kminka-garage22-ing-2",
@@ -9855,7 +9946,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Golden apricots",
               "Oak barrel aging"
             ],
-            "explanation": "In Kmínka, this component is present: Modern craft liqueur with distilled Czech caraway seeds and citrus peel from Prague's Holešovice. Full recipe ingredients: 0.03l Garage 22, modern craft liqueur with distilled Czech caraway seeds and citrus peel from Prague's Holešovice."
+            "explanation": "In Kmínka, this component is present: Modern craft liqueur with distilled Czech caraway seeds and citrus peel from Prague's Holešovice. Official FUZE menu: Garage 32 (Caraway spirit)."
           }
         ]
       },
@@ -9865,7 +9956,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.03l",
         "price": "95 CZK",
         "allergens": [],
-        "description": "0.03l Žufánek, traditional historic Bohemian herbal liqueur with anise, coriander, fennel, and star anise after an authentic 19th-century recipe",
+        "description": "Žufánek (Herbal liqueur)",
         "notes": "Žufánek (Herbal liqueur)",
         "questions": [
           {
@@ -9886,7 +9977,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Kontušovka, this component is present: Žufánek. Full recipe ingredients: 0.03l Žufánek, traditional historic Bohemian herbal liqueur with anise, coriander, fennel, and star anise after an authentic 19th-century recipe."
+            "explanation": "In Kontušovka, this component is present: Žufánek. Official FUZE menu: Žufánek (Herbal liqueur)."
           },
           {
             "id": "kontusovka-zufanek-ing-2",
@@ -9896,7 +9987,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Golden apricots",
               "Oak barrel aging"
             ],
-            "explanation": "In Kontušovka, this component is present: Traditional historic Bohemian herbal liqueur with anise. Full recipe ingredients: 0.03l Žufánek, traditional historic Bohemian herbal liqueur with anise, coriander, fennel, and star anise after an authentic 19th-century recipe."
+            "explanation": "In Kontušovka, this component is present: Traditional historic Bohemian herbal liqueur with anise. Official FUZE menu: Žufánek (Herbal liqueur)."
           },
           {
             "id": "kontusovka-zufanek-ing-3",
@@ -9906,7 +9997,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Charcoal filtration",
               "Mountain spring water"
             ],
-            "explanation": "In Kontušovka, this component is present: Coriander. Full recipe ingredients: 0.03l Žufánek, traditional historic Bohemian herbal liqueur with anise, coriander, fennel, and star anise after an authentic 19th-century recipe."
+            "explanation": "In Kontušovka, this component is present: Coriander. Official FUZE menu: Žufánek (Herbal liqueur)."
           },
           {
             "id": "kontusovka-zufanek-ing-4",
@@ -9916,7 +10007,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Cane molasses",
               "100% blue agave"
             ],
-            "explanation": "In Kontušovka, this component is present: Fennel. Full recipe ingredients: 0.03l Žufánek, traditional historic Bohemian herbal liqueur with anise, coriander, fennel, and star anise after an authentic 19th-century recipe."
+            "explanation": "In Kontušovka, this component is present: Fennel. Official FUZE menu: Žufánek (Herbal liqueur)."
           },
           {
             "id": "kontusovka-zufanek-ing-5",
@@ -9926,7 +10017,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Botanical maceration",
               "Traditional pot still distillation"
             ],
-            "explanation": "In Kontušovka, this component is present: Star anise after an authentic 19th-century recipe. Full recipe ingredients: 0.03l Žufánek, traditional historic Bohemian herbal liqueur with anise, coriander, fennel, and star anise after an authentic 19th-century recipe."
+            "explanation": "In Kontušovka, this component is present: Star anise after an authentic 19th-century recipe. Official FUZE menu: Žufánek (Herbal liqueur)."
           }
         ]
       },
@@ -9938,7 +10029,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "8"
         ],
-        "description": "0.03l Radlík, gentle walnut liqueur macerated from unripe green St. John's walnuts and a secret spice blend",
+        "description": "Radlik",
         "notes": "Radlik",
         "questions": [
           {
@@ -9959,7 +10050,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Walnut liqueur, this component is present: Radlík. Full recipe ingredients: 0.03l Radlík, gentle walnut liqueur macerated from unripe green St. John's walnuts and a secret spice blend."
+            "explanation": "In Walnut liqueur, this component is present: Radlík. Official FUZE menu: Radlik."
           },
           {
             "id": "orechovy-liker-radlik-ing-2",
@@ -9969,7 +10060,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Golden apricots",
               "Oak barrel aging"
             ],
-            "explanation": "In Walnut liqueur, this component is present: Gentle walnut liqueur macerated from unripe green St. John's walnuts and a secret spice blend. Full recipe ingredients: 0.03l Radlík, gentle walnut liqueur macerated from unripe green St. John's walnuts and a secret spice blend."
+            "explanation": "In Walnut liqueur, this component is present: Gentle walnut liqueur macerated from unripe green St. John's walnuts and a secret spice blend. Official FUZE menu: Radlik."
           }
         ]
       },
@@ -9979,7 +10070,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.03l",
         "price": "98 CZK",
         "allergens": [],
-        "description": "0.03l original Moravian almond spirit specialty from the unique almond orchards in Hustopeče",
+        "description": "(almond liqueur)",
         "notes": "(almond liqueur)",
         "questions": [
           {
@@ -10000,7 +10091,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Hustopečská Mandlovka, this component is present: Original Moravian almond spirit specialty from the unique almond orchards in Hustopeče. Full recipe ingredients: 0.03l original Moravian almond spirit specialty from the unique almond orchards in Hustopeče."
+            "explanation": "In Hustopečská Mandlovka, this component is present: Original Moravian almond spirit specialty from the unique almond orchards in Hustopeče. Official FUZE menu: (almond liqueur)."
           }
         ]
       },
@@ -10031,7 +10122,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Jägermeister, this component is present: German herbal liqueur made from 56 botanicals. Full recipe ingredients: 0.03l German herbal liqueur made from 56 botanicals, flowers, roots, and fruits, aged 1 year in oak barrels."
+            "explanation": "In Jägermeister, this component is present: German herbal liqueur made from 56 botanicals. Official FUZE menu: 0.03l German herbal liqueur made from 56 botanicals, flowers, roots, and fruits, aged 1 year in oak barrels."
           },
           {
             "id": "jagermeister-ing-2",
@@ -10041,7 +10132,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Golden apricots",
               "Oak barrel aging"
             ],
-            "explanation": "In Jägermeister, this component is present: Flowers. Full recipe ingredients: 0.03l German herbal liqueur made from 56 botanicals, flowers, roots, and fruits, aged 1 year in oak barrels."
+            "explanation": "In Jägermeister, this component is present: Flowers. Official FUZE menu: 0.03l German herbal liqueur made from 56 botanicals, flowers, roots, and fruits, aged 1 year in oak barrels."
           },
           {
             "id": "jagermeister-ing-3",
@@ -10051,7 +10142,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Charcoal filtration",
               "Mountain spring water"
             ],
-            "explanation": "In Jägermeister, this component is present: Roots. Full recipe ingredients: 0.03l German herbal liqueur made from 56 botanicals, flowers, roots, and fruits, aged 1 year in oak barrels."
+            "explanation": "In Jägermeister, this component is present: Roots. Official FUZE menu: 0.03l German herbal liqueur made from 56 botanicals, flowers, roots, and fruits, aged 1 year in oak barrels."
           },
           {
             "id": "jagermeister-ing-4",
@@ -10061,7 +10152,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Cane molasses",
               "100% blue agave"
             ],
-            "explanation": "In Jägermeister, this component is present: Fruits. Full recipe ingredients: 0.03l German herbal liqueur made from 56 botanicals, flowers, roots, and fruits, aged 1 year in oak barrels."
+            "explanation": "In Jägermeister, this component is present: Fruits. Official FUZE menu: 0.03l German herbal liqueur made from 56 botanicals, flowers, roots, and fruits, aged 1 year in oak barrels."
           },
           {
             "id": "jagermeister-ing-5",
@@ -10071,7 +10162,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Botanical maceration",
               "Traditional pot still distillation"
             ],
-            "explanation": "In Jägermeister, this component is present: Aged 1 year in oak barrels. Full recipe ingredients: 0.03l German herbal liqueur made from 56 botanicals, flowers, roots, and fruits, aged 1 year in oak barrels."
+            "explanation": "In Jägermeister, this component is present: Aged 1 year in oak barrels. Official FUZE menu: 0.03l German herbal liqueur made from 56 botanicals, flowers, roots, and fruits, aged 1 year in oak barrels."
           }
         ]
       },
@@ -10081,7 +10172,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.03l",
         "price": "58 CZK",
         "allergens": [],
-        "description": "0.03l traditional Elbe region herbal liqueur with a harmonious bittersweet profile",
+        "description": "(Regional herbal liqueur)",
         "notes": "(Regional herbal liqueur)",
         "questions": [
           {
@@ -10102,7 +10193,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Poděbradská Samička, this component is present: Traditional Elbe region herbal liqueur with a harmonious bittersweet profile. Full recipe ingredients: 0.03l traditional Elbe region herbal liqueur with a harmonious bittersweet profile."
+            "explanation": "In Poděbradská Samička, this component is present: Traditional Elbe region herbal liqueur with a harmonious bittersweet profile. Official FUZE menu: (Regional herbal liqueur)."
           }
         ]
       },
@@ -10112,7 +10203,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.03l",
         "price": "65 CZK",
         "allergens": [],
-        "description": "0.03l Karlovy Vary herbal liqueur in unfiltered premium edition with golden haze and intense herbal taste",
+        "description": "Unfiltered",
         "notes": "Unfiltered",
         "questions": [
           {
@@ -10133,7 +10224,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Becherovka, this component is present: Karlovy Vary herbal liqueur in unfiltered premium edition with golden haze and intense herbal taste. Full recipe ingredients: 0.03l Karlovy Vary herbal liqueur in unfiltered premium edition with golden haze and intense herbal taste."
+            "explanation": "In Becherovka, this component is present: Karlovy Vary herbal liqueur in unfiltered premium edition with golden haze and intense herbal taste. Official FUZE menu: Unfiltered."
           }
         ]
       },
@@ -10164,7 +10255,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Smoked Grappa Bepi Tosolini, this component is present: Noble Italian grappa distilled from grape pomace smoked over oak wood by family distillery Bepi Tosolini in Udine. Full recipe ingredients: 0.03l noble Italian grappa distilled from grape pomace smoked over oak wood by family distillery Bepi Tosolini in Udine."
+            "explanation": "In Smoked Grappa Bepi Tosolini, this component is present: Noble Italian grappa distilled from grape pomace smoked over oak wood by family distillery Bepi Tosolini in Udine. Official FUZE menu: 0.03l noble Italian grappa distilled from grape pomace smoked over oak wood by family distillery Bepi Tosolini in Udine."
           }
         ]
       },
@@ -10174,7 +10265,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.03l",
         "price": "58 CZK",
         "allergens": [],
-        "description": "0.03l Moravian elderflower liqueur made from fragrant elder blossoms by Rudolf Jelínek in Vizovice",
+        "description": "(Elderflower liquer)",
         "notes": "(Elderflower liquer)",
         "questions": [
           {
@@ -10195,7 +10286,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Bezový elixír R.Jelínek, this component is present: Moravian elderflower liqueur made from fragrant elder blossoms by Rudolf Jelínek in Vizovice. Full recipe ingredients: 0.03l Moravian elderflower liqueur made from fragrant elder blossoms by Rudolf Jelínek in Vizovice."
+            "explanation": "In Bezový elixír R.Jelínek, this component is present: Moravian elderflower liqueur made from fragrant elder blossoms by Rudolf Jelínek in Vizovice. Official FUZE menu: (Elderflower liquer)."
           }
         ]
       },
@@ -10205,7 +10296,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.03l",
         "price": "68 CZK",
         "allergens": [],
-        "description": "0.03l Le Duc Charmant / Jenčík, luscious blackcurrant liqueur",
+        "description": "Le Duc Charmant, Jenčík",
         "notes": "Le Duc Charmant, Jenčík",
         "questions": [
           {
@@ -10226,7 +10317,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Créme de cassis, this component is present: Le Duc Charmant / Jenčík. Full recipe ingredients: 0.03l Le Duc Charmant / Jenčík, luscious blackcurrant liqueur."
+            "explanation": "In Créme de cassis, this component is present: Le Duc Charmant / Jenčík. Official FUZE menu: Le Duc Charmant, Jenčík."
           },
           {
             "id": "creme-de-cassis-ing-2",
@@ -10236,7 +10327,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Golden apricots",
               "Oak barrel aging"
             ],
-            "explanation": "In Créme de cassis, this component is present: Luscious blackcurrant liqueur. Full recipe ingredients: 0.03l Le Duc Charmant / Jenčík, luscious blackcurrant liqueur."
+            "explanation": "In Créme de cassis, this component is present: Luscious blackcurrant liqueur. Official FUZE menu: Le Duc Charmant, Jenčík."
           }
         ]
       },
@@ -10249,7 +10340,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
           "3",
           "7"
         ],
-        "description": "0.03l honest thick egg liqueur with exceptionally high egg yolk content and a splash of cane rum",
+        "description": "Bartida",
         "notes": "Bartida",
         "questions": [
           {
@@ -10270,7 +10361,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Egg liqueur, this component is present: Honest thick egg liqueur with exceptionally high egg yolk content and a splash of cane rum. Full recipe ingredients: 0.03l honest thick egg liqueur with exceptionally high egg yolk content and a splash of cane rum."
+            "explanation": "In Egg liqueur, this component is present: Honest thick egg liqueur with exceptionally high egg yolk content and a splash of cane rum. Official FUZE menu: Bartida."
           }
         ]
       },
@@ -10280,7 +10371,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.03l",
         "price": "50 CZK",
         "allergens": [],
-        "description": "0.03l premium sour cherry liqueur with high proportion of pure sour cherry juice and fruit eau-de-vie",
+        "description": "Bartida (Sour cherry liqueur)",
         "notes": "Bartida (Sour cherry liqueur)",
         "questions": [
           {
@@ -10301,7 +10392,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Griotte Original, this component is present: Premium sour cherry liqueur with high proportion of pure sour cherry juice and fruit eau-de-vie. Full recipe ingredients: 0.03l premium sour cherry liqueur with high proportion of pure sour cherry juice and fruit eau-de-vie."
+            "explanation": "In Griotte Original, this component is present: Premium sour cherry liqueur with high proportion of pure sour cherry juice and fruit eau-de-vie. Official FUZE menu: Bartida (Sour cherry liqueur)."
           }
         ]
       },
@@ -10311,7 +10402,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.03l",
         "price": "50 CZK",
         "allergens": [],
-        "description": "0.03l premium peppermint liqueur crafted from genuine natural peppermint essential oil",
+        "description": "Bartida (Herbal mint liqueur)",
         "notes": "Bartida (Herbal mint liqueur)",
         "questions": [
           {
@@ -10332,7 +10423,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Zelená, this component is present: Premium peppermint liqueur crafted from genuine natural peppermint essential oil. Full recipe ingredients: 0.03l premium peppermint liqueur crafted from genuine natural peppermint essential oil."
+            "explanation": "In Zelená, this component is present: Premium peppermint liqueur crafted from genuine natural peppermint essential oil. Official FUZE menu: Bartida (Herbal mint liqueur)."
           }
         ]
       },
@@ -10342,7 +10433,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0.03l",
         "price": "58 CZK",
         "allergens": [],
-        "description": "0.03l craft South Bohemian peppermint liqueur from Svachovka distillery made with real macerated peppermint",
+        "description": "Svach (Herbal mint liqueur)",
         "notes": "Svach (Herbal mint liqueur)",
         "questions": [
           {
@@ -10363,7 +10454,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Zelená, this component is present: Craft South Bohemian peppermint liqueur from Svachovka distillery made with real macerated peppermint. Full recipe ingredients: 0.03l craft South Bohemian peppermint liqueur from Svachovka distillery made with real macerated peppermint."
+            "explanation": "In Zelená, this component is present: Craft South Bohemian peppermint liqueur from Svachovka distillery made with real macerated peppermint. Official FUZE menu: Svach (Herbal mint liqueur)."
           }
         ]
       }
@@ -10378,13 +10469,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
     "items": [
       {
         "id": "bubliny-charmat-palava",
-        "name": "Charmat de Vinselekt Pálava",
+        "name": "Charmat from Vinselekt Pálava",
         "weight": "0.75l",
         "price": "699 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Vinselect Michlovský, extra sec – Moravia. Wild effervescence, opulent aroma with hints of roses and exotic fruit, round captivating palate.",
+        "description": "0,75L Vinselect Michlovský, extra dry – Moravia",
         "notes": "Vinselect Michlovský, extra sec – Moravia. Wild effervescence, opulent aroma with hints of roses and exotic fruit, round captivating palate.",
         "questions": [
           {
@@ -10405,7 +10496,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Charmat de Vinselekt Pálava, this component is present: Vinselect Michlovský. Full recipe ingredients: Vinselect Michlovský, extra sec – Moravia. Wild effervescence, opulent aroma with hints of roses and exotic fruit, round captivating palate.."
+            "explanation": "In Charmat from Vinselekt Pálava, this component is present: Vinselect Michlovský. Official FUZE menu: 0,75L Vinselect Michlovský, extra dry – Moravia."
           },
           {
             "id": "bubliny-charmat-palava-ing-2",
@@ -10415,7 +10506,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kolby winery",
               "Kraus winery"
             ],
-            "explanation": "In Charmat de Vinselekt Pálava, this component is present: Extra sec – Moravia. Wild effervescence. Full recipe ingredients: Vinselect Michlovský, extra sec – Moravia. Wild effervescence, opulent aroma with hints of roses and exotic fruit, round captivating palate.."
+            "explanation": "In Charmat from Vinselekt Pálava, this component is present: Extra sec – Moravia. Wild effervescence. Official FUZE menu: 0,75L Vinselect Michlovský, extra dry – Moravia."
           },
           {
             "id": "bubliny-charmat-palava-ing-3",
@@ -10425,7 +10516,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Michlovsky winery",
               "Mikulov subregion"
             ],
-            "explanation": "In Charmat de Vinselekt Pálava, this component is present: Opulent aroma with hints of roses and exotic fruit. Full recipe ingredients: Vinselect Michlovský, extra sec – Moravia. Wild effervescence, opulent aroma with hints of roses and exotic fruit, round captivating palate.."
+            "explanation": "In Charmat from Vinselekt Pálava, this component is present: Opulent aroma with hints of roses and exotic fruit. Official FUZE menu: 0,75L Vinselect Michlovský, extra dry – Moravia."
           },
           {
             "id": "bubliny-charmat-palava-ing-4",
@@ -10435,7 +10526,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Velke Pavlovice subregion",
               "Melnik subregion"
             ],
-            "explanation": "In Charmat de Vinselekt Pálava, this component is present: Round captivating palate. Full recipe ingredients: Vinselect Michlovský, extra sec – Moravia. Wild effervescence, opulent aroma with hints of roses and exotic fruit, round captivating palate.."
+            "explanation": "In Charmat from Vinselekt Pálava, this component is present: Round captivating palate. Official FUZE menu: 0,75L Vinselect Michlovský, extra dry – Moravia."
           },
           {
             "id": "bubliny-charmat-palava-allergen-12",
@@ -10451,13 +10542,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "bubliny-cremant-vinselekt",
-        "name": "Crémant de Vinselekt (Pinot, Chardonnay)",
+        "name": "Cremant de Vinselekt (Pinot, Chardonnay)",
         "weight": "0.75l",
         "price": "849 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Vinselect Michlovský, extra brut – Moravia. Fine impressive perlage, elegant aroma, harmonious creamy finish.",
+        "description": "0,75L Vinselect Michlovský, extra brut – Moravia",
         "notes": "Vinselect Michlovský, extra brut – Moravia. Fine impressive perlage, elegant aroma, harmonious creamy finish.",
         "questions": [
           {
@@ -10478,7 +10569,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Crémant de Vinselekt (Pinot, Chardonnay), this component is present: Vinselect Michlovský. Full recipe ingredients: Vinselect Michlovský, extra brut – Moravia. Fine impressive perlage, elegant aroma, harmonious creamy finish.."
+            "explanation": "In Cremant de Vinselekt (Pinot, Chardonnay), this component is present: Vinselect Michlovský. Official FUZE menu: 0,75L Vinselect Michlovský, extra brut – Moravia."
           },
           {
             "id": "bubliny-cremant-vinselekt-ing-2",
@@ -10488,7 +10579,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kolby winery",
               "Kraus winery"
             ],
-            "explanation": "In Crémant de Vinselekt (Pinot, Chardonnay), this component is present: Extra brut – Moravia. Fine impressive perlage. Full recipe ingredients: Vinselect Michlovský, extra brut – Moravia. Fine impressive perlage, elegant aroma, harmonious creamy finish.."
+            "explanation": "In Cremant de Vinselekt (Pinot, Chardonnay), this component is present: Extra brut – Moravia. Fine impressive perlage. Official FUZE menu: 0,75L Vinselect Michlovský, extra brut – Moravia."
           },
           {
             "id": "bubliny-cremant-vinselekt-ing-3",
@@ -10498,7 +10589,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Michlovsky winery",
               "Mikulov subregion"
             ],
-            "explanation": "In Crémant de Vinselekt (Pinot, Chardonnay), this component is present: Elegant aroma. Full recipe ingredients: Vinselect Michlovský, extra brut – Moravia. Fine impressive perlage, elegant aroma, harmonious creamy finish.."
+            "explanation": "In Cremant de Vinselekt (Pinot, Chardonnay), this component is present: Elegant aroma. Official FUZE menu: 0,75L Vinselect Michlovský, extra brut – Moravia."
           },
           {
             "id": "bubliny-cremant-vinselekt-ing-4",
@@ -10508,7 +10599,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Velke Pavlovice subregion",
               "Melnik subregion"
             ],
-            "explanation": "In Crémant de Vinselekt (Pinot, Chardonnay), this component is present: Harmonious creamy finish. Full recipe ingredients: Vinselect Michlovský, extra brut – Moravia. Fine impressive perlage, elegant aroma, harmonious creamy finish.."
+            "explanation": "In Cremant de Vinselekt (Pinot, Chardonnay), this component is present: Harmonious creamy finish. Official FUZE menu: 0,75L Vinselect Michlovský, extra brut – Moravia."
           },
           {
             "id": "bubliny-cremant-vinselekt-allergen-12",
@@ -10524,13 +10615,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "bubliny-angels-cowboys",
-        "name": "Angels & Cowboys Brut",
+        "name": "Angels & Cowboys",
         "weight": "0.75l",
         "price": "1199 CZK",
         "allergens": [
           "12"
         ],
-        "description": "NV, brut – North Coast, California. Traditional bottle fermentation, elegant perlage, fresh orchard fruit, citrus, notes of brioche and toasted bread crust.",
+        "description": "0,75L NV, brut - North Coast, California",
         "notes": "NV, brut – North Coast, California. Traditional bottle fermentation, elegant perlage, fresh orchard fruit, citrus, notes of brioche and toasted bread crust.",
         "questions": [
           {
@@ -10551,7 +10642,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Angels & Cowboys Brut, this component is present: NV. Full recipe ingredients: NV, brut – North Coast, California. Traditional bottle fermentation, elegant perlage, fresh orchard fruit, citrus, notes of brioche and toasted bread crust.."
+            "explanation": "In Angels & Cowboys, this component is present: NV. Official FUZE menu: 0,75L NV, brut - North Coast, California."
           },
           {
             "id": "bubliny-angels-cowboys-ing-2",
@@ -10561,7 +10652,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kolby winery",
               "Kraus winery"
             ],
-            "explanation": "In Angels & Cowboys Brut, this component is present: Brut – North Coast. Full recipe ingredients: NV, brut – North Coast, California. Traditional bottle fermentation, elegant perlage, fresh orchard fruit, citrus, notes of brioche and toasted bread crust.."
+            "explanation": "In Angels & Cowboys, this component is present: Brut – North Coast. Official FUZE menu: 0,75L NV, brut - North Coast, California."
           },
           {
             "id": "bubliny-angels-cowboys-ing-3",
@@ -10571,7 +10662,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Michlovsky winery",
               "Mikulov subregion"
             ],
-            "explanation": "In Angels & Cowboys Brut, this component is present: California. Traditional bottle fermentation. Full recipe ingredients: NV, brut – North Coast, California. Traditional bottle fermentation, elegant perlage, fresh orchard fruit, citrus, notes of brioche and toasted bread crust.."
+            "explanation": "In Angels & Cowboys, this component is present: California. Traditional bottle fermentation. Official FUZE menu: 0,75L NV, brut - North Coast, California."
           },
           {
             "id": "bubliny-angels-cowboys-ing-4",
@@ -10581,7 +10672,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Velke Pavlovice subregion",
               "Melnik subregion"
             ],
-            "explanation": "In Angels & Cowboys Brut, this component is present: Elegant perlage. Full recipe ingredients: NV, brut – North Coast, California. Traditional bottle fermentation, elegant perlage, fresh orchard fruit, citrus, notes of brioche and toasted bread crust.."
+            "explanation": "In Angels & Cowboys, this component is present: Elegant perlage. Official FUZE menu: 0,75L NV, brut - North Coast, California."
           },
           {
             "id": "bubliny-angels-cowboys-ing-5",
@@ -10591,7 +10682,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Vibrant acidity and mineral notes",
               "Late harvest"
             ],
-            "explanation": "In Angels & Cowboys Brut, this component is present: Fresh orchard fruit. Full recipe ingredients: NV, brut – North Coast, California. Traditional bottle fermentation, elegant perlage, fresh orchard fruit, citrus, notes of brioche and toasted bread crust.."
+            "explanation": "In Angels & Cowboys, this component is present: Fresh orchard fruit. Official FUZE menu: 0,75L NV, brut - North Coast, California."
           },
           {
             "id": "bubliny-angels-cowboys-ing-6",
@@ -10601,7 +10692,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Angels & Cowboys Brut, this component is present: Citrus. Full recipe ingredients: NV, brut – North Coast, California. Traditional bottle fermentation, elegant perlage, fresh orchard fruit, citrus, notes of brioche and toasted bread crust.."
+            "explanation": "In Angels & Cowboys, this component is present: Citrus. Official FUZE menu: 0,75L NV, brut - North Coast, California."
           },
           {
             "id": "bubliny-angels-cowboys-ing-7",
@@ -10611,7 +10702,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kolby winery",
               "Kraus winery"
             ],
-            "explanation": "In Angels & Cowboys Brut, this component is present: Notes of brioche and toasted bread crust. Full recipe ingredients: NV, brut – North Coast, California. Traditional bottle fermentation, elegant perlage, fresh orchard fruit, citrus, notes of brioche and toasted bread crust.."
+            "explanation": "In Angels & Cowboys, this component is present: Notes of brioche and toasted bread crust. Official FUZE menu: 0,75L NV, brut - North Coast, California."
           },
           {
             "id": "bubliny-angels-cowboys-allergen-12",
@@ -10636,13 +10727,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
     "items": [
       {
         "id": "bile-ryzlink-gotberg",
-        "name": "Riesling (Ryzlink rýnský) – Gotberg",
+        "name": "Riesling",
         "weight": "0.75l",
         "price": "469 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Late harvest Gotberg – Pálava, Moravia. Fresh with vibrant acidity, aromas of citrus, green apple and white peach, mineral finish.",
+        "description": "0,75L late harvest Gotberg – Pálava, Moravia",
         "notes": "Late harvest Gotberg – Pálava, Moravia. Fresh with vibrant acidity, aromas of citrus, green apple and white peach, mineral finish.",
         "questions": [
           {
@@ -10663,7 +10754,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Gotberg winery",
               "Kolby winery"
             ],
-            "explanation": "In Riesling (Ryzlink rýnský) – Gotberg, this component is present: Late harvest Gotberg – Pálava. Full recipe ingredients: Late harvest Gotberg – Pálava, Moravia. Fresh with vibrant acidity, aromas of citrus, green apple and white peach, mineral finish.."
+            "explanation": "In Riesling, this component is present: Late harvest Gotberg – Pálava. Official FUZE menu: 0,75L late harvest Gotberg – Pálava, Moravia."
           },
           {
             "id": "bile-ryzlink-gotberg-ing-2",
@@ -10673,7 +10764,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kraus winery",
               "Michlovsky winery"
             ],
-            "explanation": "In Riesling (Ryzlink rýnský) – Gotberg, this component is present: Moravia. Fresh with vibrant acidity. Full recipe ingredients: Late harvest Gotberg – Pálava, Moravia. Fresh with vibrant acidity, aromas of citrus, green apple and white peach, mineral finish.."
+            "explanation": "In Riesling, this component is present: Moravia. Fresh with vibrant acidity. Official FUZE menu: 0,75L late harvest Gotberg – Pálava, Moravia."
           },
           {
             "id": "bile-ryzlink-gotberg-ing-3",
@@ -10683,7 +10774,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Mikulov subregion",
               "Velke Pavlovice subregion"
             ],
-            "explanation": "In Riesling (Ryzlink rýnský) – Gotberg, this component is present: Aromas of citrus. Full recipe ingredients: Late harvest Gotberg – Pálava, Moravia. Fresh with vibrant acidity, aromas of citrus, green apple and white peach, mineral finish.."
+            "explanation": "In Riesling, this component is present: Aromas of citrus. Official FUZE menu: 0,75L late harvest Gotberg – Pálava, Moravia."
           },
           {
             "id": "bile-ryzlink-gotberg-ing-4",
@@ -10693,7 +10784,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Melnik subregion",
               "Vibrant acidity and mineral notes"
             ],
-            "explanation": "In Riesling (Ryzlink rýnský) – Gotberg, this component is present: Green apple and white peach. Full recipe ingredients: Late harvest Gotberg – Pálava, Moravia. Fresh with vibrant acidity, aromas of citrus, green apple and white peach, mineral finish.."
+            "explanation": "In Riesling, this component is present: Green apple and white peach. Official FUZE menu: 0,75L late harvest Gotberg – Pálava, Moravia."
           },
           {
             "id": "bile-ryzlink-gotberg-ing-5",
@@ -10703,7 +10794,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Riesling (Ryzlink rýnský) – Gotberg, this component is present: Mineral finish. Full recipe ingredients: Late harvest Gotberg – Pálava, Moravia. Fresh with vibrant acidity, aromas of citrus, green apple and white peach, mineral finish.."
+            "explanation": "In Riesling, this component is present: Mineral finish. Official FUZE menu: 0,75L late harvest Gotberg – Pálava, Moravia."
           },
           {
             "id": "bile-ryzlink-gotberg-allergen-12",
@@ -10719,13 +10810,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "bile-pinot-gris-reisten",
-        "name": "Pinot Gris – Reisten",
+        "name": "Pinot Gris",
         "weight": "0.75l",
         "price": "479 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Late harvest Reisten – Mikulov region, Moravia. Full-bodied and smooth, subtle mineral touch on the palate, fresh grapefruit and orange zest.",
+        "description": "0,75L late harvest Reisten – Mikulov, Moravia",
         "notes": "Late harvest Reisten – Mikulov region, Moravia. Full-bodied and smooth, subtle mineral touch on the palate, fresh grapefruit and orange zest.",
         "questions": [
           {
@@ -10746,7 +10837,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Gotberg winery",
               "Kolby winery"
             ],
-            "explanation": "In Pinot Gris – Reisten, this component is present: Late harvest Reisten – Mikulov region. Full recipe ingredients: Late harvest Reisten – Mikulov region, Moravia. Full-bodied and smooth, subtle mineral touch on the palate, fresh grapefruit and orange zest.."
+            "explanation": "In Pinot Gris, this component is present: Late harvest Reisten – Mikulov region. Official FUZE menu: 0,75L late harvest Reisten – Mikulov, Moravia."
           },
           {
             "id": "bile-pinot-gris-reisten-ing-2",
@@ -10756,7 +10847,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kraus winery",
               "Michlovsky winery"
             ],
-            "explanation": "In Pinot Gris – Reisten, this component is present: Moravia. Full-bodied and smooth. Full recipe ingredients: Late harvest Reisten – Mikulov region, Moravia. Full-bodied and smooth, subtle mineral touch on the palate, fresh grapefruit and orange zest.."
+            "explanation": "In Pinot Gris, this component is present: Moravia. Full-bodied and smooth. Official FUZE menu: 0,75L late harvest Reisten – Mikulov, Moravia."
           },
           {
             "id": "bile-pinot-gris-reisten-ing-3",
@@ -10766,7 +10857,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Mikulov subregion",
               "Velke Pavlovice subregion"
             ],
-            "explanation": "In Pinot Gris – Reisten, this component is present: Subtle mineral touch on the palate. Full recipe ingredients: Late harvest Reisten – Mikulov region, Moravia. Full-bodied and smooth, subtle mineral touch on the palate, fresh grapefruit and orange zest.."
+            "explanation": "In Pinot Gris, this component is present: Subtle mineral touch on the palate. Official FUZE menu: 0,75L late harvest Reisten – Mikulov, Moravia."
           },
           {
             "id": "bile-pinot-gris-reisten-ing-4",
@@ -10776,7 +10867,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Melnik subregion",
               "Vibrant acidity and mineral notes"
             ],
-            "explanation": "In Pinot Gris – Reisten, this component is present: Fresh grapefruit and orange zest. Full recipe ingredients: Late harvest Reisten – Mikulov region, Moravia. Full-bodied and smooth, subtle mineral touch on the palate, fresh grapefruit and orange zest.."
+            "explanation": "In Pinot Gris, this component is present: Fresh grapefruit and orange zest. Official FUZE menu: 0,75L late harvest Reisten – Mikulov, Moravia."
           },
           {
             "id": "bile-pinot-gris-reisten-allergen-12",
@@ -10792,13 +10883,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "bile-hibernal-bilkovi",
-        "name": "Hibernal – Bílkovi",
+        "name": "Hibernal",
         "weight": "0.75l",
         "price": "495 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Late harvest Bílkovi – Velké Pavlovice region, Moravia. Juicy, aromas of blackcurrant and elderflower, fruity with pleasant acidity and spiced finish.",
+        "description": "0,75L late harvest Bílkovi – Velkopavlovicko, Moravia",
         "notes": "Late harvest Bílkovi – Velké Pavlovice region, Moravia. Juicy, aromas of blackcurrant and elderflower, fruity with pleasant acidity and spiced finish.",
         "questions": [
           {
@@ -10819,7 +10910,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Gotberg winery",
               "Kolby winery"
             ],
-            "explanation": "In Hibernal – Bílkovi, this component is present: Late harvest Bílkovi – Velké Pavlovice region. Full recipe ingredients: Late harvest Bílkovi – Velké Pavlovice region, Moravia. Juicy, aromas of blackcurrant and elderflower, fruity with pleasant acidity and spiced finish.."
+            "explanation": "In Hibernal, this component is present: Late harvest Bílkovi – Velké Pavlovice region. Official FUZE menu: 0,75L late harvest Bílkovi – Velkopavlovicko, Moravia."
           },
           {
             "id": "bile-hibernal-bilkovi-ing-2",
@@ -10829,7 +10920,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kraus winery",
               "Michlovsky winery"
             ],
-            "explanation": "In Hibernal – Bílkovi, this component is present: Moravia. Juicy. Full recipe ingredients: Late harvest Bílkovi – Velké Pavlovice region, Moravia. Juicy, aromas of blackcurrant and elderflower, fruity with pleasant acidity and spiced finish.."
+            "explanation": "In Hibernal, this component is present: Moravia. Juicy. Official FUZE menu: 0,75L late harvest Bílkovi – Velkopavlovicko, Moravia."
           },
           {
             "id": "bile-hibernal-bilkovi-ing-3",
@@ -10839,7 +10930,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Mikulov subregion",
               "Velke Pavlovice subregion"
             ],
-            "explanation": "In Hibernal – Bílkovi, this component is present: Aromas of blackcurrant and elderflower. Full recipe ingredients: Late harvest Bílkovi – Velké Pavlovice region, Moravia. Juicy, aromas of blackcurrant and elderflower, fruity with pleasant acidity and spiced finish.."
+            "explanation": "In Hibernal, this component is present: Aromas of blackcurrant and elderflower. Official FUZE menu: 0,75L late harvest Bílkovi – Velkopavlovicko, Moravia."
           },
           {
             "id": "bile-hibernal-bilkovi-ing-4",
@@ -10849,7 +10940,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Melnik subregion",
               "Vibrant acidity and mineral notes"
             ],
-            "explanation": "In Hibernal – Bílkovi, this component is present: Fruity with pleasant acidity and spiced finish. Full recipe ingredients: Late harvest Bílkovi – Velké Pavlovice region, Moravia. Juicy, aromas of blackcurrant and elderflower, fruity with pleasant acidity and spiced finish.."
+            "explanation": "In Hibernal, this component is present: Fruity with pleasant acidity and spiced finish. Official FUZE menu: 0,75L late harvest Bílkovi – Velkopavlovicko, Moravia."
           },
           {
             "id": "bile-hibernal-bilkovi-ing-5",
@@ -10859,7 +10950,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Hibernal – Bílkovi, this component is present: Fruity with pleasant acidity and spiced finish. Full recipe ingredients: Late harvest Bílkovi – Velké Pavlovice region, Moravia. Juicy, aromas of blackcurrant and elderflower, fruity with pleasant acidity and spiced finish.."
+            "explanation": "In Hibernal, this component is present: Fruity with pleasant acidity and spiced finish. Official FUZE menu: 0,75L late harvest Bílkovi – Velkopavlovicko, Moravia."
           },
           {
             "id": "bile-hibernal-bilkovi-allergen-12",
@@ -10875,13 +10966,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "bile-sauvignon-halkoci",
-        "name": "Sauvignon – Typik VOC Lukáš Halkoci",
+        "name": "Sauvignon",
         "weight": "0.75l",
         "price": "626 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Typik VOC Lukáš Halkoci – Znojmo region, Moravia. Lighter-bodied, refreshing finish, crisp aromas of gooseberry, blackcurrant and citrus.",
+        "description": "0,75L Typik VOC Lukáš Halkoci – Znojemsko, Moravia",
         "notes": "Typik VOC Lukáš Halkoci – Znojmo region, Moravia. Lighter-bodied, refreshing finish, crisp aromas of gooseberry, blackcurrant and citrus.",
         "questions": [
           {
@@ -10902,7 +10993,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Sauvignon – Typik VOC Lukáš Halkoci, this component is present: Typik VOC Lukáš Halkoci – Znojmo region. Full recipe ingredients: Typik VOC Lukáš Halkoci – Znojmo region, Moravia. Lighter-bodied, refreshing finish, crisp aromas of gooseberry, blackcurrant and citrus.."
+            "explanation": "In Sauvignon, this component is present: Typik VOC Lukáš Halkoci – Znojmo region. Official FUZE menu: 0,75L Typik VOC Lukáš Halkoci – Znojemsko, Moravia."
           },
           {
             "id": "bile-sauvignon-halkoci-ing-2",
@@ -10912,7 +11003,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kolby winery",
               "Kraus winery"
             ],
-            "explanation": "In Sauvignon – Typik VOC Lukáš Halkoci, this component is present: Moravia. Lighter-bodied. Full recipe ingredients: Typik VOC Lukáš Halkoci – Znojmo region, Moravia. Lighter-bodied, refreshing finish, crisp aromas of gooseberry, blackcurrant and citrus.."
+            "explanation": "In Sauvignon, this component is present: Moravia. Lighter-bodied. Official FUZE menu: 0,75L Typik VOC Lukáš Halkoci – Znojemsko, Moravia."
           },
           {
             "id": "bile-sauvignon-halkoci-ing-3",
@@ -10922,7 +11013,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Michlovsky winery",
               "Mikulov subregion"
             ],
-            "explanation": "In Sauvignon – Typik VOC Lukáš Halkoci, this component is present: Refreshing finish. Full recipe ingredients: Typik VOC Lukáš Halkoci – Znojmo region, Moravia. Lighter-bodied, refreshing finish, crisp aromas of gooseberry, blackcurrant and citrus.."
+            "explanation": "In Sauvignon, this component is present: Refreshing finish. Official FUZE menu: 0,75L Typik VOC Lukáš Halkoci – Znojemsko, Moravia."
           },
           {
             "id": "bile-sauvignon-halkoci-ing-4",
@@ -10932,7 +11023,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Velke Pavlovice subregion",
               "Melnik subregion"
             ],
-            "explanation": "In Sauvignon – Typik VOC Lukáš Halkoci, this component is present: Crisp aromas of gooseberry. Full recipe ingredients: Typik VOC Lukáš Halkoci – Znojmo region, Moravia. Lighter-bodied, refreshing finish, crisp aromas of gooseberry, blackcurrant and citrus.."
+            "explanation": "In Sauvignon, this component is present: Crisp aromas of gooseberry. Official FUZE menu: 0,75L Typik VOC Lukáš Halkoci – Znojemsko, Moravia."
           },
           {
             "id": "bile-sauvignon-halkoci-ing-5",
@@ -10942,7 +11033,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Vibrant acidity and mineral notes",
               "Late harvest"
             ],
-            "explanation": "In Sauvignon – Typik VOC Lukáš Halkoci, this component is present: Blackcurrant and citrus. Full recipe ingredients: Typik VOC Lukáš Halkoci – Znojmo region, Moravia. Lighter-bodied, refreshing finish, crisp aromas of gooseberry, blackcurrant and citrus.."
+            "explanation": "In Sauvignon, this component is present: Blackcurrant and citrus. Official FUZE menu: 0,75L Typik VOC Lukáš Halkoci – Znojemsko, Moravia."
           },
           {
             "id": "bile-sauvignon-halkoci-allergen-12",
@@ -10958,13 +11049,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "bile-ryzlink-vlassky-sukal",
-        "name": "Welschriesling (Ryzlink vlašský) – Milan Sůkal",
+        "name": "Welschriesling",
         "weight": "0.75l",
         "price": "660 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Late harvest Milan Sůkal – Slovácko, Moravia. Medium-bodied wine, pleasant acidity, notes of ripe citrus, pomelo and stone fruit.",
+        "description": "0,75L late harvest Milan Sůkal – Slovácko, Moravia",
         "notes": "Late harvest Milan Sůkal – Slovácko, Moravia. Medium-bodied wine, pleasant acidity, notes of ripe citrus, pomelo and stone fruit.",
         "questions": [
           {
@@ -10985,7 +11076,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Gotberg winery",
               "Kolby winery"
             ],
-            "explanation": "In Welschriesling (Ryzlink vlašský) – Milan Sůkal, this component is present: Late harvest Milan Sůkal – Slovácko. Full recipe ingredients: Late harvest Milan Sůkal – Slovácko, Moravia. Medium-bodied wine, pleasant acidity, notes of ripe citrus, pomelo and stone fruit.."
+            "explanation": "In Welschriesling, this component is present: Late harvest Milan Sůkal – Slovácko. Official FUZE menu: 0,75L late harvest Milan Sůkal – Slovácko, Moravia."
           },
           {
             "id": "bile-ryzlink-vlassky-sukal-ing-2",
@@ -10995,7 +11086,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kraus winery",
               "Michlovsky winery"
             ],
-            "explanation": "In Welschriesling (Ryzlink vlašský) – Milan Sůkal, this component is present: Moravia. Medium-bodied wine. Full recipe ingredients: Late harvest Milan Sůkal – Slovácko, Moravia. Medium-bodied wine, pleasant acidity, notes of ripe citrus, pomelo and stone fruit.."
+            "explanation": "In Welschriesling, this component is present: Moravia. Medium-bodied wine. Official FUZE menu: 0,75L late harvest Milan Sůkal – Slovácko, Moravia."
           },
           {
             "id": "bile-ryzlink-vlassky-sukal-ing-3",
@@ -11005,7 +11096,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Mikulov subregion",
               "Velke Pavlovice subregion"
             ],
-            "explanation": "In Welschriesling (Ryzlink vlašský) – Milan Sůkal, this component is present: Pleasant acidity. Full recipe ingredients: Late harvest Milan Sůkal – Slovácko, Moravia. Medium-bodied wine, pleasant acidity, notes of ripe citrus, pomelo and stone fruit.."
+            "explanation": "In Welschriesling, this component is present: Pleasant acidity. Official FUZE menu: 0,75L late harvest Milan Sůkal – Slovácko, Moravia."
           },
           {
             "id": "bile-ryzlink-vlassky-sukal-ing-4",
@@ -11015,7 +11106,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Melnik subregion",
               "Vibrant acidity and mineral notes"
             ],
-            "explanation": "In Welschriesling (Ryzlink vlašský) – Milan Sůkal, this component is present: Notes of ripe citrus. Full recipe ingredients: Late harvest Milan Sůkal – Slovácko, Moravia. Medium-bodied wine, pleasant acidity, notes of ripe citrus, pomelo and stone fruit.."
+            "explanation": "In Welschriesling, this component is present: Notes of ripe citrus. Official FUZE menu: 0,75L late harvest Milan Sůkal – Slovácko, Moravia."
           },
           {
             "id": "bile-ryzlink-vlassky-sukal-ing-5",
@@ -11025,7 +11116,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Welschriesling (Ryzlink vlašský) – Milan Sůkal, this component is present: Pomelo and stone fruit. Full recipe ingredients: Late harvest Milan Sůkal – Slovácko, Moravia. Medium-bodied wine, pleasant acidity, notes of ripe citrus, pomelo and stone fruit.."
+            "explanation": "In Welschriesling, this component is present: Pomelo and stone fruit. Official FUZE menu: 0,75L late harvest Milan Sůkal – Slovácko, Moravia."
           },
           {
             "id": "bile-ryzlink-vlassky-sukal-allergen-12",
@@ -11041,13 +11132,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "bile-palava-michlovsky",
-        "name": "Pálava – Vinselect Michlovský",
+        "name": "Pálava",
         "weight": "0.75l",
         "price": "506 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Late harvest Vinselect Michlovský – Lednice-Valtice area, Moravia. Delicate floral scent of orange blossoms and rosebuds, fresh palate of lychee and apple strudel.",
+        "description": "0,75L late harvest Vinselect Michlovský – Lednicko-Valtice area, Moravia",
         "notes": "Late harvest Vinselect Michlovský – Lednice-Valtice area, Moravia. Delicate floral scent of orange blossoms and rosebuds, fresh palate of lychee and apple strudel.",
         "questions": [
           {
@@ -11068,7 +11159,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Gotberg winery",
               "Kolby winery"
             ],
-            "explanation": "In Pálava – Vinselect Michlovský, this component is present: Late harvest Vinselect Michlovský – Lednice-Valtice area. Full recipe ingredients: Late harvest Vinselect Michlovský – Lednice-Valtice area, Moravia. Delicate floral scent of orange blossoms and rosebuds, fresh palate of lychee and apple strudel.."
+            "explanation": "In Pálava, this component is present: Late harvest Vinselect Michlovský – Lednice-Valtice area. Official FUZE menu: 0,75L late harvest Vinselect Michlovský – Lednicko-Valtice area, Moravia."
           },
           {
             "id": "bile-palava-michlovsky-ing-2",
@@ -11078,7 +11169,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kraus winery",
               "Michlovsky winery"
             ],
-            "explanation": "In Pálava – Vinselect Michlovský, this component is present: Moravia. Delicate floral scent of orange blossoms and rosebuds. Full recipe ingredients: Late harvest Vinselect Michlovský – Lednice-Valtice area, Moravia. Delicate floral scent of orange blossoms and rosebuds, fresh palate of lychee and apple strudel.."
+            "explanation": "In Pálava, this component is present: Moravia. Delicate floral scent of orange blossoms and rosebuds. Official FUZE menu: 0,75L late harvest Vinselect Michlovský – Lednicko-Valtice area, Moravia."
           },
           {
             "id": "bile-palava-michlovsky-ing-3",
@@ -11088,7 +11179,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Mikulov subregion",
               "Velke Pavlovice subregion"
             ],
-            "explanation": "In Pálava – Vinselect Michlovský, this component is present: Fresh palate of lychee and apple strudel. Full recipe ingredients: Late harvest Vinselect Michlovský – Lednice-Valtice area, Moravia. Delicate floral scent of orange blossoms and rosebuds, fresh palate of lychee and apple strudel.."
+            "explanation": "In Pálava, this component is present: Fresh palate of lychee and apple strudel. Official FUZE menu: 0,75L late harvest Vinselect Michlovský – Lednicko-Valtice area, Moravia."
           },
           {
             "id": "bile-palava-michlovsky-allergen-12",
@@ -11104,13 +11195,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "bile-poysdorfer-saurussel",
-        "name": "Poysdorfer Saurüssel – Hauser",
+        "name": "Poysdorfer Saurüssel",
         "weight": "0.75l",
         "price": "629 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Weinviertel, Austria. Grüner Veltliner, aromas of green apple, citrus peel and white pepper, bright acidity and subtle minerality.",
+        "description": "0,75L Grüner Veltliner, Hauser – Weinviertel, Austria",
         "notes": "Weinviertel, Austria. Grüner Veltliner, aromas of green apple, citrus peel and white pepper, bright acidity and subtle minerality.",
         "questions": [
           {
@@ -11131,7 +11222,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Poysdorfer Saurüssel – Hauser, this component is present: Weinviertel. Full recipe ingredients: Weinviertel, Austria. Grüner Veltliner, aromas of green apple, citrus peel and white pepper, bright acidity and subtle minerality.."
+            "explanation": "In Poysdorfer Saurüssel, this component is present: Weinviertel. Official FUZE menu: 0,75L Grüner Veltliner, Hauser – Weinviertel, Austria."
           },
           {
             "id": "bile-poysdorfer-saurussel-ing-2",
@@ -11141,7 +11232,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kolby winery",
               "Kraus winery"
             ],
-            "explanation": "In Poysdorfer Saurüssel – Hauser, this component is present: Austria. Grüner Veltliner. Full recipe ingredients: Weinviertel, Austria. Grüner Veltliner, aromas of green apple, citrus peel and white pepper, bright acidity and subtle minerality.."
+            "explanation": "In Poysdorfer Saurüssel, this component is present: Austria. Grüner Veltliner. Official FUZE menu: 0,75L Grüner Veltliner, Hauser – Weinviertel, Austria."
           },
           {
             "id": "bile-poysdorfer-saurussel-ing-3",
@@ -11151,7 +11242,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Michlovsky winery",
               "Mikulov subregion"
             ],
-            "explanation": "In Poysdorfer Saurüssel – Hauser, this component is present: Aromas of green apple. Full recipe ingredients: Weinviertel, Austria. Grüner Veltliner, aromas of green apple, citrus peel and white pepper, bright acidity and subtle minerality.."
+            "explanation": "In Poysdorfer Saurüssel, this component is present: Aromas of green apple. Official FUZE menu: 0,75L Grüner Veltliner, Hauser – Weinviertel, Austria."
           },
           {
             "id": "bile-poysdorfer-saurussel-ing-4",
@@ -11161,7 +11252,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Velke Pavlovice subregion",
               "Melnik subregion"
             ],
-            "explanation": "In Poysdorfer Saurüssel – Hauser, this component is present: Citrus peel and white pepper. Full recipe ingredients: Weinviertel, Austria. Grüner Veltliner, aromas of green apple, citrus peel and white pepper, bright acidity and subtle minerality.."
+            "explanation": "In Poysdorfer Saurüssel, this component is present: Citrus peel and white pepper. Official FUZE menu: 0,75L Grüner Veltliner, Hauser – Weinviertel, Austria."
           },
           {
             "id": "bile-poysdorfer-saurussel-ing-5",
@@ -11171,7 +11262,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Vibrant acidity and mineral notes",
               "Late harvest"
             ],
-            "explanation": "In Poysdorfer Saurüssel – Hauser, this component is present: Bright acidity and subtle minerality. Full recipe ingredients: Weinviertel, Austria. Grüner Veltliner, aromas of green apple, citrus peel and white pepper, bright acidity and subtle minerality.."
+            "explanation": "In Poysdorfer Saurüssel, this component is present: Bright acidity and subtle minerality. Official FUZE menu: 0,75L Grüner Veltliner, Hauser – Weinviertel, Austria."
           },
           {
             "id": "bile-poysdorfer-saurussel-allergen-12",
@@ -11187,13 +11278,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "bile-gruner-satzen-schwarzbock",
-        "name": "Grüner Veltliner Premium Ried Satzen – Schwarzbock",
+        "name": "Grüner Veltliner",
         "weight": "0.75l",
         "price": "723 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria. Rich golden color, intense aromas of ripe pears and citrus, elegant, mineral, peppery spiced finish.",
+        "description": "0,75L Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria",
         "notes": "Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria. Rich golden color, intense aromas of ripe pears and citrus, elegant, mineral, peppery spiced finish.",
         "questions": [
           {
@@ -11214,7 +11305,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Grüner Veltliner Premium Ried Satzen – Schwarzbock, this component is present: Premium Ried Satzen DAC Schwarzbock – Weinviertel. Full recipe ingredients: Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria. Rich golden color, intense aromas of ripe pears and citrus, elegant, mineral, peppery spiced finish.."
+            "explanation": "In Grüner Veltliner, this component is present: Premium Ried Satzen DAC Schwarzbock – Weinviertel. Official FUZE menu: 0,75L Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria."
           },
           {
             "id": "bile-gruner-satzen-schwarzbock-ing-2",
@@ -11224,7 +11315,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kolby winery",
               "Kraus winery"
             ],
-            "explanation": "In Grüner Veltliner Premium Ried Satzen – Schwarzbock, this component is present: Austria. Rich golden color. Full recipe ingredients: Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria. Rich golden color, intense aromas of ripe pears and citrus, elegant, mineral, peppery spiced finish.."
+            "explanation": "In Grüner Veltliner, this component is present: Austria. Rich golden color. Official FUZE menu: 0,75L Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria."
           },
           {
             "id": "bile-gruner-satzen-schwarzbock-ing-3",
@@ -11234,7 +11325,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Michlovsky winery",
               "Mikulov subregion"
             ],
-            "explanation": "In Grüner Veltliner Premium Ried Satzen – Schwarzbock, this component is present: Intense aromas of ripe pears and citrus. Full recipe ingredients: Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria. Rich golden color, intense aromas of ripe pears and citrus, elegant, mineral, peppery spiced finish.."
+            "explanation": "In Grüner Veltliner, this component is present: Intense aromas of ripe pears and citrus. Official FUZE menu: 0,75L Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria."
           },
           {
             "id": "bile-gruner-satzen-schwarzbock-ing-4",
@@ -11244,7 +11335,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Velke Pavlovice subregion",
               "Melnik subregion"
             ],
-            "explanation": "In Grüner Veltliner Premium Ried Satzen – Schwarzbock, this component is present: Elegant. Full recipe ingredients: Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria. Rich golden color, intense aromas of ripe pears and citrus, elegant, mineral, peppery spiced finish.."
+            "explanation": "In Grüner Veltliner, this component is present: Elegant. Official FUZE menu: 0,75L Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria."
           },
           {
             "id": "bile-gruner-satzen-schwarzbock-ing-5",
@@ -11254,7 +11345,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Late harvest",
               "Aging in oak barrels"
             ],
-            "explanation": "In Grüner Veltliner Premium Ried Satzen – Schwarzbock, this component is present: Mineral. Full recipe ingredients: Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria. Rich golden color, intense aromas of ripe pears and citrus, elegant, mineral, peppery spiced finish.."
+            "explanation": "In Grüner Veltliner, this component is present: Mineral. Official FUZE menu: 0,75L Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria."
           },
           {
             "id": "bile-gruner-satzen-schwarzbock-ing-6",
@@ -11264,7 +11355,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Gotberg winery",
               "Kolby winery"
             ],
-            "explanation": "In Grüner Veltliner Premium Ried Satzen – Schwarzbock, this component is present: Peppery spiced finish. Full recipe ingredients: Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria. Rich golden color, intense aromas of ripe pears and citrus, elegant, mineral, peppery spiced finish.."
+            "explanation": "In Grüner Veltliner, this component is present: Peppery spiced finish. Official FUZE menu: 0,75L Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria."
           },
           {
             "id": "bile-gruner-satzen-schwarzbock-allergen-12",
@@ -11280,13 +11371,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "bile-riesling-eva-fricke",
-        "name": "Riesling Rheingau QbA Dry – Eva Fricke",
+        "name": "Riesling Rheingau",
         "weight": "0.75l",
         "price": "999 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Rheingau, Germany. Elegant, aromas of lime, green apple and white peaches with mineral slate undertones.",
+        "description": "0,75L QbA Dry Eva Fricke – Rheingau, Germany",
         "notes": "Rheingau, Germany. Elegant, aromas of lime, green apple and white peaches with mineral slate undertones.",
         "questions": [
           {
@@ -11307,7 +11398,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Riesling Rheingau QbA Dry – Eva Fricke, this component is present: Rheingau. Full recipe ingredients: Rheingau, Germany. Elegant, aromas of lime, green apple and white peaches with mineral slate undertones.."
+            "explanation": "In Riesling Rheingau, this component is present: Rheingau. Official FUZE menu: 0,75L QbA Dry Eva Fricke – Rheingau, Germany."
           },
           {
             "id": "bile-riesling-eva-fricke-ing-2",
@@ -11317,7 +11408,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kolby winery",
               "Kraus winery"
             ],
-            "explanation": "In Riesling Rheingau QbA Dry – Eva Fricke, this component is present: Germany. Elegant. Full recipe ingredients: Rheingau, Germany. Elegant, aromas of lime, green apple and white peaches with mineral slate undertones.."
+            "explanation": "In Riesling Rheingau, this component is present: Germany. Elegant. Official FUZE menu: 0,75L QbA Dry Eva Fricke – Rheingau, Germany."
           },
           {
             "id": "bile-riesling-eva-fricke-ing-3",
@@ -11327,7 +11418,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Michlovsky winery",
               "Mikulov subregion"
             ],
-            "explanation": "In Riesling Rheingau QbA Dry – Eva Fricke, this component is present: Aromas of lime. Full recipe ingredients: Rheingau, Germany. Elegant, aromas of lime, green apple and white peaches with mineral slate undertones.."
+            "explanation": "In Riesling Rheingau, this component is present: Aromas of lime. Official FUZE menu: 0,75L QbA Dry Eva Fricke – Rheingau, Germany."
           },
           {
             "id": "bile-riesling-eva-fricke-ing-4",
@@ -11337,7 +11428,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Velke Pavlovice subregion",
               "Melnik subregion"
             ],
-            "explanation": "In Riesling Rheingau QbA Dry – Eva Fricke, this component is present: Green apple and white peaches with mineral slate undertones. Full recipe ingredients: Rheingau, Germany. Elegant, aromas of lime, green apple and white peaches with mineral slate undertones.."
+            "explanation": "In Riesling Rheingau, this component is present: Green apple and white peaches with mineral slate undertones. Official FUZE menu: 0,75L QbA Dry Eva Fricke – Rheingau, Germany."
           },
           {
             "id": "bile-riesling-eva-fricke-ing-5",
@@ -11347,7 +11438,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Vibrant acidity and mineral notes",
               "Late harvest"
             ],
-            "explanation": "In Riesling Rheingau QbA Dry – Eva Fricke, this component is present: Green apple and white peaches with mineral slate undertones. Full recipe ingredients: Rheingau, Germany. Elegant, aromas of lime, green apple and white peaches with mineral slate undertones.."
+            "explanation": "In Riesling Rheingau, this component is present: Green apple and white peaches with mineral slate undertones. Official FUZE menu: 0,75L QbA Dry Eva Fricke – Rheingau, Germany."
           },
           {
             "id": "bile-riesling-eva-fricke-allergen-12",
@@ -11363,13 +11454,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "bile-riesling-gunderloch-red-stone",
-        "name": "Riesling Red Stone QbA Dry – Gunderloch",
+        "name": "Riesling",
         "weight": "0.75l",
         "price": "595 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Rheinhessen, Germany. Juicy, aromas of ripe citrus, vineyard peaches and herbs, mineral trace of red slate, spicy finish.",
+        "description": "0,75L Red Stone QbA dry Gunderloch – Rheinhessen, Germany",
         "notes": "Rheinhessen, Germany. Juicy, aromas of ripe citrus, vineyard peaches and herbs, mineral trace of red slate, spicy finish.",
         "questions": [
           {
@@ -11390,7 +11481,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Riesling Red Stone QbA Dry – Gunderloch, this component is present: Rheinhessen. Full recipe ingredients: Rheinhessen, Germany. Juicy, aromas of ripe citrus, vineyard peaches and herbs, mineral trace of red slate, spicy finish.."
+            "explanation": "In Riesling, this component is present: Rheinhessen. Official FUZE menu: 0,75L Red Stone QbA dry Gunderloch – Rheinhessen, Germany."
           },
           {
             "id": "bile-riesling-gunderloch-red-stone-ing-2",
@@ -11400,7 +11491,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kolby winery",
               "Kraus winery"
             ],
-            "explanation": "In Riesling Red Stone QbA Dry – Gunderloch, this component is present: Germany. Juicy. Full recipe ingredients: Rheinhessen, Germany. Juicy, aromas of ripe citrus, vineyard peaches and herbs, mineral trace of red slate, spicy finish.."
+            "explanation": "In Riesling, this component is present: Germany. Juicy. Official FUZE menu: 0,75L Red Stone QbA dry Gunderloch – Rheinhessen, Germany."
           },
           {
             "id": "bile-riesling-gunderloch-red-stone-ing-3",
@@ -11410,7 +11501,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Michlovsky winery",
               "Mikulov subregion"
             ],
-            "explanation": "In Riesling Red Stone QbA Dry – Gunderloch, this component is present: Aromas of ripe citrus. Full recipe ingredients: Rheinhessen, Germany. Juicy, aromas of ripe citrus, vineyard peaches and herbs, mineral trace of red slate, spicy finish.."
+            "explanation": "In Riesling, this component is present: Aromas of ripe citrus. Official FUZE menu: 0,75L Red Stone QbA dry Gunderloch – Rheinhessen, Germany."
           },
           {
             "id": "bile-riesling-gunderloch-red-stone-ing-4",
@@ -11420,7 +11511,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Velke Pavlovice subregion",
               "Melnik subregion"
             ],
-            "explanation": "In Riesling Red Stone QbA Dry – Gunderloch, this component is present: Vineyard peaches and herbs. Full recipe ingredients: Rheinhessen, Germany. Juicy, aromas of ripe citrus, vineyard peaches and herbs, mineral trace of red slate, spicy finish.."
+            "explanation": "In Riesling, this component is present: Vineyard peaches and herbs. Official FUZE menu: 0,75L Red Stone QbA dry Gunderloch – Rheinhessen, Germany."
           },
           {
             "id": "bile-riesling-gunderloch-red-stone-ing-5",
@@ -11430,7 +11521,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Vibrant acidity and mineral notes",
               "Late harvest"
             ],
-            "explanation": "In Riesling Red Stone QbA Dry – Gunderloch, this component is present: Mineral trace of red slate. Full recipe ingredients: Rheinhessen, Germany. Juicy, aromas of ripe citrus, vineyard peaches and herbs, mineral trace of red slate, spicy finish.."
+            "explanation": "In Riesling, this component is present: Mineral trace of red slate. Official FUZE menu: 0,75L Red Stone QbA dry Gunderloch – Rheinhessen, Germany."
           },
           {
             "id": "bile-riesling-gunderloch-red-stone-ing-6",
@@ -11440,7 +11531,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Riesling Red Stone QbA Dry – Gunderloch, this component is present: Spicy finish. Full recipe ingredients: Rheinhessen, Germany. Juicy, aromas of ripe citrus, vineyard peaches and herbs, mineral trace of red slate, spicy finish.."
+            "explanation": "In Riesling, this component is present: Spicy finish. Official FUZE menu: 0,75L Red Stone QbA dry Gunderloch – Rheinhessen, Germany."
           },
           {
             "id": "bile-riesling-gunderloch-red-stone-allergen-12",
@@ -11456,13 +11547,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "bile-riesling-fritz-haag",
-        "name": "Riesling Tradition Brauneberg – Fritz Haag",
+        "name": "Riesling",
         "weight": "0.75l",
         "price": "975 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Mosel, Germany. Golden hue, intense citrus aromas, vibrant and harmonious palate with a hint of acacia honey.",
+        "description": "0,75L Tradition Brauneberg Fritz Haag – Mosel, Germany",
         "notes": "Mosel, Germany. Golden hue, intense citrus aromas, vibrant and harmonious palate with a hint of acacia honey.",
         "questions": [
           {
@@ -11483,7 +11574,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Riesling Tradition Brauneberg – Fritz Haag, this component is present: Mosel. Full recipe ingredients: Mosel, Germany. Golden hue, intense citrus aromas, vibrant and harmonious palate with a hint of acacia honey.."
+            "explanation": "In Riesling, this component is present: Mosel. Official FUZE menu: 0,75L Tradition Brauneberg Fritz Haag – Mosel, Germany."
           },
           {
             "id": "bile-riesling-fritz-haag-ing-2",
@@ -11493,7 +11584,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kolby winery",
               "Kraus winery"
             ],
-            "explanation": "In Riesling Tradition Brauneberg – Fritz Haag, this component is present: Germany. Golden hue. Full recipe ingredients: Mosel, Germany. Golden hue, intense citrus aromas, vibrant and harmonious palate with a hint of acacia honey.."
+            "explanation": "In Riesling, this component is present: Germany. Golden hue. Official FUZE menu: 0,75L Tradition Brauneberg Fritz Haag – Mosel, Germany."
           },
           {
             "id": "bile-riesling-fritz-haag-ing-3",
@@ -11503,7 +11594,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Michlovsky winery",
               "Mikulov subregion"
             ],
-            "explanation": "In Riesling Tradition Brauneberg – Fritz Haag, this component is present: Intense citrus aromas. Full recipe ingredients: Mosel, Germany. Golden hue, intense citrus aromas, vibrant and harmonious palate with a hint of acacia honey.."
+            "explanation": "In Riesling, this component is present: Intense citrus aromas. Official FUZE menu: 0,75L Tradition Brauneberg Fritz Haag – Mosel, Germany."
           },
           {
             "id": "bile-riesling-fritz-haag-ing-4",
@@ -11513,7 +11604,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Velke Pavlovice subregion",
               "Melnik subregion"
             ],
-            "explanation": "In Riesling Tradition Brauneberg – Fritz Haag, this component is present: Vibrant and harmonious palate with a hint of acacia honey. Full recipe ingredients: Mosel, Germany. Golden hue, intense citrus aromas, vibrant and harmonious palate with a hint of acacia honey.."
+            "explanation": "In Riesling, this component is present: Vibrant and harmonious palate with a hint of acacia honey. Official FUZE menu: 0,75L Tradition Brauneberg Fritz Haag – Mosel, Germany."
           },
           {
             "id": "bile-riesling-fritz-haag-ing-5",
@@ -11523,7 +11614,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Vibrant acidity and mineral notes",
               "Late harvest"
             ],
-            "explanation": "In Riesling Tradition Brauneberg – Fritz Haag, this component is present: Vibrant and harmonious palate with a hint of acacia honey. Full recipe ingredients: Mosel, Germany. Golden hue, intense citrus aromas, vibrant and harmonious palate with a hint of acacia honey.."
+            "explanation": "In Riesling, this component is present: Vibrant and harmonious palate with a hint of acacia honey. Official FUZE menu: 0,75L Tradition Brauneberg Fritz Haag – Mosel, Germany."
           },
           {
             "id": "bile-riesling-fritz-haag-ing-6",
@@ -11533,7 +11624,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Riesling Tradition Brauneberg – Fritz Haag, this component is present: Vibrant and harmonious palate with a hint of acacia honey. Full recipe ingredients: Mosel, Germany. Golden hue, intense citrus aromas, vibrant and harmonious palate with a hint of acacia honey.."
+            "explanation": "In Riesling, this component is present: Vibrant and harmonious palate with a hint of acacia honey. Official FUZE menu: 0,75L Tradition Brauneberg Fritz Haag – Mosel, Germany."
           },
           {
             "id": "bile-riesling-fritz-haag-allergen-12",
@@ -11549,13 +11640,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "bile-weisser-burgunder-philipp-kuhn",
-        "name": "Weisser Burgunder (Pinot Blanc) – Philipp Kuhn",
+        "name": "Weisser Burgunder",
         "weight": "0.75l",
         "price": "725 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Pfalz, Germany. Pinot Blanc, flavors of roasted almonds, dried pears, walnuts and crisp minerality.",
+        "description": "0,75L Pinot Blanc, Tradition Trocken Philipp Kuhn – Pfalz, Germany",
         "notes": "Pfalz, Germany. Pinot Blanc, flavors of roasted almonds, dried pears, walnuts and crisp minerality.",
         "questions": [
           {
@@ -11576,7 +11667,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Weisser Burgunder (Pinot Blanc) – Philipp Kuhn, this component is present: Pfalz. Full recipe ingredients: Pfalz, Germany. Pinot Blanc, flavors of roasted almonds, dried pears, walnuts and crisp minerality.."
+            "explanation": "In Weisser Burgunder, this component is present: Pfalz. Official FUZE menu: 0,75L Pinot Blanc, Tradition Trocken Philipp Kuhn – Pfalz, Germany."
           },
           {
             "id": "bile-weisser-burgunder-philipp-kuhn-ing-2",
@@ -11586,7 +11677,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kolby winery",
               "Kraus winery"
             ],
-            "explanation": "In Weisser Burgunder (Pinot Blanc) – Philipp Kuhn, this component is present: Germany. Pinot Blanc. Full recipe ingredients: Pfalz, Germany. Pinot Blanc, flavors of roasted almonds, dried pears, walnuts and crisp minerality.."
+            "explanation": "In Weisser Burgunder, this component is present: Germany. Pinot Blanc. Official FUZE menu: 0,75L Pinot Blanc, Tradition Trocken Philipp Kuhn – Pfalz, Germany."
           },
           {
             "id": "bile-weisser-burgunder-philipp-kuhn-ing-3",
@@ -11596,7 +11687,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Michlovsky winery",
               "Mikulov subregion"
             ],
-            "explanation": "In Weisser Burgunder (Pinot Blanc) – Philipp Kuhn, this component is present: Flavors of roasted almonds. Full recipe ingredients: Pfalz, Germany. Pinot Blanc, flavors of roasted almonds, dried pears, walnuts and crisp minerality.."
+            "explanation": "In Weisser Burgunder, this component is present: Flavors of roasted almonds. Official FUZE menu: 0,75L Pinot Blanc, Tradition Trocken Philipp Kuhn – Pfalz, Germany."
           },
           {
             "id": "bile-weisser-burgunder-philipp-kuhn-ing-4",
@@ -11606,7 +11697,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Velke Pavlovice subregion",
               "Melnik subregion"
             ],
-            "explanation": "In Weisser Burgunder (Pinot Blanc) – Philipp Kuhn, this component is present: Dried pears. Full recipe ingredients: Pfalz, Germany. Pinot Blanc, flavors of roasted almonds, dried pears, walnuts and crisp minerality.."
+            "explanation": "In Weisser Burgunder, this component is present: Dried pears. Official FUZE menu: 0,75L Pinot Blanc, Tradition Trocken Philipp Kuhn – Pfalz, Germany."
           },
           {
             "id": "bile-weisser-burgunder-philipp-kuhn-ing-5",
@@ -11616,7 +11707,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Vibrant acidity and mineral notes",
               "Late harvest"
             ],
-            "explanation": "In Weisser Burgunder (Pinot Blanc) – Philipp Kuhn, this component is present: Walnuts and crisp minerality. Full recipe ingredients: Pfalz, Germany. Pinot Blanc, flavors of roasted almonds, dried pears, walnuts and crisp minerality.."
+            "explanation": "In Weisser Burgunder, this component is present: Walnuts and crisp minerality. Official FUZE menu: 0,75L Pinot Blanc, Tradition Trocken Philipp Kuhn – Pfalz, Germany."
           },
           {
             "id": "bile-weisser-burgunder-philipp-kuhn-allergen-12",
@@ -11632,13 +11723,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "bile-sauvignon-lapis-luna",
-        "name": "Sauvignon Blanc – Lapis Luna",
+        "name": "Sauvignon Blanc",
         "weight": "0.75l",
         "price": "789 CZK",
         "allergens": [
           "12"
         ],
-        "description": "North Coast, California. Fuller-bodied, zesty acidity, fruity varietal style, ripe white peach and tropical fruit on the palate.",
+        "description": "0,75L Lapis Luna - North Coast, California",
         "notes": "North Coast, California. Fuller-bodied, zesty acidity, fruity varietal style, ripe white peach and tropical fruit on the palate.",
         "questions": [
           {
@@ -11659,7 +11750,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Sauvignon Blanc – Lapis Luna, this component is present: North Coast. Full recipe ingredients: North Coast, California. Fuller-bodied, zesty acidity, fruity varietal style, ripe white peach and tropical fruit on the palate.."
+            "explanation": "In Sauvignon Blanc, this component is present: North Coast. Official FUZE menu: 0,75L Lapis Luna - North Coast, California."
           },
           {
             "id": "bile-sauvignon-lapis-luna-ing-2",
@@ -11669,7 +11760,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kolby winery",
               "Kraus winery"
             ],
-            "explanation": "In Sauvignon Blanc – Lapis Luna, this component is present: California. Fuller-bodied. Full recipe ingredients: North Coast, California. Fuller-bodied, zesty acidity, fruity varietal style, ripe white peach and tropical fruit on the palate.."
+            "explanation": "In Sauvignon Blanc, this component is present: California. Fuller-bodied. Official FUZE menu: 0,75L Lapis Luna - North Coast, California."
           },
           {
             "id": "bile-sauvignon-lapis-luna-ing-3",
@@ -11679,7 +11770,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Michlovsky winery",
               "Mikulov subregion"
             ],
-            "explanation": "In Sauvignon Blanc – Lapis Luna, this component is present: Zesty acidity. Full recipe ingredients: North Coast, California. Fuller-bodied, zesty acidity, fruity varietal style, ripe white peach and tropical fruit on the palate.."
+            "explanation": "In Sauvignon Blanc, this component is present: Zesty acidity. Official FUZE menu: 0,75L Lapis Luna - North Coast, California."
           },
           {
             "id": "bile-sauvignon-lapis-luna-ing-4",
@@ -11689,7 +11780,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Velke Pavlovice subregion",
               "Melnik subregion"
             ],
-            "explanation": "In Sauvignon Blanc – Lapis Luna, this component is present: Fruity varietal style. Full recipe ingredients: North Coast, California. Fuller-bodied, zesty acidity, fruity varietal style, ripe white peach and tropical fruit on the palate.."
+            "explanation": "In Sauvignon Blanc, this component is present: Fruity varietal style. Official FUZE menu: 0,75L Lapis Luna - North Coast, California."
           },
           {
             "id": "bile-sauvignon-lapis-luna-ing-5",
@@ -11699,7 +11790,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Vibrant acidity and mineral notes",
               "Late harvest"
             ],
-            "explanation": "In Sauvignon Blanc – Lapis Luna, this component is present: Ripe white peach and tropical fruit on the palate. Full recipe ingredients: North Coast, California. Fuller-bodied, zesty acidity, fruity varietal style, ripe white peach and tropical fruit on the palate.."
+            "explanation": "In Sauvignon Blanc, this component is present: Ripe white peach and tropical fruit on the palate. Official FUZE menu: 0,75L Lapis Luna - North Coast, California."
           },
           {
             "id": "bile-sauvignon-lapis-luna-allergen-12",
@@ -11715,13 +11806,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "bile-chardonnay-knotty-vines",
-        "name": "Chardonnay – Knotty Vines",
+        "name": "Chardonnay",
         "weight": "0.75l",
         "price": "975 CZK",
         "allergens": [
           "12"
         ],
-        "description": "California. Full-bodied oak-aged wine, juicy with an elegant finish, flavors of tropical fruit, baking spices and minerality.",
+        "description": "0,75L Knotty Vines – California",
         "notes": "California. Full-bodied oak-aged wine, juicy with an elegant finish, flavors of tropical fruit, baking spices and minerality.",
         "questions": [
           {
@@ -11742,7 +11833,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Chardonnay – Knotty Vines, this component is present: California. Full-bodied oak-aged wine. Full recipe ingredients: California. Full-bodied oak-aged wine, juicy with an elegant finish, flavors of tropical fruit, baking spices and minerality.."
+            "explanation": "In Chardonnay, this component is present: California. Full-bodied oak-aged wine. Official FUZE menu: 0,75L Knotty Vines – California."
           },
           {
             "id": "bile-chardonnay-knotty-vines-ing-2",
@@ -11752,7 +11843,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kolby winery",
               "Kraus winery"
             ],
-            "explanation": "In Chardonnay – Knotty Vines, this component is present: Juicy with an elegant finish. Full recipe ingredients: California. Full-bodied oak-aged wine, juicy with an elegant finish, flavors of tropical fruit, baking spices and minerality.."
+            "explanation": "In Chardonnay, this component is present: Juicy with an elegant finish. Official FUZE menu: 0,75L Knotty Vines – California."
           },
           {
             "id": "bile-chardonnay-knotty-vines-ing-3",
@@ -11762,7 +11853,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Michlovsky winery",
               "Mikulov subregion"
             ],
-            "explanation": "In Chardonnay – Knotty Vines, this component is present: Flavors of tropical fruit. Full recipe ingredients: California. Full-bodied oak-aged wine, juicy with an elegant finish, flavors of tropical fruit, baking spices and minerality.."
+            "explanation": "In Chardonnay, this component is present: Flavors of tropical fruit. Official FUZE menu: 0,75L Knotty Vines – California."
           },
           {
             "id": "bile-chardonnay-knotty-vines-ing-4",
@@ -11772,7 +11863,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Velke Pavlovice subregion",
               "Melnik subregion"
             ],
-            "explanation": "In Chardonnay – Knotty Vines, this component is present: Baking spices and minerality. Full recipe ingredients: California. Full-bodied oak-aged wine, juicy with an elegant finish, flavors of tropical fruit, baking spices and minerality.."
+            "explanation": "In Chardonnay, this component is present: Baking spices and minerality. Official FUZE menu: 0,75L Knotty Vines – California."
           },
           {
             "id": "bile-chardonnay-knotty-vines-ing-5",
@@ -11782,7 +11873,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Vibrant acidity and mineral notes",
               "Late harvest"
             ],
-            "explanation": "In Chardonnay – Knotty Vines, this component is present: Baking spices and minerality. Full recipe ingredients: California. Full-bodied oak-aged wine, juicy with an elegant finish, flavors of tropical fruit, baking spices and minerality.."
+            "explanation": "In Chardonnay, this component is present: Baking spices and minerality. Official FUZE menu: 0,75L Knotty Vines – California."
           },
           {
             "id": "bile-chardonnay-knotty-vines-allergen-12",
@@ -11807,13 +11898,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
     "items": [
       {
         "id": "ruzove-merlot-rose-bilkovi",
-        "name": "Merlot Rosé – Bílkovi",
+        "name": "Merlot Rosé",
         "weight": "0.75l",
         "price": "405 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Late harvest Bílkovi – Velké Pavlovice region, Moravia. Highly drinkable, aromas of raspberries, strawberries and cherries, fruity palate with hints of cream.",
+        "description": "0,75L late harvest Bílkovi – Velkopavlovicko, Moravia",
         "notes": "Late harvest Bílkovi – Velké Pavlovice region, Moravia. Highly drinkable, aromas of raspberries, strawberries and cherries, fruity palate with hints of cream.",
         "questions": [
           {
@@ -11834,7 +11925,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Gotberg winery",
               "Kolby winery"
             ],
-            "explanation": "In Merlot Rosé – Bílkovi, this component is present: Late harvest Bílkovi – Velké Pavlovice region. Full recipe ingredients: Late harvest Bílkovi – Velké Pavlovice region, Moravia. Highly drinkable, aromas of raspberries, strawberries and cherries, fruity palate with hints of cream.."
+            "explanation": "In Merlot Rosé, this component is present: Late harvest Bílkovi – Velké Pavlovice region. Official FUZE menu: 0,75L late harvest Bílkovi – Velkopavlovicko, Moravia."
           },
           {
             "id": "ruzove-merlot-rose-bilkovi-ing-2",
@@ -11844,7 +11935,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kraus winery",
               "Michlovsky winery"
             ],
-            "explanation": "In Merlot Rosé – Bílkovi, this component is present: Moravia. Highly drinkable. Full recipe ingredients: Late harvest Bílkovi – Velké Pavlovice region, Moravia. Highly drinkable, aromas of raspberries, strawberries and cherries, fruity palate with hints of cream.."
+            "explanation": "In Merlot Rosé, this component is present: Moravia. Highly drinkable. Official FUZE menu: 0,75L late harvest Bílkovi – Velkopavlovicko, Moravia."
           },
           {
             "id": "ruzove-merlot-rose-bilkovi-ing-3",
@@ -11854,7 +11945,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Mikulov subregion",
               "Velke Pavlovice subregion"
             ],
-            "explanation": "In Merlot Rosé – Bílkovi, this component is present: Aromas of raspberries. Full recipe ingredients: Late harvest Bílkovi – Velké Pavlovice region, Moravia. Highly drinkable, aromas of raspberries, strawberries and cherries, fruity palate with hints of cream.."
+            "explanation": "In Merlot Rosé, this component is present: Aromas of raspberries. Official FUZE menu: 0,75L late harvest Bílkovi – Velkopavlovicko, Moravia."
           },
           {
             "id": "ruzove-merlot-rose-bilkovi-ing-4",
@@ -11864,7 +11955,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Melnik subregion",
               "Vibrant acidity and mineral notes"
             ],
-            "explanation": "In Merlot Rosé – Bílkovi, this component is present: Strawberries and cherries. Full recipe ingredients: Late harvest Bílkovi – Velké Pavlovice region, Moravia. Highly drinkable, aromas of raspberries, strawberries and cherries, fruity palate with hints of cream.."
+            "explanation": "In Merlot Rosé, this component is present: Strawberries and cherries. Official FUZE menu: 0,75L late harvest Bílkovi – Velkopavlovicko, Moravia."
           },
           {
             "id": "ruzove-merlot-rose-bilkovi-ing-5",
@@ -11874,7 +11965,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Merlot Rosé – Bílkovi, this component is present: Fruity palate with hints of cream. Full recipe ingredients: Late harvest Bílkovi – Velké Pavlovice region, Moravia. Highly drinkable, aromas of raspberries, strawberries and cherries, fruity palate with hints of cream.."
+            "explanation": "In Merlot Rosé, this component is present: Fruity palate with hints of cream. Official FUZE menu: 0,75L late harvest Bílkovi – Velkopavlovicko, Moravia."
           },
           {
             "id": "ruzove-merlot-rose-bilkovi-allergen-12",
@@ -11899,13 +11990,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
     "items": [
       {
         "id": "cervene-pinot-noir-rouci-kraus",
-        "name": "Pinot Noir Roučí Malé – Kraus",
+        "name": "Pinot Noir",
         "weight": "0.75l",
         "price": "425 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Mělník region, Bohemia. Light-bodied red wine, flavors of wild strawberries and red summer garden fruit.",
+        "description": "0,75L Roučí Malé Kraus – Mělnicko, Bohemia",
         "notes": "Mělník region, Bohemia. Light-bodied red wine, flavors of wild strawberries and red summer garden fruit.",
         "questions": [
           {
@@ -11926,7 +12017,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Pinot Noir Roučí Malé – Kraus, this component is present: Mělník region. Full recipe ingredients: Mělník region, Bohemia. Light-bodied red wine, flavors of wild strawberries and red summer garden fruit.."
+            "explanation": "In Pinot Noir, this component is present: Mělník region. Official FUZE menu: 0,75L Roučí Malé Kraus – Mělnicko, Bohemia."
           },
           {
             "id": "cervene-pinot-noir-rouci-kraus-ing-2",
@@ -11936,7 +12027,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kolby winery",
               "Kraus winery"
             ],
-            "explanation": "In Pinot Noir Roučí Malé – Kraus, this component is present: Bohemia. Light-bodied red wine. Full recipe ingredients: Mělník region, Bohemia. Light-bodied red wine, flavors of wild strawberries and red summer garden fruit.."
+            "explanation": "In Pinot Noir, this component is present: Bohemia. Light-bodied red wine. Official FUZE menu: 0,75L Roučí Malé Kraus – Mělnicko, Bohemia."
           },
           {
             "id": "cervene-pinot-noir-rouci-kraus-ing-3",
@@ -11946,7 +12037,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Michlovsky winery",
               "Mikulov subregion"
             ],
-            "explanation": "In Pinot Noir Roučí Malé – Kraus, this component is present: Flavors of wild strawberries and red summer garden fruit. Full recipe ingredients: Mělník region, Bohemia. Light-bodied red wine, flavors of wild strawberries and red summer garden fruit.."
+            "explanation": "In Pinot Noir, this component is present: Flavors of wild strawberries and red summer garden fruit. Official FUZE menu: 0,75L Roučí Malé Kraus – Mělnicko, Bohemia."
           },
           {
             "id": "cervene-pinot-noir-rouci-kraus-allergen-12",
@@ -11962,13 +12053,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "cervene-dornfelder-bilkovi",
-        "name": "Dornfelder – Bílkovi",
+        "name": "Dornfelder",
         "weight": "0.75l",
         "price": "419 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Velké Pavlovice region, Moravia. 12 months oak aging, blackberry bouquet, full and harmonious palate of currants, cherries and raspberries.",
+        "description": "0,75L Bílkovi - Velkopavlovicko, Moravia",
         "notes": "Velké Pavlovice region, Moravia. 12 months oak aging, blackberry bouquet, full and harmonious palate of currants, cherries and raspberries.",
         "questions": [
           {
@@ -11989,7 +12080,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Dornfelder – Bílkovi, this component is present: Velké Pavlovice region. Full recipe ingredients: Velké Pavlovice region, Moravia. 12 months oak aging, blackberry bouquet, full and harmonious palate of currants, cherries and raspberries.."
+            "explanation": "In Dornfelder, this component is present: Velké Pavlovice region. Official FUZE menu: 0,75L Bílkovi - Velkopavlovicko, Moravia."
           },
           {
             "id": "cervene-dornfelder-bilkovi-ing-2",
@@ -11999,7 +12090,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kolby winery",
               "Kraus winery"
             ],
-            "explanation": "In Dornfelder – Bílkovi, this component is present: Moravia. 12 months oak aging. Full recipe ingredients: Velké Pavlovice region, Moravia. 12 months oak aging, blackberry bouquet, full and harmonious palate of currants, cherries and raspberries.."
+            "explanation": "In Dornfelder, this component is present: Moravia. 12 months oak aging. Official FUZE menu: 0,75L Bílkovi - Velkopavlovicko, Moravia."
           },
           {
             "id": "cervene-dornfelder-bilkovi-ing-3",
@@ -12009,7 +12100,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Michlovsky winery",
               "Mikulov subregion"
             ],
-            "explanation": "In Dornfelder – Bílkovi, this component is present: Blackberry bouquet. Full recipe ingredients: Velké Pavlovice region, Moravia. 12 months oak aging, blackberry bouquet, full and harmonious palate of currants, cherries and raspberries.."
+            "explanation": "In Dornfelder, this component is present: Blackberry bouquet. Official FUZE menu: 0,75L Bílkovi - Velkopavlovicko, Moravia."
           },
           {
             "id": "cervene-dornfelder-bilkovi-ing-4",
@@ -12019,7 +12110,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Velke Pavlovice subregion",
               "Melnik subregion"
             ],
-            "explanation": "In Dornfelder – Bílkovi, this component is present: Full and harmonious palate of currants. Full recipe ingredients: Velké Pavlovice region, Moravia. 12 months oak aging, blackberry bouquet, full and harmonious palate of currants, cherries and raspberries.."
+            "explanation": "In Dornfelder, this component is present: Full and harmonious palate of currants. Official FUZE menu: 0,75L Bílkovi - Velkopavlovicko, Moravia."
           },
           {
             "id": "cervene-dornfelder-bilkovi-ing-5",
@@ -12029,7 +12120,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Vibrant acidity and mineral notes",
               "Late harvest"
             ],
-            "explanation": "In Dornfelder – Bílkovi, this component is present: Cherries and raspberries. Full recipe ingredients: Velké Pavlovice region, Moravia. 12 months oak aging, blackberry bouquet, full and harmonious palate of currants, cherries and raspberries.."
+            "explanation": "In Dornfelder, this component is present: Cherries and raspberries. Official FUZE menu: 0,75L Bílkovi - Velkopavlovicko, Moravia."
           },
           {
             "id": "cervene-dornfelder-bilkovi-ing-6",
@@ -12039,7 +12130,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Dornfelder – Bílkovi, this component is present: Cherries and raspberries. Full recipe ingredients: Velké Pavlovice region, Moravia. 12 months oak aging, blackberry bouquet, full and harmonious palate of currants, cherries and raspberries.."
+            "explanation": "In Dornfelder, this component is present: Cherries and raspberries. Official FUZE menu: 0,75L Bílkovi - Velkopavlovicko, Moravia."
           },
           {
             "id": "cervene-dornfelder-bilkovi-allergen-12",
@@ -12055,13 +12146,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "cervene-cuvee-red-kolby",
-        "name": "Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby",
+        "name": "Cuvée Red (Cabernet Sauvignon, Merlot)",
         "weight": "0.75l",
         "price": "649 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Mikulov region, Moravia. Full-bodied, complex, long finish, deep garnet color, notes of dark chocolate, spices, dark berries and subtle smoke.",
+        "description": "0,75L Kolby – Mikulovsko, Moravia",
         "notes": "Mikulov region, Moravia. Full-bodied, complex, long finish, deep garnet color, notes of dark chocolate, spices, dark berries and subtle smoke.",
         "questions": [
           {
@@ -12082,7 +12173,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby, this component is present: Mikulov region. Full recipe ingredients: Mikulov region, Moravia. Full-bodied, complex, long finish, deep garnet color, notes of dark chocolate, spices, dark berries and subtle smoke.."
+            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot), this component is present: Mikulov region. Official FUZE menu: 0,75L Kolby – Mikulovsko, Moravia."
           },
           {
             "id": "cervene-cuvee-red-kolby-ing-2",
@@ -12092,7 +12183,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kolby winery",
               "Kraus winery"
             ],
-            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby, this component is present: Moravia. Full-bodied. Full recipe ingredients: Mikulov region, Moravia. Full-bodied, complex, long finish, deep garnet color, notes of dark chocolate, spices, dark berries and subtle smoke.."
+            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot), this component is present: Moravia. Full-bodied. Official FUZE menu: 0,75L Kolby – Mikulovsko, Moravia."
           },
           {
             "id": "cervene-cuvee-red-kolby-ing-3",
@@ -12102,7 +12193,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Michlovsky winery",
               "Mikulov subregion"
             ],
-            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby, this component is present: Complex. Full recipe ingredients: Mikulov region, Moravia. Full-bodied, complex, long finish, deep garnet color, notes of dark chocolate, spices, dark berries and subtle smoke.."
+            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot), this component is present: Complex. Official FUZE menu: 0,75L Kolby – Mikulovsko, Moravia."
           },
           {
             "id": "cervene-cuvee-red-kolby-ing-4",
@@ -12112,7 +12203,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Velke Pavlovice subregion",
               "Melnik subregion"
             ],
-            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby, this component is present: Long finish. Full recipe ingredients: Mikulov region, Moravia. Full-bodied, complex, long finish, deep garnet color, notes of dark chocolate, spices, dark berries and subtle smoke.."
+            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot), this component is present: Long finish. Official FUZE menu: 0,75L Kolby – Mikulovsko, Moravia."
           },
           {
             "id": "cervene-cuvee-red-kolby-ing-5",
@@ -12122,7 +12213,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Vibrant acidity and mineral notes",
               "Late harvest"
             ],
-            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby, this component is present: Deep garnet color. Full recipe ingredients: Mikulov region, Moravia. Full-bodied, complex, long finish, deep garnet color, notes of dark chocolate, spices, dark berries and subtle smoke.."
+            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot), this component is present: Deep garnet color. Official FUZE menu: 0,75L Kolby – Mikulovsko, Moravia."
           },
           {
             "id": "cervene-cuvee-red-kolby-ing-6",
@@ -12132,7 +12223,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby, this component is present: Notes of dark chocolate. Full recipe ingredients: Mikulov region, Moravia. Full-bodied, complex, long finish, deep garnet color, notes of dark chocolate, spices, dark berries and subtle smoke.."
+            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot), this component is present: Notes of dark chocolate. Official FUZE menu: 0,75L Kolby – Mikulovsko, Moravia."
           },
           {
             "id": "cervene-cuvee-red-kolby-ing-7",
@@ -12142,7 +12233,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kolby winery",
               "Kraus winery"
             ],
-            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby, this component is present: Spices. Full recipe ingredients: Mikulov region, Moravia. Full-bodied, complex, long finish, deep garnet color, notes of dark chocolate, spices, dark berries and subtle smoke.."
+            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot), this component is present: Spices. Official FUZE menu: 0,75L Kolby – Mikulovsko, Moravia."
           },
           {
             "id": "cervene-cuvee-red-kolby-ing-8",
@@ -12152,7 +12243,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Michlovsky winery",
               "Mikulov subregion"
             ],
-            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby, this component is present: Dark berries and subtle smoke. Full recipe ingredients: Mikulov region, Moravia. Full-bodied, complex, long finish, deep garnet color, notes of dark chocolate, spices, dark berries and subtle smoke.."
+            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot), this component is present: Dark berries and subtle smoke. Official FUZE menu: 0,75L Kolby – Mikulovsko, Moravia."
           },
           {
             "id": "cervene-cuvee-red-kolby-allergen-12",
@@ -12168,13 +12259,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "cervene-nina-cuvee-bilkovi",
-        "name": "Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi",
+        "name": "Nina Cuvée (Merlot, Blaufränkisch)",
         "weight": "0.75l",
         "price": "699 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Velké Pavlovice region, Moravia. Full-bodied, 14 months in oak barrels, aromas of currants and roasted coffee, palate of dark chocolate and plums.",
+        "description": "0,75L Bílkovi – Velkopavlovicko, Moravia",
         "notes": "Velké Pavlovice region, Moravia. Full-bodied, 14 months in oak barrels, aromas of currants and roasted coffee, palate of dark chocolate and plums.",
         "questions": [
           {
@@ -12195,7 +12286,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi, this component is present: Velké Pavlovice region. Full recipe ingredients: Velké Pavlovice region, Moravia. Full-bodied, 14 months in oak barrels, aromas of currants and roasted coffee, palate of dark chocolate and plums.."
+            "explanation": "In Nina Cuvée (Merlot, Blaufränkisch), this component is present: Velké Pavlovice region. Official FUZE menu: 0,75L Bílkovi – Velkopavlovicko, Moravia."
           },
           {
             "id": "cervene-nina-cuvee-bilkovi-ing-2",
@@ -12205,7 +12296,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kolby winery",
               "Kraus winery"
             ],
-            "explanation": "In Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi, this component is present: Moravia. Full-bodied. Full recipe ingredients: Velké Pavlovice region, Moravia. Full-bodied, 14 months in oak barrels, aromas of currants and roasted coffee, palate of dark chocolate and plums.."
+            "explanation": "In Nina Cuvée (Merlot, Blaufränkisch), this component is present: Moravia. Full-bodied. Official FUZE menu: 0,75L Bílkovi – Velkopavlovicko, Moravia."
           },
           {
             "id": "cervene-nina-cuvee-bilkovi-ing-3",
@@ -12215,7 +12306,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Michlovsky winery",
               "Mikulov subregion"
             ],
-            "explanation": "In Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi, this component is present: 14 months in oak barrels. Full recipe ingredients: Velké Pavlovice region, Moravia. Full-bodied, 14 months in oak barrels, aromas of currants and roasted coffee, palate of dark chocolate and plums.."
+            "explanation": "In Nina Cuvée (Merlot, Blaufränkisch), this component is present: 14 months in oak barrels. Official FUZE menu: 0,75L Bílkovi – Velkopavlovicko, Moravia."
           },
           {
             "id": "cervene-nina-cuvee-bilkovi-ing-4",
@@ -12225,7 +12316,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Velke Pavlovice subregion",
               "Melnik subregion"
             ],
-            "explanation": "In Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi, this component is present: Aromas of currants and roasted coffee. Full recipe ingredients: Velké Pavlovice region, Moravia. Full-bodied, 14 months in oak barrels, aromas of currants and roasted coffee, palate of dark chocolate and plums.."
+            "explanation": "In Nina Cuvée (Merlot, Blaufränkisch), this component is present: Aromas of currants and roasted coffee. Official FUZE menu: 0,75L Bílkovi – Velkopavlovicko, Moravia."
           },
           {
             "id": "cervene-nina-cuvee-bilkovi-ing-5",
@@ -12235,7 +12326,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Vibrant acidity and mineral notes",
               "Late harvest"
             ],
-            "explanation": "In Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi, this component is present: Palate of dark chocolate and plums. Full recipe ingredients: Velké Pavlovice region, Moravia. Full-bodied, 14 months in oak barrels, aromas of currants and roasted coffee, palate of dark chocolate and plums.."
+            "explanation": "In Nina Cuvée (Merlot, Blaufränkisch), this component is present: Palate of dark chocolate and plums. Official FUZE menu: 0,75L Bílkovi – Velkopavlovicko, Moravia."
           },
           {
             "id": "cervene-nina-cuvee-bilkovi-allergen-12",
@@ -12251,13 +12342,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "cervene-zweigelt-feller-artinger",
-        "name": "Zweigelt – Weingut Feiler-Artinger",
+        "name": "Zweigelt",
         "weight": "0.75l",
         "price": "660 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Burgenland, Austria. Fresh, berry aromas, velvety palate of dark berries, oak, herbs and fine tobacco.",
+        "description": "0,75L Weingut Feiler-Artinger – Burgenland, Austria",
         "notes": "Burgenland, Austria. Fresh, berry aromas, velvety palate of dark berries, oak, herbs and fine tobacco.",
         "questions": [
           {
@@ -12278,7 +12369,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Gotberg winery",
               "Kolby winery"
             ],
-            "explanation": "In Zweigelt – Weingut Feiler-Artinger, this component is present: Burgenland. Full recipe ingredients: Burgenland, Austria. Fresh, berry aromas, velvety palate of dark berries, oak, herbs and fine tobacco.."
+            "explanation": "In Zweigelt, this component is present: Burgenland. Official FUZE menu: 0,75L Weingut Feiler-Artinger – Burgenland, Austria."
           },
           {
             "id": "cervene-zweigelt-feller-artinger-ing-2",
@@ -12288,7 +12379,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kraus winery",
               "Michlovsky winery"
             ],
-            "explanation": "In Zweigelt – Weingut Feiler-Artinger, this component is present: Austria. Fresh. Full recipe ingredients: Burgenland, Austria. Fresh, berry aromas, velvety palate of dark berries, oak, herbs and fine tobacco.."
+            "explanation": "In Zweigelt, this component is present: Austria. Fresh. Official FUZE menu: 0,75L Weingut Feiler-Artinger – Burgenland, Austria."
           },
           {
             "id": "cervene-zweigelt-feller-artinger-ing-3",
@@ -12298,7 +12389,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Mikulov subregion",
               "Velke Pavlovice subregion"
             ],
-            "explanation": "In Zweigelt – Weingut Feiler-Artinger, this component is present: Berry aromas. Full recipe ingredients: Burgenland, Austria. Fresh, berry aromas, velvety palate of dark berries, oak, herbs and fine tobacco.."
+            "explanation": "In Zweigelt, this component is present: Berry aromas. Official FUZE menu: 0,75L Weingut Feiler-Artinger – Burgenland, Austria."
           },
           {
             "id": "cervene-zweigelt-feller-artinger-ing-4",
@@ -12308,7 +12399,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Melnik subregion",
               "Vibrant acidity and mineral notes"
             ],
-            "explanation": "In Zweigelt – Weingut Feiler-Artinger, this component is present: Velvety palate of dark berries. Full recipe ingredients: Burgenland, Austria. Fresh, berry aromas, velvety palate of dark berries, oak, herbs and fine tobacco.."
+            "explanation": "In Zweigelt, this component is present: Velvety palate of dark berries. Official FUZE menu: 0,75L Weingut Feiler-Artinger – Burgenland, Austria."
           },
           {
             "id": "cervene-zweigelt-feller-artinger-ing-5",
@@ -12318,7 +12409,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Late harvest",
               "Gotberg winery"
             ],
-            "explanation": "In Zweigelt – Weingut Feiler-Artinger, this component is present: Oak. Full recipe ingredients: Burgenland, Austria. Fresh, berry aromas, velvety palate of dark berries, oak, herbs and fine tobacco.."
+            "explanation": "In Zweigelt, this component is present: Oak. Official FUZE menu: 0,75L Weingut Feiler-Artinger – Burgenland, Austria."
           },
           {
             "id": "cervene-zweigelt-feller-artinger-ing-6",
@@ -12328,7 +12419,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kolby winery",
               "Kraus winery"
             ],
-            "explanation": "In Zweigelt – Weingut Feiler-Artinger, this component is present: Herbs and fine tobacco. Full recipe ingredients: Burgenland, Austria. Fresh, berry aromas, velvety palate of dark berries, oak, herbs and fine tobacco.."
+            "explanation": "In Zweigelt, this component is present: Herbs and fine tobacco. Official FUZE menu: 0,75L Weingut Feiler-Artinger – Burgenland, Austria."
           },
           {
             "id": "cervene-zweigelt-feller-artinger-allergen-12",
@@ -12344,13 +12435,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "cervene-pinot-noir-philipp-kuhn",
-        "name": "Pinot Noir Tradition – Philipp Kuhn",
+        "name": "Pinot Noir",
         "weight": "0.75l",
         "price": "959 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.",
+        "description": "0,75L Tradition Philip Kuhn – Pfalz, Germany",
         "notes": "Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.",
         "questions": [
           {
@@ -12371,7 +12462,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Pinot Noir Tradition – Philipp Kuhn, this component is present: Pfalz. Full recipe ingredients: Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.."
+            "explanation": "In Pinot Noir, this component is present: Pfalz. Official FUZE menu: 0,75L Tradition Philip Kuhn – Pfalz, Germany."
           },
           {
             "id": "cervene-pinot-noir-philipp-kuhn-ing-2",
@@ -12381,7 +12472,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kolby winery",
               "Kraus winery"
             ],
-            "explanation": "In Pinot Noir Tradition – Philipp Kuhn, this component is present: Germany. Medium-bodied. Full recipe ingredients: Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.."
+            "explanation": "In Pinot Noir, this component is present: Germany. Medium-bodied. Official FUZE menu: 0,75L Tradition Philip Kuhn – Pfalz, Germany."
           },
           {
             "id": "cervene-pinot-noir-philipp-kuhn-ing-3",
@@ -12391,7 +12482,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Michlovsky winery",
               "Mikulov subregion"
             ],
-            "explanation": "In Pinot Noir Tradition – Philipp Kuhn, this component is present: Bouquet of wild strawberries. Full recipe ingredients: Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.."
+            "explanation": "In Pinot Noir, this component is present: Bouquet of wild strawberries. Official FUZE menu: 0,75L Tradition Philip Kuhn – Pfalz, Germany."
           },
           {
             "id": "cervene-pinot-noir-philipp-kuhn-ing-4",
@@ -12401,7 +12492,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Velke Pavlovice subregion",
               "Melnik subregion"
             ],
-            "explanation": "In Pinot Noir Tradition – Philipp Kuhn, this component is present: Dried prunes. Full recipe ingredients: Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.."
+            "explanation": "In Pinot Noir, this component is present: Dried prunes. Official FUZE menu: 0,75L Tradition Philip Kuhn – Pfalz, Germany."
           },
           {
             "id": "cervene-pinot-noir-philipp-kuhn-ing-5",
@@ -12411,7 +12502,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Vibrant acidity and mineral notes",
               "Late harvest"
             ],
-            "explanation": "In Pinot Noir Tradition – Philipp Kuhn, this component is present: Almonds. Full recipe ingredients: Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.."
+            "explanation": "In Pinot Noir, this component is present: Almonds. Official FUZE menu: 0,75L Tradition Philip Kuhn – Pfalz, Germany."
           },
           {
             "id": "cervene-pinot-noir-philipp-kuhn-ing-6",
@@ -12421,7 +12512,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Pinot Noir Tradition – Philipp Kuhn, this component is present: Cherries. Full recipe ingredients: Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.."
+            "explanation": "In Pinot Noir, this component is present: Cherries. Official FUZE menu: 0,75L Tradition Philip Kuhn – Pfalz, Germany."
           },
           {
             "id": "cervene-pinot-noir-philipp-kuhn-ing-7",
@@ -12431,7 +12522,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kolby winery",
               "Kraus winery"
             ],
-            "explanation": "In Pinot Noir Tradition – Philipp Kuhn, this component is present: Dark chocolate and leather. Full recipe ingredients: Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.."
+            "explanation": "In Pinot Noir, this component is present: Dark chocolate and leather. Official FUZE menu: 0,75L Tradition Philip Kuhn – Pfalz, Germany."
           },
           {
             "id": "cervene-pinot-noir-philipp-kuhn-ing-8",
@@ -12441,7 +12532,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Michlovsky winery",
               "Mikulov subregion"
             ],
-            "explanation": "In Pinot Noir Tradition – Philipp Kuhn, this component is present: Structured tannins. Full recipe ingredients: Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.."
+            "explanation": "In Pinot Noir, this component is present: Structured tannins. Official FUZE menu: 0,75L Tradition Philip Kuhn – Pfalz, Germany."
           },
           {
             "id": "cervene-pinot-noir-philipp-kuhn-ing-9",
@@ -12451,7 +12542,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Velke Pavlovice subregion",
               "Melnik subregion"
             ],
-            "explanation": "In Pinot Noir Tradition – Philipp Kuhn, this component is present: Finish of ripe cherries and violets. Full recipe ingredients: Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.."
+            "explanation": "In Pinot Noir, this component is present: Finish of ripe cherries and violets. Official FUZE menu: 0,75L Tradition Philip Kuhn – Pfalz, Germany."
           },
           {
             "id": "cervene-pinot-noir-philipp-kuhn-allergen-12",
@@ -12467,13 +12558,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "cervene-cabernet-lapis-luna",
-        "name": "Cabernet Sauvignon – Lapis Luna",
+        "name": "Cabernet Sauvignon",
         "weight": "0.75l",
         "price": "789 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Lodi, California. Medium to full-bodied, pleasing acidity, long finish, dark fruit, blackcurrant, baking spices, cinnamon and clove.",
+        "description": "0,75L Lapis Luna - Lodi, California",
         "notes": "Lodi, California. Medium to full-bodied, pleasing acidity, long finish, dark fruit, blackcurrant, baking spices, cinnamon and clove.",
         "questions": [
           {
@@ -12494,7 +12585,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Cabernet Sauvignon – Lapis Luna, this component is present: Lodi. Full recipe ingredients: Lodi, California. Medium to full-bodied, pleasing acidity, long finish, dark fruit, blackcurrant, baking spices, cinnamon and clove.."
+            "explanation": "In Cabernet Sauvignon, this component is present: Lodi. Official FUZE menu: 0,75L Lapis Luna - Lodi, California."
           },
           {
             "id": "cervene-cabernet-lapis-luna-ing-2",
@@ -12504,7 +12595,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kolby winery",
               "Kraus winery"
             ],
-            "explanation": "In Cabernet Sauvignon – Lapis Luna, this component is present: California. Medium to full-bodied. Full recipe ingredients: Lodi, California. Medium to full-bodied, pleasing acidity, long finish, dark fruit, blackcurrant, baking spices, cinnamon and clove.."
+            "explanation": "In Cabernet Sauvignon, this component is present: California. Medium to full-bodied. Official FUZE menu: 0,75L Lapis Luna - Lodi, California."
           },
           {
             "id": "cervene-cabernet-lapis-luna-ing-3",
@@ -12514,7 +12605,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Michlovsky winery",
               "Mikulov subregion"
             ],
-            "explanation": "In Cabernet Sauvignon – Lapis Luna, this component is present: Pleasing acidity. Full recipe ingredients: Lodi, California. Medium to full-bodied, pleasing acidity, long finish, dark fruit, blackcurrant, baking spices, cinnamon and clove.."
+            "explanation": "In Cabernet Sauvignon, this component is present: Pleasing acidity. Official FUZE menu: 0,75L Lapis Luna - Lodi, California."
           },
           {
             "id": "cervene-cabernet-lapis-luna-ing-4",
@@ -12524,7 +12615,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Velke Pavlovice subregion",
               "Melnik subregion"
             ],
-            "explanation": "In Cabernet Sauvignon – Lapis Luna, this component is present: Long finish. Full recipe ingredients: Lodi, California. Medium to full-bodied, pleasing acidity, long finish, dark fruit, blackcurrant, baking spices, cinnamon and clove.."
+            "explanation": "In Cabernet Sauvignon, this component is present: Long finish. Official FUZE menu: 0,75L Lapis Luna - Lodi, California."
           },
           {
             "id": "cervene-cabernet-lapis-luna-ing-5",
@@ -12534,7 +12625,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Vibrant acidity and mineral notes",
               "Late harvest"
             ],
-            "explanation": "In Cabernet Sauvignon – Lapis Luna, this component is present: Dark fruit. Full recipe ingredients: Lodi, California. Medium to full-bodied, pleasing acidity, long finish, dark fruit, blackcurrant, baking spices, cinnamon and clove.."
+            "explanation": "In Cabernet Sauvignon, this component is present: Dark fruit. Official FUZE menu: 0,75L Lapis Luna - Lodi, California."
           },
           {
             "id": "cervene-cabernet-lapis-luna-ing-6",
@@ -12544,7 +12635,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Cabernet Sauvignon – Lapis Luna, this component is present: Blackcurrant. Full recipe ingredients: Lodi, California. Medium to full-bodied, pleasing acidity, long finish, dark fruit, blackcurrant, baking spices, cinnamon and clove.."
+            "explanation": "In Cabernet Sauvignon, this component is present: Blackcurrant. Official FUZE menu: 0,75L Lapis Luna - Lodi, California."
           },
           {
             "id": "cervene-cabernet-lapis-luna-ing-7",
@@ -12554,7 +12645,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kolby winery",
               "Kraus winery"
             ],
-            "explanation": "In Cabernet Sauvignon – Lapis Luna, this component is present: Baking spices. Full recipe ingredients: Lodi, California. Medium to full-bodied, pleasing acidity, long finish, dark fruit, blackcurrant, baking spices, cinnamon and clove.."
+            "explanation": "In Cabernet Sauvignon, this component is present: Baking spices. Official FUZE menu: 0,75L Lapis Luna - Lodi, California."
           },
           {
             "id": "cervene-cabernet-lapis-luna-ing-8",
@@ -12564,7 +12655,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Michlovsky winery",
               "Mikulov subregion"
             ],
-            "explanation": "In Cabernet Sauvignon – Lapis Luna, this component is present: Cinnamon and clove. Full recipe ingredients: Lodi, California. Medium to full-bodied, pleasing acidity, long finish, dark fruit, blackcurrant, baking spices, cinnamon and clove.."
+            "explanation": "In Cabernet Sauvignon, this component is present: Cinnamon and clove. Official FUZE menu: 0,75L Lapis Luna - Lodi, California."
           },
           {
             "id": "cervene-cabernet-lapis-luna-allergen-12",
@@ -12580,13 +12671,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "cervene-zinfandel-hendry",
-        "name": "Zinfandel Hendry Ranch HRW",
+        "name": "Zinfandel",
         "weight": "0.75l",
         "price": "995 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Napa Valley, California. Full-bodied, powerful with a long spiced finish, juicy acidity, rich flavors of dark berries, sweet spices and dark chocolate.",
+        "description": "0,75L Hendry Ranch HRW - Napa Valley, California",
         "notes": "Napa Valley, California. Full-bodied, powerful with a long spiced finish, juicy acidity, rich flavors of dark berries, sweet spices and dark chocolate.",
         "questions": [
           {
@@ -12607,7 +12698,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Zinfandel Hendry Ranch HRW, this component is present: Napa Valley. Full recipe ingredients: Napa Valley, California. Full-bodied, powerful with a long spiced finish, juicy acidity, rich flavors of dark berries, sweet spices and dark chocolate.."
+            "explanation": "In Zinfandel, this component is present: Napa Valley. Official FUZE menu: 0,75L Hendry Ranch HRW - Napa Valley, California."
           },
           {
             "id": "cervene-zinfandel-hendry-ing-2",
@@ -12617,7 +12708,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kolby winery",
               "Kraus winery"
             ],
-            "explanation": "In Zinfandel Hendry Ranch HRW, this component is present: California. Full-bodied. Full recipe ingredients: Napa Valley, California. Full-bodied, powerful with a long spiced finish, juicy acidity, rich flavors of dark berries, sweet spices and dark chocolate.."
+            "explanation": "In Zinfandel, this component is present: California. Full-bodied. Official FUZE menu: 0,75L Hendry Ranch HRW - Napa Valley, California."
           },
           {
             "id": "cervene-zinfandel-hendry-ing-3",
@@ -12627,7 +12718,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Michlovsky winery",
               "Mikulov subregion"
             ],
-            "explanation": "In Zinfandel Hendry Ranch HRW, this component is present: Powerful with a long spiced finish. Full recipe ingredients: Napa Valley, California. Full-bodied, powerful with a long spiced finish, juicy acidity, rich flavors of dark berries, sweet spices and dark chocolate.."
+            "explanation": "In Zinfandel, this component is present: Powerful with a long spiced finish. Official FUZE menu: 0,75L Hendry Ranch HRW - Napa Valley, California."
           },
           {
             "id": "cervene-zinfandel-hendry-ing-4",
@@ -12637,7 +12728,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Velke Pavlovice subregion",
               "Melnik subregion"
             ],
-            "explanation": "In Zinfandel Hendry Ranch HRW, this component is present: Juicy acidity. Full recipe ingredients: Napa Valley, California. Full-bodied, powerful with a long spiced finish, juicy acidity, rich flavors of dark berries, sweet spices and dark chocolate.."
+            "explanation": "In Zinfandel, this component is present: Juicy acidity. Official FUZE menu: 0,75L Hendry Ranch HRW - Napa Valley, California."
           },
           {
             "id": "cervene-zinfandel-hendry-ing-5",
@@ -12647,7 +12738,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Vibrant acidity and mineral notes",
               "Late harvest"
             ],
-            "explanation": "In Zinfandel Hendry Ranch HRW, this component is present: Rich flavors of dark berries. Full recipe ingredients: Napa Valley, California. Full-bodied, powerful with a long spiced finish, juicy acidity, rich flavors of dark berries, sweet spices and dark chocolate.."
+            "explanation": "In Zinfandel, this component is present: Rich flavors of dark berries. Official FUZE menu: 0,75L Hendry Ranch HRW - Napa Valley, California."
           },
           {
             "id": "cervene-zinfandel-hendry-ing-6",
@@ -12657,7 +12748,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Aging in oak barrels",
               "Gotberg winery"
             ],
-            "explanation": "In Zinfandel Hendry Ranch HRW, this component is present: Sweet spices and dark chocolate. Full recipe ingredients: Napa Valley, California. Full-bodied, powerful with a long spiced finish, juicy acidity, rich flavors of dark berries, sweet spices and dark chocolate.."
+            "explanation": "In Zinfandel, this component is present: Sweet spices and dark chocolate. Official FUZE menu: 0,75L Hendry Ranch HRW - Napa Valley, California."
           },
           {
             "id": "cervene-zinfandel-hendry-ing-7",
@@ -12667,7 +12758,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Kolby winery",
               "Kraus winery"
             ],
-            "explanation": "In Zinfandel Hendry Ranch HRW, this component is present: Sweet spices and dark chocolate. Full recipe ingredients: Napa Valley, California. Full-bodied, powerful with a long spiced finish, juicy acidity, rich flavors of dark berries, sweet spices and dark chocolate.."
+            "explanation": "In Zinfandel, this component is present: Sweet spices and dark chocolate. Official FUZE menu: 0,75L Hendry Ranch HRW - Napa Valley, California."
           },
           {
             "id": "cervene-zinfandel-hendry-allergen-12",

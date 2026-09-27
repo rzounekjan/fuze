@@ -1,0 +1,1136 @@
+[
+  {
+    "category": "beer on tap",
+    "items": [
+      {
+        "name": "",
+        "description": "Our beers are crafted by our brewmaster Aleš Paik along with his colleagues Martin and Štěpán.",
+        "price": "",
+        "allergens": []
+      },
+      {
+        "name": "TransFUZE 12",
+        "description": "0,3l/0,5l Our traditional light lager, full-bodied with a fresh taste and balanced bitterness, unpasteurized, unfiltered",
+        "price": "59/69  CZK",
+        "allergens": []
+      },
+      {
+        "name": "DisFuze 10",
+        "description": "0,3l/0,5l Light draft beer, Abv 3.5%Czech classic, honest &quot;desítka,&quot; very drinkable refreshing beer with higher bitterness.",
+        "price": "59/69  CZK",
+        "allergens": []
+      },
+      {
+        "name": "InFUZE IPA 12",
+        "description": "04l style: Session IPA, 12-degree beer, 4.9% ABVtop-fermented beer, light and refreshing, unpasteurized, unfiltered with citrus aroma, cold-hopped (dry hopping)",
+        "price": "85  CZK",
+        "allergens": []
+      },
+      {
+        "name": "FUZEnáč 13 semi-dark",
+        "description": "0,3l/0,5l Our bottom-fermented beer, amber color with a distinct smoky aroma, full malt smoked flavor, unpasteurized, unfiltered",
+        "price": "69/78  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Kasteel Rouge 18",
+        "description": "0,25l Top-fermented, 8% dark beer aged 6 months on cherries, from Belgian brewery Van Honsebrouck, rich cherry flavor and aroma",
+        "price": "118  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Zichovec Passion Fruit 12",
+        "description": "0,4l Sour ale, intensely sour with a strong passion fruit flavor and aroma",
+        "price": "94  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Beer tasting",
+        "description": "6x 0,15l 6 samples of the above beers on a stylish board",
+        "price": "285  CZK",
+        "allergens": []
+      },
+      {
+        "name": "FUZEro",
+        "description": "0,4l our IPL, non-alcoholic lager hopped with American and cold New Zealand hops, with a delicate malt flavor, higher bitterness in the finish, and a beautiful, fresh hop aroma, unpasteurized, unfiltered",
+        "price": "69  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Maisel`s Weisse Non-Alcoholic /bottled/",
+        "description": "0,33l bavarian Weizenbier, a non-alcoholic wheat beer",
+        "price": "79  CZK",
+        "allergens": []
+      }
+    ]
+  },
+  {
+    "category": "ciders",
+    "items": [
+      {
+        "name": "Opre` Cider",
+        "description": "0,33l Craft apple cider from Slovak family farm",
+        "price": "89  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Opre` Sour Cherry",
+        "description": "0,33l Combines apple cider with refreshing cherry juice",
+        "price": "96  CZK",
+        "allergens": []
+      }
+    ]
+  },
+  {
+    "category": "waters and mineral waters",
+    "items": [
+      {
+        "name": "Filtered water in a carafe",
+        "description": "0,75l Still / Sparkling",
+        "price": "89  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Glass of filtered water",
+        "description": "0,3l Still / Sparkling",
+        "price": "35  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Infused water in a carafe",
+        "description": "0,75l Citrus / Mint",
+        "price": "99  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Mattoni Grand still",
+        "description": "0,33l natural decarbonated mineral water",
+        "price": "45  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Vratislavická mineral water",
+        "description": "0,75l natural mineral water, medium mineralized with silicon content, naturally carbonated",
+        "price": "119  CZK",
+        "allergens": []
+      }
+    ]
+  },
+  {
+    "category": "our homemade lemonades",
+    "items": [
+      {
+        "name": "Grapefruit and mango",
+        "description": "0,4l",
+        "price": "84  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Raspberry and white chocolate",
+        "description": "0,4l",
+        "price": "84  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Plum and cardamom",
+        "description": "0,4l",
+        "price": "84  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Homemade lemonade",
+        "description": "0,4l",
+        "price": "84  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Our homemade iced tea",
+        "description": "0,4l Jasmine and peach",
+        "price": "86  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Fresh juice",
+        "description": "0,2l Orange / Grapefruit",
+        "price": "125  CZK",
+        "allergens": []
+      }
+    ]
+  },
+  {
+    "category": "bottled lemonades",
+    "items": [
+      {
+        "name": "Coca Cola / Coca Cola Zero",
+        "description": "0,33l",
+        "price": "65  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Thomas Henry Tonic",
+        "description": "0,2l",
+        "price": "75  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Fever-Tree Tonic",
+        "description": "0,2l",
+        "price": "85  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Fever-Tree Ginger Beer",
+        "description": "0,2l",
+        "price": "85  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Red Bull",
+        "description": "0,2l can",
+        "price": "99  CZK",
+        "allergens": []
+      }
+    ]
+  },
+  {
+    "category": "coffee, tea and hot drinks",
+    "items": [
+      {
+        "name": "Espresso",
+        "description": "9g",
+        "price": "66  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Espresso macchiato",
+        "description": "9g",
+        "price": "78  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Cappuccino",
+        "description": "9g",
+        "price": "85  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Caffé latte",
+        "description": "9g",
+        "price": "88  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Flat white",
+        "description": "18g",
+        "price": "99  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Double espresso",
+        "description": "18g",
+        "price": "89  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Americano caffé / Lungo",
+        "description": "9g",
+        "price": "79  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Espresso with whipped cream",
+        "description": "9g",
+        "price": "85  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Loose-leaf tea",
+        "description": "black, green, or fruit",
+        "price": "89  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Tea with fresh mint or ginger",
+        "description": "",
+        "price": "89  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Hot Gingerbread Cider",
+        "description": "0,33l Spicy, with a scent of cloves and cinnamon",
+        "price": "98  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Hot Chocolate",
+        "description": "With fresh whipped cream",
+        "price": "85  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Chai latte",
+        "description": "Tea with a mixture of exotic spices, sugar, and hot milk",
+        "price": "99  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Mulled wine",
+        "description": "0,15l Red / White, with spices and orange",
+        "price": "85  CZK",
+        "allergens": []
+      }
+    ]
+  },
+  {
+    "category": "wines by the glass",
+    "items": [
+      {
+        "name": "Charmat de Vinselekt Pálava",
+        "description": "0,1l Vinselect Michlovský, Extra dry",
+        "price": "99  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Cremant de Vinselekt",
+        "description": "0,1l (Pinot, Chardonnay) Vinselect Michlovský, Extra Brut",
+        "price": "115  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Rulandské šedé",
+        "description": "0,15l Kolby Moravia, semi-dry",
+        "price": "95  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Cuvée white",
+        "description": "0,15l Kraus Bohemia",
+        "price": "98  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Grüner Veltliner",
+        "description": "0,15l Heuriger Austria",
+        "price": "109  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Chardonnay",
+        "description": "0,15l Adulation California",
+        "price": "125  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Modrý Portugal rosé",
+        "description": "0,15l Kolby Moravia",
+        "price": "95  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Modrý Portugal",
+        "description": "0,15l Kolby Moravia",
+        "price": "95  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Red cuvée",
+        "description": "0,15l Kraus Bohemia",
+        "price": "98  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Pinot Noir",
+        "description": "0,15l Adulation California",
+        "price": "125  CZK",
+        "allergens": []
+      }
+    ]
+  },
+  {
+    "category": "aperitifs",
+    "items": [
+      {
+        "name": "Aperol Spritz",
+        "description": "Aperol, charmat, soda",
+        "price": "155  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Hugo Spritz",
+        "description": "charmat, elderflower elixir, lime, mint, soda",
+        "price": "155  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Mimosa",
+        "description": "charmat, pear and peach syrup, cucumber slices",
+        "price": "168  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Kir",
+        "description": "crème de cassis, charmat",
+        "price": "165  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Campari Bitter",
+        "description": "0,06l",
+        "price": "87  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Martini Dry",
+        "description": "0,08l",
+        "price": "79  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Cinzano Rosso / Bianco",
+        "description": "0,08l",
+        "price": "79  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Grahams Porto Tawny 10y",
+        "description": "0,06l",
+        "price": "225  CZK",
+        "allergens": []
+      }
+    ]
+  },
+  {
+    "category": "non-alcoholic aperitifs and cocktails",
+    "items": [
+      {
+        "name": "Crodino",
+        "description": "0,175l non-alcoholic bitter",
+        "price": "109  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Martini Floreale Alcohol free & Thomas Henry Tonic",
+        "description": "non-alcoholic Martini, tonic, dried orange",
+        "price": "165  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Bitter soda J.Gasco",
+        "description": "0,2l non-alcoholic bitter soda",
+        "price": "115  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Tanqueray Alcohol Free & Fever-Tree Tonic",
+        "description": "non-alcoholic G&T with lime",
+        "price": "199  CZK",
+        "allergens": []
+      }
+    ]
+  },
+  {
+    "category": "classic cocktails",
+    "items": [
+      {
+        "name": "Negroni",
+        "description": "Gin, Campari, Cinzano Rosso",
+        "price": "195  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Margarita",
+        "description": "Tequila, Cointreau, lime juice",
+        "price": "185  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Mojito",
+        "description": "Rum, mint, lime, brown sugar",
+        "price": "185  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Frozen Strawberry Daiquiri",
+        "description": "Rum, lime juice, strawberry purée, sugar",
+        "price": "195  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Cuba Libre",
+        "description": "Rum, lime juice, Coca-Cola",
+        "price": "165  CZK",
+        "allergens": []
+      },
+      {
+        "name": "May-Tai",
+        "description": "White and dark rum, Curaçao, almond syrup, lime juice",
+        "price": "199  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Porn star Martini",
+        "description": "Vanilla vodka, passionfruit liqueur, lime juice, charmat",
+        "price": "232  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Skinny bitch",
+        "description": "Vodka, lime juice, soda",
+        "price": "125  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Cosmopolitan",
+        "description": "Vodka, Cointreau, cranberry juice, lime juice",
+        "price": "160  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Moscow mule",
+        "description": "Vodka, ginger beer, lime",
+        "price": "185  CZK",
+        "allergens": []
+      },
+      {
+        "name": "French Martini",
+        "description": "Vodka, raspberry liqueur, pineapple juice",
+        "price": "195  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Espresso Martini",
+        "description": "Vodka, coffee liqueur, espresso",
+        "price": "195  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Paloma",
+        "description": "tequila, limited juice, agave syrup, grapefruit J.Gasco Soda Rosa, salt",
+        "price": "195  CZK",
+        "allergens": []
+      }
+    ]
+  },
+  {
+    "category": "fuze cocktails",
+    "items": [
+      {
+        "name": "Truffle Negroni",
+        "description": "truffle gin, Campari, Cinzano rosso",
+        "price": "205  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Fizzy Fuze",
+        "description": "Gin, lime juice, soda, elderberry syrup",
+        "price": "175  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Florence Fashion",
+        "description": "Whiskey, peach syrup, chocolate bitters",
+        "price": "245  CZK",
+        "allergens": []
+      },
+      {
+        "name": "A.M. Spritz",
+        "description": "Crémant, gin, elderflower syrup, lime",
+        "price": "185  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Passionate",
+        "description": "Rum, passion fruit, melon syrup, cranberry juice",
+        "price": "175  CZK",
+        "allergens": []
+      }
+    ]
+  },
+  {
+    "category": "gin&tonic",
+    "items": [
+      {
+        "name": "Tanqueray & Thomas Henry Tonic",
+        "description": "Classic",
+        "price": "188  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Fiesta Garage 22 & Guilti tonic lime",
+        "description": "playful with lime",
+        "price": "219  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Hendrick`s & Thomas Henry Tonic",
+        "description": "With cucumber",
+        "price": "208  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Endorphin Magic imaGINe & Fever-Tree Tonic",
+        "description": "illusionistic with blueberries",
+        "price": "239  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Flame of Passion Pink Gin & Thomas Henry Pink Grapefruit Tonic",
+        "description": "Pink grapefruit",
+        "price": "228  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Endorphin Copper Moon & Fever-Tree Mediterranean Tonic",
+        "description": "Mediterranean herbs",
+        "price": "228  CZK",
+        "allergens": []
+      }
+    ]
+  },
+  {
+    "category": "fruit brandies 0.03L",
+    "items": [
+      {
+        "name": "Slivovitz",
+        "description": "Radlík (Plum brandy)",
+        "price": "105  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Slivovice ze sudu",
+        "description": "Radlík (Barrel-aged plum brandy)",
+        "price": "140  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Hruškovice Williams",
+        "description": "Skanzen (Williams pear brandy)",
+        "price": "110  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Hruškovice ze sudu",
+        "description": "Radlík (Barrel-aged pear brandy)",
+        "price": "140  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Meruňkovice",
+        "description": "Svach (Apricot brandy)",
+        "price": "120  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Višňovice",
+        "description": "Zubří (Cherry brandy)",
+        "price": "98  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Jablkovice",
+        "description": "Galí (Apple brandy)",
+        "price": "98  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Rybízovice",
+        "description": "Raspenava (Currant brandy)",
+        "price": "160  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Vínovice ze sudu",
+        "description": "Radlík (Barrel-aged grape brandy)",
+        "price": "149  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Tramínovice",
+        "description": "Kolby (Grape brandy)",
+        "price": "135  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Poněšická Mrkvovice",
+        "description": "(Carrot brandy)",
+        "price": "123  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Malinovice Silver",
+        "description": "Martenz (Raspberry Brandy)",
+        "price": "175  CZK",
+        "allergens": []
+      }
+    ]
+  },
+  {
+    "category": "vodka 0.03L",
+    "items": [
+      {
+        "name": "Anton Kaapl LEGIONARY",
+        "description": "",
+        "price": "75  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Nemiroff",
+        "description": "",
+        "price": "85  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Grey Goose",
+        "description": "",
+        "price": "135  CZK",
+        "allergens": []
+      }
+    ]
+  },
+  {
+    "category": "gins 0.03l",
+    "items": [
+      {
+        "name": "Tanqueray",
+        "description": "",
+        "price": "89  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Hendrick`s",
+        "description": "",
+        "price": "126  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Starej Dobrej Gin",
+        "description": "Poněšice",
+        "price": "159  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Truffle gin",
+        "description": "Garage 22",
+        "price": "155  CZK",
+        "allergens": []
+      }
+    ]
+  },
+  {
+    "category": "rums 0,03L",
+    "items": [
+      {
+        "name": "Havana Club Anejo 3 Anos",
+        "description": "",
+        "price": "66  CZK",
+        "allergens": []
+      },
+      {
+        "name": "El Dorado 12y",
+        "description": "",
+        "price": "149  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Mount Gay XO",
+        "description": "",
+        "price": "186  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Abuelo 7y",
+        "description": "",
+        "price": "135  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Eminente Reserva 7y",
+        "description": "",
+        "price": "172  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Dimplomatico",
+        "description": "",
+        "price": "149  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Zacapa 23y",
+        "description": "rumy 0,03L",
+        "price": "165  CZK",
+        "allergens": []
+      }
+    ]
+  },
+  {
+    "category": "tequilas 0,03L",
+    "items": [
+      {
+        "name": "Tres Alegres Compadres Blanco",
+        "description": "",
+        "price": "89  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Herradura Reposado",
+        "description": "",
+        "price": "168  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Tequila Corralejo Reposado",
+        "description": "100% Agave",
+        "price": "149  CZK",
+        "allergens": []
+      },
+      {
+        "name": "La Cofradia Reposado Rosé „ ed.Catrina ”",
+        "description": "",
+        "price": "185  CZK",
+        "allergens": []
+      },
+      {
+        "name": "La Cofradia Black „ ed.Catrina ”",
+        "description": "",
+        "price": "185  CZK",
+        "allergens": []
+      }
+    ]
+  },
+  {
+    "category": "whisky, whiskey, bourbon 0,03L",
+    "items": [
+      {
+        "name": "Goldcock blended",
+        "description": "",
+        "price": "62  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Glenfiddich 15y",
+        "description": "",
+        "price": "165  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Talisker 10y",
+        "description": "",
+        "price": "165  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Monkey Shoulder",
+        "description": "",
+        "price": "112  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Jameson",
+        "description": "",
+        "price": "75  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Jack Daniels",
+        "description": "",
+        "price": "105  CZK",
+        "allergens": []
+      }
+    ]
+  },
+  {
+    "category": "brandy and cognac 0,03L",
+    "items": [
+      {
+        "name": "Metaxa *****",
+        "description": "",
+        "price": "75  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Remy Martin 1738",
+        "description": "",
+        "price": "170  CZK",
+        "allergens": []
+      }
+    ]
+  },
+  {
+    "category": "spirits & liqueurs 0,03L",
+    "items": [
+      {
+        "name": "Fuzovice",
+        "description": "FUZE/Agnes",
+        "price": "140  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Absinth St. Antoine",
+        "description": "Žufánek",
+        "price": "165  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Kmínka",
+        "description": "Garage 32 (Caraway spirit)",
+        "price": "78  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Kontušovka",
+        "description": "Žufánek (Herbal liqueur)",
+        "price": "95  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Walnut liqueur",
+        "description": "Radlik",
+        "price": "119  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Hustopečská Mandlovka",
+        "description": "(almond liqueur)",
+        "price": "98  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Jägermeister",
+        "description": "",
+        "price": "65  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Poděbradská Samička",
+        "description": "(Regional herbal liqueur)",
+        "price": "58  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Becherovka",
+        "description": "Unfiltered",
+        "price": "65  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Smoked Grappa Bepi Tosolini",
+        "description": "",
+        "price": "195  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Bezový elixír R.Jelínek",
+        "description": "(Elderflower liquer)",
+        "price": "58  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Créme de cassis",
+        "description": "Le Duc Charmant, Jenčík",
+        "price": "68  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Egg liqueur",
+        "description": "Bartida",
+        "price": "50  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Griotte Original",
+        "description": "Bartida (Sour cherry liqueur)",
+        "price": "50  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Zelená",
+        "description": "Bartida (Herbal mint liqueur)",
+        "price": "50  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Zelená",
+        "description": "Svach (Herbal mint liqueur)",
+        "price": "58  CZK",
+        "allergens": []
+      }
+    ]
+  },
+  {
+    "category": "Bubbles",
+    "items": [
+      {
+        "name": "Charmat from Vinselekt Pálava",
+        "description": "0,75L Vinselect Michlovský, extra dry – Moravia",
+        "price": "699  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Cremant de Vinselekt (Pinot, Chardonnay)",
+        "description": "0,75L Vinselect Michlovský, extra brut – Moravia",
+        "price": "849  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Angels & Cowboys",
+        "description": "0,75L NV, brut - North Coast, California",
+        "price": "1199  CZK",
+        "allergens": []
+      }
+    ]
+  },
+  {
+    "category": "white wines",
+    "items": [
+      {
+        "name": "Riesling",
+        "description": "0,75L late harvest Gotberg – Pálava, Moravia",
+        "price": "469  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Pinot Gris",
+        "description": "0,75L late harvest Reisten – Mikulov, Moravia",
+        "price": "479  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Hibernal",
+        "description": "0,75L late harvest Bílkovi – Velkopavlovicko, Moravia",
+        "price": "495  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Sauvignon",
+        "description": "0,75L Typik VOC Lukáš Halkoci – Znojemsko, Moravia",
+        "price": "626  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Welschriesling",
+        "description": "0,75L late harvest Milan Sůkal – Slovácko, Moravia",
+        "price": "660  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Pálava",
+        "description": "0,75L late harvest Vinselect Michlovský – Lednicko-Valtice area, Moravia",
+        "price": "506  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Poysdorfer Saurüssel",
+        "description": "0,75L Grüner Veltliner, Hauser – Weinviertel, Austria",
+        "price": "629  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Grüner Veltliner",
+        "description": "0,75L Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria",
+        "price": "723  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Riesling Rheingau",
+        "description": "0,75L QbA Dry Eva Fricke – Rheingau, Germany",
+        "price": "999  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Riesling",
+        "description": "0,75L Red Stone QbA dry Gunderloch – Rheinhessen, Germany",
+        "price": "595  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Riesling",
+        "description": "0,75L Tradition Brauneberg Fritz Haag – Mosel, Germany",
+        "price": "975  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Weisser Burgunder",
+        "description": "0,75L Pinot Blanc, Tradition Trocken Philipp Kuhn – Pfalz, Germany",
+        "price": "725  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Sauvignon Blanc",
+        "description": "0,75L Lapis Luna - North Coast, California",
+        "price": "789  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Chardonnay",
+        "description": "0,75L Knotty Vines – California",
+        "price": "975  CZK",
+        "allergens": []
+      }
+    ]
+  },
+  {
+    "category": "rosé wines",
+    "items": [
+      {
+        "name": "Merlot Rosé",
+        "description": "0,75L late harvest Bílkovi – Velkopavlovicko, Moravia",
+        "price": "405  CZK",
+        "allergens": []
+      }
+    ]
+  },
+  {
+    "category": "red wines",
+    "items": [
+      {
+        "name": "Pinot Noir",
+        "description": "0,75L Roučí Malé Kraus – Mělnicko, Bohemia",
+        "price": "425  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Dornfelder",
+        "description": "0,75L Bílkovi - Velkopavlovicko, Moravia",
+        "price": "419  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Cuvée Red (Cabernet Sauvignon, Merlot)",
+        "description": "0,75L Kolby – Mikulovsko, Moravia",
+        "price": "649  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Nina Cuvée (Merlot, Blaufränkisch)",
+        "description": "0,75L Bílkovi – Velkopavlovicko, Moravia",
+        "price": "699  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Zweigelt",
+        "description": "0,75L Weingut Feiler-Artinger – Burgenland, Austria",
+        "price": "660  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Pinot Noir",
+        "description": "0,75L Tradition Philip Kuhn – Pfalz, Germany",
+        "price": "959  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Cabernet Sauvignon",
+        "description": "0,75L Lapis Luna - Lodi, California",
+        "price": "789  CZK",
+        "allergens": []
+      },
+      {
+        "name": "Zinfandel",
+        "description": "0,75L Hendry Ranch HRW - Napa Valley, California",
+        "price": "995  CZK",
+        "allergens": []
+      }
+    ]
+  }
+]

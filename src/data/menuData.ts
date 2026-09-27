@@ -4192,6 +4192,178 @@ export const MENU_CATEGORIES: MenuCategory[] = [
             "explanation": "Maisel´s Weisse Alkoholfrei /lahvové/ obsahuje Alergen č. 1 – Obiloviny obsahující lepek (slad v pivu, kváskové pečivo, mouka, strouhanka). Všechny evidované alergeny: Obiloviny obsahující lepek."
           }
         ]
+      },
+      {
+        "id": "transfuze-sebou",
+        "name": "TransFUZE",
+        "weight": "0,5l",
+        "price": "69 Kč",
+        "allergens": [
+          "1"
+        ],
+        "description": "odneste si své oblíbené pivko s sebou - v plechovce a nebo čerstvě načepované v PET lahvi",
+        "notes": "Balení s sebou: v plechovce nebo čerstvě načepované v PET lahvi.",
+        "questions": [
+          {
+            "id": "transfuze-sebou-vol",
+            "question": "Jaký je objem balení piva TransFUZE s sebou?",
+            "correctAnswer": "0,5l",
+            "distractors": [
+              "0,3l",
+              "1,0l"
+            ],
+            "explanation": "Objem balení podsložky TransFUZE s sebou je 0,5l."
+          },
+          {
+            "id": "transfuze-sebou-pkg",
+            "question": "V jakém balení si můžete odnést pivo TransFUZE s sebou?",
+            "correctAnswer": "V plechovce a nebo čerstvě načepované v PET lahvi",
+            "distractors": [
+              "Pouze ve skleněné zálohované lahvi",
+              "V nerezovém party soudku 5l"
+            ],
+            "explanation": "TransFUZE: odneste si své oblíbené pivko s sebou - v plechovce a nebo čerstvě načepované v PET lahvi."
+          },
+          {
+            "id": "transfuze-sebou-allergen-1",
+            "question": "Který z následujících alergenů obsahuje pivo TransFUZE?",
+            "correctAnswer": "Alergen č. 1 – Obiloviny obsahující lepek",
+            "distractors": [
+              "Alergen č. 7 – Mléko a výrobky z něj (včetně laktózy)",
+              "Alergen č. 12 – Oxid siřičitý a siřičitany"
+            ],
+            "explanation": "TransFUZE obsahuje Alergen č. 1 – Obiloviny obsahující lepek (slad v pivu)."
+          }
+        ]
+      },
+      {
+        "id": "disfuze-sebou",
+        "name": "DisFUZE",
+        "weight": "0,5l",
+        "price": "69 Kč",
+        "allergens": [
+          "1"
+        ],
+        "description": "odneste si své oblíbené pivko s sebou - v plechovce a nebo čerstvě načepované v PET lahvi",
+        "notes": "Balení s sebou: v plechovce nebo čerstvě načepované v PET lahvi.",
+        "questions": [
+          {
+            "id": "disfuze-sebou-vol",
+            "question": "Jaký je objem balení piva DisFUZE s sebou?",
+            "correctAnswer": "0,5l",
+            "distractors": [
+              "0,3l",
+              "1,0l"
+            ],
+            "explanation": "Objem balení podsložky DisFUZE s sebou je 0,5l."
+          },
+          {
+            "id": "disfuze-sebou-pkg",
+            "question": "V jakém balení si můžete odnést pivo DisFUZE s sebou?",
+            "correctAnswer": "V plechovce a nebo čerstvě načepované v PET lahvi",
+            "distractors": [
+              "Pouze ve skleněné zálohované lahvi",
+              "V nerezovém party soudku 5l"
+            ],
+            "explanation": "DisFUZE: odneste si své oblíbené pivko s sebou - v plechovce a nebo čerstvě načepované v PET lahvi."
+          },
+          {
+            "id": "disfuze-sebou-allergen-1",
+            "question": "Který z následujících alergenů obsahuje pivo DisFUZE?",
+            "correctAnswer": "Alergen č. 1 – Obiloviny obsahující lepek",
+            "distractors": [
+              "Alergen č. 7 – Mléko a výrobky z něj (včetně laktózy)",
+              "Alergen č. 12 – Oxid siřičitý a siřičitany"
+            ],
+            "explanation": "DisFUZE obsahuje Alergen č. 1 – Obiloviny obsahující lepek (slad v pivu)."
+          }
+        ]
+      },
+      {
+        "id": "fuzenac-sebou",
+        "name": "FUZEnáč",
+        "weight": "0,5l",
+        "price": "78 Kč",
+        "allergens": [
+          "1"
+        ],
+        "description": "odneste si své oblíbené pivko s sebou -v plechovce a nebo čerstvě načepované v PET lahvi",
+        "notes": "Balení s sebou: v plechovce nebo čerstvě načepované v PET lahvi.",
+        "questions": [
+          {
+            "id": "fuzenac-sebou-vol",
+            "question": "Jaký je objem balení piva FUZEnáč s sebou?",
+            "correctAnswer": "0,5l",
+            "distractors": [
+              "0,3l",
+              "1,0l"
+            ],
+            "explanation": "Objem balení podsložky FUZEnáč s sebou je 0,5l."
+          },
+          {
+            "id": "fuzenac-sebou-pkg",
+            "question": "V jakém balení si můžete odnést pivo FUZEnáč s sebou?",
+            "correctAnswer": "V plechovce a nebo čerstvě načepované v PET lahvi",
+            "distractors": [
+              "Pouze ve skleněné zálohované lahvi",
+              "V nerezovém party soudku 5l"
+            ],
+            "explanation": "FUZEnáč: odneste si své oblíbené pivko s sebou -v plechovce a nebo čerstvě načepované v PET lahvi."
+          },
+          {
+            "id": "fuzenac-sebou-allergen-1",
+            "question": "Který z následujících alergenů obsahuje pivo FUZEnáč?",
+            "correctAnswer": "Alergen č. 1 – Obiloviny obsahující lepek",
+            "distractors": [
+              "Alergen č. 7 – Mléko a výrobky z něj (včetně laktózy)",
+              "Alergen č. 12 – Oxid siřičitý a siřičitany"
+            ],
+            "explanation": "FUZEnáč obsahuje Alergen č. 1 – Obiloviny obsahující lepek (slad v pivu)."
+          }
+        ]
+      },
+      {
+        "id": "infuze-sebou",
+        "name": "InFUZE",
+        "weight": "0,5l",
+        "price": "106 Kč",
+        "allergens": [
+          "1"
+        ],
+        "description": "odneste si své oblíbené pivko s sebou - v plechovce a nebo čerstvě načepované v PET lahvi",
+        "notes": "Balení s sebou: v plechovce nebo čerstvě načepované v PET lahvi.",
+        "questions": [
+          {
+            "id": "infuze-sebou-vol",
+            "question": "Jaký je objem balení piva InFUZE s sebou?",
+            "correctAnswer": "0,5l",
+            "distractors": [
+              "0,3l",
+              "1,0l"
+            ],
+            "explanation": "Objem balení podsložky InFUZE s sebou je 0,5l."
+          },
+          {
+            "id": "infuze-sebou-pkg",
+            "question": "V jakém balení si můžete odnést pivo InFUZE s sebou?",
+            "correctAnswer": "V plechovce a nebo čerstvě načepované v PET lahvi",
+            "distractors": [
+              "Pouze ve skleněné zálohované lahvi",
+              "V nerezovém party soudku 5l"
+            ],
+            "explanation": "InFUZE: odneste si své oblíbené pivko s sebou - v plechovce a nebo čerstvě načepované v PET lahvi."
+          },
+          {
+            "id": "infuze-sebou-allergen-1",
+            "question": "Který z následujících alergenů obsahuje pivo InFUZE?",
+            "correctAnswer": "Alergen č. 1 – Obiloviny obsahující lepek",
+            "distractors": [
+              "Alergen č. 7 – Mléko a výrobky z něj (včetně laktózy)",
+              "Alergen č. 12 – Oxid siřičitý a siřičitany"
+            ],
+            "explanation": "InFUZE obsahuje Alergen č. 1 – Obiloviny obsahující lepek (slad v pivu)."
+          }
+        ]
       }
     ]
   },
