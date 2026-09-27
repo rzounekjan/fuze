@@ -12,13 +12,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "id": "tatarak",
         "name": "Sliced beef tartare",
         "weight": "90g",
+        "price": "239 CZK",
         "allergens": [
           "1",
           "3",
           "7"
         ],
-        "description": "from tip of the sirloin, cornichons, marinated shallots, chives, toasted sourdough on beef lard and confit garlic, potato straw",
-        "price": "239 CZK",
+        "description": "from tip of the sirloin, tiny pickles, marinated shallots, parsley leaf, toasted sourdough on beef lard, confit garlic, potato straw",
         "notes": "Hand-sliced prime beef tartare served with crispy potato straw and sourdough bread toasted on beef tallow.",
         "questions": [
           {
@@ -39,57 +39,67 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Sliced beef tartare, this component is present: From tip of the sirloin. Full recipe ingredients: from tip of the sirloin, cornichons, marinated shallots, chives, toasted sourdough on beef lard and confit garlic, potato straw."
+            "explanation": "In Sliced beef tartare, this component is present: From tip of the sirloin. Full recipe ingredients: from tip of the sirloin, tiny pickles, marinated shallots, parsley leaf, toasted sourdough on beef lard, confit garlic, potato straw."
           },
           {
             "id": "tatarak-ing-2",
-            "question": "Which pickled ingredient is included in Sliced beef tartare?",
-            "correctAnswer": "Cornichons",
+            "question": "Which pickled or prepared vegetable is included in Sliced beef tartare?",
+            "correctAnswer": "Tiny pickles",
             "distractors": [
-              "Grilled Padron peppers",
-              "Pickled chili peppers"
+              "Pickled pearl onions",
+              "Grilled Padron peppers"
             ],
-            "explanation": "In Sliced beef tartare, this component is present: Cornichons. Full recipe ingredients: from tip of the sirloin, cornichons, marinated shallots, chives, toasted sourdough on beef lard and confit garlic, potato straw."
+            "explanation": "In Sliced beef tartare, this component is present: Tiny pickles. Full recipe ingredients: from tip of the sirloin, tiny pickles, marinated shallots, parsley leaf, toasted sourdough on beef lard, confit garlic, potato straw."
           },
           {
             "id": "tatarak-ing-3",
-            "question": "Which onion or shallot ingredient is included in Sliced beef tartare?",
+            "question": "Which pickled or prepared vegetable is included in Sliced beef tartare?",
             "correctAnswer": "Marinated shallots",
             "distractors": [
-              "Fermented dill pickles",
-              "Sun-dried tomatoes"
+              "Pickled chili peppers",
+              "Fermented dill pickles"
             ],
-            "explanation": "In Sliced beef tartare, this component is present: Marinated shallots. Full recipe ingredients: from tip of the sirloin, cornichons, marinated shallots, chives, toasted sourdough on beef lard and confit garlic, potato straw."
+            "explanation": "In Sliced beef tartare, this component is present: Marinated shallots. Full recipe ingredients: from tip of the sirloin, tiny pickles, marinated shallots, parsley leaf, toasted sourdough on beef lard, confit garlic, potato straw."
           },
           {
             "id": "tatarak-ing-4",
             "question": "Which fresh herb or spice seasoning finishes Sliced beef tartare?",
-            "correctAnswer": "Chives",
+            "correctAnswer": "Parsley leaf",
             "distractors": [
-              "Fresh rosemary",
-              "Thyme"
+              "Ground cardamom",
+              "Fresh rosemary"
             ],
-            "explanation": "In Sliced beef tartare, this component is present: Chives. Full recipe ingredients: from tip of the sirloin, cornichons, marinated shallots, chives, toasted sourdough on beef lard and confit garlic, potato straw."
+            "explanation": "In Sliced beef tartare, this component is present: Parsley leaf. Full recipe ingredients: from tip of the sirloin, tiny pickles, marinated shallots, parsley leaf, toasted sourdough on beef lard, confit garlic, potato straw."
           },
           {
             "id": "tatarak-ing-5",
-            "question": "In what culinary form is garlic included in Sliced beef tartare?",
-            "correctAnswer": "Toasted sourdough on beef lard and confit garlic",
+            "question": "Which bread, side, or crispy garnish accompanies Sliced beef tartare?",
+            "correctAnswer": "Toasted sourdough on beef lard",
             "distractors": [
               "Sourdough bread",
               "Mashed potatoes"
             ],
-            "explanation": "In Sliced beef tartare, this component is present: Toasted sourdough on beef lard and confit garlic. Full recipe ingredients: from tip of the sirloin, cornichons, marinated shallots, chives, toasted sourdough on beef lard and confit garlic, potato straw."
+            "explanation": "In Sliced beef tartare, this component is present: Toasted sourdough on beef lard. Full recipe ingredients: from tip of the sirloin, tiny pickles, marinated shallots, parsley leaf, toasted sourdough on beef lard, confit garlic, potato straw."
           },
           {
             "id": "tatarak-ing-6",
+            "question": "In what culinary form is garlic included in Sliced beef tartare?",
+            "correctAnswer": "Confit garlic",
+            "distractors": [
+              "Lovage",
+              "Tarragon"
+            ],
+            "explanation": "In Sliced beef tartare, this component is present: Confit garlic. Full recipe ingredients: from tip of the sirloin, tiny pickles, marinated shallots, parsley leaf, toasted sourdough on beef lard, confit garlic, potato straw."
+          },
+          {
+            "id": "tatarak-ing-7",
             "question": "Which bread, side, or crispy garnish accompanies Sliced beef tartare?",
             "correctAnswer": "Potato straw",
             "distractors": [
-              "Potato crisps",
-              "Homemade fries"
+              "Smoked fingerling potatoes",
+              "Beer biscuit"
             ],
-            "explanation": "In Sliced beef tartare, this component is present: Potato straw. Full recipe ingredients: from tip of the sirloin, cornichons, marinated shallots, chives, toasted sourdough on beef lard and confit garlic, potato straw."
+            "explanation": "In Sliced beef tartare, this component is present: Potato straw. Full recipe ingredients: from tip of the sirloin, tiny pickles, marinated shallots, parsley leaf, toasted sourdough on beef lard, confit garlic, potato straw."
           },
           {
             "id": "tatarak-allergen-1",
@@ -127,6 +137,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "id": "klobasa-smrze",
         "name": "Our veal sausage with morels",
         "weight": "100g",
+        "price": "219 CZK",
         "allergens": [
           "1",
           "3",
@@ -134,9 +145,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
           "8",
           "10"
         ],
-        "description": "chestnuts and dried plums, truffle sauce, beer biscuit",
-        "price": "219 CZK",
-        "notes": "House-made artisanal veal sausage with morels, chestnuts, and truffle sauce.",
+        "description": "chestnuts, dried plums, truffle sauce, beer crumble",
+        "notes": "House-made artisanal veal sausage with morels, chestnuts, dried plums, and rich truffle sauce.",
         "questions": [
           {
             "id": "klobasa-smrze-vol",
@@ -150,33 +160,43 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
           },
           {
             "id": "klobasa-smrze-ing-1",
-            "question": "Which ingredient is part of Our veal sausage with morels?",
-            "correctAnswer": "Chestnuts and dried plums",
+            "question": "Which vegetable, fruit, or mushroom component is included in Our veal sausage with morels?",
+            "correctAnswer": "Chestnuts",
             "distractors": [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Our veal sausage with morels, this component is present: Chestnuts and dried plums. Full recipe ingredients: chestnuts and dried plums, truffle sauce, beer biscuit."
+            "explanation": "In Our veal sausage with morels, this component is present: Chestnuts. Full recipe ingredients: chestnuts, dried plums, truffle sauce, beer crumble."
           },
           {
             "id": "klobasa-smrze-ing-2",
-            "question": "Which sauce, dressing, or reduction accompanies Our veal sausage with morels?",
-            "correctAnswer": "Truffle sauce",
+            "question": "Which vegetable, fruit, or mushroom component is included in Our veal sausage with morels?",
+            "correctAnswer": "Dried plums",
             "distractors": [
-              "Apple BBQ sauce",
-              "Lovage mayonnaise"
+              "Duck breast",
+              "Deboned trout"
             ],
-            "explanation": "In Our veal sausage with morels, this component is present: Truffle sauce. Full recipe ingredients: chestnuts and dried plums, truffle sauce, beer biscuit."
+            "explanation": "In Our veal sausage with morels, this component is present: Dried plums. Full recipe ingredients: chestnuts, dried plums, truffle sauce, beer crumble."
           },
           {
             "id": "klobasa-smrze-ing-3",
-            "question": "Which bread, side, or crispy garnish accompanies Our veal sausage with morels?",
-            "correctAnswer": "Beer biscuit",
+            "question": "Which sauce, dressing, or glaze accompanies Our veal sausage with morels?",
+            "correctAnswer": "Truffle sauce",
             "distractors": [
-              "Beef tenderloin",
-              "Duroc pork belly"
+              "Spicy smoked mayonnaise",
+              "Cognac sauce"
             ],
-            "explanation": "In Our veal sausage with morels, this component is present: Beer biscuit. Full recipe ingredients: chestnuts and dried plums, truffle sauce, beer biscuit."
+            "explanation": "In Our veal sausage with morels, this component is present: Truffle sauce. Full recipe ingredients: chestnuts, dried plums, truffle sauce, beer crumble."
+          },
+          {
+            "id": "klobasa-smrze-ing-4",
+            "question": "Which bread, side, or crispy garnish accompanies Our veal sausage with morels?",
+            "correctAnswer": "Beer crumble",
+            "distractors": [
+              "Smoked fingerling potatoes",
+              "Beer biscuit"
+            ],
+            "explanation": "In Our veal sausage with morels, this component is present: Beer crumble. Full recipe ingredients: chestnuts, dried plums, truffle sauce, beer crumble."
           },
           {
             "id": "klobasa-smrze-allergen-1",
@@ -234,14 +254,14 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "id": "foie-gras",
         "name": "Foie gras pâté",
         "weight": "100g",
+        "price": "315 CZK",
         "allergens": [
           "1",
           "3",
           "7"
         ],
         "description": "in Kasteel Rouge beer jelly, cherry sauce, toasted butter brioche",
-        "price": "315 CZK",
-        "notes": "Rich duck foie gras pâté glazed with Belgian cherry beer jelly.",
+        "notes": "Delicate duck foie gras pâté glazed with Kasteel Rouge beer jelly, accompanied by sour cherry sauce and warm brioche.",
         "questions": [
           {
             "id": "foie-gras-vol",
@@ -265,10 +285,10 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
           },
           {
             "id": "foie-gras-ing-2",
-            "question": "Which sauce, dressing, or reduction accompanies Foie gras pâté?",
+            "question": "Which sauce, dressing, or glaze accompanies Foie gras pâté?",
             "correctAnswer": "Cherry sauce",
             "distractors": [
-              "Apple BBQ sauce",
+              "Apple BBQ glaze",
               "Lovage mayonnaise"
             ],
             "explanation": "In Foie gras pâté, this component is present: Cherry sauce. Full recipe ingredients: in Kasteel Rouge beer jelly, cherry sauce, toasted butter brioche."
@@ -319,14 +339,12 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "id": "veprovy-bok-platky",
         "name": "Thin slices of pork belly",
         "weight": "100g",
+        "price": "169 CZK",
         "allergens": [
-          "1",
-          "4",
           "10"
         ],
-        "description": "hop-smoked, crispy pork cracklings, purée of roasted apples and mustard, fried peas",
-        "price": "169 CZK",
-        "notes": "Delicate slices of hop-smoked pork belly with roasted apple and mustard purée.",
+        "description": "hop-smoked, crispy pork cracklings, over roasted apples and horseradish, fried peas",
+        "notes": "Tender hop-smoked pork belly slices served with savory cracklings and sweet-tangy roasted apple horseradish.",
         "questions": [
           {
             "id": "veprovy-bok-platky-vol",
@@ -346,7 +364,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Thin slices of pork belly, this component is present: Hop-smoked. Full recipe ingredients: hop-smoked, crispy pork cracklings, purée of roasted apples and mustard, fried peas."
+            "explanation": "In Thin slices of pork belly, this component is present: Hop-smoked. Full recipe ingredients: hop-smoked, crispy pork cracklings, over roasted apples and horseradish, fried peas."
           },
           {
             "id": "veprovy-bok-platky-ing-2",
@@ -356,57 +374,47 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Duck breast",
               "Deboned trout"
             ],
-            "explanation": "In Thin slices of pork belly, this component is present: Crispy pork cracklings. Full recipe ingredients: hop-smoked, crispy pork cracklings, purée of roasted apples and mustard, fried peas."
+            "explanation": "In Thin slices of pork belly, this component is present: Crispy pork cracklings. Full recipe ingredients: hop-smoked, crispy pork cracklings, over roasted apples and horseradish, fried peas."
           },
           {
             "id": "veprovy-bok-platky-ing-3",
-            "question": "Which vegetable or fruit component is included in Thin slices of pork belly?",
-            "correctAnswer": "Purée of roasted apples and mustard",
+            "question": "Which vegetable, fruit, or mushroom component is included in Thin slices of pork belly?",
+            "correctAnswer": "Over roasted apples",
             "distractors": [
               "Grilled Padron peppers",
               "Pickled chili peppers"
             ],
-            "explanation": "In Thin slices of pork belly, this component is present: Purée of roasted apples and mustard. Full recipe ingredients: hop-smoked, crispy pork cracklings, purée of roasted apples and mustard, fried peas."
+            "explanation": "In Thin slices of pork belly, this component is present: Over roasted apples. Full recipe ingredients: hop-smoked, crispy pork cracklings, over roasted apples and horseradish, fried peas."
           },
           {
             "id": "veprovy-bok-platky-ing-4",
-            "question": "Which vegetable or fruit component is included in Thin slices of pork belly?",
-            "correctAnswer": "Fried peas",
+            "question": "Which ingredient is part of Thin slices of pork belly?",
+            "correctAnswer": "Horseradish",
             "distractors": [
               "Venison saddle",
               "Lamb chop"
             ],
-            "explanation": "In Thin slices of pork belly, this component is present: Fried peas. Full recipe ingredients: hop-smoked, crispy pork cracklings, purée of roasted apples and mustard, fried peas."
+            "explanation": "In Thin slices of pork belly, this component is present: Horseradish. Full recipe ingredients: hop-smoked, crispy pork cracklings, over roasted apples and horseradish, fried peas."
           },
           {
-            "id": "veprovy-bok-platky-allergen-1",
-            "question": "Which of the following allergens is present in Thin slices of pork belly?",
-            "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
+            "id": "veprovy-bok-platky-ing-5",
+            "question": "Which vegetable, fruit, or mushroom component is included in Thin slices of pork belly?",
+            "correctAnswer": "Fried peas",
             "distractors": [
-              "Allergen No. 3 – Eggs and products thereof",
-              "Allergen No. 9 – Celery and products thereof"
+              "Pickled ginger",
+              "Cornichons"
             ],
-            "explanation": "Thin slices of pork belly contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Fish and products thereof, Mustard and products thereof."
-          },
-          {
-            "id": "veprovy-bok-platky-allergen-4",
-            "question": "Which of the following allergens is present in Thin slices of pork belly?",
-            "correctAnswer": "Allergen No. 4 – Fish and products thereof",
-            "distractors": [
-              "Allergen No. 7 – Milk and products thereof (including lactose)",
-              "Allergen No. 13 – Lupin and products thereof"
-            ],
-            "explanation": "Thin slices of pork belly contains Allergen No. 4 – Fish and products thereof (trout, anchovies, fish sauce, worcestershire). All allergens present in this item: Cereals containing gluten, Fish and products thereof, Mustard and products thereof."
+            "explanation": "In Thin slices of pork belly, this component is present: Fried peas. Full recipe ingredients: hop-smoked, crispy pork cracklings, over roasted apples and horseradish, fried peas."
           },
           {
             "id": "veprovy-bok-platky-allergen-10",
             "question": "Which of the following allergens is present in Thin slices of pork belly?",
             "correctAnswer": "Allergen No. 10 – Mustard and products thereof",
             "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 7 – Milk and products thereof (including lactose)"
+              "Allergen No. 12 – Sulphur dioxide and sulphites",
+              "Allergen No. 3 – Eggs and products thereof"
             ],
-            "explanation": "Thin slices of pork belly contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Cereals containing gluten, Fish and products thereof, Mustard and products thereof."
+            "explanation": "Thin slices of pork belly contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Mustard and products thereof."
           }
         ]
       },
@@ -414,6 +422,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "id": "kureci-krokety",
         "name": "Fried chicken croquettes",
         "weight": "100g",
+        "price": "175 CZK",
         "allergens": [
           "1",
           "3",
@@ -421,8 +430,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
           "14"
         ],
         "description": "with cheddar, our salsa verde, lovage mayonnaise",
-        "price": "175 CZK",
-        "notes": "Crispy chicken croquettes with melting cheddar and fresh herb salsa verde.",
+        "notes": "Crispy fried chicken croquettes with melted cheddar, paired with herbal lovage mayo and zesty salsa verde.",
         "questions": [
           {
             "id": "kureci-krokety-vol",
@@ -436,20 +444,20 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
           },
           {
             "id": "kureci-krokety-ing-1",
-            "question": "Which cheese or dairy ingredient is included in Fried chicken croquettes?",
-            "correctAnswer": "With cheddar",
+            "question": "Which cheese or dairy component is included in Fried chicken croquettes?",
+            "correctAnswer": "Cheddar",
             "distractors": [
-              "Pork tenderloin",
-              "Veal leg"
+              "Choron sauce",
+              "Sour cherry sauce"
             ],
-            "explanation": "In Fried chicken croquettes, this component is present: With cheddar. Full recipe ingredients: with cheddar, our salsa verde, lovage mayonnaise."
+            "explanation": "In Fried chicken croquettes, this component is present: Cheddar. Full recipe ingredients: with cheddar, our salsa verde, lovage mayonnaise."
           },
           {
             "id": "kureci-krokety-ing-2",
-            "question": "Which sauce, dressing, or reduction accompanies Fried chicken croquettes?",
+            "question": "Which sauce, dressing, or glaze accompanies Fried chicken croquettes?",
             "correctAnswer": "Our salsa verde",
             "distractors": [
-              "Apple BBQ sauce",
+              "Apple BBQ glaze",
               "Spicy smoked mayonnaise"
             ],
             "explanation": "In Fried chicken croquettes, this component is present: Our salsa verde. Full recipe ingredients: with cheddar, our salsa verde, lovage mayonnaise."
@@ -508,96 +516,106 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "olomoucke-tvaruzky",
-        "name": "Chopped Olomouc curd cheese",
+        "name": "Olomouc curd cheese spread",
+        "price": "199 CZK",
         "allergens": [
           "1",
           "3",
           "7",
           "10"
         ],
-        "description": "with onion, paprika mayonnaise and mustard seeds on toasted sourdough bread, horseradish, pickled vegetables",
-        "price": "199 CZK",
-        "notes": "Pungent traditional ripened Moravian curd cheese served on toasted sourdough.",
+        "description": "with onion, paprika-mustard seed mayonnaise, on toasted sourdough, horseradish, pickled vegetables",
+        "notes": "Traditional Czech pungent Olomouc curd cheese spread with paprika-mustard mayonnaise on toasted artisan bread.",
         "questions": [
           {
             "id": "olomoucke-tvaruzky-ing-1",
-            "question": "Which onion or shallot ingredient is included in Chopped Olomouc curd cheese?",
-            "correctAnswer": "With onion",
+            "question": "Which ingredient is part of Olomouc curd cheese spread?",
+            "correctAnswer": "Onion",
             "distractors": [
               "Marinated shallots",
               "Roasted root vegetables"
             ],
-            "explanation": "In Chopped Olomouc curd cheese, this component is present: With onion. Full recipe ingredients: with onion, paprika mayonnaise and mustard seeds on toasted sourdough bread, horseradish, pickled vegetables."
+            "explanation": "In Olomouc curd cheese spread, this component is present: Onion. Full recipe ingredients: with onion, paprika-mustard seed mayonnaise, on toasted sourdough, horseradish, pickled vegetables."
           },
           {
             "id": "olomoucke-tvaruzky-ing-2",
-            "question": "Which bread, side, or crispy garnish accompanies Chopped Olomouc curd cheese?",
-            "correctAnswer": "Paprika mayonnaise and mustard seeds on toasted sourdough bread",
+            "question": "Which sauce, dressing, or glaze accompanies Olomouc curd cheese spread?",
+            "correctAnswer": "Paprika-mustard seed mayonnaise",
             "distractors": [
-              "Mashed potatoes",
-              "Potato crisps"
+              "Sour cherry sauce",
+              "Apple BBQ glaze"
             ],
-            "explanation": "In Chopped Olomouc curd cheese, this component is present: Paprika mayonnaise and mustard seeds on toasted sourdough bread. Full recipe ingredients: with onion, paprika mayonnaise and mustard seeds on toasted sourdough bread, horseradish, pickled vegetables."
+            "explanation": "In Olomouc curd cheese spread, this component is present: Paprika-mustard seed mayonnaise. Full recipe ingredients: with onion, paprika-mustard seed mayonnaise, on toasted sourdough, horseradish, pickled vegetables."
           },
           {
             "id": "olomoucke-tvaruzky-ing-3",
-            "question": "Which ingredient is part of Chopped Olomouc curd cheese?",
-            "correctAnswer": "Horseradish",
+            "question": "Which bread, side, or crispy garnish accompanies Olomouc curd cheese spread?",
+            "correctAnswer": "On toasted sourdough",
             "distractors": [
-              "Beef tenderloin",
-              "Duroc pork belly"
+              "Potato crisps",
+              "Homemade fries"
             ],
-            "explanation": "In Chopped Olomouc curd cheese, this component is present: Horseradish. Full recipe ingredients: with onion, paprika mayonnaise and mustard seeds on toasted sourdough bread, horseradish, pickled vegetables."
+            "explanation": "In Olomouc curd cheese spread, this component is present: On toasted sourdough. Full recipe ingredients: with onion, paprika-mustard seed mayonnaise, on toasted sourdough, horseradish, pickled vegetables."
           },
           {
             "id": "olomoucke-tvaruzky-ing-4",
-            "question": "Which pickled ingredient is included in Chopped Olomouc curd cheese?",
+            "question": "Which ingredient is part of Olomouc curd cheese spread?",
+            "correctAnswer": "Horseradish",
+            "distractors": [
+              "Venison saddle",
+              "Lamb chop"
+            ],
+            "explanation": "In Olomouc curd cheese spread, this component is present: Horseradish. Full recipe ingredients: with onion, paprika-mustard seed mayonnaise, on toasted sourdough, horseradish, pickled vegetables."
+          },
+          {
+            "id": "olomoucke-tvaruzky-ing-5",
+            "question": "Which pickled or prepared vegetable is included in Olomouc curd cheese spread?",
             "correctAnswer": "Pickled vegetables",
             "distractors": [
-              "Fermented dill pickles",
-              "Sun-dried tomatoes"
+              "Pickled ginger",
+              "Cornichons"
             ],
-            "explanation": "In Chopped Olomouc curd cheese, this component is present: Pickled vegetables. Full recipe ingredients: with onion, paprika mayonnaise and mustard seeds on toasted sourdough bread, horseradish, pickled vegetables."
+            "explanation": "In Olomouc curd cheese spread, this component is present: Pickled vegetables. Full recipe ingredients: with onion, paprika-mustard seed mayonnaise, on toasted sourdough, horseradish, pickled vegetables."
           },
           {
             "id": "olomoucke-tvaruzky-allergen-1",
-            "question": "Which of the following allergens is present in Chopped Olomouc curd cheese?",
+            "question": "Which of the following allergens is present in Olomouc curd cheese spread?",
             "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
             "distractors": [
               "Allergen No. 4 – Fish and products thereof",
               "Allergen No. 11 – Sesame seeds and products thereof"
             ],
-            "explanation": "Chopped Olomouc curd cheese contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Olomouc curd cheese spread contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
             "id": "olomoucke-tvaruzky-allergen-3",
-            "question": "Which of the following allergens is present in Chopped Olomouc curd cheese?",
+            "question": "Which of the following allergens is present in Olomouc curd cheese spread?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
               "Allergen No. 6 – Soybeans and products thereof",
               "Allergen No. 13 – Lupin and products thereof"
             ],
-            "explanation": "Chopped Olomouc curd cheese contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Olomouc curd cheese spread contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
             "id": "olomoucke-tvaruzky-allergen-7",
-            "question": "Which of the following allergens is present in Chopped Olomouc curd cheese?",
+            "question": "Which of the following allergens is present in Olomouc curd cheese spread?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 12 – Sulphur dioxide and sulphites",
               "Allergen No. 5 – Peanuts and products thereof"
             ],
-            "explanation": "Chopped Olomouc curd cheese contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Olomouc curd cheese spread contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
             "id": "olomoucke-tvaruzky-allergen-10",
-            "question": "Which of the following allergens is present in Chopped Olomouc curd cheese?",
+            "question": "Which of the following allergens is present in Olomouc curd cheese spread?",
             "correctAnswer": "Allergen No. 10 – Mustard and products thereof",
             "distractors": [
               "Allergen No. 2 – Crustaceans and products thereof",
               "Allergen No. 9 – Celery and products thereof"
             ],
-            "explanation": "Chopped Olomouc curd cheese contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Olomouc curd cheese spread contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           }
         ]
       }
@@ -605,30 +623,30 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   },
   {
     "id": "chutovky",
-    "name": "Bar snacks",
-    "badge": "Bar snacks",
-    "description": "Savory small bites to accompany beer and wine from our kitchen",
+    "name": "Snacks",
+    "badge": "Snacks",
+    "description": "Savory finger foods and quick bar bites perfect with fresh draft beer",
     "iconName": "Cookie",
     "items": [
       {
         "id": "lanyzovy-popcorn",
         "name": "Truffle popcorn",
+        "price": "139 CZK",
         "allergens": [
           "7"
         ],
         "description": "with parmesan",
-        "price": "139 CZK",
-        "notes": "Freshly popped corn tossed with fragrant truffle oil and finely grated parmesan.",
+        "notes": "Freshly popped gourmet corn tossed with aromatic truffle essence and grated aged parmesan.",
         "questions": [
           {
             "id": "lanyzovy-popcorn-ing-1",
-            "question": "Which cheese or dairy ingredient is included in Truffle popcorn?",
-            "correctAnswer": "With parmesan",
+            "question": "Which cheese or dairy component is included in Truffle popcorn?",
+            "correctAnswer": "Parmesan",
             "distractors": [
-              "Pork tenderloin",
-              "Veal leg"
+              "Choron sauce",
+              "Our salsa verde"
             ],
-            "explanation": "In Truffle popcorn, this component is present: With parmesan. Full recipe ingredients: with parmesan."
+            "explanation": "In Truffle popcorn, this component is present: Parmesan. Full recipe ingredients: with parmesan."
           },
           {
             "id": "lanyzovy-popcorn-allergen-7",
@@ -644,33 +662,33 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "domaci-bramburky",
-        "name": "Our homemade potato crisps",
+        "name": "Homemade potatoes",
+        "price": "125 CZK",
         "allergens": [
           "7"
         ],
         "description": "spicy smoked mayonnaise",
-        "price": "125 CZK",
-        "notes": "Hand-cut crispy potato chips served with our signature smoked mayonnaise.",
+        "notes": "Crispy house-fried potato crisps seasoned lightly and served with smoky spicy mayonnaise.",
         "questions": [
           {
             "id": "domaci-bramburky-ing-1",
-            "question": "Which sauce, dressing, or reduction accompanies Our homemade potato crisps?",
+            "question": "Which sauce, dressing, or glaze accompanies Homemade potatoes?",
             "correctAnswer": "Spicy smoked mayonnaise",
             "distractors": [
               "Choron sauce",
               "Our salsa verde"
             ],
-            "explanation": "In Our homemade potato crisps, this component is present: Spicy smoked mayonnaise. Full recipe ingredients: spicy smoked mayonnaise."
+            "explanation": "In Homemade potatoes, this component is present: Spicy smoked mayonnaise. Full recipe ingredients: spicy smoked mayonnaise."
           },
           {
             "id": "domaci-bramburky-allergen-7",
-            "question": "Which of the following allergens is present in Our homemade potato crisps?",
+            "question": "Which of the following allergens is present in Homemade potatoes?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 9 – Celery and products thereof",
               "Allergen No. 14 – Molluscs and products thereof"
             ],
-            "explanation": "Our homemade potato crisps contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Milk and products thereof (including lactose)."
+            "explanation": "Homemade potatoes contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Milk and products thereof (including lactose)."
           }
         ]
       }
@@ -680,18 +698,18 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
     "id": "polevky",
     "name": "Soups",
     "badge": "Soups",
-    "description": "Rich traditional broths and hearty soups made from scratch",
+    "description": "Rich traditional broths and delicate creamy soups prepared from scratch",
     "iconName": "Soup",
     "items": [
       {
         "id": "hovezi-consomme",
         "name": "Beef consommé",
+        "price": "109 CZK",
         "allergens": [
           "9"
         ],
-        "description": "delicate liver dumpling, vegetables",
-        "price": "109 CZK",
-        "notes": "Crystal-clear slow-simmered beef broth with homemade liver dumpling.",
+        "description": "delicate liver dumpling, root vegetables",
+        "notes": "Rich clear double beef broth served with traditional delicate liver dumpling and sliced root vegetables.",
         "questions": [
           {
             "id": "hovezi-consomme-ing-1",
@@ -701,17 +719,17 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Beef consommé, this component is present: Delicate liver dumpling. Full recipe ingredients: delicate liver dumpling, vegetables."
+            "explanation": "In Beef consommé, this component is present: Delicate liver dumpling. Full recipe ingredients: delicate liver dumpling, root vegetables."
           },
           {
             "id": "hovezi-consomme-ing-2",
-            "question": "Which ingredient is part of Beef consommé?",
-            "correctAnswer": "Vegetables",
+            "question": "Which vegetable, fruit, or mushroom component is included in Beef consommé?",
+            "correctAnswer": "Root vegetables",
             "distractors": [
               "Pickled pearl onions",
               "Grilled Padron peppers"
             ],
-            "explanation": "In Beef consommé, this component is present: Vegetables. Full recipe ingredients: delicate liver dumpling, vegetables."
+            "explanation": "In Beef consommé, this component is present: Root vegetables. Full recipe ingredients: delicate liver dumpling, root vegetables."
           },
           {
             "id": "hovezi-consomme-allergen-9",
@@ -726,8 +744,9 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         ]
       },
       {
-        "id": "kremova-humri",
+        "id": "humrovy-krem",
         "name": "Creamy lobster soup",
+        "price": "269 CZK",
         "allergens": [
           "1",
           "2",
@@ -735,32 +754,41 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
           "7",
           "9"
         ],
-        "description": "with sausage and vegetables, baked in puff pastry crust",
-        "price": "269 CZK",
-        "notes": "Velvety lobster bisque sealed with golden flaky puff pastry.",
+        "description": "with saffron and brandy, topped with puff pastry",
+        "notes": "Luxurious velvety lobster bisque infused with saffron and brandy, baked under a flaky golden puff pastry lid.",
         "questions": [
           {
-            "id": "kremova-humri-ing-1",
-            "question": "Which meat or seafood ingredient forms the base of Creamy lobster soup?",
-            "correctAnswer": "With sausage and vegetables",
+            "id": "humrovy-krem-ing-1",
+            "question": "Which ingredient is part of Creamy lobster soup?",
+            "correctAnswer": "Saffron",
             "distractors": [
-              "Marinated shallots",
-              "Roasted root vegetables"
+              "Pork tenderloin",
+              "Veal leg"
             ],
-            "explanation": "In Creamy lobster soup, this component is present: With sausage and vegetables. Full recipe ingredients: with sausage and vegetables, baked in puff pastry crust."
+            "explanation": "In Creamy lobster soup, this component is present: Saffron. Full recipe ingredients: with saffron and brandy, topped with puff pastry."
           },
           {
-            "id": "kremova-humri-ing-2",
+            "id": "humrovy-krem-ing-2",
             "question": "Which ingredient is part of Creamy lobster soup?",
-            "correctAnswer": "Baked in puff pastry crust",
+            "correctAnswer": "Brandy",
             "distractors": [
               "Duck breast",
               "Deboned trout"
             ],
-            "explanation": "In Creamy lobster soup, this component is present: Baked in puff pastry crust. Full recipe ingredients: with sausage and vegetables, baked in puff pastry crust."
+            "explanation": "In Creamy lobster soup, this component is present: Brandy. Full recipe ingredients: with saffron and brandy, topped with puff pastry."
           },
           {
-            "id": "kremova-humri-allergen-1",
+            "id": "humrovy-krem-ing-3",
+            "question": "Which ingredient is part of Creamy lobster soup?",
+            "correctAnswer": "Topped with puff pastry",
+            "distractors": [
+              "Beef tenderloin",
+              "Duroc pork belly"
+            ],
+            "explanation": "In Creamy lobster soup, this component is present: Topped with puff pastry. Full recipe ingredients: with saffron and brandy, topped with puff pastry."
+          },
+          {
+            "id": "humrovy-krem-allergen-1",
             "question": "Which of the following allergens is present in Creamy lobster soup?",
             "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
             "distractors": [
@@ -770,7 +798,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "explanation": "Creamy lobster soup contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Milk and products thereof (including lactose), Celery and products thereof."
           },
           {
-            "id": "kremova-humri-allergen-2",
+            "id": "humrovy-krem-allergen-2",
             "question": "Which of the following allergens is present in Creamy lobster soup?",
             "correctAnswer": "Allergen No. 2 – Crustaceans and products thereof",
             "distractors": [
@@ -780,7 +808,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "explanation": "Creamy lobster soup contains Allergen No. 2 – Crustaceans and products thereof (prawns, shrimps, crabs, lobster). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Milk and products thereof (including lactose), Celery and products thereof."
           },
           {
-            "id": "kremova-humri-allergen-3",
+            "id": "humrovy-krem-allergen-3",
             "question": "Which of the following allergens is present in Creamy lobster soup?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
@@ -790,7 +818,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "explanation": "Creamy lobster soup contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Milk and products thereof (including lactose), Celery and products thereof."
           },
           {
-            "id": "kremova-humri-allergen-7",
+            "id": "humrovy-krem-allergen-7",
             "question": "Which of the following allergens is present in Creamy lobster soup?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
@@ -800,7 +828,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "explanation": "Creamy lobster soup contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Milk and products thereof (including lactose), Celery and products thereof."
           },
           {
-            "id": "kremova-humri-allergen-9",
+            "id": "humrovy-krem-allergen-9",
             "question": "Which of the following allergens is present in Creamy lobster soup?",
             "correctAnswer": "Allergen No. 9 – Celery and products thereof",
             "distractors": [
@@ -817,12 +845,13 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
     "id": "salaty",
     "name": "Salads",
     "badge": "Salads",
-    "description": "Crisp vibrant salads paired with homemade dressings and fresh herbs",
+    "description": "Fresh, vibrant salads with house dressings and premium additions",
     "iconName": "Salad",
     "items": [
       {
         "id": "caesar-salat",
         "name": "Caesar salad",
+        "price": "289 CZK",
         "allergens": [
           "1",
           "3",
@@ -830,39 +859,38 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
           "7",
           "10"
         ],
-        "description": "with oven-pulled chicken, crispy bacon, parmesan and croutons",
-        "price": "289 CZK",
-        "notes": "Romaine lettuce with tandoori pulled chicken, parmesan shavings, and house dressing.",
+        "description": "with grilled chicken breast, parmesan, croutons",
+        "notes": "Crisp romaine salad with succulent grilled chicken breast, shaved parmesan, garlic croutons, and rich anchovy dressing.",
         "questions": [
           {
             "id": "caesar-salat-ing-1",
             "question": "Which meat or seafood ingredient forms the base of Caesar salad?",
-            "correctAnswer": "With oven-pulled chicken",
+            "correctAnswer": "Grilled chicken breast",
             "distractors": [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Caesar salad, this component is present: With oven-pulled chicken. Full recipe ingredients: with oven-pulled chicken, crispy bacon, parmesan and croutons."
+            "explanation": "In Caesar salad, this component is present: Grilled chicken breast. Full recipe ingredients: with grilled chicken breast, parmesan, croutons."
           },
           {
             "id": "caesar-salat-ing-2",
-            "question": "Which ingredient is part of Caesar salad?",
-            "correctAnswer": "Crispy bacon",
+            "question": "Which cheese or dairy component is included in Caesar salad?",
+            "correctAnswer": "Parmesan",
             "distractors": [
-              "Duck breast",
-              "Deboned trout"
+              "Sour cherry sauce",
+              "Apple BBQ glaze"
             ],
-            "explanation": "In Caesar salad, this component is present: Crispy bacon. Full recipe ingredients: with oven-pulled chicken, crispy bacon, parmesan and croutons."
+            "explanation": "In Caesar salad, this component is present: Parmesan. Full recipe ingredients: with grilled chicken breast, parmesan, croutons."
           },
           {
             "id": "caesar-salat-ing-3",
-            "question": "Which cheese or dairy ingredient is included in Caesar salad?",
-            "correctAnswer": "Parmesan and croutons",
+            "question": "Which ingredient is part of Caesar salad?",
+            "correctAnswer": "Croutons",
             "distractors": [
               "Beef tenderloin",
               "Duroc pork belly"
             ],
-            "explanation": "In Caesar salad, this component is present: Parmesan and croutons. Full recipe ingredients: with oven-pulled chicken, crispy bacon, parmesan and croutons."
+            "explanation": "In Caesar salad, this component is present: Croutons. Full recipe ingredients: with grilled chicken breast, parmesan, croutons."
           },
           {
             "id": "caesar-salat-allergen-1",
@@ -919,64 +947,54 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "waldorf-salat",
         "name": "Waldorf salad",
+        "price": "245 CZK",
         "allergens": [
           "8",
           "9",
           "10"
         ],
-        "description": "apples, celery stalks, grapes, pickled walnuts, mayonnaise dressing",
-        "price": "245 CZK",
-        "notes": "Crisp apples, celery, sweet grapes, and pickled walnuts with creamy dressing.",
+        "description": "with apples, celery, grapes, walnut mayonnaise dressing",
+        "notes": "Refreshing classic salad combining crisp apples, celery stalks, juicy grapes, and roasted walnuts in creamy mayonnaise.",
         "questions": [
           {
             "id": "waldorf-salat-ing-1",
-            "question": "Which vegetable or fruit component is included in Waldorf salad?",
+            "question": "Which vegetable, fruit, or mushroom component is included in Waldorf salad?",
             "correctAnswer": "Apples",
             "distractors": [
               "Marinated shallots",
               "Roasted root vegetables"
             ],
-            "explanation": "In Waldorf salad, this component is present: Apples. Full recipe ingredients: apples, celery stalks, grapes, pickled walnuts, mayonnaise dressing."
+            "explanation": "In Waldorf salad, this component is present: Apples. Full recipe ingredients: with apples, celery, grapes, walnut mayonnaise dressing."
           },
           {
             "id": "waldorf-salat-ing-2",
-            "question": "Which vegetable or fruit component is included in Waldorf salad?",
-            "correctAnswer": "Celery stalks",
+            "question": "Which vegetable, fruit, or mushroom component is included in Waldorf salad?",
+            "correctAnswer": "Celery",
             "distractors": [
               "Sauerkraut",
               "Pickled pearl onions"
             ],
-            "explanation": "In Waldorf salad, this component is present: Celery stalks. Full recipe ingredients: apples, celery stalks, grapes, pickled walnuts, mayonnaise dressing."
+            "explanation": "In Waldorf salad, this component is present: Celery. Full recipe ingredients: with apples, celery, grapes, walnut mayonnaise dressing."
           },
           {
             "id": "waldorf-salat-ing-3",
-            "question": "Which vegetable or fruit component is included in Waldorf salad?",
+            "question": "Which vegetable, fruit, or mushroom component is included in Waldorf salad?",
             "correctAnswer": "Grapes",
             "distractors": [
-              "Beef tenderloin",
-              "Duroc pork belly"
+              "Grilled Padron peppers",
+              "Pickled chili peppers"
             ],
-            "explanation": "In Waldorf salad, this component is present: Grapes. Full recipe ingredients: apples, celery stalks, grapes, pickled walnuts, mayonnaise dressing."
+            "explanation": "In Waldorf salad, this component is present: Grapes. Full recipe ingredients: with apples, celery, grapes, walnut mayonnaise dressing."
           },
           {
             "id": "waldorf-salat-ing-4",
-            "question": "Which pickled ingredient is included in Waldorf salad?",
-            "correctAnswer": "Pickled walnuts",
+            "question": "Which sauce, dressing, or glaze accompanies Waldorf salad?",
+            "correctAnswer": "Walnut mayonnaise dressing",
             "distractors": [
-              "Fermented dill pickles",
-              "Sun-dried tomatoes"
+              "Cognac sauce",
+              "Dill sauce"
             ],
-            "explanation": "In Waldorf salad, this component is present: Pickled walnuts. Full recipe ingredients: apples, celery stalks, grapes, pickled walnuts, mayonnaise dressing."
-          },
-          {
-            "id": "waldorf-salat-ing-5",
-            "question": "Which sauce, dressing, or reduction accompanies Waldorf salad?",
-            "correctAnswer": "Mayonnaise dressing",
-            "distractors": [
-              "Cheddar cheese",
-              "Truffle sauce"
-            ],
-            "explanation": "In Waldorf salad, this component is present: Mayonnaise dressing. Full recipe ingredients: apples, celery stalks, grapes, pickled walnuts, mayonnaise dressing."
+            "explanation": "In Waldorf salad, this component is present: Walnut mayonnaise dressing. Full recipe ingredients: with apples, celery, grapes, walnut mayonnaise dressing."
           },
           {
             "id": "waldorf-salat-allergen-8",
@@ -1014,72 +1032,51 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   },
   {
     "id": "sporak",
-    "name": "From the stove & oven",
-    "badge": "From the stove & oven",
-    "description": "Traditional and contemporary hearty warm dishes crafted in our kitchen",
+    "name": "From the stove and oven",
+    "badge": "From the stove and oven",
+    "description": "Hearty traditional mains, slow-braised cuts, and rich sauces",
     "iconName": "Flame",
     "items": [
       {
         "id": "pecene-koleno",
         "name": "Roasted pork knuckle",
-        "weight": "1ks",
+        "price": "459 CZK",
         "allergens": [
           "1",
           "10"
         ],
-        "description": "available daily until sold out, mustard, freshly grated horseradish, cabbage salad with horseradish",
-        "price": "459 CZK",
-        "notes": "Crispy roasted pork knuckle served with freshly grated horseradish and mustard.",
+        "description": "mustard, grated horseradish, cabbage salad with horseradish (offered daily until sold out)",
+        "notes": "Slow-roasted tender pork knuckle with crispy skin, served with sharp mustard, freshly grated horseradish, and cabbage slaw.",
         "questions": [
-          {
-            "id": "pecene-koleno-vol",
-            "question": "What is the portion size of Roasted pork knuckle?",
-            "correctAnswer": "1ks",
-            "distractors": [
-              "2 pcs",
-              "1/2 pc"
-            ],
-            "explanation": "The portion size / weight of Roasted pork knuckle is 1ks."
-          },
           {
             "id": "pecene-koleno-ing-1",
             "question": "Which ingredient is part of Roasted pork knuckle?",
-            "correctAnswer": "Available daily until sold out",
+            "correctAnswer": "Mustard",
             "distractors": [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Roasted pork knuckle, this component is present: Available daily until sold out. Full recipe ingredients: available daily until sold out, mustard, freshly grated horseradish, cabbage salad with horseradish."
+            "explanation": "In Roasted pork knuckle, this component is present: Mustard. Full recipe ingredients: mustard, grated horseradish, cabbage salad with horseradish (offered daily until sold out)."
           },
           {
             "id": "pecene-koleno-ing-2",
             "question": "Which ingredient is part of Roasted pork knuckle?",
-            "correctAnswer": "Mustard",
+            "correctAnswer": "Grated horseradish",
             "distractors": [
               "Duck breast",
               "Deboned trout"
             ],
-            "explanation": "In Roasted pork knuckle, this component is present: Mustard. Full recipe ingredients: available daily until sold out, mustard, freshly grated horseradish, cabbage salad with horseradish."
+            "explanation": "In Roasted pork knuckle, this component is present: Grated horseradish. Full recipe ingredients: mustard, grated horseradish, cabbage salad with horseradish (offered daily until sold out)."
           },
           {
             "id": "pecene-koleno-ing-3",
-            "question": "Which ingredient is part of Roasted pork knuckle?",
-            "correctAnswer": "Freshly grated horseradish",
-            "distractors": [
-              "Beef tenderloin",
-              "Duroc pork belly"
-            ],
-            "explanation": "In Roasted pork knuckle, this component is present: Freshly grated horseradish. Full recipe ingredients: available daily until sold out, mustard, freshly grated horseradish, cabbage salad with horseradish."
-          },
-          {
-            "id": "pecene-koleno-ing-4",
-            "question": "Which vegetable or fruit component is included in Roasted pork knuckle?",
+            "question": "Which pickled or prepared vegetable is included in Roasted pork knuckle?",
             "correctAnswer": "Cabbage salad with horseradish",
             "distractors": [
-              "Fermented dill pickles",
-              "Sun-dried tomatoes"
+              "Grilled Padron peppers",
+              "Pickled chili peppers"
             ],
-            "explanation": "In Roasted pork knuckle, this component is present: Cabbage salad with horseradish. Full recipe ingredients: available daily until sold out, mustard, freshly grated horseradish, cabbage salad with horseradish."
+            "explanation": "In Roasted pork knuckle, this component is present: Cabbage salad with horseradish. Full recipe ingredients: mustard, grated horseradish, cabbage salad with horseradish (offered daily until sold out)."
           },
           {
             "id": "pecene-koleno-allergen-1",
@@ -1104,9 +1101,10 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         ]
       },
       {
-        "id": "veprovy-rizek-duroc",
-        "name": "Duroc pork schnitzel",
+        "id": "rizek-duroc",
+        "name": "Thick-cut pork schnitzel",
         "weight": "200g",
+        "price": "309 CZK",
         "allergens": [
           "1",
           "3",
@@ -1114,106 +1112,116 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
           "7",
           "10"
         ],
-        "description": "from Duroc breed, fines herbes sauce, mashed potatoes and potato crisps",
-        "price": "309 CZK",
-        "notes": "Thick cutlet of premium Duroc pork served with buttery mashed potatoes.",
+        "description": "from Duroc pork, fines herbes sauce, potato mash, crispy potato crisps",
+        "notes": "Juicy thick-cut schnitzel from premium Duroc pork, accompanied by smooth buttery mash and herb sauce.",
         "questions": [
           {
-            "id": "veprovy-rizek-duroc-vol",
-            "question": "What is the portion weight of Duroc pork schnitzel?",
+            "id": "rizek-duroc-vol",
+            "question": "What is the portion weight of Thick-cut pork schnitzel?",
             "correctAnswer": "200g",
             "distractors": [
               "150 g",
               "250 g"
             ],
-            "explanation": "The portion size / weight of Duroc pork schnitzel is 200g."
+            "explanation": "The portion size / weight of Thick-cut pork schnitzel is 200g."
           },
           {
-            "id": "veprovy-rizek-duroc-ing-1",
-            "question": "Which ingredient is part of Duroc pork schnitzel?",
-            "correctAnswer": "From Duroc breed",
+            "id": "rizek-duroc-ing-1",
+            "question": "Which meat or seafood ingredient forms the base of Thick-cut pork schnitzel?",
+            "correctAnswer": "From Duroc pork",
             "distractors": [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Duroc pork schnitzel, this component is present: From Duroc breed. Full recipe ingredients: from Duroc breed, fines herbes sauce, mashed potatoes and potato crisps."
+            "explanation": "In Thick-cut pork schnitzel, this component is present: From Duroc pork. Full recipe ingredients: from Duroc pork, fines herbes sauce, potato mash, crispy potato crisps."
           },
           {
-            "id": "veprovy-rizek-duroc-ing-2",
-            "question": "Which fresh herb or spice seasoning finishes Duroc pork schnitzel?",
+            "id": "rizek-duroc-ing-2",
+            "question": "Which fresh herb or spice seasoning finishes Thick-cut pork schnitzel?",
             "correctAnswer": "Fines herbes sauce",
             "distractors": [
               "Marjoram",
               "Coriander / cilantro"
             ],
-            "explanation": "In Duroc pork schnitzel, this component is present: Fines herbes sauce. Full recipe ingredients: from Duroc breed, fines herbes sauce, mashed potatoes and potato crisps."
+            "explanation": "In Thick-cut pork schnitzel, this component is present: Fines herbes sauce. Full recipe ingredients: from Duroc pork, fines herbes sauce, potato mash, crispy potato crisps."
           },
           {
-            "id": "veprovy-rizek-duroc-ing-3",
-            "question": "Which bread, side, or crispy garnish accompanies Duroc pork schnitzel?",
-            "correctAnswer": "Mashed potatoes and potato crisps",
+            "id": "rizek-duroc-ing-3",
+            "question": "Which bread, side, or crispy garnish accompanies Thick-cut pork schnitzel?",
+            "correctAnswer": "Potato mash",
             "distractors": [
-              "Smoked fingerling potatoes",
-              "Beer biscuit"
+              "Homemade fries",
+              "Smoked fingerling potatoes"
             ],
-            "explanation": "In Duroc pork schnitzel, this component is present: Mashed potatoes and potato crisps. Full recipe ingredients: from Duroc breed, fines herbes sauce, mashed potatoes and potato crisps."
+            "explanation": "In Thick-cut pork schnitzel, this component is present: Potato mash. Full recipe ingredients: from Duroc pork, fines herbes sauce, potato mash, crispy potato crisps."
           },
           {
-            "id": "veprovy-rizek-duroc-allergen-1",
-            "question": "Which of the following allergens is present in Duroc pork schnitzel?",
+            "id": "rizek-duroc-ing-4",
+            "question": "Which bread, side, or crispy garnish accompanies Thick-cut pork schnitzel?",
+            "correctAnswer": "Crispy potato crisps",
+            "distractors": [
+              "Beer biscuit",
+              "Crispy pork cracklings"
+            ],
+            "explanation": "In Thick-cut pork schnitzel, this component is present: Crispy potato crisps. Full recipe ingredients: from Duroc pork, fines herbes sauce, potato mash, crispy potato crisps."
+          },
+          {
+            "id": "rizek-duroc-allergen-1",
+            "question": "Which of the following allergens is present in Thick-cut pork schnitzel?",
             "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
             "distractors": [
               "Allergen No. 5 – Peanuts and products thereof",
               "Allergen No. 12 – Sulphur dioxide and sulphites"
             ],
-            "explanation": "Duroc pork schnitzel contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Thick-cut pork schnitzel contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
-            "id": "veprovy-rizek-duroc-allergen-3",
-            "question": "Which of the following allergens is present in Duroc pork schnitzel?",
+            "id": "rizek-duroc-allergen-3",
+            "question": "Which of the following allergens is present in Thick-cut pork schnitzel?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
               "Allergen No. 8 – Tree nuts and products thereof",
               "Allergen No. 14 – Molluscs and products thereof"
             ],
-            "explanation": "Duroc pork schnitzel contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Thick-cut pork schnitzel contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
-            "id": "veprovy-rizek-duroc-allergen-4",
-            "question": "Which of the following allergens is present in Duroc pork schnitzel?",
+            "id": "rizek-duroc-allergen-4",
+            "question": "Which of the following allergens is present in Thick-cut pork schnitzel?",
             "correctAnswer": "Allergen No. 4 – Fish and products thereof",
             "distractors": [
               "Allergen No. 9 – Celery and products thereof",
               "Allergen No. 2 – Crustaceans and products thereof"
             ],
-            "explanation": "Duroc pork schnitzel contains Allergen No. 4 – Fish and products thereof (trout, anchovies, fish sauce, worcestershire). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Thick-cut pork schnitzel contains Allergen No. 4 – Fish and products thereof (trout, anchovies, fish sauce, worcestershire). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
-            "id": "veprovy-rizek-duroc-allergen-7",
-            "question": "Which of the following allergens is present in Duroc pork schnitzel?",
+            "id": "rizek-duroc-allergen-7",
+            "question": "Which of the following allergens is present in Thick-cut pork schnitzel?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 13 – Lupin and products thereof",
               "Allergen No. 8 – Tree nuts and products thereof"
             ],
-            "explanation": "Duroc pork schnitzel contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Thick-cut pork schnitzel contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
-            "id": "veprovy-rizek-duroc-allergen-10",
-            "question": "Which of the following allergens is present in Duroc pork schnitzel?",
+            "id": "rizek-duroc-allergen-10",
+            "question": "Which of the following allergens is present in Thick-cut pork schnitzel?",
             "correctAnswer": "Allergen No. 10 – Mustard and products thereof",
             "distractors": [
               "Allergen No. 5 – Peanuts and products thereof",
               "Allergen No. 12 – Sulphur dioxide and sulphites"
             ],
-            "explanation": "Duroc pork schnitzel contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Thick-cut pork schnitzel contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           }
         ]
       },
       {
-        "id": "veprova-zebra",
+        "id": "veprove-zebro",
         "name": "Pork ribs",
         "weight": "500g",
+        "price": "379 CZK",
         "allergens": [
           "1",
           "3",
@@ -1221,12 +1229,11 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
           "7",
           "10"
         ],
-        "description": "marinated and roasted with our beer, candied bacon, pearl onions, apple bbq sauce, our cabbage salad with horseradish, toasted garlic brioche",
-        "price": "379 CZK",
-        "notes": "Tender beer-glazed pork ribs with homemade apple barbecue sauce and garlic brioche.",
+        "description": "marinated and slow-roasted in our beer, candied bacon, pearl onions, apple BBQ glaze, cabbage salad with horseradish, toasted garlic brioche",
+        "notes": "Mouthwatering beer-braised pork ribs glazed in sweet apple BBQ, with crispy candied bacon and warm garlic brioche.",
         "questions": [
           {
-            "id": "veprova-zebra-vol",
+            "id": "veprove-zebro-vol",
             "question": "What is the portion weight of Pork ribs?",
             "correctAnswer": "500g",
             "distractors": [
@@ -1236,67 +1243,77 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "explanation": "The portion size / weight of Pork ribs is 500g."
           },
           {
-            "id": "veprova-zebra-ing-1",
+            "id": "veprove-zebro-ing-1",
             "question": "Which ingredient is part of Pork ribs?",
-            "correctAnswer": "Marinated and roasted with our beer",
+            "correctAnswer": "Marinated",
             "distractors": [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Pork ribs, this component is present: Marinated and roasted with our beer. Full recipe ingredients: marinated and roasted with our beer, candied bacon, pearl onions, apple bbq sauce, our cabbage salad with horseradish, toasted garlic brioche."
+            "explanation": "In Pork ribs, this component is present: Marinated. Full recipe ingredients: marinated and slow-roasted in our beer, candied bacon, pearl onions, apple BBQ glaze, cabbage salad with horseradish, toasted garlic brioche."
           },
           {
-            "id": "veprova-zebra-ing-2",
+            "id": "veprove-zebro-ing-2",
             "question": "Which ingredient is part of Pork ribs?",
-            "correctAnswer": "Candied bacon",
+            "correctAnswer": "Slow-roasted in our beer",
             "distractors": [
               "Duck breast",
               "Deboned trout"
             ],
-            "explanation": "In Pork ribs, this component is present: Candied bacon. Full recipe ingredients: marinated and roasted with our beer, candied bacon, pearl onions, apple bbq sauce, our cabbage salad with horseradish, toasted garlic brioche."
+            "explanation": "In Pork ribs, this component is present: Slow-roasted in our beer. Full recipe ingredients: marinated and slow-roasted in our beer, candied bacon, pearl onions, apple BBQ glaze, cabbage salad with horseradish, toasted garlic brioche."
           },
           {
-            "id": "veprova-zebra-ing-3",
-            "question": "Which onion or shallot ingredient is included in Pork ribs?",
+            "id": "veprove-zebro-ing-3",
+            "question": "Which ingredient is part of Pork ribs?",
+            "correctAnswer": "Candied bacon",
+            "distractors": [
+              "Beef tenderloin",
+              "Duroc pork belly"
+            ],
+            "explanation": "In Pork ribs, this component is present: Candied bacon. Full recipe ingredients: marinated and slow-roasted in our beer, candied bacon, pearl onions, apple BBQ glaze, cabbage salad with horseradish, toasted garlic brioche."
+          },
+          {
+            "id": "veprove-zebro-ing-4",
+            "question": "Which ingredient is part of Pork ribs?",
             "correctAnswer": "Pearl onions",
             "distractors": [
-              "Pickled chili peppers",
-              "Fermented dill pickles"
+              "Pickled ginger",
+              "Cornichons"
             ],
-            "explanation": "In Pork ribs, this component is present: Pearl onions. Full recipe ingredients: marinated and roasted with our beer, candied bacon, pearl onions, apple bbq sauce, our cabbage salad with horseradish, toasted garlic brioche."
+            "explanation": "In Pork ribs, this component is present: Pearl onions. Full recipe ingredients: marinated and slow-roasted in our beer, candied bacon, pearl onions, apple BBQ glaze, cabbage salad with horseradish, toasted garlic brioche."
           },
           {
-            "id": "veprova-zebra-ing-4",
-            "question": "Which sauce, dressing, or reduction accompanies Pork ribs?",
-            "correctAnswer": "Apple bbq sauce",
+            "id": "veprove-zebro-ing-5",
+            "question": "Which sauce, dressing, or glaze accompanies Pork ribs?",
+            "correctAnswer": "Apple BBQ glaze",
             "distractors": [
-              "Sun-dried tomatoes",
-              "Pickled ginger"
+              "Roasted root vegetables",
+              "Sauerkraut"
             ],
-            "explanation": "In Pork ribs, this component is present: Apple bbq sauce. Full recipe ingredients: marinated and roasted with our beer, candied bacon, pearl onions, apple bbq sauce, our cabbage salad with horseradish, toasted garlic brioche."
+            "explanation": "In Pork ribs, this component is present: Apple BBQ glaze. Full recipe ingredients: marinated and slow-roasted in our beer, candied bacon, pearl onions, apple BBQ glaze, cabbage salad with horseradish, toasted garlic brioche."
           },
           {
-            "id": "veprova-zebra-ing-5",
-            "question": "Which vegetable or fruit component is included in Pork ribs?",
-            "correctAnswer": "Our cabbage salad with horseradish",
+            "id": "veprove-zebro-ing-6",
+            "question": "Which pickled or prepared vegetable is included in Pork ribs?",
+            "correctAnswer": "Cabbage salad with horseradish",
             "distractors": [
-              "Cornichons",
-              "Marinated shallots"
+              "Grilled Padron peppers",
+              "Pickled chili peppers"
             ],
-            "explanation": "In Pork ribs, this component is present: Our cabbage salad with horseradish. Full recipe ingredients: marinated and roasted with our beer, candied bacon, pearl onions, apple bbq sauce, our cabbage salad with horseradish, toasted garlic brioche."
+            "explanation": "In Pork ribs, this component is present: Cabbage salad with horseradish. Full recipe ingredients: marinated and slow-roasted in our beer, candied bacon, pearl onions, apple BBQ glaze, cabbage salad with horseradish, toasted garlic brioche."
           },
           {
-            "id": "veprova-zebra-ing-6",
+            "id": "veprove-zebro-ing-7",
             "question": "In what culinary form is garlic included in Pork ribs?",
             "correctAnswer": "Toasted garlic brioche",
             "distractors": [
-              "Butter brioche",
-              "Sourdough bread"
+              "Potato straw",
+              "Mashed potatoes"
             ],
-            "explanation": "In Pork ribs, this component is present: Toasted garlic brioche. Full recipe ingredients: marinated and roasted with our beer, candied bacon, pearl onions, apple bbq sauce, our cabbage salad with horseradish, toasted garlic brioche."
+            "explanation": "In Pork ribs, this component is present: Toasted garlic brioche. Full recipe ingredients: marinated and slow-roasted in our beer, candied bacon, pearl onions, apple BBQ glaze, cabbage salad with horseradish, toasted garlic brioche."
           },
           {
-            "id": "veprova-zebra-allergen-1",
+            "id": "veprove-zebro-allergen-1",
             "question": "Which of the following allergens is present in Pork ribs?",
             "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
             "distractors": [
@@ -1306,7 +1323,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "explanation": "Pork ribs contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Soybeans and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
-            "id": "veprova-zebra-allergen-3",
+            "id": "veprove-zebro-allergen-3",
             "question": "Which of the following allergens is present in Pork ribs?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
@@ -1316,7 +1333,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "explanation": "Pork ribs contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Soybeans and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
-            "id": "veprova-zebra-allergen-6",
+            "id": "veprove-zebro-allergen-6",
             "question": "Which of the following allergens is present in Pork ribs?",
             "correctAnswer": "Allergen No. 6 – Soybeans and products thereof",
             "distractors": [
@@ -1326,7 +1343,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "explanation": "Pork ribs contains Allergen No. 6 – Soybeans and products thereof (soy sauce, edamame, tofu, soy lecithin). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Soybeans and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
-            "id": "veprova-zebra-allergen-7",
+            "id": "veprove-zebro-allergen-7",
             "question": "Which of the following allergens is present in Pork ribs?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
@@ -1336,7 +1353,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "explanation": "Pork ribs contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Soybeans and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
-            "id": "veprova-zebra-allergen-10",
+            "id": "veprove-zebro-allergen-10",
             "question": "Which of the following allergens is present in Pork ribs?",
             "correctAnswer": "Allergen No. 10 – Mustard and products thereof",
             "distractors": [
@@ -1351,14 +1368,14 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "id": "hovezi-koprovka",
         "name": "Braised beef with dill sauce",
         "weight": "200g",
+        "price": "345 CZK",
         "allergens": [
           "1",
           "3",
           "7"
         ],
-        "description": "egg, fingerling potatoes, dill oil",
-        "price": "345 CZK",
-        "notes": "Classic Czech creamy dill sauce with tender braised beef and buttered potatoes.",
+        "description": "served with soft-boiled egg, baby potatoes, dill oil",
+        "notes": "Classic Czech creamy dill sauce with tender braised beef, roasted baby potatoes, and fragrant herb dill oil.",
         "questions": [
           {
             "id": "hovezi-koprovka-vol",
@@ -1373,22 +1390,22 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
           {
             "id": "hovezi-koprovka-ing-1",
             "question": "Which ingredient is part of Braised beef with dill sauce?",
-            "correctAnswer": "Egg",
+            "correctAnswer": "Served with soft-boiled egg",
             "distractors": [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Braised beef with dill sauce, this component is present: Egg. Full recipe ingredients: egg, fingerling potatoes, dill oil."
+            "explanation": "In Braised beef with dill sauce, this component is present: Served with soft-boiled egg. Full recipe ingredients: served with soft-boiled egg, baby potatoes, dill oil."
           },
           {
             "id": "hovezi-koprovka-ing-2",
             "question": "Which bread, side, or crispy garnish accompanies Braised beef with dill sauce?",
-            "correctAnswer": "Fingerling potatoes",
+            "correctAnswer": "Baby potatoes",
             "distractors": [
               "Potato straw",
               "Mashed potatoes"
             ],
-            "explanation": "In Braised beef with dill sauce, this component is present: Fingerling potatoes. Full recipe ingredients: egg, fingerling potatoes, dill oil."
+            "explanation": "In Braised beef with dill sauce, this component is present: Baby potatoes. Full recipe ingredients: served with soft-boiled egg, baby potatoes, dill oil."
           },
           {
             "id": "hovezi-koprovka-ing-3",
@@ -1398,7 +1415,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Beef tenderloin",
               "Duroc pork belly"
             ],
-            "explanation": "In Braised beef with dill sauce, this component is present: Dill oil. Full recipe ingredients: egg, fingerling potatoes, dill oil."
+            "explanation": "In Braised beef with dill sauce, this component is present: Dill oil. Full recipe ingredients: served with soft-boiled egg, baby potatoes, dill oil."
           },
           {
             "id": "hovezi-koprovka-allergen-1",
@@ -1433,83 +1450,83 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         ]
       },
       {
-        "id": "testoviny-kureci",
-        "name": "Pasta filled with tender chicken mixture",
+        "id": "testoviny-kure",
+        "name": "Pasta filled with delicate chicken mixture",
+        "price": "299 CZK",
         "allergens": [
           "1",
           "3",
           "7"
         ],
-        "description": "baked in mushroom sauce, grilled oyster mushrooms, herb oil",
-        "price": "299 CZK",
-        "notes": "House-made stuffed pasta baked in wild mushroom cream sauce.",
+        "description": "baked in porcini sauce, served with grilled oyster mushrooms, herb oil",
+        "notes": "Artisanal stuffed pasta pillows filled with chicken mousse, baked in earthy porcini mushroom cream.",
         "questions": [
           {
-            "id": "testoviny-kureci-ing-1",
-            "question": "Which sauce, dressing, or reduction accompanies Pasta filled with tender chicken mixture?",
-            "correctAnswer": "Baked in mushroom sauce",
+            "id": "testoviny-kure-ing-1",
+            "question": "Which sauce, dressing, or glaze accompanies Pasta filled with delicate chicken mixture?",
+            "correctAnswer": "Baked in porcini sauce",
             "distractors": [
               "Choron sauce",
               "Our salsa verde"
             ],
-            "explanation": "In Pasta filled with tender chicken mixture, this component is present: Baked in mushroom sauce. Full recipe ingredients: baked in mushroom sauce, grilled oyster mushrooms, herb oil."
+            "explanation": "In Pasta filled with delicate chicken mixture, this component is present: Baked in porcini sauce. Full recipe ingredients: baked in porcini sauce, served with grilled oyster mushrooms, herb oil."
           },
           {
-            "id": "testoviny-kureci-ing-2",
-            "question": "Which ingredient is part of Pasta filled with tender chicken mixture?",
-            "correctAnswer": "Grilled oyster mushrooms",
+            "id": "testoviny-kure-ing-2",
+            "question": "Which vegetable, fruit, or mushroom component is included in Pasta filled with delicate chicken mixture?",
+            "correctAnswer": "Served with grilled oyster mushrooms",
             "distractors": [
-              "Duck breast",
-              "Deboned trout"
+              "Sauerkraut",
+              "Pickled pearl onions"
             ],
-            "explanation": "In Pasta filled with tender chicken mixture, this component is present: Grilled oyster mushrooms. Full recipe ingredients: baked in mushroom sauce, grilled oyster mushrooms, herb oil."
+            "explanation": "In Pasta filled with delicate chicken mixture, this component is present: Served with grilled oyster mushrooms. Full recipe ingredients: baked in porcini sauce, served with grilled oyster mushrooms, herb oil."
           },
           {
-            "id": "testoviny-kureci-ing-3",
-            "question": "Which fresh herb or spice seasoning finishes Pasta filled with tender chicken mixture?",
+            "id": "testoviny-kure-ing-3",
+            "question": "Which fresh herb or spice seasoning finishes Pasta filled with delicate chicken mixture?",
             "correctAnswer": "Herb oil",
             "distractors": [
               "Flat-leaf parsley",
               "Crushed caraway"
             ],
-            "explanation": "In Pasta filled with tender chicken mixture, this component is present: Herb oil. Full recipe ingredients: baked in mushroom sauce, grilled oyster mushrooms, herb oil."
+            "explanation": "In Pasta filled with delicate chicken mixture, this component is present: Herb oil. Full recipe ingredients: baked in porcini sauce, served with grilled oyster mushrooms, herb oil."
           },
           {
-            "id": "testoviny-kureci-allergen-1",
-            "question": "Which of the following allergens is present in Pasta filled with tender chicken mixture?",
+            "id": "testoviny-kure-allergen-1",
+            "question": "Which of the following allergens is present in Pasta filled with delicate chicken mixture?",
             "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
             "distractors": [
               "Allergen No. 4 – Fish and products thereof",
               "Allergen No. 10 – Mustard and products thereof"
             ],
-            "explanation": "Pasta filled with tender chicken mixture contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Pasta filled with delicate chicken mixture contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
           },
           {
-            "id": "testoviny-kureci-allergen-3",
-            "question": "Which of the following allergens is present in Pasta filled with tender chicken mixture?",
+            "id": "testoviny-kure-allergen-3",
+            "question": "Which of the following allergens is present in Pasta filled with delicate chicken mixture?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
               "Allergen No. 6 – Soybeans and products thereof",
               "Allergen No. 12 – Sulphur dioxide and sulphites"
             ],
-            "explanation": "Pasta filled with tender chicken mixture contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Pasta filled with delicate chicken mixture contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
           },
           {
-            "id": "testoviny-kureci-allergen-7",
-            "question": "Which of the following allergens is present in Pasta filled with tender chicken mixture?",
+            "id": "testoviny-kure-allergen-7",
+            "question": "Which of the following allergens is present in Pasta filled with delicate chicken mixture?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 11 – Sesame seeds and products thereof",
               "Allergen No. 4 – Fish and products thereof"
             ],
-            "explanation": "Pasta filled with tender chicken mixture contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Pasta filled with delicate chicken mixture contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
           }
         ]
       },
       {
         "id": "shrimp-roll",
-        "name": "Shrimp roll",
-        "weight": "12ks",
+        "name": "Shrimp roll 12 pcs Argentine red shrimp",
+        "price": "666 CZK",
         "allergens": [
           "1",
           "2",
@@ -1519,244 +1536,233 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
           "9",
           "10"
         ],
-        "description": "12 pcs Argentine red shrimp in butter brioche, cocktail sauce with cognac, salad, our fries, choron sauce",
-        "price": "666 CZK",
-        "notes": "Juicy Argentine red prawns in warm buttered brioche with cognac cocktail sauce.",
+        "description": "in a butter brioche, cocktail sauce with cognac, salad greens, our fries, Choron sauce",
+        "notes": "Decadent toasted butter brioche loaded with 12 Argentine red shrimp, cognac cocktail sauce, and house fries.",
         "questions": [
           {
-            "id": "shrimp-roll-vol",
-            "question": "What is the portion size of Shrimp roll?",
-            "correctAnswer": "12ks",
-            "distractors": [
-              "8 pcs",
-              "16 pcs"
-            ],
-            "explanation": "The portion size / weight of Shrimp roll is 12ks."
-          },
-          {
             "id": "shrimp-roll-ing-1",
-            "question": "Which bread, side, or crispy garnish accompanies Shrimp roll?",
-            "correctAnswer": "12 pcs Argentine red shrimp in butter brioche",
+            "question": "Which bread, side, or crispy garnish accompanies Shrimp roll 12 pcs Argentine red shrimp?",
+            "correctAnswer": "In a butter brioche",
             "distractors": [
               "Sourdough bread",
               "Potato straw"
             ],
-            "explanation": "In Shrimp roll, this component is present: 12 pcs Argentine red shrimp in butter brioche. Full recipe ingredients: 12 pcs Argentine red shrimp in butter brioche, cocktail sauce with cognac, salad, our fries, choron sauce."
+            "explanation": "In Shrimp roll 12 pcs Argentine red shrimp, this component is present: In a butter brioche. Full recipe ingredients: in a butter brioche, cocktail sauce with cognac, salad greens, our fries, Choron sauce."
           },
           {
             "id": "shrimp-roll-ing-2",
-            "question": "Which sauce, dressing, or reduction accompanies Shrimp roll?",
+            "question": "Which sauce, dressing, or glaze accompanies Shrimp roll 12 pcs Argentine red shrimp?",
             "correctAnswer": "Cocktail sauce with cognac",
             "distractors": [
-              "Apple BBQ sauce",
+              "Apple BBQ glaze",
               "Lovage mayonnaise"
             ],
-            "explanation": "In Shrimp roll, this component is present: Cocktail sauce with cognac. Full recipe ingredients: 12 pcs Argentine red shrimp in butter brioche, cocktail sauce with cognac, salad, our fries, choron sauce."
+            "explanation": "In Shrimp roll 12 pcs Argentine red shrimp, this component is present: Cocktail sauce with cognac. Full recipe ingredients: in a butter brioche, cocktail sauce with cognac, salad greens, our fries, Choron sauce."
           },
           {
             "id": "shrimp-roll-ing-3",
-            "question": "Which ingredient is part of Shrimp roll?",
-            "correctAnswer": "Salad",
+            "question": "Which ingredient is part of Shrimp roll 12 pcs Argentine red shrimp?",
+            "correctAnswer": "Salad greens",
             "distractors": [
               "Beef tenderloin",
               "Duroc pork belly"
             ],
-            "explanation": "In Shrimp roll, this component is present: Salad. Full recipe ingredients: 12 pcs Argentine red shrimp in butter brioche, cocktail sauce with cognac, salad, our fries, choron sauce."
+            "explanation": "In Shrimp roll 12 pcs Argentine red shrimp, this component is present: Salad greens. Full recipe ingredients: in a butter brioche, cocktail sauce with cognac, salad greens, our fries, Choron sauce."
           },
           {
             "id": "shrimp-roll-ing-4",
-            "question": "Which bread, side, or crispy garnish accompanies Shrimp roll?",
+            "question": "Which bread, side, or crispy garnish accompanies Shrimp roll 12 pcs Argentine red shrimp?",
             "correctAnswer": "Our fries",
             "distractors": [
               "Beer biscuit",
               "Crispy pork cracklings"
             ],
-            "explanation": "In Shrimp roll, this component is present: Our fries. Full recipe ingredients: 12 pcs Argentine red shrimp in butter brioche, cocktail sauce with cognac, salad, our fries, choron sauce."
+            "explanation": "In Shrimp roll 12 pcs Argentine red shrimp, this component is present: Our fries. Full recipe ingredients: in a butter brioche, cocktail sauce with cognac, salad greens, our fries, Choron sauce."
           },
           {
             "id": "shrimp-roll-ing-5",
-            "question": "Which sauce, dressing, or reduction accompanies Shrimp roll?",
+            "question": "Which sauce, dressing, or glaze accompanies Shrimp roll 12 pcs Argentine red shrimp?",
             "correctAnswer": "Choron sauce",
             "distractors": [
               "Truffle sauce",
               "Our salsa verde"
             ],
-            "explanation": "In Shrimp roll, this component is present: Choron sauce. Full recipe ingredients: 12 pcs Argentine red shrimp in butter brioche, cocktail sauce with cognac, salad, our fries, choron sauce."
+            "explanation": "In Shrimp roll 12 pcs Argentine red shrimp, this component is present: Choron sauce. Full recipe ingredients: in a butter brioche, cocktail sauce with cognac, salad greens, our fries, Choron sauce."
           },
           {
             "id": "shrimp-roll-allergen-1",
-            "question": "Which of the following allergens is present in Shrimp roll?",
+            "question": "Which of the following allergens is present in Shrimp roll 12 pcs Argentine red shrimp?",
             "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
             "distractors": [
               "Allergen No. 6 – Soybeans and products thereof",
               "Allergen No. 14 – Molluscs and products thereof"
             ],
-            "explanation": "Shrimp roll contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Peanuts and products thereof, Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
+            "explanation": "Shrimp roll 12 pcs Argentine red shrimp contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Peanuts and products thereof, Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
           },
           {
             "id": "shrimp-roll-allergen-2",
-            "question": "Which of the following allergens is present in Shrimp roll?",
+            "question": "Which of the following allergens is present in Shrimp roll 12 pcs Argentine red shrimp?",
             "correctAnswer": "Allergen No. 2 – Crustaceans and products thereof",
             "distractors": [
               "Allergen No. 8 – Tree nuts and products thereof",
               "Allergen No. 4 – Fish and products thereof"
             ],
-            "explanation": "Shrimp roll contains Allergen No. 2 – Crustaceans and products thereof (prawns, shrimps, crabs, lobster). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Peanuts and products thereof, Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
+            "explanation": "Shrimp roll 12 pcs Argentine red shrimp contains Allergen No. 2 – Crustaceans and products thereof (prawns, shrimps, crabs, lobster). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Peanuts and products thereof, Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
           },
           {
             "id": "shrimp-roll-allergen-3",
-            "question": "Which of the following allergens is present in Shrimp roll?",
+            "question": "Which of the following allergens is present in Shrimp roll 12 pcs Argentine red shrimp?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
               "Allergen No. 11 – Sesame seeds and products thereof",
               "Allergen No. 6 – Soybeans and products thereof"
             ],
-            "explanation": "Shrimp roll contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Peanuts and products thereof, Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
+            "explanation": "Shrimp roll 12 pcs Argentine red shrimp contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Peanuts and products thereof, Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
           },
           {
             "id": "shrimp-roll-allergen-5",
-            "question": "Which of the following allergens is present in Shrimp roll?",
+            "question": "Which of the following allergens is present in Shrimp roll 12 pcs Argentine red shrimp?",
             "correctAnswer": "Allergen No. 5 – Peanuts and products thereof",
             "distractors": [
               "Allergen No. 13 – Lupin and products thereof",
               "Allergen No. 11 – Sesame seeds and products thereof"
             ],
-            "explanation": "Shrimp roll contains Allergen No. 5 – Peanuts and products thereof (peanuts, peanut oil, satay sauce). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Peanuts and products thereof, Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
+            "explanation": "Shrimp roll 12 pcs Argentine red shrimp contains Allergen No. 5 – Peanuts and products thereof (peanuts, peanut oil, satay sauce). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Peanuts and products thereof, Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
           },
           {
             "id": "shrimp-roll-allergen-7",
-            "question": "Which of the following allergens is present in Shrimp roll?",
+            "question": "Which of the following allergens is present in Shrimp roll 12 pcs Argentine red shrimp?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 4 – Fish and products thereof",
               "Allergen No. 13 – Lupin and products thereof"
             ],
-            "explanation": "Shrimp roll contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Peanuts and products thereof, Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
+            "explanation": "Shrimp roll 12 pcs Argentine red shrimp contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Peanuts and products thereof, Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
           },
           {
             "id": "shrimp-roll-allergen-9",
-            "question": "Which of the following allergens is present in Shrimp roll?",
+            "question": "Which of the following allergens is present in Shrimp roll 12 pcs Argentine red shrimp?",
             "correctAnswer": "Allergen No. 9 – Celery and products thereof",
             "distractors": [
               "Allergen No. 8 – Tree nuts and products thereof",
               "Allergen No. 4 – Fish and products thereof"
             ],
-            "explanation": "Shrimp roll contains Allergen No. 9 – Celery and products thereof (celeriac in broth, celery stalk, celery seed). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Peanuts and products thereof, Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
+            "explanation": "Shrimp roll 12 pcs Argentine red shrimp contains Allergen No. 9 – Celery and products thereof (celeriac in broth, celery stalk, celery seed). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Peanuts and products thereof, Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
           },
           {
             "id": "shrimp-roll-allergen-10",
-            "question": "Which of the following allergens is present in Shrimp roll?",
+            "question": "Which of the following allergens is present in Shrimp roll 12 pcs Argentine red shrimp?",
             "correctAnswer": "Allergen No. 10 – Mustard and products thereof",
             "distractors": [
               "Allergen No. 11 – Sesame seeds and products thereof",
               "Allergen No. 6 – Soybeans and products thereof"
             ],
-            "explanation": "Shrimp roll contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Peanuts and products thereof, Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
+            "explanation": "Shrimp roll 12 pcs Argentine red shrimp contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Cereals containing gluten, Crustaceans and products thereof, Eggs and products thereof, Peanuts and products thereof, Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
           }
         ]
       },
       {
-        "id": "vykosteny-pstruh",
-        "name": "Deboned trout fillets",
+        "id": "pstruh-filatka",
+        "name": "Fillet of deboned rainbow trout",
         "weight": "180g",
+        "price": "399 CZK",
         "allergens": [
           "3",
           "4",
           "7"
         ],
-        "description": "pan-fried on butter, choron sauce, roasted cherry tomatoes, herb salad, roasted winter vegetables",
-        "price": "399 CZK",
-        "notes": "Fresh boneless trout pan-seared with butter, roasted vegetables, and sauce choron.",
+        "description": "pan-seared in butter, choron sauce, roasted tomatoes, herb salad, roasted winter vegetables",
+        "notes": "Fresh trout fillet pan-fried in brown butter, complemented by rich Choron sauce and roasted winter vegetables.",
         "questions": [
           {
-            "id": "vykosteny-pstruh-vol",
-            "question": "What is the portion weight of Deboned trout fillets?",
+            "id": "pstruh-filatka-vol",
+            "question": "What is the portion weight of Fillet of deboned rainbow trout?",
             "correctAnswer": "180g",
             "distractors": [
               "150 g",
               "200 g"
             ],
-            "explanation": "The portion size / weight of Deboned trout fillets is 180g."
+            "explanation": "The portion size / weight of Fillet of deboned rainbow trout is 180g."
           },
           {
-            "id": "vykosteny-pstruh-ing-1",
-            "question": "Which cheese or dairy ingredient is included in Deboned trout fillets?",
-            "correctAnswer": "Pan-fried on butter",
+            "id": "pstruh-filatka-ing-1",
+            "question": "Which cheese or dairy component is included in Fillet of deboned rainbow trout?",
+            "correctAnswer": "Pan-seared in butter",
             "distractors": [
               "Our salsa verde",
               "Sour cherry sauce"
             ],
-            "explanation": "In Deboned trout fillets, this component is present: Pan-fried on butter. Full recipe ingredients: pan-fried on butter, choron sauce, roasted cherry tomatoes, herb salad, roasted winter vegetables."
+            "explanation": "In Fillet of deboned rainbow trout, this component is present: Pan-seared in butter. Full recipe ingredients: pan-seared in butter, choron sauce, roasted tomatoes, herb salad, roasted winter vegetables."
           },
           {
-            "id": "vykosteny-pstruh-ing-2",
-            "question": "Which sauce, dressing, or reduction accompanies Deboned trout fillets?",
+            "id": "pstruh-filatka-ing-2",
+            "question": "Which sauce, dressing, or glaze accompanies Fillet of deboned rainbow trout?",
             "correctAnswer": "Choron sauce",
             "distractors": [
-              "Apple BBQ sauce",
+              "Apple BBQ glaze",
               "Lovage mayonnaise"
             ],
-            "explanation": "In Deboned trout fillets, this component is present: Choron sauce. Full recipe ingredients: pan-fried on butter, choron sauce, roasted cherry tomatoes, herb salad, roasted winter vegetables."
+            "explanation": "In Fillet of deboned rainbow trout, this component is present: Choron sauce. Full recipe ingredients: pan-seared in butter, choron sauce, roasted tomatoes, herb salad, roasted winter vegetables."
           },
           {
-            "id": "vykosteny-pstruh-ing-3",
-            "question": "Which vegetable or fruit component is included in Deboned trout fillets?",
-            "correctAnswer": "Roasted cherry tomatoes",
+            "id": "pstruh-filatka-ing-3",
+            "question": "Which vegetable, fruit, or mushroom component is included in Fillet of deboned rainbow trout?",
+            "correctAnswer": "Roasted tomatoes",
             "distractors": [
-              "Beef tenderloin",
-              "Duroc pork belly"
+              "Grilled Padron peppers",
+              "Pickled chili peppers"
             ],
-            "explanation": "In Deboned trout fillets, this component is present: Roasted cherry tomatoes. Full recipe ingredients: pan-fried on butter, choron sauce, roasted cherry tomatoes, herb salad, roasted winter vegetables."
+            "explanation": "In Fillet of deboned rainbow trout, this component is present: Roasted tomatoes. Full recipe ingredients: pan-seared in butter, choron sauce, roasted tomatoes, herb salad, roasted winter vegetables."
           },
           {
-            "id": "vykosteny-pstruh-ing-4",
-            "question": "Which fresh herb or spice seasoning finishes Deboned trout fillets?",
+            "id": "pstruh-filatka-ing-4",
+            "question": "Which fresh herb or spice seasoning finishes Fillet of deboned rainbow trout?",
             "correctAnswer": "Herb salad",
             "distractors": [
               "Ground cardamom",
               "Fresh rosemary"
             ],
-            "explanation": "In Deboned trout fillets, this component is present: Herb salad. Full recipe ingredients: pan-fried on butter, choron sauce, roasted cherry tomatoes, herb salad, roasted winter vegetables."
+            "explanation": "In Fillet of deboned rainbow trout, this component is present: Herb salad. Full recipe ingredients: pan-seared in butter, choron sauce, roasted tomatoes, herb salad, roasted winter vegetables."
           },
           {
-            "id": "vykosteny-pstruh-ing-5",
-            "question": "Which ingredient is part of Deboned trout fillets?",
+            "id": "pstruh-filatka-ing-5",
+            "question": "Which vegetable, fruit, or mushroom component is included in Fillet of deboned rainbow trout?",
             "correctAnswer": "Roasted winter vegetables",
             "distractors": [
               "Pickled ginger",
               "Cornichons"
             ],
-            "explanation": "In Deboned trout fillets, this component is present: Roasted winter vegetables. Full recipe ingredients: pan-fried on butter, choron sauce, roasted cherry tomatoes, herb salad, roasted winter vegetables."
+            "explanation": "In Fillet of deboned rainbow trout, this component is present: Roasted winter vegetables. Full recipe ingredients: pan-seared in butter, choron sauce, roasted tomatoes, herb salad, roasted winter vegetables."
           },
           {
-            "id": "vykosteny-pstruh-allergen-3",
-            "question": "Which of the following allergens is present in Deboned trout fillets?",
+            "id": "pstruh-filatka-allergen-3",
+            "question": "Which of the following allergens is present in Fillet of deboned rainbow trout?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
               "Allergen No. 6 – Soybeans and products thereof",
               "Allergen No. 12 – Sulphur dioxide and sulphites"
             ],
-            "explanation": "Deboned trout fillets contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Fillet of deboned rainbow trout contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose)."
           },
           {
-            "id": "vykosteny-pstruh-allergen-4",
-            "question": "Which of the following allergens is present in Deboned trout fillets?",
+            "id": "pstruh-filatka-allergen-4",
+            "question": "Which of the following allergens is present in Fillet of deboned rainbow trout?",
             "correctAnswer": "Allergen No. 4 – Fish and products thereof",
             "distractors": [
               "Allergen No. 8 – Tree nuts and products thereof",
               "Allergen No. 13 – Lupin and products thereof"
             ],
-            "explanation": "Deboned trout fillets contains Allergen No. 4 – Fish and products thereof (trout, anchovies, fish sauce, worcestershire). All allergens present in this item: Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Fillet of deboned rainbow trout contains Allergen No. 4 – Fish and products thereof (trout, anchovies, fish sauce, worcestershire). All allergens present in this item: Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose)."
           },
           {
-            "id": "vykosteny-pstruh-allergen-7",
-            "question": "Which of the following allergens is present in Deboned trout fillets?",
+            "id": "pstruh-filatka-allergen-7",
+            "question": "Which of the following allergens is present in Fillet of deboned rainbow trout?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 11 – Sesame seeds and products thereof",
               "Allergen No. 2 – Crustaceans and products thereof"
             ],
-            "explanation": "Deboned trout fillets contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Fillet of deboned rainbow trout contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Eggs and products thereof, Fish and products thereof, Milk and products thereof (including lactose)."
           }
         ]
       },
@@ -1764,15 +1770,15 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "id": "svickova-wellington",
         "name": "Beef Wellington",
         "weight": "200g",
+        "price": "675 CZK",
         "allergens": [
           "1",
           "3",
           "7",
           "10"
         ],
-        "description": "roasted medium rare with truffle-flavored mushroom duxelles, cognac sauce, smoked fingerling potatoes",
-        "price": "675 CZK",
-        "notes": "Prime beef tenderloin wrapped in truffle duxelles and flaky pastry.",
+        "description": "tenderloin wrapped in mushroom and duck liver duxelles, seasoned with truffle, veal demi-glace, smoked potatoes",
+        "notes": "Prime beef tenderloin en croûte with duck liver duxelles and truffle, finished with glossy veal demi-glace.",
         "questions": [
           {
             "id": "svickova-wellington-vol",
@@ -1786,33 +1792,53 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
           },
           {
             "id": "svickova-wellington-ing-1",
-            "question": "Which ingredient is part of Beef Wellington?",
-            "correctAnswer": "Roasted medium rare with truffle-flavored mushroom duxelles",
+            "question": "Which vegetable, fruit, or mushroom component is included in Beef Wellington?",
+            "correctAnswer": "Tenderloin wrapped in mushroom",
             "distractors": [
-              "Pork tenderloin",
-              "Veal leg"
+              "Marinated shallots",
+              "Roasted root vegetables"
             ],
-            "explanation": "In Beef Wellington, this component is present: Roasted medium rare with truffle-flavored mushroom duxelles. Full recipe ingredients: roasted medium rare with truffle-flavored mushroom duxelles, cognac sauce, smoked fingerling potatoes."
+            "explanation": "In Beef Wellington, this component is present: Tenderloin wrapped in mushroom. Full recipe ingredients: tenderloin wrapped in mushroom and duck liver duxelles, seasoned with truffle, veal demi-glace, smoked potatoes."
           },
           {
             "id": "svickova-wellington-ing-2",
-            "question": "Which sauce, dressing, or reduction accompanies Beef Wellington?",
-            "correctAnswer": "Cognac sauce",
+            "question": "Which meat or seafood ingredient forms the base of Beef Wellington?",
+            "correctAnswer": "Duck liver duxelles",
             "distractors": [
-              "Sour cherry sauce",
-              "Apple BBQ sauce"
+              "Duck breast",
+              "Deboned trout"
             ],
-            "explanation": "In Beef Wellington, this component is present: Cognac sauce. Full recipe ingredients: roasted medium rare with truffle-flavored mushroom duxelles, cognac sauce, smoked fingerling potatoes."
+            "explanation": "In Beef Wellington, this component is present: Duck liver duxelles. Full recipe ingredients: tenderloin wrapped in mushroom and duck liver duxelles, seasoned with truffle, veal demi-glace, smoked potatoes."
           },
           {
             "id": "svickova-wellington-ing-3",
-            "question": "Which bread, side, or crispy garnish accompanies Beef Wellington?",
-            "correctAnswer": "Smoked fingerling potatoes",
+            "question": "Which ingredient is part of Beef Wellington?",
+            "correctAnswer": "Seasoned with truffle",
             "distractors": [
-              "Potato crisps",
-              "Homemade fries"
+              "Beef tenderloin",
+              "Duroc pork belly"
             ],
-            "explanation": "In Beef Wellington, this component is present: Smoked fingerling potatoes. Full recipe ingredients: roasted medium rare with truffle-flavored mushroom duxelles, cognac sauce, smoked fingerling potatoes."
+            "explanation": "In Beef Wellington, this component is present: Seasoned with truffle. Full recipe ingredients: tenderloin wrapped in mushroom and duck liver duxelles, seasoned with truffle, veal demi-glace, smoked potatoes."
+          },
+          {
+            "id": "svickova-wellington-ing-4",
+            "question": "Which meat or seafood ingredient forms the base of Beef Wellington?",
+            "correctAnswer": "Veal demi-glace",
+            "distractors": [
+              "Venison saddle",
+              "Lamb chop"
+            ],
+            "explanation": "In Beef Wellington, this component is present: Veal demi-glace. Full recipe ingredients: tenderloin wrapped in mushroom and duck liver duxelles, seasoned with truffle, veal demi-glace, smoked potatoes."
+          },
+          {
+            "id": "svickova-wellington-ing-5",
+            "question": "Which bread, side, or crispy garnish accompanies Beef Wellington?",
+            "correctAnswer": "Smoked potatoes",
+            "distractors": [
+              "Crispy pork cracklings",
+              "Toasted sourdough on beef lard"
+            ],
+            "explanation": "In Beef Wellington, this component is present: Smoked potatoes. Full recipe ingredients: tenderloin wrapped in mushroom and duck liver duxelles, seasoned with truffle, veal demi-glace, smoked potatoes."
           },
           {
             "id": "svickova-wellington-allergen-1",
@@ -1857,211 +1883,221 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         ]
       },
       {
-        "id": "burger-foie-gras",
-        "name": "Beef burger with foie gras",
+        "id": "hovezi-burger-gourmet",
+        "name": "Beef burger",
         "weight": "200g",
+        "price": "449 CZK",
         "allergens": [
           "1",
           "3",
           "7"
         ],
-        "description": "with smoked blue cheese and duck foie gras, roasted onion mayonnaise, potato straw, small homemade fries",
-        "price": "449 CZK",
-        "notes": "Gourmet beef burger topped with smoked niva cheese, duck foie gras, and potato straw.",
+        "description": "with smoked blue cheese, duck foie gras, roasted onion mayonnaise, potato straw, small homemade fries",
+        "notes": "Gourmet beef patty topped with decadent duck foie gras, melted smoked blue cheese, and potato straw.",
         "questions": [
           {
-            "id": "burger-foie-gras-vol",
-            "question": "What is the portion weight of Beef burger with foie gras?",
+            "id": "hovezi-burger-gourmet-vol",
+            "question": "What is the portion weight of Beef burger?",
             "correctAnswer": "200g",
             "distractors": [
               "150 g",
               "250 g"
             ],
-            "explanation": "The portion size / weight of Beef burger with foie gras is 200g."
+            "explanation": "The portion size / weight of Beef burger is 200g."
           },
           {
-            "id": "burger-foie-gras-ing-1",
-            "question": "Which cheese or dairy ingredient is included in Beef burger with foie gras?",
-            "correctAnswer": "With smoked blue cheese and duck foie gras",
+            "id": "hovezi-burger-gourmet-ing-1",
+            "question": "Which cheese or dairy component is included in Beef burger?",
+            "correctAnswer": "Smoked blue cheese",
             "distractors": [
               "Choron sauce",
               "Our salsa verde"
             ],
-            "explanation": "In Beef burger with foie gras, this component is present: With smoked blue cheese and duck foie gras. Full recipe ingredients: with smoked blue cheese and duck foie gras, roasted onion mayonnaise, potato straw, small homemade fries."
+            "explanation": "In Beef burger, this component is present: Smoked blue cheese. Full recipe ingredients: with smoked blue cheese, duck foie gras, roasted onion mayonnaise, potato straw, small homemade fries."
           },
           {
-            "id": "burger-foie-gras-ing-2",
-            "question": "Which onion or shallot ingredient is included in Beef burger with foie gras?",
+            "id": "hovezi-burger-gourmet-ing-2",
+            "question": "Which meat or seafood ingredient forms the base of Beef burger?",
+            "correctAnswer": "Duck foie gras",
+            "distractors": [
+              "Duck breast",
+              "Deboned trout"
+            ],
+            "explanation": "In Beef burger, this component is present: Duck foie gras. Full recipe ingredients: with smoked blue cheese, duck foie gras, roasted onion mayonnaise, potato straw, small homemade fries."
+          },
+          {
+            "id": "hovezi-burger-gourmet-ing-3",
+            "question": "Which sauce, dressing, or glaze accompanies Beef burger?",
             "correctAnswer": "Roasted onion mayonnaise",
             "distractors": [
-              "Sauerkraut",
-              "Pickled pearl onions"
+              "Grilled Padron peppers",
+              "Pickled chili peppers"
             ],
-            "explanation": "In Beef burger with foie gras, this component is present: Roasted onion mayonnaise. Full recipe ingredients: with smoked blue cheese and duck foie gras, roasted onion mayonnaise, potato straw, small homemade fries."
+            "explanation": "In Beef burger, this component is present: Roasted onion mayonnaise. Full recipe ingredients: with smoked blue cheese, duck foie gras, roasted onion mayonnaise, potato straw, small homemade fries."
           },
           {
-            "id": "burger-foie-gras-ing-3",
-            "question": "Which bread, side, or crispy garnish accompanies Beef burger with foie gras?",
+            "id": "hovezi-burger-gourmet-ing-4",
+            "question": "Which bread, side, or crispy garnish accompanies Beef burger?",
             "correctAnswer": "Potato straw",
-            "distractors": [
-              "Smoked fingerling potatoes",
-              "Beer biscuit"
-            ],
-            "explanation": "In Beef burger with foie gras, this component is present: Potato straw. Full recipe ingredients: with smoked blue cheese and duck foie gras, roasted onion mayonnaise, potato straw, small homemade fries."
-          },
-          {
-            "id": "burger-foie-gras-ing-4",
-            "question": "Which bread, side, or crispy garnish accompanies Beef burger with foie gras?",
-            "correctAnswer": "Small homemade fries",
             "distractors": [
               "Crispy pork cracklings",
               "Toasted sourdough on beef lard"
             ],
-            "explanation": "In Beef burger with foie gras, this component is present: Small homemade fries. Full recipe ingredients: with smoked blue cheese and duck foie gras, roasted onion mayonnaise, potato straw, small homemade fries."
+            "explanation": "In Beef burger, this component is present: Potato straw. Full recipe ingredients: with smoked blue cheese, duck foie gras, roasted onion mayonnaise, potato straw, small homemade fries."
           },
           {
-            "id": "burger-foie-gras-allergen-1",
-            "question": "Which of the following allergens is present in Beef burger with foie gras?",
+            "id": "hovezi-burger-gourmet-ing-5",
+            "question": "Which bread, side, or crispy garnish accompanies Beef burger?",
+            "correctAnswer": "Small homemade fries",
+            "distractors": [
+              "Butter brioche",
+              "Sourdough bread"
+            ],
+            "explanation": "In Beef burger, this component is present: Small homemade fries. Full recipe ingredients: with smoked blue cheese, duck foie gras, roasted onion mayonnaise, potato straw, small homemade fries."
+          },
+          {
+            "id": "hovezi-burger-gourmet-allergen-1",
+            "question": "Which of the following allergens is present in Beef burger?",
             "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
             "distractors": [
               "Allergen No. 4 – Fish and products thereof",
               "Allergen No. 10 – Mustard and products thereof"
             ],
-            "explanation": "Beef burger with foie gras contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Beef burger contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
           },
           {
-            "id": "burger-foie-gras-allergen-3",
-            "question": "Which of the following allergens is present in Beef burger with foie gras?",
+            "id": "hovezi-burger-gourmet-allergen-3",
+            "question": "Which of the following allergens is present in Beef burger?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
               "Allergen No. 6 – Soybeans and products thereof",
               "Allergen No. 12 – Sulphur dioxide and sulphites"
             ],
-            "explanation": "Beef burger with foie gras contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Beef burger contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
           },
           {
-            "id": "burger-foie-gras-allergen-7",
-            "question": "Which of the following allergens is present in Beef burger with foie gras?",
+            "id": "hovezi-burger-gourmet-allergen-7",
+            "question": "Which of the following allergens is present in Beef burger?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 11 – Sesame seeds and products thereof",
               "Allergen No. 4 – Fish and products thereof"
             ],
-            "explanation": "Beef burger with foie gras contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Beef burger contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
           }
         ]
       },
       {
         "id": "thors-hammer",
-        "name": "Thor`s Hammer beef shank",
+        "name": "Thor`s Hammer beef knuckle",
         "weight": "700g",
+        "price": "1490 CZK",
         "allergens": [
           "1",
           "11"
         ],
-        "description": "slow-cooked in our clay oven, Kasteel Rouge beer sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked fingerling potatoes, our cabbage salad with horseradish. For 2 to 4 guests",
-        "price": "1490 CZK",
-        "notes": "Massive bone-in beef shank braised in our clay oven with Belgian cherry beer sauce.",
+        "description": "slow-braised in our tandoori, Kasteel Rouge sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked potatoes, cabbage salad with horseradish (serves 2 to 4 people)",
+        "notes": "Monumental bone-in beef shank braised in tandoori with rich Kasteel Rouge beer glaze, ideal for sharing.",
         "questions": [
           {
             "id": "thors-hammer-vol",
-            "question": "What is the portion weight of Thor`s Hammer beef shank?",
+            "question": "What is the portion weight of Thor`s Hammer beef knuckle?",
             "correctAnswer": "700g",
             "distractors": [
               "500 g",
               "800 g"
             ],
-            "explanation": "The portion size / weight of Thor`s Hammer beef shank is 700g."
+            "explanation": "The portion size / weight of Thor`s Hammer beef knuckle is 700g."
           },
           {
             "id": "thors-hammer-ing-1",
-            "question": "Which ingredient is part of Thor`s Hammer beef shank?",
-            "correctAnswer": "Slow-cooked in our clay oven",
+            "question": "Which ingredient is part of Thor`s Hammer beef knuckle?",
+            "correctAnswer": "Slow-braised in our tandoori",
             "distractors": [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Thor`s Hammer beef shank, this component is present: Slow-cooked in our clay oven. Full recipe ingredients: slow-cooked in our clay oven, Kasteel Rouge beer sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked fingerling potatoes, our cabbage salad with horseradish. For 2 to 4 guests."
+            "explanation": "In Thor`s Hammer beef knuckle, this component is present: Slow-braised in our tandoori. Full recipe ingredients: slow-braised in our tandoori, Kasteel Rouge sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked potatoes, cabbage salad with horseradish (serves 2 to 4 people)."
           },
           {
             "id": "thors-hammer-ing-2",
-            "question": "Which sauce, dressing, or reduction accompanies Thor`s Hammer beef shank?",
-            "correctAnswer": "Kasteel Rouge beer sauce",
+            "question": "Which sauce, dressing, or glaze accompanies Thor`s Hammer beef knuckle?",
+            "correctAnswer": "Kasteel Rouge sauce",
             "distractors": [
-              "Apple BBQ sauce",
+              "Apple BBQ glaze",
               "Lovage mayonnaise"
             ],
-            "explanation": "In Thor`s Hammer beef shank, this component is present: Kasteel Rouge beer sauce. Full recipe ingredients: slow-cooked in our clay oven, Kasteel Rouge beer sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked fingerling potatoes, our cabbage salad with horseradish. For 2 to 4 guests."
+            "explanation": "In Thor`s Hammer beef knuckle, this component is present: Kasteel Rouge sauce. Full recipe ingredients: slow-braised in our tandoori, Kasteel Rouge sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked potatoes, cabbage salad with horseradish (serves 2 to 4 people)."
           },
           {
             "id": "thors-hammer-ing-3",
-            "question": "Which onion or shallot ingredient is included in Thor`s Hammer beef shank?",
+            "question": "Which pickled or prepared vegetable is included in Thor`s Hammer beef knuckle?",
             "correctAnswer": "Charred shallots",
             "distractors": [
               "Grilled Padron peppers",
               "Pickled chili peppers"
             ],
-            "explanation": "In Thor`s Hammer beef shank, this component is present: Charred shallots. Full recipe ingredients: slow-cooked in our clay oven, Kasteel Rouge beer sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked fingerling potatoes, our cabbage salad with horseradish. For 2 to 4 guests."
+            "explanation": "In Thor`s Hammer beef knuckle, this component is present: Charred shallots. Full recipe ingredients: slow-braised in our tandoori, Kasteel Rouge sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked potatoes, cabbage salad with horseradish (serves 2 to 4 people)."
           },
           {
             "id": "thors-hammer-ing-4",
-            "question": "In what culinary form is garlic included in Thor`s Hammer beef shank?",
+            "question": "In what culinary form is garlic included in Thor`s Hammer beef knuckle?",
             "correctAnswer": "Toasted garlic brioche",
             "distractors": [
-              "Beer biscuit",
-              "Crispy pork cracklings"
+              "Smoked fingerling potatoes",
+              "Beer biscuit"
             ],
-            "explanation": "In Thor`s Hammer beef shank, this component is present: Toasted garlic brioche. Full recipe ingredients: slow-cooked in our clay oven, Kasteel Rouge beer sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked fingerling potatoes, our cabbage salad with horseradish. For 2 to 4 guests."
+            "explanation": "In Thor`s Hammer beef knuckle, this component is present: Toasted garlic brioche. Full recipe ingredients: slow-braised in our tandoori, Kasteel Rouge sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked potatoes, cabbage salad with horseradish (serves 2 to 4 people)."
           },
           {
             "id": "thors-hammer-ing-5",
-            "question": "Which sauce, dressing, or reduction accompanies Thor`s Hammer beef shank?",
+            "question": "Which sauce, dressing, or glaze accompanies Thor`s Hammer beef knuckle?",
             "correctAnswer": "Our salsa verde",
             "distractors": [
               "Truffle sauce",
               "Choron sauce"
             ],
-            "explanation": "In Thor`s Hammer beef shank, this component is present: Our salsa verde. Full recipe ingredients: slow-cooked in our clay oven, Kasteel Rouge beer sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked fingerling potatoes, our cabbage salad with horseradish. For 2 to 4 guests."
+            "explanation": "In Thor`s Hammer beef knuckle, this component is present: Our salsa verde. Full recipe ingredients: slow-braised in our tandoori, Kasteel Rouge sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked potatoes, cabbage salad with horseradish (serves 2 to 4 people)."
           },
           {
             "id": "thors-hammer-ing-6",
-            "question": "Which bread, side, or crispy garnish accompanies Thor`s Hammer beef shank?",
-            "correctAnswer": "Smoked fingerling potatoes",
+            "question": "Which bread, side, or crispy garnish accompanies Thor`s Hammer beef knuckle?",
+            "correctAnswer": "Smoked potatoes",
             "distractors": [
-              "Sourdough bread",
-              "Potato straw"
+              "Butter brioche",
+              "Sourdough bread"
             ],
-            "explanation": "In Thor`s Hammer beef shank, this component is present: Smoked fingerling potatoes. Full recipe ingredients: slow-cooked in our clay oven, Kasteel Rouge beer sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked fingerling potatoes, our cabbage salad with horseradish. For 2 to 4 guests."
+            "explanation": "In Thor`s Hammer beef knuckle, this component is present: Smoked potatoes. Full recipe ingredients: slow-braised in our tandoori, Kasteel Rouge sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked potatoes, cabbage salad with horseradish (serves 2 to 4 people)."
           },
           {
             "id": "thors-hammer-ing-7",
-            "question": "Which vegetable or fruit component is included in Thor`s Hammer beef shank?",
-            "correctAnswer": "Our cabbage salad with horseradish. For 2 to 4 guests",
+            "question": "Which pickled or prepared vegetable is included in Thor`s Hammer beef knuckle?",
+            "correctAnswer": "Cabbage salad with horseradish",
             "distractors": [
               "Sauerkraut",
               "Pickled pearl onions"
             ],
-            "explanation": "In Thor`s Hammer beef shank, this component is present: Our cabbage salad with horseradish. For 2 to 4 guests. Full recipe ingredients: slow-cooked in our clay oven, Kasteel Rouge beer sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked fingerling potatoes, our cabbage salad with horseradish. For 2 to 4 guests."
+            "explanation": "In Thor`s Hammer beef knuckle, this component is present: Cabbage salad with horseradish. Full recipe ingredients: slow-braised in our tandoori, Kasteel Rouge sauce, charred shallots, toasted garlic brioche, our salsa verde, smoked potatoes, cabbage salad with horseradish (serves 2 to 4 people)."
           },
           {
             "id": "thors-hammer-allergen-1",
-            "question": "Which of the following allergens is present in Thor`s Hammer beef shank?",
+            "question": "Which of the following allergens is present in Thor`s Hammer beef knuckle?",
             "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
             "distractors": [
               "Allergen No. 3 – Eggs and products thereof",
               "Allergen No. 8 – Tree nuts and products thereof"
             ],
-            "explanation": "Thor`s Hammer beef shank contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Sesame seeds and products thereof."
+            "explanation": "Thor`s Hammer beef knuckle contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Sesame seeds and products thereof."
           },
           {
             "id": "thors-hammer-allergen-11",
-            "question": "Which of the following allergens is present in Thor`s Hammer beef shank?",
+            "question": "Which of the following allergens is present in Thor`s Hammer beef knuckle?",
             "correctAnswer": "Allergen No. 11 – Sesame seeds and products thereof",
             "distractors": [
               "Allergen No. 14 – Molluscs and products thereof",
               "Allergen No. 6 – Soybeans and products thereof"
             ],
-            "explanation": "Thor`s Hammer beef shank contains Allergen No. 11 – Sesame seeds and products thereof (sesame oil, tahini, sesame brioche). All allergens present in this item: Cereals containing gluten, Sesame seeds and products thereof."
+            "explanation": "Thor`s Hammer beef knuckle contains Allergen No. 11 – Sesame seeds and products thereof (sesame oil, tahini, sesame brioche). All allergens present in this item: Cereals containing gluten, Sesame seeds and products thereof."
           }
         ]
       }
@@ -2071,87 +2107,87 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
     "id": "gril",
     "name": "From the grill and wood-fired oven",
     "badge": "From the grill and wood-fired oven",
-    "description": "Charcoal and clay oven specialties grilled over open fire and embers",
+    "description": "Prime cuts, burgers, and smoked meats charred over open fire and embers",
     "iconName": "Flame",
     "items": [
       {
-        "id": "us-prime-kvetova-spicka",
-        "name": "US Prime beef sirloin tip",
+        "id": "hovezi-kvetova-spicka",
+        "name": "US Prime beef sirloin",
         "weight": "250g",
-        "allergens": [],
-        "description": "roasted Padrón peppers",
         "price": "519 CZK",
-        "notes": "Aged US Prime sirloin cap (picanha) grilled over charcoal with blistered Padrón peppers.",
-        "questions": [
-          {
-            "id": "us-prime-kvetova-spicka-vol",
-            "question": "What is the portion weight of US Prime beef sirloin tip?",
-            "correctAnswer": "250g",
-            "distractors": [
-              "200 g",
-              "300 g"
-            ],
-            "explanation": "The portion size / weight of US Prime beef sirloin tip is 250g."
-          },
-          {
-            "id": "us-prime-kvetova-spicka-ing-1",
-            "question": "Which ingredient is part of US Prime beef sirloin tip?",
-            "correctAnswer": "Roasted Padrón peppers",
-            "distractors": [
-              "Lovage",
-              "Tarragon"
-            ],
-            "explanation": "In US Prime beef sirloin tip, this component is present: Roasted Padrón peppers. Full recipe ingredients: roasted Padrón peppers."
-          }
-        ]
-      },
-      {
-        "id": "us-prime-rostenec",
-        "name": "US Prime ribeye steak",
-        "weight": "250g",
         "allergens": [],
         "description": "roasted Padrón peppers",
-        "price": "985 CZK",
-        "notes": "Exquisitely marbled US Prime ribeye steak char-grilled over real wood.",
+        "notes": "Prime USDA sirloin cap grilled over hardwood to perfection, served with blistered Spanish Padrón peppers.",
         "questions": [
           {
-            "id": "us-prime-rostenec-vol",
-            "question": "What is the portion weight of US Prime ribeye steak?",
+            "id": "hovezi-kvetova-spicka-vol",
+            "question": "What is the portion weight of US Prime beef sirloin?",
             "correctAnswer": "250g",
             "distractors": [
               "200 g",
               "300 g"
             ],
-            "explanation": "The portion size / weight of US Prime ribeye steak is 250g."
+            "explanation": "The portion size / weight of US Prime beef sirloin is 250g."
           },
           {
-            "id": "us-prime-rostenec-ing-1",
-            "question": "Which ingredient is part of US Prime ribeye steak?",
+            "id": "hovezi-kvetova-spicka-ing-1",
+            "question": "Which ingredient is part of US Prime beef sirloin?",
             "correctAnswer": "Roasted Padrón peppers",
             "distractors": [
               "Lovage",
               "Tarragon"
             ],
-            "explanation": "In US Prime ribeye steak, this component is present: Roasted Padrón peppers. Full recipe ingredients: roasted Padrón peppers."
+            "explanation": "In US Prime beef sirloin, this component is present: Roasted Padrón peppers. Full recipe ingredients: roasted Padrón peppers."
           }
         ]
       },
       {
-        "id": "us-prime-burger",
+        "id": "hovezi-vysoky-rostenec",
+        "name": "US Prime beef ribeye",
+        "weight": "250g",
+        "price": "985 CZK",
+        "allergens": [],
+        "description": "roasted Padrón peppers",
+        "notes": "Magnificently marbled US Prime ribeye steak with deep wood-fired char, paired with blistered Padrón peppers.",
+        "questions": [
+          {
+            "id": "hovezi-vysoky-rostenec-vol",
+            "question": "What is the portion weight of US Prime beef ribeye?",
+            "correctAnswer": "250g",
+            "distractors": [
+              "200 g",
+              "300 g"
+            ],
+            "explanation": "The portion size / weight of US Prime beef ribeye is 250g."
+          },
+          {
+            "id": "hovezi-vysoky-rostenec-ing-1",
+            "question": "Which ingredient is part of US Prime beef ribeye?",
+            "correctAnswer": "Roasted Padrón peppers",
+            "distractors": [
+              "Lovage",
+              "Tarragon"
+            ],
+            "explanation": "In US Prime beef ribeye, this component is present: Roasted Padrón peppers. Full recipe ingredients: roasted Padrón peppers."
+          }
+        ]
+      },
+      {
+        "id": "hovezi-burger-gril",
         "name": "US Prime beef burger",
         "weight": "200g",
+        "price": "369 CZK",
         "allergens": [
           "1",
           "3",
           "7",
           "10"
         ],
-        "description": "crispy bacon, cheddar, onion marmalade and spicy mayonnaise",
-        "price": "369 CZK",
-        "notes": "Charcoal-grilled US Prime beef patty with melted cheddar and bacon.",
+        "description": "grilled bacon, cheddar, onion marmalade, spicy mayonnaise",
+        "notes": "Wood-grilled US Prime beef burger with smoky bacon, melted cheddar, sweet caramelized onion, and spicy mayo.",
         "questions": [
           {
-            "id": "us-prime-burger-vol",
+            "id": "hovezi-burger-gril-vol",
             "question": "What is the portion weight of US Prime beef burger?",
             "correctAnswer": "200g",
             "distractors": [
@@ -2161,37 +2197,47 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "explanation": "The portion size / weight of US Prime beef burger is 200g."
           },
           {
-            "id": "us-prime-burger-ing-1",
+            "id": "hovezi-burger-gril-ing-1",
             "question": "Which ingredient is part of US Prime beef burger?",
-            "correctAnswer": "Crispy bacon",
+            "correctAnswer": "Grilled bacon",
             "distractors": [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In US Prime beef burger, this component is present: Crispy bacon. Full recipe ingredients: crispy bacon, cheddar, onion marmalade and spicy mayonnaise."
+            "explanation": "In US Prime beef burger, this component is present: Grilled bacon. Full recipe ingredients: grilled bacon, cheddar, onion marmalade, spicy mayonnaise."
           },
           {
-            "id": "us-prime-burger-ing-2",
-            "question": "Which cheese or dairy ingredient is included in US Prime beef burger?",
+            "id": "hovezi-burger-gril-ing-2",
+            "question": "Which cheese or dairy component is included in US Prime beef burger?",
             "correctAnswer": "Cheddar",
             "distractors": [
-              "Duck breast",
-              "Deboned trout"
+              "Sour cherry sauce",
+              "Apple BBQ glaze"
             ],
-            "explanation": "In US Prime beef burger, this component is present: Cheddar. Full recipe ingredients: crispy bacon, cheddar, onion marmalade and spicy mayonnaise."
+            "explanation": "In US Prime beef burger, this component is present: Cheddar. Full recipe ingredients: grilled bacon, cheddar, onion marmalade, spicy mayonnaise."
           },
           {
-            "id": "us-prime-burger-ing-3",
-            "question": "Which onion or shallot ingredient is included in US Prime beef burger?",
-            "correctAnswer": "Onion marmalade and spicy mayonnaise",
+            "id": "hovezi-burger-gril-ing-3",
+            "question": "Which ingredient is part of US Prime beef burger?",
+            "correctAnswer": "Onion marmalade",
             "distractors": [
               "Grilled Padron peppers",
               "Pickled chili peppers"
             ],
-            "explanation": "In US Prime beef burger, this component is present: Onion marmalade and spicy mayonnaise. Full recipe ingredients: crispy bacon, cheddar, onion marmalade and spicy mayonnaise."
+            "explanation": "In US Prime beef burger, this component is present: Onion marmalade. Full recipe ingredients: grilled bacon, cheddar, onion marmalade, spicy mayonnaise."
           },
           {
-            "id": "us-prime-burger-allergen-1",
+            "id": "hovezi-burger-gril-ing-4",
+            "question": "Which sauce, dressing, or glaze accompanies US Prime beef burger?",
+            "correctAnswer": "Spicy mayonnaise",
+            "distractors": [
+              "Cognac sauce",
+              "Dill sauce"
+            ],
+            "explanation": "In US Prime beef burger, this component is present: Spicy mayonnaise. Full recipe ingredients: grilled bacon, cheddar, onion marmalade, spicy mayonnaise."
+          },
+          {
+            "id": "hovezi-burger-gril-allergen-1",
             "question": "Which of the following allergens is present in US Prime beef burger?",
             "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
             "distractors": [
@@ -2201,7 +2247,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "explanation": "US Prime beef burger contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
-            "id": "us-prime-burger-allergen-3",
+            "id": "hovezi-burger-gril-allergen-3",
             "question": "Which of the following allergens is present in US Prime beef burger?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
@@ -2211,7 +2257,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "explanation": "US Prime beef burger contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
-            "id": "us-prime-burger-allergen-7",
+            "id": "hovezi-burger-gril-allergen-7",
             "question": "Which of the following allergens is present in US Prime beef burger?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
@@ -2221,7 +2267,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "explanation": "US Prime beef burger contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
-            "id": "us-prime-burger-allergen-10",
+            "id": "hovezi-burger-gril-allergen-10",
             "question": "Which of the following allergens is present in US Prime beef burger?",
             "correctAnswer": "Allergen No. 10 – Mustard and products thereof",
             "distractors": [
@@ -2233,20 +2279,20 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         ]
       },
       {
-        "id": "grilovany-bucek-yuzu",
+        "id": "grilovany-veprovy-bok",
         "name": "Grilled pork belly",
         "weight": "300g",
+        "price": "299 CZK",
         "allergens": [
           "2",
           "4",
           "6"
         ],
-        "description": "caramelized yuzu sauce, grilled spring onions, chimmichurri sauce",
-        "price": "299 CZK",
-        "notes": "Crispy grilled pork belly glazed with citrusy yuzu and fresh chimichurri.",
+        "description": "caramelized yuzu sauce, grilled spring onion, chimichurri sauce",
+        "notes": "Succulent pork belly grilled over embers, glazed with tart-sweet yuzu citrus and topped with fresh chimichurri.",
         "questions": [
           {
-            "id": "grilovany-bucek-yuzu-vol",
+            "id": "grilovany-veprovy-bok-vol",
             "question": "What is the portion weight of Grilled pork belly?",
             "correctAnswer": "300g",
             "distractors": [
@@ -2256,37 +2302,37 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "explanation": "The portion size / weight of Grilled pork belly is 300g."
           },
           {
-            "id": "grilovany-bucek-yuzu-ing-1",
-            "question": "Which sauce, dressing, or reduction accompanies Grilled pork belly?",
+            "id": "grilovany-veprovy-bok-ing-1",
+            "question": "Which sauce, dressing, or glaze accompanies Grilled pork belly?",
             "correctAnswer": "Caramelized yuzu sauce",
             "distractors": [
               "Choron sauce",
               "Our salsa verde"
             ],
-            "explanation": "In Grilled pork belly, this component is present: Caramelized yuzu sauce. Full recipe ingredients: caramelized yuzu sauce, grilled spring onions, chimmichurri sauce."
+            "explanation": "In Grilled pork belly, this component is present: Caramelized yuzu sauce. Full recipe ingredients: caramelized yuzu sauce, grilled spring onion, chimichurri sauce."
           },
           {
-            "id": "grilovany-bucek-yuzu-ing-2",
-            "question": "Which onion or shallot ingredient is included in Grilled pork belly?",
-            "correctAnswer": "Grilled spring onions",
+            "id": "grilovany-veprovy-bok-ing-2",
+            "question": "Which ingredient is part of Grilled pork belly?",
+            "correctAnswer": "Grilled spring onion",
             "distractors": [
               "Sauerkraut",
               "Pickled pearl onions"
             ],
-            "explanation": "In Grilled pork belly, this component is present: Grilled spring onions. Full recipe ingredients: caramelized yuzu sauce, grilled spring onions, chimmichurri sauce."
+            "explanation": "In Grilled pork belly, this component is present: Grilled spring onion. Full recipe ingredients: caramelized yuzu sauce, grilled spring onion, chimichurri sauce."
           },
           {
-            "id": "grilovany-bucek-yuzu-ing-3",
-            "question": "Which sauce, dressing, or reduction accompanies Grilled pork belly?",
-            "correctAnswer": "Chimmichurri sauce",
+            "id": "grilovany-veprovy-bok-ing-3",
+            "question": "Which sauce, dressing, or glaze accompanies Grilled pork belly?",
+            "correctAnswer": "Chimichurri sauce",
             "distractors": [
               "Lovage mayonnaise",
               "Spicy smoked mayonnaise"
             ],
-            "explanation": "In Grilled pork belly, this component is present: Chimmichurri sauce. Full recipe ingredients: caramelized yuzu sauce, grilled spring onions, chimmichurri sauce."
+            "explanation": "In Grilled pork belly, this component is present: Chimichurri sauce. Full recipe ingredients: caramelized yuzu sauce, grilled spring onion, chimichurri sauce."
           },
           {
-            "id": "grilovany-bucek-yuzu-allergen-2",
+            "id": "grilovany-veprovy-bok-allergen-2",
             "question": "Which of the following allergens is present in Grilled pork belly?",
             "correctAnswer": "Allergen No. 2 – Crustaceans and products thereof",
             "distractors": [
@@ -2296,7 +2342,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "explanation": "Grilled pork belly contains Allergen No. 2 – Crustaceans and products thereof (prawns, shrimps, crabs, lobster). All allergens present in this item: Crustaceans and products thereof, Fish and products thereof, Soybeans and products thereof."
           },
           {
-            "id": "grilovany-bucek-yuzu-allergen-4",
+            "id": "grilovany-veprovy-bok-allergen-4",
             "question": "Which of the following allergens is present in Grilled pork belly?",
             "correctAnswer": "Allergen No. 4 – Fish and products thereof",
             "distractors": [
@@ -2306,7 +2352,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "explanation": "Grilled pork belly contains Allergen No. 4 – Fish and products thereof (trout, anchovies, fish sauce, worcestershire). All allergens present in this item: Crustaceans and products thereof, Fish and products thereof, Soybeans and products thereof."
           },
           {
-            "id": "grilovany-bucek-yuzu-allergen-6",
+            "id": "grilovany-veprovy-bok-allergen-6",
             "question": "Which of the following allergens is present in Grilled pork belly?",
             "correctAnswer": "Allergen No. 6 – Soybeans and products thereof",
             "distractors": [
@@ -2318,243 +2364,243 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         ]
       },
       {
-        "id": "nase-pastrami",
-        "name": "Our pastrami",
+        "id": "hovezi-pastrami",
+        "name": "Our pastrami from US Prime beef ribs",
         "weight": "200g",
+        "price": "455 CZK",
         "allergens": [
           "1",
           "3",
           "7",
           "10"
         ],
-        "description": "from US Prime beef rib roasted in clay oven, raclette cheese and cabbage salad with horseradish in toasted sourdough bread, pickled vegetables",
-        "price": "455 CZK",
-        "notes": "In-house smoked and roasted US Prime beef short rib pastrami on sourdough.",
+        "description": "raclette cheese, cabbage salad with horseradish, in toasted sourdough bread, pickled vegetables",
+        "notes": "House-cured and smoked US Prime beef rib pastrami layered with melted alpine raclette on rustic sourdough.",
         "questions": [
           {
-            "id": "nase-pastrami-vol",
-            "question": "What is the portion weight of Our pastrami?",
+            "id": "hovezi-pastrami-vol",
+            "question": "What is the portion weight of Our pastrami from US Prime beef ribs?",
             "correctAnswer": "200g",
             "distractors": [
               "150 g",
               "250 g"
             ],
-            "explanation": "The portion size / weight of Our pastrami is 200g."
+            "explanation": "The portion size / weight of Our pastrami from US Prime beef ribs is 200g."
           },
           {
-            "id": "nase-pastrami-ing-1",
-            "question": "Which meat or seafood ingredient forms the base of Our pastrami?",
-            "correctAnswer": "From US Prime beef rib roasted in clay oven",
+            "id": "hovezi-pastrami-ing-1",
+            "question": "Which cheese or dairy component is included in Our pastrami from US Prime beef ribs?",
+            "correctAnswer": "Raclette cheese",
             "distractors": [
-              "Pork tenderloin",
-              "Veal leg"
+              "Choron sauce",
+              "Our salsa verde"
             ],
-            "explanation": "In Our pastrami, this component is present: From US Prime beef rib roasted in clay oven. Full recipe ingredients: from US Prime beef rib roasted in clay oven, raclette cheese and cabbage salad with horseradish in toasted sourdough bread, pickled vegetables."
+            "explanation": "In Our pastrami from US Prime beef ribs, this component is present: Raclette cheese. Full recipe ingredients: raclette cheese, cabbage salad with horseradish, in toasted sourdough bread, pickled vegetables."
           },
           {
-            "id": "nase-pastrami-ing-2",
-            "question": "Which bread, side, or crispy garnish accompanies Our pastrami?",
-            "correctAnswer": "Raclette cheese and cabbage salad with horseradish in toasted sourdough bread",
+            "id": "hovezi-pastrami-ing-2",
+            "question": "Which pickled or prepared vegetable is included in Our pastrami from US Prime beef ribs?",
+            "correctAnswer": "Cabbage salad with horseradish",
             "distractors": [
-              "Mashed potatoes",
-              "Potato crisps"
+              "Sauerkraut",
+              "Pickled pearl onions"
             ],
-            "explanation": "In Our pastrami, this component is present: Raclette cheese and cabbage salad with horseradish in toasted sourdough bread. Full recipe ingredients: from US Prime beef rib roasted in clay oven, raclette cheese and cabbage salad with horseradish in toasted sourdough bread, pickled vegetables."
+            "explanation": "In Our pastrami from US Prime beef ribs, this component is present: Cabbage salad with horseradish. Full recipe ingredients: raclette cheese, cabbage salad with horseradish, in toasted sourdough bread, pickled vegetables."
           },
           {
-            "id": "nase-pastrami-ing-3",
-            "question": "Which pickled ingredient is included in Our pastrami?",
+            "id": "hovezi-pastrami-ing-3",
+            "question": "Which bread, side, or crispy garnish accompanies Our pastrami from US Prime beef ribs?",
+            "correctAnswer": "In toasted sourdough bread",
+            "distractors": [
+              "Homemade fries",
+              "Smoked fingerling potatoes"
+            ],
+            "explanation": "In Our pastrami from US Prime beef ribs, this component is present: In toasted sourdough bread. Full recipe ingredients: raclette cheese, cabbage salad with horseradish, in toasted sourdough bread, pickled vegetables."
+          },
+          {
+            "id": "hovezi-pastrami-ing-4",
+            "question": "Which pickled or prepared vegetable is included in Our pastrami from US Prime beef ribs?",
             "correctAnswer": "Pickled vegetables",
             "distractors": [
-              "Grilled Padron peppers",
-              "Pickled chili peppers"
+              "Fermented dill pickles",
+              "Sun-dried tomatoes"
             ],
-            "explanation": "In Our pastrami, this component is present: Pickled vegetables. Full recipe ingredients: from US Prime beef rib roasted in clay oven, raclette cheese and cabbage salad with horseradish in toasted sourdough bread, pickled vegetables."
+            "explanation": "In Our pastrami from US Prime beef ribs, this component is present: Pickled vegetables. Full recipe ingredients: raclette cheese, cabbage salad with horseradish, in toasted sourdough bread, pickled vegetables."
           },
           {
-            "id": "nase-pastrami-allergen-1",
-            "question": "Which of the following allergens is present in Our pastrami?",
+            "id": "hovezi-pastrami-allergen-1",
+            "question": "Which of the following allergens is present in Our pastrami from US Prime beef ribs?",
             "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
             "distractors": [
               "Allergen No. 4 – Fish and products thereof",
               "Allergen No. 11 – Sesame seeds and products thereof"
             ],
-            "explanation": "Our pastrami contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Our pastrami from US Prime beef ribs contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
-            "id": "nase-pastrami-allergen-3",
-            "question": "Which of the following allergens is present in Our pastrami?",
+            "id": "hovezi-pastrami-allergen-3",
+            "question": "Which of the following allergens is present in Our pastrami from US Prime beef ribs?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
               "Allergen No. 6 – Soybeans and products thereof",
               "Allergen No. 13 – Lupin and products thereof"
             ],
-            "explanation": "Our pastrami contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Our pastrami from US Prime beef ribs contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
-            "id": "nase-pastrami-allergen-7",
-            "question": "Which of the following allergens is present in Our pastrami?",
+            "id": "hovezi-pastrami-allergen-7",
+            "question": "Which of the following allergens is present in Our pastrami from US Prime beef ribs?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 12 – Sulphur dioxide and sulphites",
               "Allergen No. 5 – Peanuts and products thereof"
             ],
-            "explanation": "Our pastrami contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Our pastrami from US Prime beef ribs contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
-            "id": "nase-pastrami-allergen-10",
-            "question": "Which of the following allergens is present in Our pastrami?",
+            "id": "hovezi-pastrami-allergen-10",
+            "question": "Which of the following allergens is present in Our pastrami from US Prime beef ribs?",
             "correctAnswer": "Allergen No. 10 – Mustard and products thereof",
             "distractors": [
               "Allergen No. 2 – Crustaceans and products thereof",
               "Allergen No. 9 – Celery and products thereof"
             ],
-            "explanation": "Our pastrami contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Our pastrami from US Prime beef ribs contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           }
         ]
       },
       {
         "id": "pecene-kure-pec",
-        "name": "½ Roasted chicken in our clay oven",
+        "name": "½ Roasted chicken in our tandoori",
+        "price": "279 CZK",
         "allergens": [
           "1",
           "4",
           "7",
           "10"
         ],
-        "description": "as BBQ glazed with spicy apple sauce, crispy onions and herb butter (allergens 1, 7); as TRUFFLE drizzled with truffle butter, potato crisps, chives (allergen 7); as CAESAR coated with anchovy, parmesan and mustard sauce, fried capers (allergens 4, 7, 10)",
-        "price": "279 CZK",
-        "notes": "Succulent half chicken roasted in our clay oven, choice of BBQ, Truffle, or Caesar seasoning.",
+        "description": "BBQ version: brushed with spicy barbecue sauce, crispy onions, and herb butter (1, 7); TRUFFLE version: drizzled with truffle butter, potato crisps, chives (7); CAESAR version: brushed with anchovy, parmesan, and mustard sauce, served with fried capers (4, 7, 10)",
+        "notes": "Half chicken roasted in authentic clay tandoori oven, selectable in BBQ, Truffle, or Caesar seasoning style.",
         "questions": [
           {
             "id": "pecene-kure-pec-ing-1",
-            "question": "Which sauce, dressing, or reduction accompanies ½ Roasted chicken in our clay oven?",
-            "correctAnswer": "As BBQ glazed with spicy apple sauce",
-            "distractors": [
-              "Marinated shallots",
-              "Roasted root vegetables"
-            ],
-            "explanation": "In ½ Roasted chicken in our clay oven, this component is present: As BBQ glazed with spicy apple sauce. Full recipe ingredients: as BBQ glazed with spicy apple sauce, crispy onions and herb butter (allergens 1, 7); as TRUFFLE drizzled with truffle butter, potato crisps, chives (allergen 7); as CAESAR coated with anchovy, parmesan and mustard sauce, fried capers (allergens 4, 7, 10)."
-          },
-          {
-            "id": "pecene-kure-pec-ing-2",
-            "question": "Which onion or shallot ingredient is included in ½ Roasted chicken in our clay oven?",
-            "correctAnswer": "Crispy onions and herb butter (allergens 1",
-            "distractors": [
-              "Sauerkraut",
-              "Pickled pearl onions"
-            ],
-            "explanation": "In ½ Roasted chicken in our clay oven, this component is present: Crispy onions and herb butter (allergens 1. Full recipe ingredients: as BBQ glazed with spicy apple sauce, crispy onions and herb butter (allergens 1, 7); as TRUFFLE drizzled with truffle butter, potato crisps, chives (allergen 7); as CAESAR coated with anchovy, parmesan and mustard sauce, fried capers (allergens 4, 7, 10)."
-          },
-          {
-            "id": "pecene-kure-pec-ing-3",
-            "question": "Which cheese or dairy ingredient is included in ½ Roasted chicken in our clay oven?",
-            "correctAnswer": "7); as TRUFFLE drizzled with truffle butter",
-            "distractors": [
-              "Lovage mayonnaise",
-              "Spicy smoked mayonnaise"
-            ],
-            "explanation": "In ½ Roasted chicken in our clay oven, this component is present: 7); as TRUFFLE drizzled with truffle butter. Full recipe ingredients: as BBQ glazed with spicy apple sauce, crispy onions and herb butter (allergens 1, 7); as TRUFFLE drizzled with truffle butter, potato crisps, chives (allergen 7); as CAESAR coated with anchovy, parmesan and mustard sauce, fried capers (allergens 4, 7, 10)."
-          },
-          {
-            "id": "pecene-kure-pec-ing-4",
-            "question": "Which bread, side, or crispy garnish accompanies ½ Roasted chicken in our clay oven?",
-            "correctAnswer": "Potato crisps",
-            "distractors": [
-              "Beer biscuit",
-              "Crispy pork cracklings"
-            ],
-            "explanation": "In ½ Roasted chicken in our clay oven, this component is present: Potato crisps. Full recipe ingredients: as BBQ glazed with spicy apple sauce, crispy onions and herb butter (allergens 1, 7); as TRUFFLE drizzled with truffle butter, potato crisps, chives (allergen 7); as CAESAR coated with anchovy, parmesan and mustard sauce, fried capers (allergens 4, 7, 10)."
-          },
-          {
-            "id": "pecene-kure-pec-ing-5",
-            "question": "Which fresh herb or spice seasoning finishes ½ Roasted chicken in our clay oven?",
-            "correctAnswer": "Chives (allergen 7); as CAESAR coated with anchovy",
-            "distractors": [
-              "Thyme",
-              "Fresh chives"
-            ],
-            "explanation": "In ½ Roasted chicken in our clay oven, this component is present: Chives (allergen 7); as CAESAR coated with anchovy. Full recipe ingredients: as BBQ glazed with spicy apple sauce, crispy onions and herb butter (allergens 1, 7); as TRUFFLE drizzled with truffle butter, potato crisps, chives (allergen 7); as CAESAR coated with anchovy, parmesan and mustard sauce, fried capers (allergens 4, 7, 10)."
-          },
-          {
-            "id": "pecene-kure-pec-ing-6",
-            "question": "Which sauce, dressing, or reduction accompanies ½ Roasted chicken in our clay oven?",
-            "correctAnswer": "Parmesan and mustard sauce",
+            "question": "Which sauce, dressing, or glaze accompanies ½ Roasted chicken in our tandoori?",
+            "correctAnswer": "BBQ version: brushed with spicy barbecue sauce",
             "distractors": [
               "Choron sauce",
               "Our salsa verde"
             ],
-            "explanation": "In ½ Roasted chicken in our clay oven, this component is present: Parmesan and mustard sauce. Full recipe ingredients: as BBQ glazed with spicy apple sauce, crispy onions and herb butter (allergens 1, 7); as TRUFFLE drizzled with truffle butter, potato crisps, chives (allergen 7); as CAESAR coated with anchovy, parmesan and mustard sauce, fried capers (allergens 4, 7, 10)."
+            "explanation": "In ½ Roasted chicken in our tandoori, this component is present: BBQ version: brushed with spicy barbecue sauce. Full recipe ingredients: BBQ version: brushed with spicy barbecue sauce, crispy onions, and herb butter (1, 7); TRUFFLE version: drizzled with truffle butter, potato crisps, chives (7); CAESAR version: brushed with anchovy, parmesan, and mustard sauce, served with fried capers (4, 7, 10)."
+          },
+          {
+            "id": "pecene-kure-pec-ing-2",
+            "question": "Which ingredient is part of ½ Roasted chicken in our tandoori?",
+            "correctAnswer": "Crispy onions",
+            "distractors": [
+              "Sauerkraut",
+              "Pickled pearl onions"
+            ],
+            "explanation": "In ½ Roasted chicken in our tandoori, this component is present: Crispy onions. Full recipe ingredients: BBQ version: brushed with spicy barbecue sauce, crispy onions, and herb butter (1, 7); TRUFFLE version: drizzled with truffle butter, potato crisps, chives (7); CAESAR version: brushed with anchovy, parmesan, and mustard sauce, served with fried capers (4, 7, 10)."
+          },
+          {
+            "id": "pecene-kure-pec-ing-3",
+            "question": "Which fresh herb or spice seasoning finishes ½ Roasted chicken in our tandoori?",
+            "correctAnswer": "Herb butter (1",
+            "distractors": [
+              "Crushed caraway",
+              "Ground cardamom"
+            ],
+            "explanation": "In ½ Roasted chicken in our tandoori, this component is present: Herb butter (1. Full recipe ingredients: BBQ version: brushed with spicy barbecue sauce, crispy onions, and herb butter (1, 7); TRUFFLE version: drizzled with truffle butter, potato crisps, chives (7); CAESAR version: brushed with anchovy, parmesan, and mustard sauce, served with fried capers (4, 7, 10)."
+          },
+          {
+            "id": "pecene-kure-pec-ing-4",
+            "question": "Which cheese or dairy component is included in ½ Roasted chicken in our tandoori?",
+            "correctAnswer": "TRUFFLE version: drizzled with truffle butter",
+            "distractors": [
+              "Cognac sauce",
+              "Dill sauce"
+            ],
+            "explanation": "In ½ Roasted chicken in our tandoori, this component is present: TRUFFLE version: drizzled with truffle butter. Full recipe ingredients: BBQ version: brushed with spicy barbecue sauce, crispy onions, and herb butter (1, 7); TRUFFLE version: drizzled with truffle butter, potato crisps, chives (7); CAESAR version: brushed with anchovy, parmesan, and mustard sauce, served with fried capers (4, 7, 10)."
+          },
+          {
+            "id": "pecene-kure-pec-ing-5",
+            "question": "Which bread, side, or crispy garnish accompanies ½ Roasted chicken in our tandoori?",
+            "correctAnswer": "Potato crisps",
+            "distractors": [
+              "Toasted sourdough on beef lard",
+              "Butter brioche"
+            ],
+            "explanation": "In ½ Roasted chicken in our tandoori, this component is present: Potato crisps. Full recipe ingredients: BBQ version: brushed with spicy barbecue sauce, crispy onions, and herb butter (1, 7); TRUFFLE version: drizzled with truffle butter, potato crisps, chives (7); CAESAR version: brushed with anchovy, parmesan, and mustard sauce, served with fried capers (4, 7, 10)."
+          },
+          {
+            "id": "pecene-kure-pec-ing-6",
+            "question": "Which fresh herb or spice seasoning finishes ½ Roasted chicken in our tandoori?",
+            "correctAnswer": "Chives",
+            "distractors": [
+              "Marjoram",
+              "Coriander / cilantro"
+            ],
+            "explanation": "In ½ Roasted chicken in our tandoori, this component is present: Chives. Full recipe ingredients: BBQ version: brushed with spicy barbecue sauce, crispy onions, and herb butter (1, 7); TRUFFLE version: drizzled with truffle butter, potato crisps, chives (7); CAESAR version: brushed with anchovy, parmesan, and mustard sauce, served with fried capers (4, 7, 10)."
           },
           {
             "id": "pecene-kure-pec-ing-7",
-            "question": "Which ingredient is part of ½ Roasted chicken in our clay oven?",
-            "correctAnswer": "Fried capers (allergens 4",
+            "question": "Which ingredient is part of ½ Roasted chicken in our tandoori?",
+            "correctAnswer": "CAESAR version: brushed with anchovy",
             "distractors": [
               "Duck breast",
               "Deboned trout"
             ],
-            "explanation": "In ½ Roasted chicken in our clay oven, this component is present: Fried capers (allergens 4. Full recipe ingredients: as BBQ glazed with spicy apple sauce, crispy onions and herb butter (allergens 1, 7); as TRUFFLE drizzled with truffle butter, potato crisps, chives (allergen 7); as CAESAR coated with anchovy, parmesan and mustard sauce, fried capers (allergens 4, 7, 10)."
+            "explanation": "In ½ Roasted chicken in our tandoori, this component is present: CAESAR version: brushed with anchovy. Full recipe ingredients: BBQ version: brushed with spicy barbecue sauce, crispy onions, and herb butter (1, 7); TRUFFLE version: drizzled with truffle butter, potato crisps, chives (7); CAESAR version: brushed with anchovy, parmesan, and mustard sauce, served with fried capers (4, 7, 10)."
           },
           {
             "id": "pecene-kure-pec-ing-8",
-            "question": "Which ingredient is part of ½ Roasted chicken in our clay oven?",
-            "correctAnswer": "7",
+            "question": "Which cheese or dairy component is included in ½ Roasted chicken in our tandoori?",
+            "correctAnswer": "Parmesan",
             "distractors": [
-              "Beef tenderloin",
-              "Duroc pork belly"
+              "Lovage mayonnaise",
+              "Spicy smoked mayonnaise"
             ],
-            "explanation": "In ½ Roasted chicken in our clay oven, this component is present: 7. Full recipe ingredients: as BBQ glazed with spicy apple sauce, crispy onions and herb butter (allergens 1, 7); as TRUFFLE drizzled with truffle butter, potato crisps, chives (allergen 7); as CAESAR coated with anchovy, parmesan and mustard sauce, fried capers (allergens 4, 7, 10)."
-          },
-          {
-            "id": "pecene-kure-pec-ing-9",
-            "question": "Which ingredient is part of ½ Roasted chicken in our clay oven?",
-            "correctAnswer": "10)",
-            "distractors": [
-              "Venison saddle",
-              "Lamb chop"
-            ],
-            "explanation": "In ½ Roasted chicken in our clay oven, this component is present: 10). Full recipe ingredients: as BBQ glazed with spicy apple sauce, crispy onions and herb butter (allergens 1, 7); as TRUFFLE drizzled with truffle butter, potato crisps, chives (allergen 7); as CAESAR coated with anchovy, parmesan and mustard sauce, fried capers (allergens 4, 7, 10)."
+            "explanation": "In ½ Roasted chicken in our tandoori, this component is present: Parmesan. Full recipe ingredients: BBQ version: brushed with spicy barbecue sauce, crispy onions, and herb butter (1, 7); TRUFFLE version: drizzled with truffle butter, potato crisps, chives (7); CAESAR version: brushed with anchovy, parmesan, and mustard sauce, served with fried capers (4, 7, 10)."
           },
           {
             "id": "pecene-kure-pec-allergen-1",
-            "question": "Which of the following allergens is present in ½ Roasted chicken in our clay oven?",
+            "question": "Which of the following allergens is present in ½ Roasted chicken in our tandoori?",
             "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
             "distractors": [
               "Allergen No. 3 – Eggs and products thereof",
               "Allergen No. 11 – Sesame seeds and products thereof"
             ],
-            "explanation": "½ Roasted chicken in our clay oven contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "½ Roasted chicken in our tandoori contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
             "id": "pecene-kure-pec-allergen-4",
-            "question": "Which of the following allergens is present in ½ Roasted chicken in our clay oven?",
+            "question": "Which of the following allergens is present in ½ Roasted chicken in our tandoori?",
             "correctAnswer": "Allergen No. 4 – Fish and products thereof",
             "distractors": [
               "Allergen No. 8 – Tree nuts and products thereof",
               "Allergen No. 14 – Molluscs and products thereof"
             ],
-            "explanation": "½ Roasted chicken in our clay oven contains Allergen No. 4 – Fish and products thereof (trout, anchovies, fish sauce, worcestershire). All allergens present in this item: Cereals containing gluten, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "½ Roasted chicken in our tandoori contains Allergen No. 4 – Fish and products thereof (trout, anchovies, fish sauce, worcestershire). All allergens present in this item: Cereals containing gluten, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
             "id": "pecene-kure-pec-allergen-7",
-            "question": "Which of the following allergens is present in ½ Roasted chicken in our clay oven?",
+            "question": "Which of the following allergens is present in ½ Roasted chicken in our tandoori?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 12 – Sulphur dioxide and sulphites",
               "Allergen No. 5 – Peanuts and products thereof"
             ],
-            "explanation": "½ Roasted chicken in our clay oven contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "½ Roasted chicken in our tandoori contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
             "id": "pecene-kure-pec-allergen-10",
-            "question": "Which of the following allergens is present in ½ Roasted chicken in our clay oven?",
+            "question": "Which of the following allergens is present in ½ Roasted chicken in our tandoori?",
             "correctAnswer": "Allergen No. 10 – Mustard and products thereof",
             "distractors": [
               "Allergen No. 2 – Crustaceans and products thereof",
               "Allergen No. 9 – Celery and products thereof"
             ],
-            "explanation": "½ Roasted chicken in our clay oven contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Cereals containing gluten, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "½ Roasted chicken in our tandoori contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Cereals containing gluten, Fish and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           }
         ]
       }
@@ -2562,185 +2608,205 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   },
   {
     "id": "teple-omacky",
-    "name": "Warm sauces",
-    "badge": "Warm sauces",
-    "description": "Homemade warm sauces reduced from authentic broths, butter, and seasonings",
+    "name": "Hot sauces",
+    "badge": "Hot sauces",
+    "description": "Warm artisanal sauces, rich pepper reductions, and creamy emulsions",
     "iconName": "Soup",
     "items": [
       {
-        "id": "omacka-konakova",
-        "name": "Cognac sauce",
+        "id": "peprova-omacka",
+        "name": "Pepper sauce",
+        "price": "69 CZK",
         "allergens": [
           "7",
           "9",
           "10"
         ],
-        "description": "warm cognac sauce",
-        "price": "69 CZK",
-        "notes": "Warm veal jus reduction with cream and French cognac.",
+        "description": "creamy peppercorn sauce with cracked green and black pepper",
+        "notes": "Classic rich peppercorn cream sauce with deep savory notes.",
         "questions": [
           {
-            "id": "omacka-konakova-ing-1",
-            "question": "Which sauce, dressing, or reduction accompanies Cognac sauce?",
-            "correctAnswer": "Warm cognac sauce",
+            "id": "peprova-omacka-ing-1",
+            "question": "Which sauce, dressing, or glaze accompanies Pepper sauce?",
+            "correctAnswer": "Creamy peppercorn sauce with cracked green",
             "distractors": [
-              "Choron sauce",
-              "Our salsa verde"
+              "Lovage",
+              "Tarragon"
             ],
-            "explanation": "In Cognac sauce, this component is present: Warm cognac sauce. Full recipe ingredients: warm cognac sauce."
+            "explanation": "In Pepper sauce, this component is present: Creamy peppercorn sauce with cracked green. Full recipe ingredients: creamy peppercorn sauce with cracked green and black pepper."
           },
           {
-            "id": "omacka-konakova-allergen-7",
-            "question": "Which of the following allergens is present in Cognac sauce?",
+            "id": "peprova-omacka-ing-2",
+            "question": "Which ingredient is part of Pepper sauce?",
+            "correctAnswer": "Black pepper",
+            "distractors": [
+              "Marjoram",
+              "Coriander / cilantro"
+            ],
+            "explanation": "In Pepper sauce, this component is present: Black pepper. Full recipe ingredients: creamy peppercorn sauce with cracked green and black pepper."
+          },
+          {
+            "id": "peprova-omacka-allergen-7",
+            "question": "Which of the following allergens is present in Pepper sauce?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 11 – Sesame seeds and products thereof",
               "Allergen No. 2 – Crustaceans and products thereof"
             ],
-            "explanation": "Cognac sauce contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
+            "explanation": "Pepper sauce contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
           },
           {
-            "id": "omacka-konakova-allergen-9",
-            "question": "Which of the following allergens is present in Cognac sauce?",
+            "id": "peprova-omacka-allergen-9",
+            "question": "Which of the following allergens is present in Pepper sauce?",
             "correctAnswer": "Allergen No. 9 – Celery and products thereof",
             "distractors": [
               "Allergen No. 13 – Lupin and products thereof",
               "Allergen No. 4 – Fish and products thereof"
             ],
-            "explanation": "Cognac sauce contains Allergen No. 9 – Celery and products thereof (celeriac in broth, celery stalk, celery seed). All allergens present in this item: Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
+            "explanation": "Pepper sauce contains Allergen No. 9 – Celery and products thereof (celeriac in broth, celery stalk, celery seed). All allergens present in this item: Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
           },
           {
-            "id": "omacka-konakova-allergen-10",
-            "question": "Which of the following allergens is present in Cognac sauce?",
+            "id": "peprova-omacka-allergen-10",
+            "question": "Which of the following allergens is present in Pepper sauce?",
             "correctAnswer": "Allergen No. 10 – Mustard and products thereof",
             "distractors": [
               "Allergen No. 14 – Molluscs and products thereof",
               "Allergen No. 5 – Peanuts and products thereof"
             ],
-            "explanation": "Cognac sauce contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
+            "explanation": "Pepper sauce contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Milk and products thereof (including lactose), Celery and products thereof, Mustard and products thereof."
           }
         ]
       },
       {
-        "id": "omacka-choron",
-        "name": "Choron",
+        "id": "choron-omacka",
+        "name": "Choron sauce",
+        "price": "69 CZK",
         "allergens": [
           "3",
           "10"
         ],
-        "description": "warm choron sauce",
-        "price": "69 CZK",
-        "notes": "Warm tarragon-infused béarnaise sauce enriched with tomato concassé.",
+        "description": "warm béarnaise with tomato reduction and tarragon",
+        "notes": "Buttery emulsified sauce with sweet tomato reduction and aromatic fresh herbs.",
         "questions": [
           {
-            "id": "omacka-choron-ing-1",
-            "question": "Which sauce, dressing, or reduction accompanies Choron?",
-            "correctAnswer": "Warm choron sauce",
+            "id": "choron-omacka-ing-1",
+            "question": "Which sauce, dressing, or glaze accompanies Choron sauce?",
+            "correctAnswer": "Warm béarnaise with tomato reduction",
             "distractors": [
-              "Our salsa verde",
-              "Sour cherry sauce"
+              "Marinated shallots",
+              "Roasted root vegetables"
             ],
-            "explanation": "In Choron, this component is present: Warm choron sauce. Full recipe ingredients: warm choron sauce."
+            "explanation": "In Choron sauce, this component is present: Warm béarnaise with tomato reduction. Full recipe ingredients: warm béarnaise with tomato reduction and tarragon."
           },
           {
-            "id": "omacka-choron-allergen-3",
-            "question": "Which of the following allergens is present in Choron?",
+            "id": "choron-omacka-ing-2",
+            "question": "Which fresh herb or spice seasoning finishes Choron sauce?",
+            "correctAnswer": "Tarragon",
+            "distractors": [
+              "Coriander / cilantro",
+              "Flat-leaf parsley"
+            ],
+            "explanation": "In Choron sauce, this component is present: Tarragon. Full recipe ingredients: warm béarnaise with tomato reduction and tarragon."
+          },
+          {
+            "id": "choron-omacka-allergen-3",
+            "question": "Which of the following allergens is present in Choron sauce?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
               "Allergen No. 5 – Peanuts and products thereof",
               "Allergen No. 11 – Sesame seeds and products thereof"
             ],
-            "explanation": "Choron contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Eggs and products thereof, Mustard and products thereof."
+            "explanation": "Choron sauce contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Eggs and products thereof, Mustard and products thereof."
           },
           {
-            "id": "omacka-choron-allergen-10",
-            "question": "Which of the following allergens is present in Choron?",
+            "id": "choron-omacka-allergen-10",
+            "question": "Which of the following allergens is present in Choron sauce?",
             "correctAnswer": "Allergen No. 10 – Mustard and products thereof",
             "distractors": [
               "Allergen No. 13 – Lupin and products thereof",
               "Allergen No. 5 – Peanuts and products thereof"
             ],
-            "explanation": "Choron contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Eggs and products thereof, Mustard and products thereof."
+            "explanation": "Choron sauce contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Eggs and products thereof, Mustard and products thereof."
           }
         ]
       },
       {
-        "id": "omacka-fines-herbes",
-        "name": "Our fines herbes",
+        "id": "fines-herbes-omacka",
+        "name": "Our fines herbes sauce",
+        "price": "69 CZK",
         "allergens": [
           "4",
           "9",
           "10"
         ],
-        "description": "warm fines herbes sauce",
-        "price": "69 CZK",
-        "notes": "Warm butter emulsion sauce infused with fresh herbs and a touch of anchovy.",
+        "description": "delicate aromatic fines herbes sauce",
+        "notes": "Velvety warm herb sauce featuring chervil, chives, parsley, and tarragon.",
         "questions": [
           {
-            "id": "omacka-fines-herbes-ing-1",
-            "question": "Which fresh herb or spice seasoning finishes Our fines herbes?",
-            "correctAnswer": "Warm fines herbes sauce",
+            "id": "fines-herbes-omacka-ing-1",
+            "question": "Which fresh herb or spice seasoning finishes Our fines herbes sauce?",
+            "correctAnswer": "Delicate aromatic fines herbes sauce",
             "distractors": [
               "Lovage",
               "Tarragon"
             ],
-            "explanation": "In Our fines herbes, this component is present: Warm fines herbes sauce. Full recipe ingredients: warm fines herbes sauce."
+            "explanation": "In Our fines herbes sauce, this component is present: Delicate aromatic fines herbes sauce. Full recipe ingredients: delicate aromatic fines herbes sauce."
           },
           {
-            "id": "omacka-fines-herbes-allergen-4",
-            "question": "Which of the following allergens is present in Our fines herbes?",
+            "id": "fines-herbes-omacka-allergen-4",
+            "question": "Which of the following allergens is present in Our fines herbes sauce?",
             "correctAnswer": "Allergen No. 4 – Fish and products thereof",
             "distractors": [
               "Allergen No. 6 – Soybeans and products thereof",
               "Allergen No. 13 – Lupin and products thereof"
             ],
-            "explanation": "Our fines herbes contains Allergen No. 4 – Fish and products thereof (trout, anchovies, fish sauce, worcestershire). All allergens present in this item: Fish and products thereof, Celery and products thereof, Mustard and products thereof."
+            "explanation": "Our fines herbes sauce contains Allergen No. 4 – Fish and products thereof (trout, anchovies, fish sauce, worcestershire). All allergens present in this item: Fish and products thereof, Celery and products thereof, Mustard and products thereof."
           },
           {
-            "id": "omacka-fines-herbes-allergen-9",
-            "question": "Which of the following allergens is present in Our fines herbes?",
+            "id": "fines-herbes-omacka-allergen-9",
+            "question": "Which of the following allergens is present in Our fines herbes sauce?",
             "correctAnswer": "Allergen No. 9 – Celery and products thereof",
             "distractors": [
               "Allergen No. 13 – Lupin and products thereof",
               "Allergen No. 5 – Peanuts and products thereof"
             ],
-            "explanation": "Our fines herbes contains Allergen No. 9 – Celery and products thereof (celeriac in broth, celery stalk, celery seed). All allergens present in this item: Fish and products thereof, Celery and products thereof, Mustard and products thereof."
+            "explanation": "Our fines herbes sauce contains Allergen No. 9 – Celery and products thereof (celeriac in broth, celery stalk, celery seed). All allergens present in this item: Fish and products thereof, Celery and products thereof, Mustard and products thereof."
           },
           {
-            "id": "omacka-fines-herbes-allergen-10",
-            "question": "Which of the following allergens is present in Our fines herbes?",
+            "id": "fines-herbes-omacka-allergen-10",
+            "question": "Which of the following allergens is present in Our fines herbes sauce?",
             "correctAnswer": "Allergen No. 10 – Mustard and products thereof",
             "distractors": [
               "Allergen No. 14 – Molluscs and products thereof",
               "Allergen No. 6 – Soybeans and products thereof"
             ],
-            "explanation": "Our fines herbes contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Fish and products thereof, Celery and products thereof, Mustard and products thereof."
+            "explanation": "Our fines herbes sauce contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Fish and products thereof, Celery and products thereof, Mustard and products thereof."
           }
         ]
       },
       {
-        "id": "omacka-lanyzova",
+        "id": "lanyzova-omacka",
         "name": "Truffle sauce",
+        "price": "79 CZK",
         "allergens": [
           "7",
           "10"
         ],
-        "description": "warm creamy truffle sauce",
-        "price": "79 CZK",
-        "notes": "Rich creamy reduction infused with black truffles.",
+        "description": "rich creamy truffle sauce",
+        "notes": "Intensely fragrant truffle sauce finished with cream and demi-glace.",
         "questions": [
           {
-            "id": "omacka-lanyzova-ing-1",
-            "question": "Which sauce, dressing, or reduction accompanies Truffle sauce?",
-            "correctAnswer": "Warm creamy truffle sauce",
+            "id": "lanyzova-omacka-ing-1",
+            "question": "Which sauce, dressing, or glaze accompanies Truffle sauce?",
+            "correctAnswer": "Rich creamy truffle sauce",
             "distractors": [
               "Our salsa verde",
               "Sour cherry sauce"
             ],
-            "explanation": "In Truffle sauce, this component is present: Warm creamy truffle sauce. Full recipe ingredients: warm creamy truffle sauce."
+            "explanation": "In Truffle sauce, this component is present: Rich creamy truffle sauce. Full recipe ingredients: rich creamy truffle sauce."
           },
           {
-            "id": "omacka-lanyzova-allergen-7",
+            "id": "lanyzova-omacka-allergen-7",
             "question": "Which of the following allergens is present in Truffle sauce?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
@@ -2750,7 +2816,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "explanation": "Truffle sauce contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
-            "id": "omacka-lanyzova-allergen-10",
+            "id": "lanyzova-omacka-allergen-10",
             "question": "Which of the following allergens is present in Truffle sauce?",
             "correctAnswer": "Allergen No. 10 – Mustard and products thereof",
             "distractors": [
@@ -2767,32 +2833,42 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
     "id": "studene-omacky",
     "name": "Cold sauces",
     "badge": "Cold sauces",
-    "description": "Fresh dips and cold dressings prepared from fresh herbs and spices",
+    "description": "House mayonnaise, fresh herb salsas, and flavorful dips",
     "iconName": "Droplet",
     "items": [
       {
-        "id": "omacka-pikantni-majo",
+        "id": "pikantni-uzena-majo",
         "name": "Spicy smoked mayonnaise",
+        "price": "59 CZK",
         "allergens": [
           "3",
           "7"
         ],
-        "description": "spicy smoked mayonnaise",
-        "price": "59 CZK",
-        "notes": "Homemade mayonnaise with smoked paprika and mild chili.",
+        "description": "spicy smoked mayonnaise with smoked paprika and chipotle",
+        "notes": "Creamy house mayonnaise infused with wood smoke and chili warmth.",
         "questions": [
           {
-            "id": "omacka-pikantni-majo-ing-1",
-            "question": "Which sauce, dressing, or reduction accompanies Spicy smoked mayonnaise?",
-            "correctAnswer": "Spicy smoked mayonnaise",
+            "id": "pikantni-uzena-majo-ing-1",
+            "question": "Which sauce, dressing, or glaze accompanies Spicy smoked mayonnaise?",
+            "correctAnswer": "Spicy smoked mayonnaise with smoked paprika",
             "distractors": [
               "Choron sauce",
               "Our salsa verde"
             ],
-            "explanation": "In Spicy smoked mayonnaise, this component is present: Spicy smoked mayonnaise. Full recipe ingredients: spicy smoked mayonnaise."
+            "explanation": "In Spicy smoked mayonnaise, this component is present: Spicy smoked mayonnaise with smoked paprika. Full recipe ingredients: spicy smoked mayonnaise with smoked paprika and chipotle."
           },
           {
-            "id": "omacka-pikantni-majo-allergen-3",
+            "id": "pikantni-uzena-majo-ing-2",
+            "question": "Which ingredient is part of Spicy smoked mayonnaise?",
+            "correctAnswer": "Chipotle",
+            "distractors": [
+              "Duck breast",
+              "Deboned trout"
+            ],
+            "explanation": "In Spicy smoked mayonnaise, this component is present: Chipotle. Full recipe ingredients: spicy smoked mayonnaise with smoked paprika and chipotle."
+          },
+          {
+            "id": "pikantni-uzena-majo-allergen-3",
             "question": "Which of the following allergens is present in Spicy smoked mayonnaise?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
@@ -2802,7 +2878,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "explanation": "Spicy smoked mayonnaise contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Eggs and products thereof, Milk and products thereof (including lactose)."
           },
           {
-            "id": "omacka-pikantni-majo-allergen-7",
+            "id": "pikantni-uzena-majo-allergen-7",
             "question": "Which of the following allergens is present in Spicy smoked mayonnaise?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
@@ -2814,62 +2890,92 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         ]
       },
       {
-        "id": "omacka-salsa-verde",
+        "id": "nase-salsa-verde",
         "name": "Our salsa verde",
-        "allergens": [],
-        "description": "our fresh herb salsa verde",
         "price": "59 CZK",
-        "notes": "Vibrant sauce made with parsley, capers, garlic, and extra virgin olive oil.",
+        "allergens": [],
+        "description": "fresh herb salsa verde with capers and olive oil",
+        "notes": "Zesty green sauce packed with parsley, mint, capers, and extra virgin olive oil.",
         "questions": [
           {
-            "id": "omacka-salsa-verde-ing-1",
+            "id": "nase-salsa-verde-ing-1",
             "question": "Which fresh herb or spice seasoning finishes Our salsa verde?",
-            "correctAnswer": "Our fresh herb salsa verde",
+            "correctAnswer": "Fresh herb salsa verde with capers",
             "distractors": [
               "Lovage",
               "Tarragon"
             ],
-            "explanation": "In Our salsa verde, this component is present: Our fresh herb salsa verde. Full recipe ingredients: our fresh herb salsa verde."
+            "explanation": "In Our salsa verde, this component is present: Fresh herb salsa verde with capers. Full recipe ingredients: fresh herb salsa verde with capers and olive oil."
+          },
+          {
+            "id": "nase-salsa-verde-ing-2",
+            "question": "Which ingredient is part of Our salsa verde?",
+            "correctAnswer": "Olive oil",
+            "distractors": [
+              "Duck breast",
+              "Deboned trout"
+            ],
+            "explanation": "In Our salsa verde, this component is present: Olive oil. Full recipe ingredients: fresh herb salsa verde with capers and olive oil."
           }
         ]
       },
       {
-        "id": "omacka-chimichurri",
-        "name": "Chimmichurri sauce",
-        "allergens": [],
-        "description": "fresh herb chimmichurri sauce",
+        "id": "okurkovy-relish",
+        "name": "Cucumber relish",
         "price": "65 CZK",
-        "notes": "Argentine herb sauce of fresh parsley, oregano, garlic, chili, and olive oil.",
-        "questions": [
-          {
-            "id": "omacka-chimichurri-ing-1",
-            "question": "Which fresh herb or spice seasoning finishes Chimmichurri sauce?",
-            "correctAnswer": "Fresh herb chimmichurri sauce",
-            "distractors": [
-              "Lovage",
-              "Tarragon"
-            ],
-            "explanation": "In Chimmichurri sauce, this component is present: Fresh herb chimmichurri sauce. Full recipe ingredients: fresh herb chimmichurri sauce."
-          }
-        ]
-      },
-      {
-        "id": "omacka-kecup",
-        "name": "Ketchup",
         "allergens": [],
-        "description": "traditional tomato ketchup",
-        "price": "40 CZK",
-        "notes": "Slow-cooked artisan ketchup made from sun-ripened tomatoes.",
+        "description": "sweet and tangy cucumber relish with shallots and mustard seeds",
+        "notes": "Crunchy pickled cucumber condiment balancing sweetness and acidity.",
         "questions": [
           {
-            "id": "omacka-kecup-ing-1",
-            "question": "Which sauce, dressing, or reduction accompanies Ketchup?",
-            "correctAnswer": "Traditional tomato ketchup",
+            "id": "okurkovy-relish-ing-1",
+            "question": "Which ingredient is part of Cucumber relish?",
+            "correctAnswer": "Sweet",
             "distractors": [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Ketchup, this component is present: Traditional tomato ketchup. Full recipe ingredients: traditional tomato ketchup."
+            "explanation": "In Cucumber relish, this component is present: Sweet. Full recipe ingredients: sweet and tangy cucumber relish with shallots and mustard seeds."
+          },
+          {
+            "id": "okurkovy-relish-ing-2",
+            "question": "Which pickled or prepared vegetable is included in Cucumber relish?",
+            "correctAnswer": "Tangy cucumber relish with shallots",
+            "distractors": [
+              "Sauerkraut",
+              "Pickled pearl onions"
+            ],
+            "explanation": "In Cucumber relish, this component is present: Tangy cucumber relish with shallots. Full recipe ingredients: sweet and tangy cucumber relish with shallots and mustard seeds."
+          },
+          {
+            "id": "okurkovy-relish-ing-3",
+            "question": "Which ingredient is part of Cucumber relish?",
+            "correctAnswer": "Mustard seeds",
+            "distractors": [
+              "Beef tenderloin",
+              "Duroc pork belly"
+            ],
+            "explanation": "In Cucumber relish, this component is present: Mustard seeds. Full recipe ingredients: sweet and tangy cucumber relish with shallots and mustard seeds."
+          }
+        ]
+      },
+      {
+        "id": "kecup",
+        "name": "Ketchup",
+        "price": "40 CZK",
+        "allergens": [],
+        "description": "classic tomato ketchup",
+        "notes": "Rich slow-simmered tomato condiment.",
+        "questions": [
+          {
+            "id": "kecup-ing-1",
+            "question": "Which sauce, dressing, or glaze accompanies Ketchup?",
+            "correctAnswer": "Classic tomato ketchup",
+            "distractors": [
+              "Marinated shallots",
+              "Roasted root vegetables"
+            ],
+            "explanation": "In Ketchup, this component is present: Classic tomato ketchup. Full recipe ingredients: classic tomato ketchup."
           }
         ]
       }
@@ -2879,207 +2985,227 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
     "id": "prilohy",
     "name": "Side dishes",
     "badge": "Side dishes",
-    "description": "Premium freshly prepared sides to accompany your feast",
+    "description": "Freshly made potato preparations, seasonal vegetables, and artisan breads",
     "iconName": "Utensils",
     "items": [
       {
         "id": "nase-hranolky",
         "name": "Our fries",
-        "allergens": [],
-        "description": "fresh homemade fries",
         "price": "89 CZK",
-        "notes": "Hand-cut potatoes twice-fried in beef tallow for ultimate crunch.",
+        "allergens": [],
+        "description": "crispy golden homemade fries",
+        "notes": "Double-fried hand-cut potatoes with sea salt.",
         "questions": [
           {
             "id": "nase-hranolky-ing-1",
             "question": "Which bread, side, or crispy garnish accompanies Our fries?",
-            "correctAnswer": "Fresh homemade fries",
+            "correctAnswer": "Crispy golden homemade fries",
             "distractors": [
               "Butter brioche",
               "Sourdough bread"
             ],
-            "explanation": "In Our fries, this component is present: Fresh homemade fries. Full recipe ingredients: fresh homemade fries."
+            "explanation": "In Our fries, this component is present: Crispy golden homemade fries. Full recipe ingredients: crispy golden homemade fries."
           }
         ]
       },
       {
-        "id": "hranolky-red-leicester",
-        "name": "Fries",
+        "id": "hranolky-lanyz",
+        "name": "Fries with truffle mayonnaise and Red Leicester cheese",
+        "price": "149 CZK",
         "allergens": [
           "3",
           "7"
         ],
-        "description": "with truffle mayonnaise and Red Leicester cheese",
-        "price": "149 CZK",
-        "notes": "Our signature fries topped with truffle mayo and shredded Red Leicester.",
+        "description": "crispy fries with truffle mayonnaise, grated Red Leicester cheese",
+        "notes": "Indulgent loaded fries tossed in truffle mayo and melted English Red Leicester.",
         "questions": [
           {
-            "id": "hranolky-red-leicester-ing-1",
-            "question": "Which sauce, dressing, or reduction accompanies Fries?",
-            "correctAnswer": "With truffle mayonnaise and Red Leicester cheese",
+            "id": "hranolky-lanyz-ing-1",
+            "question": "Which bread, side, or crispy garnish accompanies Fries with truffle mayonnaise and Red Leicester cheese?",
+            "correctAnswer": "Crispy fries with truffle mayonnaise",
             "distractors": [
-              "Choron sauce",
-              "Our salsa verde"
+              "Butter brioche",
+              "Sourdough bread"
             ],
-            "explanation": "In Fries, this component is present: With truffle mayonnaise and Red Leicester cheese. Full recipe ingredients: with truffle mayonnaise and Red Leicester cheese."
+            "explanation": "In Fries with truffle mayonnaise and Red Leicester cheese, this component is present: Crispy fries with truffle mayonnaise. Full recipe ingredients: crispy fries with truffle mayonnaise, grated Red Leicester cheese."
           },
           {
-            "id": "hranolky-red-leicester-allergen-3",
-            "question": "Which of the following allergens is present in Fries?",
+            "id": "hranolky-lanyz-ing-2",
+            "question": "Which cheese or dairy component is included in Fries with truffle mayonnaise and Red Leicester cheese?",
+            "correctAnswer": "Grated Red Leicester cheese",
+            "distractors": [
+              "Sour cherry sauce",
+              "Apple BBQ glaze"
+            ],
+            "explanation": "In Fries with truffle mayonnaise and Red Leicester cheese, this component is present: Grated Red Leicester cheese. Full recipe ingredients: crispy fries with truffle mayonnaise, grated Red Leicester cheese."
+          },
+          {
+            "id": "hranolky-lanyz-allergen-3",
+            "question": "Which of the following allergens is present in Fries with truffle mayonnaise and Red Leicester cheese?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
               "Allergen No. 5 – Peanuts and products thereof",
               "Allergen No. 11 – Sesame seeds and products thereof"
             ],
-            "explanation": "Fries contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Eggs and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Fries with truffle mayonnaise and Red Leicester cheese contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Eggs and products thereof, Milk and products thereof (including lactose)."
           },
           {
-            "id": "hranolky-red-leicester-allergen-7",
-            "question": "Which of the following allergens is present in Fries?",
+            "id": "hranolky-lanyz-allergen-7",
+            "question": "Which of the following allergens is present in Fries with truffle mayonnaise and Red Leicester cheese?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 10 – Mustard and products thereof",
               "Allergen No. 1 – Cereals containing gluten"
             ],
-            "explanation": "Fries contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Eggs and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Fries with truffle mayonnaise and Red Leicester cheese contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Eggs and products thereof, Milk and products thereof (including lactose)."
           }
         ]
       },
       {
         "id": "bramborova-kase",
-        "name": "Mashed potatoes",
+        "name": "Potato mash",
+        "price": "89 CZK",
         "allergens": [
           "7"
         ],
-        "description": "butter, potato straw",
-        "price": "89 CZK",
-        "notes": "Creamy buttered mashed potatoes finished with crispy potato straw.",
+        "description": "with butter, potato crisps",
+        "notes": "Silky smooth potato mash enriched with farm butter and crunchy crisps.",
         "questions": [
           {
             "id": "bramborova-kase-ing-1",
-            "question": "Which cheese or dairy ingredient is included in Mashed potatoes?",
+            "question": "Which cheese or dairy component is included in Potato mash?",
             "correctAnswer": "Butter",
             "distractors": [
               "Choron sauce",
               "Our salsa verde"
             ],
-            "explanation": "In Mashed potatoes, this component is present: Butter. Full recipe ingredients: butter, potato straw."
+            "explanation": "In Potato mash, this component is present: Butter. Full recipe ingredients: with butter, potato crisps."
           },
           {
             "id": "bramborova-kase-ing-2",
-            "question": "Which bread, side, or crispy garnish accompanies Mashed potatoes?",
-            "correctAnswer": "Potato straw",
+            "question": "Which bread, side, or crispy garnish accompanies Potato mash?",
+            "correctAnswer": "Potato crisps",
             "distractors": [
-              "Potato crisps",
-              "Homemade fries"
+              "Potato straw",
+              "Mashed potatoes"
             ],
-            "explanation": "In Mashed potatoes, this component is present: Potato straw. Full recipe ingredients: butter, potato straw."
+            "explanation": "In Potato mash, this component is present: Potato crisps. Full recipe ingredients: with butter, potato crisps."
           },
           {
             "id": "bramborova-kase-allergen-7",
-            "question": "Which of the following allergens is present in Mashed potatoes?",
+            "question": "Which of the following allergens is present in Potato mash?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 9 – Celery and products thereof",
               "Allergen No. 14 – Molluscs and products thereof"
             ],
-            "explanation": "Mashed potatoes contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Milk and products thereof (including lactose)."
+            "explanation": "Potato mash contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Milk and products thereof (including lactose)."
           }
         ]
       },
       {
-        "id": "zauzene-rohlicek-brambory",
-        "name": "Smoked fingerling potatoes",
+        "id": "uzene-brambory",
+        "name": "Smoked potatoes",
+        "price": "99 CZK",
         "allergens": [
           "7"
         ],
-        "description": "butter",
-        "price": "99 CZK",
-        "notes": "Beechwood-smoked fingerling potatoes tossed in clarified butter.",
+        "description": "with butter",
+        "notes": "Baby potatoes gently hot-smoked and tossed in melted butter.",
         "questions": [
           {
-            "id": "zauzene-rohlicek-brambory-ing-1",
-            "question": "Which cheese or dairy ingredient is included in Smoked fingerling potatoes?",
+            "id": "uzene-brambory-ing-1",
+            "question": "Which cheese or dairy component is included in Smoked potatoes?",
             "correctAnswer": "Butter",
             "distractors": [
               "Choron sauce",
               "Our salsa verde"
             ],
-            "explanation": "In Smoked fingerling potatoes, this component is present: Butter. Full recipe ingredients: butter."
+            "explanation": "In Smoked potatoes, this component is present: Butter. Full recipe ingredients: with butter."
           },
           {
-            "id": "zauzene-rohlicek-brambory-allergen-7",
-            "question": "Which of the following allergens is present in Smoked fingerling potatoes?",
+            "id": "uzene-brambory-allergen-7",
+            "question": "Which of the following allergens is present in Smoked potatoes?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 9 – Celery and products thereof",
               "Allergen No. 14 – Molluscs and products thereof"
             ],
-            "explanation": "Smoked fingerling potatoes contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Milk and products thereof (including lactose)."
+            "explanation": "Smoked potatoes contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Milk and products thereof (including lactose)."
           }
         ]
       },
       {
-        "id": "salat-trhane-listy",
-        "name": "Torn leaf salad",
+        "id": "salat-listy",
+        "name": "Salad of torn lettuce leaves",
+        "price": "129 CZK",
         "allergens": [
           "10"
         ],
-        "description": "and green tomato, beer vinaigrette",
-        "price": "129 CZK",
-        "notes": "Crispy garden lettuce leaves with pickled green tomato and beer dressing.",
+        "description": "with green tomatoes, beer vinaigrette",
+        "notes": "Fresh garden leaf salad dressed in craft beer vinaigrette and pickled green tomatoes.",
         "questions": [
           {
-            "id": "salat-trhane-listy-ing-1",
-            "question": "Which vegetable or fruit component is included in Torn leaf salad?",
-            "correctAnswer": "Green tomato",
+            "id": "salat-listy-ing-1",
+            "question": "Which vegetable, fruit, or mushroom component is included in Salad of torn lettuce leaves?",
+            "correctAnswer": "Green tomatoes",
             "distractors": [
-              "Pork tenderloin",
-              "Veal leg"
+              "Marinated shallots",
+              "Roasted root vegetables"
             ],
-            "explanation": "In Torn leaf salad, this component is present: Green tomato. Full recipe ingredients: and green tomato, beer vinaigrette."
+            "explanation": "In Salad of torn lettuce leaves, this component is present: Green tomatoes. Full recipe ingredients: with green tomatoes, beer vinaigrette."
           },
           {
-            "id": "salat-trhane-listy-ing-2",
-            "question": "Which ingredient is part of Torn leaf salad?",
+            "id": "salat-listy-ing-2",
+            "question": "Which ingredient is part of Salad of torn lettuce leaves?",
             "correctAnswer": "Beer vinaigrette",
             "distractors": [
               "Duck breast",
               "Deboned trout"
             ],
-            "explanation": "In Torn leaf salad, this component is present: Beer vinaigrette. Full recipe ingredients: and green tomato, beer vinaigrette."
+            "explanation": "In Salad of torn lettuce leaves, this component is present: Beer vinaigrette. Full recipe ingredients: with green tomatoes, beer vinaigrette."
           },
           {
-            "id": "salat-trhane-listy-allergen-10",
-            "question": "Which of the following allergens is present in Torn leaf salad?",
+            "id": "salat-listy-allergen-10",
+            "question": "Which of the following allergens is present in Salad of torn lettuce leaves?",
             "correctAnswer": "Allergen No. 10 – Mustard and products thereof",
             "distractors": [
               "Allergen No. 12 – Sulphur dioxide and sulphites",
               "Allergen No. 3 – Eggs and products thereof"
             ],
-            "explanation": "Torn leaf salad contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Mustard and products thereof."
+            "explanation": "Salad of torn lettuce leaves contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Mustard and products thereof."
           }
         ]
       },
       {
         "id": "pecena-zimni-zelenina",
         "name": "Roasted winter vegetables",
+        "price": "129 CZK",
         "allergens": [
           "9"
         ],
-        "description": "with cardamom and maple syrup",
-        "price": "129 CZK",
-        "notes": "Oven-roasted root vegetables glazed with pure maple syrup and cardamom.",
+        "description": "with cardamom, maple syrup",
+        "notes": "Oven-roasted seasonal roots glazed with pure maple syrup and ground cardamom.",
         "questions": [
           {
             "id": "pecena-zimni-zelenina-ing-1",
             "question": "Which fresh herb or spice seasoning finishes Roasted winter vegetables?",
-            "correctAnswer": "With cardamom and maple syrup",
+            "correctAnswer": "Cardamom",
             "distractors": [
-              "Pork tenderloin",
-              "Veal leg"
+              "Lovage",
+              "Tarragon"
             ],
-            "explanation": "In Roasted winter vegetables, this component is present: With cardamom and maple syrup. Full recipe ingredients: with cardamom and maple syrup."
+            "explanation": "In Roasted winter vegetables, this component is present: Cardamom. Full recipe ingredients: with cardamom, maple syrup."
+          },
+          {
+            "id": "pecena-zimni-zelenina-ing-2",
+            "question": "Which ingredient is part of Roasted winter vegetables?",
+            "correctAnswer": "Maple syrup",
+            "distractors": [
+              "Duck breast",
+              "Deboned trout"
+            ],
+            "explanation": "In Roasted winter vegetables, this component is present: Maple syrup. Full recipe ingredients: with cardamom, maple syrup."
           },
           {
             "id": "pecena-zimni-zelenina-allergen-9",
@@ -3094,90 +3220,110 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         ]
       },
       {
-        "id": "zelny-salat-kren",
-        "name": "Our cabbage salad with horseradish",
+        "id": "zelny-salat",
+        "name": "Cabbage salad with horseradish",
+        "price": "99 CZK",
         "allergens": [
           "3",
           "7",
           "11"
         ],
-        "description": "raisins, wine vinegar and mayonnaise",
-        "price": "99 CZK",
-        "notes": "Crunchy shredded cabbage salad with freshly grated horseradish and sweet raisins.",
+        "description": "with raisins, wine vinegar, mayonnaise",
+        "notes": "Crisp shredded cabbage slaw with pungent fresh horseradish and sweet raisins.",
         "questions": [
           {
-            "id": "zelny-salat-kren-ing-1",
-            "question": "Which ingredient is part of Our cabbage salad with horseradish?",
+            "id": "zelny-salat-ing-1",
+            "question": "Which ingredient is part of Cabbage salad with horseradish?",
             "correctAnswer": "Raisins",
             "distractors": [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Our cabbage salad with horseradish, this component is present: Raisins. Full recipe ingredients: raisins, wine vinegar and mayonnaise."
+            "explanation": "In Cabbage salad with horseradish, this component is present: Raisins. Full recipe ingredients: with raisins, wine vinegar, mayonnaise."
           },
           {
-            "id": "zelny-salat-kren-ing-2",
-            "question": "Which sauce, dressing, or reduction accompanies Our cabbage salad with horseradish?",
-            "correctAnswer": "Wine vinegar and mayonnaise",
+            "id": "zelny-salat-ing-2",
+            "question": "Which ingredient is part of Cabbage salad with horseradish?",
+            "correctAnswer": "Wine vinegar",
             "distractors": [
-              "Sour cherry sauce",
-              "Apple BBQ sauce"
+              "Duck breast",
+              "Deboned trout"
             ],
-            "explanation": "In Our cabbage salad with horseradish, this component is present: Wine vinegar and mayonnaise. Full recipe ingredients: raisins, wine vinegar and mayonnaise."
+            "explanation": "In Cabbage salad with horseradish, this component is present: Wine vinegar. Full recipe ingredients: with raisins, wine vinegar, mayonnaise."
           },
           {
-            "id": "zelny-salat-kren-allergen-3",
-            "question": "Which of the following allergens is present in Our cabbage salad with horseradish?",
+            "id": "zelny-salat-ing-3",
+            "question": "Which sauce, dressing, or glaze accompanies Cabbage salad with horseradish?",
+            "correctAnswer": "Mayonnaise",
+            "distractors": [
+              "Cognac sauce",
+              "Dill sauce"
+            ],
+            "explanation": "In Cabbage salad with horseradish, this component is present: Mayonnaise. Full recipe ingredients: with raisins, wine vinegar, mayonnaise."
+          },
+          {
+            "id": "zelny-salat-allergen-3",
+            "question": "Which of the following allergens is present in Cabbage salad with horseradish?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
               "Allergen No. 5 – Peanuts and products thereof",
               "Allergen No. 12 – Sulphur dioxide and sulphites"
             ],
-            "explanation": "Our cabbage salad with horseradish contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Eggs and products thereof, Milk and products thereof (including lactose), Sesame seeds and products thereof."
+            "explanation": "Cabbage salad with horseradish contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Eggs and products thereof, Milk and products thereof (including lactose), Sesame seeds and products thereof."
           },
           {
-            "id": "zelny-salat-kren-allergen-7",
-            "question": "Which of the following allergens is present in Our cabbage salad with horseradish?",
+            "id": "zelny-salat-allergen-7",
+            "question": "Which of the following allergens is present in Cabbage salad with horseradish?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 10 – Mustard and products thereof",
               "Allergen No. 2 – Crustaceans and products thereof"
             ],
-            "explanation": "Our cabbage salad with horseradish contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Eggs and products thereof, Milk and products thereof (including lactose), Sesame seeds and products thereof."
+            "explanation": "Cabbage salad with horseradish contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Eggs and products thereof, Milk and products thereof (including lactose), Sesame seeds and products thereof."
           },
           {
-            "id": "zelny-salat-kren-allergen-11",
-            "question": "Which of the following allergens is present in Our cabbage salad with horseradish?",
+            "id": "zelny-salat-allergen-11",
+            "question": "Which of the following allergens is present in Cabbage salad with horseradish?",
             "correctAnswer": "Allergen No. 11 – Sesame seeds and products thereof",
             "distractors": [
               "Allergen No. 1 – Cereals containing gluten",
               "Allergen No. 8 – Tree nuts and products thereof"
             ],
-            "explanation": "Our cabbage salad with horseradish contains Allergen No. 11 – Sesame seeds and products thereof (sesame oil, tahini, sesame brioche). All allergens present in this item: Eggs and products thereof, Milk and products thereof (including lactose), Sesame seeds and products thereof."
+            "explanation": "Cabbage salad with horseradish contains Allergen No. 11 – Sesame seeds and products thereof (sesame oil, tahini, sesame brioche). All allergens present in this item: Eggs and products thereof, Milk and products thereof (including lactose), Sesame seeds and products thereof."
           }
         ]
       },
       {
         "id": "cesnekova-brioska",
         "name": "Toasted garlic brioche",
+        "price": "79 CZK",
         "allergens": [
           "1",
           "3",
           "7"
         ],
-        "description": "toasted garlic brioche",
-        "price": "79 CZK",
-        "notes": "Fluffy butter brioche spread with garlic butter and toasted.",
+        "description": "toasted butter brioche with confit garlic and herbs",
+        "notes": "Thick-sliced brioche griddled with aromatic garlic butter.",
         "questions": [
           {
             "id": "cesnekova-brioska-ing-1",
             "question": "In what culinary form is garlic included in Toasted garlic brioche?",
-            "correctAnswer": "Toasted garlic brioche",
+            "correctAnswer": "Toasted butter brioche with confit garlic",
             "distractors": [
-              "Butter brioche",
-              "Sourdough bread"
+              "Sourdough bread",
+              "Potato straw"
             ],
-            "explanation": "In Toasted garlic brioche, this component is present: Toasted garlic brioche. Full recipe ingredients: toasted garlic brioche."
+            "explanation": "In Toasted garlic brioche, this component is present: Toasted butter brioche with confit garlic. Full recipe ingredients: toasted butter brioche with confit garlic and herbs."
+          },
+          {
+            "id": "cesnekova-brioska-ing-2",
+            "question": "Which fresh herb or spice seasoning finishes Toasted garlic brioche?",
+            "correctAnswer": "Herbs",
+            "distractors": [
+              "Marjoram",
+              "Coriander / cilantro"
+            ],
+            "explanation": "In Toasted garlic brioche, this component is present: Herbs. Full recipe ingredients: toasted butter brioche with confit garlic and herbs."
           },
           {
             "id": "cesnekova-brioska-allergen-1",
@@ -3214,24 +3360,24 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "kvaskovy-chleb",
         "name": "Sourdough bread",
+        "price": "45 CZK",
         "allergens": [
           "1",
           "3",
           "7"
         ],
-        "description": "fresh artisanal sourdough bread",
-        "price": "45 CZK",
-        "notes": "Thick slices of crusty artisanal sourdough rye-wheat bread.",
+        "description": "crusty artisanal sourdough bread",
+        "notes": "Freshly sliced traditional sourdough loaf with crunchy crust and open crumb.",
         "questions": [
           {
             "id": "kvaskovy-chleb-ing-1",
             "question": "Which bread, side, or crispy garnish accompanies Sourdough bread?",
-            "correctAnswer": "Fresh artisanal sourdough bread",
+            "correctAnswer": "Crusty artisanal sourdough bread",
             "distractors": [
               "Butter brioche",
               "Potato straw"
             ],
-            "explanation": "In Sourdough bread, this component is present: Fresh artisanal sourdough bread. Full recipe ingredients: fresh artisanal sourdough bread."
+            "explanation": "In Sourdough bread, this component is present: Crusty artisanal sourdough bread. Full recipe ingredients: crusty artisanal sourdough bread."
           },
           {
             "id": "kvaskovy-chleb-allergen-1",
@@ -3271,44 +3417,54 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
     "id": "dezerty",
     "name": "Desserts",
     "badge": "Desserts",
-    "description": "Sweet indulgences made by our pastry chefs to complete your meal",
+    "description": "Creative sweet finishes celebrating Czech flavors, beer, and fine chocolate",
     "iconName": "Cake",
     "items": [
       {
-        "id": "dortik-ganache-sisky",
+        "id": "dortiky-ganache",
         "name": "Ganache cakes",
+        "price": "209 CZK",
         "allergens": [
           "1",
           "3",
           "7",
           "8"
         ],
-        "description": "in the shape of hop cones from Valrhona Dulcey chocolate, chocolate soil and sour cherry sauce",
-        "price": "209 CZK",
-        "notes": "Artisanal hop-cone shaped pastry with caramelized blond Valrhona Dulcey chocolate.",
+        "description": "in the shape of hop cones made from Valrhona Dulcey chocolate, chocolate soil, sour cherry sauce",
+        "notes": "Signature dessert sculpted as hop cones in caramelized blonde chocolate over edible soil and tart cherry coulis.",
         "questions": [
           {
-            "id": "dortik-ganache-sisky-ing-1",
+            "id": "dortiky-ganache-ing-1",
             "question": "Which ingredient is part of Ganache cakes?",
-            "correctAnswer": "In the shape of hop cones from Valrhona Dulcey chocolate",
+            "correctAnswer": "In the shape of hop cones made from Valrhona Dulcey chocolate",
             "distractors": [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Ganache cakes, this component is present: In the shape of hop cones from Valrhona Dulcey chocolate. Full recipe ingredients: in the shape of hop cones from Valrhona Dulcey chocolate, chocolate soil and sour cherry sauce."
+            "explanation": "In Ganache cakes, this component is present: In the shape of hop cones made from Valrhona Dulcey chocolate. Full recipe ingredients: in the shape of hop cones made from Valrhona Dulcey chocolate, chocolate soil, sour cherry sauce."
           },
           {
-            "id": "dortik-ganache-sisky-ing-2",
-            "question": "Which sauce, dressing, or reduction accompanies Ganache cakes?",
-            "correctAnswer": "Chocolate soil and sour cherry sauce",
+            "id": "dortiky-ganache-ing-2",
+            "question": "Which bread, side, or crispy garnish accompanies Ganache cakes?",
+            "correctAnswer": "Chocolate soil",
             "distractors": [
-              "Apple BBQ sauce",
-              "Lovage mayonnaise"
+              "Duck breast",
+              "Deboned trout"
             ],
-            "explanation": "In Ganache cakes, this component is present: Chocolate soil and sour cherry sauce. Full recipe ingredients: in the shape of hop cones from Valrhona Dulcey chocolate, chocolate soil and sour cherry sauce."
+            "explanation": "In Ganache cakes, this component is present: Chocolate soil. Full recipe ingredients: in the shape of hop cones made from Valrhona Dulcey chocolate, chocolate soil, sour cherry sauce."
           },
           {
-            "id": "dortik-ganache-sisky-allergen-1",
+            "id": "dortiky-ganache-ing-3",
+            "question": "Which sauce, dressing, or glaze accompanies Ganache cakes?",
+            "correctAnswer": "Sour cherry sauce",
+            "distractors": [
+              "Spicy smoked mayonnaise",
+              "Cognac sauce"
+            ],
+            "explanation": "In Ganache cakes, this component is present: Sour cherry sauce. Full recipe ingredients: in the shape of hop cones made from Valrhona Dulcey chocolate, chocolate soil, sour cherry sauce."
+          },
+          {
+            "id": "dortiky-ganache-allergen-1",
             "question": "Which of the following allergens is present in Ganache cakes?",
             "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
             "distractors": [
@@ -3318,7 +3474,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "explanation": "Ganache cakes contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Tree nuts and products thereof."
           },
           {
-            "id": "dortik-ganache-sisky-allergen-3",
+            "id": "dortiky-ganache-allergen-3",
             "question": "Which of the following allergens is present in Ganache cakes?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
@@ -3328,7 +3484,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "explanation": "Ganache cakes contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Tree nuts and products thereof."
           },
           {
-            "id": "dortik-ganache-sisky-allergen-7",
+            "id": "dortiky-ganache-allergen-7",
             "question": "Which of the following allergens is present in Ganache cakes?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
@@ -3338,7 +3494,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "explanation": "Ganache cakes contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Tree nuts and products thereof."
           },
           {
-            "id": "dortik-ganache-sisky-allergen-8",
+            "id": "dortiky-ganache-allergen-8",
             "question": "Which of the following allergens is present in Ganache cakes?",
             "correctAnswer": "Allergen No. 8 – Tree nuts and products thereof",
             "distractors": [
@@ -3351,129 +3507,149 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       },
       {
         "id": "karamelovy-trhanec",
-        "name": "Caramel Kaiserschmarrn",
+        "name": "Caramel shred pancake",
+        "price": "169 CZK",
         "allergens": [
           "1",
           "3",
           "7"
         ],
-        "description": "with roasted plums, eggnog ice cream",
-        "price": "169 CZK",
-        "notes": "Fluffy caramelized shredded pancake served with spiced plums and egg liqueur ice cream.",
+        "description": "with salted caramel, crunchy praline, baked plums, eggnog ice cream",
+        "notes": "Fluffy caramelized Kaiserschmarrn accompanied by spiced plums and rich eggnog ice cream.",
         "questions": [
           {
             "id": "karamelovy-trhanec-ing-1",
-            "question": "Which ingredient is part of Caramel Kaiserschmarrn?",
-            "correctAnswer": "With roasted plums",
+            "question": "Which ingredient is part of Caramel shred pancake?",
+            "correctAnswer": "Salted caramel",
             "distractors": [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Caramel Kaiserschmarrn, this component is present: With roasted plums. Full recipe ingredients: with roasted plums, eggnog ice cream."
+            "explanation": "In Caramel shred pancake, this component is present: Salted caramel. Full recipe ingredients: with salted caramel, crunchy praline, baked plums, eggnog ice cream."
           },
           {
             "id": "karamelovy-trhanec-ing-2",
-            "question": "Which ingredient is part of Caramel Kaiserschmarrn?",
-            "correctAnswer": "Eggnog ice cream",
+            "question": "Which ingredient is part of Caramel shred pancake?",
+            "correctAnswer": "Crunchy praline",
             "distractors": [
               "Duck breast",
               "Deboned trout"
             ],
-            "explanation": "In Caramel Kaiserschmarrn, this component is present: Eggnog ice cream. Full recipe ingredients: with roasted plums, eggnog ice cream."
+            "explanation": "In Caramel shred pancake, this component is present: Crunchy praline. Full recipe ingredients: with salted caramel, crunchy praline, baked plums, eggnog ice cream."
+          },
+          {
+            "id": "karamelovy-trhanec-ing-3",
+            "question": "Which vegetable, fruit, or mushroom component is included in Caramel shred pancake?",
+            "correctAnswer": "Baked plums",
+            "distractors": [
+              "Beef tenderloin",
+              "Duroc pork belly"
+            ],
+            "explanation": "In Caramel shred pancake, this component is present: Baked plums. Full recipe ingredients: with salted caramel, crunchy praline, baked plums, eggnog ice cream."
+          },
+          {
+            "id": "karamelovy-trhanec-ing-4",
+            "question": "Which ingredient is part of Caramel shred pancake?",
+            "correctAnswer": "Eggnog ice cream",
+            "distractors": [
+              "Venison saddle",
+              "Lamb chop"
+            ],
+            "explanation": "In Caramel shred pancake, this component is present: Eggnog ice cream. Full recipe ingredients: with salted caramel, crunchy praline, baked plums, eggnog ice cream."
           },
           {
             "id": "karamelovy-trhanec-allergen-1",
-            "question": "Which of the following allergens is present in Caramel Kaiserschmarrn?",
+            "question": "Which of the following allergens is present in Caramel shred pancake?",
             "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
             "distractors": [
               "Allergen No. 4 – Fish and products thereof",
               "Allergen No. 10 – Mustard and products thereof"
             ],
-            "explanation": "Caramel Kaiserschmarrn contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Caramel shred pancake contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
           },
           {
             "id": "karamelovy-trhanec-allergen-3",
-            "question": "Which of the following allergens is present in Caramel Kaiserschmarrn?",
+            "question": "Which of the following allergens is present in Caramel shred pancake?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
               "Allergen No. 6 – Soybeans and products thereof",
               "Allergen No. 12 – Sulphur dioxide and sulphites"
             ],
-            "explanation": "Caramel Kaiserschmarrn contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Caramel shred pancake contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
           },
           {
             "id": "karamelovy-trhanec-allergen-7",
-            "question": "Which of the following allergens is present in Caramel Kaiserschmarrn?",
+            "question": "Which of the following allergens is present in Caramel shred pancake?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 11 – Sesame seeds and products thereof",
               "Allergen No. 4 – Fish and products thereof"
             ],
-            "explanation": "Caramel Kaiserschmarrn contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Caramel shred pancake contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
           }
         ]
       },
       {
         "id": "pivni-zmrzlina",
-        "name": "Our beer ice cream",
+        "name": "Beer ice cream",
+        "price": "139 CZK",
         "allergens": [
           "1",
           "3",
           "7"
         ],
         "description": "with malt crumble, whipped cream",
-        "price": "139 CZK",
-        "notes": "Unique house-made ice cream made with dark lager and malted barley crumble.",
+        "notes": "Unique artisanal ice cream made with Fuze craft beer, toasted malt crunch, and fresh whipped cream.",
         "questions": [
           {
             "id": "pivni-zmrzlina-ing-1",
-            "question": "Which ingredient is part of Our beer ice cream?",
-            "correctAnswer": "With malt crumble",
+            "question": "Which bread, side, or crispy garnish accompanies Beer ice cream?",
+            "correctAnswer": "Malt crumble",
             "distractors": [
-              "Pork tenderloin",
-              "Veal leg"
+              "Butter brioche",
+              "Sourdough bread"
             ],
-            "explanation": "In Our beer ice cream, this component is present: With malt crumble. Full recipe ingredients: with malt crumble, whipped cream."
+            "explanation": "In Beer ice cream, this component is present: Malt crumble. Full recipe ingredients: with malt crumble, whipped cream."
           },
           {
             "id": "pivni-zmrzlina-ing-2",
-            "question": "Which ingredient is part of Our beer ice cream?",
+            "question": "Which ingredient is part of Beer ice cream?",
             "correctAnswer": "Whipped cream",
             "distractors": [
               "Duck breast",
               "Deboned trout"
             ],
-            "explanation": "In Our beer ice cream, this component is present: Whipped cream. Full recipe ingredients: with malt crumble, whipped cream."
+            "explanation": "In Beer ice cream, this component is present: Whipped cream. Full recipe ingredients: with malt crumble, whipped cream."
           },
           {
             "id": "pivni-zmrzlina-allergen-1",
-            "question": "Which of the following allergens is present in Our beer ice cream?",
+            "question": "Which of the following allergens is present in Beer ice cream?",
             "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
             "distractors": [
               "Allergen No. 4 – Fish and products thereof",
               "Allergen No. 10 – Mustard and products thereof"
             ],
-            "explanation": "Our beer ice cream contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Beer ice cream contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
           },
           {
             "id": "pivni-zmrzlina-allergen-3",
-            "question": "Which of the following allergens is present in Our beer ice cream?",
+            "question": "Which of the following allergens is present in Beer ice cream?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
               "Allergen No. 6 – Soybeans and products thereof",
               "Allergen No. 12 – Sulphur dioxide and sulphites"
             ],
-            "explanation": "Our beer ice cream contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Beer ice cream contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
           },
           {
             "id": "pivni-zmrzlina-allergen-7",
-            "question": "Which of the following allergens is present in Our beer ice cream?",
+            "question": "Which of the following allergens is present in Beer ice cream?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 11 – Sesame seeds and products thereof",
               "Allergen No. 4 – Fish and products thereof"
             ],
-            "explanation": "Our beer ice cream contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
+            "explanation": "Beer ice cream contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
           }
         ]
       }
@@ -3481,26 +3657,26 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   },
   {
     "id": "pro-deti",
-    "name": "Kids menu",
-    "badge": "Kids menu",
-    "description": "Kid-approved meals made with premium ingredients in smaller portions",
+    "name": "For children",
+    "badge": "For children",
+    "description": "Kid-friendly portions and timeless favorites prepared with quality ingredients",
     "iconName": "Smile",
     "items": [
       {
-        "id": "kureci-rizek",
+        "id": "detsky-kureci-rizek",
         "name": "Chicken schnitzel",
         "weight": "100g",
+        "price": "125 CZK",
         "allergens": [
           "1",
           "3",
           "7"
         ],
-        "description": "mashed potatoes",
-        "price": "125 CZK",
-        "notes": "Tender golden fried chicken cutlet with creamy mashed potatoes.",
+        "description": "with mashed potatoes",
+        "notes": "Tender chicken breast schnitzel breaded and fried golden, served with creamy potato mash.",
         "questions": [
           {
-            "id": "kureci-rizek-vol",
+            "id": "detsky-kureci-rizek-vol",
             "question": "What is the portion weight of Chicken schnitzel?",
             "correctAnswer": "100g",
             "distractors": [
@@ -3510,17 +3686,17 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "explanation": "The portion size / weight of Chicken schnitzel is 100g."
           },
           {
-            "id": "kureci-rizek-ing-1",
+            "id": "detsky-kureci-rizek-ing-1",
             "question": "Which bread, side, or crispy garnish accompanies Chicken schnitzel?",
             "correctAnswer": "Mashed potatoes",
             "distractors": [
               "Butter brioche",
               "Sourdough bread"
             ],
-            "explanation": "In Chicken schnitzel, this component is present: Mashed potatoes. Full recipe ingredients: mashed potatoes."
+            "explanation": "In Chicken schnitzel, this component is present: Mashed potatoes. Full recipe ingredients: with mashed potatoes."
           },
           {
-            "id": "kureci-rizek-allergen-1",
+            "id": "detsky-kureci-rizek-allergen-1",
             "question": "Which of the following allergens is present in Chicken schnitzel?",
             "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
             "distractors": [
@@ -3530,7 +3706,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "explanation": "Chicken schnitzel contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
           },
           {
-            "id": "kureci-rizek-allergen-3",
+            "id": "detsky-kureci-rizek-allergen-3",
             "question": "Which of the following allergens is present in Chicken schnitzel?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
@@ -3540,7 +3716,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "explanation": "Chicken schnitzel contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose)."
           },
           {
-            "id": "kureci-rizek-allergen-7",
+            "id": "detsky-kureci-rizek-allergen-7",
             "question": "Which of the following allergens is present in Chicken schnitzel?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
@@ -3552,151 +3728,181 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         ]
       },
       {
-        "id": "cheeseburger-deti",
-        "name": "Cheeseburger",
+        "id": "cheeseburger",
+        "name": "Mini cheeseburger",
         "weight": "100g",
+        "price": "129 CZK",
         "allergens": [
           "1",
           "3",
           "7",
           "10"
         ],
-        "description": "with cheddar, lettuce, tomatoes and ketchup, homemade fries",
-        "price": "129 CZK",
-        "notes": "Kid-friendly beef burger with cheddar, fresh vegetables, ketchup, and crispy fries.",
+        "description": "with cheddar, lettuce, tomato, ketchup, homemade fries",
+        "notes": "Kid-friendly beef burger with melted mild cheddar, fresh veggies, and golden fries.",
         "questions": [
           {
-            "id": "cheeseburger-deti-vol",
-            "question": "What is the portion weight of Cheeseburger?",
+            "id": "cheeseburger-vol",
+            "question": "What is the portion weight of Mini cheeseburger?",
             "correctAnswer": "100g",
             "distractors": [
               "150 g",
               "200 g"
             ],
-            "explanation": "The portion size / weight of Cheeseburger is 100g."
+            "explanation": "The portion size / weight of Mini cheeseburger is 100g."
           },
           {
-            "id": "cheeseburger-deti-ing-1",
-            "question": "Which cheese or dairy ingredient is included in Cheeseburger?",
-            "correctAnswer": "With cheddar",
+            "id": "cheeseburger-ing-1",
+            "question": "Which cheese or dairy component is included in Mini cheeseburger?",
+            "correctAnswer": "Cheddar",
             "distractors": [
-              "Pork tenderloin",
-              "Veal leg"
+              "Choron sauce",
+              "Our salsa verde"
             ],
-            "explanation": "In Cheeseburger, this component is present: With cheddar. Full recipe ingredients: with cheddar, lettuce, tomatoes and ketchup, homemade fries."
+            "explanation": "In Mini cheeseburger, this component is present: Cheddar. Full recipe ingredients: with cheddar, lettuce, tomato, ketchup, homemade fries."
           },
           {
-            "id": "cheeseburger-deti-ing-2",
-            "question": "Which ingredient is part of Cheeseburger?",
+            "id": "cheeseburger-ing-2",
+            "question": "Which ingredient is part of Mini cheeseburger?",
             "correctAnswer": "Lettuce",
             "distractors": [
               "Duck breast",
               "Deboned trout"
             ],
-            "explanation": "In Cheeseburger, this component is present: Lettuce. Full recipe ingredients: with cheddar, lettuce, tomatoes and ketchup, homemade fries."
+            "explanation": "In Mini cheeseburger, this component is present: Lettuce. Full recipe ingredients: with cheddar, lettuce, tomato, ketchup, homemade fries."
           },
           {
-            "id": "cheeseburger-deti-ing-3",
-            "question": "Which sauce, dressing, or reduction accompanies Cheeseburger?",
-            "correctAnswer": "Tomatoes and ketchup",
+            "id": "cheeseburger-ing-3",
+            "question": "Which vegetable, fruit, or mushroom component is included in Mini cheeseburger?",
+            "correctAnswer": "Tomato",
             "distractors": [
-              "Beef tenderloin",
-              "Duroc pork belly"
+              "Grilled Padron peppers",
+              "Pickled chili peppers"
             ],
-            "explanation": "In Cheeseburger, this component is present: Tomatoes and ketchup. Full recipe ingredients: with cheddar, lettuce, tomatoes and ketchup, homemade fries."
+            "explanation": "In Mini cheeseburger, this component is present: Tomato. Full recipe ingredients: with cheddar, lettuce, tomato, ketchup, homemade fries."
           },
           {
-            "id": "cheeseburger-deti-ing-4",
-            "question": "Which bread, side, or crispy garnish accompanies Cheeseburger?",
+            "id": "cheeseburger-ing-4",
+            "question": "Which sauce, dressing, or glaze accompanies Mini cheeseburger?",
+            "correctAnswer": "Ketchup",
+            "distractors": [
+              "Venison saddle",
+              "Lamb chop"
+            ],
+            "explanation": "In Mini cheeseburger, this component is present: Ketchup. Full recipe ingredients: with cheddar, lettuce, tomato, ketchup, homemade fries."
+          },
+          {
+            "id": "cheeseburger-ing-5",
+            "question": "Which bread, side, or crispy garnish accompanies Mini cheeseburger?",
             "correctAnswer": "Homemade fries",
             "distractors": [
-              "Beer biscuit",
-              "Crispy pork cracklings"
+              "Toasted sourdough on beef lard",
+              "Butter brioche"
             ],
-            "explanation": "In Cheeseburger, this component is present: Homemade fries. Full recipe ingredients: with cheddar, lettuce, tomatoes and ketchup, homemade fries."
+            "explanation": "In Mini cheeseburger, this component is present: Homemade fries. Full recipe ingredients: with cheddar, lettuce, tomato, ketchup, homemade fries."
           },
           {
-            "id": "cheeseburger-deti-allergen-1",
-            "question": "Which of the following allergens is present in Cheeseburger?",
+            "id": "cheeseburger-allergen-1",
+            "question": "Which of the following allergens is present in Mini cheeseburger?",
             "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
             "distractors": [
               "Allergen No. 4 – Fish and products thereof",
               "Allergen No. 11 – Sesame seeds and products thereof"
             ],
-            "explanation": "Cheeseburger contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Mini cheeseburger contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
-            "id": "cheeseburger-deti-allergen-3",
-            "question": "Which of the following allergens is present in Cheeseburger?",
+            "id": "cheeseburger-allergen-3",
+            "question": "Which of the following allergens is present in Mini cheeseburger?",
             "correctAnswer": "Allergen No. 3 – Eggs and products thereof",
             "distractors": [
               "Allergen No. 6 – Soybeans and products thereof",
               "Allergen No. 13 – Lupin and products thereof"
             ],
-            "explanation": "Cheeseburger contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Mini cheeseburger contains Allergen No. 3 – Eggs and products thereof (eggs, egg yolk, mayonnaise, pasta). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
-            "id": "cheeseburger-deti-allergen-7",
-            "question": "Which of the following allergens is present in Cheeseburger?",
+            "id": "cheeseburger-allergen-7",
+            "question": "Which of the following allergens is present in Mini cheeseburger?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 12 – Sulphur dioxide and sulphites",
               "Allergen No. 5 – Peanuts and products thereof"
             ],
-            "explanation": "Cheeseburger contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Mini cheeseburger contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           },
           {
-            "id": "cheeseburger-deti-allergen-10",
-            "question": "Which of the following allergens is present in Cheeseburger?",
+            "id": "cheeseburger-allergen-10",
+            "question": "Which of the following allergens is present in Mini cheeseburger?",
             "correctAnswer": "Allergen No. 10 – Mustard and products thereof",
             "distractors": [
               "Allergen No. 2 – Crustaceans and products thereof",
               "Allergen No. 9 – Celery and products thereof"
             ],
-            "explanation": "Cheeseburger contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
+            "explanation": "Mini cheeseburger contains Allergen No. 10 – Mustard and products thereof (mustard seeds, dijon mustard, vinaigrette). All allergens present in this item: Cereals containing gluten, Eggs and products thereof, Milk and products thereof (including lactose), Mustard and products thereof."
           }
         ]
       },
       {
         "id": "krupicova-kase",
-        "name": "Semolina pudding",
+        "name": "Semolina porridge",
+        "price": "119 CZK",
         "allergens": [
           "1",
           "7"
         ],
-        "description": "from foam espuma with cocoa and butter",
-        "price": "119 CZK",
-        "notes": "Warm light semolina porridge served from an espuma siphon with butter and cocoa.",
+        "description": "made from espuma with cocoa and butter, fruit compote",
+        "notes": "Light and airy semolina froth dusted with premium dark cocoa and golden melted butter.",
         "questions": [
           {
             "id": "krupicova-kase-ing-1",
-            "question": "Which cheese or dairy ingredient is included in Semolina pudding?",
-            "correctAnswer": "From foam espuma with cocoa and butter",
+            "question": "Which ingredient is part of Semolina porridge?",
+            "correctAnswer": "Made from espuma with cocoa",
             "distractors": [
-              "Choron sauce",
-              "Our salsa verde"
+              "Pork tenderloin",
+              "Veal leg"
             ],
-            "explanation": "In Semolina pudding, this component is present: From foam espuma with cocoa and butter. Full recipe ingredients: from foam espuma with cocoa and butter."
+            "explanation": "In Semolina porridge, this component is present: Made from espuma with cocoa. Full recipe ingredients: made from espuma with cocoa and butter, fruit compote."
+          },
+          {
+            "id": "krupicova-kase-ing-2",
+            "question": "Which cheese or dairy component is included in Semolina porridge?",
+            "correctAnswer": "Butter",
+            "distractors": [
+              "Sour cherry sauce",
+              "Apple BBQ glaze"
+            ],
+            "explanation": "In Semolina porridge, this component is present: Butter. Full recipe ingredients: made from espuma with cocoa and butter, fruit compote."
+          },
+          {
+            "id": "krupicova-kase-ing-3",
+            "question": "Which ingredient is part of Semolina porridge?",
+            "correctAnswer": "Fruit compote",
+            "distractors": [
+              "Beef tenderloin",
+              "Duroc pork belly"
+            ],
+            "explanation": "In Semolina porridge, this component is present: Fruit compote. Full recipe ingredients: made from espuma with cocoa and butter, fruit compote."
           },
           {
             "id": "krupicova-kase-allergen-1",
-            "question": "Which of the following allergens is present in Semolina pudding?",
+            "question": "Which of the following allergens is present in Semolina porridge?",
             "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
             "distractors": [
               "Allergen No. 3 – Eggs and products thereof",
               "Allergen No. 9 – Celery and products thereof"
             ],
-            "explanation": "Semolina pudding contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Milk and products thereof (including lactose)."
+            "explanation": "Semolina porridge contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten, Milk and products thereof (including lactose)."
           },
           {
             "id": "krupicova-kase-allergen-7",
-            "question": "Which of the following allergens is present in Semolina pudding?",
+            "question": "Which of the following allergens is present in Semolina porridge?",
             "correctAnswer": "Allergen No. 7 – Milk and products thereof (including lactose)",
             "distractors": [
               "Allergen No. 10 – Mustard and products thereof",
               "Allergen No. 2 – Crustaceans and products thereof"
             ],
-            "explanation": "Semolina pudding contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Milk and products thereof (including lactose)."
+            "explanation": "Semolina porridge contains Allergen No. 7 – Milk and products thereof (including lactose) (butter, cheese, cream, curd, milk foam). All allergens present in this item: Cereals containing gluten, Milk and products thereof (including lactose)."
           }
         ]
       }
@@ -3704,17 +3910,19 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   },
   {
     "id": "pivo-na-cepu",
-    "name": "beer on tap",
+    "name": "Beer on tap",
     "badge": "Beer on tap",
-    "description": "Craft beers from our FUZE brewery and guest specialties poured with fine foam",
+    "description": "Fresh tank Pilsner Urquell, Kozel, and rotating craft draft beers",
     "iconName": "Beer",
     "items": [
       {
         "id": "transfuze-12",
         "name": "TransFUZE 12",
-        "weight": "0,3l/0,5l",
+        "weight": "0.3l / 0.5l",
         "price": "59/69 CZK",
-        "allergens": [],
+        "allergens": [
+          "1"
+        ],
         "description": "Our traditional light lager, full-bodied with a fresh taste and balanced bitterness, unpasteurized, unfiltered",
         "notes": "Our traditional light lager, full-bodied with a fresh taste and balanced bitterness, unpasteurized, unfiltered",
         "questions": [
@@ -3793,9 +4001,11 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "disfuze-10",
         "name": "DisFuze 10",
-        "weight": "0,3l/0,5l",
+        "weight": "0.3l / 0.5l",
         "price": "59/69 CZK",
-        "allergens": [],
+        "allergens": [
+          "1"
+        ],
         "description": "Light draft beer, Abv 3.5% Czech classic, honest \"desítka,\" very drinkable refreshing beer with higher bitterness.",
         "notes": "Light draft beer, Abv 3.5% Czech classic, honest \"desítka,\" very drinkable refreshing beer with higher bitterness.",
         "questions": [
@@ -3894,9 +4104,11 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "infuze-ipa-12",
         "name": "InFUZE IPA 12",
-        "weight": "0,4l",
+        "weight": "0.4l",
         "price": "85 CZK",
-        "allergens": [],
+        "allergens": [
+          "1"
+        ],
         "description": "style: Session IPA, 12-degree beer, 4.9% ABV top-fermented beer, light and refreshing, unpasteurized, unfiltered with citrus aroma, cold-hopped (dry hopping)",
         "notes": "style: Session IPA, 12-degree beer, 4.9% ABV top-fermented beer, light and refreshing, unpasteurized, unfiltered with citrus aroma, cold-hopped (dry hopping)",
         "questions": [
@@ -4005,9 +4217,11 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "fuzenac-13",
         "name": "FUZEnáč 13 semi-dark",
-        "weight": "0,3l/0,5l",
+        "weight": "0.3l / 0.5l",
         "price": "69/78 CZK",
-        "allergens": [],
+        "allergens": [
+          "1"
+        ],
         "description": "Our bottom-fermented beer, amber color with a distinct smoky aroma, full malt smoked flavor, unpasteurized, unfiltered",
         "notes": "Our bottom-fermented beer, amber color with a distinct smoky aroma, full malt smoked flavor, unpasteurized, unfiltered",
         "questions": [
@@ -4086,9 +4300,11 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "kasteel-rouge-18",
         "name": "Kasteel Rouge 18",
-        "weight": "0,25l",
+        "weight": "0.25l",
         "price": "118 CZK",
-        "allergens": [],
+        "allergens": [
+          "1"
+        ],
         "description": "Top-fermented, 8% dark beer aged 6 months on cherries, from Belgian brewery Van Honsebrouck, rich cherry flavor and aroma",
         "notes": "Top-fermented, 8% dark beer aged 6 months on cherries, from Belgian brewery Van Honsebrouck, rich cherry flavor and aroma",
         "questions": [
@@ -4157,9 +4373,11 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "zichovec-passion-fruit",
         "name": "Zichovec Passion Fruit 12",
-        "weight": "0,4l",
+        "weight": "0.4l",
         "price": "94 CZK",
-        "allergens": [],
+        "allergens": [
+          "1"
+        ],
         "description": "Sour ale, intensely sour with a strong passion fruit flavor and aroma",
         "notes": "Sour ale, intensely sour with a strong passion fruit flavor and aroma",
         "questions": [
@@ -4208,9 +4426,11 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "degustace-piv",
         "name": "Beer tasting",
-        "weight": "6x 0,15l",
+        "weight": "6x 0.15l",
         "price": "285 CZK",
-        "allergens": [],
+        "allergens": [
+          "1"
+        ],
         "description": "6 samples of the above beers on a stylish board",
         "notes": "6 samples of the above beers on a stylish board",
         "questions": [
@@ -4247,106 +4467,38 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         ]
       },
       {
-        "id": "fuzero-nealko",
         "name": "FUZEro",
-        "weight": "0,4l",
+        "weight": "0.4l",
         "price": "69 CZK",
-        "allergens": [],
-        "description": "our IPL, non-alcoholic lager hopped with American and cold New Zealand hops, with a delicate malt flavor, higher bitterness in the finish, and a beautiful, fresh hop aroma, unpasteurized, unfiltered",
-        "notes": "our IPL, non-alcoholic lager hopped with American and cold New Zealand hops, with a delicate malt flavor, higher bitterness in the finish, and a beautiful, fresh hop aroma, unpasteurized, unfiltered",
+        "allergens": [
+          "1"
+        ],
+        "description": "our full-flavored non-alcoholic beer with delicate hop aroma",
+        "notes": "Refreshing zero-alcohol craft brew on draft.",
+        "id": "fuzero",
         "questions": [
           {
-            "id": "fuzero-nealko-vol",
-            "question": "What is the serving volume / measure of FUZEro?",
-            "correctAnswer": "0,4l",
+            "id": "fuzero-vol",
+            "question": "What is the serving measure of FUZEro?",
+            "correctAnswer": "0.4l",
             "distractors": [
-              "0.5 l",
-              "0.3 l"
+              "0.3 L",
+              "0.5 L"
             ],
-            "explanation": "The serving measure of FUZEro is 0,4l."
+            "explanation": "The portion size / weight of FUZEro is 0.4l."
           },
           {
-            "id": "fuzero-nealko-ing-1",
+            "id": "fuzero-ing-1",
             "question": "Which ingredient is part of FUZEro?",
-            "correctAnswer": "Our IPL",
+            "correctAnswer": "Our full-flavored non-alcoholic beer with delicate hop aroma",
             "distractors": [
-              "Munich malt",
-              "Saaz semi-early red hop"
+              "Pork tenderloin",
+              "Veal leg"
             ],
-            "explanation": "In FUZEro, this component is present: Our IPL. Full recipe ingredients: our IPL, non-alcoholic lager hopped with American and cold New Zealand hops, with a delicate malt flavor, higher bitterness in the finish, and a beautiful, fresh hop aroma, unpasteurized, unfiltered."
+            "explanation": "In FUZEro, this component is present: Our full-flavored non-alcoholic beer with delicate hop aroma. Full recipe ingredients: our full-flavored non-alcoholic beer with delicate hop aroma."
           },
           {
-            "id": "fuzero-nealko-ing-2",
-            "question": "Which brewing raw material or trait characterizes FUZEro?",
-            "correctAnswer": "Non-alcoholic lager hopped with American and cold New Zealand hops",
-            "distractors": [
-              "Citra hops",
-              "Mandarina Bavaria hops"
-            ],
-            "explanation": "In FUZEro, this component is present: Non-alcoholic lager hopped with American and cold New Zealand hops. Full recipe ingredients: our IPL, non-alcoholic lager hopped with American and cold New Zealand hops, with a delicate malt flavor, higher bitterness in the finish, and a beautiful, fresh hop aroma, unpasteurized, unfiltered."
-          },
-          {
-            "id": "fuzero-nealko-ing-3",
-            "question": "Which brewing raw material or trait characterizes FUZEro?",
-            "correctAnswer": "With a delicate malt flavor",
-            "distractors": [
-              "Bottom-fermenting lager yeast",
-              "Top-fermenting ale yeast"
-            ],
-            "explanation": "In FUZEro, this component is present: With a delicate malt flavor. Full recipe ingredients: our IPL, non-alcoholic lager hopped with American and cold New Zealand hops, with a delicate malt flavor, higher bitterness in the finish, and a beautiful, fresh hop aroma, unpasteurized, unfiltered."
-          },
-          {
-            "id": "fuzero-nealko-ing-4",
-            "question": "Which ingredient is part of FUZEro?",
-            "correctAnswer": "Higher bitterness in the finish",
-            "distractors": [
-              "Wheat malt",
-              "Roasted caramel malt"
-            ],
-            "explanation": "In FUZEro, this component is present: Higher bitterness in the finish. Full recipe ingredients: our IPL, non-alcoholic lager hopped with American and cold New Zealand hops, with a delicate malt flavor, higher bitterness in the finish, and a beautiful, fresh hop aroma, unpasteurized, unfiltered."
-          },
-          {
-            "id": "fuzero-nealko-ing-5",
-            "question": "Which ingredient is part of FUZEro?",
-            "correctAnswer": "Beautiful",
-            "distractors": [
-              "Sladek hops",
-              "Pilsner barley malt"
-            ],
-            "explanation": "In FUZEro, this component is present: Beautiful. Full recipe ingredients: our IPL, non-alcoholic lager hopped with American and cold New Zealand hops, with a delicate malt flavor, higher bitterness in the finish, and a beautiful, fresh hop aroma, unpasteurized, unfiltered."
-          },
-          {
-            "id": "fuzero-nealko-ing-6",
-            "question": "Which brewing raw material or trait characterizes FUZEro?",
-            "correctAnswer": "Fresh hop aroma",
-            "distractors": [
-              "Munich malt",
-              "Saaz semi-early red hop"
-            ],
-            "explanation": "In FUZEro, this component is present: Fresh hop aroma. Full recipe ingredients: our IPL, non-alcoholic lager hopped with American and cold New Zealand hops, with a delicate malt flavor, higher bitterness in the finish, and a beautiful, fresh hop aroma, unpasteurized, unfiltered."
-          },
-          {
-            "id": "fuzero-nealko-ing-7",
-            "question": "Which ingredient is part of FUZEro?",
-            "correctAnswer": "Unpasteurized",
-            "distractors": [
-              "Citra hops",
-              "Mandarina Bavaria hops"
-            ],
-            "explanation": "In FUZEro, this component is present: Unpasteurized. Full recipe ingredients: our IPL, non-alcoholic lager hopped with American and cold New Zealand hops, with a delicate malt flavor, higher bitterness in the finish, and a beautiful, fresh hop aroma, unpasteurized, unfiltered."
-          },
-          {
-            "id": "fuzero-nealko-ing-8",
-            "question": "Which ingredient is part of FUZEro?",
-            "correctAnswer": "Unfiltered",
-            "distractors": [
-              "Bottom-fermenting lager yeast",
-              "Top-fermenting ale yeast"
-            ],
-            "explanation": "In FUZEro, this component is present: Unfiltered. Full recipe ingredients: our IPL, non-alcoholic lager hopped with American and cold New Zealand hops, with a delicate malt flavor, higher bitterness in the finish, and a beautiful, fresh hop aroma, unpasteurized, unfiltered."
-          },
-          {
-            "id": "fuzero-nealko-allergen-1",
+            "id": "fuzero-allergen-1",
             "question": "Which of the following allergens is present in FUZEro?",
             "correctAnswer": "Allergen No. 1 – Cereals containing gluten",
             "distractors": [
@@ -4360,9 +4512,11 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "maisels-weisse",
         "name": "Maisel`s Weisse Non-Alcoholic /bottled/",
-        "weight": "0,33l",
+        "weight": "0.33l",
         "price": "79 CZK",
-        "allergens": [],
+        "allergens": [
+          "1"
+        ],
         "description": "bavarian Weizenbier, a non-alcoholic wheat beer",
         "notes": "bavarian Weizenbier, a non-alcoholic wheat beer",
         "questions": [
@@ -4417,13 +4571,24 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "explanation": "Maisel`s Weisse Non-Alcoholic /bottled/ contains Allergen No. 1 – Cereals containing gluten (sourdough bread, flour, breadcrumbs, barley malt). All allergens present in this item: Cereals containing gluten."
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "id": "cidery",
+    "name": "Ciders",
+    "badge": "Ciders",
+    "description": "Artisanal fermented apple and fruit ciders",
+    "iconName": "Sparkles",
+    "items": [
       {
         "id": "opre-cider",
         "name": "Opre` Cider",
-        "weight": "0,33l",
+        "weight": "0.33l",
         "price": "89 CZK",
-        "allergens": [],
+        "allergens": [
+          "12"
+        ],
         "description": "Craft apple cider from Slovak family farm",
         "notes": "Craft apple cider from Slovak family farm",
         "questions": [
@@ -4462,9 +4627,11 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "opre-sour-cherry",
         "name": "Opre` Sour Cherry",
-        "weight": "0,33l",
+        "weight": "0.33l",
         "price": "96 CZK",
-        "allergens": [],
+        "allergens": [
+          "12"
+        ],
         "description": "Combines apple cider with refreshing cherry juice",
         "notes": "Combines apple cider with refreshing cherry juice",
         "questions": [
@@ -4503,199 +4670,16 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
     ]
   },
   {
-    "id": "kombucha",
-    "name": "ciders & kombucha",
-    "badge": "Ciders & Kombucha",
-    "description": "Naturally fermented beverages, Slovak Opre` ciders, and craft kombucha",
-    "iconName": "Sparkles",
-    "items": [
-      {
-        "id": "loklok-original",
-        "name": "Loklok Kombucha Original",
-        "weight": "0,33l",
-        "price": "95 CZK",
-        "allergens": [],
-        "description": "Natural fermented green and black tea with probiotics",
-        "notes": "Natural fermented green and black tea with probiotics",
-        "questions": [
-          {
-            "id": "loklok-original-vol",
-            "question": "What is the serving volume / measure of Loklok Kombucha Original?",
-            "correctAnswer": "0,33l",
-            "distractors": [
-              "0.5 l",
-              "0.25 l"
-            ],
-            "explanation": "The serving measure of Loklok Kombucha Original is 0,33l."
-          },
-          {
-            "id": "loklok-original-ing-1",
-            "question": "Which brewing raw material or trait characterizes Loklok Kombucha Original?",
-            "correctAnswer": "Natural fermented green and black tea with probiotics",
-            "distractors": [
-              "Pork tenderloin",
-              "Veal leg"
-            ],
-            "explanation": "In Loklok Kombucha Original, this component is present: Natural fermented green and black tea with probiotics. Full recipe ingredients: Natural fermented green and black tea with probiotics."
-          },
-          {
-            "id": "loklok-original-ing-2",
-            "question": "Which brewing raw material or trait characterizes Loklok Kombucha Original?",
-            "correctAnswer": "Natural fermented green and black tea with probiotics",
-            "distractors": [
-              "Duck breast",
-              "Deboned trout"
-            ],
-            "explanation": "In Loklok Kombucha Original, this component is present: Natural fermented green and black tea with probiotics. Full recipe ingredients: Natural fermented green and black tea with probiotics."
-          },
-          {
-            "id": "loklok-original-ing-3",
-            "question": "Which brewing raw material or trait characterizes Loklok Kombucha Original?",
-            "correctAnswer": "Natural fermented green and black tea with probiotics",
-            "distractors": [
-              "Beef tenderloin",
-              "Duroc pork belly"
-            ],
-            "explanation": "In Loklok Kombucha Original, this component is present: Natural fermented green and black tea with probiotics. Full recipe ingredients: Natural fermented green and black tea with probiotics."
-          }
-        ]
-      },
-      {
-        "id": "loklok-zazvor",
-        "name": "Loklok Kombucha Ginger",
-        "weight": "0,33l",
-        "price": "95 CZK",
-        "allergens": [],
-        "description": "Fermented sparkling tea with cold-pressed fresh ginger",
-        "notes": "Fermented sparkling tea with cold-pressed fresh ginger",
-        "questions": [
-          {
-            "id": "loklok-zazvor-vol",
-            "question": "What is the serving volume / measure of Loklok Kombucha Ginger?",
-            "correctAnswer": "0,33l",
-            "distractors": [
-              "0.5 l",
-              "0.25 l"
-            ],
-            "explanation": "The serving measure of Loklok Kombucha Ginger is 0,33l."
-          },
-          {
-            "id": "loklok-zazvor-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Loklok Kombucha Ginger?",
-            "correctAnswer": "Fermented sparkling tea with cold-pressed fresh ginger",
-            "distractors": [
-              "Pork tenderloin",
-              "Veal leg"
-            ],
-            "explanation": "In Loklok Kombucha Ginger, this component is present: Fermented sparkling tea with cold-pressed fresh ginger. Full recipe ingredients: Fermented sparkling tea with cold-pressed fresh ginger."
-          },
-          {
-            "id": "loklok-zazvor-ing-2",
-            "question": "Which spirit or liqueur is a signature component of Loklok Kombucha Ginger?",
-            "correctAnswer": "Fermented sparkling tea with cold-pressed fresh ginger",
-            "distractors": [
-              "Duck breast",
-              "Deboned trout"
-            ],
-            "explanation": "In Loklok Kombucha Ginger, this component is present: Fermented sparkling tea with cold-pressed fresh ginger. Full recipe ingredients: Fermented sparkling tea with cold-pressed fresh ginger."
-          }
-        ]
-      },
-      {
-        "id": "loklok-malina",
-        "name": "Loklok Kombucha Raspberry",
-        "weight": "0,33l",
-        "price": "95 CZK",
-        "allergens": [],
-        "description": "Sparkling fermented tea infused with real raspberry purée",
-        "notes": "Sparkling fermented tea infused with real raspberry purée",
-        "questions": [
-          {
-            "id": "loklok-malina-vol",
-            "question": "What is the serving volume / measure of Loklok Kombucha Raspberry?",
-            "correctAnswer": "0,33l",
-            "distractors": [
-              "0.5 l",
-              "0.25 l"
-            ],
-            "explanation": "The serving measure of Loklok Kombucha Raspberry is 0,33l."
-          },
-          {
-            "id": "loklok-malina-ing-1",
-            "question": "Which brewing raw material or trait characterizes Loklok Kombucha Raspberry?",
-            "correctAnswer": "Sparkling fermented tea infused with real raspberry purée",
-            "distractors": [
-              "Pork tenderloin",
-              "Veal leg"
-            ],
-            "explanation": "In Loklok Kombucha Raspberry, this component is present: Sparkling fermented tea infused with real raspberry purée. Full recipe ingredients: Sparkling fermented tea infused with real raspberry purée."
-          },
-          {
-            "id": "loklok-malina-ing-2",
-            "question": "Which brewing raw material or trait characterizes Loklok Kombucha Raspberry?",
-            "correctAnswer": "Sparkling fermented tea infused with real raspberry purée",
-            "distractors": [
-              "Duck breast",
-              "Deboned trout"
-            ],
-            "explanation": "In Loklok Kombucha Raspberry, this component is present: Sparkling fermented tea infused with real raspberry purée. Full recipe ingredients: Sparkling fermented tea infused with real raspberry purée."
-          }
-        ]
-      },
-      {
-        "id": "jzt-kombucha",
-        "name": "JZT Kombucha Sencha & Assam",
-        "weight": "0,33l",
-        "price": "98 CZK",
-        "allergens": [],
-        "description": "Small-batch fermented Japanese Sencha and Indian Assam tea",
-        "notes": "Small-batch fermented Japanese Sencha and Indian Assam tea",
-        "questions": [
-          {
-            "id": "jzt-kombucha-vol",
-            "question": "What is the serving volume / measure of JZT Kombucha Sencha & Assam?",
-            "correctAnswer": "0,33l",
-            "distractors": [
-              "0.5 l",
-              "0.25 l"
-            ],
-            "explanation": "The serving measure of JZT Kombucha Sencha & Assam is 0,33l."
-          },
-          {
-            "id": "jzt-kombucha-ing-1",
-            "question": "Which brewing raw material or trait characterizes JZT Kombucha Sencha & Assam?",
-            "correctAnswer": "Small-batch fermented Japanese Sencha and Indian Assam tea",
-            "distractors": [
-              "Pork tenderloin",
-              "Veal leg"
-            ],
-            "explanation": "In JZT Kombucha Sencha & Assam, this component is present: Small-batch fermented Japanese Sencha and Indian Assam tea. Full recipe ingredients: Small-batch fermented Japanese Sencha and Indian Assam tea."
-          },
-          {
-            "id": "jzt-kombucha-ing-2",
-            "question": "Which brewing raw material or trait characterizes JZT Kombucha Sencha & Assam?",
-            "correctAnswer": "Small-batch fermented Japanese Sencha and Indian Assam tea",
-            "distractors": [
-              "Duck breast",
-              "Deboned trout"
-            ],
-            "explanation": "In JZT Kombucha Sencha & Assam, this component is present: Small-batch fermented Japanese Sencha and Indian Assam tea. Full recipe ingredients: Small-batch fermented Japanese Sencha and Indian Assam tea."
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "vody-a-mineralni-vody",
-    "name": "waters and mineral waters",
-    "badge": "Waters",
-    "description": "Pure spring, filtered, and naturally infused table waters",
+    "name": "Waters and mineral waters",
+    "badge": "Waters and mineral waters",
+    "description": "Still, sparkling, and natural mineral waters",
     "iconName": "GlassWater",
     "items": [
       {
         "id": "filtrovana-karafa",
         "name": "Filtered water in a carafe",
-        "weight": "0,75l",
+        "weight": "0.75l",
         "price": "89 CZK",
         "allergens": [],
         "description": "Still / Sparkling",
@@ -4724,40 +4708,50 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         ]
       },
       {
-        "id": "filtrovana-sklenice",
         "name": "Glass of filtered water",
-        "weight": "0,3l",
-        "price": "35 CZK",
+        "weight": "0.3l",
+        "price": "39 CZK",
         "allergens": [],
-        "description": "Still / Sparkling",
-        "notes": "Still / Sparkling",
+        "description": "pure filtered water, still or sparkling",
+        "notes": "Chilled micro-filtered fresh water.",
+        "id": "sklenice-filtrovane-vody",
         "questions": [
           {
-            "id": "filtrovana-sklenice-vol",
-            "question": "What is the serving volume / measure of Glass of filtered water?",
-            "correctAnswer": "0,3l",
+            "id": "sklenice-filtrovane-vody-vol",
+            "question": "What is the serving measure of Glass of filtered water?",
+            "correctAnswer": "0.3l",
             "distractors": [
-              "0.5 l",
-              "0.4 l"
+              "0.2 L",
+              "0.4 L"
             ],
-            "explanation": "The serving measure of Glass of filtered water is 0,3l."
+            "explanation": "The portion size / weight of Glass of filtered water is 0.3l."
           },
           {
-            "id": "filtrovana-sklenice-ing-1",
+            "id": "sklenice-filtrovane-vody-ing-1",
             "question": "Which ingredient is part of Glass of filtered water?",
-            "correctAnswer": "Still / Sparkling",
+            "correctAnswer": "Pure filtered water",
             "distractors": [
-              "Fresh grapefruit juice",
-              "Raspberry purée"
+              "Pork tenderloin",
+              "Veal leg"
             ],
-            "explanation": "In Glass of filtered water, this component is present: Still / Sparkling. Full recipe ingredients: Still / Sparkling."
+            "explanation": "In Glass of filtered water, this component is present: Pure filtered water. Full recipe ingredients: pure filtered water, still or sparkling."
+          },
+          {
+            "id": "sklenice-filtrovane-vody-ing-2",
+            "question": "Which ingredient is part of Glass of filtered water?",
+            "correctAnswer": "Still or sparkling",
+            "distractors": [
+              "Duck breast",
+              "Deboned trout"
+            ],
+            "explanation": "In Glass of filtered water, this component is present: Still or sparkling. Full recipe ingredients: pure filtered water, still or sparkling."
           }
         ]
       },
       {
         "id": "infuzovana-voda",
         "name": "Infused water in a carafe",
-        "weight": "0,75l",
+        "weight": "0.75l",
         "price": "99 CZK",
         "allergens": [],
         "description": "Citrus / Mint",
@@ -4798,7 +4792,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "mattoni-grand",
         "name": "Mattoni Grand still",
-        "weight": "0,33l",
+        "weight": "0.33l",
         "price": "45 CZK",
         "allergens": [],
         "description": "natural decarbonated mineral water",
@@ -4829,7 +4823,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "vratislavicka-kyselka",
         "name": "Vratislavická mineral water",
-        "weight": "0,75l",
+        "weight": "0.75l",
         "price": "119 CZK",
         "allergens": [],
         "description": "natural mineral water, medium mineralized with silicon content, naturally carbonated",
@@ -4881,15 +4875,15 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   },
   {
     "id": "nase-domaci-limonady",
-    "name": "our homemade lemonades",
-    "badge": "Homemade lemonades",
-    "description": "Freshly stirred lemonades made from real fruit purées, herbs, and spices",
+    "name": "Our homemade lemonades",
+    "badge": "Our homemade lemonades",
+    "description": "Handcrafted sodas made with fresh fruits, purees, and herbs",
     "iconName": "CupSoda",
     "items": [
       {
         "id": "grep-a-mango",
         "name": "Grapefruit and mango",
-        "weight": "0,4l",
+        "weight": "0.4l",
         "price": "84 CZK",
         "allergens": [],
         "description": "Fresh homemade grapefruit and mango lemonade",
@@ -4920,7 +4914,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "malina-a-bila-cokolada",
         "name": "Raspberry and white chocolate",
-        "weight": "0,4l",
+        "weight": "0.4l",
         "price": "84 CZK",
         "allergens": [],
         "description": "Fresh homemade raspberry and white chocolate lemonade",
@@ -4971,7 +4965,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "svestka-a-kardamom",
         "name": "Plum and cardamom",
-        "weight": "0,4l",
+        "weight": "0.4l",
         "price": "84 CZK",
         "allergens": [],
         "description": "Fresh homemade plum and cardamom lemonade",
@@ -5002,7 +4996,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "domaci-citronada",
         "name": "Homemade lemonade",
-        "weight": "0,4l",
+        "weight": "0.4l",
         "price": "84 CZK",
         "allergens": [],
         "description": "Classic homemade lemon and lime lemonade",
@@ -5053,7 +5047,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "nase-ledovy-caj",
         "name": "Our homemade iced tea",
-        "weight": "0,4l",
+        "weight": "0.4l",
         "price": "86 CZK",
         "allergens": [],
         "description": "Jasmine and peach",
@@ -5094,7 +5088,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "fresh-juice",
         "name": "Fresh juice",
-        "weight": "0,2l",
+        "weight": "0.2l",
         "price": "125 CZK",
         "allergens": [],
         "description": "Orange / Grapefruit",
@@ -5126,15 +5120,15 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   },
   {
     "id": "lahvove-limonady",
-    "name": "bottled lemonades",
+    "name": "Bottled lemonades",
     "badge": "Bottled lemonades",
-    "description": "Selection of premium mixers, tonics, and soft drinks",
+    "description": "Premium bottled tonics, sodas, and refreshing soft drinks",
     "iconName": "CupSoda",
     "items": [
       {
         "id": "coca-cola",
         "name": "Coca Cola / Coca Cola Zero",
-        "weight": "0,33l",
+        "weight": "0.33l",
         "price": "65 CZK",
         "allergens": [],
         "description": "Classic Coca Cola or zero sugar Coca Cola",
@@ -5175,7 +5169,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "thomas-henry-tonic",
         "name": "Thomas Henry Tonic",
-        "weight": "0,2l",
+        "weight": "0.2l",
         "price": "75 CZK",
         "allergens": [],
         "description": "Premium botanical tonic water",
@@ -5206,7 +5200,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "fever-tree-tonic",
         "name": "Fever-Tree Tonic",
-        "weight": "0,2l",
+        "weight": "0.2l",
         "price": "85 CZK",
         "allergens": [],
         "description": "Artisan tonic with natural quinine",
@@ -5237,7 +5231,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "fever-tree-ginger-beer",
         "name": "Fever-Tree Ginger Beer",
-        "weight": "0,2l",
+        "weight": "0.2l",
         "price": "85 CZK",
         "allergens": [],
         "description": "Fiery brewed ginger beer",
@@ -5268,7 +5262,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "red-bull",
         "name": "Red Bull",
-        "weight": "0,2l",
+        "weight": "0.2l",
         "price": "99 CZK",
         "allergens": [],
         "description": "can",
@@ -5300,9 +5294,9 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   },
   {
     "id": "kava-caj-a-horke-napoje",
-    "name": "coffee, tea and hot drinks",
-    "badge": "Coffee & Tea",
-    "description": "Freshly roasted specialty coffee and whole-leaf premium teas",
+    "name": "Coffee, tea and hot drinks",
+    "badge": "Coffee, tea and hot drinks",
+    "description": "Nordbeans specialty coffee, loose-leaf teas, and warming seasonal drinks",
     "iconName": "Coffee",
     "items": [
       {
@@ -5351,7 +5345,9 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "name": "Espresso macchiato",
         "weight": "9g",
         "price": "78 CZK",
-        "allergens": [],
+        "allergens": [
+          "7"
+        ],
         "description": "Espresso with milk foam (9g)",
         "notes": "Espresso macchiato",
         "questions": [
@@ -5382,7 +5378,9 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "name": "Cappuccino",
         "weight": "9g",
         "price": "85 CZK",
-        "allergens": [],
+        "allergens": [
+          "7"
+        ],
         "description": "Espresso, steamed milk, rich foam (9g)",
         "notes": "Cappuccino",
         "questions": [
@@ -5433,7 +5431,9 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "name": "Caffé latte",
         "weight": "9g",
         "price": "88 CZK",
-        "allergens": [],
+        "allergens": [
+          "7"
+        ],
         "description": "Espresso with steamed milk in a tall glass (9g)",
         "notes": "Caffé latte",
         "questions": [
@@ -5464,7 +5464,9 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "name": "Flat white",
         "weight": "18g",
         "price": "99 CZK",
-        "allergens": [],
+        "allergens": [
+          "7"
+        ],
         "description": "Double espresso with microfoam (18g)",
         "notes": "Flat white",
         "questions": [
@@ -5557,7 +5559,9 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "name": "Espresso with whipped cream",
         "weight": "9g",
         "price": "85 CZK",
-        "allergens": [],
+        "allergens": [
+          "7"
+        ],
         "description": "Espresso topped with fresh whipped cream (9g)",
         "notes": "Espresso with whipped cream",
         "questions": [
@@ -5668,9 +5672,11 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "opre-gingerbread-cider",
         "name": "Hot Gingerbread Cider",
-        "weight": "0,33l",
+        "weight": "0.33l",
         "price": "98 CZK",
-        "allergens": [],
+        "allergens": [
+          "12"
+        ],
         "description": "Spicy, with a scent of cloves and cinnamon",
         "notes": "Spicy, with a scent of cloves and cinnamon",
         "questions": [
@@ -5711,7 +5717,9 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "name": "Hot Chocolate",
         "weight": "",
         "price": "85 CZK",
-        "allergens": [],
+        "allergens": [
+          "7"
+        ],
         "description": "With fresh whipped cream",
         "notes": "With fresh whipped cream",
         "questions": [
@@ -5732,7 +5740,9 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "name": "Chai latte",
         "weight": "",
         "price": "99 CZK",
-        "allergens": [],
+        "allergens": [
+          "7"
+        ],
         "description": "Tea with a mixture of exotic spices, sugar, and hot milk",
         "notes": "Tea with a mixture of exotic spices, sugar, and hot milk",
         "questions": [
@@ -5771,9 +5781,11 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "svarene-vino",
         "name": "Mulled wine",
-        "weight": "0,15l",
+        "weight": "0.15l",
         "price": "85 CZK",
-        "allergens": [],
+        "allergens": [
+          "12"
+        ],
         "description": "Red / White, with spices and orange",
         "notes": "Red / White, with spices and orange",
         "questions": [
@@ -5813,15 +5825,151 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   },
   {
     "id": "vina-po-skle",
-    "name": "wines by the glass",
+    "name": "Wines by the glass",
     "badge": "Wines by the glass",
-    "description": "Handpicked Moravian and European wines served by the glass",
+    "description": "Carefully curated selection of Czech, Austrian, and world wines by the glass",
     "iconName": "Wine",
     "items": [
       {
+        "name": "Charmat de Vinselekt Pálava",
+        "weight": "0.1l",
+        "price": "115 CZK",
+        "allergens": [
+          "12"
+        ],
+        "description": "sparkling wine, Vinselekt Michlovský, Moravia",
+        "notes": "Aromatic sparkling wine by the glass.",
+        "id": "sklo-charmat-palava",
+        "questions": [
+          {
+            "id": "sklo-charmat-palava-vol",
+            "question": "What is the serving measure of Charmat de Vinselekt Pálava?",
+            "correctAnswer": "0.1l",
+            "distractors": [
+              "0.15 L",
+              "0.2 L"
+            ],
+            "explanation": "The portion size / weight of Charmat de Vinselekt Pálava is 0.1l."
+          },
+          {
+            "id": "sklo-charmat-palava-ing-1",
+            "question": "Which ingredient is part of Charmat de Vinselekt Pálava?",
+            "correctAnswer": "Sparkling wine",
+            "distractors": [
+              "Pork tenderloin",
+              "Veal leg"
+            ],
+            "explanation": "In Charmat de Vinselekt Pálava, this component is present: Sparkling wine. Full recipe ingredients: sparkling wine, Vinselekt Michlovský, Moravia."
+          },
+          {
+            "id": "sklo-charmat-palava-ing-2",
+            "question": "Which ingredient is part of Charmat de Vinselekt Pálava?",
+            "correctAnswer": "Vinselekt Michlovský",
+            "distractors": [
+              "Duck breast",
+              "Deboned trout"
+            ],
+            "explanation": "In Charmat de Vinselekt Pálava, this component is present: Vinselekt Michlovský. Full recipe ingredients: sparkling wine, Vinselekt Michlovský, Moravia."
+          },
+          {
+            "id": "sklo-charmat-palava-ing-3",
+            "question": "Which ingredient is part of Charmat de Vinselekt Pálava?",
+            "correctAnswer": "Moravia",
+            "distractors": [
+              "Beef tenderloin",
+              "Duroc pork belly"
+            ],
+            "explanation": "In Charmat de Vinselekt Pálava, this component is present: Moravia. Full recipe ingredients: sparkling wine, Vinselekt Michlovský, Moravia."
+          },
+          {
+            "id": "sklo-charmat-palava-allergen-12",
+            "question": "Which of the following allergens is present in Charmat de Vinselekt Pálava?",
+            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
+            "distractors": [
+              "Allergen No. 14 – Molluscs and products thereof",
+              "Allergen No. 5 – Peanuts and products thereof"
+            ],
+            "explanation": "Charmat de Vinselekt Pálava contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+          }
+        ]
+      },
+      {
+        "name": "Crémant de Vinselekt",
+        "weight": "0.1l",
+        "price": "135 CZK",
+        "allergens": [
+          "12"
+        ],
+        "description": "Pinot, Chardonnay, traditional method extra brut, Vinselekt Michlovský",
+        "notes": "Refined bottle-fermented traditional sparkler.",
+        "id": "sklo-cremant-vinselekt",
+        "questions": [
+          {
+            "id": "sklo-cremant-vinselekt-vol",
+            "question": "What is the serving measure of Crémant de Vinselekt?",
+            "correctAnswer": "0.1l",
+            "distractors": [
+              "0.15 L",
+              "0.2 L"
+            ],
+            "explanation": "The portion size / weight of Crémant de Vinselekt is 0.1l."
+          },
+          {
+            "id": "sklo-cremant-vinselekt-ing-1",
+            "question": "Which ingredient is part of Crémant de Vinselekt?",
+            "correctAnswer": "Pinot",
+            "distractors": [
+              "Pork tenderloin",
+              "Veal leg"
+            ],
+            "explanation": "In Crémant de Vinselekt, this component is present: Pinot. Full recipe ingredients: Pinot, Chardonnay, traditional method extra brut, Vinselekt Michlovský."
+          },
+          {
+            "id": "sklo-cremant-vinselekt-ing-2",
+            "question": "Which ingredient is part of Crémant de Vinselekt?",
+            "correctAnswer": "Chardonnay",
+            "distractors": [
+              "Duck breast",
+              "Deboned trout"
+            ],
+            "explanation": "In Crémant de Vinselekt, this component is present: Chardonnay. Full recipe ingredients: Pinot, Chardonnay, traditional method extra brut, Vinselekt Michlovský."
+          },
+          {
+            "id": "sklo-cremant-vinselekt-ing-3",
+            "question": "Which ingredient is part of Crémant de Vinselekt?",
+            "correctAnswer": "Traditional method extra brut",
+            "distractors": [
+              "Beef tenderloin",
+              "Duroc pork belly"
+            ],
+            "explanation": "In Crémant de Vinselekt, this component is present: Traditional method extra brut. Full recipe ingredients: Pinot, Chardonnay, traditional method extra brut, Vinselekt Michlovský."
+          },
+          {
+            "id": "sklo-cremant-vinselekt-ing-4",
+            "question": "Which ingredient is part of Crémant de Vinselekt?",
+            "correctAnswer": "Vinselekt Michlovský",
+            "distractors": [
+              "Venison saddle",
+              "Lamb chop"
+            ],
+            "explanation": "In Crémant de Vinselekt, this component is present: Vinselekt Michlovský. Full recipe ingredients: Pinot, Chardonnay, traditional method extra brut, Vinselekt Michlovský."
+          },
+          {
+            "id": "sklo-cremant-vinselekt-allergen-12",
+            "question": "Which of the following allergens is present in Crémant de Vinselekt?",
+            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
+            "distractors": [
+              "Allergen No. 14 – Molluscs and products thereof",
+              "Allergen No. 5 – Peanuts and products thereof"
+            ],
+            "explanation": "Crémant de Vinselekt contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+          }
+        ]
+      },
+      {
         "id": "sklo-rulandske-sede",
         "name": "Rulandské šedé (Pinot Gris) – Dva kopce Kolby",
-        "weight": "0,15l",
+        "weight": "0.15l",
         "price": "95 CZK",
         "allergens": [
           "12"
@@ -5902,82 +6050,52 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         ]
       },
       {
-        "id": "sklo-cuvee-kraus-bile",
-        "name": "Cuvée Kraus – White",
-        "weight": "0,15l",
-        "price": "98 CZK",
+        "name": "White Cuvée",
+        "weight": "0.15l",
+        "price": "105 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Mělník region, Bohemia. Light, fresh, harmonious expression of citrus and yellow fruits.",
-        "notes": "Mělník region, Bohemia. Light, fresh, harmonious expression of citrus and yellow fruits.",
+        "description": "fresh crisp white wine cuvée",
+        "notes": "Pleasant everyday white blend.",
+        "id": "sklo-cuvee-bile",
         "questions": [
           {
-            "id": "sklo-cuvee-kraus-bile-vol",
-            "question": "What is the serving volume / measure of Cuvée Kraus – White?",
-            "correctAnswer": "0,15l",
+            "id": "sklo-cuvee-bile-vol",
+            "question": "What is the serving measure of White Cuvée?",
+            "correctAnswer": "0.15l",
             "distractors": [
-              "0.2 l",
-              "0.1 l"
+              "0.15 L",
+              "0.2 L"
             ],
-            "explanation": "The serving measure of Cuvée Kraus – White is 0,15l."
+            "explanation": "The portion size / weight of White Cuvée is 0.15l."
           },
           {
-            "id": "sklo-cuvee-kraus-bile-ing-1",
-            "question": "Which ingredient is part of Cuvée Kraus – White?",
-            "correctAnswer": "Mělník region",
+            "id": "sklo-cuvee-bile-ing-1",
+            "question": "Which ingredient is part of White Cuvée?",
+            "correctAnswer": "Fresh crisp white wine cuvée",
             "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
+              "Pork tenderloin",
+              "Veal leg"
             ],
-            "explanation": "In Cuvée Kraus – White, this component is present: Mělník region. Full recipe ingredients: Mělník region, Bohemia. Light, fresh, harmonious expression of citrus and yellow fruits.."
+            "explanation": "In White Cuvée, this component is present: Fresh crisp white wine cuvée. Full recipe ingredients: fresh crisp white wine cuvée."
           },
           {
-            "id": "sklo-cuvee-kraus-bile-ing-2",
-            "question": "Which ingredient is part of Cuvée Kraus – White?",
-            "correctAnswer": "Bohemia. Light",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Cuvée Kraus – White, this component is present: Bohemia. Light. Full recipe ingredients: Mělník region, Bohemia. Light, fresh, harmonious expression of citrus and yellow fruits.."
-          },
-          {
-            "id": "sklo-cuvee-kraus-bile-ing-3",
-            "question": "Which ingredient is part of Cuvée Kraus – White?",
-            "correctAnswer": "Fresh",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Cuvée Kraus – White, this component is present: Fresh. Full recipe ingredients: Mělník region, Bohemia. Light, fresh, harmonious expression of citrus and yellow fruits.."
-          },
-          {
-            "id": "sklo-cuvee-kraus-bile-ing-4",
-            "question": "Which ingredient is part of Cuvée Kraus – White?",
-            "correctAnswer": "Harmonious expression of citrus and yellow fruits",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Cuvée Kraus – White, this component is present: Harmonious expression of citrus and yellow fruits. Full recipe ingredients: Mělník region, Bohemia. Light, fresh, harmonious expression of citrus and yellow fruits.."
-          },
-          {
-            "id": "sklo-cuvee-kraus-bile-allergen-12",
-            "question": "Which of the following allergens is present in Cuvée Kraus – White?",
+            "id": "sklo-cuvee-bile-allergen-12",
+            "question": "Which of the following allergens is present in White Cuvée?",
             "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
             "distractors": [
               "Allergen No. 14 – Molluscs and products thereof",
               "Allergen No. 5 – Peanuts and products thereof"
             ],
-            "explanation": "Cuvée Kraus – White contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "explanation": "White Cuvée contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
           }
         ]
       },
       {
         "id": "sklo-gruner-veltliner",
         "name": "Grüner Veltliner – Heuriger",
-        "weight": "0,15l",
+        "weight": "0.15l",
         "price": "109 CZK",
         "allergens": [
           "12"
@@ -6048,78 +6166,38 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         ]
       },
       {
-        "id": "sklo-chardonnay-adulation",
         "name": "Chardonnay – Adulation",
-        "weight": "0,15l",
-        "price": "125 CZK",
+        "weight": "0.15l",
+        "price": "145 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Adulation – California. Oak-aged, full-bodied with a silky finish, tropical fruit, sweet baking spices and vanilla.",
-        "notes": "Adulation – California. Oak-aged, full-bodied with a silky finish, tropical fruit, sweet baking spices and vanilla.",
+        "description": "California Chardonnay with vanilla oak notes",
+        "notes": "Full-bodied California white with tropical fruits and subtle oak.",
+        "id": "sklo-chardonnay",
         "questions": [
           {
-            "id": "sklo-chardonnay-adulation-vol",
-            "question": "What is the serving volume / measure of Chardonnay – Adulation?",
-            "correctAnswer": "0,15l",
+            "id": "sklo-chardonnay-vol",
+            "question": "What is the serving measure of Chardonnay – Adulation?",
+            "correctAnswer": "0.15l",
             "distractors": [
-              "0.2 l",
-              "0.1 l"
+              "0.15 L",
+              "0.2 L"
             ],
-            "explanation": "The serving measure of Chardonnay – Adulation is 0,15l."
+            "explanation": "The portion size / weight of Chardonnay – Adulation is 0.15l."
           },
           {
-            "id": "sklo-chardonnay-adulation-ing-1",
+            "id": "sklo-chardonnay-ing-1",
             "question": "Which ingredient is part of Chardonnay – Adulation?",
-            "correctAnswer": "Adulation – California. Oak-aged",
+            "correctAnswer": "California Chardonnay with vanilla oak notes",
             "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
+              "Pork tenderloin",
+              "Veal leg"
             ],
-            "explanation": "In Chardonnay – Adulation, this component is present: Adulation – California. Oak-aged. Full recipe ingredients: Adulation – California. Oak-aged, full-bodied with a silky finish, tropical fruit, sweet baking spices and vanilla.."
+            "explanation": "In Chardonnay – Adulation, this component is present: California Chardonnay with vanilla oak notes. Full recipe ingredients: California Chardonnay with vanilla oak notes."
           },
           {
-            "id": "sklo-chardonnay-adulation-ing-2",
-            "question": "Which ingredient is part of Chardonnay – Adulation?",
-            "correctAnswer": "Full-bodied with a silky finish",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Chardonnay – Adulation, this component is present: Full-bodied with a silky finish. Full recipe ingredients: Adulation – California. Oak-aged, full-bodied with a silky finish, tropical fruit, sweet baking spices and vanilla.."
-          },
-          {
-            "id": "sklo-chardonnay-adulation-ing-3",
-            "question": "Which ingredient is part of Chardonnay – Adulation?",
-            "correctAnswer": "Tropical fruit",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Chardonnay – Adulation, this component is present: Tropical fruit. Full recipe ingredients: Adulation – California. Oak-aged, full-bodied with a silky finish, tropical fruit, sweet baking spices and vanilla.."
-          },
-          {
-            "id": "sklo-chardonnay-adulation-ing-4",
-            "question": "Which ingredient is part of Chardonnay – Adulation?",
-            "correctAnswer": "Sweet baking spices and vanilla",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Chardonnay – Adulation, this component is present: Sweet baking spices and vanilla. Full recipe ingredients: Adulation – California. Oak-aged, full-bodied with a silky finish, tropical fruit, sweet baking spices and vanilla.."
-          },
-          {
-            "id": "sklo-chardonnay-adulation-ing-5",
-            "question": "Which ingredient is part of Chardonnay – Adulation?",
-            "correctAnswer": "Sweet baking spices and vanilla",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Chardonnay – Adulation, this component is present: Sweet baking spices and vanilla. Full recipe ingredients: Adulation – California. Oak-aged, full-bodied with a silky finish, tropical fruit, sweet baking spices and vanilla.."
-          },
-          {
-            "id": "sklo-chardonnay-adulation-allergen-12",
+            "id": "sklo-chardonnay-allergen-12",
             "question": "Which of the following allergens is present in Chardonnay – Adulation?",
             "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
             "distractors": [
@@ -6133,7 +6211,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "sklo-modry-portugal-rose",
         "name": "Modrý Portugal – Rosé Dva kopce Kolby",
-        "weight": "0,15l",
+        "weight": "0.15l",
         "price": "95 CZK",
         "allergens": [
           "12"
@@ -6214,204 +6292,164 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         ]
       },
       {
-        "id": "sklo-modry-portugal-cervene",
-        "name": "Modrý Portugal – Red Dva kopce Kolby",
-        "weight": "0,15l",
-        "price": "95 CZK",
+        "name": "Modrý Portugal – Kolby",
+        "weight": "0.15l",
+        "price": "115 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Mikulov region, Moravia. Light ruby color, bouquet of small red orchard berries, delicately spiced finish.",
-        "notes": "Mikulov region, Moravia. Light ruby color, bouquet of small red orchard berries, delicately spiced finish.",
+        "description": "light elegant red wine with red berry notes, Kolby",
+        "notes": "Smooth approachable Moravian red.",
+        "id": "sklo-modry-portugal",
         "questions": [
           {
-            "id": "sklo-modry-portugal-cervene-vol",
-            "question": "What is the serving volume / measure of Modrý Portugal – Red Dva kopce Kolby?",
-            "correctAnswer": "0,15l",
+            "id": "sklo-modry-portugal-vol",
+            "question": "What is the serving measure of Modrý Portugal – Kolby?",
+            "correctAnswer": "0.15l",
             "distractors": [
-              "0.2 l",
-              "0.1 l"
+              "0.15 L",
+              "0.2 L"
             ],
-            "explanation": "The serving measure of Modrý Portugal – Red Dva kopce Kolby is 0,15l."
+            "explanation": "The portion size / weight of Modrý Portugal – Kolby is 0.15l."
           },
           {
-            "id": "sklo-modry-portugal-cervene-ing-1",
-            "question": "Which ingredient is part of Modrý Portugal – Red Dva kopce Kolby?",
-            "correctAnswer": "Mikulov region",
+            "id": "sklo-modry-portugal-ing-1",
+            "question": "Which ingredient is part of Modrý Portugal – Kolby?",
+            "correctAnswer": "Light elegant red wine with red berry notes",
             "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
+              "Pork tenderloin",
+              "Veal leg"
             ],
-            "explanation": "In Modrý Portugal – Red Dva kopce Kolby, this component is present: Mikulov region. Full recipe ingredients: Mikulov region, Moravia. Light ruby color, bouquet of small red orchard berries, delicately spiced finish.."
+            "explanation": "In Modrý Portugal – Kolby, this component is present: Light elegant red wine with red berry notes. Full recipe ingredients: light elegant red wine with red berry notes, Kolby."
           },
           {
-            "id": "sklo-modry-portugal-cervene-ing-2",
-            "question": "Which ingredient is part of Modrý Portugal – Red Dva kopce Kolby?",
-            "correctAnswer": "Moravia. Light ruby color",
+            "id": "sklo-modry-portugal-ing-2",
+            "question": "Which ingredient is part of Modrý Portugal – Kolby?",
+            "correctAnswer": "Kolby",
             "distractors": [
-              "Kolby winery",
-              "Kraus winery"
+              "Duck breast",
+              "Deboned trout"
             ],
-            "explanation": "In Modrý Portugal – Red Dva kopce Kolby, this component is present: Moravia. Light ruby color. Full recipe ingredients: Mikulov region, Moravia. Light ruby color, bouquet of small red orchard berries, delicately spiced finish.."
+            "explanation": "In Modrý Portugal – Kolby, this component is present: Kolby. Full recipe ingredients: light elegant red wine with red berry notes, Kolby."
           },
           {
-            "id": "sklo-modry-portugal-cervene-ing-3",
-            "question": "Which ingredient is part of Modrý Portugal – Red Dva kopce Kolby?",
-            "correctAnswer": "Bouquet of small red orchard berries",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Modrý Portugal – Red Dva kopce Kolby, this component is present: Bouquet of small red orchard berries. Full recipe ingredients: Mikulov region, Moravia. Light ruby color, bouquet of small red orchard berries, delicately spiced finish.."
-          },
-          {
-            "id": "sklo-modry-portugal-cervene-ing-4",
-            "question": "Which ingredient is part of Modrý Portugal – Red Dva kopce Kolby?",
-            "correctAnswer": "Delicately spiced finish",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Modrý Portugal – Red Dva kopce Kolby, this component is present: Delicately spiced finish. Full recipe ingredients: Mikulov region, Moravia. Light ruby color, bouquet of small red orchard berries, delicately spiced finish.."
-          },
-          {
-            "id": "sklo-modry-portugal-cervene-allergen-12",
-            "question": "Which of the following allergens is present in Modrý Portugal – Red Dva kopce Kolby?",
+            "id": "sklo-modry-portugal-allergen-12",
+            "question": "Which of the following allergens is present in Modrý Portugal – Kolby?",
             "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
             "distractors": [
               "Allergen No. 14 – Molluscs and products thereof",
               "Allergen No. 5 – Peanuts and products thereof"
             ],
-            "explanation": "Modrý Portugal – Red Dva kopce Kolby contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "explanation": "Modrý Portugal – Kolby contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
           }
         ]
       },
       {
-        "id": "sklo-cuvee-kraus-cervene",
-        "name": "Cuvée Kraus – Red",
-        "weight": "0,15l",
-        "price": "98 CZK",
+        "name": "Red Cuvée – Kraus",
+        "weight": "0.15l",
+        "price": "115 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Mělník region, Bohemia. Deep color, softer velvety tannins, flavors of ripe red berries.",
-        "notes": "Mělník region, Bohemia. Deep color, softer velvety tannins, flavors of ripe red berries.",
+        "description": "balanced harmonious red blend, Kraus winery",
+        "notes": "Velvety dry red cuvée from Mělník.",
+        "id": "sklo-cuvee-cervene",
         "questions": [
           {
-            "id": "sklo-cuvee-kraus-cervene-vol",
-            "question": "What is the serving volume / measure of Cuvée Kraus – Red?",
-            "correctAnswer": "0,15l",
+            "id": "sklo-cuvee-cervene-vol",
+            "question": "What is the serving measure of Red Cuvée – Kraus?",
+            "correctAnswer": "0.15l",
             "distractors": [
-              "0.2 l",
-              "0.1 l"
+              "0.15 L",
+              "0.2 L"
             ],
-            "explanation": "The serving measure of Cuvée Kraus – Red is 0,15l."
+            "explanation": "The portion size / weight of Red Cuvée – Kraus is 0.15l."
           },
           {
-            "id": "sklo-cuvee-kraus-cervene-ing-1",
-            "question": "Which ingredient is part of Cuvée Kraus – Red?",
-            "correctAnswer": "Mělník region",
+            "id": "sklo-cuvee-cervene-ing-1",
+            "question": "Which ingredient is part of Red Cuvée – Kraus?",
+            "correctAnswer": "Balanced harmonious red blend",
             "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
+              "Pork tenderloin",
+              "Veal leg"
             ],
-            "explanation": "In Cuvée Kraus – Red, this component is present: Mělník region. Full recipe ingredients: Mělník region, Bohemia. Deep color, softer velvety tannins, flavors of ripe red berries.."
+            "explanation": "In Red Cuvée – Kraus, this component is present: Balanced harmonious red blend. Full recipe ingredients: balanced harmonious red blend, Kraus winery."
           },
           {
-            "id": "sklo-cuvee-kraus-cervene-ing-2",
-            "question": "Which ingredient is part of Cuvée Kraus – Red?",
-            "correctAnswer": "Bohemia. Deep color",
+            "id": "sklo-cuvee-cervene-ing-2",
+            "question": "Which ingredient is part of Red Cuvée – Kraus?",
+            "correctAnswer": "Kraus winery",
             "distractors": [
-              "Kolby winery",
-              "Kraus winery"
+              "Duck breast",
+              "Deboned trout"
             ],
-            "explanation": "In Cuvée Kraus – Red, this component is present: Bohemia. Deep color. Full recipe ingredients: Mělník region, Bohemia. Deep color, softer velvety tannins, flavors of ripe red berries.."
+            "explanation": "In Red Cuvée – Kraus, this component is present: Kraus winery. Full recipe ingredients: balanced harmonious red blend, Kraus winery."
           },
           {
-            "id": "sklo-cuvee-kraus-cervene-ing-3",
-            "question": "Which ingredient is part of Cuvée Kraus – Red?",
-            "correctAnswer": "Softer velvety tannins",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Cuvée Kraus – Red, this component is present: Softer velvety tannins. Full recipe ingredients: Mělník region, Bohemia. Deep color, softer velvety tannins, flavors of ripe red berries.."
-          },
-          {
-            "id": "sklo-cuvee-kraus-cervene-ing-4",
-            "question": "Which ingredient is part of Cuvée Kraus – Red?",
-            "correctAnswer": "Flavors of ripe red berries",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Cuvée Kraus – Red, this component is present: Flavors of ripe red berries. Full recipe ingredients: Mělník region, Bohemia. Deep color, softer velvety tannins, flavors of ripe red berries.."
-          },
-          {
-            "id": "sklo-cuvee-kraus-cervene-allergen-12",
-            "question": "Which of the following allergens is present in Cuvée Kraus – Red?",
+            "id": "sklo-cuvee-cervene-allergen-12",
+            "question": "Which of the following allergens is present in Red Cuvée – Kraus?",
             "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
             "distractors": [
               "Allergen No. 14 – Molluscs and products thereof",
               "Allergen No. 5 – Peanuts and products thereof"
             ],
-            "explanation": "Cuvée Kraus – Red contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "explanation": "Red Cuvée – Kraus contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
           }
         ]
       },
       {
-        "id": "sklo-pinot-noir-adulation",
         "name": "Pinot Noir – Adulation",
-        "weight": "0,15l",
-        "price": "125 CZK",
+        "weight": "0.15l",
+        "price": "155 CZK",
         "allergens": [
           "12"
         ],
-        "description": "Adulation – California. Full-bodied, distinctly fruit-forward, flavors of ripe red berries and dark cherries.",
-        "notes": "Adulation – California. Full-bodied, distinctly fruit-forward, flavors of ripe red berries and dark cherries.",
+        "description": "ripe cherries and subtle spice, California Pinot Noir",
+        "notes": "Expressive California red wine.",
+        "id": "sklo-pinot-noir",
         "questions": [
           {
-            "id": "sklo-pinot-noir-adulation-vol",
-            "question": "What is the serving volume / measure of Pinot Noir – Adulation?",
-            "correctAnswer": "0,15l",
+            "id": "sklo-pinot-noir-vol",
+            "question": "What is the serving measure of Pinot Noir – Adulation?",
+            "correctAnswer": "0.15l",
             "distractors": [
-              "0.2 l",
-              "0.1 l"
+              "0.15 L",
+              "0.2 L"
             ],
-            "explanation": "The serving measure of Pinot Noir – Adulation is 0,15l."
+            "explanation": "The portion size / weight of Pinot Noir – Adulation is 0.15l."
           },
           {
-            "id": "sklo-pinot-noir-adulation-ing-1",
+            "id": "sklo-pinot-noir-ing-1",
             "question": "Which ingredient is part of Pinot Noir – Adulation?",
-            "correctAnswer": "Adulation – California. Full-bodied",
+            "correctAnswer": "Ripe cherries",
             "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
+              "Pork tenderloin",
+              "Veal leg"
             ],
-            "explanation": "In Pinot Noir – Adulation, this component is present: Adulation – California. Full-bodied. Full recipe ingredients: Adulation – California. Full-bodied, distinctly fruit-forward, flavors of ripe red berries and dark cherries.."
+            "explanation": "In Pinot Noir – Adulation, this component is present: Ripe cherries. Full recipe ingredients: ripe cherries and subtle spice, California Pinot Noir."
           },
           {
-            "id": "sklo-pinot-noir-adulation-ing-2",
+            "id": "sklo-pinot-noir-ing-2",
             "question": "Which ingredient is part of Pinot Noir – Adulation?",
-            "correctAnswer": "Distinctly fruit-forward",
+            "correctAnswer": "Subtle spice",
             "distractors": [
-              "Kolby winery",
-              "Kraus winery"
+              "Duck breast",
+              "Deboned trout"
             ],
-            "explanation": "In Pinot Noir – Adulation, this component is present: Distinctly fruit-forward. Full recipe ingredients: Adulation – California. Full-bodied, distinctly fruit-forward, flavors of ripe red berries and dark cherries.."
+            "explanation": "In Pinot Noir – Adulation, this component is present: Subtle spice. Full recipe ingredients: ripe cherries and subtle spice, California Pinot Noir."
           },
           {
-            "id": "sklo-pinot-noir-adulation-ing-3",
+            "id": "sklo-pinot-noir-ing-3",
             "question": "Which ingredient is part of Pinot Noir – Adulation?",
-            "correctAnswer": "Flavors of ripe red berries and dark cherries",
+            "correctAnswer": "California Pinot Noir",
             "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
+              "Beef tenderloin",
+              "Duroc pork belly"
             ],
-            "explanation": "In Pinot Noir – Adulation, this component is present: Flavors of ripe red berries and dark cherries. Full recipe ingredients: Adulation – California. Full-bodied, distinctly fruit-forward, flavors of ripe red berries and dark cherries.."
+            "explanation": "In Pinot Noir – Adulation, this component is present: California Pinot Noir. Full recipe ingredients: ripe cherries and subtle spice, California Pinot Noir."
           },
           {
-            "id": "sklo-pinot-noir-adulation-allergen-12",
+            "id": "sklo-pinot-noir-allergen-12",
             "question": "Which of the following allergens is present in Pinot Noir – Adulation?",
             "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
             "distractors": [
@@ -6425,2324 +6463,10 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
     ]
   },
   {
-    "id": "bublinky",
-    "name": "Bubbles",
-    "badge": "Sparkling wines",
-    "description": "Sparkling wines, Moravian Crémant, and Champagne for special moments",
-    "iconName": "Sparkles",
-    "items": [
-      {
-        "id": "bubliny-charmat-palava",
-        "name": "Charmat de Vinselekt Pálava",
-        "weight": "0,1l / 0,75l",
-        "price": "99 CZK / 699 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "Vinselect Michlovský, extra sec – Moravia. Wild effervescence, opulent aroma with hints of roses and exotic fruit, round captivating palate.",
-        "notes": "Vinselect Michlovský, extra sec – Moravia. Wild effervescence, opulent aroma with hints of roses and exotic fruit, round captivating palate.",
-        "questions": [
-          {
-            "id": "bubliny-charmat-palava-vol",
-            "question": "What is the serving volume / measure of Charmat de Vinselekt Pálava?",
-            "correctAnswer": "0,1l / 0,75l",
-            "distractors": [
-              "0.02 l",
-              "0.03 l"
-            ],
-            "explanation": "The serving measure of Charmat de Vinselekt Pálava is 0,1l / 0,75l."
-          },
-          {
-            "id": "bubliny-charmat-palava-ing-1",
-            "question": "Which ingredient is part of Charmat de Vinselekt Pálava?",
-            "correctAnswer": "Vinselect Michlovský",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Charmat de Vinselekt Pálava, this component is present: Vinselect Michlovský. Full recipe ingredients: Vinselect Michlovský, extra sec – Moravia. Wild effervescence, opulent aroma with hints of roses and exotic fruit, round captivating palate.."
-          },
-          {
-            "id": "bubliny-charmat-palava-ing-2",
-            "question": "Which ingredient is part of Charmat de Vinselekt Pálava?",
-            "correctAnswer": "Extra sec – Moravia. Wild effervescence",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Charmat de Vinselekt Pálava, this component is present: Extra sec – Moravia. Wild effervescence. Full recipe ingredients: Vinselect Michlovský, extra sec – Moravia. Wild effervescence, opulent aroma with hints of roses and exotic fruit, round captivating palate.."
-          },
-          {
-            "id": "bubliny-charmat-palava-ing-3",
-            "question": "Which ingredient is part of Charmat de Vinselekt Pálava?",
-            "correctAnswer": "Opulent aroma with hints of roses and exotic fruit",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Charmat de Vinselekt Pálava, this component is present: Opulent aroma with hints of roses and exotic fruit. Full recipe ingredients: Vinselect Michlovský, extra sec – Moravia. Wild effervescence, opulent aroma with hints of roses and exotic fruit, round captivating palate.."
-          },
-          {
-            "id": "bubliny-charmat-palava-ing-4",
-            "question": "Which ingredient is part of Charmat de Vinselekt Pálava?",
-            "correctAnswer": "Round captivating palate",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Charmat de Vinselekt Pálava, this component is present: Round captivating palate. Full recipe ingredients: Vinselect Michlovský, extra sec – Moravia. Wild effervescence, opulent aroma with hints of roses and exotic fruit, round captivating palate.."
-          },
-          {
-            "id": "bubliny-charmat-palava-allergen-12",
-            "question": "Which of the following allergens is present in Charmat de Vinselekt Pálava?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Charmat de Vinselekt Pálava contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
-          }
-        ]
-      },
-      {
-        "id": "bubliny-cremant-vinselekt",
-        "name": "Crémant de Vinselekt (Pinot, Chardonnay)",
-        "weight": "0,1l / 0,75l",
-        "price": "115 CZK / 849 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "Vinselect Michlovský, extra brut – Moravia. Fine impressive perlage, elegant aroma, harmonious creamy finish.",
-        "notes": "Vinselect Michlovský, extra brut – Moravia. Fine impressive perlage, elegant aroma, harmonious creamy finish.",
-        "questions": [
-          {
-            "id": "bubliny-cremant-vinselekt-vol",
-            "question": "What is the serving volume / measure of Crémant de Vinselekt (Pinot, Chardonnay)?",
-            "correctAnswer": "0,1l / 0,75l",
-            "distractors": [
-              "0.02 l",
-              "0.03 l"
-            ],
-            "explanation": "The serving measure of Crémant de Vinselekt (Pinot, Chardonnay) is 0,1l / 0,75l."
-          },
-          {
-            "id": "bubliny-cremant-vinselekt-ing-1",
-            "question": "Which ingredient is part of Crémant de Vinselekt (Pinot, Chardonnay)?",
-            "correctAnswer": "Vinselect Michlovský",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Crémant de Vinselekt (Pinot, Chardonnay), this component is present: Vinselect Michlovský. Full recipe ingredients: Vinselect Michlovský, extra brut – Moravia. Fine impressive perlage, elegant aroma, harmonious creamy finish.."
-          },
-          {
-            "id": "bubliny-cremant-vinselekt-ing-2",
-            "question": "Which ingredient is part of Crémant de Vinselekt (Pinot, Chardonnay)?",
-            "correctAnswer": "Extra brut – Moravia. Fine impressive perlage",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Crémant de Vinselekt (Pinot, Chardonnay), this component is present: Extra brut – Moravia. Fine impressive perlage. Full recipe ingredients: Vinselect Michlovský, extra brut – Moravia. Fine impressive perlage, elegant aroma, harmonious creamy finish.."
-          },
-          {
-            "id": "bubliny-cremant-vinselekt-ing-3",
-            "question": "Which ingredient is part of Crémant de Vinselekt (Pinot, Chardonnay)?",
-            "correctAnswer": "Elegant aroma",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Crémant de Vinselekt (Pinot, Chardonnay), this component is present: Elegant aroma. Full recipe ingredients: Vinselect Michlovský, extra brut – Moravia. Fine impressive perlage, elegant aroma, harmonious creamy finish.."
-          },
-          {
-            "id": "bubliny-cremant-vinselekt-ing-4",
-            "question": "Which ingredient is part of Crémant de Vinselekt (Pinot, Chardonnay)?",
-            "correctAnswer": "Harmonious creamy finish",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Crémant de Vinselekt (Pinot, Chardonnay), this component is present: Harmonious creamy finish. Full recipe ingredients: Vinselect Michlovský, extra brut – Moravia. Fine impressive perlage, elegant aroma, harmonious creamy finish.."
-          },
-          {
-            "id": "bubliny-cremant-vinselekt-allergen-12",
-            "question": "Which of the following allergens is present in Crémant de Vinselekt (Pinot, Chardonnay)?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Crémant de Vinselekt (Pinot, Chardonnay) contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
-          }
-        ]
-      },
-      {
-        "id": "bubliny-angels-cowboys",
-        "name": "Angels & Cowboys Brut",
-        "weight": "0,75l",
-        "price": "1 199 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "NV, brut – North Coast, California. Traditional bottle fermentation, elegant perlage, fresh orchard fruit, citrus, notes of brioche and toasted bread crust.",
-        "notes": "NV, brut – North Coast, California. Traditional bottle fermentation, elegant perlage, fresh orchard fruit, citrus, notes of brioche and toasted bread crust.",
-        "questions": [
-          {
-            "id": "bubliny-angels-cowboys-vol",
-            "question": "What is the serving volume / measure of Angels & Cowboys Brut?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Angels & Cowboys Brut is 0,75l."
-          },
-          {
-            "id": "bubliny-angels-cowboys-ing-1",
-            "question": "Which ingredient is part of Angels & Cowboys Brut?",
-            "correctAnswer": "NV",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Angels & Cowboys Brut, this component is present: NV. Full recipe ingredients: NV, brut – North Coast, California. Traditional bottle fermentation, elegant perlage, fresh orchard fruit, citrus, notes of brioche and toasted bread crust.."
-          },
-          {
-            "id": "bubliny-angels-cowboys-ing-2",
-            "question": "Which ingredient is part of Angels & Cowboys Brut?",
-            "correctAnswer": "Brut – North Coast",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Angels & Cowboys Brut, this component is present: Brut – North Coast. Full recipe ingredients: NV, brut – North Coast, California. Traditional bottle fermentation, elegant perlage, fresh orchard fruit, citrus, notes of brioche and toasted bread crust.."
-          },
-          {
-            "id": "bubliny-angels-cowboys-ing-3",
-            "question": "Which brewing raw material or trait characterizes Angels & Cowboys Brut?",
-            "correctAnswer": "California. Traditional bottle fermentation",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Angels & Cowboys Brut, this component is present: California. Traditional bottle fermentation. Full recipe ingredients: NV, brut – North Coast, California. Traditional bottle fermentation, elegant perlage, fresh orchard fruit, citrus, notes of brioche and toasted bread crust.."
-          },
-          {
-            "id": "bubliny-angels-cowboys-ing-4",
-            "question": "Which ingredient is part of Angels & Cowboys Brut?",
-            "correctAnswer": "Elegant perlage",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Angels & Cowboys Brut, this component is present: Elegant perlage. Full recipe ingredients: NV, brut – North Coast, California. Traditional bottle fermentation, elegant perlage, fresh orchard fruit, citrus, notes of brioche and toasted bread crust.."
-          },
-          {
-            "id": "bubliny-angels-cowboys-ing-5",
-            "question": "Which ingredient is part of Angels & Cowboys Brut?",
-            "correctAnswer": "Fresh orchard fruit",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Angels & Cowboys Brut, this component is present: Fresh orchard fruit. Full recipe ingredients: NV, brut – North Coast, California. Traditional bottle fermentation, elegant perlage, fresh orchard fruit, citrus, notes of brioche and toasted bread crust.."
-          },
-          {
-            "id": "bubliny-angels-cowboys-ing-6",
-            "question": "Which ingredient is part of Angels & Cowboys Brut?",
-            "correctAnswer": "Citrus",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Angels & Cowboys Brut, this component is present: Citrus. Full recipe ingredients: NV, brut – North Coast, California. Traditional bottle fermentation, elegant perlage, fresh orchard fruit, citrus, notes of brioche and toasted bread crust.."
-          },
-          {
-            "id": "bubliny-angels-cowboys-ing-7",
-            "question": "Which bread, side, or crispy garnish accompanies Angels & Cowboys Brut?",
-            "correctAnswer": "Notes of brioche and toasted bread crust",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Angels & Cowboys Brut, this component is present: Notes of brioche and toasted bread crust. Full recipe ingredients: NV, brut – North Coast, California. Traditional bottle fermentation, elegant perlage, fresh orchard fruit, citrus, notes of brioche and toasted bread crust.."
-          },
-          {
-            "id": "bubliny-angels-cowboys-allergen-12",
-            "question": "Which of the following allergens is present in Angels & Cowboys Brut?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Angels & Cowboys Brut contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "bila-vina",
-    "name": "white wines",
-    "badge": "White wines",
-    "description": "Crisp and full-bodied white wines from Moravia and renowned European terroirs",
-    "iconName": "Wine",
-    "items": [
-      {
-        "id": "bile-ryzlink-gotberg",
-        "name": "Riesling (Ryzlink rýnský) – Gotberg",
-        "weight": "0,75l",
-        "price": "530 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "Late harvest Gotberg – Pálava, Moravia. Fresh with vibrant acidity, aromas of citrus, green apple and white peach, mineral finish.",
-        "notes": "Late harvest Gotberg – Pálava, Moravia. Fresh with vibrant acidity, aromas of citrus, green apple and white peach, mineral finish.",
-        "questions": [
-          {
-            "id": "bile-ryzlink-gotberg-vol",
-            "question": "What is the serving volume / measure of Riesling (Ryzlink rýnský) – Gotberg?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Riesling (Ryzlink rýnský) – Gotberg is 0,75l."
-          },
-          {
-            "id": "bile-ryzlink-gotberg-ing-1",
-            "question": "Which grape variety, winery, or characteristic belongs to Riesling (Ryzlink rýnský) – Gotberg?",
-            "correctAnswer": "Late harvest Gotberg – Pálava",
-            "distractors": [
-              "Gotberg winery",
-              "Kolby winery"
-            ],
-            "explanation": "In Riesling (Ryzlink rýnský) – Gotberg, this component is present: Late harvest Gotberg – Pálava. Full recipe ingredients: Late harvest Gotberg – Pálava, Moravia. Fresh with vibrant acidity, aromas of citrus, green apple and white peach, mineral finish.."
-          },
-          {
-            "id": "bile-ryzlink-gotberg-ing-2",
-            "question": "Which grape variety, winery, or characteristic belongs to Riesling (Ryzlink rýnský) – Gotberg?",
-            "correctAnswer": "Moravia. Fresh with vibrant acidity",
-            "distractors": [
-              "Kraus winery",
-              "Michlovsky winery"
-            ],
-            "explanation": "In Riesling (Ryzlink rýnský) – Gotberg, this component is present: Moravia. Fresh with vibrant acidity. Full recipe ingredients: Late harvest Gotberg – Pálava, Moravia. Fresh with vibrant acidity, aromas of citrus, green apple and white peach, mineral finish.."
-          },
-          {
-            "id": "bile-ryzlink-gotberg-ing-3",
-            "question": "Which ingredient is part of Riesling (Ryzlink rýnský) – Gotberg?",
-            "correctAnswer": "Aromas of citrus",
-            "distractors": [
-              "Mikulov subregion",
-              "Velke Pavlovice subregion"
-            ],
-            "explanation": "In Riesling (Ryzlink rýnský) – Gotberg, this component is present: Aromas of citrus. Full recipe ingredients: Late harvest Gotberg – Pálava, Moravia. Fresh with vibrant acidity, aromas of citrus, green apple and white peach, mineral finish.."
-          },
-          {
-            "id": "bile-ryzlink-gotberg-ing-4",
-            "question": "Which vegetable or fruit component is included in Riesling (Ryzlink rýnský) – Gotberg?",
-            "correctAnswer": "Green apple and white peach",
-            "distractors": [
-              "Melnik subregion",
-              "Vibrant acidity and mineral notes"
-            ],
-            "explanation": "In Riesling (Ryzlink rýnský) – Gotberg, this component is present: Green apple and white peach. Full recipe ingredients: Late harvest Gotberg – Pálava, Moravia. Fresh with vibrant acidity, aromas of citrus, green apple and white peach, mineral finish.."
-          },
-          {
-            "id": "bile-ryzlink-gotberg-ing-5",
-            "question": "Which ingredient is part of Riesling (Ryzlink rýnský) – Gotberg?",
-            "correctAnswer": "Mineral finish",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Riesling (Ryzlink rýnský) – Gotberg, this component is present: Mineral finish. Full recipe ingredients: Late harvest Gotberg – Pálava, Moravia. Fresh with vibrant acidity, aromas of citrus, green apple and white peach, mineral finish.."
-          },
-          {
-            "id": "bile-ryzlink-gotberg-allergen-12",
-            "question": "Which of the following allergens is present in Riesling (Ryzlink rýnský) – Gotberg?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Riesling (Ryzlink rýnský) – Gotberg contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
-          }
-        ]
-      },
-      {
-        "id": "bile-pinot-gris-reisten",
-        "name": "Pinot Gris – Reisten",
-        "weight": "0,75l",
-        "price": "680 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "Late harvest Reisten – Mikulov region, Moravia. Full-bodied and smooth, subtle mineral touch on the palate, fresh grapefruit and orange zest.",
-        "notes": "Late harvest Reisten – Mikulov region, Moravia. Full-bodied and smooth, subtle mineral touch on the palate, fresh grapefruit and orange zest.",
-        "questions": [
-          {
-            "id": "bile-pinot-gris-reisten-vol",
-            "question": "What is the serving volume / measure of Pinot Gris – Reisten?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Pinot Gris – Reisten is 0,75l."
-          },
-          {
-            "id": "bile-pinot-gris-reisten-ing-1",
-            "question": "Which grape variety, winery, or characteristic belongs to Pinot Gris – Reisten?",
-            "correctAnswer": "Late harvest Reisten – Mikulov region",
-            "distractors": [
-              "Gotberg winery",
-              "Kolby winery"
-            ],
-            "explanation": "In Pinot Gris – Reisten, this component is present: Late harvest Reisten – Mikulov region. Full recipe ingredients: Late harvest Reisten – Mikulov region, Moravia. Full-bodied and smooth, subtle mineral touch on the palate, fresh grapefruit and orange zest.."
-          },
-          {
-            "id": "bile-pinot-gris-reisten-ing-2",
-            "question": "Which ingredient is part of Pinot Gris – Reisten?",
-            "correctAnswer": "Moravia. Full-bodied and smooth",
-            "distractors": [
-              "Kraus winery",
-              "Michlovsky winery"
-            ],
-            "explanation": "In Pinot Gris – Reisten, this component is present: Moravia. Full-bodied and smooth. Full recipe ingredients: Late harvest Reisten – Mikulov region, Moravia. Full-bodied and smooth, subtle mineral touch on the palate, fresh grapefruit and orange zest.."
-          },
-          {
-            "id": "bile-pinot-gris-reisten-ing-3",
-            "question": "Which ingredient is part of Pinot Gris – Reisten?",
-            "correctAnswer": "Subtle mineral touch on the palate",
-            "distractors": [
-              "Mikulov subregion",
-              "Velke Pavlovice subregion"
-            ],
-            "explanation": "In Pinot Gris – Reisten, this component is present: Subtle mineral touch on the palate. Full recipe ingredients: Late harvest Reisten – Mikulov region, Moravia. Full-bodied and smooth, subtle mineral touch on the palate, fresh grapefruit and orange zest.."
-          },
-          {
-            "id": "bile-pinot-gris-reisten-ing-4",
-            "question": "Which vegetable or fruit component is included in Pinot Gris – Reisten?",
-            "correctAnswer": "Fresh grapefruit and orange zest",
-            "distractors": [
-              "Melnik subregion",
-              "Vibrant acidity and mineral notes"
-            ],
-            "explanation": "In Pinot Gris – Reisten, this component is present: Fresh grapefruit and orange zest. Full recipe ingredients: Late harvest Reisten – Mikulov region, Moravia. Full-bodied and smooth, subtle mineral touch on the palate, fresh grapefruit and orange zest.."
-          },
-          {
-            "id": "bile-pinot-gris-reisten-allergen-12",
-            "question": "Which of the following allergens is present in Pinot Gris – Reisten?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Pinot Gris – Reisten contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
-          }
-        ]
-      },
-      {
-        "id": "bile-hibernal-bilkovi",
-        "name": "Hibernal – Bílkovi",
-        "weight": "0,75l",
-        "price": "560 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "Late harvest Bílkovi – Velké Pavlovice region, Moravia. Juicy, aromas of blackcurrant and elderflower, fruity with pleasant acidity and spiced finish.",
-        "notes": "Late harvest Bílkovi – Velké Pavlovice region, Moravia. Juicy, aromas of blackcurrant and elderflower, fruity with pleasant acidity and spiced finish.",
-        "questions": [
-          {
-            "id": "bile-hibernal-bilkovi-vol",
-            "question": "What is the serving volume / measure of Hibernal – Bílkovi?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Hibernal – Bílkovi is 0,75l."
-          },
-          {
-            "id": "bile-hibernal-bilkovi-ing-1",
-            "question": "Which grape variety, winery, or characteristic belongs to Hibernal – Bílkovi?",
-            "correctAnswer": "Late harvest Bílkovi – Velké Pavlovice region",
-            "distractors": [
-              "Gotberg winery",
-              "Kolby winery"
-            ],
-            "explanation": "In Hibernal – Bílkovi, this component is present: Late harvest Bílkovi – Velké Pavlovice region. Full recipe ingredients: Late harvest Bílkovi – Velké Pavlovice region, Moravia. Juicy, aromas of blackcurrant and elderflower, fruity with pleasant acidity and spiced finish.."
-          },
-          {
-            "id": "bile-hibernal-bilkovi-ing-2",
-            "question": "Which ingredient is part of Hibernal – Bílkovi?",
-            "correctAnswer": "Moravia. Juicy",
-            "distractors": [
-              "Kraus winery",
-              "Michlovsky winery"
-            ],
-            "explanation": "In Hibernal – Bílkovi, this component is present: Moravia. Juicy. Full recipe ingredients: Late harvest Bílkovi – Velké Pavlovice region, Moravia. Juicy, aromas of blackcurrant and elderflower, fruity with pleasant acidity and spiced finish.."
-          },
-          {
-            "id": "bile-hibernal-bilkovi-ing-3",
-            "question": "Which ingredient is part of Hibernal – Bílkovi?",
-            "correctAnswer": "Aromas of blackcurrant and elderflower",
-            "distractors": [
-              "Mikulov subregion",
-              "Velke Pavlovice subregion"
-            ],
-            "explanation": "In Hibernal – Bílkovi, this component is present: Aromas of blackcurrant and elderflower. Full recipe ingredients: Late harvest Bílkovi – Velké Pavlovice region, Moravia. Juicy, aromas of blackcurrant and elderflower, fruity with pleasant acidity and spiced finish.."
-          },
-          {
-            "id": "bile-hibernal-bilkovi-ing-4",
-            "question": "Which grape variety, winery, or characteristic belongs to Hibernal – Bílkovi?",
-            "correctAnswer": "Fruity with pleasant acidity and spiced finish",
-            "distractors": [
-              "Melnik subregion",
-              "Vibrant acidity and mineral notes"
-            ],
-            "explanation": "In Hibernal – Bílkovi, this component is present: Fruity with pleasant acidity and spiced finish. Full recipe ingredients: Late harvest Bílkovi – Velké Pavlovice region, Moravia. Juicy, aromas of blackcurrant and elderflower, fruity with pleasant acidity and spiced finish.."
-          },
-          {
-            "id": "bile-hibernal-bilkovi-ing-5",
-            "question": "Which grape variety, winery, or characteristic belongs to Hibernal – Bílkovi?",
-            "correctAnswer": "Fruity with pleasant acidity and spiced finish",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Hibernal – Bílkovi, this component is present: Fruity with pleasant acidity and spiced finish. Full recipe ingredients: Late harvest Bílkovi – Velké Pavlovice region, Moravia. Juicy, aromas of blackcurrant and elderflower, fruity with pleasant acidity and spiced finish.."
-          },
-          {
-            "id": "bile-hibernal-bilkovi-allergen-12",
-            "question": "Which of the following allergens is present in Hibernal – Bílkovi?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Hibernal – Bílkovi contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
-          }
-        ]
-      },
-      {
-        "id": "bile-sauvignon-halkoci",
-        "name": "Sauvignon – Typik VOC Lukáš Halkoci",
-        "weight": "0,75l",
-        "price": "530 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "Typik VOC Lukáš Halkoci – Znojmo region, Moravia. Lighter-bodied, refreshing finish, crisp aromas of gooseberry, blackcurrant and citrus.",
-        "notes": "Typik VOC Lukáš Halkoci – Znojmo region, Moravia. Lighter-bodied, refreshing finish, crisp aromas of gooseberry, blackcurrant and citrus.",
-        "questions": [
-          {
-            "id": "bile-sauvignon-halkoci-vol",
-            "question": "What is the serving volume / measure of Sauvignon – Typik VOC Lukáš Halkoci?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Sauvignon – Typik VOC Lukáš Halkoci is 0,75l."
-          },
-          {
-            "id": "bile-sauvignon-halkoci-ing-1",
-            "question": "Which ingredient is part of Sauvignon – Typik VOC Lukáš Halkoci?",
-            "correctAnswer": "Typik VOC Lukáš Halkoci – Znojmo region",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Sauvignon – Typik VOC Lukáš Halkoci, this component is present: Typik VOC Lukáš Halkoci – Znojmo region. Full recipe ingredients: Typik VOC Lukáš Halkoci – Znojmo region, Moravia. Lighter-bodied, refreshing finish, crisp aromas of gooseberry, blackcurrant and citrus.."
-          },
-          {
-            "id": "bile-sauvignon-halkoci-ing-2",
-            "question": "Which ingredient is part of Sauvignon – Typik VOC Lukáš Halkoci?",
-            "correctAnswer": "Moravia. Lighter-bodied",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Sauvignon – Typik VOC Lukáš Halkoci, this component is present: Moravia. Lighter-bodied. Full recipe ingredients: Typik VOC Lukáš Halkoci – Znojmo region, Moravia. Lighter-bodied, refreshing finish, crisp aromas of gooseberry, blackcurrant and citrus.."
-          },
-          {
-            "id": "bile-sauvignon-halkoci-ing-3",
-            "question": "Which ingredient is part of Sauvignon – Typik VOC Lukáš Halkoci?",
-            "correctAnswer": "Refreshing finish",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Sauvignon – Typik VOC Lukáš Halkoci, this component is present: Refreshing finish. Full recipe ingredients: Typik VOC Lukáš Halkoci – Znojmo region, Moravia. Lighter-bodied, refreshing finish, crisp aromas of gooseberry, blackcurrant and citrus.."
-          },
-          {
-            "id": "bile-sauvignon-halkoci-ing-4",
-            "question": "Which ingredient is part of Sauvignon – Typik VOC Lukáš Halkoci?",
-            "correctAnswer": "Crisp aromas of gooseberry",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Sauvignon – Typik VOC Lukáš Halkoci, this component is present: Crisp aromas of gooseberry. Full recipe ingredients: Typik VOC Lukáš Halkoci – Znojmo region, Moravia. Lighter-bodied, refreshing finish, crisp aromas of gooseberry, blackcurrant and citrus.."
-          },
-          {
-            "id": "bile-sauvignon-halkoci-ing-5",
-            "question": "Which ingredient is part of Sauvignon – Typik VOC Lukáš Halkoci?",
-            "correctAnswer": "Blackcurrant and citrus",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Sauvignon – Typik VOC Lukáš Halkoci, this component is present: Blackcurrant and citrus. Full recipe ingredients: Typik VOC Lukáš Halkoci – Znojmo region, Moravia. Lighter-bodied, refreshing finish, crisp aromas of gooseberry, blackcurrant and citrus.."
-          },
-          {
-            "id": "bile-sauvignon-halkoci-allergen-12",
-            "question": "Which of the following allergens is present in Sauvignon – Typik VOC Lukáš Halkoci?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Sauvignon – Typik VOC Lukáš Halkoci contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
-          }
-        ]
-      },
-      {
-        "id": "bile-ryzlink-vlassky-sukal",
-        "name": "Welschriesling (Ryzlink vlašský) – Milan Sůkal",
-        "weight": "0,75l",
-        "price": "530 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "Late harvest Milan Sůkal – Slovácko, Moravia. Medium-bodied wine, pleasant acidity, notes of ripe citrus, pomelo and stone fruit.",
-        "notes": "Late harvest Milan Sůkal – Slovácko, Moravia. Medium-bodied wine, pleasant acidity, notes of ripe citrus, pomelo and stone fruit.",
-        "questions": [
-          {
-            "id": "bile-ryzlink-vlassky-sukal-vol",
-            "question": "What is the serving volume / measure of Welschriesling (Ryzlink vlašský) – Milan Sůkal?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Welschriesling (Ryzlink vlašský) – Milan Sůkal is 0,75l."
-          },
-          {
-            "id": "bile-ryzlink-vlassky-sukal-ing-1",
-            "question": "Which grape variety, winery, or characteristic belongs to Welschriesling (Ryzlink vlašský) – Milan Sůkal?",
-            "correctAnswer": "Late harvest Milan Sůkal – Slovácko",
-            "distractors": [
-              "Gotberg winery",
-              "Kolby winery"
-            ],
-            "explanation": "In Welschriesling (Ryzlink vlašský) – Milan Sůkal, this component is present: Late harvest Milan Sůkal – Slovácko. Full recipe ingredients: Late harvest Milan Sůkal – Slovácko, Moravia. Medium-bodied wine, pleasant acidity, notes of ripe citrus, pomelo and stone fruit.."
-          },
-          {
-            "id": "bile-ryzlink-vlassky-sukal-ing-2",
-            "question": "Which ingredient is part of Welschriesling (Ryzlink vlašský) – Milan Sůkal?",
-            "correctAnswer": "Moravia. Medium-bodied wine",
-            "distractors": [
-              "Kraus winery",
-              "Michlovsky winery"
-            ],
-            "explanation": "In Welschriesling (Ryzlink vlašský) – Milan Sůkal, this component is present: Moravia. Medium-bodied wine. Full recipe ingredients: Late harvest Milan Sůkal – Slovácko, Moravia. Medium-bodied wine, pleasant acidity, notes of ripe citrus, pomelo and stone fruit.."
-          },
-          {
-            "id": "bile-ryzlink-vlassky-sukal-ing-3",
-            "question": "Which grape variety, winery, or characteristic belongs to Welschriesling (Ryzlink vlašský) – Milan Sůkal?",
-            "correctAnswer": "Pleasant acidity",
-            "distractors": [
-              "Mikulov subregion",
-              "Velke Pavlovice subregion"
-            ],
-            "explanation": "In Welschriesling (Ryzlink vlašský) – Milan Sůkal, this component is present: Pleasant acidity. Full recipe ingredients: Late harvest Milan Sůkal – Slovácko, Moravia. Medium-bodied wine, pleasant acidity, notes of ripe citrus, pomelo and stone fruit.."
-          },
-          {
-            "id": "bile-ryzlink-vlassky-sukal-ing-4",
-            "question": "Which ingredient is part of Welschriesling (Ryzlink vlašský) – Milan Sůkal?",
-            "correctAnswer": "Notes of ripe citrus",
-            "distractors": [
-              "Melnik subregion",
-              "Vibrant acidity and mineral notes"
-            ],
-            "explanation": "In Welschriesling (Ryzlink vlašský) – Milan Sůkal, this component is present: Notes of ripe citrus. Full recipe ingredients: Late harvest Milan Sůkal – Slovácko, Moravia. Medium-bodied wine, pleasant acidity, notes of ripe citrus, pomelo and stone fruit.."
-          },
-          {
-            "id": "bile-ryzlink-vlassky-sukal-ing-5",
-            "question": "Which ingredient is part of Welschriesling (Ryzlink vlašský) – Milan Sůkal?",
-            "correctAnswer": "Pomelo and stone fruit",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Welschriesling (Ryzlink vlašský) – Milan Sůkal, this component is present: Pomelo and stone fruit. Full recipe ingredients: Late harvest Milan Sůkal – Slovácko, Moravia. Medium-bodied wine, pleasant acidity, notes of ripe citrus, pomelo and stone fruit.."
-          },
-          {
-            "id": "bile-ryzlink-vlassky-sukal-allergen-12",
-            "question": "Which of the following allergens is present in Welschriesling (Ryzlink vlašský) – Milan Sůkal?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Welschriesling (Ryzlink vlašský) – Milan Sůkal contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
-          }
-        ]
-      },
-      {
-        "id": "bile-palava-michlovsky",
-        "name": "Pálava – Vinselect Michlovský",
-        "weight": "0,75l",
-        "price": "490 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "Late harvest Vinselect Michlovský – Lednice-Valtice area, Moravia. Delicate floral scent of orange blossoms and rosebuds, fresh palate of lychee and apple strudel.",
-        "notes": "Late harvest Vinselect Michlovský – Lednice-Valtice area, Moravia. Delicate floral scent of orange blossoms and rosebuds, fresh palate of lychee and apple strudel.",
-        "questions": [
-          {
-            "id": "bile-palava-michlovsky-vol",
-            "question": "What is the serving volume / measure of Pálava – Vinselect Michlovský?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Pálava – Vinselect Michlovský is 0,75l."
-          },
-          {
-            "id": "bile-palava-michlovsky-ing-1",
-            "question": "Which grape variety, winery, or characteristic belongs to Pálava – Vinselect Michlovský?",
-            "correctAnswer": "Late harvest Vinselect Michlovský – Lednice-Valtice area",
-            "distractors": [
-              "Gotberg winery",
-              "Kolby winery"
-            ],
-            "explanation": "In Pálava – Vinselect Michlovský, this component is present: Late harvest Vinselect Michlovský – Lednice-Valtice area. Full recipe ingredients: Late harvest Vinselect Michlovský – Lednice-Valtice area, Moravia. Delicate floral scent of orange blossoms and rosebuds, fresh palate of lychee and apple strudel.."
-          },
-          {
-            "id": "bile-palava-michlovsky-ing-2",
-            "question": "Which ingredient is part of Pálava – Vinselect Michlovský?",
-            "correctAnswer": "Moravia. Delicate floral scent of orange blossoms and rosebuds",
-            "distractors": [
-              "Kraus winery",
-              "Michlovsky winery"
-            ],
-            "explanation": "In Pálava – Vinselect Michlovský, this component is present: Moravia. Delicate floral scent of orange blossoms and rosebuds. Full recipe ingredients: Late harvest Vinselect Michlovský – Lednice-Valtice area, Moravia. Delicate floral scent of orange blossoms and rosebuds, fresh palate of lychee and apple strudel.."
-          },
-          {
-            "id": "bile-palava-michlovsky-ing-3",
-            "question": "Which vegetable or fruit component is included in Pálava – Vinselect Michlovský?",
-            "correctAnswer": "Fresh palate of lychee and apple strudel",
-            "distractors": [
-              "Mikulov subregion",
-              "Velke Pavlovice subregion"
-            ],
-            "explanation": "In Pálava – Vinselect Michlovský, this component is present: Fresh palate of lychee and apple strudel. Full recipe ingredients: Late harvest Vinselect Michlovský – Lednice-Valtice area, Moravia. Delicate floral scent of orange blossoms and rosebuds, fresh palate of lychee and apple strudel.."
-          },
-          {
-            "id": "bile-palava-michlovsky-allergen-12",
-            "question": "Which of the following allergens is present in Pálava – Vinselect Michlovský?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Pálava – Vinselect Michlovský contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
-          }
-        ]
-      },
-      {
-        "id": "bile-poysdorfer-saurussel",
-        "name": "Poysdorfer Saurüssel – Hauser",
-        "weight": "0,75l",
-        "price": "540 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "Weinviertel, Austria. Grüner Veltliner, aromas of green apple, citrus peel and white pepper, bright acidity and subtle minerality.",
-        "notes": "Weinviertel, Austria. Grüner Veltliner, aromas of green apple, citrus peel and white pepper, bright acidity and subtle minerality.",
-        "questions": [
-          {
-            "id": "bile-poysdorfer-saurussel-vol",
-            "question": "What is the serving volume / measure of Poysdorfer Saurüssel – Hauser?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Poysdorfer Saurüssel – Hauser is 0,75l."
-          },
-          {
-            "id": "bile-poysdorfer-saurussel-ing-1",
-            "question": "Which ingredient is part of Poysdorfer Saurüssel – Hauser?",
-            "correctAnswer": "Weinviertel",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Poysdorfer Saurüssel – Hauser, this component is present: Weinviertel. Full recipe ingredients: Weinviertel, Austria. Grüner Veltliner, aromas of green apple, citrus peel and white pepper, bright acidity and subtle minerality.."
-          },
-          {
-            "id": "bile-poysdorfer-saurussel-ing-2",
-            "question": "Which ingredient is part of Poysdorfer Saurüssel – Hauser?",
-            "correctAnswer": "Austria. Grüner Veltliner",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Poysdorfer Saurüssel – Hauser, this component is present: Austria. Grüner Veltliner. Full recipe ingredients: Weinviertel, Austria. Grüner Veltliner, aromas of green apple, citrus peel and white pepper, bright acidity and subtle minerality.."
-          },
-          {
-            "id": "bile-poysdorfer-saurussel-ing-3",
-            "question": "Which vegetable or fruit component is included in Poysdorfer Saurüssel – Hauser?",
-            "correctAnswer": "Aromas of green apple",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Poysdorfer Saurüssel – Hauser, this component is present: Aromas of green apple. Full recipe ingredients: Weinviertel, Austria. Grüner Veltliner, aromas of green apple, citrus peel and white pepper, bright acidity and subtle minerality.."
-          },
-          {
-            "id": "bile-poysdorfer-saurussel-ing-4",
-            "question": "Which ingredient is part of Poysdorfer Saurüssel – Hauser?",
-            "correctAnswer": "Citrus peel and white pepper",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Poysdorfer Saurüssel – Hauser, this component is present: Citrus peel and white pepper. Full recipe ingredients: Weinviertel, Austria. Grüner Veltliner, aromas of green apple, citrus peel and white pepper, bright acidity and subtle minerality.."
-          },
-          {
-            "id": "bile-poysdorfer-saurussel-ing-5",
-            "question": "Which grape variety, winery, or characteristic belongs to Poysdorfer Saurüssel – Hauser?",
-            "correctAnswer": "Bright acidity and subtle minerality",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Poysdorfer Saurüssel – Hauser, this component is present: Bright acidity and subtle minerality. Full recipe ingredients: Weinviertel, Austria. Grüner Veltliner, aromas of green apple, citrus peel and white pepper, bright acidity and subtle minerality.."
-          },
-          {
-            "id": "bile-poysdorfer-saurussel-allergen-12",
-            "question": "Which of the following allergens is present in Poysdorfer Saurüssel – Hauser?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Poysdorfer Saurüssel – Hauser contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
-          }
-        ]
-      },
-      {
-        "id": "bile-gruner-satzen-schwarzbock",
-        "name": "Grüner Veltliner Premium Ried Satzen – Schwarzbock",
-        "weight": "0,75l",
-        "price": "890 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria. Rich golden color, intense aromas of ripe pears and citrus, elegant, mineral, peppery spiced finish.",
-        "notes": "Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria. Rich golden color, intense aromas of ripe pears and citrus, elegant, mineral, peppery spiced finish.",
-        "questions": [
-          {
-            "id": "bile-gruner-satzen-schwarzbock-vol",
-            "question": "What is the serving volume / measure of Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Grüner Veltliner Premium Ried Satzen – Schwarzbock is 0,75l."
-          },
-          {
-            "id": "bile-gruner-satzen-schwarzbock-ing-1",
-            "question": "Which ingredient is part of Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
-            "correctAnswer": "Premium Ried Satzen DAC Schwarzbock – Weinviertel",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Grüner Veltliner Premium Ried Satzen – Schwarzbock, this component is present: Premium Ried Satzen DAC Schwarzbock – Weinviertel. Full recipe ingredients: Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria. Rich golden color, intense aromas of ripe pears and citrus, elegant, mineral, peppery spiced finish.."
-          },
-          {
-            "id": "bile-gruner-satzen-schwarzbock-ing-2",
-            "question": "Which ingredient is part of Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
-            "correctAnswer": "Austria. Rich golden color",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Grüner Veltliner Premium Ried Satzen – Schwarzbock, this component is present: Austria. Rich golden color. Full recipe ingredients: Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria. Rich golden color, intense aromas of ripe pears and citrus, elegant, mineral, peppery spiced finish.."
-          },
-          {
-            "id": "bile-gruner-satzen-schwarzbock-ing-3",
-            "question": "Which ingredient is part of Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
-            "correctAnswer": "Intense aromas of ripe pears and citrus",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Grüner Veltliner Premium Ried Satzen – Schwarzbock, this component is present: Intense aromas of ripe pears and citrus. Full recipe ingredients: Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria. Rich golden color, intense aromas of ripe pears and citrus, elegant, mineral, peppery spiced finish.."
-          },
-          {
-            "id": "bile-gruner-satzen-schwarzbock-ing-4",
-            "question": "Which ingredient is part of Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
-            "correctAnswer": "Elegant",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Grüner Veltliner Premium Ried Satzen – Schwarzbock, this component is present: Elegant. Full recipe ingredients: Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria. Rich golden color, intense aromas of ripe pears and citrus, elegant, mineral, peppery spiced finish.."
-          },
-          {
-            "id": "bile-gruner-satzen-schwarzbock-ing-5",
-            "question": "Which ingredient is part of Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
-            "correctAnswer": "Mineral",
-            "distractors": [
-              "Late harvest",
-              "Aging in oak barrels"
-            ],
-            "explanation": "In Grüner Veltliner Premium Ried Satzen – Schwarzbock, this component is present: Mineral. Full recipe ingredients: Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria. Rich golden color, intense aromas of ripe pears and citrus, elegant, mineral, peppery spiced finish.."
-          },
-          {
-            "id": "bile-gruner-satzen-schwarzbock-ing-6",
-            "question": "Which ingredient is part of Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
-            "correctAnswer": "Peppery spiced finish",
-            "distractors": [
-              "Gotberg winery",
-              "Kolby winery"
-            ],
-            "explanation": "In Grüner Veltliner Premium Ried Satzen – Schwarzbock, this component is present: Peppery spiced finish. Full recipe ingredients: Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria. Rich golden color, intense aromas of ripe pears and citrus, elegant, mineral, peppery spiced finish.."
-          },
-          {
-            "id": "bile-gruner-satzen-schwarzbock-allergen-12",
-            "question": "Which of the following allergens is present in Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Grüner Veltliner Premium Ried Satzen – Schwarzbock contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
-          }
-        ]
-      },
-      {
-        "id": "bile-riesling-eva-fricke",
-        "name": "Riesling Rheingau QbA Dry – Eva Fricke",
-        "weight": "0,75l",
-        "price": "1 390 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "Rheingau, Germany. Elegant, aromas of lime, green apple and white peaches with mineral slate undertones.",
-        "notes": "Rheingau, Germany. Elegant, aromas of lime, green apple and white peaches with mineral slate undertones.",
-        "questions": [
-          {
-            "id": "bile-riesling-eva-fricke-vol",
-            "question": "What is the serving volume / measure of Riesling Rheingau QbA Dry – Eva Fricke?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Riesling Rheingau QbA Dry – Eva Fricke is 0,75l."
-          },
-          {
-            "id": "bile-riesling-eva-fricke-ing-1",
-            "question": "Which ingredient is part of Riesling Rheingau QbA Dry – Eva Fricke?",
-            "correctAnswer": "Rheingau",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Riesling Rheingau QbA Dry – Eva Fricke, this component is present: Rheingau. Full recipe ingredients: Rheingau, Germany. Elegant, aromas of lime, green apple and white peaches with mineral slate undertones.."
-          },
-          {
-            "id": "bile-riesling-eva-fricke-ing-2",
-            "question": "Which ingredient is part of Riesling Rheingau QbA Dry – Eva Fricke?",
-            "correctAnswer": "Germany. Elegant",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Riesling Rheingau QbA Dry – Eva Fricke, this component is present: Germany. Elegant. Full recipe ingredients: Rheingau, Germany. Elegant, aromas of lime, green apple and white peaches with mineral slate undertones.."
-          },
-          {
-            "id": "bile-riesling-eva-fricke-ing-3",
-            "question": "Which ingredient is part of Riesling Rheingau QbA Dry – Eva Fricke?",
-            "correctAnswer": "Aromas of lime",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Riesling Rheingau QbA Dry – Eva Fricke, this component is present: Aromas of lime. Full recipe ingredients: Rheingau, Germany. Elegant, aromas of lime, green apple and white peaches with mineral slate undertones.."
-          },
-          {
-            "id": "bile-riesling-eva-fricke-ing-4",
-            "question": "Which vegetable or fruit component is included in Riesling Rheingau QbA Dry – Eva Fricke?",
-            "correctAnswer": "Green apple and white peaches with mineral slate undertones",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Riesling Rheingau QbA Dry – Eva Fricke, this component is present: Green apple and white peaches with mineral slate undertones. Full recipe ingredients: Rheingau, Germany. Elegant, aromas of lime, green apple and white peaches with mineral slate undertones.."
-          },
-          {
-            "id": "bile-riesling-eva-fricke-ing-5",
-            "question": "Which vegetable or fruit component is included in Riesling Rheingau QbA Dry – Eva Fricke?",
-            "correctAnswer": "Green apple and white peaches with mineral slate undertones",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Riesling Rheingau QbA Dry – Eva Fricke, this component is present: Green apple and white peaches with mineral slate undertones. Full recipe ingredients: Rheingau, Germany. Elegant, aromas of lime, green apple and white peaches with mineral slate undertones.."
-          },
-          {
-            "id": "bile-riesling-eva-fricke-allergen-12",
-            "question": "Which of the following allergens is present in Riesling Rheingau QbA Dry – Eva Fricke?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Riesling Rheingau QbA Dry – Eva Fricke contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
-          }
-        ]
-      },
-      {
-        "id": "bile-riesling-gunderloch-red-stone",
-        "name": "Riesling Red Stone QbA Dry – Gunderloch",
-        "weight": "0,75l",
-        "price": "650 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "Rheinhessen, Germany. Juicy, aromas of ripe citrus, vineyard peaches and herbs, mineral trace of red slate, spicy finish.",
-        "notes": "Rheinhessen, Germany. Juicy, aromas of ripe citrus, vineyard peaches and herbs, mineral trace of red slate, spicy finish.",
-        "questions": [
-          {
-            "id": "bile-riesling-gunderloch-red-stone-vol",
-            "question": "What is the serving volume / measure of Riesling Red Stone QbA Dry – Gunderloch?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Riesling Red Stone QbA Dry – Gunderloch is 0,75l."
-          },
-          {
-            "id": "bile-riesling-gunderloch-red-stone-ing-1",
-            "question": "Which ingredient is part of Riesling Red Stone QbA Dry – Gunderloch?",
-            "correctAnswer": "Rheinhessen",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Riesling Red Stone QbA Dry – Gunderloch, this component is present: Rheinhessen. Full recipe ingredients: Rheinhessen, Germany. Juicy, aromas of ripe citrus, vineyard peaches and herbs, mineral trace of red slate, spicy finish.."
-          },
-          {
-            "id": "bile-riesling-gunderloch-red-stone-ing-2",
-            "question": "Which ingredient is part of Riesling Red Stone QbA Dry – Gunderloch?",
-            "correctAnswer": "Germany. Juicy",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Riesling Red Stone QbA Dry – Gunderloch, this component is present: Germany. Juicy. Full recipe ingredients: Rheinhessen, Germany. Juicy, aromas of ripe citrus, vineyard peaches and herbs, mineral trace of red slate, spicy finish.."
-          },
-          {
-            "id": "bile-riesling-gunderloch-red-stone-ing-3",
-            "question": "Which ingredient is part of Riesling Red Stone QbA Dry – Gunderloch?",
-            "correctAnswer": "Aromas of ripe citrus",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Riesling Red Stone QbA Dry – Gunderloch, this component is present: Aromas of ripe citrus. Full recipe ingredients: Rheinhessen, Germany. Juicy, aromas of ripe citrus, vineyard peaches and herbs, mineral trace of red slate, spicy finish.."
-          },
-          {
-            "id": "bile-riesling-gunderloch-red-stone-ing-4",
-            "question": "Which fresh herb or spice seasoning finishes Riesling Red Stone QbA Dry – Gunderloch?",
-            "correctAnswer": "Vineyard peaches and herbs",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Riesling Red Stone QbA Dry – Gunderloch, this component is present: Vineyard peaches and herbs. Full recipe ingredients: Rheinhessen, Germany. Juicy, aromas of ripe citrus, vineyard peaches and herbs, mineral trace of red slate, spicy finish.."
-          },
-          {
-            "id": "bile-riesling-gunderloch-red-stone-ing-5",
-            "question": "Which ingredient is part of Riesling Red Stone QbA Dry – Gunderloch?",
-            "correctAnswer": "Mineral trace of red slate",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Riesling Red Stone QbA Dry – Gunderloch, this component is present: Mineral trace of red slate. Full recipe ingredients: Rheinhessen, Germany. Juicy, aromas of ripe citrus, vineyard peaches and herbs, mineral trace of red slate, spicy finish.."
-          },
-          {
-            "id": "bile-riesling-gunderloch-red-stone-ing-6",
-            "question": "Which ingredient is part of Riesling Red Stone QbA Dry – Gunderloch?",
-            "correctAnswer": "Spicy finish",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Riesling Red Stone QbA Dry – Gunderloch, this component is present: Spicy finish. Full recipe ingredients: Rheinhessen, Germany. Juicy, aromas of ripe citrus, vineyard peaches and herbs, mineral trace of red slate, spicy finish.."
-          },
-          {
-            "id": "bile-riesling-gunderloch-red-stone-allergen-12",
-            "question": "Which of the following allergens is present in Riesling Red Stone QbA Dry – Gunderloch?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Riesling Red Stone QbA Dry – Gunderloch contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
-          }
-        ]
-      },
-      {
-        "id": "bile-riesling-fritz-haag",
-        "name": "Riesling Tradition Brauneberg – Fritz Haag",
-        "weight": "0,75l",
-        "price": "680 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "Mosel, Germany. Golden hue, intense citrus aromas, vibrant and harmonious palate with a hint of acacia honey.",
-        "notes": "Mosel, Germany. Golden hue, intense citrus aromas, vibrant and harmonious palate with a hint of acacia honey.",
-        "questions": [
-          {
-            "id": "bile-riesling-fritz-haag-vol",
-            "question": "What is the serving volume / measure of Riesling Tradition Brauneberg – Fritz Haag?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Riesling Tradition Brauneberg – Fritz Haag is 0,75l."
-          },
-          {
-            "id": "bile-riesling-fritz-haag-ing-1",
-            "question": "Which ingredient is part of Riesling Tradition Brauneberg – Fritz Haag?",
-            "correctAnswer": "Mosel",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Riesling Tradition Brauneberg – Fritz Haag, this component is present: Mosel. Full recipe ingredients: Mosel, Germany. Golden hue, intense citrus aromas, vibrant and harmonious palate with a hint of acacia honey.."
-          },
-          {
-            "id": "bile-riesling-fritz-haag-ing-2",
-            "question": "Which ingredient is part of Riesling Tradition Brauneberg – Fritz Haag?",
-            "correctAnswer": "Germany. Golden hue",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Riesling Tradition Brauneberg – Fritz Haag, this component is present: Germany. Golden hue. Full recipe ingredients: Mosel, Germany. Golden hue, intense citrus aromas, vibrant and harmonious palate with a hint of acacia honey.."
-          },
-          {
-            "id": "bile-riesling-fritz-haag-ing-3",
-            "question": "Which ingredient is part of Riesling Tradition Brauneberg – Fritz Haag?",
-            "correctAnswer": "Intense citrus aromas",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Riesling Tradition Brauneberg – Fritz Haag, this component is present: Intense citrus aromas. Full recipe ingredients: Mosel, Germany. Golden hue, intense citrus aromas, vibrant and harmonious palate with a hint of acacia honey.."
-          },
-          {
-            "id": "bile-riesling-fritz-haag-ing-4",
-            "question": "Which ingredient is part of Riesling Tradition Brauneberg – Fritz Haag?",
-            "correctAnswer": "Vibrant and harmonious palate with a hint of acacia honey",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Riesling Tradition Brauneberg – Fritz Haag, this component is present: Vibrant and harmonious palate with a hint of acacia honey. Full recipe ingredients: Mosel, Germany. Golden hue, intense citrus aromas, vibrant and harmonious palate with a hint of acacia honey.."
-          },
-          {
-            "id": "bile-riesling-fritz-haag-ing-5",
-            "question": "Which ingredient is part of Riesling Tradition Brauneberg – Fritz Haag?",
-            "correctAnswer": "Vibrant and harmonious palate with a hint of acacia honey",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Riesling Tradition Brauneberg – Fritz Haag, this component is present: Vibrant and harmonious palate with a hint of acacia honey. Full recipe ingredients: Mosel, Germany. Golden hue, intense citrus aromas, vibrant and harmonious palate with a hint of acacia honey.."
-          },
-          {
-            "id": "bile-riesling-fritz-haag-ing-6",
-            "question": "Which ingredient is part of Riesling Tradition Brauneberg – Fritz Haag?",
-            "correctAnswer": "Vibrant and harmonious palate with a hint of acacia honey",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Riesling Tradition Brauneberg – Fritz Haag, this component is present: Vibrant and harmonious palate with a hint of acacia honey. Full recipe ingredients: Mosel, Germany. Golden hue, intense citrus aromas, vibrant and harmonious palate with a hint of acacia honey.."
-          },
-          {
-            "id": "bile-riesling-fritz-haag-allergen-12",
-            "question": "Which of the following allergens is present in Riesling Tradition Brauneberg – Fritz Haag?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Riesling Tradition Brauneberg – Fritz Haag contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
-          }
-        ]
-      },
-      {
-        "id": "bile-weisser-burgunder-philipp-kuhn",
-        "name": "Weisser Burgunder (Pinot Blanc) – Philipp Kuhn",
-        "weight": "0,75l",
-        "price": "650 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "Pfalz, Germany. Pinot Blanc, flavors of roasted almonds, dried pears, walnuts and crisp minerality.",
-        "notes": "Pfalz, Germany. Pinot Blanc, flavors of roasted almonds, dried pears, walnuts and crisp minerality.",
-        "questions": [
-          {
-            "id": "bile-weisser-burgunder-philipp-kuhn-vol",
-            "question": "What is the serving volume / measure of Weisser Burgunder (Pinot Blanc) – Philipp Kuhn?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Weisser Burgunder (Pinot Blanc) – Philipp Kuhn is 0,75l."
-          },
-          {
-            "id": "bile-weisser-burgunder-philipp-kuhn-ing-1",
-            "question": "Which ingredient is part of Weisser Burgunder (Pinot Blanc) – Philipp Kuhn?",
-            "correctAnswer": "Pfalz",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Weisser Burgunder (Pinot Blanc) – Philipp Kuhn, this component is present: Pfalz. Full recipe ingredients: Pfalz, Germany. Pinot Blanc, flavors of roasted almonds, dried pears, walnuts and crisp minerality.."
-          },
-          {
-            "id": "bile-weisser-burgunder-philipp-kuhn-ing-2",
-            "question": "Which ingredient is part of Weisser Burgunder (Pinot Blanc) – Philipp Kuhn?",
-            "correctAnswer": "Germany. Pinot Blanc",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Weisser Burgunder (Pinot Blanc) – Philipp Kuhn, this component is present: Germany. Pinot Blanc. Full recipe ingredients: Pfalz, Germany. Pinot Blanc, flavors of roasted almonds, dried pears, walnuts and crisp minerality.."
-          },
-          {
-            "id": "bile-weisser-burgunder-philipp-kuhn-ing-3",
-            "question": "Which ingredient is part of Weisser Burgunder (Pinot Blanc) – Philipp Kuhn?",
-            "correctAnswer": "Flavors of roasted almonds",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Weisser Burgunder (Pinot Blanc) – Philipp Kuhn, this component is present: Flavors of roasted almonds. Full recipe ingredients: Pfalz, Germany. Pinot Blanc, flavors of roasted almonds, dried pears, walnuts and crisp minerality.."
-          },
-          {
-            "id": "bile-weisser-burgunder-philipp-kuhn-ing-4",
-            "question": "Which ingredient is part of Weisser Burgunder (Pinot Blanc) – Philipp Kuhn?",
-            "correctAnswer": "Dried pears",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Weisser Burgunder (Pinot Blanc) – Philipp Kuhn, this component is present: Dried pears. Full recipe ingredients: Pfalz, Germany. Pinot Blanc, flavors of roasted almonds, dried pears, walnuts and crisp minerality.."
-          },
-          {
-            "id": "bile-weisser-burgunder-philipp-kuhn-ing-5",
-            "question": "Which ingredient is part of Weisser Burgunder (Pinot Blanc) – Philipp Kuhn?",
-            "correctAnswer": "Walnuts and crisp minerality",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Weisser Burgunder (Pinot Blanc) – Philipp Kuhn, this component is present: Walnuts and crisp minerality. Full recipe ingredients: Pfalz, Germany. Pinot Blanc, flavors of roasted almonds, dried pears, walnuts and crisp minerality.."
-          },
-          {
-            "id": "bile-weisser-burgunder-philipp-kuhn-allergen-12",
-            "question": "Which of the following allergens is present in Weisser Burgunder (Pinot Blanc) – Philipp Kuhn?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Weisser Burgunder (Pinot Blanc) – Philipp Kuhn contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
-          }
-        ]
-      },
-      {
-        "id": "bile-sauvignon-lapis-luna",
-        "name": "Sauvignon Blanc – Lapis Luna",
-        "weight": "0,75l",
-        "price": "790 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "North Coast, California. Fuller-bodied, zesty acidity, fruity varietal style, ripe white peach and tropical fruit on the palate.",
-        "notes": "North Coast, California. Fuller-bodied, zesty acidity, fruity varietal style, ripe white peach and tropical fruit on the palate.",
-        "questions": [
-          {
-            "id": "bile-sauvignon-lapis-luna-vol",
-            "question": "What is the serving volume / measure of Sauvignon Blanc – Lapis Luna?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Sauvignon Blanc – Lapis Luna is 0,75l."
-          },
-          {
-            "id": "bile-sauvignon-lapis-luna-ing-1",
-            "question": "Which ingredient is part of Sauvignon Blanc – Lapis Luna?",
-            "correctAnswer": "North Coast",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Sauvignon Blanc – Lapis Luna, this component is present: North Coast. Full recipe ingredients: North Coast, California. Fuller-bodied, zesty acidity, fruity varietal style, ripe white peach and tropical fruit on the palate.."
-          },
-          {
-            "id": "bile-sauvignon-lapis-luna-ing-2",
-            "question": "Which ingredient is part of Sauvignon Blanc – Lapis Luna?",
-            "correctAnswer": "California. Fuller-bodied",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Sauvignon Blanc – Lapis Luna, this component is present: California. Fuller-bodied. Full recipe ingredients: North Coast, California. Fuller-bodied, zesty acidity, fruity varietal style, ripe white peach and tropical fruit on the palate.."
-          },
-          {
-            "id": "bile-sauvignon-lapis-luna-ing-3",
-            "question": "Which grape variety, winery, or characteristic belongs to Sauvignon Blanc – Lapis Luna?",
-            "correctAnswer": "Zesty acidity",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Sauvignon Blanc – Lapis Luna, this component is present: Zesty acidity. Full recipe ingredients: North Coast, California. Fuller-bodied, zesty acidity, fruity varietal style, ripe white peach and tropical fruit on the palate.."
-          },
-          {
-            "id": "bile-sauvignon-lapis-luna-ing-4",
-            "question": "Which ingredient is part of Sauvignon Blanc – Lapis Luna?",
-            "correctAnswer": "Fruity varietal style",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Sauvignon Blanc – Lapis Luna, this component is present: Fruity varietal style. Full recipe ingredients: North Coast, California. Fuller-bodied, zesty acidity, fruity varietal style, ripe white peach and tropical fruit on the palate.."
-          },
-          {
-            "id": "bile-sauvignon-lapis-luna-ing-5",
-            "question": "Which ingredient is part of Sauvignon Blanc – Lapis Luna?",
-            "correctAnswer": "Ripe white peach and tropical fruit on the palate",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Sauvignon Blanc – Lapis Luna, this component is present: Ripe white peach and tropical fruit on the palate. Full recipe ingredients: North Coast, California. Fuller-bodied, zesty acidity, fruity varietal style, ripe white peach and tropical fruit on the palate.."
-          },
-          {
-            "id": "bile-sauvignon-lapis-luna-allergen-12",
-            "question": "Which of the following allergens is present in Sauvignon Blanc – Lapis Luna?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Sauvignon Blanc – Lapis Luna contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
-          }
-        ]
-      },
-      {
-        "id": "bile-chardonnay-knotty-vines",
-        "name": "Chardonnay – Knotty Vines",
-        "weight": "0,75l",
-        "price": "690 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "California. Full-bodied oak-aged wine, juicy with an elegant finish, flavors of tropical fruit, baking spices and minerality.",
-        "notes": "California. Full-bodied oak-aged wine, juicy with an elegant finish, flavors of tropical fruit, baking spices and minerality.",
-        "questions": [
-          {
-            "id": "bile-chardonnay-knotty-vines-vol",
-            "question": "What is the serving volume / measure of Chardonnay – Knotty Vines?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Chardonnay – Knotty Vines is 0,75l."
-          },
-          {
-            "id": "bile-chardonnay-knotty-vines-ing-1",
-            "question": "Which ingredient is part of Chardonnay – Knotty Vines?",
-            "correctAnswer": "California. Full-bodied oak-aged wine",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Chardonnay – Knotty Vines, this component is present: California. Full-bodied oak-aged wine. Full recipe ingredients: California. Full-bodied oak-aged wine, juicy with an elegant finish, flavors of tropical fruit, baking spices and minerality.."
-          },
-          {
-            "id": "bile-chardonnay-knotty-vines-ing-2",
-            "question": "Which ingredient is part of Chardonnay – Knotty Vines?",
-            "correctAnswer": "Juicy with an elegant finish",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Chardonnay – Knotty Vines, this component is present: Juicy with an elegant finish. Full recipe ingredients: California. Full-bodied oak-aged wine, juicy with an elegant finish, flavors of tropical fruit, baking spices and minerality.."
-          },
-          {
-            "id": "bile-chardonnay-knotty-vines-ing-3",
-            "question": "Which ingredient is part of Chardonnay – Knotty Vines?",
-            "correctAnswer": "Flavors of tropical fruit",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Chardonnay – Knotty Vines, this component is present: Flavors of tropical fruit. Full recipe ingredients: California. Full-bodied oak-aged wine, juicy with an elegant finish, flavors of tropical fruit, baking spices and minerality.."
-          },
-          {
-            "id": "bile-chardonnay-knotty-vines-ing-4",
-            "question": "Which ingredient is part of Chardonnay – Knotty Vines?",
-            "correctAnswer": "Baking spices and minerality",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Chardonnay – Knotty Vines, this component is present: Baking spices and minerality. Full recipe ingredients: California. Full-bodied oak-aged wine, juicy with an elegant finish, flavors of tropical fruit, baking spices and minerality.."
-          },
-          {
-            "id": "bile-chardonnay-knotty-vines-ing-5",
-            "question": "Which ingredient is part of Chardonnay – Knotty Vines?",
-            "correctAnswer": "Baking spices and minerality",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Chardonnay – Knotty Vines, this component is present: Baking spices and minerality. Full recipe ingredients: California. Full-bodied oak-aged wine, juicy with an elegant finish, flavors of tropical fruit, baking spices and minerality.."
-          },
-          {
-            "id": "bile-chardonnay-knotty-vines-allergen-12",
-            "question": "Which of the following allergens is present in Chardonnay – Knotty Vines?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Chardonnay – Knotty Vines contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "ruzova-vina",
-    "name": "rosé wines",
-    "badge": "Rosé wines",
-    "description": "Fruity and fresh rosé wines perfect with light dishes",
-    "iconName": "Wine",
-    "items": [
-      {
-        "id": "ruzove-merlot-rose-bilkovi",
-        "name": "Merlot Rosé – Bílkovi",
-        "weight": "0,75l",
-        "price": "560 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "Late harvest Bílkovi – Velké Pavlovice region, Moravia. Highly drinkable, aromas of raspberries, strawberries and cherries, fruity palate with hints of cream.",
-        "notes": "Late harvest Bílkovi – Velké Pavlovice region, Moravia. Highly drinkable, aromas of raspberries, strawberries and cherries, fruity palate with hints of cream.",
-        "questions": [
-          {
-            "id": "ruzove-merlot-rose-bilkovi-vol",
-            "question": "What is the serving volume / measure of Merlot Rosé – Bílkovi?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Merlot Rosé – Bílkovi is 0,75l."
-          },
-          {
-            "id": "ruzove-merlot-rose-bilkovi-ing-1",
-            "question": "Which grape variety, winery, or characteristic belongs to Merlot Rosé – Bílkovi?",
-            "correctAnswer": "Late harvest Bílkovi – Velké Pavlovice region",
-            "distractors": [
-              "Gotberg winery",
-              "Kolby winery"
-            ],
-            "explanation": "In Merlot Rosé – Bílkovi, this component is present: Late harvest Bílkovi – Velké Pavlovice region. Full recipe ingredients: Late harvest Bílkovi – Velké Pavlovice region, Moravia. Highly drinkable, aromas of raspberries, strawberries and cherries, fruity palate with hints of cream.."
-          },
-          {
-            "id": "ruzove-merlot-rose-bilkovi-ing-2",
-            "question": "Which ingredient is part of Merlot Rosé – Bílkovi?",
-            "correctAnswer": "Moravia. Highly drinkable",
-            "distractors": [
-              "Kraus winery",
-              "Michlovsky winery"
-            ],
-            "explanation": "In Merlot Rosé – Bílkovi, this component is present: Moravia. Highly drinkable. Full recipe ingredients: Late harvest Bílkovi – Velké Pavlovice region, Moravia. Highly drinkable, aromas of raspberries, strawberries and cherries, fruity palate with hints of cream.."
-          },
-          {
-            "id": "ruzove-merlot-rose-bilkovi-ing-3",
-            "question": "Which ingredient is part of Merlot Rosé – Bílkovi?",
-            "correctAnswer": "Aromas of raspberries",
-            "distractors": [
-              "Mikulov subregion",
-              "Velke Pavlovice subregion"
-            ],
-            "explanation": "In Merlot Rosé – Bílkovi, this component is present: Aromas of raspberries. Full recipe ingredients: Late harvest Bílkovi – Velké Pavlovice region, Moravia. Highly drinkable, aromas of raspberries, strawberries and cherries, fruity palate with hints of cream.."
-          },
-          {
-            "id": "ruzove-merlot-rose-bilkovi-ing-4",
-            "question": "Which bread, side, or crispy garnish accompanies Merlot Rosé – Bílkovi?",
-            "correctAnswer": "Strawberries and cherries",
-            "distractors": [
-              "Melnik subregion",
-              "Vibrant acidity and mineral notes"
-            ],
-            "explanation": "In Merlot Rosé – Bílkovi, this component is present: Strawberries and cherries. Full recipe ingredients: Late harvest Bílkovi – Velké Pavlovice region, Moravia. Highly drinkable, aromas of raspberries, strawberries and cherries, fruity palate with hints of cream.."
-          },
-          {
-            "id": "ruzove-merlot-rose-bilkovi-ing-5",
-            "question": "Which ingredient is part of Merlot Rosé – Bílkovi?",
-            "correctAnswer": "Fruity palate with hints of cream",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Merlot Rosé – Bílkovi, this component is present: Fruity palate with hints of cream. Full recipe ingredients: Late harvest Bílkovi – Velké Pavlovice region, Moravia. Highly drinkable, aromas of raspberries, strawberries and cherries, fruity palate with hints of cream.."
-          },
-          {
-            "id": "ruzove-merlot-rose-bilkovi-allergen-12",
-            "question": "Which of the following allergens is present in Merlot Rosé – Bílkovi?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Merlot Rosé – Bílkovi contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "cervena-vina",
-    "name": "red wines",
-    "badge": "Red wines",
-    "description": "Bold and elegant red wines from Moravia, France, Italy, and the New World",
-    "iconName": "Wine",
-    "items": [
-      {
-        "id": "cervene-pinot-noir-rouci-kraus",
-        "name": "Pinot Noir Roučí Malé – Kraus",
-        "weight": "0,75l",
-        "price": "540 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "Mělník region, Bohemia. Light-bodied red wine, flavors of wild strawberries and red summer garden fruit.",
-        "notes": "Mělník region, Bohemia. Light-bodied red wine, flavors of wild strawberries and red summer garden fruit.",
-        "questions": [
-          {
-            "id": "cervene-pinot-noir-rouci-kraus-vol",
-            "question": "What is the serving volume / measure of Pinot Noir Roučí Malé – Kraus?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Pinot Noir Roučí Malé – Kraus is 0,75l."
-          },
-          {
-            "id": "cervene-pinot-noir-rouci-kraus-ing-1",
-            "question": "Which ingredient is part of Pinot Noir Roučí Malé – Kraus?",
-            "correctAnswer": "Mělník region",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Pinot Noir Roučí Malé – Kraus, this component is present: Mělník region. Full recipe ingredients: Mělník region, Bohemia. Light-bodied red wine, flavors of wild strawberries and red summer garden fruit.."
-          },
-          {
-            "id": "cervene-pinot-noir-rouci-kraus-ing-2",
-            "question": "Which ingredient is part of Pinot Noir Roučí Malé – Kraus?",
-            "correctAnswer": "Bohemia. Light-bodied red wine",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Pinot Noir Roučí Malé – Kraus, this component is present: Bohemia. Light-bodied red wine. Full recipe ingredients: Mělník region, Bohemia. Light-bodied red wine, flavors of wild strawberries and red summer garden fruit.."
-          },
-          {
-            "id": "cervene-pinot-noir-rouci-kraus-ing-3",
-            "question": "Which bread, side, or crispy garnish accompanies Pinot Noir Roučí Malé – Kraus?",
-            "correctAnswer": "Flavors of wild strawberries and red summer garden fruit",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Pinot Noir Roučí Malé – Kraus, this component is present: Flavors of wild strawberries and red summer garden fruit. Full recipe ingredients: Mělník region, Bohemia. Light-bodied red wine, flavors of wild strawberries and red summer garden fruit.."
-          },
-          {
-            "id": "cervene-pinot-noir-rouci-kraus-allergen-12",
-            "question": "Which of the following allergens is present in Pinot Noir Roučí Malé – Kraus?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Pinot Noir Roučí Malé – Kraus contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
-          }
-        ]
-      },
-      {
-        "id": "cervene-dornfelder-bilkovi",
-        "name": "Dornfelder – Bílkovi",
-        "weight": "0,75l",
-        "price": "540 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "Velké Pavlovice region, Moravia. 12 months oak aging, blackberry bouquet, full and harmonious palate of currants, cherries and raspberries.",
-        "notes": "Velké Pavlovice region, Moravia. 12 months oak aging, blackberry bouquet, full and harmonious palate of currants, cherries and raspberries.",
-        "questions": [
-          {
-            "id": "cervene-dornfelder-bilkovi-vol",
-            "question": "What is the serving volume / measure of Dornfelder – Bílkovi?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Dornfelder – Bílkovi is 0,75l."
-          },
-          {
-            "id": "cervene-dornfelder-bilkovi-ing-1",
-            "question": "Which ingredient is part of Dornfelder – Bílkovi?",
-            "correctAnswer": "Velké Pavlovice region",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Dornfelder – Bílkovi, this component is present: Velké Pavlovice region. Full recipe ingredients: Velké Pavlovice region, Moravia. 12 months oak aging, blackberry bouquet, full and harmonious palate of currants, cherries and raspberries.."
-          },
-          {
-            "id": "cervene-dornfelder-bilkovi-ing-2",
-            "question": "Which spirit or liqueur is a signature component of Dornfelder – Bílkovi?",
-            "correctAnswer": "Moravia. 12 months oak aging",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Dornfelder – Bílkovi, this component is present: Moravia. 12 months oak aging. Full recipe ingredients: Velké Pavlovice region, Moravia. 12 months oak aging, blackberry bouquet, full and harmonious palate of currants, cherries and raspberries.."
-          },
-          {
-            "id": "cervene-dornfelder-bilkovi-ing-3",
-            "question": "Which ingredient is part of Dornfelder – Bílkovi?",
-            "correctAnswer": "Blackberry bouquet",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Dornfelder – Bílkovi, this component is present: Blackberry bouquet. Full recipe ingredients: Velké Pavlovice region, Moravia. 12 months oak aging, blackberry bouquet, full and harmonious palate of currants, cherries and raspberries.."
-          },
-          {
-            "id": "cervene-dornfelder-bilkovi-ing-4",
-            "question": "Which ingredient is part of Dornfelder – Bílkovi?",
-            "correctAnswer": "Full and harmonious palate of currants",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Dornfelder – Bílkovi, this component is present: Full and harmonious palate of currants. Full recipe ingredients: Velké Pavlovice region, Moravia. 12 months oak aging, blackberry bouquet, full and harmonious palate of currants, cherries and raspberries.."
-          },
-          {
-            "id": "cervene-dornfelder-bilkovi-ing-5",
-            "question": "Which ingredient is part of Dornfelder – Bílkovi?",
-            "correctAnswer": "Cherries and raspberries",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Dornfelder – Bílkovi, this component is present: Cherries and raspberries. Full recipe ingredients: Velké Pavlovice region, Moravia. 12 months oak aging, blackberry bouquet, full and harmonious palate of currants, cherries and raspberries.."
-          },
-          {
-            "id": "cervene-dornfelder-bilkovi-ing-6",
-            "question": "Which ingredient is part of Dornfelder – Bílkovi?",
-            "correctAnswer": "Cherries and raspberries",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Dornfelder – Bílkovi, this component is present: Cherries and raspberries. Full recipe ingredients: Velké Pavlovice region, Moravia. 12 months oak aging, blackberry bouquet, full and harmonious palate of currants, cherries and raspberries.."
-          },
-          {
-            "id": "cervene-dornfelder-bilkovi-allergen-12",
-            "question": "Which of the following allergens is present in Dornfelder – Bílkovi?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Dornfelder – Bílkovi contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
-          }
-        ]
-      },
-      {
-        "id": "cervene-cuvee-red-kolby",
-        "name": "Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby",
-        "weight": "0,75l",
-        "price": "680 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "Mikulov region, Moravia. Full-bodied, complex, long finish, deep garnet color, notes of dark chocolate, spices, dark berries and subtle smoke.",
-        "notes": "Mikulov region, Moravia. Full-bodied, complex, long finish, deep garnet color, notes of dark chocolate, spices, dark berries and subtle smoke.",
-        "questions": [
-          {
-            "id": "cervene-cuvee-red-kolby-vol",
-            "question": "What is the serving volume / measure of Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby is 0,75l."
-          },
-          {
-            "id": "cervene-cuvee-red-kolby-ing-1",
-            "question": "Which ingredient is part of Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
-            "correctAnswer": "Mikulov region",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby, this component is present: Mikulov region. Full recipe ingredients: Mikulov region, Moravia. Full-bodied, complex, long finish, deep garnet color, notes of dark chocolate, spices, dark berries and subtle smoke.."
-          },
-          {
-            "id": "cervene-cuvee-red-kolby-ing-2",
-            "question": "Which ingredient is part of Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
-            "correctAnswer": "Moravia. Full-bodied",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby, this component is present: Moravia. Full-bodied. Full recipe ingredients: Mikulov region, Moravia. Full-bodied, complex, long finish, deep garnet color, notes of dark chocolate, spices, dark berries and subtle smoke.."
-          },
-          {
-            "id": "cervene-cuvee-red-kolby-ing-3",
-            "question": "Which ingredient is part of Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
-            "correctAnswer": "Complex",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby, this component is present: Complex. Full recipe ingredients: Mikulov region, Moravia. Full-bodied, complex, long finish, deep garnet color, notes of dark chocolate, spices, dark berries and subtle smoke.."
-          },
-          {
-            "id": "cervene-cuvee-red-kolby-ing-4",
-            "question": "Which ingredient is part of Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
-            "correctAnswer": "Long finish",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby, this component is present: Long finish. Full recipe ingredients: Mikulov region, Moravia. Full-bodied, complex, long finish, deep garnet color, notes of dark chocolate, spices, dark berries and subtle smoke.."
-          },
-          {
-            "id": "cervene-cuvee-red-kolby-ing-5",
-            "question": "Which ingredient is part of Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
-            "correctAnswer": "Deep garnet color",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby, this component is present: Deep garnet color. Full recipe ingredients: Mikulov region, Moravia. Full-bodied, complex, long finish, deep garnet color, notes of dark chocolate, spices, dark berries and subtle smoke.."
-          },
-          {
-            "id": "cervene-cuvee-red-kolby-ing-6",
-            "question": "Which ingredient is part of Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
-            "correctAnswer": "Notes of dark chocolate",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby, this component is present: Notes of dark chocolate. Full recipe ingredients: Mikulov region, Moravia. Full-bodied, complex, long finish, deep garnet color, notes of dark chocolate, spices, dark berries and subtle smoke.."
-          },
-          {
-            "id": "cervene-cuvee-red-kolby-ing-7",
-            "question": "Which ingredient is part of Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
-            "correctAnswer": "Spices",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby, this component is present: Spices. Full recipe ingredients: Mikulov region, Moravia. Full-bodied, complex, long finish, deep garnet color, notes of dark chocolate, spices, dark berries and subtle smoke.."
-          },
-          {
-            "id": "cervene-cuvee-red-kolby-ing-8",
-            "question": "Which ingredient is part of Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
-            "correctAnswer": "Dark berries and subtle smoke",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby, this component is present: Dark berries and subtle smoke. Full recipe ingredients: Mikulov region, Moravia. Full-bodied, complex, long finish, deep garnet color, notes of dark chocolate, spices, dark berries and subtle smoke.."
-          },
-          {
-            "id": "cervene-cuvee-red-kolby-allergen-12",
-            "question": "Which of the following allergens is present in Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
-          }
-        ]
-      },
-      {
-        "id": "cervene-nina-cuvee-bilkovi",
-        "name": "Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi",
-        "weight": "0,75l",
-        "price": "790 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "Velké Pavlovice region, Moravia. Full-bodied, 14 months in oak barrels, aromas of currants and roasted coffee, palate of dark chocolate and plums.",
-        "notes": "Velké Pavlovice region, Moravia. Full-bodied, 14 months in oak barrels, aromas of currants and roasted coffee, palate of dark chocolate and plums.",
-        "questions": [
-          {
-            "id": "cervene-nina-cuvee-bilkovi-vol",
-            "question": "What is the serving volume / measure of Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi is 0,75l."
-          },
-          {
-            "id": "cervene-nina-cuvee-bilkovi-ing-1",
-            "question": "Which ingredient is part of Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi?",
-            "correctAnswer": "Velké Pavlovice region",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi, this component is present: Velké Pavlovice region. Full recipe ingredients: Velké Pavlovice region, Moravia. Full-bodied, 14 months in oak barrels, aromas of currants and roasted coffee, palate of dark chocolate and plums.."
-          },
-          {
-            "id": "cervene-nina-cuvee-bilkovi-ing-2",
-            "question": "Which ingredient is part of Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi?",
-            "correctAnswer": "Moravia. Full-bodied",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi, this component is present: Moravia. Full-bodied. Full recipe ingredients: Velké Pavlovice region, Moravia. Full-bodied, 14 months in oak barrels, aromas of currants and roasted coffee, palate of dark chocolate and plums.."
-          },
-          {
-            "id": "cervene-nina-cuvee-bilkovi-ing-3",
-            "question": "Which ingredient is part of Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi?",
-            "correctAnswer": "14 months in oak barrels",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi, this component is present: 14 months in oak barrels. Full recipe ingredients: Velké Pavlovice region, Moravia. Full-bodied, 14 months in oak barrels, aromas of currants and roasted coffee, palate of dark chocolate and plums.."
-          },
-          {
-            "id": "cervene-nina-cuvee-bilkovi-ing-4",
-            "question": "Which ingredient is part of Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi?",
-            "correctAnswer": "Aromas of currants and roasted coffee",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi, this component is present: Aromas of currants and roasted coffee. Full recipe ingredients: Velké Pavlovice region, Moravia. Full-bodied, 14 months in oak barrels, aromas of currants and roasted coffee, palate of dark chocolate and plums.."
-          },
-          {
-            "id": "cervene-nina-cuvee-bilkovi-ing-5",
-            "question": "Which ingredient is part of Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi?",
-            "correctAnswer": "Palate of dark chocolate and plums",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi, this component is present: Palate of dark chocolate and plums. Full recipe ingredients: Velké Pavlovice region, Moravia. Full-bodied, 14 months in oak barrels, aromas of currants and roasted coffee, palate of dark chocolate and plums.."
-          },
-          {
-            "id": "cervene-nina-cuvee-bilkovi-allergen-12",
-            "question": "Which of the following allergens is present in Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
-          }
-        ]
-      },
-      {
-        "id": "cervene-zweigelt-feller-artinger",
-        "name": "Zweigelt – Weingut Feiler-Artinger",
-        "weight": "0,75l",
-        "price": "690 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "Burgenland, Austria. Fresh, berry aromas, velvety palate of dark berries, oak, herbs and fine tobacco.",
-        "notes": "Burgenland, Austria. Fresh, berry aromas, velvety palate of dark berries, oak, herbs and fine tobacco.",
-        "questions": [
-          {
-            "id": "cervene-zweigelt-feller-artinger-vol",
-            "question": "What is the serving volume / measure of Zweigelt – Weingut Feiler-Artinger?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Zweigelt – Weingut Feiler-Artinger is 0,75l."
-          },
-          {
-            "id": "cervene-zweigelt-feller-artinger-ing-1",
-            "question": "Which ingredient is part of Zweigelt – Weingut Feiler-Artinger?",
-            "correctAnswer": "Burgenland",
-            "distractors": [
-              "Gotberg winery",
-              "Kolby winery"
-            ],
-            "explanation": "In Zweigelt – Weingut Feiler-Artinger, this component is present: Burgenland. Full recipe ingredients: Burgenland, Austria. Fresh, berry aromas, velvety palate of dark berries, oak, herbs and fine tobacco.."
-          },
-          {
-            "id": "cervene-zweigelt-feller-artinger-ing-2",
-            "question": "Which ingredient is part of Zweigelt – Weingut Feiler-Artinger?",
-            "correctAnswer": "Austria. Fresh",
-            "distractors": [
-              "Kraus winery",
-              "Michlovsky winery"
-            ],
-            "explanation": "In Zweigelt – Weingut Feiler-Artinger, this component is present: Austria. Fresh. Full recipe ingredients: Burgenland, Austria. Fresh, berry aromas, velvety palate of dark berries, oak, herbs and fine tobacco.."
-          },
-          {
-            "id": "cervene-zweigelt-feller-artinger-ing-3",
-            "question": "Which ingredient is part of Zweigelt – Weingut Feiler-Artinger?",
-            "correctAnswer": "Berry aromas",
-            "distractors": [
-              "Mikulov subregion",
-              "Velke Pavlovice subregion"
-            ],
-            "explanation": "In Zweigelt – Weingut Feiler-Artinger, this component is present: Berry aromas. Full recipe ingredients: Burgenland, Austria. Fresh, berry aromas, velvety palate of dark berries, oak, herbs and fine tobacco.."
-          },
-          {
-            "id": "cervene-zweigelt-feller-artinger-ing-4",
-            "question": "Which ingredient is part of Zweigelt – Weingut Feiler-Artinger?",
-            "correctAnswer": "Velvety palate of dark berries",
-            "distractors": [
-              "Melnik subregion",
-              "Vibrant acidity and mineral notes"
-            ],
-            "explanation": "In Zweigelt – Weingut Feiler-Artinger, this component is present: Velvety palate of dark berries. Full recipe ingredients: Burgenland, Austria. Fresh, berry aromas, velvety palate of dark berries, oak, herbs and fine tobacco.."
-          },
-          {
-            "id": "cervene-zweigelt-feller-artinger-ing-5",
-            "question": "Which ingredient is part of Zweigelt – Weingut Feiler-Artinger?",
-            "correctAnswer": "Oak",
-            "distractors": [
-              "Late harvest",
-              "Gotberg winery"
-            ],
-            "explanation": "In Zweigelt – Weingut Feiler-Artinger, this component is present: Oak. Full recipe ingredients: Burgenland, Austria. Fresh, berry aromas, velvety palate of dark berries, oak, herbs and fine tobacco.."
-          },
-          {
-            "id": "cervene-zweigelt-feller-artinger-ing-6",
-            "question": "Which fresh herb or spice seasoning finishes Zweigelt – Weingut Feiler-Artinger?",
-            "correctAnswer": "Herbs and fine tobacco",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Zweigelt – Weingut Feiler-Artinger, this component is present: Herbs and fine tobacco. Full recipe ingredients: Burgenland, Austria. Fresh, berry aromas, velvety palate of dark berries, oak, herbs and fine tobacco.."
-          },
-          {
-            "id": "cervene-zweigelt-feller-artinger-allergen-12",
-            "question": "Which of the following allergens is present in Zweigelt – Weingut Feiler-Artinger?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Zweigelt – Weingut Feiler-Artinger contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
-          }
-        ]
-      },
-      {
-        "id": "cervene-pinot-noir-philipp-kuhn",
-        "name": "Pinot Noir Tradition – Philipp Kuhn",
-        "weight": "0,75l",
-        "price": "680 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.",
-        "notes": "Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.",
-        "questions": [
-          {
-            "id": "cervene-pinot-noir-philipp-kuhn-vol",
-            "question": "What is the serving volume / measure of Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Pinot Noir Tradition – Philipp Kuhn is 0,75l."
-          },
-          {
-            "id": "cervene-pinot-noir-philipp-kuhn-ing-1",
-            "question": "Which ingredient is part of Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "Pfalz",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Pinot Noir Tradition – Philipp Kuhn, this component is present: Pfalz. Full recipe ingredients: Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.."
-          },
-          {
-            "id": "cervene-pinot-noir-philipp-kuhn-ing-2",
-            "question": "Which ingredient is part of Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "Germany. Medium-bodied",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Pinot Noir Tradition – Philipp Kuhn, this component is present: Germany. Medium-bodied. Full recipe ingredients: Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.."
-          },
-          {
-            "id": "cervene-pinot-noir-philipp-kuhn-ing-3",
-            "question": "Which bread, side, or crispy garnish accompanies Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "Bouquet of wild strawberries",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Pinot Noir Tradition – Philipp Kuhn, this component is present: Bouquet of wild strawberries. Full recipe ingredients: Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.."
-          },
-          {
-            "id": "cervene-pinot-noir-philipp-kuhn-ing-4",
-            "question": "Which ingredient is part of Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "Dried prunes",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Pinot Noir Tradition – Philipp Kuhn, this component is present: Dried prunes. Full recipe ingredients: Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.."
-          },
-          {
-            "id": "cervene-pinot-noir-philipp-kuhn-ing-5",
-            "question": "Which ingredient is part of Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "Almonds",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Pinot Noir Tradition – Philipp Kuhn, this component is present: Almonds. Full recipe ingredients: Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.."
-          },
-          {
-            "id": "cervene-pinot-noir-philipp-kuhn-ing-6",
-            "question": "Which ingredient is part of Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "Cherries",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Pinot Noir Tradition – Philipp Kuhn, this component is present: Cherries. Full recipe ingredients: Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.."
-          },
-          {
-            "id": "cervene-pinot-noir-philipp-kuhn-ing-7",
-            "question": "Which ingredient is part of Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "Dark chocolate and leather",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Pinot Noir Tradition – Philipp Kuhn, this component is present: Dark chocolate and leather. Full recipe ingredients: Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.."
-          },
-          {
-            "id": "cervene-pinot-noir-philipp-kuhn-ing-8",
-            "question": "Which ingredient is part of Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "Structured tannins",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Pinot Noir Tradition – Philipp Kuhn, this component is present: Structured tannins. Full recipe ingredients: Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.."
-          },
-          {
-            "id": "cervene-pinot-noir-philipp-kuhn-ing-9",
-            "question": "Which ingredient is part of Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "Finish of ripe cherries and violets",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Pinot Noir Tradition – Philipp Kuhn, this component is present: Finish of ripe cherries and violets. Full recipe ingredients: Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.."
-          },
-          {
-            "id": "cervene-pinot-noir-philipp-kuhn-allergen-12",
-            "question": "Which of the following allergens is present in Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Pinot Noir Tradition – Philipp Kuhn contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
-          }
-        ]
-      },
-      {
-        "id": "cervene-cabernet-lapis-luna",
-        "name": "Cabernet Sauvignon – Lapis Luna",
-        "weight": "0,75l",
-        "price": "890 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "Lodi, California. Medium to full-bodied, pleasing acidity, long finish, dark fruit, blackcurrant, baking spices, cinnamon and clove.",
-        "notes": "Lodi, California. Medium to full-bodied, pleasing acidity, long finish, dark fruit, blackcurrant, baking spices, cinnamon and clove.",
-        "questions": [
-          {
-            "id": "cervene-cabernet-lapis-luna-vol",
-            "question": "What is the serving volume / measure of Cabernet Sauvignon – Lapis Luna?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Cabernet Sauvignon – Lapis Luna is 0,75l."
-          },
-          {
-            "id": "cervene-cabernet-lapis-luna-ing-1",
-            "question": "Which ingredient is part of Cabernet Sauvignon – Lapis Luna?",
-            "correctAnswer": "Lodi",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Cabernet Sauvignon – Lapis Luna, this component is present: Lodi. Full recipe ingredients: Lodi, California. Medium to full-bodied, pleasing acidity, long finish, dark fruit, blackcurrant, baking spices, cinnamon and clove.."
-          },
-          {
-            "id": "cervene-cabernet-lapis-luna-ing-2",
-            "question": "Which ingredient is part of Cabernet Sauvignon – Lapis Luna?",
-            "correctAnswer": "California. Medium to full-bodied",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Cabernet Sauvignon – Lapis Luna, this component is present: California. Medium to full-bodied. Full recipe ingredients: Lodi, California. Medium to full-bodied, pleasing acidity, long finish, dark fruit, blackcurrant, baking spices, cinnamon and clove.."
-          },
-          {
-            "id": "cervene-cabernet-lapis-luna-ing-3",
-            "question": "Which grape variety, winery, or characteristic belongs to Cabernet Sauvignon – Lapis Luna?",
-            "correctAnswer": "Pleasing acidity",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Cabernet Sauvignon – Lapis Luna, this component is present: Pleasing acidity. Full recipe ingredients: Lodi, California. Medium to full-bodied, pleasing acidity, long finish, dark fruit, blackcurrant, baking spices, cinnamon and clove.."
-          },
-          {
-            "id": "cervene-cabernet-lapis-luna-ing-4",
-            "question": "Which ingredient is part of Cabernet Sauvignon – Lapis Luna?",
-            "correctAnswer": "Long finish",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Cabernet Sauvignon – Lapis Luna, this component is present: Long finish. Full recipe ingredients: Lodi, California. Medium to full-bodied, pleasing acidity, long finish, dark fruit, blackcurrant, baking spices, cinnamon and clove.."
-          },
-          {
-            "id": "cervene-cabernet-lapis-luna-ing-5",
-            "question": "Which ingredient is part of Cabernet Sauvignon – Lapis Luna?",
-            "correctAnswer": "Dark fruit",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Cabernet Sauvignon – Lapis Luna, this component is present: Dark fruit. Full recipe ingredients: Lodi, California. Medium to full-bodied, pleasing acidity, long finish, dark fruit, blackcurrant, baking spices, cinnamon and clove.."
-          },
-          {
-            "id": "cervene-cabernet-lapis-luna-ing-6",
-            "question": "Which ingredient is part of Cabernet Sauvignon – Lapis Luna?",
-            "correctAnswer": "Blackcurrant",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Cabernet Sauvignon – Lapis Luna, this component is present: Blackcurrant. Full recipe ingredients: Lodi, California. Medium to full-bodied, pleasing acidity, long finish, dark fruit, blackcurrant, baking spices, cinnamon and clove.."
-          },
-          {
-            "id": "cervene-cabernet-lapis-luna-ing-7",
-            "question": "Which ingredient is part of Cabernet Sauvignon – Lapis Luna?",
-            "correctAnswer": "Baking spices",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Cabernet Sauvignon – Lapis Luna, this component is present: Baking spices. Full recipe ingredients: Lodi, California. Medium to full-bodied, pleasing acidity, long finish, dark fruit, blackcurrant, baking spices, cinnamon and clove.."
-          },
-          {
-            "id": "cervene-cabernet-lapis-luna-ing-8",
-            "question": "Which ingredient is part of Cabernet Sauvignon – Lapis Luna?",
-            "correctAnswer": "Cinnamon and clove",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Cabernet Sauvignon – Lapis Luna, this component is present: Cinnamon and clove. Full recipe ingredients: Lodi, California. Medium to full-bodied, pleasing acidity, long finish, dark fruit, blackcurrant, baking spices, cinnamon and clove.."
-          },
-          {
-            "id": "cervene-cabernet-lapis-luna-allergen-12",
-            "question": "Which of the following allergens is present in Cabernet Sauvignon – Lapis Luna?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Cabernet Sauvignon – Lapis Luna contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
-          }
-        ]
-      },
-      {
-        "id": "cervene-zinfandel-hendry",
-        "name": "Zinfandel Hendry Ranch HRW",
-        "weight": "0,75l",
-        "price": "1 390 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "Napa Valley, California. Full-bodied, powerful with a long spiced finish, juicy acidity, rich flavors of dark berries, sweet spices and dark chocolate.",
-        "notes": "Napa Valley, California. Full-bodied, powerful with a long spiced finish, juicy acidity, rich flavors of dark berries, sweet spices and dark chocolate.",
-        "questions": [
-          {
-            "id": "cervene-zinfandel-hendry-vol",
-            "question": "What is the serving volume / measure of Zinfandel Hendry Ranch HRW?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Zinfandel Hendry Ranch HRW is 0,75l."
-          },
-          {
-            "id": "cervene-zinfandel-hendry-ing-1",
-            "question": "Which ingredient is part of Zinfandel Hendry Ranch HRW?",
-            "correctAnswer": "Napa Valley",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Zinfandel Hendry Ranch HRW, this component is present: Napa Valley. Full recipe ingredients: Napa Valley, California. Full-bodied, powerful with a long spiced finish, juicy acidity, rich flavors of dark berries, sweet spices and dark chocolate.."
-          },
-          {
-            "id": "cervene-zinfandel-hendry-ing-2",
-            "question": "Which ingredient is part of Zinfandel Hendry Ranch HRW?",
-            "correctAnswer": "California. Full-bodied",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Zinfandel Hendry Ranch HRW, this component is present: California. Full-bodied. Full recipe ingredients: Napa Valley, California. Full-bodied, powerful with a long spiced finish, juicy acidity, rich flavors of dark berries, sweet spices and dark chocolate.."
-          },
-          {
-            "id": "cervene-zinfandel-hendry-ing-3",
-            "question": "Which ingredient is part of Zinfandel Hendry Ranch HRW?",
-            "correctAnswer": "Powerful with a long spiced finish",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Zinfandel Hendry Ranch HRW, this component is present: Powerful with a long spiced finish. Full recipe ingredients: Napa Valley, California. Full-bodied, powerful with a long spiced finish, juicy acidity, rich flavors of dark berries, sweet spices and dark chocolate.."
-          },
-          {
-            "id": "cervene-zinfandel-hendry-ing-4",
-            "question": "Which grape variety, winery, or characteristic belongs to Zinfandel Hendry Ranch HRW?",
-            "correctAnswer": "Juicy acidity",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Zinfandel Hendry Ranch HRW, this component is present: Juicy acidity. Full recipe ingredients: Napa Valley, California. Full-bodied, powerful with a long spiced finish, juicy acidity, rich flavors of dark berries, sweet spices and dark chocolate.."
-          },
-          {
-            "id": "cervene-zinfandel-hendry-ing-5",
-            "question": "Which ingredient is part of Zinfandel Hendry Ranch HRW?",
-            "correctAnswer": "Rich flavors of dark berries",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Zinfandel Hendry Ranch HRW, this component is present: Rich flavors of dark berries. Full recipe ingredients: Napa Valley, California. Full-bodied, powerful with a long spiced finish, juicy acidity, rich flavors of dark berries, sweet spices and dark chocolate.."
-          },
-          {
-            "id": "cervene-zinfandel-hendry-ing-6",
-            "question": "Which ingredient is part of Zinfandel Hendry Ranch HRW?",
-            "correctAnswer": "Sweet spices and dark chocolate",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Zinfandel Hendry Ranch HRW, this component is present: Sweet spices and dark chocolate. Full recipe ingredients: Napa Valley, California. Full-bodied, powerful with a long spiced finish, juicy acidity, rich flavors of dark berries, sweet spices and dark chocolate.."
-          },
-          {
-            "id": "cervene-zinfandel-hendry-ing-7",
-            "question": "Which ingredient is part of Zinfandel Hendry Ranch HRW?",
-            "correctAnswer": "Sweet spices and dark chocolate",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Zinfandel Hendry Ranch HRW, this component is present: Sweet spices and dark chocolate. Full recipe ingredients: Napa Valley, California. Full-bodied, powerful with a long spiced finish, juicy acidity, rich flavors of dark berries, sweet spices and dark chocolate.."
-          },
-          {
-            "id": "cervene-zinfandel-hendry-allergen-12",
-            "question": "Which of the following allergens is present in Zinfandel Hendry Ranch HRW?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Zinfandel Hendry Ranch HRW contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "aperitivy",
-    "name": "aperitifs",
+    "name": "Aperitifs",
     "badge": "Aperitifs",
-    "description": "Classic and modern spritzes to awaken the palate before dining",
+    "description": "Classic and sparkling aperitifs to stimulate the appetite",
     "iconName": "Martini",
     "items": [
       {
@@ -8912,7 +6636,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "id": "kir",
         "name": "Kir",
         "weight": "",
-        "price": "150 CZK",
+        "price": "165 CZK",
         "allergens": [],
         "description": "white wine, Crème de cassis",
         "notes": "white wine, Crème de cassis",
@@ -8942,8 +6666,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "campari-bitter",
         "name": "Campari Bitter",
-        "weight": "",
-        "price": "95 CZK",
+        "weight": "0.06l",
+        "price": "87 CZK",
         "allergens": [],
         "description": "Italian red bitter aperitif",
         "notes": "Campari Bitter",
@@ -8973,8 +6697,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "martini-dry",
         "name": "Martini Dry",
-        "weight": "",
-        "price": "95 CZK",
+        "weight": "0.08l",
+        "price": "79 CZK",
         "allergens": [],
         "description": "Classic Italian extra dry vermouth",
         "notes": "Martini Dry",
@@ -9004,8 +6728,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "cinzano-rosso-bianco",
         "name": "Cinzano",
-        "weight": "",
-        "price": "95 CZK",
+        "weight": "0.08l",
+        "price": "79 CZK",
         "allergens": [],
         "description": "Rosso / Bianco",
         "notes": "Rosso / Bianco",
@@ -9045,9 +6769,11 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "grahams-porto-10y",
         "name": "Graham's Porto 10y",
-        "weight": "",
-        "price": "145 CZK",
-        "allergens": [],
+        "weight": "0.06l",
+        "price": "225 CZK",
+        "allergens": [
+          "12"
+        ],
         "description": "Ten-year-old aged Tawny Port with mellow dried fruit notes",
         "notes": "Graham's Porto 10y",
         "questions": [
@@ -9086,17 +6812,17 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
     ]
   },
   {
-    "id": "nealkoholicke-aperitivy-a-koktejly",
-    "name": "non-alcoholic aperitifs and cocktails",
-    "badge": "Mocktails",
-    "description": "Complex handcrafted mixed drinks without a drop of alcohol",
+    "id": "nealko-aperitivy",
+    "name": "Non-alcoholic aperitifs and cocktails",
+    "badge": "Non-alcoholic aperitifs and cocktails",
+    "description": "Zero-proof aperitifs and signature alcohol-free mixed drinks",
     "iconName": "Martini",
     "items": [
       {
         "id": "crodino",
         "name": "Crodino",
-        "weight": "",
-        "price": "85 CZK",
+        "weight": "0.175l",
+        "price": "109 CZK",
         "allergens": [],
         "description": "Non-alcoholic bitter aperitif",
         "notes": "Non-alcoholic bitter aperitif",
@@ -9177,8 +6903,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "bitter-soda-gasco",
         "name": "Bitter soda J.Gasco",
-        "weight": "",
-        "price": "85 CZK",
+        "weight": "0.2l",
+        "price": "115 CZK",
         "allergens": [],
         "description": "Italian non-alcoholic bitter soda",
         "notes": "Bitter soda J.Gasco",
@@ -9219,7 +6945,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "id": "tanqueray-00-tonic",
         "name": "Tanqueray Alcohol Free & Fever-Tree Tonic",
         "weight": "",
-        "price": "165 CZK",
+        "price": "199 CZK",
         "allergens": [],
         "description": "Distilled non-alcoholic botanical gin paired with premium tonic",
         "notes": "Tanqueray Alcohol Free & Fever-Tree Tonic",
@@ -9250,16 +6976,16 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   },
   {
     "id": "klasicke-koktejly",
-    "name": "classic cocktails",
+    "name": "Classic cocktails",
     "badge": "Classic cocktails",
-    "description": "World-famous cocktail icons crafted according to original golden-age recipes",
+    "description": "Time-honored bartending classics mixed to exact standard recipes",
     "iconName": "Martini",
     "items": [
       {
         "id": "negroni",
         "name": "Negroni",
         "weight": "",
-        "price": "185 CZK",
+        "price": "195 CZK",
         "allergens": [],
         "description": "Campari, Tanqueray gin, Cinzano rosso",
         "notes": "Campari, Tanqueray gin, Cinzano rosso",
@@ -9300,7 +7026,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "id": "margarita",
         "name": "Margarita",
         "weight": "",
-        "price": "195 CZK",
+        "price": "185 CZK",
         "allergens": [],
         "description": "Tres Alegres tequila, Cointreau, lime juice, salt",
         "notes": "Tres Alegres tequila, Cointreau, lime juice, salt",
@@ -9505,7 +7231,9 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "name": "May-Tai",
         "weight": "",
         "price": "199 CZK",
-        "allergens": [],
+        "allergens": [
+          "8"
+        ],
         "description": "White and dark rum, Curaçao, almond syrup, lime juice",
         "notes": "White and dark rum, Curaçao, almond syrup, lime juice",
         "questions": [
@@ -9902,9 +7630,9 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   },
   {
     "id": "koktejly-fuze",
-    "name": "fuze cocktails",
-    "badge": "FUZE cocktails",
-    "description": "Signature fusion cocktails created exclusively for restaurant FUZE",
+    "name": "Fuze cocktails",
+    "badge": "Fuze cocktails",
+    "description": "Signature in-house craft cocktails blending modern mixology with beer & spirits",
     "iconName": "Martini",
     "items": [
       {
@@ -10161,207 +7889,14 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "explanation": "In Passionate, this component is present: Cranberry juice. Full recipe ingredients: Rum, passion fruit, melon syrup, cranberry juice."
           }
         ]
-      },
-      {
-        "id": "apricot-cabaret",
-        "name": "Apricot Cabaret",
-        "weight": "",
-        "price": "239 CZK",
-        "allergens": [],
-        "description": "Bourbon whiskey, apricot brandy Svach, apricot purée, fresh lemon juice",
-        "notes": "Bourbon whiskey, apricot brandy Svach, apricot purée, fresh lemon juice",
-        "questions": [
-          {
-            "id": "apricot-cabaret-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Apricot Cabaret?",
-            "correctAnswer": "Bourbon whiskey",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Apricot Cabaret, this component is present: Bourbon whiskey. Full recipe ingredients: Bourbon whiskey, apricot brandy Svach, apricot purée, fresh lemon juice."
-          },
-          {
-            "id": "apricot-cabaret-ing-2",
-            "question": "Which ingredient is part of Apricot Cabaret?",
-            "correctAnswer": "Apricot brandy Svach",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In Apricot Cabaret, this component is present: Apricot brandy Svach. Full recipe ingredients: Bourbon whiskey, apricot brandy Svach, apricot purée, fresh lemon juice."
-          },
-          {
-            "id": "apricot-cabaret-ing-3",
-            "question": "Which ingredient is part of Apricot Cabaret?",
-            "correctAnswer": "Apricot purée",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "In Apricot Cabaret, this component is present: Apricot purée. Full recipe ingredients: Bourbon whiskey, apricot brandy Svach, apricot purée, fresh lemon juice."
-          },
-          {
-            "id": "apricot-cabaret-ing-4",
-            "question": "Which ingredient is part of Apricot Cabaret?",
-            "correctAnswer": "Fresh lemon juice",
-            "distractors": [
-              "Fresh lime juice",
-              "Soda water"
-            ],
-            "explanation": "In Apricot Cabaret, this component is present: Fresh lemon juice. Full recipe ingredients: Bourbon whiskey, apricot brandy Svach, apricot purée, fresh lemon juice."
-          },
-          {
-            "id": "apricot-cabaret-ing-5",
-            "question": "Which ingredient is part of Apricot Cabaret?",
-            "correctAnswer": "Fresh lemon juice",
-            "distractors": [
-              "Thomas Henry tonic",
-              "Craft gin"
-            ],
-            "explanation": "In Apricot Cabaret, this component is present: Fresh lemon juice. Full recipe ingredients: Bourbon whiskey, apricot brandy Svach, apricot purée, fresh lemon juice."
-          }
-        ]
-      },
-      {
-        "id": "spicy-apricot-margarita",
-        "name": "Spicy Apricot Margarita",
-        "weight": "",
-        "price": "219 CZK",
-        "allergens": [],
-        "description": "Tequila reposado, apricot purée, chili, fresh lime juice",
-        "notes": "Tequila reposado, apricot purée, chili, fresh lime juice",
-        "questions": [
-          {
-            "id": "spicy-apricot-margarita-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Spicy Apricot Margarita?",
-            "correctAnswer": "Tequila reposado",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Spicy Apricot Margarita, this component is present: Tequila reposado. Full recipe ingredients: Tequila reposado, apricot purée, chili, fresh lime juice."
-          },
-          {
-            "id": "spicy-apricot-margarita-ing-2",
-            "question": "Which ingredient is part of Spicy Apricot Margarita?",
-            "correctAnswer": "Apricot purée",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In Spicy Apricot Margarita, this component is present: Apricot purée. Full recipe ingredients: Tequila reposado, apricot purée, chili, fresh lime juice."
-          },
-          {
-            "id": "spicy-apricot-margarita-ing-3",
-            "question": "Which ingredient is part of Spicy Apricot Margarita?",
-            "correctAnswer": "Chili",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "In Spicy Apricot Margarita, this component is present: Chili. Full recipe ingredients: Tequila reposado, apricot purée, chili, fresh lime juice."
-          },
-          {
-            "id": "spicy-apricot-margarita-ing-4",
-            "question": "Which ingredient is part of Spicy Apricot Margarita?",
-            "correctAnswer": "Fresh lime juice",
-            "distractors": [
-              "Soda water",
-              "Thomas Henry tonic"
-            ],
-            "explanation": "In Spicy Apricot Margarita, this component is present: Fresh lime juice. Full recipe ingredients: Tequila reposado, apricot purée, chili, fresh lime juice."
-          },
-          {
-            "id": "spicy-apricot-margarita-ing-5",
-            "question": "Which ingredient is part of Spicy Apricot Margarita?",
-            "correctAnswer": "Fresh lime juice",
-            "distractors": [
-              "Craft gin",
-              "White rum"
-            ],
-            "explanation": "In Spicy Apricot Margarita, this component is present: Fresh lime juice. Full recipe ingredients: Tequila reposado, apricot purée, chili, fresh lime juice."
-          },
-          {
-            "id": "spicy-apricot-margarita-ing-6",
-            "question": "Which ingredient is part of Spicy Apricot Margarita?",
-            "correctAnswer": "Fresh lime juice",
-            "distractors": [
-              "Aged dark rum",
-              "Blue agave tequila"
-            ],
-            "explanation": "In Spicy Apricot Margarita, this component is present: Fresh lime juice. Full recipe ingredients: Tequila reposado, apricot purée, chili, fresh lime juice."
-          }
-        ]
-      },
-      {
-        "id": "apricot-daniels-sour",
-        "name": "Apricot Daniel's Sour",
-        "weight": "",
-        "price": "239 CZK",
-        "allergens": [],
-        "description": "Jack Daniel's Tennessee whiskey, apricot purée, fresh lemon juice, egg white",
-        "notes": "Jack Daniel's Tennessee whiskey, apricot purée, fresh lemon juice, egg white",
-        "questions": [
-          {
-            "id": "apricot-daniels-sour-ing-1",
-            "question": "Which ingredient is part of Apricot Daniel's Sour?",
-            "correctAnswer": "Jack Daniel's Tennessee whiskey",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Apricot Daniel's Sour, this component is present: Jack Daniel's Tennessee whiskey. Full recipe ingredients: Jack Daniel's Tennessee whiskey, apricot purée, fresh lemon juice, egg white."
-          },
-          {
-            "id": "apricot-daniels-sour-ing-2",
-            "question": "Which ingredient is part of Apricot Daniel's Sour?",
-            "correctAnswer": "Apricot purée",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In Apricot Daniel's Sour, this component is present: Apricot purée. Full recipe ingredients: Jack Daniel's Tennessee whiskey, apricot purée, fresh lemon juice, egg white."
-          },
-          {
-            "id": "apricot-daniels-sour-ing-3",
-            "question": "Which ingredient is part of Apricot Daniel's Sour?",
-            "correctAnswer": "Fresh lemon juice",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "In Apricot Daniel's Sour, this component is present: Fresh lemon juice. Full recipe ingredients: Jack Daniel's Tennessee whiskey, apricot purée, fresh lemon juice, egg white."
-          },
-          {
-            "id": "apricot-daniels-sour-ing-4",
-            "question": "Which ingredient is part of Apricot Daniel's Sour?",
-            "correctAnswer": "Egg white",
-            "distractors": [
-              "Fresh lime juice",
-              "Soda water"
-            ],
-            "explanation": "In Apricot Daniel's Sour, this component is present: Egg white. Full recipe ingredients: Jack Daniel's Tennessee whiskey, apricot purée, fresh lemon juice, egg white."
-          },
-          {
-            "id": "apricot-daniels-sour-ing-5",
-            "question": "Which ingredient is part of Apricot Daniel's Sour?",
-            "correctAnswer": "Egg white",
-            "distractors": [
-              "Thomas Henry tonic",
-              "Craft gin"
-            ],
-            "explanation": "In Apricot Daniel's Sour, this component is present: Egg white. Full recipe ingredients: Jack Daniel's Tennessee whiskey, apricot purée, fresh lemon juice, egg white."
-          }
-        ]
       }
     ]
   },
   {
     "id": "gin-a-tonic",
-    "name": "gin&tonic",
-    "badge": "Gin & Tonic",
-    "description": "Perfect pairings of artisanal gins with premium tonics and botanicals",
+    "name": "Gin & tonic",
+    "badge": "Gin & tonic",
+    "description": "Curated pairings of craft gins and premium matching tonics",
     "iconName": "GlassWater",
     "items": [
       {
@@ -10554,15 +8089,15 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   },
   {
     "id": "ovocne-destilaty",
-    "name": "fruit brandies 0.03L",
-    "badge": "Fruit brandies",
-    "description": "Premium eau-de-vie brandies crafted from ripe local orchard fruit",
+    "name": "Fruit brandies 0.03l",
+    "badge": "Fruit brandies 0.03l",
+    "description": "Traditional single-fruit distillates from acclaimed Czech master distillers",
     "iconName": "Flame",
     "items": [
       {
         "id": "slivovice-radlik",
         "name": "Slivovitz",
-        "weight": "0.03L",
+        "weight": "0.03l",
         "price": "105 CZK",
         "allergens": [],
         "description": "0.03l gentle plum brandy from the award-winning South Bohemian distillery Radlík near Jílové u Prahy",
@@ -10593,7 +8128,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "slivovice-ze-sudu-radlik",
         "name": "Slivovice ze sudu",
-        "weight": "0.03L",
+        "weight": "0.03l",
         "price": "140 CZK",
         "allergens": [],
         "description": "0.03l plum spirit aged in oak wood casks, golden in color with vanilla notes",
@@ -10634,7 +8169,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "hruskovice-skanzen",
         "name": "Hruškovice Williams",
-        "weight": "0.03L",
+        "weight": "0.03l",
         "price": "110 CZK",
         "allergens": [],
         "description": "0.03l intensely aromatic spirit from ripe Williams pears from Skanzen Modrá distillery",
@@ -10665,7 +8200,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "hruskovice-ze-sudu-radlik",
         "name": "Hruškovice ze sudu",
-        "weight": "0.03L",
+        "weight": "0.03l",
         "price": "140 CZK",
         "allergens": [],
         "description": "0.03l pear spirit aged in oak casks, harmonious blend of orchard fruit and delicate wood",
@@ -10706,7 +8241,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "merunkovice-svach",
         "name": "Meruňkovice",
-        "weight": "0.03L",
+        "weight": "0.03l",
         "price": "120 CZK",
         "allergens": [],
         "description": "0.03l delicious apricot brandy from family distillery Svachovka near Český Krumlov",
@@ -10737,7 +8272,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "visnovice-zubri",
         "name": "Višňovice",
-        "weight": "0.03L",
+        "weight": "0.03l",
         "price": "98 CZK",
         "allergens": [],
         "description": "0.03l authentic sour cherry spirit from Wallachian Zubří with delicate almond undertones from cherry pits",
@@ -10768,7 +8303,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "jablkovice-galli",
         "name": "Jablkovice",
-        "weight": "0.03L",
+        "weight": "0.03l",
         "price": "98 CZK",
         "allergens": [],
         "description": "0.03l crisp and fresh apple brandy from selected Czech apples from Galli distillery",
@@ -10799,7 +8334,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "rybizovice-raspenava",
         "name": "Rybízovice",
-        "weight": "0.03L",
+        "weight": "0.03l",
         "price": "160 CZK",
         "allergens": [],
         "description": "0.03l rare and highly prized eau-de-vie from black and red currants from Raspenava",
@@ -10830,7 +8365,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "vinovice-ze-sudu-radlik",
         "name": "Vínovice ze sudu",
-        "weight": "0.03L",
+        "weight": "0.03l",
         "price": "149 CZK",
         "allergens": [],
         "description": "0.03l grape spirit matured in oak barrels from Radlík distillery",
@@ -10861,7 +8396,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "traminovice-kolby",
         "name": "Tramínovice",
-        "weight": "0.03L",
+        "weight": "0.03l",
         "price": "135 CZK",
         "allergens": [],
         "description": "0.03l varietal grape brandy from Gewürztraminer (Tramín červený) grapes from Kolby winery (Pouzdřany)",
@@ -10892,7 +8427,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "ponesicka-mrkvovice",
         "name": "Poněšická Mrkvovice",
-        "weight": "0.03L",
+        "weight": "0.03l",
         "price": "123 CZK",
         "allergens": [],
         "description": "0.03l unique and rare vegetable eau-de-vie from sweet carrots from legendary South Bohemian Poněšice distillery",
@@ -10923,7 +8458,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "malinovice-silver-martenz",
         "name": "Malinovice Silver",
-        "weight": "0.03L",
+        "weight": "0.03l",
         "price": "175 CZK",
         "allergens": [],
         "description": "0.03l luxurious raspberry geist distilled from selected wild raspberries with intense forest berry aroma",
@@ -10955,15 +8490,15 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   },
   {
     "id": "vodky",
-    "name": "vodka 0.03L",
-    "badge": "Vodka",
-    "description": "First-rate grain and craft vodkas of exceptional purity",
+    "name": "Vodka 0.03l",
+    "badge": "Vodka 0.03l",
+    "description": "Premium grain and artisanal vodkas served in 0.03L measures",
     "iconName": "Flame",
     "items": [
       {
         "id": "anton-kaapl-legionar",
         "name": "Anton Kaapl LEGIONARY",
-        "weight": "0.03L",
+        "weight": "0.03l",
         "price": "75 CZK",
         "allergens": [],
         "description": "0.03l premium South Bohemian craft vodka from family distillery Jílovice, distilled with soft Bohemian Forest (Šumava) spring water",
@@ -11004,7 +8539,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "nemiroff",
         "name": "Nemiroff",
-        "weight": "0.03L",
+        "weight": "0.03l",
         "price": "85 CZK",
         "allergens": [],
         "description": "0.03l celebrated premium wheat vodka with multi-stage filtration",
@@ -11035,7 +8570,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "grey-goose",
         "name": "Grey Goose",
-        "weight": "0.03L",
+        "weight": "0.03l",
         "price": "135 CZK",
         "allergens": [],
         "description": "0.03l luxurious French vodka crafted from winter wheat from Picardy and limestone-filtered spring water from Gensac-la-Pallue",
@@ -11066,16 +8601,169 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
     ]
   },
   {
+    "id": "giny",
+    "name": "Gins 0.03l",
+    "badge": "Gins 0.03l",
+    "description": "Exceptional artisanal and international gins served neat in 0.03L measures",
+    "iconName": "Flame",
+    "items": [
+      {
+        "name": "Tanqueray London Dry Gin",
+        "weight": "0.03l",
+        "price": "85 CZK",
+        "allergens": [],
+        "description": "classic London Dry gin with distinct juniper and citrus notes",
+        "notes": "Iconic four-botanical distilled gin.",
+        "id": "gin-tanqueray",
+        "questions": [
+          {
+            "id": "gin-tanqueray-vol",
+            "question": "What is the serving measure of Tanqueray London Dry Gin?",
+            "correctAnswer": "0.03l",
+            "distractors": [
+              "0.02 L",
+              "0.04 L"
+            ],
+            "explanation": "The portion size / weight of Tanqueray London Dry Gin is 0.03l."
+          },
+          {
+            "id": "gin-tanqueray-ing-1",
+            "question": "Which ingredient is part of Tanqueray London Dry Gin?",
+            "correctAnswer": "Classic London Dry gin with distinct juniper",
+            "distractors": [
+              "Pork tenderloin",
+              "Veal leg"
+            ],
+            "explanation": "In Tanqueray London Dry Gin, this component is present: Classic London Dry gin with distinct juniper. Full recipe ingredients: classic London Dry gin with distinct juniper and citrus notes."
+          },
+          {
+            "id": "gin-tanqueray-ing-2",
+            "question": "Which ingredient is part of Tanqueray London Dry Gin?",
+            "correctAnswer": "Citrus notes",
+            "distractors": [
+              "Duck breast",
+              "Deboned trout"
+            ],
+            "explanation": "In Tanqueray London Dry Gin, this component is present: Citrus notes. Full recipe ingredients: classic London Dry gin with distinct juniper and citrus notes."
+          }
+        ]
+      },
+      {
+        "name": "Hendrick`s Gin",
+        "weight": "0.03l",
+        "price": "105 CZK",
+        "allergens": [],
+        "description": "Scottish gin distilled with cucumber and Bulgarian rose petal essence",
+        "notes": "Uniquely refreshing botanical Scottish gin.",
+        "id": "gin-hendricks",
+        "questions": [
+          {
+            "id": "gin-hendricks-vol",
+            "question": "What is the serving measure of Hendrick`s Gin?",
+            "correctAnswer": "0.03l",
+            "distractors": [
+              "0.02 L",
+              "0.04 L"
+            ],
+            "explanation": "The portion size / weight of Hendrick`s Gin is 0.03l."
+          },
+          {
+            "id": "gin-hendricks-ing-1",
+            "question": "Which ingredient is part of Hendrick`s Gin?",
+            "correctAnswer": "Scottish gin distilled with cucumber",
+            "distractors": [
+              "Pork tenderloin",
+              "Veal leg"
+            ],
+            "explanation": "In Hendrick`s Gin, this component is present: Scottish gin distilled with cucumber. Full recipe ingredients: Scottish gin distilled with cucumber and Bulgarian rose petal essence."
+          },
+          {
+            "id": "gin-hendricks-ing-2",
+            "question": "Which ingredient is part of Hendrick`s Gin?",
+            "correctAnswer": "Bulgarian rose petal essence",
+            "distractors": [
+              "Duck breast",
+              "Deboned trout"
+            ],
+            "explanation": "In Hendrick`s Gin, this component is present: Bulgarian rose petal essence. Full recipe ingredients: Scottish gin distilled with cucumber and Bulgarian rose petal essence."
+          }
+        ]
+      },
+      {
+        "name": "Starej Dobrej Gin",
+        "weight": "0.03l",
+        "price": "85 CZK",
+        "allergens": [],
+        "description": "traditional Czech artisanal gin with rich herbal profile",
+        "notes": "Craft small-batch Czech gin.",
+        "id": "gin-starej-dobrej",
+        "questions": [
+          {
+            "id": "gin-starej-dobrej-vol",
+            "question": "What is the serving measure of Starej Dobrej Gin?",
+            "correctAnswer": "0.03l",
+            "distractors": [
+              "0.02 L",
+              "0.04 L"
+            ],
+            "explanation": "The portion size / weight of Starej Dobrej Gin is 0.03l."
+          },
+          {
+            "id": "gin-starej-dobrej-ing-1",
+            "question": "Which fresh herb or spice seasoning finishes Starej Dobrej Gin?",
+            "correctAnswer": "Traditional Czech artisanal gin with rich herbal profile",
+            "distractors": [
+              "Lovage",
+              "Tarragon"
+            ],
+            "explanation": "In Starej Dobrej Gin, this component is present: Traditional Czech artisanal gin with rich herbal profile. Full recipe ingredients: traditional Czech artisanal gin with rich herbal profile."
+          }
+        ]
+      },
+      {
+        "name": "Truffle Gin",
+        "weight": "0.03l",
+        "price": "125 CZK",
+        "allergens": [],
+        "description": "exclusive craft gin infused with aromatic winter truffles",
+        "notes": "Earthy and luxurious gastronomic spirit.",
+        "id": "gin-truffle",
+        "questions": [
+          {
+            "id": "gin-truffle-vol",
+            "question": "What is the serving measure of Truffle Gin?",
+            "correctAnswer": "0.03l",
+            "distractors": [
+              "0.02 L",
+              "0.04 L"
+            ],
+            "explanation": "The portion size / weight of Truffle Gin is 0.03l."
+          },
+          {
+            "id": "gin-truffle-ing-1",
+            "question": "Which ingredient is part of Truffle Gin?",
+            "correctAnswer": "Exclusive craft gin infused with aromatic winter truffles",
+            "distractors": [
+              "Pork tenderloin",
+              "Veal leg"
+            ],
+            "explanation": "In Truffle Gin, this component is present: Exclusive craft gin infused with aromatic winter truffles. Full recipe ingredients: exclusive craft gin infused with aromatic winter truffles."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "rumy",
-    "name": "rums 0,03L",
-    "badge": "Rums",
-    "description": "Traditional Caribbean rums aged patiently in charred oak bourbon barrels",
+    "name": "Rums 0.03l",
+    "badge": "Rums 0.03l",
+    "description": "Aged Caribbean, Central American, and Cuban rums served in 0.03L measures",
     "iconName": "Flame",
     "items": [
       {
         "id": "havana-club-3",
         "name": "Havana Club Anejo 3 Anos",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "66 CZK",
         "allergens": [],
         "description": "0.03l traditional Cuban white rum aged 3 years in white oak casks, essential base for Mojito and Daiquiri",
@@ -11116,7 +8804,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "el-dorado-12y",
         "name": "El Dorado 12y",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "149 CZK",
         "allergens": [],
         "description": "0.03l Guyanese molasses rum aged 12 years in the tropics along Demerara river, rich notes of honey, raisins, and caramel",
@@ -11177,7 +8865,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "mount-gay-xo",
         "name": "Mount Gay XO",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "186 CZK",
         "allergens": [],
         "description": "0.03l premium Barbadian rum from the world's oldest operating distillery (since 1703), blend of reserves aged in bourbon, cognac, and American whiskey casks",
@@ -11238,7 +8926,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "abuelo-7y",
         "name": "Abuelo 7y",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "135 CZK",
         "allergens": [],
         "description": "0.03l Panamanian rum made from estate-grown cane molasses, aged 7 years in small white oak barrels",
@@ -11279,7 +8967,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "eminente-reserva-7y",
         "name": "Eminente Reserva 7y",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "172 CZK",
         "allergens": [],
         "description": "0.03l Cuban premium rum with a high 70% share of aged aguardientes (cane spirits), aged in whisky casks",
@@ -11320,7 +9008,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "diplomatico",
         "name": "Dimplomatico",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "149 CZK",
         "allergens": [],
         "description": "0.03l Venezuelan rum aged up to 12 years in bourbon casks, velvety sweet with notes of chocolate, vanilla, and orange peel",
@@ -11381,7 +9069,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "zacapa-23y",
         "name": "Zacapa 23y",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "165 CZK",
         "allergens": [],
         "description": "0.03l Guatemalan rum from virgin sugarcane honey, aged via the Solera system at an altitude of 2,300 meters",
@@ -11423,15 +9111,15 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   },
   {
     "id": "tequily",
-    "name": "tequilas 0,03L",
-    "badge": "Tequilas",
-    "description": "100% blue agave tequilas from Jalisco and artisan smoky mezcals",
+    "name": "Tequilas 0.03l",
+    "badge": "Tequilas 0.03l",
+    "description": "100% blue agave tequilas and handcrafted artisanal editions in 0.03L measures",
     "iconName": "Flame",
     "items": [
       {
         "id": "tres-alegres-compadres",
         "name": "Tres Alegres Compadres Blanco",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "89 CZK",
         "allergens": [],
         "description": "0.03l unaged pure tequila from 100% blue agave with notes of wild herbs, citrus, and roasted agave",
@@ -11482,7 +9170,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "herradura-reposado",
         "name": "Herradura Reposado",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "168 CZK",
         "allergens": [],
         "description": "0.03l premium tequila aged a full 11 months in American white oak barrels (standards require only 2 months)",
@@ -11513,7 +9201,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "corralejo-reposado",
         "name": "Tequila Corralejo Reposado",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "149 CZK",
         "allergens": [],
         "description": "0.03l 100% Agave, aged 4 months in a unique combination of American, French, and Mexican oak barrels",
@@ -11574,7 +9262,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "cofradia-rose-catrina",
         "name": "La Cofradia Reposado Rosé „ ed.Catrina ”",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "185 CZK",
         "allergens": [],
         "description": "0.03l limited edition in hand-painted ceramic skull bottle Catrina, aged in red wine barrels with a pink hue",
@@ -11615,7 +9303,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "cofradia-black-catrina",
         "name": "La Cofradia Black „ ed.Catrina ”",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "185 CZK",
         "allergens": [],
         "description": "0.03l black collectible ceramic Catrina edition, tequila aged in heavily charred oak barrels with a smoky body",
@@ -11657,15 +9345,15 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   },
   {
     "id": "whisky-whiskey-bourbon",
-    "name": "whisky, whiskey, bourbon 0,03L",
-    "badge": "Whisky & Bourbon",
-    "description": "Scotch single malts, smooth Irish whiskeys, and rich Kentucky bourbons",
+    "name": "Whisky, whiskey, bourbon 0.03l",
+    "badge": "Whisky, whiskey, bourbon 0.03l",
+    "description": "Scotch single malts, Irish whiskeys, Czech grain whisky, and Kentucky bourbon",
     "iconName": "Flame",
     "items": [
       {
         "id": "goldcock-blended",
         "name": "Goldcock blended",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "62 CZK",
         "allergens": [],
         "description": "0.03l traditional Czech whisky from Těšetice made from Moravian barley, matured in Czech oak casks crafted in Těšetice coopery",
@@ -11706,7 +9394,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "glenfiddich-15y",
         "name": "Glenfiddich 15y",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "165 CZK",
         "allergens": [],
         "description": "0.03l Scottish single malt whisky matured using a unique Solera vat in three cask types: sherry, bourbon, and new oak",
@@ -11757,7 +9445,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "talisker-10y",
         "name": "Talisker 10y",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "165 CZK",
         "allergens": [],
         "description": "0.03l iconic maritime single malt whisky from the rugged Isle of Skye, intensely peaty and smoky with sea salt and black pepper",
@@ -11808,7 +9496,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "monkey-shoulder",
         "name": "Monkey Shoulder",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "112 CZK",
         "allergens": [],
         "description": "0.03l Scottish blended malt whisky marrying malts from three renowned Speyside distilleries, smooth with rich vanilla notes",
@@ -11849,7 +9537,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "jameson",
         "name": "Jameson",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "75 CZK",
         "allergens": [],
         "description": "0.03l world's best-selling Irish whiskey, triple distilled for exceptional smoothness",
@@ -11890,7 +9578,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "jack-daniels",
         "name": "Jack Daniels",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "105 CZK",
         "allergens": [],
         "description": "0.03l Tennessee whiskey filtered drop by drop through a 10-foot layer of sugar maple charcoal (Lincoln County Process)",
@@ -11922,15 +9610,15 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   },
   {
     "id": "brandy-a-cognac",
-    "name": "brandy and cognac 0,03L",
-    "badge": "Brandy & Cognac",
-    "description": "Noble aged wine spirits and prestigious French Fine Champagne cognacs",
+    "name": "Brandy & cognac 0.03l",
+    "badge": "Brandy & cognac 0.03l",
+    "description": "Noble aged brandies and French cognacs in 0.03L measures",
     "iconName": "Flame",
     "items": [
       {
         "id": "metaxa-5",
         "name": "Metaxa *****",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "75 CZK",
         "allergens": [],
         "description": "0.03l Greek amber spirit blended with Muscat wines from Aegean islands Samos and Lemnos and Mediterranean botanicals",
@@ -11961,7 +9649,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "remy-martin-1738",
         "name": "Remy Martin 1738",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "170 CZK",
         "allergens": [],
         "description": "0.03l prestigious French Fine Champagne Cognac (1738 Accord Royal) matured in toasted oak barrels, rich with figs, plums, and caramel",
@@ -12023,15 +9711,15 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   },
   {
     "id": "palenky-a-likery",
-    "name": "spirits & liqueurs 0,03L",
-    "badge": "Spirits & Liqueurs",
-    "description": "Our signature Fuzovice beer eau-de-vie, herbal infusions, and traditional liqueurs",
+    "name": "Spirits & liqueurs 0.03l",
+    "badge": "Spirits & liqueurs 0.03l",
+    "description": "Czech herbal liqueurs, absinthe, nut spirits, and traditional digestifs",
     "iconName": "Flame",
     "items": [
       {
         "id": "fuzovice",
         "name": "Fuzovice",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "140 CZK",
         "allergens": [],
         "description": "0.03l FUZE/Agnes 45 %, our signature custom beer spirit distilled from brewery wort brewed from Pilsner and Munich malt with Mandarina Bavaria hops",
@@ -12072,7 +9760,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "absinth-st-antoine",
         "name": "Absinth St. Antoine",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "165 CZK",
         "allergens": [],
         "description": "0.03l Žufánek, all-natural distilled absinthe made from real grand wormwood (Artemisia absinthium), anise, and fennel",
@@ -12133,7 +9821,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "kminka-garage22",
         "name": "Kmínka",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "78 CZK",
         "allergens": [],
         "description": "0.03l Garage 22, modern craft liqueur with distilled Czech caraway seeds and citrus peel from Prague's Holešovice",
@@ -12174,7 +9862,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "kontusovka-zufanek",
         "name": "Kontušovka",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "95 CZK",
         "allergens": [],
         "description": "0.03l Žufánek, traditional historic Bohemian herbal liqueur with anise, coriander, fennel, and star anise after an authentic 19th-century recipe",
@@ -12245,9 +9933,11 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "orechovy-liker-radlik",
         "name": "Walnut liqueur",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "119 CZK",
-        "allergens": [],
+        "allergens": [
+          "8"
+        ],
         "description": "0.03l Radlík, gentle walnut liqueur macerated from unripe green St. John's walnuts and a secret spice blend",
         "notes": "Radlik",
         "questions": [
@@ -12286,7 +9976,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "hustopecska-mandlovka",
         "name": "Hustopečská Mandlovka",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "98 CZK",
         "allergens": [],
         "description": "0.03l original Moravian almond spirit specialty from the unique almond orchards in Hustopeče",
@@ -12317,7 +10007,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "jagermeister",
         "name": "Jägermeister",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "65 CZK",
         "allergens": [],
         "description": "0.03l German herbal liqueur made from 56 botanicals, flowers, roots, and fruits, aged 1 year in oak barrels",
@@ -12388,7 +10078,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "podebradska-samicka",
         "name": "Poděbradská Samička",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "58 CZK",
         "allergens": [],
         "description": "0.03l traditional Elbe region herbal liqueur with a harmonious bittersweet profile",
@@ -12419,7 +10109,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "becherovka-unfiltered",
         "name": "Becherovka",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "65 CZK",
         "allergens": [],
         "description": "0.03l Karlovy Vary herbal liqueur in unfiltered premium edition with golden haze and intense herbal taste",
@@ -12450,7 +10140,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "smoked-grappa-tosolini",
         "name": "Smoked Grappa Bepi Tosolini",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "195 CZK",
         "allergens": [],
         "description": "0.03l noble Italian grappa distilled from grape pomace smoked over oak wood by family distillery Bepi Tosolini in Udine",
@@ -12481,7 +10171,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "bezovy-elixir-jelinek",
         "name": "Bezový elixír R.Jelínek",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "58 CZK",
         "allergens": [],
         "description": "0.03l Moravian elderflower liqueur made from fragrant elder blossoms by Rudolf Jelínek in Vizovice",
@@ -12512,7 +10202,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "creme-de-cassis",
         "name": "Créme de cassis",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "68 CZK",
         "allergens": [],
         "description": "0.03l Le Duc Charmant / Jenčík, luscious blackcurrant liqueur",
@@ -12553,9 +10243,12 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "vajecnak-bartida",
         "name": "Egg liqueur",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "50 CZK",
-        "allergens": [],
+        "allergens": [
+          "3",
+          "7"
+        ],
         "description": "0.03l honest thick egg liqueur with exceptionally high egg yolk content and a splash of cane rum",
         "notes": "Bartida",
         "questions": [
@@ -12584,7 +10277,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "griotte-bartida",
         "name": "Griotte Original",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "50 CZK",
         "allergens": [],
         "description": "0.03l premium sour cherry liqueur with high proportion of pure sour cherry juice and fruit eau-de-vie",
@@ -12615,7 +10308,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "zelena-bartida",
         "name": "Zelená",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "50 CZK",
         "allergens": [],
         "description": "0.03l premium peppermint liqueur crafted from genuine natural peppermint essential oil",
@@ -12646,7 +10339,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "zelena-svach",
         "name": "Zelená",
-        "weight": "0,03L",
+        "weight": "0.03l",
         "price": "58 CZK",
         "allergens": [],
         "description": "0.03l craft South Bohemian peppermint liqueur from Svachovka distillery made with real macerated peppermint",
@@ -12677,17 +10370,2331 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
     ]
   },
   {
+    "id": "bubliny",
+    "name": "Bubbles",
+    "badge": "Bubbles",
+    "description": "Sparkling wines, crémants, and champagnes by the bottle",
+    "iconName": "Sparkles",
+    "items": [
+      {
+        "id": "bubliny-charmat-palava",
+        "name": "Charmat de Vinselekt Pálava",
+        "weight": "0.75l",
+        "price": "699 CZK",
+        "allergens": [
+          "12"
+        ],
+        "description": "Vinselect Michlovský, extra sec – Moravia. Wild effervescence, opulent aroma with hints of roses and exotic fruit, round captivating palate.",
+        "notes": "Vinselect Michlovský, extra sec – Moravia. Wild effervescence, opulent aroma with hints of roses and exotic fruit, round captivating palate.",
+        "questions": [
+          {
+            "id": "bubliny-charmat-palava-vol",
+            "question": "What is the serving volume / measure of Charmat de Vinselekt Pálava?",
+            "correctAnswer": "0,1l / 0,75l",
+            "distractors": [
+              "0.02 l",
+              "0.03 l"
+            ],
+            "explanation": "The serving measure of Charmat de Vinselekt Pálava is 0,1l / 0,75l."
+          },
+          {
+            "id": "bubliny-charmat-palava-ing-1",
+            "question": "Which ingredient is part of Charmat de Vinselekt Pálava?",
+            "correctAnswer": "Vinselect Michlovský",
+            "distractors": [
+              "Aging in oak barrels",
+              "Gotberg winery"
+            ],
+            "explanation": "In Charmat de Vinselekt Pálava, this component is present: Vinselect Michlovský. Full recipe ingredients: Vinselect Michlovský, extra sec – Moravia. Wild effervescence, opulent aroma with hints of roses and exotic fruit, round captivating palate.."
+          },
+          {
+            "id": "bubliny-charmat-palava-ing-2",
+            "question": "Which ingredient is part of Charmat de Vinselekt Pálava?",
+            "correctAnswer": "Extra sec – Moravia. Wild effervescence",
+            "distractors": [
+              "Kolby winery",
+              "Kraus winery"
+            ],
+            "explanation": "In Charmat de Vinselekt Pálava, this component is present: Extra sec – Moravia. Wild effervescence. Full recipe ingredients: Vinselect Michlovský, extra sec – Moravia. Wild effervescence, opulent aroma with hints of roses and exotic fruit, round captivating palate.."
+          },
+          {
+            "id": "bubliny-charmat-palava-ing-3",
+            "question": "Which ingredient is part of Charmat de Vinselekt Pálava?",
+            "correctAnswer": "Opulent aroma with hints of roses and exotic fruit",
+            "distractors": [
+              "Michlovsky winery",
+              "Mikulov subregion"
+            ],
+            "explanation": "In Charmat de Vinselekt Pálava, this component is present: Opulent aroma with hints of roses and exotic fruit. Full recipe ingredients: Vinselect Michlovský, extra sec – Moravia. Wild effervescence, opulent aroma with hints of roses and exotic fruit, round captivating palate.."
+          },
+          {
+            "id": "bubliny-charmat-palava-ing-4",
+            "question": "Which ingredient is part of Charmat de Vinselekt Pálava?",
+            "correctAnswer": "Round captivating palate",
+            "distractors": [
+              "Velke Pavlovice subregion",
+              "Melnik subregion"
+            ],
+            "explanation": "In Charmat de Vinselekt Pálava, this component is present: Round captivating palate. Full recipe ingredients: Vinselect Michlovský, extra sec – Moravia. Wild effervescence, opulent aroma with hints of roses and exotic fruit, round captivating palate.."
+          },
+          {
+            "id": "bubliny-charmat-palava-allergen-12",
+            "question": "Which of the following allergens is present in Charmat de Vinselekt Pálava?",
+            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
+            "distractors": [
+              "Allergen No. 14 – Molluscs and products thereof",
+              "Allergen No. 5 – Peanuts and products thereof"
+            ],
+            "explanation": "Charmat de Vinselekt Pálava contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+          }
+        ]
+      },
+      {
+        "id": "bubliny-cremant-vinselekt",
+        "name": "Crémant de Vinselekt (Pinot, Chardonnay)",
+        "weight": "0.75l",
+        "price": "849 CZK",
+        "allergens": [
+          "12"
+        ],
+        "description": "Vinselect Michlovský, extra brut – Moravia. Fine impressive perlage, elegant aroma, harmonious creamy finish.",
+        "notes": "Vinselect Michlovský, extra brut – Moravia. Fine impressive perlage, elegant aroma, harmonious creamy finish.",
+        "questions": [
+          {
+            "id": "bubliny-cremant-vinselekt-vol",
+            "question": "What is the serving volume / measure of Crémant de Vinselekt (Pinot, Chardonnay)?",
+            "correctAnswer": "0,1l / 0,75l",
+            "distractors": [
+              "0.02 l",
+              "0.03 l"
+            ],
+            "explanation": "The serving measure of Crémant de Vinselekt (Pinot, Chardonnay) is 0,1l / 0,75l."
+          },
+          {
+            "id": "bubliny-cremant-vinselekt-ing-1",
+            "question": "Which ingredient is part of Crémant de Vinselekt (Pinot, Chardonnay)?",
+            "correctAnswer": "Vinselect Michlovský",
+            "distractors": [
+              "Aging in oak barrels",
+              "Gotberg winery"
+            ],
+            "explanation": "In Crémant de Vinselekt (Pinot, Chardonnay), this component is present: Vinselect Michlovský. Full recipe ingredients: Vinselect Michlovský, extra brut – Moravia. Fine impressive perlage, elegant aroma, harmonious creamy finish.."
+          },
+          {
+            "id": "bubliny-cremant-vinselekt-ing-2",
+            "question": "Which ingredient is part of Crémant de Vinselekt (Pinot, Chardonnay)?",
+            "correctAnswer": "Extra brut – Moravia. Fine impressive perlage",
+            "distractors": [
+              "Kolby winery",
+              "Kraus winery"
+            ],
+            "explanation": "In Crémant de Vinselekt (Pinot, Chardonnay), this component is present: Extra brut – Moravia. Fine impressive perlage. Full recipe ingredients: Vinselect Michlovský, extra brut – Moravia. Fine impressive perlage, elegant aroma, harmonious creamy finish.."
+          },
+          {
+            "id": "bubliny-cremant-vinselekt-ing-3",
+            "question": "Which ingredient is part of Crémant de Vinselekt (Pinot, Chardonnay)?",
+            "correctAnswer": "Elegant aroma",
+            "distractors": [
+              "Michlovsky winery",
+              "Mikulov subregion"
+            ],
+            "explanation": "In Crémant de Vinselekt (Pinot, Chardonnay), this component is present: Elegant aroma. Full recipe ingredients: Vinselect Michlovský, extra brut – Moravia. Fine impressive perlage, elegant aroma, harmonious creamy finish.."
+          },
+          {
+            "id": "bubliny-cremant-vinselekt-ing-4",
+            "question": "Which ingredient is part of Crémant de Vinselekt (Pinot, Chardonnay)?",
+            "correctAnswer": "Harmonious creamy finish",
+            "distractors": [
+              "Velke Pavlovice subregion",
+              "Melnik subregion"
+            ],
+            "explanation": "In Crémant de Vinselekt (Pinot, Chardonnay), this component is present: Harmonious creamy finish. Full recipe ingredients: Vinselect Michlovský, extra brut – Moravia. Fine impressive perlage, elegant aroma, harmonious creamy finish.."
+          },
+          {
+            "id": "bubliny-cremant-vinselekt-allergen-12",
+            "question": "Which of the following allergens is present in Crémant de Vinselekt (Pinot, Chardonnay)?",
+            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
+            "distractors": [
+              "Allergen No. 14 – Molluscs and products thereof",
+              "Allergen No. 5 – Peanuts and products thereof"
+            ],
+            "explanation": "Crémant de Vinselekt (Pinot, Chardonnay) contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+          }
+        ]
+      },
+      {
+        "id": "bubliny-angels-cowboys",
+        "name": "Angels & Cowboys Brut",
+        "weight": "0.75l",
+        "price": "1199 CZK",
+        "allergens": [
+          "12"
+        ],
+        "description": "NV, brut – North Coast, California. Traditional bottle fermentation, elegant perlage, fresh orchard fruit, citrus, notes of brioche and toasted bread crust.",
+        "notes": "NV, brut – North Coast, California. Traditional bottle fermentation, elegant perlage, fresh orchard fruit, citrus, notes of brioche and toasted bread crust.",
+        "questions": [
+          {
+            "id": "bubliny-angels-cowboys-vol",
+            "question": "What is the serving volume / measure of Angels & Cowboys Brut?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0.5 l",
+              "1.0 l"
+            ],
+            "explanation": "The serving measure of Angels & Cowboys Brut is 0,75l."
+          },
+          {
+            "id": "bubliny-angels-cowboys-ing-1",
+            "question": "Which ingredient is part of Angels & Cowboys Brut?",
+            "correctAnswer": "NV",
+            "distractors": [
+              "Aging in oak barrels",
+              "Gotberg winery"
+            ],
+            "explanation": "In Angels & Cowboys Brut, this component is present: NV. Full recipe ingredients: NV, brut – North Coast, California. Traditional bottle fermentation, elegant perlage, fresh orchard fruit, citrus, notes of brioche and toasted bread crust.."
+          },
+          {
+            "id": "bubliny-angels-cowboys-ing-2",
+            "question": "Which ingredient is part of Angels & Cowboys Brut?",
+            "correctAnswer": "Brut – North Coast",
+            "distractors": [
+              "Kolby winery",
+              "Kraus winery"
+            ],
+            "explanation": "In Angels & Cowboys Brut, this component is present: Brut – North Coast. Full recipe ingredients: NV, brut – North Coast, California. Traditional bottle fermentation, elegant perlage, fresh orchard fruit, citrus, notes of brioche and toasted bread crust.."
+          },
+          {
+            "id": "bubliny-angels-cowboys-ing-3",
+            "question": "Which brewing raw material or trait characterizes Angels & Cowboys Brut?",
+            "correctAnswer": "California. Traditional bottle fermentation",
+            "distractors": [
+              "Michlovsky winery",
+              "Mikulov subregion"
+            ],
+            "explanation": "In Angels & Cowboys Brut, this component is present: California. Traditional bottle fermentation. Full recipe ingredients: NV, brut – North Coast, California. Traditional bottle fermentation, elegant perlage, fresh orchard fruit, citrus, notes of brioche and toasted bread crust.."
+          },
+          {
+            "id": "bubliny-angels-cowboys-ing-4",
+            "question": "Which ingredient is part of Angels & Cowboys Brut?",
+            "correctAnswer": "Elegant perlage",
+            "distractors": [
+              "Velke Pavlovice subregion",
+              "Melnik subregion"
+            ],
+            "explanation": "In Angels & Cowboys Brut, this component is present: Elegant perlage. Full recipe ingredients: NV, brut – North Coast, California. Traditional bottle fermentation, elegant perlage, fresh orchard fruit, citrus, notes of brioche and toasted bread crust.."
+          },
+          {
+            "id": "bubliny-angels-cowboys-ing-5",
+            "question": "Which ingredient is part of Angels & Cowboys Brut?",
+            "correctAnswer": "Fresh orchard fruit",
+            "distractors": [
+              "Vibrant acidity and mineral notes",
+              "Late harvest"
+            ],
+            "explanation": "In Angels & Cowboys Brut, this component is present: Fresh orchard fruit. Full recipe ingredients: NV, brut – North Coast, California. Traditional bottle fermentation, elegant perlage, fresh orchard fruit, citrus, notes of brioche and toasted bread crust.."
+          },
+          {
+            "id": "bubliny-angels-cowboys-ing-6",
+            "question": "Which ingredient is part of Angels & Cowboys Brut?",
+            "correctAnswer": "Citrus",
+            "distractors": [
+              "Aging in oak barrels",
+              "Gotberg winery"
+            ],
+            "explanation": "In Angels & Cowboys Brut, this component is present: Citrus. Full recipe ingredients: NV, brut – North Coast, California. Traditional bottle fermentation, elegant perlage, fresh orchard fruit, citrus, notes of brioche and toasted bread crust.."
+          },
+          {
+            "id": "bubliny-angels-cowboys-ing-7",
+            "question": "Which bread, side, or crispy garnish accompanies Angels & Cowboys Brut?",
+            "correctAnswer": "Notes of brioche and toasted bread crust",
+            "distractors": [
+              "Kolby winery",
+              "Kraus winery"
+            ],
+            "explanation": "In Angels & Cowboys Brut, this component is present: Notes of brioche and toasted bread crust. Full recipe ingredients: NV, brut – North Coast, California. Traditional bottle fermentation, elegant perlage, fresh orchard fruit, citrus, notes of brioche and toasted bread crust.."
+          },
+          {
+            "id": "bubliny-angels-cowboys-allergen-12",
+            "question": "Which of the following allergens is present in Angels & Cowboys Brut?",
+            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
+            "distractors": [
+              "Allergen No. 14 – Molluscs and products thereof",
+              "Allergen No. 5 – Peanuts and products thereof"
+            ],
+            "explanation": "Angels & Cowboys Brut contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bila-vina",
+    "name": "White wines",
+    "badge": "White wines",
+    "description": "Finest white wines from Moravia, Austria, Germany, and the New World",
+    "iconName": "Wine",
+    "items": [
+      {
+        "id": "bile-ryzlink-gotberg",
+        "name": "Riesling (Ryzlink rýnský) – Gotberg",
+        "weight": "0.75l",
+        "price": "469 CZK",
+        "allergens": [
+          "12"
+        ],
+        "description": "Late harvest Gotberg – Pálava, Moravia. Fresh with vibrant acidity, aromas of citrus, green apple and white peach, mineral finish.",
+        "notes": "Late harvest Gotberg – Pálava, Moravia. Fresh with vibrant acidity, aromas of citrus, green apple and white peach, mineral finish.",
+        "questions": [
+          {
+            "id": "bile-ryzlink-gotberg-vol",
+            "question": "What is the serving volume / measure of Riesling (Ryzlink rýnský) – Gotberg?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0.5 l",
+              "1.0 l"
+            ],
+            "explanation": "The serving measure of Riesling (Ryzlink rýnský) – Gotberg is 0,75l."
+          },
+          {
+            "id": "bile-ryzlink-gotberg-ing-1",
+            "question": "Which grape variety, winery, or characteristic belongs to Riesling (Ryzlink rýnský) – Gotberg?",
+            "correctAnswer": "Late harvest Gotberg – Pálava",
+            "distractors": [
+              "Gotberg winery",
+              "Kolby winery"
+            ],
+            "explanation": "In Riesling (Ryzlink rýnský) – Gotberg, this component is present: Late harvest Gotberg – Pálava. Full recipe ingredients: Late harvest Gotberg – Pálava, Moravia. Fresh with vibrant acidity, aromas of citrus, green apple and white peach, mineral finish.."
+          },
+          {
+            "id": "bile-ryzlink-gotberg-ing-2",
+            "question": "Which grape variety, winery, or characteristic belongs to Riesling (Ryzlink rýnský) – Gotberg?",
+            "correctAnswer": "Moravia. Fresh with vibrant acidity",
+            "distractors": [
+              "Kraus winery",
+              "Michlovsky winery"
+            ],
+            "explanation": "In Riesling (Ryzlink rýnský) – Gotberg, this component is present: Moravia. Fresh with vibrant acidity. Full recipe ingredients: Late harvest Gotberg – Pálava, Moravia. Fresh with vibrant acidity, aromas of citrus, green apple and white peach, mineral finish.."
+          },
+          {
+            "id": "bile-ryzlink-gotberg-ing-3",
+            "question": "Which ingredient is part of Riesling (Ryzlink rýnský) – Gotberg?",
+            "correctAnswer": "Aromas of citrus",
+            "distractors": [
+              "Mikulov subregion",
+              "Velke Pavlovice subregion"
+            ],
+            "explanation": "In Riesling (Ryzlink rýnský) – Gotberg, this component is present: Aromas of citrus. Full recipe ingredients: Late harvest Gotberg – Pálava, Moravia. Fresh with vibrant acidity, aromas of citrus, green apple and white peach, mineral finish.."
+          },
+          {
+            "id": "bile-ryzlink-gotberg-ing-4",
+            "question": "Which vegetable or fruit component is included in Riesling (Ryzlink rýnský) – Gotberg?",
+            "correctAnswer": "Green apple and white peach",
+            "distractors": [
+              "Melnik subregion",
+              "Vibrant acidity and mineral notes"
+            ],
+            "explanation": "In Riesling (Ryzlink rýnský) – Gotberg, this component is present: Green apple and white peach. Full recipe ingredients: Late harvest Gotberg – Pálava, Moravia. Fresh with vibrant acidity, aromas of citrus, green apple and white peach, mineral finish.."
+          },
+          {
+            "id": "bile-ryzlink-gotberg-ing-5",
+            "question": "Which ingredient is part of Riesling (Ryzlink rýnský) – Gotberg?",
+            "correctAnswer": "Mineral finish",
+            "distractors": [
+              "Aging in oak barrels",
+              "Gotberg winery"
+            ],
+            "explanation": "In Riesling (Ryzlink rýnský) – Gotberg, this component is present: Mineral finish. Full recipe ingredients: Late harvest Gotberg – Pálava, Moravia. Fresh with vibrant acidity, aromas of citrus, green apple and white peach, mineral finish.."
+          },
+          {
+            "id": "bile-ryzlink-gotberg-allergen-12",
+            "question": "Which of the following allergens is present in Riesling (Ryzlink rýnský) – Gotberg?",
+            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
+            "distractors": [
+              "Allergen No. 14 – Molluscs and products thereof",
+              "Allergen No. 5 – Peanuts and products thereof"
+            ],
+            "explanation": "Riesling (Ryzlink rýnský) – Gotberg contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+          }
+        ]
+      },
+      {
+        "id": "bile-pinot-gris-reisten",
+        "name": "Pinot Gris – Reisten",
+        "weight": "0.75l",
+        "price": "479 CZK",
+        "allergens": [
+          "12"
+        ],
+        "description": "Late harvest Reisten – Mikulov region, Moravia. Full-bodied and smooth, subtle mineral touch on the palate, fresh grapefruit and orange zest.",
+        "notes": "Late harvest Reisten – Mikulov region, Moravia. Full-bodied and smooth, subtle mineral touch on the palate, fresh grapefruit and orange zest.",
+        "questions": [
+          {
+            "id": "bile-pinot-gris-reisten-vol",
+            "question": "What is the serving volume / measure of Pinot Gris – Reisten?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0.5 l",
+              "1.0 l"
+            ],
+            "explanation": "The serving measure of Pinot Gris – Reisten is 0,75l."
+          },
+          {
+            "id": "bile-pinot-gris-reisten-ing-1",
+            "question": "Which grape variety, winery, or characteristic belongs to Pinot Gris – Reisten?",
+            "correctAnswer": "Late harvest Reisten – Mikulov region",
+            "distractors": [
+              "Gotberg winery",
+              "Kolby winery"
+            ],
+            "explanation": "In Pinot Gris – Reisten, this component is present: Late harvest Reisten – Mikulov region. Full recipe ingredients: Late harvest Reisten – Mikulov region, Moravia. Full-bodied and smooth, subtle mineral touch on the palate, fresh grapefruit and orange zest.."
+          },
+          {
+            "id": "bile-pinot-gris-reisten-ing-2",
+            "question": "Which ingredient is part of Pinot Gris – Reisten?",
+            "correctAnswer": "Moravia. Full-bodied and smooth",
+            "distractors": [
+              "Kraus winery",
+              "Michlovsky winery"
+            ],
+            "explanation": "In Pinot Gris – Reisten, this component is present: Moravia. Full-bodied and smooth. Full recipe ingredients: Late harvest Reisten – Mikulov region, Moravia. Full-bodied and smooth, subtle mineral touch on the palate, fresh grapefruit and orange zest.."
+          },
+          {
+            "id": "bile-pinot-gris-reisten-ing-3",
+            "question": "Which ingredient is part of Pinot Gris – Reisten?",
+            "correctAnswer": "Subtle mineral touch on the palate",
+            "distractors": [
+              "Mikulov subregion",
+              "Velke Pavlovice subregion"
+            ],
+            "explanation": "In Pinot Gris – Reisten, this component is present: Subtle mineral touch on the palate. Full recipe ingredients: Late harvest Reisten – Mikulov region, Moravia. Full-bodied and smooth, subtle mineral touch on the palate, fresh grapefruit and orange zest.."
+          },
+          {
+            "id": "bile-pinot-gris-reisten-ing-4",
+            "question": "Which vegetable or fruit component is included in Pinot Gris – Reisten?",
+            "correctAnswer": "Fresh grapefruit and orange zest",
+            "distractors": [
+              "Melnik subregion",
+              "Vibrant acidity and mineral notes"
+            ],
+            "explanation": "In Pinot Gris – Reisten, this component is present: Fresh grapefruit and orange zest. Full recipe ingredients: Late harvest Reisten – Mikulov region, Moravia. Full-bodied and smooth, subtle mineral touch on the palate, fresh grapefruit and orange zest.."
+          },
+          {
+            "id": "bile-pinot-gris-reisten-allergen-12",
+            "question": "Which of the following allergens is present in Pinot Gris – Reisten?",
+            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
+            "distractors": [
+              "Allergen No. 14 – Molluscs and products thereof",
+              "Allergen No. 5 – Peanuts and products thereof"
+            ],
+            "explanation": "Pinot Gris – Reisten contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+          }
+        ]
+      },
+      {
+        "id": "bile-hibernal-bilkovi",
+        "name": "Hibernal – Bílkovi",
+        "weight": "0.75l",
+        "price": "495 CZK",
+        "allergens": [
+          "12"
+        ],
+        "description": "Late harvest Bílkovi – Velké Pavlovice region, Moravia. Juicy, aromas of blackcurrant and elderflower, fruity with pleasant acidity and spiced finish.",
+        "notes": "Late harvest Bílkovi – Velké Pavlovice region, Moravia. Juicy, aromas of blackcurrant and elderflower, fruity with pleasant acidity and spiced finish.",
+        "questions": [
+          {
+            "id": "bile-hibernal-bilkovi-vol",
+            "question": "What is the serving volume / measure of Hibernal – Bílkovi?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0.5 l",
+              "1.0 l"
+            ],
+            "explanation": "The serving measure of Hibernal – Bílkovi is 0,75l."
+          },
+          {
+            "id": "bile-hibernal-bilkovi-ing-1",
+            "question": "Which grape variety, winery, or characteristic belongs to Hibernal – Bílkovi?",
+            "correctAnswer": "Late harvest Bílkovi – Velké Pavlovice region",
+            "distractors": [
+              "Gotberg winery",
+              "Kolby winery"
+            ],
+            "explanation": "In Hibernal – Bílkovi, this component is present: Late harvest Bílkovi – Velké Pavlovice region. Full recipe ingredients: Late harvest Bílkovi – Velké Pavlovice region, Moravia. Juicy, aromas of blackcurrant and elderflower, fruity with pleasant acidity and spiced finish.."
+          },
+          {
+            "id": "bile-hibernal-bilkovi-ing-2",
+            "question": "Which ingredient is part of Hibernal – Bílkovi?",
+            "correctAnswer": "Moravia. Juicy",
+            "distractors": [
+              "Kraus winery",
+              "Michlovsky winery"
+            ],
+            "explanation": "In Hibernal – Bílkovi, this component is present: Moravia. Juicy. Full recipe ingredients: Late harvest Bílkovi – Velké Pavlovice region, Moravia. Juicy, aromas of blackcurrant and elderflower, fruity with pleasant acidity and spiced finish.."
+          },
+          {
+            "id": "bile-hibernal-bilkovi-ing-3",
+            "question": "Which ingredient is part of Hibernal – Bílkovi?",
+            "correctAnswer": "Aromas of blackcurrant and elderflower",
+            "distractors": [
+              "Mikulov subregion",
+              "Velke Pavlovice subregion"
+            ],
+            "explanation": "In Hibernal – Bílkovi, this component is present: Aromas of blackcurrant and elderflower. Full recipe ingredients: Late harvest Bílkovi – Velké Pavlovice region, Moravia. Juicy, aromas of blackcurrant and elderflower, fruity with pleasant acidity and spiced finish.."
+          },
+          {
+            "id": "bile-hibernal-bilkovi-ing-4",
+            "question": "Which grape variety, winery, or characteristic belongs to Hibernal – Bílkovi?",
+            "correctAnswer": "Fruity with pleasant acidity and spiced finish",
+            "distractors": [
+              "Melnik subregion",
+              "Vibrant acidity and mineral notes"
+            ],
+            "explanation": "In Hibernal – Bílkovi, this component is present: Fruity with pleasant acidity and spiced finish. Full recipe ingredients: Late harvest Bílkovi – Velké Pavlovice region, Moravia. Juicy, aromas of blackcurrant and elderflower, fruity with pleasant acidity and spiced finish.."
+          },
+          {
+            "id": "bile-hibernal-bilkovi-ing-5",
+            "question": "Which grape variety, winery, or characteristic belongs to Hibernal – Bílkovi?",
+            "correctAnswer": "Fruity with pleasant acidity and spiced finish",
+            "distractors": [
+              "Aging in oak barrels",
+              "Gotberg winery"
+            ],
+            "explanation": "In Hibernal – Bílkovi, this component is present: Fruity with pleasant acidity and spiced finish. Full recipe ingredients: Late harvest Bílkovi – Velké Pavlovice region, Moravia. Juicy, aromas of blackcurrant and elderflower, fruity with pleasant acidity and spiced finish.."
+          },
+          {
+            "id": "bile-hibernal-bilkovi-allergen-12",
+            "question": "Which of the following allergens is present in Hibernal – Bílkovi?",
+            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
+            "distractors": [
+              "Allergen No. 14 – Molluscs and products thereof",
+              "Allergen No. 5 – Peanuts and products thereof"
+            ],
+            "explanation": "Hibernal – Bílkovi contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+          }
+        ]
+      },
+      {
+        "id": "bile-sauvignon-halkoci",
+        "name": "Sauvignon – Typik VOC Lukáš Halkoci",
+        "weight": "0.75l",
+        "price": "626 CZK",
+        "allergens": [
+          "12"
+        ],
+        "description": "Typik VOC Lukáš Halkoci – Znojmo region, Moravia. Lighter-bodied, refreshing finish, crisp aromas of gooseberry, blackcurrant and citrus.",
+        "notes": "Typik VOC Lukáš Halkoci – Znojmo region, Moravia. Lighter-bodied, refreshing finish, crisp aromas of gooseberry, blackcurrant and citrus.",
+        "questions": [
+          {
+            "id": "bile-sauvignon-halkoci-vol",
+            "question": "What is the serving volume / measure of Sauvignon – Typik VOC Lukáš Halkoci?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0.5 l",
+              "1.0 l"
+            ],
+            "explanation": "The serving measure of Sauvignon – Typik VOC Lukáš Halkoci is 0,75l."
+          },
+          {
+            "id": "bile-sauvignon-halkoci-ing-1",
+            "question": "Which ingredient is part of Sauvignon – Typik VOC Lukáš Halkoci?",
+            "correctAnswer": "Typik VOC Lukáš Halkoci – Znojmo region",
+            "distractors": [
+              "Aging in oak barrels",
+              "Gotberg winery"
+            ],
+            "explanation": "In Sauvignon – Typik VOC Lukáš Halkoci, this component is present: Typik VOC Lukáš Halkoci – Znojmo region. Full recipe ingredients: Typik VOC Lukáš Halkoci – Znojmo region, Moravia. Lighter-bodied, refreshing finish, crisp aromas of gooseberry, blackcurrant and citrus.."
+          },
+          {
+            "id": "bile-sauvignon-halkoci-ing-2",
+            "question": "Which ingredient is part of Sauvignon – Typik VOC Lukáš Halkoci?",
+            "correctAnswer": "Moravia. Lighter-bodied",
+            "distractors": [
+              "Kolby winery",
+              "Kraus winery"
+            ],
+            "explanation": "In Sauvignon – Typik VOC Lukáš Halkoci, this component is present: Moravia. Lighter-bodied. Full recipe ingredients: Typik VOC Lukáš Halkoci – Znojmo region, Moravia. Lighter-bodied, refreshing finish, crisp aromas of gooseberry, blackcurrant and citrus.."
+          },
+          {
+            "id": "bile-sauvignon-halkoci-ing-3",
+            "question": "Which ingredient is part of Sauvignon – Typik VOC Lukáš Halkoci?",
+            "correctAnswer": "Refreshing finish",
+            "distractors": [
+              "Michlovsky winery",
+              "Mikulov subregion"
+            ],
+            "explanation": "In Sauvignon – Typik VOC Lukáš Halkoci, this component is present: Refreshing finish. Full recipe ingredients: Typik VOC Lukáš Halkoci – Znojmo region, Moravia. Lighter-bodied, refreshing finish, crisp aromas of gooseberry, blackcurrant and citrus.."
+          },
+          {
+            "id": "bile-sauvignon-halkoci-ing-4",
+            "question": "Which ingredient is part of Sauvignon – Typik VOC Lukáš Halkoci?",
+            "correctAnswer": "Crisp aromas of gooseberry",
+            "distractors": [
+              "Velke Pavlovice subregion",
+              "Melnik subregion"
+            ],
+            "explanation": "In Sauvignon – Typik VOC Lukáš Halkoci, this component is present: Crisp aromas of gooseberry. Full recipe ingredients: Typik VOC Lukáš Halkoci – Znojmo region, Moravia. Lighter-bodied, refreshing finish, crisp aromas of gooseberry, blackcurrant and citrus.."
+          },
+          {
+            "id": "bile-sauvignon-halkoci-ing-5",
+            "question": "Which ingredient is part of Sauvignon – Typik VOC Lukáš Halkoci?",
+            "correctAnswer": "Blackcurrant and citrus",
+            "distractors": [
+              "Vibrant acidity and mineral notes",
+              "Late harvest"
+            ],
+            "explanation": "In Sauvignon – Typik VOC Lukáš Halkoci, this component is present: Blackcurrant and citrus. Full recipe ingredients: Typik VOC Lukáš Halkoci – Znojmo region, Moravia. Lighter-bodied, refreshing finish, crisp aromas of gooseberry, blackcurrant and citrus.."
+          },
+          {
+            "id": "bile-sauvignon-halkoci-allergen-12",
+            "question": "Which of the following allergens is present in Sauvignon – Typik VOC Lukáš Halkoci?",
+            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
+            "distractors": [
+              "Allergen No. 14 – Molluscs and products thereof",
+              "Allergen No. 5 – Peanuts and products thereof"
+            ],
+            "explanation": "Sauvignon – Typik VOC Lukáš Halkoci contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+          }
+        ]
+      },
+      {
+        "id": "bile-ryzlink-vlassky-sukal",
+        "name": "Welschriesling (Ryzlink vlašský) – Milan Sůkal",
+        "weight": "0.75l",
+        "price": "660 CZK",
+        "allergens": [
+          "12"
+        ],
+        "description": "Late harvest Milan Sůkal – Slovácko, Moravia. Medium-bodied wine, pleasant acidity, notes of ripe citrus, pomelo and stone fruit.",
+        "notes": "Late harvest Milan Sůkal – Slovácko, Moravia. Medium-bodied wine, pleasant acidity, notes of ripe citrus, pomelo and stone fruit.",
+        "questions": [
+          {
+            "id": "bile-ryzlink-vlassky-sukal-vol",
+            "question": "What is the serving volume / measure of Welschriesling (Ryzlink vlašský) – Milan Sůkal?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0.5 l",
+              "1.0 l"
+            ],
+            "explanation": "The serving measure of Welschriesling (Ryzlink vlašský) – Milan Sůkal is 0,75l."
+          },
+          {
+            "id": "bile-ryzlink-vlassky-sukal-ing-1",
+            "question": "Which grape variety, winery, or characteristic belongs to Welschriesling (Ryzlink vlašský) – Milan Sůkal?",
+            "correctAnswer": "Late harvest Milan Sůkal – Slovácko",
+            "distractors": [
+              "Gotberg winery",
+              "Kolby winery"
+            ],
+            "explanation": "In Welschriesling (Ryzlink vlašský) – Milan Sůkal, this component is present: Late harvest Milan Sůkal – Slovácko. Full recipe ingredients: Late harvest Milan Sůkal – Slovácko, Moravia. Medium-bodied wine, pleasant acidity, notes of ripe citrus, pomelo and stone fruit.."
+          },
+          {
+            "id": "bile-ryzlink-vlassky-sukal-ing-2",
+            "question": "Which ingredient is part of Welschriesling (Ryzlink vlašský) – Milan Sůkal?",
+            "correctAnswer": "Moravia. Medium-bodied wine",
+            "distractors": [
+              "Kraus winery",
+              "Michlovsky winery"
+            ],
+            "explanation": "In Welschriesling (Ryzlink vlašský) – Milan Sůkal, this component is present: Moravia. Medium-bodied wine. Full recipe ingredients: Late harvest Milan Sůkal – Slovácko, Moravia. Medium-bodied wine, pleasant acidity, notes of ripe citrus, pomelo and stone fruit.."
+          },
+          {
+            "id": "bile-ryzlink-vlassky-sukal-ing-3",
+            "question": "Which grape variety, winery, or characteristic belongs to Welschriesling (Ryzlink vlašský) – Milan Sůkal?",
+            "correctAnswer": "Pleasant acidity",
+            "distractors": [
+              "Mikulov subregion",
+              "Velke Pavlovice subregion"
+            ],
+            "explanation": "In Welschriesling (Ryzlink vlašský) – Milan Sůkal, this component is present: Pleasant acidity. Full recipe ingredients: Late harvest Milan Sůkal – Slovácko, Moravia. Medium-bodied wine, pleasant acidity, notes of ripe citrus, pomelo and stone fruit.."
+          },
+          {
+            "id": "bile-ryzlink-vlassky-sukal-ing-4",
+            "question": "Which ingredient is part of Welschriesling (Ryzlink vlašský) – Milan Sůkal?",
+            "correctAnswer": "Notes of ripe citrus",
+            "distractors": [
+              "Melnik subregion",
+              "Vibrant acidity and mineral notes"
+            ],
+            "explanation": "In Welschriesling (Ryzlink vlašský) – Milan Sůkal, this component is present: Notes of ripe citrus. Full recipe ingredients: Late harvest Milan Sůkal – Slovácko, Moravia. Medium-bodied wine, pleasant acidity, notes of ripe citrus, pomelo and stone fruit.."
+          },
+          {
+            "id": "bile-ryzlink-vlassky-sukal-ing-5",
+            "question": "Which ingredient is part of Welschriesling (Ryzlink vlašský) – Milan Sůkal?",
+            "correctAnswer": "Pomelo and stone fruit",
+            "distractors": [
+              "Aging in oak barrels",
+              "Gotberg winery"
+            ],
+            "explanation": "In Welschriesling (Ryzlink vlašský) – Milan Sůkal, this component is present: Pomelo and stone fruit. Full recipe ingredients: Late harvest Milan Sůkal – Slovácko, Moravia. Medium-bodied wine, pleasant acidity, notes of ripe citrus, pomelo and stone fruit.."
+          },
+          {
+            "id": "bile-ryzlink-vlassky-sukal-allergen-12",
+            "question": "Which of the following allergens is present in Welschriesling (Ryzlink vlašský) – Milan Sůkal?",
+            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
+            "distractors": [
+              "Allergen No. 14 – Molluscs and products thereof",
+              "Allergen No. 5 – Peanuts and products thereof"
+            ],
+            "explanation": "Welschriesling (Ryzlink vlašský) – Milan Sůkal contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+          }
+        ]
+      },
+      {
+        "id": "bile-palava-michlovsky",
+        "name": "Pálava – Vinselect Michlovský",
+        "weight": "0.75l",
+        "price": "506 CZK",
+        "allergens": [
+          "12"
+        ],
+        "description": "Late harvest Vinselect Michlovský – Lednice-Valtice area, Moravia. Delicate floral scent of orange blossoms and rosebuds, fresh palate of lychee and apple strudel.",
+        "notes": "Late harvest Vinselect Michlovský – Lednice-Valtice area, Moravia. Delicate floral scent of orange blossoms and rosebuds, fresh palate of lychee and apple strudel.",
+        "questions": [
+          {
+            "id": "bile-palava-michlovsky-vol",
+            "question": "What is the serving volume / measure of Pálava – Vinselect Michlovský?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0.5 l",
+              "1.0 l"
+            ],
+            "explanation": "The serving measure of Pálava – Vinselect Michlovský is 0,75l."
+          },
+          {
+            "id": "bile-palava-michlovsky-ing-1",
+            "question": "Which grape variety, winery, or characteristic belongs to Pálava – Vinselect Michlovský?",
+            "correctAnswer": "Late harvest Vinselect Michlovský – Lednice-Valtice area",
+            "distractors": [
+              "Gotberg winery",
+              "Kolby winery"
+            ],
+            "explanation": "In Pálava – Vinselect Michlovský, this component is present: Late harvest Vinselect Michlovský – Lednice-Valtice area. Full recipe ingredients: Late harvest Vinselect Michlovský – Lednice-Valtice area, Moravia. Delicate floral scent of orange blossoms and rosebuds, fresh palate of lychee and apple strudel.."
+          },
+          {
+            "id": "bile-palava-michlovsky-ing-2",
+            "question": "Which ingredient is part of Pálava – Vinselect Michlovský?",
+            "correctAnswer": "Moravia. Delicate floral scent of orange blossoms and rosebuds",
+            "distractors": [
+              "Kraus winery",
+              "Michlovsky winery"
+            ],
+            "explanation": "In Pálava – Vinselect Michlovský, this component is present: Moravia. Delicate floral scent of orange blossoms and rosebuds. Full recipe ingredients: Late harvest Vinselect Michlovský – Lednice-Valtice area, Moravia. Delicate floral scent of orange blossoms and rosebuds, fresh palate of lychee and apple strudel.."
+          },
+          {
+            "id": "bile-palava-michlovsky-ing-3",
+            "question": "Which vegetable or fruit component is included in Pálava – Vinselect Michlovský?",
+            "correctAnswer": "Fresh palate of lychee and apple strudel",
+            "distractors": [
+              "Mikulov subregion",
+              "Velke Pavlovice subregion"
+            ],
+            "explanation": "In Pálava – Vinselect Michlovský, this component is present: Fresh palate of lychee and apple strudel. Full recipe ingredients: Late harvest Vinselect Michlovský – Lednice-Valtice area, Moravia. Delicate floral scent of orange blossoms and rosebuds, fresh palate of lychee and apple strudel.."
+          },
+          {
+            "id": "bile-palava-michlovsky-allergen-12",
+            "question": "Which of the following allergens is present in Pálava – Vinselect Michlovský?",
+            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
+            "distractors": [
+              "Allergen No. 14 – Molluscs and products thereof",
+              "Allergen No. 5 – Peanuts and products thereof"
+            ],
+            "explanation": "Pálava – Vinselect Michlovský contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+          }
+        ]
+      },
+      {
+        "id": "bile-poysdorfer-saurussel",
+        "name": "Poysdorfer Saurüssel – Hauser",
+        "weight": "0.75l",
+        "price": "629 CZK",
+        "allergens": [
+          "12"
+        ],
+        "description": "Weinviertel, Austria. Grüner Veltliner, aromas of green apple, citrus peel and white pepper, bright acidity and subtle minerality.",
+        "notes": "Weinviertel, Austria. Grüner Veltliner, aromas of green apple, citrus peel and white pepper, bright acidity and subtle minerality.",
+        "questions": [
+          {
+            "id": "bile-poysdorfer-saurussel-vol",
+            "question": "What is the serving volume / measure of Poysdorfer Saurüssel – Hauser?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0.5 l",
+              "1.0 l"
+            ],
+            "explanation": "The serving measure of Poysdorfer Saurüssel – Hauser is 0,75l."
+          },
+          {
+            "id": "bile-poysdorfer-saurussel-ing-1",
+            "question": "Which ingredient is part of Poysdorfer Saurüssel – Hauser?",
+            "correctAnswer": "Weinviertel",
+            "distractors": [
+              "Aging in oak barrels",
+              "Gotberg winery"
+            ],
+            "explanation": "In Poysdorfer Saurüssel – Hauser, this component is present: Weinviertel. Full recipe ingredients: Weinviertel, Austria. Grüner Veltliner, aromas of green apple, citrus peel and white pepper, bright acidity and subtle minerality.."
+          },
+          {
+            "id": "bile-poysdorfer-saurussel-ing-2",
+            "question": "Which ingredient is part of Poysdorfer Saurüssel – Hauser?",
+            "correctAnswer": "Austria. Grüner Veltliner",
+            "distractors": [
+              "Kolby winery",
+              "Kraus winery"
+            ],
+            "explanation": "In Poysdorfer Saurüssel – Hauser, this component is present: Austria. Grüner Veltliner. Full recipe ingredients: Weinviertel, Austria. Grüner Veltliner, aromas of green apple, citrus peel and white pepper, bright acidity and subtle minerality.."
+          },
+          {
+            "id": "bile-poysdorfer-saurussel-ing-3",
+            "question": "Which vegetable or fruit component is included in Poysdorfer Saurüssel – Hauser?",
+            "correctAnswer": "Aromas of green apple",
+            "distractors": [
+              "Michlovsky winery",
+              "Mikulov subregion"
+            ],
+            "explanation": "In Poysdorfer Saurüssel – Hauser, this component is present: Aromas of green apple. Full recipe ingredients: Weinviertel, Austria. Grüner Veltliner, aromas of green apple, citrus peel and white pepper, bright acidity and subtle minerality.."
+          },
+          {
+            "id": "bile-poysdorfer-saurussel-ing-4",
+            "question": "Which ingredient is part of Poysdorfer Saurüssel – Hauser?",
+            "correctAnswer": "Citrus peel and white pepper",
+            "distractors": [
+              "Velke Pavlovice subregion",
+              "Melnik subregion"
+            ],
+            "explanation": "In Poysdorfer Saurüssel – Hauser, this component is present: Citrus peel and white pepper. Full recipe ingredients: Weinviertel, Austria. Grüner Veltliner, aromas of green apple, citrus peel and white pepper, bright acidity and subtle minerality.."
+          },
+          {
+            "id": "bile-poysdorfer-saurussel-ing-5",
+            "question": "Which grape variety, winery, or characteristic belongs to Poysdorfer Saurüssel – Hauser?",
+            "correctAnswer": "Bright acidity and subtle minerality",
+            "distractors": [
+              "Vibrant acidity and mineral notes",
+              "Late harvest"
+            ],
+            "explanation": "In Poysdorfer Saurüssel – Hauser, this component is present: Bright acidity and subtle minerality. Full recipe ingredients: Weinviertel, Austria. Grüner Veltliner, aromas of green apple, citrus peel and white pepper, bright acidity and subtle minerality.."
+          },
+          {
+            "id": "bile-poysdorfer-saurussel-allergen-12",
+            "question": "Which of the following allergens is present in Poysdorfer Saurüssel – Hauser?",
+            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
+            "distractors": [
+              "Allergen No. 14 – Molluscs and products thereof",
+              "Allergen No. 5 – Peanuts and products thereof"
+            ],
+            "explanation": "Poysdorfer Saurüssel – Hauser contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+          }
+        ]
+      },
+      {
+        "id": "bile-gruner-satzen-schwarzbock",
+        "name": "Grüner Veltliner Premium Ried Satzen – Schwarzbock",
+        "weight": "0.75l",
+        "price": "723 CZK",
+        "allergens": [
+          "12"
+        ],
+        "description": "Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria. Rich golden color, intense aromas of ripe pears and citrus, elegant, mineral, peppery spiced finish.",
+        "notes": "Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria. Rich golden color, intense aromas of ripe pears and citrus, elegant, mineral, peppery spiced finish.",
+        "questions": [
+          {
+            "id": "bile-gruner-satzen-schwarzbock-vol",
+            "question": "What is the serving volume / measure of Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0.5 l",
+              "1.0 l"
+            ],
+            "explanation": "The serving measure of Grüner Veltliner Premium Ried Satzen – Schwarzbock is 0,75l."
+          },
+          {
+            "id": "bile-gruner-satzen-schwarzbock-ing-1",
+            "question": "Which ingredient is part of Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
+            "correctAnswer": "Premium Ried Satzen DAC Schwarzbock – Weinviertel",
+            "distractors": [
+              "Aging in oak barrels",
+              "Gotberg winery"
+            ],
+            "explanation": "In Grüner Veltliner Premium Ried Satzen – Schwarzbock, this component is present: Premium Ried Satzen DAC Schwarzbock – Weinviertel. Full recipe ingredients: Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria. Rich golden color, intense aromas of ripe pears and citrus, elegant, mineral, peppery spiced finish.."
+          },
+          {
+            "id": "bile-gruner-satzen-schwarzbock-ing-2",
+            "question": "Which ingredient is part of Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
+            "correctAnswer": "Austria. Rich golden color",
+            "distractors": [
+              "Kolby winery",
+              "Kraus winery"
+            ],
+            "explanation": "In Grüner Veltliner Premium Ried Satzen – Schwarzbock, this component is present: Austria. Rich golden color. Full recipe ingredients: Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria. Rich golden color, intense aromas of ripe pears and citrus, elegant, mineral, peppery spiced finish.."
+          },
+          {
+            "id": "bile-gruner-satzen-schwarzbock-ing-3",
+            "question": "Which ingredient is part of Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
+            "correctAnswer": "Intense aromas of ripe pears and citrus",
+            "distractors": [
+              "Michlovsky winery",
+              "Mikulov subregion"
+            ],
+            "explanation": "In Grüner Veltliner Premium Ried Satzen – Schwarzbock, this component is present: Intense aromas of ripe pears and citrus. Full recipe ingredients: Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria. Rich golden color, intense aromas of ripe pears and citrus, elegant, mineral, peppery spiced finish.."
+          },
+          {
+            "id": "bile-gruner-satzen-schwarzbock-ing-4",
+            "question": "Which ingredient is part of Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
+            "correctAnswer": "Elegant",
+            "distractors": [
+              "Velke Pavlovice subregion",
+              "Melnik subregion"
+            ],
+            "explanation": "In Grüner Veltliner Premium Ried Satzen – Schwarzbock, this component is present: Elegant. Full recipe ingredients: Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria. Rich golden color, intense aromas of ripe pears and citrus, elegant, mineral, peppery spiced finish.."
+          },
+          {
+            "id": "bile-gruner-satzen-schwarzbock-ing-5",
+            "question": "Which ingredient is part of Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
+            "correctAnswer": "Mineral",
+            "distractors": [
+              "Late harvest",
+              "Aging in oak barrels"
+            ],
+            "explanation": "In Grüner Veltliner Premium Ried Satzen – Schwarzbock, this component is present: Mineral. Full recipe ingredients: Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria. Rich golden color, intense aromas of ripe pears and citrus, elegant, mineral, peppery spiced finish.."
+          },
+          {
+            "id": "bile-gruner-satzen-schwarzbock-ing-6",
+            "question": "Which ingredient is part of Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
+            "correctAnswer": "Peppery spiced finish",
+            "distractors": [
+              "Gotberg winery",
+              "Kolby winery"
+            ],
+            "explanation": "In Grüner Veltliner Premium Ried Satzen – Schwarzbock, this component is present: Peppery spiced finish. Full recipe ingredients: Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria. Rich golden color, intense aromas of ripe pears and citrus, elegant, mineral, peppery spiced finish.."
+          },
+          {
+            "id": "bile-gruner-satzen-schwarzbock-allergen-12",
+            "question": "Which of the following allergens is present in Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
+            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
+            "distractors": [
+              "Allergen No. 14 – Molluscs and products thereof",
+              "Allergen No. 5 – Peanuts and products thereof"
+            ],
+            "explanation": "Grüner Veltliner Premium Ried Satzen – Schwarzbock contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+          }
+        ]
+      },
+      {
+        "id": "bile-riesling-eva-fricke",
+        "name": "Riesling Rheingau QbA Dry – Eva Fricke",
+        "weight": "0.75l",
+        "price": "999 CZK",
+        "allergens": [
+          "12"
+        ],
+        "description": "Rheingau, Germany. Elegant, aromas of lime, green apple and white peaches with mineral slate undertones.",
+        "notes": "Rheingau, Germany. Elegant, aromas of lime, green apple and white peaches with mineral slate undertones.",
+        "questions": [
+          {
+            "id": "bile-riesling-eva-fricke-vol",
+            "question": "What is the serving volume / measure of Riesling Rheingau QbA Dry – Eva Fricke?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0.5 l",
+              "1.0 l"
+            ],
+            "explanation": "The serving measure of Riesling Rheingau QbA Dry – Eva Fricke is 0,75l."
+          },
+          {
+            "id": "bile-riesling-eva-fricke-ing-1",
+            "question": "Which ingredient is part of Riesling Rheingau QbA Dry – Eva Fricke?",
+            "correctAnswer": "Rheingau",
+            "distractors": [
+              "Aging in oak barrels",
+              "Gotberg winery"
+            ],
+            "explanation": "In Riesling Rheingau QbA Dry – Eva Fricke, this component is present: Rheingau. Full recipe ingredients: Rheingau, Germany. Elegant, aromas of lime, green apple and white peaches with mineral slate undertones.."
+          },
+          {
+            "id": "bile-riesling-eva-fricke-ing-2",
+            "question": "Which ingredient is part of Riesling Rheingau QbA Dry – Eva Fricke?",
+            "correctAnswer": "Germany. Elegant",
+            "distractors": [
+              "Kolby winery",
+              "Kraus winery"
+            ],
+            "explanation": "In Riesling Rheingau QbA Dry – Eva Fricke, this component is present: Germany. Elegant. Full recipe ingredients: Rheingau, Germany. Elegant, aromas of lime, green apple and white peaches with mineral slate undertones.."
+          },
+          {
+            "id": "bile-riesling-eva-fricke-ing-3",
+            "question": "Which ingredient is part of Riesling Rheingau QbA Dry – Eva Fricke?",
+            "correctAnswer": "Aromas of lime",
+            "distractors": [
+              "Michlovsky winery",
+              "Mikulov subregion"
+            ],
+            "explanation": "In Riesling Rheingau QbA Dry – Eva Fricke, this component is present: Aromas of lime. Full recipe ingredients: Rheingau, Germany. Elegant, aromas of lime, green apple and white peaches with mineral slate undertones.."
+          },
+          {
+            "id": "bile-riesling-eva-fricke-ing-4",
+            "question": "Which vegetable or fruit component is included in Riesling Rheingau QbA Dry – Eva Fricke?",
+            "correctAnswer": "Green apple and white peaches with mineral slate undertones",
+            "distractors": [
+              "Velke Pavlovice subregion",
+              "Melnik subregion"
+            ],
+            "explanation": "In Riesling Rheingau QbA Dry – Eva Fricke, this component is present: Green apple and white peaches with mineral slate undertones. Full recipe ingredients: Rheingau, Germany. Elegant, aromas of lime, green apple and white peaches with mineral slate undertones.."
+          },
+          {
+            "id": "bile-riesling-eva-fricke-ing-5",
+            "question": "Which vegetable or fruit component is included in Riesling Rheingau QbA Dry – Eva Fricke?",
+            "correctAnswer": "Green apple and white peaches with mineral slate undertones",
+            "distractors": [
+              "Vibrant acidity and mineral notes",
+              "Late harvest"
+            ],
+            "explanation": "In Riesling Rheingau QbA Dry – Eva Fricke, this component is present: Green apple and white peaches with mineral slate undertones. Full recipe ingredients: Rheingau, Germany. Elegant, aromas of lime, green apple and white peaches with mineral slate undertones.."
+          },
+          {
+            "id": "bile-riesling-eva-fricke-allergen-12",
+            "question": "Which of the following allergens is present in Riesling Rheingau QbA Dry – Eva Fricke?",
+            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
+            "distractors": [
+              "Allergen No. 14 – Molluscs and products thereof",
+              "Allergen No. 5 – Peanuts and products thereof"
+            ],
+            "explanation": "Riesling Rheingau QbA Dry – Eva Fricke contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+          }
+        ]
+      },
+      {
+        "id": "bile-riesling-gunderloch-red-stone",
+        "name": "Riesling Red Stone QbA Dry – Gunderloch",
+        "weight": "0.75l",
+        "price": "595 CZK",
+        "allergens": [
+          "12"
+        ],
+        "description": "Rheinhessen, Germany. Juicy, aromas of ripe citrus, vineyard peaches and herbs, mineral trace of red slate, spicy finish.",
+        "notes": "Rheinhessen, Germany. Juicy, aromas of ripe citrus, vineyard peaches and herbs, mineral trace of red slate, spicy finish.",
+        "questions": [
+          {
+            "id": "bile-riesling-gunderloch-red-stone-vol",
+            "question": "What is the serving volume / measure of Riesling Red Stone QbA Dry – Gunderloch?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0.5 l",
+              "1.0 l"
+            ],
+            "explanation": "The serving measure of Riesling Red Stone QbA Dry – Gunderloch is 0,75l."
+          },
+          {
+            "id": "bile-riesling-gunderloch-red-stone-ing-1",
+            "question": "Which ingredient is part of Riesling Red Stone QbA Dry – Gunderloch?",
+            "correctAnswer": "Rheinhessen",
+            "distractors": [
+              "Aging in oak barrels",
+              "Gotberg winery"
+            ],
+            "explanation": "In Riesling Red Stone QbA Dry – Gunderloch, this component is present: Rheinhessen. Full recipe ingredients: Rheinhessen, Germany. Juicy, aromas of ripe citrus, vineyard peaches and herbs, mineral trace of red slate, spicy finish.."
+          },
+          {
+            "id": "bile-riesling-gunderloch-red-stone-ing-2",
+            "question": "Which ingredient is part of Riesling Red Stone QbA Dry – Gunderloch?",
+            "correctAnswer": "Germany. Juicy",
+            "distractors": [
+              "Kolby winery",
+              "Kraus winery"
+            ],
+            "explanation": "In Riesling Red Stone QbA Dry – Gunderloch, this component is present: Germany. Juicy. Full recipe ingredients: Rheinhessen, Germany. Juicy, aromas of ripe citrus, vineyard peaches and herbs, mineral trace of red slate, spicy finish.."
+          },
+          {
+            "id": "bile-riesling-gunderloch-red-stone-ing-3",
+            "question": "Which ingredient is part of Riesling Red Stone QbA Dry – Gunderloch?",
+            "correctAnswer": "Aromas of ripe citrus",
+            "distractors": [
+              "Michlovsky winery",
+              "Mikulov subregion"
+            ],
+            "explanation": "In Riesling Red Stone QbA Dry – Gunderloch, this component is present: Aromas of ripe citrus. Full recipe ingredients: Rheinhessen, Germany. Juicy, aromas of ripe citrus, vineyard peaches and herbs, mineral trace of red slate, spicy finish.."
+          },
+          {
+            "id": "bile-riesling-gunderloch-red-stone-ing-4",
+            "question": "Which fresh herb or spice seasoning finishes Riesling Red Stone QbA Dry – Gunderloch?",
+            "correctAnswer": "Vineyard peaches and herbs",
+            "distractors": [
+              "Velke Pavlovice subregion",
+              "Melnik subregion"
+            ],
+            "explanation": "In Riesling Red Stone QbA Dry – Gunderloch, this component is present: Vineyard peaches and herbs. Full recipe ingredients: Rheinhessen, Germany. Juicy, aromas of ripe citrus, vineyard peaches and herbs, mineral trace of red slate, spicy finish.."
+          },
+          {
+            "id": "bile-riesling-gunderloch-red-stone-ing-5",
+            "question": "Which ingredient is part of Riesling Red Stone QbA Dry – Gunderloch?",
+            "correctAnswer": "Mineral trace of red slate",
+            "distractors": [
+              "Vibrant acidity and mineral notes",
+              "Late harvest"
+            ],
+            "explanation": "In Riesling Red Stone QbA Dry – Gunderloch, this component is present: Mineral trace of red slate. Full recipe ingredients: Rheinhessen, Germany. Juicy, aromas of ripe citrus, vineyard peaches and herbs, mineral trace of red slate, spicy finish.."
+          },
+          {
+            "id": "bile-riesling-gunderloch-red-stone-ing-6",
+            "question": "Which ingredient is part of Riesling Red Stone QbA Dry – Gunderloch?",
+            "correctAnswer": "Spicy finish",
+            "distractors": [
+              "Aging in oak barrels",
+              "Gotberg winery"
+            ],
+            "explanation": "In Riesling Red Stone QbA Dry – Gunderloch, this component is present: Spicy finish. Full recipe ingredients: Rheinhessen, Germany. Juicy, aromas of ripe citrus, vineyard peaches and herbs, mineral trace of red slate, spicy finish.."
+          },
+          {
+            "id": "bile-riesling-gunderloch-red-stone-allergen-12",
+            "question": "Which of the following allergens is present in Riesling Red Stone QbA Dry – Gunderloch?",
+            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
+            "distractors": [
+              "Allergen No. 14 – Molluscs and products thereof",
+              "Allergen No. 5 – Peanuts and products thereof"
+            ],
+            "explanation": "Riesling Red Stone QbA Dry – Gunderloch contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+          }
+        ]
+      },
+      {
+        "id": "bile-riesling-fritz-haag",
+        "name": "Riesling Tradition Brauneberg – Fritz Haag",
+        "weight": "0.75l",
+        "price": "975 CZK",
+        "allergens": [
+          "12"
+        ],
+        "description": "Mosel, Germany. Golden hue, intense citrus aromas, vibrant and harmonious palate with a hint of acacia honey.",
+        "notes": "Mosel, Germany. Golden hue, intense citrus aromas, vibrant and harmonious palate with a hint of acacia honey.",
+        "questions": [
+          {
+            "id": "bile-riesling-fritz-haag-vol",
+            "question": "What is the serving volume / measure of Riesling Tradition Brauneberg – Fritz Haag?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0.5 l",
+              "1.0 l"
+            ],
+            "explanation": "The serving measure of Riesling Tradition Brauneberg – Fritz Haag is 0,75l."
+          },
+          {
+            "id": "bile-riesling-fritz-haag-ing-1",
+            "question": "Which ingredient is part of Riesling Tradition Brauneberg – Fritz Haag?",
+            "correctAnswer": "Mosel",
+            "distractors": [
+              "Aging in oak barrels",
+              "Gotberg winery"
+            ],
+            "explanation": "In Riesling Tradition Brauneberg – Fritz Haag, this component is present: Mosel. Full recipe ingredients: Mosel, Germany. Golden hue, intense citrus aromas, vibrant and harmonious palate with a hint of acacia honey.."
+          },
+          {
+            "id": "bile-riesling-fritz-haag-ing-2",
+            "question": "Which ingredient is part of Riesling Tradition Brauneberg – Fritz Haag?",
+            "correctAnswer": "Germany. Golden hue",
+            "distractors": [
+              "Kolby winery",
+              "Kraus winery"
+            ],
+            "explanation": "In Riesling Tradition Brauneberg – Fritz Haag, this component is present: Germany. Golden hue. Full recipe ingredients: Mosel, Germany. Golden hue, intense citrus aromas, vibrant and harmonious palate with a hint of acacia honey.."
+          },
+          {
+            "id": "bile-riesling-fritz-haag-ing-3",
+            "question": "Which ingredient is part of Riesling Tradition Brauneberg – Fritz Haag?",
+            "correctAnswer": "Intense citrus aromas",
+            "distractors": [
+              "Michlovsky winery",
+              "Mikulov subregion"
+            ],
+            "explanation": "In Riesling Tradition Brauneberg – Fritz Haag, this component is present: Intense citrus aromas. Full recipe ingredients: Mosel, Germany. Golden hue, intense citrus aromas, vibrant and harmonious palate with a hint of acacia honey.."
+          },
+          {
+            "id": "bile-riesling-fritz-haag-ing-4",
+            "question": "Which ingredient is part of Riesling Tradition Brauneberg – Fritz Haag?",
+            "correctAnswer": "Vibrant and harmonious palate with a hint of acacia honey",
+            "distractors": [
+              "Velke Pavlovice subregion",
+              "Melnik subregion"
+            ],
+            "explanation": "In Riesling Tradition Brauneberg – Fritz Haag, this component is present: Vibrant and harmonious palate with a hint of acacia honey. Full recipe ingredients: Mosel, Germany. Golden hue, intense citrus aromas, vibrant and harmonious palate with a hint of acacia honey.."
+          },
+          {
+            "id": "bile-riesling-fritz-haag-ing-5",
+            "question": "Which ingredient is part of Riesling Tradition Brauneberg – Fritz Haag?",
+            "correctAnswer": "Vibrant and harmonious palate with a hint of acacia honey",
+            "distractors": [
+              "Vibrant acidity and mineral notes",
+              "Late harvest"
+            ],
+            "explanation": "In Riesling Tradition Brauneberg – Fritz Haag, this component is present: Vibrant and harmonious palate with a hint of acacia honey. Full recipe ingredients: Mosel, Germany. Golden hue, intense citrus aromas, vibrant and harmonious palate with a hint of acacia honey.."
+          },
+          {
+            "id": "bile-riesling-fritz-haag-ing-6",
+            "question": "Which ingredient is part of Riesling Tradition Brauneberg – Fritz Haag?",
+            "correctAnswer": "Vibrant and harmonious palate with a hint of acacia honey",
+            "distractors": [
+              "Aging in oak barrels",
+              "Gotberg winery"
+            ],
+            "explanation": "In Riesling Tradition Brauneberg – Fritz Haag, this component is present: Vibrant and harmonious palate with a hint of acacia honey. Full recipe ingredients: Mosel, Germany. Golden hue, intense citrus aromas, vibrant and harmonious palate with a hint of acacia honey.."
+          },
+          {
+            "id": "bile-riesling-fritz-haag-allergen-12",
+            "question": "Which of the following allergens is present in Riesling Tradition Brauneberg – Fritz Haag?",
+            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
+            "distractors": [
+              "Allergen No. 14 – Molluscs and products thereof",
+              "Allergen No. 5 – Peanuts and products thereof"
+            ],
+            "explanation": "Riesling Tradition Brauneberg – Fritz Haag contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+          }
+        ]
+      },
+      {
+        "id": "bile-weisser-burgunder-philipp-kuhn",
+        "name": "Weisser Burgunder (Pinot Blanc) – Philipp Kuhn",
+        "weight": "0.75l",
+        "price": "725 CZK",
+        "allergens": [
+          "12"
+        ],
+        "description": "Pfalz, Germany. Pinot Blanc, flavors of roasted almonds, dried pears, walnuts and crisp minerality.",
+        "notes": "Pfalz, Germany. Pinot Blanc, flavors of roasted almonds, dried pears, walnuts and crisp minerality.",
+        "questions": [
+          {
+            "id": "bile-weisser-burgunder-philipp-kuhn-vol",
+            "question": "What is the serving volume / measure of Weisser Burgunder (Pinot Blanc) – Philipp Kuhn?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0.5 l",
+              "1.0 l"
+            ],
+            "explanation": "The serving measure of Weisser Burgunder (Pinot Blanc) – Philipp Kuhn is 0,75l."
+          },
+          {
+            "id": "bile-weisser-burgunder-philipp-kuhn-ing-1",
+            "question": "Which ingredient is part of Weisser Burgunder (Pinot Blanc) – Philipp Kuhn?",
+            "correctAnswer": "Pfalz",
+            "distractors": [
+              "Aging in oak barrels",
+              "Gotberg winery"
+            ],
+            "explanation": "In Weisser Burgunder (Pinot Blanc) – Philipp Kuhn, this component is present: Pfalz. Full recipe ingredients: Pfalz, Germany. Pinot Blanc, flavors of roasted almonds, dried pears, walnuts and crisp minerality.."
+          },
+          {
+            "id": "bile-weisser-burgunder-philipp-kuhn-ing-2",
+            "question": "Which ingredient is part of Weisser Burgunder (Pinot Blanc) – Philipp Kuhn?",
+            "correctAnswer": "Germany. Pinot Blanc",
+            "distractors": [
+              "Kolby winery",
+              "Kraus winery"
+            ],
+            "explanation": "In Weisser Burgunder (Pinot Blanc) – Philipp Kuhn, this component is present: Germany. Pinot Blanc. Full recipe ingredients: Pfalz, Germany. Pinot Blanc, flavors of roasted almonds, dried pears, walnuts and crisp minerality.."
+          },
+          {
+            "id": "bile-weisser-burgunder-philipp-kuhn-ing-3",
+            "question": "Which ingredient is part of Weisser Burgunder (Pinot Blanc) – Philipp Kuhn?",
+            "correctAnswer": "Flavors of roasted almonds",
+            "distractors": [
+              "Michlovsky winery",
+              "Mikulov subregion"
+            ],
+            "explanation": "In Weisser Burgunder (Pinot Blanc) – Philipp Kuhn, this component is present: Flavors of roasted almonds. Full recipe ingredients: Pfalz, Germany. Pinot Blanc, flavors of roasted almonds, dried pears, walnuts and crisp minerality.."
+          },
+          {
+            "id": "bile-weisser-burgunder-philipp-kuhn-ing-4",
+            "question": "Which ingredient is part of Weisser Burgunder (Pinot Blanc) – Philipp Kuhn?",
+            "correctAnswer": "Dried pears",
+            "distractors": [
+              "Velke Pavlovice subregion",
+              "Melnik subregion"
+            ],
+            "explanation": "In Weisser Burgunder (Pinot Blanc) – Philipp Kuhn, this component is present: Dried pears. Full recipe ingredients: Pfalz, Germany. Pinot Blanc, flavors of roasted almonds, dried pears, walnuts and crisp minerality.."
+          },
+          {
+            "id": "bile-weisser-burgunder-philipp-kuhn-ing-5",
+            "question": "Which ingredient is part of Weisser Burgunder (Pinot Blanc) – Philipp Kuhn?",
+            "correctAnswer": "Walnuts and crisp minerality",
+            "distractors": [
+              "Vibrant acidity and mineral notes",
+              "Late harvest"
+            ],
+            "explanation": "In Weisser Burgunder (Pinot Blanc) – Philipp Kuhn, this component is present: Walnuts and crisp minerality. Full recipe ingredients: Pfalz, Germany. Pinot Blanc, flavors of roasted almonds, dried pears, walnuts and crisp minerality.."
+          },
+          {
+            "id": "bile-weisser-burgunder-philipp-kuhn-allergen-12",
+            "question": "Which of the following allergens is present in Weisser Burgunder (Pinot Blanc) – Philipp Kuhn?",
+            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
+            "distractors": [
+              "Allergen No. 14 – Molluscs and products thereof",
+              "Allergen No. 5 – Peanuts and products thereof"
+            ],
+            "explanation": "Weisser Burgunder (Pinot Blanc) – Philipp Kuhn contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+          }
+        ]
+      },
+      {
+        "id": "bile-sauvignon-lapis-luna",
+        "name": "Sauvignon Blanc – Lapis Luna",
+        "weight": "0.75l",
+        "price": "789 CZK",
+        "allergens": [
+          "12"
+        ],
+        "description": "North Coast, California. Fuller-bodied, zesty acidity, fruity varietal style, ripe white peach and tropical fruit on the palate.",
+        "notes": "North Coast, California. Fuller-bodied, zesty acidity, fruity varietal style, ripe white peach and tropical fruit on the palate.",
+        "questions": [
+          {
+            "id": "bile-sauvignon-lapis-luna-vol",
+            "question": "What is the serving volume / measure of Sauvignon Blanc – Lapis Luna?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0.5 l",
+              "1.0 l"
+            ],
+            "explanation": "The serving measure of Sauvignon Blanc – Lapis Luna is 0,75l."
+          },
+          {
+            "id": "bile-sauvignon-lapis-luna-ing-1",
+            "question": "Which ingredient is part of Sauvignon Blanc – Lapis Luna?",
+            "correctAnswer": "North Coast",
+            "distractors": [
+              "Aging in oak barrels",
+              "Gotberg winery"
+            ],
+            "explanation": "In Sauvignon Blanc – Lapis Luna, this component is present: North Coast. Full recipe ingredients: North Coast, California. Fuller-bodied, zesty acidity, fruity varietal style, ripe white peach and tropical fruit on the palate.."
+          },
+          {
+            "id": "bile-sauvignon-lapis-luna-ing-2",
+            "question": "Which ingredient is part of Sauvignon Blanc – Lapis Luna?",
+            "correctAnswer": "California. Fuller-bodied",
+            "distractors": [
+              "Kolby winery",
+              "Kraus winery"
+            ],
+            "explanation": "In Sauvignon Blanc – Lapis Luna, this component is present: California. Fuller-bodied. Full recipe ingredients: North Coast, California. Fuller-bodied, zesty acidity, fruity varietal style, ripe white peach and tropical fruit on the palate.."
+          },
+          {
+            "id": "bile-sauvignon-lapis-luna-ing-3",
+            "question": "Which grape variety, winery, or characteristic belongs to Sauvignon Blanc – Lapis Luna?",
+            "correctAnswer": "Zesty acidity",
+            "distractors": [
+              "Michlovsky winery",
+              "Mikulov subregion"
+            ],
+            "explanation": "In Sauvignon Blanc – Lapis Luna, this component is present: Zesty acidity. Full recipe ingredients: North Coast, California. Fuller-bodied, zesty acidity, fruity varietal style, ripe white peach and tropical fruit on the palate.."
+          },
+          {
+            "id": "bile-sauvignon-lapis-luna-ing-4",
+            "question": "Which ingredient is part of Sauvignon Blanc – Lapis Luna?",
+            "correctAnswer": "Fruity varietal style",
+            "distractors": [
+              "Velke Pavlovice subregion",
+              "Melnik subregion"
+            ],
+            "explanation": "In Sauvignon Blanc – Lapis Luna, this component is present: Fruity varietal style. Full recipe ingredients: North Coast, California. Fuller-bodied, zesty acidity, fruity varietal style, ripe white peach and tropical fruit on the palate.."
+          },
+          {
+            "id": "bile-sauvignon-lapis-luna-ing-5",
+            "question": "Which ingredient is part of Sauvignon Blanc – Lapis Luna?",
+            "correctAnswer": "Ripe white peach and tropical fruit on the palate",
+            "distractors": [
+              "Vibrant acidity and mineral notes",
+              "Late harvest"
+            ],
+            "explanation": "In Sauvignon Blanc – Lapis Luna, this component is present: Ripe white peach and tropical fruit on the palate. Full recipe ingredients: North Coast, California. Fuller-bodied, zesty acidity, fruity varietal style, ripe white peach and tropical fruit on the palate.."
+          },
+          {
+            "id": "bile-sauvignon-lapis-luna-allergen-12",
+            "question": "Which of the following allergens is present in Sauvignon Blanc – Lapis Luna?",
+            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
+            "distractors": [
+              "Allergen No. 14 – Molluscs and products thereof",
+              "Allergen No. 5 – Peanuts and products thereof"
+            ],
+            "explanation": "Sauvignon Blanc – Lapis Luna contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+          }
+        ]
+      },
+      {
+        "id": "bile-chardonnay-knotty-vines",
+        "name": "Chardonnay – Knotty Vines",
+        "weight": "0.75l",
+        "price": "975 CZK",
+        "allergens": [
+          "12"
+        ],
+        "description": "California. Full-bodied oak-aged wine, juicy with an elegant finish, flavors of tropical fruit, baking spices and minerality.",
+        "notes": "California. Full-bodied oak-aged wine, juicy with an elegant finish, flavors of tropical fruit, baking spices and minerality.",
+        "questions": [
+          {
+            "id": "bile-chardonnay-knotty-vines-vol",
+            "question": "What is the serving volume / measure of Chardonnay – Knotty Vines?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0.5 l",
+              "1.0 l"
+            ],
+            "explanation": "The serving measure of Chardonnay – Knotty Vines is 0,75l."
+          },
+          {
+            "id": "bile-chardonnay-knotty-vines-ing-1",
+            "question": "Which ingredient is part of Chardonnay – Knotty Vines?",
+            "correctAnswer": "California. Full-bodied oak-aged wine",
+            "distractors": [
+              "Aging in oak barrels",
+              "Gotberg winery"
+            ],
+            "explanation": "In Chardonnay – Knotty Vines, this component is present: California. Full-bodied oak-aged wine. Full recipe ingredients: California. Full-bodied oak-aged wine, juicy with an elegant finish, flavors of tropical fruit, baking spices and minerality.."
+          },
+          {
+            "id": "bile-chardonnay-knotty-vines-ing-2",
+            "question": "Which ingredient is part of Chardonnay – Knotty Vines?",
+            "correctAnswer": "Juicy with an elegant finish",
+            "distractors": [
+              "Kolby winery",
+              "Kraus winery"
+            ],
+            "explanation": "In Chardonnay – Knotty Vines, this component is present: Juicy with an elegant finish. Full recipe ingredients: California. Full-bodied oak-aged wine, juicy with an elegant finish, flavors of tropical fruit, baking spices and minerality.."
+          },
+          {
+            "id": "bile-chardonnay-knotty-vines-ing-3",
+            "question": "Which ingredient is part of Chardonnay – Knotty Vines?",
+            "correctAnswer": "Flavors of tropical fruit",
+            "distractors": [
+              "Michlovsky winery",
+              "Mikulov subregion"
+            ],
+            "explanation": "In Chardonnay – Knotty Vines, this component is present: Flavors of tropical fruit. Full recipe ingredients: California. Full-bodied oak-aged wine, juicy with an elegant finish, flavors of tropical fruit, baking spices and minerality.."
+          },
+          {
+            "id": "bile-chardonnay-knotty-vines-ing-4",
+            "question": "Which ingredient is part of Chardonnay – Knotty Vines?",
+            "correctAnswer": "Baking spices and minerality",
+            "distractors": [
+              "Velke Pavlovice subregion",
+              "Melnik subregion"
+            ],
+            "explanation": "In Chardonnay – Knotty Vines, this component is present: Baking spices and minerality. Full recipe ingredients: California. Full-bodied oak-aged wine, juicy with an elegant finish, flavors of tropical fruit, baking spices and minerality.."
+          },
+          {
+            "id": "bile-chardonnay-knotty-vines-ing-5",
+            "question": "Which ingredient is part of Chardonnay – Knotty Vines?",
+            "correctAnswer": "Baking spices and minerality",
+            "distractors": [
+              "Vibrant acidity and mineral notes",
+              "Late harvest"
+            ],
+            "explanation": "In Chardonnay – Knotty Vines, this component is present: Baking spices and minerality. Full recipe ingredients: California. Full-bodied oak-aged wine, juicy with an elegant finish, flavors of tropical fruit, baking spices and minerality.."
+          },
+          {
+            "id": "bile-chardonnay-knotty-vines-allergen-12",
+            "question": "Which of the following allergens is present in Chardonnay – Knotty Vines?",
+            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
+            "distractors": [
+              "Allergen No. 14 – Molluscs and products thereof",
+              "Allergen No. 5 – Peanuts and products thereof"
+            ],
+            "explanation": "Chardonnay – Knotty Vines contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ruzova-vina",
+    "name": "Rosé wines",
+    "badge": "Rosé wines",
+    "description": "Crisp and fruity rosé wines",
+    "iconName": "Wine",
+    "items": [
+      {
+        "id": "ruzove-merlot-rose-bilkovi",
+        "name": "Merlot Rosé – Bílkovi",
+        "weight": "0.75l",
+        "price": "405 CZK",
+        "allergens": [
+          "12"
+        ],
+        "description": "Late harvest Bílkovi – Velké Pavlovice region, Moravia. Highly drinkable, aromas of raspberries, strawberries and cherries, fruity palate with hints of cream.",
+        "notes": "Late harvest Bílkovi – Velké Pavlovice region, Moravia. Highly drinkable, aromas of raspberries, strawberries and cherries, fruity palate with hints of cream.",
+        "questions": [
+          {
+            "id": "ruzove-merlot-rose-bilkovi-vol",
+            "question": "What is the serving volume / measure of Merlot Rosé – Bílkovi?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0.5 l",
+              "1.0 l"
+            ],
+            "explanation": "The serving measure of Merlot Rosé – Bílkovi is 0,75l."
+          },
+          {
+            "id": "ruzove-merlot-rose-bilkovi-ing-1",
+            "question": "Which grape variety, winery, or characteristic belongs to Merlot Rosé – Bílkovi?",
+            "correctAnswer": "Late harvest Bílkovi – Velké Pavlovice region",
+            "distractors": [
+              "Gotberg winery",
+              "Kolby winery"
+            ],
+            "explanation": "In Merlot Rosé – Bílkovi, this component is present: Late harvest Bílkovi – Velké Pavlovice region. Full recipe ingredients: Late harvest Bílkovi – Velké Pavlovice region, Moravia. Highly drinkable, aromas of raspberries, strawberries and cherries, fruity palate with hints of cream.."
+          },
+          {
+            "id": "ruzove-merlot-rose-bilkovi-ing-2",
+            "question": "Which ingredient is part of Merlot Rosé – Bílkovi?",
+            "correctAnswer": "Moravia. Highly drinkable",
+            "distractors": [
+              "Kraus winery",
+              "Michlovsky winery"
+            ],
+            "explanation": "In Merlot Rosé – Bílkovi, this component is present: Moravia. Highly drinkable. Full recipe ingredients: Late harvest Bílkovi – Velké Pavlovice region, Moravia. Highly drinkable, aromas of raspberries, strawberries and cherries, fruity palate with hints of cream.."
+          },
+          {
+            "id": "ruzove-merlot-rose-bilkovi-ing-3",
+            "question": "Which ingredient is part of Merlot Rosé – Bílkovi?",
+            "correctAnswer": "Aromas of raspberries",
+            "distractors": [
+              "Mikulov subregion",
+              "Velke Pavlovice subregion"
+            ],
+            "explanation": "In Merlot Rosé – Bílkovi, this component is present: Aromas of raspberries. Full recipe ingredients: Late harvest Bílkovi – Velké Pavlovice region, Moravia. Highly drinkable, aromas of raspberries, strawberries and cherries, fruity palate with hints of cream.."
+          },
+          {
+            "id": "ruzove-merlot-rose-bilkovi-ing-4",
+            "question": "Which bread, side, or crispy garnish accompanies Merlot Rosé – Bílkovi?",
+            "correctAnswer": "Strawberries and cherries",
+            "distractors": [
+              "Melnik subregion",
+              "Vibrant acidity and mineral notes"
+            ],
+            "explanation": "In Merlot Rosé – Bílkovi, this component is present: Strawberries and cherries. Full recipe ingredients: Late harvest Bílkovi – Velké Pavlovice region, Moravia. Highly drinkable, aromas of raspberries, strawberries and cherries, fruity palate with hints of cream.."
+          },
+          {
+            "id": "ruzove-merlot-rose-bilkovi-ing-5",
+            "question": "Which ingredient is part of Merlot Rosé – Bílkovi?",
+            "correctAnswer": "Fruity palate with hints of cream",
+            "distractors": [
+              "Aging in oak barrels",
+              "Gotberg winery"
+            ],
+            "explanation": "In Merlot Rosé – Bílkovi, this component is present: Fruity palate with hints of cream. Full recipe ingredients: Late harvest Bílkovi – Velké Pavlovice region, Moravia. Highly drinkable, aromas of raspberries, strawberries and cherries, fruity palate with hints of cream.."
+          },
+          {
+            "id": "ruzove-merlot-rose-bilkovi-allergen-12",
+            "question": "Which of the following allergens is present in Merlot Rosé – Bílkovi?",
+            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
+            "distractors": [
+              "Allergen No. 14 – Molluscs and products thereof",
+              "Allergen No. 5 – Peanuts and products thereof"
+            ],
+            "explanation": "Merlot Rosé – Bílkovi contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cervena-vina",
+    "name": "Red wines",
+    "badge": "Red wines",
+    "description": "Full-bodied and elegant red wines from Czech and international terroirs",
+    "iconName": "Wine",
+    "items": [
+      {
+        "id": "cervene-pinot-noir-rouci-kraus",
+        "name": "Pinot Noir Roučí Malé – Kraus",
+        "weight": "0.75l",
+        "price": "425 CZK",
+        "allergens": [
+          "12"
+        ],
+        "description": "Mělník region, Bohemia. Light-bodied red wine, flavors of wild strawberries and red summer garden fruit.",
+        "notes": "Mělník region, Bohemia. Light-bodied red wine, flavors of wild strawberries and red summer garden fruit.",
+        "questions": [
+          {
+            "id": "cervene-pinot-noir-rouci-kraus-vol",
+            "question": "What is the serving volume / measure of Pinot Noir Roučí Malé – Kraus?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0.5 l",
+              "1.0 l"
+            ],
+            "explanation": "The serving measure of Pinot Noir Roučí Malé – Kraus is 0,75l."
+          },
+          {
+            "id": "cervene-pinot-noir-rouci-kraus-ing-1",
+            "question": "Which ingredient is part of Pinot Noir Roučí Malé – Kraus?",
+            "correctAnswer": "Mělník region",
+            "distractors": [
+              "Aging in oak barrels",
+              "Gotberg winery"
+            ],
+            "explanation": "In Pinot Noir Roučí Malé – Kraus, this component is present: Mělník region. Full recipe ingredients: Mělník region, Bohemia. Light-bodied red wine, flavors of wild strawberries and red summer garden fruit.."
+          },
+          {
+            "id": "cervene-pinot-noir-rouci-kraus-ing-2",
+            "question": "Which ingredient is part of Pinot Noir Roučí Malé – Kraus?",
+            "correctAnswer": "Bohemia. Light-bodied red wine",
+            "distractors": [
+              "Kolby winery",
+              "Kraus winery"
+            ],
+            "explanation": "In Pinot Noir Roučí Malé – Kraus, this component is present: Bohemia. Light-bodied red wine. Full recipe ingredients: Mělník region, Bohemia. Light-bodied red wine, flavors of wild strawberries and red summer garden fruit.."
+          },
+          {
+            "id": "cervene-pinot-noir-rouci-kraus-ing-3",
+            "question": "Which bread, side, or crispy garnish accompanies Pinot Noir Roučí Malé – Kraus?",
+            "correctAnswer": "Flavors of wild strawberries and red summer garden fruit",
+            "distractors": [
+              "Michlovsky winery",
+              "Mikulov subregion"
+            ],
+            "explanation": "In Pinot Noir Roučí Malé – Kraus, this component is present: Flavors of wild strawberries and red summer garden fruit. Full recipe ingredients: Mělník region, Bohemia. Light-bodied red wine, flavors of wild strawberries and red summer garden fruit.."
+          },
+          {
+            "id": "cervene-pinot-noir-rouci-kraus-allergen-12",
+            "question": "Which of the following allergens is present in Pinot Noir Roučí Malé – Kraus?",
+            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
+            "distractors": [
+              "Allergen No. 14 – Molluscs and products thereof",
+              "Allergen No. 5 – Peanuts and products thereof"
+            ],
+            "explanation": "Pinot Noir Roučí Malé – Kraus contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+          }
+        ]
+      },
+      {
+        "id": "cervene-dornfelder-bilkovi",
+        "name": "Dornfelder – Bílkovi",
+        "weight": "0.75l",
+        "price": "419 CZK",
+        "allergens": [
+          "12"
+        ],
+        "description": "Velké Pavlovice region, Moravia. 12 months oak aging, blackberry bouquet, full and harmonious palate of currants, cherries and raspberries.",
+        "notes": "Velké Pavlovice region, Moravia. 12 months oak aging, blackberry bouquet, full and harmonious palate of currants, cherries and raspberries.",
+        "questions": [
+          {
+            "id": "cervene-dornfelder-bilkovi-vol",
+            "question": "What is the serving volume / measure of Dornfelder – Bílkovi?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0.5 l",
+              "1.0 l"
+            ],
+            "explanation": "The serving measure of Dornfelder – Bílkovi is 0,75l."
+          },
+          {
+            "id": "cervene-dornfelder-bilkovi-ing-1",
+            "question": "Which ingredient is part of Dornfelder – Bílkovi?",
+            "correctAnswer": "Velké Pavlovice region",
+            "distractors": [
+              "Aging in oak barrels",
+              "Gotberg winery"
+            ],
+            "explanation": "In Dornfelder – Bílkovi, this component is present: Velké Pavlovice region. Full recipe ingredients: Velké Pavlovice region, Moravia. 12 months oak aging, blackberry bouquet, full and harmonious palate of currants, cherries and raspberries.."
+          },
+          {
+            "id": "cervene-dornfelder-bilkovi-ing-2",
+            "question": "Which spirit or liqueur is a signature component of Dornfelder – Bílkovi?",
+            "correctAnswer": "Moravia. 12 months oak aging",
+            "distractors": [
+              "Kolby winery",
+              "Kraus winery"
+            ],
+            "explanation": "In Dornfelder – Bílkovi, this component is present: Moravia. 12 months oak aging. Full recipe ingredients: Velké Pavlovice region, Moravia. 12 months oak aging, blackberry bouquet, full and harmonious palate of currants, cherries and raspberries.."
+          },
+          {
+            "id": "cervene-dornfelder-bilkovi-ing-3",
+            "question": "Which ingredient is part of Dornfelder – Bílkovi?",
+            "correctAnswer": "Blackberry bouquet",
+            "distractors": [
+              "Michlovsky winery",
+              "Mikulov subregion"
+            ],
+            "explanation": "In Dornfelder – Bílkovi, this component is present: Blackberry bouquet. Full recipe ingredients: Velké Pavlovice region, Moravia. 12 months oak aging, blackberry bouquet, full and harmonious palate of currants, cherries and raspberries.."
+          },
+          {
+            "id": "cervene-dornfelder-bilkovi-ing-4",
+            "question": "Which ingredient is part of Dornfelder – Bílkovi?",
+            "correctAnswer": "Full and harmonious palate of currants",
+            "distractors": [
+              "Velke Pavlovice subregion",
+              "Melnik subregion"
+            ],
+            "explanation": "In Dornfelder – Bílkovi, this component is present: Full and harmonious palate of currants. Full recipe ingredients: Velké Pavlovice region, Moravia. 12 months oak aging, blackberry bouquet, full and harmonious palate of currants, cherries and raspberries.."
+          },
+          {
+            "id": "cervene-dornfelder-bilkovi-ing-5",
+            "question": "Which ingredient is part of Dornfelder – Bílkovi?",
+            "correctAnswer": "Cherries and raspberries",
+            "distractors": [
+              "Vibrant acidity and mineral notes",
+              "Late harvest"
+            ],
+            "explanation": "In Dornfelder – Bílkovi, this component is present: Cherries and raspberries. Full recipe ingredients: Velké Pavlovice region, Moravia. 12 months oak aging, blackberry bouquet, full and harmonious palate of currants, cherries and raspberries.."
+          },
+          {
+            "id": "cervene-dornfelder-bilkovi-ing-6",
+            "question": "Which ingredient is part of Dornfelder – Bílkovi?",
+            "correctAnswer": "Cherries and raspberries",
+            "distractors": [
+              "Aging in oak barrels",
+              "Gotberg winery"
+            ],
+            "explanation": "In Dornfelder – Bílkovi, this component is present: Cherries and raspberries. Full recipe ingredients: Velké Pavlovice region, Moravia. 12 months oak aging, blackberry bouquet, full and harmonious palate of currants, cherries and raspberries.."
+          },
+          {
+            "id": "cervene-dornfelder-bilkovi-allergen-12",
+            "question": "Which of the following allergens is present in Dornfelder – Bílkovi?",
+            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
+            "distractors": [
+              "Allergen No. 14 – Molluscs and products thereof",
+              "Allergen No. 5 – Peanuts and products thereof"
+            ],
+            "explanation": "Dornfelder – Bílkovi contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+          }
+        ]
+      },
+      {
+        "id": "cervene-cuvee-red-kolby",
+        "name": "Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby",
+        "weight": "0.75l",
+        "price": "649 CZK",
+        "allergens": [
+          "12"
+        ],
+        "description": "Mikulov region, Moravia. Full-bodied, complex, long finish, deep garnet color, notes of dark chocolate, spices, dark berries and subtle smoke.",
+        "notes": "Mikulov region, Moravia. Full-bodied, complex, long finish, deep garnet color, notes of dark chocolate, spices, dark berries and subtle smoke.",
+        "questions": [
+          {
+            "id": "cervene-cuvee-red-kolby-vol",
+            "question": "What is the serving volume / measure of Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0.5 l",
+              "1.0 l"
+            ],
+            "explanation": "The serving measure of Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby is 0,75l."
+          },
+          {
+            "id": "cervene-cuvee-red-kolby-ing-1",
+            "question": "Which ingredient is part of Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
+            "correctAnswer": "Mikulov region",
+            "distractors": [
+              "Aging in oak barrels",
+              "Gotberg winery"
+            ],
+            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby, this component is present: Mikulov region. Full recipe ingredients: Mikulov region, Moravia. Full-bodied, complex, long finish, deep garnet color, notes of dark chocolate, spices, dark berries and subtle smoke.."
+          },
+          {
+            "id": "cervene-cuvee-red-kolby-ing-2",
+            "question": "Which ingredient is part of Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
+            "correctAnswer": "Moravia. Full-bodied",
+            "distractors": [
+              "Kolby winery",
+              "Kraus winery"
+            ],
+            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby, this component is present: Moravia. Full-bodied. Full recipe ingredients: Mikulov region, Moravia. Full-bodied, complex, long finish, deep garnet color, notes of dark chocolate, spices, dark berries and subtle smoke.."
+          },
+          {
+            "id": "cervene-cuvee-red-kolby-ing-3",
+            "question": "Which ingredient is part of Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
+            "correctAnswer": "Complex",
+            "distractors": [
+              "Michlovsky winery",
+              "Mikulov subregion"
+            ],
+            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby, this component is present: Complex. Full recipe ingredients: Mikulov region, Moravia. Full-bodied, complex, long finish, deep garnet color, notes of dark chocolate, spices, dark berries and subtle smoke.."
+          },
+          {
+            "id": "cervene-cuvee-red-kolby-ing-4",
+            "question": "Which ingredient is part of Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
+            "correctAnswer": "Long finish",
+            "distractors": [
+              "Velke Pavlovice subregion",
+              "Melnik subregion"
+            ],
+            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby, this component is present: Long finish. Full recipe ingredients: Mikulov region, Moravia. Full-bodied, complex, long finish, deep garnet color, notes of dark chocolate, spices, dark berries and subtle smoke.."
+          },
+          {
+            "id": "cervene-cuvee-red-kolby-ing-5",
+            "question": "Which ingredient is part of Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
+            "correctAnswer": "Deep garnet color",
+            "distractors": [
+              "Vibrant acidity and mineral notes",
+              "Late harvest"
+            ],
+            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby, this component is present: Deep garnet color. Full recipe ingredients: Mikulov region, Moravia. Full-bodied, complex, long finish, deep garnet color, notes of dark chocolate, spices, dark berries and subtle smoke.."
+          },
+          {
+            "id": "cervene-cuvee-red-kolby-ing-6",
+            "question": "Which ingredient is part of Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
+            "correctAnswer": "Notes of dark chocolate",
+            "distractors": [
+              "Aging in oak barrels",
+              "Gotberg winery"
+            ],
+            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby, this component is present: Notes of dark chocolate. Full recipe ingredients: Mikulov region, Moravia. Full-bodied, complex, long finish, deep garnet color, notes of dark chocolate, spices, dark berries and subtle smoke.."
+          },
+          {
+            "id": "cervene-cuvee-red-kolby-ing-7",
+            "question": "Which ingredient is part of Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
+            "correctAnswer": "Spices",
+            "distractors": [
+              "Kolby winery",
+              "Kraus winery"
+            ],
+            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby, this component is present: Spices. Full recipe ingredients: Mikulov region, Moravia. Full-bodied, complex, long finish, deep garnet color, notes of dark chocolate, spices, dark berries and subtle smoke.."
+          },
+          {
+            "id": "cervene-cuvee-red-kolby-ing-8",
+            "question": "Which ingredient is part of Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
+            "correctAnswer": "Dark berries and subtle smoke",
+            "distractors": [
+              "Michlovsky winery",
+              "Mikulov subregion"
+            ],
+            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby, this component is present: Dark berries and subtle smoke. Full recipe ingredients: Mikulov region, Moravia. Full-bodied, complex, long finish, deep garnet color, notes of dark chocolate, spices, dark berries and subtle smoke.."
+          },
+          {
+            "id": "cervene-cuvee-red-kolby-allergen-12",
+            "question": "Which of the following allergens is present in Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
+            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
+            "distractors": [
+              "Allergen No. 14 – Molluscs and products thereof",
+              "Allergen No. 5 – Peanuts and products thereof"
+            ],
+            "explanation": "Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+          }
+        ]
+      },
+      {
+        "id": "cervene-nina-cuvee-bilkovi",
+        "name": "Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi",
+        "weight": "0.75l",
+        "price": "699 CZK",
+        "allergens": [
+          "12"
+        ],
+        "description": "Velké Pavlovice region, Moravia. Full-bodied, 14 months in oak barrels, aromas of currants and roasted coffee, palate of dark chocolate and plums.",
+        "notes": "Velké Pavlovice region, Moravia. Full-bodied, 14 months in oak barrels, aromas of currants and roasted coffee, palate of dark chocolate and plums.",
+        "questions": [
+          {
+            "id": "cervene-nina-cuvee-bilkovi-vol",
+            "question": "What is the serving volume / measure of Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0.5 l",
+              "1.0 l"
+            ],
+            "explanation": "The serving measure of Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi is 0,75l."
+          },
+          {
+            "id": "cervene-nina-cuvee-bilkovi-ing-1",
+            "question": "Which ingredient is part of Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi?",
+            "correctAnswer": "Velké Pavlovice region",
+            "distractors": [
+              "Aging in oak barrels",
+              "Gotberg winery"
+            ],
+            "explanation": "In Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi, this component is present: Velké Pavlovice region. Full recipe ingredients: Velké Pavlovice region, Moravia. Full-bodied, 14 months in oak barrels, aromas of currants and roasted coffee, palate of dark chocolate and plums.."
+          },
+          {
+            "id": "cervene-nina-cuvee-bilkovi-ing-2",
+            "question": "Which ingredient is part of Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi?",
+            "correctAnswer": "Moravia. Full-bodied",
+            "distractors": [
+              "Kolby winery",
+              "Kraus winery"
+            ],
+            "explanation": "In Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi, this component is present: Moravia. Full-bodied. Full recipe ingredients: Velké Pavlovice region, Moravia. Full-bodied, 14 months in oak barrels, aromas of currants and roasted coffee, palate of dark chocolate and plums.."
+          },
+          {
+            "id": "cervene-nina-cuvee-bilkovi-ing-3",
+            "question": "Which ingredient is part of Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi?",
+            "correctAnswer": "14 months in oak barrels",
+            "distractors": [
+              "Michlovsky winery",
+              "Mikulov subregion"
+            ],
+            "explanation": "In Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi, this component is present: 14 months in oak barrels. Full recipe ingredients: Velké Pavlovice region, Moravia. Full-bodied, 14 months in oak barrels, aromas of currants and roasted coffee, palate of dark chocolate and plums.."
+          },
+          {
+            "id": "cervene-nina-cuvee-bilkovi-ing-4",
+            "question": "Which ingredient is part of Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi?",
+            "correctAnswer": "Aromas of currants and roasted coffee",
+            "distractors": [
+              "Velke Pavlovice subregion",
+              "Melnik subregion"
+            ],
+            "explanation": "In Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi, this component is present: Aromas of currants and roasted coffee. Full recipe ingredients: Velké Pavlovice region, Moravia. Full-bodied, 14 months in oak barrels, aromas of currants and roasted coffee, palate of dark chocolate and plums.."
+          },
+          {
+            "id": "cervene-nina-cuvee-bilkovi-ing-5",
+            "question": "Which ingredient is part of Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi?",
+            "correctAnswer": "Palate of dark chocolate and plums",
+            "distractors": [
+              "Vibrant acidity and mineral notes",
+              "Late harvest"
+            ],
+            "explanation": "In Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi, this component is present: Palate of dark chocolate and plums. Full recipe ingredients: Velké Pavlovice region, Moravia. Full-bodied, 14 months in oak barrels, aromas of currants and roasted coffee, palate of dark chocolate and plums.."
+          },
+          {
+            "id": "cervene-nina-cuvee-bilkovi-allergen-12",
+            "question": "Which of the following allergens is present in Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi?",
+            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
+            "distractors": [
+              "Allergen No. 14 – Molluscs and products thereof",
+              "Allergen No. 5 – Peanuts and products thereof"
+            ],
+            "explanation": "Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+          }
+        ]
+      },
+      {
+        "id": "cervene-zweigelt-feller-artinger",
+        "name": "Zweigelt – Weingut Feiler-Artinger",
+        "weight": "0.75l",
+        "price": "660 CZK",
+        "allergens": [
+          "12"
+        ],
+        "description": "Burgenland, Austria. Fresh, berry aromas, velvety palate of dark berries, oak, herbs and fine tobacco.",
+        "notes": "Burgenland, Austria. Fresh, berry aromas, velvety palate of dark berries, oak, herbs and fine tobacco.",
+        "questions": [
+          {
+            "id": "cervene-zweigelt-feller-artinger-vol",
+            "question": "What is the serving volume / measure of Zweigelt – Weingut Feiler-Artinger?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0.5 l",
+              "1.0 l"
+            ],
+            "explanation": "The serving measure of Zweigelt – Weingut Feiler-Artinger is 0,75l."
+          },
+          {
+            "id": "cervene-zweigelt-feller-artinger-ing-1",
+            "question": "Which ingredient is part of Zweigelt – Weingut Feiler-Artinger?",
+            "correctAnswer": "Burgenland",
+            "distractors": [
+              "Gotberg winery",
+              "Kolby winery"
+            ],
+            "explanation": "In Zweigelt – Weingut Feiler-Artinger, this component is present: Burgenland. Full recipe ingredients: Burgenland, Austria. Fresh, berry aromas, velvety palate of dark berries, oak, herbs and fine tobacco.."
+          },
+          {
+            "id": "cervene-zweigelt-feller-artinger-ing-2",
+            "question": "Which ingredient is part of Zweigelt – Weingut Feiler-Artinger?",
+            "correctAnswer": "Austria. Fresh",
+            "distractors": [
+              "Kraus winery",
+              "Michlovsky winery"
+            ],
+            "explanation": "In Zweigelt – Weingut Feiler-Artinger, this component is present: Austria. Fresh. Full recipe ingredients: Burgenland, Austria. Fresh, berry aromas, velvety palate of dark berries, oak, herbs and fine tobacco.."
+          },
+          {
+            "id": "cervene-zweigelt-feller-artinger-ing-3",
+            "question": "Which ingredient is part of Zweigelt – Weingut Feiler-Artinger?",
+            "correctAnswer": "Berry aromas",
+            "distractors": [
+              "Mikulov subregion",
+              "Velke Pavlovice subregion"
+            ],
+            "explanation": "In Zweigelt – Weingut Feiler-Artinger, this component is present: Berry aromas. Full recipe ingredients: Burgenland, Austria. Fresh, berry aromas, velvety palate of dark berries, oak, herbs and fine tobacco.."
+          },
+          {
+            "id": "cervene-zweigelt-feller-artinger-ing-4",
+            "question": "Which ingredient is part of Zweigelt – Weingut Feiler-Artinger?",
+            "correctAnswer": "Velvety palate of dark berries",
+            "distractors": [
+              "Melnik subregion",
+              "Vibrant acidity and mineral notes"
+            ],
+            "explanation": "In Zweigelt – Weingut Feiler-Artinger, this component is present: Velvety palate of dark berries. Full recipe ingredients: Burgenland, Austria. Fresh, berry aromas, velvety palate of dark berries, oak, herbs and fine tobacco.."
+          },
+          {
+            "id": "cervene-zweigelt-feller-artinger-ing-5",
+            "question": "Which ingredient is part of Zweigelt – Weingut Feiler-Artinger?",
+            "correctAnswer": "Oak",
+            "distractors": [
+              "Late harvest",
+              "Gotberg winery"
+            ],
+            "explanation": "In Zweigelt – Weingut Feiler-Artinger, this component is present: Oak. Full recipe ingredients: Burgenland, Austria. Fresh, berry aromas, velvety palate of dark berries, oak, herbs and fine tobacco.."
+          },
+          {
+            "id": "cervene-zweigelt-feller-artinger-ing-6",
+            "question": "Which fresh herb or spice seasoning finishes Zweigelt – Weingut Feiler-Artinger?",
+            "correctAnswer": "Herbs and fine tobacco",
+            "distractors": [
+              "Kolby winery",
+              "Kraus winery"
+            ],
+            "explanation": "In Zweigelt – Weingut Feiler-Artinger, this component is present: Herbs and fine tobacco. Full recipe ingredients: Burgenland, Austria. Fresh, berry aromas, velvety palate of dark berries, oak, herbs and fine tobacco.."
+          },
+          {
+            "id": "cervene-zweigelt-feller-artinger-allergen-12",
+            "question": "Which of the following allergens is present in Zweigelt – Weingut Feiler-Artinger?",
+            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
+            "distractors": [
+              "Allergen No. 14 – Molluscs and products thereof",
+              "Allergen No. 5 – Peanuts and products thereof"
+            ],
+            "explanation": "Zweigelt – Weingut Feiler-Artinger contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+          }
+        ]
+      },
+      {
+        "id": "cervene-pinot-noir-philipp-kuhn",
+        "name": "Pinot Noir Tradition – Philipp Kuhn",
+        "weight": "0.75l",
+        "price": "959 CZK",
+        "allergens": [
+          "12"
+        ],
+        "description": "Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.",
+        "notes": "Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.",
+        "questions": [
+          {
+            "id": "cervene-pinot-noir-philipp-kuhn-vol",
+            "question": "What is the serving volume / measure of Pinot Noir Tradition – Philipp Kuhn?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0.5 l",
+              "1.0 l"
+            ],
+            "explanation": "The serving measure of Pinot Noir Tradition – Philipp Kuhn is 0,75l."
+          },
+          {
+            "id": "cervene-pinot-noir-philipp-kuhn-ing-1",
+            "question": "Which ingredient is part of Pinot Noir Tradition – Philipp Kuhn?",
+            "correctAnswer": "Pfalz",
+            "distractors": [
+              "Aging in oak barrels",
+              "Gotberg winery"
+            ],
+            "explanation": "In Pinot Noir Tradition – Philipp Kuhn, this component is present: Pfalz. Full recipe ingredients: Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.."
+          },
+          {
+            "id": "cervene-pinot-noir-philipp-kuhn-ing-2",
+            "question": "Which ingredient is part of Pinot Noir Tradition – Philipp Kuhn?",
+            "correctAnswer": "Germany. Medium-bodied",
+            "distractors": [
+              "Kolby winery",
+              "Kraus winery"
+            ],
+            "explanation": "In Pinot Noir Tradition – Philipp Kuhn, this component is present: Germany. Medium-bodied. Full recipe ingredients: Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.."
+          },
+          {
+            "id": "cervene-pinot-noir-philipp-kuhn-ing-3",
+            "question": "Which bread, side, or crispy garnish accompanies Pinot Noir Tradition – Philipp Kuhn?",
+            "correctAnswer": "Bouquet of wild strawberries",
+            "distractors": [
+              "Michlovsky winery",
+              "Mikulov subregion"
+            ],
+            "explanation": "In Pinot Noir Tradition – Philipp Kuhn, this component is present: Bouquet of wild strawberries. Full recipe ingredients: Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.."
+          },
+          {
+            "id": "cervene-pinot-noir-philipp-kuhn-ing-4",
+            "question": "Which ingredient is part of Pinot Noir Tradition – Philipp Kuhn?",
+            "correctAnswer": "Dried prunes",
+            "distractors": [
+              "Velke Pavlovice subregion",
+              "Melnik subregion"
+            ],
+            "explanation": "In Pinot Noir Tradition – Philipp Kuhn, this component is present: Dried prunes. Full recipe ingredients: Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.."
+          },
+          {
+            "id": "cervene-pinot-noir-philipp-kuhn-ing-5",
+            "question": "Which ingredient is part of Pinot Noir Tradition – Philipp Kuhn?",
+            "correctAnswer": "Almonds",
+            "distractors": [
+              "Vibrant acidity and mineral notes",
+              "Late harvest"
+            ],
+            "explanation": "In Pinot Noir Tradition – Philipp Kuhn, this component is present: Almonds. Full recipe ingredients: Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.."
+          },
+          {
+            "id": "cervene-pinot-noir-philipp-kuhn-ing-6",
+            "question": "Which ingredient is part of Pinot Noir Tradition – Philipp Kuhn?",
+            "correctAnswer": "Cherries",
+            "distractors": [
+              "Aging in oak barrels",
+              "Gotberg winery"
+            ],
+            "explanation": "In Pinot Noir Tradition – Philipp Kuhn, this component is present: Cherries. Full recipe ingredients: Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.."
+          },
+          {
+            "id": "cervene-pinot-noir-philipp-kuhn-ing-7",
+            "question": "Which ingredient is part of Pinot Noir Tradition – Philipp Kuhn?",
+            "correctAnswer": "Dark chocolate and leather",
+            "distractors": [
+              "Kolby winery",
+              "Kraus winery"
+            ],
+            "explanation": "In Pinot Noir Tradition – Philipp Kuhn, this component is present: Dark chocolate and leather. Full recipe ingredients: Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.."
+          },
+          {
+            "id": "cervene-pinot-noir-philipp-kuhn-ing-8",
+            "question": "Which ingredient is part of Pinot Noir Tradition – Philipp Kuhn?",
+            "correctAnswer": "Structured tannins",
+            "distractors": [
+              "Michlovsky winery",
+              "Mikulov subregion"
+            ],
+            "explanation": "In Pinot Noir Tradition – Philipp Kuhn, this component is present: Structured tannins. Full recipe ingredients: Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.."
+          },
+          {
+            "id": "cervene-pinot-noir-philipp-kuhn-ing-9",
+            "question": "Which ingredient is part of Pinot Noir Tradition – Philipp Kuhn?",
+            "correctAnswer": "Finish of ripe cherries and violets",
+            "distractors": [
+              "Velke Pavlovice subregion",
+              "Melnik subregion"
+            ],
+            "explanation": "In Pinot Noir Tradition – Philipp Kuhn, this component is present: Finish of ripe cherries and violets. Full recipe ingredients: Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.."
+          },
+          {
+            "id": "cervene-pinot-noir-philipp-kuhn-allergen-12",
+            "question": "Which of the following allergens is present in Pinot Noir Tradition – Philipp Kuhn?",
+            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
+            "distractors": [
+              "Allergen No. 14 – Molluscs and products thereof",
+              "Allergen No. 5 – Peanuts and products thereof"
+            ],
+            "explanation": "Pinot Noir Tradition – Philipp Kuhn contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+          }
+        ]
+      },
+      {
+        "id": "cervene-cabernet-lapis-luna",
+        "name": "Cabernet Sauvignon – Lapis Luna",
+        "weight": "0.75l",
+        "price": "789 CZK",
+        "allergens": [
+          "12"
+        ],
+        "description": "Lodi, California. Medium to full-bodied, pleasing acidity, long finish, dark fruit, blackcurrant, baking spices, cinnamon and clove.",
+        "notes": "Lodi, California. Medium to full-bodied, pleasing acidity, long finish, dark fruit, blackcurrant, baking spices, cinnamon and clove.",
+        "questions": [
+          {
+            "id": "cervene-cabernet-lapis-luna-vol",
+            "question": "What is the serving volume / measure of Cabernet Sauvignon – Lapis Luna?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0.5 l",
+              "1.0 l"
+            ],
+            "explanation": "The serving measure of Cabernet Sauvignon – Lapis Luna is 0,75l."
+          },
+          {
+            "id": "cervene-cabernet-lapis-luna-ing-1",
+            "question": "Which ingredient is part of Cabernet Sauvignon – Lapis Luna?",
+            "correctAnswer": "Lodi",
+            "distractors": [
+              "Aging in oak barrels",
+              "Gotberg winery"
+            ],
+            "explanation": "In Cabernet Sauvignon – Lapis Luna, this component is present: Lodi. Full recipe ingredients: Lodi, California. Medium to full-bodied, pleasing acidity, long finish, dark fruit, blackcurrant, baking spices, cinnamon and clove.."
+          },
+          {
+            "id": "cervene-cabernet-lapis-luna-ing-2",
+            "question": "Which ingredient is part of Cabernet Sauvignon – Lapis Luna?",
+            "correctAnswer": "California. Medium to full-bodied",
+            "distractors": [
+              "Kolby winery",
+              "Kraus winery"
+            ],
+            "explanation": "In Cabernet Sauvignon – Lapis Luna, this component is present: California. Medium to full-bodied. Full recipe ingredients: Lodi, California. Medium to full-bodied, pleasing acidity, long finish, dark fruit, blackcurrant, baking spices, cinnamon and clove.."
+          },
+          {
+            "id": "cervene-cabernet-lapis-luna-ing-3",
+            "question": "Which grape variety, winery, or characteristic belongs to Cabernet Sauvignon – Lapis Luna?",
+            "correctAnswer": "Pleasing acidity",
+            "distractors": [
+              "Michlovsky winery",
+              "Mikulov subregion"
+            ],
+            "explanation": "In Cabernet Sauvignon – Lapis Luna, this component is present: Pleasing acidity. Full recipe ingredients: Lodi, California. Medium to full-bodied, pleasing acidity, long finish, dark fruit, blackcurrant, baking spices, cinnamon and clove.."
+          },
+          {
+            "id": "cervene-cabernet-lapis-luna-ing-4",
+            "question": "Which ingredient is part of Cabernet Sauvignon – Lapis Luna?",
+            "correctAnswer": "Long finish",
+            "distractors": [
+              "Velke Pavlovice subregion",
+              "Melnik subregion"
+            ],
+            "explanation": "In Cabernet Sauvignon – Lapis Luna, this component is present: Long finish. Full recipe ingredients: Lodi, California. Medium to full-bodied, pleasing acidity, long finish, dark fruit, blackcurrant, baking spices, cinnamon and clove.."
+          },
+          {
+            "id": "cervene-cabernet-lapis-luna-ing-5",
+            "question": "Which ingredient is part of Cabernet Sauvignon – Lapis Luna?",
+            "correctAnswer": "Dark fruit",
+            "distractors": [
+              "Vibrant acidity and mineral notes",
+              "Late harvest"
+            ],
+            "explanation": "In Cabernet Sauvignon – Lapis Luna, this component is present: Dark fruit. Full recipe ingredients: Lodi, California. Medium to full-bodied, pleasing acidity, long finish, dark fruit, blackcurrant, baking spices, cinnamon and clove.."
+          },
+          {
+            "id": "cervene-cabernet-lapis-luna-ing-6",
+            "question": "Which ingredient is part of Cabernet Sauvignon – Lapis Luna?",
+            "correctAnswer": "Blackcurrant",
+            "distractors": [
+              "Aging in oak barrels",
+              "Gotberg winery"
+            ],
+            "explanation": "In Cabernet Sauvignon – Lapis Luna, this component is present: Blackcurrant. Full recipe ingredients: Lodi, California. Medium to full-bodied, pleasing acidity, long finish, dark fruit, blackcurrant, baking spices, cinnamon and clove.."
+          },
+          {
+            "id": "cervene-cabernet-lapis-luna-ing-7",
+            "question": "Which ingredient is part of Cabernet Sauvignon – Lapis Luna?",
+            "correctAnswer": "Baking spices",
+            "distractors": [
+              "Kolby winery",
+              "Kraus winery"
+            ],
+            "explanation": "In Cabernet Sauvignon – Lapis Luna, this component is present: Baking spices. Full recipe ingredients: Lodi, California. Medium to full-bodied, pleasing acidity, long finish, dark fruit, blackcurrant, baking spices, cinnamon and clove.."
+          },
+          {
+            "id": "cervene-cabernet-lapis-luna-ing-8",
+            "question": "Which ingredient is part of Cabernet Sauvignon – Lapis Luna?",
+            "correctAnswer": "Cinnamon and clove",
+            "distractors": [
+              "Michlovsky winery",
+              "Mikulov subregion"
+            ],
+            "explanation": "In Cabernet Sauvignon – Lapis Luna, this component is present: Cinnamon and clove. Full recipe ingredients: Lodi, California. Medium to full-bodied, pleasing acidity, long finish, dark fruit, blackcurrant, baking spices, cinnamon and clove.."
+          },
+          {
+            "id": "cervene-cabernet-lapis-luna-allergen-12",
+            "question": "Which of the following allergens is present in Cabernet Sauvignon – Lapis Luna?",
+            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
+            "distractors": [
+              "Allergen No. 14 – Molluscs and products thereof",
+              "Allergen No. 5 – Peanuts and products thereof"
+            ],
+            "explanation": "Cabernet Sauvignon – Lapis Luna contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+          }
+        ]
+      },
+      {
+        "id": "cervene-zinfandel-hendry",
+        "name": "Zinfandel Hendry Ranch HRW",
+        "weight": "0.75l",
+        "price": "995 CZK",
+        "allergens": [
+          "12"
+        ],
+        "description": "Napa Valley, California. Full-bodied, powerful with a long spiced finish, juicy acidity, rich flavors of dark berries, sweet spices and dark chocolate.",
+        "notes": "Napa Valley, California. Full-bodied, powerful with a long spiced finish, juicy acidity, rich flavors of dark berries, sweet spices and dark chocolate.",
+        "questions": [
+          {
+            "id": "cervene-zinfandel-hendry-vol",
+            "question": "What is the serving volume / measure of Zinfandel Hendry Ranch HRW?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0.5 l",
+              "1.0 l"
+            ],
+            "explanation": "The serving measure of Zinfandel Hendry Ranch HRW is 0,75l."
+          },
+          {
+            "id": "cervene-zinfandel-hendry-ing-1",
+            "question": "Which ingredient is part of Zinfandel Hendry Ranch HRW?",
+            "correctAnswer": "Napa Valley",
+            "distractors": [
+              "Aging in oak barrels",
+              "Gotberg winery"
+            ],
+            "explanation": "In Zinfandel Hendry Ranch HRW, this component is present: Napa Valley. Full recipe ingredients: Napa Valley, California. Full-bodied, powerful with a long spiced finish, juicy acidity, rich flavors of dark berries, sweet spices and dark chocolate.."
+          },
+          {
+            "id": "cervene-zinfandel-hendry-ing-2",
+            "question": "Which ingredient is part of Zinfandel Hendry Ranch HRW?",
+            "correctAnswer": "California. Full-bodied",
+            "distractors": [
+              "Kolby winery",
+              "Kraus winery"
+            ],
+            "explanation": "In Zinfandel Hendry Ranch HRW, this component is present: California. Full-bodied. Full recipe ingredients: Napa Valley, California. Full-bodied, powerful with a long spiced finish, juicy acidity, rich flavors of dark berries, sweet spices and dark chocolate.."
+          },
+          {
+            "id": "cervene-zinfandel-hendry-ing-3",
+            "question": "Which ingredient is part of Zinfandel Hendry Ranch HRW?",
+            "correctAnswer": "Powerful with a long spiced finish",
+            "distractors": [
+              "Michlovsky winery",
+              "Mikulov subregion"
+            ],
+            "explanation": "In Zinfandel Hendry Ranch HRW, this component is present: Powerful with a long spiced finish. Full recipe ingredients: Napa Valley, California. Full-bodied, powerful with a long spiced finish, juicy acidity, rich flavors of dark berries, sweet spices and dark chocolate.."
+          },
+          {
+            "id": "cervene-zinfandel-hendry-ing-4",
+            "question": "Which grape variety, winery, or characteristic belongs to Zinfandel Hendry Ranch HRW?",
+            "correctAnswer": "Juicy acidity",
+            "distractors": [
+              "Velke Pavlovice subregion",
+              "Melnik subregion"
+            ],
+            "explanation": "In Zinfandel Hendry Ranch HRW, this component is present: Juicy acidity. Full recipe ingredients: Napa Valley, California. Full-bodied, powerful with a long spiced finish, juicy acidity, rich flavors of dark berries, sweet spices and dark chocolate.."
+          },
+          {
+            "id": "cervene-zinfandel-hendry-ing-5",
+            "question": "Which ingredient is part of Zinfandel Hendry Ranch HRW?",
+            "correctAnswer": "Rich flavors of dark berries",
+            "distractors": [
+              "Vibrant acidity and mineral notes",
+              "Late harvest"
+            ],
+            "explanation": "In Zinfandel Hendry Ranch HRW, this component is present: Rich flavors of dark berries. Full recipe ingredients: Napa Valley, California. Full-bodied, powerful with a long spiced finish, juicy acidity, rich flavors of dark berries, sweet spices and dark chocolate.."
+          },
+          {
+            "id": "cervene-zinfandel-hendry-ing-6",
+            "question": "Which ingredient is part of Zinfandel Hendry Ranch HRW?",
+            "correctAnswer": "Sweet spices and dark chocolate",
+            "distractors": [
+              "Aging in oak barrels",
+              "Gotberg winery"
+            ],
+            "explanation": "In Zinfandel Hendry Ranch HRW, this component is present: Sweet spices and dark chocolate. Full recipe ingredients: Napa Valley, California. Full-bodied, powerful with a long spiced finish, juicy acidity, rich flavors of dark berries, sweet spices and dark chocolate.."
+          },
+          {
+            "id": "cervene-zinfandel-hendry-ing-7",
+            "question": "Which ingredient is part of Zinfandel Hendry Ranch HRW?",
+            "correctAnswer": "Sweet spices and dark chocolate",
+            "distractors": [
+              "Kolby winery",
+              "Kraus winery"
+            ],
+            "explanation": "In Zinfandel Hendry Ranch HRW, this component is present: Sweet spices and dark chocolate. Full recipe ingredients: Napa Valley, California. Full-bodied, powerful with a long spiced finish, juicy acidity, rich flavors of dark berries, sweet spices and dark chocolate.."
+          },
+          {
+            "id": "cervene-zinfandel-hendry-allergen-12",
+            "question": "Which of the following allergens is present in Zinfandel Hendry Ranch HRW?",
+            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
+            "distractors": [
+              "Allergen No. 14 – Molluscs and products thereof",
+              "Allergen No. 5 – Peanuts and products thereof"
+            ],
+            "explanation": "Zinfandel Hendry Ranch HRW contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "alergeny",
     "name": "Allergens (1–14)",
-    "badge": "Allergens",
-    "description": "Statutory list of 14 key food allergens defined by EU regulation",
+    "badge": "Allergens (1–14)",
+    "description": "Official EU food allergens list, ingredients, and risk management",
     "iconName": "ShieldAlert",
     "items": [
       {
         "id": "alergen-1",
         "name": "1 – Cereals containing gluten",
-        "weight": "Number 1",
-        "price": "Type: Gluten cereals",
+        "weight": "Číslo 1",
+        "price": "Druh: Obiloviny s lepkem",
         "allergens": [
           "1"
         ],
@@ -12809,8 +12816,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "alergen-2",
         "name": "2 – Crustaceans and products thereof",
-        "weight": "Number 2",
-        "price": "Type: Crustaceans",
+        "weight": "Číslo 2",
+        "price": "Druh: Korýši",
         "allergens": [
           "2"
         ],
@@ -12922,8 +12929,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "alergen-3",
         "name": "3 – Eggs and products thereof",
-        "weight": "Number 3",
-        "price": "Type: Eggs",
+        "weight": "Číslo 3",
+        "price": "Druh: Vejce",
         "allergens": [
           "3"
         ],
@@ -13055,8 +13062,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "alergen-4",
         "name": "4 – Fish and products thereof",
-        "weight": "Number 4",
-        "price": "Type: Fish",
+        "weight": "Číslo 4",
+        "price": "Druh: Ryby",
         "allergens": [
           "4"
         ],
@@ -13138,8 +13145,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "alergen-5",
         "name": "5 – Peanuts and products thereof",
-        "weight": "Number 5",
-        "price": "Type: Peanuts",
+        "weight": "Číslo 5",
+        "price": "Druh: Arašídy",
         "allergens": [
           "5"
         ],
@@ -13231,8 +13238,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "alergen-6",
         "name": "6 – Soybeans and products thereof",
-        "weight": "Number 6",
-        "price": "Type: Soybeans",
+        "weight": "Číslo 6",
+        "price": "Druh: Sója",
         "allergens": [
           "6"
         ],
@@ -13344,8 +13351,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "alergen-7",
         "name": "7 – Milk and products thereof (including lactose)",
-        "weight": "Number 7",
-        "price": "Type: Milk & Lactose",
+        "weight": "Číslo 7",
+        "price": "Druh: Mléko a laktóza",
         "allergens": [
           "7"
         ],
@@ -13487,8 +13494,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "alergen-8",
         "name": "8 – Nuts / Tree nuts and products thereof",
-        "weight": "Number 8",
-        "price": "Type: Tree nuts",
+        "weight": "Číslo 8",
+        "price": "Druh: Skořápkové plody",
         "allergens": [
           "8"
         ],
@@ -13600,8 +13607,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "alergen-9",
         "name": "9 – Celery and products thereof",
-        "weight": "Number 9",
-        "price": "Type: Celery",
+        "weight": "Číslo 9",
+        "price": "Druh: Celer",
         "allergens": [
           "9"
         ],
@@ -13703,8 +13710,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "alergen-10",
         "name": "10 – Mustard and products thereof",
-        "weight": "Number 10",
-        "price": "Type: Mustard",
+        "weight": "Číslo 10",
+        "price": "Druh: Hořčice",
         "allergens": [
           "10"
         ],
@@ -13836,8 +13843,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "alergen-11",
         "name": "11 – Sesame seeds and products thereof",
-        "weight": "Number 11",
-        "price": "Type: Sesame seeds",
+        "weight": "Číslo 11",
+        "price": "Druh: Sezam",
         "allergens": [
           "11"
         ],
@@ -13929,8 +13936,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "alergen-12",
         "name": "12 – Sulphur dioxide and sulphites",
-        "weight": "Number 12",
-        "price": "Type: Sulphites",
+        "weight": "Číslo 12",
+        "price": "Druh: Siřičitany",
         "allergens": [
           "12"
         ],
@@ -14012,8 +14019,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "alergen-13",
         "name": "13 – Lupin and products thereof",
-        "weight": "Number 13",
-        "price": "Type: Lupin",
+        "weight": "Číslo 13",
+        "price": "Druh: Vlčí bob (lupina)",
         "allergens": [
           "13"
         ],
@@ -14105,8 +14112,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "alergen-14",
         "name": "14 – Molluscs and products thereof",
-        "weight": "Number 14",
-        "price": "Type: Molluscs",
+        "weight": "Číslo 14",
+        "price": "Druh: Měkkýši",
         "allergens": [
           "14"
         ],
@@ -14228,3 +14235,6 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
     ]
   }
 ];
+
+export const TOTAL_ITEMS_COUNT_EN = MENU_CATEGORIES_EN.reduce((acc, cat) => acc + cat.items.length, 0);
+export const TOTAL_QUESTIONS_COUNT_EN = MENU_CATEGORIES_EN.reduce((acc, cat) => acc + cat.items.reduce((qAcc, item) => qAcc + (item.questions ? item.questions.length : 0), 0), 0);

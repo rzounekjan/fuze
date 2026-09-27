@@ -4299,6 +4299,97 @@ export const MENU_CATEGORIES: MenuCategory[] = [
     ]
   },
   {
+    "id": "kombucha",
+    "name": "Kombucha",
+    "badge": "Kombucha",
+    "description": "Živé, nepasterizované fermentované kombuchy s přírodními bylinami a ovocem",
+    "iconName": "Sparkles",
+    "items": [
+      {
+        "id": "appio-tatranske-byliny",
+        "name": "Appio tatranské byliny",
+        "weight": "0,33l",
+        "price": "129 Kč",
+        "allergens": [],
+        "description": "Živá, přírodní, prémiová fermentovaná kombucha bez pasterizace s 10 druhy ručně sbíraných bylin přímo pod Tatrami",
+        "notes": "Nepasterizovaná řemeslná kombucha s bylinami sbíranými pod Tatrami.",
+        "questions": [
+          {
+            "id": "appio-tatranske-byliny-vol",
+            "question": "Jaký je servírovací objem / míra podsložky Appio tatranské byliny?",
+            "correctAnswer": "0,33l",
+            "distractors": [
+              "0,25l",
+              "0,5l"
+            ],
+            "explanation": "Servírovací objem podsložky Appio tatranské byliny je 0,33l."
+          },
+          {
+            "id": "appio-tatranske-byliny-ing-1",
+            "question": "Které byliny tvoří základ chuti podsložky Appio tatranské byliny?",
+            "correctAnswer": "10 druhů ručně sbíraných bylin přímo pod Tatrami",
+            "distractors": [
+              "Sušené šípky a ibišek",
+              "Lesní jahody a máta"
+            ],
+            "explanation": "V podsložce Appio tatranské byliny je obsaženo: 10 druhů ručně sbíraných bylin přímo pod Tatrami. Kompletní popis: Živá, přírodní, prémiová fermentovaná kombucha bez pasterizace s 10 druhy ručně sbíraných bylin přímo pod Tatrami."
+          },
+          {
+            "id": "appio-tatranske-byliny-ing-2",
+            "question": "Jakou technologií je vyrobena kombucha Appio tatranské byliny?",
+            "correctAnswer": "Živá fermentace bez pasterizace",
+            "distractors": [
+              "Pasterizovaná filtrace",
+              "Destilace za studena"
+            ],
+            "explanation": "Appio tatranské byliny je živá, přírodní, prémiová fermentovaná kombucha bez pasterizace."
+          }
+        ]
+      },
+      {
+        "id": "oppio-tresen-skorice",
+        "name": "Oppio třešeň a skořice",
+        "weight": "0,33l",
+        "price": "129 Kč",
+        "allergens": [],
+        "description": "sladká, hřejivá a jemně nostalgická chuť třešně se skořicí",
+        "notes": "Jemně perlivá kombucha s příchutí třešně a hřejivé skořice.",
+        "questions": [
+          {
+            "id": "oppio-tresen-skorice-vol",
+            "question": "Jaký je servírovací objem / míra podsložky Oppio třešeň a skořice?",
+            "correctAnswer": "0,33l",
+            "distractors": [
+              "0,25l",
+              "0,5l"
+            ],
+            "explanation": "Servírovací objem podsložky Oppio třešeň a skořice je 0,33l."
+          },
+          {
+            "id": "oppio-tresen-skorice-ing-1",
+            "question": "Která ovocná a kořeněná kombinace charakterizuje podsložku Oppio třešeň a skořice?",
+            "correctAnswer": "Chuť třešně se skořicí",
+            "distractors": [
+              "Jablko se zázvorem",
+              "Černý rybíz s badyánem"
+            ],
+            "explanation": "V podsložce Oppio třešeň a skořice je obsaženo: Chuť třešně se skořicí. Popis: sladká, hřejivá a jemně nostalgická chuť třešně se skořicí."
+          },
+          {
+            "id": "oppio-tresen-skorice-ing-2",
+            "question": "Jaký chuťový profil má podsložka Oppio třešeň a skořice?",
+            "correctAnswer": "Sladká, hřejivá a jemně nostalgická chuť",
+            "distractors": [
+              "Výrazně kyselá a trpká chuť",
+              "Hořká bylinná chuť"
+            ],
+            "explanation": "Oppio třešeň a skořice má sladkou, hřejivou a jemně nostalgickou chuť třešně se skořicí."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "vody-a-mineralni-vody",
     "name": "Vody a minerální vody",
     "badge": "Vody a minerální vody",
