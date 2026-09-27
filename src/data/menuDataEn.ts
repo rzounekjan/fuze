@@ -8352,14 +8352,14 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   },
   {
     "id": "ovocne-destilaty",
-    "name": "Fruit brandies 0.03l",
-    "badge": "Fruit brandies 0.03l",
+    "name": "Fruit distillates 0.03l",
+    "badge": "Fruit distillates 0.03l",
     "description": "Traditional single-fruit distillates from acclaimed Czech master distillers",
     "iconName": "Flame",
     "items": [
       {
         "id": "slivovice-radlik",
-        "name": "Slivovitz",
+        "name": "Slivovice",
         "weight": "0.03l",
         "price": "105 CZK",
         "allergens": [],
@@ -8368,23 +8368,23 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "questions": [
           {
             "id": "slivovice-radlik-vol",
-            "question": "What is the serving volume / measure of Slivovitz?",
+            "question": "What is the serving volume / measure of Slivovice?",
             "correctAnswer": "0.03 l",
             "distractors": [
               "0.05 l",
               "0.02 l"
             ],
-            "explanation": "The serving measure of Slivovitz is 0.03 l."
+            "explanation": "The serving measure of Slivovice is 0.03 l."
           },
           {
             "id": "slivovice-radlik-ing-1",
-            "question": "Which ingredient is part of Slivovitz?",
+            "question": "Which ingredient is part of Slivovice?",
             "correctAnswer": "Gentle plum brandy from the award-winning South Bohemian distillery Radlík near Jílové u Prahy",
             "distractors": [
               "Fermented plum mash",
               "Williams pears"
             ],
-            "explanation": "In Slivovitz, this component is present: Gentle plum brandy from the award-winning South Bohemian distillery Radlík near Jílové u Prahy. Official FUZE menu: Radlík (Plum brandy)."
+            "explanation": "In Slivovice, this component is present: Gentle plum brandy from the award-winning South Bohemian distillery Radlík near Jílové u Prahy. Official FUZE menu: Radlík (Plum brandy)."
           }
         ]
       },
@@ -8865,8 +8865,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   },
   {
     "id": "giny",
-    "name": "Gins 0.03l",
-    "badge": "Gins 0.03l",
+    "name": "Gin 0.03l",
+    "badge": "Gin 0.03l",
     "description": "Exceptional artisanal and international gins served neat in 0.03L measures",
     "iconName": "Flame",
     "items": [
@@ -9018,8 +9018,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   },
   {
     "id": "rumy",
-    "name": "Rums 0.03l",
-    "badge": "Rums 0.03l",
+    "name": "Rum 0.03l",
+    "badge": "Rum 0.03l",
     "description": "Aged Caribbean, Central American, and Cuban rums served in 0.03L measures",
     "iconName": "Flame",
     "items": [
@@ -9374,8 +9374,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
   },
   {
     "id": "tequily",
-    "name": "Tequilas 0.03l",
-    "badge": "Tequilas 0.03l",
+    "name": "Tequila 0.03l",
+    "badge": "Tequila 0.03l",
     "description": "100% blue agave tequilas and handcrafted artisanal editions in 0.03L measures",
     "iconName": "Flame",
     "items": [
