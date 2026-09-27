@@ -183,26 +183,24 @@ export const QuizView: React.FC<QuizViewProps> = ({
   return (
     <div className="space-y-6 max-w-4xl mx-auto">
       {/* Top Breadcrumb Navigation */}
-      <div className="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-stone-800">
+      <div className="flex flex-wrap items-center justify-between gap-3 pb-3 border-b border-stone-800">
         <div className="flex items-center gap-2 text-xs font-semibold">
           {onBackToMainMenu && (
-            <>
-              <button
-                onClick={onBackToMainMenu}
-                className="inline-flex items-center gap-1.5 text-stone-400 hover:text-amber-400 transition-colors group"
-                title={language === 'en' ? 'Return to Main Menu' : 'Zpět do Hlavní nabídky'}
-              >
-                <ArrowLeft className="w-3.5 h-3.5 group-hover:-translate-x-0.5 transition-transform" />
-                <span>{language === 'en' ? 'Main Menu' : 'Hlavní nabídka'}</span>
-              </button>
-              <span className="text-stone-600">/</span>
-            </>
+            <button
+              onClick={onBackToMainMenu}
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-stone-800/90 hover:bg-stone-700/90 text-stone-200 hover:text-amber-300 border border-stone-700/80 hover:border-amber-500/40 text-xs font-semibold transition-all shadow-sm active:scale-[0.98] group"
+              title={language === 'en' ? 'Return to Main Menu' : 'Zpět do Hlavní nabídky'}
+            >
+              <ArrowLeft className="w-3.5 h-3.5 text-stone-400 group-hover:text-amber-400 group-hover:-translate-x-0.5 transition-all" />
+              <span>{language === 'en' ? 'Main Menu' : 'Hlavní nabídka'}</span>
+            </button>
           )}
           <button
             onClick={onBackToItems}
-            className="inline-flex items-center gap-1.5 text-stone-300 hover:text-amber-300 transition-colors group"
+            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-stone-800/90 hover:bg-stone-700/90 text-stone-200 hover:text-amber-300 border border-stone-700/80 hover:border-amber-500/40 text-xs font-semibold transition-all shadow-sm active:scale-[0.98] group"
             title={language === 'en' ? `Back to items in ${category.name}` : `Zpět na položky: ${category.name}`}
           >
+            <ArrowLeft className="w-3.5 h-3.5 text-stone-400 group-hover:text-amber-400 group-hover:-translate-x-0.5 transition-all" />
             <span>{category.name}</span>
           </button>
         </div>

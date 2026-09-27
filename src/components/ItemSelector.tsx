@@ -40,19 +40,19 @@ export const ItemSelector: React.FC<ItemSelectorProps> = ({
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-stone-800">
         <button
           onClick={onBack}
-          className="inline-flex items-center gap-2 text-xs font-semibold text-stone-400 hover:text-amber-400 transition-colors w-fit group"
+          className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-stone-800/90 hover:bg-stone-700/90 text-stone-200 hover:text-amber-300 border border-stone-700/80 hover:border-amber-500/50 text-xs sm:text-sm font-semibold transition-all shadow-sm hover:shadow active:scale-[0.98] w-fit group"
           title={language === 'en' ? 'Return to Main Menu' : 'Návrat do Hlavní nabídky'}
         >
-          <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
+          <ArrowLeft className="w-4 h-4 text-stone-400 group-hover:text-amber-400 group-hover:-translate-x-0.5 transition-all" />
           <span>{language === 'en' ? 'Back to Main Menu' : 'Zpět do Hlavní nabídky'}</span>
         </button>
 
         {category.items.length > 1 && (
           <button
             onClick={onQuizEntireCategory}
-            className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg bg-amber-500/10 hover:bg-amber-500/20 text-amber-300 border border-amber-500/30 text-xs font-semibold transition-all shadow-sm"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 border border-amber-500/40 text-xs sm:text-sm font-semibold transition-all shadow-sm active:scale-[0.98]"
           >
-            <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+            <Sparkles className="w-4 h-4 text-amber-400" />
             <span>{language === 'en' ? `Test Entire Category (${category.items.length} items)` : `Otestovat celou kategorii (${category.items.length} položek)`}</span>
           </button>
         )}
@@ -220,6 +220,17 @@ export const ItemSelector: React.FC<ItemSelectorProps> = ({
             })}
           </div>
         )}
+      </div>
+
+      {/* Bottom back to main menu button bubble */}
+      <div className="pt-4 border-t border-stone-800 flex justify-center sm:justify-start">
+        <button
+          onClick={onBack}
+          className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-stone-800/90 hover:bg-stone-700/90 text-stone-200 hover:text-amber-300 border border-stone-700/80 hover:border-amber-500/50 text-xs sm:text-sm font-semibold transition-all shadow-sm hover:shadow active:scale-[0.98] group"
+        >
+          <ArrowLeft className="w-4 h-4 text-stone-400 group-hover:text-amber-400 group-hover:-translate-x-0.5 transition-all" />
+          <span>{language === 'en' ? 'Back to Main Menu' : 'Zpět do Hlavní nabídky'}</span>
+        </button>
       </div>
     </div>
   );

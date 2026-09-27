@@ -285,10 +285,10 @@ export const RandomExam: React.FC<RandomExamProps> = ({
       <div className="flex items-center justify-between pb-3 border-b border-stone-800">
         <button
           onClick={onExit}
-          className="inline-flex items-center gap-2 text-xs font-semibold text-stone-400 hover:text-amber-400 transition-colors"
+          className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg bg-stone-800/90 hover:bg-stone-700/90 text-stone-200 hover:text-amber-300 border border-stone-700/80 hover:border-amber-500/40 text-xs font-semibold transition-all shadow-sm active:scale-[0.98] group"
         >
-          <ArrowLeft className="w-4 h-4" />
-          <span>Ukončit zkoušku</span>
+          <ArrowLeft className="w-4 h-4 text-stone-400 group-hover:text-amber-400 group-hover:-translate-x-0.5 transition-all" />
+          <span>{language === 'en' ? 'Exit exam' : 'Ukončit zkoušku'}</span>
         </button>
 
         <div className="flex items-center gap-2 text-xs text-stone-300">

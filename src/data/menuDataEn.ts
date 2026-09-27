@@ -18,7 +18,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
           "3",
           "7"
         ],
-        "description": "from tip of the sirloin, tiny pickles, marinated shallots, parsley leaf, toasted sourdough on beef lard, confit garlic, potato straw",
+        "description": "from top of the sirloin, cornischons, marinated shallots, parsley leaf, toasted sourdough on beef lard, confit garlic, potato straw",
         "notes": "Hand-sliced prime beef tartare served with crispy potato straw and sourdough bread toasted on beef tallow.",
         "questions": [
           {
@@ -34,22 +34,22 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
           {
             "id": "tatarak-ing-1",
             "question": "Which meat or seafood ingredient forms the base of Sliced beef tartare?",
-            "correctAnswer": "From tip of the sirloin",
+            "correctAnswer": "From top of the sirloin",
             "distractors": [
               "Pork tenderloin",
               "Veal leg"
             ],
-            "explanation": "In Sliced beef tartare, this component is present: From tip of the sirloin. Full recipe ingredients: from tip of the sirloin, tiny pickles, marinated shallots, parsley leaf, toasted sourdough on beef lard, confit garlic, potato straw."
+            "explanation": "In Sliced beef tartare, this component is present: From top of the sirloin. Full recipe ingredients: from top of the sirloin, cornischons, marinated shallots, parsley leaf, toasted sourdough on beef lard, confit garlic, potato straw."
           },
           {
             "id": "tatarak-ing-2",
             "question": "Which pickled or prepared vegetable is included in Sliced beef tartare?",
-            "correctAnswer": "Tiny pickles",
+            "correctAnswer": "Cornischons",
             "distractors": [
               "Pickled pearl onions",
               "Grilled Padron peppers"
             ],
-            "explanation": "In Sliced beef tartare, this component is present: Tiny pickles. Full recipe ingredients: from tip of the sirloin, tiny pickles, marinated shallots, parsley leaf, toasted sourdough on beef lard, confit garlic, potato straw."
+            "explanation": "In Sliced beef tartare, this component is present: Cornischons. Full recipe ingredients: from top of the sirloin, cornischons, marinated shallots, parsley leaf, toasted sourdough on beef lard, confit garlic, potato straw."
           },
           {
             "id": "tatarak-ing-3",
@@ -59,7 +59,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Pickled chili peppers",
               "Fermented dill pickles"
             ],
-            "explanation": "In Sliced beef tartare, this component is present: Marinated shallots. Full recipe ingredients: from tip of the sirloin, tiny pickles, marinated shallots, parsley leaf, toasted sourdough on beef lard, confit garlic, potato straw."
+            "explanation": "In Sliced beef tartare, this component is present: Marinated shallots. Full recipe ingredients: from top of the sirloin, cornischons, marinated shallots, parsley leaf, toasted sourdough on beef lard, confit garlic, potato straw."
           },
           {
             "id": "tatarak-ing-4",
@@ -69,7 +69,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Ground cardamom",
               "Fresh rosemary"
             ],
-            "explanation": "In Sliced beef tartare, this component is present: Parsley leaf. Full recipe ingredients: from tip of the sirloin, tiny pickles, marinated shallots, parsley leaf, toasted sourdough on beef lard, confit garlic, potato straw."
+            "explanation": "In Sliced beef tartare, this component is present: Parsley leaf. Full recipe ingredients: from top of the sirloin, cornischons, marinated shallots, parsley leaf, toasted sourdough on beef lard, confit garlic, potato straw."
           },
           {
             "id": "tatarak-ing-5",
@@ -79,7 +79,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Sourdough bread",
               "Mashed potatoes"
             ],
-            "explanation": "In Sliced beef tartare, this component is present: Toasted sourdough on beef lard. Full recipe ingredients: from tip of the sirloin, tiny pickles, marinated shallots, parsley leaf, toasted sourdough on beef lard, confit garlic, potato straw."
+            "explanation": "In Sliced beef tartare, this component is present: Toasted sourdough on beef lard. Full recipe ingredients: from top of the sirloin, cornischons, marinated shallots, parsley leaf, toasted sourdough on beef lard, confit garlic, potato straw."
           },
           {
             "id": "tatarak-ing-6",
@@ -89,7 +89,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Lovage",
               "Tarragon"
             ],
-            "explanation": "In Sliced beef tartare, this component is present: Confit garlic. Full recipe ingredients: from tip of the sirloin, tiny pickles, marinated shallots, parsley leaf, toasted sourdough on beef lard, confit garlic, potato straw."
+            "explanation": "In Sliced beef tartare, this component is present: Confit garlic. Full recipe ingredients: from top of the sirloin, cornischons, marinated shallots, parsley leaf, toasted sourdough on beef lard, confit garlic, potato straw."
           },
           {
             "id": "tatarak-ing-7",
@@ -99,7 +99,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
               "Smoked fingerling potatoes",
               "Beer biscuit"
             ],
-            "explanation": "In Sliced beef tartare, this component is present: Potato straw. Full recipe ingredients: from tip of the sirloin, tiny pickles, marinated shallots, parsley leaf, toasted sourdough on beef lard, confit garlic, potato straw."
+            "explanation": "In Sliced beef tartare, this component is present: Potato straw. Full recipe ingredients: from top of the sirloin, cornischons, marinated shallots, parsley leaf, toasted sourdough on beef lard, confit garlic, potato straw."
           },
           {
             "id": "tatarak-allergen-1",
