@@ -631,8 +631,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
   },
   {
     "id": "chutovky",
-    "name": "Chuťovka",
-    "badge": "Chuťovka",
+    "name": "Chuťovky",
+    "badge": "Chuťovky",
     "description": "Drobné pochutiny k pivu a vínu z naší kuchyně",
     "iconName": "Cookie",
     "items": [
@@ -3730,980 +3730,569 @@ export const MENU_CATEGORIES: MenuCategory[] = [
   },
   {
     "id": "pivo-na-cepu",
-    "name": "pivo na čepu",
-    "badge": "Čepované pivo",
-    "description": "Řemeslná piva z našeho pivovaru FUZE i vybrané speciály čepované na hladinku",
+    "name": "Pivo na čepu",
+    "badge": "Pivo na čepu",
+    "description": "Čerstvě čepovaná piva z našeho pivovaru vařená sládkem Alešem Paikem a hostující speciály",
     "iconName": "Beer",
     "items": [
       {
         "id": "transfuze-12",
         "name": "TransFUZE 12",
-        "price": "59 / 69 Kč",
         "weight": "0,3l / 0,5l",
+        "price": "59/69 Kč",
         "allergens": [
           "1"
         ],
-        "description": "Náš tradiční ležák plzeňského typu, plné svěží chuti a vyvážené hořkosti, nepasterizovaný, nefiltrovaný, čepujeme na hladinku",
-        "notes": "Vlajkový světlý ležák vařený přímo v restauraci FUZE.",
+        "description": "náš tradiční ležák plzeňského typu, plné svěží chuti a vyvážené hořkosti, nepasterizovaný, nefiltrovaný",
         "questions": [
           {
             "id": "transfuze-12-vol",
-            "question": "Jaký je servírovací objem / míra podsložky TransFUZE 12?",
+            "question": "Jaký je servírovací objem / míra položky TransFUZE 12?",
             "correctAnswer": "0,3l / 0,5l",
             "distractors": [
-              "0,02 l",
-              "0,03 l"
+              "0,25 l / 0,4 l",
+              "0,4 l / 0,5 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky TransFUZE 12 je 0,3l / 0,5l."
+            "explanation": "Servírovací míra / objem položky TransFUZE 12 je 0,3l / 0,5l."
           },
           {
             "id": "transfuze-12-ing-1",
-            "question": "Která pivovarská surovina nebo vlastnost charakterizuje TransFUZE 12?",
+            "question": "Která surovina, původ či charakteristika patří k položce TransFUZE 12?",
             "correctAnswer": "Náš tradiční ležák plzeňského typu",
             "distractors": [
-              "Mnichovský slad",
-              "Žatecký poloraný červeňák"
+              "Vanilkový sirup a limetová šťáva",
+              "Třtinový cukr s limetkou"
             ],
-            "explanation": "V podsložce TransFUZE 12 je obsaženo: Náš tradiční ležák plzeňského typu. Kompletní receptura položky: Náš tradiční ležák plzeňského typu, plné svěží chuti a vyvážené hořkosti, nepasterizovaný, nefiltrovaný, čepujeme na hladinku."
+            "explanation": "U položky TransFUZE 12 je uvedeno: Náš tradiční ležák plzeňského typu. Kompletní popis: náš tradiční ležák plzeňského typu, plné svěží chuti a vyvážené hořkosti, nepasterizovaný, nefiltrovaný."
           },
           {
             "id": "transfuze-12-ing-2",
-            "question": "Která z následujících surovin patří do podsložky TransFUZE 12?",
+            "question": "Která surovina, původ či charakteristika patří k položce TransFUZE 12?",
             "correctAnswer": "Plné svěží chuti a vyvážené hořkosti",
             "distractors": [
-              "Chmel Citra",
-              "Chmel Mandarina Bavaria"
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
             ],
-            "explanation": "V podsložce TransFUZE 12 je obsaženo: Plné svěží chuti a vyvážené hořkosti. Kompletní receptura položky: Náš tradiční ležák plzeňského typu, plné svěží chuti a vyvážené hořkosti, nepasterizovaný, nefiltrovaný, čepujeme na hladinku."
-          },
-          {
-            "id": "transfuze-12-ing-3",
-            "question": "Která z následujících surovin patří do podsložky TransFUZE 12?",
-            "correctAnswer": "Nepasterizovaný",
-            "distractors": [
-              "Kvasnice spodního kvašení",
-              "Kvasnice svrchního kvašení"
-            ],
-            "explanation": "V podsložce TransFUZE 12 je obsaženo: Nepasterizovaný. Kompletní receptura položky: Náš tradiční ležák plzeňského typu, plné svěží chuti a vyvážené hořkosti, nepasterizovaný, nefiltrovaný, čepujeme na hladinku."
-          },
-          {
-            "id": "transfuze-12-ing-4",
-            "question": "Která z následujících surovin patří do podsložky TransFUZE 12?",
-            "correctAnswer": "Nefiltrovaný",
-            "distractors": [
-              "Pšeničný slad",
-              "Pražený karamelový slad"
-            ],
-            "explanation": "V podsložce TransFUZE 12 je obsaženo: Nefiltrovaný. Kompletní receptura položky: Náš tradiční ležák plzeňského typu, plné svěží chuti a vyvážené hořkosti, nepasterizovaný, nefiltrovaný, čepujeme na hladinku."
-          },
-          {
-            "id": "transfuze-12-ing-5",
-            "question": "Která z následujících surovin patří do podsložky TransFUZE 12?",
-            "correctAnswer": "Čepujeme na hladinku",
-            "distractors": [
-              "Chmel Sládek",
-              "Plzeňský ječný slad"
-            ],
-            "explanation": "V podsložce TransFUZE 12 je obsaženo: Čepujeme na hladinku. Kompletní receptura položky: Náš tradiční ležák plzeňského typu, plné svěží chuti a vyvážené hořkosti, nepasterizovaný, nefiltrovaný, čepujeme na hladinku."
+            "explanation": "U položky TransFUZE 12 je uvedeno: Plné svěží chuti a vyvážené hořkosti. Kompletní popis: náš tradiční ležák plzeňského typu, plné svěží chuti a vyvážené hořkosti, nepasterizovaný, nefiltrovaný."
           },
           {
             "id": "transfuze-12-allergen-1",
-            "question": "Který z následujících alergenů obsahuje podsložka TransFUZE 12?",
+            "question": "Který z následujících alergenů obsahuje položka TransFUZE 12?",
             "correctAnswer": "Alergen č. 1 – Obiloviny obsahující lepek",
             "distractors": [
               "Alergen č. 3 – Vejce a výrobky z nich",
               "Alergen č. 8 – Skořápkové plody (ořechy)"
             ],
-            "explanation": "TransFUZE 12 obsahuje Alergen č. 1 – Obiloviny obsahující lepek (kváskové pečivo, mouka, strouhanka, slad v pivu). Všechny evidované alergeny této podsložky: Obiloviny obsahující lepek."
+            "explanation": "TransFUZE 12 obsahuje Alergen č. 1 – Obiloviny obsahující lepek (slad v pivu, kváskové pečivo, mouka, strouhanka). Všechny evidované alergeny: Obiloviny obsahující lepek."
           }
         ]
       },
       {
         "id": "disfuze-10",
-        "name": "DisFUZE 10",
-        "price": "59 / 69 Kč",
+        "name": "DisFuze 10",
         "weight": "0,3l / 0,5l",
+        "price": "59/69 Kč",
         "allergens": [
           "1"
         ],
-        "description": "Naše světlé výčepní pivo, Abv 3,5 %, česká klasika, poctivá desítka, velmi pitelné osvěžující pivo s vyšší hořkostí, nepasterizované, nefiltrované",
+        "description": "světlé výčepní pivo, Abv 3,5 %, česká klasika, poctivá desítka, velmi pitelné osvěžující pivo s vyšší hořkostí",
         "questions": [
           {
             "id": "disfuze-10-vol",
-            "question": "Jaký je servírovací objem / míra podsložky DisFUZE 10?",
+            "question": "Jaký je servírovací objem / míra položky DisFuze 10?",
             "correctAnswer": "0,3l / 0,5l",
             "distractors": [
-              "0,02 l",
-              "0,03 l"
+              "0,25 l / 0,4 l",
+              "0,4 l / 0,5 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky DisFUZE 10 je 0,3l / 0,5l."
+            "explanation": "Servírovací míra / objem položky DisFuze 10 je 0,3l / 0,5l."
           },
           {
             "id": "disfuze-10-ing-1",
-            "question": "Která z následujících surovin patří do podsložky DisFUZE 10?",
-            "correctAnswer": "Naše světlé výčepní pivo",
+            "question": "Která surovina, původ či charakteristika patří k položce DisFuze 10?",
+            "correctAnswer": "Světlé výčepní pivo",
             "distractors": [
-              "Mnichovský slad",
-              "Žatecký poloraný červeňák"
+              "Čerstvý grepový fresh",
+              "Bezinkový sirup a čerstvá máta"
             ],
-            "explanation": "V podsložce DisFUZE 10 je obsaženo: Naše světlé výčepní pivo. Kompletní receptura položky: Naše světlé výčepní pivo, Abv 3,5 %, česká klasika, poctivá desítka, velmi pitelné osvěžující pivo s vyšší hořkostí, nepasterizované, nefiltrované."
+            "explanation": "U položky DisFuze 10 je uvedeno: Světlé výčepní pivo. Kompletní popis: světlé výčepní pivo, Abv 3,5 %, česká klasika, poctivá desítka, velmi pitelné osvěžující pivo s vyšší hořkostí."
           },
           {
             "id": "disfuze-10-ing-2",
-            "question": "Která z následujících surovin patří do podsložky DisFUZE 10?",
-            "correctAnswer": "Abv 3,5 %",
+            "question": "Která surovina, původ či charakteristika patří k položce DisFuze 10?",
+            "correctAnswer": "Abv 3",
             "distractors": [
-              "Chmel Citra",
-              "Chmel Mandarina Bavaria"
+              "Tonik Thomas Henry s chininem",
+              "Čerstvě pražená výběrová káva"
             ],
-            "explanation": "V podsložce DisFUZE 10 je obsaženo: Abv 3,5 %. Kompletní receptura položky: Naše světlé výčepní pivo, Abv 3,5 %, česká klasika, poctivá desítka, velmi pitelné osvěžující pivo s vyšší hořkostí, nepasterizované, nefiltrované."
-          },
-          {
-            "id": "disfuze-10-ing-3",
-            "question": "Která z následujících surovin patří do podsložky DisFUZE 10?",
-            "correctAnswer": "Česká klasika",
-            "distractors": [
-              "Kvasnice spodního kvašení",
-              "Kvasnice svrchního kvašení"
-            ],
-            "explanation": "V podsložce DisFUZE 10 je obsaženo: Česká klasika. Kompletní receptura položky: Naše světlé výčepní pivo, Abv 3,5 %, česká klasika, poctivá desítka, velmi pitelné osvěžující pivo s vyšší hořkostí, nepasterizované, nefiltrované."
-          },
-          {
-            "id": "disfuze-10-ing-4",
-            "question": "Která z následujících surovin patří do podsložky DisFUZE 10?",
-            "correctAnswer": "Poctivá desítka",
-            "distractors": [
-              "Pšeničný slad",
-              "Pražený karamelový slad"
-            ],
-            "explanation": "V podsložce DisFUZE 10 je obsaženo: Poctivá desítka. Kompletní receptura položky: Naše světlé výčepní pivo, Abv 3,5 %, česká klasika, poctivá desítka, velmi pitelné osvěžující pivo s vyšší hořkostí, nepasterizované, nefiltrované."
-          },
-          {
-            "id": "disfuze-10-ing-5",
-            "question": "Která z následujících surovin patří do podsložky DisFUZE 10?",
-            "correctAnswer": "Velmi pitelné osvěžující pivo s vyšší hořkostí",
-            "distractors": [
-              "Chmel Sládek",
-              "Plzeňský ječný slad"
-            ],
-            "explanation": "V podsložce DisFUZE 10 je obsaženo: Velmi pitelné osvěžující pivo s vyšší hořkostí. Kompletní receptura položky: Naše světlé výčepní pivo, Abv 3,5 %, česká klasika, poctivá desítka, velmi pitelné osvěžující pivo s vyšší hořkostí, nepasterizované, nefiltrované."
-          },
-          {
-            "id": "disfuze-10-ing-6",
-            "question": "Která z následujících surovin patří do podsložky DisFUZE 10?",
-            "correctAnswer": "Nepasterizované",
-            "distractors": [
-              "Mnichovský slad",
-              "Žatecký poloraný červeňák"
-            ],
-            "explanation": "V podsložce DisFUZE 10 je obsaženo: Nepasterizované. Kompletní receptura položky: Naše světlé výčepní pivo, Abv 3,5 %, česká klasika, poctivá desítka, velmi pitelné osvěžující pivo s vyšší hořkostí, nepasterizované, nefiltrované."
-          },
-          {
-            "id": "disfuze-10-ing-7",
-            "question": "Která z následujících surovin patří do podsložky DisFUZE 10?",
-            "correctAnswer": "Nefiltrované",
-            "distractors": [
-              "Chmel Citra",
-              "Chmel Mandarina Bavaria"
-            ],
-            "explanation": "V podsložce DisFUZE 10 je obsaženo: Nefiltrované. Kompletní receptura položky: Naše světlé výčepní pivo, Abv 3,5 %, česká klasika, poctivá desítka, velmi pitelné osvěžující pivo s vyšší hořkostí, nepasterizované, nefiltrované."
+            "explanation": "U položky DisFuze 10 je uvedeno: Abv 3. Kompletní popis: světlé výčepní pivo, Abv 3,5 %, česká klasika, poctivá desítka, velmi pitelné osvěžující pivo s vyšší hořkostí."
           },
           {
             "id": "disfuze-10-allergen-1",
-            "question": "Který z následujících alergenů obsahuje podsložka DisFUZE 10?",
+            "question": "Který z následujících alergenů obsahuje položka DisFuze 10?",
             "correctAnswer": "Alergen č. 1 – Obiloviny obsahující lepek",
             "distractors": [
               "Alergen č. 3 – Vejce a výrobky z nich",
               "Alergen č. 8 – Skořápkové plody (ořechy)"
             ],
-            "explanation": "DisFUZE 10 obsahuje Alergen č. 1 – Obiloviny obsahující lepek (kváskové pečivo, mouka, strouhanka, slad v pivu). Všechny evidované alergeny této podsložky: Obiloviny obsahující lepek."
+            "explanation": "DisFuze 10 obsahuje Alergen č. 1 – Obiloviny obsahující lepek (slad v pivu, kváskové pečivo, mouka, strouhanka). Všechny evidované alergeny: Obiloviny obsahující lepek."
           }
         ]
       },
       {
         "id": "infuze-ipa-12",
         "name": "InFUZE IPA 12",
-        "price": "85 Kč",
         "weight": "0,4l",
+        "price": "85 Kč",
         "allergens": [
           "1"
         ],
-        "description": "Styl: Session IPA, 12 stupňové pivo, 4,9 % obj alk, svrchně kvašené pivo, lehké osvěžující, nepasterizované, nefiltrované s citrusovým aroma, chmeleno za studena",
+        "description": "styl: Session IPA, 12 stupňové pivo, 4,9 % obj alk svrchně kvašené pivo, lehké osvěžující, nepasterizované, nefiltrované s citrusovým aroma, chmeleno za studena",
         "questions": [
           {
             "id": "infuze-ipa-12-vol",
-            "question": "Jaký je servírovací objem / míra podsložky InFUZE IPA 12?",
+            "question": "Jaký je servírovací objem / míra položky InFUZE IPA 12?",
             "correctAnswer": "0,4l",
             "distractors": [
-              "0,5 l",
-              "0,3 l"
+              "0,3 l",
+              "0,5 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky InFUZE IPA 12 je 0,4l."
+            "explanation": "Servírovací míra / objem položky InFUZE IPA 12 je 0,4l."
           },
           {
             "id": "infuze-ipa-12-ing-1",
-            "question": "Která z následujících surovin patří do podsložky InFUZE IPA 12?",
+            "question": "Která surovina, původ či charakteristika patří k položce InFUZE IPA 12?",
             "correctAnswer": "Styl: Session IPA",
             "distractors": [
-              "Mnichovský slad",
-              "Žatecký poloraný červeňák"
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
             ],
-            "explanation": "V podsložce InFUZE IPA 12 je obsaženo: Styl: Session IPA. Kompletní receptura položky: Styl: Session IPA, 12 stupňové pivo, 4,9 % obj alk, svrchně kvašené pivo, lehké osvěžující, nepasterizované, nefiltrované s citrusovým aroma, chmeleno za studena."
+            "explanation": "U položky InFUZE IPA 12 je uvedeno: Styl: Session IPA. Kompletní popis: styl: Session IPA, 12 stupňové pivo, 4,9 % obj alk svrchně kvašené pivo, lehké osvěžující, nepasterizované, nefiltrované s citrusovým aroma, chmeleno za studena."
           },
           {
             "id": "infuze-ipa-12-ing-2",
-            "question": "Která z následujících surovin patří do podsložky InFUZE IPA 12?",
+            "question": "Která surovina, původ či charakteristika patří k položce InFUZE IPA 12?",
             "correctAnswer": "12 stupňové pivo",
             "distractors": [
-              "Chmel Citra",
-              "Chmel Mandarina Bavaria"
+              "Jasmínový zelený čaj",
+              "Belgické višňové pivo"
             ],
-            "explanation": "V podsložce InFUZE IPA 12 je obsaženo: 12 stupňové pivo. Kompletní receptura položky: Styl: Session IPA, 12 stupňové pivo, 4,9 % obj alk, svrchně kvašené pivo, lehké osvěžující, nepasterizované, nefiltrované s citrusovým aroma, chmeleno za studena."
-          },
-          {
-            "id": "infuze-ipa-12-ing-3",
-            "question": "Která z následujících surovin patří do podsložky InFUZE IPA 12?",
-            "correctAnswer": "4,9 % obj alk",
-            "distractors": [
-              "Kvasnice spodního kvašení",
-              "Kvasnice svrchního kvašení"
-            ],
-            "explanation": "V podsložce InFUZE IPA 12 je obsaženo: 4,9 % obj alk. Kompletní receptura položky: Styl: Session IPA, 12 stupňové pivo, 4,9 % obj alk, svrchně kvašené pivo, lehké osvěžující, nepasterizované, nefiltrované s citrusovým aroma, chmeleno za studena."
-          },
-          {
-            "id": "infuze-ipa-12-ing-4",
-            "question": "Která z následujících surovin patří do podsložky InFUZE IPA 12?",
-            "correctAnswer": "Svrchně kvašené pivo",
-            "distractors": [
-              "Pšeničný slad",
-              "Pražený karamelový slad"
-            ],
-            "explanation": "V podsložce InFUZE IPA 12 je obsaženo: Svrchně kvašené pivo. Kompletní receptura položky: Styl: Session IPA, 12 stupňové pivo, 4,9 % obj alk, svrchně kvašené pivo, lehké osvěžující, nepasterizované, nefiltrované s citrusovým aroma, chmeleno za studena."
-          },
-          {
-            "id": "infuze-ipa-12-ing-5",
-            "question": "Která z následujících surovin patří do podsložky InFUZE IPA 12?",
-            "correctAnswer": "Lehké osvěžující",
-            "distractors": [
-              "Chmel Sládek",
-              "Plzeňský ječný slad"
-            ],
-            "explanation": "V podsložce InFUZE IPA 12 je obsaženo: Lehké osvěžující. Kompletní receptura položky: Styl: Session IPA, 12 stupňové pivo, 4,9 % obj alk, svrchně kvašené pivo, lehké osvěžující, nepasterizované, nefiltrované s citrusovým aroma, chmeleno za studena."
-          },
-          {
-            "id": "infuze-ipa-12-ing-6",
-            "question": "Která z následujících surovin patří do podsložky InFUZE IPA 12?",
-            "correctAnswer": "Nepasterizované",
-            "distractors": [
-              "Mnichovský slad",
-              "Žatecký poloraný červeňák"
-            ],
-            "explanation": "V podsložce InFUZE IPA 12 je obsaženo: Nepasterizované. Kompletní receptura položky: Styl: Session IPA, 12 stupňové pivo, 4,9 % obj alk, svrchně kvašené pivo, lehké osvěžující, nepasterizované, nefiltrované s citrusovým aroma, chmeleno za studena."
-          },
-          {
-            "id": "infuze-ipa-12-ing-7",
-            "question": "Která z následujících surovin patří do podsložky InFUZE IPA 12?",
-            "correctAnswer": "Nefiltrované s citrusovým aroma",
-            "distractors": [
-              "Chmel Citra",
-              "Chmel Mandarina Bavaria"
-            ],
-            "explanation": "V podsložce InFUZE IPA 12 je obsaženo: Nefiltrované s citrusovým aroma. Kompletní receptura položky: Styl: Session IPA, 12 stupňové pivo, 4,9 % obj alk, svrchně kvašené pivo, lehké osvěžující, nepasterizované, nefiltrované s citrusovým aroma, chmeleno za studena."
-          },
-          {
-            "id": "infuze-ipa-12-ing-8",
-            "question": "Která pivovarská surovina nebo vlastnost charakterizuje InFUZE IPA 12?",
-            "correctAnswer": "Chmeleno za studena",
-            "distractors": [
-              "Kvasnice spodního kvašení",
-              "Kvasnice svrchního kvašení"
-            ],
-            "explanation": "V podsložce InFUZE IPA 12 je obsaženo: Chmeleno za studena. Kompletní receptura položky: Styl: Session IPA, 12 stupňové pivo, 4,9 % obj alk, svrchně kvašené pivo, lehké osvěžující, nepasterizované, nefiltrované s citrusovým aroma, chmeleno za studena."
+            "explanation": "U položky InFUZE IPA 12 je uvedeno: 12 stupňové pivo. Kompletní popis: styl: Session IPA, 12 stupňové pivo, 4,9 % obj alk svrchně kvašené pivo, lehké osvěžující, nepasterizované, nefiltrované s citrusovým aroma, chmeleno za studena."
           },
           {
             "id": "infuze-ipa-12-allergen-1",
-            "question": "Který z následujících alergenů obsahuje podsložka InFUZE IPA 12?",
+            "question": "Který z následujících alergenů obsahuje položka InFUZE IPA 12?",
             "correctAnswer": "Alergen č. 1 – Obiloviny obsahující lepek",
             "distractors": [
               "Alergen č. 3 – Vejce a výrobky z nich",
               "Alergen č. 8 – Skořápkové plody (ořechy)"
             ],
-            "explanation": "InFUZE IPA 12 obsahuje Alergen č. 1 – Obiloviny obsahující lepek (kváskové pečivo, mouka, strouhanka, slad v pivu). Všechny evidované alergeny této podsložky: Obiloviny obsahující lepek."
+            "explanation": "InFUZE IPA 12 obsahuje Alergen č. 1 – Obiloviny obsahující lepek (slad v pivu, kváskové pečivo, mouka, strouhanka). Všechny evidované alergeny: Obiloviny obsahující lepek."
           }
         ]
       },
       {
         "id": "fuzenac-13",
         "name": "FUZEnáč 13 polotmavý",
-        "price": "69 / 78 Kč",
         "weight": "0,3l / 0,5l",
+        "price": "69/78 Kč",
         "allergens": [
           "1"
         ],
-        "description": "Naše spodně kvašené pivo jantarové barvy a výrazně kouřového aroma, plná sladová uzená chuť, nepasterizovaný, nefiltrovaný",
+        "description": "naše spodně kvašené pivo jantarové barvy a výrazně kouřového aroma, plná sladová uzená chuť, nepasterizovaný, nefiltrovaný",
         "questions": [
           {
             "id": "fuzenac-13-vol",
-            "question": "Jaký je servírovací objem / míra podsložky FUZEnáč 13 polotmavý?",
+            "question": "Jaký je servírovací objem / míra položky FUZEnáč 13 polotmavý?",
             "correctAnswer": "0,3l / 0,5l",
             "distractors": [
-              "0,02 l",
-              "0,03 l"
+              "0,25 l / 0,4 l",
+              "0,4 l / 0,5 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky FUZEnáč 13 polotmavý je 0,3l / 0,5l."
+            "explanation": "Servírovací míra / objem položky FUZEnáč 13 polotmavý je 0,3l / 0,5l."
           },
           {
             "id": "fuzenac-13-ing-1",
-            "question": "Která z následujících surovin patří do podsložky FUZEnáč 13 polotmavý?",
+            "question": "Která surovina, původ či charakteristika patří k položce FUZEnáč 13 polotmavý?",
             "correctAnswer": "Naše spodně kvašené pivo jantarové barvy a výrazně kouřového aroma",
             "distractors": [
-              "Mnichovský slad",
-              "Žatecký poloraný červeňák"
+              "Čerstvý grepový fresh",
+              "Bezinkový sirup a čerstvá máta"
             ],
-            "explanation": "V podsložce FUZEnáč 13 polotmavý je obsaženo: Naše spodně kvašené pivo jantarové barvy a výrazně kouřového aroma. Kompletní receptura položky: Naše spodně kvašené pivo jantarové barvy a výrazně kouřového aroma, plná sladová uzená chuť, nepasterizovaný, nefiltrovaný."
+            "explanation": "U položky FUZEnáč 13 polotmavý je uvedeno: Naše spodně kvašené pivo jantarové barvy a výrazně kouřového aroma. Kompletní popis: naše spodně kvašené pivo jantarové barvy a výrazně kouřového aroma, plná sladová uzená chuť, nepasterizovaný, nefiltrovaný."
           },
           {
             "id": "fuzenac-13-ing-2",
-            "question": "Která pivovarská surovina nebo vlastnost charakterizuje FUZEnáč 13 polotmavý?",
+            "question": "Která surovina, původ či charakteristika patří k položce FUZEnáč 13 polotmavý?",
             "correctAnswer": "Plná sladová uzená chuť",
             "distractors": [
-              "Chmel Citra",
-              "Chmel Mandarina Bavaria"
+              "Tonik Thomas Henry s chininem",
+              "Čerstvě pražená výběrová káva"
             ],
-            "explanation": "V podsložce FUZEnáč 13 polotmavý je obsaženo: Plná sladová uzená chuť. Kompletní receptura položky: Naše spodně kvašené pivo jantarové barvy a výrazně kouřového aroma, plná sladová uzená chuť, nepasterizovaný, nefiltrovaný."
-          },
-          {
-            "id": "fuzenac-13-ing-3",
-            "question": "Která z následujících surovin patří do podsložky FUZEnáč 13 polotmavý?",
-            "correctAnswer": "Nepasterizovaný",
-            "distractors": [
-              "Kvasnice spodního kvašení",
-              "Kvasnice svrchního kvašení"
-            ],
-            "explanation": "V podsložce FUZEnáč 13 polotmavý je obsaženo: Nepasterizovaný. Kompletní receptura položky: Naše spodně kvašené pivo jantarové barvy a výrazně kouřového aroma, plná sladová uzená chuť, nepasterizovaný, nefiltrovaný."
-          },
-          {
-            "id": "fuzenac-13-ing-4",
-            "question": "Která z následujících surovin patří do podsložky FUZEnáč 13 polotmavý?",
-            "correctAnswer": "Nefiltrovaný",
-            "distractors": [
-              "Pšeničný slad",
-              "Pražený karamelový slad"
-            ],
-            "explanation": "V podsložce FUZEnáč 13 polotmavý je obsaženo: Nefiltrovaný. Kompletní receptura položky: Naše spodně kvašené pivo jantarové barvy a výrazně kouřového aroma, plná sladová uzená chuť, nepasterizovaný, nefiltrovaný."
-          },
-          {
-            "id": "fuzenac-13-ing-5",
-            "question": "Která z následujících surovin patří do podsložky FUZEnáč 13 polotmavý?",
-            "correctAnswer": "Nefiltrovaný",
-            "distractors": [
-              "Chmel Sládek",
-              "Plzeňský ječný slad"
-            ],
-            "explanation": "V podsložce FUZEnáč 13 polotmavý je obsaženo: Nefiltrovaný. Kompletní receptura položky: Naše spodně kvašené pivo jantarové barvy a výrazně kouřového aroma, plná sladová uzená chuť, nepasterizovaný, nefiltrovaný."
+            "explanation": "U položky FUZEnáč 13 polotmavý je uvedeno: Plná sladová uzená chuť. Kompletní popis: naše spodně kvašené pivo jantarové barvy a výrazně kouřového aroma, plná sladová uzená chuť, nepasterizovaný, nefiltrovaný."
           },
           {
             "id": "fuzenac-13-allergen-1",
-            "question": "Který z následujících alergenů obsahuje podsložka FUZEnáč 13 polotmavý?",
+            "question": "Který z následujících alergenů obsahuje položka FUZEnáč 13 polotmavý?",
             "correctAnswer": "Alergen č. 1 – Obiloviny obsahující lepek",
             "distractors": [
               "Alergen č. 3 – Vejce a výrobky z nich",
               "Alergen č. 8 – Skořápkové plody (ořechy)"
             ],
-            "explanation": "FUZEnáč 13 polotmavý obsahuje Alergen č. 1 – Obiloviny obsahující lepek (kváskové pečivo, mouka, strouhanka, slad v pivu). Všechny evidované alergeny této podsložky: Obiloviny obsahující lepek."
+            "explanation": "FUZEnáč 13 polotmavý obsahuje Alergen č. 1 – Obiloviny obsahující lepek (slad v pivu, kváskové pečivo, mouka, strouhanka). Všechny evidované alergeny: Obiloviny obsahující lepek."
           }
         ]
       },
       {
         "id": "kasteel-rouge-18",
         "name": "Kasteel Rouge 18",
-        "price": "118 Kč",
         "weight": "0,25l",
+        "price": "118 Kč",
         "allergens": [
           "1"
         ],
-        "description": "Svrchně kvašené, 8% tmavé pivo 6 měsíců zrající na višních, z belgického pivovaru Van Honsebrouck, s nádhernou chutí a plnou vůní zralých višní",
+        "description": "svrchně kvašené, 8% tmavé pivo 6 měsíců zrající na višních, z belgického pivovaru Van Honsebrouck, s nádhernou chutí a plnou vůní zralých višní",
         "questions": [
           {
             "id": "kasteel-rouge-18-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Kasteel Rouge 18?",
+            "question": "Jaký je servírovací objem / míra položky Kasteel Rouge 18?",
             "correctAnswer": "0,25l",
             "distractors": [
-              "0,33 l",
-              "0,2 l"
+              "0,3 l",
+              "0,33 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Kasteel Rouge 18 je 0,25l."
+            "explanation": "Servírovací míra / objem položky Kasteel Rouge 18 je 0,25l."
           },
           {
             "id": "kasteel-rouge-18-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Kasteel Rouge 18?",
+            "question": "Která surovina, původ či charakteristika patří k položce Kasteel Rouge 18?",
             "correctAnswer": "Svrchně kvašené",
             "distractors": [
-              "Mnichovský slad",
-              "Žatecký poloraný červeňák"
+              "Mučenkový likér a vanilka",
+              "Kávový likér Kahlúa"
             ],
-            "explanation": "V podsložce Kasteel Rouge 18 je obsaženo: Svrchně kvašené. Kompletní receptura položky: Svrchně kvašené, 8% tmavé pivo 6 měsíců zrající na višních, z belgického pivovaru Van Honsebrouck, s nádhernou chutí a plnou vůní zralých višní."
+            "explanation": "U položky Kasteel Rouge 18 je uvedeno: Svrchně kvašené. Kompletní popis: svrchně kvašené, 8% tmavé pivo 6 měsíců zrající na višních, z belgického pivovaru Van Honsebrouck, s nádhernou chutí a plnou vůní zralých višní."
           },
           {
             "id": "kasteel-rouge-18-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Kasteel Rouge 18?",
+            "question": "Která surovina, původ či charakteristika patří k položce Kasteel Rouge 18?",
             "correctAnswer": "8% tmavé pivo 6 měsíců zrající na višních",
             "distractors": [
-              "Chmel Citra",
-              "Chmel Mandarina Bavaria"
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
             ],
-            "explanation": "V podsložce Kasteel Rouge 18 je obsaženo: 8% tmavé pivo 6 měsíců zrající na višních. Kompletní receptura položky: Svrchně kvašené, 8% tmavé pivo 6 měsíců zrající na višních, z belgického pivovaru Van Honsebrouck, s nádhernou chutí a plnou vůní zralých višní."
-          },
-          {
-            "id": "kasteel-rouge-18-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Kasteel Rouge 18?",
-            "correctAnswer": "Z belgického pivovaru Van Honsebrouck",
-            "distractors": [
-              "Kvasnice spodního kvašení",
-              "Kvasnice svrchního kvašení"
-            ],
-            "explanation": "V podsložce Kasteel Rouge 18 je obsaženo: Z belgického pivovaru Van Honsebrouck. Kompletní receptura položky: Svrchně kvašené, 8% tmavé pivo 6 měsíců zrající na višních, z belgického pivovaru Van Honsebrouck, s nádhernou chutí a plnou vůní zralých višní."
-          },
-          {
-            "id": "kasteel-rouge-18-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Kasteel Rouge 18?",
-            "correctAnswer": "S nádhernou chutí a plnou vůní zralých višní",
-            "distractors": [
-              "Pšeničný slad",
-              "Pražený karamelový slad"
-            ],
-            "explanation": "V podsložce Kasteel Rouge 18 je obsaženo: S nádhernou chutí a plnou vůní zralých višní. Kompletní receptura položky: Svrchně kvašené, 8% tmavé pivo 6 měsíců zrající na višních, z belgického pivovaru Van Honsebrouck, s nádhernou chutí a plnou vůní zralých višní."
+            "explanation": "U položky Kasteel Rouge 18 je uvedeno: 8% tmavé pivo 6 měsíců zrající na višních. Kompletní popis: svrchně kvašené, 8% tmavé pivo 6 měsíců zrající na višních, z belgického pivovaru Van Honsebrouck, s nádhernou chutí a plnou vůní zralých višní."
           },
           {
             "id": "kasteel-rouge-18-allergen-1",
-            "question": "Který z následujících alergenů obsahuje podsložka Kasteel Rouge 18?",
+            "question": "Který z následujících alergenů obsahuje položka Kasteel Rouge 18?",
             "correctAnswer": "Alergen č. 1 – Obiloviny obsahující lepek",
             "distractors": [
               "Alergen č. 3 – Vejce a výrobky z nich",
               "Alergen č. 8 – Skořápkové plody (ořechy)"
             ],
-            "explanation": "Kasteel Rouge 18 obsahuje Alergen č. 1 – Obiloviny obsahující lepek (kváskové pečivo, mouka, strouhanka, slad v pivu). Všechny evidované alergeny této podsložky: Obiloviny obsahující lepek."
+            "explanation": "Kasteel Rouge 18 obsahuje Alergen č. 1 – Obiloviny obsahující lepek (slad v pivu, kváskové pečivo, mouka, strouhanka). Všechny evidované alergeny: Obiloviny obsahující lepek."
           }
         ]
       },
       {
         "id": "zichovec-passion-fruit",
         "name": "Zichovec Passion Fruit 12",
-        "price": "94 Kč",
         "weight": "0,4l",
+        "price": "94 Kč",
         "allergens": [
           "1"
         ],
-        "description": "Sour Ale, tedy celoroční kyseláč opravdu výrazné kyselosti a intenzivní marakujové vůně a chuti z rodinného pivovaru Zichovec",
+        "description": "Sour Ale, celoroční kyseláč opravdu výrazné kyselosti a intenzivní marakujové vůně a chuti",
         "questions": [
           {
             "id": "zichovec-passion-fruit-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Zichovec Passion Fruit 12?",
+            "question": "Jaký je servírovací objem / míra položky Zichovec Passion Fruit 12?",
             "correctAnswer": "0,4l",
             "distractors": [
-              "0,5 l",
-              "0,3 l"
+              "0,3 l",
+              "0,5 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Zichovec Passion Fruit 12 je 0,4l."
+            "explanation": "Servírovací míra / objem položky Zichovec Passion Fruit 12 je 0,4l."
           },
           {
             "id": "zichovec-passion-fruit-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Zichovec Passion Fruit 12?",
+            "question": "Která surovina, původ či charakteristika patří k položce Zichovec Passion Fruit 12?",
             "correctAnswer": "Sour Ale",
             "distractors": [
-              "Mnichovský slad",
-              "Žatecký poloraný červeňák"
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
             ],
-            "explanation": "V podsložce Zichovec Passion Fruit 12 je obsaženo: Sour Ale. Kompletní receptura položky: Sour Ale, tedy celoroční kyseláč opravdu výrazné kyselosti a intenzivní marakujové vůně a chuti z rodinného pivovaru Zichovec."
+            "explanation": "U položky Zichovec Passion Fruit 12 je uvedeno: Sour Ale. Kompletní popis: Sour Ale, celoroční kyseláč opravdu výrazné kyselosti a intenzivní marakujové vůně a chuti."
           },
           {
             "id": "zichovec-passion-fruit-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Zichovec Passion Fruit 12?",
-            "correctAnswer": "Tedy celoroční kyseláč opravdu výrazné kyselosti a intenzivní marakujové vůně a chuti z rodinného pivovaru Zichovec",
+            "question": "Která surovina, původ či charakteristika patří k položce Zichovec Passion Fruit 12?",
+            "correctAnswer": "Celoroční kyseláč opravdu výrazné kyselosti a intenzivní marakujové vůně a chuti",
             "distractors": [
-              "Chmel Citra",
-              "Chmel Mandarina Bavaria"
+              "Jasmínový zelený čaj",
+              "Belgické višňové pivo"
             ],
-            "explanation": "V podsložce Zichovec Passion Fruit 12 je obsaženo: Tedy celoroční kyseláč opravdu výrazné kyselosti a intenzivní marakujové vůně a chuti z rodinného pivovaru Zichovec. Kompletní receptura položky: Sour Ale, tedy celoroční kyseláč opravdu výrazné kyselosti a intenzivní marakujové vůně a chuti z rodinného pivovaru Zichovec."
+            "explanation": "U položky Zichovec Passion Fruit 12 je uvedeno: Celoroční kyseláč opravdu výrazné kyselosti a intenzivní marakujové vůně a chuti. Kompletní popis: Sour Ale, celoroční kyseláč opravdu výrazné kyselosti a intenzivní marakujové vůně a chuti."
           },
           {
             "id": "zichovec-passion-fruit-allergen-1",
-            "question": "Který z následujících alergenů obsahuje podsložka Zichovec Passion Fruit 12?",
+            "question": "Který z následujících alergenů obsahuje položka Zichovec Passion Fruit 12?",
             "correctAnswer": "Alergen č. 1 – Obiloviny obsahující lepek",
             "distractors": [
               "Alergen č. 3 – Vejce a výrobky z nich",
               "Alergen č. 8 – Skořápkové plody (ořechy)"
             ],
-            "explanation": "Zichovec Passion Fruit 12 obsahuje Alergen č. 1 – Obiloviny obsahující lepek (kváskové pečivo, mouka, strouhanka, slad v pivu). Všechny evidované alergeny této podsložky: Obiloviny obsahující lepek."
+            "explanation": "Zichovec Passion Fruit 12 obsahuje Alergen č. 1 – Obiloviny obsahující lepek (slad v pivu, kváskové pečivo, mouka, strouhanka). Všechny evidované alergeny: Obiloviny obsahující lepek."
           }
         ]
       },
       {
         "id": "degustace-piv",
         "name": "Degustace piv",
-        "price": "285 Kč",
         "weight": "6x 0,15l",
+        "price": "285 Kč",
         "allergens": [
           "1"
         ],
-        "description": "6 vzorků výše uvedených čepovaných piv na stylovém dřevěném prkýnku",
+        "description": "6 vzorků piv z naší nabídky na stylovém dřevěném prkýnku",
         "questions": [
           {
             "id": "degustace-piv-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Degustace piv?",
+            "question": "Jaké je složení a porce degustačního setu Degustace piv?",
             "correctAnswer": "6x 0,15l",
             "distractors": [
-              "0,02 l",
-              "0,03 l"
+              "0,1 l",
+              "0,2 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Degustace piv je 6x 0,15l."
+            "explanation": "Servírovací míra / objem položky Degustace piv je 6x 0,15l."
           },
           {
             "id": "degustace-piv-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Degustace piv?",
-            "correctAnswer": "6 vzorků výše uvedených čepovaných piv na stylovém dřevěném prkýnku",
+            "question": "Která surovina, původ či charakteristika patří k položce Degustace piv?",
+            "correctAnswer": "6 vzorků piv z naší nabídky na stylovém dřevěném prkýnku",
             "distractors": [
-              "Mnichovský slad",
-              "Žatecký poloraný červeňák"
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
             ],
-            "explanation": "V podsložce Degustace piv je obsaženo: 6 vzorků výše uvedených čepovaných piv na stylovém dřevěném prkýnku. Kompletní receptura položky: 6 vzorků výše uvedených čepovaných piv na stylovém dřevěném prkýnku."
+            "explanation": "U položky Degustace piv je uvedeno: 6 vzorků piv z naší nabídky na stylovém dřevěném prkýnku. Kompletní popis: 6 vzorků piv z naší nabídky na stylovém dřevěném prkýnku."
           },
           {
             "id": "degustace-piv-allergen-1",
-            "question": "Který z následujících alergenů obsahuje podsložka Degustace piv?",
+            "question": "Který z následujících alergenů obsahuje položka Degustace piv?",
             "correctAnswer": "Alergen č. 1 – Obiloviny obsahující lepek",
             "distractors": [
               "Alergen č. 3 – Vejce a výrobky z nich",
               "Alergen č. 8 – Skořápkové plody (ořechy)"
             ],
-            "explanation": "Degustace piv obsahuje Alergen č. 1 – Obiloviny obsahující lepek (kváskové pečivo, mouka, strouhanka, slad v pivu). Všechny evidované alergeny této podsložky: Obiloviny obsahující lepek."
+            "explanation": "Degustace piv obsahuje Alergen č. 1 – Obiloviny obsahující lepek (slad v pivu, kváskové pečivo, mouka, strouhanka). Všechny evidované alergeny: Obiloviny obsahující lepek."
           }
         ]
       },
       {
-        "id": "fuzero-nealko",
-        "name": "FUZEro (nealko)",
-        "price": "69 Kč",
+        "id": "fuzero",
+        "name": "FUZEro",
         "weight": "0,4l",
+        "price": "69 Kč",
         "allergens": [
           "1"
         ],
-        "description": "Náš IPL, nealko ležák chmelený americkým a za studena novozélandským chmelem, s jemnou sladovou chutí, vyšší hořkostí v závěru a krásnou, svěží chmelovou vůní, nepasterizovaný, nefiltrovaný",
+        "description": "náš IPL, nealko ležák chmelený americkým a za studena novozélandským chmelem, s jemnou sladovou chutí, vyšší hořkostí v závěru a krásnou svěží chmelovou vůní, nepasterizovaný, nefiltrovaný",
         "questions": [
           {
-            "id": "fuzero-nealko-vol",
-            "question": "Jaký je servírovací objem / míra podsložky FUZEro (nealko)?",
+            "id": "fuzero-vol",
+            "question": "Jaký je servírovací objem / míra položky FUZEro?",
             "correctAnswer": "0,4l",
             "distractors": [
-              "0,5 l",
-              "0,3 l"
+              "0,3 l",
+              "0,5 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky FUZEro (nealko) je 0,4l."
+            "explanation": "Servírovací míra / objem položky FUZEro je 0,4l."
           },
           {
-            "id": "fuzero-nealko-ing-1",
-            "question": "Která z následujících surovin patří do podsložky FUZEro (nealko)?",
+            "id": "fuzero-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce FUZEro?",
             "correctAnswer": "Náš IPL",
             "distractors": [
-              "Mnichovský slad",
-              "Žatecký poloraný červeňák"
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
             ],
-            "explanation": "V podsložce FUZEro (nealko) je obsaženo: Náš IPL. Kompletní receptura položky: Náš IPL, nealko ležák chmelený americkým a za studena novozélandským chmelem, s jemnou sladovou chutí, vyšší hořkostí v závěru a krásnou, svěží chmelovou vůní, nepasterizovaný, nefiltrovaný."
+            "explanation": "U položky FUZEro je uvedeno: Náš IPL. Kompletní popis: náš IPL, nealko ležák chmelený americkým a za studena novozélandským chmelem, s jemnou sladovou chutí, vyšší hořkostí v závěru a krásnou svěží chmelovou vůní, nepasterizovaný, nefiltrovaný."
           },
           {
-            "id": "fuzero-nealko-ing-2",
-            "question": "Která pivovarská surovina nebo vlastnost charakterizuje FUZEro (nealko)?",
+            "id": "fuzero-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce FUZEro?",
             "correctAnswer": "Nealko ležák chmelený americkým a za studena novozélandským chmelem",
             "distractors": [
-              "Chmel Citra",
-              "Chmel Mandarina Bavaria"
+              "Mučenkový likér a vanilka",
+              "Kávový likér Kahlúa"
             ],
-            "explanation": "V podsložce FUZEro (nealko) je obsaženo: Nealko ležák chmelený americkým a za studena novozélandským chmelem. Kompletní receptura položky: Náš IPL, nealko ležák chmelený americkým a za studena novozélandským chmelem, s jemnou sladovou chutí, vyšší hořkostí v závěru a krásnou, svěží chmelovou vůní, nepasterizovaný, nefiltrovaný."
+            "explanation": "U položky FUZEro je uvedeno: Nealko ležák chmelený americkým a za studena novozélandským chmelem. Kompletní popis: náš IPL, nealko ležák chmelený americkým a za studena novozélandským chmelem, s jemnou sladovou chutí, vyšší hořkostí v závěru a krásnou svěží chmelovou vůní, nepasterizovaný, nefiltrovaný."
           },
           {
-            "id": "fuzero-nealko-ing-3",
-            "question": "Která pivovarská surovina nebo vlastnost charakterizuje FUZEro (nealko)?",
-            "correctAnswer": "S jemnou sladovou chutí",
-            "distractors": [
-              "Kvasnice spodního kvašení",
-              "Kvasnice svrchního kvašení"
-            ],
-            "explanation": "V podsložce FUZEro (nealko) je obsaženo: S jemnou sladovou chutí. Kompletní receptura položky: Náš IPL, nealko ležák chmelený americkým a za studena novozélandským chmelem, s jemnou sladovou chutí, vyšší hořkostí v závěru a krásnou, svěží chmelovou vůní, nepasterizovaný, nefiltrovaný."
-          },
-          {
-            "id": "fuzero-nealko-ing-4",
-            "question": "Která z následujících surovin patří do podsložky FUZEro (nealko)?",
-            "correctAnswer": "Vyšší hořkostí v závěru a krásnou",
-            "distractors": [
-              "Pšeničný slad",
-              "Pražený karamelový slad"
-            ],
-            "explanation": "V podsložce FUZEro (nealko) je obsaženo: Vyšší hořkostí v závěru a krásnou. Kompletní receptura položky: Náš IPL, nealko ležák chmelený americkým a za studena novozélandským chmelem, s jemnou sladovou chutí, vyšší hořkostí v závěru a krásnou, svěží chmelovou vůní, nepasterizovaný, nefiltrovaný."
-          },
-          {
-            "id": "fuzero-nealko-ing-5",
-            "question": "Která pivovarská surovina nebo vlastnost charakterizuje FUZEro (nealko)?",
-            "correctAnswer": "Svěží chmelovou vůní",
-            "distractors": [
-              "Chmel Sládek",
-              "Plzeňský ječný slad"
-            ],
-            "explanation": "V podsložce FUZEro (nealko) je obsaženo: Svěží chmelovou vůní. Kompletní receptura položky: Náš IPL, nealko ležák chmelený americkým a za studena novozélandským chmelem, s jemnou sladovou chutí, vyšší hořkostí v závěru a krásnou, svěží chmelovou vůní, nepasterizovaný, nefiltrovaný."
-          },
-          {
-            "id": "fuzero-nealko-ing-6",
-            "question": "Která z následujících surovin patří do podsložky FUZEro (nealko)?",
-            "correctAnswer": "Nepasterizovaný",
-            "distractors": [
-              "Mnichovský slad",
-              "Žatecký poloraný červeňák"
-            ],
-            "explanation": "V podsložce FUZEro (nealko) je obsaženo: Nepasterizovaný. Kompletní receptura položky: Náš IPL, nealko ležák chmelený americkým a za studena novozélandským chmelem, s jemnou sladovou chutí, vyšší hořkostí v závěru a krásnou, svěží chmelovou vůní, nepasterizovaný, nefiltrovaný."
-          },
-          {
-            "id": "fuzero-nealko-ing-7",
-            "question": "Která z následujících surovin patří do podsložky FUZEro (nealko)?",
-            "correctAnswer": "Nefiltrovaný",
-            "distractors": [
-              "Chmel Citra",
-              "Chmel Mandarina Bavaria"
-            ],
-            "explanation": "V podsložce FUZEro (nealko) je obsaženo: Nefiltrovaný. Kompletní receptura položky: Náš IPL, nealko ležák chmelený americkým a za studena novozélandským chmelem, s jemnou sladovou chutí, vyšší hořkostí v závěru a krásnou, svěží chmelovou vůní, nepasterizovaný, nefiltrovaný."
-          },
-          {
-            "id": "fuzero-nealko-ing-8",
-            "question": "Která z následujících surovin patří do podsložky FUZEro (nealko)?",
-            "correctAnswer": "Nefiltrovaný",
-            "distractors": [
-              "Kvasnice spodního kvašení",
-              "Kvasnice svrchního kvašení"
-            ],
-            "explanation": "V podsložce FUZEro (nealko) je obsaženo: Nefiltrovaný. Kompletní receptura položky: Náš IPL, nealko ležák chmelený americkým a za studena novozélandským chmelem, s jemnou sladovou chutí, vyšší hořkostí v závěru a krásnou, svěží chmelovou vůní, nepasterizovaný, nefiltrovaný."
-          },
-          {
-            "id": "fuzero-nealko-allergen-1",
-            "question": "Který z následujících alergenů obsahuje podsložka FUZEro (nealko)?",
+            "id": "fuzero-allergen-1",
+            "question": "Který z následujících alergenů obsahuje položka FUZEro?",
             "correctAnswer": "Alergen č. 1 – Obiloviny obsahující lepek",
             "distractors": [
               "Alergen č. 3 – Vejce a výrobky z nich",
               "Alergen č. 8 – Skořápkové plody (ořechy)"
             ],
-            "explanation": "FUZEro (nealko) obsahuje Alergen č. 1 – Obiloviny obsahující lepek (kváskové pečivo, mouka, strouhanka, slad v pivu). Všechny evidované alergeny této podsložky: Obiloviny obsahující lepek."
+            "explanation": "FUZEro obsahuje Alergen č. 1 – Obiloviny obsahující lepek (slad v pivu, kváskové pečivo, mouka, strouhanka). Všechny evidované alergeny: Obiloviny obsahující lepek."
           }
         ]
       },
       {
         "id": "maisels-weisse",
-        "name": "Maisel´s Weisse Alkoholfrei",
+        "name": "Maisel´s Weisse Alkoholfrei /lahvové/",
+        "weight": "0,33l",
         "price": "79 Kč",
-        "weight": "0,33l (lahvové)",
         "allergens": [
           "1"
         ],
-        "description": "Bavorský Weizenbier, tedy pšenice v nealkoholické podobě, s přirozeným zákalem a ovocně kořeněným profilem",
+        "description": "bavorský Weizenbier, pšenice v nealkoholické podobě",
         "questions": [
           {
             "id": "maisels-weisse-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Maisel´s Weisse Alkoholfrei?",
-            "correctAnswer": "0,33l (lahvové)",
+            "question": "Jaký je servírovací objem / míra položky Maisel´s Weisse Alkoholfrei /lahvové/?",
+            "correctAnswer": "0,33l",
             "distractors": [
-              "0,02 l",
-              "0,03 l"
+              "0,25 l",
+              "0,5 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Maisel´s Weisse Alkoholfrei je 0,33l (lahvové)."
+            "explanation": "Servírovací míra / objem položky Maisel´s Weisse Alkoholfrei /lahvové/ je 0,33l."
           },
           {
             "id": "maisels-weisse-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Maisel´s Weisse Alkoholfrei?",
+            "question": "Která surovina, původ či charakteristika patří k položce Maisel´s Weisse Alkoholfrei /lahvové/?",
             "correctAnswer": "Bavorský Weizenbier",
             "distractors": [
-              "Mnichovský slad",
-              "Žatecký poloraný červeňák"
+              "Jasmínový zelený čaj",
+              "Belgické višňové pivo"
             ],
-            "explanation": "V podsložce Maisel´s Weisse Alkoholfrei je obsaženo: Bavorský Weizenbier. Kompletní receptura položky: Bavorský Weizenbier, tedy pšenice v nealkoholické podobě, s přirozeným zákalem a ovocně kořeněným profilem."
+            "explanation": "U položky Maisel´s Weisse Alkoholfrei /lahvové/ je uvedeno: Bavorský Weizenbier. Kompletní popis: bavorský Weizenbier, pšenice v nealkoholické podobě."
           },
           {
             "id": "maisels-weisse-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Maisel´s Weisse Alkoholfrei?",
-            "correctAnswer": "Tedy pšenice v nealkoholické podobě",
+            "question": "Která surovina, původ či charakteristika patří k položce Maisel´s Weisse Alkoholfrei /lahvové/?",
+            "correctAnswer": "Pšenice v nealkoholické podobě",
             "distractors": [
-              "Chmel Citra",
-              "Chmel Mandarina Bavaria"
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
             ],
-            "explanation": "V podsložce Maisel´s Weisse Alkoholfrei je obsaženo: Tedy pšenice v nealkoholické podobě. Kompletní receptura položky: Bavorský Weizenbier, tedy pšenice v nealkoholické podobě, s přirozeným zákalem a ovocně kořeněným profilem."
-          },
-          {
-            "id": "maisels-weisse-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Maisel´s Weisse Alkoholfrei?",
-            "correctAnswer": "S přirozeným zákalem a ovocně kořeněným profilem",
-            "distractors": [
-              "Kvasnice spodního kvašení",
-              "Kvasnice svrchního kvašení"
-            ],
-            "explanation": "V podsložce Maisel´s Weisse Alkoholfrei je obsaženo: S přirozeným zákalem a ovocně kořeněným profilem. Kompletní receptura položky: Bavorský Weizenbier, tedy pšenice v nealkoholické podobě, s přirozeným zákalem a ovocně kořeněným profilem."
+            "explanation": "U položky Maisel´s Weisse Alkoholfrei /lahvové/ je uvedeno: Pšenice v nealkoholické podobě. Kompletní popis: bavorský Weizenbier, pšenice v nealkoholické podobě."
           },
           {
             "id": "maisels-weisse-allergen-1",
-            "question": "Který z následujících alergenů obsahuje podsložka Maisel´s Weisse Alkoholfrei?",
+            "question": "Který z následujících alergenů obsahuje položka Maisel´s Weisse Alkoholfrei /lahvové/?",
             "correctAnswer": "Alergen č. 1 – Obiloviny obsahující lepek",
             "distractors": [
               "Alergen č. 3 – Vejce a výrobky z nich",
               "Alergen č. 8 – Skořápkové plody (ořechy)"
             ],
-            "explanation": "Maisel´s Weisse Alkoholfrei obsahuje Alergen č. 1 – Obiloviny obsahující lepek (kváskové pečivo, mouka, strouhanka, slad v pivu). Všechny evidované alergeny této podsložky: Obiloviny obsahující lepek."
-          }
-        ]
-      },
-      {
-        "id": "opre-cider",
-        "name": "Opre` Cider",
-        "price": "89 Kč",
-        "weight": "0,33l",
-        "description": "Řemeslný jablečný cider ze slovenské rodinné farmy, přirozeně kvašený ze 100% jablečné šťávy",
-        "questions": [
-          {
-            "id": "opre-cider-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Opre` Cider?",
-            "correctAnswer": "0,33l",
-            "distractors": [
-              "0,5 l",
-              "0,25 l"
-            ],
-            "explanation": "Servírovací míra / objem podsložky Opre` Cider je 0,33l."
-          },
-          {
-            "id": "opre-cider-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Opre` Cider?",
-            "correctAnswer": "Řemeslný jablečný cider ze slovenské rodinné farmy",
-            "distractors": [
-              "Mnichovský slad",
-              "Žatecký poloraný červeňák"
-            ],
-            "explanation": "V podsložce Opre` Cider je obsaženo: Řemeslný jablečný cider ze slovenské rodinné farmy. Kompletní receptura položky: Řemeslný jablečný cider ze slovenské rodinné farmy, přirozeně kvašený ze 100% jablečné šťávy."
-          },
-          {
-            "id": "opre-cider-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Opre` Cider?",
-            "correctAnswer": "Přirozeně kvašený ze 100% jablečné šťávy",
-            "distractors": [
-              "Chmel Citra",
-              "Chmel Mandarina Bavaria"
-            ],
-            "explanation": "V podsložce Opre` Cider je obsaženo: Přirozeně kvašený ze 100% jablečné šťávy. Kompletní receptura položky: Řemeslný jablečný cider ze slovenské rodinné farmy, přirozeně kvašený ze 100% jablečné šťávy."
-          }
-        ]
-      },
-      {
-        "id": "opre-sour-cherry",
-        "name": "Opre` Sour Cherry",
-        "price": "96 Kč",
-        "weight": "0,33l",
-        "description": "Cider, který v sobě spojuje chuť poctivého jablečného cidru a osvěžující višňové šťávy",
-        "questions": [
-          {
-            "id": "opre-sour-cherry-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Opre` Sour Cherry?",
-            "correctAnswer": "0,33l",
-            "distractors": [
-              "0,5 l",
-              "0,25 l"
-            ],
-            "explanation": "Servírovací míra / objem podsložky Opre` Sour Cherry je 0,33l."
-          },
-          {
-            "id": "opre-sour-cherry-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Opre` Sour Cherry?",
-            "correctAnswer": "Cider",
-            "distractors": [
-              "Mnichovský slad",
-              "Žatecký poloraný červeňák"
-            ],
-            "explanation": "V podsložce Opre` Sour Cherry je obsaženo: Cider. Kompletní receptura položky: Cider, který v sobě spojuje chuť poctivého jablečného cidru a osvěžující višňové šťávy."
-          },
-          {
-            "id": "opre-sour-cherry-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Opre` Sour Cherry?",
-            "correctAnswer": "Který v sobě spojuje chuť poctivého jablečného cidru a osvěžující višňové šťávy",
-            "distractors": [
-              "Chmel Citra",
-              "Chmel Mandarina Bavaria"
-            ],
-            "explanation": "V podsložce Opre` Sour Cherry je obsaženo: Který v sobě spojuje chuť poctivého jablečného cidru a osvěžující višňové šťávy. Kompletní receptura položky: Cider, který v sobě spojuje chuť poctivého jablečného cidru a osvěžující višňové šťávy."
+            "explanation": "Maisel´s Weisse Alkoholfrei /lahvové/ obsahuje Alergen č. 1 – Obiloviny obsahující lepek (slad v pivu, kváskové pečivo, mouka, strouhanka). Všechny evidované alergeny: Obiloviny obsahující lepek."
           }
         ]
       }
     ]
   },
   {
-    "id": "kombucha",
-    "name": "cidery a kombucha",
-    "badge": "Cidery & Kombucha",
-    "description": "Přírodní fermentované nápoje, slovenské cidery Opre` a řemeslné kombuchy",
+    "id": "cidery",
+    "name": "Cidery",
+    "badge": "Cidery",
+    "description": "Přírodně fermentované řemeslné jablečné cidery ze slovenské rodinné farmy",
     "iconName": "Sparkles",
     "items": [
       {
-        "id": "loklok-original",
-        "name": "Loklok Kombucha Original",
-        "price": "95 Kč",
+        "id": "opre-cider",
+        "name": "Opre` Cider",
         "weight": "0,33l",
-        "description": "Řemeslná kombucha s unikátní 6měsíční dlouhodobou fermentací, ceylonský čaj, citronová tráva a kapka citronové šťávy. Bez alkoholu a bohatá na probiotika Bacillus coagulans",
+        "price": "89 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "řemeslný jablečný cider ze slovenské rodinné farmy",
         "questions": [
           {
-            "id": "loklok-original-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Loklok Kombucha Original?",
+            "id": "opre-cider-vol",
+            "question": "Jaký je servírovací objem / míra položky Opre` Cider?",
             "correctAnswer": "0,33l",
             "distractors": [
-              "0,5 l",
-              "0,25 l"
+              "0,25 l",
+              "0,5 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Loklok Kombucha Original je 0,33l."
+            "explanation": "Servírovací míra / objem položky Opre` Cider je 0,33l."
           },
           {
-            "id": "loklok-original-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Loklok Kombucha Original?",
-            "correctAnswer": "Řemeslná kombucha s unikátní 6měsíční dlouhodobou fermentací",
+            "id": "opre-cider-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Opre` Cider?",
+            "correctAnswer": "Řemeslný jablečný cider ze slovenské rodinné farmy",
             "distractors": [
-              "Vepřová panenka",
-              "Telecí kýta"
+              "Čerstvý grepový fresh",
+              "Bezinkový sirup a čerstvá máta"
             ],
-            "explanation": "V podsložce Loklok Kombucha Original je obsaženo: Řemeslná kombucha s unikátní 6měsíční dlouhodobou fermentací. Kompletní receptura položky: Řemeslná kombucha s unikátní 6měsíční dlouhodobou fermentací, ceylonský čaj, citronová tráva a kapka citronové šťávy. Bez alkoholu a bohatá na probiotika Bacillus coagulans."
+            "explanation": "U položky Opre` Cider je uvedeno: Řemeslný jablečný cider ze slovenské rodinné farmy. Kompletní popis: řemeslný jablečný cider ze slovenské rodinné farmy."
           },
           {
-            "id": "loklok-original-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Loklok Kombucha Original?",
-            "correctAnswer": "Ceylonský čaj",
+            "id": "opre-cider-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Opre` Cider?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
-              "Kachní prsa",
-              "Vykoštěný pstruh"
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
             ],
-            "explanation": "V podsložce Loklok Kombucha Original je obsaženo: Ceylonský čaj. Kompletní receptura položky: Řemeslná kombucha s unikátní 6měsíční dlouhodobou fermentací, ceylonský čaj, citronová tráva a kapka citronové šťávy. Bez alkoholu a bohatá na probiotika Bacillus coagulans."
-          },
-          {
-            "id": "loklok-original-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Loklok Kombucha Original?",
-            "correctAnswer": "Citronová tráva a kapka citronové šťávy. Bez alkoholu a bohatá na probiotika Bacillus coagulans",
-            "distractors": [
-              "Hovězí svíčková",
-              "Vepřový bok Duroc"
-            ],
-            "explanation": "V podsložce Loklok Kombucha Original je obsaženo: Citronová tráva a kapka citronové šťávy. Bez alkoholu a bohatá na probiotika Bacillus coagulans. Kompletní receptura položky: Řemeslná kombucha s unikátní 6měsíční dlouhodobou fermentací, ceylonský čaj, citronová tráva a kapka citronové šťávy. Bez alkoholu a bohatá na probiotika Bacillus coagulans."
+            "explanation": "Opre` Cider obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
           }
         ]
       },
       {
-        "id": "loklok-zazvor",
-        "name": "Loklok Kombucha Zázvor",
-        "price": "95 Kč",
+        "id": "opre-sour-cherry",
+        "name": "Opre` Sour Cherry",
         "weight": "0,33l",
-        "description": "Přírodní fermentovaná kombucha s pikantním výluhem z čerstvého kořene zázvoru, plná svěžesti",
+        "price": "96 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "cider, který v sobě spojuje chuť jablečného cidru a osvěžující višňové šťávy",
         "questions": [
           {
-            "id": "loklok-zazvor-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Loklok Kombucha Zázvor?",
+            "id": "opre-sour-cherry-vol",
+            "question": "Jaký je servírovací objem / míra položky Opre` Sour Cherry?",
             "correctAnswer": "0,33l",
             "distractors": [
-              "0,5 l",
-              "0,25 l"
+              "0,25 l",
+              "0,5 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Loklok Kombucha Zázvor je 0,33l."
+            "explanation": "Servírovací míra / objem položky Opre` Sour Cherry je 0,33l."
           },
           {
-            "id": "loklok-zazvor-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Loklok Kombucha Zázvor?",
-            "correctAnswer": "Přírodní fermentovaná kombucha s pikantním výluhem z čerstvého kořene zázvoru",
+            "id": "opre-sour-cherry-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Opre` Sour Cherry?",
+            "correctAnswer": "Cider",
             "distractors": [
-              "Vepřová panenka",
-              "Telecí kýta"
+              "Mučenkový likér a vanilka",
+              "Kávový likér Kahlúa"
             ],
-            "explanation": "V podsložce Loklok Kombucha Zázvor je obsaženo: Přírodní fermentovaná kombucha s pikantním výluhem z čerstvého kořene zázvoru. Kompletní receptura položky: Přírodní fermentovaná kombucha s pikantním výluhem z čerstvého kořene zázvoru, plná svěžesti."
+            "explanation": "U položky Opre` Sour Cherry je uvedeno: Cider. Kompletní popis: cider, který v sobě spojuje chuť jablečného cidru a osvěžující višňové šťávy."
           },
           {
-            "id": "loklok-zazvor-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Loklok Kombucha Zázvor?",
-            "correctAnswer": "Plná svěžesti",
+            "id": "opre-sour-cherry-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Opre` Sour Cherry?",
+            "correctAnswer": "Který v sobě spojuje chuť jablečného cidru a osvěžující višňové šťávy",
             "distractors": [
-              "Kachní prsa",
-              "Vykoštěný pstruh"
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
             ],
-            "explanation": "V podsložce Loklok Kombucha Zázvor je obsaženo: Plná svěžesti. Kompletní receptura položky: Přírodní fermentovaná kombucha s pikantním výluhem z čerstvého kořene zázvoru, plná svěžesti."
-          }
-        ]
-      },
-      {
-        "id": "loklok-malina",
-        "name": "Loklok Kombucha Malina",
-        "price": "95 Kč",
-        "weight": "0,33l",
-        "description": "Jemně perlivá kombucha macerovaná se zralými malinami, osvěžující ovocná chuť s probiotickými kulturami",
-        "questions": [
-          {
-            "id": "loklok-malina-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Loklok Kombucha Malina?",
-            "correctAnswer": "0,33l",
-            "distractors": [
-              "0,5 l",
-              "0,25 l"
-            ],
-            "explanation": "Servírovací míra / objem podsložky Loklok Kombucha Malina je 0,33l."
+            "explanation": "U položky Opre` Sour Cherry je uvedeno: Který v sobě spojuje chuť jablečného cidru a osvěžující višňové šťávy. Kompletní popis: cider, který v sobě spojuje chuť jablečného cidru a osvěžující višňové šťávy."
           },
           {
-            "id": "loklok-malina-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Loklok Kombucha Malina?",
-            "correctAnswer": "Jemně perlivá kombucha macerovaná se zralými malinami",
+            "id": "opre-sour-cherry-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Opre` Sour Cherry?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
-              "Vepřová panenka",
-              "Telecí kýta"
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
             ],
-            "explanation": "V podsložce Loklok Kombucha Malina je obsaženo: Jemně perlivá kombucha macerovaná se zralými malinami. Kompletní receptura položky: Jemně perlivá kombucha macerovaná se zralými malinami, osvěžující ovocná chuť s probiotickými kulturami."
-          },
-          {
-            "id": "loklok-malina-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Loklok Kombucha Malina?",
-            "correctAnswer": "Osvěžující ovocná chuť s probiotickými kulturami",
-            "distractors": [
-              "Kachní prsa",
-              "Vykoštěný pstruh"
-            ],
-            "explanation": "V podsložce Loklok Kombucha Malina je obsaženo: Osvěžující ovocná chuť s probiotickými kulturami. Kompletní receptura položky: Jemně perlivá kombucha macerovaná se zralými malinami, osvěžující ovocná chuť s probiotickými kulturami."
-          }
-        ]
-      },
-      {
-        "id": "jzt-kombucha",
-        "name": "JZT Kombucha Sencha & Assam",
-        "price": "98 Kč",
-        "weight": "0,33l",
-        "description": "Živá, nepasterizovaná a nefiltrovaná řemeslná kombucha z prémiových čajů Sencha a Assam od pražských výrobců JZT",
-        "questions": [
-          {
-            "id": "jzt-kombucha-vol",
-            "question": "Jaký je servírovací objem / míra podsložky JZT Kombucha Sencha & Assam?",
-            "correctAnswer": "0,33l",
-            "distractors": [
-              "0,5 l",
-              "0,25 l"
-            ],
-            "explanation": "Servírovací míra / objem podsložky JZT Kombucha Sencha & Assam je 0,33l."
-          },
-          {
-            "id": "jzt-kombucha-ing-1",
-            "question": "Která z následujících surovin patří do podsložky JZT Kombucha Sencha & Assam?",
-            "correctAnswer": "Živá",
-            "distractors": [
-              "Vepřová panenka",
-              "Telecí kýta"
-            ],
-            "explanation": "V podsložce JZT Kombucha Sencha & Assam je obsaženo: Živá. Kompletní receptura položky: Živá, nepasterizovaná a nefiltrovaná řemeslná kombucha z prémiových čajů Sencha a Assam od pražských výrobců JZT."
-          },
-          {
-            "id": "jzt-kombucha-ing-2",
-            "question": "Která z následujících surovin patří do podsložky JZT Kombucha Sencha & Assam?",
-            "correctAnswer": "Nepasterizovaná a nefiltrovaná řemeslná kombucha z prémiových čajů Sencha a Assam od pražských výrobců JZT",
-            "distractors": [
-              "Kachní prsa",
-              "Vykoštěný pstruh"
-            ],
-            "explanation": "V podsložce JZT Kombucha Sencha & Assam je obsaženo: Nepasterizovaná a nefiltrovaná řemeslná kombucha z prémiových čajů Sencha a Assam od pražských výrobců JZT. Kompletní receptura položky: Živá, nepasterizovaná a nefiltrovaná řemeslná kombucha z prémiových čajů Sencha a Assam od pražských výrobců JZT."
+            "explanation": "Opre` Sour Cherry obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
           }
         ]
       }
@@ -4711,183 +4300,168 @@ export const MENU_CATEGORIES: MenuCategory[] = [
   },
   {
     "id": "vody-a-mineralni-vody",
-    "name": "vody a minerální vody",
-    "badge": "Vody & Minerálky",
-    "description": "Čistá pramenitá a filtrovaná voda, infuzované osvěžení",
+    "name": "Vody a minerální vody",
+    "badge": "Vody a minerální vody",
+    "description": "Čerstvě filtrovaná voda a prémiové přírodní minerální vody",
     "iconName": "GlassWater",
     "items": [
       {
         "id": "filtrovana-karafa",
         "name": "Filtrovaná voda v karafě",
-        "price": "89 Kč",
         "weight": "0,75l",
-        "description": "0,75l neperlivá / perlivá mikrofiltrovaná voda FUZE podávaná v designové karafě",
+        "price": "89 Kč",
+        "allergens": [],
+        "description": "neperlivá / perlivá filtrovaná voda v karafě",
         "questions": [
           {
             "id": "filtrovana-karafa-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Filtrovaná voda v karafě?",
-            "correctAnswer": "0,75 l",
+            "question": "Jaký je servírovací objem / míra položky Filtrovaná voda v karafě?",
+            "correctAnswer": "0,75l",
             "distractors": [
               "0,5 l",
               "1,0 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Filtrovaná voda v karafě je 0,75 l."
+            "explanation": "Servírovací míra / objem položky Filtrovaná voda v karafě je 0,75l."
           },
           {
             "id": "filtrovana-karafa-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Filtrovaná voda v karafě?",
-            "correctAnswer": "Neperlivá / perlivá mikrofiltrovaná voda FUZE podávaná v designové karafě",
+            "question": "Která surovina, původ či charakteristika patří k položce Filtrovaná voda v karafě?",
+            "correctAnswer": "Neperlivá / perlivá filtrovaná voda v karafě",
             "distractors": [
-              "Čerstvý grapefruitový fresh",
-              "Malinové pyré"
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
             ],
-            "explanation": "V podsložce Filtrovaná voda v karafě je obsaženo: Neperlivá / perlivá mikrofiltrovaná voda FUZE podávaná v designové karafě. Kompletní receptura položky: 0,75l neperlivá / perlivá mikrofiltrovaná voda FUZE podávaná v designové karafě."
+            "explanation": "U položky Filtrovaná voda v karafě je uvedeno: Neperlivá / perlivá filtrovaná voda v karafě. Kompletní popis: neperlivá / perlivá filtrovaná voda v karafě."
           }
         ]
       },
       {
-        "id": "filtrovana-sklenice",
+        "id": "sklenice-filtrovane-vody",
         "name": "Sklenice filtrované vody",
-        "price": "35 Kč",
         "weight": "0,3l",
-        "description": "0,3l neperlivá / perlivá čerstvá filtrovaná voda",
+        "price": "35 Kč",
+        "allergens": [],
+        "description": "neperlivá / perlivá sklenice filtrované vody",
         "questions": [
           {
-            "id": "filtrovana-sklenice-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Sklenice filtrované vody?",
-            "correctAnswer": "0,3 l",
+            "id": "sklenice-filtrovane-vody-vol",
+            "question": "Jaký je servírovací objem / míra položky Sklenice filtrované vody?",
+            "correctAnswer": "0,3l",
             "distractors": [
-              "0,5 l",
-              "0,4 l"
+              "0,3 l",
+              "0,5 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Sklenice filtrované vody je 0,3 l."
+            "explanation": "Servírovací míra / objem položky Sklenice filtrované vody je 0,3l."
           },
           {
-            "id": "filtrovana-sklenice-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Sklenice filtrované vody?",
-            "correctAnswer": "Neperlivá / perlivá čerstvá filtrovaná voda",
+            "id": "sklenice-filtrovane-vody-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Sklenice filtrované vody?",
+            "correctAnswer": "Neperlivá / perlivá sklenice filtrované vody",
             "distractors": [
-              "Čerstvý grapefruitový fresh",
-              "Malinové pyré"
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
             ],
-            "explanation": "V podsložce Sklenice filtrované vody je obsaženo: Neperlivá / perlivá čerstvá filtrovaná voda. Kompletní receptura položky: 0,3l neperlivá / perlivá čerstvá filtrovaná voda."
+            "explanation": "U položky Sklenice filtrované vody je uvedeno: Neperlivá / perlivá sklenice filtrované vody. Kompletní popis: neperlivá / perlivá sklenice filtrované vody."
           }
         ]
       },
       {
         "id": "infuzovana-voda",
-        "name": "Infuzovaná voda v karafě",
-        "price": "99 Kč",
+        "name": "Infuzovaná voda",
         "weight": "0,75l",
-        "description": "0,75l v karafě, varianta citrus nebo čerstvá máta",
+        "price": "99 Kč",
+        "allergens": [],
+        "description": "v karafě citrus / máta",
         "questions": [
           {
             "id": "infuzovana-voda-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Infuzovaná voda v karafě?",
-            "correctAnswer": "0,75 l",
+            "question": "Jaký je servírovací objem / míra položky Infuzovaná voda?",
+            "correctAnswer": "0,75l",
             "distractors": [
               "0,5 l",
               "1,0 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Infuzovaná voda v karafě je 0,75 l."
+            "explanation": "Servírovací míra / objem položky Infuzovaná voda je 0,75l."
           },
           {
             "id": "infuzovana-voda-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Infuzovaná voda v karafě?",
-            "correctAnswer": "V karafě",
+            "question": "Která surovina, původ či charakteristika patří k položce Infuzovaná voda?",
+            "correctAnswer": "V karafě citrus / máta",
             "distractors": [
-              "Čerstvý grapefruitový fresh",
-              "Malinové pyré"
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
             ],
-            "explanation": "V podsložce Infuzovaná voda v karafě je obsaženo: V karafě. Kompletní receptura položky: 0,75l v karafě, varianta citrus nebo čerstvá máta."
-          },
-          {
-            "id": "infuzovana-voda-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Infuzovaná voda v karafě?",
-            "correctAnswer": "Varianta citrus nebo čerstvá máta",
-            "distractors": [
-              "Bílá čokoláda",
-              "Švestkové pyré"
-            ],
-            "explanation": "V podsložce Infuzovaná voda v karafě je obsaženo: Varianta citrus nebo čerstvá máta. Kompletní receptura položky: 0,75l v karafě, varianta citrus nebo čerstvá máta."
+            "explanation": "U položky Infuzovaná voda je uvedeno: V karafě citrus / máta. Kompletní popis: v karafě citrus / máta."
           }
         ]
       },
       {
         "id": "mattoni-grand",
         "name": "Mattoni Grand neperlivá",
-        "price": "45 Kč",
         "weight": "0,33l",
-        "description": "0,33l přírodní minerální voda dekarbonovaná ve skle",
+        "price": "45 Kč",
+        "allergens": [],
+        "description": "přírodní minerální voda dekarbonová",
         "questions": [
           {
             "id": "mattoni-grand-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Mattoni Grand neperlivá?",
-            "correctAnswer": "0,33 l",
+            "question": "Jaký je servírovací objem / míra položky Mattoni Grand neperlivá?",
+            "correctAnswer": "0,33l",
             "distractors": [
-              "0,5 l",
-              "0,25 l"
+              "0,25 l",
+              "0,5 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Mattoni Grand neperlivá je 0,33 l."
+            "explanation": "Servírovací míra / objem položky Mattoni Grand neperlivá je 0,33l."
           },
           {
             "id": "mattoni-grand-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Mattoni Grand neperlivá?",
-            "correctAnswer": "Přírodní minerální voda dekarbonovaná ve skle",
+            "question": "Která surovina, původ či charakteristika patří k položce Mattoni Grand neperlivá?",
+            "correctAnswer": "Přírodní minerální voda dekarbonová",
             "distractors": [
-              "Čerstvý grapefruitový fresh",
-              "Malinové pyré"
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
             ],
-            "explanation": "V podsložce Mattoni Grand neperlivá je obsaženo: Přírodní minerální voda dekarbonovaná ve skle. Kompletní receptura položky: 0,33l přírodní minerální voda dekarbonovaná ve skle."
+            "explanation": "U položky Mattoni Grand neperlivá je uvedeno: Přírodní minerální voda dekarbonová. Kompletní popis: přírodní minerální voda dekarbonová."
           }
         ]
       },
       {
         "id": "vratislavicka-kyselka",
         "name": "Vratislavická kyselka",
-        "price": "119 Kč",
         "weight": "0,75l",
-        "description": "0,75l přírodní minerální voda středně mineralizovaná s obsahem křemíku, přirozeně sycená",
+        "price": "119 Kč",
+        "allergens": [],
+        "description": "přírodní minerální voda středně mineralizovaná s obsahem křemíku, přirozeně sycená",
         "questions": [
           {
             "id": "vratislavicka-kyselka-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Vratislavická kyselka?",
-            "correctAnswer": "0,75 l",
+            "question": "Jaký je servírovací objem / míra položky Vratislavická kyselka?",
+            "correctAnswer": "0,75l",
             "distractors": [
               "0,5 l",
               "1,0 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Vratislavická kyselka je 0,75 l."
+            "explanation": "Servírovací míra / objem položky Vratislavická kyselka je 0,75l."
           },
           {
             "id": "vratislavicka-kyselka-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Vratislavická kyselka?",
+            "question": "Která surovina, původ či charakteristika patří k položce Vratislavická kyselka?",
             "correctAnswer": "Přírodní minerální voda středně mineralizovaná s obsahem křemíku",
             "distractors": [
-              "Čerstvý grapefruitový fresh",
-              "Malinové pyré"
+              "Vanilkový sirup a limetová šťáva",
+              "Třtinový cukr s limetkou"
             ],
-            "explanation": "V podsložce Vratislavická kyselka je obsaženo: Přírodní minerální voda středně mineralizovaná s obsahem křemíku. Kompletní receptura položky: 0,75l přírodní minerální voda středně mineralizovaná s obsahem křemíku, přirozeně sycená."
+            "explanation": "U položky Vratislavická kyselka je uvedeno: Přírodní minerální voda středně mineralizovaná s obsahem křemíku. Kompletní popis: přírodní minerální voda středně mineralizovaná s obsahem křemíku, přirozeně sycená."
           },
           {
             "id": "vratislavicka-kyselka-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Vratislavická kyselka?",
+            "question": "Která surovina, původ či charakteristika patří k položce Vratislavická kyselka?",
             "correctAnswer": "Přirozeně sycená",
             "distractors": [
-              "Bílá čokoláda",
-              "Švestkové pyré"
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
             ],
-            "explanation": "V podsložce Vratislavická kyselka je obsaženo: Přirozeně sycená. Kompletní receptura položky: 0,75l přírodní minerální voda středně mineralizovaná s obsahem křemíku, přirozeně sycená."
-          },
-          {
-            "id": "vratislavicka-kyselka-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Vratislavická kyselka?",
-            "correctAnswer": "Přirozeně sycená",
-            "distractors": [
-              "Drcený kardamom",
-              "Zázvorový výluh"
-            ],
-            "explanation": "V podsložce Vratislavická kyselka je obsaženo: Přirozeně sycená. Kompletní receptura položky: 0,75l přírodní minerální voda středně mineralizovaná s obsahem křemíku, přirozeně sycená."
+            "explanation": "U položky Vratislavická kyselka je uvedeno: Přirozeně sycená. Kompletní popis: přírodní minerální voda středně mineralizovaná s obsahem křemíku, přirozeně sycená."
           }
         ]
       }
@@ -4895,232 +4469,188 @@ export const MENU_CATEGORIES: MenuCategory[] = [
   },
   {
     "id": "nase-domaci-limonady",
-    "name": "naše domácí limonády",
-    "badge": "Domácí limonády",
-    "description": "Čerstvě míchané limonády z ovocných pyré, bylin a koření",
+    "name": "Naše domácí limonády",
+    "badge": "Naše domácí limonády",
+    "description": "Domácí ovocné a bylinkové limonády připravované z poctivých surovin",
     "iconName": "CupSoda",
     "items": [
       {
         "id": "grep-a-mango",
         "name": "Grep a mango",
-        "price": "84 Kč",
         "weight": "0,4l",
-        "description": "0,4l domácí limonáda z čerstvého grepu a šťavnatého mangového pyré se sodou na ledu",
+        "price": "84 Kč",
+        "allergens": [],
+        "description": "domácí limonáda grep a mango",
         "questions": [
           {
             "id": "grep-a-mango-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Grep a mango?",
-            "correctAnswer": "0,4 l",
+            "question": "Jaký je servírovací objem / míra položky Grep a mango?",
+            "correctAnswer": "0,4l",
             "distractors": [
-              "0,5 l",
-              "0,3 l"
+              "0,3 l",
+              "0,5 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Grep a mango je 0,4 l."
+            "explanation": "Servírovací míra / objem položky Grep a mango je 0,4l."
           },
           {
             "id": "grep-a-mango-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Grep a mango?",
-            "correctAnswer": "Domácí limonáda z čerstvého grepu a šťavnatého mangového pyré se sodou na ledu",
+            "question": "Která surovina, původ či charakteristika patří k položce Grep a mango?",
+            "correctAnswer": "Domácí limonáda grep a mango",
             "distractors": [
-              "Čerstvý grapefruitový fresh",
-              "Malinové pyré"
+              "Vanilkový sirup a limetová šťáva",
+              "Třtinový cukr s limetkou"
             ],
-            "explanation": "V podsložce Grep a mango je obsaženo: Domácí limonáda z čerstvého grepu a šťavnatého mangového pyré se sodou na ledu. Kompletní receptura položky: 0,4l domácí limonáda z čerstvého grepu a šťavnatého mangového pyré se sodou na ledu."
+            "explanation": "U položky Grep a mango je uvedeno: Domácí limonáda grep a mango. Kompletní popis: domácí limonáda grep a mango."
           }
         ]
       },
       {
         "id": "malina-a-bila-cokolada",
         "name": "Malina a bílá čokoláda",
-        "price": "84 Kč",
         "weight": "0,4l",
-        "description": "0,4l jemná domácí limonáda z malinového pyré a tónů bílé čokolády, limeta, soda",
+        "price": "84 Kč",
+        "allergens": [],
+        "description": "domácí limonáda malina a bílá čokoláda",
         "questions": [
           {
             "id": "malina-a-bila-cokolada-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Malina a bílá čokoláda?",
-            "correctAnswer": "0,4 l",
+            "question": "Jaký je servírovací objem / míra položky Malina a bílá čokoláda?",
+            "correctAnswer": "0,4l",
             "distractors": [
-              "0,5 l",
-              "0,3 l"
+              "0,3 l",
+              "0,5 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Malina a bílá čokoláda je 0,4 l."
+            "explanation": "Servírovací míra / objem položky Malina a bílá čokoláda je 0,4l."
           },
           {
             "id": "malina-a-bila-cokolada-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Malina a bílá čokoláda?",
-            "correctAnswer": "Jemná domácí limonáda z malinového pyré a tónů bílé čokolády",
+            "question": "Která surovina, původ či charakteristika patří k položce Malina a bílá čokoláda?",
+            "correctAnswer": "Domácí limonáda malina a bílá čokoláda",
             "distractors": [
-              "Čerstvý grapefruitový fresh",
-              "Malinové pyré"
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
             ],
-            "explanation": "V podsložce Malina a bílá čokoláda je obsaženo: Jemná domácí limonáda z malinového pyré a tónů bílé čokolády. Kompletní receptura položky: 0,4l jemná domácí limonáda z malinového pyré a tónů bílé čokolády, limeta, soda."
-          },
-          {
-            "id": "malina-a-bila-cokolada-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Malina a bílá čokoláda?",
-            "correctAnswer": "Limeta",
-            "distractors": [
-              "Bílá čokoláda",
-              "Švestkové pyré"
-            ],
-            "explanation": "V podsložce Malina a bílá čokoláda je obsaženo: Limeta. Kompletní receptura položky: 0,4l jemná domácí limonáda z malinového pyré a tónů bílé čokolády, limeta, soda."
-          },
-          {
-            "id": "malina-a-bila-cokolada-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Malina a bílá čokoláda?",
-            "correctAnswer": "Soda",
-            "distractors": [
-              "Drcený kardamom",
-              "Zázvorový výluh"
-            ],
-            "explanation": "V podsložce Malina a bílá čokoláda je obsaženo: Soda. Kompletní receptura položky: 0,4l jemná domácí limonáda z malinového pyré a tónů bílé čokolády, limeta, soda."
+            "explanation": "U položky Malina a bílá čokoláda je uvedeno: Domácí limonáda malina a bílá čokoláda. Kompletní popis: domácí limonáda malina a bílá čokoláda."
           }
         ]
       },
       {
         "id": "svestka-a-kardamom",
         "name": "Švestka a kardamom",
-        "price": "84 Kč",
         "weight": "0,4l",
-        "description": "0,4l originální limonáda ze švestkového pyré provoněná drceným orientálním kardamomem",
+        "price": "84 Kč",
+        "allergens": [],
+        "description": "domácí limonáda švestka a kardamom",
         "questions": [
           {
             "id": "svestka-a-kardamom-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Švestka a kardamom?",
-            "correctAnswer": "0,4 l",
+            "question": "Jaký je servírovací objem / míra položky Švestka a kardamom?",
+            "correctAnswer": "0,4l",
             "distractors": [
-              "0,5 l",
-              "0,3 l"
+              "0,3 l",
+              "0,5 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Švestka a kardamom je 0,4 l."
+            "explanation": "Servírovací míra / objem položky Švestka a kardamom je 0,4l."
           },
           {
             "id": "svestka-a-kardamom-ing-1",
-            "question": "Která bylinka, koření či aromatická surovina dochucuje Švestka a kardamom?",
-            "correctAnswer": "Originální limonáda ze švestkového pyré provoněná drceným orientálním kardamomem",
+            "question": "Která surovina, původ či charakteristika patří k položce Švestka a kardamom?",
+            "correctAnswer": "Domácí limonáda švestka a kardamom",
             "distractors": [
-              "Čerstvý grapefruitový fresh",
-              "Malinové pyré"
+              "Světlý ležák plzeňského typu",
+              "Jablečný mošt z rodinné farmy"
             ],
-            "explanation": "V podsložce Švestka a kardamom je obsaženo: Originální limonáda ze švestkového pyré provoněná drceným orientálním kardamomem. Kompletní receptura položky: 0,4l originální limonáda ze švestkového pyré provoněná drceným orientálním kardamomem."
+            "explanation": "U položky Švestka a kardamom je uvedeno: Domácí limonáda švestka a kardamom. Kompletní popis: domácí limonáda švestka a kardamom."
           }
         ]
       },
       {
         "id": "domaci-citronada",
         "name": "Domácí citronáda",
-        "price": "84 Kč",
         "weight": "0,4l",
-        "description": "0,4l poctivá citronáda z čerstvé citronové šťávy, třtinového cukru, máty a sody",
+        "price": "84 Kč",
+        "allergens": [],
+        "description": "osvěžující domácí citronáda",
         "questions": [
           {
             "id": "domaci-citronada-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Domácí citronáda?",
-            "correctAnswer": "0,4 l",
+            "question": "Jaký je servírovací objem / míra položky Domácí citronáda?",
+            "correctAnswer": "0,4l",
             "distractors": [
-              "0,5 l",
-              "0,3 l"
+              "0,3 l",
+              "0,5 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Domácí citronáda je 0,4 l."
+            "explanation": "Servírovací míra / objem položky Domácí citronáda je 0,4l."
           },
           {
             "id": "domaci-citronada-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Domácí citronáda?",
-            "correctAnswer": "Poctivá citronáda z čerstvé citronové šťávy",
+            "question": "Která surovina, původ či charakteristika patří k položce Domácí citronáda?",
+            "correctAnswer": "Osvěžující domácí citronáda",
             "distractors": [
-              "Čerstvý grapefruitový fresh",
-              "Malinové pyré"
+              "Mučenkový likér a vanilka",
+              "Kávový likér Kahlúa"
             ],
-            "explanation": "V podsložce Domácí citronáda je obsaženo: Poctivá citronáda z čerstvé citronové šťávy. Kompletní receptura položky: 0,4l poctivá citronáda z čerstvé citronové šťávy, třtinového cukru, máty a sody."
-          },
-          {
-            "id": "domaci-citronada-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Domácí citronáda?",
-            "correctAnswer": "Třtinového cukru",
-            "distractors": [
-              "Bílá čokoláda",
-              "Švestkové pyré"
-            ],
-            "explanation": "V podsložce Domácí citronáda je obsaženo: Třtinového cukru. Kompletní receptura položky: 0,4l poctivá citronáda z čerstvé citronové šťávy, třtinového cukru, máty a sody."
-          },
-          {
-            "id": "domaci-citronada-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Domácí citronáda?",
-            "correctAnswer": "Máty a sody",
-            "distractors": [
-              "Drcený kardamom",
-              "Zázvorový výluh"
-            ],
-            "explanation": "V podsložce Domácí citronáda je obsaženo: Máty a sody. Kompletní receptura položky: 0,4l poctivá citronáda z čerstvé citronové šťávy, třtinového cukru, máty a sody."
+            "explanation": "U položky Domácí citronáda je uvedeno: Osvěžující domácí citronáda. Kompletní popis: osvěžující domácí citronáda."
           }
         ]
       },
       {
         "id": "nase-ledovy-caj",
         "name": "Náš domácí ledový čaj",
-        "price": "86 Kč",
         "weight": "0,4l",
-        "description": "0,4l jasmín a broskev, čerstvě vařený jasmínový čaj s broskvovým pyré na ledu",
+        "price": "86 Kč",
+        "allergens": [],
+        "description": "jasmín a broskev",
         "questions": [
           {
             "id": "nase-ledovy-caj-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Náš domácí ledový čaj?",
-            "correctAnswer": "0,4 l",
+            "question": "Jaký je servírovací objem / míra položky Náš domácí ledový čaj?",
+            "correctAnswer": "0,4l",
             "distractors": [
-              "0,5 l",
-              "0,3 l"
+              "0,3 l",
+              "0,5 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Náš domácí ledový čaj je 0,4 l."
+            "explanation": "Servírovací míra / objem položky Náš domácí ledový čaj je 0,4l."
           },
           {
             "id": "nase-ledovy-caj-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Náš domácí ledový čaj?",
+            "question": "Která surovina, původ či charakteristika patří k položce Náš domácí ledový čaj?",
             "correctAnswer": "Jasmín a broskev",
             "distractors": [
-              "Čerstvý grapefruitový fresh",
-              "Malinové pyré"
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
             ],
-            "explanation": "V podsložce Náš domácí ledový čaj je obsaženo: Jasmín a broskev. Kompletní receptura položky: 0,4l jasmín a broskev, čerstvě vařený jasmínový čaj s broskvovým pyré na ledu."
-          },
-          {
-            "id": "nase-ledovy-caj-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Náš domácí ledový čaj?",
-            "correctAnswer": "Čerstvě vařený jasmínový čaj s broskvovým pyré na ledu",
-            "distractors": [
-              "Bílá čokoláda",
-              "Švestkové pyré"
-            ],
-            "explanation": "V podsložce Náš domácí ledový čaj je obsaženo: Čerstvě vařený jasmínový čaj s broskvovým pyré na ledu. Kompletní receptura položky: 0,4l jasmín a broskev, čerstvě vařený jasmínový čaj s broskvovým pyré na ledu."
+            "explanation": "U položky Náš domácí ledový čaj je uvedeno: Jasmín a broskev. Kompletní popis: jasmín a broskev."
           }
         ]
       },
       {
         "id": "fresh-juice",
         "name": "Fresh juice",
-        "price": "125 Kč",
         "weight": "0,2l",
-        "description": "0,2l čerstvě lisovaná šťáva z pomerančů nebo grapefruitů dle výběru hosta",
+        "price": "125 Kč",
+        "allergens": [],
+        "description": "čerstvě lisovaná šťáva pomeranč / grep",
         "questions": [
           {
             "id": "fresh-juice-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Fresh juice?",
-            "correctAnswer": "0,2 l",
+            "question": "Jaký je servírovací objem / míra položky Fresh juice?",
+            "correctAnswer": "0,2l",
             "distractors": [
-              "0,3 l",
-              "0,1 l"
+              "0,25 l",
+              "0,33 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Fresh juice je 0,2 l."
+            "explanation": "Servírovací míra / objem položky Fresh juice je 0,2l."
           },
           {
             "id": "fresh-juice-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Fresh juice?",
-            "correctAnswer": "Čerstvě lisovaná šťáva z pomerančů nebo grapefruitů dle výběru hosta",
+            "question": "Která surovina, původ či charakteristika patří k položce Fresh juice?",
+            "correctAnswer": "Čerstvě lisovaná šťáva pomeranč / grep",
             "distractors": [
-              "Čerstvý grapefruitový fresh",
-              "Malinové pyré"
+              "Tonik Thomas Henry s chininem",
+              "Čerstvě pražená výběrová káva"
             ],
-            "explanation": "V podsložce Fresh juice je obsaženo: Čerstvě lisovaná šťáva z pomerančů nebo grapefruitů dle výběru hosta. Kompletní receptura položky: 0,2l čerstvě lisovaná šťáva z pomerančů nebo grapefruitů dle výběru hosta."
+            "explanation": "U položky Fresh juice je uvedeno: Čerstvě lisovaná šťáva pomeranč / grep. Kompletní popis: čerstvě lisovaná šťáva pomeranč / grep."
           }
         ]
       }
@@ -5128,163 +4658,158 @@ export const MENU_CATEGORIES: MenuCategory[] = [
   },
   {
     "id": "lahvove-limonady",
-    "name": "lahvové limonády",
+    "name": "Lahvové limonády",
     "badge": "Lahvové limonády",
-    "description": "Výběr prémiových toniků a nealkoholických nápojů",
+    "description": "Prémiové lahvové limonády, toniky a nealkoholické nápoje",
     "iconName": "CupSoda",
     "items": [
       {
         "id": "coca-cola",
         "name": "Coca Cola / Coca Cola zero",
-        "price": "65 Kč",
         "weight": "0,33l",
-        "description": "0,33l v originální skleněné lahvi, klasická receptura i varianta Zero bez cukru",
+        "price": "65 Kč",
+        "allergens": [],
+        "description": "klasická Coca Cola nebo Coca Cola zero v lahvičce",
         "questions": [
           {
             "id": "coca-cola-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Coca Cola / Coca Cola zero?",
-            "correctAnswer": "0,33 l",
+            "question": "Jaký je servírovací objem / míra položky Coca Cola / Coca Cola zero?",
+            "correctAnswer": "0,33l",
             "distractors": [
-              "0,5 l",
-              "0,25 l"
+              "0,25 l",
+              "0,5 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Coca Cola / Coca Cola zero je 0,33 l."
+            "explanation": "Servírovací míra / objem položky Coca Cola / Coca Cola zero je 0,33l."
           },
           {
             "id": "coca-cola-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Coca Cola / Coca Cola zero?",
-            "correctAnswer": "V originální skleněné lahvi",
+            "question": "Která surovina, původ či charakteristika patří k položce Coca Cola / Coca Cola zero?",
+            "correctAnswer": "Klasická Coca Cola nebo Coca Cola zero v lahvičce",
             "distractors": [
-              "Čerstvý grapefruitový fresh",
-              "Malinové pyré"
+              "Světlý ležák plzeňského typu",
+              "Jablečný mošt z rodinné farmy"
             ],
-            "explanation": "V podsložce Coca Cola / Coca Cola zero je obsaženo: V originální skleněné lahvi. Kompletní receptura položky: 0,33l v originální skleněné lahvi, klasická receptura i varianta Zero bez cukru."
-          },
-          {
-            "id": "coca-cola-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Coca Cola / Coca Cola zero?",
-            "correctAnswer": "Klasická receptura i varianta Zero bez cukru",
-            "distractors": [
-              "Bílá čokoláda",
-              "Švestkové pyré"
-            ],
-            "explanation": "V podsložce Coca Cola / Coca Cola zero je obsaženo: Klasická receptura i varianta Zero bez cukru. Kompletní receptura položky: 0,33l v originální skleněné lahvi, klasická receptura i varianta Zero bez cukru."
+            "explanation": "U položky Coca Cola / Coca Cola zero je uvedeno: Klasická Coca Cola nebo Coca Cola zero v lahvičce. Kompletní popis: klasická Coca Cola nebo Coca Cola zero v lahvičce."
           }
         ]
       },
       {
         "id": "thomas-henry-tonic",
         "name": "Thomas Henry Tonic",
-        "price": "75 Kč",
         "weight": "0,2l",
-        "description": "0,2l prémiový německý tonik s výraznějším obsahem chininu a květinově-citrusovými tóny",
+        "price": "75 Kč",
+        "allergens": [],
+        "description": "prémiový suchý tonik s výraznou chininovou hořkostí",
         "questions": [
           {
             "id": "thomas-henry-tonic-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Thomas Henry Tonic?",
-            "correctAnswer": "0,2 l",
+            "question": "Jaký je servírovací objem / míra položky Thomas Henry Tonic?",
+            "correctAnswer": "0,2l",
             "distractors": [
-              "0,3 l",
-              "0,1 l"
+              "0,25 l",
+              "0,33 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Thomas Henry Tonic je 0,2 l."
+            "explanation": "Servírovací míra / objem položky Thomas Henry Tonic je 0,2l."
           },
           {
             "id": "thomas-henry-tonic-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Thomas Henry Tonic?",
-            "correctAnswer": "Prémiový německý tonik s výraznějším obsahem chininu a květinově-citrusovými tóny",
+            "question": "Která surovina, původ či charakteristika patří k položce Thomas Henry Tonic?",
+            "correctAnswer": "Prémiový suchý tonik s výraznou chininovou hořkostí",
             "distractors": [
-              "Čerstvý grapefruitový fresh",
-              "Malinové pyré"
+              "Světlý ležák plzeňského typu",
+              "Jablečný mošt z rodinné farmy"
             ],
-            "explanation": "V podsložce Thomas Henry Tonic je obsaženo: Prémiový německý tonik s výraznějším obsahem chininu a květinově-citrusovými tóny. Kompletní receptura položky: 0,2l prémiový německý tonik s výraznějším obsahem chininu a květinově-citrusovými tóny."
+            "explanation": "U položky Thomas Henry Tonic je uvedeno: Prémiový suchý tonik s výraznou chininovou hořkostí. Kompletní popis: prémiový suchý tonik s výraznou chininovou hořkostí."
           }
         ]
       },
       {
         "id": "fever-tree-tonic",
         "name": "Fever-Tree Tonic",
-        "price": "85 Kč",
         "weight": "0,2l",
-        "description": "0,2l špičkový britský tonik z čistého chininu ze střední Afriky a pramenité vody",
+        "price": "85 Kč",
+        "allergens": [],
+        "description": "prémiový tonik s přírodním chininem ze střední Afriky",
         "questions": [
           {
             "id": "fever-tree-tonic-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Fever-Tree Tonic?",
-            "correctAnswer": "0,2 l",
+            "question": "Jaký je servírovací objem / míra položky Fever-Tree Tonic?",
+            "correctAnswer": "0,2l",
             "distractors": [
-              "0,3 l",
-              "0,1 l"
+              "0,25 l",
+              "0,33 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Fever-Tree Tonic je 0,2 l."
+            "explanation": "Servírovací míra / objem položky Fever-Tree Tonic je 0,2l."
           },
           {
             "id": "fever-tree-tonic-ing-1",
-            "question": "Která masová surovina tvoří základ podsložky Fever-Tree Tonic?",
-            "correctAnswer": "Špičkový britský tonik z čistého chininu ze střední Afriky a pramenité vody",
+            "question": "Která surovina, původ či charakteristika patří k položce Fever-Tree Tonic?",
+            "correctAnswer": "Prémiový tonik s přírodním chininem ze střední Afriky",
             "distractors": [
-              "Čerstvý grapefruitový fresh",
-              "Malinové pyré"
+              "Mučenkový likér a vanilka",
+              "Kávový likér Kahlúa"
             ],
-            "explanation": "V podsložce Fever-Tree Tonic je obsaženo: Špičkový britský tonik z čistého chininu ze střední Afriky a pramenité vody. Kompletní receptura položky: 0,2l špičkový britský tonik z čistého chininu ze střední Afriky a pramenité vody."
+            "explanation": "U položky Fever-Tree Tonic je uvedeno: Prémiový tonik s přírodním chininem ze střední Afriky. Kompletní popis: prémiový tonik s přírodním chininem ze střední Afriky."
           }
         ]
       },
       {
         "id": "fever-tree-ginger-beer",
         "name": "Fever-Tree Ginger Beer",
-        "price": "85 Kč",
         "weight": "0,2l",
-        "description": "0,2l přírodně kvašené nealkoholické zázvorové pivo se směsí tří druhů afrického zázvoru",
+        "price": "85 Kč",
+        "allergens": [],
+        "description": "zázvorové pivo ze tří druhů čerstvého zázvoru",
         "questions": [
           {
             "id": "fever-tree-ginger-beer-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Fever-Tree Ginger Beer?",
-            "correctAnswer": "0,2 l",
+            "question": "Jaký je servírovací objem / míra položky Fever-Tree Ginger Beer?",
+            "correctAnswer": "0,2l",
             "distractors": [
-              "0,3 l",
-              "0,1 l"
+              "0,25 l",
+              "0,33 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Fever-Tree Ginger Beer je 0,2 l."
+            "explanation": "Servírovací míra / objem položky Fever-Tree Ginger Beer je 0,2l."
           },
           {
             "id": "fever-tree-ginger-beer-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Fever-Tree Ginger Beer?",
-            "correctAnswer": "Přírodně kvašené nealkoholické zázvorové pivo se směsí tří druhů afrického zázvoru",
+            "question": "Která surovina, původ či charakteristika patří k položce Fever-Tree Ginger Beer?",
+            "correctAnswer": "Zázvorové pivo ze tří druhů čerstvého zázvoru",
             "distractors": [
-              "Čerstvý grapefruitový fresh",
-              "Malinové pyré"
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
             ],
-            "explanation": "V podsložce Fever-Tree Ginger Beer je obsaženo: Přírodně kvašené nealkoholické zázvorové pivo se směsí tří druhů afrického zázvoru. Kompletní receptura položky: 0,2l přírodně kvašené nealkoholické zázvorové pivo se směsí tří druhů afrického zázvoru."
+            "explanation": "U položky Fever-Tree Ginger Beer je uvedeno: Zázvorové pivo ze tří druhů čerstvého zázvoru. Kompletní popis: zázvorové pivo ze tří druhů čerstvého zázvoru."
           }
         ]
       },
       {
         "id": "red-bull",
         "name": "Red Bull",
+        "weight": "0,2l",
         "price": "99 Kč",
-        "weight": "0,2l plechovka",
-        "description": "0,2l plechovka prémiového energetického nápoje",
+        "allergens": [],
+        "description": "energetický nápoj v plechovce",
         "questions": [
           {
             "id": "red-bull-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Red Bull?",
-            "correctAnswer": "0,2 l",
+            "question": "Jaký je servírovací objem / míra položky Red Bull?",
+            "correctAnswer": "0,2l",
             "distractors": [
-              "0,3 l",
-              "0,1 l"
+              "0,25 l",
+              "0,33 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Red Bull je 0,2 l."
+            "explanation": "Servírovací míra / objem položky Red Bull je 0,2l."
           },
           {
             "id": "red-bull-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Red Bull?",
-            "correctAnswer": "Plechovka prémiového energetického nápoje",
+            "question": "Která surovina, původ či charakteristika patří k položce Red Bull?",
+            "correctAnswer": "Energetický nápoj v plechovce",
             "distractors": [
-              "Čerstvý grapefruitový fresh",
-              "Malinové pyré"
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
             ],
-            "explanation": "V podsložce Red Bull je obsaženo: Plechovka prémiového energetického nápoje. Kompletní receptura položky: 0,2l plechovka prémiového energetického nápoje."
+            "explanation": "U položky Red Bull je uvedeno: Energetický nápoj v plechovce. Kompletní popis: energetický nápoj v plechovce."
           }
         ]
       }
@@ -5292,270 +4817,308 @@ export const MENU_CATEGORIES: MenuCategory[] = [
   },
   {
     "id": "kava-caj-a-horke-napoje",
-    "name": "káva, čaj a horké nápoje",
-    "badge": "Káva & Čaj",
-    "description": "Čerstvě pražená výběrová káva a sypané čaje",
+    "name": "Káva, čaj a horké nápoje",
+    "badge": "Káva, čaj a horké nápoje",
+    "description": "Výběrová káva, sypané čaje a hřejivé nápoje pro chvíle pohody",
     "iconName": "Coffee",
     "items": [
       {
         "id": "espresso",
         "name": "Espresso",
-        "price": "66 Kč",
         "weight": "9g",
-        "description": "9g výběrové kávy, klasická extrakce s oříškovou cremou a vyváženým tělem",
+        "price": "66 Kč",
+        "allergens": [],
+        "description": "klasické espresso z výběrové kávy",
         "questions": [
           {
             "id": "espresso-vol",
-            "question": "Jaká je gramáž porce podsložky Espresso?",
-            "correctAnswer": "9 g",
+            "question": "Jaká je navážka kávy u položky Espresso?",
+            "correctAnswer": "9g",
             "distractors": [
-              "100 g",
-              "200 g"
+              "7 g",
+              "14 g"
             ],
-            "explanation": "Gramáž porce podsložky Espresso je 9 g."
+            "explanation": "Servírovací míra / objem položky Espresso je 9g."
           },
           {
             "id": "espresso-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Espresso?",
-            "correctAnswer": "Výběrové kávy",
+            "question": "Která surovina, původ či charakteristika patří k položce Espresso?",
+            "correctAnswer": "Klasické espresso z výběrové kávy",
             "distractors": [
-              "Čerstvý grapefruitový fresh",
-              "Malinové pyré"
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
             ],
-            "explanation": "V podsložce Espresso je obsaženo: Výběrové kávy. Kompletní receptura položky: 9g výběrové kávy, klasická extrakce s oříškovou cremou a vyváženým tělem."
-          },
-          {
-            "id": "espresso-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Espresso?",
-            "correctAnswer": "Klasická extrakce s oříškovou cremou a vyváženým tělem",
-            "distractors": [
-              "Bílá čokoláda",
-              "Švestkové pyré"
-            ],
-            "explanation": "V podsložce Espresso je obsaženo: Klasická extrakce s oříškovou cremou a vyváženým tělem. Kompletní receptura položky: 9g výběrové kávy, klasická extrakce s oříškovou cremou a vyváženým tělem."
+            "explanation": "U položky Espresso je uvedeno: Klasické espresso z výběrové kávy. Kompletní popis: klasické espresso z výběrové kávy."
           }
         ]
       },
       {
         "id": "espresso-macchiato",
         "name": "Espresso macchiato",
-        "price": "78 Kč",
         "weight": "9g",
-        "description": "9g espresso doplněné kapkou jemné teplé mléčné pěny",
+        "price": "78 Kč",
+        "allergens": [
+          "7"
+        ],
+        "description": "espresso s kapkou sametové mléčné pěny",
         "questions": [
           {
             "id": "espresso-macchiato-vol",
-            "question": "Jaká je gramáž porce podsložky Espresso macchiato?",
-            "correctAnswer": "9 g",
+            "question": "Jaká je navážka kávy u položky Espresso macchiato?",
+            "correctAnswer": "9g",
             "distractors": [
-              "100 g",
-              "200 g"
+              "7 g",
+              "14 g"
             ],
-            "explanation": "Gramáž porce podsložky Espresso macchiato je 9 g."
+            "explanation": "Servírovací míra / objem položky Espresso macchiato je 9g."
           },
           {
             "id": "espresso-macchiato-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Espresso macchiato?",
-            "correctAnswer": "Espresso doplněné kapkou jemné teplé mléčné pěny",
+            "question": "Která surovina, původ či charakteristika patří k položce Espresso macchiato?",
+            "correctAnswer": "Espresso s kapkou sametové mléčné pěny",
             "distractors": [
-              "Čerstvý grapefruitový fresh",
-              "Malinové pyré"
+              "Světlý ležák plzeňského typu",
+              "Jablečný mošt z rodinné farmy"
             ],
-            "explanation": "V podsložce Espresso macchiato je obsaženo: Espresso doplněné kapkou jemné teplé mléčné pěny. Kompletní receptura položky: 9g espresso doplněné kapkou jemné teplé mléčné pěny."
+            "explanation": "U položky Espresso macchiato je uvedeno: Espresso s kapkou sametové mléčné pěny. Kompletní popis: espresso s kapkou sametové mléčné pěny."
+          },
+          {
+            "id": "espresso-macchiato-allergen-7",
+            "question": "Který z následujících alergenů obsahuje položka Espresso macchiato?",
+            "correctAnswer": "Alergen č. 7 – Mléko a výrobky z něj (včetně laktózy)",
+            "distractors": [
+              "Alergen č. 9 – Celer a výrobky z něj",
+              "Alergen č. 14 – Měkkýši a výrobky z nich"
+            ],
+            "explanation": "Espresso macchiato obsahuje Alergen č. 7 – Mléko a výrobky z něj (včetně laktózy) (mléko, smetana, máslo, sýr, tvaroh, mléčná pěna). Všechny evidované alergeny: Mléko a výrobky z něj (včetně laktózy)."
           }
         ]
       },
       {
         "id": "cappuccino",
         "name": "Cappuccino",
-        "price": "85 Kč",
         "weight": "9g",
-        "description": "9g espresso s jemně našlehaným teplým mlékem a mikropěnou",
+        "price": "85 Kč",
+        "allergens": [
+          "7"
+        ],
+        "description": "espresso s horkým mlékem a jemnou mléčnou pěnou",
         "questions": [
           {
             "id": "cappuccino-vol",
-            "question": "Jaká je gramáž porce podsložky Cappuccino?",
-            "correctAnswer": "9 g",
+            "question": "Jaká je navážka kávy u položky Cappuccino?",
+            "correctAnswer": "9g",
             "distractors": [
-              "100 g",
-              "200 g"
+              "7 g",
+              "14 g"
             ],
-            "explanation": "Gramáž porce podsložky Cappuccino je 9 g."
+            "explanation": "Servírovací míra / objem položky Cappuccino je 9g."
           },
           {
             "id": "cappuccino-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Cappuccino?",
-            "correctAnswer": "Espresso s jemně našlehaným teplým mlékem a mikropěnou",
+            "question": "Která surovina, původ či charakteristika patří k položce Cappuccino?",
+            "correctAnswer": "Espresso s horkým mlékem a jemnou mléčnou pěnou",
             "distractors": [
-              "Čerstvý grapefruitový fresh",
-              "Malinové pyré"
+              "Čerstvý grepový fresh",
+              "Bezinkový sirup a čerstvá máta"
             ],
-            "explanation": "V podsložce Cappuccino je obsaženo: Espresso s jemně našlehaným teplým mlékem a mikropěnou. Kompletní receptura položky: 9g espresso s jemně našlehaným teplým mlékem a mikropěnou."
+            "explanation": "U položky Cappuccino je uvedeno: Espresso s horkým mlékem a jemnou mléčnou pěnou. Kompletní popis: espresso s horkým mlékem a jemnou mléčnou pěnou."
           },
           {
-            "id": "cappuccino-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Cappuccino?",
-            "correctAnswer": "Espresso s jemně našlehaným teplým mlékem a mikropěnou",
+            "id": "cappuccino-allergen-7",
+            "question": "Který z následujících alergenů obsahuje položka Cappuccino?",
+            "correctAnswer": "Alergen č. 7 – Mléko a výrobky z něj (včetně laktózy)",
             "distractors": [
-              "Bílá čokoláda",
-              "Švestkové pyré"
+              "Alergen č. 9 – Celer a výrobky z něj",
+              "Alergen č. 14 – Měkkýši a výrobky z nich"
             ],
-            "explanation": "V podsložce Cappuccino je obsaženo: Espresso s jemně našlehaným teplým mlékem a mikropěnou. Kompletní receptura položky: 9g espresso s jemně našlehaným teplým mlékem a mikropěnou."
-          },
-          {
-            "id": "cappuccino-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Cappuccino?",
-            "correctAnswer": "Espresso s jemně našlehaným teplým mlékem a mikropěnou",
-            "distractors": [
-              "Drcený kardamom",
-              "Zázvorový výluh"
-            ],
-            "explanation": "V podsložce Cappuccino je obsaženo: Espresso s jemně našlehaným teplým mlékem a mikropěnou. Kompletní receptura položky: 9g espresso s jemně našlehaným teplým mlékem a mikropěnou."
+            "explanation": "Cappuccino obsahuje Alergen č. 7 – Mléko a výrobky z něj (včetně laktózy) (mléko, smetana, máslo, sýr, tvaroh, mléčná pěna). Všechny evidované alergeny: Mléko a výrobky z něj (včetně laktózy)."
           }
         ]
       },
       {
         "id": "caffe-latte",
         "name": "Caffé latte",
-        "price": "88 Kč",
         "weight": "9g",
-        "description": "9g espresso podávané ve vysoké sklenici s bohatou porcí teplého mléka",
+        "price": "88 Kč",
+        "allergens": [
+          "7"
+        ],
+        "description": "jemná káva s velkou dávkou našlehaného mléka",
         "questions": [
           {
             "id": "caffe-latte-vol",
-            "question": "Jaká je gramáž porce podsložky Caffé latte?",
-            "correctAnswer": "9 g",
+            "question": "Jaká je navážka kávy u položky Caffé latte?",
+            "correctAnswer": "9g",
             "distractors": [
-              "100 g",
-              "200 g"
+              "7 g",
+              "14 g"
             ],
-            "explanation": "Gramáž porce podsložky Caffé latte je 9 g."
+            "explanation": "Servírovací míra / objem položky Caffé latte je 9g."
           },
           {
             "id": "caffe-latte-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Caffé latte?",
-            "correctAnswer": "Espresso podávané ve vysoké sklenici s bohatou porcí teplého mléka",
+            "question": "Která surovina, původ či charakteristika patří k položce Caffé latte?",
+            "correctAnswer": "Jemná káva s velkou dávkou našlehaného mléka",
             "distractors": [
-              "Čerstvý grapefruitový fresh",
-              "Malinové pyré"
+              "Tonik Thomas Henry s chininem",
+              "Čerstvě pražená výběrová káva"
             ],
-            "explanation": "V podsložce Caffé latte je obsaženo: Espresso podávané ve vysoké sklenici s bohatou porcí teplého mléka. Kompletní receptura položky: 9g espresso podávané ve vysoké sklenici s bohatou porcí teplého mléka."
+            "explanation": "U položky Caffé latte je uvedeno: Jemná káva s velkou dávkou našlehaného mléka. Kompletní popis: jemná káva s velkou dávkou našlehaného mléka."
+          },
+          {
+            "id": "caffe-latte-allergen-7",
+            "question": "Který z následujících alergenů obsahuje položka Caffé latte?",
+            "correctAnswer": "Alergen č. 7 – Mléko a výrobky z něj (včetně laktózy)",
+            "distractors": [
+              "Alergen č. 9 – Celer a výrobky z něj",
+              "Alergen č. 14 – Měkkýši a výrobky z nich"
+            ],
+            "explanation": "Caffé latte obsahuje Alergen č. 7 – Mléko a výrobky z něj (včetně laktózy) (mléko, smetana, máslo, sýr, tvaroh, mléčná pěna). Všechny evidované alergeny: Mléko a výrobky z něj (včetně laktózy)."
           }
         ]
       },
       {
         "id": "flat-white",
         "name": "Flat white",
-        "price": "99 Kč",
         "weight": "18g",
-        "description": "18g výběrové kávy (double shot espresso) se sametovou mléčnou mikropěnou",
+        "price": "99 Kč",
+        "allergens": [
+          "7"
+        ],
+        "description": "dvojité espresso zjemněné sametovou mléčnou mikropěnou",
         "questions": [
           {
             "id": "flat-white-vol",
-            "question": "Jaká je gramáž porce podsložky Flat white?",
-            "correctAnswer": "18 g",
+            "question": "Jaká je navážka kávy u položky Flat white?",
+            "correctAnswer": "18g",
             "distractors": [
-              "100 g",
-              "200 g"
+              "9 g",
+              "14 g"
             ],
-            "explanation": "Gramáž porce podsložky Flat white je 18 g."
+            "explanation": "Servírovací míra / objem položky Flat white je 18g."
           },
           {
             "id": "flat-white-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Flat white?",
-            "correctAnswer": "Výběrové kávy (double shot espresso) se sametovou mléčnou mikropěnou",
+            "question": "Která surovina, původ či charakteristika patří k položce Flat white?",
+            "correctAnswer": "Dvojité espresso zjemněné sametovou mléčnou mikropěnou",
             "distractors": [
-              "Čerstvý grapefruitový fresh",
-              "Malinové pyré"
+              "Čerstvý grepový fresh",
+              "Bezinkový sirup a čerstvá máta"
             ],
-            "explanation": "V podsložce Flat white je obsaženo: Výběrové kávy (double shot espresso) se sametovou mléčnou mikropěnou. Kompletní receptura položky: 18g výběrové kávy (double shot espresso) se sametovou mléčnou mikropěnou."
+            "explanation": "U položky Flat white je uvedeno: Dvojité espresso zjemněné sametovou mléčnou mikropěnou. Kompletní popis: dvojité espresso zjemněné sametovou mléčnou mikropěnou."
+          },
+          {
+            "id": "flat-white-allergen-7",
+            "question": "Který z následujících alergenů obsahuje položka Flat white?",
+            "correctAnswer": "Alergen č. 7 – Mléko a výrobky z něj (včetně laktózy)",
+            "distractors": [
+              "Alergen č. 9 – Celer a výrobky z něj",
+              "Alergen č. 14 – Měkkýši a výrobky z nich"
+            ],
+            "explanation": "Flat white obsahuje Alergen č. 7 – Mléko a výrobky z něj (včetně laktózy) (mléko, smetana, máslo, sýr, tvaroh, mléčná pěna). Všechny evidované alergeny: Mléko a výrobky z něj (včetně laktózy)."
           }
         ]
       },
       {
         "id": "double-espresso",
         "name": "Double espresso",
-        "price": "89 Kč",
         "weight": "18g",
-        "description": "18g dvojitá porce espressa pro intenzivní povzbuzení",
+        "price": "89 Kč",
+        "allergens": [],
+        "description": "dvojitá dávka espressa pro intenzivní chuť",
         "questions": [
           {
             "id": "double-espresso-vol",
-            "question": "Jaká je gramáž porce podsložky Double espresso?",
-            "correctAnswer": "18 g",
+            "question": "Jaká je navážka kávy u položky Double espresso?",
+            "correctAnswer": "18g",
             "distractors": [
-              "100 g",
-              "200 g"
+              "9 g",
+              "14 g"
             ],
-            "explanation": "Gramáž porce podsložky Double espresso je 18 g."
+            "explanation": "Servírovací míra / objem položky Double espresso je 18g."
           },
           {
             "id": "double-espresso-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Double espresso?",
-            "correctAnswer": "Dvojitá porce espressa pro intenzivní povzbuzení",
+            "question": "Která surovina, původ či charakteristika patří k položce Double espresso?",
+            "correctAnswer": "Dvojitá dávka espressa pro intenzivní chuť",
             "distractors": [
-              "Čerstvý grapefruitový fresh",
-              "Malinové pyré"
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
             ],
-            "explanation": "V podsložce Double espresso je obsaženo: Dvojitá porce espressa pro intenzivní povzbuzení. Kompletní receptura položky: 18g dvojitá porce espressa pro intenzivní povzbuzení."
+            "explanation": "U položky Double espresso je uvedeno: Dvojitá dávka espressa pro intenzivní chuť. Kompletní popis: dvojitá dávka espressa pro intenzivní chuť."
           }
         ]
       },
       {
         "id": "americano-lungo",
         "name": "Americano caffé / lungo",
-        "price": "79 Kč",
         "weight": "9g",
-        "description": "9g espresso doplněné horkou vodou pro jemnější a delší doušek",
+        "price": "79 Kč",
+        "allergens": [],
+        "description": "espresso prodloužené horkou vodou",
         "questions": [
           {
             "id": "americano-lungo-vol",
-            "question": "Jaká je gramáž porce podsložky Americano caffé / lungo?",
-            "correctAnswer": "9 g",
+            "question": "Jaká je navážka kávy u položky Americano caffé / lungo?",
+            "correctAnswer": "9g",
             "distractors": [
-              "100 g",
-              "200 g"
+              "7 g",
+              "14 g"
             ],
-            "explanation": "Gramáž porce podsložky Americano caffé / lungo je 9 g."
+            "explanation": "Servírovací míra / objem položky Americano caffé / lungo je 9g."
           },
           {
             "id": "americano-lungo-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Americano caffé / lungo?",
-            "correctAnswer": "Espresso doplněné horkou vodou pro jemnější a delší doušek",
+            "question": "Která surovina, původ či charakteristika patří k položce Americano caffé / lungo?",
+            "correctAnswer": "Espresso prodloužené horkou vodou",
             "distractors": [
-              "Čerstvý grapefruitový fresh",
-              "Malinové pyré"
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
             ],
-            "explanation": "V podsložce Americano caffé / lungo je obsaženo: Espresso doplněné horkou vodou pro jemnější a delší doušek. Kompletní receptura položky: 9g espresso doplněné horkou vodou pro jemnější a delší doušek."
+            "explanation": "U položky Americano caffé / lungo je uvedeno: Espresso prodloužené horkou vodou. Kompletní popis: espresso prodloužené horkou vodou."
           }
         ]
       },
       {
         "id": "espresso-se-slehackou",
         "name": "Espresso káva se šlehačkou",
-        "price": "85 Kč",
         "weight": "9g",
-        "description": "9g espresso ozdobené poctivou čerstvou šlehačkou",
+        "price": "85 Kč",
+        "allergens": [
+          "7"
+        ],
+        "description": "espresso káva dozdobená čerstvou šlehačkou",
         "questions": [
           {
             "id": "espresso-se-slehackou-vol",
-            "question": "Jaká je gramáž porce podsložky Espresso káva se šlehačkou?",
-            "correctAnswer": "9 g",
+            "question": "Jaká je navážka kávy u položky Espresso káva se šlehačkou?",
+            "correctAnswer": "9g",
             "distractors": [
-              "100 g",
-              "200 g"
+              "7 g",
+              "14 g"
             ],
-            "explanation": "Gramáž porce podsložky Espresso káva se šlehačkou je 9 g."
+            "explanation": "Servírovací míra / objem položky Espresso káva se šlehačkou je 9g."
           },
           {
             "id": "espresso-se-slehackou-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Espresso káva se šlehačkou?",
-            "correctAnswer": "Espresso ozdobené poctivou čerstvou šlehačkou",
+            "question": "Která surovina, původ či charakteristika patří k položce Espresso káva se šlehačkou?",
+            "correctAnswer": "Espresso káva dozdobená čerstvou šlehačkou",
             "distractors": [
-              "Čerstvý grapefruitový fresh",
-              "Malinové pyré"
+              "Vanilkový sirup a limetová šťáva",
+              "Třtinový cukr s limetkou"
             ],
-            "explanation": "V podsložce Espresso káva se šlehačkou je obsaženo: Espresso ozdobené poctivou čerstvou šlehačkou. Kompletní receptura položky: 9g espresso ozdobené poctivou čerstvou šlehačkou."
+            "explanation": "U položky Espresso káva se šlehačkou je uvedeno: Espresso káva dozdobená čerstvou šlehačkou. Kompletní popis: espresso káva dozdobená čerstvou šlehačkou."
+          },
+          {
+            "id": "espresso-se-slehackou-allergen-7",
+            "question": "Který z následujících alergenů obsahuje položka Espresso káva se šlehačkou?",
+            "correctAnswer": "Alergen č. 7 – Mléko a výrobky z něj (včetně laktózy)",
+            "distractors": [
+              "Alergen č. 9 – Celer a výrobky z něj",
+              "Alergen č. 14 – Měkkýši a výrobky z nich"
+            ],
+            "explanation": "Espresso káva se šlehačkou obsahuje Alergen č. 7 – Mléko a výrobky z něj (včetně laktózy) (mléko, smetana, máslo, sýr, tvaroh, mléčná pěna). Všechny evidované alergeny: Mléko a výrobky z něj (včetně laktózy)."
           }
         ]
       },
@@ -5563,37 +5126,28 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "sypany-caj",
         "name": "Sypaný čaj",
         "price": "89 Kč",
-        "description": "Výběrový černý, zelený nebo ovocný sypaný čaj podávaný v konvičce s medem a citronem",
+        "allergens": [],
+        "description": "černý, zelený nebo ovocný sypaný čaj",
         "questions": [
           {
             "id": "sypany-caj-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Sypaný čaj?",
-            "correctAnswer": "Výběrový černý",
+            "question": "Která surovina, původ či charakteristika patří k položce Sypaný čaj?",
+            "correctAnswer": "Černý",
             "distractors": [
-              "Čerstvý grapefruitový fresh",
-              "Malinové pyré"
+              "Bezinkový sirup a čerstvá máta",
+              "Tonik Thomas Henry s chininem"
             ],
-            "explanation": "V podsložce Sypaný čaj je obsaženo: Výběrový černý. Kompletní receptura položky: Výběrový černý, zelený nebo ovocný sypaný čaj podávaný v konvičce s medem a citronem."
+            "explanation": "U položky Sypaný čaj je uvedeno: Černý. Kompletní popis: černý, zelený nebo ovocný sypaný čaj."
           },
           {
             "id": "sypany-caj-ing-2",
-            "question": "Kterou zeleninovou či ovocnou složku obsahuje podsložka Sypaný čaj?",
-            "correctAnswer": "Zelený nebo ovocný sypaný čaj podávaný v konvičce s medem a citronem",
+            "question": "Která surovina, původ či charakteristika patří k položce Sypaný čaj?",
+            "correctAnswer": "Zelený nebo ovocný sypaný čaj",
             "distractors": [
-              "Bílá čokoláda",
-              "Švestkové pyré"
+              "Tonik Thomas Henry s chininem",
+              "Čerstvě pražená výběrová káva"
             ],
-            "explanation": "V podsložce Sypaný čaj je obsaženo: Zelený nebo ovocný sypaný čaj podávaný v konvičce s medem a citronem. Kompletní receptura položky: Výběrový černý, zelený nebo ovocný sypaný čaj podávaný v konvičce s medem a citronem."
-          },
-          {
-            "id": "sypany-caj-ing-3",
-            "question": "Kterou zeleninovou či ovocnou složku obsahuje podsložka Sypaný čaj?",
-            "correctAnswer": "Zelený nebo ovocný sypaný čaj podávaný v konvičce s medem a citronem",
-            "distractors": [
-              "Drcený kardamom",
-              "Zázvorový výluh"
-            ],
-            "explanation": "V podsložce Sypaný čaj je obsaženo: Zelený nebo ovocný sypaný čaj podávaný v konvičce s medem a citronem. Kompletní receptura položky: Výběrový černý, zelený nebo ovocný sypaný čaj podávaný v konvičce s medem a citronem."
+            "explanation": "U položky Sypaný čaj je uvedeno: Zelený nebo ovocný sypaný čaj. Kompletní popis: černý, zelený nebo ovocný sypaný čaj."
           }
         ]
       },
@@ -5601,76 +5155,60 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "caj-mata-zazvor",
         "name": "Čaj s čerstvou mátou nebo zázvorem",
         "price": "89 Kč",
-        "description": "Horký nápoj z čerstvých snítek máty nebo plátků kořene zázvoru, med, citron",
+        "allergens": [],
+        "description": "čaj z čerstvé máty nebo zázvoru s medem a citronem",
         "questions": [
           {
             "id": "caj-mata-zazvor-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Čaj s čerstvou mátou nebo zázvorem?",
-            "correctAnswer": "Horký nápoj z čerstvých snítek máty nebo plátků kořene zázvoru",
+            "question": "Která surovina, původ či charakteristika patří k položce Čaj s čerstvou mátou nebo zázvorem?",
+            "correctAnswer": "Čaj z čerstvé máty nebo zázvoru s medem a citronem",
             "distractors": [
-              "Čerstvý grapefruitový fresh",
-              "Malinové pyré"
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
             ],
-            "explanation": "V podsložce Čaj s čerstvou mátou nebo zázvorem je obsaženo: Horký nápoj z čerstvých snítek máty nebo plátků kořene zázvoru. Kompletní receptura položky: Horký nápoj z čerstvých snítek máty nebo plátků kořene zázvoru, med, citron."
-          },
-          {
-            "id": "caj-mata-zazvor-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Čaj s čerstvou mátou nebo zázvorem?",
-            "correctAnswer": "Med",
-            "distractors": [
-              "Bílá čokoláda",
-              "Švestkové pyré"
-            ],
-            "explanation": "V podsložce Čaj s čerstvou mátou nebo zázvorem je obsaženo: Med. Kompletní receptura položky: Horký nápoj z čerstvých snítek máty nebo plátků kořene zázvoru, med, citron."
-          },
-          {
-            "id": "caj-mata-zazvor-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Čaj s čerstvou mátou nebo zázvorem?",
-            "correctAnswer": "Citron",
-            "distractors": [
-              "Drcený kardamom",
-              "Zázvorový výluh"
-            ],
-            "explanation": "V podsložce Čaj s čerstvou mátou nebo zázvorem je obsaženo: Citron. Kompletní receptura položky: Horký nápoj z čerstvých snítek máty nebo plátků kořene zázvoru, med, citron."
+            "explanation": "U položky Čaj s čerstvou mátou nebo zázvorem je uvedeno: Čaj z čerstvé máty nebo zázvoru s medem a citronem. Kompletní popis: čaj z čerstvé máty nebo zázvoru s medem a citronem."
           }
         ]
       },
       {
         "id": "opre-gingerbread-cider",
         "name": "Opre` Gingerbread Cider",
-        "price": "98 Kč",
         "weight": "0,33l",
-        "description": "0,33l horký perníkový cider s vůní hřebíčku a skořice",
+        "price": "98 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "horký perníkový cider s vůní hřebíčku a skořice",
         "questions": [
           {
             "id": "opre-gingerbread-cider-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Opre` Gingerbread Cider?",
-            "correctAnswer": "0,33 l",
+            "question": "Jaký je servírovací objem / míra položky Opre` Gingerbread Cider?",
+            "correctAnswer": "0,33l",
             "distractors": [
-              "0,5 l",
-              "0,25 l"
+              "0,25 l",
+              "0,5 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Opre` Gingerbread Cider je 0,33 l."
+            "explanation": "Servírovací míra / objem položky Opre` Gingerbread Cider je 0,33l."
           },
           {
             "id": "opre-gingerbread-cider-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Opre` Gingerbread Cider?",
+            "question": "Která surovina, původ či charakteristika patří k položce Opre` Gingerbread Cider?",
             "correctAnswer": "Horký perníkový cider s vůní hřebíčku a skořice",
             "distractors": [
-              "Čerstvý grapefruitový fresh",
-              "Malinové pyré"
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
             ],
-            "explanation": "V podsložce Opre` Gingerbread Cider je obsaženo: Horký perníkový cider s vůní hřebíčku a skořice. Kompletní receptura položky: 0,33l horký perníkový cider s vůní hřebíčku a skořice."
+            "explanation": "U položky Opre` Gingerbread Cider je uvedeno: Horký perníkový cider s vůní hřebíčku a skořice. Kompletní popis: horký perníkový cider s vůní hřebíčku a skořice."
           },
           {
-            "id": "opre-gingerbread-cider-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Opre` Gingerbread Cider?",
-            "correctAnswer": "Horký perníkový cider s vůní hřebíčku a skořice",
+            "id": "opre-gingerbread-cider-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Opre` Gingerbread Cider?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
-              "Bílá čokoláda",
-              "Švestkové pyré"
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
             ],
-            "explanation": "V podsložce Opre` Gingerbread Cider je obsaženo: Horký perníkový cider s vůní hřebíčku a skořice. Kompletní receptura položky: 0,33l horký perníkový cider s vůní hřebíčku a skořice."
+            "explanation": "Opre` Gingerbread Cider obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
           }
         ]
       },
@@ -5678,17 +5216,30 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "horka-cokolada",
         "name": "Horká čokoláda",
         "price": "85 Kč",
-        "description": "Hustá horká čokoláda s čerstvou šlehačkou",
+        "allergens": [
+          "7"
+        ],
+        "description": "horká čokoláda s čerstvou šlehačkou",
         "questions": [
           {
             "id": "horka-cokolada-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Horká čokoláda?",
-            "correctAnswer": "Hustá horká čokoláda s čerstvou šlehačkou",
+            "question": "Která surovina, původ či charakteristika patří k položce Horká čokoláda?",
+            "correctAnswer": "Horká čokoláda s čerstvou šlehačkou",
             "distractors": [
-              "Čerstvý grapefruitový fresh",
-              "Malinové pyré"
+              "Jasmínový zelený čaj",
+              "Belgické višňové pivo"
             ],
-            "explanation": "V podsložce Horká čokoláda je obsaženo: Hustá horká čokoláda s čerstvou šlehačkou. Kompletní receptura položky: Hustá horká čokoláda s čerstvou šlehačkou."
+            "explanation": "U položky Horká čokoláda je uvedeno: Horká čokoláda s čerstvou šlehačkou. Kompletní popis: horká čokoláda s čerstvou šlehačkou."
+          },
+          {
+            "id": "horka-cokolada-allergen-7",
+            "question": "Který z následujících alergenů obsahuje položka Horká čokoláda?",
+            "correctAnswer": "Alergen č. 7 – Mléko a výrobky z něj (včetně laktózy)",
+            "distractors": [
+              "Alergen č. 9 – Celer a výrobky z něj",
+              "Alergen č. 14 – Měkkýši a výrobky z nich"
+            ],
+            "explanation": "Horká čokoláda obsahuje Alergen č. 7 – Mléko a výrobky z něj (včetně laktózy) (mléko, smetana, máslo, sýr, tvaroh, mléčná pěna). Všechny evidované alergeny: Mléko a výrobky z něj (včetně laktózy)."
           }
         ]
       },
@@ -5696,76 +5247,82 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "chai-latte",
         "name": "Chai latte",
         "price": "99 Kč",
-        "description": "Čaj se směsí exotického koření, cukru a horkého mléka",
+        "allergens": [
+          "7"
+        ],
+        "description": "čaj se směsí exotického koření, cukru a horkého mléka",
         "questions": [
           {
             "id": "chai-latte-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Chai latte?",
+            "question": "Která surovina, původ či charakteristika patří k položce Chai latte?",
             "correctAnswer": "Čaj se směsí exotického koření",
             "distractors": [
-              "Čerstvý grapefruitový fresh",
-              "Malinové pyré"
+              "Čerstvý grepový fresh",
+              "Bezinkový sirup a čerstvá máta"
             ],
-            "explanation": "V podsložce Chai latte je obsaženo: Čaj se směsí exotického koření. Kompletní receptura položky: Čaj se směsí exotického koření, cukru a horkého mléka."
+            "explanation": "U položky Chai latte je uvedeno: Čaj se směsí exotického koření. Kompletní popis: čaj se směsí exotického koření, cukru a horkého mléka."
           },
           {
             "id": "chai-latte-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Chai latte?",
+            "question": "Která surovina, původ či charakteristika patří k položce Chai latte?",
             "correctAnswer": "Cukru a horkého mléka",
             "distractors": [
-              "Bílá čokoláda",
-              "Švestkové pyré"
+              "Tonik Thomas Henry s chininem",
+              "Čerstvě pražená výběrová káva"
             ],
-            "explanation": "V podsložce Chai latte je obsaženo: Cukru a horkého mléka. Kompletní receptura položky: Čaj se směsí exotického koření, cukru a horkého mléka."
+            "explanation": "U položky Chai latte je uvedeno: Cukru a horkého mléka. Kompletní popis: čaj se směsí exotického koření, cukru a horkého mléka."
           },
           {
-            "id": "chai-latte-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Chai latte?",
-            "correctAnswer": "Cukru a horkého mléka",
+            "id": "chai-latte-allergen-7",
+            "question": "Který z následujících alergenů obsahuje položka Chai latte?",
+            "correctAnswer": "Alergen č. 7 – Mléko a výrobky z něj (včetně laktózy)",
             "distractors": [
-              "Drcený kardamom",
-              "Zázvorový výluh"
+              "Alergen č. 9 – Celer a výrobky z něj",
+              "Alergen č. 14 – Měkkýši a výrobky z nich"
             ],
-            "explanation": "V podsložce Chai latte je obsaženo: Cukru a horkého mléka. Kompletní receptura položky: Čaj se směsí exotického koření, cukru a horkého mléka."
+            "explanation": "Chai latte obsahuje Alergen č. 7 – Mléko a výrobky z něj (včetně laktózy) (mléko, smetana, máslo, sýr, tvaroh, mléčná pěna). Všechny evidované alergeny: Mléko a výrobky z něj (včetně laktózy)."
           }
         ]
       },
       {
         "id": "svarene-vino",
         "name": "Svařené víno",
-        "price": "85 Kč",
         "weight": "0,15l",
-        "description": "0,15l s kořením a pomerančem červené / bílé",
+        "price": "85 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "s kořením a pomerančem červené / bílé",
         "questions": [
           {
             "id": "svarene-vino-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Svařené víno?",
-            "correctAnswer": "0,15 l",
+            "question": "Jaký je servírovací objem / míra položky Svařené víno?",
+            "correctAnswer": "0,15l",
             "distractors": [
-              "0,2 l",
-              "0,1 l"
+              "0,1 l",
+              "0,2 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Svařené víno je 0,15 l."
+            "explanation": "Servírovací míra / objem položky Svařené víno je 0,15l."
           },
           {
             "id": "svarene-vino-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Svařené víno?",
+            "question": "Která surovina, původ či charakteristika patří k položce Svařené víno?",
             "correctAnswer": "S kořením a pomerančem červené / bílé",
             "distractors": [
-              "Čerstvý grapefruitový fresh",
-              "Malinové pyré"
+              "Vanilkový sirup a limetová šťáva",
+              "Třtinový cukr s limetkou"
             ],
-            "explanation": "V podsložce Svařené víno je obsaženo: S kořením a pomerančem červené / bílé. Kompletní receptura položky: 0,15l s kořením a pomerančem červené / bílé."
+            "explanation": "U položky Svařené víno je uvedeno: S kořením a pomerančem červené / bílé. Kompletní popis: s kořením a pomerančem červené / bílé."
           },
           {
-            "id": "svarene-vino-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Svařené víno?",
-            "correctAnswer": "S kořením a pomerančem červené / bílé",
+            "id": "svarene-vino-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Svařené víno?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
-              "Bílá čokoláda",
-              "Švestkové pyré"
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
             ],
-            "explanation": "V podsložce Svařené víno je obsaženo: S kořením a pomerančem červené / bílé. Kompletní receptura položky: 0,15l s kořením a pomerančem červené / bílé."
+            "explanation": "Svařené víno obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
           }
         ]
       }
@@ -5773,2892 +5330,458 @@ export const MENU_CATEGORIES: MenuCategory[] = [
   },
   {
     "id": "vina-po-skle",
-    "name": "vína po skle",
+    "name": "Vína po skle",
     "badge": "Vína po skle",
-    "description": "Výběr moravských a evropských vín rozlévaných po skleničce",
+    "description": "Pečlivě vybraná šumivá, bílá, růžová a červená vína rozlévaná po skle",
     "iconName": "Wine",
     "items": [
       {
-        "id": "sklo-rulandske-sede",
-        "name": "Rulandské šedé – Dva kopce Kolby",
-        "weight": "0,15 l",
-        "price": "95,-",
+        "id": "sklo-charmat-palava",
+        "name": "Charmat de Vinselekt Pálava",
+        "weight": "0,1l",
+        "price": "99 Kč",
         "allergens": [
           "12"
         ],
-        "description": "Dva kopce Kolby, polosuché – Mikulovsko, Morava. Vyvážené, šťavnaté, aroma bílé broskve a drobného zahradního ovoce.",
+        "description": "Vinselect Michlovský, Extra sec",
         "questions": [
           {
-            "id": "sklo-rulandske-sede-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Rulandské šedé – Dva kopce Kolby?",
-            "correctAnswer": "0,15 l",
+            "id": "sklo-charmat-palava-vol",
+            "question": "Jaký je servírovací objem / míra položky Charmat de Vinselekt Pálava?",
+            "correctAnswer": "0,1l",
             "distractors": [
-              "0,2 l",
-              "0,1 l"
+              "0,15 l",
+              "0,2 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Rulandské šedé – Dva kopce Kolby je 0,15 l."
+            "explanation": "Servírovací míra / objem položky Charmat de Vinselekt Pálava je 0,1l."
           },
           {
-            "id": "sklo-rulandske-sede-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Rulandské šedé – Dva kopce Kolby?",
-            "correctAnswer": "Dva kopce Kolby",
+            "id": "sklo-charmat-palava-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Charmat de Vinselekt Pálava?",
+            "correctAnswer": "Vinselect Michlovský",
             "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
+              "Čerstvý grepový fresh",
+              "Bezinkový sirup a čerstvá máta"
             ],
-            "explanation": "V podsložce Rulandské šedé – Dva kopce Kolby je obsaženo: Dva kopce Kolby. Kompletní receptura položky: Dva kopce Kolby, polosuché – Mikulovsko, Morava. Vyvážené, šťavnaté, aroma bílé broskve a drobného zahradního ovoce.."
+            "explanation": "U položky Charmat de Vinselekt Pálava je uvedeno: Vinselect Michlovský. Kompletní popis: Vinselect Michlovský, Extra sec."
           },
           {
-            "id": "sklo-rulandske-sede-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Rulandské šedé – Dva kopce Kolby?",
-            "correctAnswer": "Polosuché – Mikulovsko",
+            "id": "sklo-charmat-palava-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Charmat de Vinselekt Pálava?",
+            "correctAnswer": "Extra sec",
             "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
+              "Tonik Thomas Henry s chininem",
+              "Čerstvě pražená výběrová káva"
             ],
-            "explanation": "V podsložce Rulandské šedé – Dva kopce Kolby je obsaženo: Polosuché – Mikulovsko. Kompletní receptura položky: Dva kopce Kolby, polosuché – Mikulovsko, Morava. Vyvážené, šťavnaté, aroma bílé broskve a drobného zahradního ovoce.."
+            "explanation": "U položky Charmat de Vinselekt Pálava je uvedeno: Extra sec. Kompletní popis: Vinselect Michlovský, Extra sec."
           },
           {
-            "id": "sklo-rulandske-sede-ing-3",
-            "question": "Která odrůdová či vinařská vlastnost charakterizuje víno Rulandské šedé – Dva kopce Kolby?",
-            "correctAnswer": "Morava. Vyvážené",
-            "distractors": [
-              "Vinařství Michlovský",
-              "Mikulovská podoblast"
-            ],
-            "explanation": "V podsložce Rulandské šedé – Dva kopce Kolby je obsaženo: Morava. Vyvážené. Kompletní receptura položky: Dva kopce Kolby, polosuché – Mikulovsko, Morava. Vyvážené, šťavnaté, aroma bílé broskve a drobného zahradního ovoce.."
-          },
-          {
-            "id": "sklo-rulandske-sede-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Rulandské šedé – Dva kopce Kolby?",
-            "correctAnswer": "Šťavnaté",
-            "distractors": [
-              "Velkopavlovická podoblast",
-              "Mělnická podoblast"
-            ],
-            "explanation": "V podsložce Rulandské šedé – Dva kopce Kolby je obsaženo: Šťavnaté. Kompletní receptura položky: Dva kopce Kolby, polosuché – Mikulovsko, Morava. Vyvážené, šťavnaté, aroma bílé broskve a drobného zahradního ovoce.."
-          },
-          {
-            "id": "sklo-rulandske-sede-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Rulandské šedé – Dva kopce Kolby?",
-            "correctAnswer": "Aroma bílé broskve a drobného zahradního ovoce",
-            "distractors": [
-              "Kyselina a minerální tóny",
-              "Pozdní sběr"
-            ],
-            "explanation": "V podsložce Rulandské šedé – Dva kopce Kolby je obsaženo: Aroma bílé broskve a drobného zahradního ovoce. Kompletní receptura položky: Dva kopce Kolby, polosuché – Mikulovsko, Morava. Vyvážené, šťavnaté, aroma bílé broskve a drobného zahradního ovoce.."
-          },
-          {
-            "id": "sklo-rulandske-sede-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Rulandské šedé – Dva kopce Kolby?",
+            "id": "sklo-charmat-palava-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Charmat de Vinselekt Pálava?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
               "Alergen č. 14 – Měkkýši a výrobky z nich",
               "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
             ],
-            "explanation": "Rulandské šedé – Dva kopce Kolby obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
+            "explanation": "Charmat de Vinselekt Pálava obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
           }
         ]
       },
       {
-        "id": "sklo-cuvee-kraus-bile",
-        "name": "Cuvée Kraus – bílé",
-        "weight": "0,15 l",
-        "price": "98,-",
+        "id": "sklo-cremant-vinselekt",
+        "name": "Cremant de Vinselekt",
+        "weight": "0,1l",
+        "price": "115 Kč",
         "allergens": [
           "12"
         ],
-        "description": "Mělnicko, Čechy. Lehké, svěží, harmonický projev citrusů a žlutého ovoce.",
+        "description": "(Pinot, Chardonnay) Vinselect Michlovský, Extra brut",
         "questions": [
           {
-            "id": "sklo-cuvee-kraus-bile-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Cuvée Kraus – bílé?",
-            "correctAnswer": "0,15 l",
+            "id": "sklo-cremant-vinselekt-vol",
+            "question": "Jaký je servírovací objem / míra položky Cremant de Vinselekt?",
+            "correctAnswer": "0,1l",
             "distractors": [
-              "0,2 l",
-              "0,1 l"
+              "0,15 l",
+              "0,2 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Cuvée Kraus – bílé je 0,15 l."
+            "explanation": "Servírovací míra / objem položky Cremant de Vinselekt je 0,1l."
           },
           {
-            "id": "sklo-cuvee-kraus-bile-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Cuvée Kraus – bílé?",
-            "correctAnswer": "Mělnicko",
+            "id": "sklo-cremant-vinselekt-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Cremant de Vinselekt?",
+            "correctAnswer": "(Pinot",
             "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
             ],
-            "explanation": "V podsložce Cuvée Kraus – bílé je obsaženo: Mělnicko. Kompletní receptura položky: Mělnicko, Čechy. Lehké, svěží, harmonický projev citrusů a žlutého ovoce.."
+            "explanation": "U položky Cremant de Vinselekt je uvedeno: (Pinot. Kompletní popis: (Pinot, Chardonnay) Vinselect Michlovský, Extra brut."
           },
           {
-            "id": "sklo-cuvee-kraus-bile-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Cuvée Kraus – bílé?",
-            "correctAnswer": "Čechy. Lehké",
+            "id": "sklo-cremant-vinselekt-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Cremant de Vinselekt?",
+            "correctAnswer": "Chardonnay) Vinselect Michlovský",
             "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
+              "Jasmínový zelený čaj",
+              "Belgické višňové pivo"
             ],
-            "explanation": "V podsložce Cuvée Kraus – bílé je obsaženo: Čechy. Lehké. Kompletní receptura položky: Mělnicko, Čechy. Lehké, svěží, harmonický projev citrusů a žlutého ovoce.."
+            "explanation": "U položky Cremant de Vinselekt je uvedeno: Chardonnay) Vinselect Michlovský. Kompletní popis: (Pinot, Chardonnay) Vinselect Michlovský, Extra brut."
           },
           {
-            "id": "sklo-cuvee-kraus-bile-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Cuvée Kraus – bílé?",
-            "correctAnswer": "Svěží",
-            "distractors": [
-              "Vinařství Michlovský",
-              "Mikulovská podoblast"
-            ],
-            "explanation": "V podsložce Cuvée Kraus – bílé je obsaženo: Svěží. Kompletní receptura položky: Mělnicko, Čechy. Lehké, svěží, harmonický projev citrusů a žlutého ovoce.."
-          },
-          {
-            "id": "sklo-cuvee-kraus-bile-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Cuvée Kraus – bílé?",
-            "correctAnswer": "Harmonický projev citrusů a žlutého ovoce",
-            "distractors": [
-              "Velkopavlovická podoblast",
-              "Mělnická podoblast"
-            ],
-            "explanation": "V podsložce Cuvée Kraus – bílé je obsaženo: Harmonický projev citrusů a žlutého ovoce. Kompletní receptura položky: Mělnicko, Čechy. Lehké, svěží, harmonický projev citrusů a žlutého ovoce.."
-          },
-          {
-            "id": "sklo-cuvee-kraus-bile-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Cuvée Kraus – bílé?",
+            "id": "sklo-cremant-vinselekt-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Cremant de Vinselekt?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
               "Alergen č. 14 – Měkkýši a výrobky z nich",
               "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
             ],
-            "explanation": "Cuvée Kraus – bílé obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
+            "explanation": "Cremant de Vinselekt obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+          }
+        ]
+      },
+      {
+        "id": "sklo-rulandske-sede",
+        "name": "Rulandské šedé",
+        "weight": "0,15l",
+        "price": "95 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Kolby Morava, polosuché",
+        "questions": [
+          {
+            "id": "sklo-rulandske-sede-vol",
+            "question": "Jaký je servírovací objem / míra položky Rulandské šedé?",
+            "correctAnswer": "0,15l",
+            "distractors": [
+              "0,1 l",
+              "0,2 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Rulandské šedé je 0,15l."
+          },
+          {
+            "id": "sklo-rulandske-sede-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Rulandské šedé?",
+            "correctAnswer": "Kolby Morava",
+            "distractors": [
+              "Čerstvý grepový fresh",
+              "Bezinkový sirup a čerstvá máta"
+            ],
+            "explanation": "U položky Rulandské šedé je uvedeno: Kolby Morava. Kompletní popis: Kolby Morava, polosuché."
+          },
+          {
+            "id": "sklo-rulandske-sede-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Rulandské šedé?",
+            "correctAnswer": "Polosuché",
+            "distractors": [
+              "Tonik Thomas Henry s chininem",
+              "Čerstvě pražená výběrová káva"
+            ],
+            "explanation": "U položky Rulandské šedé je uvedeno: Polosuché. Kompletní popis: Kolby Morava, polosuché."
+          },
+          {
+            "id": "sklo-rulandske-sede-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Rulandské šedé?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+            ],
+            "explanation": "Rulandské šedé obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+          }
+        ]
+      },
+      {
+        "id": "sklo-cuvee-bile",
+        "name": "Cuvée bílé",
+        "weight": "0,15l",
+        "price": "98 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Kraus Čechy",
+        "questions": [
+          {
+            "id": "sklo-cuvee-bile-vol",
+            "question": "Jaký je servírovací objem / míra položky Cuvée bílé?",
+            "correctAnswer": "0,15l",
+            "distractors": [
+              "0,1 l",
+              "0,2 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Cuvée bílé je 0,15l."
+          },
+          {
+            "id": "sklo-cuvee-bile-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Cuvée bílé?",
+            "correctAnswer": "Kraus Čechy",
+            "distractors": [
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
+            ],
+            "explanation": "U položky Cuvée bílé je uvedeno: Kraus Čechy. Kompletní popis: Kraus Čechy."
+          },
+          {
+            "id": "sklo-cuvee-bile-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Cuvée bílé?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+            ],
+            "explanation": "Cuvée bílé obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
           }
         ]
       },
       {
         "id": "sklo-gruner-veltliner",
-        "name": "Grüner Veltliner – Heuriger",
-        "weight": "0,15 l",
-        "price": "109,-",
+        "name": "Grüner Veltliner",
+        "weight": "0,15l",
+        "price": "109 Kč",
         "allergens": [
           "12"
         ],
-        "description": "Heuriger – Niederösterreich, Rakousko. Svěží, lehké, jemné aroma citrusů s tóny zeleného jablka.",
+        "description": "Heuriger Rakousko",
         "questions": [
           {
             "id": "sklo-gruner-veltliner-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Grüner Veltliner – Heuriger?",
-            "correctAnswer": "0,15 l",
+            "question": "Jaký je servírovací objem / míra položky Grüner Veltliner?",
+            "correctAnswer": "0,15l",
             "distractors": [
-              "0,2 l",
-              "0,1 l"
+              "0,1 l",
+              "0,2 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Grüner Veltliner – Heuriger je 0,15 l."
+            "explanation": "Servírovací míra / objem položky Grüner Veltliner je 0,15l."
           },
           {
             "id": "sklo-gruner-veltliner-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Grüner Veltliner – Heuriger?",
-            "correctAnswer": "Heuriger – Niederösterreich",
+            "question": "Která surovina, původ či charakteristika patří k položce Grüner Veltliner?",
+            "correctAnswer": "Heuriger Rakousko",
             "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
+              "Vanilkový sirup a limetová šťáva",
+              "Třtinový cukr s limetkou"
             ],
-            "explanation": "V podsložce Grüner Veltliner – Heuriger je obsaženo: Heuriger – Niederösterreich. Kompletní receptura položky: Heuriger – Niederösterreich, Rakousko. Svěží, lehké, jemné aroma citrusů s tóny zeleného jablka.."
-          },
-          {
-            "id": "sklo-gruner-veltliner-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Grüner Veltliner – Heuriger?",
-            "correctAnswer": "Rakousko. Svěží",
-            "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
-            ],
-            "explanation": "V podsložce Grüner Veltliner – Heuriger je obsaženo: Rakousko. Svěží. Kompletní receptura položky: Heuriger – Niederösterreich, Rakousko. Svěží, lehké, jemné aroma citrusů s tóny zeleného jablka.."
-          },
-          {
-            "id": "sklo-gruner-veltliner-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Grüner Veltliner – Heuriger?",
-            "correctAnswer": "Lehké",
-            "distractors": [
-              "Vinařství Michlovský",
-              "Mikulovská podoblast"
-            ],
-            "explanation": "V podsložce Grüner Veltliner – Heuriger je obsaženo: Lehké. Kompletní receptura položky: Heuriger – Niederösterreich, Rakousko. Svěží, lehké, jemné aroma citrusů s tóny zeleného jablka.."
-          },
-          {
-            "id": "sklo-gruner-veltliner-ing-4",
-            "question": "Kterou zeleninovou či ovocnou složku obsahuje podsložka Grüner Veltliner – Heuriger?",
-            "correctAnswer": "Jemné aroma citrusů s tóny zeleného jablka",
-            "distractors": [
-              "Velkopavlovická podoblast",
-              "Mělnická podoblast"
-            ],
-            "explanation": "V podsložce Grüner Veltliner – Heuriger je obsaženo: Jemné aroma citrusů s tóny zeleného jablka. Kompletní receptura položky: Heuriger – Niederösterreich, Rakousko. Svěží, lehké, jemné aroma citrusů s tóny zeleného jablka.."
+            "explanation": "U položky Grüner Veltliner je uvedeno: Heuriger Rakousko. Kompletní popis: Heuriger Rakousko."
           },
           {
             "id": "sklo-gruner-veltliner-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Grüner Veltliner – Heuriger?",
+            "question": "Který z následujících alergenů obsahuje položka Grüner Veltliner?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
               "Alergen č. 14 – Měkkýši a výrobky z nich",
               "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
             ],
-            "explanation": "Grüner Veltliner – Heuriger obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
+            "explanation": "Grüner Veltliner obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
           }
         ]
       },
       {
-        "id": "sklo-chardonnay-adulation",
-        "name": "Chardonnay – Adulation",
-        "weight": "0,15 l",
-        "price": "125,-",
+        "id": "sklo-chardonnay",
+        "name": "Chardonnay",
+        "weight": "0,15l",
+        "price": "125 Kč",
         "allergens": [
           "12"
         ],
-        "description": "Adulation – Kalifornie. Víno školené na dubu, plné, hedvábný závěr, tropické ovoce, sladké koření a vanilka.",
+        "description": "Adulation Kalifornie",
         "questions": [
           {
-            "id": "sklo-chardonnay-adulation-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Chardonnay – Adulation?",
-            "correctAnswer": "0,15 l",
+            "id": "sklo-chardonnay-vol",
+            "question": "Jaký je servírovací objem / míra položky Chardonnay?",
+            "correctAnswer": "0,15l",
             "distractors": [
-              "0,2 l",
-              "0,1 l"
+              "0,1 l",
+              "0,2 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Chardonnay – Adulation je 0,15 l."
+            "explanation": "Servírovací míra / objem položky Chardonnay je 0,15l."
           },
           {
-            "id": "sklo-chardonnay-adulation-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Chardonnay – Adulation?",
-            "correctAnswer": "Adulation – Kalifornie. Víno školené na dubu",
+            "id": "sklo-chardonnay-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Chardonnay?",
+            "correctAnswer": "Adulation Kalifornie",
             "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
             ],
-            "explanation": "V podsložce Chardonnay – Adulation je obsaženo: Adulation – Kalifornie. Víno školené na dubu. Kompletní receptura položky: Adulation – Kalifornie. Víno školené na dubu, plné, hedvábný závěr, tropické ovoce, sladké koření a vanilka.."
+            "explanation": "U položky Chardonnay je uvedeno: Adulation Kalifornie. Kompletní popis: Adulation Kalifornie."
           },
           {
-            "id": "sklo-chardonnay-adulation-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Chardonnay – Adulation?",
-            "correctAnswer": "Plné",
-            "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
-            ],
-            "explanation": "V podsložce Chardonnay – Adulation je obsaženo: Plné. Kompletní receptura položky: Adulation – Kalifornie. Víno školené na dubu, plné, hedvábný závěr, tropické ovoce, sladké koření a vanilka.."
-          },
-          {
-            "id": "sklo-chardonnay-adulation-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Chardonnay – Adulation?",
-            "correctAnswer": "Hedvábný závěr",
-            "distractors": [
-              "Vinařství Michlovský",
-              "Mikulovská podoblast"
-            ],
-            "explanation": "V podsložce Chardonnay – Adulation je obsaženo: Hedvábný závěr. Kompletní receptura položky: Adulation – Kalifornie. Víno školené na dubu, plné, hedvábný závěr, tropické ovoce, sladké koření a vanilka.."
-          },
-          {
-            "id": "sklo-chardonnay-adulation-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Chardonnay – Adulation?",
-            "correctAnswer": "Tropické ovoce",
-            "distractors": [
-              "Velkopavlovická podoblast",
-              "Mělnická podoblast"
-            ],
-            "explanation": "V podsložce Chardonnay – Adulation je obsaženo: Tropické ovoce. Kompletní receptura položky: Adulation – Kalifornie. Víno školené na dubu, plné, hedvábný závěr, tropické ovoce, sladké koření a vanilka.."
-          },
-          {
-            "id": "sklo-chardonnay-adulation-ing-5",
-            "question": "Která pivovarská surovina nebo vlastnost charakterizuje Chardonnay – Adulation?",
-            "correctAnswer": "Sladké koření a vanilka",
-            "distractors": [
-              "Kyselina a minerální tóny",
-              "Pozdní sběr"
-            ],
-            "explanation": "V podsložce Chardonnay – Adulation je obsaženo: Sladké koření a vanilka. Kompletní receptura položky: Adulation – Kalifornie. Víno školené na dubu, plné, hedvábný závěr, tropické ovoce, sladké koření a vanilka.."
-          },
-          {
-            "id": "sklo-chardonnay-adulation-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Chardonnay – Adulation?",
+            "id": "sklo-chardonnay-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Chardonnay?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
               "Alergen č. 14 – Měkkýši a výrobky z nich",
               "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
             ],
-            "explanation": "Chardonnay – Adulation obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
+            "explanation": "Chardonnay obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
           }
         ]
       },
       {
         "id": "sklo-modry-portugal-rose",
-        "name": "Modrý Portugal – rosé Dva kopce Kolby",
-        "weight": "0,15 l",
-        "price": "95,-",
+        "name": "Modrý Portugal rosé",
+        "weight": "0,15l",
+        "price": "95 Kč",
         "allergens": [
           "12"
         ],
-        "description": "Mikulovsko, Morava. Svěží, lososová barva, dochuť letního ovoce, vůně s tóny čerstvých jahod a třešní.",
+        "description": "Kolby Morava",
         "questions": [
           {
             "id": "sklo-modry-portugal-rose-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Modrý Portugal – rosé Dva kopce Kolby?",
-            "correctAnswer": "0,15 l",
+            "question": "Jaký je servírovací objem / míra položky Modrý Portugal rosé?",
+            "correctAnswer": "0,15l",
             "distractors": [
-              "0,2 l",
-              "0,1 l"
+              "0,1 l",
+              "0,2 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Modrý Portugal – rosé Dva kopce Kolby je 0,15 l."
+            "explanation": "Servírovací míra / objem položky Modrý Portugal rosé je 0,15l."
           },
           {
             "id": "sklo-modry-portugal-rose-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Modrý Portugal – rosé Dva kopce Kolby?",
-            "correctAnswer": "Mikulovsko",
+            "question": "Která surovina, původ či charakteristika patří k položce Modrý Portugal rosé?",
+            "correctAnswer": "Kolby Morava",
             "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
             ],
-            "explanation": "V podsložce Modrý Portugal – rosé Dva kopce Kolby je obsaženo: Mikulovsko. Kompletní receptura položky: Mikulovsko, Morava. Svěží, lososová barva, dochuť letního ovoce, vůně s tóny čerstvých jahod a třešní.."
-          },
-          {
-            "id": "sklo-modry-portugal-rose-ing-2",
-            "question": "Která odrůdová či vinařská vlastnost charakterizuje víno Modrý Portugal – rosé Dva kopce Kolby?",
-            "correctAnswer": "Morava. Svěží",
-            "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
-            ],
-            "explanation": "V podsložce Modrý Portugal – rosé Dva kopce Kolby je obsaženo: Morava. Svěží. Kompletní receptura položky: Mikulovsko, Morava. Svěží, lososová barva, dochuť letního ovoce, vůně s tóny čerstvých jahod a třešní.."
-          },
-          {
-            "id": "sklo-modry-portugal-rose-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Modrý Portugal – rosé Dva kopce Kolby?",
-            "correctAnswer": "Lososová barva",
-            "distractors": [
-              "Vinařství Michlovský",
-              "Mikulovská podoblast"
-            ],
-            "explanation": "V podsložce Modrý Portugal – rosé Dva kopce Kolby je obsaženo: Lososová barva. Kompletní receptura položky: Mikulovsko, Morava. Svěží, lososová barva, dochuť letního ovoce, vůně s tóny čerstvých jahod a třešní.."
-          },
-          {
-            "id": "sklo-modry-portugal-rose-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Modrý Portugal – rosé Dva kopce Kolby?",
-            "correctAnswer": "Dochuť letního ovoce",
-            "distractors": [
-              "Velkopavlovická podoblast",
-              "Mělnická podoblast"
-            ],
-            "explanation": "V podsložce Modrý Portugal – rosé Dva kopce Kolby je obsaženo: Dochuť letního ovoce. Kompletní receptura položky: Mikulovsko, Morava. Svěží, lososová barva, dochuť letního ovoce, vůně s tóny čerstvých jahod a třešní.."
-          },
-          {
-            "id": "sklo-modry-portugal-rose-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Modrý Portugal – rosé Dva kopce Kolby?",
-            "correctAnswer": "Vůně s tóny čerstvých jahod a třešní",
-            "distractors": [
-              "Kyselina a minerální tóny",
-              "Pozdní sběr"
-            ],
-            "explanation": "V podsložce Modrý Portugal – rosé Dva kopce Kolby je obsaženo: Vůně s tóny čerstvých jahod a třešní. Kompletní receptura položky: Mikulovsko, Morava. Svěží, lososová barva, dochuť letního ovoce, vůně s tóny čerstvých jahod a třešní.."
+            "explanation": "U položky Modrý Portugal rosé je uvedeno: Kolby Morava. Kompletní popis: Kolby Morava."
           },
           {
             "id": "sklo-modry-portugal-rose-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Modrý Portugal – rosé Dva kopce Kolby?",
+            "question": "Který z následujících alergenů obsahuje položka Modrý Portugal rosé?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
               "Alergen č. 14 – Měkkýši a výrobky z nich",
               "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
             ],
-            "explanation": "Modrý Portugal – rosé Dva kopce Kolby obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
+            "explanation": "Modrý Portugal rosé obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
           }
         ]
       },
       {
-        "id": "sklo-modry-portugal-cervene",
-        "name": "Modrý Portugal – červené Dva kopce Kolby",
-        "weight": "0,15 l",
-        "price": "95,-",
+        "id": "sklo-modry-portugal",
+        "name": "Modrý Portugal",
+        "weight": "0,15l",
+        "price": "95 Kč",
         "allergens": [
           "12"
         ],
-        "description": "Mikulovsko, Morava. Lehká rubínová barva, vůně drobného zahradního ovoce, dochuť jemně kořeněná.",
+        "description": "Kolby Morava",
         "questions": [
           {
-            "id": "sklo-modry-portugal-cervene-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Modrý Portugal – červené Dva kopce Kolby?",
-            "correctAnswer": "0,15 l",
+            "id": "sklo-modry-portugal-vol",
+            "question": "Jaký je servírovací objem / míra položky Modrý Portugal?",
+            "correctAnswer": "0,15l",
             "distractors": [
-              "0,2 l",
-              "0,1 l"
+              "0,1 l",
+              "0,2 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Modrý Portugal – červené Dva kopce Kolby je 0,15 l."
+            "explanation": "Servírovací míra / objem položky Modrý Portugal je 0,15l."
           },
           {
-            "id": "sklo-modry-portugal-cervene-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Modrý Portugal – červené Dva kopce Kolby?",
-            "correctAnswer": "Mikulovsko",
+            "id": "sklo-modry-portugal-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Modrý Portugal?",
+            "correctAnswer": "Kolby Morava",
             "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
+              "Čerstvý grepový fresh",
+              "Bezinkový sirup a čerstvá máta"
             ],
-            "explanation": "V podsložce Modrý Portugal – červené Dva kopce Kolby je obsaženo: Mikulovsko. Kompletní receptura položky: Mikulovsko, Morava. Lehká rubínová barva, vůně drobného zahradního ovoce, dochuť jemně kořeněná.."
+            "explanation": "U položky Modrý Portugal je uvedeno: Kolby Morava. Kompletní popis: Kolby Morava."
           },
           {
-            "id": "sklo-modry-portugal-cervene-ing-2",
-            "question": "Která odrůdová či vinařská vlastnost charakterizuje víno Modrý Portugal – červené Dva kopce Kolby?",
-            "correctAnswer": "Morava. Lehká rubínová barva",
-            "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
-            ],
-            "explanation": "V podsložce Modrý Portugal – červené Dva kopce Kolby je obsaženo: Morava. Lehká rubínová barva. Kompletní receptura položky: Mikulovsko, Morava. Lehká rubínová barva, vůně drobného zahradního ovoce, dochuť jemně kořeněná.."
-          },
-          {
-            "id": "sklo-modry-portugal-cervene-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Modrý Portugal – červené Dva kopce Kolby?",
-            "correctAnswer": "Vůně drobného zahradního ovoce",
-            "distractors": [
-              "Vinařství Michlovský",
-              "Mikulovská podoblast"
-            ],
-            "explanation": "V podsložce Modrý Portugal – červené Dva kopce Kolby je obsaženo: Vůně drobného zahradního ovoce. Kompletní receptura položky: Mikulovsko, Morava. Lehká rubínová barva, vůně drobného zahradního ovoce, dochuť jemně kořeněná.."
-          },
-          {
-            "id": "sklo-modry-portugal-cervene-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Modrý Portugal – červené Dva kopce Kolby?",
-            "correctAnswer": "Dochuť jemně kořeněná",
-            "distractors": [
-              "Velkopavlovická podoblast",
-              "Mělnická podoblast"
-            ],
-            "explanation": "V podsložce Modrý Portugal – červené Dva kopce Kolby je obsaženo: Dochuť jemně kořeněná. Kompletní receptura položky: Mikulovsko, Morava. Lehká rubínová barva, vůně drobného zahradního ovoce, dochuť jemně kořeněná.."
-          },
-          {
-            "id": "sklo-modry-portugal-cervene-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Modrý Portugal – červené Dva kopce Kolby?",
+            "id": "sklo-modry-portugal-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Modrý Portugal?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
               "Alergen č. 14 – Měkkýši a výrobky z nich",
               "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
             ],
-            "explanation": "Modrý Portugal – červené Dva kopce Kolby obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
+            "explanation": "Modrý Portugal obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
           }
         ]
       },
       {
-        "id": "sklo-cuvee-kraus-cervene",
-        "name": "Cuvée Kraus – červené",
-        "weight": "0,15 l",
-        "price": "98,-",
+        "id": "sklo-cuvee-cervene",
+        "name": "Cuvée červené",
+        "weight": "0,15l",
+        "price": "98 Kč",
         "allergens": [
           "12"
         ],
-        "description": "Mělnicko, Čechy. Sytá barva, měkčí třísloviny, chuť červeného ovoce.",
+        "description": "Kraus Čechy",
         "questions": [
           {
-            "id": "sklo-cuvee-kraus-cervene-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Cuvée Kraus – červené?",
-            "correctAnswer": "0,15 l",
+            "id": "sklo-cuvee-cervene-vol",
+            "question": "Jaký je servírovací objem / míra položky Cuvée červené?",
+            "correctAnswer": "0,15l",
             "distractors": [
-              "0,2 l",
-              "0,1 l"
+              "0,1 l",
+              "0,2 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Cuvée Kraus – červené je 0,15 l."
+            "explanation": "Servírovací míra / objem položky Cuvée červené je 0,15l."
           },
           {
-            "id": "sklo-cuvee-kraus-cervene-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Cuvée Kraus – červené?",
-            "correctAnswer": "Mělnicko",
+            "id": "sklo-cuvee-cervene-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Cuvée červené?",
+            "correctAnswer": "Kraus Čechy",
             "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
+              "Světlý ležák plzeňského typu",
+              "Jablečný mošt z rodinné farmy"
             ],
-            "explanation": "V podsložce Cuvée Kraus – červené je obsaženo: Mělnicko. Kompletní receptura položky: Mělnicko, Čechy. Sytá barva, měkčí třísloviny, chuť červeného ovoce.."
+            "explanation": "U položky Cuvée červené je uvedeno: Kraus Čechy. Kompletní popis: Kraus Čechy."
           },
           {
-            "id": "sklo-cuvee-kraus-cervene-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Cuvée Kraus – červené?",
-            "correctAnswer": "Čechy. Sytá barva",
-            "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
-            ],
-            "explanation": "V podsložce Cuvée Kraus – červené je obsaženo: Čechy. Sytá barva. Kompletní receptura položky: Mělnicko, Čechy. Sytá barva, měkčí třísloviny, chuť červeného ovoce.."
-          },
-          {
-            "id": "sklo-cuvee-kraus-cervene-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Cuvée Kraus – červené?",
-            "correctAnswer": "Měkčí třísloviny",
-            "distractors": [
-              "Vinařství Michlovský",
-              "Mikulovská podoblast"
-            ],
-            "explanation": "V podsložce Cuvée Kraus – červené je obsaženo: Měkčí třísloviny. Kompletní receptura položky: Mělnicko, Čechy. Sytá barva, měkčí třísloviny, chuť červeného ovoce.."
-          },
-          {
-            "id": "sklo-cuvee-kraus-cervene-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Cuvée Kraus – červené?",
-            "correctAnswer": "Chuť červeného ovoce",
-            "distractors": [
-              "Velkopavlovická podoblast",
-              "Mělnická podoblast"
-            ],
-            "explanation": "V podsložce Cuvée Kraus – červené je obsaženo: Chuť červeného ovoce. Kompletní receptura položky: Mělnicko, Čechy. Sytá barva, měkčí třísloviny, chuť červeného ovoce.."
-          },
-          {
-            "id": "sklo-cuvee-kraus-cervene-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Cuvée Kraus – červené?",
+            "id": "sklo-cuvee-cervene-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Cuvée červené?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
               "Alergen č. 14 – Měkkýši a výrobky z nich",
               "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
             ],
-            "explanation": "Cuvée Kraus – červené obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
+            "explanation": "Cuvée červené obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
           }
         ]
       },
       {
-        "id": "sklo-pinot-noir-adulation",
-        "name": "Pinot Noir – Adulation",
-        "weight": "0,15 l",
-        "price": "125,-",
+        "id": "sklo-pinot-noir",
+        "name": "Pinot Noir",
+        "weight": "0,15l",
+        "price": "125 Kč",
         "allergens": [
           "12"
         ],
-        "description": "Adulation – Kalifornie. Plné, výrazně ovocné, chuť zralé červené bobulovité ovoce a třešně.",
+        "description": "Adulation Kalifornie",
         "questions": [
           {
-            "id": "sklo-pinot-noir-adulation-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Pinot Noir – Adulation?",
-            "correctAnswer": "0,15 l",
+            "id": "sklo-pinot-noir-vol",
+            "question": "Jaký je servírovací objem / míra položky Pinot Noir?",
+            "correctAnswer": "0,15l",
             "distractors": [
-              "0,2 l",
-              "0,1 l"
+              "0,1 l",
+              "0,2 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Pinot Noir – Adulation je 0,15 l."
+            "explanation": "Servírovací míra / objem položky Pinot Noir je 0,15l."
           },
           {
-            "id": "sklo-pinot-noir-adulation-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Pinot Noir – Adulation?",
-            "correctAnswer": "Adulation – Kalifornie. Plné",
+            "id": "sklo-pinot-noir-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Pinot Noir?",
+            "correctAnswer": "Adulation Kalifornie",
             "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
             ],
-            "explanation": "V podsložce Pinot Noir – Adulation je obsaženo: Adulation – Kalifornie. Plné. Kompletní receptura položky: Adulation – Kalifornie. Plné, výrazně ovocné, chuť zralé červené bobulovité ovoce a třešně.."
+            "explanation": "U položky Pinot Noir je uvedeno: Adulation Kalifornie. Kompletní popis: Adulation Kalifornie."
           },
           {
-            "id": "sklo-pinot-noir-adulation-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Pinot Noir – Adulation?",
-            "correctAnswer": "Výrazně ovocné",
-            "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
-            ],
-            "explanation": "V podsložce Pinot Noir – Adulation je obsaženo: Výrazně ovocné. Kompletní receptura položky: Adulation – Kalifornie. Plné, výrazně ovocné, chuť zralé červené bobulovité ovoce a třešně.."
-          },
-          {
-            "id": "sklo-pinot-noir-adulation-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Pinot Noir – Adulation?",
-            "correctAnswer": "Chuť zralé červené bobulovité ovoce a třešně",
-            "distractors": [
-              "Vinařství Michlovský",
-              "Mikulovská podoblast"
-            ],
-            "explanation": "V podsložce Pinot Noir – Adulation je obsaženo: Chuť zralé červené bobulovité ovoce a třešně. Kompletní receptura položky: Adulation – Kalifornie. Plné, výrazně ovocné, chuť zralé červené bobulovité ovoce a třešně.."
-          },
-          {
-            "id": "sklo-pinot-noir-adulation-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Pinot Noir – Adulation?",
+            "id": "sklo-pinot-noir-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Pinot Noir?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
               "Alergen č. 14 – Měkkýši a výrobky z nich",
               "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
             ],
-            "explanation": "Pinot Noir – Adulation obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "bublinky",
-    "name": "bubliny",
-    "badge": "Bubliny",
-    "description": "Šumivá vína, moravský sekt a šampaňské pro slavnostní chvíle",
-    "iconName": "Sparkles",
-    "items": [
-      {
-        "id": "bubliny-charmat-palava",
-        "name": "Charmat de Vinselekt Pálava",
-        "weight": "0,1 l / 0,75 l",
-        "price": "99,- / 699,-",
-        "allergens": [
-          "12"
-        ],
-        "description": "Vinselect Michlovský, extra sec – Morava. Divoké perlení, opulentní vůně s nádechem růží a exotického ovoce, kulatá podmanivá chuť.",
-        "questions": [
-          {
-            "id": "bubliny-charmat-palava-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Charmat de Vinselekt Pálava?",
-            "correctAnswer": "0,1 l / 0,75 l",
-            "distractors": [
-              "0,02 l",
-              "0,03 l"
-            ],
-            "explanation": "Servírovací míra / objem podsložky Charmat de Vinselekt Pálava je 0,1 l / 0,75 l."
-          },
-          {
-            "id": "bubliny-charmat-palava-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Charmat de Vinselekt Pálava?",
-            "correctAnswer": "Vinselect Michlovský",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Charmat de Vinselekt Pálava je obsaženo: Vinselect Michlovský. Kompletní receptura položky: Vinselect Michlovský, extra sec – Morava. Divoké perlení, opulentní vůně s nádechem růží a exotického ovoce, kulatá podmanivá chuť.."
-          },
-          {
-            "id": "bubliny-charmat-palava-ing-2",
-            "question": "Která odrůdová či vinařská vlastnost charakterizuje víno Charmat de Vinselekt Pálava?",
-            "correctAnswer": "Extra sec – Morava. Divoké perlení",
-            "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
-            ],
-            "explanation": "V podsložce Charmat de Vinselekt Pálava je obsaženo: Extra sec – Morava. Divoké perlení. Kompletní receptura položky: Vinselect Michlovský, extra sec – Morava. Divoké perlení, opulentní vůně s nádechem růží a exotického ovoce, kulatá podmanivá chuť.."
-          },
-          {
-            "id": "bubliny-charmat-palava-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Charmat de Vinselekt Pálava?",
-            "correctAnswer": "Opulentní vůně s nádechem růží a exotického ovoce",
-            "distractors": [
-              "Vinařství Michlovský",
-              "Mikulovská podoblast"
-            ],
-            "explanation": "V podsložce Charmat de Vinselekt Pálava je obsaženo: Opulentní vůně s nádechem růží a exotického ovoce. Kompletní receptura položky: Vinselect Michlovský, extra sec – Morava. Divoké perlení, opulentní vůně s nádechem růží a exotického ovoce, kulatá podmanivá chuť.."
-          },
-          {
-            "id": "bubliny-charmat-palava-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Charmat de Vinselekt Pálava?",
-            "correctAnswer": "Kulatá podmanivá chuť",
-            "distractors": [
-              "Velkopavlovická podoblast",
-              "Mělnická podoblast"
-            ],
-            "explanation": "V podsložce Charmat de Vinselekt Pálava je obsaženo: Kulatá podmanivá chuť. Kompletní receptura položky: Vinselect Michlovský, extra sec – Morava. Divoké perlení, opulentní vůně s nádechem růží a exotického ovoce, kulatá podmanivá chuť.."
-          },
-          {
-            "id": "bubliny-charmat-palava-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Charmat de Vinselekt Pálava?",
-            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Charmat de Vinselekt Pálava obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
-          }
-        ]
-      },
-      {
-        "id": "bubliny-cremant-vinselekt",
-        "name": "Crémant de Vinselekt (Pinot, Chardonnay)",
-        "weight": "0,1 l / 0,75 l",
-        "price": "115,- / 849,-",
-        "allergens": [
-          "12"
-        ],
-        "description": "Vinselect Michlovský, extra brut – Morava. Jemné impozantní perlení, elegantní aroma, harmonická krémová dochuť.",
-        "questions": [
-          {
-            "id": "bubliny-cremant-vinselekt-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Crémant de Vinselekt (Pinot, Chardonnay)?",
-            "correctAnswer": "0,1 l / 0,75 l",
-            "distractors": [
-              "0,02 l",
-              "0,03 l"
-            ],
-            "explanation": "Servírovací míra / objem podsložky Crémant de Vinselekt (Pinot, Chardonnay) je 0,1 l / 0,75 l."
-          },
-          {
-            "id": "bubliny-cremant-vinselekt-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Crémant de Vinselekt (Pinot, Chardonnay)?",
-            "correctAnswer": "Vinselect Michlovský",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Crémant de Vinselekt (Pinot, Chardonnay) je obsaženo: Vinselect Michlovský. Kompletní receptura položky: Vinselect Michlovský, extra brut – Morava. Jemné impozantní perlení, elegantní aroma, harmonická krémová dochuť.."
-          },
-          {
-            "id": "bubliny-cremant-vinselekt-ing-2",
-            "question": "Která odrůdová či vinařská vlastnost charakterizuje víno Crémant de Vinselekt (Pinot, Chardonnay)?",
-            "correctAnswer": "Extra brut – Morava. Jemné impozantní perlení",
-            "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
-            ],
-            "explanation": "V podsložce Crémant de Vinselekt (Pinot, Chardonnay) je obsaženo: Extra brut – Morava. Jemné impozantní perlení. Kompletní receptura položky: Vinselect Michlovský, extra brut – Morava. Jemné impozantní perlení, elegantní aroma, harmonická krémová dochuť.."
-          },
-          {
-            "id": "bubliny-cremant-vinselekt-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Crémant de Vinselekt (Pinot, Chardonnay)?",
-            "correctAnswer": "Elegantní aroma",
-            "distractors": [
-              "Vinařství Michlovský",
-              "Mikulovská podoblast"
-            ],
-            "explanation": "V podsložce Crémant de Vinselekt (Pinot, Chardonnay) je obsaženo: Elegantní aroma. Kompletní receptura položky: Vinselect Michlovský, extra brut – Morava. Jemné impozantní perlení, elegantní aroma, harmonická krémová dochuť.."
-          },
-          {
-            "id": "bubliny-cremant-vinselekt-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Crémant de Vinselekt (Pinot, Chardonnay)?",
-            "correctAnswer": "Harmonická krémová dochuť",
-            "distractors": [
-              "Velkopavlovická podoblast",
-              "Mělnická podoblast"
-            ],
-            "explanation": "V podsložce Crémant de Vinselekt (Pinot, Chardonnay) je obsaženo: Harmonická krémová dochuť. Kompletní receptura položky: Vinselect Michlovský, extra brut – Morava. Jemné impozantní perlení, elegantní aroma, harmonická krémová dochuť.."
-          },
-          {
-            "id": "bubliny-cremant-vinselekt-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Crémant de Vinselekt (Pinot, Chardonnay)?",
-            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Crémant de Vinselekt (Pinot, Chardonnay) obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
-          }
-        ]
-      },
-      {
-        "id": "bubliny-angels-cowboys",
-        "name": "Angels & Cowboys",
-        "weight": "0,75 l",
-        "price": "1 199,-",
-        "allergens": [
-          "12"
-        ],
-        "description": "NV, brut – North Coast, Kalifornie. Druhotné zrání v láhvi, elegantní perlení, svěží sadové ovoce, citrusy, tóny briošky a chlebové kůrky.",
-        "questions": [
-          {
-            "id": "bubliny-angels-cowboys-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Angels & Cowboys?",
-            "correctAnswer": "0,75 l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem podsložky Angels & Cowboys je 0,75 l."
-          },
-          {
-            "id": "bubliny-angels-cowboys-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Angels & Cowboys?",
-            "correctAnswer": "NV",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Angels & Cowboys je obsaženo: NV. Kompletní receptura položky: NV, brut – North Coast, Kalifornie. Druhotné zrání v láhvi, elegantní perlení, svěží sadové ovoce, citrusy, tóny briošky a chlebové kůrky.."
-          },
-          {
-            "id": "bubliny-angels-cowboys-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Angels & Cowboys?",
-            "correctAnswer": "Brut – North Coast",
-            "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
-            ],
-            "explanation": "V podsložce Angels & Cowboys je obsaženo: Brut – North Coast. Kompletní receptura položky: NV, brut – North Coast, Kalifornie. Druhotné zrání v láhvi, elegantní perlení, svěží sadové ovoce, citrusy, tóny briošky a chlebové kůrky.."
-          },
-          {
-            "id": "bubliny-angels-cowboys-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Angels & Cowboys?",
-            "correctAnswer": "Kalifornie. Druhotné zrání v láhvi",
-            "distractors": [
-              "Vinařství Michlovský",
-              "Mikulovská podoblast"
-            ],
-            "explanation": "V podsložce Angels & Cowboys je obsaženo: Kalifornie. Druhotné zrání v láhvi. Kompletní receptura položky: NV, brut – North Coast, Kalifornie. Druhotné zrání v láhvi, elegantní perlení, svěží sadové ovoce, citrusy, tóny briošky a chlebové kůrky.."
-          },
-          {
-            "id": "bubliny-angels-cowboys-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Angels & Cowboys?",
-            "correctAnswer": "Elegantní perlení",
-            "distractors": [
-              "Velkopavlovická podoblast",
-              "Mělnická podoblast"
-            ],
-            "explanation": "V podsložce Angels & Cowboys je obsaženo: Elegantní perlení. Kompletní receptura položky: NV, brut – North Coast, Kalifornie. Druhotné zrání v láhvi, elegantní perlení, svěží sadové ovoce, citrusy, tóny briošky a chlebové kůrky.."
-          },
-          {
-            "id": "bubliny-angels-cowboys-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Angels & Cowboys?",
-            "correctAnswer": "Svěží sadové ovoce",
-            "distractors": [
-              "Kyselina a minerální tóny",
-              "Pozdní sběr"
-            ],
-            "explanation": "V podsložce Angels & Cowboys je obsaženo: Svěží sadové ovoce. Kompletní receptura položky: NV, brut – North Coast, Kalifornie. Druhotné zrání v láhvi, elegantní perlení, svěží sadové ovoce, citrusy, tóny briošky a chlebové kůrky.."
-          },
-          {
-            "id": "bubliny-angels-cowboys-ing-6",
-            "question": "Která z následujících surovin patří do podsložky Angels & Cowboys?",
-            "correctAnswer": "Citrusy",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Angels & Cowboys je obsaženo: Citrusy. Kompletní receptura položky: NV, brut – North Coast, Kalifornie. Druhotné zrání v láhvi, elegantní perlení, svěží sadové ovoce, citrusy, tóny briošky a chlebové kůrky.."
-          },
-          {
-            "id": "bubliny-angels-cowboys-ing-7",
-            "question": "Jaká příloha, pečivo či křupavá složka doplňuje podsložku Angels & Cowboys?",
-            "correctAnswer": "Tóny briošky a chlebové kůrky",
-            "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
-            ],
-            "explanation": "V podsložce Angels & Cowboys je obsaženo: Tóny briošky a chlebové kůrky. Kompletní receptura položky: NV, brut – North Coast, Kalifornie. Druhotné zrání v láhvi, elegantní perlení, svěží sadové ovoce, citrusy, tóny briošky a chlebové kůrky.."
-          },
-          {
-            "id": "bubliny-angels-cowboys-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Angels & Cowboys?",
-            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Angels & Cowboys obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "bila-vina",
-    "name": "bílá vína",
-    "badge": "Bílá vína",
-    "description": "Svěží i plná bílá vína z předních moravských a evropských vinařství",
-    "iconName": "Wine",
-    "items": [
-      {
-        "id": "bile-ryzlink-gotberg",
-        "name": "Ryzlink rýnský – Gotberg",
-        "weight": "0,75 l",
-        "price": "469,-",
-        "allergens": [
-          "12"
-        ],
-        "description": "pozdní sběr Gotberg – Pálava, Morava. Svěží s výraznou kyselinou, aromatika citrusy, zelené jablko a bílé broskve, minerální dochuť.",
-        "questions": [
-          {
-            "id": "bile-ryzlink-gotberg-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Ryzlink rýnský – Gotberg?",
-            "correctAnswer": "0,75 l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem podsložky Ryzlink rýnský – Gotberg je 0,75 l."
-          },
-          {
-            "id": "bile-ryzlink-gotberg-ing-1",
-            "question": "Která odrůdová či vinařská vlastnost charakterizuje víno Ryzlink rýnský – Gotberg?",
-            "correctAnswer": "Pozdní sběr Gotberg – Pálava",
-            "distractors": [
-              "Vinařství Gotberg",
-              "Vinařství Kolby"
-            ],
-            "explanation": "V podsložce Ryzlink rýnský – Gotberg je obsaženo: Pozdní sběr Gotberg – Pálava. Kompletní receptura položky: pozdní sběr Gotberg – Pálava, Morava. Svěží s výraznou kyselinou, aromatika citrusy, zelené jablko a bílé broskve, minerální dochuť.."
-          },
-          {
-            "id": "bile-ryzlink-gotberg-ing-2",
-            "question": "Která odrůdová či vinařská vlastnost charakterizuje víno Ryzlink rýnský – Gotberg?",
-            "correctAnswer": "Morava. Svěží s výraznou kyselinou",
-            "distractors": [
-              "Vinařství Kraus",
-              "Vinařství Michlovský"
-            ],
-            "explanation": "V podsložce Ryzlink rýnský – Gotberg je obsaženo: Morava. Svěží s výraznou kyselinou. Kompletní receptura položky: pozdní sběr Gotberg – Pálava, Morava. Svěží s výraznou kyselinou, aromatika citrusy, zelené jablko a bílé broskve, minerální dochuť.."
-          },
-          {
-            "id": "bile-ryzlink-gotberg-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Ryzlink rýnský – Gotberg?",
-            "correctAnswer": "Aromatika citrusy",
-            "distractors": [
-              "Mikulovská podoblast",
-              "Velkopavlovická podoblast"
-            ],
-            "explanation": "V podsložce Ryzlink rýnský – Gotberg je obsaženo: Aromatika citrusy. Kompletní receptura položky: pozdní sběr Gotberg – Pálava, Morava. Svěží s výraznou kyselinou, aromatika citrusy, zelené jablko a bílé broskve, minerální dochuť.."
-          },
-          {
-            "id": "bile-ryzlink-gotberg-ing-4",
-            "question": "Kterou zeleninovou či ovocnou složku obsahuje podsložka Ryzlink rýnský – Gotberg?",
-            "correctAnswer": "Zelené jablko a bílé broskve",
-            "distractors": [
-              "Mělnická podoblast",
-              "Kyselina a minerální tóny"
-            ],
-            "explanation": "V podsložce Ryzlink rýnský – Gotberg je obsaženo: Zelené jablko a bílé broskve. Kompletní receptura položky: pozdní sběr Gotberg – Pálava, Morava. Svěží s výraznou kyselinou, aromatika citrusy, zelené jablko a bílé broskve, minerální dochuť.."
-          },
-          {
-            "id": "bile-ryzlink-gotberg-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Ryzlink rýnský – Gotberg?",
-            "correctAnswer": "Minerální dochuť",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Ryzlink rýnský – Gotberg je obsaženo: Minerální dochuť. Kompletní receptura položky: pozdní sběr Gotberg – Pálava, Morava. Svěží s výraznou kyselinou, aromatika citrusy, zelené jablko a bílé broskve, minerální dochuť.."
-          },
-          {
-            "id": "bile-ryzlink-gotberg-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Ryzlink rýnský – Gotberg?",
-            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Ryzlink rýnský – Gotberg obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
-          }
-        ]
-      },
-      {
-        "id": "bile-pinot-gris-reisten",
-        "name": "Pinot Gris – Reisten",
-        "weight": "0,75 l",
-        "price": "479,-",
-        "allergens": [
-          "12"
-        ],
-        "description": "pozdní sběr Reisten – Mikulovsko, Morava. Plné a hladké, v chuti jemný minerální dotek, čerstvý grep a pomerančová kůra.",
-        "questions": [
-          {
-            "id": "bile-pinot-gris-reisten-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Pinot Gris – Reisten?",
-            "correctAnswer": "0,75 l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem podsložky Pinot Gris – Reisten je 0,75 l."
-          },
-          {
-            "id": "bile-pinot-gris-reisten-ing-1",
-            "question": "Která odrůdová či vinařská vlastnost charakterizuje víno Pinot Gris – Reisten?",
-            "correctAnswer": "Pozdní sběr Reisten – Mikulovsko",
-            "distractors": [
-              "Vinařství Gotberg",
-              "Vinařství Kolby"
-            ],
-            "explanation": "V podsložce Pinot Gris – Reisten je obsaženo: Pozdní sběr Reisten – Mikulovsko. Kompletní receptura položky: pozdní sběr Reisten – Mikulovsko, Morava. Plné a hladké, v chuti jemný minerální dotek, čerstvý grep a pomerančová kůra.."
-          },
-          {
-            "id": "bile-pinot-gris-reisten-ing-2",
-            "question": "Která odrůdová či vinařská vlastnost charakterizuje víno Pinot Gris – Reisten?",
-            "correctAnswer": "Morava. Plné a hladké",
-            "distractors": [
-              "Vinařství Kraus",
-              "Vinařství Michlovský"
-            ],
-            "explanation": "V podsložce Pinot Gris – Reisten je obsaženo: Morava. Plné a hladké. Kompletní receptura položky: pozdní sběr Reisten – Mikulovsko, Morava. Plné a hladké, v chuti jemný minerální dotek, čerstvý grep a pomerančová kůra.."
-          },
-          {
-            "id": "bile-pinot-gris-reisten-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Pinot Gris – Reisten?",
-            "correctAnswer": "V chuti jemný minerální dotek",
-            "distractors": [
-              "Mikulovská podoblast",
-              "Velkopavlovická podoblast"
-            ],
-            "explanation": "V podsložce Pinot Gris – Reisten je obsaženo: V chuti jemný minerální dotek. Kompletní receptura položky: pozdní sběr Reisten – Mikulovsko, Morava. Plné a hladké, v chuti jemný minerální dotek, čerstvý grep a pomerančová kůra.."
-          },
-          {
-            "id": "bile-pinot-gris-reisten-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Pinot Gris – Reisten?",
-            "correctAnswer": "Čerstvý grep a pomerančová kůra",
-            "distractors": [
-              "Mělnická podoblast",
-              "Kyselina a minerální tóny"
-            ],
-            "explanation": "V podsložce Pinot Gris – Reisten je obsaženo: Čerstvý grep a pomerančová kůra. Kompletní receptura položky: pozdní sběr Reisten – Mikulovsko, Morava. Plné a hladké, v chuti jemný minerální dotek, čerstvý grep a pomerančová kůra.."
-          },
-          {
-            "id": "bile-pinot-gris-reisten-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Pinot Gris – Reisten?",
-            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Pinot Gris – Reisten obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
-          }
-        ]
-      },
-      {
-        "id": "bile-hibernal-bilkovi",
-        "name": "Hibernal – Bílkovi",
-        "weight": "0,75 l",
-        "price": "495,-",
-        "allergens": [
-          "12"
-        ],
-        "description": "pozdní sběr Bílkovi – Velkopavlovicko, Morava. Šťavnaté, vůně černého rybízu a bezového květu, ovocné, příjemná kyselinka a kořenitý dozvuk.",
-        "questions": [
-          {
-            "id": "bile-hibernal-bilkovi-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Hibernal – Bílkovi?",
-            "correctAnswer": "0,75 l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem podsložky Hibernal – Bílkovi je 0,75 l."
-          },
-          {
-            "id": "bile-hibernal-bilkovi-ing-1",
-            "question": "Která odrůdová či vinařská vlastnost charakterizuje víno Hibernal – Bílkovi?",
-            "correctAnswer": "Pozdní sběr Bílkovi – Velkopavlovicko",
-            "distractors": [
-              "Vinařství Gotberg",
-              "Vinařství Kolby"
-            ],
-            "explanation": "V podsložce Hibernal – Bílkovi je obsaženo: Pozdní sběr Bílkovi – Velkopavlovicko. Kompletní receptura položky: pozdní sběr Bílkovi – Velkopavlovicko, Morava. Šťavnaté, vůně černého rybízu a bezového květu, ovocné, příjemná kyselinka a kořenitý dozvuk.."
-          },
-          {
-            "id": "bile-hibernal-bilkovi-ing-2",
-            "question": "Která odrůdová či vinařská vlastnost charakterizuje víno Hibernal – Bílkovi?",
-            "correctAnswer": "Morava. Šťavnaté",
-            "distractors": [
-              "Vinařství Kraus",
-              "Vinařství Michlovský"
-            ],
-            "explanation": "V podsložce Hibernal – Bílkovi je obsaženo: Morava. Šťavnaté. Kompletní receptura položky: pozdní sběr Bílkovi – Velkopavlovicko, Morava. Šťavnaté, vůně černého rybízu a bezového květu, ovocné, příjemná kyselinka a kořenitý dozvuk.."
-          },
-          {
-            "id": "bile-hibernal-bilkovi-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Hibernal – Bílkovi?",
-            "correctAnswer": "Vůně černého rybízu a bezového květu",
-            "distractors": [
-              "Mikulovská podoblast",
-              "Velkopavlovická podoblast"
-            ],
-            "explanation": "V podsložce Hibernal – Bílkovi je obsaženo: Vůně černého rybízu a bezového květu. Kompletní receptura položky: pozdní sběr Bílkovi – Velkopavlovicko, Morava. Šťavnaté, vůně černého rybízu a bezového květu, ovocné, příjemná kyselinka a kořenitý dozvuk.."
-          },
-          {
-            "id": "bile-hibernal-bilkovi-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Hibernal – Bílkovi?",
-            "correctAnswer": "Ovocné",
-            "distractors": [
-              "Mělnická podoblast",
-              "Kyselina a minerální tóny"
-            ],
-            "explanation": "V podsložce Hibernal – Bílkovi je obsaženo: Ovocné. Kompletní receptura položky: pozdní sběr Bílkovi – Velkopavlovicko, Morava. Šťavnaté, vůně černého rybízu a bezového květu, ovocné, příjemná kyselinka a kořenitý dozvuk.."
-          },
-          {
-            "id": "bile-hibernal-bilkovi-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Hibernal – Bílkovi?",
-            "correctAnswer": "Příjemná kyselinka a kořenitý dozvuk",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Hibernal – Bílkovi je obsaženo: Příjemná kyselinka a kořenitý dozvuk. Kompletní receptura položky: pozdní sběr Bílkovi – Velkopavlovicko, Morava. Šťavnaté, vůně černého rybízu a bezového květu, ovocné, příjemná kyselinka a kořenitý dozvuk.."
-          },
-          {
-            "id": "bile-hibernal-bilkovi-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Hibernal – Bílkovi?",
-            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Hibernal – Bílkovi obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
-          }
-        ]
-      },
-      {
-        "id": "bile-sauvignon-halkoci",
-        "name": "Sauvignon – Typik VOC Lukáš Halkoci",
-        "weight": "0,75 l",
-        "price": "626,-",
-        "allergens": [
-          "12"
-        ],
-        "description": "Typik VOC Lukáš Halkoci – Znojemsko, Morava. Lehčí, svěží dochuť, aromatika angreštu, černého rybízu a citrusů.",
-        "questions": [
-          {
-            "id": "bile-sauvignon-halkoci-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Sauvignon – Typik VOC Lukáš Halkoci?",
-            "correctAnswer": "0,75 l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem podsložky Sauvignon – Typik VOC Lukáš Halkoci je 0,75 l."
-          },
-          {
-            "id": "bile-sauvignon-halkoci-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Sauvignon – Typik VOC Lukáš Halkoci?",
-            "correctAnswer": "Typik VOC Lukáš Halkoci – Znojemsko",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Sauvignon – Typik VOC Lukáš Halkoci je obsaženo: Typik VOC Lukáš Halkoci – Znojemsko. Kompletní receptura položky: Typik VOC Lukáš Halkoci – Znojemsko, Morava. Lehčí, svěží dochuť, aromatika angreštu, černého rybízu a citrusů.."
-          },
-          {
-            "id": "bile-sauvignon-halkoci-ing-2",
-            "question": "Která odrůdová či vinařská vlastnost charakterizuje víno Sauvignon – Typik VOC Lukáš Halkoci?",
-            "correctAnswer": "Morava. Lehčí",
-            "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
-            ],
-            "explanation": "V podsložce Sauvignon – Typik VOC Lukáš Halkoci je obsaženo: Morava. Lehčí. Kompletní receptura položky: Typik VOC Lukáš Halkoci – Znojemsko, Morava. Lehčí, svěží dochuť, aromatika angreštu, černého rybízu a citrusů.."
-          },
-          {
-            "id": "bile-sauvignon-halkoci-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Sauvignon – Typik VOC Lukáš Halkoci?",
-            "correctAnswer": "Svěží dochuť",
-            "distractors": [
-              "Vinařství Michlovský",
-              "Mikulovská podoblast"
-            ],
-            "explanation": "V podsložce Sauvignon – Typik VOC Lukáš Halkoci je obsaženo: Svěží dochuť. Kompletní receptura položky: Typik VOC Lukáš Halkoci – Znojemsko, Morava. Lehčí, svěží dochuť, aromatika angreštu, černého rybízu a citrusů.."
-          },
-          {
-            "id": "bile-sauvignon-halkoci-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Sauvignon – Typik VOC Lukáš Halkoci?",
-            "correctAnswer": "Aromatika angreštu",
-            "distractors": [
-              "Velkopavlovická podoblast",
-              "Mělnická podoblast"
-            ],
-            "explanation": "V podsložce Sauvignon – Typik VOC Lukáš Halkoci je obsaženo: Aromatika angreštu. Kompletní receptura položky: Typik VOC Lukáš Halkoci – Znojemsko, Morava. Lehčí, svěží dochuť, aromatika angreštu, černého rybízu a citrusů.."
-          },
-          {
-            "id": "bile-sauvignon-halkoci-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Sauvignon – Typik VOC Lukáš Halkoci?",
-            "correctAnswer": "Černého rybízu a citrusů",
-            "distractors": [
-              "Kyselina a minerální tóny",
-              "Pozdní sběr"
-            ],
-            "explanation": "V podsložce Sauvignon – Typik VOC Lukáš Halkoci je obsaženo: Černého rybízu a citrusů. Kompletní receptura položky: Typik VOC Lukáš Halkoci – Znojemsko, Morava. Lehčí, svěží dochuť, aromatika angreštu, černého rybízu a citrusů.."
-          },
-          {
-            "id": "bile-sauvignon-halkoci-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Sauvignon – Typik VOC Lukáš Halkoci?",
-            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Sauvignon – Typik VOC Lukáš Halkoci obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
-          }
-        ]
-      },
-      {
-        "id": "bile-ryzlink-vlassky-sukal",
-        "name": "Ryzlink Vlašský – Milan Sůkal",
-        "weight": "0,75 l",
-        "price": "660,-",
-        "allergens": [
-          "12"
-        ],
-        "description": "pozdní sběr Milan Sůkal – Slovácko, Morava. Středně plné víno, příjemná kyselinka, tóny zralých citrusů, pomela a peckovic.",
-        "questions": [
-          {
-            "id": "bile-ryzlink-vlassky-sukal-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Ryzlink Vlašský – Milan Sůkal?",
-            "correctAnswer": "0,75 l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem podsložky Ryzlink Vlašský – Milan Sůkal je 0,75 l."
-          },
-          {
-            "id": "bile-ryzlink-vlassky-sukal-ing-1",
-            "question": "Která odrůdová či vinařská vlastnost charakterizuje víno Ryzlink Vlašský – Milan Sůkal?",
-            "correctAnswer": "Pozdní sběr Milan Sůkal – Slovácko",
-            "distractors": [
-              "Vinařství Gotberg",
-              "Vinařství Kolby"
-            ],
-            "explanation": "V podsložce Ryzlink Vlašský – Milan Sůkal je obsaženo: Pozdní sběr Milan Sůkal – Slovácko. Kompletní receptura položky: pozdní sběr Milan Sůkal – Slovácko, Morava. Středně plné víno, příjemná kyselinka, tóny zralých citrusů, pomela a peckovic.."
-          },
-          {
-            "id": "bile-ryzlink-vlassky-sukal-ing-2",
-            "question": "Která odrůdová či vinařská vlastnost charakterizuje víno Ryzlink Vlašský – Milan Sůkal?",
-            "correctAnswer": "Morava. Středně plné víno",
-            "distractors": [
-              "Vinařství Kraus",
-              "Vinařství Michlovský"
-            ],
-            "explanation": "V podsložce Ryzlink Vlašský – Milan Sůkal je obsaženo: Morava. Středně plné víno. Kompletní receptura položky: pozdní sběr Milan Sůkal – Slovácko, Morava. Středně plné víno, příjemná kyselinka, tóny zralých citrusů, pomela a peckovic.."
-          },
-          {
-            "id": "bile-ryzlink-vlassky-sukal-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Ryzlink Vlašský – Milan Sůkal?",
-            "correctAnswer": "Příjemná kyselinka",
-            "distractors": [
-              "Mikulovská podoblast",
-              "Velkopavlovická podoblast"
-            ],
-            "explanation": "V podsložce Ryzlink Vlašský – Milan Sůkal je obsaženo: Příjemná kyselinka. Kompletní receptura položky: pozdní sběr Milan Sůkal – Slovácko, Morava. Středně plné víno, příjemná kyselinka, tóny zralých citrusů, pomela a peckovic.."
-          },
-          {
-            "id": "bile-ryzlink-vlassky-sukal-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Ryzlink Vlašský – Milan Sůkal?",
-            "correctAnswer": "Tóny zralých citrusů",
-            "distractors": [
-              "Mělnická podoblast",
-              "Kyselina a minerální tóny"
-            ],
-            "explanation": "V podsložce Ryzlink Vlašský – Milan Sůkal je obsaženo: Tóny zralých citrusů. Kompletní receptura položky: pozdní sběr Milan Sůkal – Slovácko, Morava. Středně plné víno, příjemná kyselinka, tóny zralých citrusů, pomela a peckovic.."
-          },
-          {
-            "id": "bile-ryzlink-vlassky-sukal-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Ryzlink Vlašský – Milan Sůkal?",
-            "correctAnswer": "Pomela a peckovic",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Ryzlink Vlašský – Milan Sůkal je obsaženo: Pomela a peckovic. Kompletní receptura položky: pozdní sběr Milan Sůkal – Slovácko, Morava. Středně plné víno, příjemná kyselinka, tóny zralých citrusů, pomela a peckovic.."
-          },
-          {
-            "id": "bile-ryzlink-vlassky-sukal-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Ryzlink Vlašský – Milan Sůkal?",
-            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Ryzlink Vlašský – Milan Sůkal obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
-          }
-        ]
-      },
-      {
-        "id": "bile-palava-michlovsky",
-        "name": "Pálava – Vinselect Michlovský",
-        "weight": "0,75 l",
-        "price": "506,-",
-        "allergens": [
-          "12"
-        ],
-        "description": "pozdní sběr Vinselect Michlovský – Lednicko-Valtický areál, Morava. Jemná vůně kvetoucích pomerančovníků a poupat růží, svěží chuť liči a jablečného závinu.",
-        "questions": [
-          {
-            "id": "bile-palava-michlovsky-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Pálava – Vinselect Michlovský?",
-            "correctAnswer": "0,75 l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem podsložky Pálava – Vinselect Michlovský je 0,75 l."
-          },
-          {
-            "id": "bile-palava-michlovsky-ing-1",
-            "question": "Která odrůdová či vinařská vlastnost charakterizuje víno Pálava – Vinselect Michlovský?",
-            "correctAnswer": "Pozdní sběr Vinselect Michlovský – Lednicko-Valtický areál",
-            "distractors": [
-              "Vinařství Gotberg",
-              "Vinařství Kolby"
-            ],
-            "explanation": "V podsložce Pálava – Vinselect Michlovský je obsaženo: Pozdní sběr Vinselect Michlovský – Lednicko-Valtický areál. Kompletní receptura položky: pozdní sběr Vinselect Michlovský – Lednicko-Valtický areál, Morava. Jemná vůně kvetoucích pomerančovníků a poupat růží, svěží chuť liči a jablečného závinu.."
-          },
-          {
-            "id": "bile-palava-michlovsky-ing-2",
-            "question": "Která odrůdová či vinařská vlastnost charakterizuje víno Pálava – Vinselect Michlovský?",
-            "correctAnswer": "Morava. Jemná vůně kvetoucích pomerančovníků a poupat růží",
-            "distractors": [
-              "Vinařství Kraus",
-              "Vinařství Michlovský"
-            ],
-            "explanation": "V podsložce Pálava – Vinselect Michlovský je obsaženo: Morava. Jemná vůně kvetoucích pomerančovníků a poupat růží. Kompletní receptura položky: pozdní sběr Vinselect Michlovský – Lednicko-Valtický areál, Morava. Jemná vůně kvetoucích pomerančovníků a poupat růží, svěží chuť liči a jablečného závinu.."
-          },
-          {
-            "id": "bile-palava-michlovsky-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Pálava – Vinselect Michlovský?",
-            "correctAnswer": "Svěží chuť liči a jablečného závinu",
-            "distractors": [
-              "Mikulovská podoblast",
-              "Velkopavlovická podoblast"
-            ],
-            "explanation": "V podsložce Pálava – Vinselect Michlovský je obsaženo: Svěží chuť liči a jablečného závinu. Kompletní receptura položky: pozdní sběr Vinselect Michlovský – Lednicko-Valtický areál, Morava. Jemná vůně kvetoucích pomerančovníků a poupat růží, svěží chuť liči a jablečného závinu.."
-          },
-          {
-            "id": "bile-palava-michlovsky-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Pálava – Vinselect Michlovský?",
-            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Pálava – Vinselect Michlovský obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
-          }
-        ]
-      },
-      {
-        "id": "bile-poysdorfer-saurussel",
-        "name": "Poysdorfer Saurüssel – Hauser",
-        "weight": "0,75 l",
-        "price": "629,-",
-        "allergens": [
-          "12"
-        ],
-        "description": "Weinviertel, Rakousko. Veltlínské zelené, vůně zeleného jablka, citrusové kůry a bílého pepře, jasná kyselinka a jemná mineralita.",
-        "questions": [
-          {
-            "id": "bile-poysdorfer-saurussel-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Poysdorfer Saurüssel – Hauser?",
-            "correctAnswer": "0,75 l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem podsložky Poysdorfer Saurüssel – Hauser je 0,75 l."
-          },
-          {
-            "id": "bile-poysdorfer-saurussel-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Poysdorfer Saurüssel – Hauser?",
-            "correctAnswer": "Weinviertel",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Poysdorfer Saurüssel – Hauser je obsaženo: Weinviertel. Kompletní receptura položky: Weinviertel, Rakousko. Veltlínské zelené, vůně zeleného jablka, citrusové kůry a bílého pepře, jasná kyselinka a jemná mineralita.."
-          },
-          {
-            "id": "bile-poysdorfer-saurussel-ing-2",
-            "question": "Kterou zeleninovou či ovocnou složku obsahuje podsložka Poysdorfer Saurüssel – Hauser?",
-            "correctAnswer": "Rakousko. Veltlínské zelené",
-            "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
-            ],
-            "explanation": "V podsložce Poysdorfer Saurüssel – Hauser je obsaženo: Rakousko. Veltlínské zelené. Kompletní receptura položky: Weinviertel, Rakousko. Veltlínské zelené, vůně zeleného jablka, citrusové kůry a bílého pepře, jasná kyselinka a jemná mineralita.."
-          },
-          {
-            "id": "bile-poysdorfer-saurussel-ing-3",
-            "question": "Kterou zeleninovou či ovocnou složku obsahuje podsložka Poysdorfer Saurüssel – Hauser?",
-            "correctAnswer": "Vůně zeleného jablka",
-            "distractors": [
-              "Vinařství Michlovský",
-              "Mikulovská podoblast"
-            ],
-            "explanation": "V podsložce Poysdorfer Saurüssel – Hauser je obsaženo: Vůně zeleného jablka. Kompletní receptura položky: Weinviertel, Rakousko. Veltlínské zelené, vůně zeleného jablka, citrusové kůry a bílého pepře, jasná kyselinka a jemná mineralita.."
-          },
-          {
-            "id": "bile-poysdorfer-saurussel-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Poysdorfer Saurüssel – Hauser?",
-            "correctAnswer": "Citrusové kůry a bílého pepře",
-            "distractors": [
-              "Velkopavlovická podoblast",
-              "Mělnická podoblast"
-            ],
-            "explanation": "V podsložce Poysdorfer Saurüssel – Hauser je obsaženo: Citrusové kůry a bílého pepře. Kompletní receptura položky: Weinviertel, Rakousko. Veltlínské zelené, vůně zeleného jablka, citrusové kůry a bílého pepře, jasná kyselinka a jemná mineralita.."
-          },
-          {
-            "id": "bile-poysdorfer-saurussel-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Poysdorfer Saurüssel – Hauser?",
-            "correctAnswer": "Jasná kyselinka a jemná mineralita",
-            "distractors": [
-              "Kyselina a minerální tóny",
-              "Pozdní sběr"
-            ],
-            "explanation": "V podsložce Poysdorfer Saurüssel – Hauser je obsaženo: Jasná kyselinka a jemná mineralita. Kompletní receptura položky: Weinviertel, Rakousko. Veltlínské zelené, vůně zeleného jablka, citrusové kůry a bílého pepře, jasná kyselinka a jemná mineralita.."
-          },
-          {
-            "id": "bile-poysdorfer-saurussel-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Poysdorfer Saurüssel – Hauser?",
-            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Poysdorfer Saurüssel – Hauser obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
-          }
-        ]
-      },
-      {
-        "id": "bile-gruner-satzen-schwarzbock",
-        "name": "Grüner Veltliner Premium Ried Satzen – Schwarzbock",
-        "weight": "0,75 l",
-        "price": "723,-",
-        "allergens": [
-          "12"
-        ],
-        "description": "Premium Ried Satzen DAC Schwarzbock – Weinviertel, Rakousko. Sytá zlatavá barva, intenzivní vůně zralých hrušek a citrusů, dochuť elegantní, minerální, kořeněná pepřem.",
-        "questions": [
-          {
-            "id": "bile-gruner-satzen-schwarzbock-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
-            "correctAnswer": "0,75 l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem podsložky Grüner Veltliner Premium Ried Satzen – Schwarzbock je 0,75 l."
-          },
-          {
-            "id": "bile-gruner-satzen-schwarzbock-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
-            "correctAnswer": "Premium Ried Satzen DAC Schwarzbock – Weinviertel",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Grüner Veltliner Premium Ried Satzen – Schwarzbock je obsaženo: Premium Ried Satzen DAC Schwarzbock – Weinviertel. Kompletní receptura položky: Premium Ried Satzen DAC Schwarzbock – Weinviertel, Rakousko. Sytá zlatavá barva, intenzivní vůně zralých hrušek a citrusů, dochuť elegantní, minerální, kořeněná pepřem.."
-          },
-          {
-            "id": "bile-gruner-satzen-schwarzbock-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
-            "correctAnswer": "Rakousko. Sytá zlatavá barva",
-            "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
-            ],
-            "explanation": "V podsložce Grüner Veltliner Premium Ried Satzen – Schwarzbock je obsaženo: Rakousko. Sytá zlatavá barva. Kompletní receptura položky: Premium Ried Satzen DAC Schwarzbock – Weinviertel, Rakousko. Sytá zlatavá barva, intenzivní vůně zralých hrušek a citrusů, dochuť elegantní, minerální, kořeněná pepřem.."
-          },
-          {
-            "id": "bile-gruner-satzen-schwarzbock-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
-            "correctAnswer": "Intenzivní vůně zralých hrušek a citrusů",
-            "distractors": [
-              "Vinařství Michlovský",
-              "Mikulovská podoblast"
-            ],
-            "explanation": "V podsložce Grüner Veltliner Premium Ried Satzen – Schwarzbock je obsaženo: Intenzivní vůně zralých hrušek a citrusů. Kompletní receptura položky: Premium Ried Satzen DAC Schwarzbock – Weinviertel, Rakousko. Sytá zlatavá barva, intenzivní vůně zralých hrušek a citrusů, dochuť elegantní, minerální, kořeněná pepřem.."
-          },
-          {
-            "id": "bile-gruner-satzen-schwarzbock-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
-            "correctAnswer": "Dochuť elegantní",
-            "distractors": [
-              "Velkopavlovická podoblast",
-              "Mělnická podoblast"
-            ],
-            "explanation": "V podsložce Grüner Veltliner Premium Ried Satzen – Schwarzbock je obsaženo: Dochuť elegantní. Kompletní receptura položky: Premium Ried Satzen DAC Schwarzbock – Weinviertel, Rakousko. Sytá zlatavá barva, intenzivní vůně zralých hrušek a citrusů, dochuť elegantní, minerální, kořeněná pepřem.."
-          },
-          {
-            "id": "bile-gruner-satzen-schwarzbock-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
-            "correctAnswer": "Minerální",
-            "distractors": [
-              "Pozdní sběr",
-              "Zrání v dubovém sudu"
-            ],
-            "explanation": "V podsložce Grüner Veltliner Premium Ried Satzen – Schwarzbock je obsaženo: Minerální. Kompletní receptura položky: Premium Ried Satzen DAC Schwarzbock – Weinviertel, Rakousko. Sytá zlatavá barva, intenzivní vůně zralých hrušek a citrusů, dochuť elegantní, minerální, kořeněná pepřem.."
-          },
-          {
-            "id": "bile-gruner-satzen-schwarzbock-ing-6",
-            "question": "Která z následujících surovin patří do podsložky Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
-            "correctAnswer": "Kořeněná pepřem",
-            "distractors": [
-              "Vinařství Gotberg",
-              "Vinařství Kolby"
-            ],
-            "explanation": "V podsložce Grüner Veltliner Premium Ried Satzen – Schwarzbock je obsaženo: Kořeněná pepřem. Kompletní receptura položky: Premium Ried Satzen DAC Schwarzbock – Weinviertel, Rakousko. Sytá zlatavá barva, intenzivní vůně zralých hrušek a citrusů, dochuť elegantní, minerální, kořeněná pepřem.."
-          },
-          {
-            "id": "bile-gruner-satzen-schwarzbock-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
-            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Grüner Veltliner Premium Ried Satzen – Schwarzbock obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
-          }
-        ]
-      },
-      {
-        "id": "bile-riesling-eva-fricke",
-        "name": "Riesling Rheingau QbA Trocken – Eva Fricke",
-        "weight": "0,75 l",
-        "price": "999,-",
-        "allergens": [
-          "12"
-        ],
-        "description": "Rheingau, Německo. Elegantní, aromatika limetky, zeleného jablka a bílých broskví, minerální podkres.",
-        "questions": [
-          {
-            "id": "bile-riesling-eva-fricke-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Riesling Rheingau QbA Trocken – Eva Fricke?",
-            "correctAnswer": "0,75 l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem podsložky Riesling Rheingau QbA Trocken – Eva Fricke je 0,75 l."
-          },
-          {
-            "id": "bile-riesling-eva-fricke-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Riesling Rheingau QbA Trocken – Eva Fricke?",
-            "correctAnswer": "Rheingau",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Riesling Rheingau QbA Trocken – Eva Fricke je obsaženo: Rheingau. Kompletní receptura položky: Rheingau, Německo. Elegantní, aromatika limetky, zeleného jablka a bílých broskví, minerální podkres.."
-          },
-          {
-            "id": "bile-riesling-eva-fricke-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Riesling Rheingau QbA Trocken – Eva Fricke?",
-            "correctAnswer": "Německo. Elegantní",
-            "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
-            ],
-            "explanation": "V podsložce Riesling Rheingau QbA Trocken – Eva Fricke je obsaženo: Německo. Elegantní. Kompletní receptura položky: Rheingau, Německo. Elegantní, aromatika limetky, zeleného jablka a bílých broskví, minerální podkres.."
-          },
-          {
-            "id": "bile-riesling-eva-fricke-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Riesling Rheingau QbA Trocken – Eva Fricke?",
-            "correctAnswer": "Aromatika limetky",
-            "distractors": [
-              "Vinařství Michlovský",
-              "Mikulovská podoblast"
-            ],
-            "explanation": "V podsložce Riesling Rheingau QbA Trocken – Eva Fricke je obsaženo: Aromatika limetky. Kompletní receptura položky: Rheingau, Německo. Elegantní, aromatika limetky, zeleného jablka a bílých broskví, minerální podkres.."
-          },
-          {
-            "id": "bile-riesling-eva-fricke-ing-4",
-            "question": "Kterou zeleninovou či ovocnou složku obsahuje podsložka Riesling Rheingau QbA Trocken – Eva Fricke?",
-            "correctAnswer": "Zeleného jablka a bílých broskví",
-            "distractors": [
-              "Velkopavlovická podoblast",
-              "Mělnická podoblast"
-            ],
-            "explanation": "V podsložce Riesling Rheingau QbA Trocken – Eva Fricke je obsaženo: Zeleného jablka a bílých broskví. Kompletní receptura položky: Rheingau, Německo. Elegantní, aromatika limetky, zeleného jablka a bílých broskví, minerální podkres.."
-          },
-          {
-            "id": "bile-riesling-eva-fricke-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Riesling Rheingau QbA Trocken – Eva Fricke?",
-            "correctAnswer": "Minerální podkres",
-            "distractors": [
-              "Kyselina a minerální tóny",
-              "Pozdní sběr"
-            ],
-            "explanation": "V podsložce Riesling Rheingau QbA Trocken – Eva Fricke je obsaženo: Minerální podkres. Kompletní receptura položky: Rheingau, Německo. Elegantní, aromatika limetky, zeleného jablka a bílých broskví, minerální podkres.."
-          },
-          {
-            "id": "bile-riesling-eva-fricke-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Riesling Rheingau QbA Trocken – Eva Fricke?",
-            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Riesling Rheingau QbA Trocken – Eva Fricke obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
-          }
-        ]
-      },
-      {
-        "id": "bile-riesling-gunderloch-red-stone",
-        "name": "Riesling Red Stone QbA trocken – Gunderloch",
-        "weight": "0,75 l",
-        "price": "595,-",
-        "allergens": [
-          "12"
-        ],
-        "description": "Rheinhessen, Německo. Šťavnaté, vůně zralých citrusů, broskví a bylinek, minerální stopa červené břidlice, kořenitá dochuť.",
-        "questions": [
-          {
-            "id": "bile-riesling-gunderloch-red-stone-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Riesling Red Stone QbA trocken – Gunderloch?",
-            "correctAnswer": "0,75 l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem podsložky Riesling Red Stone QbA trocken – Gunderloch je 0,75 l."
-          },
-          {
-            "id": "bile-riesling-gunderloch-red-stone-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Riesling Red Stone QbA trocken – Gunderloch?",
-            "correctAnswer": "Rheinhessen",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Riesling Red Stone QbA trocken – Gunderloch je obsaženo: Rheinhessen. Kompletní receptura položky: Rheinhessen, Německo. Šťavnaté, vůně zralých citrusů, broskví a bylinek, minerální stopa červené břidlice, kořenitá dochuť.."
-          },
-          {
-            "id": "bile-riesling-gunderloch-red-stone-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Riesling Red Stone QbA trocken – Gunderloch?",
-            "correctAnswer": "Německo. Šťavnaté",
-            "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
-            ],
-            "explanation": "V podsložce Riesling Red Stone QbA trocken – Gunderloch je obsaženo: Německo. Šťavnaté. Kompletní receptura položky: Rheinhessen, Německo. Šťavnaté, vůně zralých citrusů, broskví a bylinek, minerální stopa červené břidlice, kořenitá dochuť.."
-          },
-          {
-            "id": "bile-riesling-gunderloch-red-stone-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Riesling Red Stone QbA trocken – Gunderloch?",
-            "correctAnswer": "Vůně zralých citrusů",
-            "distractors": [
-              "Vinařství Michlovský",
-              "Mikulovská podoblast"
-            ],
-            "explanation": "V podsložce Riesling Red Stone QbA trocken – Gunderloch je obsaženo: Vůně zralých citrusů. Kompletní receptura položky: Rheinhessen, Německo. Šťavnaté, vůně zralých citrusů, broskví a bylinek, minerální stopa červené břidlice, kořenitá dochuť.."
-          },
-          {
-            "id": "bile-riesling-gunderloch-red-stone-ing-4",
-            "question": "Která bylinka, koření či aromatická surovina dochucuje Riesling Red Stone QbA trocken – Gunderloch?",
-            "correctAnswer": "Broskví a bylinek",
-            "distractors": [
-              "Velkopavlovická podoblast",
-              "Mělnická podoblast"
-            ],
-            "explanation": "V podsložce Riesling Red Stone QbA trocken – Gunderloch je obsaženo: Broskví a bylinek. Kompletní receptura položky: Rheinhessen, Německo. Šťavnaté, vůně zralých citrusů, broskví a bylinek, minerální stopa červené břidlice, kořenitá dochuť.."
-          },
-          {
-            "id": "bile-riesling-gunderloch-red-stone-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Riesling Red Stone QbA trocken – Gunderloch?",
-            "correctAnswer": "Minerální stopa červené břidlice",
-            "distractors": [
-              "Kyselina a minerální tóny",
-              "Pozdní sběr"
-            ],
-            "explanation": "V podsložce Riesling Red Stone QbA trocken – Gunderloch je obsaženo: Minerální stopa červené břidlice. Kompletní receptura položky: Rheinhessen, Německo. Šťavnaté, vůně zralých citrusů, broskví a bylinek, minerální stopa červené břidlice, kořenitá dochuť.."
-          },
-          {
-            "id": "bile-riesling-gunderloch-red-stone-ing-6",
-            "question": "Která z následujících surovin patří do podsložky Riesling Red Stone QbA trocken – Gunderloch?",
-            "correctAnswer": "Kořenitá dochuť",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Riesling Red Stone QbA trocken – Gunderloch je obsaženo: Kořenitá dochuť. Kompletní receptura položky: Rheinhessen, Německo. Šťavnaté, vůně zralých citrusů, broskví a bylinek, minerální stopa červené břidlice, kořenitá dochuť.."
-          },
-          {
-            "id": "bile-riesling-gunderloch-red-stone-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Riesling Red Stone QbA trocken – Gunderloch?",
-            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Riesling Red Stone QbA trocken – Gunderloch obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
-          }
-        ]
-      },
-      {
-        "id": "bile-riesling-fritz-haag",
-        "name": "Riesling Tradition Brauneberg – Fritz Haag",
-        "weight": "0,75 l",
-        "price": "975,-",
-        "allergens": [
-          "12"
-        ],
-        "description": "Mosel, Německo. Zlatavá barva, intenzivní citrusová aromatika, chuť pikantní, harmonická, nádech akátového medu.",
-        "questions": [
-          {
-            "id": "bile-riesling-fritz-haag-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Riesling Tradition Brauneberg – Fritz Haag?",
-            "correctAnswer": "0,75 l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem podsložky Riesling Tradition Brauneberg – Fritz Haag je 0,75 l."
-          },
-          {
-            "id": "bile-riesling-fritz-haag-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Riesling Tradition Brauneberg – Fritz Haag?",
-            "correctAnswer": "Mosel",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Riesling Tradition Brauneberg – Fritz Haag je obsaženo: Mosel. Kompletní receptura položky: Mosel, Německo. Zlatavá barva, intenzivní citrusová aromatika, chuť pikantní, harmonická, nádech akátového medu.."
-          },
-          {
-            "id": "bile-riesling-fritz-haag-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Riesling Tradition Brauneberg – Fritz Haag?",
-            "correctAnswer": "Německo. Zlatavá barva",
-            "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
-            ],
-            "explanation": "V podsložce Riesling Tradition Brauneberg – Fritz Haag je obsaženo: Německo. Zlatavá barva. Kompletní receptura položky: Mosel, Německo. Zlatavá barva, intenzivní citrusová aromatika, chuť pikantní, harmonická, nádech akátového medu.."
-          },
-          {
-            "id": "bile-riesling-fritz-haag-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Riesling Tradition Brauneberg – Fritz Haag?",
-            "correctAnswer": "Intenzivní citrusová aromatika",
-            "distractors": [
-              "Vinařství Michlovský",
-              "Mikulovská podoblast"
-            ],
-            "explanation": "V podsložce Riesling Tradition Brauneberg – Fritz Haag je obsaženo: Intenzivní citrusová aromatika. Kompletní receptura položky: Mosel, Německo. Zlatavá barva, intenzivní citrusová aromatika, chuť pikantní, harmonická, nádech akátového medu.."
-          },
-          {
-            "id": "bile-riesling-fritz-haag-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Riesling Tradition Brauneberg – Fritz Haag?",
-            "correctAnswer": "Chuť pikantní",
-            "distractors": [
-              "Velkopavlovická podoblast",
-              "Mělnická podoblast"
-            ],
-            "explanation": "V podsložce Riesling Tradition Brauneberg – Fritz Haag je obsaženo: Chuť pikantní. Kompletní receptura položky: Mosel, Německo. Zlatavá barva, intenzivní citrusová aromatika, chuť pikantní, harmonická, nádech akátového medu.."
-          },
-          {
-            "id": "bile-riesling-fritz-haag-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Riesling Tradition Brauneberg – Fritz Haag?",
-            "correctAnswer": "Harmonická",
-            "distractors": [
-              "Kyselina a minerální tóny",
-              "Pozdní sběr"
-            ],
-            "explanation": "V podsložce Riesling Tradition Brauneberg – Fritz Haag je obsaženo: Harmonická. Kompletní receptura položky: Mosel, Německo. Zlatavá barva, intenzivní citrusová aromatika, chuť pikantní, harmonická, nádech akátového medu.."
-          },
-          {
-            "id": "bile-riesling-fritz-haag-ing-6",
-            "question": "Která z následujících surovin patří do podsložky Riesling Tradition Brauneberg – Fritz Haag?",
-            "correctAnswer": "Nádech akátového medu",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Riesling Tradition Brauneberg – Fritz Haag je obsaženo: Nádech akátového medu. Kompletní receptura položky: Mosel, Německo. Zlatavá barva, intenzivní citrusová aromatika, chuť pikantní, harmonická, nádech akátového medu.."
-          },
-          {
-            "id": "bile-riesling-fritz-haag-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Riesling Tradition Brauneberg – Fritz Haag?",
-            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Riesling Tradition Brauneberg – Fritz Haag obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
-          }
-        ]
-      },
-      {
-        "id": "bile-weisser-burgunder-philipp-kuhn",
-        "name": "Weisser Burgunder Tradition Trocken – Philipp Kuhn",
-        "weight": "0,75 l",
-        "price": "725,-",
-        "allergens": [
-          "12"
-        ],
-        "description": "Pfalz, Německo. Rulandské bílé, chuť pražených mandlí, sušených hrušek, vlašských ořechů a minerality.",
-        "questions": [
-          {
-            "id": "bile-weisser-burgunder-philipp-kuhn-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Weisser Burgunder Tradition Trocken – Philipp Kuhn?",
-            "correctAnswer": "0,75 l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem podsložky Weisser Burgunder Tradition Trocken – Philipp Kuhn je 0,75 l."
-          },
-          {
-            "id": "bile-weisser-burgunder-philipp-kuhn-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Weisser Burgunder Tradition Trocken – Philipp Kuhn?",
-            "correctAnswer": "Pfalz",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Weisser Burgunder Tradition Trocken – Philipp Kuhn je obsaženo: Pfalz. Kompletní receptura položky: Pfalz, Německo. Rulandské bílé, chuť pražených mandlí, sušených hrušek, vlašských ořechů a minerality.."
-          },
-          {
-            "id": "bile-weisser-burgunder-philipp-kuhn-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Weisser Burgunder Tradition Trocken – Philipp Kuhn?",
-            "correctAnswer": "Německo. Rulandské bílé",
-            "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
-            ],
-            "explanation": "V podsložce Weisser Burgunder Tradition Trocken – Philipp Kuhn je obsaženo: Německo. Rulandské bílé. Kompletní receptura položky: Pfalz, Německo. Rulandské bílé, chuť pražených mandlí, sušených hrušek, vlašských ořechů a minerality.."
-          },
-          {
-            "id": "bile-weisser-burgunder-philipp-kuhn-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Weisser Burgunder Tradition Trocken – Philipp Kuhn?",
-            "correctAnswer": "Chuť pražených mandlí",
-            "distractors": [
-              "Vinařství Michlovský",
-              "Mikulovská podoblast"
-            ],
-            "explanation": "V podsložce Weisser Burgunder Tradition Trocken – Philipp Kuhn je obsaženo: Chuť pražených mandlí. Kompletní receptura položky: Pfalz, Německo. Rulandské bílé, chuť pražených mandlí, sušených hrušek, vlašských ořechů a minerality.."
-          },
-          {
-            "id": "bile-weisser-burgunder-philipp-kuhn-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Weisser Burgunder Tradition Trocken – Philipp Kuhn?",
-            "correctAnswer": "Sušených hrušek",
-            "distractors": [
-              "Velkopavlovická podoblast",
-              "Mělnická podoblast"
-            ],
-            "explanation": "V podsložce Weisser Burgunder Tradition Trocken – Philipp Kuhn je obsaženo: Sušených hrušek. Kompletní receptura položky: Pfalz, Německo. Rulandské bílé, chuť pražených mandlí, sušených hrušek, vlašských ořechů a minerality.."
-          },
-          {
-            "id": "bile-weisser-burgunder-philipp-kuhn-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Weisser Burgunder Tradition Trocken – Philipp Kuhn?",
-            "correctAnswer": "Vlašských ořechů a minerality",
-            "distractors": [
-              "Kyselina a minerální tóny",
-              "Pozdní sběr"
-            ],
-            "explanation": "V podsložce Weisser Burgunder Tradition Trocken – Philipp Kuhn je obsaženo: Vlašských ořechů a minerality. Kompletní receptura položky: Pfalz, Německo. Rulandské bílé, chuť pražených mandlí, sušených hrušek, vlašských ořechů a minerality.."
-          },
-          {
-            "id": "bile-weisser-burgunder-philipp-kuhn-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Weisser Burgunder Tradition Trocken – Philipp Kuhn?",
-            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Weisser Burgunder Tradition Trocken – Philipp Kuhn obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
-          }
-        ]
-      },
-      {
-        "id": "bile-sauvignon-lapis-luna",
-        "name": "Sauvignon Blanc – Lapis Luna",
-        "weight": "0,75 l",
-        "price": "789,-",
-        "allergens": [
-          "12"
-        ],
-        "description": "North Coast, Kalifornie. Plnější, pikantní kyselinka, ovocný styl odrůdy, zralá bílá broskev a tropické ovoce v chuti.",
-        "questions": [
-          {
-            "id": "bile-sauvignon-lapis-luna-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Sauvignon Blanc – Lapis Luna?",
-            "correctAnswer": "0,75 l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem podsložky Sauvignon Blanc – Lapis Luna je 0,75 l."
-          },
-          {
-            "id": "bile-sauvignon-lapis-luna-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Sauvignon Blanc – Lapis Luna?",
-            "correctAnswer": "North Coast",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Sauvignon Blanc – Lapis Luna je obsaženo: North Coast. Kompletní receptura položky: North Coast, Kalifornie. Plnější, pikantní kyselinka, ovocný styl odrůdy, zralá bílá broskev a tropické ovoce v chuti.."
-          },
-          {
-            "id": "bile-sauvignon-lapis-luna-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Sauvignon Blanc – Lapis Luna?",
-            "correctAnswer": "Kalifornie. Plnější",
-            "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
-            ],
-            "explanation": "V podsložce Sauvignon Blanc – Lapis Luna je obsaženo: Kalifornie. Plnější. Kompletní receptura položky: North Coast, Kalifornie. Plnější, pikantní kyselinka, ovocný styl odrůdy, zralá bílá broskev a tropické ovoce v chuti.."
-          },
-          {
-            "id": "bile-sauvignon-lapis-luna-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Sauvignon Blanc – Lapis Luna?",
-            "correctAnswer": "Pikantní kyselinka",
-            "distractors": [
-              "Vinařství Michlovský",
-              "Mikulovská podoblast"
-            ],
-            "explanation": "V podsložce Sauvignon Blanc – Lapis Luna je obsaženo: Pikantní kyselinka. Kompletní receptura položky: North Coast, Kalifornie. Plnější, pikantní kyselinka, ovocný styl odrůdy, zralá bílá broskev a tropické ovoce v chuti.."
-          },
-          {
-            "id": "bile-sauvignon-lapis-luna-ing-4",
-            "question": "Která odrůdová či vinařská vlastnost charakterizuje víno Sauvignon Blanc – Lapis Luna?",
-            "correctAnswer": "Ovocný styl odrůdy",
-            "distractors": [
-              "Velkopavlovická podoblast",
-              "Mělnická podoblast"
-            ],
-            "explanation": "V podsložce Sauvignon Blanc – Lapis Luna je obsaženo: Ovocný styl odrůdy. Kompletní receptura položky: North Coast, Kalifornie. Plnější, pikantní kyselinka, ovocný styl odrůdy, zralá bílá broskev a tropické ovoce v chuti.."
-          },
-          {
-            "id": "bile-sauvignon-lapis-luna-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Sauvignon Blanc – Lapis Luna?",
-            "correctAnswer": "Zralá bílá broskev a tropické ovoce v chuti",
-            "distractors": [
-              "Kyselina a minerální tóny",
-              "Pozdní sběr"
-            ],
-            "explanation": "V podsložce Sauvignon Blanc – Lapis Luna je obsaženo: Zralá bílá broskev a tropické ovoce v chuti. Kompletní receptura položky: North Coast, Kalifornie. Plnější, pikantní kyselinka, ovocný styl odrůdy, zralá bílá broskev a tropické ovoce v chuti.."
-          },
-          {
-            "id": "bile-sauvignon-lapis-luna-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Sauvignon Blanc – Lapis Luna?",
-            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Sauvignon Blanc – Lapis Luna obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
-          }
-        ]
-      },
-      {
-        "id": "bile-chardonnay-knotty-vines",
-        "name": "Chardonnay – Knotty Vines",
-        "weight": "0,75 l",
-        "price": "975,-",
-        "allergens": [
-          "12"
-        ],
-        "description": "Kalifornie. Plnější na dubových sudech, šťavnaté, elegantní závěr, chuť tropického ovoce, koření a mineralita.",
-        "questions": [
-          {
-            "id": "bile-chardonnay-knotty-vines-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Chardonnay – Knotty Vines?",
-            "correctAnswer": "0,75 l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem podsložky Chardonnay – Knotty Vines je 0,75 l."
-          },
-          {
-            "id": "bile-chardonnay-knotty-vines-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Chardonnay – Knotty Vines?",
-            "correctAnswer": "Kalifornie. Plnější na dubových sudech",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Chardonnay – Knotty Vines je obsaženo: Kalifornie. Plnější na dubových sudech. Kompletní receptura položky: Kalifornie. Plnější na dubových sudech, šťavnaté, elegantní závěr, chuť tropického ovoce, koření a mineralita.."
-          },
-          {
-            "id": "bile-chardonnay-knotty-vines-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Chardonnay – Knotty Vines?",
-            "correctAnswer": "Šťavnaté",
-            "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
-            ],
-            "explanation": "V podsložce Chardonnay – Knotty Vines je obsaženo: Šťavnaté. Kompletní receptura položky: Kalifornie. Plnější na dubových sudech, šťavnaté, elegantní závěr, chuť tropického ovoce, koření a mineralita.."
-          },
-          {
-            "id": "bile-chardonnay-knotty-vines-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Chardonnay – Knotty Vines?",
-            "correctAnswer": "Elegantní závěr",
-            "distractors": [
-              "Vinařství Michlovský",
-              "Mikulovská podoblast"
-            ],
-            "explanation": "V podsložce Chardonnay – Knotty Vines je obsaženo: Elegantní závěr. Kompletní receptura položky: Kalifornie. Plnější na dubových sudech, šťavnaté, elegantní závěr, chuť tropického ovoce, koření a mineralita.."
-          },
-          {
-            "id": "bile-chardonnay-knotty-vines-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Chardonnay – Knotty Vines?",
-            "correctAnswer": "Chuť tropického ovoce",
-            "distractors": [
-              "Velkopavlovická podoblast",
-              "Mělnická podoblast"
-            ],
-            "explanation": "V podsložce Chardonnay – Knotty Vines je obsaženo: Chuť tropického ovoce. Kompletní receptura položky: Kalifornie. Plnější na dubových sudech, šťavnaté, elegantní závěr, chuť tropického ovoce, koření a mineralita.."
-          },
-          {
-            "id": "bile-chardonnay-knotty-vines-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Chardonnay – Knotty Vines?",
-            "correctAnswer": "Koření a mineralita",
-            "distractors": [
-              "Kyselina a minerální tóny",
-              "Pozdní sběr"
-            ],
-            "explanation": "V podsložce Chardonnay – Knotty Vines je obsaženo: Koření a mineralita. Kompletní receptura položky: Kalifornie. Plnější na dubových sudech, šťavnaté, elegantní závěr, chuť tropického ovoce, koření a mineralita.."
-          },
-          {
-            "id": "bile-chardonnay-knotty-vines-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Chardonnay – Knotty Vines?",
-            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Chardonnay – Knotty Vines obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "ruzova-vina",
-    "name": "růžová vína",
-    "badge": "Růžová vína",
-    "description": "Ovocná a svěží růžová vína ideální k lehkým pokrmům",
-    "iconName": "Wine",
-    "items": [
-      {
-        "id": "ruzove-merlot-rose-bilkovi",
-        "name": "Merlot Rosé – Bílkovi",
-        "weight": "0,75 l",
-        "price": "405,-",
-        "allergens": [
-          "12"
-        ],
-        "description": "pozdní sběr Bílkovi – Velkopavlovicko, Morava. Příjemně pitelné, vůně malin, jahod a třešní, ovocitá chuť s tóny smetany.",
-        "questions": [
-          {
-            "id": "ruzove-merlot-rose-bilkovi-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Merlot Rosé – Bílkovi?",
-            "correctAnswer": "0,75 l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem podsložky Merlot Rosé – Bílkovi je 0,75 l."
-          },
-          {
-            "id": "ruzove-merlot-rose-bilkovi-ing-1",
-            "question": "Která odrůdová či vinařská vlastnost charakterizuje víno Merlot Rosé – Bílkovi?",
-            "correctAnswer": "Pozdní sběr Bílkovi – Velkopavlovicko",
-            "distractors": [
-              "Vinařství Gotberg",
-              "Vinařství Kolby"
-            ],
-            "explanation": "V podsložce Merlot Rosé – Bílkovi je obsaženo: Pozdní sběr Bílkovi – Velkopavlovicko. Kompletní receptura položky: pozdní sběr Bílkovi – Velkopavlovicko, Morava. Příjemně pitelné, vůně malin, jahod a třešní, ovocitá chuť s tóny smetany.."
-          },
-          {
-            "id": "ruzove-merlot-rose-bilkovi-ing-2",
-            "question": "Která odrůdová či vinařská vlastnost charakterizuje víno Merlot Rosé – Bílkovi?",
-            "correctAnswer": "Morava. Příjemně pitelné",
-            "distractors": [
-              "Vinařství Kraus",
-              "Vinařství Michlovský"
-            ],
-            "explanation": "V podsložce Merlot Rosé – Bílkovi je obsaženo: Morava. Příjemně pitelné. Kompletní receptura položky: pozdní sběr Bílkovi – Velkopavlovicko, Morava. Příjemně pitelné, vůně malin, jahod a třešní, ovocitá chuť s tóny smetany.."
-          },
-          {
-            "id": "ruzove-merlot-rose-bilkovi-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Merlot Rosé – Bílkovi?",
-            "correctAnswer": "Vůně malin",
-            "distractors": [
-              "Mikulovská podoblast",
-              "Velkopavlovická podoblast"
-            ],
-            "explanation": "V podsložce Merlot Rosé – Bílkovi je obsaženo: Vůně malin. Kompletní receptura položky: pozdní sběr Bílkovi – Velkopavlovicko, Morava. Příjemně pitelné, vůně malin, jahod a třešní, ovocitá chuť s tóny smetany.."
-          },
-          {
-            "id": "ruzove-merlot-rose-bilkovi-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Merlot Rosé – Bílkovi?",
-            "correctAnswer": "Jahod a třešní",
-            "distractors": [
-              "Mělnická podoblast",
-              "Kyselina a minerální tóny"
-            ],
-            "explanation": "V podsložce Merlot Rosé – Bílkovi je obsaženo: Jahod a třešní. Kompletní receptura položky: pozdní sběr Bílkovi – Velkopavlovicko, Morava. Příjemně pitelné, vůně malin, jahod a třešní, ovocitá chuť s tóny smetany.."
-          },
-          {
-            "id": "ruzove-merlot-rose-bilkovi-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Merlot Rosé – Bílkovi?",
-            "correctAnswer": "Ovocitá chuť s tóny smetany",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Merlot Rosé – Bílkovi je obsaženo: Ovocitá chuť s tóny smetany. Kompletní receptura položky: pozdní sběr Bílkovi – Velkopavlovicko, Morava. Příjemně pitelné, vůně malin, jahod a třešní, ovocitá chuť s tóny smetany.."
-          },
-          {
-            "id": "ruzove-merlot-rose-bilkovi-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Merlot Rosé – Bílkovi?",
-            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Merlot Rosé – Bílkovi obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "cervena-vina",
-    "name": "červená vína",
-    "badge": "Červená vína",
-    "description": "Plná a vyzrálá červená vína z Moravy, Francie, Itálie i Nového světa",
-    "iconName": "Wine",
-    "items": [
-      {
-        "id": "cervene-pinot-noir-rouci-kraus",
-        "name": "Pinot Noir Roučí Malé – Kraus",
-        "weight": "0,75 l",
-        "price": "425,-",
-        "allergens": [
-          "12"
-        ],
-        "description": "Mělnicko, Čechy. Lehké víno, chuť lesní jahody a červené zahradní ovoce.",
-        "questions": [
-          {
-            "id": "cervene-pinot-noir-rouci-kraus-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Pinot Noir Roučí Malé – Kraus?",
-            "correctAnswer": "0,75 l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem podsložky Pinot Noir Roučí Malé – Kraus je 0,75 l."
-          },
-          {
-            "id": "cervene-pinot-noir-rouci-kraus-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Pinot Noir Roučí Malé – Kraus?",
-            "correctAnswer": "Mělnicko",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Pinot Noir Roučí Malé – Kraus je obsaženo: Mělnicko. Kompletní receptura položky: Mělnicko, Čechy. Lehké víno, chuť lesní jahody a červené zahradní ovoce.."
-          },
-          {
-            "id": "cervene-pinot-noir-rouci-kraus-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Pinot Noir Roučí Malé – Kraus?",
-            "correctAnswer": "Čechy. Lehké víno",
-            "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
-            ],
-            "explanation": "V podsložce Pinot Noir Roučí Malé – Kraus je obsaženo: Čechy. Lehké víno. Kompletní receptura položky: Mělnicko, Čechy. Lehké víno, chuť lesní jahody a červené zahradní ovoce.."
-          },
-          {
-            "id": "cervene-pinot-noir-rouci-kraus-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Pinot Noir Roučí Malé – Kraus?",
-            "correctAnswer": "Chuť lesní jahody a červené zahradní ovoce",
-            "distractors": [
-              "Vinařství Michlovský",
-              "Mikulovská podoblast"
-            ],
-            "explanation": "V podsložce Pinot Noir Roučí Malé – Kraus je obsaženo: Chuť lesní jahody a červené zahradní ovoce. Kompletní receptura položky: Mělnicko, Čechy. Lehké víno, chuť lesní jahody a červené zahradní ovoce.."
-          },
-          {
-            "id": "cervene-pinot-noir-rouci-kraus-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Pinot Noir Roučí Malé – Kraus?",
-            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Pinot Noir Roučí Malé – Kraus obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
-          }
-        ]
-      },
-      {
-        "id": "cervene-dornfelder-bilkovi",
-        "name": "Dornfelder – Bílkovi",
-        "weight": "0,75 l",
-        "price": "419,-",
-        "allergens": [
-          "12"
-        ],
-        "description": "Velkopavlovicko, Morava. 12 měsíců zrání v sudu, vůně ostružin, plná, harmonická chuť rybízu, třešní a malin.",
-        "questions": [
-          {
-            "id": "cervene-dornfelder-bilkovi-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Dornfelder – Bílkovi?",
-            "correctAnswer": "0,75 l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem podsložky Dornfelder – Bílkovi je 0,75 l."
-          },
-          {
-            "id": "cervene-dornfelder-bilkovi-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Dornfelder – Bílkovi?",
-            "correctAnswer": "Velkopavlovicko",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Dornfelder – Bílkovi je obsaženo: Velkopavlovicko. Kompletní receptura položky: Velkopavlovicko, Morava. 12 měsíců zrání v sudu, vůně ostružin, plná, harmonická chuť rybízu, třešní a malin.."
-          },
-          {
-            "id": "cervene-dornfelder-bilkovi-ing-2",
-            "question": "Která odrůdová či vinařská vlastnost charakterizuje víno Dornfelder – Bílkovi?",
-            "correctAnswer": "Morava. 12 měsíců zrání v sudu",
-            "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
-            ],
-            "explanation": "V podsložce Dornfelder – Bílkovi je obsaženo: Morava. 12 měsíců zrání v sudu. Kompletní receptura položky: Velkopavlovicko, Morava. 12 měsíců zrání v sudu, vůně ostružin, plná, harmonická chuť rybízu, třešní a malin.."
-          },
-          {
-            "id": "cervene-dornfelder-bilkovi-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Dornfelder – Bílkovi?",
-            "correctAnswer": "Vůně ostružin",
-            "distractors": [
-              "Vinařství Michlovský",
-              "Mikulovská podoblast"
-            ],
-            "explanation": "V podsložce Dornfelder – Bílkovi je obsaženo: Vůně ostružin. Kompletní receptura položky: Velkopavlovicko, Morava. 12 měsíců zrání v sudu, vůně ostružin, plná, harmonická chuť rybízu, třešní a malin.."
-          },
-          {
-            "id": "cervene-dornfelder-bilkovi-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Dornfelder – Bílkovi?",
-            "correctAnswer": "Plná",
-            "distractors": [
-              "Velkopavlovická podoblast",
-              "Mělnická podoblast"
-            ],
-            "explanation": "V podsložce Dornfelder – Bílkovi je obsaženo: Plná. Kompletní receptura položky: Velkopavlovicko, Morava. 12 měsíců zrání v sudu, vůně ostružin, plná, harmonická chuť rybízu, třešní a malin.."
-          },
-          {
-            "id": "cervene-dornfelder-bilkovi-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Dornfelder – Bílkovi?",
-            "correctAnswer": "Harmonická chuť rybízu",
-            "distractors": [
-              "Kyselina a minerální tóny",
-              "Pozdní sběr"
-            ],
-            "explanation": "V podsložce Dornfelder – Bílkovi je obsaženo: Harmonická chuť rybízu. Kompletní receptura položky: Velkopavlovicko, Morava. 12 měsíců zrání v sudu, vůně ostružin, plná, harmonická chuť rybízu, třešní a malin.."
-          },
-          {
-            "id": "cervene-dornfelder-bilkovi-ing-6",
-            "question": "Která z následujících surovin patří do podsložky Dornfelder – Bílkovi?",
-            "correctAnswer": "Třešní a malin",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Dornfelder – Bílkovi je obsaženo: Třešní a malin. Kompletní receptura položky: Velkopavlovicko, Morava. 12 měsíců zrání v sudu, vůně ostružin, plná, harmonická chuť rybízu, třešní a malin.."
-          },
-          {
-            "id": "cervene-dornfelder-bilkovi-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Dornfelder – Bílkovi?",
-            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Dornfelder – Bílkovi obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
-          }
-        ]
-      },
-      {
-        "id": "cervene-cuvee-red-kolby",
-        "name": "Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby",
-        "weight": "0,75 l",
-        "price": "649,-",
-        "allergens": [
-          "12"
-        ],
-        "description": "Mikulovsko, Morava. Plné, komplexní, dlouhý závěr, sytá granátová barva, chuť čokolády, koření, tmavého ovoce a kouře.",
-        "questions": [
-          {
-            "id": "cervene-cuvee-red-kolby-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
-            "correctAnswer": "0,75 l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem podsložky Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby je 0,75 l."
-          },
-          {
-            "id": "cervene-cuvee-red-kolby-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
-            "correctAnswer": "Mikulovsko",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby je obsaženo: Mikulovsko. Kompletní receptura položky: Mikulovsko, Morava. Plné, komplexní, dlouhý závěr, sytá granátová barva, chuť čokolády, koření, tmavého ovoce a kouře.."
-          },
-          {
-            "id": "cervene-cuvee-red-kolby-ing-2",
-            "question": "Která odrůdová či vinařská vlastnost charakterizuje víno Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
-            "correctAnswer": "Morava. Plné",
-            "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
-            ],
-            "explanation": "V podsložce Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby je obsaženo: Morava. Plné. Kompletní receptura položky: Mikulovsko, Morava. Plné, komplexní, dlouhý závěr, sytá granátová barva, chuť čokolády, koření, tmavého ovoce a kouře.."
-          },
-          {
-            "id": "cervene-cuvee-red-kolby-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
-            "correctAnswer": "Komplexní",
-            "distractors": [
-              "Vinařství Michlovský",
-              "Mikulovská podoblast"
-            ],
-            "explanation": "V podsložce Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby je obsaženo: Komplexní. Kompletní receptura položky: Mikulovsko, Morava. Plné, komplexní, dlouhý závěr, sytá granátová barva, chuť čokolády, koření, tmavého ovoce a kouře.."
-          },
-          {
-            "id": "cervene-cuvee-red-kolby-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
-            "correctAnswer": "Dlouhý závěr",
-            "distractors": [
-              "Velkopavlovická podoblast",
-              "Mělnická podoblast"
-            ],
-            "explanation": "V podsložce Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby je obsaženo: Dlouhý závěr. Kompletní receptura položky: Mikulovsko, Morava. Plné, komplexní, dlouhý závěr, sytá granátová barva, chuť čokolády, koření, tmavého ovoce a kouře.."
-          },
-          {
-            "id": "cervene-cuvee-red-kolby-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
-            "correctAnswer": "Sytá granátová barva",
-            "distractors": [
-              "Kyselina a minerální tóny",
-              "Pozdní sběr"
-            ],
-            "explanation": "V podsložce Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby je obsaženo: Sytá granátová barva. Kompletní receptura položky: Mikulovsko, Morava. Plné, komplexní, dlouhý závěr, sytá granátová barva, chuť čokolády, koření, tmavého ovoce a kouře.."
-          },
-          {
-            "id": "cervene-cuvee-red-kolby-ing-6",
-            "question": "Která z následujících surovin patří do podsložky Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
-            "correctAnswer": "Chuť čokolády",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby je obsaženo: Chuť čokolády. Kompletní receptura položky: Mikulovsko, Morava. Plné, komplexní, dlouhý závěr, sytá granátová barva, chuť čokolády, koření, tmavého ovoce a kouře.."
-          },
-          {
-            "id": "cervene-cuvee-red-kolby-ing-7",
-            "question": "Která z následujících surovin patří do podsložky Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
-            "correctAnswer": "Koření",
-            "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
-            ],
-            "explanation": "V podsložce Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby je obsaženo: Koření. Kompletní receptura položky: Mikulovsko, Morava. Plné, komplexní, dlouhý závěr, sytá granátová barva, chuť čokolády, koření, tmavého ovoce a kouře.."
-          },
-          {
-            "id": "cervene-cuvee-red-kolby-ing-8",
-            "question": "Která z následujících surovin patří do podsložky Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
-            "correctAnswer": "Tmavého ovoce a kouře",
-            "distractors": [
-              "Vinařství Michlovský",
-              "Mikulovská podoblast"
-            ],
-            "explanation": "V podsložce Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby je obsaženo: Tmavého ovoce a kouře. Kompletní receptura položky: Mikulovsko, Morava. Plné, komplexní, dlouhý závěr, sytá granátová barva, chuť čokolády, koření, tmavého ovoce a kouře.."
-          },
-          {
-            "id": "cervene-cuvee-red-kolby-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
-            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
-          }
-        ]
-      },
-      {
-        "id": "cervene-nina-cuvee-bilkovi",
-        "name": "Nina Cuvée (Merlot, Frankovka) – Bílkovi",
-        "weight": "0,75 l",
-        "price": "699,-",
-        "allergens": [
-          "12"
-        ],
-        "description": "Velkopavlovicko, Morava. Plné, 14 měsíců v dubových sudech, vůně rybízu a pražené kávy, chuť hořké čokolády a švestek.",
-        "questions": [
-          {
-            "id": "cervene-nina-cuvee-bilkovi-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Nina Cuvée (Merlot, Frankovka) – Bílkovi?",
-            "correctAnswer": "0,75 l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem podsložky Nina Cuvée (Merlot, Frankovka) – Bílkovi je 0,75 l."
-          },
-          {
-            "id": "cervene-nina-cuvee-bilkovi-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Nina Cuvée (Merlot, Frankovka) – Bílkovi?",
-            "correctAnswer": "Velkopavlovicko",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Nina Cuvée (Merlot, Frankovka) – Bílkovi je obsaženo: Velkopavlovicko. Kompletní receptura položky: Velkopavlovicko, Morava. Plné, 14 měsíců v dubových sudech, vůně rybízu a pražené kávy, chuť hořké čokolády a švestek.."
-          },
-          {
-            "id": "cervene-nina-cuvee-bilkovi-ing-2",
-            "question": "Která odrůdová či vinařská vlastnost charakterizuje víno Nina Cuvée (Merlot, Frankovka) – Bílkovi?",
-            "correctAnswer": "Morava. Plné",
-            "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
-            ],
-            "explanation": "V podsložce Nina Cuvée (Merlot, Frankovka) – Bílkovi je obsaženo: Morava. Plné. Kompletní receptura položky: Velkopavlovicko, Morava. Plné, 14 měsíců v dubových sudech, vůně rybízu a pražené kávy, chuť hořké čokolády a švestek.."
-          },
-          {
-            "id": "cervene-nina-cuvee-bilkovi-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Nina Cuvée (Merlot, Frankovka) – Bílkovi?",
-            "correctAnswer": "14 měsíců v dubových sudech",
-            "distractors": [
-              "Vinařství Michlovský",
-              "Mikulovská podoblast"
-            ],
-            "explanation": "V podsložce Nina Cuvée (Merlot, Frankovka) – Bílkovi je obsaženo: 14 měsíců v dubových sudech. Kompletní receptura položky: Velkopavlovicko, Morava. Plné, 14 měsíců v dubových sudech, vůně rybízu a pražené kávy, chuť hořké čokolády a švestek.."
-          },
-          {
-            "id": "cervene-nina-cuvee-bilkovi-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Nina Cuvée (Merlot, Frankovka) – Bílkovi?",
-            "correctAnswer": "Vůně rybízu a pražené kávy",
-            "distractors": [
-              "Velkopavlovická podoblast",
-              "Mělnická podoblast"
-            ],
-            "explanation": "V podsložce Nina Cuvée (Merlot, Frankovka) – Bílkovi je obsaženo: Vůně rybízu a pražené kávy. Kompletní receptura položky: Velkopavlovicko, Morava. Plné, 14 měsíců v dubových sudech, vůně rybízu a pražené kávy, chuť hořké čokolády a švestek.."
-          },
-          {
-            "id": "cervene-nina-cuvee-bilkovi-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Nina Cuvée (Merlot, Frankovka) – Bílkovi?",
-            "correctAnswer": "Chuť hořké čokolády a švestek",
-            "distractors": [
-              "Kyselina a minerální tóny",
-              "Pozdní sběr"
-            ],
-            "explanation": "V podsložce Nina Cuvée (Merlot, Frankovka) – Bílkovi je obsaženo: Chuť hořké čokolády a švestek. Kompletní receptura položky: Velkopavlovicko, Morava. Plné, 14 měsíců v dubových sudech, vůně rybízu a pražené kávy, chuť hořké čokolády a švestek.."
-          },
-          {
-            "id": "cervene-nina-cuvee-bilkovi-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Nina Cuvée (Merlot, Frankovka) – Bílkovi?",
-            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Nina Cuvée (Merlot, Frankovka) – Bílkovi obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
-          }
-        ]
-      },
-      {
-        "id": "cervene-zweigelt-feller-artinger",
-        "name": "Zweigelt – Weingut Feller-Artinger",
-        "weight": "0,75 l",
-        "price": "660,-",
-        "allergens": [
-          "12"
-        ],
-        "description": "Burgenland, Rakousko. Svěží, vůně po bobulovitém ovoci, sametová chuť tmavého ovoce, dubu, bylin a tabáku.",
-        "questions": [
-          {
-            "id": "cervene-zweigelt-feller-artinger-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Zweigelt – Weingut Feller-Artinger?",
-            "correctAnswer": "0,75 l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem podsložky Zweigelt – Weingut Feller-Artinger je 0,75 l."
-          },
-          {
-            "id": "cervene-zweigelt-feller-artinger-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Zweigelt – Weingut Feller-Artinger?",
-            "correctAnswer": "Burgenland",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Zweigelt – Weingut Feller-Artinger je obsaženo: Burgenland. Kompletní receptura položky: Burgenland, Rakousko. Svěží, vůně po bobulovitém ovoci, sametová chuť tmavého ovoce, dubu, bylin a tabáku.."
-          },
-          {
-            "id": "cervene-zweigelt-feller-artinger-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Zweigelt – Weingut Feller-Artinger?",
-            "correctAnswer": "Rakousko. Svěží",
-            "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
-            ],
-            "explanation": "V podsložce Zweigelt – Weingut Feller-Artinger je obsaženo: Rakousko. Svěží. Kompletní receptura položky: Burgenland, Rakousko. Svěží, vůně po bobulovitém ovoci, sametová chuť tmavého ovoce, dubu, bylin a tabáku.."
-          },
-          {
-            "id": "cervene-zweigelt-feller-artinger-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Zweigelt – Weingut Feller-Artinger?",
-            "correctAnswer": "Vůně po bobulovitém ovoci",
-            "distractors": [
-              "Vinařství Michlovský",
-              "Mikulovská podoblast"
-            ],
-            "explanation": "V podsložce Zweigelt – Weingut Feller-Artinger je obsaženo: Vůně po bobulovitém ovoci. Kompletní receptura položky: Burgenland, Rakousko. Svěží, vůně po bobulovitém ovoci, sametová chuť tmavého ovoce, dubu, bylin a tabáku.."
-          },
-          {
-            "id": "cervene-zweigelt-feller-artinger-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Zweigelt – Weingut Feller-Artinger?",
-            "correctAnswer": "Sametová chuť tmavého ovoce",
-            "distractors": [
-              "Velkopavlovická podoblast",
-              "Mělnická podoblast"
-            ],
-            "explanation": "V podsložce Zweigelt – Weingut Feller-Artinger je obsaženo: Sametová chuť tmavého ovoce. Kompletní receptura položky: Burgenland, Rakousko. Svěží, vůně po bobulovitém ovoci, sametová chuť tmavého ovoce, dubu, bylin a tabáku.."
-          },
-          {
-            "id": "cervene-zweigelt-feller-artinger-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Zweigelt – Weingut Feller-Artinger?",
-            "correctAnswer": "Dubu",
-            "distractors": [
-              "Kyselina a minerální tóny",
-              "Pozdní sběr"
-            ],
-            "explanation": "V podsložce Zweigelt – Weingut Feller-Artinger je obsaženo: Dubu. Kompletní receptura položky: Burgenland, Rakousko. Svěží, vůně po bobulovitém ovoci, sametová chuť tmavého ovoce, dubu, bylin a tabáku.."
-          },
-          {
-            "id": "cervene-zweigelt-feller-artinger-ing-6",
-            "question": "Která bylinka, koření či aromatická surovina dochucuje Zweigelt – Weingut Feller-Artinger?",
-            "correctAnswer": "Bylin a tabáku",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Zweigelt – Weingut Feller-Artinger je obsaženo: Bylin a tabáku. Kompletní receptura položky: Burgenland, Rakousko. Svěží, vůně po bobulovitém ovoci, sametová chuť tmavého ovoce, dubu, bylin a tabáku.."
-          },
-          {
-            "id": "cervene-zweigelt-feller-artinger-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Zweigelt – Weingut Feller-Artinger?",
-            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Zweigelt – Weingut Feller-Artinger obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
-          }
-        ]
-      },
-      {
-        "id": "cervene-pinot-noir-philipp-kuhn",
-        "name": "Pinot Noir Tradition – Philipp Kuhn",
-        "weight": "0,75 l",
-        "price": "959,-",
-        "allergens": [
-          "12"
-        ],
-        "description": "Pfalz, Německo. Středně plné, vůně lesních jahod, sušených švestek, mandlí, třešní, hořké čokolády a kůže, výrazné třísloviny, dochuť zralých třešní a fialek.",
-        "questions": [
-          {
-            "id": "cervene-pinot-noir-philipp-kuhn-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "0,75 l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem podsložky Pinot Noir Tradition – Philipp Kuhn je 0,75 l."
-          },
-          {
-            "id": "cervene-pinot-noir-philipp-kuhn-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "Pfalz",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Pinot Noir Tradition – Philipp Kuhn je obsaženo: Pfalz. Kompletní receptura položky: Pfalz, Německo. Středně plné, vůně lesních jahod, sušených švestek, mandlí, třešní, hořké čokolády a kůže, výrazné třísloviny, dochuť zralých třešní a fialek.."
-          },
-          {
-            "id": "cervene-pinot-noir-philipp-kuhn-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "Německo. Středně plné",
-            "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
-            ],
-            "explanation": "V podsložce Pinot Noir Tradition – Philipp Kuhn je obsaženo: Německo. Středně plné. Kompletní receptura položky: Pfalz, Německo. Středně plné, vůně lesních jahod, sušených švestek, mandlí, třešní, hořké čokolády a kůže, výrazné třísloviny, dochuť zralých třešní a fialek.."
-          },
-          {
-            "id": "cervene-pinot-noir-philipp-kuhn-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "Vůně lesních jahod",
-            "distractors": [
-              "Vinařství Michlovský",
-              "Mikulovská podoblast"
-            ],
-            "explanation": "V podsložce Pinot Noir Tradition – Philipp Kuhn je obsaženo: Vůně lesních jahod. Kompletní receptura položky: Pfalz, Německo. Středně plné, vůně lesních jahod, sušených švestek, mandlí, třešní, hořké čokolády a kůže, výrazné třísloviny, dochuť zralých třešní a fialek.."
-          },
-          {
-            "id": "cervene-pinot-noir-philipp-kuhn-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "Sušených švestek",
-            "distractors": [
-              "Velkopavlovická podoblast",
-              "Mělnická podoblast"
-            ],
-            "explanation": "V podsložce Pinot Noir Tradition – Philipp Kuhn je obsaženo: Sušených švestek. Kompletní receptura položky: Pfalz, Německo. Středně plné, vůně lesních jahod, sušených švestek, mandlí, třešní, hořké čokolády a kůže, výrazné třísloviny, dochuť zralých třešní a fialek.."
-          },
-          {
-            "id": "cervene-pinot-noir-philipp-kuhn-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "Mandlí",
-            "distractors": [
-              "Kyselina a minerální tóny",
-              "Pozdní sběr"
-            ],
-            "explanation": "V podsložce Pinot Noir Tradition – Philipp Kuhn je obsaženo: Mandlí. Kompletní receptura položky: Pfalz, Německo. Středně plné, vůně lesních jahod, sušených švestek, mandlí, třešní, hořké čokolády a kůže, výrazné třísloviny, dochuť zralých třešní a fialek.."
-          },
-          {
-            "id": "cervene-pinot-noir-philipp-kuhn-ing-6",
-            "question": "Která z následujících surovin patří do podsložky Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "Třešní",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Pinot Noir Tradition – Philipp Kuhn je obsaženo: Třešní. Kompletní receptura položky: Pfalz, Německo. Středně plné, vůně lesních jahod, sušených švestek, mandlí, třešní, hořké čokolády a kůže, výrazné třísloviny, dochuť zralých třešní a fialek.."
-          },
-          {
-            "id": "cervene-pinot-noir-philipp-kuhn-ing-7",
-            "question": "Která z následujících surovin patří do podsložky Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "Hořké čokolády a kůže",
-            "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
-            ],
-            "explanation": "V podsložce Pinot Noir Tradition – Philipp Kuhn je obsaženo: Hořké čokolády a kůže. Kompletní receptura položky: Pfalz, Německo. Středně plné, vůně lesních jahod, sušených švestek, mandlí, třešní, hořké čokolády a kůže, výrazné třísloviny, dochuť zralých třešní a fialek.."
-          },
-          {
-            "id": "cervene-pinot-noir-philipp-kuhn-ing-8",
-            "question": "Která z následujících surovin patří do podsložky Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "Výrazné třísloviny",
-            "distractors": [
-              "Vinařství Michlovský",
-              "Mikulovská podoblast"
-            ],
-            "explanation": "V podsložce Pinot Noir Tradition – Philipp Kuhn je obsaženo: Výrazné třísloviny. Kompletní receptura položky: Pfalz, Německo. Středně plné, vůně lesních jahod, sušených švestek, mandlí, třešní, hořké čokolády a kůže, výrazné třísloviny, dochuť zralých třešní a fialek.."
-          },
-          {
-            "id": "cervene-pinot-noir-philipp-kuhn-ing-9",
-            "question": "Která z následujících surovin patří do podsložky Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "Dochuť zralých třešní a fialek",
-            "distractors": [
-              "Velkopavlovická podoblast",
-              "Mělnická podoblast"
-            ],
-            "explanation": "V podsložce Pinot Noir Tradition – Philipp Kuhn je obsaženo: Dochuť zralých třešní a fialek. Kompletní receptura položky: Pfalz, Německo. Středně plné, vůně lesních jahod, sušených švestek, mandlí, třešní, hořké čokolády a kůže, výrazné třísloviny, dochuť zralých třešní a fialek.."
-          },
-          {
-            "id": "cervene-pinot-noir-philipp-kuhn-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Pinot Noir Tradition – Philipp Kuhn obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
-          }
-        ]
-      },
-      {
-        "id": "cervene-cabernet-lapis-luna",
-        "name": "Cabernet Sauvignon – Lapis Luna",
-        "weight": "0,75 l",
-        "price": "789,-",
-        "allergens": [
-          "12"
-        ],
-        "description": "Lodi, Kalifornie. Středně plné, příjemná kyselina, dlouhý závěr, tmavé ovoce, černý rybíz, koření, skořice a hřebíček.",
-        "questions": [
-          {
-            "id": "cervene-cabernet-lapis-luna-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Cabernet Sauvignon – Lapis Luna?",
-            "correctAnswer": "0,75 l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem podsložky Cabernet Sauvignon – Lapis Luna je 0,75 l."
-          },
-          {
-            "id": "cervene-cabernet-lapis-luna-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Cabernet Sauvignon – Lapis Luna?",
-            "correctAnswer": "Lodi",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Cabernet Sauvignon – Lapis Luna je obsaženo: Lodi. Kompletní receptura položky: Lodi, Kalifornie. Středně plné, příjemná kyselina, dlouhý závěr, tmavé ovoce, černý rybíz, koření, skořice a hřebíček.."
-          },
-          {
-            "id": "cervene-cabernet-lapis-luna-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Cabernet Sauvignon – Lapis Luna?",
-            "correctAnswer": "Kalifornie. Středně plné",
-            "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
-            ],
-            "explanation": "V podsložce Cabernet Sauvignon – Lapis Luna je obsaženo: Kalifornie. Středně plné. Kompletní receptura položky: Lodi, Kalifornie. Středně plné, příjemná kyselina, dlouhý závěr, tmavé ovoce, černý rybíz, koření, skořice a hřebíček.."
-          },
-          {
-            "id": "cervene-cabernet-lapis-luna-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Cabernet Sauvignon – Lapis Luna?",
-            "correctAnswer": "Příjemná kyselina",
-            "distractors": [
-              "Vinařství Michlovský",
-              "Mikulovská podoblast"
-            ],
-            "explanation": "V podsložce Cabernet Sauvignon – Lapis Luna je obsaženo: Příjemná kyselina. Kompletní receptura položky: Lodi, Kalifornie. Středně plné, příjemná kyselina, dlouhý závěr, tmavé ovoce, černý rybíz, koření, skořice a hřebíček.."
-          },
-          {
-            "id": "cervene-cabernet-lapis-luna-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Cabernet Sauvignon – Lapis Luna?",
-            "correctAnswer": "Dlouhý závěr",
-            "distractors": [
-              "Velkopavlovická podoblast",
-              "Mělnická podoblast"
-            ],
-            "explanation": "V podsložce Cabernet Sauvignon – Lapis Luna je obsaženo: Dlouhý závěr. Kompletní receptura položky: Lodi, Kalifornie. Středně plné, příjemná kyselina, dlouhý závěr, tmavé ovoce, černý rybíz, koření, skořice a hřebíček.."
-          },
-          {
-            "id": "cervene-cabernet-lapis-luna-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Cabernet Sauvignon – Lapis Luna?",
-            "correctAnswer": "Tmavé ovoce",
-            "distractors": [
-              "Kyselina a minerální tóny",
-              "Pozdní sběr"
-            ],
-            "explanation": "V podsložce Cabernet Sauvignon – Lapis Luna je obsaženo: Tmavé ovoce. Kompletní receptura položky: Lodi, Kalifornie. Středně plné, příjemná kyselina, dlouhý závěr, tmavé ovoce, černý rybíz, koření, skořice a hřebíček.."
-          },
-          {
-            "id": "cervene-cabernet-lapis-luna-ing-6",
-            "question": "Která z následujících surovin patří do podsložky Cabernet Sauvignon – Lapis Luna?",
-            "correctAnswer": "Černý rybíz",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Cabernet Sauvignon – Lapis Luna je obsaženo: Černý rybíz. Kompletní receptura položky: Lodi, Kalifornie. Středně plné, příjemná kyselina, dlouhý závěr, tmavé ovoce, černý rybíz, koření, skořice a hřebíček.."
-          },
-          {
-            "id": "cervene-cabernet-lapis-luna-ing-7",
-            "question": "Která z následujících surovin patří do podsložky Cabernet Sauvignon – Lapis Luna?",
-            "correctAnswer": "Koření",
-            "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
-            ],
-            "explanation": "V podsložce Cabernet Sauvignon – Lapis Luna je obsaženo: Koření. Kompletní receptura položky: Lodi, Kalifornie. Středně plné, příjemná kyselina, dlouhý závěr, tmavé ovoce, černý rybíz, koření, skořice a hřebíček.."
-          },
-          {
-            "id": "cervene-cabernet-lapis-luna-ing-8",
-            "question": "Která z následujících surovin patří do podsložky Cabernet Sauvignon – Lapis Luna?",
-            "correctAnswer": "Skořice a hřebíček",
-            "distractors": [
-              "Vinařství Michlovský",
-              "Mikulovská podoblast"
-            ],
-            "explanation": "V podsložce Cabernet Sauvignon – Lapis Luna je obsaženo: Skořice a hřebíček. Kompletní receptura položky: Lodi, Kalifornie. Středně plné, příjemná kyselina, dlouhý závěr, tmavé ovoce, černý rybíz, koření, skořice a hřebíček.."
-          },
-          {
-            "id": "cervene-cabernet-lapis-luna-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Cabernet Sauvignon – Lapis Luna?",
-            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Cabernet Sauvignon – Lapis Luna obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
-          }
-        ]
-      },
-      {
-        "id": "cervene-zinfandel-hendry",
-        "name": "Zinfandel Hendry Ranch HRW",
-        "weight": "0,75 l",
-        "price": "995,-",
-        "allergens": [
-          "12"
-        ],
-        "description": "Napa Valley, Kalifornie. Plné víno, mohutné, dlouhý kořenitý závěr, šťavnatá kyselinka, chuť tmavé bobulovité ovoce, sladké koření a hořká čokoláda.",
-        "questions": [
-          {
-            "id": "cervene-zinfandel-hendry-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Zinfandel Hendry Ranch HRW?",
-            "correctAnswer": "0,75 l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem podsložky Zinfandel Hendry Ranch HRW je 0,75 l."
-          },
-          {
-            "id": "cervene-zinfandel-hendry-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Zinfandel Hendry Ranch HRW?",
-            "correctAnswer": "Napa Valley",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Zinfandel Hendry Ranch HRW je obsaženo: Napa Valley. Kompletní receptura položky: Napa Valley, Kalifornie. Plné víno, mohutné, dlouhý kořenitý závěr, šťavnatá kyselinka, chuť tmavé bobulovité ovoce, sladké koření a hořká čokoláda.."
-          },
-          {
-            "id": "cervene-zinfandel-hendry-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Zinfandel Hendry Ranch HRW?",
-            "correctAnswer": "Kalifornie. Plné víno",
-            "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
-            ],
-            "explanation": "V podsložce Zinfandel Hendry Ranch HRW je obsaženo: Kalifornie. Plné víno. Kompletní receptura položky: Napa Valley, Kalifornie. Plné víno, mohutné, dlouhý kořenitý závěr, šťavnatá kyselinka, chuť tmavé bobulovité ovoce, sladké koření a hořká čokoláda.."
-          },
-          {
-            "id": "cervene-zinfandel-hendry-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Zinfandel Hendry Ranch HRW?",
-            "correctAnswer": "Mohutné",
-            "distractors": [
-              "Vinařství Michlovský",
-              "Mikulovská podoblast"
-            ],
-            "explanation": "V podsložce Zinfandel Hendry Ranch HRW je obsaženo: Mohutné. Kompletní receptura položky: Napa Valley, Kalifornie. Plné víno, mohutné, dlouhý kořenitý závěr, šťavnatá kyselinka, chuť tmavé bobulovité ovoce, sladké koření a hořká čokoláda.."
-          },
-          {
-            "id": "cervene-zinfandel-hendry-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Zinfandel Hendry Ranch HRW?",
-            "correctAnswer": "Dlouhý kořenitý závěr",
-            "distractors": [
-              "Velkopavlovická podoblast",
-              "Mělnická podoblast"
-            ],
-            "explanation": "V podsložce Zinfandel Hendry Ranch HRW je obsaženo: Dlouhý kořenitý závěr. Kompletní receptura položky: Napa Valley, Kalifornie. Plné víno, mohutné, dlouhý kořenitý závěr, šťavnatá kyselinka, chuť tmavé bobulovité ovoce, sladké koření a hořká čokoláda.."
-          },
-          {
-            "id": "cervene-zinfandel-hendry-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Zinfandel Hendry Ranch HRW?",
-            "correctAnswer": "Šťavnatá kyselinka",
-            "distractors": [
-              "Kyselina a minerální tóny",
-              "Pozdní sběr"
-            ],
-            "explanation": "V podsložce Zinfandel Hendry Ranch HRW je obsaženo: Šťavnatá kyselinka. Kompletní receptura položky: Napa Valley, Kalifornie. Plné víno, mohutné, dlouhý kořenitý závěr, šťavnatá kyselinka, chuť tmavé bobulovité ovoce, sladké koření a hořká čokoláda.."
-          },
-          {
-            "id": "cervene-zinfandel-hendry-ing-6",
-            "question": "Která z následujících surovin patří do podsložky Zinfandel Hendry Ranch HRW?",
-            "correctAnswer": "Chuť tmavé bobulovité ovoce",
-            "distractors": [
-              "Zrání v dubovém sudu",
-              "Vinařství Gotberg"
-            ],
-            "explanation": "V podsložce Zinfandel Hendry Ranch HRW je obsaženo: Chuť tmavé bobulovité ovoce. Kompletní receptura položky: Napa Valley, Kalifornie. Plné víno, mohutné, dlouhý kořenitý závěr, šťavnatá kyselinka, chuť tmavé bobulovité ovoce, sladké koření a hořká čokoláda.."
-          },
-          {
-            "id": "cervene-zinfandel-hendry-ing-7",
-            "question": "Která pivovarská surovina nebo vlastnost charakterizuje Zinfandel Hendry Ranch HRW?",
-            "correctAnswer": "Sladké koření a hořká čokoláda",
-            "distractors": [
-              "Vinařství Kolby",
-              "Vinařství Kraus"
-            ],
-            "explanation": "V podsložce Zinfandel Hendry Ranch HRW je obsaženo: Sladké koření a hořká čokoláda. Kompletní receptura položky: Napa Valley, Kalifornie. Plné víno, mohutné, dlouhý kořenitý závěr, šťavnatá kyselinka, chuť tmavé bobulovité ovoce, sladké koření a hořká čokoláda.."
-          },
-          {
-            "id": "cervene-zinfandel-hendry-allergen-12",
-            "question": "Který z následujících alergenů obsahuje podsložka Zinfandel Hendry Ranch HRW?",
-            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Zinfandel Hendry Ranch HRW obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, sušené ovoce). Všechny evidované alergeny této podsložky: Oxid siřičitý a siřičitany."
+            "explanation": "Pinot Noir obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
           }
         ]
       }
@@ -8666,66 +5789,37 @@ export const MENU_CATEGORIES: MenuCategory[] = [
   },
   {
     "id": "aperitivy",
-    "name": "aperitivy",
+    "name": "Aperitivy",
     "badge": "Aperitivy",
-    "description": "Klasické i moderní spritzy na povzbuzení chuti před jídlem",
+    "description": "Klasické a šumivé aperitivy k povzbuzení chuti",
     "iconName": "Martini",
     "items": [
       {
         "id": "aperol-spritz",
         "name": "Aperol Spritz",
         "price": "155 Kč",
-        "description": "Aperol, charmat, soda, led, plátek pomeranče",
+        "allergens": [],
+        "description": "Aperol, charmat, soda",
         "questions": [
           {
             "id": "aperol-spritz-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Aperol Spritz?",
+            "question": "Která surovina, původ či charakteristika patří k položce Aperol Spritz?",
             "correctAnswer": "Aperol",
             "distractors": [
-              "Bílý rum",
-              "Stařený rum"
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
             ],
-            "explanation": "V podsložce Aperol Spritz je obsaženo: Aperol. Kompletní receptura položky: Aperol, charmat, soda, led, plátek pomeranče."
+            "explanation": "U položky Aperol Spritz je uvedeno: Aperol. Kompletní popis: Aperol, charmat, soda."
           },
           {
             "id": "aperol-spritz-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Aperol Spritz?",
+            "question": "Která surovina, původ či charakteristika patří k položce Aperol Spritz?",
             "correctAnswer": "Charmat",
             "distractors": [
-              "Modrá agáve (tequila)",
-              "Campari"
+              "Jasmínový zelený čaj",
+              "Belgické višňové pivo"
             ],
-            "explanation": "V podsložce Aperol Spritz je obsaženo: Charmat. Kompletní receptura položky: Aperol, charmat, soda, led, plátek pomeranče."
-          },
-          {
-            "id": "aperol-spritz-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Aperol Spritz?",
-            "correctAnswer": "Soda",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "V podsložce Aperol Spritz je obsaženo: Soda. Kompletní receptura položky: Aperol, charmat, soda, led, plátek pomeranče."
-          },
-          {
-            "id": "aperol-spritz-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Aperol Spritz?",
-            "correctAnswer": "Led",
-            "distractors": [
-              "Čerstvá limetová šťáva",
-              "Sodová voda"
-            ],
-            "explanation": "V podsložce Aperol Spritz je obsaženo: Led. Kompletní receptura položky: Aperol, charmat, soda, led, plátek pomeranče."
-          },
-          {
-            "id": "aperol-spritz-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Aperol Spritz?",
-            "correctAnswer": "Plátek pomeranče",
-            "distractors": [
-              "Tonik Thomas Henry",
-              "Řemeslný gin"
-            ],
-            "explanation": "V podsložce Aperol Spritz je obsaženo: Plátek pomeranče. Kompletní receptura položky: Aperol, charmat, soda, led, plátek pomeranče."
+            "explanation": "U položky Aperol Spritz je uvedeno: Charmat. Kompletní popis: Aperol, charmat, soda."
           }
         ]
       },
@@ -8733,57 +5827,28 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "hugo-spritz",
         "name": "Hugo Spritz",
         "price": "155 Kč",
+        "allergens": [],
         "description": "charmat, bezový elixír, limeta, máta, soda",
         "questions": [
           {
             "id": "hugo-spritz-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Hugo Spritz?",
+            "question": "Která surovina, původ či charakteristika patří k položce Hugo Spritz?",
             "correctAnswer": "Charmat",
             "distractors": [
-              "Bílý rum",
-              "Stařený rum"
+              "Tonik Thomas Henry s chininem",
+              "Čerstvě pražená výběrová káva"
             ],
-            "explanation": "V podsložce Hugo Spritz je obsaženo: Charmat. Kompletní receptura položky: charmat, bezový elixír, limeta, máta, soda."
+            "explanation": "U položky Hugo Spritz je uvedeno: Charmat. Kompletní popis: charmat, bezový elixír, limeta, máta, soda."
           },
           {
             "id": "hugo-spritz-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Hugo Spritz?",
+            "question": "Která surovina, původ či charakteristika patří k položce Hugo Spritz?",
             "correctAnswer": "Bezový elixír",
             "distractors": [
-              "Modrá agáve (tequila)",
-              "Campari"
+              "Vanilkový sirup a limetová šťáva",
+              "Třtinový cukr s limetkou"
             ],
-            "explanation": "V podsložce Hugo Spritz je obsaženo: Bezový elixír. Kompletní receptura položky: charmat, bezový elixír, limeta, máta, soda."
-          },
-          {
-            "id": "hugo-spritz-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Hugo Spritz?",
-            "correctAnswer": "Limeta",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "V podsložce Hugo Spritz je obsaženo: Limeta. Kompletní receptura položky: charmat, bezový elixír, limeta, máta, soda."
-          },
-          {
-            "id": "hugo-spritz-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Hugo Spritz?",
-            "correctAnswer": "Máta",
-            "distractors": [
-              "Čerstvá limetová šťáva",
-              "Sodová voda"
-            ],
-            "explanation": "V podsložce Hugo Spritz je obsaženo: Máta. Kompletní receptura položky: charmat, bezový elixír, limeta, máta, soda."
-          },
-          {
-            "id": "hugo-spritz-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Hugo Spritz?",
-            "correctAnswer": "Soda",
-            "distractors": [
-              "Tonik Thomas Henry",
-              "Řemeslný gin"
-            ],
-            "explanation": "V podsložce Hugo Spritz je obsaženo: Soda. Kompletní receptura položky: charmat, bezový elixír, limeta, máta, soda."
+            "explanation": "U položky Hugo Spritz je uvedeno: Bezový elixír. Kompletní popis: charmat, bezový elixír, limeta, máta, soda."
           }
         ]
       },
@@ -8791,37 +5856,28 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "mimosa",
         "name": "Mimosa",
         "price": "168 Kč",
+        "allergens": [],
         "description": "charmat, pomerančový fresh, cukrový sirup",
         "questions": [
           {
             "id": "mimosa-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Mimosa?",
+            "question": "Která surovina, původ či charakteristika patří k položce Mimosa?",
             "correctAnswer": "Charmat",
             "distractors": [
-              "Bílý rum",
-              "Stařený rum"
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
             ],
-            "explanation": "V podsložce Mimosa je obsaženo: Charmat. Kompletní receptura položky: charmat, pomerančový fresh, cukrový sirup."
+            "explanation": "U položky Mimosa je uvedeno: Charmat. Kompletní popis: charmat, pomerančový fresh, cukrový sirup."
           },
           {
             "id": "mimosa-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Mimosa?",
+            "question": "Která surovina, původ či charakteristika patří k položce Mimosa?",
             "correctAnswer": "Pomerančový fresh",
             "distractors": [
-              "Modrá agáve (tequila)",
-              "Campari"
+              "Mučenkový likér a vanilka",
+              "Kávový likér Kahlúa"
             ],
-            "explanation": "V podsložce Mimosa je obsaženo: Pomerančový fresh. Kompletní receptura položky: charmat, pomerančový fresh, cukrový sirup."
-          },
-          {
-            "id": "mimosa-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Mimosa?",
-            "correctAnswer": "Cukrový sirup",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "V podsložce Mimosa je obsaženo: Cukrový sirup. Kompletní receptura položky: charmat, pomerančový fresh, cukrový sirup."
+            "explanation": "U položky Mimosa je uvedeno: Pomerančový fresh. Kompletní popis: charmat, pomerančový fresh, cukrový sirup."
           }
         ]
       },
@@ -8829,211 +5885,199 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "kir",
         "name": "Kir",
         "price": "165 Kč",
+        "allergens": [],
         "description": "créme de cassis, charmat",
         "questions": [
           {
             "id": "kir-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Kir?",
+            "question": "Která surovina, původ či charakteristika patří k položce Kir?",
             "correctAnswer": "Créme de cassis",
             "distractors": [
-              "Bílý rum",
-              "Stařený rum"
+              "Vanilkový sirup a limetová šťáva",
+              "Třtinový cukr s limetkou"
             ],
-            "explanation": "V podsložce Kir je obsaženo: Créme de cassis. Kompletní receptura položky: créme de cassis, charmat."
+            "explanation": "U položky Kir je uvedeno: Créme de cassis. Kompletní popis: créme de cassis, charmat."
           },
           {
             "id": "kir-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Kir?",
+            "question": "Která surovina, původ či charakteristika patří k položce Kir?",
             "correctAnswer": "Charmat",
             "distractors": [
-              "Modrá agáve (tequila)",
-              "Campari"
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
             ],
-            "explanation": "V podsložce Kir je obsaženo: Charmat. Kompletní receptura položky: créme de cassis, charmat."
+            "explanation": "U položky Kir je uvedeno: Charmat. Kompletní popis: créme de cassis, charmat."
           }
         ]
       },
       {
         "id": "campari-bitter",
         "name": "Campari Bitter",
-        "price": "87 Kč",
         "weight": "0,06l",
-        "description": "0,06l ikonický italský hořký bylinný aperitiv",
+        "price": "87 Kč",
+        "allergens": [],
+        "description": "italský nahořklý bylinný aperitiv",
         "questions": [
           {
             "id": "campari-bitter-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Campari Bitter?",
-            "correctAnswer": "0,06 l",
+            "question": "Jaký je servírovací objem / míra položky Campari Bitter?",
+            "correctAnswer": "0,06l",
             "distractors": [
-              "0,08 l",
-              "0,04 l"
+              "0,04 l",
+              "0,08 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Campari Bitter je 0,06 l."
+            "explanation": "Servírovací míra / objem položky Campari Bitter je 0,06l."
           },
           {
             "id": "campari-bitter-ing-1",
-            "question": "Která bylinka, koření či aromatická surovina dochucuje Campari Bitter?",
-            "correctAnswer": "Ikonický italský hořký bylinný aperitiv",
+            "question": "Která surovina, původ či charakteristika patří k položce Campari Bitter?",
+            "correctAnswer": "Italský nahořklý bylinný aperitiv",
             "distractors": [
-              "Bílý rum",
-              "Stařený rum"
+              "Jasmínový zelený čaj",
+              "Belgické višňové pivo"
             ],
-            "explanation": "V podsložce Campari Bitter je obsaženo: Ikonický italský hořký bylinný aperitiv. Kompletní receptura položky: 0,06l ikonický italský hořký bylinný aperitiv."
+            "explanation": "U položky Campari Bitter je uvedeno: Italský nahořklý bylinný aperitiv. Kompletní popis: italský nahořklý bylinný aperitiv."
           }
         ]
       },
       {
         "id": "martini-dry",
         "name": "Martini Dry",
-        "price": "79 Kč",
         "weight": "0,08l",
-        "description": "0,08l klasický suchý vermut s tóny bylin a citrusů",
+        "price": "79 Kč",
+        "allergens": [],
+        "description": "suchý bílý italský vermut",
         "questions": [
           {
             "id": "martini-dry-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Martini Dry?",
-            "correctAnswer": "0,08 l",
+            "question": "Jaký je servírovací objem / míra položky Martini Dry?",
+            "correctAnswer": "0,08l",
             "distractors": [
-              "0,06 l",
+              "0,05 l",
               "0,1 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Martini Dry je 0,08 l."
+            "explanation": "Servírovací míra / objem položky Martini Dry je 0,08l."
           },
           {
             "id": "martini-dry-ing-1",
-            "question": "Která bylinka, koření či aromatická surovina dochucuje Martini Dry?",
-            "correctAnswer": "Klasický suchý vermut s tóny bylin a citrusů",
+            "question": "Která surovina, původ či charakteristika patří k položce Martini Dry?",
+            "correctAnswer": "Suchý bílý italský vermut",
             "distractors": [
-              "Bílý rum",
-              "Stařený rum"
+              "Tonik Thomas Henry s chininem",
+              "Čerstvě pražená výběrová káva"
             ],
-            "explanation": "V podsložce Martini Dry je obsaženo: Klasický suchý vermut s tóny bylin a citrusů. Kompletní receptura položky: 0,08l klasický suchý vermut s tóny bylin a citrusů."
+            "explanation": "U položky Martini Dry je uvedeno: Suchý bílý italský vermut. Kompletní popis: suchý bílý italský vermut."
           }
         ]
       },
       {
         "id": "cinzano-rosso-bianco",
         "name": "Cinzano Rosso / Bianco",
-        "price": "79 Kč",
         "weight": "0,08l",
-        "description": "0,08l tradiční italský vermut, červený sladce bylinný nebo bílý vanilkový",
+        "price": "79 Kč",
+        "allergens": [],
+        "description": "italský vermut červený nebo bílý",
         "questions": [
           {
             "id": "cinzano-rosso-bianco-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Cinzano Rosso / Bianco?",
-            "correctAnswer": "0,08 l",
+            "question": "Jaký je servírovací objem / míra položky Cinzano Rosso / Bianco?",
+            "correctAnswer": "0,08l",
             "distractors": [
-              "0,06 l",
+              "0,05 l",
               "0,1 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Cinzano Rosso / Bianco je 0,08 l."
+            "explanation": "Servírovací míra / objem položky Cinzano Rosso / Bianco je 0,08l."
           },
           {
             "id": "cinzano-rosso-bianco-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Cinzano Rosso / Bianco?",
-            "correctAnswer": "Tradiční italský vermut",
+            "question": "Která surovina, původ či charakteristika patří k položce Cinzano Rosso / Bianco?",
+            "correctAnswer": "Italský vermut červený nebo bílý",
             "distractors": [
-              "Bílý rum",
-              "Stařený rum"
+              "Tonik Thomas Henry s chininem",
+              "Čerstvě pražená výběrová káva"
             ],
-            "explanation": "V podsložce Cinzano Rosso / Bianco je obsaženo: Tradiční italský vermut. Kompletní receptura položky: 0,08l tradiční italský vermut, červený sladce bylinný nebo bílý vanilkový."
-          },
-          {
-            "id": "cinzano-rosso-bianco-ing-2",
-            "question": "Která bylinka, koření či aromatická surovina dochucuje Cinzano Rosso / Bianco?",
-            "correctAnswer": "Červený sladce bylinný nebo bílý vanilkový",
-            "distractors": [
-              "Modrá agáve (tequila)",
-              "Campari"
-            ],
-            "explanation": "V podsložce Cinzano Rosso / Bianco je obsaženo: Červený sladce bylinný nebo bílý vanilkový. Kompletní receptura položky: 0,08l tradiční italský vermut, červený sladce bylinný nebo bílý vanilkový."
+            "explanation": "U položky Cinzano Rosso / Bianco je uvedeno: Italský vermut červený nebo bílý. Kompletní popis: italský vermut červený nebo bílý."
           }
         ]
       },
       {
         "id": "grahams-porto-10y",
         "name": "Grahams Porto Tawny 10y",
-        "price": "225 Kč",
         "weight": "0,06l",
-        "description": "0,06l prémiové desetileté portugalské portské víno zrající v dubových sudech s tóny ořechů, fíků a rozinek",
+        "price": "225 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "desetileté portugalské portské víno zrající v dubových sudech",
         "questions": [
           {
             "id": "grahams-porto-10y-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Grahams Porto Tawny 10y?",
-            "correctAnswer": "0,06 l",
+            "question": "Jaký je servírovací objem / míra položky Grahams Porto Tawny 10y?",
+            "correctAnswer": "0,06l",
             "distractors": [
-              "0,08 l",
-              "0,04 l"
+              "0,04 l",
+              "0,08 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Grahams Porto Tawny 10y je 0,06 l."
+            "explanation": "Servírovací míra / objem položky Grahams Porto Tawny 10y je 0,06l."
           },
           {
             "id": "grahams-porto-10y-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Grahams Porto Tawny 10y?",
-            "correctAnswer": "Prémiové desetileté portugalské portské víno zrající v dubových sudech s tóny ořechů",
+            "question": "Která surovina, původ či charakteristika patří k položce Grahams Porto Tawny 10y?",
+            "correctAnswer": "Desetileté portugalské portské víno zrající v dubových sudech",
             "distractors": [
-              "Bílý rum",
-              "Stařený rum"
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
             ],
-            "explanation": "V podsložce Grahams Porto Tawny 10y je obsaženo: Prémiové desetileté portugalské portské víno zrající v dubových sudech s tóny ořechů. Kompletní receptura položky: 0,06l prémiové desetileté portugalské portské víno zrající v dubových sudech s tóny ořechů, fíků a rozinek."
+            "explanation": "U položky Grahams Porto Tawny 10y je uvedeno: Desetileté portugalské portské víno zrající v dubových sudech. Kompletní popis: desetileté portugalské portské víno zrající v dubových sudech."
           },
           {
-            "id": "grahams-porto-10y-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Grahams Porto Tawny 10y?",
-            "correctAnswer": "Fíků a rozinek",
+            "id": "grahams-porto-10y-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Grahams Porto Tawny 10y?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
-              "Modrá agáve (tequila)",
-              "Campari"
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
             ],
-            "explanation": "V podsložce Grahams Porto Tawny 10y je obsaženo: Fíků a rozinek. Kompletní receptura položky: 0,06l prémiové desetileté portugalské portské víno zrající v dubových sudech s tóny ořechů, fíků a rozinek."
+            "explanation": "Grahams Porto Tawny 10y obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
           }
         ]
       }
     ]
   },
   {
-    "id": "nealkoholicke-aperitivy-a-koktejly",
-    "name": "nealko aperitivy a koktejly",
-    "badge": "Nealko koktejly",
-    "description": "Plnohodnotné míchané drinky bez kapky alkoholu",
+    "id": "nealko-aperitivy",
+    "name": "Nealko aperitivy a koktejly",
+    "badge": "Nealko aperitivy a koktejly",
+    "description": "Sofistikované osvěžující koktejly a aperitivy bez kapky alkoholu",
     "iconName": "Martini",
     "items": [
       {
         "id": "crodino",
         "name": "Crodino",
-        "price": "109 Kč",
         "weight": "0,175l",
-        "description": "0,175l nealkoholický bitter, legendární italský hořkosladký aperitiv na ledu s plátkem pomeranče",
+        "price": "109 Kč",
+        "allergens": [],
+        "description": "nealkoholický bitter",
         "questions": [
           {
             "id": "crodino-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Crodino?",
-            "correctAnswer": "0,175 l",
+            "question": "Jaký je servírovací objem / míra položky Crodino?",
+            "correctAnswer": "0,175l",
             "distractors": [
-              "0,25 l",
-              "0,1 l"
+              "0,15 l",
+              "0,2 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Crodino je 0,175 l."
+            "explanation": "Servírovací míra / objem položky Crodino je 0,175l."
           },
           {
             "id": "crodino-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Crodino?",
+            "question": "Která surovina, původ či charakteristika patří k položce Crodino?",
             "correctAnswer": "Nealkoholický bitter",
             "distractors": [
-              "Bílý rum",
-              "Stařený rum"
+              "Mučenkový likér a vanilka",
+              "Kávový likér Kahlúa"
             ],
-            "explanation": "V podsložce Crodino je obsaženo: Nealkoholický bitter. Kompletní receptura položky: 0,175l nealkoholický bitter, legendární italský hořkosladký aperitiv na ledu s plátkem pomeranče."
-          },
-          {
-            "id": "crodino-ing-2",
-            "question": "Která pivovarská surovina nebo vlastnost charakterizuje Crodino?",
-            "correctAnswer": "Legendární italský hořkosladký aperitiv na ledu s plátkem pomeranče",
-            "distractors": [
-              "Modrá agáve (tequila)",
-              "Campari"
-            ],
-            "explanation": "V podsložce Crodino je obsaženo: Legendární italský hořkosladký aperitiv na ledu s plátkem pomeranče. Kompletní receptura položky: 0,175l nealkoholický bitter, legendární italský hořkosladký aperitiv na ledu s plátkem pomeranče."
+            "explanation": "U položky Crodino je uvedeno: Nealkoholický bitter. Kompletní popis: nealkoholický bitter."
           }
         ]
       },
@@ -9041,76 +6085,58 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "martini-floreale-tonic",
         "name": "Martini Floreale Alcohol free & Thomas Henry Tonic",
         "price": "165 Kč",
+        "allergens": [],
         "description": "nealkoholické Martini, tonik, sušený pomeranč",
         "questions": [
           {
             "id": "martini-floreale-tonic-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Martini Floreale Alcohol free & Thomas Henry Tonic?",
+            "question": "Která surovina, původ či charakteristika patří k položce Martini Floreale Alcohol free & Thomas Henry Tonic?",
             "correctAnswer": "Nealkoholické Martini",
             "distractors": [
-              "Bílý rum",
-              "Stařený rum"
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
             ],
-            "explanation": "V podsložce Martini Floreale Alcohol free & Thomas Henry Tonic je obsaženo: Nealkoholické Martini. Kompletní receptura položky: nealkoholické Martini, tonik, sušený pomeranč."
+            "explanation": "U položky Martini Floreale Alcohol free & Thomas Henry Tonic je uvedeno: Nealkoholické Martini. Kompletní popis: nealkoholické Martini, tonik, sušený pomeranč."
           },
           {
             "id": "martini-floreale-tonic-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Martini Floreale Alcohol free & Thomas Henry Tonic?",
+            "question": "Která surovina, původ či charakteristika patří k položce Martini Floreale Alcohol free & Thomas Henry Tonic?",
             "correctAnswer": "Tonik",
             "distractors": [
-              "Modrá agáve (tequila)",
-              "Campari"
+              "Pomerančová kůra a hřebíček",
+              "Mučenkový likér a vanilka"
             ],
-            "explanation": "V podsložce Martini Floreale Alcohol free & Thomas Henry Tonic je obsaženo: Tonik. Kompletní receptura položky: nealkoholické Martini, tonik, sušený pomeranč."
-          },
-          {
-            "id": "martini-floreale-tonic-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Martini Floreale Alcohol free & Thomas Henry Tonic?",
-            "correctAnswer": "Sušený pomeranč",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "V podsložce Martini Floreale Alcohol free & Thomas Henry Tonic je obsaženo: Sušený pomeranč. Kompletní receptura položky: nealkoholické Martini, tonik, sušený pomeranč."
+            "explanation": "U položky Martini Floreale Alcohol free & Thomas Henry Tonic je uvedeno: Tonik. Kompletní popis: nealkoholické Martini, tonik, sušený pomeranč."
           }
         ]
       },
       {
         "id": "bitter-soda-gasco",
         "name": "Bitter soda J.Gasco",
-        "price": "115 Kč",
         "weight": "0,2l",
-        "description": "0,2l nealkoholický bitter soda, prémiová italská řemeslná hořká soda",
+        "price": "115 Kč",
+        "allergens": [],
+        "description": "nealkoholický bitter soda",
         "questions": [
           {
             "id": "bitter-soda-gasco-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Bitter soda J.Gasco?",
-            "correctAnswer": "0,2 l",
+            "question": "Jaký je servírovací objem / míra položky Bitter soda J.Gasco?",
+            "correctAnswer": "0,2l",
             "distractors": [
-              "0,3 l",
-              "0,1 l"
+              "0,25 l",
+              "0,33 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Bitter soda J.Gasco je 0,2 l."
+            "explanation": "Servírovací míra / objem položky Bitter soda J.Gasco je 0,2l."
           },
           {
             "id": "bitter-soda-gasco-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Bitter soda J.Gasco?",
+            "question": "Která surovina, původ či charakteristika patří k položce Bitter soda J.Gasco?",
             "correctAnswer": "Nealkoholický bitter soda",
             "distractors": [
-              "Bílý rum",
-              "Stařený rum"
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
             ],
-            "explanation": "V podsložce Bitter soda J.Gasco je obsaženo: Nealkoholický bitter soda. Kompletní receptura položky: 0,2l nealkoholický bitter soda, prémiová italská řemeslná hořká soda."
-          },
-          {
-            "id": "bitter-soda-gasco-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Bitter soda J.Gasco?",
-            "correctAnswer": "Prémiová italská řemeslná hořká soda",
-            "distractors": [
-              "Modrá agáve (tequila)",
-              "Campari"
-            ],
-            "explanation": "V podsložce Bitter soda J.Gasco je obsaženo: Prémiová italská řemeslná hořká soda. Kompletní receptura položky: 0,2l nealkoholický bitter soda, prémiová italská řemeslná hořká soda."
+            "explanation": "U položky Bitter soda J.Gasco je uvedeno: Nealkoholický bitter soda. Kompletní popis: nealkoholický bitter soda."
           }
         ]
       },
@@ -9118,27 +6144,18 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "tanqueray-00-tonic",
         "name": "Tanqueray Alcohol Free & Fever-Tree Tonic",
         "price": "199 Kč",
-        "description": "nealkoholický G&T s limetou, destilovaný nealko jalovcový spirit Tanqueray 0.0%",
+        "allergens": [],
+        "description": "nealkoholický G&T s limetou",
         "questions": [
           {
             "id": "tanqueray-00-tonic-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Tanqueray Alcohol Free & Fever-Tree Tonic?",
+            "question": "Která surovina, původ či charakteristika patří k položce Tanqueray Alcohol Free & Fever-Tree Tonic?",
             "correctAnswer": "Nealkoholický G&T s limetou",
             "distractors": [
-              "Bílý rum",
-              "Stařený rum"
+              "Světlý ležák plzeňského typu",
+              "Jablečný mošt z rodinné farmy"
             ],
-            "explanation": "V podsložce Tanqueray Alcohol Free & Fever-Tree Tonic je obsaženo: Nealkoholický G&T s limetou. Kompletní receptura položky: nealkoholický G&T s limetou, destilovaný nealko jalovcový spirit Tanqueray 0.0%."
-          },
-          {
-            "id": "tanqueray-00-tonic-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Tanqueray Alcohol Free & Fever-Tree Tonic?",
-            "correctAnswer": "Destilovaný nealko jalovcový spirit Tanqueray 0.0%",
-            "distractors": [
-              "Modrá agáve (tequila)",
-              "Campari"
-            ],
-            "explanation": "V podsložce Tanqueray Alcohol Free & Fever-Tree Tonic je obsaženo: Destilovaný nealko jalovcový spirit Tanqueray 0.0%. Kompletní receptura položky: nealkoholický G&T s limetou, destilovaný nealko jalovcový spirit Tanqueray 0.0%."
+            "explanation": "U položky Tanqueray Alcohol Free & Fever-Tree Tonic je uvedeno: Nealkoholický G&T s limetou. Kompletní popis: nealkoholický G&T s limetou."
           }
         ]
       }
@@ -9146,46 +6163,37 @@ export const MENU_CATEGORIES: MenuCategory[] = [
   },
   {
     "id": "klasicke-koktejly",
-    "name": "klasické koktejly",
+    "name": "Klasické koktejly",
     "badge": "Klasické koktejly",
-    "description": "Světoznámé barmanské ikony namíchané podle původních receptur",
+    "description": "Ikonické světové koktejly míchané podle originálních barových receptur",
     "iconName": "Martini",
     "items": [
       {
         "id": "negroni",
         "name": "Negroni",
         "price": "195 Kč",
+        "allergens": [],
         "description": "gin, Campari, Cinzano rosso",
         "questions": [
           {
             "id": "negroni-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Negroni?",
-            "correctAnswer": "Gin",
+            "question": "Která surovina, původ či charakteristika patří k položce Negroni?",
+            "correctAnswer": "Campari",
             "distractors": [
-              "Stařený rum",
-              "Modrá agáve (tequila)"
+              "Kávový likér Kahlúa",
+              "Zázvorové pivo Fever-Tree"
             ],
-            "explanation": "V podsložce Negroni je obsaženo: Gin. Kompletní receptura položky: gin, Campari, Cinzano rosso."
+            "explanation": "U položky Negroni je uvedeno: Campari. Kompletní popis: gin, Campari, Cinzano rosso."
           },
           {
             "id": "negroni-ing-2",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Negroni?",
-            "correctAnswer": "Campari",
-            "distractors": [
-              "Cointreau",
-              "Čerstvá limetová šťáva"
-            ],
-            "explanation": "V podsložce Negroni je obsaženo: Campari. Kompletní receptura položky: gin, Campari, Cinzano rosso."
-          },
-          {
-            "id": "negroni-ing-3",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Negroni?",
+            "question": "Která surovina, původ či charakteristika patří k položce Negroni?",
             "correctAnswer": "Cinzano rosso",
             "distractors": [
-              "Sodová voda",
-              "Tonik Thomas Henry"
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
             ],
-            "explanation": "V podsložce Negroni je obsaženo: Cinzano rosso. Kompletní receptura položky: gin, Campari, Cinzano rosso."
+            "explanation": "U položky Negroni je uvedeno: Cinzano rosso. Kompletní popis: gin, Campari, Cinzano rosso."
           }
         ]
       },
@@ -9193,47 +6201,28 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "margarita",
         "name": "Margarita",
         "price": "185 Kč",
+        "allergens": [],
         "description": "tequila, Cointreau, limetová šťáva",
         "questions": [
           {
             "id": "margarita-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Margarita?",
+            "question": "Která surovina, původ či charakteristika patří k položce Margarita?",
             "correctAnswer": "Tequila",
             "distractors": [
-              "Bílý rum",
-              "Stařený rum"
+              "Světlý ležák plzeňského typu",
+              "Jablečný mošt z rodinné farmy"
             ],
-            "explanation": "V podsložce Margarita je obsaženo: Tequila. Kompletní receptura položky: tequila, Cointreau, limetová šťáva."
+            "explanation": "U položky Margarita je uvedeno: Tequila. Kompletní popis: tequila, Cointreau, limetová šťáva."
           },
           {
             "id": "margarita-ing-2",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Margarita?",
+            "question": "Která surovina, původ či charakteristika patří k položce Margarita?",
             "correctAnswer": "Cointreau",
             "distractors": [
-              "Campari",
-              "Cinzano rosso"
+              "Čerstvý grepový fresh",
+              "Bezinkový sirup a čerstvá máta"
             ],
-            "explanation": "V podsložce Margarita je obsaženo: Cointreau. Kompletní receptura položky: tequila, Cointreau, limetová šťáva."
-          },
-          {
-            "id": "margarita-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Margarita?",
-            "correctAnswer": "Limetová šťáva",
-            "distractors": [
-              "Sodová voda",
-              "Tonik Thomas Henry"
-            ],
-            "explanation": "V podsložce Margarita je obsaženo: Limetová šťáva. Kompletní receptura položky: tequila, Cointreau, limetová šťáva."
-          },
-          {
-            "id": "margarita-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Margarita?",
-            "correctAnswer": "Limetová šťáva",
-            "distractors": [
-              "Řemeslný gin",
-              "Bílý rum"
-            ],
-            "explanation": "V podsložce Margarita je obsaženo: Limetová šťáva. Kompletní receptura položky: tequila, Cointreau, limetová šťáva."
+            "explanation": "U položky Margarita je uvedeno: Cointreau. Kompletní popis: tequila, Cointreau, limetová šťáva."
           }
         ]
       },
@@ -9241,57 +6230,28 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "mojito",
         "name": "Mojito",
         "price": "185 Kč",
-        "description": "rum, máta, limeta, třtinový cukr, soda",
+        "allergens": [],
+        "description": "rum, máta, limeta, třtinový cukr",
         "questions": [
           {
             "id": "mojito-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Mojito?",
-            "correctAnswer": "Rum",
+            "question": "Která surovina, původ či charakteristika patří k položce Mojito?",
+            "correctAnswer": "Máta",
             "distractors": [
-              "Modrá agáve (tequila)",
-              "Campari"
+              "Pomerančová kůra a hřebíček",
+              "Mučenkový likér a vanilka"
             ],
-            "explanation": "V podsložce Mojito je obsaženo: Rum. Kompletní receptura položky: rum, máta, limeta, třtinový cukr, soda."
+            "explanation": "U položky Mojito je uvedeno: Máta. Kompletní popis: rum, máta, limeta, třtinový cukr."
           },
           {
             "id": "mojito-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Mojito?",
-            "correctAnswer": "Máta",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "V podsložce Mojito je obsaženo: Máta. Kompletní receptura položky: rum, máta, limeta, třtinový cukr, soda."
-          },
-          {
-            "id": "mojito-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Mojito?",
+            "question": "Která surovina, původ či charakteristika patří k položce Mojito?",
             "correctAnswer": "Limeta",
             "distractors": [
-              "Čerstvá limetová šťáva",
-              "Sodová voda"
+              "Mučenkový likér a vanilka",
+              "Kávový likér Kahlúa"
             ],
-            "explanation": "V podsložce Mojito je obsaženo: Limeta. Kompletní receptura položky: rum, máta, limeta, třtinový cukr, soda."
-          },
-          {
-            "id": "mojito-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Mojito?",
-            "correctAnswer": "Třtinový cukr",
-            "distractors": [
-              "Tonik Thomas Henry",
-              "Řemeslný gin"
-            ],
-            "explanation": "V podsložce Mojito je obsaženo: Třtinový cukr. Kompletní receptura položky: rum, máta, limeta, třtinový cukr, soda."
-          },
-          {
-            "id": "mojito-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Mojito?",
-            "correctAnswer": "Soda",
-            "distractors": [
-              "Modrá agáve (tequila)",
-              "Campari"
-            ],
-            "explanation": "V podsložce Mojito je obsaženo: Soda. Kompletní receptura položky: rum, máta, limeta, třtinový cukr, soda."
+            "explanation": "U položky Mojito je uvedeno: Limeta. Kompletní popis: rum, máta, limeta, třtinový cukr."
           }
         ]
       },
@@ -9299,47 +6259,28 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "frozen-strawberry-daiquiri",
         "name": "Frozen Strawberry Daiquiri",
         "price": "195 Kč",
-        "description": "rum, limetová šťáva, cukrový sirup, jahody rozmixované s ledovou tříští",
+        "allergens": [],
+        "description": "rum, limetová šťáva, cukrový sirup, jahody",
         "questions": [
           {
             "id": "frozen-strawberry-daiquiri-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Frozen Strawberry Daiquiri?",
-            "correctAnswer": "Rum",
+            "question": "Která surovina, původ či charakteristika patří k položce Frozen Strawberry Daiquiri?",
+            "correctAnswer": "Limetová šťáva",
             "distractors": [
-              "Modrá agáve (tequila)",
-              "Campari"
+              "Tonik Thomas Henry s chininem",
+              "Čerstvě pražená výběrová káva"
             ],
-            "explanation": "V podsložce Frozen Strawberry Daiquiri je obsaženo: Rum. Kompletní receptura položky: rum, limetová šťáva, cukrový sirup, jahody rozmixované s ledovou tříští."
+            "explanation": "U položky Frozen Strawberry Daiquiri je uvedeno: Limetová šťáva. Kompletní popis: rum, limetová šťáva, cukrový sirup, jahody."
           },
           {
             "id": "frozen-strawberry-daiquiri-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Frozen Strawberry Daiquiri?",
-            "correctAnswer": "Limetová šťáva",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "V podsložce Frozen Strawberry Daiquiri je obsaženo: Limetová šťáva. Kompletní receptura položky: rum, limetová šťáva, cukrový sirup, jahody rozmixované s ledovou tříští."
-          },
-          {
-            "id": "frozen-strawberry-daiquiri-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Frozen Strawberry Daiquiri?",
+            "question": "Která surovina, původ či charakteristika patří k položce Frozen Strawberry Daiquiri?",
             "correctAnswer": "Cukrový sirup",
             "distractors": [
-              "Sodová voda",
-              "Tonik Thomas Henry"
+              "Světlý ležák plzeňského typu",
+              "Jablečný mošt z rodinné farmy"
             ],
-            "explanation": "V podsložce Frozen Strawberry Daiquiri je obsaženo: Cukrový sirup. Kompletní receptura položky: rum, limetová šťáva, cukrový sirup, jahody rozmixované s ledovou tříští."
-          },
-          {
-            "id": "frozen-strawberry-daiquiri-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Frozen Strawberry Daiquiri?",
-            "correctAnswer": "Jahody rozmixované s ledovou tříští",
-            "distractors": [
-              "Řemeslný gin",
-              "Modrá agáve (tequila)"
-            ],
-            "explanation": "V podsložce Frozen Strawberry Daiquiri je obsaženo: Jahody rozmixované s ledovou tříští. Kompletní receptura položky: rum, limetová šťáva, cukrový sirup, jahody rozmixované s ledovou tříští."
+            "explanation": "U položky Frozen Strawberry Daiquiri je uvedeno: Cukrový sirup. Kompletní popis: rum, limetová šťáva, cukrový sirup, jahody."
           }
         ]
       },
@@ -9347,37 +6288,28 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "cuba-libre",
         "name": "Cuba Libre",
         "price": "165 Kč",
+        "allergens": [],
         "description": "rum, citrónová šťáva, Coca Cola",
         "questions": [
           {
             "id": "cuba-libre-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Cuba Libre?",
-            "correctAnswer": "Rum",
+            "question": "Která surovina, původ či charakteristika patří k položce Cuba Libre?",
+            "correctAnswer": "Citrónová šťáva",
             "distractors": [
-              "Modrá agáve (tequila)",
-              "Campari"
+              "Čerstvý grepový fresh",
+              "Bezinkový sirup a čerstvá máta"
             ],
-            "explanation": "V podsložce Cuba Libre je obsaženo: Rum. Kompletní receptura položky: rum, citrónová šťáva, Coca Cola."
+            "explanation": "U položky Cuba Libre je uvedeno: Citrónová šťáva. Kompletní popis: rum, citrónová šťáva, Coca Cola."
           },
           {
             "id": "cuba-libre-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Cuba Libre?",
-            "correctAnswer": "Citrónová šťáva",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "V podsložce Cuba Libre je obsaženo: Citrónová šťáva. Kompletní receptura položky: rum, citrónová šťáva, Coca Cola."
-          },
-          {
-            "id": "cuba-libre-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Cuba Libre?",
+            "question": "Která surovina, původ či charakteristika patří k položce Cuba Libre?",
             "correctAnswer": "Coca Cola",
             "distractors": [
-              "Čerstvá limetová šťáva",
-              "Sodová voda"
+              "Tonik Thomas Henry s chininem",
+              "Čerstvě pražená výběrová káva"
             ],
-            "explanation": "V podsložce Cuba Libre je obsaženo: Coca Cola. Kompletní receptura položky: rum, citrónová šťáva, Coca Cola."
+            "explanation": "U položky Cuba Libre je uvedeno: Coca Cola. Kompletní popis: rum, citrónová šťáva, Coca Cola."
           }
         ]
       },
@@ -9385,47 +6317,40 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "mai-tai",
         "name": "Mai-Tai",
         "price": "199 Kč",
+        "allergens": [
+          "8"
+        ],
         "description": "bílý a tmavý rum, curacao, mandlový likér, limetová šťáva",
         "questions": [
           {
             "id": "mai-tai-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Mai-Tai?",
+            "question": "Která surovina, původ či charakteristika patří k položce Mai-Tai?",
             "correctAnswer": "Bílý a tmavý rum",
             "distractors": [
-              "Bílý rum",
-              "Stařený rum"
+              "Mučenkový likér a vanilka",
+              "Kávový likér Kahlúa"
             ],
-            "explanation": "V podsložce Mai-Tai je obsaženo: Bílý a tmavý rum. Kompletní receptura položky: bílý a tmavý rum, curacao, mandlový likér, limetová šťáva."
+            "explanation": "U položky Mai-Tai je uvedeno: Bílý a tmavý rum. Kompletní popis: bílý a tmavý rum, curacao, mandlový likér, limetová šťáva."
           },
           {
             "id": "mai-tai-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Mai-Tai?",
+            "question": "Která surovina, původ či charakteristika patří k položce Mai-Tai?",
             "correctAnswer": "Curacao",
             "distractors": [
-              "Modrá agáve (tequila)",
-              "Campari"
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
             ],
-            "explanation": "V podsložce Mai-Tai je obsaženo: Curacao. Kompletní receptura položky: bílý a tmavý rum, curacao, mandlový likér, limetová šťáva."
+            "explanation": "U položky Mai-Tai je uvedeno: Curacao. Kompletní popis: bílý a tmavý rum, curacao, mandlový likér, limetová šťáva."
           },
           {
-            "id": "mai-tai-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Mai-Tai?",
-            "correctAnswer": "Mandlový likér",
+            "id": "mai-tai-allergen-8",
+            "question": "Který z následujících alergenů obsahuje položka Mai-Tai?",
+            "correctAnswer": "Alergen č. 8 – Skořápkové plody (ořechy)",
             "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
+              "Alergen č. 10 – Hořčice a výrobky z ní",
+              "Alergen č. 1 – Obiloviny obsahující lepek"
             ],
-            "explanation": "V podsložce Mai-Tai je obsaženo: Mandlový likér. Kompletní receptura položky: bílý a tmavý rum, curacao, mandlový likér, limetová šťáva."
-          },
-          {
-            "id": "mai-tai-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Mai-Tai?",
-            "correctAnswer": "Limetová šťáva",
-            "distractors": [
-              "Sodová voda",
-              "Tonik Thomas Henry"
-            ],
-            "explanation": "V podsložce Mai-Tai je obsaženo: Limetová šťáva. Kompletní receptura položky: bílý a tmavý rum, curacao, mandlový likér, limetová šťáva."
+            "explanation": "Mai-Tai obsahuje Alergen č. 8 – Skořápkové plody (ořechy) (mandle, vlašské ořechy, mandlový likér). Všechny evidované alergeny: Skořápkové plody (ořechy) a výrobky z nich."
           }
         ]
       },
@@ -9433,57 +6358,28 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "porn-star-martini",
         "name": "Porn star Martini",
         "price": "232 Kč",
+        "allergens": [],
         "description": "vanilková vodka, mučenkový likér, vanilkový sirup, limetová šťáva, charmat",
         "questions": [
           {
             "id": "porn-star-martini-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Porn star Martini?",
+            "question": "Která surovina, původ či charakteristika patří k položce Porn star Martini?",
             "correctAnswer": "Vanilková vodka",
             "distractors": [
-              "Bílý rum",
-              "Stařený rum"
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
             ],
-            "explanation": "V podsložce Porn star Martini je obsaženo: Vanilková vodka. Kompletní receptura položky: vanilková vodka, mučenkový likér, vanilkový sirup, limetová šťáva, charmat."
+            "explanation": "U položky Porn star Martini je uvedeno: Vanilková vodka. Kompletní popis: vanilková vodka, mučenkový likér, vanilkový sirup, limetová šťáva, charmat."
           },
           {
             "id": "porn-star-martini-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Porn star Martini?",
+            "question": "Která surovina, původ či charakteristika patří k položce Porn star Martini?",
             "correctAnswer": "Mučenkový likér",
             "distractors": [
-              "Modrá agáve (tequila)",
-              "Campari"
+              "Čerstvý grepový fresh",
+              "Bezinkový sirup a čerstvá máta"
             ],
-            "explanation": "V podsložce Porn star Martini je obsaženo: Mučenkový likér. Kompletní receptura položky: vanilková vodka, mučenkový likér, vanilkový sirup, limetová šťáva, charmat."
-          },
-          {
-            "id": "porn-star-martini-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Porn star Martini?",
-            "correctAnswer": "Vanilkový sirup",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "V podsložce Porn star Martini je obsaženo: Vanilkový sirup. Kompletní receptura položky: vanilková vodka, mučenkový likér, vanilkový sirup, limetová šťáva, charmat."
-          },
-          {
-            "id": "porn-star-martini-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Porn star Martini?",
-            "correctAnswer": "Limetová šťáva",
-            "distractors": [
-              "Sodová voda",
-              "Tonik Thomas Henry"
-            ],
-            "explanation": "V podsložce Porn star Martini je obsaženo: Limetová šťáva. Kompletní receptura položky: vanilková vodka, mučenkový likér, vanilkový sirup, limetová šťáva, charmat."
-          },
-          {
-            "id": "porn-star-martini-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Porn star Martini?",
-            "correctAnswer": "Charmat",
-            "distractors": [
-              "Řemeslný gin",
-              "Bílý rum"
-            ],
-            "explanation": "V podsložce Porn star Martini je obsaženo: Charmat. Kompletní receptura položky: vanilková vodka, mučenkový likér, vanilkový sirup, limetová šťáva, charmat."
+            "explanation": "U položky Porn star Martini je uvedeno: Mučenkový likér. Kompletní popis: vanilková vodka, mučenkový likér, vanilkový sirup, limetová šťáva, charmat."
           }
         ]
       },
@@ -9491,37 +6387,28 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "skinny-bitch",
         "name": "Skinny bitch",
         "price": "125 Kč",
+        "allergens": [],
         "description": "vodka, limetová šťáva, soda",
         "questions": [
           {
             "id": "skinny-bitch-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Skinny bitch?",
+            "question": "Která surovina, původ či charakteristika patří k položce Skinny bitch?",
             "correctAnswer": "Vodka",
             "distractors": [
-              "Bílý rum",
-              "Stařený rum"
+              "Vanilkový sirup a limetová šťáva",
+              "Třtinový cukr s limetkou"
             ],
-            "explanation": "V podsložce Skinny bitch je obsaženo: Vodka. Kompletní receptura položky: vodka, limetová šťáva, soda."
+            "explanation": "U položky Skinny bitch je uvedeno: Vodka. Kompletní popis: vodka, limetová šťáva, soda."
           },
           {
             "id": "skinny-bitch-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Skinny bitch?",
+            "question": "Která surovina, původ či charakteristika patří k položce Skinny bitch?",
             "correctAnswer": "Limetová šťáva",
             "distractors": [
-              "Modrá agáve (tequila)",
-              "Campari"
+              "Belgické višňové pivo",
+              "Pomerančová kůra a hřebíček"
             ],
-            "explanation": "V podsložce Skinny bitch je obsaženo: Limetová šťáva. Kompletní receptura položky: vodka, limetová šťáva, soda."
-          },
-          {
-            "id": "skinny-bitch-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Skinny bitch?",
-            "correctAnswer": "Soda",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "V podsložce Skinny bitch je obsaženo: Soda. Kompletní receptura položky: vodka, limetová šťáva, soda."
+            "explanation": "U položky Skinny bitch je uvedeno: Limetová šťáva. Kompletní popis: vodka, limetová šťáva, soda."
           }
         ]
       },
@@ -9529,47 +6416,28 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "cosmopolitan",
         "name": "Cosmopolitan",
         "price": "160 Kč",
+        "allergens": [],
         "description": "vodka, Cointreau, brusinkový džus, limetová šťáva",
         "questions": [
           {
             "id": "cosmopolitan-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Cosmopolitan?",
+            "question": "Která surovina, původ či charakteristika patří k položce Cosmopolitan?",
             "correctAnswer": "Vodka",
             "distractors": [
-              "Bílý rum",
-              "Stařený rum"
+              "Vanilkový sirup a limetová šťáva",
+              "Třtinový cukr s limetkou"
             ],
-            "explanation": "V podsložce Cosmopolitan je obsaženo: Vodka. Kompletní receptura položky: vodka, Cointreau, brusinkový džus, limetová šťáva."
+            "explanation": "U položky Cosmopolitan je uvedeno: Vodka. Kompletní popis: vodka, Cointreau, brusinkový džus, limetová šťáva."
           },
           {
             "id": "cosmopolitan-ing-2",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Cosmopolitan?",
+            "question": "Která surovina, původ či charakteristika patří k položce Cosmopolitan?",
             "correctAnswer": "Cointreau",
             "distractors": [
-              "Modrá agáve (tequila)",
-              "Campari"
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
             ],
-            "explanation": "V podsložce Cosmopolitan je obsaženo: Cointreau. Kompletní receptura položky: vodka, Cointreau, brusinkový džus, limetová šťáva."
-          },
-          {
-            "id": "cosmopolitan-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Cosmopolitan?",
-            "correctAnswer": "Brusinkový džus",
-            "distractors": [
-              "Cinzano rosso",
-              "Sodová voda"
-            ],
-            "explanation": "V podsložce Cosmopolitan je obsaženo: Brusinkový džus. Kompletní receptura položky: vodka, Cointreau, brusinkový džus, limetová šťáva."
-          },
-          {
-            "id": "cosmopolitan-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Cosmopolitan?",
-            "correctAnswer": "Limetová šťáva",
-            "distractors": [
-              "Tonik Thomas Henry",
-              "Řemeslný gin"
-            ],
-            "explanation": "V podsložce Cosmopolitan je obsaženo: Limetová šťáva. Kompletní receptura položky: vodka, Cointreau, brusinkový džus, limetová šťáva."
+            "explanation": "U položky Cosmopolitan je uvedeno: Cointreau. Kompletní popis: vodka, Cointreau, brusinkový džus, limetová šťáva."
           }
         ]
       },
@@ -9577,37 +6445,28 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "moscow-mule",
         "name": "Moscow mule",
         "price": "185 Kč",
+        "allergens": [],
         "description": "vodka, limetová šťáva, ginger beer",
         "questions": [
           {
             "id": "moscow-mule-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Moscow mule?",
+            "question": "Která surovina, původ či charakteristika patří k položce Moscow mule?",
             "correctAnswer": "Vodka",
             "distractors": [
-              "Bílý rum",
-              "Stařený rum"
+              "Tonik Thomas Henry s chininem",
+              "Čerstvě pražená výběrová káva"
             ],
-            "explanation": "V podsložce Moscow mule je obsaženo: Vodka. Kompletní receptura položky: vodka, limetová šťáva, ginger beer."
+            "explanation": "U položky Moscow mule je uvedeno: Vodka. Kompletní popis: vodka, limetová šťáva, ginger beer."
           },
           {
             "id": "moscow-mule-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Moscow mule?",
+            "question": "Která surovina, původ či charakteristika patří k položce Moscow mule?",
             "correctAnswer": "Limetová šťáva",
             "distractors": [
-              "Modrá agáve (tequila)",
-              "Campari"
+              "Černý sypaný čaj s bergamotem",
+              "Jasmínový zelený čaj"
             ],
-            "explanation": "V podsložce Moscow mule je obsaženo: Limetová šťáva. Kompletní receptura položky: vodka, limetová šťáva, ginger beer."
-          },
-          {
-            "id": "moscow-mule-ing-3",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Moscow mule?",
-            "correctAnswer": "Ginger beer",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "V podsložce Moscow mule je obsaženo: Ginger beer. Kompletní receptura položky: vodka, limetová šťáva, ginger beer."
+            "explanation": "U položky Moscow mule je uvedeno: Limetová šťáva. Kompletní popis: vodka, limetová šťáva, ginger beer."
           }
         ]
       },
@@ -9615,37 +6474,28 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "french-martini",
         "name": "French Martini",
         "price": "195 Kč",
+        "allergens": [],
         "description": "vodka, malinový likér, ananasový džus",
         "questions": [
           {
             "id": "french-martini-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje French Martini?",
+            "question": "Která surovina, původ či charakteristika patří k položce French Martini?",
             "correctAnswer": "Vodka",
             "distractors": [
-              "Bílý rum",
-              "Stařený rum"
+              "Jasmínový zelený čaj",
+              "Belgické višňové pivo"
             ],
-            "explanation": "V podsložce French Martini je obsaženo: Vodka. Kompletní receptura položky: vodka, malinový likér, ananasový džus."
+            "explanation": "U položky French Martini je uvedeno: Vodka. Kompletní popis: vodka, malinový likér, ananasový džus."
           },
           {
             "id": "french-martini-ing-2",
-            "question": "Která z následujících surovin patří do podsložky French Martini?",
+            "question": "Která surovina, původ či charakteristika patří k položce French Martini?",
             "correctAnswer": "Malinový likér",
             "distractors": [
-              "Modrá agáve (tequila)",
-              "Campari"
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
             ],
-            "explanation": "V podsložce French Martini je obsaženo: Malinový likér. Kompletní receptura položky: vodka, malinový likér, ananasový džus."
-          },
-          {
-            "id": "french-martini-ing-3",
-            "question": "Která z následujících surovin patří do podsložky French Martini?",
-            "correctAnswer": "Ananasový džus",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "V podsložce French Martini je obsaženo: Ananasový džus. Kompletní receptura položky: vodka, malinový likér, ananasový džus."
+            "explanation": "U položky French Martini je uvedeno: Malinový likér. Kompletní popis: vodka, malinový likér, ananasový džus."
           }
         ]
       },
@@ -9653,47 +6503,28 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "espresso-martini",
         "name": "Espresso Martini",
         "price": "195 Kč",
+        "allergens": [],
         "description": "vodka, Kahlúa, cukrový sirup, espresso",
         "questions": [
           {
             "id": "espresso-martini-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Espresso Martini?",
+            "question": "Která surovina, původ či charakteristika patří k položce Espresso Martini?",
             "correctAnswer": "Vodka",
             "distractors": [
-              "Bílý rum",
-              "Stařený rum"
+              "Mučenkový likér a vanilka",
+              "Kávový likér Kahlúa"
             ],
-            "explanation": "V podsložce Espresso Martini je obsaženo: Vodka. Kompletní receptura položky: vodka, Kahlúa, cukrový sirup, espresso."
+            "explanation": "U položky Espresso Martini je uvedeno: Vodka. Kompletní popis: vodka, Kahlúa, cukrový sirup, espresso."
           },
           {
             "id": "espresso-martini-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Espresso Martini?",
+            "question": "Která surovina, původ či charakteristika patří k položce Espresso Martini?",
             "correctAnswer": "Kahlúa",
             "distractors": [
-              "Modrá agáve (tequila)",
-              "Campari"
+              "Světlý ležák plzeňského typu",
+              "Jablečný mošt z rodinné farmy"
             ],
-            "explanation": "V podsložce Espresso Martini je obsaženo: Kahlúa. Kompletní receptura položky: vodka, Kahlúa, cukrový sirup, espresso."
-          },
-          {
-            "id": "espresso-martini-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Espresso Martini?",
-            "correctAnswer": "Cukrový sirup",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "V podsložce Espresso Martini je obsaženo: Cukrový sirup. Kompletní receptura položky: vodka, Kahlúa, cukrový sirup, espresso."
-          },
-          {
-            "id": "espresso-martini-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Espresso Martini?",
-            "correctAnswer": "Espresso",
-            "distractors": [
-              "Čerstvá limetová šťáva",
-              "Sodová voda"
-            ],
-            "explanation": "V podsložce Espresso Martini je obsaženo: Espresso. Kompletní receptura položky: vodka, Kahlúa, cukrový sirup, espresso."
+            "explanation": "U položky Espresso Martini je uvedeno: Kahlúa. Kompletní popis: vodka, Kahlúa, cukrový sirup, espresso."
           }
         ]
       },
@@ -9701,57 +6532,28 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "paloma",
         "name": "Paloma",
         "price": "195 Kč",
-        "description": "tequila, limetová šťáva, agáve sirup, grapefruit J.Gasco Soda Rosa, sůl",
+        "allergens": [],
+        "description": "tequila, limitován šťáva, agáve sirup, grepfruit J.Gasco Soda Rosa, sůl",
         "questions": [
           {
             "id": "paloma-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Paloma?",
+            "question": "Která surovina, původ či charakteristika patří k položce Paloma?",
             "correctAnswer": "Tequila",
             "distractors": [
-              "Bílý rum",
-              "Stařený rum"
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
             ],
-            "explanation": "V podsložce Paloma je obsaženo: Tequila. Kompletní receptura položky: tequila, limetová šťáva, agáve sirup, grapefruit J.Gasco Soda Rosa, sůl."
+            "explanation": "U položky Paloma je uvedeno: Tequila. Kompletní popis: tequila, limitován šťáva, agáve sirup, grepfruit J.Gasco Soda Rosa, sůl."
           },
           {
             "id": "paloma-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Paloma?",
-            "correctAnswer": "Limetová šťáva",
+            "question": "Která surovina, původ či charakteristika patří k položce Paloma?",
+            "correctAnswer": "Limitován šťáva",
             "distractors": [
-              "Campari",
-              "Cointreau"
+              "Mučenkový likér a vanilka",
+              "Kávový likér Kahlúa"
             ],
-            "explanation": "V podsložce Paloma je obsaženo: Limetová šťáva. Kompletní receptura položky: tequila, limetová šťáva, agáve sirup, grapefruit J.Gasco Soda Rosa, sůl."
-          },
-          {
-            "id": "paloma-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Paloma?",
-            "correctAnswer": "Agáve sirup",
-            "distractors": [
-              "Cinzano rosso",
-              "Sodová voda"
-            ],
-            "explanation": "V podsložce Paloma je obsaženo: Agáve sirup. Kompletní receptura položky: tequila, limetová šťáva, agáve sirup, grapefruit J.Gasco Soda Rosa, sůl."
-          },
-          {
-            "id": "paloma-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Paloma?",
-            "correctAnswer": "Grapefruit J.Gasco Soda Rosa",
-            "distractors": [
-              "Tonik Thomas Henry",
-              "Řemeslný gin"
-            ],
-            "explanation": "V podsložce Paloma je obsaženo: Grapefruit J.Gasco Soda Rosa. Kompletní receptura položky: tequila, limetová šťáva, agáve sirup, grapefruit J.Gasco Soda Rosa, sůl."
-          },
-          {
-            "id": "paloma-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Paloma?",
-            "correctAnswer": "Sůl",
-            "distractors": [
-              "Bílý rum",
-              "Stařený rum"
-            ],
-            "explanation": "V podsložce Paloma je obsaženo: Sůl. Kompletní receptura položky: tequila, limetová šťáva, agáve sirup, grapefruit J.Gasco Soda Rosa, sůl."
+            "explanation": "U položky Paloma je uvedeno: Limitován šťáva. Kompletní popis: tequila, limitován šťáva, agáve sirup, grepfruit J.Gasco Soda Rosa, sůl."
           }
         ]
       }
@@ -9759,46 +6561,37 @@ export const MENU_CATEGORIES: MenuCategory[] = [
   },
   {
     "id": "koktejly-fuze",
-    "name": "koktejly fuze",
-    "badge": "FUZE koktejly",
-    "description": "Autorské signature koktejly vytvořené speciálně pro restaurant FUZE",
+    "name": "Koktejly fuze",
+    "badge": "Koktejly fuze",
+    "description": "Originální autorské koktejly vytvořené týmem barmanů restaurace FUZE",
     "iconName": "Martini",
     "items": [
       {
         "id": "truffle-negroni",
         "name": "Truffle Negroni",
         "price": "205 Kč",
+        "allergens": [],
         "description": "truffle gin, Campari, Cinzano rosso",
         "questions": [
           {
             "id": "truffle-negroni-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Truffle Negroni?",
+            "question": "Která surovina, původ či charakteristika patří k položce Truffle Negroni?",
             "correctAnswer": "Truffle gin",
             "distractors": [
-              "Bílý rum",
-              "Stařený rum"
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
             ],
-            "explanation": "V podsložce Truffle Negroni je obsaženo: Truffle gin. Kompletní receptura položky: truffle gin, Campari, Cinzano rosso."
+            "explanation": "U položky Truffle Negroni je uvedeno: Truffle gin. Kompletní popis: truffle gin, Campari, Cinzano rosso."
           },
           {
             "id": "truffle-negroni-ing-2",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Truffle Negroni?",
+            "question": "Která surovina, původ či charakteristika patří k položce Truffle Negroni?",
             "correctAnswer": "Campari",
             "distractors": [
-              "Modrá agáve (tequila)",
-              "Cointreau"
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
             ],
-            "explanation": "V podsložce Truffle Negroni je obsaženo: Campari. Kompletní receptura položky: truffle gin, Campari, Cinzano rosso."
-          },
-          {
-            "id": "truffle-negroni-ing-3",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Truffle Negroni?",
-            "correctAnswer": "Cinzano rosso",
-            "distractors": [
-              "Čerstvá limetová šťáva",
-              "Sodová voda"
-            ],
-            "explanation": "V podsložce Truffle Negroni je obsaženo: Cinzano rosso. Kompletní receptura položky: truffle gin, Campari, Cinzano rosso."
+            "explanation": "U položky Truffle Negroni je uvedeno: Campari. Kompletní popis: truffle gin, Campari, Cinzano rosso."
           }
         ]
       },
@@ -9806,67 +6599,28 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "fizzy-fuze",
         "name": "Fizzy Fuze",
         "price": "175 Kč",
+        "allergens": [],
         "description": "gin, liči džus, ananasový džus, bezinkový sirup, limetová šťáva, soda",
         "questions": [
           {
             "id": "fizzy-fuze-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Fizzy Fuze?",
-            "correctAnswer": "Gin",
+            "question": "Která surovina, původ či charakteristika patří k položce Fizzy Fuze?",
+            "correctAnswer": "Liči džus",
             "distractors": [
-              "Stařený rum",
-              "Modrá agáve (tequila)"
+              "Čerstvý grepový fresh",
+              "Bezinkový sirup a čerstvá máta"
             ],
-            "explanation": "V podsložce Fizzy Fuze je obsaženo: Gin. Kompletní receptura položky: gin, liči džus, ananasový džus, bezinkový sirup, limetová šťáva, soda."
+            "explanation": "U položky Fizzy Fuze je uvedeno: Liči džus. Kompletní popis: gin, liči džus, ananasový džus, bezinkový sirup, limetová šťáva, soda."
           },
           {
             "id": "fizzy-fuze-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Fizzy Fuze?",
-            "correctAnswer": "Liči džus",
-            "distractors": [
-              "Campari",
-              "Cointreau"
-            ],
-            "explanation": "V podsložce Fizzy Fuze je obsaženo: Liči džus. Kompletní receptura položky: gin, liči džus, ananasový džus, bezinkový sirup, limetová šťáva, soda."
-          },
-          {
-            "id": "fizzy-fuze-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Fizzy Fuze?",
+            "question": "Která surovina, původ či charakteristika patří k položce Fizzy Fuze?",
             "correctAnswer": "Ananasový džus",
             "distractors": [
-              "Cinzano rosso",
-              "Sodová voda"
+              "Tonik Thomas Henry s chininem",
+              "Čerstvě pražená výběrová káva"
             ],
-            "explanation": "V podsložce Fizzy Fuze je obsaženo: Ananasový džus. Kompletní receptura položky: gin, liči džus, ananasový džus, bezinkový sirup, limetová šťáva, soda."
-          },
-          {
-            "id": "fizzy-fuze-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Fizzy Fuze?",
-            "correctAnswer": "Bezinkový sirup",
-            "distractors": [
-              "Tonik Thomas Henry",
-              "Bílý rum"
-            ],
-            "explanation": "V podsložce Fizzy Fuze je obsaženo: Bezinkový sirup. Kompletní receptura položky: gin, liči džus, ananasový džus, bezinkový sirup, limetová šťáva, soda."
-          },
-          {
-            "id": "fizzy-fuze-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Fizzy Fuze?",
-            "correctAnswer": "Limetová šťáva",
-            "distractors": [
-              "Stařený rum",
-              "Modrá agáve (tequila)"
-            ],
-            "explanation": "V podsložce Fizzy Fuze je obsaženo: Limetová šťáva. Kompletní receptura položky: gin, liči džus, ananasový džus, bezinkový sirup, limetová šťáva, soda."
-          },
-          {
-            "id": "fizzy-fuze-ing-6",
-            "question": "Která z následujících surovin patří do podsložky Fizzy Fuze?",
-            "correctAnswer": "Soda",
-            "distractors": [
-              "Campari",
-              "Cointreau"
-            ],
-            "explanation": "V podsložce Fizzy Fuze je obsaženo: Soda. Kompletní receptura položky: gin, liči džus, ananasový džus, bezinkový sirup, limetová šťáva, soda."
+            "explanation": "U položky Fizzy Fuze je uvedeno: Ananasový džus. Kompletní popis: gin, liči džus, ananasový džus, bezinkový sirup, limetová šťáva, soda."
           }
         ]
       },
@@ -9874,37 +6628,28 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "florencia-fashion",
         "name": "Florencia Fashion",
         "price": "245 Kč",
+        "allergens": [],
         "description": "whisky, švestkový sirup, čokoládový bitters",
         "questions": [
           {
             "id": "florencia-fashion-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Florencia Fashion?",
+            "question": "Která surovina, původ či charakteristika patří k položce Florencia Fashion?",
             "correctAnswer": "Whisky",
             "distractors": [
-              "Bílý rum",
-              "Stařený rum"
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
             ],
-            "explanation": "V podsložce Florencia Fashion je obsaženo: Whisky. Kompletní receptura položky: whisky, švestkový sirup, čokoládový bitters."
+            "explanation": "U položky Florencia Fashion je uvedeno: Whisky. Kompletní popis: whisky, švestkový sirup, čokoládový bitters."
           },
           {
             "id": "florencia-fashion-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Florencia Fashion?",
+            "question": "Která surovina, původ či charakteristika patří k položce Florencia Fashion?",
             "correctAnswer": "Švestkový sirup",
             "distractors": [
-              "Modrá agáve (tequila)",
-              "Campari"
+              "Světlý ležák plzeňského typu",
+              "Jablečný mošt z rodinné farmy"
             ],
-            "explanation": "V podsložce Florencia Fashion je obsaženo: Švestkový sirup. Kompletní receptura položky: whisky, švestkový sirup, čokoládový bitters."
-          },
-          {
-            "id": "florencia-fashion-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Florencia Fashion?",
-            "correctAnswer": "Čokoládový bitters",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "V podsložce Florencia Fashion je obsaženo: Čokoládový bitters. Kompletní receptura položky: whisky, švestkový sirup, čokoládový bitters."
+            "explanation": "U položky Florencia Fashion je uvedeno: Švestkový sirup. Kompletní popis: whisky, švestkový sirup, čokoládový bitters."
           }
         ]
       },
@@ -9912,47 +6657,28 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "am-spritz",
         "name": "A.M. Spritz",
         "price": "185 Kč",
+        "allergens": [],
         "description": "crémant, gin, broskvový sirup, limetová šťáva",
         "questions": [
           {
             "id": "am-spritz-ing-1",
-            "question": "Která z následujících surovin patří do podsložky A.M. Spritz?",
+            "question": "Která surovina, původ či charakteristika patří k položce A.M. Spritz?",
             "correctAnswer": "Crémant",
             "distractors": [
-              "Stařený rum",
-              "Modrá agáve (tequila)"
+              "Světlý ležák plzeňského typu",
+              "Jablečný mošt z rodinné farmy"
             ],
-            "explanation": "V podsložce A.M. Spritz je obsaženo: Crémant. Kompletní receptura položky: crémant, gin, broskvový sirup, limetová šťáva."
+            "explanation": "U položky A.M. Spritz je uvedeno: Crémant. Kompletní popis: crémant, gin, broskvový sirup, limetová šťáva."
           },
           {
             "id": "am-spritz-ing-2",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje A.M. Spritz?",
-            "correctAnswer": "Gin",
-            "distractors": [
-              "Campari",
-              "Cointreau"
-            ],
-            "explanation": "V podsložce A.M. Spritz je obsaženo: Gin. Kompletní receptura položky: crémant, gin, broskvový sirup, limetová šťáva."
-          },
-          {
-            "id": "am-spritz-ing-3",
-            "question": "Která z následujících surovin patří do podsložky A.M. Spritz?",
+            "question": "Která surovina, původ či charakteristika patří k položce A.M. Spritz?",
             "correctAnswer": "Broskvový sirup",
             "distractors": [
-              "Cinzano rosso",
-              "Sodová voda"
+              "Čerstvý grepový fresh",
+              "Bezinkový sirup a čerstvá máta"
             ],
-            "explanation": "V podsložce A.M. Spritz je obsaženo: Broskvový sirup. Kompletní receptura položky: crémant, gin, broskvový sirup, limetová šťáva."
-          },
-          {
-            "id": "am-spritz-ing-4",
-            "question": "Která z následujících surovin patří do podsložky A.M. Spritz?",
-            "correctAnswer": "Limetová šťáva",
-            "distractors": [
-              "Tonik Thomas Henry",
-              "Bílý rum"
-            ],
-            "explanation": "V podsložce A.M. Spritz je obsaženo: Limetová šťáva. Kompletní receptura položky: crémant, gin, broskvový sirup, limetová šťáva."
+            "explanation": "U položky A.M. Spritz je uvedeno: Broskvový sirup. Kompletní popis: crémant, gin, broskvový sirup, limetová šťáva."
           }
         ]
       },
@@ -9960,231 +6686,28 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "passionata",
         "name": "Passionata",
         "price": "175 Kč",
+        "allergens": [],
         "description": "rum, mučenka, melounový sirup, brusinkový džus",
         "questions": [
           {
             "id": "passionata-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Passionata?",
-            "correctAnswer": "Rum",
+            "question": "Která surovina, původ či charakteristika patří k položce Passionata?",
+            "correctAnswer": "Mučenka",
             "distractors": [
-              "Modrá agáve (tequila)",
-              "Campari"
+              "Čerstvý grepový fresh",
+              "Bezinkový sirup a čerstvá máta"
             ],
-            "explanation": "V podsložce Passionata je obsaženo: Rum. Kompletní receptura položky: rum, mučenka, melounový sirup, brusinkový džus."
+            "explanation": "U položky Passionata je uvedeno: Mučenka. Kompletní popis: rum, mučenka, melounový sirup, brusinkový džus."
           },
           {
             "id": "passionata-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Passionata?",
-            "correctAnswer": "Mučenka",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "V podsložce Passionata je obsaženo: Mučenka. Kompletní receptura položky: rum, mučenka, melounový sirup, brusinkový džus."
-          },
-          {
-            "id": "passionata-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Passionata?",
+            "question": "Která surovina, původ či charakteristika patří k položce Passionata?",
             "correctAnswer": "Melounový sirup",
             "distractors": [
-              "Čerstvá limetová šťáva",
-              "Sodová voda"
+              "Tonik Thomas Henry s chininem",
+              "Čerstvě pražená výběrová káva"
             ],
-            "explanation": "V podsložce Passionata je obsaženo: Melounový sirup. Kompletní receptura položky: rum, mučenka, melounový sirup, brusinkový džus."
-          },
-          {
-            "id": "passionata-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Passionata?",
-            "correctAnswer": "Brusinkový džus",
-            "distractors": [
-              "Tonik Thomas Henry",
-              "Řemeslný gin"
-            ],
-            "explanation": "V podsložce Passionata je obsaženo: Brusinkový džus. Kompletní receptura položky: rum, mučenka, melounový sirup, brusinkový džus."
-          }
-        ]
-      },
-      {
-        "id": "apricot-cabaret",
-        "name": "Apricot Cabaret",
-        "price": "239 Kč",
-        "description": "třešňový likér, mučenkový likér (passion fruit), meruňkové pyré, limetová šťáva, jablečný cider",
-        "questions": [
-          {
-            "id": "apricot-cabaret-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Apricot Cabaret?",
-            "correctAnswer": "Třešňový likér",
-            "distractors": [
-              "Bílý rum",
-              "Stařený rum"
-            ],
-            "explanation": "V podsložce Apricot Cabaret je obsaženo: Třešňový likér. Kompletní receptura položky: třešňový likér, mučenkový likér (passion fruit), meruňkové pyré, limetová šťáva, jablečný cider."
-          },
-          {
-            "id": "apricot-cabaret-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Apricot Cabaret?",
-            "correctAnswer": "Mučenkový likér (passion fruit)",
-            "distractors": [
-              "Modrá agáve (tequila)",
-              "Campari"
-            ],
-            "explanation": "V podsložce Apricot Cabaret je obsaženo: Mučenkový likér (passion fruit). Kompletní receptura položky: třešňový likér, mučenkový likér (passion fruit), meruňkové pyré, limetová šťáva, jablečný cider."
-          },
-          {
-            "id": "apricot-cabaret-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Apricot Cabaret?",
-            "correctAnswer": "Meruňkové pyré",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "V podsložce Apricot Cabaret je obsaženo: Meruňkové pyré. Kompletní receptura položky: třešňový likér, mučenkový likér (passion fruit), meruňkové pyré, limetová šťáva, jablečný cider."
-          },
-          {
-            "id": "apricot-cabaret-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Apricot Cabaret?",
-            "correctAnswer": "Limetová šťáva",
-            "distractors": [
-              "Sodová voda",
-              "Tonik Thomas Henry"
-            ],
-            "explanation": "V podsložce Apricot Cabaret je obsaženo: Limetová šťáva. Kompletní receptura položky: třešňový likér, mučenkový likér (passion fruit), meruňkové pyré, limetová šťáva, jablečný cider."
-          },
-          {
-            "id": "apricot-cabaret-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Apricot Cabaret?",
-            "correctAnswer": "Jablečný cider",
-            "distractors": [
-              "Řemeslný gin",
-              "Bílý rum"
-            ],
-            "explanation": "V podsložce Apricot Cabaret je obsaženo: Jablečný cider. Kompletní receptura položky: třešňový likér, mučenkový likér (passion fruit), meruňkové pyré, limetová šťáva, jablečný cider."
-          }
-        ]
-      },
-      {
-        "id": "spicy-apricot-margarita",
-        "name": "Spicy Apricot Margarita",
-        "price": "219 Kč",
-        "description": "tequila, třešňový likér, meruňkové pyré, limetová šťáva, meruňkový sirup, jalapeño",
-        "questions": [
-          {
-            "id": "spicy-apricot-margarita-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Spicy Apricot Margarita?",
-            "correctAnswer": "Tequila",
-            "distractors": [
-              "Bílý rum",
-              "Stařený rum"
-            ],
-            "explanation": "V podsložce Spicy Apricot Margarita je obsaženo: Tequila. Kompletní receptura položky: tequila, třešňový likér, meruňkové pyré, limetová šťáva, meruňkový sirup, jalapeño."
-          },
-          {
-            "id": "spicy-apricot-margarita-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Spicy Apricot Margarita?",
-            "correctAnswer": "Třešňový likér",
-            "distractors": [
-              "Campari",
-              "Cointreau"
-            ],
-            "explanation": "V podsložce Spicy Apricot Margarita je obsaženo: Třešňový likér. Kompletní receptura položky: tequila, třešňový likér, meruňkové pyré, limetová šťáva, meruňkový sirup, jalapeño."
-          },
-          {
-            "id": "spicy-apricot-margarita-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Spicy Apricot Margarita?",
-            "correctAnswer": "Meruňkové pyré",
-            "distractors": [
-              "Cinzano rosso",
-              "Sodová voda"
-            ],
-            "explanation": "V podsložce Spicy Apricot Margarita je obsaženo: Meruňkové pyré. Kompletní receptura položky: tequila, třešňový likér, meruňkové pyré, limetová šťáva, meruňkový sirup, jalapeño."
-          },
-          {
-            "id": "spicy-apricot-margarita-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Spicy Apricot Margarita?",
-            "correctAnswer": "Limetová šťáva",
-            "distractors": [
-              "Tonik Thomas Henry",
-              "Řemeslný gin"
-            ],
-            "explanation": "V podsložce Spicy Apricot Margarita je obsaženo: Limetová šťáva. Kompletní receptura položky: tequila, třešňový likér, meruňkové pyré, limetová šťáva, meruňkový sirup, jalapeño."
-          },
-          {
-            "id": "spicy-apricot-margarita-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Spicy Apricot Margarita?",
-            "correctAnswer": "Meruňkový sirup",
-            "distractors": [
-              "Bílý rum",
-              "Stařený rum"
-            ],
-            "explanation": "V podsložce Spicy Apricot Margarita je obsaženo: Meruňkový sirup. Kompletní receptura položky: tequila, třešňový likér, meruňkové pyré, limetová šťáva, meruňkový sirup, jalapeño."
-          },
-          {
-            "id": "spicy-apricot-margarita-ing-6",
-            "question": "Která z následujících surovin patří do podsložky Spicy Apricot Margarita?",
-            "correctAnswer": "Jalapeño",
-            "distractors": [
-              "Campari",
-              "Cointreau"
-            ],
-            "explanation": "V podsložce Spicy Apricot Margarita je obsaženo: Jalapeño. Kompletní receptura položky: tequila, třešňový likér, meruňkové pyré, limetová šťáva, meruňkový sirup, jalapeño."
-          }
-        ]
-      },
-      {
-        "id": "apricot-daniels-sour",
-        "name": "Apricot Daniel's Sour",
-        "price": "239 Kč",
-        "description": "Jack Daniel's, třešňový likér, meruňkové pyré, citrónová šťáva, cukrový sirup",
-        "questions": [
-          {
-            "id": "apricot-daniels-sour-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Apricot Daniel's Sour?",
-            "correctAnswer": "Jack Daniel's",
-            "distractors": [
-              "Bílý rum",
-              "Stařený rum"
-            ],
-            "explanation": "V podsložce Apricot Daniel's Sour je obsaženo: Jack Daniel's. Kompletní receptura položky: Jack Daniel's, třešňový likér, meruňkové pyré, citrónová šťáva, cukrový sirup."
-          },
-          {
-            "id": "apricot-daniels-sour-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Apricot Daniel's Sour?",
-            "correctAnswer": "Třešňový likér",
-            "distractors": [
-              "Modrá agáve (tequila)",
-              "Campari"
-            ],
-            "explanation": "V podsložce Apricot Daniel's Sour je obsaženo: Třešňový likér. Kompletní receptura položky: Jack Daniel's, třešňový likér, meruňkové pyré, citrónová šťáva, cukrový sirup."
-          },
-          {
-            "id": "apricot-daniels-sour-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Apricot Daniel's Sour?",
-            "correctAnswer": "Meruňkové pyré",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "V podsložce Apricot Daniel's Sour je obsaženo: Meruňkové pyré. Kompletní receptura položky: Jack Daniel's, třešňový likér, meruňkové pyré, citrónová šťáva, cukrový sirup."
-          },
-          {
-            "id": "apricot-daniels-sour-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Apricot Daniel's Sour?",
-            "correctAnswer": "Citrónová šťáva",
-            "distractors": [
-              "Čerstvá limetová šťáva",
-              "Sodová voda"
-            ],
-            "explanation": "V podsložce Apricot Daniel's Sour je obsaženo: Citrónová šťáva. Kompletní receptura položky: Jack Daniel's, třešňový likér, meruňkové pyré, citrónová šťáva, cukrový sirup."
-          },
-          {
-            "id": "apricot-daniels-sour-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Apricot Daniel's Sour?",
-            "correctAnswer": "Cukrový sirup",
-            "distractors": [
-              "Tonik Thomas Henry",
-              "Řemeslný gin"
-            ],
-            "explanation": "V podsložce Apricot Daniel's Sour je obsaženo: Cukrový sirup. Kompletní receptura položky: Jack Daniel's, třešňový likér, meruňkové pyré, citrónová šťáva, cukrový sirup."
+            "explanation": "U položky Passionata je uvedeno: Melounový sirup. Kompletní popis: rum, mučenka, melounový sirup, brusinkový džus."
           }
         ]
       }
@@ -10192,36 +6715,27 @@ export const MENU_CATEGORIES: MenuCategory[] = [
   },
   {
     "id": "gin-a-tonic",
-    "name": "gin&tonic",
-    "badge": "Gin & Tonic",
-    "description": "Perfektní kombinace řemeslných ginů s prémiovými toniky a bylinami",
+    "name": "Gin&tonic",
+    "badge": "Gin&tonic",
+    "description": "Perfektně vyladěné kombinace prémiových ginů a vybraných toniků",
     "iconName": "GlassWater",
     "items": [
       {
         "id": "gt-tanqueray",
         "name": "Tanqueray & Thomas Henry Tonic",
         "price": "188 Kč",
-        "description": "Klasický s limetou, suchý London Dry profil a německý chininový tonik",
+        "allergens": [],
+        "description": "klasický s limetou",
         "questions": [
           {
             "id": "gt-tanqueray-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Tanqueray & Thomas Henry Tonic?",
+            "question": "Která surovina, původ či charakteristika patří k položce Tanqueray & Thomas Henry Tonic?",
             "correctAnswer": "Klasický s limetou",
             "distractors": [
-              "Bílý rum",
-              "Stařený rum"
+              "Vanilkový sirup a limetová šťáva",
+              "Třtinový cukr s limetkou"
             ],
-            "explanation": "V podsložce Tanqueray & Thomas Henry Tonic je obsaženo: Klasický s limetou. Kompletní receptura položky: Klasický s limetou, suchý London Dry profil a německý chininový tonik."
-          },
-          {
-            "id": "gt-tanqueray-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Tanqueray & Thomas Henry Tonic?",
-            "correctAnswer": "Suchý London Dry profil a německý chininový tonik",
-            "distractors": [
-              "Modrá agáve (tequila)",
-              "Campari"
-            ],
-            "explanation": "V podsložce Tanqueray & Thomas Henry Tonic je obsaženo: Suchý London Dry profil a německý chininový tonik. Kompletní receptura položky: Klasický s limetou, suchý London Dry profil a německý chininový tonik."
+            "explanation": "U položky Tanqueray & Thomas Henry Tonic je uvedeno: Klasický s limetou. Kompletní popis: klasický s limetou."
           }
         ]
       },
@@ -10229,27 +6743,18 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "gt-fiesta-garage22",
         "name": "Fiesta Garage 22 & Guilti tonic lime",
         "price": "219 Kč",
-        "description": "Zábavný s limetou, řemeslný pražský gin z Holešovic a limetkový tonik",
+        "allergens": [],
+        "description": "zábavný s limetou",
         "questions": [
           {
             "id": "gt-fiesta-garage22-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Fiesta Garage 22 & Guilti tonic lime?",
+            "question": "Která surovina, původ či charakteristika patří k položce Fiesta Garage 22 & Guilti tonic lime?",
             "correctAnswer": "Zábavný s limetou",
             "distractors": [
-              "Bílý rum",
-              "Stařený rum"
+              "Světlý ležák plzeňského typu",
+              "Jablečný mošt z rodinné farmy"
             ],
-            "explanation": "V podsložce Fiesta Garage 22 & Guilti tonic lime je obsaženo: Zábavný s limetou. Kompletní receptura položky: Zábavný s limetou, řemeslný pražský gin z Holešovic a limetkový tonik."
-          },
-          {
-            "id": "gt-fiesta-garage22-ing-2",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Fiesta Garage 22 & Guilti tonic lime?",
-            "correctAnswer": "Řemeslný pražský gin z Holešovic a limetkový tonik",
-            "distractors": [
-              "Modrá agáve (tequila)",
-              "Campari"
-            ],
-            "explanation": "V podsložce Fiesta Garage 22 & Guilti tonic lime je obsaženo: Řemeslný pražský gin z Holešovic a limetkový tonik. Kompletní receptura položky: Zábavný s limetou, řemeslný pražský gin z Holešovic a limetkový tonik."
+            "explanation": "U položky Fiesta Garage 22 & Guilti tonic lime je uvedeno: Zábavný s limetou. Kompletní popis: zábavný s limetou."
           }
         ]
       },
@@ -10257,27 +6762,18 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "gt-hendricks",
         "name": "Hendrick`s & Thomas Henry Tonic",
         "price": "208 Kč",
-        "description": "Svěží s okurkou, skotský gin infuzovaný okurkou a bulharskou růží",
+        "allergens": [],
+        "description": "svěží s okurkou",
         "questions": [
           {
             "id": "gt-hendricks-ing-1",
-            "question": "Který druh nakládaných okurek obsahuje podsložka Hendrick`s & Thomas Henry Tonic?",
+            "question": "Která surovina, původ či charakteristika patří k položce Hendrick`s & Thomas Henry Tonic?",
             "correctAnswer": "Svěží s okurkou",
             "distractors": [
-              "Bílý rum",
-              "Stařený rum"
+              "Vanilkový sirup a limetová šťáva",
+              "Třtinový cukr s limetkou"
             ],
-            "explanation": "V podsložce Hendrick`s & Thomas Henry Tonic je obsaženo: Svěží s okurkou. Kompletní receptura položky: Svěží s okurkou, skotský gin infuzovaný okurkou a bulharskou růží."
-          },
-          {
-            "id": "gt-hendricks-ing-2",
-            "question": "Který druh nakládaných okurek obsahuje podsložka Hendrick`s & Thomas Henry Tonic?",
-            "correctAnswer": "Skotský gin infuzovaný okurkou a bulharskou růží",
-            "distractors": [
-              "Modrá agáve (tequila)",
-              "Campari"
-            ],
-            "explanation": "V podsložce Hendrick`s & Thomas Henry Tonic je obsaženo: Skotský gin infuzovaný okurkou a bulharskou růží. Kompletní receptura položky: Svěží s okurkou, skotský gin infuzovaný okurkou a bulharskou růží."
+            "explanation": "U položky Hendrick`s & Thomas Henry Tonic je uvedeno: Svěží s okurkou. Kompletní popis: svěží s okurkou."
           }
         ]
       },
@@ -10285,27 +6781,18 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "gt-endorphin-imagine",
         "name": "Endorphin Magic imaGINe & Fever-Tree Tonic",
         "price": "239 Kč",
-        "description": "Iluzionistický s borůvkami, barvoměnný gin infuzovaný květem klitorie (butterfly pea flower)",
+        "allergens": [],
+        "description": "iluzionistický s borůvkami",
         "questions": [
           {
             "id": "gt-endorphin-imagine-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Endorphin Magic imaGINe & Fever-Tree Tonic?",
+            "question": "Která surovina, původ či charakteristika patří k položce Endorphin Magic imaGINe & Fever-Tree Tonic?",
             "correctAnswer": "Iluzionistický s borůvkami",
             "distractors": [
-              "Bílý rum",
-              "Stařený rum"
+              "Tonik Thomas Henry s chininem",
+              "Čerstvě pražená výběrová káva"
             ],
-            "explanation": "V podsložce Endorphin Magic imaGINe & Fever-Tree Tonic je obsaženo: Iluzionistický s borůvkami. Kompletní receptura položky: Iluzionistický s borůvkami, barvoměnný gin infuzovaný květem klitorie (butterfly pea flower)."
-          },
-          {
-            "id": "gt-endorphin-imagine-ing-2",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Endorphin Magic imaGINe & Fever-Tree Tonic?",
-            "correctAnswer": "Barvoměnný gin infuzovaný květem klitorie (butterfly pea flower)",
-            "distractors": [
-              "Modrá agáve (tequila)",
-              "Campari"
-            ],
-            "explanation": "V podsložce Endorphin Magic imaGINe & Fever-Tree Tonic je obsaženo: Barvoměnný gin infuzovaný květem klitorie (butterfly pea flower). Kompletní receptura položky: Iluzionistický s borůvkami, barvoměnný gin infuzovaný květem klitorie (butterfly pea flower)."
+            "explanation": "U položky Endorphin Magic imaGINe & Fever-Tree Tonic je uvedeno: Iluzionistický s borůvkami. Kompletní popis: iluzionistický s borůvkami."
           }
         ]
       },
@@ -10313,27 +6800,18 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "gt-flame-of-passion",
         "name": "Flame of Passion Pink Gin & Thomas Henry Pink Grapefruit Tonic",
         "price": "228 Kč",
-        "description": "Podmanivý se sušeným grepem, jemně ovocný růžový gin s grepovým tonikem",
+        "allergens": [],
+        "description": "podmanivý se sušeným grepem",
         "questions": [
           {
             "id": "gt-flame-of-passion-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Flame of Passion Pink Gin & Thomas Henry Pink Grapefruit Tonic?",
+            "question": "Která surovina, původ či charakteristika patří k položce Flame of Passion Pink Gin & Thomas Henry Pink Grapefruit Tonic?",
             "correctAnswer": "Podmanivý se sušeným grepem",
             "distractors": [
-              "Bílý rum",
-              "Stařený rum"
+              "Čerstvý grepový fresh",
+              "Bezinkový sirup a čerstvá máta"
             ],
-            "explanation": "V podsložce Flame of Passion Pink Gin & Thomas Henry Pink Grapefruit Tonic je obsaženo: Podmanivý se sušeným grepem. Kompletní receptura položky: Podmanivý se sušeným grepem, jemně ovocný růžový gin s grepovým tonikem."
-          },
-          {
-            "id": "gt-flame-of-passion-ing-2",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Flame of Passion Pink Gin & Thomas Henry Pink Grapefruit Tonic?",
-            "correctAnswer": "Jemně ovocný růžový gin s grepovým tonikem",
-            "distractors": [
-              "Modrá agáve (tequila)",
-              "Campari"
-            ],
-            "explanation": "V podsložce Flame of Passion Pink Gin & Thomas Henry Pink Grapefruit Tonic je obsaženo: Jemně ovocný růžový gin s grepovým tonikem. Kompletní receptura položky: Podmanivý se sušeným grepem, jemně ovocný růžový gin s grepovým tonikem."
+            "explanation": "U položky Flame of Passion Pink Gin & Thomas Henry Pink Grapefruit Tonic je uvedeno: Podmanivý se sušeným grepem. Kompletní popis: podmanivý se sušeným grepem."
           }
         ]
       },
@@ -10341,27 +6819,18 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "id": "gt-endorphin-copper-moon",
         "name": "Endorphin Copper Moon & Fever-Tree Mediterranean Tonic",
         "price": "228 Kč",
-        "description": "Plný bylinek a pepře, řemeslný gin a středomořský tonik",
+        "allergens": [],
+        "description": "plný bylinek a pepře",
         "questions": [
           {
             "id": "gt-endorphin-copper-moon-ing-1",
-            "question": "Která bylinka, koření či aromatická surovina dochucuje Endorphin Copper Moon & Fever-Tree Mediterranean Tonic?",
+            "question": "Která surovina, původ či charakteristika patří k položce Endorphin Copper Moon & Fever-Tree Mediterranean Tonic?",
             "correctAnswer": "Plný bylinek a pepře",
             "distractors": [
-              "Stařený rum",
-              "Modrá agáve (tequila)"
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
             ],
-            "explanation": "V podsložce Endorphin Copper Moon & Fever-Tree Mediterranean Tonic je obsaženo: Plný bylinek a pepře. Kompletní receptura položky: Plný bylinek a pepře, řemeslný gin a středomořský tonik."
-          },
-          {
-            "id": "gt-endorphin-copper-moon-ing-2",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Endorphin Copper Moon & Fever-Tree Mediterranean Tonic?",
-            "correctAnswer": "Řemeslný gin a středomořský tonik",
-            "distractors": [
-              "Campari",
-              "Cointreau"
-            ],
-            "explanation": "V podsložce Endorphin Copper Moon & Fever-Tree Mediterranean Tonic je obsaženo: Řemeslný gin a středomořský tonik. Kompletní receptura položky: Plný bylinek a pepře, řemeslný gin a středomořský tonik."
+            "explanation": "U položky Endorphin Copper Moon & Fever-Tree Mediterranean Tonic je uvedeno: Plný bylinek a pepře. Kompletní popis: plný bylinek a pepře."
           }
         ]
       }
@@ -10369,376 +6838,488 @@ export const MENU_CATEGORIES: MenuCategory[] = [
   },
   {
     "id": "ovocne-destilaty",
-    "name": "ovocné destiláty 0,03L",
+    "name": "Ovocné destiláty 0,03l",
     "badge": "Ovocné destiláty",
-    "description": "Prémiové pálenky z vyzrálého českého ovoce od mistrů destilatérů",
+    "description": "Špičkové české ovocné pálenky z vyhlášených řemeslných palíren",
     "iconName": "Flame",
     "items": [
       {
         "id": "slivovice-radlik",
-        "name": "Slivovice Radlík",
-        "price": "105 Kč",
+        "name": "Slivovice",
         "weight": "0,03l",
-        "description": "0,03l jemná švestková pálenka z oceňovaného jihočeského lihovaru Radlík u Jílového u Prahy",
+        "price": "105 Kč",
+        "allergens": [],
+        "description": "Radlík, jemná švestková pálenka z oceňovaného lihovaru",
         "questions": [
           {
             "id": "slivovice-radlik-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Slivovice Radlík?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Slivovice?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Slivovice Radlík je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Slivovice je 0,03l."
           },
           {
             "id": "slivovice-radlik-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Slivovice Radlík?",
-            "correctAnswer": "Jemná švestková pálenka z oceňovaného jihočeského lihovaru Radlík u Jílového u Prahy",
+            "question": "Která surovina, původ či charakteristika patří k položce Slivovice?",
+            "correctAnswer": "Radlík",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Mučenkový likér a vanilka",
+              "Kávový likér Kahlúa"
             ],
-            "explanation": "V podsložce Slivovice Radlík je obsaženo: Jemná švestková pálenka z oceňovaného jihočeského lihovaru Radlík u Jílového u Prahy. Kompletní receptura položky: 0,03l jemná švestková pálenka z oceňovaného jihočeského lihovaru Radlík u Jílového u Prahy."
+            "explanation": "U položky Slivovice je uvedeno: Radlík. Kompletní popis: Radlík, jemná švestková pálenka z oceňovaného lihovaru."
+          },
+          {
+            "id": "slivovice-radlik-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Slivovice?",
+            "correctAnswer": "Jemná švestková pálenka z oceňovaného lihovaru",
+            "distractors": [
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
+            ],
+            "explanation": "U položky Slivovice je uvedeno: Jemná švestková pálenka z oceňovaného lihovaru. Kompletní popis: Radlík, jemná švestková pálenka z oceňovaného lihovaru."
           }
         ]
       },
       {
         "id": "slivovice-ze-sudu-radlik",
-        "name": "Slivovice ze sudu Radlík",
-        "price": "140 Kč",
+        "name": "Slivovice ze sudu",
         "weight": "0,03l",
-        "description": "0,03l švestkový destilát dozrávající v dřevěných dubových sudech, se zlatavou barvou a tóny vanilky",
+        "price": "140 Kč",
+        "allergens": [],
+        "description": "Radlík, švestkový destilát dozrávající v dubových sudech",
         "questions": [
           {
             "id": "slivovice-ze-sudu-radlik-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Slivovice ze sudu Radlík?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Slivovice ze sudu?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Slivovice ze sudu Radlík je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Slivovice ze sudu je 0,03l."
           },
           {
             "id": "slivovice-ze-sudu-radlik-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Slivovice ze sudu Radlík?",
-            "correctAnswer": "Švestkový destilát dozrávající v dřevěných dubových sudech",
+            "question": "Která surovina, původ či charakteristika patří k položce Slivovice ze sudu?",
+            "correctAnswer": "Radlík",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
             ],
-            "explanation": "V podsložce Slivovice ze sudu Radlík je obsaženo: Švestkový destilát dozrávající v dřevěných dubových sudech. Kompletní receptura položky: 0,03l švestkový destilát dozrávající v dřevěných dubových sudech, se zlatavou barvou a tóny vanilky."
+            "explanation": "U položky Slivovice ze sudu je uvedeno: Radlík. Kompletní popis: Radlík, švestkový destilát dozrávající v dubových sudech."
           },
           {
             "id": "slivovice-ze-sudu-radlik-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Slivovice ze sudu Radlík?",
-            "correctAnswer": "Se zlatavou barvou a tóny vanilky",
+            "question": "Která surovina, původ či charakteristika patří k položce Slivovice ze sudu?",
+            "correctAnswer": "Švestkový destilát dozrávající v dubových sudech",
             "distractors": [
-              "Zlatožluté meruňky",
-              "Zrání v dubovém sudu"
+              "Mučenkový likér a vanilka",
+              "Kávový likér Kahlúa"
             ],
-            "explanation": "V podsložce Slivovice ze sudu Radlík je obsaženo: Se zlatavou barvou a tóny vanilky. Kompletní receptura položky: 0,03l švestkový destilát dozrávající v dřevěných dubových sudech, se zlatavou barvou a tóny vanilky."
+            "explanation": "U položky Slivovice ze sudu je uvedeno: Švestkový destilát dozrávající v dubových sudech. Kompletní popis: Radlík, švestkový destilát dozrávající v dubových sudech."
           }
         ]
       },
       {
         "id": "hruskovice-skanzen",
-        "name": "Hruškovice Williams Skanzen",
-        "price": "110 Kč",
+        "name": "Hruškovice Williams",
         "weight": "0,03l",
-        "description": "0,03l intenzivně aromatická pálenka z vyzrálých hrušek odrůdy Williams z lihovaru Skanzen Modrá",
+        "price": "110 Kč",
+        "allergens": [],
+        "description": "Skanzen, poctivý hruškový destilát z aromatických hrušek Williams",
         "questions": [
           {
             "id": "hruskovice-skanzen-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Hruškovice Williams Skanzen?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Hruškovice Williams?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Hruškovice Williams Skanzen je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Hruškovice Williams je 0,03l."
           },
           {
             "id": "hruskovice-skanzen-ing-1",
-            "question": "Která odrůdová či vinařská vlastnost charakterizuje víno Hruškovice Williams Skanzen?",
-            "correctAnswer": "Intenzivně aromatická pálenka z vyzrálých hrušek odrůdy Williams z lihovaru Skanzen Modrá",
+            "question": "Která surovina, původ či charakteristika patří k položce Hruškovice Williams?",
+            "correctAnswer": "Skanzen",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Světlý ležák plzeňského typu",
+              "Jablečný mošt z rodinné farmy"
             ],
-            "explanation": "V podsložce Hruškovice Williams Skanzen je obsaženo: Intenzivně aromatická pálenka z vyzrálých hrušek odrůdy Williams z lihovaru Skanzen Modrá. Kompletní receptura položky: 0,03l intenzivně aromatická pálenka z vyzrálých hrušek odrůdy Williams z lihovaru Skanzen Modrá."
+            "explanation": "U položky Hruškovice Williams je uvedeno: Skanzen. Kompletní popis: Skanzen, poctivý hruškový destilát z aromatických hrušek Williams."
+          },
+          {
+            "id": "hruskovice-skanzen-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Hruškovice Williams?",
+            "correctAnswer": "Poctivý hruškový destilát z aromatických hrušek Williams",
+            "distractors": [
+              "Čerstvý grepový fresh",
+              "Bezinkový sirup a čerstvá máta"
+            ],
+            "explanation": "U položky Hruškovice Williams je uvedeno: Poctivý hruškový destilát z aromatických hrušek Williams. Kompletní popis: Skanzen, poctivý hruškový destilát z aromatických hrušek Williams."
           }
         ]
       },
       {
         "id": "hruskovice-ze-sudu-radlik",
-        "name": "Hruškovice ze sudu Radlík",
-        "price": "140 Kč",
+        "name": "Hruškovice ze sudu",
         "weight": "0,03l",
-        "description": "0,03l hruškový destilát stařený v dubových sudech, spojení ovoce a jemného dřeva",
+        "price": "140 Kč",
+        "allergens": [],
+        "description": "Radlík, hruškový destilát zušlechtěný v dřevěných sudech",
         "questions": [
           {
             "id": "hruskovice-ze-sudu-radlik-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Hruškovice ze sudu Radlík?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Hruškovice ze sudu?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Hruškovice ze sudu Radlík je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Hruškovice ze sudu je 0,03l."
           },
           {
             "id": "hruskovice-ze-sudu-radlik-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Hruškovice ze sudu Radlík?",
-            "correctAnswer": "Hruškový destilát stařený v dubových sudech",
+            "question": "Která surovina, původ či charakteristika patří k položce Hruškovice ze sudu?",
+            "correctAnswer": "Radlík",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Mučenkový likér a vanilka",
+              "Kávový likér Kahlúa"
             ],
-            "explanation": "V podsložce Hruškovice ze sudu Radlík je obsaženo: Hruškový destilát stařený v dubových sudech. Kompletní receptura položky: 0,03l hruškový destilát stařený v dubových sudech, spojení ovoce a jemného dřeva."
+            "explanation": "U položky Hruškovice ze sudu je uvedeno: Radlík. Kompletní popis: Radlík, hruškový destilát zušlechtěný v dřevěných sudech."
           },
           {
             "id": "hruskovice-ze-sudu-radlik-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Hruškovice ze sudu Radlík?",
-            "correctAnswer": "Spojení ovoce a jemného dřeva",
+            "question": "Která surovina, původ či charakteristika patří k položce Hruškovice ze sudu?",
+            "correctAnswer": "Hruškový destilát zušlechtěný v dřevěných sudech",
             "distractors": [
-              "Zlatožluté meruňky",
-              "Zrání v dubovém sudu"
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
             ],
-            "explanation": "V podsložce Hruškovice ze sudu Radlík je obsaženo: Spojení ovoce a jemného dřeva. Kompletní receptura položky: 0,03l hruškový destilát stařený v dubových sudech, spojení ovoce a jemného dřeva."
+            "explanation": "U položky Hruškovice ze sudu je uvedeno: Hruškový destilát zušlechtěný v dřevěných sudech. Kompletní popis: Radlík, hruškový destilát zušlechtěný v dřevěných sudech."
           }
         ]
       },
       {
         "id": "merunkovice-svach",
-        "name": "Meruňkovice Svach",
-        "price": "120 Kč",
+        "name": "Meruňkovice",
         "weight": "0,03l",
-        "description": "0,03l lahodná meruňková pálenka z rodinné destilérky Svachovka u Českého Krumlova",
+        "price": "120 Kč",
+        "allergens": [],
+        "description": "Svach, voňavá meruňková pálenka z jihočeské palírny Svach",
         "questions": [
           {
             "id": "merunkovice-svach-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Meruňkovice Svach?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Meruňkovice?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Meruňkovice Svach je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Meruňkovice je 0,03l."
           },
           {
             "id": "merunkovice-svach-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Meruňkovice Svach?",
-            "correctAnswer": "Lahodná meruňková pálenka z rodinné destilérky Svachovka u Českého Krumlova",
+            "question": "Která surovina, původ či charakteristika patří k položce Meruňkovice?",
+            "correctAnswer": "Svach",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
             ],
-            "explanation": "V podsložce Meruňkovice Svach je obsaženo: Lahodná meruňková pálenka z rodinné destilérky Svachovka u Českého Krumlova. Kompletní receptura položky: 0,03l lahodná meruňková pálenka z rodinné destilérky Svachovka u Českého Krumlova."
+            "explanation": "U položky Meruňkovice je uvedeno: Svach. Kompletní popis: Svach, voňavá meruňková pálenka z jihočeské palírny Svach."
+          },
+          {
+            "id": "merunkovice-svach-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Meruňkovice?",
+            "correctAnswer": "Voňavá meruňková pálenka z jihočeské palírny Svach",
+            "distractors": [
+              "Světlý ležák plzeňského typu",
+              "Jablečný mošt z rodinné farmy"
+            ],
+            "explanation": "U položky Meruňkovice je uvedeno: Voňavá meruňková pálenka z jihočeské palírny Svach. Kompletní popis: Svach, voňavá meruňková pálenka z jihočeské palírny Svach."
           }
         ]
       },
       {
         "id": "visnovice-zubri",
-        "name": "Višňovice Zubří",
-        "price": "98 Kč",
+        "name": "Višňovice",
         "weight": "0,03l",
-        "description": "0,03l poctivý destilát ze zralých višní z valašského Zubří s jemným mandlovým podtónem z pecek",
+        "price": "98 Kč",
+        "allergens": [],
+        "description": "Zubří, poctivý destilát ze zralých višní z valašského Zubří",
         "questions": [
           {
             "id": "visnovice-zubri-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Višňovice Zubří?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Višňovice?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Višňovice Zubří je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Višňovice je 0,03l."
           },
           {
             "id": "visnovice-zubri-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Višňovice Zubří?",
-            "correctAnswer": "Poctivý destilát ze zralých višní z valašského Zubří s jemným mandlovým podtónem z pecek",
+            "question": "Která surovina, původ či charakteristika patří k položce Višňovice?",
+            "correctAnswer": "Zubří",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
             ],
-            "explanation": "V podsložce Višňovice Zubří je obsaženo: Poctivý destilát ze zralých višní z valašského Zubří s jemným mandlovým podtónem z pecek. Kompletní receptura položky: 0,03l poctivý destilát ze zralých višní z valašského Zubří s jemným mandlovým podtónem z pecek."
+            "explanation": "U položky Višňovice je uvedeno: Zubří. Kompletní popis: Zubří, poctivý destilát ze zralých višní z valašského Zubří."
+          },
+          {
+            "id": "visnovice-zubri-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Višňovice?",
+            "correctAnswer": "Poctivý destilát ze zralých višní z valašského Zubří",
+            "distractors": [
+              "Mučenkový likér a vanilka",
+              "Kávový likér Kahlúa"
+            ],
+            "explanation": "U položky Višňovice je uvedeno: Poctivý destilát ze zralých višní z valašského Zubří. Kompletní popis: Zubří, poctivý destilát ze zralých višní z valašského Zubří."
           }
         ]
       },
       {
         "id": "jablkovice-galli",
-        "name": "Jablkovice Galli",
-        "price": "98 Kč",
+        "name": "Jablkovice",
         "weight": "0,03l",
-        "description": "0,03l čistý a svěží jablečný destilát z českých jablek z lihovaru Galli",
+        "price": "98 Kč",
+        "allergens": [],
+        "description": "Galli, čistý a svěží jablečný destilát z lihovaru Galli",
         "questions": [
           {
             "id": "jablkovice-galli-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Jablkovice Galli?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Jablkovice?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Jablkovice Galli je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Jablkovice je 0,03l."
           },
           {
             "id": "jablkovice-galli-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Jablkovice Galli?",
-            "correctAnswer": "Čistý a svěží jablečný destilát z českých jablek z lihovaru Galli",
+            "question": "Která surovina, původ či charakteristika patří k položce Jablkovice?",
+            "correctAnswer": "Galli",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Mučenkový likér a vanilka",
+              "Kávový likér Kahlúa"
             ],
-            "explanation": "V podsložce Jablkovice Galli je obsaženo: Čistý a svěží jablečný destilát z českých jablek z lihovaru Galli. Kompletní receptura položky: 0,03l čistý a svěží jablečný destilát z českých jablek z lihovaru Galli."
+            "explanation": "U položky Jablkovice je uvedeno: Galli. Kompletní popis: Galli, čistý a svěží jablečný destilát z lihovaru Galli."
+          },
+          {
+            "id": "jablkovice-galli-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Jablkovice?",
+            "correctAnswer": "Čistý a svěží jablečný destilát z lihovaru Galli",
+            "distractors": [
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
+            ],
+            "explanation": "U položky Jablkovice je uvedeno: Čistý a svěží jablečný destilát z lihovaru Galli. Kompletní popis: Galli, čistý a svěží jablečný destilát z lihovaru Galli."
           }
         ]
       },
       {
         "id": "rybizovice-raspenava",
-        "name": "Rybízovice Raspenava",
-        "price": "160 Kč",
+        "name": "Rybízovice",
         "weight": "0,03l",
-        "description": "0,03l raritní a vysoce ceněný destilát z černého a červeného rybízu z Raspenavy",
+        "price": "160 Kč",
+        "allergens": [],
+        "description": "Raspenava, raritní vysoce ceněný destilát z černého a červeného rybízu",
         "questions": [
           {
             "id": "rybizovice-raspenava-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Rybízovice Raspenava?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Rybízovice?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Rybízovice Raspenava je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Rybízovice je 0,03l."
           },
           {
             "id": "rybizovice-raspenava-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Rybízovice Raspenava?",
-            "correctAnswer": "Raritní a vysoce ceněný destilát z černého a červeného rybízu z Raspenavy",
+            "question": "Která surovina, původ či charakteristika patří k položce Rybízovice?",
+            "correctAnswer": "Raspenava",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Tonik Thomas Henry s chininem",
+              "Čerstvě pražená výběrová káva"
             ],
-            "explanation": "V podsložce Rybízovice Raspenava je obsaženo: Raritní a vysoce ceněný destilát z černého a červeného rybízu z Raspenavy. Kompletní receptura položky: 0,03l raritní a vysoce ceněný destilát z černého a červeného rybízu z Raspenavy."
+            "explanation": "U položky Rybízovice je uvedeno: Raspenava. Kompletní popis: Raspenava, raritní vysoce ceněný destilát z černého a červeného rybízu."
+          },
+          {
+            "id": "rybizovice-raspenava-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Rybízovice?",
+            "correctAnswer": "Raritní vysoce ceněný destilát z černého a červeného rybízu",
+            "distractors": [
+              "Vanilkový sirup a limetová šťáva",
+              "Třtinový cukr s limetkou"
+            ],
+            "explanation": "U položky Rybízovice je uvedeno: Raritní vysoce ceněný destilát z černého a červeného rybízu. Kompletní popis: Raspenava, raritní vysoce ceněný destilát z černého a červeného rybízu."
           }
         ]
       },
       {
         "id": "vinovice-ze-sudu-radlik",
-        "name": "Vínovice ze sudu Radlík",
-        "price": "149 Kč",
+        "name": "Vínovice ze sudu",
         "weight": "0,03l",
-        "description": "0,03l destilát z vinných hroznů školený v dubových sudech od Radlíku",
+        "price": "149 Kč",
+        "allergens": [],
+        "description": "Radlík, ušlechtilý vinný destilát školený v dubových sudech",
         "questions": [
           {
             "id": "vinovice-ze-sudu-radlik-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Vínovice ze sudu Radlík?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Vínovice ze sudu?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Vínovice ze sudu Radlík je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Vínovice ze sudu je 0,03l."
           },
           {
             "id": "vinovice-ze-sudu-radlik-ing-1",
-            "question": "Kterou zeleninovou či ovocnou složku obsahuje podsložka Vínovice ze sudu Radlík?",
-            "correctAnswer": "Destilát z vinných hroznů školený v dubových sudech od Radlíku",
+            "question": "Která surovina, původ či charakteristika patří k položce Vínovice ze sudu?",
+            "correctAnswer": "Radlík",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Jasmínový zelený čaj",
+              "Belgické višňové pivo"
             ],
-            "explanation": "V podsložce Vínovice ze sudu Radlík je obsaženo: Destilát z vinných hroznů školený v dubových sudech od Radlíku. Kompletní receptura položky: 0,03l destilát z vinných hroznů školený v dubových sudech od Radlíku."
+            "explanation": "U položky Vínovice ze sudu je uvedeno: Radlík. Kompletní popis: Radlík, ušlechtilý vinný destilát školený v dubových sudech."
+          },
+          {
+            "id": "vinovice-ze-sudu-radlik-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Vínovice ze sudu?",
+            "correctAnswer": "Ušlechtilý vinný destilát školený v dubových sudech",
+            "distractors": [
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
+            ],
+            "explanation": "U položky Vínovice ze sudu je uvedeno: Ušlechtilý vinný destilát školený v dubových sudech. Kompletní popis: Radlík, ušlechtilý vinný destilát školený v dubových sudech."
           }
         ]
       },
       {
         "id": "traminovice-kolby",
-        "name": "Tramínovice Kolby",
-        "price": "135 Kč",
+        "name": "Tramínovice",
         "weight": "0,03l",
-        "description": "0,03l odrůdová pálenka z hroznů Tramínu červeného z vinařství Kolby (Pouzdřany)",
+        "price": "135 Kč",
+        "allergens": [],
+        "description": "Kolby, odrůdová pálenka z hroznů Tramínu červeného z vinařství Kolby",
         "questions": [
           {
             "id": "traminovice-kolby-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Tramínovice Kolby?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Tramínovice?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Tramínovice Kolby je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Tramínovice je 0,03l."
           },
           {
             "id": "traminovice-kolby-ing-1",
-            "question": "Kterou zeleninovou či ovocnou složku obsahuje podsložka Tramínovice Kolby?",
-            "correctAnswer": "Odrůdová pálenka z hroznů Tramínu červeného z vinařství Kolby (Pouzdřany)",
+            "question": "Která surovina, původ či charakteristika patří k položce Tramínovice?",
+            "correctAnswer": "Kolby",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
             ],
-            "explanation": "V podsložce Tramínovice Kolby je obsaženo: Odrůdová pálenka z hroznů Tramínu červeného z vinařství Kolby (Pouzdřany). Kompletní receptura položky: 0,03l odrůdová pálenka z hroznů Tramínu červeného z vinařství Kolby (Pouzdřany)."
+            "explanation": "U položky Tramínovice je uvedeno: Kolby. Kompletní popis: Kolby, odrůdová pálenka z hroznů Tramínu červeného z vinařství Kolby."
+          },
+          {
+            "id": "traminovice-kolby-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Tramínovice?",
+            "correctAnswer": "Odrůdová pálenka z hroznů Tramínu červeného z vinařství Kolby",
+            "distractors": [
+              "Světlý ležák plzeňského typu",
+              "Jablečný mošt z rodinné farmy"
+            ],
+            "explanation": "U položky Tramínovice je uvedeno: Odrůdová pálenka z hroznů Tramínu červeného z vinařství Kolby. Kompletní popis: Kolby, odrůdová pálenka z hroznů Tramínu červeného z vinařství Kolby."
           }
         ]
       },
       {
         "id": "ponesicka-mrkvovice",
         "name": "Poněšická Mrkvovice",
-        "price": "123 Kč",
         "weight": "0,03l",
-        "description": "0,03l unikátní raritní zeleninový destilát z karotky z legendární jihočeské palírny Poněšice",
+        "price": "123 Kč",
+        "allergens": [],
+        "description": "Poněšice, unikátní raritní zeleninový destilát z karotky z lihovaru Poněšice",
         "questions": [
           {
             "id": "ponesicka-mrkvovice-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Poněšická Mrkvovice?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Poněšická Mrkvovice?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Poněšická Mrkvovice je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Poněšická Mrkvovice je 0,03l."
           },
           {
             "id": "ponesicka-mrkvovice-ing-1",
-            "question": "Kterou zeleninovou či ovocnou složku obsahuje podsložka Poněšická Mrkvovice?",
-            "correctAnswer": "Unikátní raritní zeleninový destilát z karotky z legendární jihočeské palírny Poněšice",
+            "question": "Která surovina, původ či charakteristika patří k položce Poněšická Mrkvovice?",
+            "correctAnswer": "Poněšice",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Čerstvý grepový fresh",
+              "Bezinkový sirup a čerstvá máta"
             ],
-            "explanation": "V podsložce Poněšická Mrkvovice je obsaženo: Unikátní raritní zeleninový destilát z karotky z legendární jihočeské palírny Poněšice. Kompletní receptura položky: 0,03l unikátní raritní zeleninový destilát z karotky z legendární jihočeské palírny Poněšice."
+            "explanation": "U položky Poněšická Mrkvovice je uvedeno: Poněšice. Kompletní popis: Poněšice, unikátní raritní zeleninový destilát z karotky z lihovaru Poněšice."
+          },
+          {
+            "id": "ponesicka-mrkvovice-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Poněšická Mrkvovice?",
+            "correctAnswer": "Unikátní raritní zeleninový destilát z karotky z lihovaru Poněšice",
+            "distractors": [
+              "Tonik Thomas Henry s chininem",
+              "Čerstvě pražená výběrová káva"
+            ],
+            "explanation": "U položky Poněšická Mrkvovice je uvedeno: Unikátní raritní zeleninový destilát z karotky z lihovaru Poněšice. Kompletní popis: Poněšice, unikátní raritní zeleninový destilát z karotky z lihovaru Poněšice."
           }
         ]
       },
       {
         "id": "malinovice-silver-martenz",
-        "name": "Malinovice Silver Martenz",
-        "price": "175 Kč",
+        "name": "Malinovice Silver",
         "weight": "0,03l",
-        "description": "0,03l luxusní malinový průtahový destilát z vybraných malin s intenzivní vůní lesního ovoce",
+        "price": "175 Kč",
+        "allergens": [],
+        "description": "Martenz, luxusní malinový průtahový destilát z lesních malin",
         "questions": [
           {
             "id": "malinovice-silver-martenz-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Malinovice Silver Martenz?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Malinovice Silver?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Malinovice Silver Martenz je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Malinovice Silver je 0,03l."
           },
           {
             "id": "malinovice-silver-martenz-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Malinovice Silver Martenz?",
-            "correctAnswer": "Luxusní malinový průtahový destilát z vybraných malin s intenzivní vůní lesního ovoce",
+            "question": "Která surovina, původ či charakteristika patří k položce Malinovice Silver?",
+            "correctAnswer": "Martenz",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Mučenkový likér a vanilka",
+              "Kávový likér Kahlúa"
             ],
-            "explanation": "V podsložce Malinovice Silver Martenz je obsaženo: Luxusní malinový průtahový destilát z vybraných malin s intenzivní vůní lesního ovoce. Kompletní receptura položky: 0,03l luxusní malinový průtahový destilát z vybraných malin s intenzivní vůní lesního ovoce."
+            "explanation": "U položky Malinovice Silver je uvedeno: Martenz. Kompletní popis: Martenz, luxusní malinový průtahový destilát z lesních malin."
+          },
+          {
+            "id": "malinovice-silver-martenz-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Malinovice Silver?",
+            "correctAnswer": "Luxusní malinový průtahový destilát z lesních malin",
+            "distractors": [
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
+            ],
+            "explanation": "U položky Malinovice Silver je uvedeno: Luxusní malinový průtahový destilát z lesních malin. Kompletní popis: Martenz, luxusní malinový průtahový destilát z lesních malin."
           }
         ]
       }
@@ -10746,105 +7327,257 @@ export const MENU_CATEGORIES: MenuCategory[] = [
   },
   {
     "id": "vodky",
-    "name": "vodky 0,03L",
+    "name": "Vodky 0,03l",
     "badge": "Vodky",
-    "description": "Prvotřídní obilné a řemeslné vodky nejvyšší čistoty",
+    "description": "Prémiové čisté vodky z České republiky i ze světa",
     "iconName": "Flame",
     "items": [
       {
         "id": "anton-kaapl-legionar",
         "name": "Anton Kaapl LEGIONÄR",
-        "price": "75 Kč",
         "weight": "0,03l",
-        "description": "0,03l prémiová jihočeská řemeslná vodka z rodinného lihovaru Jílovice, destilovaná s měkkou šumavskou pramenitou vodou",
+        "price": "75 Kč",
+        "allergens": [],
+        "description": "jihočeská řemeslná vodka z rodinného lihovaru Jílovice, destilovaná s měkkou šumavskou pramenitou vodou",
         "questions": [
           {
             "id": "anton-kaapl-legionar-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Anton Kaapl LEGIONÄR?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Anton Kaapl LEGIONÄR?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Anton Kaapl LEGIONÄR je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Anton Kaapl LEGIONÄR je 0,03l."
           },
           {
             "id": "anton-kaapl-legionar-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Anton Kaapl LEGIONÄR?",
-            "correctAnswer": "Prémiová jihočeská řemeslná vodka z rodinného lihovaru Jílovice",
+            "question": "Která surovina, původ či charakteristika patří k položce Anton Kaapl LEGIONÄR?",
+            "correctAnswer": "Jihočeská řemeslná vodka z rodinného lihovaru Jílovice",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Tonik Thomas Henry s chininem",
+              "Čerstvě pražená výběrová káva"
             ],
-            "explanation": "V podsložce Anton Kaapl LEGIONÄR je obsaženo: Prémiová jihočeská řemeslná vodka z rodinného lihovaru Jílovice. Kompletní receptura položky: 0,03l prémiová jihočeská řemeslná vodka z rodinného lihovaru Jílovice, destilovaná s měkkou šumavskou pramenitou vodou."
+            "explanation": "U položky Anton Kaapl LEGIONÄR je uvedeno: Jihočeská řemeslná vodka z rodinného lihovaru Jílovice. Kompletní popis: jihočeská řemeslná vodka z rodinného lihovaru Jílovice, destilovaná s měkkou šumavskou pramenitou vodou."
           },
           {
             "id": "anton-kaapl-legionar-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Anton Kaapl LEGIONÄR?",
+            "question": "Která surovina, původ či charakteristika patří k položce Anton Kaapl LEGIONÄR?",
             "correctAnswer": "Destilovaná s měkkou šumavskou pramenitou vodou",
             "distractors": [
-              "Zlatožluté meruňky",
-              "Zrání v dubovém sudu"
+              "Vanilkový sirup a limetová šťáva",
+              "Třtinový cukr s limetkou"
             ],
-            "explanation": "V podsložce Anton Kaapl LEGIONÄR je obsaženo: Destilovaná s měkkou šumavskou pramenitou vodou. Kompletní receptura položky: 0,03l prémiová jihočeská řemeslná vodka z rodinného lihovaru Jílovice, destilovaná s měkkou šumavskou pramenitou vodou."
+            "explanation": "U položky Anton Kaapl LEGIONÄR je uvedeno: Destilovaná s měkkou šumavskou pramenitou vodou. Kompletní popis: jihočeská řemeslná vodka z rodinného lihovaru Jílovice, destilovaná s měkkou šumavskou pramenitou vodou."
           }
         ]
       },
       {
         "id": "nemiroff",
         "name": "Nemiroff",
-        "price": "85 Kč",
         "weight": "0,03l",
-        "description": "0,03l slavná prémiová pšeničná vodka s vícestupňovou filtrací",
+        "price": "85 Kč",
+        "allergens": [],
+        "description": "slavná pšeničná vodka s vícestupňovou filtrací",
         "questions": [
           {
             "id": "nemiroff-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Nemiroff?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Nemiroff?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Nemiroff je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Nemiroff je 0,03l."
           },
           {
             "id": "nemiroff-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Nemiroff?",
-            "correctAnswer": "Slavná prémiová pšeničná vodka s vícestupňovou filtrací",
+            "question": "Která surovina, původ či charakteristika patří k položce Nemiroff?",
+            "correctAnswer": "Slavná pšeničná vodka s vícestupňovou filtrací",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
             ],
-            "explanation": "V podsložce Nemiroff je obsaženo: Slavná prémiová pšeničná vodka s vícestupňovou filtrací. Kompletní receptura položky: 0,03l slavná prémiová pšeničná vodka s vícestupňovou filtrací."
+            "explanation": "U položky Nemiroff je uvedeno: Slavná pšeničná vodka s vícestupňovou filtrací. Kompletní popis: slavná pšeničná vodka s vícestupňovou filtrací."
           }
         ]
       },
       {
         "id": "grey-goose",
         "name": "Grey Goose",
-        "price": "135 Kč",
         "weight": "0,03l",
-        "description": "0,03l luxusní francouzská vodka vyráběná z ozimé pšenice z oblasti Picardie a vápencem filtrované pramenité vody z Gensac-la-Pallue",
+        "price": "135 Kč",
+        "allergens": [],
+        "description": "luxusní francouzská pšeničná vodka z oblasti Picardie",
         "questions": [
           {
             "id": "grey-goose-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Grey Goose?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Grey Goose?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Grey Goose je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Grey Goose je 0,03l."
           },
           {
             "id": "grey-goose-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Grey Goose?",
-            "correctAnswer": "Luxusní francouzská vodka vyráběná z ozimé pšenice z oblasti Picardie a vápencem filtrované pramenité vody z Gensac-la-Pallue",
+            "question": "Která surovina, původ či charakteristika patří k položce Grey Goose?",
+            "correctAnswer": "Luxusní francouzská pšeničná vodka z oblasti Picardie",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Čerstvý grepový fresh",
+              "Bezinkový sirup a čerstvá máta"
             ],
-            "explanation": "V podsložce Grey Goose je obsaženo: Luxusní francouzská vodka vyráběná z ozimé pšenice z oblasti Picardie a vápencem filtrované pramenité vody z Gensac-la-Pallue. Kompletní receptura položky: 0,03l luxusní francouzská vodka vyráběná z ozimé pšenice z oblasti Picardie a vápencem filtrované pramenité vody z Gensac-la-Pallue."
+            "explanation": "U položky Grey Goose je uvedeno: Luxusní francouzská pšeničná vodka z oblasti Picardie. Kompletní popis: luxusní francouzská pšeničná vodka z oblasti Picardie."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "giny",
+    "name": "Giny 0,03l",
+    "badge": "Giny",
+    "description": "Prémiové řemeslné giny z tuzemska i ze světa",
+    "iconName": "Flame",
+    "items": [
+      {
+        "id": "gin-tanqueray",
+        "name": "Tanqueray",
+        "weight": "0,03l",
+        "price": "89 Kč",
+        "allergens": [],
+        "description": "klasický britský London Dry Gin destilovaný se čtyřmi bylinami",
+        "questions": [
+          {
+            "id": "gin-tanqueray-vol",
+            "question": "Jaký je servírovací objem / míra položky Tanqueray?",
+            "correctAnswer": "0,03l",
+            "distractors": [
+              "0,04 l",
+              "0,05 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Tanqueray je 0,03l."
+          },
+          {
+            "id": "gin-tanqueray-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Tanqueray?",
+            "correctAnswer": "Klasický britský London Dry Gin destilovaný se čtyřmi bylinami",
+            "distractors": [
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
+            ],
+            "explanation": "U položky Tanqueray je uvedeno: Klasický britský London Dry Gin destilovaný se čtyřmi bylinami. Kompletní popis: klasický britský London Dry Gin destilovaný se čtyřmi bylinami."
+          }
+        ]
+      },
+      {
+        "id": "gin-hendricks",
+        "name": "Hendrick`s",
+        "weight": "0,03l",
+        "price": "126 Kč",
+        "allergens": [],
+        "description": "skotský řemeslný gin s infuzí okurky a růže",
+        "questions": [
+          {
+            "id": "gin-hendricks-vol",
+            "question": "Jaký je servírovací objem / míra položky Hendrick`s?",
+            "correctAnswer": "0,03l",
+            "distractors": [
+              "0,04 l",
+              "0,05 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Hendrick`s je 0,03l."
+          },
+          {
+            "id": "gin-hendricks-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Hendrick`s?",
+            "correctAnswer": "Skotský řemeslný gin s infuzí okurky a růže",
+            "distractors": [
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
+            ],
+            "explanation": "U položky Hendrick`s je uvedeno: Skotský řemeslný gin s infuzí okurky a růže. Kompletní popis: skotský řemeslný gin s infuzí okurky a růže."
+          }
+        ]
+      },
+      {
+        "id": "gin-starej-dobrej",
+        "name": "Starej Dobrej Gin",
+        "weight": "0,03l",
+        "price": "159 Kč",
+        "allergens": [],
+        "description": "Poněšice, řemeslný český bylinný gin z rodinné palírny Poněšice",
+        "questions": [
+          {
+            "id": "gin-starej-dobrej-vol",
+            "question": "Jaký je servírovací objem / míra položky Starej Dobrej Gin?",
+            "correctAnswer": "0,03l",
+            "distractors": [
+              "0,04 l",
+              "0,05 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Starej Dobrej Gin je 0,03l."
+          },
+          {
+            "id": "gin-starej-dobrej-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Starej Dobrej Gin?",
+            "correctAnswer": "Poněšice",
+            "distractors": [
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
+            ],
+            "explanation": "U položky Starej Dobrej Gin je uvedeno: Poněšice. Kompletní popis: Poněšice, řemeslný český bylinný gin z rodinné palírny Poněšice."
+          },
+          {
+            "id": "gin-starej-dobrej-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Starej Dobrej Gin?",
+            "correctAnswer": "Řemeslný český bylinný gin z rodinné palírny Poněšice",
+            "distractors": [
+              "Světlý ležák plzeňského typu",
+              "Jablečný mošt z rodinné farmy"
+            ],
+            "explanation": "U položky Starej Dobrej Gin je uvedeno: Řemeslný český bylinný gin z rodinné palírny Poněšice. Kompletní popis: Poněšice, řemeslný český bylinný gin z rodinné palírny Poněšice."
+          }
+        ]
+      },
+      {
+        "id": "gin-truffle",
+        "name": "Truffle gin",
+        "weight": "0,03l",
+        "price": "155 Kč",
+        "allergens": [],
+        "description": "Garage 22, unikátní holešovický gin destilovaný s pravými černými lanýži",
+        "questions": [
+          {
+            "id": "gin-truffle-vol",
+            "question": "Jaký je servírovací objem / míra položky Truffle gin?",
+            "correctAnswer": "0,03l",
+            "distractors": [
+              "0,04 l",
+              "0,05 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Truffle gin je 0,03l."
+          },
+          {
+            "id": "gin-truffle-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Truffle gin?",
+            "correctAnswer": "Garage 22",
+            "distractors": [
+              "Tonik Thomas Henry s chininem",
+              "Čerstvě pražená výběrová káva"
+            ],
+            "explanation": "U položky Truffle gin je uvedeno: Garage 22. Kompletní popis: Garage 22, unikátní holešovický gin destilovaný s pravými černými lanýži."
+          },
+          {
+            "id": "gin-truffle-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Truffle gin?",
+            "correctAnswer": "Unikátní holešovický gin destilovaný s pravými černými lanýži",
+            "distractors": [
+              "Vanilkový sirup a limetová šťáva",
+              "Třtinový cukr s limetkou"
+            ],
+            "explanation": "U položky Truffle gin je uvedeno: Unikátní holešovický gin destilovaný s pravými černými lanýži. Kompletní popis: Garage 22, unikátní holešovický gin destilovaný s pravými černými lanýži."
           }
         ]
       }
@@ -10852,341 +7585,238 @@ export const MENU_CATEGORIES: MenuCategory[] = [
   },
   {
     "id": "rumy",
-    "name": "rumy 0,03L",
+    "name": "Rumy 0,03l",
     "badge": "Rumy",
-    "description": "Tradiční karibské rumy zrající v dubových sudech po bourbonu",
+    "description": "Vyzrálé třtinové rumy z Karibiku, Střední a Jižní Ameriky",
     "iconName": "Flame",
     "items": [
       {
         "id": "havana-club-3",
         "name": "Havana Club Anejo 3 Anos",
-        "price": "66 Kč",
         "weight": "0,03l",
-        "description": "0,03l tradiční kubánský bílý rum zrající 3 roky v sudech z bílého dubu, základ pro Mojito a Daiquiri",
+        "price": "66 Kč",
+        "allergens": [],
+        "description": "tradiční kubánský bílý rum zrající 3 roky v sudech z bílého dubu",
         "questions": [
           {
             "id": "havana-club-3-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Havana Club Anejo 3 Anos?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Havana Club Anejo 3 Anos?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Havana Club Anejo 3 Anos je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Havana Club Anejo 3 Anos je 0,03l."
           },
           {
             "id": "havana-club-3-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Havana Club Anejo 3 Anos?",
+            "question": "Která surovina, původ či charakteristika patří k položce Havana Club Anejo 3 Anos?",
             "correctAnswer": "Tradiční kubánský bílý rum zrající 3 roky v sudech z bílého dubu",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
             ],
-            "explanation": "V podsložce Havana Club Anejo 3 Anos je obsaženo: Tradiční kubánský bílý rum zrající 3 roky v sudech z bílého dubu. Kompletní receptura položky: 0,03l tradiční kubánský bílý rum zrající 3 roky v sudech z bílého dubu, základ pro Mojito a Daiquiri."
-          },
-          {
-            "id": "havana-club-3-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Havana Club Anejo 3 Anos?",
-            "correctAnswer": "Základ pro Mojito a Daiquiri",
-            "distractors": [
-              "Zlatožluté meruňky",
-              "Zrání v dubovém sudu"
-            ],
-            "explanation": "V podsložce Havana Club Anejo 3 Anos je obsaženo: Základ pro Mojito a Daiquiri. Kompletní receptura položky: 0,03l tradiční kubánský bílý rum zrající 3 roky v sudech z bílého dubu, základ pro Mojito a Daiquiri."
+            "explanation": "U položky Havana Club Anejo 3 Anos je uvedeno: Tradiční kubánský bílý rum zrající 3 roky v sudech z bílého dubu. Kompletní popis: tradiční kubánský bílý rum zrající 3 roky v sudech z bílého dubu."
           }
         ]
       },
       {
         "id": "el-dorado-12y",
         "name": "El Dorado 12y",
-        "price": "149 Kč",
         "weight": "0,03l",
-        "description": "0,03l guyanský melasový rum zrající 12 let v tropech u řeky Demerara, bohaté tóny medu, rozinek a karamelu",
+        "price": "149 Kč",
+        "allergens": [],
+        "description": "guyanský melasový rum zrající 12 let u řeky Demerara",
         "questions": [
           {
             "id": "el-dorado-12y-vol",
-            "question": "Jaký je servírovací objem / míra podsložky El Dorado 12y?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky El Dorado 12y?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky El Dorado 12y je 0,03 l."
+            "explanation": "Servírovací míra / objem položky El Dorado 12y je 0,03l."
           },
           {
             "id": "el-dorado-12y-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje El Dorado 12y?",
-            "correctAnswer": "Guyanský melasový rum zrající 12 let v tropech u řeky Demerara",
+            "question": "Která surovina, původ či charakteristika patří k položce El Dorado 12y?",
+            "correctAnswer": "Guyanský melasový rum zrající 12 let u řeky Demerara",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
             ],
-            "explanation": "V podsložce El Dorado 12y je obsaženo: Guyanský melasový rum zrající 12 let v tropech u řeky Demerara. Kompletní receptura položky: 0,03l guyanský melasový rum zrající 12 let v tropech u řeky Demerara, bohaté tóny medu, rozinek a karamelu."
-          },
-          {
-            "id": "el-dorado-12y-ing-2",
-            "question": "Která z následujících surovin patří do podsložky El Dorado 12y?",
-            "correctAnswer": "Bohaté tóny medu",
-            "distractors": [
-              "Zlatožluté meruňky",
-              "Zrání v dubovém sudu"
-            ],
-            "explanation": "V podsložce El Dorado 12y je obsaženo: Bohaté tóny medu. Kompletní receptura položky: 0,03l guyanský melasový rum zrající 12 let v tropech u řeky Demerara, bohaté tóny medu, rozinek a karamelu."
-          },
-          {
-            "id": "el-dorado-12y-ing-3",
-            "question": "Která z následujících surovin patří do podsložky El Dorado 12y?",
-            "correctAnswer": "Rozinek a karamelu",
-            "distractors": [
-              "Filtrace přes dřevěné uhlí",
-              "Pramenitá horská voda"
-            ],
-            "explanation": "V podsložce El Dorado 12y je obsaženo: Rozinek a karamelu. Kompletní receptura položky: 0,03l guyanský melasový rum zrající 12 let v tropech u řeky Demerara, bohaté tóny medu, rozinek a karamelu."
-          },
-          {
-            "id": "el-dorado-12y-ing-4",
-            "question": "Která z následujících surovin patří do podsložky El Dorado 12y?",
-            "correctAnswer": "Rozinek a karamelu",
-            "distractors": [
-              "Třtinová melasa",
-              "100% modrá agáve"
-            ],
-            "explanation": "V podsložce El Dorado 12y je obsaženo: Rozinek a karamelu. Kompletní receptura položky: 0,03l guyanský melasový rum zrající 12 let v tropech u řeky Demerara, bohaté tóny medu, rozinek a karamelu."
+            "explanation": "U položky El Dorado 12y je uvedeno: Guyanský melasový rum zrající 12 let u řeky Demerara. Kompletní popis: guyanský melasový rum zrající 12 let u řeky Demerara."
           }
         ]
       },
       {
         "id": "mount-gay-xo",
         "name": "Mount Gay XO",
-        "price": "186 Kč",
         "weight": "0,03l",
-        "description": "0,03l prémiový barbadoský rum z nejstarší fungující palírny na světě (od roku 1703), blend rezerv stařených v sudech po bourbonu, koňaku a americké whisky",
+        "price": "186 Kč",
+        "allergens": [],
+        "description": "prémiový barbadoský rum z nejstarší palírny na světě (od roku 1703)",
         "questions": [
           {
             "id": "mount-gay-xo-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Mount Gay XO?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Mount Gay XO?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Mount Gay XO je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Mount Gay XO je 0,03l."
           },
           {
             "id": "mount-gay-xo-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Mount Gay XO?",
-            "correctAnswer": "Prémiový barbadoský rum z nejstarší fungující palírny na světě (od roku 1703)",
+            "question": "Která surovina, původ či charakteristika patří k položce Mount Gay XO?",
+            "correctAnswer": "Prémiový barbadoský rum z nejstarší palírny na světě (od roku 1703)",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Vanilkový sirup a limetová šťáva",
+              "Třtinový cukr s limetkou"
             ],
-            "explanation": "V podsložce Mount Gay XO je obsaženo: Prémiový barbadoský rum z nejstarší fungující palírny na světě (od roku 1703). Kompletní receptura položky: 0,03l prémiový barbadoský rum z nejstarší fungující palírny na světě (od roku 1703), blend rezerv stařených v sudech po bourbonu, koňaku a americké whisky."
-          },
-          {
-            "id": "mount-gay-xo-ing-2",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Mount Gay XO?",
-            "correctAnswer": "Blend rezerv stařených v sudech po bourbonu",
-            "distractors": [
-              "Zlatožluté meruňky",
-              "Zrání v dubovém sudu"
-            ],
-            "explanation": "V podsložce Mount Gay XO je obsaženo: Blend rezerv stařených v sudech po bourbonu. Kompletní receptura položky: 0,03l prémiový barbadoský rum z nejstarší fungující palírny na světě (od roku 1703), blend rezerv stařených v sudech po bourbonu, koňaku a americké whisky."
-          },
-          {
-            "id": "mount-gay-xo-ing-3",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Mount Gay XO?",
-            "correctAnswer": "Koňaku a americké whisky",
-            "distractors": [
-              "Filtrace přes dřevěné uhlí",
-              "Pramenitá horská voda"
-            ],
-            "explanation": "V podsložce Mount Gay XO je obsaženo: Koňaku a americké whisky. Kompletní receptura položky: 0,03l prémiový barbadoský rum z nejstarší fungující palírny na světě (od roku 1703), blend rezerv stařených v sudech po bourbonu, koňaku a americké whisky."
-          },
-          {
-            "id": "mount-gay-xo-ing-4",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Mount Gay XO?",
-            "correctAnswer": "Koňaku a americké whisky",
-            "distractors": [
-              "Třtinová melasa",
-              "100% modrá agáve"
-            ],
-            "explanation": "V podsložce Mount Gay XO je obsaženo: Koňaku a americké whisky. Kompletní receptura položky: 0,03l prémiový barbadoský rum z nejstarší fungující palírny na světě (od roku 1703), blend rezerv stařených v sudech po bourbonu, koňaku a americké whisky."
+            "explanation": "U položky Mount Gay XO je uvedeno: Prémiový barbadoský rum z nejstarší palírny na světě (od roku 1703). Kompletní popis: prémiový barbadoský rum z nejstarší palírny na světě (od roku 1703)."
           }
         ]
       },
       {
         "id": "abuelo-7y",
         "name": "Abuelo 7y",
-        "price": "135 Kč",
         "weight": "0,03l",
-        "description": "0,03l panamský rum vyráběný z vlastní třtinové melasy, zrající 7 let v malých sudech z bílého dubu",
+        "price": "135 Kč",
+        "allergens": [],
+        "description": "panamský rum z vlastní třtinové melasy, zrající 7 let v malých sudech",
         "questions": [
           {
             "id": "abuelo-7y-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Abuelo 7y?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Abuelo 7y?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Abuelo 7y je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Abuelo 7y je 0,03l."
           },
           {
             "id": "abuelo-7y-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Abuelo 7y?",
-            "correctAnswer": "Panamský rum vyráběný z vlastní třtinové melasy",
+            "question": "Která surovina, původ či charakteristika patří k položce Abuelo 7y?",
+            "correctAnswer": "Panamský rum z vlastní třtinové melasy",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Světlý ležák plzeňského typu",
+              "Jablečný mošt z rodinné farmy"
             ],
-            "explanation": "V podsložce Abuelo 7y je obsaženo: Panamský rum vyráběný z vlastní třtinové melasy. Kompletní receptura položky: 0,03l panamský rum vyráběný z vlastní třtinové melasy, zrající 7 let v malých sudech z bílého dubu."
+            "explanation": "U položky Abuelo 7y je uvedeno: Panamský rum z vlastní třtinové melasy. Kompletní popis: panamský rum z vlastní třtinové melasy, zrající 7 let v malých sudech."
           },
           {
             "id": "abuelo-7y-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Abuelo 7y?",
-            "correctAnswer": "Zrající 7 let v malých sudech z bílého dubu",
+            "question": "Která surovina, původ či charakteristika patří k položce Abuelo 7y?",
+            "correctAnswer": "Zrající 7 let v malých sudech",
             "distractors": [
-              "Zlatožluté meruňky",
-              "Zrání v dubovém sudu"
+              "Čerstvý grepový fresh",
+              "Bezinkový sirup a čerstvá máta"
             ],
-            "explanation": "V podsložce Abuelo 7y je obsaženo: Zrající 7 let v malých sudech z bílého dubu. Kompletní receptura položky: 0,03l panamský rum vyráběný z vlastní třtinové melasy, zrající 7 let v malých sudech z bílého dubu."
+            "explanation": "U položky Abuelo 7y je uvedeno: Zrající 7 let v malých sudech. Kompletní popis: panamský rum z vlastní třtinové melasy, zrající 7 let v malých sudech."
           }
         ]
       },
       {
         "id": "eminente-reserva-7y",
         "name": "Eminente Reserva 7y",
-        "price": "172 Kč",
         "weight": "0,03l",
-        "description": "0,03l kubánský prémiový rum s vysokým 70% podílem stařených aguardientes (třtinových pálenek), zrající v sudech po whisky",
+        "price": "172 Kč",
+        "allergens": [],
+        "description": "kubánský prémiový rum s vysokým podílem stařených aguardientes",
         "questions": [
           {
             "id": "eminente-reserva-7y-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Eminente Reserva 7y?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Eminente Reserva 7y?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Eminente Reserva 7y je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Eminente Reserva 7y je 0,03l."
           },
           {
             "id": "eminente-reserva-7y-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Eminente Reserva 7y?",
-            "correctAnswer": "Kubánský prémiový rum s vysokým 70% podílem stařených aguardientes (třtinových pálenek)",
+            "question": "Která surovina, původ či charakteristika patří k položce Eminente Reserva 7y?",
+            "correctAnswer": "Kubánský prémiový rum s vysokým podílem stařených aguardientes",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Čerstvý grepový fresh",
+              "Bezinkový sirup a čerstvá máta"
             ],
-            "explanation": "V podsložce Eminente Reserva 7y je obsaženo: Kubánský prémiový rum s vysokým 70% podílem stařených aguardientes (třtinových pálenek). Kompletní receptura položky: 0,03l kubánský prémiový rum s vysokým 70% podílem stařených aguardientes (třtinových pálenek), zrající v sudech po whisky."
-          },
-          {
-            "id": "eminente-reserva-7y-ing-2",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Eminente Reserva 7y?",
-            "correctAnswer": "Zrající v sudech po whisky",
-            "distractors": [
-              "Zlatožluté meruňky",
-              "Zrání v dubovém sudu"
-            ],
-            "explanation": "V podsložce Eminente Reserva 7y je obsaženo: Zrající v sudech po whisky. Kompletní receptura položky: 0,03l kubánský prémiový rum s vysokým 70% podílem stařených aguardientes (třtinových pálenek), zrající v sudech po whisky."
+            "explanation": "U položky Eminente Reserva 7y je uvedeno: Kubánský prémiový rum s vysokým podílem stařených aguardientes. Kompletní popis: kubánský prémiový rum s vysokým podílem stařených aguardientes."
           }
         ]
       },
       {
         "id": "diplomatico",
-        "name": "Diplomático Reserva Exclusiva",
-        "price": "149 Kč",
+        "name": "Diplomático",
         "weight": "0,03l",
-        "description": "0,03l venezuelský rum zrající až 12 let v sudech po bourbonu, sametově sladký s tóny čokolády, vanilky a pomerančové kůry",
+        "price": "149 Kč",
+        "allergens": [],
+        "description": "venezuelský rum zrající až 12 let v sudech po bourbonu, sametově sladký s tóny karamelu",
         "questions": [
           {
             "id": "diplomatico-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Diplomático Reserva Exclusiva?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Diplomático?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Diplomático Reserva Exclusiva je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Diplomático je 0,03l."
           },
           {
             "id": "diplomatico-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Diplomático Reserva Exclusiva?",
+            "question": "Která surovina, původ či charakteristika patří k položce Diplomático?",
             "correctAnswer": "Venezuelský rum zrající až 12 let v sudech po bourbonu",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Tonik Thomas Henry s chininem",
+              "Čerstvě pražená výběrová káva"
             ],
-            "explanation": "V podsložce Diplomático Reserva Exclusiva je obsaženo: Venezuelský rum zrající až 12 let v sudech po bourbonu. Kompletní receptura položky: 0,03l venezuelský rum zrající až 12 let v sudech po bourbonu, sametově sladký s tóny čokolády, vanilky a pomerančové kůry."
+            "explanation": "U položky Diplomático je uvedeno: Venezuelský rum zrající až 12 let v sudech po bourbonu. Kompletní popis: venezuelský rum zrající až 12 let v sudech po bourbonu, sametově sladký s tóny karamelu."
           },
           {
             "id": "diplomatico-ing-2",
-            "question": "Která pivovarská surovina nebo vlastnost charakterizuje Diplomático Reserva Exclusiva?",
-            "correctAnswer": "Sametově sladký s tóny čokolády",
+            "question": "Která surovina, původ či charakteristika patří k položce Diplomático?",
+            "correctAnswer": "Sametově sladký s tóny karamelu",
             "distractors": [
-              "Zlatožluté meruňky",
-              "Zrání v dubovém sudu"
+              "Vanilkový sirup a limetová šťáva",
+              "Třtinový cukr s limetkou"
             ],
-            "explanation": "V podsložce Diplomático Reserva Exclusiva je obsaženo: Sametově sladký s tóny čokolády. Kompletní receptura položky: 0,03l venezuelský rum zrající až 12 let v sudech po bourbonu, sametově sladký s tóny čokolády, vanilky a pomerančové kůry."
-          },
-          {
-            "id": "diplomatico-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Diplomático Reserva Exclusiva?",
-            "correctAnswer": "Vanilky a pomerančové kůry",
-            "distractors": [
-              "Filtrace přes dřevěné uhlí",
-              "Pramenitá horská voda"
-            ],
-            "explanation": "V podsložce Diplomático Reserva Exclusiva je obsaženo: Vanilky a pomerančové kůry. Kompletní receptura položky: 0,03l venezuelský rum zrající až 12 let v sudech po bourbonu, sametově sladký s tóny čokolády, vanilky a pomerančové kůry."
-          },
-          {
-            "id": "diplomatico-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Diplomático Reserva Exclusiva?",
-            "correctAnswer": "Vanilky a pomerančové kůry",
-            "distractors": [
-              "Třtinová melasa",
-              "100% modrá agáve"
-            ],
-            "explanation": "V podsložce Diplomático Reserva Exclusiva je obsaženo: Vanilky a pomerančové kůry. Kompletní receptura položky: 0,03l venezuelský rum zrající až 12 let v sudech po bourbonu, sametově sladký s tóny čokolády, vanilky a pomerančové kůry."
+            "explanation": "U položky Diplomático je uvedeno: Sametově sladký s tóny karamelu. Kompletní popis: venezuelský rum zrající až 12 let v sudech po bourbonu, sametově sladký s tóny karamelu."
           }
         ]
       },
       {
         "id": "zacapa-23y",
         "name": "Zacapa 23y",
-        "price": "165 Kč",
         "weight": "0,03l",
-        "description": "0,03l guatemalský rum z panenského třtinového medu zrající metodou Solera v nadmořské výšce 2 300 m",
+        "price": "165 Kč",
+        "allergens": [],
+        "description": "guatemalský rum z panenského medu zrající systémem Solera v nadmořské výšce 2300 m",
         "questions": [
           {
             "id": "zacapa-23y-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Zacapa 23y?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Zacapa 23y?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Zacapa 23y je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Zacapa 23y je 0,03l."
           },
           {
             "id": "zacapa-23y-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Zacapa 23y?",
-            "correctAnswer": "Guatemalský rum z panenského třtinového medu zrající metodou Solera v nadmořské výšce 2 300 m",
+            "question": "Která surovina, původ či charakteristika patří k položce Zacapa 23y?",
+            "correctAnswer": "Guatemalský rum z panenského medu zrající systémem Solera v nadmořské výšce 2300 m",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Čerstvý grepový fresh",
+              "Bezinkový sirup a čerstvá máta"
             ],
-            "explanation": "V podsložce Zacapa 23y je obsaženo: Guatemalský rum z panenského třtinového medu zrající metodou Solera v nadmořské výšce 2 300 m. Kompletní receptura položky: 0,03l guatemalský rum z panenského třtinového medu zrající metodou Solera v nadmořské výšce 2 300 m."
-          },
-          {
-            "id": "zacapa-23y-ing-2",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Zacapa 23y?",
-            "correctAnswer": "Guatemalský rum z panenského třtinového medu zrající metodou Solera v nadmořské výšce 2 300 m",
-            "distractors": [
-              "Zlatožluté meruňky",
-              "Zrání v dubovém sudu"
-            ],
-            "explanation": "V podsložce Zacapa 23y je obsaženo: Guatemalský rum z panenského třtinového medu zrající metodou Solera v nadmořské výšce 2 300 m. Kompletní receptura položky: 0,03l guatemalský rum z panenského třtinového medu zrající metodou Solera v nadmořské výšce 2 300 m."
+            "explanation": "U položky Zacapa 23y je uvedeno: Guatemalský rum z panenského medu zrající systémem Solera v nadmořské výšce 2300 m. Kompletní popis: guatemalský rum z panenského medu zrající systémem Solera v nadmořské výšce 2300 m."
           }
         ]
       }
@@ -11194,223 +7824,198 @@ export const MENU_CATEGORIES: MenuCategory[] = [
   },
   {
     "id": "tequily",
-    "name": "tequily 0,03L",
+    "name": "Tequily 0,03l",
     "badge": "Tequily",
-    "description": "100% destiláty z modré agáve z mexického Jalisca a řemeslné mezcaly",
+    "description": "Prémiové tequily ze 100% modré agáve a sběratelské edice",
     "iconName": "Flame",
     "items": [
       {
         "id": "tres-alegres-compadres",
         "name": "Tres Alegres Compadres Blanco",
-        "price": "89 Kč",
         "weight": "0,03l",
-        "description": "0,03l neuleželá čistá tequila ze 100% modré agáve s tóny bylin, citrusů a pečené agáve",
+        "price": "89 Kč",
+        "allergens": [],
+        "description": "100% modrá agáve, neuleželá čistá tequila s citrusovými tóny",
         "questions": [
           {
             "id": "tres-alegres-compadres-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Tres Alegres Compadres Blanco?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Tres Alegres Compadres Blanco?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Tres Alegres Compadres Blanco je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Tres Alegres Compadres Blanco je 0,03l."
           },
           {
             "id": "tres-alegres-compadres-ing-1",
-            "question": "Která bylinka, koření či aromatická surovina dochucuje Tres Alegres Compadres Blanco?",
-            "correctAnswer": "Neuleželá čistá tequila ze 100% modré agáve s tóny bylin",
+            "question": "Která surovina, původ či charakteristika patří k položce Tres Alegres Compadres Blanco?",
+            "correctAnswer": "100% modrá agáve",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
             ],
-            "explanation": "V podsložce Tres Alegres Compadres Blanco je obsaženo: Neuleželá čistá tequila ze 100% modré agáve s tóny bylin. Kompletní receptura položky: 0,03l neuleželá čistá tequila ze 100% modré agáve s tóny bylin, citrusů a pečené agáve."
+            "explanation": "U položky Tres Alegres Compadres Blanco je uvedeno: 100% modrá agáve. Kompletní popis: 100% modrá agáve, neuleželá čistá tequila s citrusovými tóny."
           },
           {
             "id": "tres-alegres-compadres-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Tres Alegres Compadres Blanco?",
-            "correctAnswer": "Citrusů a pečené agáve",
+            "question": "Která surovina, původ či charakteristika patří k položce Tres Alegres Compadres Blanco?",
+            "correctAnswer": "Neuleželá čistá tequila s citrusovými tóny",
             "distractors": [
-              "Zlatožluté meruňky",
-              "Zrání v dubovém sudu"
+              "Jasmínový zelený čaj",
+              "Belgické višňové pivo"
             ],
-            "explanation": "V podsložce Tres Alegres Compadres Blanco je obsaženo: Citrusů a pečené agáve. Kompletní receptura položky: 0,03l neuleželá čistá tequila ze 100% modré agáve s tóny bylin, citrusů a pečené agáve."
-          },
-          {
-            "id": "tres-alegres-compadres-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Tres Alegres Compadres Blanco?",
-            "correctAnswer": "Citrusů a pečené agáve",
-            "distractors": [
-              "Filtrace přes dřevěné uhlí",
-              "Pramenitá horská voda"
-            ],
-            "explanation": "V podsložce Tres Alegres Compadres Blanco je obsaženo: Citrusů a pečené agáve. Kompletní receptura položky: 0,03l neuleželá čistá tequila ze 100% modré agáve s tóny bylin, citrusů a pečené agáve."
+            "explanation": "U položky Tres Alegres Compadres Blanco je uvedeno: Neuleželá čistá tequila s citrusovými tóny. Kompletní popis: 100% modrá agáve, neuleželá čistá tequila s citrusovými tóny."
           }
         ]
       },
       {
         "id": "herradura-reposado",
         "name": "Herradura Reposado",
-        "price": "168 Kč",
         "weight": "0,03l",
-        "description": "0,03l prémiová tequila zrající celých 11 měsíců v sudech z amerického bílého dubu (zákon vyžaduje jen 2 měsíce)",
+        "price": "168 Kč",
+        "allergens": [],
+        "description": "prémiová tequila zrající 11 měsíců v sudech z bílého dubu",
         "questions": [
           {
             "id": "herradura-reposado-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Herradura Reposado?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Herradura Reposado?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Herradura Reposado je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Herradura Reposado je 0,03l."
           },
           {
             "id": "herradura-reposado-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Herradura Reposado?",
-            "correctAnswer": "Prémiová tequila zrající celých 11 měsíců v sudech z amerického bílého dubu (zákon vyžaduje jen 2 měsíce)",
+            "question": "Která surovina, původ či charakteristika patří k položce Herradura Reposado?",
+            "correctAnswer": "Prémiová tequila zrající 11 měsíců v sudech z bílého dubu",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Světlý ležák plzeňského typu",
+              "Jablečný mošt z rodinné farmy"
             ],
-            "explanation": "V podsložce Herradura Reposado je obsaženo: Prémiová tequila zrající celých 11 měsíců v sudech z amerického bílého dubu (zákon vyžaduje jen 2 měsíce). Kompletní receptura položky: 0,03l prémiová tequila zrající celých 11 měsíců v sudech z amerického bílého dubu (zákon vyžaduje jen 2 měsíce)."
+            "explanation": "U položky Herradura Reposado je uvedeno: Prémiová tequila zrající 11 měsíců v sudech z bílého dubu. Kompletní popis: prémiová tequila zrající 11 měsíců v sudech z bílého dubu."
           }
         ]
       },
       {
         "id": "corralejo-reposado",
         "name": "Tequila Corralejo Reposado",
-        "price": "149 Kč",
         "weight": "0,03l",
-        "description": "0,03l 100% Agave, zrající 4 měsíce v unikátní kombinaci amerických, francouzských a mexických dubových sudů",
+        "price": "149 Kč",
+        "allergens": [],
+        "description": "100% Agave, zrající v kombinaci amerických, francouzských a mexických dubových sudů",
         "questions": [
           {
             "id": "corralejo-reposado-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Tequila Corralejo Reposado?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Tequila Corralejo Reposado?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Tequila Corralejo Reposado je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Tequila Corralejo Reposado je 0,03l."
           },
           {
             "id": "corralejo-reposado-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Tequila Corralejo Reposado?",
+            "question": "Která surovina, původ či charakteristika patří k položce Tequila Corralejo Reposado?",
             "correctAnswer": "100% Agave",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Světlý ležák plzeňského typu",
+              "Jablečný mošt z rodinné farmy"
             ],
-            "explanation": "V podsložce Tequila Corralejo Reposado je obsaženo: 100% Agave. Kompletní receptura položky: 0,03l 100% Agave, zrající 4 měsíce v unikátní kombinaci amerických, francouzských a mexických dubových sudů."
+            "explanation": "U položky Tequila Corralejo Reposado je uvedeno: 100% Agave. Kompletní popis: 100% Agave, zrající v kombinaci amerických, francouzských a mexických dubových sudů."
           },
           {
             "id": "corralejo-reposado-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Tequila Corralejo Reposado?",
-            "correctAnswer": "Zrající 4 měsíce v unikátní kombinaci amerických",
+            "question": "Která surovina, původ či charakteristika patří k položce Tequila Corralejo Reposado?",
+            "correctAnswer": "Zrající v kombinaci amerických",
             "distractors": [
-              "Zlatožluté meruňky",
-              "Zrání v dubovém sudu"
+              "Čerstvý grepový fresh",
+              "Bezinkový sirup a čerstvá máta"
             ],
-            "explanation": "V podsložce Tequila Corralejo Reposado je obsaženo: Zrající 4 měsíce v unikátní kombinaci amerických. Kompletní receptura položky: 0,03l 100% Agave, zrající 4 měsíce v unikátní kombinaci amerických, francouzských a mexických dubových sudů."
-          },
-          {
-            "id": "corralejo-reposado-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Tequila Corralejo Reposado?",
-            "correctAnswer": "Francouzských a mexických dubových sudů",
-            "distractors": [
-              "Filtrace přes dřevěné uhlí",
-              "Pramenitá horská voda"
-            ],
-            "explanation": "V podsložce Tequila Corralejo Reposado je obsaženo: Francouzských a mexických dubových sudů. Kompletní receptura položky: 0,03l 100% Agave, zrající 4 měsíce v unikátní kombinaci amerických, francouzských a mexických dubových sudů."
-          },
-          {
-            "id": "corralejo-reposado-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Tequila Corralejo Reposado?",
-            "correctAnswer": "Francouzských a mexických dubových sudů",
-            "distractors": [
-              "Třtinová melasa",
-              "100% modrá agáve"
-            ],
-            "explanation": "V podsložce Tequila Corralejo Reposado je obsaženo: Francouzských a mexických dubových sudů. Kompletní receptura položky: 0,03l 100% Agave, zrající 4 měsíce v unikátní kombinaci amerických, francouzských a mexických dubových sudů."
+            "explanation": "U položky Tequila Corralejo Reposado je uvedeno: Zrající v kombinaci amerických. Kompletní popis: 100% Agave, zrající v kombinaci amerických, francouzských a mexických dubových sudů."
           }
         ]
       },
       {
         "id": "cofradia-rose-catrina",
         "name": "La Cofradia Reposado Rosé „ed. Catrina”",
-        "price": "185 Kč",
         "weight": "0,03l",
-        "description": "0,03l limitovaná edice v ručně malované keramické lahvi s motivem lebky Catrina, zrající v sudech po červeném víně s růžovým nádechem",
+        "price": "185 Kč",
+        "allergens": [],
+        "description": "limitovaná edice v ručně malované keramické lahvi, zrající v sudech po červeném víně",
         "questions": [
           {
             "id": "cofradia-rose-catrina-vol",
-            "question": "Jaký je servírovací objem / míra podsložky La Cofradia Reposado Rosé „ed. Catrina”?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky La Cofradia Reposado Rosé „ed. Catrina”?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky La Cofradia Reposado Rosé „ed. Catrina” je 0,03 l."
+            "explanation": "Servírovací míra / objem položky La Cofradia Reposado Rosé „ed. Catrina” je 0,03l."
           },
           {
             "id": "cofradia-rose-catrina-ing-1",
-            "question": "Která z následujících surovin patří do podsložky La Cofradia Reposado Rosé „ed. Catrina”?",
-            "correctAnswer": "Limitovaná edice v ručně malované keramické lahvi s motivem lebky Catrina",
+            "question": "Která surovina, původ či charakteristika patří k položce La Cofradia Reposado Rosé „ed. Catrina”?",
+            "correctAnswer": "Limitovaná edice v ručně malované keramické lahvi",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Vanilkový sirup a limetová šťáva",
+              "Třtinový cukr s limetkou"
             ],
-            "explanation": "V podsložce La Cofradia Reposado Rosé „ed. Catrina” je obsaženo: Limitovaná edice v ručně malované keramické lahvi s motivem lebky Catrina. Kompletní receptura položky: 0,03l limitovaná edice v ručně malované keramické lahvi s motivem lebky Catrina, zrající v sudech po červeném víně s růžovým nádechem."
+            "explanation": "U položky La Cofradia Reposado Rosé „ed. Catrina” je uvedeno: Limitovaná edice v ručně malované keramické lahvi. Kompletní popis: limitovaná edice v ručně malované keramické lahvi, zrající v sudech po červeném víně."
           },
           {
             "id": "cofradia-rose-catrina-ing-2",
-            "question": "Která z následujících surovin patří do podsložky La Cofradia Reposado Rosé „ed. Catrina”?",
-            "correctAnswer": "Zrající v sudech po červeném víně s růžovým nádechem",
+            "question": "Která surovina, původ či charakteristika patří k položce La Cofradia Reposado Rosé „ed. Catrina”?",
+            "correctAnswer": "Zrající v sudech po červeném víně",
             "distractors": [
-              "Zlatožluté meruňky",
-              "Zrání v dubovém sudu"
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
             ],
-            "explanation": "V podsložce La Cofradia Reposado Rosé „ed. Catrina” je obsaženo: Zrající v sudech po červeném víně s růžovým nádechem. Kompletní receptura položky: 0,03l limitovaná edice v ručně malované keramické lahvi s motivem lebky Catrina, zrající v sudech po červeném víně s růžovým nádechem."
+            "explanation": "U položky La Cofradia Reposado Rosé „ed. Catrina” je uvedeno: Zrající v sudech po červeném víně. Kompletní popis: limitovaná edice v ručně malované keramické lahvi, zrající v sudech po červeném víně."
           }
         ]
       },
       {
         "id": "cofradia-black-catrina",
         "name": "La Cofradia Black „ed. Catrina”",
-        "price": "185 Kč",
         "weight": "0,03l",
-        "description": "0,03l černá sběratelská keramická edice Catrina, tequila zrající v silně vypálených dubových sudech s kouřovým tělem",
+        "price": "185 Kč",
+        "allergens": [],
+        "description": "černá sběratelská keramická edice Catrina, zrající v silně vypálených dubových sudech",
         "questions": [
           {
             "id": "cofradia-black-catrina-vol",
-            "question": "Jaký je servírovací objem / míra podsložky La Cofradia Black „ed. Catrina”?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky La Cofradia Black „ed. Catrina”?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky La Cofradia Black „ed. Catrina” je 0,03 l."
+            "explanation": "Servírovací míra / objem položky La Cofradia Black „ed. Catrina” je 0,03l."
           },
           {
             "id": "cofradia-black-catrina-ing-1",
-            "question": "Která odrůdová či vinařská vlastnost charakterizuje víno La Cofradia Black „ed. Catrina”?",
+            "question": "Která surovina, původ či charakteristika patří k položce La Cofradia Black „ed. Catrina”?",
             "correctAnswer": "Černá sběratelská keramická edice Catrina",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
             ],
-            "explanation": "V podsložce La Cofradia Black „ed. Catrina” je obsaženo: Černá sběratelská keramická edice Catrina. Kompletní receptura položky: 0,03l černá sběratelská keramická edice Catrina, tequila zrající v silně vypálených dubových sudech s kouřovým tělem."
+            "explanation": "U položky La Cofradia Black „ed. Catrina” je uvedeno: Černá sběratelská keramická edice Catrina. Kompletní popis: černá sběratelská keramická edice Catrina, zrající v silně vypálených dubových sudech."
           },
           {
             "id": "cofradia-black-catrina-ing-2",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje La Cofradia Black „ed. Catrina”?",
-            "correctAnswer": "Tequila zrající v silně vypálených dubových sudech s kouřovým tělem",
+            "question": "Která surovina, původ či charakteristika patří k položce La Cofradia Black „ed. Catrina”?",
+            "correctAnswer": "Zrající v silně vypálených dubových sudech",
             "distractors": [
-              "Zlatožluté meruňky",
-              "Zrání v dubovém sudu"
+              "Jasmínový zelený čaj",
+              "Belgické višňové pivo"
             ],
-            "explanation": "V podsložce La Cofradia Black „ed. Catrina” je obsaženo: Tequila zrající v silně vypálených dubových sudech s kouřovým tělem. Kompletní receptura položky: 0,03l černá sběratelská keramická edice Catrina, tequila zrající v silně vypálených dubových sudech s kouřovým tělem."
+            "explanation": "U položky La Cofradia Black „ed. Catrina” je uvedeno: Zrající v silně vypálených dubových sudech. Kompletní popis: černá sběratelská keramická edice Catrina, zrající v silně vypálených dubových sudech."
           }
         ]
       }
@@ -11418,252 +8023,208 @@ export const MENU_CATEGORIES: MenuCategory[] = [
   },
   {
     "id": "whisky-whiskey-bourbon",
-    "name": "whisky, whiskey, bourbon 0,03L",
-    "badge": "Whisky & Bourbon",
-    "description": "Skotské single malts, jemné irské whiskey i plné americké bourbony",
+    "name": "Whisky, whiskey, bourbon 0,03l",
+    "badge": "Whisky, whiskey, bourbon",
+    "description": "Výběr skotských single malt, irských whiskey, amerických bourbonů i moravské whisky",
     "iconName": "Flame",
     "items": [
       {
         "id": "goldcock-blended",
         "name": "Goldcock blended",
-        "price": "62 Kč",
         "weight": "0,03l",
-        "description": "0,03l tradiční česká whisky z Těšetic z moravského ječmene, zrající v českých dubových sudech z bednárny v Těšeticích",
+        "price": "62 Kč",
+        "allergens": [],
+        "description": "česká whisky z Těšetic z moravského ječmene, zrající v českých dubových sudech",
         "questions": [
           {
             "id": "goldcock-blended-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Goldcock blended?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Goldcock blended?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Goldcock blended je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Goldcock blended je 0,03l."
           },
           {
             "id": "goldcock-blended-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Goldcock blended?",
-            "correctAnswer": "Tradiční česká whisky z Těšetic z moravského ječmene",
+            "question": "Která surovina, původ či charakteristika patří k položce Goldcock blended?",
+            "correctAnswer": "Česká whisky z Těšetic z moravského ječmene",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Mučenkový likér a vanilka",
+              "Kávový likér Kahlúa"
             ],
-            "explanation": "V podsložce Goldcock blended je obsaženo: Tradiční česká whisky z Těšetic z moravského ječmene. Kompletní receptura položky: 0,03l tradiční česká whisky z Těšetic z moravského ječmene, zrající v českých dubových sudech z bednárny v Těšeticích."
+            "explanation": "U položky Goldcock blended je uvedeno: Česká whisky z Těšetic z moravského ječmene. Kompletní popis: česká whisky z Těšetic z moravského ječmene, zrající v českých dubových sudech."
           },
           {
             "id": "goldcock-blended-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Goldcock blended?",
-            "correctAnswer": "Zrající v českých dubových sudech z bednárny v Těšeticích",
+            "question": "Která surovina, původ či charakteristika patří k položce Goldcock blended?",
+            "correctAnswer": "Zrající v českých dubových sudech",
             "distractors": [
-              "Zlatožluté meruňky",
-              "Zrání v dubovém sudu"
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
             ],
-            "explanation": "V podsložce Goldcock blended je obsaženo: Zrající v českých dubových sudech z bednárny v Těšeticích. Kompletní receptura položky: 0,03l tradiční česká whisky z Těšetic z moravského ječmene, zrající v českých dubových sudech z bednárny v Těšeticích."
+            "explanation": "U položky Goldcock blended je uvedeno: Zrající v českých dubových sudech. Kompletní popis: česká whisky z Těšetic z moravského ječmene, zrající v českých dubových sudech."
           }
         ]
       },
       {
         "id": "glenfiddich-15y",
         "name": "Glenfiddich 15y",
-        "price": "165 Kč",
         "weight": "0,03l",
-        "description": "0,03l skotská single malt whisky zrající unikátním systémem Solera ve třech typech sudů: po sherry, bourbonu a v novém dubu",
+        "price": "165 Kč",
+        "allergens": [],
+        "description": "skotská single malt whisky zrající systémem Solera ve třech typech sudů",
         "questions": [
           {
             "id": "glenfiddich-15y-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Glenfiddich 15y?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Glenfiddich 15y?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Glenfiddich 15y je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Glenfiddich 15y je 0,03l."
           },
           {
             "id": "glenfiddich-15y-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Glenfiddich 15y?",
-            "correctAnswer": "Skotská single malt whisky zrající unikátním systémem Solera ve třech typech sudů: po sherry",
+            "question": "Která surovina, původ či charakteristika patří k položce Glenfiddich 15y?",
+            "correctAnswer": "Skotská single malt whisky zrající systémem Solera ve třech typech sudů",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
             ],
-            "explanation": "V podsložce Glenfiddich 15y je obsaženo: Skotská single malt whisky zrající unikátním systémem Solera ve třech typech sudů: po sherry. Kompletní receptura položky: 0,03l skotská single malt whisky zrající unikátním systémem Solera ve třech typech sudů: po sherry, bourbonu a v novém dubu."
-          },
-          {
-            "id": "glenfiddich-15y-ing-2",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Glenfiddich 15y?",
-            "correctAnswer": "Bourbonu a v novém dubu",
-            "distractors": [
-              "Zlatožluté meruňky",
-              "Zrání v dubovém sudu"
-            ],
-            "explanation": "V podsložce Glenfiddich 15y je obsaženo: Bourbonu a v novém dubu. Kompletní receptura položky: 0,03l skotská single malt whisky zrající unikátním systémem Solera ve třech typech sudů: po sherry, bourbonu a v novém dubu."
-          },
-          {
-            "id": "glenfiddich-15y-ing-3",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Glenfiddich 15y?",
-            "correctAnswer": "Bourbonu a v novém dubu",
-            "distractors": [
-              "Filtrace přes dřevěné uhlí",
-              "Pramenitá horská voda"
-            ],
-            "explanation": "V podsložce Glenfiddich 15y je obsaženo: Bourbonu a v novém dubu. Kompletní receptura položky: 0,03l skotská single malt whisky zrající unikátním systémem Solera ve třech typech sudů: po sherry, bourbonu a v novém dubu."
+            "explanation": "U položky Glenfiddich 15y je uvedeno: Skotská single malt whisky zrající systémem Solera ve třech typech sudů. Kompletní popis: skotská single malt whisky zrající systémem Solera ve třech typech sudů."
           }
         ]
       },
       {
         "id": "talisker-10y",
         "name": "Talisker 10y",
-        "price": "165 Kč",
         "weight": "0,03l",
-        "description": "0,03l ikonická ostrovní single malt whisky z drsného skotského ostrova Skye, výrazně rašelinová, kouřová s tóny mořské soli a černého pepře",
+        "price": "165 Kč",
+        "allergens": [],
+        "description": "ostrovní single malt whisky z ostrova Skye, rašelinová a kouřová s mořskou solí",
         "questions": [
           {
             "id": "talisker-10y-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Talisker 10y?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Talisker 10y?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Talisker 10y je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Talisker 10y je 0,03l."
           },
           {
             "id": "talisker-10y-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Talisker 10y?",
-            "correctAnswer": "Ikonická ostrovní single malt whisky z drsného skotského ostrova Skye",
+            "question": "Která surovina, původ či charakteristika patří k položce Talisker 10y?",
+            "correctAnswer": "Ostrovní single malt whisky z ostrova Skye",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Vanilkový sirup a limetová šťáva",
+              "Třtinový cukr s limetkou"
             ],
-            "explanation": "V podsložce Talisker 10y je obsaženo: Ikonická ostrovní single malt whisky z drsného skotského ostrova Skye. Kompletní receptura položky: 0,03l ikonická ostrovní single malt whisky z drsného skotského ostrova Skye, výrazně rašelinová, kouřová s tóny mořské soli a černého pepře."
+            "explanation": "U položky Talisker 10y je uvedeno: Ostrovní single malt whisky z ostrova Skye. Kompletní popis: ostrovní single malt whisky z ostrova Skye, rašelinová a kouřová s mořskou solí."
           },
           {
             "id": "talisker-10y-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Talisker 10y?",
-            "correctAnswer": "Výrazně rašelinová",
+            "question": "Která surovina, původ či charakteristika patří k položce Talisker 10y?",
+            "correctAnswer": "Rašelinová a kouřová s mořskou solí",
             "distractors": [
-              "Zlatožluté meruňky",
-              "Zrání v dubovém sudu"
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
             ],
-            "explanation": "V podsložce Talisker 10y je obsaženo: Výrazně rašelinová. Kompletní receptura položky: 0,03l ikonická ostrovní single malt whisky z drsného skotského ostrova Skye, výrazně rašelinová, kouřová s tóny mořské soli a černého pepře."
-          },
-          {
-            "id": "talisker-10y-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Talisker 10y?",
-            "correctAnswer": "Kouřová s tóny mořské soli a černého pepře",
-            "distractors": [
-              "Filtrace přes dřevěné uhlí",
-              "Pramenitá horská voda"
-            ],
-            "explanation": "V podsložce Talisker 10y je obsaženo: Kouřová s tóny mořské soli a černého pepře. Kompletní receptura položky: 0,03l ikonická ostrovní single malt whisky z drsného skotského ostrova Skye, výrazně rašelinová, kouřová s tóny mořské soli a černého pepře."
+            "explanation": "U položky Talisker 10y je uvedeno: Rašelinová a kouřová s mořskou solí. Kompletní popis: ostrovní single malt whisky z ostrova Skye, rašelinová a kouřová s mořskou solí."
           }
         ]
       },
       {
         "id": "monkey-shoulder",
         "name": "Monkey Shoulder",
-        "price": "112 Kč",
         "weight": "0,03l",
-        "description": "0,03l skotská blended malt whisky míchaná ze tří předních palíren z oblasti Speyside, lahodná s vanilkovým nádechem",
+        "price": "112 Kč",
+        "allergens": [],
+        "description": "skotská blended malt whisky míchaná ze tří předních palíren oblasti Speyside",
         "questions": [
           {
             "id": "monkey-shoulder-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Monkey Shoulder?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Monkey Shoulder?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Monkey Shoulder je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Monkey Shoulder je 0,03l."
           },
           {
             "id": "monkey-shoulder-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Monkey Shoulder?",
-            "correctAnswer": "Skotská blended malt whisky míchaná ze tří předních palíren z oblasti Speyside",
+            "question": "Která surovina, původ či charakteristika patří k položce Monkey Shoulder?",
+            "correctAnswer": "Skotská blended malt whisky míchaná ze tří předních palíren oblasti Speyside",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
             ],
-            "explanation": "V podsložce Monkey Shoulder je obsaženo: Skotská blended malt whisky míchaná ze tří předních palíren z oblasti Speyside. Kompletní receptura položky: 0,03l skotská blended malt whisky míchaná ze tří předních palíren z oblasti Speyside, lahodná s vanilkovým nádechem."
-          },
-          {
-            "id": "monkey-shoulder-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Monkey Shoulder?",
-            "correctAnswer": "Lahodná s vanilkovým nádechem",
-            "distractors": [
-              "Zlatožluté meruňky",
-              "Zrání v dubovém sudu"
-            ],
-            "explanation": "V podsložce Monkey Shoulder je obsaženo: Lahodná s vanilkovým nádechem. Kompletní receptura položky: 0,03l skotská blended malt whisky míchaná ze tří předních palíren z oblasti Speyside, lahodná s vanilkovým nádechem."
+            "explanation": "U položky Monkey Shoulder je uvedeno: Skotská blended malt whisky míchaná ze tří předních palíren oblasti Speyside. Kompletní popis: skotská blended malt whisky míchaná ze tří předních palíren oblasti Speyside."
           }
         ]
       },
       {
         "id": "jameson",
         "name": "Jameson",
-        "price": "75 Kč",
         "weight": "0,03l",
-        "description": "0,03l nejprodávanější irská whiskey na světě, třikrát destilovaná pro maximální jemnost",
+        "price": "75 Kč",
+        "allergens": [],
+        "description": "třikrát destilovaná irská whiskey pro maximální jemnost",
         "questions": [
           {
             "id": "jameson-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Jameson?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Jameson?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Jameson je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Jameson je 0,03l."
           },
           {
             "id": "jameson-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Jameson?",
-            "correctAnswer": "Nejprodávanější irská whiskey na světě",
+            "question": "Která surovina, původ či charakteristika patří k položce Jameson?",
+            "correctAnswer": "Třikrát destilovaná irská whiskey pro maximální jemnost",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Mučenkový likér a vanilka",
+              "Kávový likér Kahlúa"
             ],
-            "explanation": "V podsložce Jameson je obsaženo: Nejprodávanější irská whiskey na světě. Kompletní receptura položky: 0,03l nejprodávanější irská whiskey na světě, třikrát destilovaná pro maximální jemnost."
-          },
-          {
-            "id": "jameson-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Jameson?",
-            "correctAnswer": "Třikrát destilovaná pro maximální jemnost",
-            "distractors": [
-              "Zlatožluté meruňky",
-              "Zrání v dubovém sudu"
-            ],
-            "explanation": "V podsložce Jameson je obsaženo: Třikrát destilovaná pro maximální jemnost. Kompletní receptura položky: 0,03l nejprodávanější irská whiskey na světě, třikrát destilovaná pro maximální jemnost."
+            "explanation": "U položky Jameson je uvedeno: Třikrát destilovaná irská whiskey pro maximální jemnost. Kompletní popis: třikrát destilovaná irská whiskey pro maximální jemnost."
           }
         ]
       },
       {
         "id": "jack-daniels",
         "name": "Jack Daniels",
-        "price": "105 Kč",
         "weight": "0,03l",
-        "description": "0,03l Tennessee whiskey filtrovaná kapku po kapce přes třímetrovou vrstvu uhlí z javoru cukrového (Lincoln County Process)",
+        "price": "105 Kč",
+        "allergens": [],
+        "description": "Tennessee whiskey filtrovaná přes dřevěné uhlí z cukrového javoru",
         "questions": [
           {
             "id": "jack-daniels-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Jack Daniels?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Jack Daniels?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Jack Daniels je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Jack Daniels je 0,03l."
           },
           {
             "id": "jack-daniels-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Jack Daniels?",
-            "correctAnswer": "Tennessee whiskey filtrovaná kapku po kapce přes třímetrovou vrstvu uhlí z javoru cukrového (Lincoln County Process)",
+            "question": "Která surovina, původ či charakteristika patří k položce Jack Daniels?",
+            "correctAnswer": "Tennessee whiskey filtrovaná přes dřevěné uhlí z cukrového javoru",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Vanilkový sirup a limetová šťáva",
+              "Třtinový cukr s limetkou"
             ],
-            "explanation": "V podsložce Jack Daniels je obsaženo: Tennessee whiskey filtrovaná kapku po kapce přes třímetrovou vrstvu uhlí z javoru cukrového (Lincoln County Process). Kompletní receptura položky: 0,03l Tennessee whiskey filtrovaná kapku po kapce přes třímetrovou vrstvu uhlí z javoru cukrového (Lincoln County Process)."
+            "explanation": "U položky Jack Daniels je uvedeno: Tennessee whiskey filtrovaná přes dřevěné uhlí z cukrového javoru. Kompletní popis: Tennessee whiskey filtrovaná přes dřevěné uhlí z cukrového javoru."
           }
         ]
       }
@@ -11671,96 +8232,68 @@ export const MENU_CATEGORIES: MenuCategory[] = [
   },
   {
     "id": "brandy-a-cognac",
-    "name": "brandy & cognac 0,03L",
-    "badge": "Brandy & Cognac",
-    "description": "Ušlechtilé vinné destiláty a francouzské koňaky Fine Champagne",
+    "name": "Brandy & cognac 0,03l",
+    "badge": "Brandy & cognac",
+    "description": "Ušlechtilé vinné destiláty a koňaky zrající v dubových sudech",
     "iconName": "Flame",
     "items": [
       {
         "id": "metaxa-5",
         "name": "Metaxa *****",
-        "price": "75 Kč",
         "weight": "0,03l",
-        "description": "0,03l řecká pálenka s tajnou směsí muškátových vín z egejských ostrovů Samos a Lemnos a středomořských bylin",
+        "price": "75 Kč",
+        "allergens": [],
+        "description": "řecká brandy s muškátovými víny z ostrovů Samos a Lemnos a bylinami",
         "questions": [
           {
             "id": "metaxa-5-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Metaxa *****?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Metaxa *****?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Metaxa ***** je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Metaxa ***** je 0,03l."
           },
           {
             "id": "metaxa-5-ing-1",
-            "question": "Která bylinka, koření či aromatická surovina dochucuje Metaxa *****?",
-            "correctAnswer": "Řecká pálenka s tajnou směsí muškátových vín z egejských ostrovů Samos a Lemnos a středomořských bylin",
+            "question": "Která surovina, původ či charakteristika patří k položce Metaxa *****?",
+            "correctAnswer": "Řecká brandy s muškátovými víny z ostrovů Samos a Lemnos a bylinami",
             "distractors": [
-              "Libeček",
-              "Estragon"
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
             ],
-            "explanation": "V podsložce Metaxa ***** je obsaženo: Řecká pálenka s tajnou směsí muškátových vín z egejských ostrovů Samos a Lemnos a středomořských bylin. Kompletní receptura položky: 0,03l řecká pálenka s tajnou směsí muškátových vín z egejských ostrovů Samos a Lemnos a středomořských bylin."
+            "explanation": "U položky Metaxa ***** je uvedeno: Řecká brandy s muškátovými víny z ostrovů Samos a Lemnos a bylinami. Kompletní popis: řecká brandy s muškátovými víny z ostrovů Samos a Lemnos a bylinami."
           }
         ]
       },
       {
         "id": "remy-martin-1738",
         "name": "Remy Martin 1738",
-        "price": "170 Kč",
         "weight": "0,03l",
-        "description": "0,03l prestižní francouzský koňak Fine Champagne (1738 Accord Royal) zrající v silně opálených dubových sudech, plný tónů fíků, švestek a karamelu",
+        "price": "170 Kč",
+        "allergens": [],
+        "description": "prestižní francouzský koňak Fine Champagne Accord Royal zrající v opálených sudech",
         "questions": [
           {
             "id": "remy-martin-1738-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Remy Martin 1738?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Remy Martin 1738?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Remy Martin 1738 je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Remy Martin 1738 je 0,03l."
           },
           {
             "id": "remy-martin-1738-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Remy Martin 1738?",
-            "correctAnswer": "Prestižní francouzský koňak Fine Champagne (1738 Accord Royal) zrající v silně opálených dubových sudech",
+            "question": "Která surovina, původ či charakteristika patří k položce Remy Martin 1738?",
+            "correctAnswer": "Prestižní francouzský koňak Fine Champagne Accord Royal zrající v opálených sudech",
             "distractors": [
-              "Vepřová panenka",
-              "Telecí kýta"
+              "Mučenkový likér a vanilka",
+              "Kávový likér Kahlúa"
             ],
-            "explanation": "V podsložce Remy Martin 1738 je obsaženo: Prestižní francouzský koňak Fine Champagne (1738 Accord Royal) zrající v silně opálených dubových sudech. Kompletní receptura položky: 0,03l prestižní francouzský koňak Fine Champagne (1738 Accord Royal) zrající v silně opálených dubových sudech, plný tónů fíků, švestek a karamelu."
-          },
-          {
-            "id": "remy-martin-1738-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Remy Martin 1738?",
-            "correctAnswer": "Plný tónů fíků",
-            "distractors": [
-              "Kachní prsa",
-              "Vykoštěný pstruh"
-            ],
-            "explanation": "V podsložce Remy Martin 1738 je obsaženo: Plný tónů fíků. Kompletní receptura položky: 0,03l prestižní francouzský koňak Fine Champagne (1738 Accord Royal) zrající v silně opálených dubových sudech, plný tónů fíků, švestek a karamelu."
-          },
-          {
-            "id": "remy-martin-1738-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Remy Martin 1738?",
-            "correctAnswer": "Švestek a karamelu",
-            "distractors": [
-              "Hovězí svíčková",
-              "Vepřový bok Duroc"
-            ],
-            "explanation": "V podsložce Remy Martin 1738 je obsaženo: Švestek a karamelu. Kompletní receptura položky: 0,03l prestižní francouzský koňak Fine Champagne (1738 Accord Royal) zrající v silně opálených dubových sudech, plný tónů fíků, švestek a karamelu."
-          },
-          {
-            "id": "remy-martin-1738-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Remy Martin 1738?",
-            "correctAnswer": "Švestek a karamelu",
-            "distractors": [
-              "Jelení hřbet",
-              "Jehněčí kotletka"
-            ],
-            "explanation": "V podsložce Remy Martin 1738 je obsaženo: Švestek a karamelu. Kompletní receptura položky: 0,03l prestižní francouzský koňak Fine Champagne (1738 Accord Royal) zrající v silně opálených dubových sudech, plný tónů fíků, švestek a karamelu."
+            "explanation": "U položky Remy Martin 1738 je uvedeno: Prestižní francouzský koňak Fine Champagne Accord Royal zrající v opálených sudech. Kompletní popis: prestižní francouzský koňak Fine Champagne Accord Royal zrající v opálených sudech."
           }
         ]
       }
@@ -11768,623 +8301,2021 @@ export const MENU_CATEGORIES: MenuCategory[] = [
   },
   {
     "id": "palenky-a-likery",
-    "name": "pálenky & likéry 0,03L",
-    "badge": "Pálenky & Likéry",
-    "description": "Naše Fuzovice z pivní mladiny, tradiční bylinné a ovocné likéry",
+    "name": "Pálenky & likéry 0,03l",
+    "badge": "Pálenky & likéry",
+    "description": "Tradiční bylinné a ovocné likéry, speciality a řemeslné pálenky",
     "iconName": "Flame",
     "items": [
       {
         "id": "fuzovice",
         "name": "Fuzovice",
-        "price": "140 Kč",
         "weight": "0,03l",
-        "description": "0,03l FUZE/Agnes 45 %, naše jedinečná autorská pálenka z pivní mladiny uvařené z plzeňského a mnichovského sladu s chmelem Mandarina Bavaria",
-        "notes": "Vlajkový pivovarský destilát restaurace FUZE vypálený ve spolupráci s palírnou Agnes Bohdaneč.",
+        "price": "140 Kč",
+        "allergens": [],
+        "description": "FUZE/Agnes 45 %, autorská pálenka z pivní mladiny s chmelem Mandarina Bavaria",
         "questions": [
           {
             "id": "fuzovice-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Fuzovice?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Fuzovice?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Fuzovice je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Fuzovice je 0,03l."
           },
           {
             "id": "fuzovice-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Fuzovice?",
+            "question": "Která surovina, původ či charakteristika patří k položce Fuzovice?",
             "correctAnswer": "FUZE/Agnes 45 %",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
             ],
-            "explanation": "V podsložce Fuzovice je obsaženo: FUZE/Agnes 45 %. Kompletní receptura položky: 0,03l FUZE/Agnes 45 %, naše jedinečná autorská pálenka z pivní mladiny uvařené z plzeňského a mnichovského sladu s chmelem Mandarina Bavaria."
+            "explanation": "U položky Fuzovice je uvedeno: FUZE/Agnes 45 %. Kompletní popis: FUZE/Agnes 45 %, autorská pálenka z pivní mladiny s chmelem Mandarina Bavaria."
           },
           {
             "id": "fuzovice-ing-2",
-            "question": "Která pivovarská surovina nebo vlastnost charakterizuje Fuzovice?",
-            "correctAnswer": "Naše jedinečná autorská pálenka z pivní mladiny uvařené z plzeňského a mnichovského sladu s chmelem Mandarina Bavaria",
+            "question": "Která surovina, původ či charakteristika patří k položce Fuzovice?",
+            "correctAnswer": "Autorská pálenka z pivní mladiny s chmelem Mandarina Bavaria",
             "distractors": [
-              "Zlatožluté meruňky",
-              "Zrání v dubovém sudu"
+              "Světlý ležák plzeňského typu",
+              "Jablečný mošt z rodinné farmy"
             ],
-            "explanation": "V podsložce Fuzovice je obsaženo: Naše jedinečná autorská pálenka z pivní mladiny uvařené z plzeňského a mnichovského sladu s chmelem Mandarina Bavaria. Kompletní receptura položky: 0,03l FUZE/Agnes 45 %, naše jedinečná autorská pálenka z pivní mladiny uvařené z plzeňského a mnichovského sladu s chmelem Mandarina Bavaria."
+            "explanation": "U položky Fuzovice je uvedeno: Autorská pálenka z pivní mladiny s chmelem Mandarina Bavaria. Kompletní popis: FUZE/Agnes 45 %, autorská pálenka z pivní mladiny s chmelem Mandarina Bavaria."
           }
         ]
       },
       {
         "id": "absinth-st-antoine",
         "name": "Absinth St. Antoine",
-        "price": "165 Kč",
         "weight": "0,03l",
-        "description": "0,03l Žufánek, přírodní destilovaný absint z pravého pelyňku pravého (Artemisia absinthium), anýzu a fenyklu",
+        "price": "165 Kč",
+        "allergens": [],
+        "description": "Žufánek, přírodní destilovaný absint z pravého pelyňku, anýzu a fenyklu",
         "questions": [
           {
             "id": "absinth-st-antoine-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Absinth St. Antoine?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Absinth St. Antoine?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Absinth St. Antoine je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Absinth St. Antoine je 0,03l."
           },
           {
             "id": "absinth-st-antoine-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Absinth St. Antoine?",
+            "question": "Která surovina, původ či charakteristika patří k položce Absinth St. Antoine?",
             "correctAnswer": "Žufánek",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Světlý ležák plzeňského typu",
+              "Jablečný mošt z rodinné farmy"
             ],
-            "explanation": "V podsložce Absinth St. Antoine je obsaženo: Žufánek. Kompletní receptura položky: 0,03l Žufánek, přírodní destilovaný absint z pravého pelyňku pravého (Artemisia absinthium), anýzu a fenyklu."
+            "explanation": "U položky Absinth St. Antoine je uvedeno: Žufánek. Kompletní popis: Žufánek, přírodní destilovaný absint z pravého pelyňku, anýzu a fenyklu."
           },
           {
             "id": "absinth-st-antoine-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Absinth St. Antoine?",
-            "correctAnswer": "Přírodní destilovaný absint z pravého pelyňku pravého (Artemisia absinthium)",
+            "question": "Která surovina, původ či charakteristika patří k položce Absinth St. Antoine?",
+            "correctAnswer": "Přírodní destilovaný absint z pravého pelyňku",
             "distractors": [
-              "Zlatožluté meruňky",
-              "Zrání v dubovém sudu"
+              "Čerstvý grepový fresh",
+              "Bezinkový sirup a čerstvá máta"
             ],
-            "explanation": "V podsložce Absinth St. Antoine je obsaženo: Přírodní destilovaný absint z pravého pelyňku pravého (Artemisia absinthium). Kompletní receptura položky: 0,03l Žufánek, přírodní destilovaný absint z pravého pelyňku pravého (Artemisia absinthium), anýzu a fenyklu."
-          },
-          {
-            "id": "absinth-st-antoine-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Absinth St. Antoine?",
-            "correctAnswer": "Anýzu a fenyklu",
-            "distractors": [
-              "Filtrace přes dřevěné uhlí",
-              "Pramenitá horská voda"
-            ],
-            "explanation": "V podsložce Absinth St. Antoine je obsaženo: Anýzu a fenyklu. Kompletní receptura položky: 0,03l Žufánek, přírodní destilovaný absint z pravého pelyňku pravého (Artemisia absinthium), anýzu a fenyklu."
-          },
-          {
-            "id": "absinth-st-antoine-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Absinth St. Antoine?",
-            "correctAnswer": "Anýzu a fenyklu",
-            "distractors": [
-              "Třtinová melasa",
-              "100% modrá agáve"
-            ],
-            "explanation": "V podsložce Absinth St. Antoine je obsaženo: Anýzu a fenyklu. Kompletní receptura položky: 0,03l Žufánek, přírodní destilovaný absint z pravého pelyňku pravého (Artemisia absinthium), anýzu a fenyklu."
+            "explanation": "U položky Absinth St. Antoine je uvedeno: Přírodní destilovaný absint z pravého pelyňku. Kompletní popis: Žufánek, přírodní destilovaný absint z pravého pelyňku, anýzu a fenyklu."
           }
         ]
       },
       {
         "id": "kminka-garage22",
         "name": "Kmínka",
-        "price": "78 Kč",
         "weight": "0,03l",
-        "description": "0,03l Garage 22, moderní řemeslný likér s destilovaným českým kmínem a citrusovou kůrou z pražských Holešovic",
+        "price": "78 Kč",
+        "allergens": [],
+        "description": "Garage 22, moderní řemeslný likér s destilovaným kmínem a citrusovou kůrou",
         "questions": [
           {
             "id": "kminka-garage22-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Kmínka?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Kmínka?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Kmínka je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Kmínka je 0,03l."
           },
           {
             "id": "kminka-garage22-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Kmínka?",
+            "question": "Která surovina, původ či charakteristika patří k položce Kmínka?",
             "correctAnswer": "Garage 22",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
             ],
-            "explanation": "V podsložce Kmínka je obsaženo: Garage 22. Kompletní receptura položky: 0,03l Garage 22, moderní řemeslný likér s destilovaným českým kmínem a citrusovou kůrou z pražských Holešovic."
+            "explanation": "U položky Kmínka je uvedeno: Garage 22. Kompletní popis: Garage 22, moderní řemeslný likér s destilovaným kmínem a citrusovou kůrou."
           },
           {
             "id": "kminka-garage22-ing-2",
-            "question": "Která bylinka, koření či aromatická surovina dochucuje Kmínka?",
-            "correctAnswer": "Moderní řemeslný likér s destilovaným českým kmínem a citrusovou kůrou z pražských Holešovic",
+            "question": "Která surovina, původ či charakteristika patří k položce Kmínka?",
+            "correctAnswer": "Moderní řemeslný likér s destilovaným kmínem a citrusovou kůrou",
             "distractors": [
-              "Zlatožluté meruňky",
-              "Zrání v dubovém sudu"
+              "Mučenkový likér a vanilka",
+              "Kávový likér Kahlúa"
             ],
-            "explanation": "V podsložce Kmínka je obsaženo: Moderní řemeslný likér s destilovaným českým kmínem a citrusovou kůrou z pražských Holešovic. Kompletní receptura položky: 0,03l Garage 22, moderní řemeslný likér s destilovaným českým kmínem a citrusovou kůrou z pražských Holešovic."
+            "explanation": "U položky Kmínka je uvedeno: Moderní řemeslný likér s destilovaným kmínem a citrusovou kůrou. Kompletní popis: Garage 22, moderní řemeslný likér s destilovaným kmínem a citrusovou kůrou."
           }
         ]
       },
       {
         "id": "kontusovka-zufanek",
         "name": "Kontušovka",
-        "price": "95 Kč",
         "weight": "0,03l",
-        "description": "0,03l Žufánek, tradiční staročeský anýzový bylinný likér s koriandrem, fenyklem a badyánem podle receptury z 19. století",
+        "price": "95 Kč",
+        "allergens": [],
+        "description": "Žufánek, tradiční anýzový bylinný likér s koriandrem, fenyklem a badyánem",
         "questions": [
           {
             "id": "kontusovka-zufanek-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Kontušovka?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Kontušovka?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Kontušovka je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Kontušovka je 0,03l."
           },
           {
             "id": "kontusovka-zufanek-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Kontušovka?",
+            "question": "Která surovina, původ či charakteristika patří k položce Kontušovka?",
             "correctAnswer": "Žufánek",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Světlý ležák plzeňského typu",
+              "Jablečný mošt z rodinné farmy"
             ],
-            "explanation": "V podsložce Kontušovka je obsaženo: Žufánek. Kompletní receptura položky: 0,03l Žufánek, tradiční staročeský anýzový bylinný likér s koriandrem, fenyklem a badyánem podle receptury z 19. století."
+            "explanation": "U položky Kontušovka je uvedeno: Žufánek. Kompletní popis: Žufánek, tradiční anýzový bylinný likér s koriandrem, fenyklem a badyánem."
           },
           {
             "id": "kontusovka-zufanek-ing-2",
-            "question": "Která bylinka, koření či aromatická surovina dochucuje Kontušovka?",
-            "correctAnswer": "Tradiční staročeský anýzový bylinný likér s koriandrem",
+            "question": "Která surovina, původ či charakteristika patří k položce Kontušovka?",
+            "correctAnswer": "Tradiční anýzový bylinný likér s koriandrem",
             "distractors": [
-              "Zlatožluté meruňky",
-              "Zrání v dubovém sudu"
+              "Čerstvý grepový fresh",
+              "Bezinkový sirup a čerstvá máta"
             ],
-            "explanation": "V podsložce Kontušovka je obsaženo: Tradiční staročeský anýzový bylinný likér s koriandrem. Kompletní receptura položky: 0,03l Žufánek, tradiční staročeský anýzový bylinný likér s koriandrem, fenyklem a badyánem podle receptury z 19. století."
-          },
-          {
-            "id": "kontusovka-zufanek-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Kontušovka?",
-            "correctAnswer": "Fenyklem a badyánem podle receptury z 19. století",
-            "distractors": [
-              "Filtrace přes dřevěné uhlí",
-              "Pramenitá horská voda"
-            ],
-            "explanation": "V podsložce Kontušovka je obsaženo: Fenyklem a badyánem podle receptury z 19. století. Kompletní receptura položky: 0,03l Žufánek, tradiční staročeský anýzový bylinný likér s koriandrem, fenyklem a badyánem podle receptury z 19. století."
-          },
-          {
-            "id": "kontusovka-zufanek-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Kontušovka?",
-            "correctAnswer": "Fenyklem a badyánem podle receptury z 19. století",
-            "distractors": [
-              "Třtinová melasa",
-              "100% modrá agáve"
-            ],
-            "explanation": "V podsložce Kontušovka je obsaženo: Fenyklem a badyánem podle receptury z 19. století. Kompletní receptura položky: 0,03l Žufánek, tradiční staročeský anýzový bylinný likér s koriandrem, fenyklem a badyánem podle receptury z 19. století."
-          },
-          {
-            "id": "kontusovka-zufanek-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Kontušovka?",
-            "correctAnswer": "Fenyklem a badyánem podle receptury z 19. století",
-            "distractors": [
-              "Macerát z bylin",
-              "Tradiční kotlíková destilace"
-            ],
-            "explanation": "V podsložce Kontušovka je obsaženo: Fenyklem a badyánem podle receptury z 19. století. Kompletní receptura položky: 0,03l Žufánek, tradiční staročeský anýzový bylinný likér s koriandrem, fenyklem a badyánem podle receptury z 19. století."
+            "explanation": "U položky Kontušovka je uvedeno: Tradiční anýzový bylinný likér s koriandrem. Kompletní popis: Žufánek, tradiční anýzový bylinný likér s koriandrem, fenyklem a badyánem."
           }
         ]
       },
       {
         "id": "orechovy-liker-radlik",
         "name": "Ořechový likér",
-        "price": "119 Kč",
         "weight": "0,03l",
-        "description": "0,03l Radlík, jemný ořechový likér macerovaný ze zelených svatojánských vlašských ořechů a tajné směsi koření",
+        "price": "119 Kč",
+        "allergens": [
+          "8"
+        ],
+        "description": "Radlík, jemný ořechový likér macerovaný ze zelených svatojánských ořechů",
         "questions": [
           {
             "id": "orechovy-liker-radlik-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Ořechový likér?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Ořechový likér?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Ořechový likér je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Ořechový likér je 0,03l."
           },
           {
             "id": "orechovy-liker-radlik-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Ořechový likér?",
+            "question": "Která surovina, původ či charakteristika patří k položce Ořechový likér?",
             "correctAnswer": "Radlík",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Vanilkový sirup a limetová šťáva",
+              "Třtinový cukr s limetkou"
             ],
-            "explanation": "V podsložce Ořechový likér je obsaženo: Radlík. Kompletní receptura položky: 0,03l Radlík, jemný ořechový likér macerovaný ze zelených svatojánských vlašských ořechů a tajné směsi koření."
+            "explanation": "U položky Ořechový likér je uvedeno: Radlík. Kompletní popis: Radlík, jemný ořechový likér macerovaný ze zelených svatojánských ořechů."
           },
           {
             "id": "orechovy-liker-radlik-ing-2",
-            "question": "Kterou zeleninovou či ovocnou složku obsahuje podsložka Ořechový likér?",
-            "correctAnswer": "Jemný ořechový likér macerovaný ze zelených svatojánských vlašských ořechů a tajné směsi koření",
+            "question": "Která surovina, původ či charakteristika patří k položce Ořechový likér?",
+            "correctAnswer": "Jemný ořechový likér macerovaný ze zelených svatojánských ořechů",
             "distractors": [
-              "Zlatožluté meruňky",
-              "Zrání v dubovém sudu"
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
             ],
-            "explanation": "V podsložce Ořechový likér je obsaženo: Jemný ořechový likér macerovaný ze zelených svatojánských vlašských ořechů a tajné směsi koření. Kompletní receptura položky: 0,03l Radlík, jemný ořechový likér macerovaný ze zelených svatojánských vlašských ořechů a tajné směsi koření."
+            "explanation": "U položky Ořechový likér je uvedeno: Jemný ořechový likér macerovaný ze zelených svatojánských ořechů. Kompletní popis: Radlík, jemný ořechový likér macerovaný ze zelených svatojánských ořechů."
+          },
+          {
+            "id": "orechovy-liker-radlik-allergen-8",
+            "question": "Který z následujících alergenů obsahuje položka Ořechový likér?",
+            "correctAnswer": "Alergen č. 8 – Skořápkové plody (ořechy)",
+            "distractors": [
+              "Alergen č. 10 – Hořčice a výrobky z ní",
+              "Alergen č. 1 – Obiloviny obsahující lepek"
+            ],
+            "explanation": "Ořechový likér obsahuje Alergen č. 8 – Skořápkové plody (ořechy) (mandle, vlašské ořechy, mandlový likér). Všechny evidované alergeny: Skořápkové plody (ořechy) a výrobky z nich."
           }
         ]
       },
       {
         "id": "hustopecska-mandlovka",
         "name": "Hustopečská Mandlovka",
-        "price": "98 Kč",
         "weight": "0,03l",
-        "description": "0,03l originální moravská mandlová lihovina z mandloňových sadů v Hustopečích",
+        "price": "98 Kč",
+        "allergens": [],
+        "description": "originální moravská mandlová lihovina z Hustopečí",
         "questions": [
           {
             "id": "hustopecska-mandlovka-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Hustopečská Mandlovka?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Hustopečská Mandlovka?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Hustopečská Mandlovka je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Hustopečská Mandlovka je 0,03l."
           },
           {
             "id": "hustopecska-mandlovka-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Hustopečská Mandlovka?",
-            "correctAnswer": "Originální moravská mandlová lihovina z mandloňových sadů v Hustopečích",
+            "question": "Která surovina, původ či charakteristika patří k položce Hustopečská Mandlovka?",
+            "correctAnswer": "Originální moravská mandlová lihovina z Hustopečí",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Vanilkový sirup a limetová šťáva",
+              "Třtinový cukr s limetkou"
             ],
-            "explanation": "V podsložce Hustopečská Mandlovka je obsaženo: Originální moravská mandlová lihovina z mandloňových sadů v Hustopečích. Kompletní receptura položky: 0,03l originální moravská mandlová lihovina z mandloňových sadů v Hustopečích."
+            "explanation": "U položky Hustopečská Mandlovka je uvedeno: Originální moravská mandlová lihovina z Hustopečí. Kompletní popis: originální moravská mandlová lihovina z Hustopečí."
           }
         ]
       },
       {
         "id": "jagermeister",
         "name": "Jägermeister",
-        "price": "65 Kč",
         "weight": "0,03l",
-        "description": "0,03l německý bylinný likér z 56 bylin, květů, kořenů a plodů zrající rok v dubových sudech",
+        "price": "65 Kč",
+        "allergens": [],
+        "description": "německý bylinný likér z 56 bylin, květů, kořenů a plodů",
         "questions": [
           {
             "id": "jagermeister-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Jägermeister?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Jägermeister?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Jägermeister je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Jägermeister je 0,03l."
           },
           {
             "id": "jagermeister-ing-1",
-            "question": "Která bylinka, koření či aromatická surovina dochucuje Jägermeister?",
+            "question": "Která surovina, původ či charakteristika patří k položce Jägermeister?",
             "correctAnswer": "Německý bylinný likér z 56 bylin",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Vanilkový sirup a limetová šťáva",
+              "Třtinový cukr s limetkou"
             ],
-            "explanation": "V podsložce Jägermeister je obsaženo: Německý bylinný likér z 56 bylin. Kompletní receptura položky: 0,03l německý bylinný likér z 56 bylin, květů, kořenů a plodů zrající rok v dubových sudech."
+            "explanation": "U položky Jägermeister je uvedeno: Německý bylinný likér z 56 bylin. Kompletní popis: německý bylinný likér z 56 bylin, květů, kořenů a plodů."
           },
           {
             "id": "jagermeister-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Jägermeister?",
+            "question": "Která surovina, původ či charakteristika patří k položce Jägermeister?",
             "correctAnswer": "Květů",
             "distractors": [
-              "Zlatožluté meruňky",
-              "Zrání v dubovém sudu"
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
             ],
-            "explanation": "V podsložce Jägermeister je obsaženo: Květů. Kompletní receptura položky: 0,03l německý bylinný likér z 56 bylin, květů, kořenů a plodů zrající rok v dubových sudech."
-          },
-          {
-            "id": "jagermeister-ing-3",
-            "question": "Která z následujících surovin patří do podsložky Jägermeister?",
-            "correctAnswer": "Kořenů a plodů zrající rok v dubových sudech",
-            "distractors": [
-              "Filtrace přes dřevěné uhlí",
-              "Pramenitá horská voda"
-            ],
-            "explanation": "V podsložce Jägermeister je obsaženo: Kořenů a plodů zrající rok v dubových sudech. Kompletní receptura položky: 0,03l německý bylinný likér z 56 bylin, květů, kořenů a plodů zrající rok v dubových sudech."
-          },
-          {
-            "id": "jagermeister-ing-4",
-            "question": "Která z následujících surovin patří do podsložky Jägermeister?",
-            "correctAnswer": "Kořenů a plodů zrající rok v dubových sudech",
-            "distractors": [
-              "Třtinová melasa",
-              "100% modrá agáve"
-            ],
-            "explanation": "V podsložce Jägermeister je obsaženo: Kořenů a plodů zrající rok v dubových sudech. Kompletní receptura položky: 0,03l německý bylinný likér z 56 bylin, květů, kořenů a plodů zrající rok v dubových sudech."
-          },
-          {
-            "id": "jagermeister-ing-5",
-            "question": "Která z následujících surovin patří do podsložky Jägermeister?",
-            "correctAnswer": "Kořenů a plodů zrající rok v dubových sudech",
-            "distractors": [
-              "Macerát z bylin",
-              "Tradiční kotlíková destilace"
-            ],
-            "explanation": "V podsložce Jägermeister je obsaženo: Kořenů a plodů zrající rok v dubových sudech. Kompletní receptura položky: 0,03l německý bylinný likér z 56 bylin, květů, kořenů a plodů zrající rok v dubových sudech."
+            "explanation": "U položky Jägermeister je uvedeno: Květů. Kompletní popis: německý bylinný likér z 56 bylin, květů, kořenů a plodů."
           }
         ]
       },
       {
         "id": "podebradska-samicka",
         "name": "Poděbradská Samička",
-        "price": "58 Kč",
         "weight": "0,03l",
-        "description": "0,03l tradiční polabský bylinný likér s vyváženou hořkosladkou chutí",
+        "price": "58 Kč",
+        "allergens": [],
+        "description": "tradiční polabský bylinný likér s vyváženou hořkosladkou chutí",
         "questions": [
           {
             "id": "podebradska-samicka-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Poděbradská Samička?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Poděbradská Samička?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Poděbradská Samička je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Poděbradská Samička je 0,03l."
           },
           {
             "id": "podebradska-samicka-ing-1",
-            "question": "Která bylinka, koření či aromatická surovina dochucuje Poděbradská Samička?",
+            "question": "Která surovina, původ či charakteristika patří k položce Poděbradská Samička?",
             "correctAnswer": "Tradiční polabský bylinný likér s vyváženou hořkosladkou chutí",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Čerstvý grepový fresh",
+              "Bezinkový sirup a čerstvá máta"
             ],
-            "explanation": "V podsložce Poděbradská Samička je obsaženo: Tradiční polabský bylinný likér s vyváženou hořkosladkou chutí. Kompletní receptura položky: 0,03l tradiční polabský bylinný likér s vyváženou hořkosladkou chutí."
+            "explanation": "U položky Poděbradská Samička je uvedeno: Tradiční polabský bylinný likér s vyváženou hořkosladkou chutí. Kompletní popis: tradiční polabský bylinný likér s vyváženou hořkosladkou chutí."
           }
         ]
       },
       {
         "id": "becherovka-unfiltered",
-        "name": "Becherovka Unfiltered",
-        "price": "65 Kč",
+        "name": "Becherovka",
         "weight": "0,03l",
-        "description": "0,03l karlovarský bylinný likér v nefiltrované prémiové podobě se zlatavým zákalem a intenzivnější chutí bylin",
+        "price": "65 Kč",
+        "allergens": [],
+        "description": "Unfiltered, karlovarský bylinný likér v nefiltrované prémiové podobě",
         "questions": [
           {
             "id": "becherovka-unfiltered-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Becherovka Unfiltered?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Becherovka?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Becherovka Unfiltered je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Becherovka je 0,03l."
           },
           {
             "id": "becherovka-unfiltered-ing-1",
-            "question": "Která bylinka, koření či aromatická surovina dochucuje Becherovka Unfiltered?",
-            "correctAnswer": "Karlovarský bylinný likér v nefiltrované prémiové podobě se zlatavým zákalem a intenzivnější chutí bylin",
+            "question": "Která surovina, původ či charakteristika patří k položce Becherovka?",
+            "correctAnswer": "Unfiltered",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Vanilkový sirup a limetová šťáva",
+              "Třtinový cukr s limetkou"
             ],
-            "explanation": "V podsložce Becherovka Unfiltered je obsaženo: Karlovarský bylinný likér v nefiltrované prémiové podobě se zlatavým zákalem a intenzivnější chutí bylin. Kompletní receptura položky: 0,03l karlovarský bylinný likér v nefiltrované prémiové podobě se zlatavým zákalem a intenzivnější chutí bylin."
+            "explanation": "U položky Becherovka je uvedeno: Unfiltered. Kompletní popis: Unfiltered, karlovarský bylinný likér v nefiltrované prémiové podobě."
+          },
+          {
+            "id": "becherovka-unfiltered-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Becherovka?",
+            "correctAnswer": "Karlovarský bylinný likér v nefiltrované prémiové podobě",
+            "distractors": [
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
+            ],
+            "explanation": "U položky Becherovka je uvedeno: Karlovarský bylinný likér v nefiltrované prémiové podobě. Kompletní popis: Unfiltered, karlovarský bylinný likér v nefiltrované prémiové podobě."
           }
         ]
       },
       {
         "id": "smoked-grappa-tosolini",
         "name": "Smoked Grappa Bepi Tosolini",
-        "price": "195 Kč",
         "weight": "0,03l",
-        "description": "0,03l ušlechtilá italská grappa z vylisovaných hroznů uzená dubovým dřevem z rodinné palírny v Udine",
+        "price": "195 Kč",
+        "allergens": [],
+        "description": "italská grappa z vylisovaných hroznů uzená dubovým dřevem",
         "questions": [
           {
             "id": "smoked-grappa-tosolini-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Smoked Grappa Bepi Tosolini?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Smoked Grappa Bepi Tosolini?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Smoked Grappa Bepi Tosolini je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Smoked Grappa Bepi Tosolini je 0,03l."
           },
           {
             "id": "smoked-grappa-tosolini-ing-1",
-            "question": "Kterou zeleninovou či ovocnou složku obsahuje podsložka Smoked Grappa Bepi Tosolini?",
-            "correctAnswer": "Ušlechtilá italská grappa z vylisovaných hroznů uzená dubovým dřevem z rodinné palírny v Udine",
+            "question": "Která surovina, původ či charakteristika patří k položce Smoked Grappa Bepi Tosolini?",
+            "correctAnswer": "Italská grappa z vylisovaných hroznů uzená dubovým dřevem",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
             ],
-            "explanation": "V podsložce Smoked Grappa Bepi Tosolini je obsaženo: Ušlechtilá italská grappa z vylisovaných hroznů uzená dubovým dřevem z rodinné palírny v Udine. Kompletní receptura položky: 0,03l ušlechtilá italská grappa z vylisovaných hroznů uzená dubovým dřevem z rodinné palírny v Udine."
+            "explanation": "U položky Smoked Grappa Bepi Tosolini je uvedeno: Italská grappa z vylisovaných hroznů uzená dubovým dřevem. Kompletní popis: italská grappa z vylisovaných hroznů uzená dubovým dřevem."
           }
         ]
       },
       {
         "id": "bezovy-elixir-jelinek",
         "name": "Bezový elixír R.Jelínek",
-        "price": "58 Kč",
         "weight": "0,03l",
-        "description": "0,03l moravský likér z květů černého bezu od vizovického Rudolfa Jelínka",
+        "price": "58 Kč",
+        "allergens": [],
+        "description": "likér z květů černého bezu od vizovického Rudolfa Jelínka",
         "questions": [
           {
             "id": "bezovy-elixir-jelinek-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Bezový elixír R.Jelínek?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Bezový elixír R.Jelínek?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Bezový elixír R.Jelínek je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Bezový elixír R.Jelínek je 0,03l."
           },
           {
             "id": "bezovy-elixir-jelinek-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Bezový elixír R.Jelínek?",
-            "correctAnswer": "Moravský likér z květů černého bezu od vizovického Rudolfa Jelínka",
+            "question": "Která surovina, původ či charakteristika patří k položce Bezový elixír R.Jelínek?",
+            "correctAnswer": "Likér z květů černého bezu od vizovického Rudolfa Jelínka",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Vanilkový sirup a limetová šťáva",
+              "Třtinový cukr s limetkou"
             ],
-            "explanation": "V podsložce Bezový elixír R.Jelínek je obsaženo: Moravský likér z květů černého bezu od vizovického Rudolfa Jelínka. Kompletní receptura položky: 0,03l moravský likér z květů černého bezu od vizovického Rudolfa Jelínka."
+            "explanation": "U položky Bezový elixír R.Jelínek je uvedeno: Likér z květů černého bezu od vizovického Rudolfa Jelínka. Kompletní popis: likér z květů černého bezu od vizovického Rudolfa Jelínka."
           }
         ]
       },
       {
         "id": "creme-de-cassis",
         "name": "Créme de cassis",
-        "price": "68 Kč",
         "weight": "0,03l",
-        "description": "0,03l Le Duc Charmant / Jenčík, lahodný hustý likér z černého rybízu",
+        "price": "68 Kč",
+        "allergens": [],
+        "description": "Le Duc Charmant, Jenčík, lahodný hustý likér z černého rybízu",
         "questions": [
           {
             "id": "creme-de-cassis-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Créme de cassis?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Créme de cassis?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Créme de cassis je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Créme de cassis je 0,03l."
           },
           {
             "id": "creme-de-cassis-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Créme de cassis?",
-            "correctAnswer": "Le Duc Charmant / Jenčík",
+            "question": "Která surovina, původ či charakteristika patří k položce Créme de cassis?",
+            "correctAnswer": "Le Duc Charmant",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
             ],
-            "explanation": "V podsložce Créme de cassis je obsaženo: Le Duc Charmant / Jenčík. Kompletní receptura položky: 0,03l Le Duc Charmant / Jenčík, lahodný hustý likér z černého rybízu."
+            "explanation": "U položky Créme de cassis je uvedeno: Le Duc Charmant. Kompletní popis: Le Duc Charmant, Jenčík, lahodný hustý likér z černého rybízu."
           },
           {
             "id": "creme-de-cassis-ing-2",
-            "question": "Která z následujících surovin patří do podsložky Créme de cassis?",
-            "correctAnswer": "Lahodný hustý likér z černého rybízu",
+            "question": "Která surovina, původ či charakteristika patří k položce Créme de cassis?",
+            "correctAnswer": "Jenčík",
             "distractors": [
-              "Zlatožluté meruňky",
-              "Zrání v dubovém sudu"
+              "Mučenkový likér a vanilka",
+              "Kávový likér Kahlúa"
             ],
-            "explanation": "V podsložce Créme de cassis je obsaženo: Lahodný hustý likér z černého rybízu. Kompletní receptura položky: 0,03l Le Duc Charmant / Jenčík, lahodný hustý likér z černého rybízu."
+            "explanation": "U položky Créme de cassis je uvedeno: Jenčík. Kompletní popis: Le Duc Charmant, Jenčík, lahodný hustý likér z černého rybízu."
           }
         ]
       },
       {
         "id": "vajecnak-bartida",
-        "name": "Vaječňák Bartida",
-        "price": "50 Kč",
+        "name": "Vaječňák",
         "weight": "0,03l",
-        "description": "0,03l poctivý hustý vaječný likér s mimořádným podílem vaječných žloutků a kapkou třtinového rumu",
+        "price": "50 Kč",
+        "allergens": [
+          "3",
+          "7"
+        ],
+        "description": "Bartida, poctivý vaječný likér s vysokým podílem žloutků a rumem",
         "questions": [
           {
             "id": "vajecnak-bartida-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Vaječňák Bartida?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Vaječňák?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Vaječňák Bartida je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Vaječňák je 0,03l."
           },
           {
             "id": "vajecnak-bartida-ing-1",
-            "question": "Který destilát nebo likér je klíčovou složkou nápoje Vaječňák Bartida?",
-            "correctAnswer": "Poctivý hustý vaječný likér s mimořádným podílem vaječných žloutků a kapkou třtinového rumu",
+            "question": "Která surovina, původ či charakteristika patří k položce Vaječňák?",
+            "correctAnswer": "Bartida",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Mučenkový likér a vanilka",
+              "Kávový likér Kahlúa"
             ],
-            "explanation": "V podsložce Vaječňák Bartida je obsaženo: Poctivý hustý vaječný likér s mimořádným podílem vaječných žloutků a kapkou třtinového rumu. Kompletní receptura položky: 0,03l poctivý hustý vaječný likér s mimořádným podílem vaječných žloutků a kapkou třtinového rumu."
+            "explanation": "U položky Vaječňák je uvedeno: Bartida. Kompletní popis: Bartida, poctivý vaječný likér s vysokým podílem žloutků a rumem."
+          },
+          {
+            "id": "vajecnak-bartida-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Vaječňák?",
+            "correctAnswer": "Poctivý vaječný likér s vysokým podílem žloutků a rumem",
+            "distractors": [
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
+            ],
+            "explanation": "U položky Vaječňák je uvedeno: Poctivý vaječný likér s vysokým podílem žloutků a rumem. Kompletní popis: Bartida, poctivý vaječný likér s vysokým podílem žloutků a rumem."
+          },
+          {
+            "id": "vajecnak-bartida-allergen-3",
+            "question": "Který z následujících alergenů obsahuje položka Vaječňák?",
+            "correctAnswer": "Alergen č. 3 – Vejce a výrobky z nich",
+            "distractors": [
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)",
+              "Alergen č. 11 – Sezamová semena (sezam)"
+            ],
+            "explanation": "Vaječňák obsahuje Alergen č. 3 – Vejce a výrobky z nich (vejce, žloutek, majonéza, vaječný likér). Všechny evidované alergeny: Vejce a výrobky z nich, Mléko a výrobky z něj (včetně laktózy)."
+          },
+          {
+            "id": "vajecnak-bartida-allergen-7",
+            "question": "Který z následujících alergenů obsahuje položka Vaječňák?",
+            "correctAnswer": "Alergen č. 7 – Mléko a výrobky z něj (včetně laktózy)",
+            "distractors": [
+              "Alergen č. 10 – Hořčice a výrobky z ní",
+              "Alergen č. 1 – Obiloviny obsahující lepek"
+            ],
+            "explanation": "Vaječňák obsahuje Alergen č. 7 – Mléko a výrobky z něj (včetně laktózy) (mléko, smetana, máslo, sýr, tvaroh, mléčná pěna). Všechny evidované alergeny: Vejce a výrobky z nich, Mléko a výrobky z něj (včetně laktózy)."
           }
         ]
       },
       {
         "id": "griotte-bartida",
-        "name": "Griotte Original Bartida",
-        "price": "50 Kč",
+        "name": "Griotte Original",
         "weight": "0,03l",
-        "description": "0,03l prémiový višňový likér s vysokým podílem čisté višňové šťávy a ovocného destilátu",
+        "price": "50 Kč",
+        "allergens": [],
+        "description": "Bartida, prémiový likér s vysokým podílem čisté višňové šťávy",
         "questions": [
           {
             "id": "griotte-bartida-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Griotte Original Bartida?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Griotte Original?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Griotte Original Bartida je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Griotte Original je 0,03l."
           },
           {
             "id": "griotte-bartida-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Griotte Original Bartida?",
-            "correctAnswer": "Prémiový višňový likér s vysokým podílem čisté višňové šťávy a ovocného destilátu",
+            "question": "Která surovina, původ či charakteristika patří k položce Griotte Original?",
+            "correctAnswer": "Bartida",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
             ],
-            "explanation": "V podsložce Griotte Original Bartida je obsaženo: Prémiový višňový likér s vysokým podílem čisté višňové šťávy a ovocného destilátu. Kompletní receptura položky: 0,03l prémiový višňový likér s vysokým podílem čisté višňové šťávy a ovocného destilátu."
+            "explanation": "U položky Griotte Original je uvedeno: Bartida. Kompletní popis: Bartida, prémiový likér s vysokým podílem čisté višňové šťávy."
+          },
+          {
+            "id": "griotte-bartida-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Griotte Original?",
+            "correctAnswer": "Prémiový likér s vysokým podílem čisté višňové šťávy",
+            "distractors": [
+              "Mučenkový likér a vanilka",
+              "Kávový likér Kahlúa"
+            ],
+            "explanation": "U položky Griotte Original je uvedeno: Prémiový likér s vysokým podílem čisté višňové šťávy. Kompletní popis: Bartida, prémiový likér s vysokým podílem čisté višňové šťávy."
           }
         ]
       },
       {
         "id": "zelena-bartida",
-        "name": "Zelená Bartida",
-        "price": "50 Kč",
+        "name": "Zelená",
         "weight": "0,03l",
-        "description": "0,03l prémiový peprmintový likér vyráběný z pravého přírodního oleje máty peprné",
+        "price": "50 Kč",
+        "allergens": [],
+        "description": "Bartida, prémiový peprmintový likér z přírodního oleje máty peprné",
         "questions": [
           {
             "id": "zelena-bartida-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Zelená Bartida?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Zelená?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Zelená Bartida je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Zelená je 0,03l."
           },
           {
             "id": "zelena-bartida-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Zelená Bartida?",
-            "correctAnswer": "Prémiový peprmintový likér vyráběný z pravého přírodního oleje máty peprné",
+            "question": "Která surovina, původ či charakteristika patří k položce Zelená?",
+            "correctAnswer": "Bartida",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Jasmínový zelený čaj",
+              "Belgické višňové pivo"
             ],
-            "explanation": "V podsložce Zelená Bartida je obsaženo: Prémiový peprmintový likér vyráběný z pravého přírodního oleje máty peprné. Kompletní receptura položky: 0,03l prémiový peprmintový likér vyráběný z pravého přírodního oleje máty peprné."
+            "explanation": "U položky Zelená je uvedeno: Bartida. Kompletní popis: Bartida, prémiový peprmintový likér z přírodního oleje máty peprné."
+          },
+          {
+            "id": "zelena-bartida-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Zelená?",
+            "correctAnswer": "Prémiový peprmintový likér z přírodního oleje máty peprné",
+            "distractors": [
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
+            ],
+            "explanation": "U položky Zelená je uvedeno: Prémiový peprmintový likér z přírodního oleje máty peprné. Kompletní popis: Bartida, prémiový peprmintový likér z přírodního oleje máty peprné."
           }
         ]
       },
       {
         "id": "zelena-svach",
-        "name": "Zelená Svach",
-        "price": "58 Kč",
+        "name": "Zelená",
         "weight": "0,03l",
-        "description": "0,03l řemeslný jihočeský peprmintový likér z lihovaru Svachovka z pravé macerované máty peprné",
+        "price": "58 Kč",
+        "allergens": [],
+        "description": "Svach, řemeslný peprmintový likér z pravé macerované máty peprné",
         "questions": [
           {
             "id": "zelena-svach-vol",
-            "question": "Jaký je servírovací objem / míra podsložky Zelená Svach?",
-            "correctAnswer": "0,03 l",
+            "question": "Jaký je servírovací objem / míra položky Zelená?",
+            "correctAnswer": "0,03l",
             "distractors": [
-              "0,05 l",
-              "0,02 l"
+              "0,04 l",
+              "0,05 l"
             ],
-            "explanation": "Servírovací míra / objem podsložky Zelená Svach je 0,03 l."
+            "explanation": "Servírovací míra / objem položky Zelená je 0,03l."
           },
           {
             "id": "zelena-svach-ing-1",
-            "question": "Která z následujících surovin patří do podsložky Zelená Svach?",
-            "correctAnswer": "Řemeslný jihočeský peprmintový likér z lihovaru Svachovka z pravé macerované máty peprné",
+            "question": "Která surovina, původ či charakteristika patří k položce Zelená?",
+            "correctAnswer": "Svach",
             "distractors": [
-              "Švestkový kvas",
-              "Hrušky Williams"
+              "Vanilkový sirup a limetová šťáva",
+              "Třtinový cukr s limetkou"
             ],
-            "explanation": "V podsložce Zelená Svach je obsaženo: Řemeslný jihočeský peprmintový likér z lihovaru Svachovka z pravé macerované máty peprné. Kompletní receptura položky: 0,03l řemeslný jihočeský peprmintový likér z lihovaru Svachovka z pravé macerované máty peprné."
+            "explanation": "U položky Zelená je uvedeno: Svach. Kompletní popis: Svach, řemeslný peprmintový likér z pravé macerované máty peprné."
+          },
+          {
+            "id": "zelena-svach-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Zelená?",
+            "correctAnswer": "Řemeslný peprmintový likér z pravé macerované máty peprné",
+            "distractors": [
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
+            ],
+            "explanation": "U položky Zelená je uvedeno: Řemeslný peprmintový likér z pravé macerované máty peprné. Kompletní popis: Svach, řemeslný peprmintový likér z pravé macerované máty peprné."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bubliny",
+    "name": "Bubliny",
+    "badge": "Bubliny",
+    "description": "Špičková šumivá vína, sekty a crémanty z Moravy i Kalifornie",
+    "iconName": "Sparkles",
+    "items": [
+      {
+        "id": "bubliny-charmat-palava",
+        "name": "Charmat de Vinselekt Pálava",
+        "weight": "0,75l",
+        "price": "699 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Vinselect Michlovský, extra sec – Morava",
+        "questions": [
+          {
+            "id": "bubliny-charmat-palava-vol",
+            "question": "Jaký je servírovací objem / míra položky Charmat de Vinselekt Pálava?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Charmat de Vinselekt Pálava je 0,75l."
+          },
+          {
+            "id": "bubliny-charmat-palava-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Charmat de Vinselekt Pálava?",
+            "correctAnswer": "Vinselect Michlovský",
+            "distractors": [
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
+            ],
+            "explanation": "U položky Charmat de Vinselekt Pálava je uvedeno: Vinselect Michlovský. Kompletní popis: Vinselect Michlovský, extra sec – Morava."
+          },
+          {
+            "id": "bubliny-charmat-palava-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Charmat de Vinselekt Pálava?",
+            "correctAnswer": "Extra sec – Morava",
+            "distractors": [
+              "Jasmínový zelený čaj",
+              "Belgické višňové pivo"
+            ],
+            "explanation": "U položky Charmat de Vinselekt Pálava je uvedeno: Extra sec – Morava. Kompletní popis: Vinselect Michlovský, extra sec – Morava."
+          },
+          {
+            "id": "bubliny-charmat-palava-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Charmat de Vinselekt Pálava?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+            ],
+            "explanation": "Charmat de Vinselekt Pálava obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+          }
+        ]
+      },
+      {
+        "id": "bubliny-cremant-vinselekt",
+        "name": "Cremant de Vinselekt (Pinot, Chardonnay)",
+        "weight": "0,75l",
+        "price": "849 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Vinselect Michlovský, extra brut – Morava",
+        "questions": [
+          {
+            "id": "bubliny-cremant-vinselekt-vol",
+            "question": "Jaký je servírovací objem / míra položky Cremant de Vinselekt (Pinot, Chardonnay)?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Cremant de Vinselekt (Pinot, Chardonnay) je 0,75l."
+          },
+          {
+            "id": "bubliny-cremant-vinselekt-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Cremant de Vinselekt (Pinot, Chardonnay)?",
+            "correctAnswer": "Vinselect Michlovský",
+            "distractors": [
+              "Mučenkový likér a vanilka",
+              "Kávový likér Kahlúa"
+            ],
+            "explanation": "U položky Cremant de Vinselekt (Pinot, Chardonnay) je uvedeno: Vinselect Michlovský. Kompletní popis: Vinselect Michlovský, extra brut – Morava."
+          },
+          {
+            "id": "bubliny-cremant-vinselekt-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Cremant de Vinselekt (Pinot, Chardonnay)?",
+            "correctAnswer": "Extra brut – Morava",
+            "distractors": [
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
+            ],
+            "explanation": "U položky Cremant de Vinselekt (Pinot, Chardonnay) je uvedeno: Extra brut – Morava. Kompletní popis: Vinselect Michlovský, extra brut – Morava."
+          },
+          {
+            "id": "bubliny-cremant-vinselekt-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Cremant de Vinselekt (Pinot, Chardonnay)?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+            ],
+            "explanation": "Cremant de Vinselekt (Pinot, Chardonnay) obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+          }
+        ]
+      },
+      {
+        "id": "bubliny-angels-cowboys",
+        "name": "Angels & Cowboys",
+        "weight": "0,75l",
+        "price": "1199 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "NV, brut - North Coast, Kalifornie",
+        "questions": [
+          {
+            "id": "bubliny-angels-cowboys-vol",
+            "question": "Jaký je servírovací objem / míra položky Angels & Cowboys?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Angels & Cowboys je 0,75l."
+          },
+          {
+            "id": "bubliny-angels-cowboys-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Angels & Cowboys?",
+            "correctAnswer": "Brut - North Coast",
+            "distractors": [
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
+            ],
+            "explanation": "U položky Angels & Cowboys je uvedeno: Brut - North Coast. Kompletní popis: NV, brut - North Coast, Kalifornie."
+          },
+          {
+            "id": "bubliny-angels-cowboys-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Angels & Cowboys?",
+            "correctAnswer": "Kalifornie",
+            "distractors": [
+              "Jasmínový zelený čaj",
+              "Belgické višňové pivo"
+            ],
+            "explanation": "U položky Angels & Cowboys je uvedeno: Kalifornie. Kompletní popis: NV, brut - North Coast, Kalifornie."
+          },
+          {
+            "id": "bubliny-angels-cowboys-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Angels & Cowboys?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+            ],
+            "explanation": "Angels & Cowboys obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bila-vina",
+    "name": "Bílá vína",
+    "badge": "Bílá vína",
+    "description": "Výběr lahvových bílých vín z Moravy, Rakouska, Německa a Kalifornie",
+    "iconName": "Wine",
+    "items": [
+      {
+        "id": "bile-ryzlink-gotberg",
+        "name": "Ryzlink rýnský",
+        "weight": "0,75l",
+        "price": "469 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "pozdní sběr Gotberg – Pálava, Morava",
+        "questions": [
+          {
+            "id": "bile-ryzlink-gotberg-vol",
+            "question": "Jaký je servírovací objem / míra položky Ryzlink rýnský?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Ryzlink rýnský je 0,75l."
+          },
+          {
+            "id": "bile-ryzlink-gotberg-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Ryzlink rýnský?",
+            "correctAnswer": "Pozdní sběr Gotberg – Pálava",
+            "distractors": [
+              "Tonik Thomas Henry s chininem",
+              "Čerstvě pražená výběrová káva"
+            ],
+            "explanation": "U položky Ryzlink rýnský je uvedeno: Pozdní sběr Gotberg – Pálava. Kompletní popis: pozdní sběr Gotberg – Pálava, Morava."
+          },
+          {
+            "id": "bile-ryzlink-gotberg-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Ryzlink rýnský?",
+            "correctAnswer": "Morava",
+            "distractors": [
+              "Vanilkový sirup a limetová šťáva",
+              "Třtinový cukr s limetkou"
+            ],
+            "explanation": "U položky Ryzlink rýnský je uvedeno: Morava. Kompletní popis: pozdní sběr Gotberg – Pálava, Morava."
+          },
+          {
+            "id": "bile-ryzlink-gotberg-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Ryzlink rýnský?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+            ],
+            "explanation": "Ryzlink rýnský obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+          }
+        ]
+      },
+      {
+        "id": "bile-pinot-gris-reisten",
+        "name": "Pinot Gris",
+        "weight": "0,75l",
+        "price": "479 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "pozdní sběr Reisten – Mikulovsko, Morava",
+        "questions": [
+          {
+            "id": "bile-pinot-gris-reisten-vol",
+            "question": "Jaký je servírovací objem / míra položky Pinot Gris?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Pinot Gris je 0,75l."
+          },
+          {
+            "id": "bile-pinot-gris-reisten-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Pinot Gris?",
+            "correctAnswer": "Pozdní sběr Reisten – Mikulovsko",
+            "distractors": [
+              "Jasmínový zelený čaj",
+              "Belgické višňové pivo"
+            ],
+            "explanation": "U položky Pinot Gris je uvedeno: Pozdní sběr Reisten – Mikulovsko. Kompletní popis: pozdní sběr Reisten – Mikulovsko, Morava."
+          },
+          {
+            "id": "bile-pinot-gris-reisten-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Pinot Gris?",
+            "correctAnswer": "Morava",
+            "distractors": [
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
+            ],
+            "explanation": "U položky Pinot Gris je uvedeno: Morava. Kompletní popis: pozdní sběr Reisten – Mikulovsko, Morava."
+          },
+          {
+            "id": "bile-pinot-gris-reisten-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Pinot Gris?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+            ],
+            "explanation": "Pinot Gris obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+          }
+        ]
+      },
+      {
+        "id": "bile-hibernal-bilkovi",
+        "name": "Hibernal",
+        "weight": "0,75l",
+        "price": "495 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "pozdní sběr Bílkovi – Velkopavlovicko, Morava",
+        "questions": [
+          {
+            "id": "bile-hibernal-bilkovi-vol",
+            "question": "Jaký je servírovací objem / míra položky Hibernal?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Hibernal je 0,75l."
+          },
+          {
+            "id": "bile-hibernal-bilkovi-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Hibernal?",
+            "correctAnswer": "Pozdní sběr Bílkovi – Velkopavlovicko",
+            "distractors": [
+              "Vanilkový sirup a limetová šťáva",
+              "Třtinový cukr s limetkou"
+            ],
+            "explanation": "U položky Hibernal je uvedeno: Pozdní sběr Bílkovi – Velkopavlovicko. Kompletní popis: pozdní sběr Bílkovi – Velkopavlovicko, Morava."
+          },
+          {
+            "id": "bile-hibernal-bilkovi-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Hibernal?",
+            "correctAnswer": "Morava",
+            "distractors": [
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
+            ],
+            "explanation": "U položky Hibernal je uvedeno: Morava. Kompletní popis: pozdní sběr Bílkovi – Velkopavlovicko, Morava."
+          },
+          {
+            "id": "bile-hibernal-bilkovi-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Hibernal?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+            ],
+            "explanation": "Hibernal obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+          }
+        ]
+      },
+      {
+        "id": "bile-sauvignon-halkoci",
+        "name": "Sauvignon",
+        "weight": "0,75l",
+        "price": "626 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Typik VOC Lukáš Halkoci – Znojemsko, Morava",
+        "questions": [
+          {
+            "id": "bile-sauvignon-halkoci-vol",
+            "question": "Jaký je servírovací objem / míra položky Sauvignon?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Sauvignon je 0,75l."
+          },
+          {
+            "id": "bile-sauvignon-halkoci-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Sauvignon?",
+            "correctAnswer": "Typik VOC Lukáš Halkoci – Znojemsko",
+            "distractors": [
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
+            ],
+            "explanation": "U položky Sauvignon je uvedeno: Typik VOC Lukáš Halkoci – Znojemsko. Kompletní popis: Typik VOC Lukáš Halkoci – Znojemsko, Morava."
+          },
+          {
+            "id": "bile-sauvignon-halkoci-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Sauvignon?",
+            "correctAnswer": "Morava",
+            "distractors": [
+              "Jasmínový zelený čaj",
+              "Belgické višňové pivo"
+            ],
+            "explanation": "U položky Sauvignon je uvedeno: Morava. Kompletní popis: Typik VOC Lukáš Halkoci – Znojemsko, Morava."
+          },
+          {
+            "id": "bile-sauvignon-halkoci-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Sauvignon?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+            ],
+            "explanation": "Sauvignon obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+          }
+        ]
+      },
+      {
+        "id": "bile-ryzlink-vlassky-sukal",
+        "name": "Ryzlink Vlašský",
+        "weight": "0,75l",
+        "price": "660 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "pozdní sběr Milan Sůkal – Slovácko, Morava",
+        "questions": [
+          {
+            "id": "bile-ryzlink-vlassky-sukal-vol",
+            "question": "Jaký je servírovací objem / míra položky Ryzlink Vlašský?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Ryzlink Vlašský je 0,75l."
+          },
+          {
+            "id": "bile-ryzlink-vlassky-sukal-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Ryzlink Vlašský?",
+            "correctAnswer": "Pozdní sběr Milan Sůkal – Slovácko",
+            "distractors": [
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
+            ],
+            "explanation": "U položky Ryzlink Vlašský je uvedeno: Pozdní sběr Milan Sůkal – Slovácko. Kompletní popis: pozdní sběr Milan Sůkal – Slovácko, Morava."
+          },
+          {
+            "id": "bile-ryzlink-vlassky-sukal-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Ryzlink Vlašský?",
+            "correctAnswer": "Morava",
+            "distractors": [
+              "Světlý ležák plzeňského typu",
+              "Jablečný mošt z rodinné farmy"
+            ],
+            "explanation": "U položky Ryzlink Vlašský je uvedeno: Morava. Kompletní popis: pozdní sběr Milan Sůkal – Slovácko, Morava."
+          },
+          {
+            "id": "bile-ryzlink-vlassky-sukal-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Ryzlink Vlašský?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+            ],
+            "explanation": "Ryzlink Vlašský obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+          }
+        ]
+      },
+      {
+        "id": "bile-palava-michlovsky",
+        "name": "Pálava",
+        "weight": "0,75l",
+        "price": "506 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "pozdní sběr Vinselect Michlovský – Lednicko-Valtický areál, Morava",
+        "questions": [
+          {
+            "id": "bile-palava-michlovsky-vol",
+            "question": "Jaký je servírovací objem / míra položky Pálava?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Pálava je 0,75l."
+          },
+          {
+            "id": "bile-palava-michlovsky-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Pálava?",
+            "correctAnswer": "Pozdní sběr Vinselect Michlovský – Lednicko-Valtický areál",
+            "distractors": [
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
+            ],
+            "explanation": "U položky Pálava je uvedeno: Pozdní sběr Vinselect Michlovský – Lednicko-Valtický areál. Kompletní popis: pozdní sběr Vinselect Michlovský – Lednicko-Valtický areál, Morava."
+          },
+          {
+            "id": "bile-palava-michlovsky-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Pálava?",
+            "correctAnswer": "Morava",
+            "distractors": [
+              "Jasmínový zelený čaj",
+              "Belgické višňové pivo"
+            ],
+            "explanation": "U položky Pálava je uvedeno: Morava. Kompletní popis: pozdní sběr Vinselect Michlovský – Lednicko-Valtický areál, Morava."
+          },
+          {
+            "id": "bile-palava-michlovsky-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Pálava?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+            ],
+            "explanation": "Pálava obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+          }
+        ]
+      },
+      {
+        "id": "bile-poysdorfer-saurussel",
+        "name": "Poysdorfer Saurüssel",
+        "weight": "0,75l",
+        "price": "629 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Veltlínské zelené, Hauser – Weinviertel, Rakousko",
+        "questions": [
+          {
+            "id": "bile-poysdorfer-saurussel-vol",
+            "question": "Jaký je servírovací objem / míra položky Poysdorfer Saurüssel?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Poysdorfer Saurüssel je 0,75l."
+          },
+          {
+            "id": "bile-poysdorfer-saurussel-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Poysdorfer Saurüssel?",
+            "correctAnswer": "Veltlínské zelené",
+            "distractors": [
+              "Mučenkový likér a vanilka",
+              "Kávový likér Kahlúa"
+            ],
+            "explanation": "U položky Poysdorfer Saurüssel je uvedeno: Veltlínské zelené. Kompletní popis: Veltlínské zelené, Hauser – Weinviertel, Rakousko."
+          },
+          {
+            "id": "bile-poysdorfer-saurussel-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Poysdorfer Saurüssel?",
+            "correctAnswer": "Hauser – Weinviertel",
+            "distractors": [
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
+            ],
+            "explanation": "U položky Poysdorfer Saurüssel je uvedeno: Hauser – Weinviertel. Kompletní popis: Veltlínské zelené, Hauser – Weinviertel, Rakousko."
+          },
+          {
+            "id": "bile-poysdorfer-saurussel-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Poysdorfer Saurüssel?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+            ],
+            "explanation": "Poysdorfer Saurüssel obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+          }
+        ]
+      },
+      {
+        "id": "bile-gruner-satzen-schwarzbock",
+        "name": "Grüner Veltliner",
+        "weight": "0,75l",
+        "price": "723 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Premium Ried Satzen DAC Schwarzbock – Weinviertel, Rakousko",
+        "questions": [
+          {
+            "id": "bile-gruner-satzen-schwarzbock-vol",
+            "question": "Jaký je servírovací objem / míra položky Grüner Veltliner?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Grüner Veltliner je 0,75l."
+          },
+          {
+            "id": "bile-gruner-satzen-schwarzbock-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Grüner Veltliner?",
+            "correctAnswer": "Premium Ried Satzen DAC Schwarzbock – Weinviertel",
+            "distractors": [
+              "Vanilkový sirup a limetová šťáva",
+              "Třtinový cukr s limetkou"
+            ],
+            "explanation": "U položky Grüner Veltliner je uvedeno: Premium Ried Satzen DAC Schwarzbock – Weinviertel. Kompletní popis: Premium Ried Satzen DAC Schwarzbock – Weinviertel, Rakousko."
+          },
+          {
+            "id": "bile-gruner-satzen-schwarzbock-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Grüner Veltliner?",
+            "correctAnswer": "Rakousko",
+            "distractors": [
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
+            ],
+            "explanation": "U položky Grüner Veltliner je uvedeno: Rakousko. Kompletní popis: Premium Ried Satzen DAC Schwarzbock – Weinviertel, Rakousko."
+          },
+          {
+            "id": "bile-gruner-satzen-schwarzbock-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Grüner Veltliner?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+            ],
+            "explanation": "Grüner Veltliner obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+          }
+        ]
+      },
+      {
+        "id": "bile-riesling-eva-fricke",
+        "name": "Riesling Rheingau",
+        "weight": "0,75l",
+        "price": "999 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "QbA Trocken Eva Fricke – Rheingau, Německo",
+        "questions": [
+          {
+            "id": "bile-riesling-eva-fricke-vol",
+            "question": "Jaký je servírovací objem / míra položky Riesling Rheingau?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Riesling Rheingau je 0,75l."
+          },
+          {
+            "id": "bile-riesling-eva-fricke-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Riesling Rheingau?",
+            "correctAnswer": "QbA Trocken Eva Fricke – Rheingau",
+            "distractors": [
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
+            ],
+            "explanation": "U položky Riesling Rheingau je uvedeno: QbA Trocken Eva Fricke – Rheingau. Kompletní popis: QbA Trocken Eva Fricke – Rheingau, Německo."
+          },
+          {
+            "id": "bile-riesling-eva-fricke-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Riesling Rheingau?",
+            "correctAnswer": "Německo",
+            "distractors": [
+              "Mučenkový likér a vanilka",
+              "Kávový likér Kahlúa"
+            ],
+            "explanation": "U položky Riesling Rheingau je uvedeno: Německo. Kompletní popis: QbA Trocken Eva Fricke – Rheingau, Německo."
+          },
+          {
+            "id": "bile-riesling-eva-fricke-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Riesling Rheingau?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+            ],
+            "explanation": "Riesling Rheingau obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+          }
+        ]
+      },
+      {
+        "id": "bile-riesling-gunderloch-red-stone",
+        "name": "Riesling",
+        "weight": "0,75l",
+        "price": "595 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Red Stone QbA trocken Gunderloch – Rheinhessen, Německo",
+        "questions": [
+          {
+            "id": "bile-riesling-gunderloch-red-stone-vol",
+            "question": "Jaký je servírovací objem / míra položky Riesling?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Riesling je 0,75l."
+          },
+          {
+            "id": "bile-riesling-gunderloch-red-stone-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Riesling?",
+            "correctAnswer": "Red Stone QbA trocken Gunderloch – Rheinhessen",
+            "distractors": [
+              "Mučenkový likér a vanilka",
+              "Kávový likér Kahlúa"
+            ],
+            "explanation": "U položky Riesling je uvedeno: Red Stone QbA trocken Gunderloch – Rheinhessen. Kompletní popis: Red Stone QbA trocken Gunderloch – Rheinhessen, Německo."
+          },
+          {
+            "id": "bile-riesling-gunderloch-red-stone-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Riesling?",
+            "correctAnswer": "Německo",
+            "distractors": [
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
+            ],
+            "explanation": "U položky Riesling je uvedeno: Německo. Kompletní popis: Red Stone QbA trocken Gunderloch – Rheinhessen, Německo."
+          },
+          {
+            "id": "bile-riesling-gunderloch-red-stone-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Riesling?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+            ],
+            "explanation": "Riesling obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+          }
+        ]
+      },
+      {
+        "id": "bile-riesling-fritz-haag",
+        "name": "Riesling",
+        "weight": "0,75l",
+        "price": "975 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Tradition Brauneberg Fritz Haag – Mosel, Německo",
+        "questions": [
+          {
+            "id": "bile-riesling-fritz-haag-vol",
+            "question": "Jaký je servírovací objem / míra položky Riesling?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Riesling je 0,75l."
+          },
+          {
+            "id": "bile-riesling-fritz-haag-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Riesling?",
+            "correctAnswer": "Tradition Brauneberg Fritz Haag – Mosel",
+            "distractors": [
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
+            ],
+            "explanation": "U položky Riesling je uvedeno: Tradition Brauneberg Fritz Haag – Mosel. Kompletní popis: Tradition Brauneberg Fritz Haag – Mosel, Německo."
+          },
+          {
+            "id": "bile-riesling-fritz-haag-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Riesling?",
+            "correctAnswer": "Německo",
+            "distractors": [
+              "Mučenkový likér a vanilka",
+              "Kávový likér Kahlúa"
+            ],
+            "explanation": "U položky Riesling je uvedeno: Německo. Kompletní popis: Tradition Brauneberg Fritz Haag – Mosel, Německo."
+          },
+          {
+            "id": "bile-riesling-fritz-haag-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Riesling?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+            ],
+            "explanation": "Riesling obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+          }
+        ]
+      },
+      {
+        "id": "bile-weisser-burgunder-philipp-kuhn",
+        "name": "Weisser Burgunder",
+        "weight": "0,75l",
+        "price": "725 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Rulandské bílé, Tradition Trocken Philipp Kuhn – Pfalz, Německo",
+        "questions": [
+          {
+            "id": "bile-weisser-burgunder-philipp-kuhn-vol",
+            "question": "Jaký je servírovací objem / míra položky Weisser Burgunder?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Weisser Burgunder je 0,75l."
+          },
+          {
+            "id": "bile-weisser-burgunder-philipp-kuhn-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Weisser Burgunder?",
+            "correctAnswer": "Rulandské bílé",
+            "distractors": [
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
+            ],
+            "explanation": "U položky Weisser Burgunder je uvedeno: Rulandské bílé. Kompletní popis: Rulandské bílé, Tradition Trocken Philipp Kuhn – Pfalz, Německo."
+          },
+          {
+            "id": "bile-weisser-burgunder-philipp-kuhn-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Weisser Burgunder?",
+            "correctAnswer": "Tradition Trocken Philipp Kuhn – Pfalz",
+            "distractors": [
+              "Světlý ležák plzeňského typu",
+              "Jablečný mošt z rodinné farmy"
+            ],
+            "explanation": "U položky Weisser Burgunder je uvedeno: Tradition Trocken Philipp Kuhn – Pfalz. Kompletní popis: Rulandské bílé, Tradition Trocken Philipp Kuhn – Pfalz, Německo."
+          },
+          {
+            "id": "bile-weisser-burgunder-philipp-kuhn-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Weisser Burgunder?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+            ],
+            "explanation": "Weisser Burgunder obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+          }
+        ]
+      },
+      {
+        "id": "bile-sauvignon-lapis-luna",
+        "name": "Sauvignon Blanc",
+        "weight": "0,75l",
+        "price": "789 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Lapis Luna - North Coast, Kalifornie",
+        "questions": [
+          {
+            "id": "bile-sauvignon-lapis-luna-vol",
+            "question": "Jaký je servírovací objem / míra položky Sauvignon Blanc?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Sauvignon Blanc je 0,75l."
+          },
+          {
+            "id": "bile-sauvignon-lapis-luna-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Sauvignon Blanc?",
+            "correctAnswer": "Lapis Luna - North Coast",
+            "distractors": [
+              "Mučenkový likér a vanilka",
+              "Kávový likér Kahlúa"
+            ],
+            "explanation": "U položky Sauvignon Blanc je uvedeno: Lapis Luna - North Coast. Kompletní popis: Lapis Luna - North Coast, Kalifornie."
+          },
+          {
+            "id": "bile-sauvignon-lapis-luna-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Sauvignon Blanc?",
+            "correctAnswer": "Kalifornie",
+            "distractors": [
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
+            ],
+            "explanation": "U položky Sauvignon Blanc je uvedeno: Kalifornie. Kompletní popis: Lapis Luna - North Coast, Kalifornie."
+          },
+          {
+            "id": "bile-sauvignon-lapis-luna-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Sauvignon Blanc?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+            ],
+            "explanation": "Sauvignon Blanc obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+          }
+        ]
+      },
+      {
+        "id": "bile-chardonnay-knotty-vines",
+        "name": "Chardonnay",
+        "weight": "0,75l",
+        "price": "975 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Knotty Vines – Kalifornie",
+        "questions": [
+          {
+            "id": "bile-chardonnay-knotty-vines-vol",
+            "question": "Jaký je servírovací objem / míra položky Chardonnay?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Chardonnay je 0,75l."
+          },
+          {
+            "id": "bile-chardonnay-knotty-vines-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Chardonnay?",
+            "correctAnswer": "Knotty Vines – Kalifornie",
+            "distractors": [
+              "Čerstvý grepový fresh",
+              "Bezinkový sirup a čerstvá máta"
+            ],
+            "explanation": "U položky Chardonnay je uvedeno: Knotty Vines – Kalifornie. Kompletní popis: Knotty Vines – Kalifornie."
+          },
+          {
+            "id": "bile-chardonnay-knotty-vines-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Chardonnay?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+            ],
+            "explanation": "Chardonnay obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ruzova-vina",
+    "name": "Růžová vína",
+    "badge": "Růžová vína",
+    "description": "Svěží moravské růžové víno s ovocnými tóny",
+    "iconName": "Wine",
+    "items": [
+      {
+        "id": "ruzove-merlot-rose-bilkovi",
+        "name": "Merlot Rosé",
+        "weight": "0,75l",
+        "price": "405 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "pozdní sběr Bílkovi – Velkopavlovicko, Morava",
+        "questions": [
+          {
+            "id": "ruzove-merlot-rose-bilkovi-vol",
+            "question": "Jaký je servírovací objem / míra položky Merlot Rosé?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Merlot Rosé je 0,75l."
+          },
+          {
+            "id": "ruzove-merlot-rose-bilkovi-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Merlot Rosé?",
+            "correctAnswer": "Pozdní sběr Bílkovi – Velkopavlovicko",
+            "distractors": [
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
+            ],
+            "explanation": "U položky Merlot Rosé je uvedeno: Pozdní sběr Bílkovi – Velkopavlovicko. Kompletní popis: pozdní sběr Bílkovi – Velkopavlovicko, Morava."
+          },
+          {
+            "id": "ruzove-merlot-rose-bilkovi-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Merlot Rosé?",
+            "correctAnswer": "Morava",
+            "distractors": [
+              "Světlý ležák plzeňského typu",
+              "Jablečný mošt z rodinné farmy"
+            ],
+            "explanation": "U položky Merlot Rosé je uvedeno: Morava. Kompletní popis: pozdní sběr Bílkovi – Velkopavlovicko, Morava."
+          },
+          {
+            "id": "ruzove-merlot-rose-bilkovi-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Merlot Rosé?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+            ],
+            "explanation": "Merlot Rosé obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cervena-vina",
+    "name": "Červená vína",
+    "badge": "Červená vína",
+    "description": "Plná a elegantní červená vína z Čech, Moravy, Rakouska, Německa i Kalifornie",
+    "iconName": "Wine",
+    "items": [
+      {
+        "id": "cervene-pinot-noir-rouci-kraus",
+        "name": "Pinot Noir",
+        "weight": "0,75l",
+        "price": "425 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Roučí Malé Kraus – Mělnicko, Čechy",
+        "questions": [
+          {
+            "id": "cervene-pinot-noir-rouci-kraus-vol",
+            "question": "Jaký je servírovací objem / míra položky Pinot Noir?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Pinot Noir je 0,75l."
+          },
+          {
+            "id": "cervene-pinot-noir-rouci-kraus-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Pinot Noir?",
+            "correctAnswer": "Roučí Malé Kraus – Mělnicko",
+            "distractors": [
+              "Vanilkový sirup a limetová šťáva",
+              "Třtinový cukr s limetkou"
+            ],
+            "explanation": "U položky Pinot Noir je uvedeno: Roučí Malé Kraus – Mělnicko. Kompletní popis: Roučí Malé Kraus – Mělnicko, Čechy."
+          },
+          {
+            "id": "cervene-pinot-noir-rouci-kraus-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Pinot Noir?",
+            "correctAnswer": "Čechy",
+            "distractors": [
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
+            ],
+            "explanation": "U položky Pinot Noir je uvedeno: Čechy. Kompletní popis: Roučí Malé Kraus – Mělnicko, Čechy."
+          },
+          {
+            "id": "cervene-pinot-noir-rouci-kraus-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Pinot Noir?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+            ],
+            "explanation": "Pinot Noir obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+          }
+        ]
+      },
+      {
+        "id": "cervene-dornfelder-bilkovi",
+        "name": "Dornfelder",
+        "weight": "0,75l",
+        "price": "419 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Bílkovi - Velkopavlovicko, Morava",
+        "questions": [
+          {
+            "id": "cervene-dornfelder-bilkovi-vol",
+            "question": "Jaký je servírovací objem / míra položky Dornfelder?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Dornfelder je 0,75l."
+          },
+          {
+            "id": "cervene-dornfelder-bilkovi-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Dornfelder?",
+            "correctAnswer": "Bílkovi - Velkopavlovicko",
+            "distractors": [
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
+            ],
+            "explanation": "U položky Dornfelder je uvedeno: Bílkovi - Velkopavlovicko. Kompletní popis: Bílkovi - Velkopavlovicko, Morava."
+          },
+          {
+            "id": "cervene-dornfelder-bilkovi-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Dornfelder?",
+            "correctAnswer": "Morava",
+            "distractors": [
+              "Světlý ležák plzeňského typu",
+              "Jablečný mošt z rodinné farmy"
+            ],
+            "explanation": "U položky Dornfelder je uvedeno: Morava. Kompletní popis: Bílkovi - Velkopavlovicko, Morava."
+          },
+          {
+            "id": "cervene-dornfelder-bilkovi-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Dornfelder?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+            ],
+            "explanation": "Dornfelder obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+          }
+        ]
+      },
+      {
+        "id": "cervene-cuvee-red-kolby",
+        "name": "Cuvée Red (Cabernet Sauvignon, Merlot)",
+        "weight": "0,75l",
+        "price": "649 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Kolby – Mikulovsko, Morava",
+        "questions": [
+          {
+            "id": "cervene-cuvee-red-kolby-vol",
+            "question": "Jaký je servírovací objem / míra položky Cuvée Red (Cabernet Sauvignon, Merlot)?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Cuvée Red (Cabernet Sauvignon, Merlot) je 0,75l."
+          },
+          {
+            "id": "cervene-cuvee-red-kolby-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Cuvée Red (Cabernet Sauvignon, Merlot)?",
+            "correctAnswer": "Kolby – Mikulovsko",
+            "distractors": [
+              "Jasmínový zelený čaj",
+              "Belgické višňové pivo"
+            ],
+            "explanation": "U položky Cuvée Red (Cabernet Sauvignon, Merlot) je uvedeno: Kolby – Mikulovsko. Kompletní popis: Kolby – Mikulovsko, Morava."
+          },
+          {
+            "id": "cervene-cuvee-red-kolby-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Cuvée Red (Cabernet Sauvignon, Merlot)?",
+            "correctAnswer": "Morava",
+            "distractors": [
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
+            ],
+            "explanation": "U položky Cuvée Red (Cabernet Sauvignon, Merlot) je uvedeno: Morava. Kompletní popis: Kolby – Mikulovsko, Morava."
+          },
+          {
+            "id": "cervene-cuvee-red-kolby-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Cuvée Red (Cabernet Sauvignon, Merlot)?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+            ],
+            "explanation": "Cuvée Red (Cabernet Sauvignon, Merlot) obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+          }
+        ]
+      },
+      {
+        "id": "cervene-nina-cuvee-bilkovi",
+        "name": "Nina Cuvée (Merlo, Frankovka)",
+        "weight": "0,75l",
+        "price": "699 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Bílkovi – Velkopavlovicko, Morava",
+        "questions": [
+          {
+            "id": "cervene-nina-cuvee-bilkovi-vol",
+            "question": "Jaký je servírovací objem / míra položky Nina Cuvée (Merlo, Frankovka)?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Nina Cuvée (Merlo, Frankovka) je 0,75l."
+          },
+          {
+            "id": "cervene-nina-cuvee-bilkovi-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Nina Cuvée (Merlo, Frankovka)?",
+            "correctAnswer": "Bílkovi – Velkopavlovicko",
+            "distractors": [
+              "Zázvorové pivo Fever-Tree",
+              "Čerstvý rozmarýn a jalovec"
+            ],
+            "explanation": "U položky Nina Cuvée (Merlo, Frankovka) je uvedeno: Bílkovi – Velkopavlovicko. Kompletní popis: Bílkovi – Velkopavlovicko, Morava."
+          },
+          {
+            "id": "cervene-nina-cuvee-bilkovi-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Nina Cuvée (Merlo, Frankovka)?",
+            "correctAnswer": "Morava",
+            "distractors": [
+              "Světlý ležák plzeňského typu",
+              "Jablečný mošt z rodinné farmy"
+            ],
+            "explanation": "U položky Nina Cuvée (Merlo, Frankovka) je uvedeno: Morava. Kompletní popis: Bílkovi – Velkopavlovicko, Morava."
+          },
+          {
+            "id": "cervene-nina-cuvee-bilkovi-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Nina Cuvée (Merlo, Frankovka)?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+            ],
+            "explanation": "Nina Cuvée (Merlo, Frankovka) obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+          }
+        ]
+      },
+      {
+        "id": "cervene-zweigelt-feller-artinger",
+        "name": "Zweigelt",
+        "weight": "0,75l",
+        "price": "660 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Weingut Feiler-Artinger – Burgenland, Rakousko",
+        "questions": [
+          {
+            "id": "cervene-zweigelt-feller-artinger-vol",
+            "question": "Jaký je servírovací objem / míra položky Zweigelt?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Zweigelt je 0,75l."
+          },
+          {
+            "id": "cervene-zweigelt-feller-artinger-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Zweigelt?",
+            "correctAnswer": "Weingut Feiler-Artinger – Burgenland",
+            "distractors": [
+              "Jasmínový zelený čaj",
+              "Belgické višňové pivo"
+            ],
+            "explanation": "U položky Zweigelt je uvedeno: Weingut Feiler-Artinger – Burgenland. Kompletní popis: Weingut Feiler-Artinger – Burgenland, Rakousko."
+          },
+          {
+            "id": "cervene-zweigelt-feller-artinger-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Zweigelt?",
+            "correctAnswer": "Rakousko",
+            "distractors": [
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
+            ],
+            "explanation": "U položky Zweigelt je uvedeno: Rakousko. Kompletní popis: Weingut Feiler-Artinger – Burgenland, Rakousko."
+          },
+          {
+            "id": "cervene-zweigelt-feller-artinger-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Zweigelt?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+            ],
+            "explanation": "Zweigelt obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+          }
+        ]
+      },
+      {
+        "id": "cervene-pinot-noir-philipp-kuhn",
+        "name": "Pinot Noir",
+        "weight": "0,75l",
+        "price": "959 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Tradition Philip Kuhn – Pfalz, Německo",
+        "questions": [
+          {
+            "id": "cervene-pinot-noir-philipp-kuhn-vol",
+            "question": "Jaký je servírovací objem / míra položky Pinot Noir?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Pinot Noir je 0,75l."
+          },
+          {
+            "id": "cervene-pinot-noir-philipp-kuhn-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Pinot Noir?",
+            "correctAnswer": "Tradition Philip Kuhn – Pfalz",
+            "distractors": [
+              "Italský aperitiv Campari",
+              "Černý sypaný čaj s bergamotem"
+            ],
+            "explanation": "U položky Pinot Noir je uvedeno: Tradition Philip Kuhn – Pfalz. Kompletní popis: Tradition Philip Kuhn – Pfalz, Německo."
+          },
+          {
+            "id": "cervene-pinot-noir-philipp-kuhn-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Pinot Noir?",
+            "correctAnswer": "Německo",
+            "distractors": [
+              "Jasmínový zelený čaj",
+              "Belgické višňové pivo"
+            ],
+            "explanation": "U položky Pinot Noir je uvedeno: Německo. Kompletní popis: Tradition Philip Kuhn – Pfalz, Německo."
+          },
+          {
+            "id": "cervene-pinot-noir-philipp-kuhn-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Pinot Noir?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+            ],
+            "explanation": "Pinot Noir obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+          }
+        ]
+      },
+      {
+        "id": "cervene-cabernet-lapis-luna",
+        "name": "Cabernet Sauvignon",
+        "weight": "0,75l",
+        "price": "789 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Lapis Luna - Lodi, Kalifornie",
+        "questions": [
+          {
+            "id": "cervene-cabernet-lapis-luna-vol",
+            "question": "Jaký je servírovací objem / míra položky Cabernet Sauvignon?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Cabernet Sauvignon je 0,75l."
+          },
+          {
+            "id": "cervene-cabernet-lapis-luna-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Cabernet Sauvignon?",
+            "correctAnswer": "Lapis Luna - Lodi",
+            "distractors": [
+              "Světlý ležák plzeňského typu",
+              "Jablečný mošt z rodinné farmy"
+            ],
+            "explanation": "U položky Cabernet Sauvignon je uvedeno: Lapis Luna - Lodi. Kompletní popis: Lapis Luna - Lodi, Kalifornie."
+          },
+          {
+            "id": "cervene-cabernet-lapis-luna-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Cabernet Sauvignon?",
+            "correctAnswer": "Kalifornie",
+            "distractors": [
+              "Čerstvý grepový fresh",
+              "Bezinkový sirup a čerstvá máta"
+            ],
+            "explanation": "U položky Cabernet Sauvignon je uvedeno: Kalifornie. Kompletní popis: Lapis Luna - Lodi, Kalifornie."
+          },
+          {
+            "id": "cervene-cabernet-lapis-luna-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Cabernet Sauvignon?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+            ],
+            "explanation": "Cabernet Sauvignon obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+          }
+        ]
+      },
+      {
+        "id": "cervene-zinfandel-hendry",
+        "name": "Zinfandel",
+        "weight": "0,75l",
+        "price": "995 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Hendry Ranch HRW - Napa Valley, Kalifornie",
+        "questions": [
+          {
+            "id": "cervene-zinfandel-hendry-vol",
+            "question": "Jaký je servírovací objem / míra položky Zinfandel?",
+            "correctAnswer": "0,75l",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Zinfandel je 0,75l."
+          },
+          {
+            "id": "cervene-zinfandel-hendry-ing-1",
+            "question": "Která surovina, původ či charakteristika patří k položce Zinfandel?",
+            "correctAnswer": "Hendry Ranch HRW - Napa Valley",
+            "distractors": [
+              "Limetová šťáva",
+              "Pomerančová kůra a hřebíček"
+            ],
+            "explanation": "U položky Zinfandel je uvedeno: Hendry Ranch HRW - Napa Valley. Kompletní popis: Hendry Ranch HRW - Napa Valley, Kalifornie."
+          },
+          {
+            "id": "cervene-zinfandel-hendry-ing-2",
+            "question": "Která surovina, původ či charakteristika patří k položce Zinfandel?",
+            "correctAnswer": "Kalifornie",
+            "distractors": [
+              "Mučenkový likér a vanilka",
+              "Kávový likér Kahlúa"
+            ],
+            "explanation": "U položky Zinfandel je uvedeno: Kalifornie. Kompletní popis: Hendry Ranch HRW - Napa Valley, Kalifornie."
+          },
+          {
+            "id": "cervene-zinfandel-hendry-allergen-12",
+            "question": "Který z následujících alergenů obsahuje položka Zinfandel?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 14 – Měkkýši a výrobky z nich",
+              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+            ],
+            "explanation": "Zinfandel obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
           }
         ]
       }
@@ -13944,4 +11875,4 @@ export const MENU_CATEGORIES: MenuCategory[] = [
 ];
 
 export const TOTAL_ITEMS_COUNT = MENU_CATEGORIES.reduce((acc, cat) => acc + cat.items.length, 0);
-export const TOTAL_QUESTIONS_COUNT = MENU_CATEGORIES.reduce((acc, cat) => acc + cat.items.reduce((qAcc, it) => qAcc + it.questions.length, 0), 0);
+export const TOTAL_QUESTIONS_COUNT = MENU_CATEGORIES.reduce((acc, cat) => acc + cat.items.reduce((qAcc, item) => qAcc + (item.questions ? item.questions.length : 0), 0), 0);

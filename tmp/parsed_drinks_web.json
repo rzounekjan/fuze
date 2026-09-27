@@ -1,0 +1,986 @@
+[
+  {
+    "raw_title": "pivo na čepu",
+    "title": "Pivo na čepu",
+    "items": [
+      {
+        "name": "TransFUZE 12",
+        "rest": "0,3l/0,5l | Náš tradiční ležák plzeňského typu, plné svěží chuti a vyvážené hořkosti, nepasterizovaný, nefiltrovaný",
+        "price": "59/69 Kč"
+      },
+      {
+        "name": "DisFuze 10",
+        "rest": "0,3l/0,5l | Světlé výčepní pivo , Abv 3,5%Česká klasika, poctivá desítka, velmi pitelné osvěžující pivo s vyšší hořkostí.",
+        "price": "59/69 Kč"
+      },
+      {
+        "name": "InFUZE IPA 12",
+        "rest": "04l | Styl: Session IPA , 12 stupňové pivo ,4,9 % obj alk svrchně kvašené pivo, lehké osvěžující, nepasterizované, nefiltrované s citrusovým aroma, chmeleno za studena",
+        "price": "85 Kč"
+      },
+      {
+        "name": "FUZEnáč 13 polotmavý",
+        "rest": "0,3l/0,5l | Naše spodně kvašené pivo jantarové barvy a výrazně kouřového aroma, plná sladová uzená chuť. Nepasterizovaný, nefiltrovaný",
+        "price": "69/78 Kč"
+      },
+      {
+        "name": "Kasteel Rouge 18",
+        "rest": "0,25l | Svrchně kvašené, 8% tmavé pivo 6 měsíců zrající na višních, z belgického pivovaru Van Honsebrouck, s nádhernou chutí a plnou vůní zralých višní",
+        "price": "118 Kč"
+      },
+      {
+        "name": "Zichovec Passion Fruit 12",
+        "rest": "0,4l | Sour Ale, tedy celoroční kyseláč opravdu výrazné kyselosti a intenzivní, marakujové vůně a chuti",
+        "price": "94 Kč"
+      },
+      {
+        "name": "Degustace piv",
+        "rest": "6x 0,15l | 6 vzorků výše uvedených piv na stylovém prkýnku",
+        "price": "285 Kč"
+      },
+      {
+        "name": "FUZEro",
+        "rest": "0,4l | náš IPL, nealko ležák chmelený americkým a za studena novozélandským chmelem, s jemnou sladovou chutí, vyšší hořkostí v závěru a krásnou, svěží chmelovou vůní, nepasterizovaný, nefiltrovaný",
+        "price": "69 Kč"
+      },
+      {
+        "name": "Maisel´s Weisse Alkoholfrei /lahvové/",
+        "rest": "0,33l | bavorský Weizenbier, tedy pšenice v nealkoholické podobě",
+        "price": "79 Kč"
+      }
+    ]
+  },
+  {
+    "raw_title": "cidery",
+    "title": "Cidery",
+    "items": [
+      {
+        "name": "Opre` Cider",
+        "rest": "0,33l | řemeslný jablečný cider ze slovenské rodinné farmy",
+        "price": "89 Kč"
+      },
+      {
+        "name": "Opre` Sour Cherry",
+        "rest": "0,33l | cider, který v sobě spojuje chuť jablečného cidru a osvěžující višňové šťávy",
+        "price": "96 Kč"
+      }
+    ]
+  },
+  {
+    "raw_title": "vody a minerální vody",
+    "title": "Vody a minerální vody",
+    "items": [
+      {
+        "name": "Filtrovaná voda v karafě",
+        "rest": "0,75l | neperlivá / perlivá",
+        "price": "89 Kč"
+      },
+      {
+        "name": "Sklenice filtrované vody",
+        "rest": "0,3l | neperlivá / perlivá",
+        "price": "35 Kč"
+      },
+      {
+        "name": "Infuzovaná voda",
+        "rest": "0,75l | v karafě citrus / máta",
+        "price": "99 Kč"
+      },
+      {
+        "name": "Mattoni Grand neperlivá",
+        "rest": "0,33l | přírodní minerální voda dekarbonová",
+        "price": "45 Kč"
+      },
+      {
+        "name": "Vratislavická kyselka",
+        "rest": "0,75l | přírodní minerální voda středně mineralizovaná s obsahem křemíku, přirozeně sycená",
+        "price": "119 Kč"
+      }
+    ]
+  },
+  {
+    "raw_title": "naše domácí limonády",
+    "title": "Naše domácí limonády",
+    "items": [
+      {
+        "name": "Grep a mango",
+        "rest": "0,4l",
+        "price": "84 Kč"
+      },
+      {
+        "name": "Malina a bílá čokoláda",
+        "rest": "0,4l",
+        "price": "84 Kč"
+      },
+      {
+        "name": "Švestka a kardamom",
+        "rest": "0,4l",
+        "price": "84 Kč"
+      },
+      {
+        "name": "Domácí citronáda",
+        "rest": "0,4l",
+        "price": "84 Kč"
+      },
+      {
+        "name": "Náš domácí ledový čaj",
+        "rest": "0,4l | jasmín a broskev",
+        "price": "86 Kč"
+      },
+      {
+        "name": "Fresh juice",
+        "rest": "0,2l | pomeranč / grep",
+        "price": "125 Kč"
+      }
+    ]
+  },
+  {
+    "raw_title": "lahvové limonády",
+    "title": "Lahvové limonády",
+    "items": [
+      {
+        "name": "Coca Cola / Coca Cola zero",
+        "rest": "0,33l",
+        "price": "65 Kč"
+      },
+      {
+        "name": "Thomas Henry Tonic",
+        "rest": "0,2l",
+        "price": "75 Kč"
+      },
+      {
+        "name": "Fever-Tree Tonic",
+        "rest": "0,2l",
+        "price": "85 Kč"
+      },
+      {
+        "name": "Fever-Tree Ginger Beer",
+        "rest": "0,2l",
+        "price": "85 Kč"
+      },
+      {
+        "name": "Red Bull",
+        "rest": "0,2l | plechovka",
+        "price": "99 Kč"
+      }
+    ]
+  },
+  {
+    "raw_title": "káva, čaj a horké nápoje",
+    "title": "Káva, čaj a horké nápoje",
+    "items": [
+      {
+        "name": "Espresso",
+        "rest": "9g",
+        "price": "66 Kč"
+      },
+      {
+        "name": "Espresso macchiato",
+        "rest": "9g",
+        "price": "78 Kč"
+      },
+      {
+        "name": "Cappuccino",
+        "rest": "9g",
+        "price": "85 Kč"
+      },
+      {
+        "name": "Caffé latte",
+        "rest": "9g",
+        "price": "88 Kč"
+      },
+      {
+        "name": "Flat white",
+        "rest": "18g",
+        "price": "99 Kč"
+      },
+      {
+        "name": "Double espresso",
+        "rest": "18g",
+        "price": "89 Kč"
+      },
+      {
+        "name": "Americano caffé / lungo",
+        "rest": "9g",
+        "price": "79 Kč"
+      },
+      {
+        "name": "Espresso káva se šlehačkou",
+        "rest": "9g",
+        "price": "85 Kč"
+      },
+      {
+        "name": "Sypaný čaj",
+        "rest": "černý, zelený nebo ovocný",
+        "price": "89 Kč"
+      },
+      {
+        "name": "Čaj s čerstvou mátou nebo zázvorem",
+        "rest": "",
+        "price": "89 Kč"
+      },
+      {
+        "name": "Opre` Gingerbread Cider",
+        "rest": "0,33l | horký perníkový cider s vůní hřebíčku a skořice",
+        "price": "98 Kč"
+      },
+      {
+        "name": "Horká čokoláda",
+        "rest": "s čerstvou šlehačkou",
+        "price": "85 Kč"
+      },
+      {
+        "name": "Chai latte",
+        "rest": "čaj se směsí exotického koření, cukru a horkého mléka",
+        "price": "99 Kč"
+      },
+      {
+        "name": "Svařené víno",
+        "rest": "0,15l | s kořením a pomerančem červené / bílé",
+        "price": "85 Kč"
+      }
+    ]
+  },
+  {
+    "raw_title": "vína po skle",
+    "title": "Vína po skle",
+    "items": [
+      {
+        "name": "Charmat de Vinselekt Pálava",
+        "rest": "0,1l | Vinselect Michlovský, Extra sec",
+        "price": "99 Kč"
+      },
+      {
+        "name": "Cremant de Vinselekt",
+        "rest": "0,1l | (Pinot, Chardonnay) Vinselect Michlovský, Extra brut",
+        "price": "115 Kč"
+      },
+      {
+        "name": "Rulandské šedé",
+        "rest": "0,15l | Kolby Morava, polosuché",
+        "price": "95 Kč"
+      },
+      {
+        "name": "Cuvée bílé",
+        "rest": "0,15l | Kraus Čechy",
+        "price": "98 Kč"
+      },
+      {
+        "name": "Grüner Veltliner",
+        "rest": "0,15l | Heuriger Rakousko",
+        "price": "109 Kč"
+      },
+      {
+        "name": "Chardonnay",
+        "rest": "0,15l | Adulation Kalifornie",
+        "price": "125 Kč"
+      },
+      {
+        "name": "Modrý Portugal rosé",
+        "rest": "0,15l | Kolby Morava",
+        "price": "95 Kč"
+      },
+      {
+        "name": "Modrý Portugal",
+        "rest": "0,15l | Kolby Morava",
+        "price": "95 Kč"
+      },
+      {
+        "name": "Cuvée červené",
+        "rest": "0,15l | Kraus Čechy",
+        "price": "98 Kč"
+      },
+      {
+        "name": "Pinot Noir",
+        "rest": "0,15l | Adulation Kalifornie",
+        "price": "125 Kč"
+      }
+    ]
+  },
+  {
+    "raw_title": "aperitivy",
+    "title": "Aperitivy",
+    "items": [
+      {
+        "name": "Aperol Spritz",
+        "rest": "Aperol, charmat, soda",
+        "price": "155 Kč"
+      },
+      {
+        "name": "Hugo Spritz",
+        "rest": "charmat, bezový elixír, limeta, máta, soda",
+        "price": "155 Kč"
+      },
+      {
+        "name": "Mimosa",
+        "rest": "charmat, pomerančový fresh, cukrový sirup",
+        "price": "168 Kč"
+      },
+      {
+        "name": "Kir",
+        "rest": "créme de cassis, charmat",
+        "price": "165 Kč"
+      },
+      {
+        "name": "Campari Bitter",
+        "rest": "0,06l",
+        "price": "87 Kč"
+      },
+      {
+        "name": "Martini Dry",
+        "rest": "0,08l",
+        "price": "79 Kč"
+      },
+      {
+        "name": "Cinzano Rosso / Bianco",
+        "rest": "0,08l",
+        "price": "79 Kč"
+      },
+      {
+        "name": "Grahams Porto Tawny 10y",
+        "rest": "0,06l",
+        "price": "225 Kč"
+      }
+    ]
+  },
+  {
+    "raw_title": "nealko aperitivy a koktejly",
+    "title": "Nealko aperitivy a koktejly",
+    "items": [
+      {
+        "name": "Crodino",
+        "rest": "0,175l | nealkoholický bitter",
+        "price": "109 Kč"
+      },
+      {
+        "name": "Martini Floreale Alcohol free & Thomas Henry Tonic",
+        "rest": "nealkoholické Martini, tonik, sušený pomeranč",
+        "price": "165 Kč"
+      },
+      {
+        "name": "Bitter soda J.Gasco",
+        "rest": "0,2l | nealkoholický bitter soda",
+        "price": "115 Kč"
+      },
+      {
+        "name": "Tanqueray Alcohol Free & Fever-Tree Tonic",
+        "rest": "nealkoholický G&T s limetou",
+        "price": "199 Kč"
+      }
+    ]
+  },
+  {
+    "raw_title": "klasické koktejly",
+    "title": "Klasické koktejly",
+    "items": [
+      {
+        "name": "Negroni",
+        "rest": "gin, Campari, Cinzano rosso",
+        "price": "195 Kč"
+      },
+      {
+        "name": "Margarita",
+        "rest": "tequila, Cointreau, limetová šťáva",
+        "price": "185 Kč"
+      },
+      {
+        "name": "Mojito",
+        "rest": "rum, máta, limeta, třtinový cukr",
+        "price": "185 Kč"
+      },
+      {
+        "name": "Frozen Strawberry Daiquiri",
+        "rest": "rum, limetová šťáva, cukrový sirup, jahody",
+        "price": "195 Kč"
+      },
+      {
+        "name": "Cuba Libre",
+        "rest": "rum, citrónová šťáva, Coca Cola",
+        "price": "165 Kč"
+      },
+      {
+        "name": "Mai-Tai",
+        "rest": "bílý a tmavý rum, curacao, mandlový likér, limetová šťáva",
+        "price": "199 Kč"
+      },
+      {
+        "name": "Porn star Martini",
+        "rest": "vanilková vodka, mučenkový likér, vanilkový sirup, limetová šťáva, charmat",
+        "price": "232 Kč"
+      },
+      {
+        "name": "Skinny bitch",
+        "rest": "vodka, limetová šťáva, soda",
+        "price": "125 Kč"
+      },
+      {
+        "name": "Cosmopolitan",
+        "rest": "vodka, Cointreau, brusinkový džus, limetová šťáva",
+        "price": "160 Kč"
+      },
+      {
+        "name": "Moscow mule",
+        "rest": "vodka, limetová šťáva, ginger beer",
+        "price": "185 Kč"
+      },
+      {
+        "name": "French Martini",
+        "rest": "vodka, malinový likér, ananasový džus",
+        "price": "195 Kč"
+      },
+      {
+        "name": "Espresso Martini",
+        "rest": "vodka, Kahlúa, cukrový sirup, espresso",
+        "price": "195 Kč"
+      },
+      {
+        "name": "Paloma",
+        "rest": "tequila, limitován šťáva, agáve sirup, grepfruit J.Gasco Soda Rosa, sůl",
+        "price": "195 Kč"
+      }
+    ]
+  },
+  {
+    "raw_title": "koktejly fuze",
+    "title": "Koktejly fuze",
+    "items": [
+      {
+        "name": "Truffle Negroni",
+        "rest": "truffle gin, Campari, Cinzano rosso",
+        "price": "205 Kč"
+      },
+      {
+        "name": "Fizzy Fuze",
+        "rest": "gin, liči džus, ananasový džus, bezinkový sirup, limetová šťáva, soda",
+        "price": "175 Kč"
+      },
+      {
+        "name": "Florencia Fashion",
+        "rest": "whisky, švestkový sirup, čokoládový bitters",
+        "price": "245 Kč"
+      },
+      {
+        "name": "A.M. Spritz",
+        "rest": "crémant, gin, broskvový sirup, limetová šťáva",
+        "price": "185 Kč"
+      },
+      {
+        "name": "Passionata",
+        "rest": "rum, mučenka, melounový sirup, brusinkový džus",
+        "price": "175 Kč"
+      }
+    ]
+  },
+  {
+    "raw_title": "gin&tonic",
+    "title": "Gin&tonic",
+    "items": [
+      {
+        "name": "Tanqueray & Thomas Henry Tonic",
+        "rest": "klasický s limetou",
+        "price": "188 Kč"
+      },
+      {
+        "name": "Fiesta Garage 22 & Guilti tonic lime",
+        "rest": "zábavný s limetou",
+        "price": "219 Kč"
+      },
+      {
+        "name": "Hendrick`s & Thomas Henry Tonic",
+        "rest": "svěží s okurkou",
+        "price": "208 Kč"
+      },
+      {
+        "name": "Endorphin Magic imaGINe & Fever-Tree Tonic",
+        "rest": "iluzionistický s borůvkami",
+        "price": "239 Kč"
+      },
+      {
+        "name": "Flame of Passion Pink Gin & Thomas Henry Pink Grapefruit Tonic",
+        "rest": "podmanivý se sušeným grepem",
+        "price": "228 Kč"
+      },
+      {
+        "name": "Endorphin Copper Moon & Fever-Tree Mediterranean Tonic",
+        "rest": "plný bylinek a pepře",
+        "price": "228 Kč"
+      }
+    ]
+  },
+  {
+    "raw_title": "ovocné destiláty 0,03L",
+    "title": "Ovocné destiláty 0,03L",
+    "items": [
+      {
+        "name": "Slivovice",
+        "rest": "Radlík",
+        "price": "105 Kč"
+      },
+      {
+        "name": "Slivovice ze sudu",
+        "rest": "Radlík",
+        "price": "140 Kč"
+      },
+      {
+        "name": "Hruškovice Williams",
+        "rest": "Skanzen",
+        "price": "110 Kč"
+      },
+      {
+        "name": "Hruškovice ze sudu",
+        "rest": "Radlík",
+        "price": "140 Kč"
+      },
+      {
+        "name": "Meruňkovice",
+        "rest": "Svach",
+        "price": "120 Kč"
+      },
+      {
+        "name": "Višňovice",
+        "rest": "Zubří",
+        "price": "98 Kč"
+      },
+      {
+        "name": "Jablkovice",
+        "rest": "Galli",
+        "price": "98 Kč"
+      },
+      {
+        "name": "Rybízovice",
+        "rest": "Raspenava",
+        "price": "160 Kč"
+      },
+      {
+        "name": "Vínovice ze sudu",
+        "rest": "Radlík",
+        "price": "149 Kč"
+      },
+      {
+        "name": "Tramínovice",
+        "rest": "Kolby",
+        "price": "135 Kč"
+      },
+      {
+        "name": "Poněšická Mrkvovice",
+        "rest": "",
+        "price": "123 Kč"
+      },
+      {
+        "name": "Malinovice Silver",
+        "rest": "Martenz",
+        "price": "175 Kč"
+      }
+    ]
+  },
+  {
+    "raw_title": "vodky 0,03L",
+    "title": "Vodky 0,03L",
+    "items": [
+      {
+        "name": "Anton Kaapl LEGIONÄR",
+        "rest": "",
+        "price": "75 Kč"
+      },
+      {
+        "name": "Nemiroff",
+        "rest": "",
+        "price": "85 Kč"
+      },
+      {
+        "name": "Grey Goose",
+        "rest": "",
+        "price": "135 Kč"
+      }
+    ]
+  },
+  {
+    "raw_title": "giny 0,03L",
+    "title": "Giny 0,03L",
+    "items": [
+      {
+        "name": "Tanqueray",
+        "rest": "",
+        "price": "89 Kč"
+      },
+      {
+        "name": "Hendrick`s",
+        "rest": "",
+        "price": "126 Kč"
+      },
+      {
+        "name": "Starej Dobrej Gin",
+        "rest": "Poněšice",
+        "price": "159 Kč"
+      },
+      {
+        "name": "Truffle gin",
+        "rest": "Garage 22",
+        "price": "155 Kč"
+      }
+    ]
+  },
+  {
+    "raw_title": "rumy 0,03L",
+    "title": "Rumy 0,03L",
+    "items": [
+      {
+        "name": "Havana Club Anejo 3 Anos",
+        "rest": "",
+        "price": "66 Kč"
+      },
+      {
+        "name": "El Dorado 12y",
+        "rest": "",
+        "price": "149 Kč"
+      },
+      {
+        "name": "Mount Gay XO",
+        "rest": "",
+        "price": "186 Kč"
+      },
+      {
+        "name": "Abuelo 7y",
+        "rest": "",
+        "price": "135 Kč"
+      },
+      {
+        "name": "Eminente Reserva 7y",
+        "rest": "",
+        "price": "172 Kč"
+      },
+      {
+        "name": "Dimplomatico",
+        "rest": "",
+        "price": "149 Kč"
+      },
+      {
+        "name": "Zacapa 23y",
+        "rest": "rumy 0,03L",
+        "price": "165 Kč"
+      }
+    ]
+  },
+  {
+    "raw_title": "tequily 0,03L",
+    "title": "Tequily 0,03L",
+    "items": [
+      {
+        "name": "Tres Alegres Compadres Blanco",
+        "rest": "",
+        "price": "89 Kč"
+      },
+      {
+        "name": "Herradura Reposado",
+        "rest": "",
+        "price": "168 Kč"
+      },
+      {
+        "name": "Tequila Corralejo Reposado",
+        "rest": "100% Agave",
+        "price": "149 Kč"
+      },
+      {
+        "name": "La Cofradia Reposado Rosé „ ed.Catrina ”",
+        "rest": "",
+        "price": "185 Kč"
+      },
+      {
+        "name": "La Cofradia Black „ ed.Catrina ”",
+        "rest": "",
+        "price": "185 Kč"
+      }
+    ]
+  },
+  {
+    "raw_title": "whisky, whiskey, bourbon 0,03L",
+    "title": "Whisky, whiskey, bourbon 0,03L",
+    "items": [
+      {
+        "name": "Goldcock blended",
+        "rest": "",
+        "price": "62 Kč"
+      },
+      {
+        "name": "Glenfiddich 15y",
+        "rest": "",
+        "price": "165 Kč"
+      },
+      {
+        "name": "Talisker 10y",
+        "rest": "",
+        "price": "165 Kč"
+      },
+      {
+        "name": "Monkey Shoulder",
+        "rest": "",
+        "price": "112 Kč"
+      },
+      {
+        "name": "Jameson",
+        "rest": "",
+        "price": "75 Kč"
+      },
+      {
+        "name": "Jack Daniels",
+        "rest": "",
+        "price": "105 Kč"
+      }
+    ]
+  },
+  {
+    "raw_title": "brandy & cognac 0,03L",
+    "title": "Brandy & cognac 0,03L",
+    "items": [
+      {
+        "name": "Metaxa *****",
+        "rest": "",
+        "price": "75 Kč"
+      },
+      {
+        "name": "Remy Martin 1738",
+        "rest": "",
+        "price": "170 Kč"
+      }
+    ]
+  },
+  {
+    "raw_title": "pálenky & likéry 0,03L",
+    "title": "Pálenky & likéry 0,03L",
+    "items": [
+      {
+        "name": "Fuzovice",
+        "rest": "FUZE/Agnes",
+        "price": "140 Kč"
+      },
+      {
+        "name": "Absinth St. Antoine",
+        "rest": "Žufánek",
+        "price": "165 Kč"
+      },
+      {
+        "name": "Kmínka",
+        "rest": "Garage 22",
+        "price": "78 Kč"
+      },
+      {
+        "name": "Kontušovka",
+        "rest": "Žufánek",
+        "price": "95 Kč"
+      },
+      {
+        "name": "Ořechový likér",
+        "rest": "Radlík",
+        "price": "119 Kč"
+      },
+      {
+        "name": "Hustopečská Mandlovka",
+        "rest": "",
+        "price": "98 Kč"
+      },
+      {
+        "name": "Jägermeister",
+        "rest": "",
+        "price": "65 Kč"
+      },
+      {
+        "name": "Poděbradská Samička",
+        "rest": "",
+        "price": "58 Kč"
+      },
+      {
+        "name": "Becherovka",
+        "rest": "Unfiltered",
+        "price": "65 Kč"
+      },
+      {
+        "name": "Smoked Grappa Bepi Tosolini",
+        "rest": "",
+        "price": "195 Kč"
+      },
+      {
+        "name": "Bezový elixír R.Jelínek",
+        "rest": "",
+        "price": "58 Kč"
+      },
+      {
+        "name": "Créme de cassis",
+        "rest": "Le Duc Charmant, Jenčík",
+        "price": "68 Kč"
+      },
+      {
+        "name": "Vaječňák",
+        "rest": "Bartida",
+        "price": "50 Kč"
+      },
+      {
+        "name": "Griotte Original",
+        "rest": "Bartida",
+        "price": "50 Kč"
+      },
+      {
+        "name": "Zelená",
+        "rest": "Bartida",
+        "price": "50 Kč"
+      },
+      {
+        "name": "Zelená",
+        "rest": "Svach",
+        "price": "58 Kč"
+      }
+    ]
+  },
+  {
+    "raw_title": "bubliny",
+    "title": "Bubliny",
+    "items": [
+      {
+        "name": "Charmat de Vinselekt Pálava",
+        "rest": "0,75L | Vinselect Michlovský, extra sec – Morava",
+        "price": "699 Kč"
+      },
+      {
+        "name": "Cremant de Vinselekt (Pinot, Chardonnay)",
+        "rest": "0,75L | Vinselect Michlovský, extra brut – Morava",
+        "price": "849 Kč"
+      },
+      {
+        "name": "Angels & Cowboys",
+        "rest": "0,75L | NV, brut - North Coast, Kalifornie",
+        "price": "1199 Kč"
+      }
+    ]
+  },
+  {
+    "raw_title": "bílá vína",
+    "title": "Bílá vína",
+    "items": [
+      {
+        "name": "Ryzlink rýnský",
+        "rest": "0,75L | pozdní sběr Gotberg – Pálava, Morava",
+        "price": "469 Kč"
+      },
+      {
+        "name": "Pinot Gris",
+        "rest": "0,75L | pozdní sběr Reisten – Mikulovsko, Morava",
+        "price": "479 Kč"
+      },
+      {
+        "name": "Hibernal",
+        "rest": "0,75L | pozdní sběr Bílkovi – Velkopavlovicko, Morava",
+        "price": "495 Kč"
+      },
+      {
+        "name": "Sauvignon",
+        "rest": "0,75L | Typik VOC Lukáš Halkoci – Znojemsko, Morava",
+        "price": "626 Kč"
+      },
+      {
+        "name": "Ryzlink Vlašský",
+        "rest": "0,75L | pozdní sběr Milan Sůkal – Slovácko, Morava",
+        "price": "660 Kč"
+      },
+      {
+        "name": "Pálava",
+        "rest": "0,75L | pozdní sběr Vinselect Michlovský – Lednicko- Valtický areál, Morava",
+        "price": "506 Kč"
+      },
+      {
+        "name": "Poysdorfer Saurüssel",
+        "rest": "0,75L | Veltlínské zelené, Hauser – Weinviertel, Rakousko",
+        "price": "629 Kč"
+      },
+      {
+        "name": "Grüner Veltliner",
+        "rest": "0,75L | Premium Ried Satzen DAC Schwarzbock – Weinviertel, Rakousko",
+        "price": "723 Kč"
+      },
+      {
+        "name": "Riesling Rheingau",
+        "rest": "0,75L | QbA Trocken Eva Fricke – Rheingau, Německo",
+        "price": "999 Kč"
+      },
+      {
+        "name": "Riesling",
+        "rest": "0,75L | Red Stone QbA trocken Gunderloch – Rheinhessen, Německo",
+        "price": "595 Kč"
+      },
+      {
+        "name": "Riesling",
+        "rest": "0,75L | Tradition Brauneberg Fritz Haag – Mosel, Německo",
+        "price": "975 Kč"
+      },
+      {
+        "name": "Weisser Burgunder",
+        "rest": "0,75L | Rulandské bílé, Tradition Trocken Philipp Kuhn – Pfalz, Německo",
+        "price": "725 Kč"
+      },
+      {
+        "name": "Sauvignon Blanc",
+        "rest": "0,75L | Lapis Luna - North Coast, Kalifornie",
+        "price": "789 Kč"
+      },
+      {
+        "name": "Chardonnay",
+        "rest": "0,75L | Knotty Vines – Kalifornie",
+        "price": "975 Kč"
+      }
+    ]
+  },
+  {
+    "raw_title": "růžová vína",
+    "title": "Růžová vína",
+    "items": [
+      {
+        "name": "Merlot Rosé",
+        "rest": "0,75L | pozdní sběr Bílkovi – Velkopavlovicko, Morava",
+        "price": "405 Kč"
+      }
+    ]
+  },
+  {
+    "raw_title": "červená vína",
+    "title": "Červená vína",
+    "items": [
+      {
+        "name": "Pinot Noir",
+        "rest": "0,75L | Roučí Malé Kraus – Mělnicko, Čechy",
+        "price": "425 Kč"
+      },
+      {
+        "name": "Dornfelder",
+        "rest": "0,75L | Bílkovi - Velkopavlovicko, Morava",
+        "price": "419 Kč"
+      },
+      {
+        "name": "Cuvée Red (Cabernet Sauvignon, Merlot)",
+        "rest": "0,75L | Kolby – Mikulovsko, Morava",
+        "price": "649 Kč"
+      },
+      {
+        "name": "Nina Cuvée (Merlo, Frankovka)",
+        "rest": "0,75L | Bílkovi – Velkopavlovicko, Morava",
+        "price": "699 Kč"
+      },
+      {
+        "name": "Zweigelt",
+        "rest": "0,75L | Weingut Feiler-Artinger – Burgenland, Rakousko",
+        "price": "660 Kč"
+      },
+      {
+        "name": "Pinot Noir",
+        "rest": "0,75L | Tradition Philip Kuhn – Pfalz, Německo",
+        "price": "959 Kč"
+      },
+      {
+        "name": "Cabernet Sauvignon",
+        "rest": "0,75L | Lapis Luna - Lodi, Kalifornie",
+        "price": "789 Kč"
+      },
+      {
+        "name": "Zinfandel",
+        "rest": "0,75L | Hendry Ranch HRW - Napa Valley, Kalifornie",
+        "price": "995 Kč"
+      }
+    ]
+  }
+]
