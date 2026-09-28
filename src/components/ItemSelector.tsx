@@ -4,7 +4,7 @@ import { UserStats } from '../utils/storage';
 import { AudioPronounceButton } from './AudioPronounceButton';
 import { 
   ArrowLeft, Search, CheckCircle2, Play, 
-  HelpCircle, Sparkles, BookOpen 
+  HelpCircle, Sparkles, BookOpen, MapPin, Compass
 } from 'lucide-react';
 
 interface ItemSelectorProps {
@@ -12,6 +12,7 @@ interface ItemSelectorProps {
   onBack: () => void;
   onSelectItem: (item: MenuItem) => void;
   onQuizEntireCategory: () => void;
+  onOpenTableTrainer?: () => void;
   stats: UserStats;
   language?: 'cs' | 'en';
 }
@@ -21,6 +22,7 @@ export const ItemSelector: React.FC<ItemSelectorProps> = ({
   onBack,
   onSelectItem,
   onQuizEntireCategory,
+  onOpenTableTrainer,
   stats,
   language = 'cs'
 }) => {
@@ -84,6 +86,38 @@ export const ItemSelector: React.FC<ItemSelectorProps> = ({
           />
         </div>
       </div>
+
+      {/* Special Interactive Table Trainer Banner when viewing plan-stolu */}
+      {(category.id === 'plan-stolu' || category.id === 'rozmisteni-stolu') && onOpenTableTrainer && (
+        <div className="p-5 rounded-2xl bg-gradient-to-br from-amber-950/50 via-stone-900 to-amber-900/30 border-2 border-amber-500/70 shadow-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-4 animate-fadeIn">
+          <div className="flex items-center gap-3.5">
+            <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-amber-400 to-amber-600 text-stone-950 flex items-center justify-center font-black text-xl shrink-0 shadow-lg shadow-amber-950/50">
+              <MapPin className="w-6 h-6 stroke-[2.5]" />
+            </div>
+            <div>
+              <div className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[10px] font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40 uppercase tracking-wider mb-1">
+                <Sparkles className="w-3 h-3 text-amber-400" />
+                {language === 'en' ? 'Interactive PC Floor Plan' : 'Interaktivní PC trenažér & Bleskovka'}
+              </div>
+              <h4 className="text-base sm:text-lg font-black text-stone-100">
+                {language === 'en' ? 'Interactive Floor Plan: Visual Trainer & Rush Drill' : 'Interaktivní plán stolů: Vizuální trenažér & Bleskovka'}
+              </h4>
+              <p className="text-xs text-stone-300 mt-0.5 max-w-xl">
+                {language === 'en'
+                  ? 'Practice 3-digit table identification on the interactive PC map or test your speed in the 60s dinner rush drill!'
+                  : 'Procvičujte hledání třímístných čísel stolů na interaktivní mapě pro PC nebo otestujte své reflexy v 60vteřinové bleskovce!'}
+              </p>
+            </div>
+          </div>
+          <button
+            onClick={onOpenTableTrainer}
+            className="px-6 py-3.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-950 font-black text-xs uppercase tracking-wider shadow-xl shadow-amber-950/60 transition-all hover:scale-[1.02] active:scale-[0.98] shrink-0 flex items-center justify-center gap-2"
+          >
+            <Compass className="w-4 h-4" />
+            <span>{language === 'en' ? 'Launch Visual Trainer & Drill' : 'Spustit Vizuální trenažér & Bleskovku'}</span>
+          </button>
+        </div>
+      )}
 
       {/* List of Sub-Items */}
       <div>

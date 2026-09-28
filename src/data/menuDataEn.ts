@@ -14487,6 +14487,114 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       }
     ]
   }
+,
+  {
+    "id": "plan-stolu",
+    "name": "Floor Plan – Visual Trainer & Rush Drill",
+    "badge": "Floor Plan",
+    "description": "Interactive visual trainer and speed rush drill with separated testing for 1st Floor (53 tables) and 2nd Floor (47 tables)",
+    "iconName": "MapPin",
+    "items": [
+      {
+        "id": "vizualni-trenazer",
+        "name": "Visual Table Trainer",
+        "weight": "1st Floor (53 tables) & 2nd Floor (47 tables)",
+        "price": "Modes: Map Point & Identify",
+        "allergens": [
+          "3-Digit Numbers",
+          "Separated Floors"
+        ],
+        "description": "Interactive visual training program for rapid staff spatial orientation on PC with separate testing per floor. Accurate floor plan layout for both 1st and 2nd floors.",
+        "notes": "All tables feature 3-digit numbering (Floor 1 e.g. 101, 102, 121, 180... and Floor 2 e.g. 201, 209, 225, 230...).",
+        "questions": [
+          {
+            "id": "viz-tren-q1",
+            "question": "What number format is always used for tables in the restaurant?",
+            "correctAnswer": "Always a 3-digit number (e.g. 121, 122, 180, 209)",
+            "distractors": [
+              "Single-digit numbers (1–9)",
+              "Two-digit numbers (11–99)"
+            ],
+            "explanation": "All tables in the restaurant are identified exclusively by 3-digit numbers (e.g. 121, 122, 101, 180 on Floor 1 and 201, 209, 225 on Floor 2)."
+          },
+          {
+            "id": "viz-tren-q2",
+            "question": "How are table tests organized in the trainer?",
+            "correctAnswer": "Separately for 1st Floor (53 tables) and 2nd Floor (47 tables)",
+            "distractors": [
+              "All floors mixed together without choice",
+              "Single floor only with no selector"
+            ],
+            "explanation": "Both the Visual Trainer and Rush Drill divide tests by floors so each floor is trained and measured separately."
+          },
+          {
+            "id": "viz-tren-q3",
+            "question": "Which of the following represents the correct table format?",
+            "correctAnswer": "Table 209",
+            "distractors": [
+              "Table 20",
+              "Table 9"
+            ],
+            "explanation": "The correct format is always a 3-digit number, such as Table 209 on the 2nd Floor."
+          },
+          {
+            "id": "viz-tren-q4",
+            "question": "Which two training modes are included in the Floor Plan module?",
+            "correctAnswer": "Visual Trainer & Rush Drill",
+            "distractors": [
+              "Recipes & Math",
+              "Passive text reading only"
+            ],
+            "explanation": "The Floor Plan module is specialized into two active modes: Visual Trainer and Rush Drill."
+          }
+        ]
+      },
+      {
+        "id": "bleskovka-60s",
+        "name": "Rush Hour Speed Drill (60s)",
+        "weight": "Dinner Rush Simulation",
+        "price": "Time limit: 60 seconds",
+        "allergens": [
+          "Reflex Training",
+          "Streak & Score"
+        ],
+        "description": "High-intensity speed drill for waitstaff on PC. Table numbers appear under a 60-second countdown. The goal is to locate and tap the correct table as fast as possible on the map.",
+        "notes": "Tracks consecutive correct streaks, awards speed multipliers, and stores your personal best record.",
+        "questions": [
+          {
+            "id": "blesk-q1",
+            "question": "What is the primary objective of the Rush Hour Drill?",
+            "correctAnswer": "To build instant muscle memory and table location reflexes during busy shifts",
+            "distractors": [
+              "To memorize drink recipes",
+              "To calculate register cash receipts"
+            ],
+            "explanation": "The Rush Hour Drill trains waitstaff to instantly navigate to tables without hesitation."
+          },
+          {
+            "id": "blesk-q2",
+            "question": "What is the time limit in the Rush Hour Drill mode?",
+            "correctAnswer": "60 seconds",
+            "distractors": [
+              "15 seconds",
+              "5 minutes"
+            ],
+            "explanation": "Rush Hour Drill features an intensive 60-second timer to sharpen reflexes."
+          },
+          {
+            "id": "blesk-q3",
+            "question": "What is the goal of staff when practicing in the table trainer?",
+            "correctAnswer": "Instantly and accurately find the requested 3-digit table number on the floor plan",
+            "distractors": [
+              "Guess random numbers",
+              "Read long descriptions and legends"
+            ],
+            "explanation": "The goal is rapid, confident spatial orientation across all 3-digit table numbers."
+          }
+        ]
+      }
+    ]
+  }
 ];
 
 export const TOTAL_ITEMS_COUNT_EN = MENU_CATEGORIES_EN.reduce((acc, cat) => acc + cat.items.length, 0);

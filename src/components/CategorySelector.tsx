@@ -6,7 +6,8 @@ import {
   Utensils, Flame, Soup, Salad, CookingPot, 
   FlameKindling, Droplet, Wheat, Cake, Sparkles, 
   Beer, Wine, GlassWater, ChevronRight, CheckCircle2,
-  CupSoda, Coffee, Martini, ShieldAlert, AlertCircle
+  CupSoda, Coffee, Martini, ShieldAlert, AlertCircle,
+  MapPin, LayoutGrid
 } from 'lucide-react';
 
 interface CategorySelectorProps {
@@ -36,7 +37,9 @@ const ICON_MAP: Record<string, React.ElementType> = {
   Coffee,
   Martini,
   ShieldAlert,
-  AlertCircle
+  AlertCircle,
+  MapPin,
+  LayoutGrid
 };
 
 export const CategorySelector: React.FC<CategorySelectorProps> = ({
@@ -143,6 +146,12 @@ export const CategorySelector: React.FC<CategorySelectorProps> = ({
                     <Icon className="w-5 h-5" />
                   </div>
                   <div className="flex items-center gap-1.5 text-xs flex-wrap justify-end">
+                    {(cat.id === 'plan-stolu' || cat.id === 'rozmisteni-stolu') && (
+                      <span className="inline-flex items-center gap-1 text-[11px] font-bold text-amber-300 bg-amber-500/20 px-2 py-0.5 rounded border border-amber-500/40">
+                        <MapPin className="w-3 h-3 text-amber-400" />
+                        {language === 'en' ? 'Visual Trainer & Rush Drill' : 'Vizuální trenažér & Bleskovka'}
+                      </span>
+                    )}
                     {isSelected && (
                       <span className="inline-flex items-center gap-1 text-[11px] font-bold text-amber-300 bg-amber-500/20 px-2 py-0.5 rounded border border-amber-500/40 animate-pulse">
                         <Sparkles className="w-3 h-3 text-amber-400" />

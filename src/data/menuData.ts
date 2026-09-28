@@ -12135,6 +12135,114 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       }
     ]
   }
+,
+  {
+    "id": "plan-stolu",
+    "name": "Plán stolů – Vizuální trenažér & Bleskovka",
+    "badge": "Plán stolů",
+    "description": "Interaktivní vizuální trenažér a rychlostní bleskovka s odděleným tréninkem pro 1. patro (53 stolů) a 2. patro (47 stolů)",
+    "iconName": "MapPin",
+    "items": [
+      {
+        "id": "vizualni-trenazer",
+        "name": "Vizuální trenažér stolů",
+        "weight": "1. patro (53 stolů) & 2. patro (47 stolů)",
+        "price": "Režim: Hledání & Poznej stůl",
+        "allergens": [
+          "Třímístná čísla",
+          "Oddělená patra"
+        ],
+        "description": "Interaktivní vizuální výukový program pro výcvik rychlé orientace personálu na PC s odděleným testováním po patrech. Přesné rozkreslení stolů podle plánu 1. i 2. patra restaurace.",
+        "notes": "Všechny stoly jsou označeny třímístnými čísly (1. patro např. 101, 102, 121, 180... a 2. patro např. 201, 209, 225, 230...).",
+        "questions": [
+          {
+            "id": "viz-tren-q1",
+            "question": "Jakým formátem čísel jsou vždy označeny stoly v restauraci?",
+            "correctAnswer": "Vždy třímístným číslem (např. 121, 122, 180, 209)",
+            "distractors": [
+              "Jednomístným číslem (1–9)",
+              "Dvoumístným číslem (11–99)"
+            ],
+            "explanation": "Všechny stoly v restauraci jsou značeny výhradně třímístnými čísly (např. 121, 122, 101, 180 na 1. patře a 201, 209, 225 na 2. patře)."
+          },
+          {
+            "id": "viz-tren-q2",
+            "question": "Jak jsou v trenažéru organizovány testy stolů?",
+            "correctAnswer": "Odděleně pro 1. patro (53 stolů) a 2. patro (47 stolů)",
+            "distractors": [
+              "Všechny stoly smíchány bez možnosti volby patra",
+              "Pouze jedno patro bez možnosti výběru"
+            ],
+            "explanation": "Vizuální trenažér i Bleskovka mají testy rozdělené podle pater – každé patro se procvičuje a měří samostatně."
+          },
+          {
+            "id": "viz-tren-q3",
+            "question": "Které z následujících označení představuje správný formát stolu?",
+            "correctAnswer": "Stůl 209",
+            "distractors": [
+              "Stůl 20",
+              "Stůl 9"
+            ],
+            "explanation": "Správný formát je vždy třímístné číslo, jako například stůl 209 na 2. patře."
+          },
+          {
+            "id": "viz-tren-q4",
+            "question": "Které dva výukové režimy nabízí sekce Plán stolů?",
+            "correctAnswer": "Vizuální trenažér & Bleskovka",
+            "distractors": [
+              "Receptury & Kalkulace",
+              "Pouze pasivní čtení textu"
+            ],
+            "explanation": "Sekce Plán stolů je specializovaná na dva aktivní režimy: Vizuální trenažér a Bleskovku."
+          }
+        ]
+      },
+      {
+        "id": "bleskovka-60s",
+        "name": "Bleskovka – Rychlostní test (60s)",
+        "weight": "Simulace špičky",
+        "price": "Časový limit: 60 sekund",
+        "allergens": [
+          "Trénink reflexů",
+          "Série & Skóre"
+        ],
+        "description": "Zátěžový rychlostní trénink pro personál na PC. Systém generuje třímístná čísla stolů a běží 60vteřinový odpočet. Cílem je co nejrychleji kliknout na správný stůl na mapě.",
+        "notes": "Počítá sérii úspěšných zásahů v řadě, kombinuje body za rychlost a ukládá osobní rekord do zařízení.",
+        "questions": [
+          {
+            "id": "blesk-q1",
+            "question": "Jaký je hlavní účel tréninkového režimu Bleskovka?",
+            "correctAnswer": "Nacvičit bleskovou reakci a reflexivní lokalizaci stolu bez přemýšlení během špičky",
+            "distractors": [
+              "Naučit se receptury nápojů",
+              "Vypočítat tržbu pokladny"
+            ],
+            "explanation": "Bleskovka simuluje nápor objednávek při špičce, kdy obsluha musí okamžitě vědět, kde se dané třímístné číslo stolu nachází."
+          },
+          {
+            "id": "blesk-q2",
+            "question": "Jak dlouhý je časový limit v tréninkovém režimu Bleskovka?",
+            "correctAnswer": "60 sekund",
+            "distractors": [
+              "15 sekund",
+              "5 minut"
+            ],
+            "explanation": "Bleskovka má stanovený časový limit 60 sekund pro intenzivní nácvik reflexů."
+          },
+          {
+            "id": "blesk-q3",
+            "question": "Co je cílem personálu při tréninku v trenažéru stolů?",
+            "correctAnswer": "Okamžitě a bez váhání najít požadované třímístné číslo stolu na plánu",
+            "distractors": [
+              "Pouze hádat náhodná čísla",
+              "Číst dlouhé popisy a legendy"
+            ],
+            "explanation": "Cílem je perfektní prostorová orientace personálu podle třímístných čísel stolů."
+          }
+        ]
+      }
+    ]
+  }
 ];
 
 export const TOTAL_ITEMS_COUNT = MENU_CATEGORIES.reduce((acc, cat) => acc + cat.items.length, 0);

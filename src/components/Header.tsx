@@ -1,12 +1,12 @@
 import React from 'react';
-import { Volume2, VolumeX, BookOpen, Trophy, Sparkles, Utensils, RotateCcw } from 'lucide-react';
+import { Volume2, VolumeX, BookOpen, Trophy, Sparkles, Utensils, RotateCcw, MapPin } from 'lucide-react';
 import { UserStats } from '../utils/storage';
 import { soundManager } from '../utils/sound';
 import { PWAInstallButton } from './PWAInstallButton';
 
 interface HeaderProps {
-  currentTab: 'train' | 'exam' | 'catalog';
-  setCurrentTab: (tab: 'train' | 'exam' | 'catalog') => void;
+  currentTab: 'train' | 'exam' | 'catalog' | 'tables';
+  setCurrentTab: (tab: 'train' | 'exam' | 'catalog' | 'tables') => void;
   stats: UserStats;
   totalItemsCount: number;
   totalQuestionsCount?: number;
@@ -108,7 +108,7 @@ export const Header: React.FC<HeaderProps> = ({
           </div>
 
           {/* Nav Tabs */}
-          <div className="flex items-center gap-1 sm:gap-1.5 bg-stone-950 p-1 rounded-xl border border-stone-800 w-full sm:w-auto justify-center">
+          <div className="flex items-center gap-1 sm:gap-1.5 bg-stone-950 p-1 rounded-xl border border-stone-800 w-full sm:w-auto justify-center flex-wrap">
             <button
               onClick={() => setCurrentTab('train')}
               className={`flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all ${
@@ -118,7 +118,7 @@ export const Header: React.FC<HeaderProps> = ({
               }`}
             >
               <Utensils className="w-3.5 h-3.5" />
-              <span>Výuka A, B, C</span>
+              <span>{language === 'en' ? 'Learn A, B, C' : 'Výuka A, B, C'}</span>
             </button>
 
             <button
@@ -130,7 +130,7 @@ export const Header: React.FC<HeaderProps> = ({
               }`}
             >
               <Sparkles className="w-3.5 h-3.5" />
-              <span>Zkouška (Mix 10)</span>
+              <span>{language === 'en' ? 'Exam (Mix 10)' : 'Zkouška (Mix 10)'}</span>
             </button>
 
             <button
@@ -142,7 +142,19 @@ export const Header: React.FC<HeaderProps> = ({
               }`}
             >
               <BookOpen className="w-3.5 h-3.5" />
-              <span>Kniha menu</span>
+              <span>{language === 'en' ? 'Menu Book' : 'Kniha menu'}</span>
+            </button>
+
+            <button
+              onClick={() => setCurrentTab('tables')}
+              className={`flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all ${
+                currentTab === 'tables'
+                  ? 'bg-amber-600 text-white shadow-md shadow-amber-900/40'
+                  : 'text-stone-400 hover:text-stone-200 hover:bg-stone-800/50'
+              }`}
+            >
+              <MapPin className="w-3.5 h-3.5 text-amber-400" />
+              <span>{language === 'en' ? 'Floor Plan' : 'Plán stolů'}</span>
             </button>
           </div>
 

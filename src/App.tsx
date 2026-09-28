@@ -8,13 +8,14 @@ import { ItemSelector } from './components/ItemSelector';
 import { QuizView } from './components/QuizView';
 import { RandomExam } from './components/RandomExam';
 import { MenuExplorer } from './components/MenuExplorer';
+import { TableOrientationTrainer } from './components/TableOrientationTrainer';
 import { OfflineIndicator } from './components/OfflineIndicator';
 import { RotateCcw } from 'lucide-react';
 
 const NAV_STATE_KEY = 'fuze_nav_state';
 
 interface PersistedNavState {
-  currentTab: 'train' | 'exam' | 'catalog';
+  currentTab: 'train' | 'exam' | 'catalog' | 'tables';
   categoryId: string | null;
   itemId: string | null;
   isCategoryRunner: boolean;
@@ -44,9 +45,9 @@ export default function App() {
   // Dynamic categories based on active language
   const activeCategories = language === 'en' ? MENU_CATEGORIES_EN : MENU_CATEGORIES;
 
-  const [currentTab, setCurrentTab] = useState<'train' | 'exam' | 'catalog'>(() => {
+  const [currentTab, setCurrentTab] = useState<'train' | 'exam' | 'catalog' | 'tables'>(() => {
     const nav = readStoredNavState();
-    if (nav.currentTab && ['train', 'exam', 'catalog'].includes(nav.currentTab)) {
+    if (nav.currentTab && ['train', 'exam', 'catalog', 'tables'].includes(nav.currentTab)) {
       return nav.currentTab;
     }
     return 'train';
@@ -376,6 +377,7 @@ export default function App() {
                 onBack={handleBackToCategories}
                 onSelectItem={handleSelectItem}
                 onQuizEntireCategory={handleQuizEntireCategory}
+                onOpenTableTrainer={() => setCurrentTab('tables')}
                 stats={stats}
                 language={language}
               />
@@ -411,6 +413,16 @@ export default function App() {
             categories={activeCategories}
             onStartQuiz={handleStartQuizFromExplorer}
             masteredIds={stats.masteredItemIds}
+            language={language}
+          />
+        )}
+
+        {currentTab === 'tables' && (
+          <TableOrientationTrainer
+            onBack={() => {
+              refreshStats();
+              setCurrentTab('train');
+            }}
             language={language}
           />
         )}
