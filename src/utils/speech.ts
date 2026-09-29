@@ -392,8 +392,26 @@ class SpeechManager {
       const cleanName = this.cleanEnglishText(name);
       let cleanDesc = this.cleanEnglishText(description);
 
-      if (cleanDesc && !cleanDesc.toLowerCase().startsWith('ingredients') && !cleanDesc.toLowerCase().startsWith('recipe')) {
-        cleanDesc = `Ingredients: ${cleanDesc}`;
+      if (
+        cleanDesc &&
+        !cleanDesc.toLowerCase().startsWith('ingredients') &&
+        !cleanDesc.toLowerCase().startsWith('recipe') &&
+        !cleanDesc.toLowerCase().startsWith('category') &&
+        !cleanDesc.toLowerCase().startsWith('subcategory') &&
+        !cleanDesc.toLowerCase().startsWith('section') &&
+        !cleanDesc.toLowerCase().startsWith('overview') &&
+        !cleanDesc.toLowerCase().startsWith('description') &&
+        !cleanDesc.toLowerCase().startsWith('culinary') &&
+        !cleanDesc.toLowerCase().startsWith('beverage') &&
+        !cleanDesc.toLowerCase().startsWith('wine') &&
+        !cleanDesc.toLowerCase().startsWith('fresh') &&
+        !cleanDesc.toLowerCase().startsWith('prestigious') &&
+        !cleanDesc.toLowerCase().startsWith('traditional') &&
+        !cleanDesc.toLowerCase().startsWith('authentic')
+      ) {
+        if (!cleanDesc.includes('.') || cleanDesc.split(',').length >= 2) {
+          cleanDesc = `Ingredients: ${cleanDesc}`;
+        }
       }
 
       const fullText = cleanName ? `${cleanName}. ${cleanDesc}` : cleanDesc;
@@ -418,8 +436,19 @@ class SpeechManager {
       let cleanDesc = '';
       if (description && description.trim()) {
         cleanDesc = this.cleanCzechText(description);
-        if (!cleanDesc.toLowerCase().startsWith('složení') && !cleanDesc.toLowerCase().startsWith('popis')) {
-          cleanDesc = `Složení: ${cleanDesc}`;
+        if (
+          !cleanDesc.toLowerCase().startsWith('složení') &&
+          !cleanDesc.toLowerCase().startsWith('popis') &&
+          !cleanDesc.toLowerCase().startsWith('kategorie') &&
+          !cleanDesc.toLowerCase().startsWith('podsložka') &&
+          !cleanDesc.toLowerCase().startsWith('sekce') &&
+          !cleanDesc.toLowerCase().startsWith('přehled') &&
+          !cleanDesc.toLowerCase().startsWith('tradiční') &&
+          !cleanDesc.toLowerCase().startsWith('čerstvé')
+        ) {
+          if (!cleanDesc.includes('.') || cleanDesc.split(',').length >= 2) {
+            cleanDesc = `Složení: ${cleanDesc}`;
+          }
         }
       }
 

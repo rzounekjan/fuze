@@ -26,6 +26,7 @@ import {
   CULINARY_TERMS_EN,
   BEVERAGE_ITEMS_EN
 } from '../data/libraryDataEn';
+import { AudioPronounceButton } from './AudioPronounceButton';
 
 interface LibraryViewProps {
   language?: 'cs' | 'en';
@@ -68,31 +69,145 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
     } catch {}
   };
 
-  // Culinary Categories list
+  // Culinary Categories list with spoken descriptions
   const culinaryCategories = useMemo(() => [
-    { id: 'all', label: isEn ? 'All Terms' : 'Všechny pojmy' },
-    { id: 'sauces_dressings', label: isEn ? 'Sauces & Salsas' : 'Omáčky a salsy' },
-    { id: 'meat_cuts', label: isEn ? 'Meat & Steak Cuts' : 'Maso a masné řezy' },
-    { id: 'gourmet_ingredients', label: isEn ? 'Gourmet Ingredients' : 'Gurmánské suroviny' },
-    { id: 'culinary_techniques', label: isEn ? 'Cooking Techniques' : 'Kulinářské techniky' },
-    { id: 'world_flavors', label: isEn ? 'World & Asian Flavors' : 'Světové chutě a asijská fúze' },
-    { id: 'pastry_sweets', label: isEn ? 'Pastry & Sweets' : 'Cukrářství a dezerty' }
+    { 
+      id: 'all', 
+      label: isEn ? 'All Terms' : 'Všechny pojmy',
+      description: isEn 
+        ? 'All culinary terms, cuts, foreign food names, and techniques in Fuze.' 
+        : 'Všechny kulinářské pojmy, masné řezy, cizí názvy a techniky ve Fuze.'
+    },
+    { 
+      id: 'sauces_dressings', 
+      label: isEn ? 'Sauces & Salsas' : 'Omáčky a salsy',
+      description: isEn 
+        ? 'Authentic cold and hot sauces, dressings, marinades, and reductions.' 
+        : 'Autentické studené i teplé omáčky, dresinky, marinády a redukce.'
+    },
+    { 
+      id: 'meat_cuts', 
+      label: isEn ? 'Meat & Steak Cuts' : 'Maso a masné řezy',
+      description: isEn 
+        ? 'Heritage breeds, steak cuts, butchery terminology, and pork belly.' 
+        : 'Ušlechtilá plemena, steakové řezy, řeznická terminologie a vepřové boky.'
+    },
+    { 
+      id: 'gourmet_ingredients', 
+      label: isEn ? 'Gourmet Ingredients' : 'Gurmánské suroviny',
+      description: isEn 
+        ? 'Specialty gourmet delicacies, fresh cheeses, and premium ingredients.' 
+        : 'Speciality, delikatesy, čerstvé sýry a prémiové suroviny.'
+    },
+    { 
+      id: 'culinary_techniques', 
+      label: isEn ? 'Cooking Techniques' : 'Kulinářské techniky',
+      description: isEn 
+        ? 'Gastronomic culinary preparations, slow-cooking, and curing methods.' 
+        : 'Gastronomické postupy přípravy, pomalé vaření a zrání.'
+    },
+    { 
+      id: 'world_flavors', 
+      label: isEn ? 'World & Asian Flavors' : 'Světové chutě a asijská fúze',
+      description: isEn 
+        ? 'Asian fusion, citrus flavors, fermented seasonings, and exotic spices.' 
+        : 'Asijská fúze, citrusové tóny, fermentovaná ochucovadla a exotické koření.'
+    },
+    { 
+      id: 'pastry_sweets', 
+      label: isEn ? 'Pastry & Sweets' : 'Cukrářství a dezerty',
+      description: isEn 
+        ? 'Artisanal confectionery, sweet doughs, desserts, and finishes.' 
+        : 'Řemeslná cukrařina, sladká těsta, dezerty a karamelové trhance.'
+    }
   ], [isEn]);
 
-  // Beverage Categories list
+  // Beverage Categories list with spoken descriptions
   const beverageCategories = useMemo(() => [
-    { id: 'all', label: isEn ? 'All Drinks' : 'Všechny nápoje' },
-    { id: 'wine_white', label: isEn ? 'White Wines' : 'Bílá vína' },
-    { id: 'wine_red', label: isEn ? 'Red Wines' : 'Červená vína' },
-    { id: 'wine_sparkling', label: isEn ? 'Sparkling & Crémant' : 'Šumivá & Sekty' },
-    { id: 'rum', label: isEn ? 'Rums' : 'Rumy' },
-    { id: 'tequila', label: isEn ? 'Tequilas' : 'Tequily' },
-    { id: 'whisky', label: isEn ? 'Whisky & Bourbon' : 'Whisky & Bourbon' },
-    { id: 'brandy_cognac', label: isEn ? 'Brandy & Cognac' : 'Brandy & Koňak' },
-    { id: 'liqueur_spirit', label: isEn ? 'Liqueurs & Spirits' : 'Pálenky & Likéry' },
-    { id: 'gin', label: isEn ? 'Gins' : 'Giny' },
-    { id: 'vodka', label: isEn ? 'Vodkas' : 'Vodky' },
-    { id: 'beer_craft', label: isEn ? 'Craft Beers' : 'Pivo na čepu' }
+    { 
+      id: 'all', 
+      label: isEn ? 'All Drinks' : 'Všechny nápoje',
+      description: isEn 
+        ? 'Complete beverage encyclopedia: wines, spirits, and craft beers.' 
+        : 'Kompletní nápojová encyklopedie: vína, destiláty a piva na čepu.'
+    },
+    { 
+      id: 'wine_white', 
+      label: isEn ? 'White Wines' : 'Bílá vína',
+      description: isEn 
+        ? 'Moravian and international dry, crisp, and aromatic white wines.' 
+        : 'Moravská i mezinárodní suchá, svěží a aromatická bílá vína.'
+    },
+    { 
+      id: 'wine_red', 
+      label: isEn ? 'Red Wines' : 'Červená vína',
+      description: isEn 
+        ? 'Full-bodied red wines, pinot noir, and barrel-aged reserve vintages.' 
+        : 'Plná červená vína, pinoty a vyzrálá vína z dubových sudů.'
+    },
+    { 
+      id: 'wine_sparkling', 
+      label: isEn ? 'Sparkling & Crémant' : 'Šumivá & Sekty',
+      description: isEn 
+        ? 'Traditional method sparkling wines, crémants, and prosecco.' 
+        : 'Sekty kvašené v lahvi tradiční metodou, crémanty a prosecco.'
+    },
+    { 
+      id: 'rum', 
+      label: isEn ? 'Rums' : 'Rumy',
+      description: isEn 
+        ? 'Aged rums from Cuba, Guyana, Dominican Republic, and Guatemala.' 
+        : 'Vyzrálé rumy z Kuby, Guyany, Dominikánské republiky a Guatemaly.'
+    },
+    { 
+      id: 'tequila', 
+      label: isEn ? 'Tequilas' : 'Tequily',
+      description: isEn 
+        ? '100% blue agave tequilas: Blanco, Reposado, and Añejo from Jalisco.' 
+        : 'Tequily ze 100% modré agáve: Blanco, Reposado i Añejo z Jalisca.'
+    },
+    { 
+      id: 'whisky', 
+      label: isEn ? 'Whisky & Bourbon' : 'Whisky & Bourbon',
+      description: isEn 
+        ? 'Single malt scotch, Irish whiskeys, and American oak bourbons.' 
+        : 'Skotské jednosladové whisky, irské whiskey a americké bourbony.'
+    },
+    { 
+      id: 'brandy_cognac', 
+      label: isEn ? 'Brandy & Cognac' : 'Brandy & Koňak',
+      description: isEn 
+        ? 'French cognacs, aged brandies, and fine grape distillates.' 
+        : 'Francouzské koňaky, stařené brandy a vinné destiláty.'
+    },
+    { 
+      id: 'liqueur_spirit', 
+      label: isEn ? 'Liqueurs & Spirits' : 'Pálenky & Likéry',
+      description: isEn 
+        ? 'Traditional fruit brandies, herbal liqueurs, and artisan digestifs.' 
+        : 'Tradiční ovocné pálenky, bylinné likéry a řemeslné digestivy.'
+    },
+    { 
+      id: 'gin', 
+      label: isEn ? 'Gins' : 'Giny',
+      description: isEn 
+        ? 'London dry gins, artisan Czech gins, and truffle-infused botanicals.' 
+        : 'London dry giny, české řemeslné giny a lanýžové botanicals.'
+    },
+    { 
+      id: 'vodka', 
+      label: isEn ? 'Vodkas' : 'Vodky',
+      description: isEn 
+        ? 'Ultra-smooth grain, wheat, and French winter wheat vodkas.' 
+        : 'Jemné obilné a francouzské pšeničné vodky.'
+    },
+    { 
+      id: 'beer_craft', 
+      label: isEn ? 'Craft Beers' : 'Pivo na čepu',
+      description: isEn 
+        ? 'Unpasteurized craft lagers and IPAs brewed directly at Fuze brewery.' 
+        : 'Nepasterizované ležáky a speciály vařené přímo v pivovaru Fuze.'
+    }
   ], [isEn]);
 
   // Filtered Culinary Terms
@@ -246,36 +361,74 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
         </div>
       </div>
 
-      {/* Sub-Category Filters */}
-      <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-thin">
+      {/* Sub-Category Filters with Audio Accompaniment */}
+      <div className="flex items-center gap-1.5 overflow-x-auto pb-1.5 scrollbar-thin">
         {activeTab === 'culinary' ? (
-          culinaryCategories.map(cat => (
-            <button
-              key={cat.id}
-              onClick={() => setSelectedCulinaryCategory(cat.id)}
-              className={`shrink-0 px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
-                selectedCulinaryCategory === cat.id
-                  ? 'bg-amber-500/20 text-amber-300 border border-amber-500/40'
-                  : 'bg-stone-900 text-stone-400 hover:text-stone-200 border border-stone-800'
-              }`}
-            >
-              {cat.label}
-            </button>
-          ))
+          culinaryCategories.map(cat => {
+            const isSelected = selectedCulinaryCategory === cat.id;
+            return (
+              <div
+                key={cat.id}
+                className={`shrink-0 inline-flex items-center rounded-lg text-xs font-medium transition-all ${
+                  isSelected
+                    ? 'bg-amber-500/20 text-amber-300 border border-amber-500/50 shadow-sm shadow-amber-950/20'
+                    : 'bg-stone-900 text-stone-400 hover:text-stone-200 border border-stone-800 hover:border-stone-700'
+                }`}
+              >
+                <button
+                  type="button"
+                  onClick={() => setSelectedCulinaryCategory(cat.id)}
+                  className="pl-3 pr-1 py-1.5 text-xs font-medium focus:outline-none"
+                >
+                  {cat.label}
+                </button>
+                <div className="pr-1.5 py-0.5">
+                  <AudioPronounceButton
+                    itemId={`subcat-cul-${cat.id}`}
+                    name={cat.label}
+                    description={cat.description}
+                    lang={language}
+                    size="xs"
+                    title={isEn ? `Listen to subcategory: ${cat.label}` : `Poslechnout podsložku: ${cat.label}`}
+                    className="!p-1 !rounded-md bg-transparent hover:bg-stone-800/80 text-stone-400 hover:text-amber-300 border-0 shadow-none"
+                  />
+                </div>
+              </div>
+            );
+          })
         ) : (
-          beverageCategories.map(cat => (
-            <button
-              key={cat.id}
-              onClick={() => setSelectedBeverageCategory(cat.id)}
-              className={`shrink-0 px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
-                selectedBeverageCategory === cat.id
-                  ? 'bg-amber-500/20 text-amber-300 border border-amber-500/40'
-                  : 'bg-stone-900 text-stone-400 hover:text-stone-200 border border-stone-800'
-              }`}
-            >
-              {cat.label}
-            </button>
-          ))
+          beverageCategories.map(cat => {
+            const isSelected = selectedBeverageCategory === cat.id;
+            return (
+              <div
+                key={cat.id}
+                className={`shrink-0 inline-flex items-center rounded-lg text-xs font-medium transition-all ${
+                  isSelected
+                    ? 'bg-amber-500/20 text-amber-300 border border-amber-500/50 shadow-sm shadow-amber-950/20'
+                    : 'bg-stone-900 text-stone-400 hover:text-stone-200 border border-stone-800 hover:border-stone-700'
+                }`}
+              >
+                <button
+                  type="button"
+                  onClick={() => setSelectedBeverageCategory(cat.id)}
+                  className="pl-3 pr-1 py-1.5 text-xs font-medium focus:outline-none"
+                >
+                  {cat.label}
+                </button>
+                <div className="pr-1.5 py-0.5">
+                  <AudioPronounceButton
+                    itemId={`subcat-bev-${cat.id}`}
+                    name={cat.label}
+                    description={cat.description}
+                    lang={language}
+                    size="xs"
+                    title={isEn ? `Listen to subcategory: ${cat.label}` : `Poslechnout podsložku: ${cat.label}`}
+                    className="!p-1 !rounded-md bg-transparent hover:bg-stone-800/80 text-stone-400 hover:text-amber-300 border-0 shadow-none"
+                  />
+                </div>
+              </div>
+            );
+          })
         )}
       </div>
 
@@ -329,14 +482,25 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
                     <span>{term.origin}</span>
                   </div>
 
-                  <h3 className="text-lg font-bold text-stone-100 group-hover:text-amber-400 transition-colors tracking-tight flex items-baseline justify-between gap-2">
-                    <span>{term.name}</span>
-                    {term.originalTerm && term.originalTerm !== term.name && (
-                      <span className="text-xs text-stone-500 font-normal italic truncate">
-                        {term.originalTerm}
-                      </span>
-                    )}
-                  </h3>
+                  <div className="flex items-start justify-between gap-2 mb-1">
+                    <h3 className="text-lg font-bold text-stone-100 group-hover:text-amber-400 transition-colors tracking-tight flex items-baseline gap-2 flex-wrap">
+                      <span>{term.name}</span>
+                      {term.originalTerm && term.originalTerm !== term.name && (
+                        <span className="text-xs text-stone-500 font-normal italic">
+                          {term.originalTerm}
+                        </span>
+                      )}
+                    </h3>
+                    <AudioPronounceButton
+                      itemId={`lib-term-${term.id}`}
+                      name={term.name}
+                      description={`${term.shortDescription} ${isEn ? 'Key ingredients:' : 'Suroviny:'} ${term.ingredients.join(', ')}`}
+                      lang={language}
+                      size="sm"
+                      title={isEn ? `Listen to pronunciation: ${term.name}` : `Poslechnout výslovnost: ${term.name}`}
+                      className="shrink-0"
+                    />
+                  </div>
 
                   <p className="mt-2 text-xs text-stone-300 leading-relaxed">
                     {term.shortDescription}
@@ -414,9 +578,20 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
                     <span className="font-mono text-stone-400">{item.abv}</span>
                   </div>
 
-                  <h3 className="text-lg font-bold text-stone-100 group-hover:text-amber-400 transition-colors tracking-tight">
-                    {item.name}
-                  </h3>
+                  <div className="flex items-start justify-between gap-2 mb-1">
+                    <h3 className="text-lg font-bold text-stone-100 group-hover:text-amber-400 transition-colors tracking-tight">
+                      {item.name}
+                    </h3>
+                    <AudioPronounceButton
+                      itemId={`lib-bev-${item.id}`}
+                      name={item.name}
+                      description={`${item.producer}. ${item.categoryName} from ${item.origin}. ${item.flavorProfile}`}
+                      lang={language}
+                      size="sm"
+                      title={isEn ? `Listen to pronunciation: ${item.name}` : `Poslechnout výslovnost: ${item.name}`}
+                      className="shrink-0"
+                    />
+                  </div>
 
                   <div className="mt-1 flex items-center justify-between text-xs text-stone-400">
                     <span>{item.producer}</span>
@@ -491,20 +666,32 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
             </button>
 
             {/* Modal Header */}
-            <div>
-              <div className="flex items-center gap-2 text-xs text-stone-400 font-medium mb-1">
-                <span className="text-amber-400">{currentCulinaryModal.categoryName}</span>
-                <span aria-hidden="true">·</span>
-                <span>{currentCulinaryModal.origin}</span>
+            <div className="flex items-start justify-between gap-3 pr-8">
+              <div>
+                <div className="flex items-center gap-2 text-xs text-stone-400 font-medium mb-1">
+                  <span className="text-amber-400">{currentCulinaryModal.categoryName}</span>
+                  <span aria-hidden="true">·</span>
+                  <span>{currentCulinaryModal.origin}</span>
+                </div>
+                <h3 className="text-2xl sm:text-3xl font-black text-stone-100 tracking-tight">
+                  {currentCulinaryModal.name}
+                </h3>
+                {currentCulinaryModal.originalTerm && (
+                  <p className="text-xs text-stone-400 italic mt-0.5">
+                    {currentCulinaryModal.originalTerm}
+                  </p>
+                )}
               </div>
-              <h3 className="text-2xl sm:text-3xl font-black text-stone-100 tracking-tight">
-                {currentCulinaryModal.name}
-              </h3>
-              {currentCulinaryModal.originalTerm && (
-                <p className="text-xs text-stone-400 italic mt-0.5">
-                  {currentCulinaryModal.originalTerm}
-                </p>
-              )}
+              <AudioPronounceButton
+                itemId={`modal-term-${currentCulinaryModal.id}`}
+                name={currentCulinaryModal.name}
+                description={`${currentCulinaryModal.shortDescription} ${isEn ? 'Key ingredients:' : 'Suroviny:'} ${currentCulinaryModal.ingredients.join(', ')}`}
+                lang={language}
+                size="md"
+                showLabel
+                title={isEn ? `Listen to pronunciation: ${currentCulinaryModal.name}` : `Poslechnout výslovnost: ${currentCulinaryModal.name}`}
+                className="shrink-0 mt-1"
+              />
             </div>
 
             {/* Main Description */}
@@ -613,20 +800,32 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
             </button>
 
             {/* Modal Header */}
-            <div>
-              <div className="flex flex-wrap items-center gap-1.5 text-xs text-stone-400 font-medium mb-1">
-                <span className="text-amber-400">{currentBeverageModal.categoryName}</span>
-                <span aria-hidden="true">·</span>
-                <span>{currentBeverageModal.origin}</span>
-                <span aria-hidden="true">·</span>
-                <span>{currentBeverageModal.region}</span>
+            <div className="flex items-start justify-between gap-3 pr-8">
+              <div>
+                <div className="flex flex-wrap items-center gap-1.5 text-xs text-stone-400 font-medium mb-1">
+                  <span className="text-amber-400">{currentBeverageModal.categoryName}</span>
+                  <span aria-hidden="true">·</span>
+                  <span>{currentBeverageModal.origin}</span>
+                  <span aria-hidden="true">·</span>
+                  <span>{currentBeverageModal.region}</span>
+                </div>
+                <h3 className="text-2xl sm:text-3xl font-black text-stone-100 tracking-tight">
+                  {currentBeverageModal.name}
+                </h3>
+                <p className="text-xs text-amber-300 font-medium mt-0.5">
+                  {currentBeverageModal.producer}
+                </p>
               </div>
-              <h3 className="text-2xl sm:text-3xl font-black text-stone-100 tracking-tight">
-                {currentBeverageModal.name}
-              </h3>
-              <p className="text-xs text-amber-300 font-medium mt-0.5">
-                {currentBeverageModal.producer}
-              </p>
+              <AudioPronounceButton
+                itemId={`modal-bev-${currentBeverageModal.id}`}
+                name={currentBeverageModal.name}
+                description={`${currentBeverageModal.producer}. ${currentBeverageModal.categoryName} from ${currentBeverageModal.origin}. ${currentBeverageModal.flavorProfile}`}
+                lang={language}
+                size="md"
+                showLabel
+                title={isEn ? `Listen to pronunciation: ${currentBeverageModal.name}` : `Poslechnout výslovnost: ${currentBeverageModal.name}`}
+                className="shrink-0 mt-1"
+              />
             </div>
 
             {/* Key Specs Bar */}

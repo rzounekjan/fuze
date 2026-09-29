@@ -7,7 +7,7 @@ interface AudioPronounceButtonProps {
   name: string;
   description: string;
   lang?: 'cs' | 'en';
-  size?: 'sm' | 'md' | 'lg';
+  size?: 'xs' | 'sm' | 'md' | 'lg';
   showLabel?: boolean;
   className?: string;
   title?: string;
@@ -46,15 +46,17 @@ export const AudioPronounceButton: React.FC<AudioPronounceButtonProps> = ({
     title ||
     (isSpeaking
       ? (lang === 'en' ? 'Stop audio' : 'Zastavit předčítání')
-      : (lang === 'en' ? 'Pronounce name & ingredients in English' : 'Přečíst název a složení česky'));
+      : (lang === 'en' ? 'Pronounce in English' : 'Přečíst česky'));
 
   const sizeClasses = {
+    xs: 'p-1 text-[10px]',
     sm: 'p-1.5 text-xs',
     md: 'px-2.5 py-1.5 text-xs',
     lg: 'px-3 py-2 text-sm'
   }[size];
 
   const iconSizes = {
+    xs: 'w-3.5 h-3.5',
     sm: 'w-4 h-4',
     md: 'w-4 h-4',
     lg: 'w-5 h-5'
