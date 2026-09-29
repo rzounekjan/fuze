@@ -94,11 +94,84 @@ export function getStoredStats(lang: AppLanguage = 'cs'): UserStats {
   };
 }
 
+let onSaveStatsCallback: ((lang: AppLanguage, stats: UserStats) => void) | null = null;
+
+export function setOnSaveStatsCallback(cb: (lang: AppLanguage, stats: UserStats) => void): void {
+  onSaveStatsCallback = cb;
+}
+
+export function mergeUserStats(local: UserStats, remote?: Partial<UserStats> | null): UserStats {
+  if (!remote) return local;
+
+  const localMasteredQ = new Set(local.masteredQuestionIds || []);
+  const remoteMasteredQ = Array.isArray(remote.masteredQuestionIds) ? remote.masteredQuestionIds : [];
+  remoteMasteredQ.forEach(q => localMasteredQ.add(q));
+  const mergedMasteredQuestionIds = Array.from(localMasteredQ);
+
+  const mergedMasteredItemIds = new Set<string>(
+    Array.isArray(local.masteredItemIds) ? local.masteredItemIds : []
+  );
+  if (Array.isArray(remote.masteredItemIds)) {
+    remote.masteredItemIds.forEach(id => mergedMasteredItemIds.add(id));
+  }
+
+  for (const itemId of ALL_ITEM_IDS_SET) {
+    const item = ALL_ITEMS_MAP[itemId];
+    if (item && item.questions.length > 0) {
+      if (item.questions.every(q => mergedMasteredQuestionIds.includes(q.id))) {
+        mergedMasteredItemIds.add(itemId);
+      }
+    }
+  }
+
+  const validMasteredItemIds = Array.from(mergedMasteredItemIds).filter(id => ALL_ITEM_IDS_SET.has(id));
+
+  const localMistakes = new Set(local.mistakeQuestionIds || []);
+  if (Array.isArray(remote.mistakeQuestionIds)) {
+    remote.mistakeQuestionIds.forEach(id => localMistakes.add(id));
+  }
+  mergedMasteredQuestionIds.forEach(id => localMistakes.delete(id));
+
+  const totalAnswered = Math.max(
+    Number(local.totalAnswered) || 0,
+    Number(remote.totalAnswered) || 0,
+    mergedMasteredQuestionIds.length
+  );
+
+  const correctCount = Math.max(
+    Number(local.correctCount) || 0,
+    Number(remote.correctCount) || 0,
+    mergedMasteredQuestionIds.length
+  );
+
+  const bestStreak = Math.max(
+    Number(local.bestStreak) || 0,
+    Number(remote.bestStreak) || 0
+  );
+
+  const currentStreak = typeof remote.currentStreak === 'number'
+    ? Math.max(local.currentStreak, remote.currentStreak)
+    : local.currentStreak;
+
+  return {
+    totalAnswered,
+    correctCount,
+    currentStreak,
+    bestStreak,
+    masteredItemIds: validMasteredItemIds,
+    masteredQuestionIds: mergedMasteredQuestionIds,
+    mistakeQuestionIds: Array.from(localMistakes)
+  };
+}
+
 export function saveStats(stats: UserStats, lang: AppLanguage = 'cs'): void {
   try {
     localStorage.setItem(getStatsKey(lang), JSON.stringify(stats));
     if (lang === 'cs') {
       localStorage.setItem('fuze_gastro_stats', JSON.stringify(stats));
+    }
+    if (onSaveStatsCallback) {
+      onSaveStatsCallback(lang, stats);
     }
   } catch {
     // ignore

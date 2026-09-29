@@ -9,13 +9,14 @@ import { QuizView } from './components/QuizView';
 import { RandomExam } from './components/RandomExam';
 import { MenuExplorer } from './components/MenuExplorer';
 import { TableOrientationTrainer } from './components/TableOrientationTrainer';
+import { LibraryView } from './components/LibraryView';
 import { OfflineIndicator } from './components/OfflineIndicator';
 import { RotateCcw } from 'lucide-react';
 
 const NAV_STATE_KEY = 'fuze_nav_state';
 
 interface PersistedNavState {
-  currentTab: 'train' | 'exam' | 'catalog' | 'tables';
+  currentTab: 'train' | 'exam' | 'catalog' | 'tables' | 'library';
   categoryId: string | null;
   itemId: string | null;
   isCategoryRunner: boolean;
@@ -45,9 +46,9 @@ export default function App() {
   // Dynamic categories based on active language
   const activeCategories = language === 'en' ? MENU_CATEGORIES_EN : MENU_CATEGORIES;
 
-  const [currentTab, setCurrentTab] = useState<'train' | 'exam' | 'catalog' | 'tables'>(() => {
+  const [currentTab, setCurrentTab] = useState<'train' | 'exam' | 'catalog' | 'tables' | 'library'>(() => {
     const nav = readStoredNavState();
-    if (nav.currentTab && ['train', 'exam', 'catalog', 'tables'].includes(nav.currentTab)) {
+    if (nav.currentTab && ['train', 'exam', 'catalog', 'tables', 'library'].includes(nav.currentTab)) {
       return nav.currentTab;
     }
     return 'train';
@@ -425,6 +426,10 @@ export default function App() {
             }}
             language={language}
           />
+        )}
+
+        {currentTab === 'library' && (
+          <LibraryView language={language} />
         )}
       </main>
 

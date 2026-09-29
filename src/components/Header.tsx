@@ -1,12 +1,12 @@
 import React from 'react';
-import { Volume2, VolumeX, BookOpen, Trophy, Sparkles, Utensils, RotateCcw, MapPin } from 'lucide-react';
+import { Volume2, VolumeX, BookOpen, Trophy, Sparkles, Utensils, RotateCcw, MapPin, Library } from 'lucide-react';
 import { UserStats } from '../utils/storage';
 import { soundManager } from '../utils/sound';
 import { PWAInstallButton } from './PWAInstallButton';
 
 interface HeaderProps {
-  currentTab: 'train' | 'exam' | 'catalog' | 'tables';
-  setCurrentTab: (tab: 'train' | 'exam' | 'catalog' | 'tables') => void;
+  currentTab: 'train' | 'exam' | 'catalog' | 'tables' | 'library';
+  setCurrentTab: (tab: 'train' | 'exam' | 'catalog' | 'tables' | 'library') => void;
   stats: UserStats;
   totalItemsCount: number;
   totalQuestionsCount?: number;
@@ -155,6 +155,18 @@ export const Header: React.FC<HeaderProps> = ({
             >
               <MapPin className="w-3.5 h-3.5 text-amber-400" />
               <span>{language === 'en' ? 'Floor Plan' : 'Plán stolů'}</span>
+            </button>
+
+            <button
+              onClick={() => setCurrentTab('library')}
+              className={`flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all ${
+                currentTab === 'library'
+                  ? 'bg-amber-600 text-white shadow-md shadow-amber-900/40'
+                  : 'text-stone-400 hover:text-stone-200 hover:bg-stone-800/50'
+              }`}
+            >
+              <Library className="w-3.5 h-3.5 text-amber-400" />
+              <span>{language === 'en' ? 'Library' : 'Knihovna'}</span>
             </button>
           </div>
 

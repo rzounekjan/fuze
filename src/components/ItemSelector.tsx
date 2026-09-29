@@ -4,7 +4,7 @@ import { UserStats } from '../utils/storage';
 import { AudioPronounceButton } from './AudioPronounceButton';
 import { 
   ArrowLeft, Search, CheckCircle2, Play, 
-  HelpCircle, Sparkles, BookOpen, MapPin, Compass
+  HelpCircle, Sparkles, BookOpen, MapPin, Compass, Cloud
 } from 'lucide-react';
 
 interface ItemSelectorProps {
@@ -15,6 +15,7 @@ interface ItemSelectorProps {
   onOpenTableTrainer?: () => void;
   stats: UserStats;
   language?: 'cs' | 'en';
+  onOpenSync?: () => void;
 }
 
 export const ItemSelector: React.FC<ItemSelectorProps> = ({
@@ -24,7 +25,8 @@ export const ItemSelector: React.FC<ItemSelectorProps> = ({
   onQuizEntireCategory,
   onOpenTableTrainer,
   stats,
-  language = 'cs'
+  language = 'cs',
+  onOpenSync
 }) => {
   const [search, setSearch] = useState('');
 
@@ -49,15 +51,28 @@ export const ItemSelector: React.FC<ItemSelectorProps> = ({
           <span>{language === 'en' ? 'Back to Main Menu' : 'Zpět do Hlavní nabídky'}</span>
         </button>
 
-        {category.items.length > 1 && (
-          <button
-            onClick={onQuizEntireCategory}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 border border-amber-500/40 text-xs sm:text-sm font-semibold transition-all shadow-sm active:scale-[0.98]"
-          >
-            <Sparkles className="w-4 h-4 text-amber-400" />
-            <span>{language === 'en' ? `Test Entire Category (${category.items.length} items)` : `Otestovat celou kategorii (${category.items.length} položek)`}</span>
-          </button>
-        )}
+        <div className="flex items-center gap-2 flex-wrap">
+          {onOpenSync && (
+            <button
+              onClick={onOpenSync}
+              className="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl bg-stone-800/90 hover:bg-stone-700/90 text-stone-200 hover:text-amber-300 border border-stone-700/80 hover:border-amber-500/40 text-xs sm:text-sm font-semibold transition-all shadow-sm active:scale-[0.98]"
+              title={language === 'en' ? 'Synchronize ABC quiz progress between mobile and PC' : 'Synchronizovat výsledky výuky ABC s PC / mobilem'}
+            >
+              <Cloud className="w-4 h-4 text-amber-400" />
+              <span>{language === 'en' ? 'Sync PC ↔ Mobile' : 'Sync Mobil ↔ PC'}</span>
+            </button>
+          )}
+
+          {category.items.length > 1 && (
+            <button
+              onClick={onQuizEntireCategory}
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 border border-amber-500/40 text-xs sm:text-sm font-semibold transition-all shadow-sm active:scale-[0.98]"
+            >
+              <Sparkles className="w-4 h-4 text-amber-400" />
+              <span>{language === 'en' ? `Test Entire Category (${category.items.length} items)` : `Otestovat celou kategorii (${category.items.length} položek)`}</span>
+            </button>
+          )}
+        </div>
       </div>
 
       {/* Category Title Header */}
@@ -73,6 +88,24 @@ export const ItemSelector: React.FC<ItemSelectorProps> = ({
         <p className="text-sm text-stone-300 max-w-2xl leading-relaxed">
           {category.description}
         </p>
+
+        {/* Sync notification pill */}
+        <div className="mt-3.5 inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-stone-950/80 border border-stone-800 text-[11px] text-stone-300">
+          <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shrink-0" />
+          <span>
+            {language === 'en'
+              ? 'Results in Czech and English are synchronized between PC & mobile'
+              : 'Výsledky výuky ABC v češtině i angličtině se synchronizují mezi PC a mobilem'}
+          </span>
+          {onOpenSync && (
+            <button
+              onClick={onOpenSync}
+              className="text-amber-400 hover:text-amber-300 font-semibold underline underline-offset-2 ml-1"
+            >
+              {language === 'en' ? 'View status' : 'Zkontrolovat'}
+            </button>
+          )}
+        </div>
 
         {/* Search bar inside category */}
         <div className="mt-4 relative max-w-md">
