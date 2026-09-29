@@ -22,6 +22,10 @@ import {
   CulinaryTerm, 
   BeverageItem 
 } from '../data/libraryData';
+import {
+  CULINARY_TERMS_EN,
+  BEVERAGE_ITEMS_EN
+} from '../data/libraryDataEn';
 
 interface LibraryViewProps {
   language?: 'cs' | 'en';
@@ -31,6 +35,10 @@ type LibraryTab = 'culinary' | 'beverages';
 
 export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => {
   const isEn = language === 'en';
+
+  // Dynamic datasets based on active language
+  const activeCulinaryTerms = isEn ? CULINARY_TERMS_EN : CULINARY_TERMS;
+  const activeBeverageItems = isEn ? BEVERAGE_ITEMS_EN : BEVERAGE_ITEMS;
 
   // Active top tab in Library
   const [activeTab, setActiveTab] = useState<LibraryTab>(() => {
@@ -90,7 +98,7 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
   // Filtered Culinary Terms
   const filteredCulinaryTerms = useMemo(() => {
     const q = searchQuery.toLowerCase().trim();
-    return CULINARY_TERMS.filter(item => {
+    return activeCulinaryTerms.filter(item => {
       const matchesCategory = selectedCulinaryCategory === 'all' || item.category === selectedCulinaryCategory;
       if (!matchesCategory) return false;
       if (!q) return true;
@@ -105,12 +113,12 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
         item.tags.some(tag => tag.toLowerCase().includes(q))
       );
     });
-  }, [searchQuery, selectedCulinaryCategory]);
+  }, [searchQuery, selectedCulinaryCategory, activeCulinaryTerms]);
 
   // Filtered Beverages
   const filteredBeverages = useMemo(() => {
     const q = searchQuery.toLowerCase().trim();
-    return BEVERAGE_ITEMS.filter(item => {
+    return activeBeverageItems.filter(item => {
       const matchesCategory = selectedBeverageCategory === 'all' || item.category === selectedBeverageCategory;
       if (!matchesCategory) return false;
       if (!q) return true;
@@ -125,7 +133,18 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
         item.tags.some(tag => tag.toLowerCase().includes(q))
       );
     });
-  }, [searchQuery, selectedBeverageCategory]);
+  }, [searchQuery, selectedBeverageCategory, activeBeverageItems]);
+
+  // Current active modal items resolved with language-specific data
+  const currentCulinaryModal = useMemo(() => {
+    if (!activeCulinaryModal) return null;
+    return activeCulinaryTerms.find(t => t.id === activeCulinaryModal.id) || activeCulinaryModal;
+  }, [activeCulinaryModal, activeCulinaryTerms]);
+
+  const currentBeverageModal = useMemo(() => {
+    if (!activeBeverageModal) return null;
+    return activeBeverageItems.find(b => b.id === activeBeverageModal.id) || activeBeverageModal;
+  }, [activeBeverageModal, activeBeverageItems]);
 
   return (
     <div className="space-y-6 max-w-7xl mx-auto pb-12">
@@ -150,11 +169,11 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
           <div className="mt-4 flex flex-wrap items-center gap-3 text-xs text-stone-400">
             <div className="flex items-center gap-1.5 px-3 py-1 rounded-lg bg-stone-800/80 border border-stone-700/60 text-stone-300">
               <UtensilsCrossed className="w-3.5 h-3.5 text-amber-400" />
-              <span><strong>{CULINARY_TERMS.length}</strong> {isEn ? 'culinary terms & ingredients' : 'kulinářských pojmů a surovin'}</span>
+              <span><strong>{activeCulinaryTerms.length}</strong> {isEn ? 'culinary terms & ingredients' : 'kulinářských pojmů a surovin'}</span>
             </div>
             <div className="flex items-center gap-1.5 px-3 py-1 rounded-lg bg-stone-800/80 border border-stone-700/60 text-stone-300">
               <Wine className="w-3.5 h-3.5 text-amber-400" />
-              <span><strong>{BEVERAGE_ITEMS.length}</strong> {isEn ? 'wines, spirits & craft beers' : 'vín, destilátů a piv na čepu'}</span>
+              <span><strong>{activeBeverageItems.length}</strong> {isEn ? 'wines, spirits & craft beers' : 'vín, destilátů a piv na čepu'}</span>
             </div>
           </div>
         </div>
@@ -178,7 +197,7 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
             <span className={`text-[11px] px-1.5 py-0.2 rounded font-mono ${
               activeTab === 'culinary' ? 'bg-amber-700/50 text-stone-950 font-bold' : 'text-stone-500'
             }`}>
-              {CULINARY_TERMS.length}
+              {activeCulinaryTerms.length}
             </span>
           </button>
 
@@ -196,7 +215,7 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
             <span className={`text-[11px] px-1.5 py-0.2 rounded font-mono ${
               activeTab === 'beverages' ? 'bg-amber-700/50 text-stone-950 font-bold' : 'text-stone-500'
             }`}>
-              {BEVERAGE_ITEMS.length}
+              {activeBeverageItems.length}
             </span>
           </button>
         </div>
@@ -454,7 +473,7 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
       {/* ========================================================================= */}
       {/* MODAL 1: DETAILED CULINARY TERM DIALOG                                    */}
       {/* ========================================================================= */}
-      {activeCulinaryModal && (
+      {currentCulinaryModal && (
         <div 
           className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-stone-950/80 backdrop-blur-sm animate-in fade-in duration-200"
           onClick={() => setActiveCulinaryModal(null)}
@@ -474,16 +493,16 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
             {/* Modal Header */}
             <div>
               <div className="flex items-center gap-2 text-xs text-stone-400 font-medium mb-1">
-                <span className="text-amber-400">{activeCulinaryModal.categoryName}</span>
+                <span className="text-amber-400">{currentCulinaryModal.categoryName}</span>
                 <span aria-hidden="true">·</span>
-                <span>{activeCulinaryModal.origin}</span>
+                <span>{currentCulinaryModal.origin}</span>
               </div>
               <h3 className="text-2xl sm:text-3xl font-black text-stone-100 tracking-tight">
-                {activeCulinaryModal.name}
+                {currentCulinaryModal.name}
               </h3>
-              {activeCulinaryModal.originalTerm && (
+              {currentCulinaryModal.originalTerm && (
                 <p className="text-xs text-stone-400 italic mt-0.5">
-                  {activeCulinaryModal.originalTerm}
+                  {currentCulinaryModal.originalTerm}
                 </p>
               )}
             </div>
@@ -491,7 +510,7 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
             {/* Main Description */}
             <div className="p-4 rounded-xl bg-stone-950/60 border border-stone-800/80">
               <p className="text-sm text-stone-200 leading-relaxed font-medium">
-                {activeCulinaryModal.shortDescription}
+                {currentCulinaryModal.shortDescription}
               </p>
             </div>
 
@@ -502,7 +521,7 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
                 <span>{isEn ? 'Exact Ingredients & Composition:' : 'Přesné ingredience a složení:'}</span>
               </h4>
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
-                {activeCulinaryModal.ingredients.map((ing, idx) => (
+                {currentCulinaryModal.ingredients.map((ing, idx) => (
                   <li key={idx} className="flex items-start gap-2 p-2 rounded-lg bg-stone-800/50 border border-stone-800 text-stone-300">
                     <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0 mt-0.5" />
                     <span>{ing}</span>
@@ -518,7 +537,7 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
                   {isEn ? 'Flavor Profile:' : 'Chuťový profil a textura:'}
                 </span>
                 <p className="text-xs text-stone-300 leading-relaxed">
-                  {activeCulinaryModal.flavorProfile}
+                  {currentCulinaryModal.flavorProfile}
                 </p>
               </div>
 
@@ -527,7 +546,7 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
                   {isEn ? 'Culinary Usage & Preparation:' : 'Kulinářské využití a příprava:'}
                 </span>
                 <p className="text-xs text-stone-300 leading-relaxed">
-                  {activeCulinaryModal.culinaryUsage}
+                  {currentCulinaryModal.culinaryUsage}
                 </p>
               </div>
             </div>
@@ -539,7 +558,7 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
                 <span>{isEn ? 'Appears in Fuze Menu Dishes:' : 'Vyskytuje se v jídelním lístku FUZE:'}</span>
               </h4>
               <div className="space-y-1.5">
-                {activeCulinaryModal.fuzeMenuAppearances.map((dish, idx) => (
+                {currentCulinaryModal.fuzeMenuAppearances.map((dish, idx) => (
                   <div key={idx} className="flex items-center gap-2 p-2.5 rounded-lg bg-amber-500/10 border border-amber-500/20 text-xs text-amber-200">
                     <span className="w-1.5 h-1.5 rounded-full bg-amber-400" />
                     <span className="font-semibold">{dish}</span>
@@ -555,7 +574,7 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
                 <span>{isEn ? 'Staff Tips & Guest Presentation:' : 'Důležité informace a tipy pro personál k obsluze hosta:'}</span>
               </h4>
               <p className="text-xs text-stone-300 leading-relaxed">
-                {activeCulinaryModal.staffTips}
+                {currentCulinaryModal.staffTips}
               </p>
             </div>
 
@@ -576,7 +595,7 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
       {/* ========================================================================= */}
       {/* MODAL 2: DETAILED BEVERAGE DIALOG                                         */}
       {/* ========================================================================= */}
-      {activeBeverageModal && (
+      {currentBeverageModal && (
         <div 
           className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-stone-950/80 backdrop-blur-sm animate-in fade-in duration-200"
           onClick={() => setActiveBeverageModal(null)}
@@ -596,17 +615,17 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
             {/* Modal Header */}
             <div>
               <div className="flex flex-wrap items-center gap-1.5 text-xs text-stone-400 font-medium mb-1">
-                <span className="text-amber-400">{activeBeverageModal.categoryName}</span>
+                <span className="text-amber-400">{currentBeverageModal.categoryName}</span>
                 <span aria-hidden="true">·</span>
-                <span>{activeBeverageModal.origin}</span>
+                <span>{currentBeverageModal.origin}</span>
                 <span aria-hidden="true">·</span>
-                <span>{activeBeverageModal.region}</span>
+                <span>{currentBeverageModal.region}</span>
               </div>
               <h3 className="text-2xl sm:text-3xl font-black text-stone-100 tracking-tight">
-                {activeBeverageModal.name}
+                {currentBeverageModal.name}
               </h3>
               <p className="text-xs text-amber-300 font-medium mt-0.5">
-                {activeBeverageModal.producer}
+                {currentBeverageModal.producer}
               </p>
             </div>
 
@@ -614,15 +633,15 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
             <div className="grid grid-cols-3 gap-3 p-3 rounded-xl bg-stone-950/60 border border-stone-800/80 text-center text-xs">
               <div>
                 <span className="text-[11px] text-stone-500 block">{isEn ? 'Serving / Volume' : 'Objem / míra'}</span>
-                <strong className="text-stone-200 font-mono text-sm">{activeBeverageModal.volume}</strong>
+                <strong className="text-stone-200 font-mono text-sm">{currentBeverageModal.volume}</strong>
               </div>
               <div>
                 <span className="text-[11px] text-stone-500 block">{isEn ? 'Alcohol Content' : 'Obsah alkoholu'}</span>
-                <strong className="text-amber-400 font-mono text-sm">{activeBeverageModal.abv}</strong>
+                <strong className="text-amber-400 font-mono text-sm">{currentBeverageModal.abv}</strong>
               </div>
               <div>
                 <span className="text-[11px] text-stone-500 block">{isEn ? 'Fuze Price' : 'Cena ve Fuze'}</span>
-                <strong className="text-stone-200 font-semibold text-sm">{activeBeverageModal.price}</strong>
+                <strong className="text-stone-200 font-semibold text-sm">{currentBeverageModal.price}</strong>
               </div>
             </div>
 
@@ -633,7 +652,7 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
                 <span>{isEn ? 'Raw Ingredients, Varietals & Origin:' : 'Suroviny, odrůdy a složení:'}</span>
               </h4>
               <p className="text-xs text-stone-200 p-3 rounded-lg bg-stone-800/40 border border-stone-800 leading-relaxed">
-                {activeBeverageModal.rawIngredients}
+                {currentBeverageModal.rawIngredients}
               </p>
             </div>
 
@@ -644,7 +663,7 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
                 <span>{isEn ? 'Production Process, Distillation & Aging:' : 'Výrobní postup, destilace a zrání v sudech:'}</span>
               </h4>
               <p className="text-xs text-stone-200 p-3 rounded-lg bg-stone-800/40 border border-stone-800 leading-relaxed">
-                {activeBeverageModal.productionProcess}
+                {currentBeverageModal.productionProcess}
               </p>
             </div>
 
@@ -655,7 +674,7 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
                 <span>{isEn ? 'Tasting Notes & Aromas:' : 'Aroma a chuťový profil:'}</span>
               </h4>
               <p className="text-xs text-amber-200/90 italic p-3 rounded-lg bg-stone-800/40 border border-stone-800 leading-relaxed">
-                "{activeBeverageModal.flavorProfile}"
+                "{currentBeverageModal.flavorProfile}"
               </p>
             </div>
 
@@ -666,7 +685,7 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
                 <span>{isEn ? 'Recommended Food Pairing at Fuze:' : 'Doporučené párování s jídly Fuze:'}</span>
               </h4>
               <p className="text-xs text-stone-200 leading-relaxed font-medium">
-                {activeBeverageModal.foodPairing}
+                {currentBeverageModal.foodPairing}
               </p>
             </div>
 
@@ -677,7 +696,7 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
                 <span>{isEn ? 'Staff Tips & Story for the Guest:' : 'Důležité informace a příběh pro hosta:'}</span>
               </h4>
               <p className="text-xs text-stone-300 leading-relaxed">
-                {activeBeverageModal.staffNotes}
+                {currentBeverageModal.staffNotes}
               </p>
             </div>
 
