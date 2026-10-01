@@ -89,24 +89,6 @@ export const ItemSelector: React.FC<ItemSelectorProps> = ({
           {category.description}
         </p>
 
-        {/* Sync notification pill */}
-        <div className="mt-3.5 inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-stone-950/80 border border-stone-800 text-[11px] text-stone-300">
-          <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shrink-0" />
-          <span>
-            {language === 'en'
-              ? 'Results in Czech and English are synchronized between PC & mobile'
-              : 'Výsledky výuky ABC v češtině i angličtině se synchronizují mezi PC a mobilem'}
-          </span>
-          {onOpenSync && (
-            <button
-              onClick={onOpenSync}
-              className="text-amber-400 hover:text-amber-300 font-semibold underline underline-offset-2 ml-1"
-            >
-              {language === 'en' ? 'View status' : 'Zkontrolovat'}
-            </button>
-          )}
-        </div>
-
         {/* Search bar inside category */}
         <div className="mt-4 relative max-w-md">
           <Search className="w-4 h-4 text-stone-400 absolute left-3 top-1/2 -translate-y-1/2" />
