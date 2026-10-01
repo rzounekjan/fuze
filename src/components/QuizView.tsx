@@ -6,7 +6,7 @@ import { AudioPronounceButton } from './AudioPronounceButton';
 import { 
   ArrowLeft, CheckCircle2, XCircle, ChevronRight, 
   RotateCcw, Sparkles, BookOpen, AlertCircle, 
-  Award, HelpCircle 
+  Award, HelpCircle, Utensils, ChefHat, Check, X
 } from 'lucide-react';
 
 interface QuizViewProps {
@@ -26,6 +26,13 @@ interface ShuffledOption {
   isCorrect: boolean;
 }
 
+interface AnswerRecord {
+  questionIndex: number;
+  question: Question;
+  selectedOption: ShuffledOption;
+  isCorrect: boolean;
+}
+
 export const QuizView: React.FC<QuizViewProps> = ({
   category,
   item,
@@ -36,51 +43,24 @@ export const QuizView: React.FC<QuizViewProps> = ({
   onAnswerRecorded,
   language = 'cs'
 }) => {
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(() => {
-    try {
-      const saved = sessionStorage.getItem(`fuze_quiz_qidx_${item.id}`);
-      if (saved !== null) {
-        const val = parseInt(saved, 10);
-        if (!isNaN(val) && val >= 0 && val < item.questions.length) {
-          return val;
-        }
-      }
-    } catch (e) {}
-    return 0;
-  });
+  const isEn = language === 'en';
+
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState<ShuffledOption | null>(null);
-  const [hasAnswered, setHasAnswered] = useState(false);
-  const [scoreHistory, setScoreHistory] = useState<boolean[]>([]);
-  const [showFullRecipe, setShowFullRecipe] = useState(false);
-  
-  // Guard timestamp to prevent ghost clicks, key releases, and rapid touch events on new questions
+  const [userAnswers, setUserAnswers] = useState<AnswerRecord[]>([]);
+  const [isQuizCompleted, setIsQuizCompleted] = useState(false);
+
+  // Guard timestamp to prevent ghost clicks and accidental double taps
   const transitionTimestampRef = useRef<number>(Date.now());
 
-  // Reset or restore state whenever the item changes
+  // Reset state whenever the item changes
   useEffect(() => {
-    let initialIdx = 0;
-    try {
-      const saved = sessionStorage.getItem(`fuze_quiz_qidx_${item.id}`);
-      if (saved !== null) {
-        const val = parseInt(saved, 10);
-        if (!isNaN(val) && val >= 0 && val < item.questions.length) {
-          initialIdx = val;
-        }
-      }
-    } catch (e) {}
-    setCurrentQuestionIndex(initialIdx);
+    setCurrentQuestionIndex(0);
     setSelectedOption(null);
-    setHasAnswered(false);
-    setScoreHistory([]);
-    setShowFullRecipe(false);
+    setUserAnswers([]);
+    setIsQuizCompleted(false);
     transitionTimestampRef.current = Date.now();
   }, [item.id]);
-
-  useEffect(() => {
-    try {
-      sessionStorage.setItem(`fuze_quiz_qidx_${item.id}`, currentQuestionIndex.toString());
-    } catch (e) {}
-  }, [item.id, currentQuestionIndex]);
 
   const currentQuestion = item.questions[currentQuestionIndex] || item.questions[0];
 
@@ -114,43 +94,92 @@ export const QuizView: React.FC<QuizViewProps> = ({
     }));
   }, [currentQuestion, currentQuestionIndex]);
 
-  // Handle answering with cooldown guard
+  // Handle selecting an option (neutral selection without revealing correctness)
   const handleSelect = (option: ShuffledOption) => {
-    if (hasAnswered) return;
-    // Guard against accidental double taps / ghost clicks right after question transition (400ms buffer)
-    if (Date.now() - transitionTimestampRef.current < 400) return;
+    if (isQuizCompleted) return;
+    if (Date.now() - transitionTimestampRef.current < 250) return;
 
     if (document.activeElement instanceof HTMLElement) {
       document.activeElement.blur();
     }
 
+    try {
+      soundManager.playClick();
+    } catch {}
+
     setSelectedOption(option);
-    setHasAnswered(true);
-
-    const isCorrect = option.isCorrect;
-    if (isCorrect) {
-      soundManager.playCorrect();
-    } else {
-      soundManager.playIncorrect();
-    }
-
-    // Save to storage
-    recordAnswer(currentQuestion.id, item.id, isCorrect, language);
-    setScoreHistory(prev => [...prev, isCorrect]);
-    onAnswerRecorded();
   };
 
-  // Keyboard shortcut listener: A, B, C or 1, 2, 3 or Space/Enter for Next
+  // Move to the next question or complete the quiz
+  const handleConfirmAndNext = () => {
+    if (!selectedOption || !currentQuestion) return;
+    if (Date.now() - transitionTimestampRef.current < 250) return;
+
+    transitionTimestampRef.current = Date.now();
+    if (document.activeElement instanceof HTMLElement) {
+      document.activeElement.blur();
+    }
+
+    const isCorrect = selectedOption.isCorrect;
+    const newRecord: AnswerRecord = {
+      questionIndex: currentQuestionIndex,
+      question: currentQuestion,
+      selectedOption,
+      isCorrect
+    };
+
+    const nextAnswers = [...userAnswers, newRecord];
+
+    if (currentQuestionIndex + 1 < item.questions.length) {
+      // Advance to next question in the quiz
+      setUserAnswers(nextAnswers);
+      setCurrentQuestionIndex(prev => prev + 1);
+      setSelectedOption(null);
+    } else {
+      // Last question finished: reveal evaluation and recipe at the end
+      setUserAnswers(nextAnswers);
+      setIsQuizCompleted(true);
+
+      // Record answers to user stats storage
+      nextAnswers.forEach(ans => {
+        recordAnswer(ans.question.id, item.id, ans.isCorrect, language);
+      });
+      onAnswerRecorded();
+
+      // Sound feedback for completing the item quiz
+      const correctCount = nextAnswers.filter(a => a.isCorrect).length;
+      if (correctCount === item.questions.length) {
+        try {
+          soundManager.playFanfare();
+        } catch {}
+      } else {
+        try {
+          soundManager.playCorrect();
+        } catch {}
+      }
+    }
+  };
+
+  // Restart quiz for this dish
+  const handleRestartQuiz = () => {
+    transitionTimestampRef.current = Date.now();
+    setCurrentQuestionIndex(0);
+    setSelectedOption(null);
+    setUserAnswers([]);
+    setIsQuizCompleted(false);
+  };
+
+  // Keyboard navigation listener (A, B, C to select; Enter / Space to advance)
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      // Ignore key repetitions (holding down a key)
       if (e.repeat) return;
-      // Ignore if inside input or textarea
       if (['INPUT', 'TEXTAREA'].includes((e.target as HTMLElement).tagName)) return;
 
       const key = e.key.toUpperCase();
-      if (!hasAnswered) {
-        if (Date.now() - transitionTimestampRef.current < 400) return;
+
+      if (!isQuizCompleted) {
+        if (Date.now() - transitionTimestampRef.current < 250) return;
+
         if (key === 'A' || key === '1') {
           const opt = options.find(o => o.letter === 'A');
           if (opt) handleSelect(opt);
@@ -160,58 +189,39 @@ export const QuizView: React.FC<QuizViewProps> = ({
         } else if (key === 'C' || key === '3') {
           const opt = options.find(o => o.letter === 'C');
           if (opt) handleSelect(opt);
-        }
-      } else {
-        if (e.key === 'Enter' || e.key === ' ' || e.key === 'ArrowRight') {
+        } else if ((e.key === 'Enter' || e.key === ' ') && selectedOption) {
           e.preventDefault();
           e.stopPropagation();
-          if (document.activeElement instanceof HTMLElement) {
-            document.activeElement.blur();
-          }
-          handleNextQuestion();
+          handleConfirmAndNext();
+        }
+      } else {
+        // End screen shortcuts: R to restart, Enter to advance to next item
+        if (key === 'R') {
+          handleRestartQuiz();
+        } else if ((e.key === 'Enter' || key === 'N') && hasNextItem && onNextItem) {
+          onNextItem();
         }
       }
     };
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [hasAnswered, options]);
+  }, [isQuizCompleted, options, selectedOption, hasNextItem, onNextItem]);
 
-  const handleNextQuestion = () => {
-    transitionTimestampRef.current = Date.now();
-    if (document.activeElement instanceof HTMLElement) {
-      document.activeElement.blur();
-    }
+  // Derived metrics for completed quiz
+  const totalQuestions = item.questions.length;
+  const correctCount = userAnswers.filter(a => a.isCorrect).length;
+  const wrongCount = totalQuestions - correctCount;
+  const scorePercent = totalQuestions > 0 ? Math.round((correctCount / totalQuestions) * 100) : 0;
 
-    if (currentQuestionIndex + 1 < item.questions.length) {
-      setCurrentQuestionIndex(prev => prev + 1);
-      setSelectedOption(null);
-      setHasAnswered(false);
-    } else if (hasNextItem && onNextItem) {
-      onNextItem();
-    } else {
-      // Finished all questions for this item
-      try {
-        sessionStorage.removeItem(`fuze_quiz_qidx_${item.id}`);
-      } catch (e) {}
-      setShowFullRecipe(true);
-    }
-  };
-
-  const handleRestartQuiz = () => {
-    transitionTimestampRef.current = Date.now();
-    try {
-      sessionStorage.removeItem(`fuze_quiz_qidx_${item.id}`);
-    } catch (e) {}
-    setCurrentQuestionIndex(0);
-    setSelectedOption(null);
-    setHasAnswered(false);
-    setScoreHistory([]);
-    setShowFullRecipe(false);
-  };
-
-  const isQuizComplete = hasAnswered && currentQuestionIndex + 1 >= item.questions.length;
-  const correctCount = scoreHistory.filter(Boolean).length;
+  // Breakdown of ingredients into individual list items for clear reading
+  const ingredientsList = useMemo(() => {
+    if (!item.description) return [];
+    return item.description
+      .split(/[,;•\n]+/)
+      .map(part => part.trim())
+      .filter(part => part.length > 1);
+  }, [item.description]);
 
   return (
     <div className="space-y-6 max-w-4xl mx-auto">
@@ -222,297 +232,529 @@ export const QuizView: React.FC<QuizViewProps> = ({
             <button
               onClick={onBackToMainMenu}
               className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-stone-800/90 hover:bg-stone-700/90 text-stone-200 hover:text-amber-300 border border-stone-700/80 hover:border-amber-500/40 text-xs font-semibold transition-all shadow-sm active:scale-[0.98] group"
-              title={language === 'en' ? 'Return to Main Menu' : 'Zpět do Hlavní nabídky'}
+              title={isEn ? 'Return to Main Menu' : 'Zpět do Hlavní nabídky'}
             >
               <ArrowLeft className="w-3.5 h-3.5 text-stone-400 group-hover:text-amber-400 group-hover:-translate-x-0.5 transition-all" />
-              <span>{language === 'en' ? 'Main Menu' : 'Hlavní nabídka'}</span>
+              <span>{isEn ? 'Main Menu' : 'Hlavní nabídka'}</span>
             </button>
           )}
           <button
             onClick={onBackToItems}
             className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-stone-800/90 hover:bg-stone-700/90 text-stone-200 hover:text-amber-300 border border-stone-700/80 hover:border-amber-500/40 text-xs font-semibold transition-all shadow-sm active:scale-[0.98] group"
-            title={language === 'en' ? `Back to items in ${category.name}` : `Zpět na položky: ${category.name}`}
+            title={isEn ? `Back to items in ${category.name}` : `Zpět na položky: ${category.name}`}
           >
             <ArrowLeft className="w-3.5 h-3.5 text-stone-400 group-hover:text-amber-400 group-hover:-translate-x-0.5 transition-all" />
             <span>{category.name}</span>
           </button>
         </div>
 
-        <div className="text-xs text-stone-400 flex items-center gap-2">
-          <span>{language === 'en' ? 'Question' : 'Otázka'}</span>
-          <span className="font-bold text-stone-200">
-            {currentQuestionIndex + 1} / {item.questions.length}
-          </span>
+        <div className="text-xs text-stone-400 flex items-center gap-2 font-mono">
+          {!isQuizCompleted ? (
+            <>
+              <span>{isEn ? 'Question' : 'Otázka'}</span>
+              <span className="font-bold text-stone-200">
+                {currentQuestionIndex + 1} / {item.questions.length}
+              </span>
+            </>
+          ) : (
+            <span className="text-amber-400 font-bold uppercase tracking-wider text-[11px]">
+              {isEn ? 'Evaluation Complete' : 'Vyhodnocení dokončeno'}
+            </span>
+          )}
         </div>
       </div>
 
-      {/* Target Dish Card */}
-      <div className="rounded-2xl bg-stone-900/90 border border-stone-800 p-5 sm:p-6 shadow-xl relative overflow-hidden">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-2">
-          <div>
-            <div className="flex items-center gap-2 text-xs font-bold text-amber-500 uppercase tracking-wider mb-1">
-              <span>{category.name}</span>
-              <span>·</span>
-              <span>{language === 'en' ? 'Ingredient Quiz A, B, C' : 'Test ingrediencí A, B, C'}</span>
+      {/* ========================================================================= */}
+      {/* PHASE 1: ACTIVE QUIZ QUESTIONS GUESSING (No spoilers / No answers revealed)*/}
+      {/* ========================================================================= */}
+      {!isQuizCompleted ? (
+        <div className="space-y-6 animate-in fade-in duration-150">
+          {/* Target Dish Card during guessing */}
+          <div className="rounded-2xl bg-stone-900/90 border border-stone-800 p-5 sm:p-6 shadow-xl relative overflow-hidden">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-2">
+              <div>
+                <div className="flex items-center gap-2 text-xs font-bold text-amber-500 uppercase tracking-wider mb-1">
+                  <span>{category.name}</span>
+                  <span>·</span>
+                  <span>{isEn ? 'Ingredient Quiz A, B, C' : 'Test ingrediencí A, B, C'}</span>
+                </div>
+                <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-100 font-serif">
+                  {item.name}
+                </h2>
+                <p className="text-xs text-stone-400 mt-1">
+                  {isEn 
+                    ? 'Tip: Correct answers and complete ingredient list will be shown at the end.' 
+                    : 'Tip: Správné odpovědi a kompletní soupis ingrediencí se zobrazí až na konci.'}
+                </p>
+              </div>
+
+              <div className="flex items-center gap-2 shrink-0">
+                {item.weight && (
+                  <span className="text-xs font-semibold text-stone-300 bg-stone-800/90 border border-stone-700/60 px-2.5 py-1 rounded-md">
+                    {item.weight}
+                  </span>
+                )}
+                {item.price && (
+                  <span className="text-sm font-bold text-amber-400 bg-amber-950/40 border border-amber-800/40 px-3 py-1 rounded-md">
+                    {item.price}
+                  </span>
+                )}
+              </div>
             </div>
-            <div className="flex items-center gap-2.5 flex-wrap">
-              <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-100 font-serif">
-                {item.name}
-              </h2>
-              <AudioPronounceButton
-                itemId={item.id}
-                name={item.name}
-                description={item.description}
-                lang={language}
-                size="md"
-                showLabel={true}
-                title={language === 'en' ? 'Pronounce name & ingredients in English' : 'Přečíst název a složení česky'}
+
+            {/* Progress bar inside card */}
+            <div className="w-full h-1.5 bg-stone-800 rounded-full mt-4 overflow-hidden">
+              <div
+                className="h-full bg-gradient-to-r from-amber-500 to-amber-600 transition-all duration-300"
+                style={{ width: `${((currentQuestionIndex + 1) / item.questions.length) * 100}%` }}
               />
             </div>
           </div>
 
-          <div className="flex items-center gap-2 shrink-0">
-            {item.weight && (
-              <span className="text-xs font-semibold text-stone-300 bg-stone-800/90 border border-stone-700/60 px-2.5 py-1 rounded-md">
-                {item.weight}
-              </span>
-            )}
-            {item.price && (
-              <span className="text-sm font-bold text-amber-400 bg-amber-950/40 border border-amber-800/40 px-3 py-1 rounded-md">
-                {item.price}
-              </span>
-            )}
-          </div>
-        </div>
-
-        {/* Progress bar inside card */}
-        <div className="w-full h-1 bg-stone-800 rounded-full mt-4 overflow-hidden">
-          <div
-            className="h-full bg-gradient-to-r from-amber-500 to-amber-600 transition-all duration-300"
-            style={{ width: `${((currentQuestionIndex + 1) / item.questions.length) * 100}%` }}
-          />
-        </div>
-      </div>
-
-      {/* Main Question Box */}
-      <div className="rounded-2xl bg-stone-900/60 border border-stone-800/80 p-6 sm:p-8 space-y-6">
-        <div>
-          <div className="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-400 bg-amber-500/10 px-2.5 py-1 rounded-md mb-3 border border-amber-500/20">
-            <HelpCircle className="w-3.5 h-3.5" />
-            <span>Zadání otázky</span>
-          </div>
-
-          <h3 className="text-lg sm:text-xl font-bold text-stone-100 leading-snug">
-            {currentQuestion.question}
-          </h3>
-          <p className="text-xs text-stone-400 mt-1">
-            Zvolte správnou možnost <strong className="text-stone-300">A</strong>, <strong className="text-stone-300">B</strong> nebo <strong className="text-stone-300">C</strong> (kliknutím nebo stisknutím klávesy na klávesnici):
-          </p>
-        </div>
-
-        {/* The 3 Options A, B, C */}
-        <div className="grid grid-cols-1 gap-3.5">
-          {options.map((option) => {
-            const isChosen = selectedOption?.letter === option.letter;
-            let containerStyle = "bg-stone-900/80 border-stone-800 text-stone-200 hover:border-amber-500/60 hover:bg-stone-800/80";
-            let badgeStyle = "bg-stone-800 text-amber-400 border-stone-700";
-
-            if (hasAnswered) {
-              if (option.isCorrect) {
-                containerStyle = "bg-emerald-950/60 border-emerald-500 text-emerald-100 shadow-md shadow-emerald-950/30 ring-1 ring-emerald-500";
-                badgeStyle = "bg-emerald-500 text-stone-950 font-black border-emerald-400";
-              } else if (isChosen && !option.isCorrect) {
-                containerStyle = "bg-rose-950/60 border-rose-500 text-rose-100 shadow-md shadow-rose-950/30 ring-1 ring-rose-500";
-                badgeStyle = "bg-rose-500 text-white font-black border-rose-400";
-              } else {
-                containerStyle = "bg-stone-900/40 border-stone-800/60 text-stone-500 opacity-60";
-                badgeStyle = "bg-stone-800/40 text-stone-500 border-stone-800";
-              }
-            }
-
-            return (
-              <button
-                key={`${currentQuestion.id}-${option.letter}`}
-                onClick={(e) => {
-                  e.currentTarget.blur();
-                  handleSelect(option);
-                }}
-                disabled={hasAnswered}
-                className={`w-full text-left p-4 sm:p-5 rounded-xl border transition-all duration-150 flex items-center justify-between gap-4 group ${containerStyle}`}
-              >
-                <div className="flex items-center gap-3.5">
-                  <span className={`w-8 h-8 rounded-lg flex items-center justify-center font-bold text-sm border shrink-0 transition-colors ${badgeStyle}`}>
-                    {option.letter}
-                  </span>
-                  <span className="text-sm sm:text-base font-medium leading-snug">
-                    {option.text}
-                  </span>
-                </div>
-
-                <div className="shrink-0">
-                  {hasAnswered && option.isCorrect && (
-                    <CheckCircle2 className="w-5 h-5 text-emerald-400" />
-                  )}
-                  {hasAnswered && isChosen && !option.isCorrect && (
-                    <XCircle className="w-5 h-5 text-rose-400" />
-                  )}
-                </div>
-              </button>
-            );
-          })}
-        </div>
-
-        {/* Answer Feedback & Explanation Card */}
-        {hasAnswered && (
-          <div className={`p-5 rounded-xl border transition-all animate-in fade-in slide-in-from-bottom-2 duration-200 ${
-            selectedOption?.isCorrect
-              ? 'bg-emerald-950/40 border-emerald-800/60'
-              : 'bg-rose-950/40 border-rose-800/60'
-          }`}>
-            <div className="flex items-start gap-3">
-              {selectedOption?.isCorrect ? (
-                <div className="w-8 h-8 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0">
-                  <CheckCircle2 className="w-5 h-5" />
-                </div>
-              ) : (
-                <div className="w-8 h-8 rounded-full bg-rose-500/20 text-rose-400 flex items-center justify-center shrink-0">
-                  <AlertCircle className="w-5 h-5" />
-                </div>
-              )}
-
-              <div className="space-y-2 flex-1">
-                <div className="flex items-center gap-2">
-                  <span className={`font-bold text-sm ${
-                    selectedOption?.isCorrect ? 'text-emerald-300' : 'text-rose-300'
-                  }`}>
-                    {selectedOption?.isCorrect ? 'Výborně! Správná odpověď.' : 'Bohužel, toto není správně.'}
-                  </span>
-                </div>
-
-                <p className="text-xs sm:text-sm text-stone-200 leading-relaxed">
-                  {currentQuestion.explanation}
-                </p>
-
-                {/* Official description text strictly from menu */}
-                {item.description && (
-                  <div className="pt-2 mt-2 border-t border-stone-800/80">
-                    <div className="flex items-center justify-between gap-2 mb-1">
-                      <span className="text-[11px] font-bold uppercase tracking-wider text-amber-400">
-                        {language === 'en' ? 'Official FUZE menu recipe:' : 'Text z lístku FUZE:'}
-                      </span>
-                      <AudioPronounceButton
-                        itemId={`explanation-${item.id}`}
-                        name={item.name}
-                        description={item.description}
-                        lang={language}
-                        size="sm"
-                        title={language === 'en' ? 'Listen to English pronunciation' : 'Přečíst recept česky'}
-                      />
-                    </div>
-                    <p className="text-xs text-stone-300 italic">
-                      "{item.description}"
-                    </p>
-                  </div>
-                )}
-              </div>
-            </div>
-
-            {/* Next Action Buttons */}
-            <div className="mt-5 pt-4 border-t border-stone-800/80 flex flex-wrap items-center justify-between gap-3">
-              <div className="text-xs text-stone-400">
-                Tip: K přechodu na další otázku stiskněte <kbd className="px-1.5 py-0.5 rounded bg-stone-800 border border-stone-700 text-stone-300 font-mono text-[10px]">Enter</kbd> nebo <kbd className="px-1.5 py-0.5 rounded bg-stone-800 border border-stone-700 text-stone-300 font-mono text-[10px]">Mezerník</kbd>
-              </div>
-
-              <div className="flex items-center gap-2">
-                {currentQuestionIndex + 1 < item.questions.length ? (
-                  <button
-                    onClick={(e) => {
-                      e.currentTarget.blur();
-                      handleNextQuestion();
-                    }}
-                    className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-amber-600 hover:bg-amber-500 text-stone-950 font-bold text-xs sm:text-sm transition-all shadow-lg shadow-amber-950/40 hover:scale-[1.02]"
-                  >
-                    <span>Další otázka k této podsložce</span>
-                    <ChevronRight className="w-4 h-4" />
-                  </button>
-                ) : (
-                  <div className="flex items-center gap-2">
-                    {hasNextItem && onNextItem ? (
-                      <button
-                        onClick={(e) => {
-                          e.currentTarget.blur();
-                          onNextItem();
-                        }}
-                        className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-amber-600 hover:bg-amber-500 text-stone-950 font-bold text-xs sm:text-sm transition-all shadow-lg shadow-amber-950/40 hover:scale-[1.02]"
-                      >
-                        <span>Další podsložka ve skupině</span>
-                        <ChevronRight className="w-4 h-4" />
-                      </button>
-                    ) : (
-                      <button
-                        onClick={(e) => {
-                          e.currentTarget.blur();
-                          onBackToItems();
-                        }}
-                        className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-amber-600 hover:bg-amber-500 text-stone-950 font-bold text-xs sm:text-sm transition-all shadow-lg shadow-amber-950/40"
-                      >
-                        <span>{language === 'en' ? 'Done! Back to items' : 'Hotovo! Zpět na položky'}</span>
-                      </button>
-                    )}
-                  </div>
-                )}
-              </div>
-            </div>
-          </div>
-        )}
-      </div>
-
-      {/* Completion Modal / Summary banner if all questions for this dish answered */}
-      {isQuizComplete && (
-        <div className="rounded-2xl p-6 bg-gradient-to-r from-amber-950/40 via-stone-900 to-stone-900 border border-amber-600/40 shadow-xl flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-3.5">
-            <div className="w-12 h-12 rounded-xl bg-amber-500/20 text-amber-400 border border-amber-500/30 flex items-center justify-center shrink-0">
-              <Award className="w-6 h-6" />
-            </div>
+          {/* Question Box */}
+          <div className="rounded-2xl bg-stone-900/70 border border-stone-800/90 p-6 sm:p-8 space-y-6 shadow-lg">
             <div>
-              <h4 className="text-base font-bold text-stone-100">
-                Položka "{item.name}" dokončena!
-              </h4>
-              <p className="text-xs text-stone-300">
-                Úspěšnost v této podsložce: <strong className="text-amber-400">{correctCount} z {item.questions.length}</strong> správně.
+              <div className="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-400 bg-amber-500/10 px-2.5 py-1 rounded-md mb-3 border border-amber-500/20">
+                <HelpCircle className="w-3.5 h-3.5" />
+                <span>
+                  {isEn 
+                    ? `Question ${currentQuestionIndex + 1} of ${item.questions.length}` 
+                    : `Otázka ${currentQuestionIndex + 1} z ${item.questions.length}`}
+                </span>
+              </div>
+
+              <h3 className="text-lg sm:text-xl font-bold text-stone-100 leading-snug">
+                {currentQuestion.question}
+              </h3>
+              <p className="text-xs text-stone-400 mt-1">
+                {isEn 
+                  ? 'Select option A, B, or C (click or press key on keyboard):' 
+                  : 'Zvolte možnost A, B nebo C (kliknutím nebo stisknutím klávesy na klávesnici):'}
               </p>
             </div>
+
+            {/* The 3 Options A, B, C (NEUTRAL HIGHLIGHT, NO RIGHT/WRONG SPOILERS) */}
+            <div className="grid grid-cols-1 gap-3.5">
+              {options.map((option) => {
+                const isSelected = selectedOption?.letter === option.letter;
+
+                return (
+                  <button
+                    key={`${currentQuestion.id}-${option.letter}`}
+                    type="button"
+                    onClick={(e) => {
+                      e.currentTarget.blur();
+                      handleSelect(option);
+                    }}
+                    className={`w-full text-left p-4 sm:p-5 rounded-xl border transition-all duration-150 flex items-center justify-between gap-4 group cursor-pointer ${
+                      isSelected
+                        ? 'bg-amber-500/15 border-amber-500 text-amber-100 ring-2 ring-amber-500/40 shadow-md shadow-amber-950/20'
+                        : 'bg-stone-900/80 border-stone-800 text-stone-200 hover:border-amber-500/50 hover:bg-stone-800/80'
+                    }`}
+                  >
+                    <div className="flex items-center gap-3.5">
+                      <span className={`w-8 h-8 rounded-lg flex items-center justify-center font-bold text-sm border shrink-0 transition-colors ${
+                        isSelected
+                          ? 'bg-amber-500 text-stone-950 font-black border-amber-400 shadow-sm'
+                          : 'bg-stone-800 text-amber-400 border-stone-700 group-hover:border-amber-500/40'
+                      }`}>
+                        {option.letter}
+                      </span>
+                      <span className="text-sm sm:text-base font-medium leading-snug">
+                        {option.text}
+                      </span>
+                    </div>
+
+                    <div className="shrink-0">
+                      {isSelected ? (
+                        <div className="w-5 h-5 rounded-full bg-amber-500 text-stone-950 flex items-center justify-center">
+                          <Check className="w-3.5 h-3.5 stroke-[3]" />
+                        </div>
+                      ) : (
+                        <div className="w-5 h-5 rounded-full border border-stone-700 group-hover:border-amber-500/50" />
+                      )}
+                    </div>
+                  </button>
+                );
+              })}
+            </div>
+
+            {/* Action Bar Below Question Options */}
+            <div className="pt-4 border-t border-stone-800/80 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4">
+              <div className="text-xs text-stone-400">
+                {selectedOption ? (
+                  <span>
+                    {isEn 
+                      ? 'Press Enter or Space to continue to next question' 
+                      : 'Stiskněte Enter nebo Mezerník pro pokračování'}
+                  </span>
+                ) : (
+                  <span>
+                    {isEn 
+                      ? 'Select an option to proceed' 
+                      : 'Vyberte jednu z možností pro pokračování'}
+                  </span>
+                )}
+              </div>
+
+              <button
+                type="button"
+                onClick={handleConfirmAndNext}
+                disabled={!selectedOption}
+                className={`inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl font-bold text-sm transition-all shadow-lg ${
+                  selectedOption
+                    ? 'bg-amber-600 hover:bg-amber-500 text-stone-950 shadow-amber-950/40 hover:scale-[1.02] cursor-pointer active:scale-[0.98]'
+                    : 'bg-stone-800/60 text-stone-500 border border-stone-800 cursor-not-allowed opacity-50'
+                }`}
+              >
+                <span>
+                  {currentQuestionIndex + 1 < item.questions.length
+                    ? (isEn ? 'Next question' : 'Další otázka')
+                    : (isEn ? 'Evaluate quiz & show ingredients' : 'Vyhodnotit kvíz a zobrazit ingredience')}
+                </span>
+                <ChevronRight className="w-4 h-4" />
+              </button>
+            </div>
+          </div>
+        </div>
+      ) : (
+        /* ========================================================================= */
+        /* PHASE 2: AT THE END (Správné a špatné odpovědi & Soupis ingrediencí)      */
+        /* ========================================================================= */
+        <div className="space-y-6 animate-in fade-in slide-in-from-bottom-2 duration-200">
+          
+          {/* 1. HERO EVALUATION BANNER */}
+          <div className="rounded-2xl p-6 sm:p-8 bg-gradient-to-r from-amber-950/40 via-stone-900 to-stone-900 border border-amber-600/40 shadow-2xl relative overflow-hidden">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
+              <div className="flex items-center gap-4">
+                <div className={`w-14 h-14 sm:w-16 sm:h-16 rounded-2xl flex items-center justify-center shrink-0 border ${
+                  correctCount === totalQuestions
+                    ? 'bg-emerald-500/20 text-emerald-400 border-emerald-500/40 shadow-lg shadow-emerald-950/40'
+                    : correctCount > 0
+                    ? 'bg-amber-500/20 text-amber-400 border-amber-500/40 shadow-lg shadow-amber-950/40'
+                    : 'bg-rose-500/20 text-rose-400 border-rose-500/40'
+                }`}>
+                  <Award className="w-8 h-8 sm:w-9 sm:h-9" />
+                </div>
+
+                <div>
+                  <div className="flex items-center gap-2 text-xs font-bold text-amber-400 uppercase tracking-wider mb-1">
+                    <span>{category.name}</span>
+                    <span>·</span>
+                    <span>{isEn ? 'Final Evaluation' : 'Konečné vyhodnocení'}</span>
+                  </div>
+                  <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-100 font-serif">
+                    {item.name}
+                  </h2>
+                  <p className="text-xs sm:text-sm text-stone-300 mt-1 font-medium">
+                    {correctCount === totalQuestions ? (
+                      <span className="text-emerald-400">
+                        {isEn ? 'Excellent! All questions answered correctly.' : 'Vynikající! Všechny otázky zodpovězeny správně.'}
+                      </span>
+                    ) : correctCount > 0 ? (
+                      <span className="text-amber-300">
+                        {isEn ? 'Good job! Review your answers and ingredient list below.' : 'Dobrá práce! Níže si projděte odpovědi a soupis ingrediencí.'}
+                      </span>
+                    ) : (
+                      <span className="text-rose-400">
+                        {isEn ? 'Needs practice. Review the ingredient list below and try again.' : 'Položku je potřeba procvičit. Nastudujte si suroviny a zkuste to znovu.'}
+                      </span>
+                    )}
+                  </p>
+                </div>
+              </div>
+
+              {/* Score pill */}
+              <div className="flex sm:flex-col items-center sm:items-end justify-between w-full sm:w-auto p-3 sm:p-0 rounded-xl bg-stone-950/40 sm:bg-transparent border border-stone-800/80 sm:border-0">
+                <span className="text-xs text-stone-400 font-medium sm:mb-1">
+                  {isEn ? 'Success Rate:' : 'Celková úspěšnost:'}
+                </span>
+                <div className="flex items-baseline gap-2">
+                  <span className={`text-2xl sm:text-3xl font-black font-mono ${
+                    correctCount === totalQuestions ? 'text-emerald-400' : 'text-amber-400'
+                  }`}>
+                    {correctCount} / {totalQuestions}
+                  </span>
+                  <span className="text-xs text-stone-400 font-bold">
+                    ({scorePercent} %)
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            {/* Quick action buttons on hero banner */}
+            <div className="mt-6 pt-5 border-t border-stone-800/80 flex flex-wrap items-center justify-between gap-3">
+              <div className="flex flex-wrap items-center gap-2">
+                <button
+                  type="button"
+                  onClick={handleRestartQuiz}
+                  className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-stone-800 hover:bg-stone-700 text-stone-200 text-xs font-semibold transition-all border border-stone-700 active:scale-[0.98]"
+                  title={isEn ? 'Retake this quiz' : 'Zopakovat test pro tuto položku'}
+                >
+                  <RotateCcw className="w-3.5 h-3.5 text-stone-400" />
+                  <span>{isEn ? 'Retake Quiz' : 'Zopakovat test'}</span>
+                </button>
+
+                {onBackToMainMenu && (
+                  <button
+                    type="button"
+                    onClick={onBackToMainMenu}
+                    className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-stone-800/80 hover:bg-stone-700/80 text-stone-300 text-xs font-semibold transition-colors border border-stone-700/60"
+                  >
+                    <ArrowLeft className="w-3.5 h-3.5" />
+                    <span>{isEn ? 'Main Menu' : 'Hlavní nabídka'}</span>
+                  </button>
+                )}
+              </div>
+
+              {hasNextItem && onNextItem && (
+                <button
+                  type="button"
+                  onClick={onNextItem}
+                  className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-amber-600 hover:bg-amber-500 text-stone-950 font-bold text-xs sm:text-sm transition-all shadow-md shadow-amber-950/40 active:scale-[0.98]"
+                >
+                  <span>{isEn ? 'Next item in category' : 'Další položka v kategorii'}</span>
+                  <ChevronRight className="w-4 h-4" />
+                </button>
+              )}
+            </div>
           </div>
 
-          <div className="flex flex-wrap items-center gap-2 w-full sm:w-auto justify-end">
-            <button
-              onClick={handleRestartQuiz}
-              className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg bg-stone-800 hover:bg-stone-700 text-stone-300 text-xs font-semibold transition-colors"
-            >
-              <RotateCcw className="w-3.5 h-3.5" />
-              <span>Zopakovat test</span>
-            </button>
+          {/* 2. SPRAVNÉ A ŠPATNÉ ODPOVĚDI (Full Questions Review) */}
+          <div className="space-y-4">
+            <div className="flex items-center justify-between">
+              <h3 className="text-base sm:text-lg font-bold text-stone-100 flex items-center gap-2">
+                <HelpCircle className="w-4 h-4 text-amber-400" />
+                <span>{isEn ? 'Review of Questions & Answers' : 'Správné a špatné odpovědi'}</span>
+              </h3>
+              <div className="flex items-center gap-2 text-xs">
+                <span className="px-2 py-0.5 rounded-md bg-emerald-950/60 border border-emerald-800/80 text-emerald-300 font-semibold font-mono">
+                  {correctCount} {isEn ? 'correct' : 'správně'}
+                </span>
+                {wrongCount > 0 && (
+                  <span className="px-2 py-0.5 rounded-md bg-rose-950/60 border border-rose-800/80 text-rose-300 font-semibold font-mono">
+                    {wrongCount} {isEn ? 'wrong' : 'chybně'}
+                  </span>
+                )}
+              </div>
+            </div>
 
-            {onBackToMainMenu && (
-              <button
-                onClick={onBackToMainMenu}
-                className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg bg-stone-800 hover:bg-amber-950/40 text-stone-300 hover:text-amber-300 border border-stone-700 hover:border-amber-600/50 text-xs font-semibold transition-colors"
-              >
-                <ArrowLeft className="w-3.5 h-3.5" />
-                <span>{language === 'en' ? 'Main Menu' : 'Hlavní nabídka'}</span>
-              </button>
+            <div className="space-y-4">
+              {userAnswers.map((answer, idx) => (
+                <div
+                  key={answer.question.id}
+                  className={`rounded-2xl p-5 sm:p-6 border transition-all ${
+                    answer.isCorrect
+                      ? 'bg-stone-900/90 border-emerald-600/50 shadow-md shadow-emerald-950/10'
+                      : 'bg-stone-900/90 border-rose-600/60 shadow-md shadow-rose-950/10'
+                  }`}
+                >
+                  <div className="flex items-start justify-between gap-3 mb-3">
+                    <div className="flex items-center gap-2">
+                      <span className={`w-6 h-6 rounded-full flex items-center justify-center text-xs font-black ${
+                        answer.isCorrect
+                          ? 'bg-emerald-500 text-stone-950'
+                          : 'bg-rose-500 text-white'
+                      }`}>
+                        {idx + 1}
+                      </span>
+                      <h4 className="text-sm sm:text-base font-bold text-stone-100">
+                        {answer.question.question}
+                      </h4>
+                    </div>
+
+                    <span className={`shrink-0 inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-bold ${
+                      answer.isCorrect
+                        ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/40'
+                        : 'bg-rose-500/20 text-rose-300 border border-rose-500/40'
+                    }`}>
+                      {answer.isCorrect ? (
+                        <>
+                          <Check className="w-3 h-3 stroke-[3]" />
+                          <span>{isEn ? 'Correct' : 'Správně'}</span>
+                        </>
+                      ) : (
+                        <>
+                          <X className="w-3 h-3 stroke-[3]" />
+                          <span>{isEn ? 'Incorrect' : 'Špatně'}</span>
+                        </>
+                      )}
+                    </span>
+                  </div>
+
+                  {/* Answers breakdown */}
+                  <div className="space-y-2 mt-3 pt-3 border-t border-stone-800/80 text-xs sm:text-sm">
+                    {/* User's Chosen Option */}
+                    <div className={`p-3 rounded-xl border flex items-start gap-2.5 ${
+                      answer.isCorrect
+                        ? 'bg-emerald-950/30 border-emerald-800/50 text-emerald-200'
+                        : 'bg-rose-950/30 border-rose-800/50 text-rose-200'
+                    }`}>
+                      {answer.isCorrect ? (
+                        <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
+                      ) : (
+                        <XCircle className="w-4 h-4 text-rose-400 shrink-0 mt-0.5" />
+                      )}
+                      <div>
+                        <span className="text-[11px] uppercase tracking-wider font-bold block opacity-80 mb-0.5">
+                          {isEn ? 'Your Answer:' : 'Vaše odpověď:'}
+                        </span>
+                        <span className="font-semibold">
+                          [{answer.selectedOption.letter}] {answer.selectedOption.text}
+                        </span>
+                      </div>
+                    </div>
+
+                    {/* Correct Option (highlighted if user made a mistake) */}
+                    {!answer.isCorrect && (
+                      <div className="p-3 rounded-xl bg-emerald-950/40 border border-emerald-700/60 text-emerald-200 flex items-start gap-2.5">
+                        <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
+                        <div>
+                          <span className="text-[11px] uppercase tracking-wider font-bold text-emerald-400 block mb-0.5">
+                            {isEn ? 'Correct Answer:' : 'Správná odpověď:'}
+                          </span>
+                          <span className="font-semibold text-emerald-100">
+                            {answer.question.correctAnswer}
+                          </span>
+                        </div>
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Question Explanation */}
+                  {answer.question.explanation && (
+                    <div className="mt-3 p-3 rounded-xl bg-stone-950/60 border border-stone-800 text-xs text-stone-300 leading-relaxed">
+                      <span className="font-bold text-amber-400 block mb-1">
+                        {isEn ? 'Explanation & Culinary Context:' : 'Vysvětlení a kulinářský kontext:'}
+                      </span>
+                      {answer.question.explanation}
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* 3. SOUPIS INGREDIENCÍ A OFICIÁLNÍ RECEPTURA */}
+          <div className="rounded-2xl p-6 sm:p-7 bg-stone-900 border border-stone-800/90 shadow-xl space-y-5">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 border-b border-stone-800">
+              <div className="flex items-center gap-2">
+                <ChefHat className="w-5 h-5 text-amber-400" />
+                <h3 className="text-base sm:text-lg font-bold text-stone-100">
+                  {isEn ? 'Complete Ingredient List & Menu Recipe' : 'Soupis ingrediencí a oficiální receptura'}
+                </h3>
+              </div>
+
+              {/* Audio Pronunciation Button for Ingredients */}
+              {item.description && (
+                <AudioPronounceButton
+                  itemId={`review-recipe-${item.id}`}
+                  name={item.name}
+                  description={item.description}
+                  lang={language}
+                  size="md"
+                  showLabel={true}
+                  title={isEn ? 'Listen to ingredients in English' : 'Přečíst suroviny a recept česky'}
+                  className="shrink-0"
+                />
+              )}
+            </div>
+
+            {/* Official FUZE Menu Recipe Text */}
+            <div className="p-4 rounded-xl bg-stone-950/70 border border-stone-800">
+              <span className="text-[11px] font-bold uppercase tracking-wider text-amber-400 block mb-1">
+                {isEn ? 'Official FUZE Menu Description:' : 'Přesný text z jídelního lístku FUZE:'}
+              </span>
+              <p className="text-sm sm:text-base text-stone-200 italic font-medium leading-relaxed">
+                "{item.description}"
+              </p>
+            </div>
+
+            {/* Individual parsed ingredients badges/pills */}
+            {ingredientsList.length > 0 && (
+              <div>
+                <span className="text-[11px] font-bold uppercase tracking-wider text-stone-400 block mb-2.5">
+                  {isEn ? 'Parsed Key Ingredients & Components:' : 'Rozpis klíčových surovin a složek:'}
+                </span>
+                <div className="flex flex-wrap gap-2">
+                  {ingredientsList.map((ing, i) => (
+                    <span
+                      key={i}
+                      className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-stone-800/90 border border-stone-700/80 text-xs font-semibold text-stone-200 shadow-sm"
+                    >
+                      <CheckCircle2 className="w-3.5 h-3.5 text-amber-400 shrink-0" />
+                      <span>{ing}</span>
+                    </span>
+                  ))}
+                </div>
+              </div>
             )}
 
-            {hasNextItem && onNextItem && (
+            {/* Extra Metadata (Weight, Price, Notes, Allergens) */}
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2">
+              {item.weight && (
+                <div className="p-3 rounded-xl bg-stone-950/40 border border-stone-800 text-xs">
+                  <span className="text-stone-500 block mb-0.5">{isEn ? 'Weight / Portion' : 'Gramáž / porce'}</span>
+                  <span className="font-bold text-stone-200">{item.weight}</span>
+                </div>
+              )}
+              {item.price && (
+                <div className="p-3 rounded-xl bg-stone-950/40 border border-stone-800 text-xs">
+                  <span className="text-stone-500 block mb-0.5">{isEn ? 'Menu Price' : 'Cena v menu'}</span>
+                  <span className="font-bold text-amber-400">{item.price}</span>
+                </div>
+              )}
+              {item.allergens && item.allergens.length > 0 && (
+                <div className="p-3 rounded-xl bg-stone-950/40 border border-stone-800 text-xs">
+                  <span className="text-stone-500 block mb-0.5">{isEn ? 'Allergens' : 'Alergeny'}</span>
+                  <span className="font-bold text-stone-300">{item.allergens.join(', ')}</span>
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* 4. BOTTOM NAVIGATION & ACTION BAR */}
+          <div className="p-4 rounded-2xl bg-stone-900 border border-stone-800 flex flex-wrap items-center justify-between gap-3">
+            <div className="flex items-center gap-2">
               <button
+                type="button"
+                onClick={onBackToItems}
+                className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-stone-800 hover:bg-stone-700 text-stone-200 text-xs sm:text-sm font-semibold transition-all border border-stone-700 active:scale-[0.98]"
+              >
+                <ArrowLeft className="w-4 h-4" />
+                <span>{isEn ? 'Back to items' : 'Zpět na položky'}</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={handleRestartQuiz}
+                className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-stone-800 hover:bg-stone-700 text-stone-200 text-xs sm:text-sm font-semibold transition-all border border-stone-700 active:scale-[0.98]"
+              >
+                <RotateCcw className="w-4 h-4 text-stone-400" />
+                <span>{isEn ? 'Retake Quiz' : 'Zopakovat test'}</span>
+              </button>
+            </div>
+
+            {hasNextItem && onNextItem ? (
+              <button
+                type="button"
                 onClick={onNextItem}
-                className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-amber-600 hover:bg-amber-500 text-stone-950 text-xs font-bold transition-all shadow-md shadow-amber-950/40"
+                className="inline-flex items-center gap-2 px-6 py-2.5 rounded-xl bg-amber-600 hover:bg-amber-500 text-stone-950 font-bold text-xs sm:text-sm transition-all shadow-md shadow-amber-950/40 active:scale-[0.98]"
               >
-                <span>Další podsložka</span>
-                <ChevronRight className="w-3.5 h-3.5" />
+                <span>{isEn ? 'Next item in category' : 'Další položka v kategorii'}</span>
+                <ChevronRight className="w-4 h-4" />
+              </button>
+            ) : (
+              <button
+                type="button"
+                onClick={onBackToItems}
+                className="inline-flex items-center gap-2 px-6 py-2.5 rounded-xl bg-amber-600 hover:bg-amber-500 text-stone-950 font-bold text-xs sm:text-sm transition-all shadow-md shadow-amber-950/40 active:scale-[0.98]"
+              >
+                <span>{isEn ? 'Done! Back to items' : 'Hotovo! Zpět na položky'}</span>
               </button>
             )}
           </div>
+
         </div>
       )}
     </div>
