@@ -281,10 +281,34 @@ export const TableOrientationTrainer: React.FC<TableOrientationTrainerProps> = (
         <div className="flex items-center gap-2 self-end sm:self-auto">
           <button
             onClick={() => {
+              // 1. Rekord patra & max série -> 0
               setStreak(0);
+              setBestStreakF1(0);
+              setBestStreakF2(0);
+              try {
+                localStorage.removeItem('fuze_best_table_streak_floor1');
+                localStorage.removeItem('fuze_best_table_streak_floor2');
+              } catch {}
+
+              // 2. Bleskovka (60s špička) -> 0
+              if (timerRef.current) clearTimeout(timerRef.current);
+              setRushActive(false);
+              setRushTimeLeft(60);
+              setRushScore(0);
+              setRushBestScoreF1(0);
+              setRushBestScoreF2(0);
+              try {
+                localStorage.removeItem('fuze_best_rush_score_floor1');
+                localStorage.removeItem('fuze_best_rush_score_floor2');
+              } catch {}
+
+              // 3. Úspěšnost & odpovědi -> 0
               setScore(0);
               setAnsweredCount(0);
               setCorrectCount(0);
+              setFeedback(null);
+
+              // 4. Nový cíl
               pickNewTarget();
             }}
             className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-stone-800 hover:bg-stone-700 text-stone-300 hover:text-white text-xs font-semibold transition-colors"
