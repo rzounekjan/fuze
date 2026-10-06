@@ -27,7 +27,6 @@ export default defineConfig(() => {
           id: './',
           name: 'FUZE',
           short_name: 'FUZE',
-          description: 'Interaktivní výukový program pro zvládnutí položek menu a ingrediencí formou testů A, B, C.',
           theme_color: '#0c0a09',
           background_color: '#0c0a09',
           display: 'standalone',
