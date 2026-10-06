@@ -114,7 +114,7 @@ export const TableOrientationTrainer: React.FC<TableOrientationTrainerProps> = (
       setRushActive(false);
       setRushTimeLeft(60);
       setRushScore(0);
-      setTargetTable(null);
+      pickNewTarget();
     }
   }, [activeFloor, activeMode, trainerSubMode]);
 
@@ -609,8 +609,8 @@ export const TableOrientationTrainer: React.FC<TableOrientationTrainerProps> = (
       <div className="grid grid-cols-1 xl:grid-cols-4 gap-4 items-start">
         {/* Large Format Interactive Vector Map (3 cols on PC, full width on mobile) */}
         <div className="xl:col-span-3 bg-stone-900/90 border border-stone-800 rounded-2xl p-2.5 sm:p-4 shadow-2xl overflow-hidden relative">
-          {/* Mobile helper hint */}
-          <div className="flex sm:hidden items-center justify-between text-[11px] text-stone-400 pb-2 px-1">
+          {/* Helper hint bubble */}
+          <div className="flex items-center justify-between text-[11px] text-stone-400 pb-2 px-1">
             <span>👆 Posunujte mapu prstem pro detail</span>
             <span className="font-mono text-amber-400 font-semibold">{targetTable?.tableNumber}</span>
           </div>
