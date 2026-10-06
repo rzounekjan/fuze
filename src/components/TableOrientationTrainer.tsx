@@ -612,17 +612,17 @@ export const TableOrientationTrainer: React.FC<TableOrientationTrainerProps> = (
           {/* Mobile helper hint */}
           <div className="flex sm:hidden items-center justify-between text-[11px] text-stone-400 pb-2 px-1">
             <span>👆 Posunujte mapu prstem pro detail</span>
-            <span className="font-mono text-amber-400 font-semibold">{Math.round(zoomLevel * 100)}%</span>
+            <span className="font-mono text-amber-400 font-semibold">{targetTable?.tableNumber}</span>
           </div>
 
-          <div className="overflow-auto max-h-[70vh] sm:max-h-[760px] rounded-xl bg-stone-950 border border-stone-900/80 p-1 sm:p-2 flex items-center justify-center touch-pan-x touch-pan-y">
+          <div className="plan-stolu-container overflow-auto max-h-[70vh] sm:max-h-[760px] rounded-xl bg-stone-950 border border-stone-900/80 p-4 sm:p-6 touch-pan-x touch-pan-y">
             <div 
               style={{ 
                 transform: `scale(${zoomLevel})`, 
-                transformOrigin: 'top center',
+                transformOrigin: 'top left',
                 transition: 'transform 0.2s ease-out'
               }}
-              className="w-full min-w-[620px] sm:min-w-0 max-w-[1450px]"
+              className="w-full min-w-[620px] sm:min-w-0 max-w-[1450px] mx-auto shrink-0"
             >
               <svg
                 viewBox="0 0 1480 850"

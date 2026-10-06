@@ -319,3 +319,23 @@ html.light svg #floor-grid-pc path {
     justify-content: center;
   }
 }
+
+/* =========================================================================
+   PLAN STOLU INTERACTIVE MAP SCROLL CONTAINER PADDING FIX
+   Ensures equal left and right padding inside the scrollable container
+   so the left side of the map is never clipped on mobile for both floors.
+   ========================================================================= */
+.plan-stolu-container {
+  overflow-x: auto;
+  overflow-y: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  box-sizing: border-box;
+}
+
+@media (min-width: 640px) {
+  .plan-stolu-container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
