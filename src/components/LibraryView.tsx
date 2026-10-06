@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useRef, useEffect, useCallback } from 'react';
 import { 
   BookOpen, 
   Search, 
@@ -7,6 +7,7 @@ import {
   Sparkles, 
   Layers, 
   X, 
+  ChevronLeft,
   ChevronRight, 
   Info, 
   Globe, 
@@ -61,6 +62,30 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
   // Modal active item
   const [activeCulinaryModal, setActiveCulinaryModal] = useState<CulinaryTerm | null>(null);
   const [activeBeverageModal, setActiveBeverageModal] = useState<BeverageItem | null>(null);
+
+  // Subcategory horizontal scroll ref & buttons
+  const subcatRef = useRef<HTMLDivElement>(null);
+  const [canSubcatLeft, setCanSubcatLeft] = useState(false);
+  const [canSubcatRight, setCanSubcatRight] = useState(false);
+
+  const updateSubcatScroll = useCallback(() => {
+    const el = subcatRef.current;
+    if (!el) return;
+    setCanSubcatLeft(el.scrollLeft > 4);
+    setCanSubcatRight(el.scrollLeft < el.scrollWidth - el.clientWidth - 4);
+  }, []);
+
+  useEffect(() => {
+    const el = subcatRef.current;
+    if (!el) return;
+    updateSubcatScroll();
+    el.addEventListener('scroll', updateSubcatScroll, { passive: true });
+    window.addEventListener('resize', updateSubcatScroll);
+    return () => {
+      el.removeEventListener('scroll', updateSubcatScroll);
+      window.removeEventListener('resize', updateSubcatScroll);
+    };
+  }, [updateSubcatScroll, activeTab]);
 
   const handleTabChange = (tab: LibraryTab) => {
     setActiveTab(tab);
@@ -367,75 +392,112 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
         </div>
       </div>
 
-      {/* Sub-Category Filters with Audio Accompaniment - Smooth horizontal swipe */}
-      <div className="flex items-center gap-1.5 overflow-x-auto pb-1.5 no-scrollbar scroll-smooth">
-        {activeTab === 'culinary' ? (
-          culinaryCategories.map(cat => {
-            const isSelected = selectedCulinaryCategory === cat.id;
-            return (
-              <div
-                key={cat.id}
-                className={`shrink-0 inline-flex items-center rounded-lg text-xs font-medium transition-all ${
-                  isSelected
-                    ? 'bg-amber-500/20 text-amber-300 border border-amber-500/50 shadow-sm shadow-amber-950/20'
-                    : 'bg-stone-900 text-stone-400 hover:text-stone-200 border border-stone-800 hover:border-stone-700'
-                }`}
-              >
-                <button
-                  type="button"
-                  onClick={() => setSelectedCulinaryCategory(cat.id)}
-                  className="pl-3 pr-1 py-1.5 text-xs font-medium focus:outline-none"
+      {/* Sub-Category Filters with Audio Accompaniment and Scroll Buttons */}
+      <div className="relative flex items-center w-full min-w-0">
+        {/* Tlačítko posunu filtrů doleva */}
+        <button
+          type="button"
+          onClick={() => subcatRef.current?.scrollBy({ left: -140, behavior: 'smooth' })}
+          disabled={!canSubcatLeft}
+          title={isEn ? 'Scroll filters left' : 'Posunout filtry doleva'}
+          aria-label={isEn ? 'Scroll filters left' : 'Posunout filtry doleva'}
+          className={`p-1.5 rounded-lg border transition-all shrink-0 mr-1 flex items-center justify-center min-w-[30px] min-h-[30px] ${
+            canSubcatLeft
+              ? 'bg-stone-900 hover:bg-stone-800 text-stone-200 hover:text-amber-400 border-stone-800 hover:border-amber-500/50 shadow-sm active:scale-95'
+              : 'bg-stone-950/40 text-stone-600 border-stone-900/60 opacity-30 cursor-not-allowed'
+          }`}
+        >
+          <ChevronLeft className="w-3.5 h-3.5" />
+        </button>
+
+        <div
+          ref={subcatRef}
+          className="flex-1 flex items-center gap-1.5 overflow-x-auto pb-1.5 no-scrollbar scroll-smooth min-w-0"
+        >
+          {activeTab === 'culinary' ? (
+            culinaryCategories.map(cat => {
+              const isSelected = selectedCulinaryCategory === cat.id;
+              return (
+                <div
+                  key={cat.id}
+                  className={`shrink-0 inline-flex items-center rounded-lg text-xs font-medium transition-all ${
+                    isSelected
+                      ? 'bg-amber-500/20 text-amber-300 border border-amber-500/50 shadow-sm shadow-amber-950/20'
+                      : 'bg-stone-900 text-stone-400 hover:text-stone-200 border border-stone-800 hover:border-stone-700'
+                  }`}
                 >
-                  {cat.label}
-                </button>
-                <div className="pr-1.5 py-0.5">
-                  <AudioPronounceButton
-                    itemId={`subcat-cul-${cat.id}`}
-                    name={cat.label}
-                    description={cat.description}
-                    lang={language}
-                    size="xs"
-                    title={isEn ? `Listen to subcategory: ${cat.label}` : `Poslechnout podsložku: ${cat.label}`}
-                    className="!p-1 !rounded-md bg-transparent hover:bg-stone-800/80 text-stone-400 hover:text-amber-300 border-0 shadow-none"
-                  />
+                  <button
+                    type="button"
+                    onClick={() => setSelectedCulinaryCategory(cat.id)}
+                    className="pl-3 pr-1 py-1.5 text-xs font-medium focus:outline-none"
+                  >
+                    {cat.label}
+                  </button>
+                  <div className="pr-1.5 py-0.5">
+                    <AudioPronounceButton
+                      itemId={`subcat-cul-${cat.id}`}
+                      name={cat.label}
+                      description={cat.description}
+                      lang={language}
+                      size="xs"
+                      title={isEn ? `Listen to subcategory: ${cat.label}` : `Poslechnout podsložku: ${cat.label}`}
+                      className="!p-1 !rounded-md bg-transparent hover:bg-stone-800/80 text-stone-400 hover:text-amber-300 border-0 shadow-none"
+                    />
+                  </div>
                 </div>
-              </div>
-            );
-          })
-        ) : (
-          beverageCategories.map(cat => {
-            const isSelected = selectedBeverageCategory === cat.id;
-            return (
-              <div
-                key={cat.id}
-                className={`shrink-0 inline-flex items-center rounded-lg text-xs font-medium transition-all ${
-                  isSelected
-                    ? 'bg-amber-500/20 text-amber-300 border border-amber-500/50 shadow-sm shadow-amber-950/20'
-                    : 'bg-stone-900 text-stone-400 hover:text-stone-200 border border-stone-800 hover:border-stone-700'
-                }`}
-              >
-                <button
-                  type="button"
-                  onClick={() => setSelectedBeverageCategory(cat.id)}
-                  className="pl-3 pr-1 py-1.5 text-xs font-medium focus:outline-none"
+              );
+            })
+          ) : (
+            beverageCategories.map(cat => {
+              const isSelected = selectedBeverageCategory === cat.id;
+              return (
+                <div
+                  key={cat.id}
+                  className={`shrink-0 inline-flex items-center rounded-lg text-xs font-medium transition-all ${
+                    isSelected
+                      ? 'bg-amber-500/20 text-amber-300 border border-amber-500/50 shadow-sm shadow-amber-950/20'
+                      : 'bg-stone-900 text-stone-400 hover:text-stone-200 border border-stone-800 hover:border-stone-700'
+                  }`}
                 >
-                  {cat.label}
-                </button>
-                <div className="pr-1.5 py-0.5">
-                  <AudioPronounceButton
-                    itemId={`subcat-bev-${cat.id}`}
-                    name={cat.label}
-                    description={cat.description}
-                    lang={language}
-                    size="xs"
-                    title={isEn ? `Listen to subcategory: ${cat.label}` : `Poslechnout podsložku: ${cat.label}`}
-                    className="!p-1 !rounded-md bg-transparent hover:bg-stone-800/80 text-stone-400 hover:text-amber-300 border-0 shadow-none"
-                  />
+                  <button
+                    type="button"
+                    onClick={() => setSelectedBeverageCategory(cat.id)}
+                    className="pl-3 pr-1 py-1.5 text-xs font-medium focus:outline-none"
+                  >
+                    {cat.label}
+                  </button>
+                  <div className="pr-1.5 py-0.5">
+                    <AudioPronounceButton
+                      itemId={`subcat-bev-${cat.id}`}
+                      name={cat.label}
+                      description={cat.description}
+                      lang={language}
+                      size="xs"
+                      title={isEn ? `Listen to subcategory: ${cat.label}` : `Poslechnout podsložku: ${cat.label}`}
+                      className="!p-1 !rounded-md bg-transparent hover:bg-stone-800/80 text-stone-400 hover:text-amber-300 border-0 shadow-none"
+                    />
+                  </div>
                 </div>
-              </div>
-            );
-          })
-        )}
+              );
+            })
+          )}
+        </div>
+
+        {/* Tlačítko posunu filtrů doprava */}
+        <button
+          type="button"
+          onClick={() => subcatRef.current?.scrollBy({ left: 140, behavior: 'smooth' })}
+          disabled={!canSubcatRight}
+          title={isEn ? 'Scroll filters right' : 'Posunout filtry doprava'}
+          aria-label={isEn ? 'Scroll filters right' : 'Posunout filtry doprava'}
+          className={`p-1.5 rounded-lg border transition-all shrink-0 ml-1 flex items-center justify-center min-w-[30px] min-h-[30px] ${
+            canSubcatRight
+              ? 'bg-stone-900 hover:bg-stone-800 text-stone-200 hover:text-amber-400 border-stone-800 hover:border-amber-500/50 shadow-sm active:scale-95'
+              : 'bg-stone-950/40 text-stone-600 border-stone-900/60 opacity-30 cursor-not-allowed'
+          }`}
+        >
+          <ChevronRight className="w-3.5 h-3.5" />
+        </button>
       </div>
 
       {/* Results Count & Active Status */}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Volume2, VolumeX, BookOpen, Trophy, Sparkles, Utensils, RotateCcw, MapPin, Library, Sun, Moon } from 'lucide-react';
+import { Volume2, VolumeX, BookOpen, Trophy, Sparkles, Utensils, RotateCcw, MapPin, Library, Sun, Moon, ChevronLeft, ChevronRight } from 'lucide-react';
 import { UserStats } from '../utils/storage';
 import { soundManager } from '../utils/sound';
 import { PWAInstallButton } from './PWAInstallButton';
@@ -30,6 +30,50 @@ export const Header: React.FC<HeaderProps> = ({
   onToggleTheme
 }) => {
   const [soundOn, setSoundOn] = React.useState<boolean>(soundManager.isEnabled());
+  const tabsRef = React.useRef<HTMLDivElement>(null);
+  const [hasOverflow, setHasOverflow] = React.useState(false);
+  const [canScrollLeft, setCanScrollLeft] = React.useState(false);
+  const [canScrollRight, setCanScrollRight] = React.useState(false);
+
+  const updateScrollButtons = React.useCallback(() => {
+    const el = tabsRef.current;
+    if (!el) return;
+    const overflow = el.scrollWidth > el.clientWidth + 4;
+    setHasOverflow(overflow);
+    setCanScrollLeft(el.scrollLeft > 4);
+    setCanScrollRight(el.scrollLeft < el.scrollWidth - el.clientWidth - 4);
+  }, []);
+
+  React.useEffect(() => {
+    const el = tabsRef.current;
+    if (!el) return;
+    updateScrollButtons();
+    el.addEventListener('scroll', updateScrollButtons, { passive: true });
+    window.addEventListener('resize', updateScrollButtons);
+
+    // Ensure active tab is gently scrolled into view if clipped
+    const activeBtn = el.querySelector('[data-active="true"]') as HTMLElement | null;
+    if (activeBtn) {
+      activeBtn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'nearest' });
+    }
+
+    return () => {
+      el.removeEventListener('scroll', updateScrollButtons);
+      window.removeEventListener('resize', updateScrollButtons);
+    };
+  }, [updateScrollButtons, currentTab]);
+
+  const handleScrollLeft = () => {
+    if (tabsRef.current) {
+      tabsRef.current.scrollBy({ left: -150, behavior: 'smooth' });
+    }
+  };
+
+  const handleScrollRight = () => {
+    if (tabsRef.current) {
+      tabsRef.current.scrollBy({ left: 150, behavior: 'smooth' });
+    }
+  };
 
   const handleToggleSound = () => {
     const next = soundManager.toggle();
@@ -129,66 +173,113 @@ export const Header: React.FC<HeaderProps> = ({
             </div>
           </div>
 
-          {/* Nav Tabs - Swipable on mobile with no-scrollbar */}
-          <div className="flex items-center gap-1 sm:gap-1.5 bg-stone-950 p-1 rounded-xl border border-stone-800 w-full lg:w-auto justify-start lg:justify-center overflow-x-auto no-scrollbar scroll-smooth">
+          {/* Nav Tabs Container with Scroll Buttons on both sides */}
+          <div className="relative flex items-center w-full lg:w-auto min-w-0">
+            {/* Tlačítko posunu doleva */}
             <button
-              onClick={() => setCurrentTab('train')}
-              className={`shrink-0 flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all ${
-                currentTab === 'train'
-                  ? 'bg-amber-600 text-white shadow-md shadow-amber-900/40'
-                  : 'text-stone-400 hover:text-stone-200 hover:bg-stone-800/50'
+              type="button"
+              onClick={handleScrollLeft}
+              disabled={!canScrollLeft}
+              title={language === 'en' ? 'Scroll tabs left' : 'Posunout záložky doleva'}
+              aria-label={language === 'en' ? 'Scroll tabs left' : 'Posunout záložky doleva'}
+              className={`p-2 rounded-xl border transition-all shrink-0 mr-1.5 ${
+                hasOverflow ? 'flex' : 'hidden lg:hidden'
+              } items-center justify-center min-w-[34px] min-h-[34px] ${
+                canScrollLeft
+                  ? 'bg-stone-900 hover:bg-stone-800 text-stone-200 hover:text-amber-400 border-stone-800 hover:border-amber-500/50 shadow-sm active:scale-95'
+                  : 'bg-stone-950/40 text-stone-600 border-stone-900/60 opacity-30 cursor-not-allowed'
               }`}
             >
-              <Utensils className="w-3.5 h-3.5" />
-              <span>{language === 'en' ? 'Learn A, B, C' : 'Výuka A, B, C'}</span>
+              <ChevronLeft className="w-4 h-4" />
             </button>
 
-            <button
-              onClick={() => setCurrentTab('exam')}
-              className={`shrink-0 flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all ${
-                currentTab === 'exam'
-                  ? 'bg-amber-600 text-white shadow-md shadow-amber-900/40'
-                  : 'text-stone-400 hover:text-stone-200 hover:bg-stone-800/50'
-              }`}
+            {/* Nav Tabs - Swipable on mobile with no-scrollbar */}
+            <div
+              ref={tabsRef}
+              className="flex-1 flex items-center gap-1 sm:gap-1.5 bg-stone-950 p-1 rounded-xl border border-stone-800 justify-start lg:justify-center overflow-x-auto no-scrollbar scroll-smooth min-w-0"
             >
-              <Sparkles className="w-3.5 h-3.5" />
-              <span>{language === 'en' ? 'Exam (Mix 10)' : 'Zkouška (Mix 10)'}</span>
-            </button>
+              <button
+                onClick={() => setCurrentTab('train')}
+                data-active={currentTab === 'train'}
+                className={`shrink-0 flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all ${
+                  currentTab === 'train'
+                    ? 'bg-amber-600 text-white shadow-md shadow-amber-900/40'
+                    : 'text-stone-400 hover:text-stone-200 hover:bg-stone-800/50'
+                }`}
+              >
+                <Utensils className="w-3.5 h-3.5" />
+                <span>{language === 'en' ? 'Learn A, B, C' : 'Výuka A, B, C'}</span>
+              </button>
 
-            <button
-              onClick={() => setCurrentTab('catalog')}
-              className={`shrink-0 flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all ${
-                currentTab === 'catalog'
-                  ? 'bg-amber-600 text-white shadow-md shadow-amber-900/40'
-                  : 'text-stone-400 hover:text-stone-200 hover:bg-stone-800/50'
-              }`}
-            >
-              <BookOpen className="w-3.5 h-3.5" />
-              <span>{language === 'en' ? 'Menu Book' : 'Kniha menu'}</span>
-            </button>
+              <button
+                onClick={() => setCurrentTab('exam')}
+                data-active={currentTab === 'exam'}
+                className={`shrink-0 flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all ${
+                  currentTab === 'exam'
+                    ? 'bg-amber-600 text-white shadow-md shadow-amber-900/40'
+                    : 'text-stone-400 hover:text-stone-200 hover:bg-stone-800/50'
+                }`}
+              >
+                <Sparkles className="w-3.5 h-3.5" />
+                <span>{language === 'en' ? 'Exam (Mix 10)' : 'Zkouška (Mix 10)'}</span>
+              </button>
 
-            <button
-              onClick={() => setCurrentTab('tables')}
-              className={`shrink-0 flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all ${
-                currentTab === 'tables'
-                  ? 'bg-amber-600 text-white shadow-md shadow-amber-900/40'
-                  : 'text-stone-400 hover:text-stone-200 hover:bg-stone-800/50'
-              }`}
-            >
-              <MapPin className="w-3.5 h-3.5 text-amber-400" />
-              <span>{language === 'en' ? 'Floor Plan' : 'Plán stolů'}</span>
-            </button>
+              <button
+                onClick={() => setCurrentTab('catalog')}
+                data-active={currentTab === 'catalog'}
+                className={`shrink-0 flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all ${
+                  currentTab === 'catalog'
+                    ? 'bg-amber-600 text-white shadow-md shadow-amber-900/40'
+                    : 'text-stone-400 hover:text-stone-200 hover:bg-stone-800/50'
+                }`}
+              >
+                <BookOpen className="w-3.5 h-3.5" />
+                <span>{language === 'en' ? 'Menu Book' : 'Kniha menu'}</span>
+              </button>
 
+              <button
+                onClick={() => setCurrentTab('tables')}
+                data-active={currentTab === 'tables'}
+                className={`shrink-0 flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all ${
+                  currentTab === 'tables'
+                    ? 'bg-amber-600 text-white shadow-md shadow-amber-900/40'
+                    : 'text-stone-400 hover:text-stone-200 hover:bg-stone-800/50'
+                }`}
+              >
+                <MapPin className="w-3.5 h-3.5 text-amber-400" />
+                <span>{language === 'en' ? 'Floor Plan' : 'Plán stolů'}</span>
+              </button>
+
+              <button
+                onClick={() => setCurrentTab('library')}
+                data-active={currentTab === 'library'}
+                className={`shrink-0 flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all ${
+                  currentTab === 'library'
+                    ? 'bg-amber-600 text-white shadow-md shadow-amber-900/40'
+                    : 'text-stone-400 hover:text-stone-200 hover:bg-stone-800/50'
+                }`}
+              >
+                <Library className="w-3.5 h-3.5 text-amber-400" />
+                <span>{language === 'en' ? 'Library' : 'Knihovna'}</span>
+              </button>
+            </div>
+
+            {/* Tlačítko posunu doprava */}
             <button
-              onClick={() => setCurrentTab('library')}
-              className={`shrink-0 flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all ${
-                currentTab === 'library'
-                  ? 'bg-amber-600 text-white shadow-md shadow-amber-900/40'
-                  : 'text-stone-400 hover:text-stone-200 hover:bg-stone-800/50'
+              type="button"
+              onClick={handleScrollRight}
+              disabled={!canScrollRight}
+              title={language === 'en' ? 'Scroll tabs right' : 'Posunout záložky doprava'}
+              aria-label={language === 'en' ? 'Scroll tabs right' : 'Posunout záložky doprava'}
+              className={`p-2 rounded-xl border transition-all shrink-0 ml-1.5 ${
+                hasOverflow ? 'flex' : 'hidden lg:hidden'
+              } items-center justify-center min-w-[34px] min-h-[34px] ${
+                canScrollRight
+                  ? 'bg-stone-900 hover:bg-stone-800 text-stone-200 hover:text-amber-400 border-stone-800 hover:border-amber-500/50 shadow-sm active:scale-95'
+                  : 'bg-stone-950/40 text-stone-600 border-stone-900/60 opacity-30 cursor-not-allowed'
               }`}
             >
-              <Library className="w-3.5 h-3.5 text-amber-400" />
-              <span>{language === 'en' ? 'Library' : 'Knihovna'}</span>
+              <ChevronRight className="w-4 h-4" />
             </button>
           </div>
 
