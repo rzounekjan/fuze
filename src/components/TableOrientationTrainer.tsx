@@ -2,7 +2,7 @@ import React, { useState, useMemo, useEffect, useRef } from 'react';
 import { TABLES_FLOOR_1, TABLES_FLOOR_2, TableDef, getTablesForFloor } from '../data/tableLayoutData';
 import { soundManager } from '../utils/sound';
 import { 
-  ArrowLeft, Search, Trophy, Zap, 
+  Search, Trophy, Zap, 
   Eye, EyeOff, RotateCcw, MapPin, ZoomIn, ZoomOut, Maximize2, Layers
 } from 'lucide-react';
 
@@ -260,14 +260,6 @@ export const TableOrientationTrainer: React.FC<TableOrientationTrainerProps> = (
       {/* Top Bar: Navigation & Title */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-stone-900/80 p-4 rounded-2xl border border-stone-800 shadow-xl backdrop-blur-md">
         <div className="flex items-center gap-3">
-          <button
-            onClick={onBack}
-            className="p-2.5 rounded-xl bg-stone-800 hover:bg-stone-700 text-stone-300 hover:text-white transition-colors flex items-center gap-1.5 text-xs font-bold shrink-0"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            <span>{language === 'en' ? 'Back' : 'Zpět'}</span>
-          </button>
-
           <div>
             <div className="flex items-center gap-2">
               <span className="p-1 rounded-md bg-amber-500/20 text-amber-400">
@@ -276,9 +268,6 @@ export const TableOrientationTrainer: React.FC<TableOrientationTrainerProps> = (
               <h1 className="text-xl sm:text-2xl font-black text-stone-100 tracking-tight">
                 {language === 'en' ? 'Floor Plan & Table Numbers' : 'Plán stolů – Výuka'}
               </h1>
-              <span className="px-2 py-0.5 rounded-md text-[10px] font-black uppercase tracking-wider bg-amber-500/20 text-amber-300 border border-amber-500/30">
-                PC Format
-              </span>
             </div>
             <p className="text-xs text-stone-400 mt-0.5">
               {language === 'en'
