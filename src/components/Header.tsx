@@ -134,11 +134,6 @@ export const Header: React.FC<HeaderProps> = ({
                     </button>
                   </div>
                 </div>
-                <p className="text-xs text-stone-400 hidden sm:block truncate">
-                  {language === 'en'
-                    ? 'Training trainer of dishes and drinks according to original recipes'
-                    : 'Výukový trenažér jídel a nápojů podle originální receptury'}
-                </p>
               </div>
             </div>
 
