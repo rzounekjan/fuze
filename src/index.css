@@ -286,3 +286,36 @@ html.light svg rect[fill="#0c0a09"] {
 html.light svg #floor-grid-pc path {
   stroke: #cbd5e1;
 }
+
+/* =========================================================================
+   FIX OVERLAP AT BREAKPOINT >= 1000px (language_switcher vs nav_bar_programs_library)
+   ========================================================================= */
+@media (min-width: 1000px) {
+  .header-nav-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem 1.25rem;
+  }
+
+  .header-nav-tabs {
+    flex-shrink: 1;
+    min-width: 0;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1320px) {
+  .header-nav-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.75rem 1.25rem;
+  }
+
+  .header-nav-tabs {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+  }
+}

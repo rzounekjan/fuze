@@ -90,9 +90,9 @@ export const Header: React.FC<HeaderProps> = ({
   return (
     <header className="border-b border-stone-800 bg-stone-900/95 backdrop-blur-md sticky top-0 z-50 shadow-md transition-shadow">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-3.5">
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-3">
+        <div className="header-nav-container flex flex-col lg:flex-row items-center justify-between gap-3 lg:gap-4 flex-wrap">
           {/* Logo & Brand */}
-          <div className="flex items-center gap-2 sm:gap-3 w-full lg:w-auto justify-between lg:justify-start min-w-0">
+          <div className="flex items-center gap-2 sm:gap-3 w-full lg:w-auto justify-between lg:justify-start min-w-0 shrink-0">
             <div className="flex items-center gap-2 sm:gap-3 min-w-0">
               <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-br from-amber-500 to-amber-700 flex items-center justify-center shadow-lg shadow-amber-950/40 text-stone-950 font-black tracking-wider text-base sm:text-xl border border-amber-400/30 shrink-0">
                 FZ
@@ -169,7 +169,7 @@ export const Header: React.FC<HeaderProps> = ({
           </div>
 
           {/* Nav Tabs Container with Scroll Buttons on both sides */}
-          <div className="relative flex items-center w-full lg:w-auto min-w-0">
+          <div className="header-nav-tabs relative flex items-center w-full lg:w-auto min-w-0">
             {/* Tlačítko posunu doleva */}
             <button
               type="button"
