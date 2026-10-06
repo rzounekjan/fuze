@@ -39,12 +39,12 @@ export const ItemSelector: React.FC<ItemSelectorProps> = ({
   });
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-4 sm:space-y-6">
       {/* Top Navigation & Breadcrumb */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-stone-800">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 sm:pb-4 border-b border-stone-800">
         <button
           onClick={onBack}
-          className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-stone-800/90 hover:bg-stone-700/90 text-stone-200 hover:text-amber-300 border border-stone-700/80 hover:border-amber-500/50 text-xs sm:text-sm font-semibold transition-all shadow-sm hover:shadow active:scale-[0.98] w-fit group"
+          className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-stone-800/90 hover:bg-stone-700/90 text-stone-200 hover:text-amber-300 border border-stone-700/80 hover:border-amber-500/50 text-xs sm:text-sm font-semibold transition-all shadow-sm hover:shadow active:scale-[0.98] w-fit group"
           title={language === 'en' ? 'Return to Main Menu' : 'Návrat do Hlavní nabídky'}
         >
           <ArrowLeft className="w-4 h-4 text-stone-400 group-hover:text-amber-400 group-hover:-translate-x-0.5 transition-all" />
@@ -66,7 +66,7 @@ export const ItemSelector: React.FC<ItemSelectorProps> = ({
           {category.items.length > 1 && (
             <button
               onClick={onQuizEntireCategory}
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 border border-amber-500/40 text-xs sm:text-sm font-semibold transition-all shadow-sm active:scale-[0.98]"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-2 rounded-xl bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 border border-amber-500/40 text-xs sm:text-sm font-semibold transition-all shadow-sm active:scale-[0.98]"
             >
               <Sparkles className="w-4 h-4 text-amber-400" />
               <span>{language === 'en' ? `Test Entire Category (${category.items.length} items)` : `Otestovat celou kategorii (${category.items.length} položek)`}</span>
@@ -76,7 +76,7 @@ export const ItemSelector: React.FC<ItemSelectorProps> = ({
       </div>
 
       {/* Category Title Header */}
-      <div className="bg-stone-900/60 border border-stone-800 rounded-xl p-5 sm:p-6">
+      <div className="bg-stone-900/60 border border-stone-800 rounded-xl p-4 sm:p-6">
         <div className="flex items-center gap-2 text-xs font-bold text-amber-500 uppercase tracking-wider mb-1.5">
           <span>{language === 'en' ? 'Category' : 'Skupina'}</span>
           <span>·</span>
@@ -85,7 +85,7 @@ export const ItemSelector: React.FC<ItemSelectorProps> = ({
         <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-100 tracking-tight font-serif mb-2">
           {category.name}
         </h2>
-        <p className="text-sm text-stone-300 max-w-2xl leading-relaxed">
+        <p className="text-base sm:text-lg text-stone-200 max-w-2xl leading-relaxed font-normal">
           {category.description}
         </p>
 
@@ -163,26 +163,26 @@ export const ItemSelector: React.FC<ItemSelectorProps> = ({
                     {/* Item Top Info */}
                     <div className="flex items-start justify-between gap-3 mb-2">
                       <div className="flex-1">
-                        <div className="flex items-center gap-2 flex-wrap text-xs text-stone-400 mb-1">
+                        <div className="flex items-center gap-2 flex-wrap text-xs sm:text-sm text-stone-300 mb-1.5 font-medium">
                           {item.weight && (
-                            <span className="font-semibold text-stone-300 bg-stone-800/80 px-2 py-0.5 rounded text-[11px]">
+                            <span className="font-semibold text-stone-200 bg-stone-800/90 px-2.5 py-0.5 rounded text-xs sm:text-sm">
                               {item.weight}
                             </span>
                           )}
                           {item.price && (
-                            <span className="font-bold text-amber-400">
+                            <span className="font-bold text-amber-400 text-xs sm:text-sm">
                               {item.price}
                             </span>
                           )}
                           {item.allergens && item.allergens.length > 0 && (
-                            <span className="text-[11px] text-stone-400">
+                            <span className="text-xs sm:text-sm text-stone-400">
                               {language === 'en' ? 'Allergens:' : 'Alergeny:'} {item.allergens.join('/')}
                             </span>
                           )}
                         </div>
 
                         <div className="flex items-center gap-2 flex-wrap">
-                          <h3 className="text-lg font-bold text-stone-100 group-hover:text-amber-300 transition-colors">
+                          <h3 className="text-lg sm:text-xl font-bold text-stone-100 group-hover:text-amber-300 transition-colors">
                             {item.name}
                           </h3>
                           <AudioPronounceButton
@@ -200,7 +200,7 @@ export const ItemSelector: React.FC<ItemSelectorProps> = ({
                         {masteredQuestionsCount > 0 && !isMastered && (
                           <span
                             title={`${masteredQuestionsCount} z ${item.questions.length} otázek zodpovězeno správně`}
-                            className="px-2 py-0.5 rounded text-[11px] font-bold bg-amber-950/60 border border-amber-800/50 text-amber-300"
+                            className="px-2.5 py-1 rounded-md text-xs font-bold bg-amber-950/60 border border-amber-800/50 text-amber-300"
                           >
                             {masteredQuestionsCount}/{item.questions.length}
                           </span>
@@ -208,22 +208,22 @@ export const ItemSelector: React.FC<ItemSelectorProps> = ({
                         {isMastered && (
                           <span 
                             title={language === 'en' ? 'Item mastered in quiz' : 'Tato položka byla úspěšně zvládnuta v testu'}
-                            className="shrink-0 p-1 rounded-full bg-emerald-950/70 border border-emerald-700/50 text-emerald-400 flex items-center gap-1 px-2"
+                            className="shrink-0 p-1.5 rounded-full bg-emerald-950/70 border border-emerald-700/50 text-emerald-400 flex items-center gap-1.5 px-2.5"
                           >
                             <CheckCircle2 className="w-4 h-4" />
-                            <span className="text-[10px] font-bold">{language === 'en' ? 'Mastered' : 'Zvládnuto'}</span>
+                            <span className="text-xs font-bold">{language === 'en' ? 'Mastered' : 'Zvládnuto'}</span>
                           </span>
                         )}
                       </div>
                     </div>
 
                     {/* Official description */}
-                    <p className="text-xs text-stone-300 italic mb-3 leading-relaxed">
+                    <p className="text-sm sm:text-base text-stone-200 italic mb-3 leading-relaxed font-normal">
                       "{item.description}"
                     </p>
 
                     {item.notes && (
-                      <p className="text-[11px] text-stone-400 mb-3 bg-stone-950/60 p-2 rounded border border-stone-800/60">
+                      <p className="text-xs sm:text-sm text-stone-300 mb-3 bg-stone-950/60 p-2.5 rounded-lg border border-stone-800/60 leading-relaxed">
                         💡 {item.notes}
                       </p>
                     )}

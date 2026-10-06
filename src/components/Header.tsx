@@ -1,5 +1,5 @@
 import React from 'react';
-import { Volume2, VolumeX, BookOpen, Trophy, Sparkles, Utensils, RotateCcw, MapPin, Library } from 'lucide-react';
+import { Volume2, VolumeX, BookOpen, Trophy, Sparkles, Utensils, RotateCcw, MapPin, Library, Sun, Moon } from 'lucide-react';
 import { UserStats } from '../utils/storage';
 import { soundManager } from '../utils/sound';
 import { PWAInstallButton } from './PWAInstallButton';
@@ -13,6 +13,8 @@ interface HeaderProps {
   onResetStats: () => void;
   language?: 'cs' | 'en';
   onLanguageChange?: (lang: 'cs' | 'en') => void;
+  theme?: 'dark' | 'light';
+  onToggleTheme?: () => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -23,7 +25,9 @@ export const Header: React.FC<HeaderProps> = ({
   totalQuestionsCount,
   onResetStats,
   language = 'cs',
-  onLanguageChange
+  onLanguageChange,
+  theme = 'dark',
+  onToggleTheme
 }) => {
   const [soundOn, setSoundOn] = React.useState<boolean>(soundManager.isEnabled());
 
@@ -40,26 +44,26 @@ export const Header: React.FC<HeaderProps> = ({
   const totalQuestions = totalQuestionsCount || 1048;
 
   return (
-    <header className="border-b border-stone-800 bg-stone-900/90 backdrop-blur-md sticky top-0 z-40">
+    <header className="border-b border-stone-800 bg-stone-900/95 backdrop-blur-md sticky top-0 z-50 shadow-md transition-shadow">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-3.5">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-3">
           {/* Logo & Brand */}
-          <div className="flex items-center gap-3 w-full lg:w-auto justify-between lg:justify-start">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-amber-500 to-amber-700 flex items-center justify-center shadow-lg shadow-amber-950/40 text-stone-950 font-black tracking-wider text-xl border border-amber-400/30 shrink-0">
+          <div className="flex items-center gap-2 sm:gap-3 w-full lg:w-auto justify-between lg:justify-start min-w-0">
+            <div className="flex items-center gap-2 sm:gap-3 min-w-0">
+              <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-br from-amber-500 to-amber-700 flex items-center justify-center shadow-lg shadow-amber-950/40 text-stone-950 font-black tracking-wider text-base sm:text-xl border border-amber-400/30 shrink-0">
                 FZ
               </div>
-              <div>
-                <div className="flex items-center gap-2">
-                  <h1 className="text-base sm:text-lg font-bold text-stone-100 tracking-tight flex items-center gap-1.5">
-                    FUZE Gastro Akademie
+              <div className="min-w-0">
+                <div className="flex items-center gap-1.5 sm:gap-2">
+                  <h1 className="text-base sm:text-lg lg:text-xl font-black text-stone-100 tracking-tight">
+                    FUZE
                   </h1>
-                  {/* Klikací tlačítka CZ / EN pro přepínání jazyka (nahrazuje Menu & Ingredience) */}
-                  <div className="inline-flex items-center p-0.5 rounded-lg bg-stone-950 border border-stone-800 shadow-inner">
+                  {/* Klikací tlačítka CZ / EN pro přepínání jazyka */}
+                  <div className="inline-flex items-center p-0.5 rounded-lg bg-stone-950 border border-stone-800 shadow-inner shrink-0">
                     <button
                       type="button"
                       onClick={() => onLanguageChange?.('cs')}
-                      className={`flex items-center gap-1 px-2 py-0.5 rounded-md text-[11px] sm:text-xs font-semibold transition-all ${
+                      className={`flex items-center gap-1 px-1.5 sm:px-2 py-0.5 rounded-md text-[10px] sm:text-xs font-semibold transition-all ${
                         language === 'cs'
                           ? 'bg-amber-600 text-stone-100 shadow-sm border border-amber-500/50'
                           : 'text-stone-400 hover:text-stone-200 hover:bg-stone-800/60 border border-transparent'
@@ -73,12 +77,12 @@ export const Header: React.FC<HeaderProps> = ({
                     <button
                       type="button"
                       onClick={() => onLanguageChange?.('en')}
-                      className={`flex items-center gap-1 px-2 py-0.5 rounded-md text-[11px] sm:text-xs font-semibold transition-all ${
+                      className={`flex items-center gap-1 px-1.5 sm:px-2 py-0.5 rounded-md text-[10px] sm:text-xs font-semibold transition-all ${
                         language === 'en'
                           ? 'bg-amber-600 text-stone-100 shadow-sm border border-amber-500/50'
                           : 'text-stone-400 hover:text-stone-200 hover:bg-stone-800/60 border border-transparent'
                       }`}
-                      title="English (připravuje se)"
+                      title="English"
                       aria-label="Switch to English"
                     >
                       <span className="text-xs">🇬🇧</span>
@@ -86,7 +90,7 @@ export const Header: React.FC<HeaderProps> = ({
                     </button>
                   </div>
                 </div>
-                <p className="text-xs text-stone-400 hidden sm:block">
+                <p className="text-xs text-stone-400 hidden sm:block truncate">
                   {language === 'en'
                     ? 'Training trainer of dishes and drinks according to original recipes'
                     : 'Výukový trenažér jídel a nápojů podle originální receptury'}
@@ -94,24 +98,42 @@ export const Header: React.FC<HeaderProps> = ({
               </div>
             </div>
 
-            {/* Mobile Actions: PWA Install & Sound button */}
-            <div className="lg:hidden flex items-center gap-1.5 shrink-0">
-              <PWAInstallButton language={language} />
+            {/* Action buttons: Zvuk, Stáhnutí, Světlý/Tmavý režim (řadí se vedle sebe nebo pod sebe dle šířky) */}
+            <div className="lg:hidden flex flex-wrap items-center justify-end gap-1 sm:gap-1.5 shrink-0 max-w-[125px] sm:max-w-none">
+              {/* 1. Zvuk */}
               <button
+                type="button"
                 onClick={handleToggleSound}
-                title={soundOn ? 'Vypnout zvuky' : 'Zapnout zvuky'}
-                className="p-2 rounded-lg bg-stone-800/80 hover:bg-stone-700 text-stone-300 transition-colors shrink-0"
+                title={soundOn ? (language === 'en' ? 'Mute' : 'Vypnout zvuky') : (language === 'en' ? 'Unmute' : 'Zapnout zvuky')}
+                className="p-1.5 sm:p-2 rounded-lg bg-stone-800/80 hover:bg-stone-700 text-stone-300 transition-colors shrink-0"
+                aria-label={soundOn ? 'Vypnout zvuky' : 'Zapnout zvuky'}
               >
                 {soundOn ? <Volume2 className="w-4 h-4 text-amber-400" /> : <VolumeX className="w-4 h-4 text-stone-500" />}
               </button>
+
+              {/* 2. Stáhnutí */}
+              <PWAInstallButton language={language} />
+
+              {/* 3. Světlý / tmavý režim */}
+              {onToggleTheme && (
+                <button
+                  type="button"
+                  onClick={onToggleTheme}
+                  title={theme === 'dark' ? (language === 'en' ? 'Switch to Light Mode' : 'Přepnout na světlý režim') : (language === 'en' ? 'Switch to Dark Mode' : 'Přepnout na tmavý režim')}
+                  aria-label={theme === 'dark' ? 'Světlý režim' : 'Tmavý režim'}
+                  className="p-1.5 sm:p-2 rounded-lg bg-stone-800/80 hover:bg-stone-700 text-stone-300 transition-colors shrink-0"
+                >
+                  {theme === 'dark' ? <Sun className="w-4 h-4 text-amber-400" /> : <Moon className="w-4 h-4 text-amber-600" />}
+                </button>
+              )}
             </div>
           </div>
 
-          {/* Nav Tabs */}
-          <div className="flex items-center gap-1 sm:gap-1.5 bg-stone-950 p-1 rounded-xl border border-stone-800 w-full sm:w-auto justify-center flex-wrap">
+          {/* Nav Tabs - Swipable on mobile with no-scrollbar */}
+          <div className="flex items-center gap-1 sm:gap-1.5 bg-stone-950 p-1 rounded-xl border border-stone-800 w-full lg:w-auto justify-start lg:justify-center overflow-x-auto no-scrollbar scroll-smooth">
             <button
               onClick={() => setCurrentTab('train')}
-              className={`flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all ${
+              className={`shrink-0 flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all ${
                 currentTab === 'train'
                   ? 'bg-amber-600 text-white shadow-md shadow-amber-900/40'
                   : 'text-stone-400 hover:text-stone-200 hover:bg-stone-800/50'
@@ -123,7 +145,7 @@ export const Header: React.FC<HeaderProps> = ({
 
             <button
               onClick={() => setCurrentTab('exam')}
-              className={`flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all ${
+              className={`shrink-0 flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all ${
                 currentTab === 'exam'
                   ? 'bg-amber-600 text-white shadow-md shadow-amber-900/40'
                   : 'text-stone-400 hover:text-stone-200 hover:bg-stone-800/50'
@@ -135,7 +157,7 @@ export const Header: React.FC<HeaderProps> = ({
 
             <button
               onClick={() => setCurrentTab('catalog')}
-              className={`flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all ${
+              className={`shrink-0 flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all ${
                 currentTab === 'catalog'
                   ? 'bg-amber-600 text-white shadow-md shadow-amber-900/40'
                   : 'text-stone-400 hover:text-stone-200 hover:bg-stone-800/50'
@@ -147,7 +169,7 @@ export const Header: React.FC<HeaderProps> = ({
 
             <button
               onClick={() => setCurrentTab('tables')}
-              className={`flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all ${
+              className={`shrink-0 flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all ${
                 currentTab === 'tables'
                   ? 'bg-amber-600 text-white shadow-md shadow-amber-900/40'
                   : 'text-stone-400 hover:text-stone-200 hover:bg-stone-800/50'
@@ -159,7 +181,7 @@ export const Header: React.FC<HeaderProps> = ({
 
             <button
               onClick={() => setCurrentTab('library')}
-              className={`flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all ${
+              className={`shrink-0 flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all ${
                 currentTab === 'library'
                   ? 'bg-amber-600 text-white shadow-md shadow-amber-900/40'
                   : 'text-stone-400 hover:text-stone-200 hover:bg-stone-800/50'
@@ -211,6 +233,29 @@ export const Header: React.FC<HeaderProps> = ({
             >
               {soundOn ? <Volume2 className="w-4 h-4 text-amber-400" /> : <VolumeX className="w-4 h-4 text-stone-500" />}
             </button>
+
+            {/* Theme toggle button */}
+            {onToggleTheme && (
+              <button
+                type="button"
+                onClick={onToggleTheme}
+                title={theme === 'dark' ? (language === 'en' ? 'Switch to Light Mode' : 'Přepnout na světlý režim') : (language === 'en' ? 'Switch to Dark Mode' : 'Přepnout na tmavý režim')}
+                aria-label={theme === 'dark' ? (language === 'en' ? 'Switch to Light Mode' : 'Přepnout na světlý režim') : (language === 'en' ? 'Switch to Dark Mode' : 'Přepnout na tmavý režim')}
+                className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-stone-800/80 hover:bg-stone-700 text-stone-300 hover:text-stone-100 border border-stone-700/60 transition-colors"
+              >
+                {theme === 'dark' ? (
+                  <>
+                    <Sun className="w-3.5 h-3.5 text-amber-400" />
+                    <span className="font-medium hidden xl:inline">{language === 'en' ? 'Light' : 'Světlý'}</span>
+                  </>
+                ) : (
+                  <>
+                    <Moon className="w-3.5 h-3.5 text-amber-600" />
+                    <span className="font-medium hidden xl:inline">{language === 'en' ? 'Dark' : 'Tmavý'}</span>
+                  </>
+                )}
+              </button>
+            )}
 
             {/* Reset button */}
             <button

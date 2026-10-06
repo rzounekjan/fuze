@@ -262,54 +262,57 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
   }, [activeBeverageModal, activeBeverageItems]);
 
   return (
-    <div className="space-y-6 max-w-7xl mx-auto pb-12">
+    <div className="space-y-4 sm:space-y-6 max-w-7xl mx-auto pb-12">
       {/* Top Hero Banner */}
-      <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-stone-900 via-stone-900 to-stone-950 border border-stone-800 p-6 sm:p-8 shadow-xl">
+      <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-stone-900 via-stone-900 to-stone-950 border border-stone-800 p-4 sm:p-6 md:p-8 shadow-xl">
         <div className="absolute top-0 right-0 w-96 h-96 bg-amber-500/5 rounded-full blur-3xl pointer-events-none -mr-20 -mt-20" />
         <div className="relative z-10 max-w-3xl">
           <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-amber-400 mb-2">
             <BookOpen className="w-4 h-4" />
             <span>{isEn ? 'FUZE Knowledge Base' : 'Znalostní báze FUZE'}</span>
           </div>
-          <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-100 tracking-tight">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-stone-100 tracking-tight">
             {isEn ? 'Gastro Library & Encyclopedia' : 'Gastro Knihovna & Encyklopedie'}
           </h2>
-          <p className="mt-2 text-sm sm:text-base text-stone-400 leading-relaxed">
+          <p className="mt-2 text-xs sm:text-sm md:text-base text-stone-400 leading-relaxed">
             {isEn 
               ? 'Complete reference guide of gourmet culinary terms, cuts, sauces, and cooking techniques alongside our full wine and spirits library with ingredients, production secrets, and pairing tips.'
               : 'Kompletní přehled cizích gastronomických názvů, masných řezů, omáček a kulinářských technik z jídelního lístku, doplněný o ucelenou encyklopedii vín, rumů, tequil, whisky a lihovin.'}
           </p>
 
           {/* Quick Counter badges */}
-          <div className="mt-4 flex flex-wrap items-center gap-3 text-xs text-stone-400">
-            <div className="flex items-center gap-1.5 px-3 py-1 rounded-lg bg-stone-800/80 border border-stone-700/60 text-stone-300">
-              <UtensilsCrossed className="w-3.5 h-3.5 text-amber-400" />
-              <span><strong>{activeCulinaryTerms.length}</strong> {isEn ? 'culinary terms & ingredients' : 'kulinářských pojmů a surovin'}</span>
+          <div className="mt-4 flex flex-wrap items-center gap-2 sm:gap-3 text-xs text-stone-400">
+            <div className="flex items-center gap-1.5 px-2.5 sm:px-3 py-1 rounded-lg bg-stone-800/80 border border-stone-700/60 text-stone-300">
+              <UtensilsCrossed className="w-3.5 h-3.5 text-amber-400 shrink-0" />
+              <span><strong>{activeCulinaryTerms.length}</strong> {isEn ? 'culinary terms' : 'kulinářských pojmů'}</span>
             </div>
-            <div className="flex items-center gap-1.5 px-3 py-1 rounded-lg bg-stone-800/80 border border-stone-700/60 text-stone-300">
-              <Wine className="w-3.5 h-3.5 text-amber-400" />
-              <span><strong>{activeBeverageItems.length}</strong> {isEn ? 'wines, spirits & craft beers' : 'vín, destilátů a piv na čepu'}</span>
+            <div className="flex items-center gap-1.5 px-2.5 sm:px-3 py-1 rounded-lg bg-stone-800/80 border border-stone-700/60 text-stone-300">
+              <Wine className="w-3.5 h-3.5 text-amber-400 shrink-0" />
+              <span><strong>{activeBeverageItems.length}</strong> {isEn ? 'wines & spirits' : 'vín a destilátů'}</span>
             </div>
           </div>
         </div>
       </div>
 
       {/* Main Mode Switcher: Kulinářský lexikon vs Nápojová encyklopedie */}
-      <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4">
+      <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 sm:gap-4">
         {/* Interactive Segmented Switcher */}
-        <div className="inline-flex p-1 bg-stone-900 border border-stone-800 rounded-xl shadow-inner">
+        <div className="grid grid-cols-2 p-1 bg-stone-900 border border-stone-800 rounded-xl shadow-inner w-full sm:w-auto sm:inline-flex gap-1">
           <button
             type="button"
             onClick={() => handleTabChange('culinary')}
-            className={`flex items-center justify-center gap-2 px-4 py-2 rounded-lg text-xs sm:text-sm font-bold transition-all ${
+            className={`min-w-0 flex items-center justify-center gap-1.5 sm:gap-2 px-2 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-bold transition-all min-h-[42px] ${
               activeTab === 'culinary'
                 ? 'bg-amber-600 text-stone-950 shadow-md shadow-amber-950/40 font-black'
                 : 'text-stone-400 hover:text-stone-200 hover:bg-stone-800/50'
             }`}
           >
-            <ChefHat className="w-4 h-4" />
-            <span>{isEn ? 'Culinary Glossary' : 'Kulinářský lexikon'}</span>
-            <span className={`text-[11px] px-1.5 py-0.2 rounded font-mono ${
+            <ChefHat className="w-4 h-4 shrink-0" />
+            <span className="truncate">
+              <span className="hidden sm:inline">{isEn ? 'Culinary Glossary' : 'Kulinářský lexikon'}</span>
+              <span className="sm:hidden">{isEn ? 'Glossary' : 'Lexikon'}</span>
+            </span>
+            <span className={`text-[10px] sm:text-[11px] px-1.5 py-0.5 rounded font-mono shrink-0 ${
               activeTab === 'culinary' ? 'bg-amber-700/50 text-stone-950 font-bold' : 'text-stone-500'
             }`}>
               {activeCulinaryTerms.length}
@@ -319,15 +322,18 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
           <button
             type="button"
             onClick={() => handleTabChange('beverages')}
-            className={`flex items-center justify-center gap-2 px-4 py-2 rounded-lg text-xs sm:text-sm font-bold transition-all ${
+            className={`min-w-0 flex items-center justify-center gap-1.5 sm:gap-2 px-2 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-bold transition-all min-h-[42px] ${
               activeTab === 'beverages'
                 ? 'bg-amber-600 text-stone-950 shadow-md shadow-amber-950/40 font-black'
                 : 'text-stone-400 hover:text-stone-200 hover:bg-stone-800/50'
             }`}
           >
-            <GlassWater className="w-4 h-4" />
-            <span>{isEn ? 'Beverage Encyclopedia' : 'Nápojová encyklopedie'}</span>
-            <span className={`text-[11px] px-1.5 py-0.2 rounded font-mono ${
+            <GlassWater className="w-4 h-4 shrink-0" />
+            <span className="truncate">
+              <span className="hidden sm:inline">{isEn ? 'Beverage Encyclopedia' : 'Nápojová encyklopedie'}</span>
+              <span className="sm:hidden">{isEn ? 'Beverages' : 'Nápoje'}</span>
+            </span>
+            <span className={`text-[10px] sm:text-[11px] px-1.5 py-0.5 rounded font-mono shrink-0 ${
               activeTab === 'beverages' ? 'bg-amber-700/50 text-stone-950 font-bold' : 'text-stone-500'
             }`}>
               {activeBeverageItems.length}
@@ -336,7 +342,7 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
         </div>
 
         {/* Search Bar */}
-        <div className="relative flex-1 sm:max-w-md">
+        <div className="relative flex-1 sm:max-w-md w-full">
           <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-stone-500" />
           <input
             type="text"
@@ -361,8 +367,8 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
         </div>
       </div>
 
-      {/* Sub-Category Filters with Audio Accompaniment */}
-      <div className="flex items-center gap-1.5 overflow-x-auto pb-1.5 scrollbar-thin">
+      {/* Sub-Category Filters with Audio Accompaniment - Smooth horizontal swipe */}
+      <div className="flex items-center gap-1.5 overflow-x-auto pb-1.5 no-scrollbar scroll-smooth">
         {activeTab === 'culinary' ? (
           culinaryCategories.map(cat => {
             const isSelected = selectedCulinaryCategory === cat.id;

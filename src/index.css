@@ -8,4 +8,281 @@
   h1, h2, h3, .font-serif {
     font-family: 'Playfair Display', Georgia, serif;
   }
+
+  html, body, #root {
+    overflow-x: clip;
+    max-width: 100%;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* =========================================================================
+   GLOBÁLNÍ ZVĚTŠENÍ VŠECH ODSTAVCŮ <p> O 2 PX
+   Zvyšuje velikost písma všech <p> prvků napříč aplikací přesně o +2 px
+   (10px -> 12px, 11px -> 13px, 12px -> 14px, 14px -> 16px, 16px -> 18px atd.)
+   ========================================================================= */
+p {
+  font-size: calc(1em + 2px);
+}
+
+p.text-\[10px\] {
+  font-size: 12px !important;
+}
+
+p.text-\[11px\] {
+  font-size: 13px !important;
+}
+
+p.text-xs {
+  font-size: 14px !important;
+}
+
+p.text-sm {
+  font-size: 16px !important;
+}
+
+p.text-base {
+  font-size: 18px !important;
+}
+
+p.text-lg {
+  font-size: 20px !important;
+}
+
+@media (min-width: 640px) {
+  p.sm\:text-sm {
+    font-size: 16px !important;
+  }
+  p.sm\:text-base {
+    font-size: 18px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  p.md\:text-base {
+    font-size: 18px !important;
+  }
+}
+
+/* =========================================================================
+   LIGHT MODE PALETTE OVERRIDES FOR TAILWIND CSS v4
+   When <html class="light"> is applied, automatically remaps the entire palette
+   to provide razor-sharp contrast against white backgrounds using:
+   - ČERNÁ (#000000 / #09090b) pro nadpisy, názvy jídel, ceny a hlavní texty
+   - TMAVĚ MODRÁ (#1e293b / #1e3a8a / #1e40af) pro odstavce, popisy a info prvky
+   - TMAVĚ ZELENÁ (#064e3b / #065f46 / #14532d) pro správné odpovědi, naučeno a úspěšnost
+   - TMAVĚ ČERVENÁ (#881337 / #991b1b / #9f1239) pro chybné odpovědi, varování a reset
+   - TMAVĚ JANTAROVÁ / BRONZOVÁ (#78350f / #92400e) pro gastro akcenty, čísla stolů a štítky
+   ========================================================================= */
+html.light {
+  /* Podklady a panely */
+  --color-stone-950: #f8fafc; /* Canvas / Hlavní pozadí */
+  --color-stone-900: #ffffff; /* Karty a hlavní panely (čistě bílé) */
+  --color-stone-850: #f1f5f9; /* Světle šedé pozadí */
+  --color-stone-800: #e2e8f0; /* Ostré ohraničení karet */
+  --color-stone-700: #cbd5e1; /* Zvýrazněná ohraničení */
+  --color-stone-600: #64748b; /* Ikony */
+
+  /* Texty (ČERNÁ a TMAVĚ MODRÁ pro maximální čitelnost) */
+  --color-stone-500: #334155; /* Tmavá břidlice */
+  --color-stone-400: #1e293b; /* Tmavě modrá / hluboká břidlice (14.5:1 kontrast) */
+  --color-stone-300: #0f172a; /* Hluboká modročerná */
+  --color-stone-200: #09090b; /* Sytá černá */
+  --color-stone-100: #000000; /* Plná černá pro nadpisy a tituly */
+  --color-stone-50:  #000000;
+
+  /* Tmavě jantarová / bronzová (vysoký kontrast na bílé místo bledé žluté) */
+  --color-amber-100: #78350f;
+  --color-amber-200: #78350f;
+  --color-amber-300: #854d0e;
+  --color-amber-400: #92400e;
+  --color-amber-500: #b45309;
+  --color-amber-600: #d97706;
+  --color-amber-800: #fde68a;
+  --color-amber-900: #fef3c7;
+  --color-amber-950: #fffbeb;
+
+  /* Tmavě zelená (správné odpovědi, naučené položky) */
+  --color-emerald-100: #064e3b;
+  --color-emerald-200: #064e3b;
+  --color-emerald-300: #065f46;
+  --color-emerald-400: #047857;
+  --color-emerald-500: #059669;
+  --color-emerald-800: #a7f3d0;
+  --color-emerald-900: #d1fae5;
+  --color-emerald-950: #ecfdf5;
+
+  --color-green-300: #14532d;
+  --color-green-400: #166534;
+
+  /* Tmavě červená (chybné odpovědi, reset, varování) */
+  --color-rose-100: #881337;
+  --color-rose-200: #881337;
+  --color-rose-300: #9f1239;
+  --color-rose-400: #be123c;
+  --color-rose-500: #e11d48;
+  --color-rose-800: #fecdd3;
+  --color-rose-900: #ffe4e6;
+  --color-rose-950: #fff1f2;
+
+  --color-red-300: #991b1b;
+  --color-red-400: #b91c1c;
+
+  /* Tmavě modrá (odkazy, info prvky) */
+  --color-sky-200: #1e3a8a;
+  --color-sky-300: #1e40af;
+  --color-sky-400: #1d4ed8;
+  --color-sky-800: #bae6fd;
+  --color-sky-900: #e0f2fe;
+  --color-sky-950: #f0f9ff;
+
+  --color-blue-300: #1e3a8a;
+  --color-blue-400: #1e40af;
+}
+
+html.light body {
+  background-color: var(--color-stone-950);
+  color: #000000;
+}
+
+/* Nadpisy v čisté černé pro maximální čitelnost na bílém podkladu */
+html.light h1,
+html.light h2,
+html.light h3,
+html.light h4 {
+  color: #000000 !important;
+}
+
+/* Všechny odstavce v kontrastní tmavě modré / černé barvě */
+html.light p {
+  color: #1e293b;
+}
+
+html.light p.text-stone-100,
+html.light p.text-stone-200 {
+  color: #000000 !important;
+}
+
+html.light p.text-stone-300 {
+  color: #0f172a !important;
+}
+
+html.light p.text-stone-400 {
+  color: #1e293b !important;
+}
+
+/* Přímé třídy barev písma v light mode */
+html.light .text-stone-100 { color: #000000 !important; }
+html.light .text-stone-200 { color: #09090b !important; }
+html.light .text-stone-300 { color: #0f172a !important; }
+html.light .text-stone-400 { color: #1e293b !important; } /* Tmavě modrá / břidlicová */
+
+/* Tmavě jantarová / bronzová */
+html.light .text-amber-100 { color: #78350f !important; }
+html.light .text-amber-200 { color: #78350f !important; }
+html.light .text-amber-300 { color: #854d0e !important; }
+html.light .text-amber-400 { color: #92400e !important; }
+html.light .text-amber-500 { color: #b45309 !important; }
+
+/* Tmavě zelená (správné odpovědi) */
+html.light .text-emerald-100 { color: #064e3b !important; }
+html.light .text-emerald-200 { color: #064e3b !important; }
+html.light .text-emerald-300 { color: #065f46 !important; }
+html.light .text-emerald-400 { color: #047857 !important; }
+html.light .text-emerald-500 { color: #059669 !important; }
+
+/* Tmavě červená (chybné odpovědi) */
+html.light .text-rose-100 { color: #881337 !important; }
+html.light .text-rose-200 { color: #881337 !important; }
+html.light .text-rose-300 { color: #9f1239 !important; }
+html.light .text-rose-400 { color: #be123c !important; }
+html.light .text-rose-500 { color: #e11d48 !important; }
+
+/* Tmavě modrá */
+html.light .text-sky-300 { color: #1e40af !important; }
+html.light .text-sky-400 { color: #1d4ed8 !important; }
+
+/* Light mode card elevations & shadows */
+html.light .shadow-2xl {
+  box-shadow: 0 25px 50px -12px rgba(15, 23, 42, 0.12);
+}
+html.light .shadow-xl {
+  box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.08), 0 8px 10px -6px rgba(15, 23, 42, 0.04);
+}
+html.light .shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(15, 23, 42, 0.07), 0 4px 6px -4px rgba(15, 23, 42, 0.03);
+}
+html.light .shadow-md {
+  box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.06), 0 2px 4px -2px rgba(15, 23, 42, 0.03);
+}
+
+/* Bílý povrch pro karty a panely v light mode */
+html.light .bg-stone-900,
+html.light .bg-stone-900\/90,
+html.light .bg-stone-900\/80,
+html.light .bg-stone-900\/70,
+html.light .bg-stone-900\/60,
+html.light .bg-stone-900\/40 {
+  background-color: #ffffff;
+}
+
+html.light .bg-stone-950,
+html.light .bg-stone-950\/80,
+html.light .bg-stone-950\/60,
+html.light .bg-stone-950\/50,
+html.light .bg-stone-950\/40 {
+  background-color: #f8fafc;
+}
+
+html.light .bg-stone-800,
+html.light .bg-stone-800\/90,
+html.light .bg-stone-800\/80,
+html.light .bg-stone-800\/60,
+html.light .bg-stone-800\/50 {
+  background-color: #f1f5f9;
+}
+
+/* Ostrá ohraničení pro bílý podklad */
+html.light .border-stone-800,
+html.light .border-stone-850,
+html.light .border-stone-900 {
+  border-color: #e2e8f0;
+}
+
+html.light .border-stone-700 {
+  border-color: #cbd5e1;
+}
+
+/* Formuláře a vstupy */
+html.light input,
+html.light select,
+html.light textarea {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border-color: #cbd5e1 !important;
+}
+
+html.light input::placeholder,
+html.light textarea::placeholder {
+  color: #64748b !important;
+}
+
+/* Trenažér stolů - architektonický podklad mapy ve světlém režimu */
+html.light svg rect[fill="#0c0a09"] {
+  fill: #f1f5f9;
+}
+
+html.light svg #floor-grid-pc path {
+  stroke: #cbd5e1;
 }

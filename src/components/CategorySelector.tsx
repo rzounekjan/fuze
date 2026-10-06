@@ -67,9 +67,9 @@ export const CategorySelector: React.FC<CategorySelectorProps> = ({
   }, [lastSelectedCategoryId, onClearLastSelectedCategory]);
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-4 sm:space-y-6">
       {/* Intro Hero Banner */}
-      <div className="rounded-2xl p-6 sm:p-8 bg-gradient-to-br from-stone-900 via-stone-900/90 to-amber-950/30 border border-stone-800 shadow-xl relative overflow-hidden">
+      <div className="rounded-2xl p-4 sm:p-6 md:p-8 bg-gradient-to-br from-stone-900 via-stone-900/90 to-amber-950/30 border border-stone-800 shadow-xl relative overflow-hidden">
         <div className="absolute -right-8 -top-8 w-64 h-64 bg-amber-500/5 rounded-full blur-3xl pointer-events-none" />
         
         <div className="relative z-10 max-w-2xl">
@@ -77,17 +77,17 @@ export const CategorySelector: React.FC<CategorySelectorProps> = ({
             <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse" />
             1. KROK: Vyberte skupinu pokrmů nebo nápojů
           </div>
-          <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-100 tracking-tight font-serif mb-2">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-stone-100 tracking-tight font-serif mb-2">
             Interaktivní výuka menu restaurace FUZE
           </h2>
-          <p className="text-sm text-stone-300 leading-relaxed">
-            Vyberte si kategorii ze stálého či sezónního lístku a následně zvolte konkrétní podsložku (jídlo). V navazujícím testu systému <strong className="text-amber-400">A, B, C</strong> prověříte své znalosti přesného složení, ingrediencí a specifik přípravy.
+          <p className="text-sm sm:text-base md:text-lg text-stone-200 leading-relaxed font-normal">
+            Vyberte si kategorii ze stálého či sezónního lístku a následně zvolte konkrétní podsložku (jídlo). V navazujícím testu systému <strong className="text-amber-400 font-bold">A, B, C</strong> prověříte své znalosti přesného složení, ingrediencí a specifik přípravy.
           </p>
         </div>
       </div>
 
       {/* Grid of categories */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5 sm:gap-4">
         {categories.map((cat) => {
           const Icon = ICON_MAP[cat.iconName] || Utensils;
           const itemsCount = cat.items.length;
@@ -164,15 +164,15 @@ export const CategorySelector: React.FC<CategorySelectorProps> = ({
                         {language === 'en' ? 'Mastered' : 'Zvládnuto'}
                       </span>
                     ) : (
-                      <span className="text-stone-400 font-medium">
+                      <span className="text-stone-300 font-semibold text-xs sm:text-sm">
                         {itemsCount} {language === 'en' ? (itemsCount === 1 ? 'item' : 'items') : (itemsCount === 1 ? 'položka' : itemsCount < 5 ? 'položky' : 'položek')}
                       </span>
                     )}
                   </div>
                 </div>
 
-                <div className="flex items-center justify-between gap-2 mb-1">
-                  <h3 className={`text-base font-bold transition-colors ${
+                <div className="flex items-center justify-between gap-2 mb-1.5">
+                  <h3 className={`text-base sm:text-lg font-bold transition-colors ${
                     isSelected ? 'text-amber-300' : 'text-stone-100 group-hover:text-amber-300'
                   }`}>
                     {cat.name}
@@ -186,7 +186,7 @@ export const CategorySelector: React.FC<CategorySelectorProps> = ({
                     title={language === 'en' ? 'Pronounce category in English' : 'Přečíst kategorii česky'}
                   />
                 </div>
-                <p className="text-xs text-stone-400 line-clamp-2 leading-relaxed mb-4">
+                <p className="text-sm sm:text-base text-stone-200 line-clamp-3 leading-relaxed mb-4">
                   {cat.description}
                 </p>
               </div>
@@ -194,9 +194,9 @@ export const CategorySelector: React.FC<CategorySelectorProps> = ({
               {/* Progress bar and arrow */}
               <div className="pt-3 border-t border-stone-800/60 flex items-center justify-between gap-3">
                 <div className="flex-1">
-                  <div className="flex items-center justify-between text-[11px] mb-1 text-stone-400">
+                  <div className="flex items-center justify-between text-xs sm:text-sm mb-1 text-stone-300 font-medium">
                     <span>Naučeno</span>
-                    <span className="font-semibold text-stone-300">{masteredInCat} / {itemsCount} podsložek</span>
+                    <span className="font-semibold text-stone-100">{masteredInCat} / {itemsCount} podsložek</span>
                   </div>
                   <div className="w-full h-1.5 bg-stone-800 rounded-full overflow-hidden">
                     <div 

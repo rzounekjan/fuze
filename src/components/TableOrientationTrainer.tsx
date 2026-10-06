@@ -310,18 +310,20 @@ export const TableOrientationTrainer: React.FC<TableOrientationTrainerProps> = (
       {/* ===================================================================== */}
       {/* FLOOR SELECTOR TABS (1. PATRO vs 2. PATRO - ODDĚLENÉ TESTY) */}
       {/* ===================================================================== */}
-      <div className="grid grid-cols-2 gap-3 p-1.5 bg-stone-950/80 rounded-2xl border border-stone-800">
+      <div className="grid grid-cols-2 gap-2 sm:gap-3 p-1 sm:p-1.5 bg-stone-950/80 rounded-2xl border border-stone-800">
         <button
           onClick={() => handleFloorChange(1)}
-          className={`flex items-center justify-center gap-2.5 py-3 px-4 rounded-xl font-black text-sm transition-all ${
+          className={`flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2.5 py-2.5 sm:py-3 px-2 sm:px-4 rounded-xl font-black text-xs sm:text-sm transition-all min-w-0 ${
             activeFloor === 1
               ? 'bg-amber-500 text-stone-950 shadow-lg shadow-amber-950/40 scale-[1.01]'
               : 'text-stone-400 hover:text-stone-200 hover:bg-stone-900/60'
           }`}
         >
-          <Layers className="w-4 h-4" />
-          <span>{language === 'en' ? '1st Floor (1. NP)' : '1. patro (1. NP)'}</span>
-          <span className={`text-[11px] px-2 py-0.5 rounded-full font-bold ${
+          <div className="flex items-center gap-1.5 min-w-0">
+            <Layers className="w-3.5 h-3.5 sm:w-4 sm:h-4 shrink-0" />
+            <span className="truncate">{language === 'en' ? '1st Floor (1. NP)' : '1. patro (1. NP)'}</span>
+          </div>
+          <span className={`text-[10px] sm:text-[11px] px-1.5 sm:px-2 py-0.5 rounded-full font-bold shrink-0 ${
             activeFloor === 1 ? 'bg-stone-950/20 text-stone-950' : 'bg-stone-800 text-stone-400'
           }`}>
             53 {language === 'en' ? 'tables' : 'stolů'}
@@ -330,15 +332,17 @@ export const TableOrientationTrainer: React.FC<TableOrientationTrainerProps> = (
 
         <button
           onClick={() => handleFloorChange(2)}
-          className={`flex items-center justify-center gap-2.5 py-3 px-4 rounded-xl font-black text-sm transition-all ${
+          className={`flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2.5 py-2.5 sm:py-3 px-2 sm:px-4 rounded-xl font-black text-xs sm:text-sm transition-all min-w-0 ${
             activeFloor === 2
               ? 'bg-amber-500 text-stone-950 shadow-lg shadow-amber-950/40 scale-[1.01]'
               : 'text-stone-400 hover:text-stone-200 hover:bg-stone-900/60'
           }`}
         >
-          <Layers className="w-4 h-4" />
-          <span>{language === 'en' ? '2nd Floor (2. NP)' : '2. patro (2. NP)'}</span>
-          <span className={`text-[11px] px-2 py-0.5 rounded-full font-bold ${
+          <div className="flex items-center gap-1.5 min-w-0">
+            <Layers className="w-3.5 h-3.5 sm:w-4 sm:h-4 shrink-0" />
+            <span className="truncate">{language === 'en' ? '2nd Floor (2. NP)' : '2. patro (2. NP)'}</span>
+          </div>
+          <span className={`text-[10px] sm:text-[11px] px-1.5 sm:px-2 py-0.5 rounded-full font-bold shrink-0 ${
             activeFloor === 2 ? 'bg-stone-950/20 text-stone-950' : 'bg-stone-800 text-stone-400'
           }`}>
             47 {language === 'en' ? 'tables' : 'stolů'}
@@ -483,7 +487,7 @@ export const TableOrientationTrainer: React.FC<TableOrientationTrainerProps> = (
                   <h2 className="text-xl sm:text-2xl font-black text-stone-100 mb-1">
                     {language === 'en' ? `60-Second Speed Drill (${activeFloor}. Floor)` : `Trénink rychlosti a reflexů – ${activeFloor}. patro (60s)`}
                   </h2>
-                  <p className="text-xs text-stone-300">
+                  <p className="text-sm sm:text-base text-stone-200">
                     {language === 'en'
                       ? `Simulate live service on ${activeFloor}. Floor! Click the called 3-digit tables as fast as possible.`
                       : `Simulace špičky na ${activeFloor}. patře! Systém hlásí třímístná čísla stolů tohoto patra. Klikněte co nejrychleji na správný stůl na mapě.`}
@@ -503,7 +507,7 @@ export const TableOrientationTrainer: React.FC<TableOrientationTrainerProps> = (
                   <h2 className="text-xl sm:text-2xl font-black text-emerald-400 mb-1">
                     {language === 'en' ? 'Time up! Final Score:' : 'Čas vypršel! Dosažené skóre:'} {rushScore} bodů
                   </h2>
-                  <p className="text-xs text-stone-300">
+                  <p className="text-sm sm:text-base text-stone-200">
                     {language === 'en'
                       ? `Your personal best for ${activeFloor}. floor: ${rushBestScore} points.`
                       : `Váš osobní rekord pro ${activeFloor}. patro: ${rushBestScore} bodů.`}
@@ -612,18 +616,24 @@ export const TableOrientationTrainer: React.FC<TableOrientationTrainerProps> = (
         </div>
       </div>
 
-      {/* Main Floor Plan Large Format View (PC Layout) */}
+      {/* Main Floor Plan Large Format View (Responsive Layout) */}
       <div className="grid grid-cols-1 xl:grid-cols-4 gap-4 items-start">
-        {/* Large Format Interactive Vector Map (3 cols on PC) */}
-        <div className="xl:col-span-3 bg-stone-900/90 border border-stone-800 rounded-2xl p-4 shadow-2xl overflow-hidden relative">
-          <div className="overflow-auto max-h-[760px] rounded-xl bg-stone-950 border border-stone-900/80 p-2 flex items-center justify-center">
+        {/* Large Format Interactive Vector Map (3 cols on PC, full width on mobile) */}
+        <div className="xl:col-span-3 bg-stone-900/90 border border-stone-800 rounded-2xl p-2.5 sm:p-4 shadow-2xl overflow-hidden relative">
+          {/* Mobile helper hint */}
+          <div className="flex sm:hidden items-center justify-between text-[11px] text-stone-400 pb-2 px-1">
+            <span>👆 Posunujte mapu prstem pro detail</span>
+            <span className="font-mono text-amber-400 font-semibold">{Math.round(zoomLevel * 100)}%</span>
+          </div>
+
+          <div className="overflow-auto max-h-[70vh] sm:max-h-[760px] rounded-xl bg-stone-950 border border-stone-900/80 p-1 sm:p-2 flex items-center justify-center touch-pan-x touch-pan-y">
             <div 
               style={{ 
                 transform: `scale(${zoomLevel})`, 
                 transformOrigin: 'top center',
                 transition: 'transform 0.2s ease-out'
               }}
-              className="w-full max-w-[1450px]"
+              className="w-full min-w-[620px] sm:min-w-0 max-w-[1450px]"
             >
               <svg
                 viewBox="0 0 1480 850"

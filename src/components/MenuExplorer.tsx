@@ -52,15 +52,15 @@ export const MenuExplorer: React.FC<MenuExplorerProps> = ({
   });
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-4 sm:space-y-6">
       {/* Header */}
-      <div className="rounded-2xl bg-stone-900 border border-stone-800 p-6 sm:p-8">
+      <div className="rounded-2xl bg-stone-900 border border-stone-800 p-4 sm:p-6 md:p-8">
         <div className="max-w-2xl">
           <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-amber-500/10 text-amber-400 border border-amber-500/20 text-xs font-semibold mb-2">
             <Utensils className="w-3.5 h-3.5" />
             <span>{language === 'en' ? 'Official Menu Catalog' : 'Katalog menu dle lístků'}</span>
           </div>
-          <h2 className="text-2xl sm:text-3xl font-bold font-serif text-stone-100 mb-2">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold font-serif text-stone-100 mb-2">
             {language === 'en' ? 'Official FUZE Restaurant Menu' : 'Oficiální lístek restaurace FUZE'}
           </h2>
           <p className="text-xs sm:text-sm text-stone-300 leading-relaxed">
@@ -71,7 +71,7 @@ export const MenuExplorer: React.FC<MenuExplorerProps> = ({
         </div>
 
         {/* Filter & Search */}
-        <div className="mt-6 flex flex-col sm:flex-row gap-3">
+        <div className="mt-4 sm:mt-6 flex flex-col sm:flex-row gap-3">
           <div className="relative flex-1">
             <Search className="w-4 h-4 text-stone-400 absolute left-3 top-1/2 -translate-y-1/2" />
             <input
@@ -132,8 +132,8 @@ export const MenuExplorer: React.FC<MenuExplorerProps> = ({
                       )}
                     </div>
 
-                    <div className="flex items-center justify-between gap-2 mb-1">
-                      <h3 className="text-base font-bold text-stone-100 group-hover:text-amber-300 transition-colors">
+                    <div className="flex items-center justify-between gap-2 mb-1.5">
+                      <h3 className="text-lg sm:text-xl font-bold text-stone-100 group-hover:text-amber-300 transition-colors">
                         {item.name}
                       </h3>
                       <AudioPronounceButton
@@ -146,31 +146,31 @@ export const MenuExplorer: React.FC<MenuExplorerProps> = ({
                       />
                     </div>
 
-                    <div className="flex items-center gap-2 flex-wrap text-xs text-stone-400 mb-2">
+                    <div className="flex items-center gap-2 flex-wrap text-xs sm:text-sm text-stone-300 mb-2.5 font-medium">
                       {item.weight && (
-                        <span className="bg-stone-800 px-2 py-0.5 rounded text-[11px] text-stone-300">
+                        <span className="bg-stone-800/90 px-2.5 py-0.5 rounded text-xs sm:text-sm text-stone-200 font-semibold">
                           {item.weight}
                         </span>
                       )}
                       {item.price && (
-                        <span className="text-amber-400 font-bold">
+                        <span className="text-amber-400 font-bold text-xs sm:text-sm">
                           {item.price}
                         </span>
                       )}
                       {item.allergens && item.allergens.length > 0 && (
-                        <span className="text-[10px] text-stone-500">
+                        <span className="text-xs sm:text-sm text-stone-400">
                           {language === 'en' ? 'Allergens:' : 'Alg:'} {item.allergens.join('/')}
                         </span>
                       )}
                     </div>
 
-                    <p className="text-xs text-stone-300 italic mb-2 leading-relaxed">
+                    <p className="text-sm sm:text-base text-stone-200 italic mb-3 leading-relaxed font-normal">
                       "{item.description}"
                     </p>
                   </div>
 
                   <div className="pt-3 border-t border-stone-800/80 flex items-center justify-between gap-3">
-                    <span className="text-[11px] text-stone-500">
+                    <span className="text-xs sm:text-sm text-stone-400 font-medium">
                       {item.questions.length} {language === 'en' ? 'questions' : 'otázky A, B, C'}
                     </span>
 

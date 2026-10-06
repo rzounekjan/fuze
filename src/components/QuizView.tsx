@@ -270,7 +270,7 @@ export const QuizView: React.FC<QuizViewProps> = ({
       {!isQuizCompleted ? (
         <div className="space-y-6 animate-in fade-in duration-150">
           {/* Target Dish Card during guessing */}
-          <div className="rounded-2xl bg-stone-900/90 border border-stone-800 p-5 sm:p-6 shadow-xl relative overflow-hidden">
+          <div className="rounded-2xl bg-stone-900/90 border border-stone-800 p-4 sm:p-6 shadow-xl relative overflow-hidden">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-2">
               <div>
                 <div className="flex items-center gap-2 text-xs font-bold text-amber-500 uppercase tracking-wider mb-1">
@@ -278,7 +278,7 @@ export const QuizView: React.FC<QuizViewProps> = ({
                   <span>·</span>
                   <span>{isEn ? 'Ingredient Quiz A, B, C' : 'Test ingrediencí A, B, C'}</span>
                 </div>
-                <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-100 font-serif">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-stone-100 font-serif">
                   {item.name}
                 </h2>
                 <p className="text-xs text-stone-400 mt-1">
@@ -312,7 +312,7 @@ export const QuizView: React.FC<QuizViewProps> = ({
           </div>
 
           {/* Question Box */}
-          <div className="rounded-2xl bg-stone-900/70 border border-stone-800/90 p-6 sm:p-8 space-y-6 shadow-lg">
+          <div className="rounded-2xl bg-stone-900/70 border border-stone-800/90 p-4 sm:p-6 md:p-8 space-y-5 sm:space-y-6 shadow-lg">
             <div>
               <div className="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-400 bg-amber-500/10 px-2.5 py-1 rounded-md mb-3 border border-amber-500/20">
                 <HelpCircle className="w-3.5 h-3.5" />
@@ -323,10 +323,10 @@ export const QuizView: React.FC<QuizViewProps> = ({
                 </span>
               </div>
 
-              <h3 className="text-lg sm:text-xl font-bold text-stone-100 leading-snug">
+              <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-stone-100 leading-snug">
                 {currentQuestion.question}
               </h3>
-              <p className="text-xs text-stone-400 mt-1">
+              <p className="text-sm sm:text-base text-stone-300 font-medium mt-1.5">
                 {isEn 
                   ? 'Select option A, B, or C (click or press key on keyboard):' 
                   : 'Zvolte možnost A, B nebo C (kliknutím nebo stisknutím klávesy na klávesnici):'}
@@ -334,7 +334,7 @@ export const QuizView: React.FC<QuizViewProps> = ({
             </div>
 
             {/* The 3 Options A, B, C (NEUTRAL HIGHLIGHT, NO RIGHT/WRONG SPOILERS) */}
-            <div className="grid grid-cols-1 gap-3.5">
+            <div className="grid grid-cols-1 gap-3 sm:gap-4">
               {options.map((option) => {
                 const isSelected = selectedOption?.letter === option.letter;
 
@@ -346,32 +346,32 @@ export const QuizView: React.FC<QuizViewProps> = ({
                       e.currentTarget.blur();
                       handleSelect(option);
                     }}
-                    className={`w-full text-left p-4 sm:p-5 rounded-xl border transition-all duration-150 flex items-center justify-between gap-4 group cursor-pointer ${
+                    className={`w-full text-left p-4 sm:p-5 md:p-6 rounded-2xl border transition-all duration-150 flex items-center justify-between gap-3 sm:gap-4 group cursor-pointer min-h-[64px] ${
                       isSelected
                         ? 'bg-amber-500/15 border-amber-500 text-amber-100 ring-2 ring-amber-500/40 shadow-md shadow-amber-950/20'
                         : 'bg-stone-900/80 border-stone-800 text-stone-200 hover:border-amber-500/50 hover:bg-stone-800/80'
                     }`}
                   >
-                    <div className="flex items-center gap-3.5">
-                      <span className={`w-8 h-8 rounded-lg flex items-center justify-center font-bold text-sm border shrink-0 transition-colors ${
+                    <div className="flex items-center gap-3.5 sm:gap-4 min-w-0">
+                      <span className={`w-10 h-10 sm:w-11 sm:h-11 rounded-xl flex items-center justify-center font-black text-base sm:text-lg border shrink-0 transition-colors ${
                         isSelected
                           ? 'bg-amber-500 text-stone-950 font-black border-amber-400 shadow-sm'
                           : 'bg-stone-800 text-amber-400 border-stone-700 group-hover:border-amber-500/40'
                       }`}>
                         {option.letter}
                       </span>
-                      <span className="text-sm sm:text-base font-medium leading-snug">
+                      <span className="text-base sm:text-lg md:text-xl font-medium leading-relaxed break-words">
                         {option.text}
                       </span>
                     </div>
 
                     <div className="shrink-0">
                       {isSelected ? (
-                        <div className="w-5 h-5 rounded-full bg-amber-500 text-stone-950 flex items-center justify-center">
-                          <Check className="w-3.5 h-3.5 stroke-[3]" />
+                        <div className="w-6 h-6 rounded-full bg-amber-500 text-stone-950 flex items-center justify-center">
+                          <Check className="w-4 h-4 stroke-[3]" />
                         </div>
                       ) : (
-                        <div className="w-5 h-5 rounded-full border border-stone-700 group-hover:border-amber-500/50" />
+                        <div className="w-6 h-6 rounded-full border border-stone-700 group-hover:border-amber-500/50" />
                       )}
                     </div>
                   </button>
@@ -380,8 +380,8 @@ export const QuizView: React.FC<QuizViewProps> = ({
             </div>
 
             {/* Action Bar Below Question Options */}
-            <div className="pt-4 border-t border-stone-800/80 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4">
-              <div className="text-xs text-stone-400">
+            <div className="pt-4 border-t border-stone-800/80 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 sm:gap-4">
+              <div className="text-sm sm:text-base text-stone-300 font-medium text-center sm:text-left">
                 {selectedOption ? (
                   <span>
                     {isEn 
@@ -401,7 +401,7 @@ export const QuizView: React.FC<QuizViewProps> = ({
                 type="button"
                 onClick={handleConfirmAndNext}
                 disabled={!selectedOption}
-                className={`inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl font-bold text-sm transition-all shadow-lg ${
+                className={`w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl font-bold text-base transition-all shadow-lg min-h-[52px] ${
                   selectedOption
                     ? 'bg-amber-600 hover:bg-amber-500 text-stone-950 shadow-amber-950/40 hover:scale-[1.02] cursor-pointer active:scale-[0.98]'
                     : 'bg-stone-800/60 text-stone-500 border border-stone-800 cursor-not-allowed opacity-50'
@@ -483,12 +483,12 @@ export const QuizView: React.FC<QuizViewProps> = ({
             </div>
 
             {/* Quick action buttons on hero banner */}
-            <div className="mt-6 pt-5 border-t border-stone-800/80 flex flex-wrap items-center justify-between gap-3">
+            <div className="mt-6 pt-5 border-t border-stone-800/80 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
               <div className="flex flex-wrap items-center gap-2">
                 <button
                   type="button"
                   onClick={handleRestartQuiz}
-                  className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-stone-800 hover:bg-stone-700 text-stone-200 text-xs font-semibold transition-all border border-stone-700 active:scale-[0.98]"
+                  className="flex-1 sm:flex-initial inline-flex items-center justify-center gap-1.5 px-3.5 py-2.5 rounded-xl bg-stone-800 hover:bg-stone-700 text-stone-200 text-xs font-semibold transition-all border border-stone-700 active:scale-[0.98] min-h-[44px]"
                   title={isEn ? 'Retake this quiz' : 'Zopakovat test pro tuto položku'}
                 >
                   <RotateCcw className="w-3.5 h-3.5 text-stone-400" />
@@ -499,7 +499,7 @@ export const QuizView: React.FC<QuizViewProps> = ({
                   <button
                     type="button"
                     onClick={onBackToMainMenu}
-                    className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-stone-800/80 hover:bg-stone-700/80 text-stone-300 text-xs font-semibold transition-colors border border-stone-700/60"
+                    className="flex-1 sm:flex-initial inline-flex items-center justify-center gap-1.5 px-3.5 py-2.5 rounded-xl bg-stone-800/80 hover:bg-stone-700/80 text-stone-300 text-xs font-semibold transition-colors border border-stone-700/60 min-h-[44px]"
                   >
                     <ArrowLeft className="w-3.5 h-3.5" />
                     <span>{isEn ? 'Main Menu' : 'Hlavní nabídka'}</span>
@@ -511,7 +511,7 @@ export const QuizView: React.FC<QuizViewProps> = ({
                 <button
                   type="button"
                   onClick={onNextItem}
-                  className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-amber-600 hover:bg-amber-500 text-stone-950 font-bold text-xs sm:text-sm transition-all shadow-md shadow-amber-950/40 active:scale-[0.98]"
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-3 sm:py-2.5 rounded-xl bg-amber-600 hover:bg-amber-500 text-stone-950 font-bold text-xs sm:text-sm transition-all shadow-md shadow-amber-950/40 active:scale-[0.98] min-h-[44px]"
                 >
                   <span>{isEn ? 'Next item in category' : 'Další položka v kategorii'}</span>
                   <ChevronRight className="w-4 h-4" />
@@ -558,24 +558,24 @@ export const QuizView: React.FC<QuizViewProps> = ({
                       }`}>
                         {idx + 1}
                       </span>
-                      <h4 className="text-sm sm:text-base font-bold text-stone-100">
+                      <h4 className="text-base sm:text-lg md:text-xl font-bold text-stone-100">
                         {answer.question.question}
                       </h4>
                     </div>
 
-                    <span className={`shrink-0 inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-bold ${
+                    <span className={`shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-bold ${
                       answer.isCorrect
                         ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/40'
                         : 'bg-rose-500/20 text-rose-300 border border-rose-500/40'
                     }`}>
                       {answer.isCorrect ? (
                         <>
-                          <Check className="w-3 h-3 stroke-[3]" />
+                          <Check className="w-4 h-4 stroke-[3]" />
                           <span>{isEn ? 'Correct' : 'Správně'}</span>
                         </>
                       ) : (
                         <>
-                          <X className="w-3 h-3 stroke-[3]" />
+                          <X className="w-4 h-4 stroke-[3]" />
                           <span>{isEn ? 'Incorrect' : 'Špatně'}</span>
                         </>
                       )}
@@ -583,23 +583,23 @@ export const QuizView: React.FC<QuizViewProps> = ({
                   </div>
 
                   {/* Answers breakdown */}
-                  <div className="space-y-2 mt-3 pt-3 border-t border-stone-800/80 text-xs sm:text-sm">
+                  <div className="space-y-2.5 mt-3 pt-3 border-t border-stone-800/80 text-sm sm:text-base">
                     {/* User's Chosen Option */}
-                    <div className={`p-3 rounded-xl border flex items-start gap-2.5 ${
+                    <div className={`p-3.5 rounded-xl border flex items-start gap-3 ${
                       answer.isCorrect
                         ? 'bg-emerald-950/30 border-emerald-800/50 text-emerald-200'
                         : 'bg-rose-950/30 border-rose-800/50 text-rose-200'
                     }`}>
                       {answer.isCorrect ? (
-                        <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
+                        <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
                       ) : (
-                        <XCircle className="w-4 h-4 text-rose-400 shrink-0 mt-0.5" />
+                        <XCircle className="w-5 h-5 text-rose-400 shrink-0 mt-0.5" />
                       )}
                       <div>
-                        <span className="text-[11px] uppercase tracking-wider font-bold block opacity-80 mb-0.5">
+                        <span className="text-xs uppercase tracking-wider font-bold block opacity-80 mb-0.5">
                           {isEn ? 'Your Answer:' : 'Vaše odpověď:'}
                         </span>
-                        <span className="font-semibold">
+                        <span className="font-semibold text-base sm:text-lg">
                           [{answer.selectedOption.letter}] {answer.selectedOption.text}
                         </span>
                       </div>
@@ -607,13 +607,13 @@ export const QuizView: React.FC<QuizViewProps> = ({
 
                     {/* Correct Option (highlighted if user made a mistake) */}
                     {!answer.isCorrect && (
-                      <div className="p-3 rounded-xl bg-emerald-950/40 border border-emerald-700/60 text-emerald-200 flex items-start gap-2.5">
-                        <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
+                      <div className="p-3.5 rounded-xl bg-emerald-950/40 border border-emerald-700/60 text-emerald-200 flex items-start gap-3">
+                        <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
                         <div>
-                          <span className="text-[11px] uppercase tracking-wider font-bold text-emerald-400 block mb-0.5">
+                          <span className="text-xs uppercase tracking-wider font-bold text-emerald-400 block mb-0.5">
                             {isEn ? 'Correct Answer:' : 'Správná odpověď:'}
                           </span>
-                          <span className="font-semibold text-emerald-100">
+                          <span className="font-semibold text-emerald-100 text-base sm:text-lg">
                             {answer.question.correctAnswer}
                           </span>
                         </div>
@@ -623,8 +623,8 @@ export const QuizView: React.FC<QuizViewProps> = ({
 
                   {/* Question Explanation */}
                   {answer.question.explanation && (
-                    <div className="mt-3 p-3 rounded-xl bg-stone-950/60 border border-stone-800 text-xs text-stone-300 leading-relaxed">
-                      <span className="font-bold text-amber-400 block mb-1">
+                    <div className="mt-3.5 p-4 rounded-xl bg-stone-950/60 border border-stone-800 text-sm sm:text-base text-stone-200 leading-relaxed font-normal">
+                      <span className="font-bold text-amber-400 block mb-1 text-sm sm:text-base">
                         {isEn ? 'Explanation & Culinary Context:' : 'Vysvětlení a kulinářský kontext:'}
                       </span>
                       {answer.question.explanation}
@@ -661,11 +661,11 @@ export const QuizView: React.FC<QuizViewProps> = ({
             </div>
 
             {/* Official FUZE Menu Recipe Text */}
-            <div className="p-4 rounded-xl bg-stone-950/70 border border-stone-800">
-              <span className="text-[11px] font-bold uppercase tracking-wider text-amber-400 block mb-1">
+            <div className="p-5 rounded-xl bg-stone-950/70 border border-stone-800">
+              <span className="text-xs sm:text-sm font-bold uppercase tracking-wider text-amber-400 block mb-1.5">
                 {isEn ? 'Official FUZE Menu Description:' : 'Přesný text z jídelního lístku FUZE:'}
               </span>
-              <p className="text-sm sm:text-base text-stone-200 italic font-medium leading-relaxed">
+              <p className="text-base sm:text-lg md:text-xl text-stone-100 italic font-medium leading-relaxed">
                 "{item.description}"
               </p>
             </div>
@@ -673,16 +673,16 @@ export const QuizView: React.FC<QuizViewProps> = ({
             {/* Individual parsed ingredients badges/pills */}
             {ingredientsList.length > 0 && (
               <div>
-                <span className="text-[11px] font-bold uppercase tracking-wider text-stone-400 block mb-2.5">
+                <span className="text-xs sm:text-sm font-bold uppercase tracking-wider text-stone-400 block mb-2.5">
                   {isEn ? 'Parsed Key Ingredients & Components:' : 'Rozpis klíčových surovin a složek:'}
                 </span>
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-2.5">
                   {ingredientsList.map((ing, i) => (
                     <span
                       key={i}
-                      className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-stone-800/90 border border-stone-700/80 text-xs font-semibold text-stone-200 shadow-sm"
+                      className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-stone-800/90 border border-stone-700/80 text-sm sm:text-base font-semibold text-stone-100 shadow-sm"
                     >
-                      <CheckCircle2 className="w-3.5 h-3.5 text-amber-400 shrink-0" />
+                      <CheckCircle2 className="w-4 h-4 text-amber-400 shrink-0" />
                       <span>{ing}</span>
                     </span>
                   ))}
@@ -693,21 +693,21 @@ export const QuizView: React.FC<QuizViewProps> = ({
             {/* Extra Metadata (Weight, Price, Notes, Allergens) */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2">
               {item.weight && (
-                <div className="p-3 rounded-xl bg-stone-950/40 border border-stone-800 text-xs">
-                  <span className="text-stone-500 block mb-0.5">{isEn ? 'Weight / Portion' : 'Gramáž / porce'}</span>
-                  <span className="font-bold text-stone-200">{item.weight}</span>
+                <div className="p-3.5 rounded-xl bg-stone-950/40 border border-stone-800 text-sm sm:text-base">
+                  <span className="text-stone-400 block mb-0.5 text-xs sm:text-sm">{isEn ? 'Weight / Portion' : 'Gramáž / porce'}</span>
+                  <span className="font-bold text-stone-100">{item.weight}</span>
                 </div>
               )}
               {item.price && (
-                <div className="p-3 rounded-xl bg-stone-950/40 border border-stone-800 text-xs">
-                  <span className="text-stone-500 block mb-0.5">{isEn ? 'Menu Price' : 'Cena v menu'}</span>
+                <div className="p-3.5 rounded-xl bg-stone-950/40 border border-stone-800 text-sm sm:text-base">
+                  <span className="text-stone-400 block mb-0.5 text-xs sm:text-sm">{isEn ? 'Menu Price' : 'Cena v menu'}</span>
                   <span className="font-bold text-amber-400">{item.price}</span>
                 </div>
               )}
               {item.allergens && item.allergens.length > 0 && (
-                <div className="p-3 rounded-xl bg-stone-950/40 border border-stone-800 text-xs">
-                  <span className="text-stone-500 block mb-0.5">{isEn ? 'Allergens' : 'Alergeny'}</span>
-                  <span className="font-bold text-stone-300">{item.allergens.join(', ')}</span>
+                <div className="p-3.5 rounded-xl bg-stone-950/40 border border-stone-800 text-sm sm:text-base">
+                  <span className="text-stone-400 block mb-0.5 text-xs sm:text-sm">{isEn ? 'Allergens' : 'Alergeny'}</span>
+                  <span className="font-bold text-stone-200">{item.allergens.join(', ')}</span>
                 </div>
               )}
             </div>

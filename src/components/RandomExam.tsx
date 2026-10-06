@@ -341,7 +341,7 @@ export const RandomExam: React.FC<RandomExamProps> = ({
       </div>
 
       {/* Item info header */}
-      <div className="rounded-xl bg-stone-900 border border-stone-800 p-5">
+      <div className="rounded-xl bg-stone-900 border border-stone-800 p-4 sm:p-5">
         <div className="flex items-center justify-between gap-3 mb-2">
           <div className="flex items-center gap-2 text-xs font-bold text-amber-500 uppercase tracking-wide">
             <span>{currentQ.category.name}</span>
@@ -354,8 +354,8 @@ export const RandomExam: React.FC<RandomExamProps> = ({
             </span>
           )}
         </div>
-        <div className="flex items-center gap-2.5 flex-wrap">
-          <h2 className="text-2xl font-bold text-stone-100 font-serif">
+        <div className="flex items-center gap-2 sm:gap-2.5 flex-wrap">
+          <h2 className="text-xl sm:text-2xl font-bold text-stone-100 font-serif">
             {currentQ.item.name}
           </h2>
           <AudioPronounceButton
@@ -384,13 +384,13 @@ export const RandomExam: React.FC<RandomExamProps> = ({
       </div>
 
       {/* Question */}
-      <div className="rounded-2xl bg-stone-900/60 border border-stone-800 p-6 space-y-5">
-        <h3 className="text-lg font-bold text-stone-100 leading-snug">
+      <div className="rounded-2xl bg-stone-900/60 border border-stone-800 p-4 sm:p-6 md:p-8 space-y-5 sm:space-y-6">
+        <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-stone-100 leading-snug">
           {currentQ.question.question}
         </h3>
 
         {/* Options A, B, C */}
-        <div className="space-y-3">
+        <div className="space-y-3 sm:space-y-4">
           {currentQ.shuffledOptions.map((opt) => {
             const isChosen = selectedLetter === opt.letter;
             let containerStyle = "bg-stone-900/80 border-stone-800 text-stone-200 hover:border-amber-500/60";
@@ -417,20 +417,20 @@ export const RandomExam: React.FC<RandomExamProps> = ({
                   handleSelectOption(opt.letter);
                 }}
                 disabled={hasAnswered}
-                className={`w-full text-left p-4 rounded-xl border transition-all flex items-center justify-between gap-4 ${containerStyle}`}
+                className={`w-full text-left p-4 sm:p-5 rounded-2xl border transition-all flex items-center justify-between gap-3 sm:gap-4 min-h-[58px] ${containerStyle}`}
               >
-                <div className="flex items-center gap-3">
-                  <span className={`w-8 h-8 rounded-lg flex items-center justify-center font-bold text-sm border shrink-0 ${badgeStyle}`}>
+                <div className="flex items-center gap-3.5 sm:gap-4">
+                  <span className={`w-10 h-10 sm:w-11 sm:h-11 rounded-xl flex items-center justify-center font-black text-base sm:text-lg border shrink-0 ${badgeStyle}`}>
                     {opt.letter}
                   </span>
-                  <span className="text-sm font-medium">{opt.text}</span>
+                  <span className="text-base sm:text-lg md:text-xl font-medium leading-relaxed">{opt.text}</span>
                 </div>
 
                 {hasAnswered && opt.isCorrect && (
-                  <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0" />
+                  <CheckCircle2 className="w-6 h-6 text-emerald-400 shrink-0" />
                 )}
                 {hasAnswered && isChosen && !opt.isCorrect && (
-                  <XCircle className="w-5 h-5 text-rose-400 shrink-0" />
+                  <XCircle className="w-6 h-6 text-rose-400 shrink-0" />
                 )}
               </button>
             );
@@ -440,7 +440,7 @@ export const RandomExam: React.FC<RandomExamProps> = ({
         {/* Feedback explanation */}
         {hasAnswered && (
           <div className="pt-4 border-t border-stone-800 space-y-4 animate-in fade-in duration-200">
-            <p className="text-xs text-stone-300 leading-relaxed bg-stone-950/60 p-3 rounded-lg border border-stone-800">
+            <p className="text-sm sm:text-base text-stone-200 leading-relaxed bg-stone-950/60 p-4 rounded-xl border border-stone-800 font-normal">
               💡 {currentQ.question.explanation}
             </p>
 
@@ -449,7 +449,7 @@ export const RandomExam: React.FC<RandomExamProps> = ({
                 e.currentTarget.blur();
                 handleNext();
               }}
-              className="w-full inline-flex items-center justify-center gap-2 py-3 rounded-xl bg-amber-600 hover:bg-amber-500 text-stone-950 font-bold text-sm transition-all shadow-lg shadow-amber-950/40"
+              className="w-full inline-flex items-center justify-center gap-2 py-3.5 rounded-xl bg-amber-600 hover:bg-amber-500 text-stone-950 font-bold text-base transition-all shadow-lg shadow-amber-950/40 min-h-[52px]"
             >
               <span>{currentIndex + 1 < examQuestions.length ? 'Další otázka zkoušky' : 'Vyhodnotit zkoušku'}</span>
               <ChevronRight className="w-4 h-4" />
