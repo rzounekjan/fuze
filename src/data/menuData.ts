@@ -5591,7 +5591,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       }
     ]
   },
-  {
+    {
     "id": "vina-po-skle",
     "name": "Vína po skle",
     "badge": "Vína po skle",
@@ -5601,104 +5601,136 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       {
         "id": "sklo-charmat-palava",
         "name": "Charmat de Vinselekt Pálava",
-        "weight": "0,1l",
-        "price": "99 Kč",
+        "weight": "0,1L / 0,75L",
+        "price": "0,1L 99 Kč / 0,75L 699 Kč",
         "allergens": [
           "12"
         ],
         "description": "Vinselect Michlovský, Extra sec",
+        "notes": "Vinselect Michlovský, Extra sec. Aromatické moravské šumivé víno z odrůdy Pálava vyrobené metodou Charmat.",
         "questions": [
           {
             "id": "sklo-charmat-palava-vol",
-            "question": "Jaký je servírovací objem / míra položky Charmat de Vinselekt Pálava?",
-            "correctAnswer": "0,1l",
+            "question": "Jaké jsou servírovací objemy položky Charmat de Vinselekt Pálava?",
+            "correctAnswer": "0,1L / 0,75L",
             "distractors": [
-              "0,15 l",
-              "0,2 l"
+              "pouze 0,75L",
+              "0,15L / 0,75L"
             ],
-            "explanation": "Servírovací míra / objem položky Charmat de Vinselekt Pálava je 0,1l."
+            "explanation": "Charmat de Vinselekt Pálava je k dispozici ve dvou objemech: po skle (0,1L) a v celé lahvi (0,75L)."
           },
           {
-            "id": "sklo-charmat-palava-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Charmat de Vinselekt Pálava?",
+            "id": "sklo-charmat-palava-prod",
+            "question": "Které vinařství vyrábí šumivé víno Charmat de Vinselekt Pálava?",
             "correctAnswer": "Vinselect Michlovský",
             "distractors": [
-              "Čerstvý grepový fresh",
-              "Bezinkový sirup a čerstvá máta"
+              "Gotberg",
+              "Reisten"
             ],
-            "explanation": "U položky Charmat de Vinselekt Pálava je uvedeno: Vinselect Michlovský. Kompletní popis: Vinselect Michlovský, Extra sec."
+            "explanation": "Víno pochází z vinařství Vinselect Michlovský."
           },
           {
-            "id": "sklo-charmat-palava-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Charmat de Vinselekt Pálava?",
+            "id": "sklo-charmat-palava-type",
+            "question": "Do jaké kategorie zbytkového cukru spadá Charmat de Vinselekt Pálava?",
             "correctAnswer": "Extra sec",
             "distractors": [
-              "Tonik Thomas Henry s chininem",
-              "Čerstvě pražená výběrová káva"
+              "Brut Nature",
+              "Demi Sec"
             ],
-            "explanation": "U položky Charmat de Vinselekt Pálava je uvedeno: Extra sec. Kompletní popis: Vinselect Michlovský, Extra sec."
+            "explanation": "Charmat de Vinselekt Pálava je zatříděn v kategorii Extra sec."
           },
           {
-            "id": "sklo-charmat-palava-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Charmat de Vinselekt Pálava?",
+            "id": "sklo-charmat-palava-price",
+            "question": "Jaká je prodejní cena položky Charmat de Vinselekt Pálava (0,1l a 0,75l)?",
+            "correctAnswer": "0,1L 99 Kč / 0,75L 699 Kč",
+            "distractors": [
+              "0,1L 115 Kč / 0,75L 849 Kč",
+              "0,1L 89 Kč / 0,75L 649 Kč"
+            ],
+            "explanation": "Položka Charmat de Vinselekt Pálava je nabízena ve dvou objemech s cenami 0,1L 99 Kč / 0,75L 699 Kč."
+          },
+          {
+            "id": "sklo-charmat-palava-allergen",
+            "question": "Který alergen obsahuje Charmat de Vinselekt Pálava?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+              "Alergen č. 1 – Lepek",
+              "Alergen č. 7 – Mléko"
             ],
-            "explanation": "Charmat de Vinselekt Pálava obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "explanation": "Víno obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
           }
         ]
       },
       {
         "id": "sklo-cremant-vinselekt",
         "name": "Cremant de Vinselekt",
-        "weight": "0,1l",
-        "price": "115 Kč",
+        "weight": "0,1L / 0,75L",
+        "price": "0,1L 115 Kč / 0,75L 849 Kč",
         "allergens": [
           "12"
         ],
         "description": "(Pinot, Chardonnay) Vinselect Michlovský, Extra brut",
+        "notes": "(Pinot, Chardonnay) Vinselect Michlovský, Extra brut. Prémiový moravský crémant kvašený v lahvi.",
         "questions": [
           {
             "id": "sklo-cremant-vinselekt-vol",
-            "question": "Jaký je servírovací objem / míra položky Cremant de Vinselekt?",
-            "correctAnswer": "0,1l",
+            "question": "Jaké jsou servírovací objemy položky Cremant de Vinselekt?",
+            "correctAnswer": "0,1L / 0,75L",
             "distractors": [
-              "0,15 l",
-              "0,2 l"
+              "pouze 0,75L",
+              "0,15L / 0,75L"
             ],
-            "explanation": "Servírovací míra / objem položky Cremant de Vinselekt je 0,1l."
+            "explanation": "Cremant de Vinselekt je k dispozici ve dvou objemech: po skle (0,1L) a v celé lahvi (0,75L)."
           },
           {
-            "id": "sklo-cremant-vinselekt-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Cremant de Vinselekt?",
-            "correctAnswer": "(Pinot",
+            "id": "sklo-cremant-vinselekt-blend",
+            "question": "Ze kterých odrůd je složen Cremant de Vinselekt?",
+            "correctAnswer": "(Pinot, Chardonnay)",
             "distractors": [
-              "Italský aperitiv Campari",
-              "Černý sypaný čaj s bergamotem"
+              "(Ryzlink, Pálava)",
+              "(Sauvignon, Pinot Gris)"
             ],
-            "explanation": "U položky Cremant de Vinselekt je uvedeno: (Pinot. Kompletní popis: (Pinot, Chardonnay) Vinselect Michlovský, Extra brut."
+            "explanation": "Cremant de Vinselekt je kupáž odrůd Pinot a Chardonnay."
           },
           {
-            "id": "sklo-cremant-vinselekt-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Cremant de Vinselekt?",
-            "correctAnswer": "Chardonnay) Vinselect Michlovský",
+            "id": "sklo-cremant-vinselekt-prod",
+            "question": "Které vinařství produkuje Cremant de Vinselekt?",
+            "correctAnswer": "Vinselect Michlovský",
             "distractors": [
-              "Jasmínový zelený čaj",
-              "Belgické višňové pivo"
+              "Gotberg",
+              "Kolby"
             ],
-            "explanation": "U položky Cremant de Vinselekt je uvedeno: Chardonnay) Vinselect Michlovský. Kompletní popis: (Pinot, Chardonnay) Vinselect Michlovský, Extra brut."
+            "explanation": "Vyrábí jej doc. Miloš Michlovský – Vinselect Michlovský."
           },
           {
-            "id": "sklo-cremant-vinselekt-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Cremant de Vinselekt?",
+            "id": "sklo-cremant-vinselekt-type",
+            "question": "V jaké kategorii suchosti je připraven Cremant de Vinselekt?",
+            "correctAnswer": "Extra brut",
+            "distractors": [
+              "Extra sec",
+              "Sec"
+            ],
+            "explanation": "Cremant de Vinselekt spadá do kategorie Extra brut."
+          },
+          {
+            "id": "sklo-cremant-vinselekt-price",
+            "question": "Jaká je cena položky Cremant de Vinselekt (0,1l a 0,75l)?",
+            "correctAnswer": "0,1L 115 Kč / 0,75L 849 Kč",
+            "distractors": [
+              "0,1L 99 Kč / 0,75L 699 Kč",
+              "0,1L 125 Kč / 0,75L 899 Kč"
+            ],
+            "explanation": "Položka Cremant de Vinselekt je nabízena ve dvou objemech s cenami 0,1L 115 Kč / 0,75L 849 Kč."
+          },
+          {
+            "id": "sklo-cremant-vinselekt-allergen",
+            "question": "Který alergen obsahuje Cremant de Vinselekt?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+              "Alergen č. 1 – Lepek",
+              "Alergen č. 8 – Skořápkové plody"
             ],
-            "explanation": "Cremant de Vinselekt obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "explanation": "Obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
           }
         ]
       },
@@ -5711,46 +5743,57 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "12"
         ],
         "description": "Kolby Morava, polosuché",
+        "notes": "Kolby Morava, polosuché. Ovocné, harmonické bílé víno z Pouzdřan s jemným zbytkovým cukrem.",
         "questions": [
           {
             "id": "sklo-rulandske-sede-vol",
-            "question": "Jaký je servírovací objem / míra položky Rulandské šedé?",
+            "question": "Jaký je servírovací objem položky Rulandské šedé po skle?",
             "correctAnswer": "0,15l",
             "distractors": [
               "0,1 l",
               "0,2 l"
             ],
-            "explanation": "Servírovací míra / objem položky Rulandské šedé je 0,15l."
+            "explanation": "Servírovací míra je 0,15l."
           },
           {
-            "id": "sklo-rulandske-sede-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Rulandské šedé?",
+            "id": "sklo-rulandske-sede-region",
+            "question": "Které vinařství a z jaké oblasti vyrábí toto rozlévané Rulandské šedé?",
             "correctAnswer": "Kolby Morava",
             "distractors": [
-              "Čerstvý grepový fresh",
-              "Bezinkový sirup a čerstvá máta"
+              "Kraus Čechy",
+              "Heuriger Rakousko"
             ],
-            "explanation": "U položky Rulandské šedé je uvedeno: Kolby Morava. Kompletní popis: Kolby Morava, polosuché."
+            "explanation": "Víno pochází z vinařství Kolby na Moravě."
           },
           {
-            "id": "sklo-rulandske-sede-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Rulandské šedé?",
-            "correctAnswer": "Polosuché",
+            "id": "sklo-rulandske-sede-type",
+            "question": "V jakém chuťovém stylu je zatříděno Rulandské šedé Kolby?",
+            "correctAnswer": "polosuché",
             "distractors": [
-              "Tonik Thomas Henry s chininem",
-              "Čerstvě pražená výběrová káva"
+              "suché",
+              "sladké"
             ],
-            "explanation": "U položky Rulandské šedé je uvedeno: Polosuché. Kompletní popis: Kolby Morava, polosuché."
+            "explanation": "Rulandské šedé Kolby je polosuché."
           },
           {
-            "id": "sklo-rulandske-sede-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Rulandské šedé?",
+            "id": "sklo-rulandske-sede-price",
+            "question": "Jaká je cena rozlévané sklenky Rulandské šedé (0,15l)?",
+            "correctAnswer": "95 Kč",
+            "distractors": [
+              "105 Kč",
+              "89 Kč"
+            ],
+            "explanation": "Cena za 0,15l je 95 Kč."
+          },
+          {
+            "id": "sklo-rulandske-sede-allergen",
+            "question": "Který alergen obsahuje Rulandské šedé?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+              "Alergen č. 7 – Mléko",
+              "Alergen č. 6 – Sója"
             ],
-            "explanation": "Rulandské šedé obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "explanation": "Obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
           }
         ]
       },
@@ -5763,36 +5806,47 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "12"
         ],
         "description": "Kraus Čechy",
+        "notes": "Kraus Čechy. Svěží suché bílé cuvée z mělnických vinic od profesora Krause.",
         "questions": [
           {
             "id": "sklo-cuvee-bile-vol",
-            "question": "Jaký je servírovací objem / míra položky Cuvée bílé?",
+            "question": "Jaký je servírovací objem položky Cuvée bílé po skle?",
             "correctAnswer": "0,15l",
             "distractors": [
               "0,1 l",
               "0,2 l"
             ],
-            "explanation": "Servírovací míra / objem položky Cuvée bílé je 0,15l."
+            "explanation": "Servírovací objem je 0,15l."
           },
           {
-            "id": "sklo-cuvee-bile-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Cuvée bílé?",
+            "id": "sklo-cuvee-bile-prod",
+            "question": "Které vinařství z Čech produkuje toto bílé cuvée?",
             "correctAnswer": "Kraus Čechy",
             "distractors": [
-              "Limetová šťáva",
-              "Pomerančová kůra a hřebíček"
+              "Kolby Morava",
+              "Adulation Kalifornie"
             ],
-            "explanation": "U položky Cuvée bílé je uvedeno: Kraus Čechy. Kompletní popis: Kraus Čechy."
+            "explanation": "Pochází z mělnického vinařství Kraus v Čechách."
           },
           {
-            "id": "sklo-cuvee-bile-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Cuvée bílé?",
+            "id": "sklo-cuvee-bile-price",
+            "question": "Jaká je cena sklenky Cuvée bílé Kraus (0,15l)?",
+            "correctAnswer": "98 Kč",
+            "distractors": [
+              "95 Kč",
+              "109 Kč"
+            ],
+            "explanation": "Cena je 98 Kč."
+          },
+          {
+            "id": "sklo-cuvee-bile-allergen",
+            "question": "Který alergen obsahuje Cuvée bílé Kraus?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+              "Alergen č. 1 – Lepek",
+              "Alergen č. 3 – Vejce"
             ],
-            "explanation": "Cuvée bílé obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "explanation": "Obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
           }
         ]
       },
@@ -5805,36 +5859,47 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "12"
         ],
         "description": "Heuriger Rakousko",
+        "notes": "Heuriger Rakousko. Tradiční rakouský Veltlín s tóny zeleného jablka a bílého pepře.",
         "questions": [
           {
             "id": "sklo-gruner-veltliner-vol",
-            "question": "Jaký je servírovací objem / míra položky Grüner Veltliner?",
+            "question": "Jaký je servírovací objem položky Grüner Veltliner po skle?",
             "correctAnswer": "0,15l",
             "distractors": [
               "0,1 l",
               "0,2 l"
             ],
-            "explanation": "Servírovací míra / objem položky Grüner Veltliner je 0,15l."
+            "explanation": "Servírovací objem je 0,15l."
           },
           {
-            "id": "sklo-gruner-veltliner-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Grüner Veltliner?",
+            "id": "sklo-gruner-veltliner-region",
+            "question": "Z jaké oblasti a stylu pochází toto rozlévané rakouské víno?",
             "correctAnswer": "Heuriger Rakousko",
             "distractors": [
-              "Vanilkový sirup a limetová šťáva",
-              "Třtinový cukr s limetkou"
+              "Kolby Morava",
+              "Kraus Čechy"
             ],
-            "explanation": "U položky Grüner Veltliner je uvedeno: Heuriger Rakousko. Kompletní popis: Heuriger Rakousko."
+            "explanation": "Pochází z Rakouska ve stylu Heuriger."
           },
           {
-            "id": "sklo-gruner-veltliner-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Grüner Veltliner?",
+            "id": "sklo-gruner-veltliner-price",
+            "question": "Jaká je cena rozlévané sklenky Grüner Veltliner (0,15l)?",
+            "correctAnswer": "109 Kč",
+            "distractors": [
+              "98 Kč",
+              "125 Kč"
+            ],
+            "explanation": "Cena je 109 Kč."
+          },
+          {
+            "id": "sklo-gruner-veltliner-allergen",
+            "question": "Který alergen obsahuje Grüner Veltliner?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+              "Alergen č. 2 – Korýši",
+              "Alergen č. 1 – Lepek"
             ],
-            "explanation": "Grüner Veltliner obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "explanation": "Obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
           }
         ]
       },
@@ -5847,36 +5912,47 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "12"
         ],
         "description": "Adulation Kalifornie",
+        "notes": "Adulation Kalifornie. Bohaté kalifornské Chardonnay s tóny tropického ovoce, másla a vanilky.",
         "questions": [
           {
             "id": "sklo-chardonnay-vol",
-            "question": "Jaký je servírovací objem / míra položky Chardonnay?",
+            "question": "Jaký je servírovací objem rozlévaného Chardonnay Adulation?",
             "correctAnswer": "0,15l",
             "distractors": [
               "0,1 l",
               "0,2 l"
             ],
-            "explanation": "Servírovací míra / objem položky Chardonnay je 0,15l."
+            "explanation": "Servírovací objem je 0,15l."
           },
           {
-            "id": "sklo-chardonnay-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Chardonnay?",
+            "id": "sklo-chardonnay-region",
+            "question": "Které vinařství a z jaké země produkuje toto Chardonnay?",
             "correctAnswer": "Adulation Kalifornie",
             "distractors": [
-              "Limetová šťáva",
-              "Pomerančová kůra a hřebíček"
+              "Kolby Morava",
+              "Kraus Čechy"
             ],
-            "explanation": "U položky Chardonnay je uvedeno: Adulation Kalifornie. Kompletní popis: Adulation Kalifornie."
+            "explanation": "Vyrábí jej vinařství Adulation v Kalifornii (USA)."
           },
           {
-            "id": "sklo-chardonnay-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Chardonnay?",
+            "id": "sklo-chardonnay-price",
+            "question": "Jaká je cena sklenky Chardonnay Adulation (0,15l)?",
+            "correctAnswer": "125 Kč",
+            "distractors": [
+              "109 Kč",
+              "95 Kč"
+            ],
+            "explanation": "Cena za 0,15l je 125 Kč."
+          },
+          {
+            "id": "sklo-chardonnay-allergen",
+            "question": "Který alergen obsahuje Chardonnay Adulation?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+              "Alergen č. 5 – Arašídy",
+              "Alergen č. 7 – Mléko"
             ],
-            "explanation": "Chardonnay obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "explanation": "Obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
           }
         ]
       },
@@ -5889,36 +5965,47 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "12"
         ],
         "description": "Kolby Morava",
+        "notes": "Kolby Morava. Lehké a osvěžující růžové víno s tóny jahod a zahradního ovoce.",
         "questions": [
           {
             "id": "sklo-modry-portugal-rose-vol",
-            "question": "Jaký je servírovací objem / míra položky Modrý Portugal rosé?",
+            "question": "Jaký je servírovací objem položky Modrý Portugal rosé po skle?",
             "correctAnswer": "0,15l",
             "distractors": [
               "0,1 l",
               "0,2 l"
             ],
-            "explanation": "Servírovací míra / objem položky Modrý Portugal rosé je 0,15l."
+            "explanation": "Servírovací objem je 0,15l."
           },
           {
-            "id": "sklo-modry-portugal-rose-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Modrý Portugal rosé?",
+            "id": "sklo-modry-portugal-rose-region",
+            "question": "Které vinařství z Moravy vyrábí toto růžové víno po skle?",
             "correctAnswer": "Kolby Morava",
             "distractors": [
-              "Limetová šťáva",
-              "Pomerančová kůra a hřebíček"
+              "Kraus Čechy",
+              "Gotberg Morava"
             ],
-            "explanation": "U položky Modrý Portugal rosé je uvedeno: Kolby Morava. Kompletní popis: Kolby Morava."
+            "explanation": "Pochází z moravského vinařství Kolby."
           },
           {
-            "id": "sklo-modry-portugal-rose-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Modrý Portugal rosé?",
+            "id": "sklo-modry-portugal-rose-price",
+            "question": "Jaká je prodejní cena rozlévaného Modrého Portugalu rosé (0,15l)?",
+            "correctAnswer": "95 Kč",
+            "distractors": [
+              "98 Kč",
+              "109 Kč"
+            ],
+            "explanation": "Cena za 0,15l je 95 Kč."
+          },
+          {
+            "id": "sklo-modry-portugal-rose-allergen",
+            "question": "Který alergen obsahuje Modrý Portugal rosé?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+              "Alergen č. 4 – Ryby",
+              "Alergen č. 1 – Lepek"
             ],
-            "explanation": "Modrý Portugal rosé obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "explanation": "Obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
           }
         ]
       },
@@ -5931,36 +6018,47 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "12"
         ],
         "description": "Kolby Morava",
+        "notes": "Kolby Morava. Tradiční lehčí červené víno s rubínovou barvou, tóny třešní a sametovými tříslovinami.",
         "questions": [
           {
             "id": "sklo-modry-portugal-vol",
-            "question": "Jaký je servírovací objem / míra položky Modrý Portugal?",
+            "question": "Jaký je servírovací objem rozlévaného červeného vína Modrý Portugal?",
             "correctAnswer": "0,15l",
             "distractors": [
               "0,1 l",
               "0,2 l"
             ],
-            "explanation": "Servírovací míra / objem položky Modrý Portugal je 0,15l."
+            "explanation": "Servírovací objem je 0,15l."
           },
           {
-            "id": "sklo-modry-portugal-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Modrý Portugal?",
+            "id": "sklo-modry-portugal-region",
+            "question": "Které moravské vinařství dodává toto červené víno po skle?",
             "correctAnswer": "Kolby Morava",
             "distractors": [
-              "Čerstvý grepový fresh",
-              "Bezinkový sirup a čerstvá máta"
+              "Kraus Čechy",
+              "Adulation Kalifornie"
             ],
-            "explanation": "U položky Modrý Portugal je uvedeno: Kolby Morava. Kompletní popis: Kolby Morava."
+            "explanation": "Dodává jej vinařství Kolby na Moravě."
           },
           {
-            "id": "sklo-modry-portugal-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Modrý Portugal?",
+            "id": "sklo-modry-portugal-price",
+            "question": "Jaká je cena rozlévaného vína Modrý Portugal (0,15l)?",
+            "correctAnswer": "95 Kč",
+            "distractors": [
+              "105 Kč",
+              "89 Kč"
+            ],
+            "explanation": "Cena za 0,15l je 95 Kč."
+          },
+          {
+            "id": "sklo-modry-portugal-allergen",
+            "question": "Který alergen obsahuje Modrý Portugal?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+              "Alergen č. 7 – Mléko",
+              "Alergen č. 8 – Ořechy"
             ],
-            "explanation": "Modrý Portugal obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "explanation": "Obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
           }
         ]
       },
@@ -5973,36 +6071,47 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "12"
         ],
         "description": "Kraus Čechy",
+        "notes": "Kraus Čechy. Charakteristické mělnické červené cuvée s tóny tmavého ovoce a lesních plodů.",
         "questions": [
           {
             "id": "sklo-cuvee-cervene-vol",
-            "question": "Jaký je servírovací objem / míra položky Cuvée červené?",
+            "question": "Jaký je servírovací objem rozlévaného Cuvée červené?",
             "correctAnswer": "0,15l",
             "distractors": [
               "0,1 l",
               "0,2 l"
             ],
-            "explanation": "Servírovací míra / objem položky Cuvée červené je 0,15l."
+            "explanation": "Servírovací objem je 0,15l."
           },
           {
-            "id": "sklo-cuvee-cervene-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Cuvée červené?",
+            "id": "sklo-cuvee-cervene-prod",
+            "question": "Které české vinařství vyrábí toto červené cuvée?",
             "correctAnswer": "Kraus Čechy",
             "distractors": [
-              "Světlý ležák plzeňského typu",
-              "Jablečný mošt z rodinné farmy"
+              "Kolby Morava",
+              "Heuriger Rakousko"
             ],
-            "explanation": "U položky Cuvée červené je uvedeno: Kraus Čechy. Kompletní popis: Kraus Čechy."
+            "explanation": "Vyrábí jej mělnické vinařství Kraus v Čechách."
           },
           {
-            "id": "sklo-cuvee-cervene-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Cuvée červené?",
+            "id": "sklo-cuvee-cervene-price",
+            "question": "Jaká je prodejní cena sklenky Cuvée červené Kraus (0,15l)?",
+            "correctAnswer": "98 Kč",
+            "distractors": [
+              "95 Kč",
+              "109 Kč"
+            ],
+            "explanation": "Cena za 0,15l je 98 Kč."
+          },
+          {
+            "id": "sklo-cuvee-cervene-allergen",
+            "question": "Který alergen obsahuje Cuvée červené Kraus?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+              "Alergen č. 1 – Lepek",
+              "Alergen č. 6 – Sója"
             ],
-            "explanation": "Cuvée červené obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "explanation": "Obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
           }
         ]
       },
@@ -6015,3192 +6124,47 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           "12"
         ],
         "description": "Adulation Kalifornie",
+        "notes": "Adulation Kalifornie. Sametový kalifornský Pinot Noir s tóny tmavých třešní, vanilky a jemného dřeva.",
         "questions": [
           {
             "id": "sklo-pinot-noir-vol",
-            "question": "Jaký je servírovací objem / míra položky Pinot Noir?",
+            "question": "Jaký je servírovací objem sklenky kalifornského Pinot Noir Adulation?",
             "correctAnswer": "0,15l",
             "distractors": [
               "0,1 l",
               "0,2 l"
             ],
-            "explanation": "Servírovací míra / objem položky Pinot Noir je 0,15l."
+            "explanation": "Servírovací objem je 0,15l."
           },
           {
-            "id": "sklo-pinot-noir-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Pinot Noir?",
+            "id": "sklo-pinot-noir-region",
+            "question": "Odkud pochází toto červené víno Pinot Noir rozlévané po skle?",
             "correctAnswer": "Adulation Kalifornie",
             "distractors": [
-              "Limetová šťáva",
-              "Pomerančová kůra a hřebíček"
+              "Kolby Morava",
+              "Kraus Čechy"
             ],
-            "explanation": "U položky Pinot Noir je uvedeno: Adulation Kalifornie. Kompletní popis: Adulation Kalifornie."
+            "explanation": "Pochází z vinařství Adulation v Kalifornii (USA)."
           },
           {
-            "id": "sklo-pinot-noir-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Pinot Noir?",
+            "id": "sklo-pinot-noir-price",
+            "question": "Jaká je prodejní cena sklenky Pinot Noir Adulation (0,15l)?",
+            "correctAnswer": "125 Kč",
+            "distractors": [
+              "115 Kč",
+              "98 Kč"
+            ],
+            "explanation": "Cena je 125 Kč."
+          },
+          {
+            "id": "sklo-pinot-noir-allergen",
+            "question": "Který alergen obsahuje Pinot Noir Adulation?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+              "Alergen č. 3 – Vejce",
+              "Alergen č. 7 – Mléko"
             ],
-            "explanation": "Pinot Noir obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "aperitivy",
-    "name": "Aperitivy",
-    "badge": "Aperitivy",
-    "description": "Klasické a šumivé aperitivy k povzbuzení chuti",
-    "iconName": "Martini",
-    "items": [
-      {
-        "id": "aperol-spritz",
-        "name": "Aperol Spritz",
-        "price": "155 Kč",
-        "allergens": [],
-        "description": "Aperol, charmat, soda",
-        "questions": [
-          {
-            "id": "aperol-spritz-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Aperol Spritz?",
-            "correctAnswer": "Aperol",
-            "distractors": [
-              "Italský aperitiv Campari",
-              "Černý sypaný čaj s bergamotem"
-            ],
-            "explanation": "U položky Aperol Spritz je uvedeno: Aperol. Kompletní popis: Aperol, charmat, soda."
-          },
-          {
-            "id": "aperol-spritz-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Aperol Spritz?",
-            "correctAnswer": "Charmat",
-            "distractors": [
-              "Jasmínový zelený čaj",
-              "Belgické višňové pivo"
-            ],
-            "explanation": "U položky Aperol Spritz je uvedeno: Charmat. Kompletní popis: Aperol, charmat, soda."
-          }
-        ]
-      },
-      {
-        "id": "hugo-spritz",
-        "name": "Hugo Spritz",
-        "price": "155 Kč",
-        "allergens": [],
-        "description": "charmat, bezový elixír, limeta, máta, soda",
-        "questions": [
-          {
-            "id": "hugo-spritz-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Hugo Spritz?",
-            "correctAnswer": "Charmat",
-            "distractors": [
-              "Tonik Thomas Henry s chininem",
-              "Čerstvě pražená výběrová káva"
-            ],
-            "explanation": "U položky Hugo Spritz je uvedeno: Charmat. Kompletní popis: charmat, bezový elixír, limeta, máta, soda."
-          },
-          {
-            "id": "hugo-spritz-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Hugo Spritz?",
-            "correctAnswer": "Bezový elixír",
-            "distractors": [
-              "Vanilkový sirup a limetová šťáva",
-              "Třtinový cukr s limetkou"
-            ],
-            "explanation": "U položky Hugo Spritz je uvedeno: Bezový elixír. Kompletní popis: charmat, bezový elixír, limeta, máta, soda."
-          }
-        ]
-      },
-      {
-        "id": "mimosa",
-        "name": "Mimosa",
-        "price": "168 Kč",
-        "allergens": [],
-        "description": "charmat, pomerančový fresh, cukrový sirup",
-        "questions": [
-          {
-            "id": "mimosa-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Mimosa?",
-            "correctAnswer": "Charmat",
-            "distractors": [
-              "Limetová šťáva",
-              "Pomerančová kůra a hřebíček"
-            ],
-            "explanation": "U položky Mimosa je uvedeno: Charmat. Kompletní popis: charmat, pomerančový fresh, cukrový sirup."
-          },
-          {
-            "id": "mimosa-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Mimosa?",
-            "correctAnswer": "Pomerančový fresh",
-            "distractors": [
-              "Mučenkový likér a vanilka",
-              "Kávový likér Kahlúa"
-            ],
-            "explanation": "U položky Mimosa je uvedeno: Pomerančový fresh. Kompletní popis: charmat, pomerančový fresh, cukrový sirup."
-          }
-        ]
-      },
-      {
-        "id": "kir",
-        "name": "Kir",
-        "price": "165 Kč",
-        "allergens": [],
-        "description": "créme de cassis, charmat",
-        "questions": [
-          {
-            "id": "kir-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Kir?",
-            "correctAnswer": "Créme de cassis",
-            "distractors": [
-              "Vanilkový sirup a limetová šťáva",
-              "Třtinový cukr s limetkou"
-            ],
-            "explanation": "U položky Kir je uvedeno: Créme de cassis. Kompletní popis: créme de cassis, charmat."
-          },
-          {
-            "id": "kir-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Kir?",
-            "correctAnswer": "Charmat",
-            "distractors": [
-              "Italský aperitiv Campari",
-              "Černý sypaný čaj s bergamotem"
-            ],
-            "explanation": "U položky Kir je uvedeno: Charmat. Kompletní popis: créme de cassis, charmat."
-          }
-        ]
-      },
-      {
-        "id": "campari-bitter",
-        "name": "Campari Bitter",
-        "weight": "0,06l",
-        "price": "87 Kč",
-        "allergens": [],
-        "description": "italský nahořklý bylinný aperitiv",
-        "questions": [
-          {
-            "id": "campari-bitter-vol",
-            "question": "Jaký je servírovací objem / míra položky Campari Bitter?",
-            "correctAnswer": "0,06l",
-            "distractors": [
-              "0,04 l",
-              "0,08 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Campari Bitter je 0,06l."
-          },
-          {
-            "id": "campari-bitter-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Campari Bitter?",
-            "correctAnswer": "Italský nahořklý bylinný aperitiv",
-            "distractors": [
-              "Jasmínový zelený čaj",
-              "Belgické višňové pivo"
-            ],
-            "explanation": "U položky Campari Bitter je uvedeno: Italský nahořklý bylinný aperitiv. Kompletní popis: italský nahořklý bylinný aperitiv."
-          }
-        ]
-      },
-      {
-        "id": "martini-dry",
-        "name": "Martini Dry",
-        "weight": "0,08l",
-        "price": "79 Kč",
-        "allergens": [],
-        "description": "suchý bílý italský vermut",
-        "questions": [
-          {
-            "id": "martini-dry-vol",
-            "question": "Jaký je servírovací objem / míra položky Martini Dry?",
-            "correctAnswer": "0,08l",
-            "distractors": [
-              "0,05 l",
-              "0,1 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Martini Dry je 0,08l."
-          },
-          {
-            "id": "martini-dry-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Martini Dry?",
-            "correctAnswer": "Suchý bílý italský vermut",
-            "distractors": [
-              "Tonik Thomas Henry s chininem",
-              "Čerstvě pražená výběrová káva"
-            ],
-            "explanation": "U položky Martini Dry je uvedeno: Suchý bílý italský vermut. Kompletní popis: suchý bílý italský vermut."
-          }
-        ]
-      },
-      {
-        "id": "cinzano-rosso-bianco",
-        "name": "Cinzano Rosso / Bianco",
-        "weight": "0,08l",
-        "price": "79 Kč",
-        "allergens": [],
-        "description": "italský vermut červený nebo bílý",
-        "questions": [
-          {
-            "id": "cinzano-rosso-bianco-vol",
-            "question": "Jaký je servírovací objem / míra položky Cinzano Rosso / Bianco?",
-            "correctAnswer": "0,08l",
-            "distractors": [
-              "0,05 l",
-              "0,1 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Cinzano Rosso / Bianco je 0,08l."
-          },
-          {
-            "id": "cinzano-rosso-bianco-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Cinzano Rosso / Bianco?",
-            "correctAnswer": "Italský vermut červený nebo bílý",
-            "distractors": [
-              "Tonik Thomas Henry s chininem",
-              "Čerstvě pražená výběrová káva"
-            ],
-            "explanation": "U položky Cinzano Rosso / Bianco je uvedeno: Italský vermut červený nebo bílý. Kompletní popis: italský vermut červený nebo bílý."
-          }
-        ]
-      },
-      {
-        "id": "grahams-porto-10y",
-        "name": "Grahams Porto Tawny 10y",
-        "weight": "0,06l",
-        "price": "225 Kč",
-        "allergens": [
-          "12"
-        ],
-        "description": "desetileté portugalské portské víno zrající v dubových sudech",
-        "questions": [
-          {
-            "id": "grahams-porto-10y-vol",
-            "question": "Jaký je servírovací objem / míra položky Grahams Porto Tawny 10y?",
-            "correctAnswer": "0,06l",
-            "distractors": [
-              "0,04 l",
-              "0,08 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Grahams Porto Tawny 10y je 0,06l."
-          },
-          {
-            "id": "grahams-porto-10y-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Grahams Porto Tawny 10y?",
-            "correctAnswer": "Desetileté portugalské portské víno zrající v dubových sudech",
-            "distractors": [
-              "Zázvorové pivo Fever-Tree",
-              "Čerstvý rozmarýn a jalovec"
-            ],
-            "explanation": "U položky Grahams Porto Tawny 10y je uvedeno: Desetileté portugalské portské víno zrající v dubových sudech. Kompletní popis: desetileté portugalské portské víno zrající v dubových sudech."
-          },
-          {
-            "id": "grahams-porto-10y-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Grahams Porto Tawny 10y?",
-            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Grahams Porto Tawny 10y obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "nealko-aperitivy",
-    "name": "Nealko aperitivy a koktejly",
-    "badge": "Nealko aperitivy a koktejly",
-    "description": "Sofistikované osvěžující koktejly a aperitivy bez kapky alkoholu",
-    "iconName": "Martini",
-    "items": [
-      {
-        "id": "crodino",
-        "name": "Crodino",
-        "weight": "0,175l",
-        "price": "109 Kč",
-        "allergens": [],
-        "description": "nealkoholický bitter",
-        "questions": [
-          {
-            "id": "crodino-vol",
-            "question": "Jaký je servírovací objem / míra položky Crodino?",
-            "correctAnswer": "0,175l",
-            "distractors": [
-              "0,15 l",
-              "0,2 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Crodino je 0,175l."
-          },
-          {
-            "id": "crodino-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Crodino?",
-            "correctAnswer": "Nealkoholický bitter",
-            "distractors": [
-              "Mučenkový likér a vanilka",
-              "Kávový likér Kahlúa"
-            ],
-            "explanation": "U položky Crodino je uvedeno: Nealkoholický bitter. Kompletní popis: nealkoholický bitter."
-          }
-        ]
-      },
-      {
-        "id": "martini-floreale-tonic",
-        "name": "Martini Floreale Alcohol free & Thomas Henry Tonic",
-        "price": "165 Kč",
-        "allergens": [],
-        "description": "nealkoholické Martini, tonik, sušený pomeranč",
-        "questions": [
-          {
-            "id": "martini-floreale-tonic-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Martini Floreale Alcohol free & Thomas Henry Tonic?",
-            "correctAnswer": "Nealkoholické Martini",
-            "distractors": [
-              "Italský aperitiv Campari",
-              "Černý sypaný čaj s bergamotem"
-            ],
-            "explanation": "U položky Martini Floreale Alcohol free & Thomas Henry Tonic je uvedeno: Nealkoholické Martini. Kompletní popis: nealkoholické Martini, tonik, sušený pomeranč."
-          },
-          {
-            "id": "martini-floreale-tonic-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Martini Floreale Alcohol free & Thomas Henry Tonic?",
-            "correctAnswer": "Tonik",
-            "distractors": [
-              "Pomerančová kůra a hřebíček",
-              "Mučenkový likér a vanilka"
-            ],
-            "explanation": "U položky Martini Floreale Alcohol free & Thomas Henry Tonic je uvedeno: Tonik. Kompletní popis: nealkoholické Martini, tonik, sušený pomeranč."
-          }
-        ]
-      },
-      {
-        "id": "bitter-soda-gasco",
-        "name": "Bitter soda J.Gasco",
-        "weight": "0,2l",
-        "price": "115 Kč",
-        "allergens": [],
-        "description": "nealkoholický bitter soda",
-        "questions": [
-          {
-            "id": "bitter-soda-gasco-vol",
-            "question": "Jaký je servírovací objem / míra položky Bitter soda J.Gasco?",
-            "correctAnswer": "0,2l",
-            "distractors": [
-              "0,25 l",
-              "0,33 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Bitter soda J.Gasco je 0,2l."
-          },
-          {
-            "id": "bitter-soda-gasco-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Bitter soda J.Gasco?",
-            "correctAnswer": "Nealkoholický bitter soda",
-            "distractors": [
-              "Zázvorové pivo Fever-Tree",
-              "Čerstvý rozmarýn a jalovec"
-            ],
-            "explanation": "U položky Bitter soda J.Gasco je uvedeno: Nealkoholický bitter soda. Kompletní popis: nealkoholický bitter soda."
-          }
-        ]
-      },
-      {
-        "id": "tanqueray-00-tonic",
-        "name": "Tanqueray Alcohol Free & Fever-Tree Tonic",
-        "price": "199 Kč",
-        "allergens": [],
-        "description": "nealkoholický G&T s limetou",
-        "questions": [
-          {
-            "id": "tanqueray-00-tonic-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Tanqueray Alcohol Free & Fever-Tree Tonic?",
-            "correctAnswer": "Nealkoholický G&T s limetou",
-            "distractors": [
-              "Světlý ležák plzeňského typu",
-              "Jablečný mošt z rodinné farmy"
-            ],
-            "explanation": "U položky Tanqueray Alcohol Free & Fever-Tree Tonic je uvedeno: Nealkoholický G&T s limetou. Kompletní popis: nealkoholický G&T s limetou."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "klasicke-koktejly",
-    "name": "Klasické koktejly",
-    "badge": "Klasické koktejly",
-    "description": "Ikonické světové koktejly míchané podle originálních barových receptur",
-    "iconName": "Martini",
-    "items": [
-      {
-        "id": "negroni",
-        "name": "Negroni",
-        "price": "195 Kč",
-        "allergens": [],
-        "description": "gin, Campari, Cinzano rosso",
-        "questions": [
-          {
-            "id": "negroni-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Negroni?",
-            "correctAnswer": "Campari",
-            "distractors": [
-              "Kávový likér Kahlúa",
-              "Zázvorové pivo Fever-Tree"
-            ],
-            "explanation": "U položky Negroni je uvedeno: Campari. Kompletní popis: gin, Campari, Cinzano rosso."
-          },
-          {
-            "id": "negroni-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Negroni?",
-            "correctAnswer": "Cinzano rosso",
-            "distractors": [
-              "Zázvorové pivo Fever-Tree",
-              "Čerstvý rozmarýn a jalovec"
-            ],
-            "explanation": "U položky Negroni je uvedeno: Cinzano rosso. Kompletní popis: gin, Campari, Cinzano rosso."
-          }
-        ]
-      },
-      {
-        "id": "margarita",
-        "name": "Margarita",
-        "price": "185 Kč",
-        "allergens": [],
-        "description": "tequila, Cointreau, limetová šťáva",
-        "questions": [
-          {
-            "id": "margarita-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Margarita?",
-            "correctAnswer": "Tequila",
-            "distractors": [
-              "Světlý ležák plzeňského typu",
-              "Jablečný mošt z rodinné farmy"
-            ],
-            "explanation": "U položky Margarita je uvedeno: Tequila. Kompletní popis: tequila, Cointreau, limetová šťáva."
-          },
-          {
-            "id": "margarita-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Margarita?",
-            "correctAnswer": "Cointreau",
-            "distractors": [
-              "Čerstvý grepový fresh",
-              "Bezinkový sirup a čerstvá máta"
-            ],
-            "explanation": "U položky Margarita je uvedeno: Cointreau. Kompletní popis: tequila, Cointreau, limetová šťáva."
-          }
-        ]
-      },
-      {
-        "id": "mojito",
-        "name": "Mojito",
-        "price": "185 Kč",
-        "allergens": [],
-        "description": "rum, máta, limeta, třtinový cukr",
-        "questions": [
-          {
-            "id": "mojito-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Mojito?",
-            "correctAnswer": "Máta",
-            "distractors": [
-              "Pomerančová kůra a hřebíček",
-              "Mučenkový likér a vanilka"
-            ],
-            "explanation": "U položky Mojito je uvedeno: Máta. Kompletní popis: rum, máta, limeta, třtinový cukr."
-          },
-          {
-            "id": "mojito-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Mojito?",
-            "correctAnswer": "Limeta",
-            "distractors": [
-              "Mučenkový likér a vanilka",
-              "Kávový likér Kahlúa"
-            ],
-            "explanation": "U položky Mojito je uvedeno: Limeta. Kompletní popis: rum, máta, limeta, třtinový cukr."
-          }
-        ]
-      },
-      {
-        "id": "frozen-strawberry-daiquiri",
-        "name": "Frozen Strawberry Daiquiri",
-        "price": "195 Kč",
-        "allergens": [],
-        "description": "rum, limetová šťáva, cukrový sirup, jahody",
-        "questions": [
-          {
-            "id": "frozen-strawberry-daiquiri-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Frozen Strawberry Daiquiri?",
-            "correctAnswer": "Limetová šťáva",
-            "distractors": [
-              "Tonik Thomas Henry s chininem",
-              "Čerstvě pražená výběrová káva"
-            ],
-            "explanation": "U položky Frozen Strawberry Daiquiri je uvedeno: Limetová šťáva. Kompletní popis: rum, limetová šťáva, cukrový sirup, jahody."
-          },
-          {
-            "id": "frozen-strawberry-daiquiri-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Frozen Strawberry Daiquiri?",
-            "correctAnswer": "Cukrový sirup",
-            "distractors": [
-              "Světlý ležák plzeňského typu",
-              "Jablečný mošt z rodinné farmy"
-            ],
-            "explanation": "U položky Frozen Strawberry Daiquiri je uvedeno: Cukrový sirup. Kompletní popis: rum, limetová šťáva, cukrový sirup, jahody."
-          }
-        ]
-      },
-      {
-        "id": "cuba-libre",
-        "name": "Cuba Libre",
-        "price": "165 Kč",
-        "allergens": [],
-        "description": "rum, citrónová šťáva, Coca Cola",
-        "questions": [
-          {
-            "id": "cuba-libre-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Cuba Libre?",
-            "correctAnswer": "Citrónová šťáva",
-            "distractors": [
-              "Čerstvý grepový fresh",
-              "Bezinkový sirup a čerstvá máta"
-            ],
-            "explanation": "U položky Cuba Libre je uvedeno: Citrónová šťáva. Kompletní popis: rum, citrónová šťáva, Coca Cola."
-          },
-          {
-            "id": "cuba-libre-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Cuba Libre?",
-            "correctAnswer": "Coca Cola",
-            "distractors": [
-              "Tonik Thomas Henry s chininem",
-              "Čerstvě pražená výběrová káva"
-            ],
-            "explanation": "U položky Cuba Libre je uvedeno: Coca Cola. Kompletní popis: rum, citrónová šťáva, Coca Cola."
-          }
-        ]
-      },
-      {
-        "id": "mai-tai",
-        "name": "Mai-Tai",
-        "price": "199 Kč",
-        "allergens": [
-          "8"
-        ],
-        "description": "bílý a tmavý rum, curacao, mandlový likér, limetová šťáva",
-        "questions": [
-          {
-            "id": "mai-tai-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Mai-Tai?",
-            "correctAnswer": "Bílý a tmavý rum",
-            "distractors": [
-              "Mučenkový likér a vanilka",
-              "Kávový likér Kahlúa"
-            ],
-            "explanation": "U položky Mai-Tai je uvedeno: Bílý a tmavý rum. Kompletní popis: bílý a tmavý rum, curacao, mandlový likér, limetová šťáva."
-          },
-          {
-            "id": "mai-tai-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Mai-Tai?",
-            "correctAnswer": "Curacao",
-            "distractors": [
-              "Zázvorové pivo Fever-Tree",
-              "Čerstvý rozmarýn a jalovec"
-            ],
-            "explanation": "U položky Mai-Tai je uvedeno: Curacao. Kompletní popis: bílý a tmavý rum, curacao, mandlový likér, limetová šťáva."
-          },
-          {
-            "id": "mai-tai-allergen-8",
-            "question": "Který z následujících alergenů obsahuje položka Mai-Tai?",
-            "correctAnswer": "Alergen č. 8 – Skořápkové plody (ořechy)",
-            "distractors": [
-              "Alergen č. 10 – Hořčice a výrobky z ní",
-              "Alergen č. 1 – Obiloviny obsahující lepek"
-            ],
-            "explanation": "Mai-Tai obsahuje Alergen č. 8 – Skořápkové plody (ořechy) (mandle, vlašské ořechy, mandlový likér). Všechny evidované alergeny: Skořápkové plody (ořechy) a výrobky z nich."
-          }
-        ]
-      },
-      {
-        "id": "porn-star-martini",
-        "name": "Porn star Martini",
-        "price": "232 Kč",
-        "allergens": [],
-        "description": "vanilková vodka, mučenkový likér, vanilkový sirup, limetová šťáva, charmat",
-        "questions": [
-          {
-            "id": "porn-star-martini-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Porn star Martini?",
-            "correctAnswer": "Vanilková vodka",
-            "distractors": [
-              "Zázvorové pivo Fever-Tree",
-              "Čerstvý rozmarýn a jalovec"
-            ],
-            "explanation": "U položky Porn star Martini je uvedeno: Vanilková vodka. Kompletní popis: vanilková vodka, mučenkový likér, vanilkový sirup, limetová šťáva, charmat."
-          },
-          {
-            "id": "porn-star-martini-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Porn star Martini?",
-            "correctAnswer": "Mučenkový likér",
-            "distractors": [
-              "Čerstvý grepový fresh",
-              "Bezinkový sirup a čerstvá máta"
-            ],
-            "explanation": "U položky Porn star Martini je uvedeno: Mučenkový likér. Kompletní popis: vanilková vodka, mučenkový likér, vanilkový sirup, limetová šťáva, charmat."
-          }
-        ]
-      },
-      {
-        "id": "skinny-bitch",
-        "name": "Skinny bitch",
-        "price": "125 Kč",
-        "allergens": [],
-        "description": "vodka, limetová šťáva, soda",
-        "questions": [
-          {
-            "id": "skinny-bitch-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Skinny bitch?",
-            "correctAnswer": "Vodka",
-            "distractors": [
-              "Vanilkový sirup a limetová šťáva",
-              "Třtinový cukr s limetkou"
-            ],
-            "explanation": "U položky Skinny bitch je uvedeno: Vodka. Kompletní popis: vodka, limetová šťáva, soda."
-          },
-          {
-            "id": "skinny-bitch-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Skinny bitch?",
-            "correctAnswer": "Limetová šťáva",
-            "distractors": [
-              "Belgické višňové pivo",
-              "Pomerančová kůra a hřebíček"
-            ],
-            "explanation": "U položky Skinny bitch je uvedeno: Limetová šťáva. Kompletní popis: vodka, limetová šťáva, soda."
-          }
-        ]
-      },
-      {
-        "id": "cosmopolitan",
-        "name": "Cosmopolitan",
-        "price": "160 Kč",
-        "allergens": [],
-        "description": "vodka, Cointreau, brusinkový džus, limetová šťáva",
-        "questions": [
-          {
-            "id": "cosmopolitan-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Cosmopolitan?",
-            "correctAnswer": "Vodka",
-            "distractors": [
-              "Vanilkový sirup a limetová šťáva",
-              "Třtinový cukr s limetkou"
-            ],
-            "explanation": "U položky Cosmopolitan je uvedeno: Vodka. Kompletní popis: vodka, Cointreau, brusinkový džus, limetová šťáva."
-          },
-          {
-            "id": "cosmopolitan-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Cosmopolitan?",
-            "correctAnswer": "Cointreau",
-            "distractors": [
-              "Italský aperitiv Campari",
-              "Černý sypaný čaj s bergamotem"
-            ],
-            "explanation": "U položky Cosmopolitan je uvedeno: Cointreau. Kompletní popis: vodka, Cointreau, brusinkový džus, limetová šťáva."
-          }
-        ]
-      },
-      {
-        "id": "moscow-mule",
-        "name": "Moscow mule",
-        "price": "185 Kč",
-        "allergens": [],
-        "description": "vodka, limetová šťáva, ginger beer",
-        "questions": [
-          {
-            "id": "moscow-mule-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Moscow mule?",
-            "correctAnswer": "Vodka",
-            "distractors": [
-              "Tonik Thomas Henry s chininem",
-              "Čerstvě pražená výběrová káva"
-            ],
-            "explanation": "U položky Moscow mule je uvedeno: Vodka. Kompletní popis: vodka, limetová šťáva, ginger beer."
-          },
-          {
-            "id": "moscow-mule-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Moscow mule?",
-            "correctAnswer": "Limetová šťáva",
-            "distractors": [
-              "Černý sypaný čaj s bergamotem",
-              "Jasmínový zelený čaj"
-            ],
-            "explanation": "U položky Moscow mule je uvedeno: Limetová šťáva. Kompletní popis: vodka, limetová šťáva, ginger beer."
-          }
-        ]
-      },
-      {
-        "id": "french-martini",
-        "name": "French Martini",
-        "price": "195 Kč",
-        "allergens": [],
-        "description": "vodka, malinový likér, ananasový džus",
-        "questions": [
-          {
-            "id": "french-martini-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce French Martini?",
-            "correctAnswer": "Vodka",
-            "distractors": [
-              "Jasmínový zelený čaj",
-              "Belgické višňové pivo"
-            ],
-            "explanation": "U položky French Martini je uvedeno: Vodka. Kompletní popis: vodka, malinový likér, ananasový džus."
-          },
-          {
-            "id": "french-martini-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce French Martini?",
-            "correctAnswer": "Malinový likér",
-            "distractors": [
-              "Limetová šťáva",
-              "Pomerančová kůra a hřebíček"
-            ],
-            "explanation": "U položky French Martini je uvedeno: Malinový likér. Kompletní popis: vodka, malinový likér, ananasový džus."
-          }
-        ]
-      },
-      {
-        "id": "espresso-martini",
-        "name": "Espresso Martini",
-        "price": "195 Kč",
-        "allergens": [],
-        "description": "vodka, Kahlúa, cukrový sirup, espresso",
-        "questions": [
-          {
-            "id": "espresso-martini-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Espresso Martini?",
-            "correctAnswer": "Vodka",
-            "distractors": [
-              "Mučenkový likér a vanilka",
-              "Kávový likér Kahlúa"
-            ],
-            "explanation": "U položky Espresso Martini je uvedeno: Vodka. Kompletní popis: vodka, Kahlúa, cukrový sirup, espresso."
-          },
-          {
-            "id": "espresso-martini-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Espresso Martini?",
-            "correctAnswer": "Kahlúa",
-            "distractors": [
-              "Světlý ležák plzeňského typu",
-              "Jablečný mošt z rodinné farmy"
-            ],
-            "explanation": "U položky Espresso Martini je uvedeno: Kahlúa. Kompletní popis: vodka, Kahlúa, cukrový sirup, espresso."
-          }
-        ]
-      },
-      {
-        "id": "paloma",
-        "name": "Paloma",
-        "price": "195 Kč",
-        "allergens": [],
-        "description": "tequila, limitován šťáva, agáve sirup, grepfruit J.Gasco Soda Rosa, sůl",
-        "questions": [
-          {
-            "id": "paloma-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Paloma?",
-            "correctAnswer": "Tequila",
-            "distractors": [
-              "Limetová šťáva",
-              "Pomerančová kůra a hřebíček"
-            ],
-            "explanation": "U položky Paloma je uvedeno: Tequila. Kompletní popis: tequila, limitován šťáva, agáve sirup, grepfruit J.Gasco Soda Rosa, sůl."
-          },
-          {
-            "id": "paloma-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Paloma?",
-            "correctAnswer": "Limitován šťáva",
-            "distractors": [
-              "Mučenkový likér a vanilka",
-              "Kávový likér Kahlúa"
-            ],
-            "explanation": "U položky Paloma je uvedeno: Limitován šťáva. Kompletní popis: tequila, limitován šťáva, agáve sirup, grepfruit J.Gasco Soda Rosa, sůl."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "koktejly-fuze",
-    "name": "Koktejly fuze",
-    "badge": "Koktejly fuze",
-    "description": "Originální autorské koktejly vytvořené týmem barmanů restaurace FUZE",
-    "iconName": "Martini",
-    "items": [
-      {
-        "id": "truffle-negroni",
-        "name": "Truffle Negroni",
-        "price": "205 Kč",
-        "allergens": [],
-        "description": "truffle gin, Campari, Cinzano rosso",
-        "questions": [
-          {
-            "id": "truffle-negroni-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Truffle Negroni?",
-            "correctAnswer": "Truffle gin",
-            "distractors": [
-              "Limetová šťáva",
-              "Pomerančová kůra a hřebíček"
-            ],
-            "explanation": "U položky Truffle Negroni je uvedeno: Truffle gin. Kompletní popis: truffle gin, Campari, Cinzano rosso."
-          },
-          {
-            "id": "truffle-negroni-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Truffle Negroni?",
-            "correctAnswer": "Campari",
-            "distractors": [
-              "Zázvorové pivo Fever-Tree",
-              "Čerstvý rozmarýn a jalovec"
-            ],
-            "explanation": "U položky Truffle Negroni je uvedeno: Campari. Kompletní popis: truffle gin, Campari, Cinzano rosso."
-          }
-        ]
-      },
-      {
-        "id": "fizzy-fuze",
-        "name": "Fizzy Fuze",
-        "price": "175 Kč",
-        "allergens": [],
-        "description": "gin, liči džus, ananasový džus, bezinkový sirup, limetová šťáva, soda",
-        "questions": [
-          {
-            "id": "fizzy-fuze-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Fizzy Fuze?",
-            "correctAnswer": "Liči džus",
-            "distractors": [
-              "Čerstvý grepový fresh",
-              "Bezinkový sirup a čerstvá máta"
-            ],
-            "explanation": "U položky Fizzy Fuze je uvedeno: Liči džus. Kompletní popis: gin, liči džus, ananasový džus, bezinkový sirup, limetová šťáva, soda."
-          },
-          {
-            "id": "fizzy-fuze-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Fizzy Fuze?",
-            "correctAnswer": "Ananasový džus",
-            "distractors": [
-              "Tonik Thomas Henry s chininem",
-              "Čerstvě pražená výběrová káva"
-            ],
-            "explanation": "U položky Fizzy Fuze je uvedeno: Ananasový džus. Kompletní popis: gin, liči džus, ananasový džus, bezinkový sirup, limetová šťáva, soda."
-          }
-        ]
-      },
-      {
-        "id": "florencia-fashion",
-        "name": "Florencia Fashion",
-        "price": "245 Kč",
-        "allergens": [],
-        "description": "whisky, švestkový sirup, čokoládový bitters",
-        "questions": [
-          {
-            "id": "florencia-fashion-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Florencia Fashion?",
-            "correctAnswer": "Whisky",
-            "distractors": [
-              "Zázvorové pivo Fever-Tree",
-              "Čerstvý rozmarýn a jalovec"
-            ],
-            "explanation": "U položky Florencia Fashion je uvedeno: Whisky. Kompletní popis: whisky, švestkový sirup, čokoládový bitters."
-          },
-          {
-            "id": "florencia-fashion-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Florencia Fashion?",
-            "correctAnswer": "Švestkový sirup",
-            "distractors": [
-              "Světlý ležák plzeňského typu",
-              "Jablečný mošt z rodinné farmy"
-            ],
-            "explanation": "U položky Florencia Fashion je uvedeno: Švestkový sirup. Kompletní popis: whisky, švestkový sirup, čokoládový bitters."
-          }
-        ]
-      },
-      {
-        "id": "am-spritz",
-        "name": "A.M. Spritz",
-        "price": "185 Kč",
-        "allergens": [],
-        "description": "crémant, gin, broskvový sirup, limetová šťáva",
-        "questions": [
-          {
-            "id": "am-spritz-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce A.M. Spritz?",
-            "correctAnswer": "Crémant",
-            "distractors": [
-              "Světlý ležák plzeňského typu",
-              "Jablečný mošt z rodinné farmy"
-            ],
-            "explanation": "U položky A.M. Spritz je uvedeno: Crémant. Kompletní popis: crémant, gin, broskvový sirup, limetová šťáva."
-          },
-          {
-            "id": "am-spritz-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce A.M. Spritz?",
-            "correctAnswer": "Broskvový sirup",
-            "distractors": [
-              "Čerstvý grepový fresh",
-              "Bezinkový sirup a čerstvá máta"
-            ],
-            "explanation": "U položky A.M. Spritz je uvedeno: Broskvový sirup. Kompletní popis: crémant, gin, broskvový sirup, limetová šťáva."
-          }
-        ]
-      },
-      {
-        "id": "passionata",
-        "name": "Passionata",
-        "price": "175 Kč",
-        "allergens": [],
-        "description": "rum, mučenka, melounový sirup, brusinkový džus",
-        "questions": [
-          {
-            "id": "passionata-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Passionata?",
-            "correctAnswer": "Mučenka",
-            "distractors": [
-              "Čerstvý grepový fresh",
-              "Bezinkový sirup a čerstvá máta"
-            ],
-            "explanation": "U položky Passionata je uvedeno: Mučenka. Kompletní popis: rum, mučenka, melounový sirup, brusinkový džus."
-          },
-          {
-            "id": "passionata-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Passionata?",
-            "correctAnswer": "Melounový sirup",
-            "distractors": [
-              "Tonik Thomas Henry s chininem",
-              "Čerstvě pražená výběrová káva"
-            ],
-            "explanation": "U položky Passionata je uvedeno: Melounový sirup. Kompletní popis: rum, mučenka, melounový sirup, brusinkový džus."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "gin-a-tonic",
-    "name": "Gin&tonic",
-    "badge": "Gin&tonic",
-    "description": "Perfektně vyladěné kombinace prémiových ginů a vybraných toniků",
-    "iconName": "GlassWater",
-    "items": [
-      {
-        "id": "gt-tanqueray",
-        "name": "Tanqueray & Thomas Henry Tonic",
-        "price": "188 Kč",
-        "allergens": [],
-        "description": "klasický s limetou",
-        "questions": [
-          {
-            "id": "gt-tanqueray-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Tanqueray & Thomas Henry Tonic?",
-            "correctAnswer": "Klasický s limetou",
-            "distractors": [
-              "Vanilkový sirup a limetová šťáva",
-              "Třtinový cukr s limetkou"
-            ],
-            "explanation": "U položky Tanqueray & Thomas Henry Tonic je uvedeno: Klasický s limetou. Kompletní popis: klasický s limetou."
-          }
-        ]
-      },
-      {
-        "id": "gt-fiesta-garage22",
-        "name": "Fiesta Garage 22 & Guilti tonic lime",
-        "price": "219 Kč",
-        "allergens": [],
-        "description": "zábavný s limetou",
-        "questions": [
-          {
-            "id": "gt-fiesta-garage22-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Fiesta Garage 22 & Guilti tonic lime?",
-            "correctAnswer": "Zábavný s limetou",
-            "distractors": [
-              "Světlý ležák plzeňského typu",
-              "Jablečný mošt z rodinné farmy"
-            ],
-            "explanation": "U položky Fiesta Garage 22 & Guilti tonic lime je uvedeno: Zábavný s limetou. Kompletní popis: zábavný s limetou."
-          }
-        ]
-      },
-      {
-        "id": "gt-hendricks",
-        "name": "Hendrick`s & Thomas Henry Tonic",
-        "price": "208 Kč",
-        "allergens": [],
-        "description": "svěží s okurkou",
-        "questions": [
-          {
-            "id": "gt-hendricks-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Hendrick`s & Thomas Henry Tonic?",
-            "correctAnswer": "Svěží s okurkou",
-            "distractors": [
-              "Vanilkový sirup a limetová šťáva",
-              "Třtinový cukr s limetkou"
-            ],
-            "explanation": "U položky Hendrick`s & Thomas Henry Tonic je uvedeno: Svěží s okurkou. Kompletní popis: svěží s okurkou."
-          }
-        ]
-      },
-      {
-        "id": "gt-endorphin-imagine",
-        "name": "Endorphin Magic imaGINe & Fever-Tree Tonic",
-        "price": "239 Kč",
-        "allergens": [],
-        "description": "iluzionistický s borůvkami",
-        "questions": [
-          {
-            "id": "gt-endorphin-imagine-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Endorphin Magic imaGINe & Fever-Tree Tonic?",
-            "correctAnswer": "Iluzionistický s borůvkami",
-            "distractors": [
-              "Tonik Thomas Henry s chininem",
-              "Čerstvě pražená výběrová káva"
-            ],
-            "explanation": "U položky Endorphin Magic imaGINe & Fever-Tree Tonic je uvedeno: Iluzionistický s borůvkami. Kompletní popis: iluzionistický s borůvkami."
-          }
-        ]
-      },
-      {
-        "id": "gt-flame-of-passion",
-        "name": "Flame of Passion Pink Gin & Thomas Henry Pink Grapefruit Tonic",
-        "price": "228 Kč",
-        "allergens": [],
-        "description": "podmanivý se sušeným grepem",
-        "questions": [
-          {
-            "id": "gt-flame-of-passion-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Flame of Passion Pink Gin & Thomas Henry Pink Grapefruit Tonic?",
-            "correctAnswer": "Podmanivý se sušeným grepem",
-            "distractors": [
-              "Čerstvý grepový fresh",
-              "Bezinkový sirup a čerstvá máta"
-            ],
-            "explanation": "U položky Flame of Passion Pink Gin & Thomas Henry Pink Grapefruit Tonic je uvedeno: Podmanivý se sušeným grepem. Kompletní popis: podmanivý se sušeným grepem."
-          }
-        ]
-      },
-      {
-        "id": "gt-endorphin-copper-moon",
-        "name": "Endorphin Copper Moon & Fever-Tree Mediterranean Tonic",
-        "price": "228 Kč",
-        "allergens": [],
-        "description": "plný bylinek a pepře",
-        "questions": [
-          {
-            "id": "gt-endorphin-copper-moon-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Endorphin Copper Moon & Fever-Tree Mediterranean Tonic?",
-            "correctAnswer": "Plný bylinek a pepře",
-            "distractors": [
-              "Limetová šťáva",
-              "Pomerančová kůra a hřebíček"
-            ],
-            "explanation": "U položky Endorphin Copper Moon & Fever-Tree Mediterranean Tonic je uvedeno: Plný bylinek a pepře. Kompletní popis: plný bylinek a pepře."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "ovocne-destilaty",
-    "name": "Ovocné destiláty 0,03l",
-    "badge": "Ovocné destiláty",
-    "description": "Špičkové české ovocné pálenky z vyhlášených řemeslných palíren",
-    "iconName": "Flame",
-    "items": [
-      {
-        "id": "slivovice-radlik",
-        "name": "Slivovice",
-        "weight": "0,03l",
-        "price": "105 Kč",
-        "allergens": [],
-        "description": "Radlík, jemná švestková pálenka z oceňovaného lihovaru",
-        "questions": [
-          {
-            "id": "slivovice-radlik-vol",
-            "question": "Jaký je servírovací objem / míra položky Slivovice?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Slivovice je 0,03l."
-          },
-          {
-            "id": "slivovice-radlik-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Slivovice?",
-            "correctAnswer": "Radlík",
-            "distractors": [
-              "Mučenkový likér a vanilka",
-              "Kávový likér Kahlúa"
-            ],
-            "explanation": "U položky Slivovice je uvedeno: Radlík. Kompletní popis: Radlík, jemná švestková pálenka z oceňovaného lihovaru."
-          },
-          {
-            "id": "slivovice-radlik-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Slivovice?",
-            "correctAnswer": "Jemná švestková pálenka z oceňovaného lihovaru",
-            "distractors": [
-              "Zázvorové pivo Fever-Tree",
-              "Čerstvý rozmarýn a jalovec"
-            ],
-            "explanation": "U položky Slivovice je uvedeno: Jemná švestková pálenka z oceňovaného lihovaru. Kompletní popis: Radlík, jemná švestková pálenka z oceňovaného lihovaru."
-          }
-        ]
-      },
-      {
-        "id": "slivovice-ze-sudu-radlik",
-        "name": "Slivovice ze sudu",
-        "weight": "0,03l",
-        "price": "140 Kč",
-        "allergens": [],
-        "description": "Radlík, švestkový destilát dozrávající v dubových sudech",
-        "questions": [
-          {
-            "id": "slivovice-ze-sudu-radlik-vol",
-            "question": "Jaký je servírovací objem / míra položky Slivovice ze sudu?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Slivovice ze sudu je 0,03l."
-          },
-          {
-            "id": "slivovice-ze-sudu-radlik-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Slivovice ze sudu?",
-            "correctAnswer": "Radlík",
-            "distractors": [
-              "Limetová šťáva",
-              "Pomerančová kůra a hřebíček"
-            ],
-            "explanation": "U položky Slivovice ze sudu je uvedeno: Radlík. Kompletní popis: Radlík, švestkový destilát dozrávající v dubových sudech."
-          },
-          {
-            "id": "slivovice-ze-sudu-radlik-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Slivovice ze sudu?",
-            "correctAnswer": "Švestkový destilát dozrávající v dubových sudech",
-            "distractors": [
-              "Mučenkový likér a vanilka",
-              "Kávový likér Kahlúa"
-            ],
-            "explanation": "U položky Slivovice ze sudu je uvedeno: Švestkový destilát dozrávající v dubových sudech. Kompletní popis: Radlík, švestkový destilát dozrávající v dubových sudech."
-          }
-        ]
-      },
-      {
-        "id": "hruskovice-skanzen",
-        "name": "Hruškovice Williams",
-        "weight": "0,03l",
-        "price": "110 Kč",
-        "allergens": [],
-        "description": "Skanzen, poctivý hruškový destilát z aromatických hrušek Williams",
-        "questions": [
-          {
-            "id": "hruskovice-skanzen-vol",
-            "question": "Jaký je servírovací objem / míra položky Hruškovice Williams?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Hruškovice Williams je 0,03l."
-          },
-          {
-            "id": "hruskovice-skanzen-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Hruškovice Williams?",
-            "correctAnswer": "Skanzen",
-            "distractors": [
-              "Světlý ležák plzeňského typu",
-              "Jablečný mošt z rodinné farmy"
-            ],
-            "explanation": "U položky Hruškovice Williams je uvedeno: Skanzen. Kompletní popis: Skanzen, poctivý hruškový destilát z aromatických hrušek Williams."
-          },
-          {
-            "id": "hruskovice-skanzen-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Hruškovice Williams?",
-            "correctAnswer": "Poctivý hruškový destilát z aromatických hrušek Williams",
-            "distractors": [
-              "Čerstvý grepový fresh",
-              "Bezinkový sirup a čerstvá máta"
-            ],
-            "explanation": "U položky Hruškovice Williams je uvedeno: Poctivý hruškový destilát z aromatických hrušek Williams. Kompletní popis: Skanzen, poctivý hruškový destilát z aromatických hrušek Williams."
-          }
-        ]
-      },
-      {
-        "id": "hruskovice-ze-sudu-radlik",
-        "name": "Hruškovice ze sudu",
-        "weight": "0,03l",
-        "price": "140 Kč",
-        "allergens": [],
-        "description": "Radlík, hruškový destilát zušlechtěný v dřevěných sudech",
-        "questions": [
-          {
-            "id": "hruskovice-ze-sudu-radlik-vol",
-            "question": "Jaký je servírovací objem / míra položky Hruškovice ze sudu?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Hruškovice ze sudu je 0,03l."
-          },
-          {
-            "id": "hruskovice-ze-sudu-radlik-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Hruškovice ze sudu?",
-            "correctAnswer": "Radlík",
-            "distractors": [
-              "Mučenkový likér a vanilka",
-              "Kávový likér Kahlúa"
-            ],
-            "explanation": "U položky Hruškovice ze sudu je uvedeno: Radlík. Kompletní popis: Radlík, hruškový destilát zušlechtěný v dřevěných sudech."
-          },
-          {
-            "id": "hruskovice-ze-sudu-radlik-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Hruškovice ze sudu?",
-            "correctAnswer": "Hruškový destilát zušlechtěný v dřevěných sudech",
-            "distractors": [
-              "Zázvorové pivo Fever-Tree",
-              "Čerstvý rozmarýn a jalovec"
-            ],
-            "explanation": "U položky Hruškovice ze sudu je uvedeno: Hruškový destilát zušlechtěný v dřevěných sudech. Kompletní popis: Radlík, hruškový destilát zušlechtěný v dřevěných sudech."
-          }
-        ]
-      },
-      {
-        "id": "merunkovice-svach",
-        "name": "Meruňkovice",
-        "weight": "0,03l",
-        "price": "120 Kč",
-        "allergens": [],
-        "description": "Svach, voňavá meruňková pálenka z jihočeské palírny Svach",
-        "questions": [
-          {
-            "id": "merunkovice-svach-vol",
-            "question": "Jaký je servírovací objem / míra položky Meruňkovice?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Meruňkovice je 0,03l."
-          },
-          {
-            "id": "merunkovice-svach-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Meruňkovice?",
-            "correctAnswer": "Svach",
-            "distractors": [
-              "Zázvorové pivo Fever-Tree",
-              "Čerstvý rozmarýn a jalovec"
-            ],
-            "explanation": "U položky Meruňkovice je uvedeno: Svach. Kompletní popis: Svach, voňavá meruňková pálenka z jihočeské palírny Svach."
-          },
-          {
-            "id": "merunkovice-svach-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Meruňkovice?",
-            "correctAnswer": "Voňavá meruňková pálenka z jihočeské palírny Svach",
-            "distractors": [
-              "Světlý ležák plzeňského typu",
-              "Jablečný mošt z rodinné farmy"
-            ],
-            "explanation": "U položky Meruňkovice je uvedeno: Voňavá meruňková pálenka z jihočeské palírny Svach. Kompletní popis: Svach, voňavá meruňková pálenka z jihočeské palírny Svach."
-          }
-        ]
-      },
-      {
-        "id": "visnovice-zubri",
-        "name": "Višňovice",
-        "weight": "0,03l",
-        "price": "98 Kč",
-        "allergens": [],
-        "description": "Zubří, poctivý destilát ze zralých višní z valašského Zubří",
-        "questions": [
-          {
-            "id": "visnovice-zubri-vol",
-            "question": "Jaký je servírovací objem / míra položky Višňovice?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Višňovice je 0,03l."
-          },
-          {
-            "id": "visnovice-zubri-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Višňovice?",
-            "correctAnswer": "Zubří",
-            "distractors": [
-              "Limetová šťáva",
-              "Pomerančová kůra a hřebíček"
-            ],
-            "explanation": "U položky Višňovice je uvedeno: Zubří. Kompletní popis: Zubří, poctivý destilát ze zralých višní z valašského Zubří."
-          },
-          {
-            "id": "visnovice-zubri-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Višňovice?",
-            "correctAnswer": "Poctivý destilát ze zralých višní z valašského Zubří",
-            "distractors": [
-              "Mučenkový likér a vanilka",
-              "Kávový likér Kahlúa"
-            ],
-            "explanation": "U položky Višňovice je uvedeno: Poctivý destilát ze zralých višní z valašského Zubří. Kompletní popis: Zubří, poctivý destilát ze zralých višní z valašského Zubří."
-          }
-        ]
-      },
-      {
-        "id": "jablkovice-galli",
-        "name": "Jablkovice",
-        "weight": "0,03l",
-        "price": "98 Kč",
-        "allergens": [],
-        "description": "Galli, čistý a svěží jablečný destilát z lihovaru Galli",
-        "questions": [
-          {
-            "id": "jablkovice-galli-vol",
-            "question": "Jaký je servírovací objem / míra položky Jablkovice?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Jablkovice je 0,03l."
-          },
-          {
-            "id": "jablkovice-galli-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Jablkovice?",
-            "correctAnswer": "Galli",
-            "distractors": [
-              "Mučenkový likér a vanilka",
-              "Kávový likér Kahlúa"
-            ],
-            "explanation": "U položky Jablkovice je uvedeno: Galli. Kompletní popis: Galli, čistý a svěží jablečný destilát z lihovaru Galli."
-          },
-          {
-            "id": "jablkovice-galli-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Jablkovice?",
-            "correctAnswer": "Čistý a svěží jablečný destilát z lihovaru Galli",
-            "distractors": [
-              "Zázvorové pivo Fever-Tree",
-              "Čerstvý rozmarýn a jalovec"
-            ],
-            "explanation": "U položky Jablkovice je uvedeno: Čistý a svěží jablečný destilát z lihovaru Galli. Kompletní popis: Galli, čistý a svěží jablečný destilát z lihovaru Galli."
-          }
-        ]
-      },
-      {
-        "id": "rybizovice-raspenava",
-        "name": "Rybízovice",
-        "weight": "0,03l",
-        "price": "160 Kč",
-        "allergens": [],
-        "description": "Raspenava, raritní vysoce ceněný destilát z černého a červeného rybízu",
-        "questions": [
-          {
-            "id": "rybizovice-raspenava-vol",
-            "question": "Jaký je servírovací objem / míra položky Rybízovice?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Rybízovice je 0,03l."
-          },
-          {
-            "id": "rybizovice-raspenava-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Rybízovice?",
-            "correctAnswer": "Raspenava",
-            "distractors": [
-              "Tonik Thomas Henry s chininem",
-              "Čerstvě pražená výběrová káva"
-            ],
-            "explanation": "U položky Rybízovice je uvedeno: Raspenava. Kompletní popis: Raspenava, raritní vysoce ceněný destilát z černého a červeného rybízu."
-          },
-          {
-            "id": "rybizovice-raspenava-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Rybízovice?",
-            "correctAnswer": "Raritní vysoce ceněný destilát z černého a červeného rybízu",
-            "distractors": [
-              "Vanilkový sirup a limetová šťáva",
-              "Třtinový cukr s limetkou"
-            ],
-            "explanation": "U položky Rybízovice je uvedeno: Raritní vysoce ceněný destilát z černého a červeného rybízu. Kompletní popis: Raspenava, raritní vysoce ceněný destilát z černého a červeného rybízu."
-          }
-        ]
-      },
-      {
-        "id": "vinovice-ze-sudu-radlik",
-        "name": "Vínovice ze sudu",
-        "weight": "0,03l",
-        "price": "149 Kč",
-        "allergens": [],
-        "description": "Radlík, ušlechtilý vinný destilát školený v dubových sudech",
-        "questions": [
-          {
-            "id": "vinovice-ze-sudu-radlik-vol",
-            "question": "Jaký je servírovací objem / míra položky Vínovice ze sudu?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Vínovice ze sudu je 0,03l."
-          },
-          {
-            "id": "vinovice-ze-sudu-radlik-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Vínovice ze sudu?",
-            "correctAnswer": "Radlík",
-            "distractors": [
-              "Jasmínový zelený čaj",
-              "Belgické višňové pivo"
-            ],
-            "explanation": "U položky Vínovice ze sudu je uvedeno: Radlík. Kompletní popis: Radlík, ušlechtilý vinný destilát školený v dubových sudech."
-          },
-          {
-            "id": "vinovice-ze-sudu-radlik-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Vínovice ze sudu?",
-            "correctAnswer": "Ušlechtilý vinný destilát školený v dubových sudech",
-            "distractors": [
-              "Limetová šťáva",
-              "Pomerančová kůra a hřebíček"
-            ],
-            "explanation": "U položky Vínovice ze sudu je uvedeno: Ušlechtilý vinný destilát školený v dubových sudech. Kompletní popis: Radlík, ušlechtilý vinný destilát školený v dubových sudech."
-          }
-        ]
-      },
-      {
-        "id": "traminovice-kolby",
-        "name": "Tramínovice",
-        "weight": "0,03l",
-        "price": "135 Kč",
-        "allergens": [],
-        "description": "Kolby, odrůdová pálenka z hroznů Tramínu červeného z vinařství Kolby",
-        "questions": [
-          {
-            "id": "traminovice-kolby-vol",
-            "question": "Jaký je servírovací objem / míra položky Tramínovice?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Tramínovice je 0,03l."
-          },
-          {
-            "id": "traminovice-kolby-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Tramínovice?",
-            "correctAnswer": "Kolby",
-            "distractors": [
-              "Zázvorové pivo Fever-Tree",
-              "Čerstvý rozmarýn a jalovec"
-            ],
-            "explanation": "U položky Tramínovice je uvedeno: Kolby. Kompletní popis: Kolby, odrůdová pálenka z hroznů Tramínu červeného z vinařství Kolby."
-          },
-          {
-            "id": "traminovice-kolby-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Tramínovice?",
-            "correctAnswer": "Odrůdová pálenka z hroznů Tramínu červeného z vinařství Kolby",
-            "distractors": [
-              "Světlý ležák plzeňského typu",
-              "Jablečný mošt z rodinné farmy"
-            ],
-            "explanation": "U položky Tramínovice je uvedeno: Odrůdová pálenka z hroznů Tramínu červeného z vinařství Kolby. Kompletní popis: Kolby, odrůdová pálenka z hroznů Tramínu červeného z vinařství Kolby."
-          }
-        ]
-      },
-      {
-        "id": "ponesicka-mrkvovice",
-        "name": "Poněšická Mrkvovice",
-        "weight": "0,03l",
-        "price": "123 Kč",
-        "allergens": [],
-        "description": "Poněšice, unikátní raritní zeleninový destilát z karotky z lihovaru Poněšice",
-        "questions": [
-          {
-            "id": "ponesicka-mrkvovice-vol",
-            "question": "Jaký je servírovací objem / míra položky Poněšická Mrkvovice?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Poněšická Mrkvovice je 0,03l."
-          },
-          {
-            "id": "ponesicka-mrkvovice-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Poněšická Mrkvovice?",
-            "correctAnswer": "Poněšice",
-            "distractors": [
-              "Čerstvý grepový fresh",
-              "Bezinkový sirup a čerstvá máta"
-            ],
-            "explanation": "U položky Poněšická Mrkvovice je uvedeno: Poněšice. Kompletní popis: Poněšice, unikátní raritní zeleninový destilát z karotky z lihovaru Poněšice."
-          },
-          {
-            "id": "ponesicka-mrkvovice-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Poněšická Mrkvovice?",
-            "correctAnswer": "Unikátní raritní zeleninový destilát z karotky z lihovaru Poněšice",
-            "distractors": [
-              "Tonik Thomas Henry s chininem",
-              "Čerstvě pražená výběrová káva"
-            ],
-            "explanation": "U položky Poněšická Mrkvovice je uvedeno: Unikátní raritní zeleninový destilát z karotky z lihovaru Poněšice. Kompletní popis: Poněšice, unikátní raritní zeleninový destilát z karotky z lihovaru Poněšice."
-          }
-        ]
-      },
-      {
-        "id": "malinovice-silver-martenz",
-        "name": "Malinovice Silver",
-        "weight": "0,03l",
-        "price": "175 Kč",
-        "allergens": [],
-        "description": "Martenz, luxusní malinový průtahový destilát z lesních malin",
-        "questions": [
-          {
-            "id": "malinovice-silver-martenz-vol",
-            "question": "Jaký je servírovací objem / míra položky Malinovice Silver?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Malinovice Silver je 0,03l."
-          },
-          {
-            "id": "malinovice-silver-martenz-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Malinovice Silver?",
-            "correctAnswer": "Martenz",
-            "distractors": [
-              "Mučenkový likér a vanilka",
-              "Kávový likér Kahlúa"
-            ],
-            "explanation": "U položky Malinovice Silver je uvedeno: Martenz. Kompletní popis: Martenz, luxusní malinový průtahový destilát z lesních malin."
-          },
-          {
-            "id": "malinovice-silver-martenz-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Malinovice Silver?",
-            "correctAnswer": "Luxusní malinový průtahový destilát z lesních malin",
-            "distractors": [
-              "Zázvorové pivo Fever-Tree",
-              "Čerstvý rozmarýn a jalovec"
-            ],
-            "explanation": "U položky Malinovice Silver je uvedeno: Luxusní malinový průtahový destilát z lesních malin. Kompletní popis: Martenz, luxusní malinový průtahový destilát z lesních malin."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "vodky",
-    "name": "Vodky 0,03l",
-    "badge": "Vodky",
-    "description": "Prémiové čisté vodky z České republiky i ze světa",
-    "iconName": "Flame",
-    "items": [
-      {
-        "id": "anton-kaapl-legionar",
-        "name": "Anton Kaapl LEGIONÄR",
-        "weight": "0,03l",
-        "price": "75 Kč",
-        "allergens": [],
-        "description": "jihočeská řemeslná vodka z rodinného lihovaru Jílovice, destilovaná s měkkou šumavskou pramenitou vodou",
-        "questions": [
-          {
-            "id": "anton-kaapl-legionar-vol",
-            "question": "Jaký je servírovací objem / míra položky Anton Kaapl LEGIONÄR?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Anton Kaapl LEGIONÄR je 0,03l."
-          },
-          {
-            "id": "anton-kaapl-legionar-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Anton Kaapl LEGIONÄR?",
-            "correctAnswer": "Jihočeská řemeslná vodka z rodinného lihovaru Jílovice",
-            "distractors": [
-              "Tonik Thomas Henry s chininem",
-              "Čerstvě pražená výběrová káva"
-            ],
-            "explanation": "U položky Anton Kaapl LEGIONÄR je uvedeno: Jihočeská řemeslná vodka z rodinného lihovaru Jílovice. Kompletní popis: jihočeská řemeslná vodka z rodinného lihovaru Jílovice, destilovaná s měkkou šumavskou pramenitou vodou."
-          },
-          {
-            "id": "anton-kaapl-legionar-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Anton Kaapl LEGIONÄR?",
-            "correctAnswer": "Destilovaná s měkkou šumavskou pramenitou vodou",
-            "distractors": [
-              "Vanilkový sirup a limetová šťáva",
-              "Třtinový cukr s limetkou"
-            ],
-            "explanation": "U položky Anton Kaapl LEGIONÄR je uvedeno: Destilovaná s měkkou šumavskou pramenitou vodou. Kompletní popis: jihočeská řemeslná vodka z rodinného lihovaru Jílovice, destilovaná s měkkou šumavskou pramenitou vodou."
-          }
-        ]
-      },
-      {
-        "id": "nemiroff",
-        "name": "Nemiroff",
-        "weight": "0,03l",
-        "price": "85 Kč",
-        "allergens": [],
-        "description": "slavná pšeničná vodka s vícestupňovou filtrací",
-        "questions": [
-          {
-            "id": "nemiroff-vol",
-            "question": "Jaký je servírovací objem / míra položky Nemiroff?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Nemiroff je 0,03l."
-          },
-          {
-            "id": "nemiroff-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Nemiroff?",
-            "correctAnswer": "Slavná pšeničná vodka s vícestupňovou filtrací",
-            "distractors": [
-              "Zázvorové pivo Fever-Tree",
-              "Čerstvý rozmarýn a jalovec"
-            ],
-            "explanation": "U položky Nemiroff je uvedeno: Slavná pšeničná vodka s vícestupňovou filtrací. Kompletní popis: slavná pšeničná vodka s vícestupňovou filtrací."
-          }
-        ]
-      },
-      {
-        "id": "grey-goose",
-        "name": "Grey Goose",
-        "weight": "0,03l",
-        "price": "135 Kč",
-        "allergens": [],
-        "description": "luxusní francouzská pšeničná vodka z oblasti Picardie",
-        "questions": [
-          {
-            "id": "grey-goose-vol",
-            "question": "Jaký je servírovací objem / míra položky Grey Goose?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Grey Goose je 0,03l."
-          },
-          {
-            "id": "grey-goose-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Grey Goose?",
-            "correctAnswer": "Luxusní francouzská pšeničná vodka z oblasti Picardie",
-            "distractors": [
-              "Čerstvý grepový fresh",
-              "Bezinkový sirup a čerstvá máta"
-            ],
-            "explanation": "U položky Grey Goose je uvedeno: Luxusní francouzská pšeničná vodka z oblasti Picardie. Kompletní popis: luxusní francouzská pšeničná vodka z oblasti Picardie."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "giny",
-    "name": "Giny 0,03l",
-    "badge": "Giny",
-    "description": "Prémiové řemeslné giny z tuzemska i ze světa",
-    "iconName": "Flame",
-    "items": [
-      {
-        "id": "gin-tanqueray",
-        "name": "Tanqueray",
-        "weight": "0,03l",
-        "price": "89 Kč",
-        "allergens": [],
-        "description": "klasický britský London Dry Gin destilovaný se čtyřmi bylinami",
-        "questions": [
-          {
-            "id": "gin-tanqueray-vol",
-            "question": "Jaký je servírovací objem / míra položky Tanqueray?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Tanqueray je 0,03l."
-          },
-          {
-            "id": "gin-tanqueray-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Tanqueray?",
-            "correctAnswer": "Klasický britský London Dry Gin destilovaný se čtyřmi bylinami",
-            "distractors": [
-              "Italský aperitiv Campari",
-              "Černý sypaný čaj s bergamotem"
-            ],
-            "explanation": "U položky Tanqueray je uvedeno: Klasický britský London Dry Gin destilovaný se čtyřmi bylinami. Kompletní popis: klasický britský London Dry Gin destilovaný se čtyřmi bylinami."
-          }
-        ]
-      },
-      {
-        "id": "gin-hendricks",
-        "name": "Hendrick`s",
-        "weight": "0,03l",
-        "price": "126 Kč",
-        "allergens": [],
-        "description": "skotský řemeslný gin s infuzí okurky a růže",
-        "questions": [
-          {
-            "id": "gin-hendricks-vol",
-            "question": "Jaký je servírovací objem / míra položky Hendrick`s?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Hendrick`s je 0,03l."
-          },
-          {
-            "id": "gin-hendricks-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Hendrick`s?",
-            "correctAnswer": "Skotský řemeslný gin s infuzí okurky a růže",
-            "distractors": [
-              "Italský aperitiv Campari",
-              "Černý sypaný čaj s bergamotem"
-            ],
-            "explanation": "U položky Hendrick`s je uvedeno: Skotský řemeslný gin s infuzí okurky a růže. Kompletní popis: skotský řemeslný gin s infuzí okurky a růže."
-          }
-        ]
-      },
-      {
-        "id": "gin-starej-dobrej",
-        "name": "Starej Dobrej Gin",
-        "weight": "0,03l",
-        "price": "159 Kč",
-        "allergens": [],
-        "description": "Poněšice, řemeslný český bylinný gin z rodinné palírny Poněšice",
-        "questions": [
-          {
-            "id": "gin-starej-dobrej-vol",
-            "question": "Jaký je servírovací objem / míra položky Starej Dobrej Gin?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Starej Dobrej Gin je 0,03l."
-          },
-          {
-            "id": "gin-starej-dobrej-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Starej Dobrej Gin?",
-            "correctAnswer": "Poněšice",
-            "distractors": [
-              "Zázvorové pivo Fever-Tree",
-              "Čerstvý rozmarýn a jalovec"
-            ],
-            "explanation": "U položky Starej Dobrej Gin je uvedeno: Poněšice. Kompletní popis: Poněšice, řemeslný český bylinný gin z rodinné palírny Poněšice."
-          },
-          {
-            "id": "gin-starej-dobrej-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Starej Dobrej Gin?",
-            "correctAnswer": "Řemeslný český bylinný gin z rodinné palírny Poněšice",
-            "distractors": [
-              "Světlý ležák plzeňského typu",
-              "Jablečný mošt z rodinné farmy"
-            ],
-            "explanation": "U položky Starej Dobrej Gin je uvedeno: Řemeslný český bylinný gin z rodinné palírny Poněšice. Kompletní popis: Poněšice, řemeslný český bylinný gin z rodinné palírny Poněšice."
-          }
-        ]
-      },
-      {
-        "id": "gin-truffle",
-        "name": "Truffle gin",
-        "weight": "0,03l",
-        "price": "155 Kč",
-        "allergens": [],
-        "description": "Garage 22, unikátní holešovický gin destilovaný s pravými černými lanýži",
-        "questions": [
-          {
-            "id": "gin-truffle-vol",
-            "question": "Jaký je servírovací objem / míra položky Truffle gin?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Truffle gin je 0,03l."
-          },
-          {
-            "id": "gin-truffle-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Truffle gin?",
-            "correctAnswer": "Garage 22",
-            "distractors": [
-              "Tonik Thomas Henry s chininem",
-              "Čerstvě pražená výběrová káva"
-            ],
-            "explanation": "U položky Truffle gin je uvedeno: Garage 22. Kompletní popis: Garage 22, unikátní holešovický gin destilovaný s pravými černými lanýži."
-          },
-          {
-            "id": "gin-truffle-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Truffle gin?",
-            "correctAnswer": "Unikátní holešovický gin destilovaný s pravými černými lanýži",
-            "distractors": [
-              "Vanilkový sirup a limetová šťáva",
-              "Třtinový cukr s limetkou"
-            ],
-            "explanation": "U položky Truffle gin je uvedeno: Unikátní holešovický gin destilovaný s pravými černými lanýži. Kompletní popis: Garage 22, unikátní holešovický gin destilovaný s pravými černými lanýži."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "rumy",
-    "name": "Rumy 0,03l",
-    "badge": "Rumy",
-    "description": "Vyzrálé třtinové rumy z Karibiku, Střední a Jižní Ameriky",
-    "iconName": "Flame",
-    "items": [
-      {
-        "id": "havana-club-3",
-        "name": "Havana Club Anejo 3 Anos",
-        "weight": "0,03l",
-        "price": "66 Kč",
-        "allergens": [],
-        "description": "tradiční kubánský bílý rum zrající 3 roky v sudech z bílého dubu",
-        "questions": [
-          {
-            "id": "havana-club-3-vol",
-            "question": "Jaký je servírovací objem / míra položky Havana Club Anejo 3 Anos?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Havana Club Anejo 3 Anos je 0,03l."
-          },
-          {
-            "id": "havana-club-3-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Havana Club Anejo 3 Anos?",
-            "correctAnswer": "Tradiční kubánský bílý rum zrající 3 roky v sudech z bílého dubu",
-            "distractors": [
-              "Italský aperitiv Campari",
-              "Černý sypaný čaj s bergamotem"
-            ],
-            "explanation": "U položky Havana Club Anejo 3 Anos je uvedeno: Tradiční kubánský bílý rum zrající 3 roky v sudech z bílého dubu. Kompletní popis: tradiční kubánský bílý rum zrající 3 roky v sudech z bílého dubu."
-          }
-        ]
-      },
-      {
-        "id": "el-dorado-12y",
-        "name": "El Dorado 12y",
-        "weight": "0,03l",
-        "price": "149 Kč",
-        "allergens": [],
-        "description": "guyanský melasový rum zrající 12 let u řeky Demerara",
-        "questions": [
-          {
-            "id": "el-dorado-12y-vol",
-            "question": "Jaký je servírovací objem / míra položky El Dorado 12y?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky El Dorado 12y je 0,03l."
-          },
-          {
-            "id": "el-dorado-12y-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce El Dorado 12y?",
-            "correctAnswer": "Guyanský melasový rum zrající 12 let u řeky Demerara",
-            "distractors": [
-              "Italský aperitiv Campari",
-              "Černý sypaný čaj s bergamotem"
-            ],
-            "explanation": "U položky El Dorado 12y je uvedeno: Guyanský melasový rum zrající 12 let u řeky Demerara. Kompletní popis: guyanský melasový rum zrající 12 let u řeky Demerara."
-          }
-        ]
-      },
-      {
-        "id": "mount-gay-xo",
-        "name": "Mount Gay XO",
-        "weight": "0,03l",
-        "price": "186 Kč",
-        "allergens": [],
-        "description": "prémiový barbadoský rum z nejstarší palírny na světě (od roku 1703)",
-        "questions": [
-          {
-            "id": "mount-gay-xo-vol",
-            "question": "Jaký je servírovací objem / míra položky Mount Gay XO?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Mount Gay XO je 0,03l."
-          },
-          {
-            "id": "mount-gay-xo-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Mount Gay XO?",
-            "correctAnswer": "Prémiový barbadoský rum z nejstarší palírny na světě (od roku 1703)",
-            "distractors": [
-              "Vanilkový sirup a limetová šťáva",
-              "Třtinový cukr s limetkou"
-            ],
-            "explanation": "U položky Mount Gay XO je uvedeno: Prémiový barbadoský rum z nejstarší palírny na světě (od roku 1703). Kompletní popis: prémiový barbadoský rum z nejstarší palírny na světě (od roku 1703)."
-          }
-        ]
-      },
-      {
-        "id": "abuelo-7y",
-        "name": "Abuelo 7y",
-        "weight": "0,03l",
-        "price": "135 Kč",
-        "allergens": [],
-        "description": "panamský rum z vlastní třtinové melasy, zrající 7 let v malých sudech",
-        "questions": [
-          {
-            "id": "abuelo-7y-vol",
-            "question": "Jaký je servírovací objem / míra položky Abuelo 7y?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Abuelo 7y je 0,03l."
-          },
-          {
-            "id": "abuelo-7y-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Abuelo 7y?",
-            "correctAnswer": "Panamský rum z vlastní třtinové melasy",
-            "distractors": [
-              "Světlý ležák plzeňského typu",
-              "Jablečný mošt z rodinné farmy"
-            ],
-            "explanation": "U položky Abuelo 7y je uvedeno: Panamský rum z vlastní třtinové melasy. Kompletní popis: panamský rum z vlastní třtinové melasy, zrající 7 let v malých sudech."
-          },
-          {
-            "id": "abuelo-7y-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Abuelo 7y?",
-            "correctAnswer": "Zrající 7 let v malých sudech",
-            "distractors": [
-              "Čerstvý grepový fresh",
-              "Bezinkový sirup a čerstvá máta"
-            ],
-            "explanation": "U položky Abuelo 7y je uvedeno: Zrající 7 let v malých sudech. Kompletní popis: panamský rum z vlastní třtinové melasy, zrající 7 let v malých sudech."
-          }
-        ]
-      },
-      {
-        "id": "eminente-reserva-7y",
-        "name": "Eminente Reserva 7y",
-        "weight": "0,03l",
-        "price": "172 Kč",
-        "allergens": [],
-        "description": "kubánský prémiový rum s vysokým podílem stařených aguardientes",
-        "questions": [
-          {
-            "id": "eminente-reserva-7y-vol",
-            "question": "Jaký je servírovací objem / míra položky Eminente Reserva 7y?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Eminente Reserva 7y je 0,03l."
-          },
-          {
-            "id": "eminente-reserva-7y-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Eminente Reserva 7y?",
-            "correctAnswer": "Kubánský prémiový rum s vysokým podílem stařených aguardientes",
-            "distractors": [
-              "Čerstvý grepový fresh",
-              "Bezinkový sirup a čerstvá máta"
-            ],
-            "explanation": "U položky Eminente Reserva 7y je uvedeno: Kubánský prémiový rum s vysokým podílem stařených aguardientes. Kompletní popis: kubánský prémiový rum s vysokým podílem stařených aguardientes."
-          }
-        ]
-      },
-      {
-        "id": "diplomatico",
-        "name": "Diplomático",
-        "weight": "0,03l",
-        "price": "149 Kč",
-        "allergens": [],
-        "description": "venezuelský rum zrající až 12 let v sudech po bourbonu, sametově sladký s tóny karamelu",
-        "questions": [
-          {
-            "id": "diplomatico-vol",
-            "question": "Jaký je servírovací objem / míra položky Diplomático?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Diplomático je 0,03l."
-          },
-          {
-            "id": "diplomatico-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Diplomático?",
-            "correctAnswer": "Venezuelský rum zrající až 12 let v sudech po bourbonu",
-            "distractors": [
-              "Tonik Thomas Henry s chininem",
-              "Čerstvě pražená výběrová káva"
-            ],
-            "explanation": "U položky Diplomático je uvedeno: Venezuelský rum zrající až 12 let v sudech po bourbonu. Kompletní popis: venezuelský rum zrající až 12 let v sudech po bourbonu, sametově sladký s tóny karamelu."
-          },
-          {
-            "id": "diplomatico-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Diplomático?",
-            "correctAnswer": "Sametově sladký s tóny karamelu",
-            "distractors": [
-              "Vanilkový sirup a limetová šťáva",
-              "Třtinový cukr s limetkou"
-            ],
-            "explanation": "U položky Diplomático je uvedeno: Sametově sladký s tóny karamelu. Kompletní popis: venezuelský rum zrající až 12 let v sudech po bourbonu, sametově sladký s tóny karamelu."
-          }
-        ]
-      },
-      {
-        "id": "zacapa-23y",
-        "name": "Zacapa 23y",
-        "weight": "0,03l",
-        "price": "165 Kč",
-        "allergens": [],
-        "description": "guatemalský rum z panenského medu zrající systémem Solera v nadmořské výšce 2300 m",
-        "questions": [
-          {
-            "id": "zacapa-23y-vol",
-            "question": "Jaký je servírovací objem / míra položky Zacapa 23y?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Zacapa 23y je 0,03l."
-          },
-          {
-            "id": "zacapa-23y-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Zacapa 23y?",
-            "correctAnswer": "Guatemalský rum z panenského medu zrající systémem Solera v nadmořské výšce 2300 m",
-            "distractors": [
-              "Čerstvý grepový fresh",
-              "Bezinkový sirup a čerstvá máta"
-            ],
-            "explanation": "U položky Zacapa 23y je uvedeno: Guatemalský rum z panenského medu zrající systémem Solera v nadmořské výšce 2300 m. Kompletní popis: guatemalský rum z panenského medu zrající systémem Solera v nadmořské výšce 2300 m."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "tequily",
-    "name": "Tequily 0,03l",
-    "badge": "Tequily",
-    "description": "Prémiové tequily ze 100% modré agáve a sběratelské edice",
-    "iconName": "Flame",
-    "items": [
-      {
-        "id": "tres-alegres-compadres",
-        "name": "Tres Alegres Compadres Blanco",
-        "weight": "0,03l",
-        "price": "89 Kč",
-        "allergens": [],
-        "description": "100% modrá agáve, neuleželá čistá tequila s citrusovými tóny",
-        "questions": [
-          {
-            "id": "tres-alegres-compadres-vol",
-            "question": "Jaký je servírovací objem / míra položky Tres Alegres Compadres Blanco?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Tres Alegres Compadres Blanco je 0,03l."
-          },
-          {
-            "id": "tres-alegres-compadres-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Tres Alegres Compadres Blanco?",
-            "correctAnswer": "100% modrá agáve",
-            "distractors": [
-              "Italský aperitiv Campari",
-              "Černý sypaný čaj s bergamotem"
-            ],
-            "explanation": "U položky Tres Alegres Compadres Blanco je uvedeno: 100% modrá agáve. Kompletní popis: 100% modrá agáve, neuleželá čistá tequila s citrusovými tóny."
-          },
-          {
-            "id": "tres-alegres-compadres-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Tres Alegres Compadres Blanco?",
-            "correctAnswer": "Neuleželá čistá tequila s citrusovými tóny",
-            "distractors": [
-              "Jasmínový zelený čaj",
-              "Belgické višňové pivo"
-            ],
-            "explanation": "U položky Tres Alegres Compadres Blanco je uvedeno: Neuleželá čistá tequila s citrusovými tóny. Kompletní popis: 100% modrá agáve, neuleželá čistá tequila s citrusovými tóny."
-          }
-        ]
-      },
-      {
-        "id": "herradura-reposado",
-        "name": "Herradura Reposado",
-        "weight": "0,03l",
-        "price": "168 Kč",
-        "allergens": [],
-        "description": "prémiová tequila zrající 11 měsíců v sudech z bílého dubu",
-        "questions": [
-          {
-            "id": "herradura-reposado-vol",
-            "question": "Jaký je servírovací objem / míra položky Herradura Reposado?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Herradura Reposado je 0,03l."
-          },
-          {
-            "id": "herradura-reposado-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Herradura Reposado?",
-            "correctAnswer": "Prémiová tequila zrající 11 měsíců v sudech z bílého dubu",
-            "distractors": [
-              "Světlý ležák plzeňského typu",
-              "Jablečný mošt z rodinné farmy"
-            ],
-            "explanation": "U položky Herradura Reposado je uvedeno: Prémiová tequila zrající 11 měsíců v sudech z bílého dubu. Kompletní popis: prémiová tequila zrající 11 měsíců v sudech z bílého dubu."
-          }
-        ]
-      },
-      {
-        "id": "corralejo-reposado",
-        "name": "Tequila Corralejo Reposado",
-        "weight": "0,03l",
-        "price": "149 Kč",
-        "allergens": [],
-        "description": "100% Agave, zrající v kombinaci amerických, francouzských a mexických dubových sudů",
-        "questions": [
-          {
-            "id": "corralejo-reposado-vol",
-            "question": "Jaký je servírovací objem / míra položky Tequila Corralejo Reposado?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Tequila Corralejo Reposado je 0,03l."
-          },
-          {
-            "id": "corralejo-reposado-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Tequila Corralejo Reposado?",
-            "correctAnswer": "100% Agave",
-            "distractors": [
-              "Světlý ležák plzeňského typu",
-              "Jablečný mošt z rodinné farmy"
-            ],
-            "explanation": "U položky Tequila Corralejo Reposado je uvedeno: 100% Agave. Kompletní popis: 100% Agave, zrající v kombinaci amerických, francouzských a mexických dubových sudů."
-          },
-          {
-            "id": "corralejo-reposado-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Tequila Corralejo Reposado?",
-            "correctAnswer": "Zrající v kombinaci amerických",
-            "distractors": [
-              "Čerstvý grepový fresh",
-              "Bezinkový sirup a čerstvá máta"
-            ],
-            "explanation": "U položky Tequila Corralejo Reposado je uvedeno: Zrající v kombinaci amerických. Kompletní popis: 100% Agave, zrající v kombinaci amerických, francouzských a mexických dubových sudů."
-          }
-        ]
-      },
-      {
-        "id": "cofradia-rose-catrina",
-        "name": "La Cofradia Reposado Rosé „ed. Catrina”",
-        "weight": "0,03l",
-        "price": "185 Kč",
-        "allergens": [],
-        "description": "limitovaná edice v ručně malované keramické lahvi, zrající v sudech po červeném víně",
-        "questions": [
-          {
-            "id": "cofradia-rose-catrina-vol",
-            "question": "Jaký je servírovací objem / míra položky La Cofradia Reposado Rosé „ed. Catrina”?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky La Cofradia Reposado Rosé „ed. Catrina” je 0,03l."
-          },
-          {
-            "id": "cofradia-rose-catrina-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce La Cofradia Reposado Rosé „ed. Catrina”?",
-            "correctAnswer": "Limitovaná edice v ručně malované keramické lahvi",
-            "distractors": [
-              "Vanilkový sirup a limetová šťáva",
-              "Třtinový cukr s limetkou"
-            ],
-            "explanation": "U položky La Cofradia Reposado Rosé „ed. Catrina” je uvedeno: Limitovaná edice v ručně malované keramické lahvi. Kompletní popis: limitovaná edice v ručně malované keramické lahvi, zrající v sudech po červeném víně."
-          },
-          {
-            "id": "cofradia-rose-catrina-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce La Cofradia Reposado Rosé „ed. Catrina”?",
-            "correctAnswer": "Zrající v sudech po červeném víně",
-            "distractors": [
-              "Italský aperitiv Campari",
-              "Černý sypaný čaj s bergamotem"
-            ],
-            "explanation": "U položky La Cofradia Reposado Rosé „ed. Catrina” je uvedeno: Zrající v sudech po červeném víně. Kompletní popis: limitovaná edice v ručně malované keramické lahvi, zrající v sudech po červeném víně."
-          }
-        ]
-      },
-      {
-        "id": "cofradia-black-catrina",
-        "name": "La Cofradia Black „ed. Catrina”",
-        "weight": "0,03l",
-        "price": "185 Kč",
-        "allergens": [],
-        "description": "černá sběratelská keramická edice Catrina, zrající v silně vypálených dubových sudech",
-        "questions": [
-          {
-            "id": "cofradia-black-catrina-vol",
-            "question": "Jaký je servírovací objem / míra položky La Cofradia Black „ed. Catrina”?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky La Cofradia Black „ed. Catrina” je 0,03l."
-          },
-          {
-            "id": "cofradia-black-catrina-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce La Cofradia Black „ed. Catrina”?",
-            "correctAnswer": "Černá sběratelská keramická edice Catrina",
-            "distractors": [
-              "Italský aperitiv Campari",
-              "Černý sypaný čaj s bergamotem"
-            ],
-            "explanation": "U položky La Cofradia Black „ed. Catrina” je uvedeno: Černá sběratelská keramická edice Catrina. Kompletní popis: černá sběratelská keramická edice Catrina, zrající v silně vypálených dubových sudech."
-          },
-          {
-            "id": "cofradia-black-catrina-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce La Cofradia Black „ed. Catrina”?",
-            "correctAnswer": "Zrající v silně vypálených dubových sudech",
-            "distractors": [
-              "Jasmínový zelený čaj",
-              "Belgické višňové pivo"
-            ],
-            "explanation": "U položky La Cofradia Black „ed. Catrina” je uvedeno: Zrající v silně vypálených dubových sudech. Kompletní popis: černá sběratelská keramická edice Catrina, zrající v silně vypálených dubových sudech."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "whisky-whiskey-bourbon",
-    "name": "Whisky, whiskey, bourbon 0,03l",
-    "badge": "Whisky, whiskey, bourbon",
-    "description": "Výběr skotských single malt, irských whiskey, amerických bourbonů i moravské whisky",
-    "iconName": "Flame",
-    "items": [
-      {
-        "id": "goldcock-blended",
-        "name": "Goldcock blended",
-        "weight": "0,03l",
-        "price": "62 Kč",
-        "allergens": [],
-        "description": "česká whisky z Těšetic z moravského ječmene, zrající v českých dubových sudech",
-        "questions": [
-          {
-            "id": "goldcock-blended-vol",
-            "question": "Jaký je servírovací objem / míra položky Goldcock blended?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Goldcock blended je 0,03l."
-          },
-          {
-            "id": "goldcock-blended-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Goldcock blended?",
-            "correctAnswer": "Česká whisky z Těšetic z moravského ječmene",
-            "distractors": [
-              "Mučenkový likér a vanilka",
-              "Kávový likér Kahlúa"
-            ],
-            "explanation": "U položky Goldcock blended je uvedeno: Česká whisky z Těšetic z moravského ječmene. Kompletní popis: česká whisky z Těšetic z moravského ječmene, zrající v českých dubových sudech."
-          },
-          {
-            "id": "goldcock-blended-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Goldcock blended?",
-            "correctAnswer": "Zrající v českých dubových sudech",
-            "distractors": [
-              "Zázvorové pivo Fever-Tree",
-              "Čerstvý rozmarýn a jalovec"
-            ],
-            "explanation": "U položky Goldcock blended je uvedeno: Zrající v českých dubových sudech. Kompletní popis: česká whisky z Těšetic z moravského ječmene, zrající v českých dubových sudech."
-          }
-        ]
-      },
-      {
-        "id": "glenfiddich-15y",
-        "name": "Glenfiddich 15y",
-        "weight": "0,03l",
-        "price": "165 Kč",
-        "allergens": [],
-        "description": "skotská single malt whisky zrající systémem Solera ve třech typech sudů",
-        "questions": [
-          {
-            "id": "glenfiddich-15y-vol",
-            "question": "Jaký je servírovací objem / míra položky Glenfiddich 15y?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Glenfiddich 15y je 0,03l."
-          },
-          {
-            "id": "glenfiddich-15y-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Glenfiddich 15y?",
-            "correctAnswer": "Skotská single malt whisky zrající systémem Solera ve třech typech sudů",
-            "distractors": [
-              "Limetová šťáva",
-              "Pomerančová kůra a hřebíček"
-            ],
-            "explanation": "U položky Glenfiddich 15y je uvedeno: Skotská single malt whisky zrající systémem Solera ve třech typech sudů. Kompletní popis: skotská single malt whisky zrající systémem Solera ve třech typech sudů."
-          }
-        ]
-      },
-      {
-        "id": "talisker-10y",
-        "name": "Talisker 10y",
-        "weight": "0,03l",
-        "price": "165 Kč",
-        "allergens": [],
-        "description": "ostrovní single malt whisky z ostrova Skye, rašelinová a kouřová s mořskou solí",
-        "questions": [
-          {
-            "id": "talisker-10y-vol",
-            "question": "Jaký je servírovací objem / míra položky Talisker 10y?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Talisker 10y je 0,03l."
-          },
-          {
-            "id": "talisker-10y-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Talisker 10y?",
-            "correctAnswer": "Ostrovní single malt whisky z ostrova Skye",
-            "distractors": [
-              "Vanilkový sirup a limetová šťáva",
-              "Třtinový cukr s limetkou"
-            ],
-            "explanation": "U položky Talisker 10y je uvedeno: Ostrovní single malt whisky z ostrova Skye. Kompletní popis: ostrovní single malt whisky z ostrova Skye, rašelinová a kouřová s mořskou solí."
-          },
-          {
-            "id": "talisker-10y-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Talisker 10y?",
-            "correctAnswer": "Rašelinová a kouřová s mořskou solí",
-            "distractors": [
-              "Italský aperitiv Campari",
-              "Černý sypaný čaj s bergamotem"
-            ],
-            "explanation": "U položky Talisker 10y je uvedeno: Rašelinová a kouřová s mořskou solí. Kompletní popis: ostrovní single malt whisky z ostrova Skye, rašelinová a kouřová s mořskou solí."
-          }
-        ]
-      },
-      {
-        "id": "monkey-shoulder",
-        "name": "Monkey Shoulder",
-        "weight": "0,03l",
-        "price": "112 Kč",
-        "allergens": [],
-        "description": "skotská blended malt whisky míchaná ze tří předních palíren oblasti Speyside",
-        "questions": [
-          {
-            "id": "monkey-shoulder-vol",
-            "question": "Jaký je servírovací objem / míra položky Monkey Shoulder?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Monkey Shoulder je 0,03l."
-          },
-          {
-            "id": "monkey-shoulder-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Monkey Shoulder?",
-            "correctAnswer": "Skotská blended malt whisky míchaná ze tří předních palíren oblasti Speyside",
-            "distractors": [
-              "Limetová šťáva",
-              "Pomerančová kůra a hřebíček"
-            ],
-            "explanation": "U položky Monkey Shoulder je uvedeno: Skotská blended malt whisky míchaná ze tří předních palíren oblasti Speyside. Kompletní popis: skotská blended malt whisky míchaná ze tří předních palíren oblasti Speyside."
-          }
-        ]
-      },
-      {
-        "id": "jameson",
-        "name": "Jameson",
-        "weight": "0,03l",
-        "price": "75 Kč",
-        "allergens": [],
-        "description": "třikrát destilovaná irská whiskey pro maximální jemnost",
-        "questions": [
-          {
-            "id": "jameson-vol",
-            "question": "Jaký je servírovací objem / míra položky Jameson?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Jameson je 0,03l."
-          },
-          {
-            "id": "jameson-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Jameson?",
-            "correctAnswer": "Třikrát destilovaná irská whiskey pro maximální jemnost",
-            "distractors": [
-              "Mučenkový likér a vanilka",
-              "Kávový likér Kahlúa"
-            ],
-            "explanation": "U položky Jameson je uvedeno: Třikrát destilovaná irská whiskey pro maximální jemnost. Kompletní popis: třikrát destilovaná irská whiskey pro maximální jemnost."
-          }
-        ]
-      },
-      {
-        "id": "jack-daniels",
-        "name": "Jack Daniels",
-        "weight": "0,03l",
-        "price": "105 Kč",
-        "allergens": [],
-        "description": "Tennessee whiskey filtrovaná přes dřevěné uhlí z cukrového javoru",
-        "questions": [
-          {
-            "id": "jack-daniels-vol",
-            "question": "Jaký je servírovací objem / míra položky Jack Daniels?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Jack Daniels je 0,03l."
-          },
-          {
-            "id": "jack-daniels-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Jack Daniels?",
-            "correctAnswer": "Tennessee whiskey filtrovaná přes dřevěné uhlí z cukrového javoru",
-            "distractors": [
-              "Vanilkový sirup a limetová šťáva",
-              "Třtinový cukr s limetkou"
-            ],
-            "explanation": "U položky Jack Daniels je uvedeno: Tennessee whiskey filtrovaná přes dřevěné uhlí z cukrového javoru. Kompletní popis: Tennessee whiskey filtrovaná přes dřevěné uhlí z cukrového javoru."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "brandy-a-cognac",
-    "name": "Brandy & cognac 0,03l",
-    "badge": "Brandy & cognac",
-    "description": "Ušlechtilé vinné destiláty a koňaky zrající v dubových sudech",
-    "iconName": "Flame",
-    "items": [
-      {
-        "id": "metaxa-5",
-        "name": "Metaxa *****",
-        "weight": "0,03l",
-        "price": "75 Kč",
-        "allergens": [],
-        "description": "řecká brandy s muškátovými víny z ostrovů Samos a Lemnos a bylinami",
-        "questions": [
-          {
-            "id": "metaxa-5-vol",
-            "question": "Jaký je servírovací objem / míra položky Metaxa *****?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Metaxa ***** je 0,03l."
-          },
-          {
-            "id": "metaxa-5-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Metaxa *****?",
-            "correctAnswer": "Řecká brandy s muškátovými víny z ostrovů Samos a Lemnos a bylinami",
-            "distractors": [
-              "Zázvorové pivo Fever-Tree",
-              "Čerstvý rozmarýn a jalovec"
-            ],
-            "explanation": "U položky Metaxa ***** je uvedeno: Řecká brandy s muškátovými víny z ostrovů Samos a Lemnos a bylinami. Kompletní popis: řecká brandy s muškátovými víny z ostrovů Samos a Lemnos a bylinami."
-          }
-        ]
-      },
-      {
-        "id": "remy-martin-1738",
-        "name": "Remy Martin 1738",
-        "weight": "0,03l",
-        "price": "170 Kč",
-        "allergens": [],
-        "description": "prestižní francouzský koňak Fine Champagne Accord Royal zrající v opálených sudech",
-        "questions": [
-          {
-            "id": "remy-martin-1738-vol",
-            "question": "Jaký je servírovací objem / míra položky Remy Martin 1738?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Remy Martin 1738 je 0,03l."
-          },
-          {
-            "id": "remy-martin-1738-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Remy Martin 1738?",
-            "correctAnswer": "Prestižní francouzský koňak Fine Champagne Accord Royal zrající v opálených sudech",
-            "distractors": [
-              "Mučenkový likér a vanilka",
-              "Kávový likér Kahlúa"
-            ],
-            "explanation": "U položky Remy Martin 1738 je uvedeno: Prestižní francouzský koňak Fine Champagne Accord Royal zrající v opálených sudech. Kompletní popis: prestižní francouzský koňak Fine Champagne Accord Royal zrající v opálených sudech."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "palenky-a-likery",
-    "name": "Pálenky & likéry 0,03l",
-    "badge": "Pálenky & likéry",
-    "description": "Tradiční bylinné a ovocné likéry, speciality a řemeslné pálenky",
-    "iconName": "Flame",
-    "items": [
-      {
-        "id": "fuzovice",
-        "name": "Fuzovice",
-        "weight": "0,03l",
-        "price": "140 Kč",
-        "allergens": [],
-        "description": "FUZE/Agnes 45 %, autorská pálenka z pivní mladiny s chmelem Mandarina Bavaria",
-        "questions": [
-          {
-            "id": "fuzovice-vol",
-            "question": "Jaký je servírovací objem / míra položky Fuzovice?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Fuzovice je 0,03l."
-          },
-          {
-            "id": "fuzovice-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Fuzovice?",
-            "correctAnswer": "FUZE/Agnes 45 %",
-            "distractors": [
-              "Zázvorové pivo Fever-Tree",
-              "Čerstvý rozmarýn a jalovec"
-            ],
-            "explanation": "U položky Fuzovice je uvedeno: FUZE/Agnes 45 %. Kompletní popis: FUZE/Agnes 45 %, autorská pálenka z pivní mladiny s chmelem Mandarina Bavaria."
-          },
-          {
-            "id": "fuzovice-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Fuzovice?",
-            "correctAnswer": "Autorská pálenka z pivní mladiny s chmelem Mandarina Bavaria",
-            "distractors": [
-              "Světlý ležák plzeňského typu",
-              "Jablečný mošt z rodinné farmy"
-            ],
-            "explanation": "U položky Fuzovice je uvedeno: Autorská pálenka z pivní mladiny s chmelem Mandarina Bavaria. Kompletní popis: FUZE/Agnes 45 %, autorská pálenka z pivní mladiny s chmelem Mandarina Bavaria."
-          }
-        ]
-      },
-      {
-        "id": "absinth-st-antoine",
-        "name": "Absinth St. Antoine",
-        "weight": "0,03l",
-        "price": "165 Kč",
-        "allergens": [],
-        "description": "Žufánek, přírodní destilovaný absint z pravého pelyňku, anýzu a fenyklu",
-        "questions": [
-          {
-            "id": "absinth-st-antoine-vol",
-            "question": "Jaký je servírovací objem / míra položky Absinth St. Antoine?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Absinth St. Antoine je 0,03l."
-          },
-          {
-            "id": "absinth-st-antoine-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Absinth St. Antoine?",
-            "correctAnswer": "Žufánek",
-            "distractors": [
-              "Světlý ležák plzeňského typu",
-              "Jablečný mošt z rodinné farmy"
-            ],
-            "explanation": "U položky Absinth St. Antoine je uvedeno: Žufánek. Kompletní popis: Žufánek, přírodní destilovaný absint z pravého pelyňku, anýzu a fenyklu."
-          },
-          {
-            "id": "absinth-st-antoine-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Absinth St. Antoine?",
-            "correctAnswer": "Přírodní destilovaný absint z pravého pelyňku",
-            "distractors": [
-              "Čerstvý grepový fresh",
-              "Bezinkový sirup a čerstvá máta"
-            ],
-            "explanation": "U položky Absinth St. Antoine je uvedeno: Přírodní destilovaný absint z pravého pelyňku. Kompletní popis: Žufánek, přírodní destilovaný absint z pravého pelyňku, anýzu a fenyklu."
-          }
-        ]
-      },
-      {
-        "id": "kminka-garage22",
-        "name": "Kmínka",
-        "weight": "0,03l",
-        "price": "78 Kč",
-        "allergens": [],
-        "description": "Garage 22, moderní řemeslný likér s destilovaným kmínem a citrusovou kůrou",
-        "questions": [
-          {
-            "id": "kminka-garage22-vol",
-            "question": "Jaký je servírovací objem / míra položky Kmínka?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Kmínka je 0,03l."
-          },
-          {
-            "id": "kminka-garage22-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Kmínka?",
-            "correctAnswer": "Garage 22",
-            "distractors": [
-              "Limetová šťáva",
-              "Pomerančová kůra a hřebíček"
-            ],
-            "explanation": "U položky Kmínka je uvedeno: Garage 22. Kompletní popis: Garage 22, moderní řemeslný likér s destilovaným kmínem a citrusovou kůrou."
-          },
-          {
-            "id": "kminka-garage22-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Kmínka?",
-            "correctAnswer": "Moderní řemeslný likér s destilovaným kmínem a citrusovou kůrou",
-            "distractors": [
-              "Mučenkový likér a vanilka",
-              "Kávový likér Kahlúa"
-            ],
-            "explanation": "U položky Kmínka je uvedeno: Moderní řemeslný likér s destilovaným kmínem a citrusovou kůrou. Kompletní popis: Garage 22, moderní řemeslný likér s destilovaným kmínem a citrusovou kůrou."
-          }
-        ]
-      },
-      {
-        "id": "kontusovka-zufanek",
-        "name": "Kontušovka",
-        "weight": "0,03l",
-        "price": "95 Kč",
-        "allergens": [],
-        "description": "Žufánek, tradiční anýzový bylinný likér s koriandrem, fenyklem a badyánem",
-        "questions": [
-          {
-            "id": "kontusovka-zufanek-vol",
-            "question": "Jaký je servírovací objem / míra položky Kontušovka?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Kontušovka je 0,03l."
-          },
-          {
-            "id": "kontusovka-zufanek-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Kontušovka?",
-            "correctAnswer": "Žufánek",
-            "distractors": [
-              "Světlý ležák plzeňského typu",
-              "Jablečný mošt z rodinné farmy"
-            ],
-            "explanation": "U položky Kontušovka je uvedeno: Žufánek. Kompletní popis: Žufánek, tradiční anýzový bylinný likér s koriandrem, fenyklem a badyánem."
-          },
-          {
-            "id": "kontusovka-zufanek-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Kontušovka?",
-            "correctAnswer": "Tradiční anýzový bylinný likér s koriandrem",
-            "distractors": [
-              "Čerstvý grepový fresh",
-              "Bezinkový sirup a čerstvá máta"
-            ],
-            "explanation": "U položky Kontušovka je uvedeno: Tradiční anýzový bylinný likér s koriandrem. Kompletní popis: Žufánek, tradiční anýzový bylinný likér s koriandrem, fenyklem a badyánem."
-          }
-        ]
-      },
-      {
-        "id": "orechovy-liker-radlik",
-        "name": "Ořechový likér",
-        "weight": "0,03l",
-        "price": "119 Kč",
-        "allergens": [
-          "8"
-        ],
-        "description": "Radlík, jemný ořechový likér macerovaný ze zelených svatojánských ořechů",
-        "questions": [
-          {
-            "id": "orechovy-liker-radlik-vol",
-            "question": "Jaký je servírovací objem / míra položky Ořechový likér?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Ořechový likér je 0,03l."
-          },
-          {
-            "id": "orechovy-liker-radlik-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Ořechový likér?",
-            "correctAnswer": "Radlík",
-            "distractors": [
-              "Vanilkový sirup a limetová šťáva",
-              "Třtinový cukr s limetkou"
-            ],
-            "explanation": "U položky Ořechový likér je uvedeno: Radlík. Kompletní popis: Radlík, jemný ořechový likér macerovaný ze zelených svatojánských ořechů."
-          },
-          {
-            "id": "orechovy-liker-radlik-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Ořechový likér?",
-            "correctAnswer": "Jemný ořechový likér macerovaný ze zelených svatojánských ořechů",
-            "distractors": [
-              "Italský aperitiv Campari",
-              "Černý sypaný čaj s bergamotem"
-            ],
-            "explanation": "U položky Ořechový likér je uvedeno: Jemný ořechový likér macerovaný ze zelených svatojánských ořechů. Kompletní popis: Radlík, jemný ořechový likér macerovaný ze zelených svatojánských ořechů."
-          },
-          {
-            "id": "orechovy-liker-radlik-allergen-8",
-            "question": "Který z následujících alergenů obsahuje položka Ořechový likér?",
-            "correctAnswer": "Alergen č. 8 – Skořápkové plody (ořechy)",
-            "distractors": [
-              "Alergen č. 10 – Hořčice a výrobky z ní",
-              "Alergen č. 1 – Obiloviny obsahující lepek"
-            ],
-            "explanation": "Ořechový likér obsahuje Alergen č. 8 – Skořápkové plody (ořechy) (mandle, vlašské ořechy, mandlový likér). Všechny evidované alergeny: Skořápkové plody (ořechy) a výrobky z nich."
-          }
-        ]
-      },
-      {
-        "id": "hustopecska-mandlovka",
-        "name": "Hustopečská Mandlovka",
-        "weight": "0,03l",
-        "price": "98 Kč",
-        "allergens": [],
-        "description": "originální moravská mandlová lihovina z Hustopečí",
-        "questions": [
-          {
-            "id": "hustopecska-mandlovka-vol",
-            "question": "Jaký je servírovací objem / míra položky Hustopečská Mandlovka?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Hustopečská Mandlovka je 0,03l."
-          },
-          {
-            "id": "hustopecska-mandlovka-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Hustopečská Mandlovka?",
-            "correctAnswer": "Originální moravská mandlová lihovina z Hustopečí",
-            "distractors": [
-              "Vanilkový sirup a limetová šťáva",
-              "Třtinový cukr s limetkou"
-            ],
-            "explanation": "U položky Hustopečská Mandlovka je uvedeno: Originální moravská mandlová lihovina z Hustopečí. Kompletní popis: originální moravská mandlová lihovina z Hustopečí."
-          }
-        ]
-      },
-      {
-        "id": "jagermeister",
-        "name": "Jägermeister",
-        "weight": "0,03l",
-        "price": "65 Kč",
-        "allergens": [],
-        "description": "německý bylinný likér z 56 bylin, květů, kořenů a plodů",
-        "questions": [
-          {
-            "id": "jagermeister-vol",
-            "question": "Jaký je servírovací objem / míra položky Jägermeister?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Jägermeister je 0,03l."
-          },
-          {
-            "id": "jagermeister-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Jägermeister?",
-            "correctAnswer": "Německý bylinný likér z 56 bylin",
-            "distractors": [
-              "Vanilkový sirup a limetová šťáva",
-              "Třtinový cukr s limetkou"
-            ],
-            "explanation": "U položky Jägermeister je uvedeno: Německý bylinný likér z 56 bylin. Kompletní popis: německý bylinný likér z 56 bylin, květů, kořenů a plodů."
-          },
-          {
-            "id": "jagermeister-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Jägermeister?",
-            "correctAnswer": "Květů",
-            "distractors": [
-              "Italský aperitiv Campari",
-              "Černý sypaný čaj s bergamotem"
-            ],
-            "explanation": "U položky Jägermeister je uvedeno: Květů. Kompletní popis: německý bylinný likér z 56 bylin, květů, kořenů a plodů."
-          }
-        ]
-      },
-      {
-        "id": "podebradska-samicka",
-        "name": "Poděbradská Samička",
-        "weight": "0,03l",
-        "price": "58 Kč",
-        "allergens": [],
-        "description": "tradiční polabský bylinný likér s vyváženou hořkosladkou chutí",
-        "questions": [
-          {
-            "id": "podebradska-samicka-vol",
-            "question": "Jaký je servírovací objem / míra položky Poděbradská Samička?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Poděbradská Samička je 0,03l."
-          },
-          {
-            "id": "podebradska-samicka-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Poděbradská Samička?",
-            "correctAnswer": "Tradiční polabský bylinný likér s vyváženou hořkosladkou chutí",
-            "distractors": [
-              "Čerstvý grepový fresh",
-              "Bezinkový sirup a čerstvá máta"
-            ],
-            "explanation": "U položky Poděbradská Samička je uvedeno: Tradiční polabský bylinný likér s vyváženou hořkosladkou chutí. Kompletní popis: tradiční polabský bylinný likér s vyváženou hořkosladkou chutí."
-          }
-        ]
-      },
-      {
-        "id": "becherovka-unfiltered",
-        "name": "Becherovka",
-        "weight": "0,03l",
-        "price": "65 Kč",
-        "allergens": [],
-        "description": "Unfiltered, karlovarský bylinný likér v nefiltrované prémiové podobě",
-        "questions": [
-          {
-            "id": "becherovka-unfiltered-vol",
-            "question": "Jaký je servírovací objem / míra položky Becherovka?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Becherovka je 0,03l."
-          },
-          {
-            "id": "becherovka-unfiltered-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Becherovka?",
-            "correctAnswer": "Unfiltered",
-            "distractors": [
-              "Vanilkový sirup a limetová šťáva",
-              "Třtinový cukr s limetkou"
-            ],
-            "explanation": "U položky Becherovka je uvedeno: Unfiltered. Kompletní popis: Unfiltered, karlovarský bylinný likér v nefiltrované prémiové podobě."
-          },
-          {
-            "id": "becherovka-unfiltered-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Becherovka?",
-            "correctAnswer": "Karlovarský bylinný likér v nefiltrované prémiové podobě",
-            "distractors": [
-              "Italský aperitiv Campari",
-              "Černý sypaný čaj s bergamotem"
-            ],
-            "explanation": "U položky Becherovka je uvedeno: Karlovarský bylinný likér v nefiltrované prémiové podobě. Kompletní popis: Unfiltered, karlovarský bylinný likér v nefiltrované prémiové podobě."
-          }
-        ]
-      },
-      {
-        "id": "smoked-grappa-tosolini",
-        "name": "Smoked Grappa Bepi Tosolini",
-        "weight": "0,03l",
-        "price": "195 Kč",
-        "allergens": [],
-        "description": "italská grappa z vylisovaných hroznů uzená dubovým dřevem",
-        "questions": [
-          {
-            "id": "smoked-grappa-tosolini-vol",
-            "question": "Jaký je servírovací objem / míra položky Smoked Grappa Bepi Tosolini?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Smoked Grappa Bepi Tosolini je 0,03l."
-          },
-          {
-            "id": "smoked-grappa-tosolini-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Smoked Grappa Bepi Tosolini?",
-            "correctAnswer": "Italská grappa z vylisovaných hroznů uzená dubovým dřevem",
-            "distractors": [
-              "Italský aperitiv Campari",
-              "Černý sypaný čaj s bergamotem"
-            ],
-            "explanation": "U položky Smoked Grappa Bepi Tosolini je uvedeno: Italská grappa z vylisovaných hroznů uzená dubovým dřevem. Kompletní popis: italská grappa z vylisovaných hroznů uzená dubovým dřevem."
-          }
-        ]
-      },
-      {
-        "id": "bezovy-elixir-jelinek",
-        "name": "Bezový elixír R.Jelínek",
-        "weight": "0,03l",
-        "price": "58 Kč",
-        "allergens": [],
-        "description": "likér z květů černého bezu od vizovického Rudolfa Jelínka",
-        "questions": [
-          {
-            "id": "bezovy-elixir-jelinek-vol",
-            "question": "Jaký je servírovací objem / míra položky Bezový elixír R.Jelínek?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Bezový elixír R.Jelínek je 0,03l."
-          },
-          {
-            "id": "bezovy-elixir-jelinek-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Bezový elixír R.Jelínek?",
-            "correctAnswer": "Likér z květů černého bezu od vizovického Rudolfa Jelínka",
-            "distractors": [
-              "Vanilkový sirup a limetová šťáva",
-              "Třtinový cukr s limetkou"
-            ],
-            "explanation": "U položky Bezový elixír R.Jelínek je uvedeno: Likér z květů černého bezu od vizovického Rudolfa Jelínka. Kompletní popis: likér z květů černého bezu od vizovického Rudolfa Jelínka."
-          }
-        ]
-      },
-      {
-        "id": "creme-de-cassis",
-        "name": "Créme de cassis",
-        "weight": "0,03l",
-        "price": "68 Kč",
-        "allergens": [],
-        "description": "Le Duc Charmant, Jenčík, lahodný hustý likér z černého rybízu",
-        "questions": [
-          {
-            "id": "creme-de-cassis-vol",
-            "question": "Jaký je servírovací objem / míra položky Créme de cassis?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Créme de cassis je 0,03l."
-          },
-          {
-            "id": "creme-de-cassis-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Créme de cassis?",
-            "correctAnswer": "Le Duc Charmant",
-            "distractors": [
-              "Limetová šťáva",
-              "Pomerančová kůra a hřebíček"
-            ],
-            "explanation": "U položky Créme de cassis je uvedeno: Le Duc Charmant. Kompletní popis: Le Duc Charmant, Jenčík, lahodný hustý likér z černého rybízu."
-          },
-          {
-            "id": "creme-de-cassis-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Créme de cassis?",
-            "correctAnswer": "Jenčík",
-            "distractors": [
-              "Mučenkový likér a vanilka",
-              "Kávový likér Kahlúa"
-            ],
-            "explanation": "U položky Créme de cassis je uvedeno: Jenčík. Kompletní popis: Le Duc Charmant, Jenčík, lahodný hustý likér z černého rybízu."
-          }
-        ]
-      },
-      {
-        "id": "vajecnak-bartida",
-        "name": "Vaječňák",
-        "weight": "0,03l",
-        "price": "50 Kč",
-        "allergens": [
-          "3",
-          "7"
-        ],
-        "description": "Bartida, poctivý vaječný likér s vysokým podílem žloutků a rumem",
-        "questions": [
-          {
-            "id": "vajecnak-bartida-vol",
-            "question": "Jaký je servírovací objem / míra položky Vaječňák?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Vaječňák je 0,03l."
-          },
-          {
-            "id": "vajecnak-bartida-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Vaječňák?",
-            "correctAnswer": "Bartida",
-            "distractors": [
-              "Mučenkový likér a vanilka",
-              "Kávový likér Kahlúa"
-            ],
-            "explanation": "U položky Vaječňák je uvedeno: Bartida. Kompletní popis: Bartida, poctivý vaječný likér s vysokým podílem žloutků a rumem."
-          },
-          {
-            "id": "vajecnak-bartida-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Vaječňák?",
-            "correctAnswer": "Poctivý vaječný likér s vysokým podílem žloutků a rumem",
-            "distractors": [
-              "Zázvorové pivo Fever-Tree",
-              "Čerstvý rozmarýn a jalovec"
-            ],
-            "explanation": "U položky Vaječňák je uvedeno: Poctivý vaječný likér s vysokým podílem žloutků a rumem. Kompletní popis: Bartida, poctivý vaječný likér s vysokým podílem žloutků a rumem."
-          },
-          {
-            "id": "vajecnak-bartida-allergen-3",
-            "question": "Který z následujících alergenů obsahuje položka Vaječňák?",
-            "correctAnswer": "Alergen č. 3 – Vejce a výrobky z nich",
-            "distractors": [
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)",
-              "Alergen č. 11 – Sezamová semena (sezam)"
-            ],
-            "explanation": "Vaječňák obsahuje Alergen č. 3 – Vejce a výrobky z nich (vejce, žloutek, majonéza, vaječný likér). Všechny evidované alergeny: Vejce a výrobky z nich, Mléko a výrobky z něj (včetně laktózy)."
-          },
-          {
-            "id": "vajecnak-bartida-allergen-7",
-            "question": "Který z následujících alergenů obsahuje položka Vaječňák?",
-            "correctAnswer": "Alergen č. 7 – Mléko a výrobky z něj (včetně laktózy)",
-            "distractors": [
-              "Alergen č. 10 – Hořčice a výrobky z ní",
-              "Alergen č. 1 – Obiloviny obsahující lepek"
-            ],
-            "explanation": "Vaječňák obsahuje Alergen č. 7 – Mléko a výrobky z něj (včetně laktózy) (mléko, smetana, máslo, sýr, tvaroh, mléčná pěna). Všechny evidované alergeny: Vejce a výrobky z nich, Mléko a výrobky z něj (včetně laktózy)."
-          }
-        ]
-      },
-      {
-        "id": "griotte-bartida",
-        "name": "Griotte Original",
-        "weight": "0,03l",
-        "price": "50 Kč",
-        "allergens": [],
-        "description": "Bartida, prémiový likér s vysokým podílem čisté višňové šťávy",
-        "questions": [
-          {
-            "id": "griotte-bartida-vol",
-            "question": "Jaký je servírovací objem / míra položky Griotte Original?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Griotte Original je 0,03l."
-          },
-          {
-            "id": "griotte-bartida-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Griotte Original?",
-            "correctAnswer": "Bartida",
-            "distractors": [
-              "Limetová šťáva",
-              "Pomerančová kůra a hřebíček"
-            ],
-            "explanation": "U položky Griotte Original je uvedeno: Bartida. Kompletní popis: Bartida, prémiový likér s vysokým podílem čisté višňové šťávy."
-          },
-          {
-            "id": "griotte-bartida-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Griotte Original?",
-            "correctAnswer": "Prémiový likér s vysokým podílem čisté višňové šťávy",
-            "distractors": [
-              "Mučenkový likér a vanilka",
-              "Kávový likér Kahlúa"
-            ],
-            "explanation": "U položky Griotte Original je uvedeno: Prémiový likér s vysokým podílem čisté višňové šťávy. Kompletní popis: Bartida, prémiový likér s vysokým podílem čisté višňové šťávy."
-          }
-        ]
-      },
-      {
-        "id": "zelena-bartida",
-        "name": "Zelená",
-        "weight": "0,03l",
-        "price": "50 Kč",
-        "allergens": [],
-        "description": "Bartida, prémiový peprmintový likér z přírodního oleje máty peprné",
-        "questions": [
-          {
-            "id": "zelena-bartida-vol",
-            "question": "Jaký je servírovací objem / míra položky Zelená?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Zelená je 0,03l."
-          },
-          {
-            "id": "zelena-bartida-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Zelená?",
-            "correctAnswer": "Bartida",
-            "distractors": [
-              "Jasmínový zelený čaj",
-              "Belgické višňové pivo"
-            ],
-            "explanation": "U položky Zelená je uvedeno: Bartida. Kompletní popis: Bartida, prémiový peprmintový likér z přírodního oleje máty peprné."
-          },
-          {
-            "id": "zelena-bartida-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Zelená?",
-            "correctAnswer": "Prémiový peprmintový likér z přírodního oleje máty peprné",
-            "distractors": [
-              "Limetová šťáva",
-              "Pomerančová kůra a hřebíček"
-            ],
-            "explanation": "U položky Zelená je uvedeno: Prémiový peprmintový likér z přírodního oleje máty peprné. Kompletní popis: Bartida, prémiový peprmintový likér z přírodního oleje máty peprné."
-          }
-        ]
-      },
-      {
-        "id": "zelena-svach",
-        "name": "Zelená",
-        "weight": "0,03l",
-        "price": "58 Kč",
-        "allergens": [],
-        "description": "Svach, řemeslný peprmintový likér z pravé macerované máty peprné",
-        "questions": [
-          {
-            "id": "zelena-svach-vol",
-            "question": "Jaký je servírovací objem / míra položky Zelená?",
-            "correctAnswer": "0,03l",
-            "distractors": [
-              "0,04 l",
-              "0,05 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Zelená je 0,03l."
-          },
-          {
-            "id": "zelena-svach-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Zelená?",
-            "correctAnswer": "Svach",
-            "distractors": [
-              "Vanilkový sirup a limetová šťáva",
-              "Třtinový cukr s limetkou"
-            ],
-            "explanation": "U položky Zelená je uvedeno: Svach. Kompletní popis: Svach, řemeslný peprmintový likér z pravé macerované máty peprné."
-          },
-          {
-            "id": "zelena-svach-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Zelená?",
-            "correctAnswer": "Řemeslný peprmintový likér z pravé macerované máty peprné",
-            "distractors": [
-              "Italský aperitiv Campari",
-              "Černý sypaný čaj s bergamotem"
-            ],
-            "explanation": "U položky Zelená je uvedeno: Řemeslný peprmintový likér z pravé macerované máty peprné. Kompletní popis: Svach, řemeslný peprmintový likér z pravé macerované máty peprné."
+            "explanation": "Obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
           }
         ]
       }
@@ -9216,156 +6180,209 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       {
         "id": "bubliny-charmat-palava",
         "name": "Charmat de Vinselekt Pálava",
-        "weight": "0,75l",
-        "price": "699 Kč",
+        "weight": "0,1L / 0,75L",
+        "price": "0,1L 99 Kč / 0,75L 699 Kč",
         "allergens": [
           "12"
         ],
         "description": "Vinselect Michlovský, extra sec – Morava",
+        "notes": "Vinselect Michlovský, extra sec – Morava. Divoké perlení, opulentní vůně s nádechem růží a exotického ovoce, kulatá podmanivá chuť.",
         "questions": [
           {
             "id": "bubliny-charmat-palava-vol",
-            "question": "Jaký je servírovací objem / míra položky Charmat de Vinselekt Pálava?",
-            "correctAnswer": "0,75l",
+            "question": "Jaké jsou servírovací objemy položky Charmat de Vinselekt Pálava?",
+            "correctAnswer": "0,1L / 0,75L",
             "distractors": [
-              "0,5 l",
-              "1,0 l"
+              "pouze 0,75L",
+              "0,15L / 0,75L"
             ],
-            "explanation": "Servírovací míra / objem položky Charmat de Vinselekt Pálava je 0,75l."
+            "explanation": "Charmat de Vinselekt Pálava je k dispozici ve dvou objemech: po skle (0,1L) a v celé lahvi (0,75L)."
           },
           {
-            "id": "bubliny-charmat-palava-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Charmat de Vinselekt Pálava?",
+            "id": "bubliny-charmat-palava-prod",
+            "question": "Od kterého vinařství pochází šumivé víno Charmat de Vinselekt Pálava?",
             "correctAnswer": "Vinselect Michlovský",
             "distractors": [
-              "Italský aperitiv Campari",
-              "Černý sypaný čaj s bergamotem"
+              "Vinařství Gotberg",
+              "Vinařství Kolby"
             ],
-            "explanation": "U položky Charmat de Vinselekt Pálava je uvedeno: Vinselect Michlovský. Kompletní popis: Vinselect Michlovský, extra sec – Morava."
+            "explanation": "Charmat de Vinselekt Pálava vyrábí vyhlášené moravské vinařství Vinselect Michlovský."
           },
           {
-            "id": "bubliny-charmat-palava-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Charmat de Vinselekt Pálava?",
-            "correctAnswer": "Extra sec – Morava",
+            "id": "bubliny-charmat-palava-type",
+            "question": "V jaké kategorii zbytkového cukru je Charmat de Vinselekt Pálava?",
+            "correctAnswer": "extra sec",
             "distractors": [
-              "Jasmínový zelený čaj",
-              "Belgické višňové pivo"
+              "brut nature",
+              "doux"
             ],
-            "explanation": "U položky Charmat de Vinselekt Pálava je uvedeno: Extra sec – Morava. Kompletní popis: Vinselect Michlovský, extra sec – Morava."
+            "explanation": "Charmat de Vinselekt Pálava je zařazen v kategorii extra sec."
           },
           {
-            "id": "bubliny-charmat-palava-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Charmat de Vinselekt Pálava?",
+            "id": "bubliny-charmat-palava-reg",
+            "question": "Ze které vinařské oblasti pochází Charmat de Vinselekt Pálava?",
+            "correctAnswer": "Morava",
+            "distractors": [
+              "Čechy",
+              "Niederösterreich"
+            ],
+            "explanation": "Položka Charmat de Vinselekt Pálava pochází z vinařské oblasti Morava."
+          },
+          {
+            "id": "bubliny-charmat-palava-price",
+            "question": "Jaká je prodejní cena položky Charmat de Vinselekt Pálava (0,1l a 0,75l)?",
+            "correctAnswer": "0,1L 99 Kč / 0,75L 699 Kč",
+            "distractors": [
+              "0,1L 115 Kč / 0,75L 849 Kč",
+              "0,1L 89 Kč / 0,75L 649 Kč"
+            ],
+            "explanation": "Položka Charmat de Vinselekt Pálava je nabízena ve dvou objemech s cenami 0,1L 99 Kč / 0,75L 699 Kč."
+          },
+          {
+            "id": "bubliny-charmat-palava-allergen",
+            "question": "Který alergen obsahuje Charmat de Vinselekt Pálava?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+              "Alergen č. 1 – Obiloviny obsahující lepek",
+              "Alergen č. 7 – Mléko a výrobky z něj"
             ],
-            "explanation": "Charmat de Vinselekt Pálava obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "explanation": "Víno a šumivá vína obsahují alergen č. 12 (Oxid siřičitý a siřičitany)."
           }
         ]
       },
       {
         "id": "bubliny-cremant-vinselekt",
-        "name": "Cremant de Vinselekt (Pinot, Chardonnay)",
-        "weight": "0,75l",
-        "price": "849 Kč",
+        "name": "Cremant de Vinselekt",
+        "weight": "0,1L / 0,75L",
+        "price": "0,1L 115 Kč / 0,75L 849 Kč",
         "allergens": [
           "12"
         ],
-        "description": "Vinselect Michlovský, extra brut – Morava",
+        "description": "(Pinot, Chardonnay) Vinselect Michlovský, extra brut – Morava",
+        "notes": "(Pinot, Chardonnay) Vinselect Michlovský, extra brut – Morava. Jemné impozantní perlení, elegantní aroma, harmonická krémová dochuť.",
         "questions": [
           {
             "id": "bubliny-cremant-vinselekt-vol",
-            "question": "Jaký je servírovací objem / míra položky Cremant de Vinselekt (Pinot, Chardonnay)?",
-            "correctAnswer": "0,75l",
+            "question": "Jaké jsou servírovací objemy položky Cremant de Vinselekt?",
+            "correctAnswer": "0,1L / 0,75L",
             "distractors": [
-              "0,5 l",
-              "1,0 l"
+              "pouze 0,75L",
+              "0,15L / 0,75L"
             ],
-            "explanation": "Servírovací míra / objem položky Cremant de Vinselekt (Pinot, Chardonnay) je 0,75l."
+            "explanation": "Cremant de Vinselekt je k dispozici ve dvou objemech: po skle (0,1L) a v celé lahvi (0,75L)."
           },
           {
-            "id": "bubliny-cremant-vinselekt-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Cremant de Vinselekt (Pinot, Chardonnay)?",
+            "id": "bubliny-cremant-vinselekt-details",
+            "question": "Ze kterých odrůd je složen moravský Cremant de Vinselekt?",
+            "correctAnswer": "(Pinot, Chardonnay)",
+            "distractors": [
+              "(Ryzlink, Veltlín)",
+              "(Sauvignon, Pálava)"
+            ],
+            "explanation": "Cremant de Vinselekt je kupáží odrůd Pinot a Chardonnay."
+          },
+          {
+            "id": "bubliny-cremant-vinselekt-prod",
+            "question": "Které vinařství produkuje Cremant de Vinselekt?",
             "correctAnswer": "Vinselect Michlovský",
             "distractors": [
-              "Mučenkový likér a vanilka",
-              "Kávový likér Kahlúa"
+              "Milan Sůkal",
+              "Vinařství Kraus"
             ],
-            "explanation": "U položky Cremant de Vinselekt (Pinot, Chardonnay) je uvedeno: Vinselect Michlovský. Kompletní popis: Vinselect Michlovský, extra brut – Morava."
+            "explanation": "Cremant de Vinselekt vyrábí Vinselect Michlovský z Moravy."
           },
           {
-            "id": "bubliny-cremant-vinselekt-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Cremant de Vinselekt (Pinot, Chardonnay)?",
-            "correctAnswer": "Extra brut – Morava",
+            "id": "bubliny-cremant-vinselekt-type",
+            "question": "Do jaké chuťové kategorie suchosti spadá Cremant de Vinselekt?",
+            "correctAnswer": "extra brut",
             "distractors": [
-              "Zázvorové pivo Fever-Tree",
-              "Čerstvý rozmarýn a jalovec"
+              "demi sec",
+              "polosladké"
             ],
-            "explanation": "U položky Cremant de Vinselekt (Pinot, Chardonnay) je uvedeno: Extra brut – Morava. Kompletní popis: Vinselect Michlovský, extra brut – Morava."
+            "explanation": "Cremant de Vinselekt je v kategorii extra brut s harmonickou dochutí."
           },
           {
-            "id": "bubliny-cremant-vinselekt-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Cremant de Vinselekt (Pinot, Chardonnay)?",
+            "id": "bubliny-cremant-vinselekt-price",
+            "question": "Jaká je cena položky Cremant de Vinselekt (0,1l a 0,75l)?",
+            "correctAnswer": "0,1L 115 Kč / 0,75L 849 Kč",
+            "distractors": [
+              "0,1L 99 Kč / 0,75L 699 Kč",
+              "0,1L 125 Kč / 0,75L 899 Kč"
+            ],
+            "explanation": "Položka Cremant de Vinselekt je nabízena ve dvou objemech s cenami 0,1L 115 Kč / 0,75L 849 Kč."
+          },
+          {
+            "id": "bubliny-cremant-vinselekt-allergen",
+            "question": "Který alergen obsahuje Cremant de Vinselekt?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+              "Alergen č. 6 – Sójové boby",
+              "Alergen č. 8 – Skořápkové plody"
             ],
-            "explanation": "Cremant de Vinselekt (Pinot, Chardonnay) obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "explanation": "Obsahuje alergen č. 12 – Oxid siřičitý a siřičitany."
           }
         ]
       },
       {
         "id": "bubliny-angels-cowboys",
         "name": "Angels & Cowboys",
-        "weight": "0,75l",
+        "weight": "0,75L",
         "price": "1199 Kč",
         "allergens": [
           "12"
         ],
-        "description": "NV, brut - North Coast, Kalifornie",
+        "description": "NV, brut – North Coast, Kalifornie",
+        "notes": "North Coast, Kalifornie. Druhotné zrání v láhvi, elegantní perlení, svěží sadové ovoce, citrusy, tóny briošky a chlebové kůrky.",
         "questions": [
           {
             "id": "bubliny-angels-cowboys-vol",
-            "question": "Jaký je servírovací objem / míra položky Angels & Cowboys?",
-            "correctAnswer": "0,75l",
+            "question": "Jaký je objem lahve sektu Angels & Cowboys?",
+            "correctAnswer": "0,75L",
             "distractors": [
               "0,5 l",
-              "1,0 l"
+              "1,5 l"
             ],
-            "explanation": "Servírovací míra / objem položky Angels & Cowboys je 0,75l."
+            "explanation": "Objem lahve Angels & Cowboys je 0,75L."
           },
           {
-            "id": "bubliny-angels-cowboys-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Angels & Cowboys?",
-            "correctAnswer": "Brut - North Coast",
+            "id": "bubliny-angels-cowboys-type",
+            "question": "Jaký typ a označení nese americký sekt Angels & Cowboys?",
+            "correctAnswer": "NV, brut",
             "distractors": [
-              "Italský aperitiv Campari",
-              "Černý sypaný čaj s bergamotem"
+              "Vintage, demi sec",
+              "Extra dry"
             ],
-            "explanation": "U položky Angels & Cowboys je uvedeno: Brut - North Coast. Kompletní popis: NV, brut - North Coast, Kalifornie."
+            "explanation": "Angels & Cowboys je neročníkový sekt označený jako NV, brut."
           },
           {
-            "id": "bubliny-angels-cowboys-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Angels & Cowboys?",
-            "correctAnswer": "Kalifornie",
+            "id": "bubliny-angels-cowboys-region",
+            "question": "Z jaké vinařské oblasti a země pochází sekt Angels & Cowboys?",
+            "correctAnswer": "North Coast, Kalifornie",
             "distractors": [
-              "Jasmínový zelený čaj",
-              "Belgické višňové pivo"
+              "Napa Valley, Washington",
+              "Sonoma, Oregon"
             ],
-            "explanation": "U položky Angels & Cowboys je uvedeno: Kalifornie. Kompletní popis: NV, brut - North Coast, Kalifornie."
+            "explanation": "Angels & Cowboys pochází z prestižní oblasti North Coast v Kalifornii (USA)."
           },
           {
-            "id": "bubliny-angels-cowboys-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Angels & Cowboys?",
+            "id": "bubliny-angels-cowboys-price",
+            "question": "Jaká je prodejní cena kalifornského sektu Angels & Cowboys?",
+            "correctAnswer": "1199 Kč",
+            "distractors": [
+              "999 Kč",
+              "1399 Kč"
+            ],
+            "explanation": "Cena sektu Angels & Cowboys (0,75L) je 1199 Kč."
+          },
+          {
+            "id": "bubliny-angels-cowboys-allergen",
+            "question": "Který alergen obsahuje sekt Angels & Cowboys?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+              "Alergen č. 5 – Arašídy",
+              "Alergen č. 11 – Sezamová semena"
             ],
-            "explanation": "Angels & Cowboys obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "explanation": "Šumivé víno Angels & Cowboys obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
           }
         ]
       }
@@ -9381,718 +6398,651 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       {
         "id": "bile-ryzlink-gotberg",
         "name": "Ryzlink rýnský",
-        "weight": "0,75l",
+        "weight": "0,75L",
         "price": "469 Kč",
-        "allergens": [
-          "12"
-        ],
+        "allergens": ["12"],
         "description": "pozdní sběr Gotberg – Pálava, Morava",
+        "notes": "pozdní sběr Gotberg – Pálava, Morava. Svěží s výraznou kyselinou, aromatika citrusy, zelené jablko a bílé broskve, minerální dochuť.",
         "questions": [
           {
             "id": "bile-ryzlink-gotberg-vol",
-            "question": "Jaký je servírovací objem / míra položky Ryzlink rýnský?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Ryzlink rýnský je 0,75l."
+            "question": "Jaký je servírovací objem / míra položky Ryzlink rýnský Gotberg?",
+            "correctAnswer": "0,75L",
+            "distractors": ["0,5 l", "1,0 l"],
+            "explanation": "Servírovací míra / objem položky Ryzlink rýnský je 0,75L."
           },
           {
-            "id": "bile-ryzlink-gotberg-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Ryzlink rýnský?",
-            "correctAnswer": "Pozdní sběr Gotberg – Pálava",
-            "distractors": [
-              "Tonik Thomas Henry s chininem",
-              "Čerstvě pražená výběrová káva"
-            ],
-            "explanation": "U položky Ryzlink rýnský je uvedeno: Pozdní sběr Gotberg – Pálava. Kompletní popis: pozdní sběr Gotberg – Pálava, Morava."
+            "id": "bile-ryzlink-gotberg-type",
+            "question": "Jaký přívlastek má Ryzlink rýnský od vinařství Gotberg?",
+            "correctAnswer": "pozdní sběr",
+            "distractors": ["kabinetní víno", "výběr z hroznů"],
+            "explanation": "Ryzlink rýnský Gotberg je zatříděn jako pozdní sběr."
           },
           {
-            "id": "bile-ryzlink-gotberg-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Ryzlink rýnský?",
-            "correctAnswer": "Morava",
-            "distractors": [
-              "Vanilkový sirup a limetová šťáva",
-              "Třtinový cukr s limetkou"
-            ],
-            "explanation": "U položky Ryzlink rýnský je uvedeno: Morava. Kompletní popis: pozdní sběr Gotberg – Pálava, Morava."
+            "id": "bile-ryzlink-gotberg-prod",
+            "question": "Které vinařství a z jaké oblasti produkuje tento Ryzlink rýnský?",
+            "correctAnswer": "Gotberg – Pálava, Morava",
+            "distractors": ["Reisten – Pavlov", "Kolby – Pouzdřany"],
+            "explanation": "Víno pochází z vinařství Gotberg v pálavské oblasti na Moravě."
           },
           {
-            "id": "bile-ryzlink-gotberg-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Ryzlink rýnský?",
+            "id": "bile-ryzlink-gotberg-price",
+            "question": "Jaká je prodejní cena lahve Ryzlink rýnský Gotberg?",
+            "correctAnswer": "469 Kč",
+            "distractors": ["399 Kč", "529 Kč"],
+            "explanation": "Cena lahve Ryzlink rýnský Gotberg (0,75L) je 469 Kč."
+          },
+          {
+            "id": "bile-ryzlink-gotberg-allergen",
+            "question": "Který alergen obsahuje Ryzlink rýnský Gotberg?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Ryzlink rýnský obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "distractors": ["Alergen č. 1 – Lepek", "Alergen č. 7 – Mléko"],
+            "explanation": "Víno obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
           }
         ]
       },
       {
         "id": "bile-pinot-gris-reisten",
         "name": "Pinot Gris",
-        "weight": "0,75l",
+        "weight": "0,75L",
         "price": "479 Kč",
-        "allergens": [
-          "12"
-        ],
+        "allergens": ["12"],
         "description": "pozdní sběr Reisten – Mikulovsko, Morava",
+        "notes": "pozdní sběr Reisten – Mikulovsko, Morava. Plné a hladké, v chuti jemný minerální dotek, čerstvý grep a pomerančová kůra.",
         "questions": [
           {
             "id": "bile-pinot-gris-reisten-vol",
-            "question": "Jaký je servírovací objem / míra položky Pinot Gris?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Pinot Gris je 0,75l."
+            "question": "Jaký je objem lahve položky Pinot Gris Reisten?",
+            "correctAnswer": "0,75L",
+            "distractors": ["0,5 l", "1,0 l"],
+            "explanation": "Objem lahve Pinot Gris Reisten je 0,75L."
           },
           {
-            "id": "bile-pinot-gris-reisten-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Pinot Gris?",
-            "correctAnswer": "Pozdní sběr Reisten – Mikulovsko",
-            "distractors": [
-              "Jasmínový zelený čaj",
-              "Belgické višňové pivo"
-            ],
-            "explanation": "U položky Pinot Gris je uvedeno: Pozdní sběr Reisten – Mikulovsko. Kompletní popis: pozdní sběr Reisten – Mikulovsko, Morava."
+            "id": "bile-pinot-gris-reisten-prod",
+            "question": "Které vinařství z Mikulovska vyrábí náš Pinot Gris?",
+            "correctAnswer": "Reisten",
+            "distractors": ["Sonberk", "Volařík"],
+            "explanation": "Pinot Gris pochází z vinařství Reisten na Mikulovsku."
           },
           {
-            "id": "bile-pinot-gris-reisten-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Pinot Gris?",
-            "correctAnswer": "Morava",
-            "distractors": [
-              "Limetová šťáva",
-              "Pomerančová kůra a hřebíček"
-            ],
-            "explanation": "U položky Pinot Gris je uvedeno: Morava. Kompletní popis: pozdní sběr Reisten – Mikulovsko, Morava."
+            "id": "bile-pinot-gris-reisten-type",
+            "question": "V jaké jakostní třídě je Pinot Gris Reisten?",
+            "correctAnswer": "pozdní sběr",
+            "distractors": ["zemské víno", "výběr z bobulí"],
+            "explanation": "Jedná se o pozdní sběr z vinařství Reisten."
           },
           {
-            "id": "bile-pinot-gris-reisten-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Pinot Gris?",
+            "id": "bile-pinot-gris-reisten-price",
+            "question": "Jaká je prodejní cena lahve Pinot Gris Reisten?",
+            "correctAnswer": "479 Kč",
+            "distractors": ["429 Kč", "549 Kč"],
+            "explanation": "Cena lahve Pinot Gris Reisten (0,75L) je 479 Kč."
+          },
+          {
+            "id": "bile-pinot-gris-reisten-allergen",
+            "question": "Který alergen obsahuje Pinot Gris Reisten?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Pinot Gris obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "distractors": ["Alergen č. 6 – Sója", "Alergen č. 8 – Ořechy"],
+            "explanation": "Víno obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
           }
         ]
       },
       {
         "id": "bile-hibernal-bilkovi",
         "name": "Hibernal",
-        "weight": "0,75l",
+        "weight": "0,75L",
         "price": "495 Kč",
-        "allergens": [
-          "12"
-        ],
+        "allergens": ["12"],
         "description": "pozdní sběr Bílkovi – Velkopavlovicko, Morava",
+        "notes": "pozdní sběr Bílkovi – Velkopavlovicko, Morava. Šťavnaté, vůně černého rybízu a bezového květu, ovocné, příjemná kyselinka a kořenitý dozvuk.",
         "questions": [
           {
             "id": "bile-hibernal-bilkovi-vol",
-            "question": "Jaký je servírovací objem / míra položky Hibernal?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Hibernal je 0,75l."
+            "question": "Jaký je servírovací objem lahve Hibernal Bílkovi?",
+            "correctAnswer": "0,75L",
+            "distractors": ["0,5 l", "1,0 l"],
+            "explanation": "Objem lahve Hibernal Bílkovi je 0,75L."
           },
           {
-            "id": "bile-hibernal-bilkovi-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Hibernal?",
-            "correctAnswer": "Pozdní sběr Bílkovi – Velkopavlovicko",
-            "distractors": [
-              "Vanilkový sirup a limetová šťáva",
-              "Třtinový cukr s limetkou"
-            ],
-            "explanation": "U položky Hibernal je uvedeno: Pozdní sběr Bílkovi – Velkopavlovicko. Kompletní popis: pozdní sběr Bílkovi – Velkopavlovicko, Morava."
+            "id": "bile-hibernal-bilkovi-prod",
+            "question": "Od kterého rodinného vinařství pochází náš Hibernal?",
+            "correctAnswer": "Bílkovi – Velkopavlovicko",
+            "distractors": ["Kraus – Mělnicko", "Hauser – Weinviertel"],
+            "explanation": "Hibernal pochází z vinařství Bílkovi z Velkopavlovické podoblasti na Moravě."
           },
           {
-            "id": "bile-hibernal-bilkovi-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Hibernal?",
-            "correctAnswer": "Morava",
-            "distractors": [
-              "Italský aperitiv Campari",
-              "Černý sypaný čaj s bergamotem"
-            ],
-            "explanation": "U položky Hibernal je uvedeno: Morava. Kompletní popis: pozdní sběr Bílkovi – Velkopavlovicko, Morava."
+            "id": "bile-hibernal-bilkovi-type",
+            "question": "Jaký přívlastek má Hibernal od Bílkových?",
+            "correctAnswer": "pozdní sběr",
+            "distractors": ["kabinet", "ledové víno"],
+            "explanation": "Hibernal od Bílkových je pozdní sběr."
           },
           {
-            "id": "bile-hibernal-bilkovi-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Hibernal?",
+            "id": "bile-hibernal-bilkovi-price",
+            "question": "Jaká je prodejní cena lahve Hibernal Bílkovi?",
+            "correctAnswer": "495 Kč",
+            "distractors": ["445 Kč", "555 Kč"],
+            "explanation": "Cena lahve Hibernal Bílkovi (0,75L) je 495 Kč."
+          },
+          {
+            "id": "bile-hibernal-bilkovi-allergen",
+            "question": "Který alergen obsahuje Hibernal Bílkovi?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Hibernal obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "distractors": ["Alergen č. 3 – Vejce", "Alergen č. 4 – Ryby"],
+            "explanation": "Víno obsahuje alergen č. 12 – Oxid siřičitý a siřičitany."
           }
         ]
       },
       {
         "id": "bile-sauvignon-halkoci",
         "name": "Sauvignon",
-        "weight": "0,75l",
+        "weight": "0,75L",
         "price": "626 Kč",
-        "allergens": [
-          "12"
-        ],
+        "allergens": ["12"],
         "description": "Typik VOC Lukáš Halkoci – Znojemsko, Morava",
+        "notes": "Typik VOC Lukáš Halkoci – Znojemsko, Morava. Lehčí, svěží dochuť, aromatika angreštu, černého rybízu a citrusů.",
         "questions": [
           {
             "id": "bile-sauvignon-halkoci-vol",
-            "question": "Jaký je servírovací objem / míra položky Sauvignon?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Sauvignon je 0,75l."
+            "question": "Jaký je objem lahve Sauvignon Lukáš Halkoci?",
+            "correctAnswer": "0,75L",
+            "distractors": ["0,5 l", "1,0 l"],
+            "explanation": "Objem lahve Sauvignon Halkoci je 0,75L."
           },
           {
-            "id": "bile-sauvignon-halkoci-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Sauvignon?",
-            "correctAnswer": "Typik VOC Lukáš Halkoci – Znojemsko",
-            "distractors": [
-              "Italský aperitiv Campari",
-              "Černý sypaný čaj s bergamotem"
-            ],
-            "explanation": "U položky Sauvignon je uvedeno: Typik VOC Lukáš Halkoci – Znojemsko. Kompletní popis: Typik VOC Lukáš Halkoci – Znojemsko, Morava."
+            "id": "bile-sauvignon-halkoci-type",
+            "question": "Jaké apelativní označení nese Sauvignon Lukáše Halkociho?",
+            "correctAnswer": "Typik VOC",
+            "distractors": ["pozdní sběr", "výběr z hroznů"],
+            "explanation": "Jedná se o označení Typik VOC ze Znojemska."
           },
           {
-            "id": "bile-sauvignon-halkoci-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Sauvignon?",
-            "correctAnswer": "Morava",
-            "distractors": [
-              "Jasmínový zelený čaj",
-              "Belgické višňové pivo"
-            ],
-            "explanation": "U položky Sauvignon je uvedeno: Morava. Kompletní popis: Typik VOC Lukáš Halkoci – Znojemsko, Morava."
+            "id": "bile-sauvignon-halkoci-prod",
+            "question": "Kdo je vinařem tohoto znojemského Sauvignonu?",
+            "correctAnswer": "Lukáš Halkoci",
+            "distractors": ["Milan Sůkal", "Philipp Kuhn"],
+            "explanation": "Vinařem je Lukáš Halkoci ze Znojemska na Moravě."
           },
           {
-            "id": "bile-sauvignon-halkoci-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Sauvignon?",
+            "id": "bile-sauvignon-halkoci-price",
+            "question": "Jaká je prodejní cena položky Sauvignon Lukáš Halkoci?",
+            "correctAnswer": "626 Kč",
+            "distractors": ["580 Kč", "690 Kč"],
+            "explanation": "Cena Sauvignonu Lukáše Halkociho (0,75L) je 626 Kč."
+          },
+          {
+            "id": "bile-sauvignon-halkoci-allergen",
+            "question": "Který alergen obsahuje Sauvignon Lukáš Halkoci?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Sauvignon obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "distractors": ["Alergen č. 2 – Korýši", "Alergen č. 5 – Arašídy"],
+            "explanation": "Víno obsahuje alergen č. 12 – Oxid siřičitý a siřičitany."
           }
         ]
       },
       {
         "id": "bile-ryzlink-vlassky-sukal",
         "name": "Ryzlink Vlašský",
-        "weight": "0,75l",
+        "weight": "0,75L",
         "price": "660 Kč",
-        "allergens": [
-          "12"
-        ],
+        "allergens": ["12"],
         "description": "pozdní sběr Milan Sůkal – Slovácko, Morava",
+        "notes": "pozdní sběr Milan Sůkal – Slovácko, Morava. Středně plné víno, příjemná kyselinka, tóny zralých citrusů, pomela a peckovic.",
         "questions": [
           {
             "id": "bile-ryzlink-vlassky-sukal-vol",
-            "question": "Jaký je servírovací objem / míra položky Ryzlink Vlašský?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Ryzlink Vlašský je 0,75l."
+            "question": "Jaký je objem lahve položky Ryzlink Vlašský Milan Sůkal?",
+            "correctAnswer": "0,75L",
+            "distractors": ["0,5 l", "1,0 l"],
+            "explanation": "Objem lahve Ryzlink Vlašský Milan Sůkal je 0,75L."
           },
           {
-            "id": "bile-ryzlink-vlassky-sukal-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Ryzlink Vlašský?",
-            "correctAnswer": "Pozdní sběr Milan Sůkal – Slovácko",
-            "distractors": [
-              "Zázvorové pivo Fever-Tree",
-              "Čerstvý rozmarýn a jalovec"
-            ],
-            "explanation": "U položky Ryzlink Vlašský je uvedeno: Pozdní sběr Milan Sůkal – Slovácko. Kompletní popis: pozdní sběr Milan Sůkal – Slovácko, Morava."
+            "id": "bile-ryzlink-vlassky-sukal-prod",
+            "question": "Ze které podoblasti a od jakého vinaře pochází Ryzlink Vlašský?",
+            "correctAnswer": "Milan Sůkal – Slovácko, Morava",
+            "distractors": ["Gotberg – Mikulovsko", "Bílkovi – Velkopavlovicko"],
+            "explanation": "Ryzlink Vlašský pochází od vinaře Milana Sůkala ze Slovácka na Moravě."
           },
           {
-            "id": "bile-ryzlink-vlassky-sukal-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Ryzlink Vlašský?",
-            "correctAnswer": "Morava",
-            "distractors": [
-              "Světlý ležák plzeňského typu",
-              "Jablečný mošt z rodinné farmy"
-            ],
-            "explanation": "U položky Ryzlink Vlašský je uvedeno: Morava. Kompletní popis: pozdní sběr Milan Sůkal – Slovácko, Morava."
+            "id": "bile-ryzlink-vlassky-sukal-type",
+            "question": "V jaké jakostní třídě je Ryzlink Vlašský Milana Sůkala?",
+            "correctAnswer": "pozdní sběr",
+            "distractors": ["kabinetní víno", "zemské víno"],
+            "explanation": "Ryzlink Vlašský Milana Sůkala je pozdní sběr."
           },
           {
-            "id": "bile-ryzlink-vlassky-sukal-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Ryzlink Vlašský?",
+            "id": "bile-ryzlink-vlassky-sukal-price",
+            "question": "Jaká je prodejní cena lahve Ryzlink Vlašský Milan Sůkal?",
+            "correctAnswer": "660 Kč",
+            "distractors": ["590 Kč", "720 Kč"],
+            "explanation": "Cena lahve Ryzlink Vlašský Milan Sůkal (0,75L) je 660 Kč."
+          },
+          {
+            "id": "bile-ryzlink-vlassky-sukal-allergen",
+            "question": "Který alergen obsahuje Ryzlink Vlašský Milan Sůkal?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Ryzlink Vlašský obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "distractors": ["Alergen č. 10 – Hořčice", "Alergen č. 11 – Sezam"],
+            "explanation": "Víno obsahuje alergen č. 12 – Oxid siřičitý a siřičitany."
           }
         ]
       },
       {
         "id": "bile-palava-michlovsky",
         "name": "Pálava",
-        "weight": "0,75l",
+        "weight": "0,75L",
         "price": "506 Kč",
-        "allergens": [
-          "12"
-        ],
+        "allergens": ["12"],
         "description": "pozdní sběr Vinselect Michlovský – Lednicko-Valtický areál, Morava",
+        "notes": "pozdní sběr Vinselect Michlovský – Lednicko-Valtický areál, Morava. Jemná vůně kvetoucích pomerančovníků a poupat růží, svěží chuť liči a jablečného závinu.",
         "questions": [
           {
             "id": "bile-palava-michlovsky-vol",
-            "question": "Jaký je servírovací objem / míra položky Pálava?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Pálava je 0,75l."
+            "question": "Jaký je objem lahve položky Pálava Vinselect Michlovský?",
+            "correctAnswer": "0,75L",
+            "distractors": ["0,5 l", "1,0 l"],
+            "explanation": "Objem lahve tiché Pálavy je 0,75L."
           },
           {
-            "id": "bile-palava-michlovsky-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Pálava?",
-            "correctAnswer": "Pozdní sběr Vinselect Michlovský – Lednicko-Valtický areál",
-            "distractors": [
-              "Italský aperitiv Campari",
-              "Černý sypaný čaj s bergamotem"
-            ],
-            "explanation": "U položky Pálava je uvedeno: Pozdní sběr Vinselect Michlovský – Lednicko-Valtický areál. Kompletní popis: pozdní sběr Vinselect Michlovský – Lednicko-Valtický areál, Morava."
+            "id": "bile-palava-michlovsky-reg",
+            "question": "Z jaké lokality Moravy pochází hrozny pro tuto Pálavu od Michlovského?",
+            "correctAnswer": "Lednicko-Valtický areál, Morava",
+            "distractors": ["Znojemská podoblast", "Mělnická oblast"],
+            "explanation": "Pálava pochází z Lednicko-Valtického areálu na Moravě."
           },
           {
-            "id": "bile-palava-michlovsky-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Pálava?",
-            "correctAnswer": "Morava",
-            "distractors": [
-              "Jasmínový zelený čaj",
-              "Belgické višňové pivo"
-            ],
-            "explanation": "U položky Pálava je uvedeno: Morava. Kompletní popis: pozdní sběr Vinselect Michlovský – Lednicko-Valtický areál, Morava."
+            "id": "bile-palava-michlovsky-prod",
+            "question": "Které vinařství vyrábí tuto tichou Pálavu v pozdním sběru?",
+            "correctAnswer": "Vinselect Michlovský",
+            "distractors": ["Gotberg", "Reisten"],
+            "explanation": "Vinařstvím je Vinselect Michlovský."
           },
           {
-            "id": "bile-palava-michlovsky-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Pálava?",
+            "id": "bile-palava-michlovsky-price",
+            "question": "Jaká je prodejní cena lahve Pálava Vinselect Michlovský?",
+            "correctAnswer": "506 Kč",
+            "distractors": ["450 Kč", "560 Kč"],
+            "explanation": "Cena lahve Pálava Vinselect Michlovský (0,75L) je 506 Kč."
+          },
+          {
+            "id": "bile-palava-michlovsky-allergen",
+            "question": "Který alergen obsahuje Pálava Vinselect Michlovský?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Pálava obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "distractors": ["Alergen č. 7 – Mléko", "Alergen č. 1 – Lepek"],
+            "explanation": "Víno obsahuje alergen č. 12 – Oxid siřičitý a siřičitany."
           }
         ]
       },
       {
         "id": "bile-poysdorfer-saurussel",
         "name": "Poysdorfer Saurüssel",
-        "weight": "0,75l",
+        "weight": "0,75L",
         "price": "629 Kč",
-        "allergens": [
-          "12"
-        ],
+        "allergens": ["12"],
         "description": "Veltlínské zelené, Hauser – Weinviertel, Rakousko",
+        "notes": "Weinviertel, Rakousko. Veltlínské zelené, vůně zeleného jablka, citrusové kůry a bílého pepře, jasná kyselinka a jemná mineralita.",
         "questions": [
           {
             "id": "bile-poysdorfer-saurussel-vol",
-            "question": "Jaký je servírovací objem / míra položky Poysdorfer Saurüssel?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Poysdorfer Saurüssel je 0,75l."
+            "question": "Jaký je objem lahve Poysdorfer Saurüssel?",
+            "correctAnswer": "0,75L",
+            "distractors": ["0,5 l", "1,0 l"],
+            "explanation": "Objem lahve Poysdorfer Saurüssel je 0,75L."
           },
           {
-            "id": "bile-poysdorfer-saurussel-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Poysdorfer Saurüssel?",
+            "id": "bile-poysdorfer-saurussel-grape",
+            "question": "Z jaké odrůdy je vyroben rakouský Poysdorfer Saurüssel?",
             "correctAnswer": "Veltlínské zelené",
-            "distractors": [
-              "Mučenkový likér a vanilka",
-              "Kávový likér Kahlúa"
-            ],
-            "explanation": "U položky Poysdorfer Saurüssel je uvedeno: Veltlínské zelené. Kompletní popis: Veltlínské zelené, Hauser – Weinviertel, Rakousko."
+            "distractors": ["Ryzlink rýnský", "Chardonnay"],
+            "explanation": "Poysdorfer Saurüssel je vyroben z odrůdy Veltlínské zelené (Grüner Veltliner)."
           },
           {
-            "id": "bile-poysdorfer-saurussel-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Poysdorfer Saurüssel?",
-            "correctAnswer": "Hauser – Weinviertel",
-            "distractors": [
-              "Zázvorové pivo Fever-Tree",
-              "Čerstvý rozmarýn a jalovec"
-            ],
-            "explanation": "U položky Poysdorfer Saurüssel je uvedeno: Hauser – Weinviertel. Kompletní popis: Veltlínské zelené, Hauser – Weinviertel, Rakousko."
+            "id": "bile-poysdorfer-saurussel-prod",
+            "question": "Které vinařství a z jaké oblasti vyrábí Poysdorfer Saurüssel?",
+            "correctAnswer": "Hauser – Weinviertel, Rakousko",
+            "distractors": ["Schwarzbock – Burgenland", "Kuhn – Pfalz"],
+            "explanation": "Vyrábí jej vinařství Hauser z rakouské oblasti Weinviertel."
           },
           {
-            "id": "bile-poysdorfer-saurussel-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Poysdorfer Saurüssel?",
+            "id": "bile-poysdorfer-saurussel-price",
+            "question": "Jaká je prodejní cena lahve Poysdorfer Saurüssel?",
+            "correctAnswer": "629 Kč",
+            "distractors": ["579 Kč", "689 Kč"],
+            "explanation": "Cena lahve Poysdorfer Saurüssel (0,75L) je 629 Kč."
+          },
+          {
+            "id": "bile-poysdorfer-saurussel-allergen",
+            "question": "Který alergen obsahuje Poysdorfer Saurüssel?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Poysdorfer Saurüssel obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "distractors": ["Alergen č. 9 – Celer", "Alergen č. 13 – Vlčí bob"],
+            "explanation": "Víno obsahuje alergen č. 12 – Oxid siřičitý a siřičitany."
           }
         ]
       },
       {
         "id": "bile-gruner-satzen-schwarzbock",
         "name": "Grüner Veltliner",
-        "weight": "0,75l",
+        "weight": "0,75L",
         "price": "723 Kč",
-        "allergens": [
-          "12"
-        ],
+        "allergens": ["12"],
         "description": "Premium Ried Satzen DAC Schwarzbock – Weinviertel, Rakousko",
+        "notes": "Premium Ried Satzen DAC Schwarzbock – Weinviertel, Rakousko. Sytá zlatavá barva, intenzivní vůně zralých hrušek a citrusů, dochuť elegantní, minerální, kořeněná pepřem.",
         "questions": [
           {
             "id": "bile-gruner-satzen-schwarzbock-vol",
-            "question": "Jaký je servírovací objem / míra položky Grüner Veltliner?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Grüner Veltliner je 0,75l."
+            "question": "Jaký je servírovací objem lahve Grüner Veltliner Schwarzbock?",
+            "correctAnswer": "0,75L",
+            "distractors": ["0,5 l", "1,0 l"],
+            "explanation": "Objem lahve je 0,75L."
           },
           {
-            "id": "bile-gruner-satzen-schwarzbock-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Grüner Veltliner?",
-            "correctAnswer": "Premium Ried Satzen DAC Schwarzbock – Weinviertel",
-            "distractors": [
-              "Vanilkový sirup a limetová šťáva",
-              "Třtinový cukr s limetkou"
-            ],
-            "explanation": "U položky Grüner Veltliner je uvedeno: Premium Ried Satzen DAC Schwarzbock – Weinviertel. Kompletní popis: Premium Ried Satzen DAC Schwarzbock – Weinviertel, Rakousko."
+            "id": "bile-gruner-satzen-schwarzbock-type",
+            "question": "Jaké označení viniční trati a apelace nese Grüner Veltliner od Schwarzbocka?",
+            "correctAnswer": "Premium Ried Satzen DAC",
+            "distractors": ["Klassik DAC", "Reserve Wachau"],
+            "explanation": "Jedná se o prémiový Veltlín z trati Ried Satzen DAC."
           },
           {
-            "id": "bile-gruner-satzen-schwarzbock-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Grüner Veltliner?",
-            "correctAnswer": "Rakousko",
-            "distractors": [
-              "Italský aperitiv Campari",
-              "Černý sypaný čaj s bergamotem"
-            ],
-            "explanation": "U položky Grüner Veltliner je uvedeno: Rakousko. Kompletní popis: Premium Ried Satzen DAC Schwarzbock – Weinviertel, Rakousko."
+            "id": "bile-gruner-satzen-schwarzbock-prod",
+            "question": "Které vinařství z Weinviertelu produkuje tento Grüner Veltliner?",
+            "correctAnswer": "Schwarzbock",
+            "distractors": ["Hauser", "Gunderloch"],
+            "explanation": "Producentem je rodinné vinařství Schwarzbock z Weinviertelu v Rakousku."
           },
           {
-            "id": "bile-gruner-satzen-schwarzbock-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Grüner Veltliner?",
+            "id": "bile-gruner-satzen-schwarzbock-price",
+            "question": "Jaká je prodejní cena lahve Grüner Veltliner Schwarzbock?",
+            "correctAnswer": "723 Kč",
+            "distractors": ["650 Kč", "790 Kč"],
+            "explanation": "Cena lahve Grüner Veltliner Schwarzbock (0,75L) je 723 Kč."
+          },
+          {
+            "id": "bile-gruner-satzen-schwarzbock-allergen",
+            "question": "Který alergen obsahuje Grüner Veltliner Schwarzbock?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Grüner Veltliner obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "distractors": ["Alergen č. 1 – Lepek", "Alergen č. 8 – Ořechy"],
+            "explanation": "Víno obsahuje alergen č. 12 – Oxid siřičitý a siřičitany."
           }
         ]
       },
       {
         "id": "bile-riesling-eva-fricke",
         "name": "Riesling Rheingau",
-        "weight": "0,75l",
+        "weight": "0,75L",
         "price": "999 Kč",
-        "allergens": [
-          "12"
-        ],
+        "allergens": ["12"],
         "description": "QbA Trocken Eva Fricke – Rheingau, Německo",
+        "notes": "Rheingau, Německo. Elegantní, aromatika limetky, zeleného jablka a bílých broskví, minerální podkres.",
         "questions": [
           {
             "id": "bile-riesling-eva-fricke-vol",
-            "question": "Jaký je servírovací objem / míra položky Riesling Rheingau?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Riesling Rheingau je 0,75l."
+            "question": "Jaký je objem lahve Riesling Rheingau Eva Fricke?",
+            "correctAnswer": "0,75L",
+            "distractors": ["0,5 l", "1,0 l"],
+            "explanation": "Objem lahve je 0,75L."
           },
           {
-            "id": "bile-riesling-eva-fricke-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Riesling Rheingau?",
-            "correctAnswer": "QbA Trocken Eva Fricke – Rheingau",
-            "distractors": [
-              "Limetová šťáva",
-              "Pomerančová kůra a hřebíček"
-            ],
-            "explanation": "U položky Riesling Rheingau je uvedeno: QbA Trocken Eva Fricke – Rheingau. Kompletní popis: QbA Trocken Eva Fricke – Rheingau, Německo."
+            "id": "bile-riesling-eva-fricke-type",
+            "question": "Jaké německé jakostní označení má Riesling od Evy Fricke?",
+            "correctAnswer": "QbA Trocken",
+            "distractors": ["Spätlese", "Auslese"],
+            "explanation": "Riesling Rheingau od Evy Fricke nese označení QbA Trocken."
           },
           {
-            "id": "bile-riesling-eva-fricke-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Riesling Rheingau?",
-            "correctAnswer": "Německo",
-            "distractors": [
-              "Mučenkový likér a vanilka",
-              "Kávový likér Kahlúa"
-            ],
-            "explanation": "U položky Riesling Rheingau je uvedeno: Německo. Kompletní popis: QbA Trocken Eva Fricke – Rheingau, Německo."
+            "id": "bile-riesling-eva-fricke-prod",
+            "question": "Ze které německé oblasti a od jaké kultovní vinařky toto víno pochází?",
+            "correctAnswer": "Eva Fricke – Rheingau, Německo",
+            "distractors": ["Fritz Haag – Mosel", "Philipp Kuhn – Pfalz"],
+            "explanation": "Pochází od vinařky Evy Fricke z prestižní oblasti Rheingau v Německu."
           },
           {
-            "id": "bile-riesling-eva-fricke-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Riesling Rheingau?",
+            "id": "bile-riesling-eva-fricke-price",
+            "question": "Jaká je prodejní cena lahve Riesling Rheingau Eva Fricke?",
+            "correctAnswer": "999 Kč",
+            "distractors": ["899 Kč", "1 099 Kč"],
+            "explanation": "Cena lahve Riesling Rheingau Eva Fricke (0,75L) je 999 Kč."
+          },
+          {
+            "id": "bile-riesling-eva-fricke-allergen",
+            "question": "Který alergen obsahuje Riesling Rheingau Eva Fricke?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Riesling Rheingau obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "distractors": ["Alergen č. 6 – Sója", "Alergen č. 14 – Měkkýši"],
+            "explanation": "Víno obsahuje alergen č. 12 – Oxid siřičitý a siřičitany."
           }
         ]
       },
       {
         "id": "bile-riesling-gunderloch-red-stone",
         "name": "Riesling",
-        "weight": "0,75l",
+        "weight": "0,75L",
         "price": "595 Kč",
-        "allergens": [
-          "12"
-        ],
+        "allergens": ["12"],
         "description": "Red Stone QbA trocken Gunderloch – Rheinhessen, Německo",
+        "notes": "Rheinhessen, Německo. Šťavnaté, vůně zralých citrusů, broskví a bylinek, minerální stopa červené břidlice, kořenitá dochuť.",
         "questions": [
           {
             "id": "bile-riesling-gunderloch-red-stone-vol",
-            "question": "Jaký je servírovací objem / míra položky Riesling?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Riesling je 0,75l."
+            "question": "Jaký je objem lahve Riesling Red Stone Gunderloch?",
+            "correctAnswer": "0,75L",
+            "distractors": ["0,5 l", "1,0 l"],
+            "explanation": "Objem lahve je 0,75L."
           },
           {
-            "id": "bile-riesling-gunderloch-red-stone-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Riesling?",
-            "correctAnswer": "Red Stone QbA trocken Gunderloch – Rheinhessen",
-            "distractors": [
-              "Mučenkový likér a vanilka",
-              "Kávový likér Kahlúa"
-            ],
-            "explanation": "U položky Riesling je uvedeno: Red Stone QbA trocken Gunderloch – Rheinhessen. Kompletní popis: Red Stone QbA trocken Gunderloch – Rheinhessen, Německo."
+            "id": "bile-riesling-gunderloch-red-stone-type",
+            "question": "Jaké přesné označení a trať nese Riesling od vinařství Gunderloch?",
+            "correctAnswer": "Red Stone QbA trocken",
+            "distractors": ["Tradition Brauneberg", "Kabinett trocken"],
+            "explanation": "Víno nese označení Red Stone QbA trocken (odkaz na červenou břidlici)."
           },
           {
-            "id": "bile-riesling-gunderloch-red-stone-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Riesling?",
-            "correctAnswer": "Německo",
-            "distractors": [
-              "Zázvorové pivo Fever-Tree",
-              "Čerstvý rozmarýn a jalovec"
-            ],
-            "explanation": "U položky Riesling je uvedeno: Německo. Kompletní popis: Red Stone QbA trocken Gunderloch – Rheinhessen, Německo."
+            "id": "bile-riesling-gunderloch-red-stone-prod",
+            "question": "Které vinařství a z jaké německé oblasti produkuje Riesling Red Stone?",
+            "correctAnswer": "Gunderloch – Rheinhessen, Německo",
+            "distractors": ["Eva Fricke – Rheingau", "Fritz Haag – Mosel"],
+            "explanation": "Producentem je Weingut Gunderloch z oblasti Rheinhessen v Německu."
           },
           {
-            "id": "bile-riesling-gunderloch-red-stone-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Riesling?",
+            "id": "bile-riesling-gunderloch-red-stone-price",
+            "question": "Jaká je prodejní cena lahve Riesling Red Stone Gunderloch?",
+            "correctAnswer": "595 Kč",
+            "distractors": ["545 Kč", "645 Kč"],
+            "explanation": "Cena lahve Riesling Red Stone Gunderloch (0,75L) je 595 Kč."
+          },
+          {
+            "id": "bile-riesling-gunderloch-red-stone-allergen",
+            "question": "Který alergen obsahuje Riesling Red Stone Gunderloch?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Riesling obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "distractors": ["Alergen č. 7 – Mléko", "Alergen č. 1 – Lepek"],
+            "explanation": "Víno obsahuje alergen č. 12 – Oxid siřičitý a siřičitany."
           }
         ]
       },
       {
         "id": "bile-riesling-fritz-haag",
         "name": "Riesling",
-        "weight": "0,75l",
+        "weight": "0,75L",
         "price": "975 Kč",
-        "allergens": [
-          "12"
-        ],
+        "allergens": ["12"],
         "description": "Tradition Brauneberg Fritz Haag – Mosel, Německo",
+        "notes": "Mosel, Německo. Zlatavá barva, intenzivní citrusová aromatika, chuť pikantní, harmonická, nádech akátového medu.",
         "questions": [
           {
             "id": "bile-riesling-fritz-haag-vol",
-            "question": "Jaký je servírovací objem / míra položky Riesling?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Riesling je 0,75l."
+            "question": "Jaký je objem lahve Riesling Fritz Haag?",
+            "correctAnswer": "0,75L",
+            "distractors": ["0,5 l", "1,0 l"],
+            "explanation": "Objem lahve je 0,75L."
           },
           {
-            "id": "bile-riesling-fritz-haag-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Riesling?",
-            "correctAnswer": "Tradition Brauneberg Fritz Haag – Mosel",
-            "distractors": [
-              "Limetová šťáva",
-              "Pomerančová kůra a hřebíček"
-            ],
-            "explanation": "U položky Riesling je uvedeno: Tradition Brauneberg Fritz Haag – Mosel. Kompletní popis: Tradition Brauneberg Fritz Haag – Mosel, Německo."
+            "id": "bile-riesling-fritz-haag-type",
+            "question": "Jak se jmenuje poloha / řada tohoto moselského ryzlinku od Fritze Haaga?",
+            "correctAnswer": "Tradition Brauneberg",
+            "distractors": ["Red Stone", "Ried Satzen"],
+            "explanation": "Víno nese označení Tradition Brauneberg."
           },
           {
-            "id": "bile-riesling-fritz-haag-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Riesling?",
-            "correctAnswer": "Německo",
-            "distractors": [
-              "Mučenkový likér a vanilka",
-              "Kávový likér Kahlúa"
-            ],
-            "explanation": "U položky Riesling je uvedeno: Německo. Kompletní popis: Tradition Brauneberg Fritz Haag – Mosel, Německo."
+            "id": "bile-riesling-fritz-haag-prod",
+            "question": "Které slavné německé vinařství z údolí Mosely toto víno vyrobilo?",
+            "correctAnswer": "Fritz Haag – Mosel, Německo",
+            "distractors": ["Eva Fricke – Rheingau", "Gunderloch – Rheinhessen"],
+            "explanation": "Pochází od legendárního moselského vinaře Fritz Haag."
           },
           {
-            "id": "bile-riesling-fritz-haag-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Riesling?",
+            "id": "bile-riesling-fritz-haag-price",
+            "question": "Jaká je prodejní cena lahve Riesling Tradition Brauneberg Fritz Haag?",
+            "correctAnswer": "975 Kč",
+            "distractors": ["875 Kč", "1 050 Kč"],
+            "explanation": "Cena lahve Riesling Fritz Haag (0,75L) je 975 Kč."
+          },
+          {
+            "id": "bile-riesling-fritz-haag-allergen",
+            "question": "Který alergen obsahuje Riesling Fritz Haag?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Riesling obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "distractors": ["Alergen č. 5 – Arašídy", "Alergen č. 8 – Ořechy"],
+            "explanation": "Víno obsahuje alergen č. 12 – Oxid siřičitý a siřičitany."
           }
         ]
       },
       {
         "id": "bile-weisser-burgunder-philipp-kuhn",
         "name": "Weisser Burgunder",
-        "weight": "0,75l",
+        "weight": "0,75L",
         "price": "725 Kč",
-        "allergens": [
-          "12"
-        ],
+        "allergens": ["12"],
         "description": "Rulandské bílé, Tradition Trocken Philipp Kuhn – Pfalz, Německo",
+        "notes": "Pfalz, Německo. Rulandské bílé, chuť pražených mandlí, sušených hrušek, vlašských ořechů a minerality.",
         "questions": [
           {
             "id": "bile-weisser-burgunder-philipp-kuhn-vol",
-            "question": "Jaký je servírovací objem / míra položky Weisser Burgunder?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Weisser Burgunder je 0,75l."
+            "question": "Jaký je objem lahve Weisser Burgunder Philipp Kuhn?",
+            "correctAnswer": "0,75L",
+            "distractors": ["0,5 l", "1,0 l"],
+            "explanation": "Objem lahve je 0,75L."
           },
           {
-            "id": "bile-weisser-burgunder-philipp-kuhn-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Weisser Burgunder?",
-            "correctAnswer": "Rulandské bílé",
-            "distractors": [
-              "Zázvorové pivo Fever-Tree",
-              "Čerstvý rozmarýn a jalovec"
-            ],
-            "explanation": "U položky Weisser Burgunder je uvedeno: Rulandské bílé. Kompletní popis: Rulandské bílé, Tradition Trocken Philipp Kuhn – Pfalz, Německo."
+            "id": "bile-weisser-burgunder-philipp-kuhn-grape",
+            "question": "O jakou odrůdu se jedná v případě Weisser Burgunder?",
+            "correctAnswer": "Rulandské bílé (Pinot Blanc)",
+            "distractors": ["Rulandské šedé", "Ryzlink rýnský"],
+            "explanation": "Weisser Burgunder je německý název pro odrůdu Rulandské bílé."
           },
           {
-            "id": "bile-weisser-burgunder-philipp-kuhn-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Weisser Burgunder?",
-            "correctAnswer": "Tradition Trocken Philipp Kuhn – Pfalz",
-            "distractors": [
-              "Světlý ležák plzeňského typu",
-              "Jablečný mošt z rodinné farmy"
-            ],
-            "explanation": "U položky Weisser Burgunder je uvedeno: Tradition Trocken Philipp Kuhn – Pfalz. Kompletní popis: Rulandské bílé, Tradition Trocken Philipp Kuhn – Pfalz, Německo."
+            "id": "bile-weisser-burgunder-philipp-kuhn-prod",
+            "question": "Které vinařství a z jaké oblasti v Německu vyrábí tento Weisser Burgunder?",
+            "correctAnswer": "Philipp Kuhn – Pfalz, Německo",
+            "distractors": ["Fritz Haag – Mosel", "Eva Fricke – Rheingau"],
+            "explanation": "Pochází od vinařství Philipp Kuhn z oblasti Pfalz v Německu."
           },
           {
-            "id": "bile-weisser-burgunder-philipp-kuhn-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Weisser Burgunder?",
+            "id": "bile-weisser-burgunder-philipp-kuhn-type",
+            "question": "Jaké označení nese Weisser Burgunder Philipp Kuhn?",
+            "correctAnswer": "Tradition Trocken",
+            "distractors": ["Kabinett", "Spätlese"],
+            "explanation": "Nese označení Tradition Trocken."
+          },
+          {
+            "id": "bile-weisser-burgunder-philipp-kuhn-price",
+            "question": "Jaká je prodejní cena lahve Weisser Burgunder Philipp Kuhn?",
+            "correctAnswer": "725 Kč",
+            "distractors": ["650 Kč", "795 Kč"],
+            "explanation": "Cena lahve Weisser Burgunder Philipp Kuhn (0,75L) je 725 Kč."
+          },
+          {
+            "id": "bile-weisser-burgunder-philipp-kuhn-allergen",
+            "question": "Který alergen obsahuje Weisser Burgunder Philipp Kuhn?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Weisser Burgunder obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "distractors": ["Alergen č. 11 – Sezam", "Alergen č. 4 – Ryby"],
+            "explanation": "Víno obsahuje alergen č. 12 – Oxid siřičitý a siřičitany."
           }
         ]
       },
       {
         "id": "bile-sauvignon-lapis-luna",
         "name": "Sauvignon Blanc",
-        "weight": "0,75l",
+        "weight": "0,75L",
         "price": "789 Kč",
-        "allergens": [
-          "12"
-        ],
-        "description": "Lapis Luna - North Coast, Kalifornie",
+        "allergens": ["12"],
+        "description": "Lapis Luna – North Coast, Kalifornie",
+        "notes": "North Coast, Kalifornie. Plnější, pikantní kyselinka, ovocný styl odrůdy, zralá bílá broskev a tropické ovoce v chuti.",
         "questions": [
           {
             "id": "bile-sauvignon-lapis-luna-vol",
-            "question": "Jaký je servírovací objem / míra položky Sauvignon Blanc?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Sauvignon Blanc je 0,75l."
+            "question": "Jaký je objem lahve Sauvignon Blanc Lapis Luna?",
+            "correctAnswer": "0,75L",
+            "distractors": ["0,5 l", "1,0 l"],
+            "explanation": "Objem lahve je 0,75L."
           },
           {
-            "id": "bile-sauvignon-lapis-luna-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Sauvignon Blanc?",
-            "correctAnswer": "Lapis Luna - North Coast",
-            "distractors": [
-              "Mučenkový likér a vanilka",
-              "Kávový likér Kahlúa"
-            ],
-            "explanation": "U položky Sauvignon Blanc je uvedeno: Lapis Luna - North Coast. Kompletní popis: Lapis Luna - North Coast, Kalifornie."
+            "id": "bile-sauvignon-lapis-luna-prod",
+            "question": "Které kalifornské vinařství stojí za tímto Sauvignon Blanc?",
+            "correctAnswer": "Lapis Luna",
+            "distractors": ["Knotty Vines", "Angels & Cowboys"],
+            "explanation": "Producentem je kalifornské vinařství Lapis Luna."
           },
           {
-            "id": "bile-sauvignon-lapis-luna-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Sauvignon Blanc?",
-            "correctAnswer": "Kalifornie",
-            "distractors": [
-              "Zázvorové pivo Fever-Tree",
-              "Čerstvý rozmarýn a jalovec"
-            ],
-            "explanation": "U položky Sauvignon Blanc je uvedeno: Kalifornie. Kompletní popis: Lapis Luna - North Coast, Kalifornie."
+            "id": "bile-sauvignon-lapis-luna-reg",
+            "question": "Ze které americké vinařské oblasti pochází Sauvignon Blanc Lapis Luna?",
+            "correctAnswer": "North Coast, Kalifornie",
+            "distractors": ["Central Valley, Washington", "Columbia Valley, Oregon"],
+            "explanation": "Pochází z oblasti North Coast v Kalifornii (USA)."
           },
           {
-            "id": "bile-sauvignon-lapis-luna-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Sauvignon Blanc?",
+            "id": "bile-sauvignon-lapis-luna-price",
+            "question": "Jaká je prodejní cena lahve Sauvignon Blanc Lapis Luna?",
+            "correctAnswer": "789 Kč",
+            "distractors": ["729 Kč", "849 Kč"],
+            "explanation": "Cena lahve Sauvignon Blanc Lapis Luna (0,75L) je 789 Kč."
+          },
+          {
+            "id": "bile-sauvignon-lapis-luna-allergen",
+            "question": "Který alergen obsahuje Sauvignon Blanc Lapis Luna?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Sauvignon Blanc obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "distractors": ["Alergen č. 1 – Lepek", "Alergen č. 7 – Mléko"],
+            "explanation": "Víno obsahuje alergen č. 12 – Oxid siřičitý a siřičitany."
           }
         ]
       },
       {
         "id": "bile-chardonnay-knotty-vines",
         "name": "Chardonnay",
-        "weight": "0,75l",
+        "weight": "0,75L",
         "price": "975 Kč",
-        "allergens": [
-          "12"
-        ],
+        "allergens": ["12"],
         "description": "Knotty Vines – Kalifornie",
+        "notes": "Kalifornie. Plnější na dubových sudech, šťavnaté, elegantní závěr, chuť tropického ovoce, koření a mineralita.",
         "questions": [
           {
             "id": "bile-chardonnay-knotty-vines-vol",
-            "question": "Jaký je servírovací objem / míra položky Chardonnay?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0,5 l",
-              "1,0 l"
-            ],
-            "explanation": "Servírovací míra / objem položky Chardonnay je 0,75l."
+            "question": "Jaký je objem lahve Chardonnay Knotty Vines?",
+            "correctAnswer": "0,75L",
+            "distractors": ["0,5 l", "1,0 l"],
+            "explanation": "Objem lahve je 0,75L."
           },
           {
-            "id": "bile-chardonnay-knotty-vines-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Chardonnay?",
-            "correctAnswer": "Knotty Vines – Kalifornie",
-            "distractors": [
-              "Čerstvý grepový fresh",
-              "Bezinkový sirup a čerstvá máta"
-            ],
-            "explanation": "U položky Chardonnay je uvedeno: Knotty Vines – Kalifornie. Kompletní popis: Knotty Vines – Kalifornie."
+            "id": "bile-chardonnay-knotty-vines-prod",
+            "question": "Které vinařství produkuje naše kalifornské Chardonnay?",
+            "correctAnswer": "Knotty Vines",
+            "distractors": ["Lapis Luna", "Hendry Ranch"],
+            "explanation": "Víno pochází z kalifornského vinařství Knotty Vines."
           },
           {
-            "id": "bile-chardonnay-knotty-vines-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Chardonnay?",
+            "id": "bile-chardonnay-knotty-vines-reg",
+            "question": "Ze kterého státu USA pochází Chardonnay Knotty Vines?",
+            "correctAnswer": "Kalifornie",
+            "distractors": ["Oregon", "Washington"],
+            "explanation": "Chardonnay Knotty Vines pochází ze slunné Kalifornie."
+          },
+          {
+            "id": "bile-chardonnay-knotty-vines-price",
+            "question": "Jaká je prodejní cena lahve Chardonnay Knotty Vines?",
+            "correctAnswer": "975 Kč",
+            "distractors": ["875 Kč", "1 050 Kč"],
+            "explanation": "Cena lahve Chardonnay Knotty Vines (0,75L) je 975 Kč."
+          },
+          {
+            "id": "bile-chardonnay-knotty-vines-allergen",
+            "question": "Který alergen obsahuje Chardonnay Knotty Vines?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
-            "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
-            ],
-            "explanation": "Chardonnay obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "distractors": ["Alergen č. 6 – Sója", "Alergen č. 3 – Vejce"],
+            "explanation": "Víno obsahuje alergen č. 12 – Oxid siřičitý a siřičitany."
           }
         ]
       }
@@ -10102,58 +7052,79 @@ export const MENU_CATEGORIES: MenuCategory[] = [
     "id": "ruzova-vina",
     "name": "Růžová vína",
     "badge": "Růžová vína",
-    "description": "Svěží moravské růžové víno s ovocnými tóny",
+    "description": "Výběr moravských růžových vín s podmanivou ovocnou svěžestí",
     "iconName": "Wine",
     "items": [
       {
         "id": "ruzove-merlot-rose-bilkovi",
         "name": "Merlot Rosé",
-        "weight": "0,75l",
+        "weight": "0,75L",
         "price": "405 Kč",
         "allergens": [
           "12"
         ],
         "description": "pozdní sběr Bílkovi – Velkopavlovicko, Morava",
+        "notes": "pozdní sběr Bílkovi – Velkopavlovicko, Morava. Svěží růžové víno s tóny lesních jahod, malin a jemné smetanovosti s harmonickou kyselinkou.",
         "questions": [
           {
             "id": "ruzove-merlot-rose-bilkovi-vol",
-            "question": "Jaký je servírovací objem / míra položky Merlot Rosé?",
-            "correctAnswer": "0,75l",
+            "question": "Jaký je servírovací objem lahve Merlot Rosé od Bílkových?",
+            "correctAnswer": "0,75L",
             "distractors": [
               "0,5 l",
               "1,0 l"
             ],
-            "explanation": "Servírovací míra / objem položky Merlot Rosé je 0,75l."
+            "explanation": "Servírovací objem lahve Merlot Rosé je 0,75L."
           },
           {
-            "id": "ruzove-merlot-rose-bilkovi-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Merlot Rosé?",
-            "correctAnswer": "Pozdní sběr Bílkovi – Velkopavlovicko",
+            "id": "ruzove-merlot-rose-bilkovi-type",
+            "question": "Jaký přívlastek má víno Merlot Rosé od vinařství Bílkovi?",
+            "correctAnswer": "pozdní sběr",
             "distractors": [
-              "Zázvorové pivo Fever-Tree",
-              "Čerstvý rozmarýn a jalovec"
+              "kabinetní víno",
+              "výběr z hroznů"
             ],
-            "explanation": "U položky Merlot Rosé je uvedeno: Pozdní sběr Bílkovi – Velkopavlovicko. Kompletní popis: pozdní sběr Bílkovi – Velkopavlovicko, Morava."
+            "explanation": "Merlot Rosé od Bílkových je zatříděn v kategorii pozdní sběr."
           },
           {
-            "id": "ruzove-merlot-rose-bilkovi-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Merlot Rosé?",
-            "correctAnswer": "Morava",
+            "id": "ruzove-merlot-rose-bilkovi-prod",
+            "question": "Které vinařství a z jaké oblasti vyrábí toto růžové víno?",
+            "correctAnswer": "Bílkovi – Velkopavlovicko, Morava",
             "distractors": [
-              "Světlý ležák plzeňského typu",
-              "Jablečný mošt z rodinné farmy"
+              "Gotberg – Pálava",
+              "Kolby – Mikulovsko"
             ],
-            "explanation": "U položky Merlot Rosé je uvedeno: Morava. Kompletní popis: pozdní sběr Bílkovi – Velkopavlovicko, Morava."
+            "explanation": "Víno pochází z rodinného vinařství Bílkovi z Velkopavlovicka na Moravě."
           },
           {
-            "id": "ruzove-merlot-rose-bilkovi-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Merlot Rosé?",
+            "id": "ruzove-merlot-rose-bilkovi-price",
+            "question": "Jaká je prodejní cena lahve Merlot Rosé Bílkovi?",
+            "correctAnswer": "405 Kč",
+            "distractors": [
+              "465 Kč",
+              "365 Kč"
+            ],
+            "explanation": "Cena lahve Merlot Rosé (0,75L) je 405 Kč."
+          },
+          {
+            "id": "ruzove-merlot-rose-bilkovi-variety",
+            "question": "Ze které modré odrůdy je vyrobeno toto růžové víno od vinařství Bílkovi?",
+            "correctAnswer": "Merlot",
+            "distractors": [
+              "Frankovka",
+              "Zweigelt"
+            ],
+            "explanation": "Víno je vyrobeno z odrůdy Merlot šetrným lisováním pro růžové víno."
+          },
+          {
+            "id": "ruzove-merlot-rose-bilkovi-allergen",
+            "question": "Který alergen obsahuje víno Merlot Rosé?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+              "Alergen č. 1 – Lepek",
+              "Alergen č. 7 – Mléko"
             ],
-            "explanation": "Merlot Rosé obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "explanation": "Víno obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
           }
         ]
       }
@@ -10163,422 +7134,490 @@ export const MENU_CATEGORIES: MenuCategory[] = [
     "id": "cervena-vina",
     "name": "Červená vína",
     "badge": "Červená vína",
-    "description": "Plná a elegantní červená vína z Čech, Moravy, Rakouska, Německa i Kalifornie",
+    "description": "Výběr lahvových červených vín z Čech, Moravy, Rakouska, Německa a Kalifornie",
     "iconName": "Wine",
     "items": [
       {
-        "id": "cervene-pinot-noir-rouci-kraus",
+        "id": "cervene-pinot-noir-kraus",
         "name": "Pinot Noir",
-        "weight": "0,75l",
+        "weight": "0,75L",
         "price": "425 Kč",
         "allergens": [
           "12"
         ],
         "description": "Roučí Malé Kraus – Mělnicko, Čechy",
+        "notes": "Roučí Malé Kraus – Mělnicko, Čechy. Elegantní tóny třešní, lesního ovoce a jemná tříslovina.",
         "questions": [
           {
-            "id": "cervene-pinot-noir-rouci-kraus-vol",
-            "question": "Jaký je servírovací objem / míra položky Pinot Noir?",
-            "correctAnswer": "0,75l",
+            "id": "cervene-pinot-noir-kraus-vol",
+            "question": "Jaký je servírovací objem lahve Pinot Noir Roučí Malé Kraus?",
+            "correctAnswer": "0,75L",
             "distractors": [
               "0,5 l",
               "1,0 l"
             ],
-            "explanation": "Servírovací míra / objem položky Pinot Noir je 0,75l."
+            "explanation": "Servírovací objem lahve je 0,75L."
           },
           {
-            "id": "cervene-pinot-noir-rouci-kraus-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Pinot Noir?",
-            "correctAnswer": "Roučí Malé Kraus – Mělnicko",
+            "id": "cervene-pinot-noir-kraus-prod",
+            "question": "Které vinařství a z jaké oblasti produkuje tento Pinot Noir?",
+            "correctAnswer": "Roučí Malé Kraus – Mělnicko, Čechy",
             "distractors": [
-              "Vanilkový sirup a limetová šťáva",
-              "Třtinový cukr s limetkou"
+              "Vinařství Gotberg – Pálava",
+              "Kolby – Pouzdřany"
             ],
-            "explanation": "U položky Pinot Noir je uvedeno: Roučí Malé Kraus – Mělnicko. Kompletní popis: Roučí Malé Kraus – Mělnicko, Čechy."
+            "explanation": "Víno pochází z vinařství Roučí Malé Kraus na Mělnicku v Čechách."
           },
           {
-            "id": "cervene-pinot-noir-rouci-kraus-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Pinot Noir?",
-            "correctAnswer": "Čechy",
+            "id": "cervene-pinot-noir-kraus-price",
+            "question": "Jaká je prodejní cena lahve Pinot Noir Roučí Malé Kraus?",
+            "correctAnswer": "425 Kč",
             "distractors": [
-              "Italský aperitiv Campari",
-              "Černý sypaný čaj s bergamotem"
+              "495 Kč",
+              "380 Kč"
             ],
-            "explanation": "U položky Pinot Noir je uvedeno: Čechy. Kompletní popis: Roučí Malé Kraus – Mělnicko, Čechy."
+            "explanation": "Cena lahve Pinot Noir Roučí Malé Kraus je 425 Kč."
           },
           {
-            "id": "cervene-pinot-noir-rouci-kraus-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Pinot Noir?",
+            "id": "cervene-pinot-noir-kraus-allergen",
+            "question": "Který alergen obsahuje Pinot Noir Roučí Malé Kraus?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+              "Alergen č. 1 – Lepek",
+              "Alergen č. 7 – Mléko"
             ],
-            "explanation": "Pinot Noir obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "explanation": "Víno obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
           }
         ]
       },
       {
         "id": "cervene-dornfelder-bilkovi",
         "name": "Dornfelder",
-        "weight": "0,75l",
+        "weight": "0,75L",
         "price": "419 Kč",
         "allergens": [
           "12"
         ],
-        "description": "Bílkovi - Velkopavlovicko, Morava",
+        "description": "Bílkovi – Velkopavlovicko, Morava",
+        "notes": "Bílkovi – Velkopavlovicko, Morava. Tmavá granátová barva, aroma zralých ostružin, černého rybízu a povidel, sametová chuť.",
         "questions": [
           {
             "id": "cervene-dornfelder-bilkovi-vol",
-            "question": "Jaký je servírovací objem / míra položky Dornfelder?",
-            "correctAnswer": "0,75l",
+            "question": "Jaký je servírovací objem lahve Dornfelder od Bílkových?",
+            "correctAnswer": "0,75L",
             "distractors": [
               "0,5 l",
               "1,0 l"
             ],
-            "explanation": "Servírovací míra / objem položky Dornfelder je 0,75l."
+            "explanation": "Servírovací objem položky Dornfelder je 0,75L."
           },
           {
-            "id": "cervene-dornfelder-bilkovi-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Dornfelder?",
-            "correctAnswer": "Bílkovi - Velkopavlovicko",
+            "id": "cervene-dornfelder-bilkovi-prod",
+            "question": "Které vinařství a z jaké moravské podoblasti produkuje tento Dornfelder?",
+            "correctAnswer": "Bílkovi – Velkopavlovicko, Morava",
             "distractors": [
-              "Zázvorové pivo Fever-Tree",
-              "Čerstvý rozmarýn a jalovec"
+              "Reisten – Mikulovsko",
+              "Sůkal – Slovácko"
             ],
-            "explanation": "U položky Dornfelder je uvedeno: Bílkovi - Velkopavlovicko. Kompletní popis: Bílkovi - Velkopavlovicko, Morava."
+            "explanation": "Dornfelder produkuje rodinné vinařství Bílkovi z Velkopavlovicka na Moravě."
           },
           {
-            "id": "cervene-dornfelder-bilkovi-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Dornfelder?",
-            "correctAnswer": "Morava",
+            "id": "cervene-dornfelder-bilkovi-price",
+            "question": "Jaká je prodejní cena lahve Dornfelder Bílkovi?",
+            "correctAnswer": "419 Kč",
             "distractors": [
-              "Světlý ležák plzeňského typu",
-              "Jablečný mošt z rodinné farmy"
+              "469 Kč",
+              "379 Kč"
             ],
-            "explanation": "U položky Dornfelder je uvedeno: Morava. Kompletní popis: Bílkovi - Velkopavlovicko, Morava."
+            "explanation": "Cena lahve Dornfelder od Bílkových je 419 Kč."
           },
           {
-            "id": "cervene-dornfelder-bilkovi-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Dornfelder?",
+            "id": "cervene-dornfelder-bilkovi-allergen",
+            "question": "Který alergen obsahuje Dornfelder Bílkovi?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+              "Alergen č. 6 – Sója",
+              "Alergen č. 3 – Vejce"
             ],
-            "explanation": "Dornfelder obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "explanation": "Víno obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
           }
         ]
       },
       {
         "id": "cervene-cuvee-red-kolby",
-        "name": "Cuvée Red (Cabernet Sauvignon, Merlot)",
-        "weight": "0,75l",
+        "name": "Cuvée Red",
+        "weight": "0,75L",
         "price": "649 Kč",
         "allergens": [
           "12"
         ],
-        "description": "Kolby – Mikulovsko, Morava",
+        "description": "(Cabernet Sauvignon, Merlot) Kolby – Mikulovsko, Morava",
+        "notes": "(Cabernet Sauvignon, Merlot) Kolby – Mikulovsko, Morava. Harmonická kupáž s tóny tmavého lesního ovoce, čokolády a ušlechtilého dřeva.",
         "questions": [
           {
             "id": "cervene-cuvee-red-kolby-vol",
-            "question": "Jaký je servírovací objem / míra položky Cuvée Red (Cabernet Sauvignon, Merlot)?",
-            "correctAnswer": "0,75l",
+            "question": "Jaký je servírovací objem položky Cuvée Red Kolby?",
+            "correctAnswer": "0,75L",
             "distractors": [
               "0,5 l",
               "1,0 l"
             ],
-            "explanation": "Servírovací míra / objem položky Cuvée Red (Cabernet Sauvignon, Merlot) je 0,75l."
+            "explanation": "Servírovací objem lahve Cuvée Red Kolby je 0,75L."
           },
           {
-            "id": "cervene-cuvee-red-kolby-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Cuvée Red (Cabernet Sauvignon, Merlot)?",
-            "correctAnswer": "Kolby – Mikulovsko",
+            "id": "cervene-cuvee-red-kolby-grapes",
+            "question": "Ze kterých dvou odrůd je složeno víno Cuvée Red Kolby?",
+            "correctAnswer": "Cabernet Sauvignon a Merlot",
             "distractors": [
-              "Jasmínový zelený čaj",
-              "Belgické višňové pivo"
+              "Frankovka a Zweigelt",
+              "Pinot Noir a Dornfelder"
             ],
-            "explanation": "U položky Cuvée Red (Cabernet Sauvignon, Merlot) je uvedeno: Kolby – Mikulovsko. Kompletní popis: Kolby – Mikulovsko, Morava."
+            "explanation": "Cuvée Red z vinařství Kolby je kupáží odrůd Cabernet Sauvignon a Merlot."
           },
           {
-            "id": "cervene-cuvee-red-kolby-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Cuvée Red (Cabernet Sauvignon, Merlot)?",
-            "correctAnswer": "Morava",
+            "id": "cervene-cuvee-red-kolby-prod",
+            "question": "Které vinařství z Mikulovska připravuje toto Cuvée Red?",
+            "correctAnswer": "Kolby – Mikulovsko, Morava",
             "distractors": [
-              "Limetová šťáva",
-              "Pomerančová kůra a hřebíček"
+              "Gotberg – Pálava",
+              "Bílkovi – Velkopavlovicko"
             ],
-            "explanation": "U položky Cuvée Red (Cabernet Sauvignon, Merlot) je uvedeno: Morava. Kompletní popis: Kolby – Mikulovsko, Morava."
+            "explanation": "Cuvée Red vyrábí vinařství Kolby v Pouzdřanech na Mikulovsku."
           },
           {
-            "id": "cervene-cuvee-red-kolby-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Cuvée Red (Cabernet Sauvignon, Merlot)?",
+            "id": "cervene-cuvee-red-kolby-price",
+            "question": "Jaká je prodejní cena lahve Cuvée Red Kolby?",
+            "correctAnswer": "649 Kč",
+            "distractors": [
+              "599 Kč",
+              "720 Kč"
+            ],
+            "explanation": "Cena lahve Cuvée Red Kolby je 649 Kč."
+          },
+          {
+            "id": "cervene-cuvee-red-kolby-allergen",
+            "question": "Který alergen obsahuje víno Cuvée Red Kolby?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+              "Alergen č. 5 – Arašídy",
+              "Alergen č. 1 – Lepek"
             ],
-            "explanation": "Cuvée Red (Cabernet Sauvignon, Merlot) obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "explanation": "Víno obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
           }
         ]
       },
       {
         "id": "cervene-nina-cuvee-bilkovi",
-        "name": "Nina Cuvée (Merlo, Frankovka)",
-        "weight": "0,75l",
+        "name": "Nina Cuvée",
+        "weight": "0,75L",
         "price": "699 Kč",
         "allergens": [
           "12"
         ],
-        "description": "Bílkovi – Velkopavlovicko, Morava",
+        "description": "(Merlot, Frankovka) Bílkovi – Velkopavlovicko, Morava",
+        "notes": "(Merlot, Frankovka) Bílkovi – Velkopavlovicko, Morava. Šťavnaté cuvée s tóny zralých třešní, moruší a jemného koření.",
         "questions": [
           {
             "id": "cervene-nina-cuvee-bilkovi-vol",
-            "question": "Jaký je servírovací objem / míra položky Nina Cuvée (Merlo, Frankovka)?",
-            "correctAnswer": "0,75l",
+            "question": "Jaký je servírovací objem lahve Nina Cuvée od Bílkových?",
+            "correctAnswer": "0,75L",
             "distractors": [
               "0,5 l",
               "1,0 l"
             ],
-            "explanation": "Servírovací míra / objem položky Nina Cuvée (Merlo, Frankovka) je 0,75l."
+            "explanation": "Servírovací objem položky Nina Cuvée je 0,75L."
           },
           {
-            "id": "cervene-nina-cuvee-bilkovi-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Nina Cuvée (Merlo, Frankovka)?",
-            "correctAnswer": "Bílkovi – Velkopavlovicko",
+            "id": "cervene-nina-cuvee-bilkovi-grapes",
+            "question": "Jaké dvě odrůdy tvoří kupáž Nina Cuvée od vinařství Bílkovi?",
+            "correctAnswer": "Merlot a Frankovka",
             "distractors": [
-              "Zázvorové pivo Fever-Tree",
-              "Čerstvý rozmarýn a jalovec"
+              "Cabernet Sauvignon a Pinot Noir",
+              "Dornfelder a Svatovavřinecké"
             ],
-            "explanation": "U položky Nina Cuvée (Merlo, Frankovka) je uvedeno: Bílkovi – Velkopavlovicko. Kompletní popis: Bílkovi – Velkopavlovicko, Morava."
+            "explanation": "Nina Cuvée je harmonická kupáž odrůd Merlot a Frankovka."
           },
           {
-            "id": "cervene-nina-cuvee-bilkovi-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Nina Cuvée (Merlo, Frankovka)?",
-            "correctAnswer": "Morava",
+            "id": "cervene-nina-cuvee-bilkovi-prod",
+            "question": "Které vinařství a z jaké oblasti produkuje Nina Cuvée?",
+            "correctAnswer": "Bílkovi – Velkopavlovicko, Morava",
             "distractors": [
-              "Světlý ležák plzeňského typu",
-              "Jablečný mošt z rodinné farmy"
+              "Kolby – Mikulovsko",
+              "Kraus – Mělnicko"
             ],
-            "explanation": "U položky Nina Cuvée (Merlo, Frankovka) je uvedeno: Morava. Kompletní popis: Bílkovi – Velkopavlovicko, Morava."
+            "explanation": "Nina Cuvée pochází z rodinného vinařství Bílkovi na Velkopavlovicku."
           },
           {
-            "id": "cervene-nina-cuvee-bilkovi-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Nina Cuvée (Merlo, Frankovka)?",
+            "id": "cervene-nina-cuvee-bilkovi-price",
+            "question": "Jaká je prodejní cena lahve Nina Cuvée Bílkovi?",
+            "correctAnswer": "699 Kč",
+            "distractors": [
+              "629 Kč",
+              "789 Kč"
+            ],
+            "explanation": "Cena lahve Nina Cuvée Bílkovi je 699 Kč."
+          },
+          {
+            "id": "cervene-nina-cuvee-bilkovi-allergen",
+            "question": "Který alergen obsahuje víno Nina Cuvée?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+              "Alergen č. 7 – Mléko",
+              "Alergen č. 9 – Celer"
             ],
-            "explanation": "Nina Cuvée (Merlo, Frankovka) obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "explanation": "Víno obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
           }
         ]
       },
       {
-        "id": "cervene-zweigelt-feller-artinger",
+        "id": "cervene-zweigelt-feiler-artinger",
         "name": "Zweigelt",
-        "weight": "0,75l",
+        "weight": "0,75L",
         "price": "660 Kč",
         "allergens": [
           "12"
         ],
         "description": "Weingut Feiler-Artinger – Burgenland, Rakousko",
+        "notes": "Weingut Feiler-Artinger – Burgenland, Rakousko. Klasický rakouský Zweigelt s tóny černých višní, pepře a měkkou tříslovinou.",
         "questions": [
           {
-            "id": "cervene-zweigelt-feller-artinger-vol",
-            "question": "Jaký je servírovací objem / míra položky Zweigelt?",
-            "correctAnswer": "0,75l",
+            "id": "cervene-zweigelt-feiler-artinger-vol",
+            "question": "Jaký je servírovací objem položky Zweigelt Weingut Feiler-Artinger?",
+            "correctAnswer": "0,75L",
             "distractors": [
               "0,5 l",
               "1,0 l"
             ],
-            "explanation": "Servírovací míra / objem položky Zweigelt je 0,75l."
+            "explanation": "Servírovací objem lahve je 0,75L."
           },
           {
-            "id": "cervene-zweigelt-feller-artinger-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Zweigelt?",
-            "correctAnswer": "Weingut Feiler-Artinger – Burgenland",
+            "id": "cervene-zweigelt-feiler-artinger-prod",
+            "question": "Ze které země a regionu pochází vinařství Feiler-Artinger?",
+            "correctAnswer": "Burgenland, Rakousko",
             "distractors": [
-              "Jasmínový zelený čaj",
-              "Belgické višňové pivo"
+              "Weinviertel, Rakousko",
+              "Pfalz, Německo"
             ],
-            "explanation": "U položky Zweigelt je uvedeno: Weingut Feiler-Artinger – Burgenland. Kompletní popis: Weingut Feiler-Artinger – Burgenland, Rakousko."
+            "explanation": "Weingut Feiler-Artinger sídlí v rakouské vinařské oblasti Burgenland."
           },
           {
-            "id": "cervene-zweigelt-feller-artinger-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Zweigelt?",
-            "correctAnswer": "Rakousko",
+            "id": "cervene-zweigelt-feiler-artinger-price",
+            "question": "Jaká je prodejní cena lahve Zweigelt Feiler-Artinger?",
+            "correctAnswer": "660 Kč",
             "distractors": [
-              "Limetová šťáva",
-              "Pomerančová kůra a hřebíček"
+              "590 Kč",
+              "720 Kč"
             ],
-            "explanation": "U položky Zweigelt je uvedeno: Rakousko. Kompletní popis: Weingut Feiler-Artinger – Burgenland, Rakousko."
+            "explanation": "Cena lahve Zweigelt Feiler-Artinger je 660 Kč."
           },
           {
-            "id": "cervene-zweigelt-feller-artinger-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Zweigelt?",
+            "id": "cervene-zweigelt-feiler-artinger-variety",
+            "question": "O jakou typickou rakouskou odrůdu se jedná u tohoto červeného vína?",
+            "correctAnswer": "Zweigelt",
+            "distractors": [
+              "Blaufränkisch",
+              "St. Laurent"
+            ],
+            "explanation": "Jedná se o tradiční odrůdu Zweigelt (Zweigeltrebe)."
+          },
+          {
+            "id": "cervene-zweigelt-feiler-artinger-allergen",
+            "question": "Který alergen obsahuje Zweigelt Feiler-Artinger?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+              "Alergen č. 2 – Korýši",
+              "Alergen č. 1 – Lepek"
             ],
-            "explanation": "Zweigelt obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "explanation": "Víno obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
           }
         ]
       },
       {
-        "id": "cervene-pinot-noir-philipp-kuhn",
+        "id": "cervene-pinot-noir-kuhn",
         "name": "Pinot Noir",
-        "weight": "0,75l",
+        "weight": "0,75L",
         "price": "959 Kč",
         "allergens": [
           "12"
         ],
         "description": "Tradition Philip Kuhn – Pfalz, Německo",
+        "notes": "Tradition Philip Kuhn – Pfalz, Německo. Špičkový německý Spätburgunder s tóny divokých malin, kouře, koření a ušlechtilého dřeva.",
         "questions": [
           {
-            "id": "cervene-pinot-noir-philipp-kuhn-vol",
-            "question": "Jaký je servírovací objem / míra položky Pinot Noir?",
-            "correctAnswer": "0,75l",
+            "id": "cervene-pinot-noir-kuhn-vol",
+            "question": "Jaký je servírovací objem lahve německého Pinot Noir Philip Kuhn?",
+            "correctAnswer": "0,75L",
             "distractors": [
               "0,5 l",
               "1,0 l"
             ],
-            "explanation": "Servírovací míra / objem položky Pinot Noir je 0,75l."
+            "explanation": "Servírovací objem lahve je 0,75L."
           },
           {
-            "id": "cervene-pinot-noir-philipp-kuhn-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Pinot Noir?",
-            "correctAnswer": "Tradition Philip Kuhn – Pfalz",
+            "id": "cervene-pinot-noir-kuhn-type",
+            "question": "Jakou edici / typ představuje tento Pinot Noir od Philipa Kuhna?",
+            "correctAnswer": "Tradition",
             "distractors": [
-              "Italský aperitiv Campari",
-              "Černý sypaný čaj s bergamotem"
+              "Reserve",
+              "Grand Cru"
             ],
-            "explanation": "U položky Pinot Noir je uvedeno: Tradition Philip Kuhn – Pfalz. Kompletní popis: Tradition Philip Kuhn – Pfalz, Německo."
+            "explanation": "Pinot Noir od Philipa Kuhna nese označení Tradition."
           },
           {
-            "id": "cervene-pinot-noir-philipp-kuhn-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Pinot Noir?",
-            "correctAnswer": "Německo",
+            "id": "cervene-pinot-noir-kuhn-prod",
+            "question": "Ze které německé oblasti pochází vinař Philip Kuhn?",
+            "correctAnswer": "Pfalz, Německo",
             "distractors": [
-              "Jasmínový zelený čaj",
-              "Belgické višňové pivo"
+              "Mosel, Německo",
+              "Rheingau, Německo"
             ],
-            "explanation": "U položky Pinot Noir je uvedeno: Německo. Kompletní popis: Tradition Philip Kuhn – Pfalz, Německo."
+            "explanation": "Vinařství Philip Kuhn sídlí v německé oblasti Pfalz."
           },
           {
-            "id": "cervene-pinot-noir-philipp-kuhn-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Pinot Noir?",
+            "id": "cervene-pinot-noir-kuhn-price",
+            "question": "Jaká je prodejní cena lahve Pinot Noir Tradition Philip Kuhn?",
+            "correctAnswer": "959 Kč",
+            "distractors": [
+              "879 Kč",
+              "1090 Kč"
+            ],
+            "explanation": "Cena lahve Pinot Noir Tradition Philip Kuhn je 959 Kč."
+          },
+          {
+            "id": "cervene-pinot-noir-kuhn-allergen",
+            "question": "Který alergen obsahuje Pinot Noir Philip Kuhn?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+              "Alergen č. 11 – Sezam",
+              "Alergen č. 4 – Ryby"
             ],
-            "explanation": "Pinot Noir obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "explanation": "Víno obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
           }
         ]
       },
       {
-        "id": "cervene-cabernet-lapis-luna",
+        "id": "cervene-cabernet-sauvignon-lapis-luna",
         "name": "Cabernet Sauvignon",
-        "weight": "0,75l",
+        "weight": "0,75L",
         "price": "789 Kč",
         "allergens": [
           "12"
         ],
-        "description": "Lapis Luna - Lodi, Kalifornie",
+        "description": "Lapis Luna – Lodi, Kalifornie",
+        "notes": "Lapis Luna – Lodi, Kalifornie. Výrazný kalifornský Cabernet plný tónů ostružin, vanilky, černého rybízu a dubu s dlouhým závěrem.",
         "questions": [
           {
-            "id": "cervene-cabernet-lapis-luna-vol",
-            "question": "Jaký je servírovací objem / míra položky Cabernet Sauvignon?",
-            "correctAnswer": "0,75l",
+            "id": "cervene-cabernet-sauvignon-lapis-luna-vol",
+            "question": "Jaký je servírovací objem vína Cabernet Sauvignon Lapis Luna?",
+            "correctAnswer": "0,75L",
             "distractors": [
               "0,5 l",
               "1,0 l"
             ],
-            "explanation": "Servírovací míra / objem položky Cabernet Sauvignon je 0,75l."
+            "explanation": "Servírovací objem položky Cabernet Sauvignon Lapis Luna je 0,75L."
           },
           {
-            "id": "cervene-cabernet-lapis-luna-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Cabernet Sauvignon?",
-            "correctAnswer": "Lapis Luna - Lodi",
+            "id": "cervene-cabernet-sauvignon-lapis-luna-prod",
+            "question": "Ze které kalifornské oblasti pochází Cabernet Sauvignon Lapis Luna?",
+            "correctAnswer": "Lodi, Kalifornie",
             "distractors": [
-              "Světlý ležák plzeňského typu",
-              "Jablečný mošt z rodinné farmy"
+              "Napa Valley, Kalifornie",
+              "Sonoma, Kalifornie"
             ],
-            "explanation": "U položky Cabernet Sauvignon je uvedeno: Lapis Luna - Lodi. Kompletní popis: Lapis Luna - Lodi, Kalifornie."
+            "explanation": "Cabernet Sauvignon od Lapis Luna pochází z oblasti Lodi v Kalifornii."
           },
           {
-            "id": "cervene-cabernet-lapis-luna-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Cabernet Sauvignon?",
-            "correctAnswer": "Kalifornie",
+            "id": "cervene-cabernet-sauvignon-lapis-luna-price",
+            "question": "Jaká je prodejní cena lahve Cabernet Sauvignon Lapis Luna?",
+            "correctAnswer": "789 Kč",
             "distractors": [
-              "Čerstvý grepový fresh",
-              "Bezinkový sirup a čerstvá máta"
+              "729 Kč",
+              "859 Kč"
             ],
-            "explanation": "U položky Cabernet Sauvignon je uvedeno: Kalifornie. Kompletní popis: Lapis Luna - Lodi, Kalifornie."
+            "explanation": "Cena lahve Cabernet Sauvignon Lapis Luna je 789 Kč."
           },
           {
-            "id": "cervene-cabernet-lapis-luna-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Cabernet Sauvignon?",
+            "id": "cervene-cabernet-sauvignon-lapis-luna-variety",
+            "question": "O jakou odrůdu se jedná u tohoto vína od Lapis Luna?",
+            "correctAnswer": "Cabernet Sauvignon",
+            "distractors": [
+              "Merlot",
+              "Syrah"
+            ],
+            "explanation": "Jedná se o odrůdu Cabernet Sauvignon."
+          },
+          {
+            "id": "cervene-cabernet-sauvignon-lapis-luna-allergen",
+            "question": "Který alergen obsahuje Cabernet Sauvignon Lapis Luna?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+              "Alergen č. 8 – Ořechy",
+              "Alergen č. 6 – Sója"
             ],
-            "explanation": "Cabernet Sauvignon obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "explanation": "Víno obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
           }
         ]
       },
       {
-        "id": "cervene-zinfandel-hendry",
+        "id": "cervene-zinfandel-hendry-ranch",
         "name": "Zinfandel",
-        "weight": "0,75l",
+        "weight": "0,75L",
         "price": "995 Kč",
         "allergens": [
           "12"
         ],
-        "description": "Hendry Ranch HRW - Napa Valley, Kalifornie",
+        "description": "Hendry Ranch HRW – Napa Valley, Kalifornie",
+        "notes": "Hendry Ranch HRW – Napa Valley, Kalifornie. Kultovní kalifornský Zinfandel, mohutné tělo s tóny švestek, skořice, pepře a vanilky.",
         "questions": [
           {
-            "id": "cervene-zinfandel-hendry-vol",
-            "question": "Jaký je servírovací objem / míra položky Zinfandel?",
-            "correctAnswer": "0,75l",
+            "id": "cervene-zinfandel-hendry-ranch-vol",
+            "question": "Jaký je servírovací objem lahve Zinfandel Hendry Ranch HRW?",
+            "correctAnswer": "0,75L",
             "distractors": [
               "0,5 l",
               "1,0 l"
             ],
-            "explanation": "Servírovací míra / objem položky Zinfandel je 0,75l."
+            "explanation": "Servírovací objem lahve Zinfandel Hendry Ranch HRW je 0,75L."
           },
           {
-            "id": "cervene-zinfandel-hendry-ing-1",
-            "question": "Která surovina, původ či charakteristika patří k položce Zinfandel?",
-            "correctAnswer": "Hendry Ranch HRW - Napa Valley",
+            "id": "cervene-zinfandel-hendry-ranch-prod",
+            "question": "Ze kterého slavného údolí v Kalifornii pochází Hendry Ranch HRW?",
+            "correctAnswer": "Napa Valley, Kalifornie",
             "distractors": [
-              "Limetová šťáva",
-              "Pomerančová kůra a hřebíček"
+              "Lodi, Kalifornie",
+              "Paso Robles, Kalifornie"
             ],
-            "explanation": "U položky Zinfandel je uvedeno: Hendry Ranch HRW - Napa Valley. Kompletní popis: Hendry Ranch HRW - Napa Valley, Kalifornie."
+            "explanation": "Hendry Ranch HRW sídlí v prestižním údolí Napa Valley v Kalifornii."
           },
           {
-            "id": "cervene-zinfandel-hendry-ing-2",
-            "question": "Která surovina, původ či charakteristika patří k položce Zinfandel?",
-            "correctAnswer": "Kalifornie",
+            "id": "cervene-zinfandel-hendry-ranch-price",
+            "question": "Jaká je prodejní cena lahve Zinfandel Hendry Ranch HRW?",
+            "correctAnswer": "995 Kč",
             "distractors": [
-              "Mučenkový likér a vanilka",
-              "Kávový likér Kahlúa"
+              "895 Kč",
+              "1150 Kč"
             ],
-            "explanation": "U položky Zinfandel je uvedeno: Kalifornie. Kompletní popis: Hendry Ranch HRW - Napa Valley, Kalifornie."
+            "explanation": "Cena lahve Zinfandel Hendry Ranch HRW je 995 Kč."
           },
           {
-            "id": "cervene-zinfandel-hendry-allergen-12",
-            "question": "Který z následujících alergenů obsahuje položka Zinfandel?",
+            "id": "cervene-zinfandel-hendry-ranch-variety",
+            "question": "Jaká typická kalifornská odrůda tvoří toto víno z Hendry Ranch?",
+            "correctAnswer": "Zinfandel",
+            "distractors": [
+              "Cabernet Franc",
+              "Malbec"
+            ],
+            "explanation": "Jedná se o vyhlášenou kalifornskou odrůdu Zinfandel."
+          },
+          {
+            "id": "cervene-zinfandel-hendry-ranch-allergen",
+            "question": "Který alergen obsahuje Zinfandel Hendry Ranch HRW?",
             "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
             "distractors": [
-              "Alergen č. 14 – Měkkýši a výrobky z nich",
-              "Alergen č. 5 – Jádra podzemnice olejné (arašídy)"
+              "Alergen č. 1 – Lepek",
+              "Alergen č. 7 – Mléko"
             ],
-            "explanation": "Zinfandel obsahuje Alergen č. 12 – Oxid siřičitý a siřičitany (víno, sekty, cidery, sušené ovoce). Všechny evidované alergeny: Oxid siřičitý a siřičitany."
+            "explanation": "Víno obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
           }
         ]
       }

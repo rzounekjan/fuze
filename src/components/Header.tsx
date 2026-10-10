@@ -38,7 +38,7 @@ export const Header: React.FC<HeaderProps> = ({
   const updateScrollButtons = React.useCallback(() => {
     const el = tabsRef.current;
     if (!el) return;
-    const overflow = el.scrollWidth > el.clientWidth + 4;
+    const overflow = el.scrollWidth > el.clientWidth + 2;
     setHasOverflow(overflow);
     setCanScrollLeft(el.scrollLeft > 4);
     setCanScrollRight(el.scrollLeft < el.scrollWidth - el.clientWidth - 4);
@@ -48,8 +48,19 @@ export const Header: React.FC<HeaderProps> = ({
     const el = tabsRef.current;
     if (!el) return;
     updateScrollButtons();
+    const frameId = requestAnimationFrame(updateScrollButtons);
+    const timer = setTimeout(updateScrollButtons, 100);
+
     el.addEventListener('scroll', updateScrollButtons, { passive: true });
     window.addEventListener('resize', updateScrollButtons);
+
+    let ro: ResizeObserver | null = null;
+    if (typeof ResizeObserver !== 'undefined') {
+      ro = new ResizeObserver(() => {
+        updateScrollButtons();
+      });
+      ro.observe(el);
+    }
 
     // Ensure active tab is gently scrolled into view if clipped
     const activeBtn = el.querySelector('[data-active="true"]') as HTMLElement | null;
@@ -58,6 +69,9 @@ export const Header: React.FC<HeaderProps> = ({
     }
 
     return () => {
+      cancelAnimationFrame(frameId);
+      clearTimeout(timer);
+      if (ro) ro.disconnect();
       el.removeEventListener('scroll', updateScrollButtons);
       window.removeEventListener('resize', updateScrollButtons);
     };
@@ -65,13 +79,15 @@ export const Header: React.FC<HeaderProps> = ({
 
   const handleScrollLeft = () => {
     if (tabsRef.current) {
-      tabsRef.current.scrollBy({ left: -150, behavior: 'smooth' });
+      const step = Math.max(160, Math.floor(tabsRef.current.clientWidth * 0.6));
+      tabsRef.current.scrollBy({ left: -step, behavior: 'smooth' });
     }
   };
 
   const handleScrollRight = () => {
     if (tabsRef.current) {
-      tabsRef.current.scrollBy({ left: 150, behavior: 'smooth' });
+      const step = Math.max(160, Math.floor(tabsRef.current.clientWidth * 0.6));
+      tabsRef.current.scrollBy({ left: step, behavior: 'smooth' });
     }
   };
 

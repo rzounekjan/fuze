@@ -6076,4547 +6076,570 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       }
     ]
   },
-  {
+    {
     "id": "vina-po-skle",
     "name": "Wines by the glass",
-    "badge": "Wines by the glass",
-    "description": "Carefully curated selection of Czech, Austrian, and world wines by the glass",
+    "badge": "By the glass",
+    "description": "Carefully selected sparkling, white, rosé, and red wines poured by the glass",
     "iconName": "Wine",
     "items": [
       {
+        "id": "sklo-charmat-palava",
         "name": "Charmat de Vinselekt Pálava",
-        "weight": "0.1l",
-        "price": "99 CZK",
+        "weight": "0,1L / 0,75L",
+        "price": "0,1L 99 CZK / 0,75L 699 CZK",
         "allergens": [
           "12"
         ],
-        "description": "0,1l Vinselect Michlovský, Extra dry",
-        "notes": "Aromatic sparkling wine by the glass.",
-        "id": "sklo-charmat-palava",
+        "description": "Vinselect Michlovský, Extra sec",
+        "notes": "Vinselect Michlovský, Extra sec. Aromatic sparkling Moravian wine from Pálava grape.",
         "questions": [
           {
-            "id": "sklo-charmat-palava-vol",
-            "question": "What is the serving measure of Charmat de Vinselekt Pálava?",
-            "correctAnswer": "0.1l",
+            "id": "sklo-charmat-palava-vol-en",
+            "question": "What are the serving volumes of Charmat de Vinselekt Pálava?",
+            "correctAnswer": "0,1L / 0,75L",
             "distractors": [
-              "0.15 L",
-              "0.2 L"
+              "0.75L only",
+              "0.15L / 0.75L"
             ],
-            "explanation": "The portion size / weight of Charmat de Vinselekt Pálava is 0.1l."
+            "explanation": "Charmat de Vinselekt Pálava is available both by the glass (0,1L) and by the bottle (0,75L)."
           },
           {
-            "id": "sklo-charmat-palava-ing-1",
-            "question": "Which ingredient is part of Charmat de Vinselekt Pálava?",
-            "correctAnswer": "Sparkling wine",
+            "id": "sklo-charmat-palava-prod-en",
+            "question": "Which winery produces Charmat de Vinselekt Pálava?",
+            "correctAnswer": "Vinselect Michlovský",
             "distractors": [
-              "Pork tenderloin",
-              "Veal leg"
+              "Gotberg",
+              "Reisten"
             ],
-            "explanation": "In Charmat de Vinselekt Pálava, this component is present: Sparkling wine. Official FUZE menu: 0,1l Vinselect Michlovský, Extra dry."
+            "explanation": "It is crafted by Vinselect Michlovský."
           },
           {
-            "id": "sklo-charmat-palava-ing-2",
-            "question": "Which ingredient is part of Charmat de Vinselekt Pálava?",
-            "correctAnswer": "Vinselekt Michlovský",
+            "id": "sklo-charmat-palava-type-en",
+            "question": "What sweetness classification is Charmat de Vinselekt Pálava?",
+            "correctAnswer": "Extra sec",
             "distractors": [
-              "Duck breast",
-              "Deboned trout"
+              "Brut Nature",
+              "Demi Sec"
             ],
-            "explanation": "In Charmat de Vinselekt Pálava, this component is present: Vinselekt Michlovský. Official FUZE menu: 0,1l Vinselect Michlovský, Extra dry."
+            "explanation": "Charmat de Vinselekt Pálava is Extra sec."
           },
           {
-            "id": "sklo-charmat-palava-ing-3",
-            "question": "Which ingredient is part of Charmat de Vinselekt Pálava?",
-            "correctAnswer": "Moravia",
+            "id": "sklo-charmat-palava-price-en",
+            "question": "What are the prices of Charmat de Vinselekt Pálava (0.1l and 0.75l)?",
+            "correctAnswer": "0,1L 99 CZK / 0,75L 699 CZK",
             "distractors": [
-              "Beef tenderloin",
-              "Duroc pork belly"
+              "0,1L 115 CZK / 0,75L 849 CZK",
+              "0,1L 89 CZK / 0,75L 649 CZK"
             ],
-            "explanation": "In Charmat de Vinselekt Pálava, this component is present: Moravia. Official FUZE menu: 0,1l Vinselect Michlovský, Extra dry."
+            "explanation": "Price per glass is 99 CZK."
           },
           {
-            "id": "sklo-charmat-palava-allergen-12",
-            "question": "Which of the following allergens is present in Charmat de Vinselekt Pálava?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
+            "id": "sklo-charmat-palava-allergen-en",
+            "question": "Which allergen does Charmat de Vinselekt Pálava contain?",
+            "correctAnswer": "Allergen No. 12 – Sulfur dioxide and sulfites",
             "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
+              "Allergen No. 1 – Gluten",
+              "Allergen No. 7 – Milk"
             ],
-            "explanation": "Charmat de Vinselekt Pálava contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "explanation": "Contains Allergen No. 12 (Sulfites)."
           }
         ]
       },
       {
+        "id": "sklo-cremant-vinselekt",
         "name": "Cremant de Vinselekt",
-        "weight": "0.1l",
-        "price": "115 CZK",
+        "weight": "0,1L / 0,75L",
+        "price": "0,1L 115 CZK / 0,75L 849 CZK",
         "allergens": [
           "12"
         ],
-        "description": "0,1l (Pinot, Chardonnay) Vinselect Michlovský, Extra Brut",
-        "notes": "Refined bottle-fermented traditional sparkler.",
-        "id": "sklo-cremant-vinselekt",
+        "description": "(Pinot, Chardonnay) Vinselect Michlovský, Extra brut",
+        "notes": "(Pinot, Chardonnay) Vinselect Michlovský, Extra brut. Premium Moravian sparkling crémant.",
         "questions": [
           {
-            "id": "sklo-cremant-vinselekt-vol",
-            "question": "What is the serving measure of Crémant de Vinselekt?",
-            "correctAnswer": "0.1l",
+            "id": "sklo-cremant-vinselekt-vol-en",
+            "question": "What are the serving volumes of Cremant de Vinselekt?",
+            "correctAnswer": "0,1L / 0,75L",
             "distractors": [
-              "0.15 L",
-              "0.2 L"
+              "0.75L only",
+              "0.15L / 0.75L"
             ],
-            "explanation": "The portion size / weight of Crémant de Vinselekt is 0.1l."
+            "explanation": "Serving volume is 0,1l."
           },
           {
-            "id": "sklo-cremant-vinselekt-ing-1",
-            "question": "Which ingredient is part of Crémant de Vinselekt?",
-            "correctAnswer": "Pinot",
+            "id": "sklo-cremant-vinselekt-blend-en",
+            "question": "Which grape varieties comprise Cremant de Vinselekt?",
+            "correctAnswer": "(Pinot, Chardonnay)",
             "distractors": [
-              "Pork tenderloin",
-              "Veal leg"
+              "(Riesling, Pálava)",
+              "(Sauvignon, Pinot Gris)"
             ],
-            "explanation": "In Cremant de Vinselekt, this component is present: Pinot. Official FUZE menu: 0,1l (Pinot, Chardonnay) Vinselect Michlovský, Extra Brut."
+            "explanation": "Cremant de Vinselekt is a blend of Pinot and Chardonnay."
           },
           {
-            "id": "sklo-cremant-vinselekt-ing-2",
-            "question": "Which ingredient is part of Crémant de Vinselekt?",
-            "correctAnswer": "Chardonnay",
+            "id": "sklo-cremant-vinselekt-type-en",
+            "question": "What is the dryness category of Cremant de Vinselekt?",
+            "correctAnswer": "Extra brut",
             "distractors": [
-              "Duck breast",
-              "Deboned trout"
+              "Extra sec",
+              "Doux"
             ],
-            "explanation": "In Cremant de Vinselekt, this component is present: Chardonnay. Official FUZE menu: 0,1l (Pinot, Chardonnay) Vinselect Michlovský, Extra Brut."
+            "explanation": "Cremant de Vinselekt is classified as Extra brut."
           },
           {
-            "id": "sklo-cremant-vinselekt-ing-3",
-            "question": "Which ingredient is part of Crémant de Vinselekt?",
-            "correctAnswer": "Traditional method extra brut",
+            "id": "sklo-cremant-vinselekt-price-en",
+            "question": "What are the prices of Cremant de Vinselekt (0.1l and 0.75l)?",
+            "correctAnswer": "0,1L 115 CZK / 0,75L 849 CZK",
             "distractors": [
-              "Beef tenderloin",
-              "Duroc pork belly"
+              "0,1L 99 CZK / 0,75L 699 CZK",
+              "0,1L 125 CZK / 0,75L 899 CZK"
             ],
-            "explanation": "In Cremant de Vinselekt, this component is present: Traditional method extra brut. Official FUZE menu: 0,1l (Pinot, Chardonnay) Vinselect Michlovský, Extra Brut."
+            "explanation": "Price per glass is 115 CZK."
           },
           {
-            "id": "sklo-cremant-vinselekt-ing-4",
-            "question": "Which ingredient is part of Crémant de Vinselekt?",
-            "correctAnswer": "Vinselekt Michlovský",
+            "id": "sklo-cremant-vinselekt-allergen-en",
+            "question": "Which allergen is present in Cremant de Vinselekt?",
+            "correctAnswer": "Allergen No. 12 – Sulfur dioxide and sulfites",
             "distractors": [
-              "Venison saddle",
-              "Lamb chop"
+              "Allergen No. 1 – Gluten",
+              "Allergen No. 8 – Nuts"
             ],
-            "explanation": "In Cremant de Vinselekt, this component is present: Vinselekt Michlovský. Official FUZE menu: 0,1l (Pinot, Chardonnay) Vinselect Michlovský, Extra Brut."
-          },
-          {
-            "id": "sklo-cremant-vinselekt-allergen-12",
-            "question": "Which of the following allergens is present in Crémant de Vinselekt?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Crémant de Vinselekt contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "explanation": "Contains Allergen No. 12 (Sulfites)."
           }
         ]
       },
       {
         "id": "sklo-rulandske-sede",
         "name": "Rulandské šedé",
-        "weight": "0.15l",
+        "weight": "0,15l",
         "price": "95 CZK",
         "allergens": [
           "12"
         ],
-        "description": "0,15l Kolby Moravia, semi-dry",
-        "notes": "Dva kopce Kolby, semi-dry – Mikulov region, Moravia. Balanced and juicy, bouquet of white peach and orchard fruit.",
+        "description": "Kolby Morava, polosuché",
+        "notes": "Kolby Morava, off-dry (polosuché). Fruity, harmonious Moravian Pinot Gris.",
         "questions": [
           {
-            "id": "sklo-rulandske-sede-vol",
-            "question": "What is the serving volume / measure of Rulandské šedé (Pinot Gris) – Dva kopce Kolby?",
+            "id": "sklo-rulandske-sede-vol-en",
+            "question": "What is the glass serving volume of Rulandské šedé?",
             "correctAnswer": "0,15l",
             "distractors": [
-              "0.2 l",
-              "0.1 l"
+              "0.1 l",
+              "0.2 l"
             ],
-            "explanation": "The serving measure of Rulandské šedé (Pinot Gris) – Dva kopce Kolby is 0,15l."
+            "explanation": "Serving volume is 0,15l."
           },
           {
-            "id": "sklo-rulandske-sede-ing-1",
-            "question": "Which ingredient is part of Rulandské šedé (Pinot Gris) – Dva kopce Kolby?",
-            "correctAnswer": "Dva kopce Kolby",
+            "id": "sklo-rulandske-sede-region-en",
+            "question": "Which winery and region produces this Rulandské šedé?",
+            "correctAnswer": "Kolby Morava",
             "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
+              "Kraus Čechy",
+              "Heuriger Rakousko"
             ],
-            "explanation": "In Rulandské šedé, this component is present: Dva kopce Kolby. Official FUZE menu: 0,15l Kolby Moravia, semi-dry."
+            "explanation": "It is crafted by Kolby winery in Moravia."
           },
           {
-            "id": "sklo-rulandske-sede-ing-2",
-            "question": "Which ingredient is part of Rulandské šedé (Pinot Gris) – Dva kopce Kolby?",
-            "correctAnswer": "Semi-dry – Mikulov region",
+            "id": "sklo-rulandske-sede-style-en",
+            "question": "What style is this Rulandské šedé from Kolby?",
+            "correctAnswer": "polosuché",
             "distractors": [
-              "Kolby winery",
-              "Kraus winery"
+              "suché",
+              "sladké"
             ],
-            "explanation": "In Rulandské šedé, this component is present: Semi-dry – Mikulov region. Official FUZE menu: 0,15l Kolby Moravia, semi-dry."
+            "explanation": "Rulandské šedé from Kolby is off-dry (polosuché)."
           },
           {
-            "id": "sklo-rulandske-sede-ing-3",
-            "question": "Which ingredient is part of Rulandské šedé (Pinot Gris) – Dva kopce Kolby?",
-            "correctAnswer": "Moravia. Balanced and juicy",
+            "id": "sklo-rulandske-sede-price-en",
+            "question": "What is the price of a glass of Rulandské šedé Kolby?",
+            "correctAnswer": "95 CZK",
             "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
+              "105 CZK",
+              "85 CZK"
             ],
-            "explanation": "In Rulandské šedé, this component is present: Moravia. Balanced and juicy. Official FUZE menu: 0,15l Kolby Moravia, semi-dry."
+            "explanation": "Price per glass is 95 CZK."
           },
           {
-            "id": "sklo-rulandske-sede-ing-4",
-            "question": "Which ingredient is part of Rulandské šedé (Pinot Gris) – Dva kopce Kolby?",
-            "correctAnswer": "Bouquet of white peach and orchard fruit",
+            "id": "sklo-rulandske-sede-allergen-en",
+            "question": "Which allergen is present in Rulandské šedé?",
+            "correctAnswer": "Allergen No. 12 – Sulfur dioxide and sulfites",
             "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
+              "Allergen No. 7 – Milk",
+              "Allergen No. 6 – Soy"
             ],
-            "explanation": "In Rulandské šedé, this component is present: Bouquet of white peach and orchard fruit. Official FUZE menu: 0,15l Kolby Moravia, semi-dry."
-          },
-          {
-            "id": "sklo-rulandske-sede-ing-5",
-            "question": "Which ingredient is part of Rulandské šedé (Pinot Gris) – Dva kopce Kolby?",
-            "correctAnswer": "Bouquet of white peach and orchard fruit",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Rulandské šedé, this component is present: Bouquet of white peach and orchard fruit. Official FUZE menu: 0,15l Kolby Moravia, semi-dry."
-          },
-          {
-            "id": "sklo-rulandske-sede-allergen-12",
-            "question": "Which of the following allergens is present in Rulandské šedé (Pinot Gris) – Dva kopce Kolby?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Rulandské šedé (Pinot Gris) – Dva kopce Kolby contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "explanation": "Contains Allergen No. 12 (Sulfites)."
           }
         ]
       },
       {
-        "name": "Cuvée white",
-        "weight": "0.15l",
+        "id": "sklo-cuvee-bile",
+        "name": "Cuvée bílé",
+        "weight": "0,15l",
         "price": "98 CZK",
         "allergens": [
           "12"
         ],
-        "description": "0,15l Kraus Bohemia",
-        "notes": "Pleasant everyday white blend.",
-        "id": "sklo-cuvee-bile",
+        "description": "Kraus Čechy",
+        "notes": "Kraus Čechy. Fresh dry white cuvée from Mělník region.",
         "questions": [
           {
-            "id": "sklo-cuvee-bile-vol",
-            "question": "What is the serving measure of White Cuvée?",
-            "correctAnswer": "0.15l",
+            "id": "sklo-cuvee-bile-vol-en",
+            "question": "What is the serving volume of Cuvée bílé by the glass?",
+            "correctAnswer": "0,15l",
             "distractors": [
-              "0.15 L",
-              "0.2 L"
+              "0.1 l",
+              "0.2 l"
             ],
-            "explanation": "The portion size / weight of White Cuvée is 0.15l."
+            "explanation": "Serving volume is 0,15l."
           },
           {
-            "id": "sklo-cuvee-bile-ing-1",
-            "question": "Which ingredient is part of White Cuvée?",
-            "correctAnswer": "Fresh crisp white wine cuvée",
+            "id": "sklo-cuvee-bile-prod-en",
+            "question": "Which producer from Bohemia crafts this white cuvée?",
+            "correctAnswer": "Kraus Čechy",
             "distractors": [
-              "Pork tenderloin",
-              "Veal leg"
+              "Kolby Morava",
+              "Adulation Kalifornie"
             ],
-            "explanation": "In Cuvée white, this component is present: Fresh crisp white wine cuvée. Official FUZE menu: 0,15l Kraus Bohemia."
+            "explanation": "Crafted by winery Kraus in Bohemia (Mělnicko)."
           },
           {
-            "id": "sklo-cuvee-bile-allergen-12",
-            "question": "Which of the following allergens is present in White Cuvée?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
+            "id": "sklo-cuvee-bile-price-en",
+            "question": "What is the price of a glass of Cuvée bílé Kraus?",
+            "correctAnswer": "98 CZK",
             "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
+              "95 CZK",
+              "109 CZK"
             ],
-            "explanation": "White Cuvée contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "explanation": "Price per glass is 98 CZK."
+          },
+          {
+            "id": "sklo-cuvee-bile-allergen-en",
+            "question": "Which allergen is contained in Cuvée bílé Kraus?",
+            "correctAnswer": "Allergen No. 12 – Sulfur dioxide and sulfites",
+            "distractors": [
+              "Allergen No. 1 – Gluten",
+              "Allergen No. 3 – Eggs"
+            ],
+            "explanation": "Contains Allergen No. 12 (Sulfites)."
           }
         ]
       },
       {
         "id": "sklo-gruner-veltliner",
         "name": "Grüner Veltliner",
-        "weight": "0.15l",
+        "weight": "0,15l",
         "price": "109 CZK",
         "allergens": [
           "12"
         ],
-        "description": "0,15l Heuriger Austria",
-        "notes": "Heuriger – Lower Austria. Fresh, light, delicate citrus aroma with crisp notes of green apple.",
+        "description": "Heuriger Rakousko",
+        "notes": "Heuriger Rakousko. Classic Austrian white pepper note with fresh green apple acidity.",
         "questions": [
           {
-            "id": "sklo-gruner-veltliner-vol",
-            "question": "What is the serving volume / measure of Grüner Veltliner – Heuriger?",
+            "id": "sklo-gruner-veltliner-vol-en",
+            "question": "What is the serving volume of Grüner Veltliner by the glass?",
             "correctAnswer": "0,15l",
             "distractors": [
-              "0.2 l",
-              "0.1 l"
+              "0.1 l",
+              "0.25 l"
             ],
-            "explanation": "The serving measure of Grüner Veltliner – Heuriger is 0,15l."
+            "explanation": "Serving volume is 0,15l."
           },
           {
-            "id": "sklo-gruner-veltliner-ing-1",
-            "question": "Which ingredient is part of Grüner Veltliner – Heuriger?",
-            "correctAnswer": "Heuriger – Lower Austria. Fresh",
+            "id": "sklo-gruner-veltliner-region-en",
+            "question": "Where does this Grüner Veltliner originate from?",
+            "correctAnswer": "Heuriger Rakousko",
             "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
+              "Kolby Morava",
+              "Kraus Čechy"
             ],
-            "explanation": "In Grüner Veltliner, this component is present: Heuriger – Lower Austria. Fresh. Official FUZE menu: 0,15l Heuriger Austria."
+            "explanation": "Originates from Austria (Heuriger Rakousko)."
           },
           {
-            "id": "sklo-gruner-veltliner-ing-2",
-            "question": "Which ingredient is part of Grüner Veltliner – Heuriger?",
-            "correctAnswer": "Light",
+            "id": "sklo-gruner-veltliner-price-en",
+            "question": "What is the price of a glass of Grüner Veltliner Heuriger?",
+            "correctAnswer": "109 CZK",
             "distractors": [
-              "Kolby winery",
-              "Kraus winery"
+              "98 CZK",
+              "125 CZK"
             ],
-            "explanation": "In Grüner Veltliner, this component is present: Light. Official FUZE menu: 0,15l Heuriger Austria."
+            "explanation": "Price per glass is 109 CZK."
           },
           {
-            "id": "sklo-gruner-veltliner-ing-3",
-            "question": "Which vegetable or fruit component is included in Grüner Veltliner – Heuriger?",
-            "correctAnswer": "Delicate citrus aroma with crisp notes of green apple",
+            "id": "sklo-gruner-veltliner-allergen-en",
+            "question": "Which allergen does Grüner Veltliner contain?",
+            "correctAnswer": "Allergen No. 12 – Sulfur dioxide and sulfites",
             "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
+              "Allergen No. 2 – Crustaceans",
+              "Allergen No. 1 – Gluten"
             ],
-            "explanation": "In Grüner Veltliner, this component is present: Delicate citrus aroma with crisp notes of green apple. Official FUZE menu: 0,15l Heuriger Austria."
-          },
-          {
-            "id": "sklo-gruner-veltliner-ing-4",
-            "question": "Which vegetable or fruit component is included in Grüner Veltliner – Heuriger?",
-            "correctAnswer": "Delicate citrus aroma with crisp notes of green apple",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Grüner Veltliner, this component is present: Delicate citrus aroma with crisp notes of green apple. Official FUZE menu: 0,15l Heuriger Austria."
-          },
-          {
-            "id": "sklo-gruner-veltliner-allergen-12",
-            "question": "Which of the following allergens is present in Grüner Veltliner – Heuriger?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Grüner Veltliner – Heuriger contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "explanation": "Contains Allergen No. 12 (Sulfites)."
           }
         ]
       },
       {
+        "id": "sklo-chardonnay",
         "name": "Chardonnay",
-        "weight": "0.15l",
+        "weight": "0,15l",
         "price": "125 CZK",
         "allergens": [
           "12"
         ],
-        "description": "0,15l Adulation California",
-        "notes": "Full-bodied California white with tropical fruits and subtle oak.",
-        "id": "sklo-chardonnay",
+        "description": "Adulation Kalifornie",
+        "notes": "Adulation Kalifornie. Rich, buttery California Chardonnay with tropical fruit notes.",
         "questions": [
           {
-            "id": "sklo-chardonnay-vol",
-            "question": "What is the serving measure of Chardonnay – Adulation?",
-            "correctAnswer": "0.15l",
+            "id": "sklo-chardonnay-vol-en",
+            "question": "What is the serving volume of California Chardonnay by the glass?",
+            "correctAnswer": "0,15l",
             "distractors": [
-              "0.15 L",
-              "0.2 L"
+              "0.1 l",
+              "0.2 l"
             ],
-            "explanation": "The portion size / weight of Chardonnay – Adulation is 0.15l."
+            "explanation": "Serving volume is 0,15l."
           },
           {
-            "id": "sklo-chardonnay-ing-1",
-            "question": "Which ingredient is part of Chardonnay – Adulation?",
-            "correctAnswer": "California Chardonnay with vanilla oak notes",
+            "id": "sklo-chardonnay-region-en",
+            "question": "Which winery and region crafts this Chardonnay?",
+            "correctAnswer": "Adulation Kalifornie",
             "distractors": [
-              "Pork tenderloin",
-              "Veal leg"
+              "Kolby Morava",
+              "Kraus Čechy"
             ],
-            "explanation": "In Chardonnay, this component is present: California Chardonnay with vanilla oak notes. Official FUZE menu: 0,15l Adulation California."
+            "explanation": "Produced by Adulation in California, USA."
           },
           {
-            "id": "sklo-chardonnay-allergen-12",
-            "question": "Which of the following allergens is present in Chardonnay – Adulation?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
+            "id": "sklo-chardonnay-price-en",
+            "question": "What is the price of a glass of Chardonnay Adulation?",
+            "correctAnswer": "125 CZK",
             "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
+              "109 CZK",
+              "95 CZK"
             ],
-            "explanation": "Chardonnay – Adulation contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "explanation": "Price per glass is 125 CZK."
+          },
+          {
+            "id": "sklo-chardonnay-allergen-en",
+            "question": "Which allergen is found in Chardonnay Adulation?",
+            "correctAnswer": "Allergen No. 12 – Sulfur dioxide and sulfites",
+            "distractors": [
+              "Allergen No. 5 – Peanuts",
+              "Allergen No. 7 – Milk"
+            ],
+            "explanation": "Contains Allergen No. 12 (Sulfites)."
           }
         ]
       },
       {
         "id": "sklo-modry-portugal-rose",
         "name": "Modrý Portugal rosé",
-        "weight": "0.15l",
+        "weight": "0,15l",
         "price": "95 CZK",
         "allergens": [
           "12"
         ],
-        "description": "0,15l Kolby Moravia",
-        "notes": "Mikulov region, Moravia. Fresh, salmon-pink color, summer berry finish, aroma with notes of fresh strawberries and cherries.",
+        "description": "Kolby Morava",
+        "notes": "Kolby Morava. Fresh, refreshing Moravian rosé with wild berry notes.",
         "questions": [
           {
-            "id": "sklo-modry-portugal-rose-vol",
-            "question": "What is the serving volume / measure of Modrý Portugal – Rosé Dva kopce Kolby?",
+            "id": "sklo-modry-portugal-rose-vol-en",
+            "question": "What is the serving volume of Modrý Portugal rosé by the glass?",
             "correctAnswer": "0,15l",
             "distractors": [
-              "0.2 l",
-              "0.1 l"
+              "0.1 l",
+              "0.2 l"
             ],
-            "explanation": "The serving measure of Modrý Portugal – Rosé Dva kopce Kolby is 0,15l."
+            "explanation": "Serving volume is 0,15l."
           },
           {
-            "id": "sklo-modry-portugal-rose-ing-1",
-            "question": "Which ingredient is part of Modrý Portugal – Rosé Dva kopce Kolby?",
-            "correctAnswer": "Mikulov region",
+            "id": "sklo-modry-portugal-rose-region-en",
+            "question": "Which Moravian winery produces Modrý Portugal rosé?",
+            "correctAnswer": "Kolby Morava",
             "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
+              "Kraus Čechy",
+              "Gotberg Morava"
             ],
-            "explanation": "In Modrý Portugal rosé, this component is present: Mikulov region. Official FUZE menu: 0,15l Kolby Moravia."
+            "explanation": "Produced by Kolby in Moravia."
           },
           {
-            "id": "sklo-modry-portugal-rose-ing-2",
-            "question": "Which ingredient is part of Modrý Portugal – Rosé Dva kopce Kolby?",
-            "correctAnswer": "Moravia. Fresh",
+            "id": "sklo-modry-portugal-rose-price-en",
+            "question": "What is the price of a glass of Modrý Portugal rosé Kolby?",
+            "correctAnswer": "95 CZK",
             "distractors": [
-              "Kolby winery",
-              "Kraus winery"
+              "98 CZK",
+              "109 CZK"
             ],
-            "explanation": "In Modrý Portugal rosé, this component is present: Moravia. Fresh. Official FUZE menu: 0,15l Kolby Moravia."
+            "explanation": "Price per glass is 95 CZK."
           },
           {
-            "id": "sklo-modry-portugal-rose-ing-3",
-            "question": "Which ingredient is part of Modrý Portugal – Rosé Dva kopce Kolby?",
-            "correctAnswer": "Salmon-pink color",
+            "id": "sklo-modry-portugal-rose-allergen-en",
+            "question": "Which allergen does Modrý Portugal rosé contain?",
+            "correctAnswer": "Allergen No. 12 – Sulfur dioxide and sulfites",
             "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
+              "Allergen No. 4 – Fish",
+              "Allergen No. 1 – Gluten"
             ],
-            "explanation": "In Modrý Portugal rosé, this component is present: Salmon-pink color. Official FUZE menu: 0,15l Kolby Moravia."
-          },
-          {
-            "id": "sklo-modry-portugal-rose-ing-4",
-            "question": "Which ingredient is part of Modrý Portugal – Rosé Dva kopce Kolby?",
-            "correctAnswer": "Summer berry finish",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Modrý Portugal rosé, this component is present: Summer berry finish. Official FUZE menu: 0,15l Kolby Moravia."
-          },
-          {
-            "id": "sklo-modry-portugal-rose-ing-5",
-            "question": "Which bread, side, or crispy garnish accompanies Modrý Portugal – Rosé Dva kopce Kolby?",
-            "correctAnswer": "Aroma with notes of fresh strawberries and cherries",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Modrý Portugal rosé, this component is present: Aroma with notes of fresh strawberries and cherries. Official FUZE menu: 0,15l Kolby Moravia."
-          },
-          {
-            "id": "sklo-modry-portugal-rose-allergen-12",
-            "question": "Which of the following allergens is present in Modrý Portugal – Rosé Dva kopce Kolby?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Modrý Portugal – Rosé Dva kopce Kolby contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "explanation": "Contains Allergen No. 12 (Sulfites)."
           }
         ]
       },
       {
-        "name": "Modrý Portugal",
-        "weight": "0.15l",
-        "price": "95 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "0,15l Kolby Moravia",
-        "notes": "Smooth approachable Moravian red.",
         "id": "sklo-modry-portugal",
-        "questions": [
-          {
-            "id": "sklo-modry-portugal-vol",
-            "question": "What is the serving measure of Modrý Portugal – Kolby?",
-            "correctAnswer": "0.15l",
-            "distractors": [
-              "0.15 L",
-              "0.2 L"
-            ],
-            "explanation": "The portion size / weight of Modrý Portugal – Kolby is 0.15l."
-          },
-          {
-            "id": "sklo-modry-portugal-ing-1",
-            "question": "Which ingredient is part of Modrý Portugal – Kolby?",
-            "correctAnswer": "Light elegant red wine with red berry notes",
-            "distractors": [
-              "Pork tenderloin",
-              "Veal leg"
-            ],
-            "explanation": "In Modrý Portugal, this component is present: Light elegant red wine with red berry notes. Official FUZE menu: 0,15l Kolby Moravia."
-          },
-          {
-            "id": "sklo-modry-portugal-ing-2",
-            "question": "Which ingredient is part of Modrý Portugal – Kolby?",
-            "correctAnswer": "Kolby",
-            "distractors": [
-              "Duck breast",
-              "Deboned trout"
-            ],
-            "explanation": "In Modrý Portugal, this component is present: Kolby. Official FUZE menu: 0,15l Kolby Moravia."
-          },
-          {
-            "id": "sklo-modry-portugal-allergen-12",
-            "question": "Which of the following allergens is present in Modrý Portugal – Kolby?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Modrý Portugal – Kolby contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
-          }
-        ]
-      },
-      {
-        "name": "Red cuvée",
-        "weight": "0.15l",
-        "price": "98 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "0,15l Kraus Bohemia",
-        "notes": "Velvety dry red cuvée from Mělník.",
-        "id": "sklo-cuvee-cervene",
-        "questions": [
-          {
-            "id": "sklo-cuvee-cervene-vol",
-            "question": "What is the serving measure of Red Cuvée – Kraus?",
-            "correctAnswer": "0.15l",
-            "distractors": [
-              "0.15 L",
-              "0.2 L"
-            ],
-            "explanation": "The portion size / weight of Red Cuvée – Kraus is 0.15l."
-          },
-          {
-            "id": "sklo-cuvee-cervene-ing-1",
-            "question": "Which ingredient is part of Red Cuvée – Kraus?",
-            "correctAnswer": "Balanced harmonious red blend",
-            "distractors": [
-              "Pork tenderloin",
-              "Veal leg"
-            ],
-            "explanation": "In Red cuvée, this component is present: Balanced harmonious red blend. Official FUZE menu: 0,15l Kraus Bohemia."
-          },
-          {
-            "id": "sklo-cuvee-cervene-ing-2",
-            "question": "Which ingredient is part of Red Cuvée – Kraus?",
-            "correctAnswer": "Kraus winery",
-            "distractors": [
-              "Duck breast",
-              "Deboned trout"
-            ],
-            "explanation": "In Red cuvée, this component is present: Kraus winery. Official FUZE menu: 0,15l Kraus Bohemia."
-          },
-          {
-            "id": "sklo-cuvee-cervene-allergen-12",
-            "question": "Which of the following allergens is present in Red Cuvée – Kraus?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Red Cuvée – Kraus contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
-          }
-        ]
-      },
-      {
-        "name": "Pinot Noir",
-        "weight": "0.15l",
-        "price": "125 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "0,15l Adulation California",
-        "notes": "Expressive California red wine.",
-        "id": "sklo-pinot-noir",
-        "questions": [
-          {
-            "id": "sklo-pinot-noir-vol",
-            "question": "What is the serving measure of Pinot Noir – Adulation?",
-            "correctAnswer": "0.15l",
-            "distractors": [
-              "0.15 L",
-              "0.2 L"
-            ],
-            "explanation": "The portion size / weight of Pinot Noir – Adulation is 0.15l."
-          },
-          {
-            "id": "sklo-pinot-noir-ing-1",
-            "question": "Which ingredient is part of Pinot Noir – Adulation?",
-            "correctAnswer": "Ripe cherries",
-            "distractors": [
-              "Pork tenderloin",
-              "Veal leg"
-            ],
-            "explanation": "In Pinot Noir, this component is present: Ripe cherries. Official FUZE menu: 0,15l Adulation California."
-          },
-          {
-            "id": "sklo-pinot-noir-ing-2",
-            "question": "Which ingredient is part of Pinot Noir – Adulation?",
-            "correctAnswer": "Subtle spice",
-            "distractors": [
-              "Duck breast",
-              "Deboned trout"
-            ],
-            "explanation": "In Pinot Noir, this component is present: Subtle spice. Official FUZE menu: 0,15l Adulation California."
-          },
-          {
-            "id": "sklo-pinot-noir-ing-3",
-            "question": "Which ingredient is part of Pinot Noir – Adulation?",
-            "correctAnswer": "California Pinot Noir",
-            "distractors": [
-              "Beef tenderloin",
-              "Duroc pork belly"
-            ],
-            "explanation": "In Pinot Noir, this component is present: California Pinot Noir. Official FUZE menu: 0,15l Adulation California."
-          },
-          {
-            "id": "sklo-pinot-noir-allergen-12",
-            "question": "Which of the following allergens is present in Pinot Noir – Adulation?",
-            "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Pinot Noir – Adulation contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "aperitivy",
-    "name": "Aperitifs",
-    "badge": "Aperitifs",
-    "description": "Classic and sparkling aperitifs to stimulate the appetite",
-    "iconName": "Martini",
-    "items": [
-      {
-        "id": "aperol-spritz",
-        "name": "Aperol Spritz",
-        "weight": "",
-        "price": "155 CZK",
-        "allergens": [],
-        "description": "Aperol, charmat, soda",
-        "notes": "Aperol, charmat, soda",
-        "questions": [
-          {
-            "id": "aperol-spritz-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Aperol Spritz?",
-            "correctAnswer": "Aperol",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Aperol Spritz, this component is present: Aperol. Official FUZE menu: Aperol, charmat, soda."
-          },
-          {
-            "id": "aperol-spritz-ing-2",
-            "question": "Which ingredient is part of Aperol Spritz?",
-            "correctAnswer": "Charmat",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In Aperol Spritz, this component is present: Charmat. Official FUZE menu: Aperol, charmat, soda."
-          },
-          {
-            "id": "aperol-spritz-ing-3",
-            "question": "Which ingredient is part of Aperol Spritz?",
-            "correctAnswer": "Soda",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "In Aperol Spritz, this component is present: Soda. Official FUZE menu: Aperol, charmat, soda."
-          },
-          {
-            "id": "aperol-spritz-ing-4",
-            "question": "Which ingredient is part of Aperol Spritz?",
-            "correctAnswer": "Soda",
-            "distractors": [
-              "Fresh lime juice",
-              "Thomas Henry tonic"
-            ],
-            "explanation": "In Aperol Spritz, this component is present: Soda. Official FUZE menu: Aperol, charmat, soda."
-          },
-          {
-            "id": "aperol-spritz-ing-5",
-            "question": "Which ingredient is part of Aperol Spritz?",
-            "correctAnswer": "Soda",
-            "distractors": [
-              "Craft gin",
-              "White rum"
-            ],
-            "explanation": "In Aperol Spritz, this component is present: Soda. Official FUZE menu: Aperol, charmat, soda."
-          }
-        ]
-      },
-      {
-        "id": "hugo-spritz",
-        "name": "Hugo Spritz",
-        "weight": "",
-        "price": "155 CZK",
-        "allergens": [],
-        "description": "charmat, elderflower elixir, lime, mint, soda",
-        "notes": "charmat, elderflower elixir, lime, mint, soda",
-        "questions": [
-          {
-            "id": "hugo-spritz-ing-1",
-            "question": "Which ingredient is part of Hugo Spritz?",
-            "correctAnswer": "Charmat",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Hugo Spritz, this component is present: Charmat. Official FUZE menu: charmat, elderflower elixir, lime, mint, soda."
-          },
-          {
-            "id": "hugo-spritz-ing-2",
-            "question": "Which ingredient is part of Hugo Spritz?",
-            "correctAnswer": "Elderflower elixir",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In Hugo Spritz, this component is present: Elderflower elixir. Official FUZE menu: charmat, elderflower elixir, lime, mint, soda."
-          },
-          {
-            "id": "hugo-spritz-ing-3",
-            "question": "Which ingredient is part of Hugo Spritz?",
-            "correctAnswer": "Lime",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "In Hugo Spritz, this component is present: Lime. Official FUZE menu: charmat, elderflower elixir, lime, mint, soda."
-          },
-          {
-            "id": "hugo-spritz-ing-4",
-            "question": "Which ingredient is part of Hugo Spritz?",
-            "correctAnswer": "Mint",
-            "distractors": [
-              "Thomas Henry tonic",
-              "Craft gin"
-            ],
-            "explanation": "In Hugo Spritz, this component is present: Mint. Official FUZE menu: charmat, elderflower elixir, lime, mint, soda."
-          },
-          {
-            "id": "hugo-spritz-ing-5",
-            "question": "Which ingredient is part of Hugo Spritz?",
-            "correctAnswer": "Soda",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Hugo Spritz, this component is present: Soda. Official FUZE menu: charmat, elderflower elixir, lime, mint, soda."
-          }
-        ]
-      },
-      {
-        "id": "mimosa",
-        "name": "Mimosa",
-        "weight": "",
-        "price": "168 CZK",
-        "allergens": [],
-        "description": "charmat, pear and peach syrup, cucumber slices",
-        "notes": "charmat, pear and peach syrup, cucumber slices",
-        "questions": [
-          {
-            "id": "mimosa-ing-1",
-            "question": "Which ingredient is part of Mimosa?",
-            "correctAnswer": "Charmat",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Mimosa, this component is present: Charmat. Official FUZE menu: charmat, pear and peach syrup, cucumber slices."
-          },
-          {
-            "id": "mimosa-ing-2",
-            "question": "Which ingredient is part of Mimosa?",
-            "correctAnswer": "Pear and peach syrup",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In Mimosa, this component is present: Pear and peach syrup. Official FUZE menu: charmat, pear and peach syrup, cucumber slices."
-          },
-          {
-            "id": "mimosa-ing-3",
-            "question": "Which ingredient is part of Mimosa?",
-            "correctAnswer": "Cucumber slices",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "In Mimosa, this component is present: Cucumber slices. Official FUZE menu: charmat, pear and peach syrup, cucumber slices."
-          }
-        ]
-      },
-      {
-        "id": "kir",
-        "name": "Kir",
-        "weight": "",
-        "price": "165 CZK",
-        "allergens": [],
-        "description": "crème de cassis, charmat",
-        "notes": "white wine, Crème de cassis",
-        "questions": [
-          {
-            "id": "kir-ing-1",
-            "question": "Which ingredient is part of Kir?",
-            "correctAnswer": "White wine",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Kir, this component is present: White wine. Official FUZE menu: crème de cassis, charmat."
-          },
-          {
-            "id": "kir-ing-2",
-            "question": "Which ingredient is part of Kir?",
-            "correctAnswer": "Crème de cassis",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In Kir, this component is present: Crème de cassis. Official FUZE menu: crème de cassis, charmat."
-          }
-        ]
-      },
-      {
-        "id": "campari-bitter",
-        "name": "Campari Bitter",
-        "weight": "0.06l",
-        "price": "87 CZK",
-        "allergens": [],
-        "description": "0,06l",
-        "notes": "Campari Bitter",
-        "questions": [
-          {
-            "id": "campari-bitter-vol",
-            "question": "What is the serving volume / measure of Campari Bitter?",
-            "correctAnswer": "0.06 l",
-            "distractors": [
-              "0.08 l",
-              "0.04 l"
-            ],
-            "explanation": "The serving measure of Campari Bitter is 0.06 l."
-          },
-          {
-            "id": "campari-bitter-ing-1",
-            "question": "Which ingredient is part of Campari Bitter?",
-            "correctAnswer": "Italian red bitter aperitif",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Campari Bitter, this component is present: Italian red bitter aperitif. Official FUZE menu: 0,06l."
-          }
-        ]
-      },
-      {
-        "id": "martini-dry",
-        "name": "Martini Dry",
-        "weight": "0.08l",
-        "price": "79 CZK",
-        "allergens": [],
-        "description": "0,08l",
-        "notes": "Martini Dry",
-        "questions": [
-          {
-            "id": "martini-dry-vol",
-            "question": "What is the serving volume / measure of Martini Dry?",
-            "correctAnswer": "0.08 l",
-            "distractors": [
-              "0.06 l",
-              "0.1 l"
-            ],
-            "explanation": "The serving measure of Martini Dry is 0.08 l."
-          },
-          {
-            "id": "martini-dry-ing-1",
-            "question": "Which ingredient is part of Martini Dry?",
-            "correctAnswer": "Classic Italian extra dry vermouth",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Martini Dry, this component is present: Classic Italian extra dry vermouth. Official FUZE menu: 0,08l."
-          }
-        ]
-      },
-      {
-        "id": "cinzano-rosso-bianco",
-        "name": "Cinzano Rosso / Bianco",
-        "weight": "0.08l",
-        "price": "79 CZK",
-        "allergens": [],
-        "description": "0,08l",
-        "notes": "Rosso / Bianco",
-        "questions": [
-          {
-            "id": "cinzano-rosso-bianco-vol",
-            "question": "What is the serving volume / measure of Cinzano?",
-            "correctAnswer": "0.08 l",
-            "distractors": [
-              "0.06 l",
-              "0.1 l"
-            ],
-            "explanation": "The serving measure of Cinzano is 0.08 l."
-          },
-          {
-            "id": "cinzano-rosso-bianco-ing-1",
-            "question": "Which ingredient is part of Cinzano?",
-            "correctAnswer": "Rosso / Bianco",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Cinzano Rosso / Bianco, this component is present: Rosso / Bianco. Official FUZE menu: 0,08l."
-          },
-          {
-            "id": "cinzano-rosso-bianco-ing-2",
-            "question": "Which ingredient is part of Cinzano?",
-            "correctAnswer": "Rosso / Bianco",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In Cinzano Rosso / Bianco, this component is present: Rosso / Bianco. Official FUZE menu: 0,08l."
-          }
-        ]
-      },
-      {
-        "id": "grahams-porto-10y",
-        "name": "Grahams Porto Tawny 10y",
-        "weight": "0.06l",
-        "price": "225 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "0,06l",
-        "notes": "Graham's Porto 10y",
-        "questions": [
-          {
-            "id": "grahams-porto-10y-vol",
-            "question": "What is the serving volume / measure of Graham's Porto 10y?",
-            "correctAnswer": "0.06 l",
-            "distractors": [
-              "0.08 l",
-              "0.04 l"
-            ],
-            "explanation": "The serving measure of Graham's Porto 10y is 0.06 l."
-          },
-          {
-            "id": "grahams-porto-10y-ing-1",
-            "question": "Which ingredient is part of Graham's Porto 10y?",
-            "correctAnswer": "Ten-year-old aged Tawny Port with mellow dried fruit notes",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Grahams Porto Tawny 10y, this component is present: Ten-year-old aged Tawny Port with mellow dried fruit notes. Official FUZE menu: 0,06l."
-          },
-          {
-            "id": "grahams-porto-10y-ing-2",
-            "question": "Which ingredient is part of Graham's Porto 10y?",
-            "correctAnswer": "Ten-year-old aged Tawny Port with mellow dried fruit notes",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In Grahams Porto Tawny 10y, this component is present: Ten-year-old aged Tawny Port with mellow dried fruit notes. Official FUZE menu: 0,06l."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "nealko-aperitivy",
-    "name": "Non-alcoholic aperitifs and cocktails",
-    "badge": "Non-alcoholic aperitifs and cocktails",
-    "description": "Zero-proof aperitifs and signature alcohol-free mixed drinks",
-    "iconName": "Martini",
-    "items": [
-      {
-        "id": "crodino",
-        "name": "Crodino",
-        "weight": "0.175l",
-        "price": "109 CZK",
-        "allergens": [],
-        "description": "0,175l non-alcoholic bitter",
-        "notes": "Non-alcoholic bitter aperitif",
-        "questions": [
-          {
-            "id": "crodino-vol",
-            "question": "What is the serving volume / measure of Crodino?",
-            "correctAnswer": "0.175 l",
-            "distractors": [
-              "0.25 l",
-              "0.1 l"
-            ],
-            "explanation": "The serving measure of Crodino is 0.175 l."
-          },
-          {
-            "id": "crodino-ing-1",
-            "question": "Which ingredient is part of Crodino?",
-            "correctAnswer": "Non-alcoholic bitter aperitif",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Crodino, this component is present: Non-alcoholic bitter aperitif. Official FUZE menu: 0,175l non-alcoholic bitter."
-          },
-          {
-            "id": "crodino-ing-2",
-            "question": "Which ingredient is part of Crodino?",
-            "correctAnswer": "Non-alcoholic bitter aperitif",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In Crodino, this component is present: Non-alcoholic bitter aperitif. Official FUZE menu: 0,175l non-alcoholic bitter."
-          }
-        ]
-      },
-      {
-        "id": "martini-floreale-tonic",
-        "name": "Martini Floreale Alcohol free & Thomas Henry Tonic",
-        "weight": "",
-        "price": "165 CZK",
-        "allergens": [],
-        "description": "non-alcoholic Martini, tonic, dried orange",
-        "notes": "Martini Floreale Alcohol free & Thomas Henry Tonic",
-        "questions": [
-          {
-            "id": "martini-floreale-tonic-ing-1",
-            "question": "Which ingredient is part of Martini Floreale Alcohol free & Thomas Henry Tonic?",
-            "correctAnswer": "Non-alcoholic floral aperitif paired with botanical tonic",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Martini Floreale Alcohol free & Thomas Henry Tonic, this component is present: Non-alcoholic floral aperitif paired with botanical tonic. Official FUZE menu: non-alcoholic Martini, tonic, dried orange."
-          },
-          {
-            "id": "martini-floreale-tonic-ing-2",
-            "question": "Which ingredient is part of Martini Floreale Alcohol free & Thomas Henry Tonic?",
-            "correctAnswer": "Non-alcoholic floral aperitif paired with botanical tonic",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In Martini Floreale Alcohol free & Thomas Henry Tonic, this component is present: Non-alcoholic floral aperitif paired with botanical tonic. Official FUZE menu: non-alcoholic Martini, tonic, dried orange."
-          },
-          {
-            "id": "martini-floreale-tonic-ing-3",
-            "question": "Which ingredient is part of Martini Floreale Alcohol free & Thomas Henry Tonic?",
-            "correctAnswer": "Non-alcoholic floral aperitif paired with botanical tonic",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "In Martini Floreale Alcohol free & Thomas Henry Tonic, this component is present: Non-alcoholic floral aperitif paired with botanical tonic. Official FUZE menu: non-alcoholic Martini, tonic, dried orange."
-          }
-        ]
-      },
-      {
-        "id": "bitter-soda-gasco",
-        "name": "Bitter soda J.Gasco",
-        "weight": "0.2l",
-        "price": "115 CZK",
-        "allergens": [],
-        "description": "0,2l non-alcoholic bitter soda",
-        "notes": "Bitter soda J.Gasco",
-        "questions": [
-          {
-            "id": "bitter-soda-gasco-vol",
-            "question": "What is the serving volume / measure of Bitter soda J.Gasco?",
-            "correctAnswer": "0.2 l",
-            "distractors": [
-              "0.3 l",
-              "0.1 l"
-            ],
-            "explanation": "The serving measure of Bitter soda J.Gasco is 0.2 l."
-          },
-          {
-            "id": "bitter-soda-gasco-ing-1",
-            "question": "Which ingredient is part of Bitter soda J.Gasco?",
-            "correctAnswer": "Italian non-alcoholic bitter soda",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Bitter soda J.Gasco, this component is present: Italian non-alcoholic bitter soda. Official FUZE menu: 0,2l non-alcoholic bitter soda."
-          },
-          {
-            "id": "bitter-soda-gasco-ing-2",
-            "question": "Which ingredient is part of Bitter soda J.Gasco?",
-            "correctAnswer": "Italian non-alcoholic bitter soda",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In Bitter soda J.Gasco, this component is present: Italian non-alcoholic bitter soda. Official FUZE menu: 0,2l non-alcoholic bitter soda."
-          }
-        ]
-      },
-      {
-        "id": "tanqueray-00-tonic",
-        "name": "Tanqueray Alcohol Free & Fever-Tree Tonic",
-        "weight": "",
-        "price": "199 CZK",
-        "allergens": [],
-        "description": "non-alcoholic G&T with lime",
-        "notes": "Tanqueray Alcohol Free & Fever-Tree Tonic",
-        "questions": [
-          {
-            "id": "tanqueray-00-tonic-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Tanqueray Alcohol Free & Fever-Tree Tonic?",
-            "correctAnswer": "Distilled non-alcoholic botanical gin paired with premium tonic",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Tanqueray Alcohol Free & Fever-Tree Tonic, this component is present: Distilled non-alcoholic botanical gin paired with premium tonic. Official FUZE menu: non-alcoholic G&T with lime."
-          },
-          {
-            "id": "tanqueray-00-tonic-ing-2",
-            "question": "Which spirit or liqueur is a signature component of Tanqueray Alcohol Free & Fever-Tree Tonic?",
-            "correctAnswer": "Distilled non-alcoholic botanical gin paired with premium tonic",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In Tanqueray Alcohol Free & Fever-Tree Tonic, this component is present: Distilled non-alcoholic botanical gin paired with premium tonic. Official FUZE menu: non-alcoholic G&T with lime."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "klasicke-koktejly",
-    "name": "Classic cocktails",
-    "badge": "Classic cocktails",
-    "description": "Time-honored bartending classics mixed to exact standard recipes",
-    "iconName": "Martini",
-    "items": [
-      {
-        "id": "negroni",
-        "name": "Negroni",
-        "weight": "",
-        "price": "195 CZK",
-        "allergens": [],
-        "description": "Gin, Campari, Cinzano Rosso",
-        "notes": "Campari, Tanqueray gin, Cinzano rosso",
-        "questions": [
-          {
-            "id": "negroni-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Negroni?",
-            "correctAnswer": "Campari",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Negroni, this component is present: Campari. Official FUZE menu: Gin, Campari, Cinzano Rosso."
-          },
-          {
-            "id": "negroni-ing-2",
-            "question": "Which spirit or liqueur is a signature component of Negroni?",
-            "correctAnswer": "Tanqueray gin",
-            "distractors": [
-              "Blue agave tequila",
-              "Cointreau"
-            ],
-            "explanation": "In Negroni, this component is present: Tanqueray gin. Official FUZE menu: Gin, Campari, Cinzano Rosso."
-          },
-          {
-            "id": "negroni-ing-3",
-            "question": "Which spirit or liqueur is a signature component of Negroni?",
-            "correctAnswer": "Cinzano rosso",
-            "distractors": [
-              "Fresh lime juice",
-              "Soda water"
-            ],
-            "explanation": "In Negroni, this component is present: Cinzano rosso. Official FUZE menu: Gin, Campari, Cinzano Rosso."
-          }
-        ]
-      },
-      {
-        "id": "margarita",
-        "name": "Margarita",
-        "weight": "",
-        "price": "185 CZK",
-        "allergens": [],
-        "description": "Tequila, Cointreau, lime juice",
-        "notes": "Tres Alegres tequila, Cointreau, lime juice, salt",
-        "questions": [
-          {
-            "id": "margarita-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Margarita?",
-            "correctAnswer": "Tres Alegres tequila",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Margarita, this component is present: Tres Alegres tequila. Official FUZE menu: Tequila, Cointreau, lime juice."
-          },
-          {
-            "id": "margarita-ing-2",
-            "question": "Which spirit or liqueur is a signature component of Margarita?",
-            "correctAnswer": "Cointreau",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In Margarita, this component is present: Cointreau. Official FUZE menu: Tequila, Cointreau, lime juice."
-          },
-          {
-            "id": "margarita-ing-3",
-            "question": "Which ingredient is part of Margarita?",
-            "correctAnswer": "Lime juice",
-            "distractors": [
-              "Cinzano rosso",
-              "Soda water"
-            ],
-            "explanation": "In Margarita, this component is present: Lime juice. Official FUZE menu: Tequila, Cointreau, lime juice."
-          },
-          {
-            "id": "margarita-ing-4",
-            "question": "Which ingredient is part of Margarita?",
-            "correctAnswer": "Salt",
-            "distractors": [
-              "Thomas Henry tonic",
-              "Craft gin"
-            ],
-            "explanation": "In Margarita, this component is present: Salt. Official FUZE menu: Tequila, Cointreau, lime juice."
-          }
-        ]
-      },
-      {
-        "id": "mojito",
-        "name": "Mojito",
-        "weight": "",
-        "price": "185 CZK",
-        "allergens": [],
-        "description": "Rum, mint, lime, brown sugar",
-        "notes": "White rum, fresh lime, mint leaves, cane sugar, soda",
-        "questions": [
-          {
-            "id": "mojito-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Mojito?",
-            "correctAnswer": "Rum",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In Mojito, this component is present: Rum. Official FUZE menu: Rum, mint, lime, brown sugar."
-          },
-          {
-            "id": "mojito-ing-2",
-            "question": "Which ingredient is part of Mojito?",
-            "correctAnswer": "Fresh lime",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "In Mojito, this component is present: Fresh lime. Official FUZE menu: Rum, mint, lime, brown sugar."
-          },
-          {
-            "id": "mojito-ing-3",
-            "question": "Which ingredient is part of Mojito?",
-            "correctAnswer": "Mint leaves",
-            "distractors": [
-              "Thomas Henry tonic",
-              "Craft gin"
-            ],
-            "explanation": "In Mojito, this component is present: Mint leaves. Official FUZE menu: Rum, mint, lime, brown sugar."
-          },
-          {
-            "id": "mojito-ing-4",
-            "question": "Which ingredient is part of Mojito?",
-            "correctAnswer": "Cane sugar",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In Mojito, this component is present: Cane sugar. Official FUZE menu: Rum, mint, lime, brown sugar."
-          },
-          {
-            "id": "mojito-ing-5",
-            "question": "Which ingredient is part of Mojito?",
-            "correctAnswer": "Soda",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "In Mojito, this component is present: Soda. Official FUZE menu: Rum, mint, lime, brown sugar."
-          }
-        ]
-      },
-      {
-        "id": "frozen-strawberry-daiquiri",
-        "name": "Frozen Strawberry Daiquiri",
-        "weight": "",
-        "price": "195 CZK",
-        "allergens": [],
-        "description": "Rum, lime juice, strawberry purée, sugar",
-        "notes": "Rum, fresh strawberry purée, lime juice",
-        "questions": [
-          {
-            "id": "frozen-strawberry-daiquiri-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Frozen Strawberry Daiquiri?",
-            "correctAnswer": "Rum",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In Frozen Strawberry Daiquiri, this component is present: Rum. Official FUZE menu: Rum, lime juice, strawberry purée, sugar."
-          },
-          {
-            "id": "frozen-strawberry-daiquiri-ing-2",
-            "question": "Which bread, side, or crispy garnish accompanies Frozen Strawberry Daiquiri?",
-            "correctAnswer": "Fresh strawberry purée",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "In Frozen Strawberry Daiquiri, this component is present: Fresh strawberry purée. Official FUZE menu: Rum, lime juice, strawberry purée, sugar."
-          },
-          {
-            "id": "frozen-strawberry-daiquiri-ing-3",
-            "question": "Which ingredient is part of Frozen Strawberry Daiquiri?",
-            "correctAnswer": "Lime juice",
-            "distractors": [
-              "Soda water",
-              "Thomas Henry tonic"
-            ],
-            "explanation": "In Frozen Strawberry Daiquiri, this component is present: Lime juice. Official FUZE menu: Rum, lime juice, strawberry purée, sugar."
-          },
-          {
-            "id": "frozen-strawberry-daiquiri-ing-4",
-            "question": "Which ingredient is part of Frozen Strawberry Daiquiri?",
-            "correctAnswer": "Lime juice",
-            "distractors": [
-              "Craft gin",
-              "Blue agave tequila"
-            ],
-            "explanation": "In Frozen Strawberry Daiquiri, this component is present: Lime juice. Official FUZE menu: Rum, lime juice, strawberry purée, sugar."
-          }
-        ]
-      },
-      {
-        "id": "cuba-libre",
-        "name": "Cuba Libre",
-        "weight": "",
-        "price": "165 CZK",
-        "allergens": [],
-        "description": "Rum, lime juice, Coca-Cola",
-        "notes": "Rum, lime juice, Coca-Cola",
-        "questions": [
-          {
-            "id": "cuba-libre-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Cuba Libre?",
-            "correctAnswer": "Rum",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In Cuba Libre, this component is present: Rum. Official FUZE menu: Rum, lime juice, Coca-Cola."
-          },
-          {
-            "id": "cuba-libre-ing-2",
-            "question": "Which ingredient is part of Cuba Libre?",
-            "correctAnswer": "Lime juice",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "In Cuba Libre, this component is present: Lime juice. Official FUZE menu: Rum, lime juice, Coca-Cola."
-          },
-          {
-            "id": "cuba-libre-ing-3",
-            "question": "Which ingredient is part of Cuba Libre?",
-            "correctAnswer": "Coca-Cola",
-            "distractors": [
-              "Soda water",
-              "Thomas Henry tonic"
-            ],
-            "explanation": "In Cuba Libre, this component is present: Coca-Cola. Official FUZE menu: Rum, lime juice, Coca-Cola."
-          }
-        ]
-      },
-      {
-        "id": "mai-tai",
-        "name": "May-Tai",
-        "weight": "",
-        "price": "199 CZK",
-        "allergens": [
-          "8"
-        ],
-        "description": "White and dark rum, Curaçao, almond syrup, lime juice",
-        "notes": "White and dark rum, Curaçao, almond syrup, lime juice",
-        "questions": [
-          {
-            "id": "mai-tai-ing-1",
-            "question": "Which spirit or liqueur is a signature component of May-Tai?",
-            "correctAnswer": "White and dark rum",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In May-Tai, this component is present: White and dark rum. Official FUZE menu: White and dark rum, Curaçao, almond syrup, lime juice."
-          },
-          {
-            "id": "mai-tai-ing-2",
-            "question": "Which ingredient is part of May-Tai?",
-            "correctAnswer": "Curaçao",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In May-Tai, this component is present: Curaçao. Official FUZE menu: White and dark rum, Curaçao, almond syrup, lime juice."
-          },
-          {
-            "id": "mai-tai-ing-3",
-            "question": "Which ingredient is part of May-Tai?",
-            "correctAnswer": "Almond syrup",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "In May-Tai, this component is present: Almond syrup. Official FUZE menu: White and dark rum, Curaçao, almond syrup, lime juice."
-          },
-          {
-            "id": "mai-tai-ing-4",
-            "question": "Which ingredient is part of May-Tai?",
-            "correctAnswer": "Lime juice",
-            "distractors": [
-              "Soda water",
-              "Thomas Henry tonic"
-            ],
-            "explanation": "In May-Tai, this component is present: Lime juice. Official FUZE menu: White and dark rum, Curaçao, almond syrup, lime juice."
-          }
-        ]
-      },
-      {
-        "id": "porn-star-martini",
-        "name": "Porn star Martini",
-        "weight": "",
-        "price": "232 CZK",
-        "allergens": [],
-        "description": "Vanilla vodka, passionfruit liqueur, lime juice, charmat",
-        "notes": "Vanilla vodka, passionfruit liqueur, lime juice, charmat",
-        "questions": [
-          {
-            "id": "porn-star-martini-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Porn star Martini?",
-            "correctAnswer": "Vanilla vodka",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Porn star Martini, this component is present: Vanilla vodka. Official FUZE menu: Vanilla vodka, passionfruit liqueur, lime juice, charmat."
-          },
-          {
-            "id": "porn-star-martini-ing-2",
-            "question": "Which ingredient is part of Porn star Martini?",
-            "correctAnswer": "Passionfruit liqueur",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In Porn star Martini, this component is present: Passionfruit liqueur. Official FUZE menu: Vanilla vodka, passionfruit liqueur, lime juice, charmat."
-          },
-          {
-            "id": "porn-star-martini-ing-3",
-            "question": "Which ingredient is part of Porn star Martini?",
-            "correctAnswer": "Lime juice",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "In Porn star Martini, this component is present: Lime juice. Official FUZE menu: Vanilla vodka, passionfruit liqueur, lime juice, charmat."
-          },
-          {
-            "id": "porn-star-martini-ing-4",
-            "question": "Which ingredient is part of Porn star Martini?",
-            "correctAnswer": "Charmat",
-            "distractors": [
-              "Soda water",
-              "Thomas Henry tonic"
-            ],
-            "explanation": "In Porn star Martini, this component is present: Charmat. Official FUZE menu: Vanilla vodka, passionfruit liqueur, lime juice, charmat."
-          },
-          {
-            "id": "porn-star-martini-ing-5",
-            "question": "Which ingredient is part of Porn star Martini?",
-            "correctAnswer": "Charmat",
-            "distractors": [
-              "Craft gin",
-              "White rum"
-            ],
-            "explanation": "In Porn star Martini, this component is present: Charmat. Official FUZE menu: Vanilla vodka, passionfruit liqueur, lime juice, charmat."
-          }
-        ]
-      },
-      {
-        "id": "skinny-bitch",
-        "name": "Skinny bitch",
-        "weight": "",
-        "price": "125 CZK",
-        "allergens": [],
-        "description": "Vodka, lime juice, soda",
-        "notes": "Vodka, lime juice, soda",
-        "questions": [
-          {
-            "id": "skinny-bitch-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Skinny bitch?",
-            "correctAnswer": "Vodka",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Skinny bitch, this component is present: Vodka. Official FUZE menu: Vodka, lime juice, soda."
-          },
-          {
-            "id": "skinny-bitch-ing-2",
-            "question": "Which ingredient is part of Skinny bitch?",
-            "correctAnswer": "Lime juice",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In Skinny bitch, this component is present: Lime juice. Official FUZE menu: Vodka, lime juice, soda."
-          },
-          {
-            "id": "skinny-bitch-ing-3",
-            "question": "Which ingredient is part of Skinny bitch?",
-            "correctAnswer": "Soda",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "In Skinny bitch, this component is present: Soda. Official FUZE menu: Vodka, lime juice, soda."
-          }
-        ]
-      },
-      {
-        "id": "cosmopolitan",
-        "name": "Cosmopolitan",
-        "weight": "",
-        "price": "160 CZK",
-        "allergens": [],
-        "description": "Vodka, Cointreau, cranberry juice, lime juice",
-        "notes": "Vodka, Cointreau, cranberry juice, lime juice",
-        "questions": [
-          {
-            "id": "cosmopolitan-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Cosmopolitan?",
-            "correctAnswer": "Vodka",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Cosmopolitan, this component is present: Vodka. Official FUZE menu: Vodka, Cointreau, cranberry juice, lime juice."
-          },
-          {
-            "id": "cosmopolitan-ing-2",
-            "question": "Which spirit or liqueur is a signature component of Cosmopolitan?",
-            "correctAnswer": "Cointreau",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In Cosmopolitan, this component is present: Cointreau. Official FUZE menu: Vodka, Cointreau, cranberry juice, lime juice."
-          },
-          {
-            "id": "cosmopolitan-ing-3",
-            "question": "Which ingredient is part of Cosmopolitan?",
-            "correctAnswer": "Cranberry juice",
-            "distractors": [
-              "Cinzano rosso",
-              "Soda water"
-            ],
-            "explanation": "In Cosmopolitan, this component is present: Cranberry juice. Official FUZE menu: Vodka, Cointreau, cranberry juice, lime juice."
-          },
-          {
-            "id": "cosmopolitan-ing-4",
-            "question": "Which ingredient is part of Cosmopolitan?",
-            "correctAnswer": "Lime juice",
-            "distractors": [
-              "Thomas Henry tonic",
-              "Craft gin"
-            ],
-            "explanation": "In Cosmopolitan, this component is present: Lime juice. Official FUZE menu: Vodka, Cointreau, cranberry juice, lime juice."
-          }
-        ]
-      },
-      {
-        "id": "moscow-mule",
-        "name": "Moscow mule",
-        "weight": "",
-        "price": "185 CZK",
-        "allergens": [],
-        "description": "Vodka, ginger beer, lime",
-        "notes": "Vodka, ginger beer, lime",
-        "questions": [
-          {
-            "id": "moscow-mule-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Moscow mule?",
-            "correctAnswer": "Vodka",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Moscow mule, this component is present: Vodka. Official FUZE menu: Vodka, ginger beer, lime."
-          },
-          {
-            "id": "moscow-mule-ing-2",
-            "question": "Which spirit or liqueur is a signature component of Moscow mule?",
-            "correctAnswer": "Ginger beer",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In Moscow mule, this component is present: Ginger beer. Official FUZE menu: Vodka, ginger beer, lime."
-          },
-          {
-            "id": "moscow-mule-ing-3",
-            "question": "Which ingredient is part of Moscow mule?",
-            "correctAnswer": "Lime",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "In Moscow mule, this component is present: Lime. Official FUZE menu: Vodka, ginger beer, lime."
-          }
-        ]
-      },
-      {
-        "id": "french-martini",
-        "name": "French Martini",
-        "weight": "",
-        "price": "195 CZK",
-        "allergens": [],
-        "description": "Vodka, raspberry liqueur, pineapple juice",
-        "notes": "Vodka, raspberry liqueur, pineapple juice",
-        "questions": [
-          {
-            "id": "french-martini-ing-1",
-            "question": "Which spirit or liqueur is a signature component of French Martini?",
-            "correctAnswer": "Vodka",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In French Martini, this component is present: Vodka. Official FUZE menu: Vodka, raspberry liqueur, pineapple juice."
-          },
-          {
-            "id": "french-martini-ing-2",
-            "question": "Which ingredient is part of French Martini?",
-            "correctAnswer": "Raspberry liqueur",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In French Martini, this component is present: Raspberry liqueur. Official FUZE menu: Vodka, raspberry liqueur, pineapple juice."
-          },
-          {
-            "id": "french-martini-ing-3",
-            "question": "Which vegetable or fruit component is included in French Martini?",
-            "correctAnswer": "Pineapple juice",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "In French Martini, this component is present: Pineapple juice. Official FUZE menu: Vodka, raspberry liqueur, pineapple juice."
-          }
-        ]
-      },
-      {
-        "id": "espresso-martini",
-        "name": "Espresso Martini",
-        "weight": "",
-        "price": "195 CZK",
-        "allergens": [],
-        "description": "Vodka, coffee liqueur, espresso",
-        "notes": "Vodka, coffee liqueur, espresso",
-        "questions": [
-          {
-            "id": "espresso-martini-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Espresso Martini?",
-            "correctAnswer": "Vodka",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Espresso Martini, this component is present: Vodka. Official FUZE menu: Vodka, coffee liqueur, espresso."
-          },
-          {
-            "id": "espresso-martini-ing-2",
-            "question": "Which ingredient is part of Espresso Martini?",
-            "correctAnswer": "Coffee liqueur",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In Espresso Martini, this component is present: Coffee liqueur. Official FUZE menu: Vodka, coffee liqueur, espresso."
-          },
-          {
-            "id": "espresso-martini-ing-3",
-            "question": "Which ingredient is part of Espresso Martini?",
-            "correctAnswer": "Espresso",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "In Espresso Martini, this component is present: Espresso. Official FUZE menu: Vodka, coffee liqueur, espresso."
-          },
-          {
-            "id": "espresso-martini-ing-4",
-            "question": "Which ingredient is part of Espresso Martini?",
-            "correctAnswer": "Espresso",
-            "distractors": [
-              "Fresh lime juice",
-              "Soda water"
-            ],
-            "explanation": "In Espresso Martini, this component is present: Espresso. Official FUZE menu: Vodka, coffee liqueur, espresso."
-          }
-        ]
-      },
-      {
-        "id": "paloma",
-        "name": "Paloma",
-        "weight": "",
-        "price": "195 CZK",
-        "allergens": [],
-        "description": "tequila, limited juice, agave syrup, grapefruit J.Gasco Soda Rosa, salt",
-        "notes": "tequila, lime juice, agave syrup, grapefruit J.Gasco Soda Rosa, salt",
-        "questions": [
-          {
-            "id": "paloma-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Paloma?",
-            "correctAnswer": "Tequila",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Paloma, this component is present: Tequila. Official FUZE menu: tequila, limited juice, agave syrup, grapefruit J.Gasco Soda Rosa, salt."
-          },
-          {
-            "id": "paloma-ing-2",
-            "question": "Which ingredient is part of Paloma?",
-            "correctAnswer": "Lime juice",
-            "distractors": [
-              "Campari",
-              "Cointreau"
-            ],
-            "explanation": "In Paloma, this component is present: Lime juice. Official FUZE menu: tequila, limited juice, agave syrup, grapefruit J.Gasco Soda Rosa, salt."
-          },
-          {
-            "id": "paloma-ing-3",
-            "question": "Which ingredient is part of Paloma?",
-            "correctAnswer": "Agave syrup",
-            "distractors": [
-              "Cinzano rosso",
-              "Soda water"
-            ],
-            "explanation": "In Paloma, this component is present: Agave syrup. Official FUZE menu: tequila, limited juice, agave syrup, grapefruit J.Gasco Soda Rosa, salt."
-          },
-          {
-            "id": "paloma-ing-4",
-            "question": "Which vegetable or fruit component is included in Paloma?",
-            "correctAnswer": "Grapefruit J.Gasco Soda Rosa",
-            "distractors": [
-              "Thomas Henry tonic",
-              "Craft gin"
-            ],
-            "explanation": "In Paloma, this component is present: Grapefruit J.Gasco Soda Rosa. Official FUZE menu: tequila, limited juice, agave syrup, grapefruit J.Gasco Soda Rosa, salt."
-          },
-          {
-            "id": "paloma-ing-5",
-            "question": "Which ingredient is part of Paloma?",
-            "correctAnswer": "Salt",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Paloma, this component is present: Salt. Official FUZE menu: tequila, limited juice, agave syrup, grapefruit J.Gasco Soda Rosa, salt."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "koktejly-fuze",
-    "name": "Signature cocktails",
-    "badge": "Signature cocktails",
-    "description": "Signature in-house craft cocktails blending modern mixology with beer & spirits",
-    "iconName": "Martini",
-    "items": [
-      {
-        "id": "truffle-negroni",
-        "name": "Truffle Negroni",
-        "weight": "",
-        "price": "205 CZK",
-        "allergens": [],
-        "description": "truffle gin, Campari, Cinzano rosso",
-        "notes": "truffle gin, Campari, Cinzano rosso",
-        "questions": [
-          {
-            "id": "truffle-negroni-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Truffle Negroni?",
-            "correctAnswer": "Truffle gin",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Truffle Negroni, this component is present: Truffle gin. Official FUZE menu: truffle gin, Campari, Cinzano rosso."
-          },
-          {
-            "id": "truffle-negroni-ing-2",
-            "question": "Which spirit or liqueur is a signature component of Truffle Negroni?",
-            "correctAnswer": "Campari",
-            "distractors": [
-              "Blue agave tequila",
-              "Cointreau"
-            ],
-            "explanation": "In Truffle Negroni, this component is present: Campari. Official FUZE menu: truffle gin, Campari, Cinzano rosso."
-          },
-          {
-            "id": "truffle-negroni-ing-3",
-            "question": "Which spirit or liqueur is a signature component of Truffle Negroni?",
-            "correctAnswer": "Cinzano rosso",
-            "distractors": [
-              "Fresh lime juice",
-              "Soda water"
-            ],
-            "explanation": "In Truffle Negroni, this component is present: Cinzano rosso. Official FUZE menu: truffle gin, Campari, Cinzano rosso."
-          }
-        ]
-      },
-      {
-        "id": "fizzy-fuze",
-        "name": "Fizzy Fuze",
-        "weight": "",
-        "price": "175 CZK",
-        "allergens": [],
-        "description": "Gin, lime juice, soda, elderberry syrup",
-        "notes": "Gin, lime juice, soda, elderberry syrup",
-        "questions": [
-          {
-            "id": "fizzy-fuze-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Fizzy Fuze?",
-            "correctAnswer": "Gin",
-            "distractors": [
-              "Aged dark rum",
-              "Blue agave tequila"
-            ],
-            "explanation": "In Fizzy Fuze, this component is present: Gin. Official FUZE menu: Gin, lime juice, soda, elderberry syrup."
-          },
-          {
-            "id": "fizzy-fuze-ing-2",
-            "question": "Which ingredient is part of Fizzy Fuze?",
-            "correctAnswer": "Lime juice",
-            "distractors": [
-              "Campari",
-              "Cointreau"
-            ],
-            "explanation": "In Fizzy Fuze, this component is present: Lime juice. Official FUZE menu: Gin, lime juice, soda, elderberry syrup."
-          },
-          {
-            "id": "fizzy-fuze-ing-3",
-            "question": "Which ingredient is part of Fizzy Fuze?",
-            "correctAnswer": "Soda",
-            "distractors": [
-              "Cinzano rosso",
-              "Thomas Henry tonic"
-            ],
-            "explanation": "In Fizzy Fuze, this component is present: Soda. Official FUZE menu: Gin, lime juice, soda, elderberry syrup."
-          },
-          {
-            "id": "fizzy-fuze-ing-4",
-            "question": "Which ingredient is part of Fizzy Fuze?",
-            "correctAnswer": "Elderberry syrup",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Fizzy Fuze, this component is present: Elderberry syrup. Official FUZE menu: Gin, lime juice, soda, elderberry syrup."
-          },
-          {
-            "id": "fizzy-fuze-ing-5",
-            "question": "Which ingredient is part of Fizzy Fuze?",
-            "correctAnswer": "Elderberry syrup",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In Fizzy Fuze, this component is present: Elderberry syrup. Official FUZE menu: Gin, lime juice, soda, elderberry syrup."
-          },
-          {
-            "id": "fizzy-fuze-ing-6",
-            "question": "Which ingredient is part of Fizzy Fuze?",
-            "correctAnswer": "Elderberry syrup",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "In Fizzy Fuze, this component is present: Elderberry syrup. Official FUZE menu: Gin, lime juice, soda, elderberry syrup."
-          }
-        ]
-      },
-      {
-        "id": "florencia-fashion",
-        "name": "Florence Fashion",
-        "weight": "",
-        "price": "245 CZK",
-        "allergens": [],
-        "description": "Whiskey, peach syrup, chocolate bitters",
-        "notes": "Whiskey, peach syrup, chocolate bitters",
-        "questions": [
-          {
-            "id": "florencia-fashion-ing-1",
-            "question": "Which ingredient is part of Florence Fashion?",
-            "correctAnswer": "Whiskey",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Florence Fashion, this component is present: Whiskey. Official FUZE menu: Whiskey, peach syrup, chocolate bitters."
-          },
-          {
-            "id": "florencia-fashion-ing-2",
-            "question": "Which ingredient is part of Florence Fashion?",
-            "correctAnswer": "Peach syrup",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In Florence Fashion, this component is present: Peach syrup. Official FUZE menu: Whiskey, peach syrup, chocolate bitters."
-          },
-          {
-            "id": "florencia-fashion-ing-3",
-            "question": "Which ingredient is part of Florence Fashion?",
-            "correctAnswer": "Chocolate bitters",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "In Florence Fashion, this component is present: Chocolate bitters. Official FUZE menu: Whiskey, peach syrup, chocolate bitters."
-          }
-        ]
-      },
-      {
-        "id": "am-spritz",
-        "name": "A.M. Spritz",
-        "weight": "",
-        "price": "185 CZK",
-        "allergens": [],
-        "description": "Crémant, gin, elderflower syrup, lime",
-        "notes": "Crémant, gin, elderflower syrup, lime",
-        "questions": [
-          {
-            "id": "am-spritz-ing-1",
-            "question": "Which ingredient is part of A.M. Spritz?",
-            "correctAnswer": "Crémant",
-            "distractors": [
-              "Aged dark rum",
-              "Blue agave tequila"
-            ],
-            "explanation": "In A.M. Spritz, this component is present: Crémant. Official FUZE menu: Crémant, gin, elderflower syrup, lime."
-          },
-          {
-            "id": "am-spritz-ing-2",
-            "question": "Which spirit or liqueur is a signature component of A.M. Spritz?",
-            "correctAnswer": "Gin",
-            "distractors": [
-              "Campari",
-              "Cointreau"
-            ],
-            "explanation": "In A.M. Spritz, this component is present: Gin. Official FUZE menu: Crémant, gin, elderflower syrup, lime."
-          },
-          {
-            "id": "am-spritz-ing-3",
-            "question": "Which ingredient is part of A.M. Spritz?",
-            "correctAnswer": "Elderflower syrup",
-            "distractors": [
-              "Cinzano rosso",
-              "Soda water"
-            ],
-            "explanation": "In A.M. Spritz, this component is present: Elderflower syrup. Official FUZE menu: Crémant, gin, elderflower syrup, lime."
-          },
-          {
-            "id": "am-spritz-ing-4",
-            "question": "Which ingredient is part of A.M. Spritz?",
-            "correctAnswer": "Lime",
-            "distractors": [
-              "Thomas Henry tonic",
-              "White rum"
-            ],
-            "explanation": "In A.M. Spritz, this component is present: Lime. Official FUZE menu: Crémant, gin, elderflower syrup, lime."
-          }
-        ]
-      },
-      {
-        "id": "passionata",
-        "name": "Passionate",
-        "weight": "",
-        "price": "175 CZK",
-        "allergens": [],
-        "description": "Rum, passion fruit, melon syrup, cranberry juice",
-        "notes": "Rum, passion fruit, melon syrup, cranberry juice",
-        "questions": [
-          {
-            "id": "passionata-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Passionate?",
-            "correctAnswer": "Rum",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In Passionate, this component is present: Rum. Official FUZE menu: Rum, passion fruit, melon syrup, cranberry juice."
-          },
-          {
-            "id": "passionata-ing-2",
-            "question": "Which ingredient is part of Passionate?",
-            "correctAnswer": "Passion fruit",
-            "distractors": [
-              "Cointreau",
-              "Cinzano rosso"
-            ],
-            "explanation": "In Passionate, this component is present: Passion fruit. Official FUZE menu: Rum, passion fruit, melon syrup, cranberry juice."
-          },
-          {
-            "id": "passionata-ing-3",
-            "question": "Which ingredient is part of Passionate?",
-            "correctAnswer": "Melon syrup",
-            "distractors": [
-              "Fresh lime juice",
-              "Soda water"
-            ],
-            "explanation": "In Passionate, this component is present: Melon syrup. Official FUZE menu: Rum, passion fruit, melon syrup, cranberry juice."
-          },
-          {
-            "id": "passionata-ing-4",
-            "question": "Which ingredient is part of Passionate?",
-            "correctAnswer": "Cranberry juice",
-            "distractors": [
-              "Thomas Henry tonic",
-              "Craft gin"
-            ],
-            "explanation": "In Passionate, this component is present: Cranberry juice. Official FUZE menu: Rum, passion fruit, melon syrup, cranberry juice."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "gin-a-tonic",
-    "name": "Gin & tonic",
-    "badge": "Gin & tonic",
-    "description": "Curated pairings of craft gins and premium matching tonics",
-    "iconName": "GlassWater",
-    "items": [
-      {
-        "id": "gt-tanqueray",
-        "name": "Tanqueray & Thomas Henry Tonic",
-        "weight": "",
-        "price": "188 CZK",
-        "allergens": [],
-        "description": "Classic",
-        "notes": "Classic",
-        "questions": [
-          {
-            "id": "gt-tanqueray-ing-1",
-            "question": "Which ingredient is part of Tanqueray & Thomas Henry Tonic?",
-            "correctAnswer": "Classic with lime",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Tanqueray & Thomas Henry Tonic, this component is present: Classic with lime. Official FUZE menu: Classic."
-          },
-          {
-            "id": "gt-tanqueray-ing-2",
-            "question": "Which ingredient is part of Tanqueray & Thomas Henry Tonic?",
-            "correctAnswer": "Dry London Dry profile and German quinine tonic",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In Tanqueray & Thomas Henry Tonic, this component is present: Dry London Dry profile and German quinine tonic. Official FUZE menu: Classic."
-          }
-        ]
-      },
-      {
-        "id": "gt-fiesta-garage22",
-        "name": "Fiesta Garage 22 & Guilti tonic lime",
-        "weight": "",
-        "price": "219 CZK",
-        "allergens": [],
-        "description": "playful with lime",
-        "notes": "playful with lime",
-        "questions": [
-          {
-            "id": "gt-fiesta-garage22-ing-1",
-            "question": "Which ingredient is part of Fiesta Garage 22 & Guilti tonic lime?",
-            "correctAnswer": "Playful with lime",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Fiesta Garage 22 & Guilti tonic lime, this component is present: Playful with lime. Official FUZE menu: playful with lime."
-          },
-          {
-            "id": "gt-fiesta-garage22-ing-2",
-            "question": "Which spirit or liqueur is a signature component of Fiesta Garage 22 & Guilti tonic lime?",
-            "correctAnswer": "Craft Prague gin from Holešovice and lime tonic",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In Fiesta Garage 22 & Guilti tonic lime, this component is present: Craft Prague gin from Holešovice and lime tonic. Official FUZE menu: playful with lime."
-          }
-        ]
-      },
-      {
-        "id": "gt-hendricks",
-        "name": "Hendrick`s & Thomas Henry Tonic",
-        "weight": "",
-        "price": "208 CZK",
-        "allergens": [],
-        "description": "With cucumber",
-        "notes": "With cucumber",
-        "questions": [
-          {
-            "id": "gt-hendricks-ing-1",
-            "question": "Which ingredient is part of Hendrick`s & Thomas Henry Tonic?",
-            "correctAnswer": "Fresh with cucumber",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Hendrick`s & Thomas Henry Tonic, this component is present: Fresh with cucumber. Official FUZE menu: With cucumber."
-          },
-          {
-            "id": "gt-hendricks-ing-2",
-            "question": "Which spirit or liqueur is a signature component of Hendrick`s & Thomas Henry Tonic?",
-            "correctAnswer": "Scottish gin infused with cucumber and Bulgarian rose",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In Hendrick`s & Thomas Henry Tonic, this component is present: Scottish gin infused with cucumber and Bulgarian rose. Official FUZE menu: With cucumber."
-          }
-        ]
-      },
-      {
-        "id": "gt-endorphin-imagine",
-        "name": "Endorphin Magic imaGINe & Fever-Tree Tonic",
-        "weight": "",
-        "price": "239 CZK",
-        "allergens": [],
-        "description": "illusionistic with blueberries",
-        "notes": "illusionistic with blueberries",
-        "questions": [
-          {
-            "id": "gt-endorphin-imagine-ing-1",
-            "question": "Which ingredient is part of Endorphin Magic imaGINe & Fever-Tree Tonic?",
-            "correctAnswer": "Illusionist with blueberries",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Endorphin Magic imaGINe & Fever-Tree Tonic, this component is present: Illusionist with blueberries. Official FUZE menu: illusionistic with blueberries."
-          },
-          {
-            "id": "gt-endorphin-imagine-ing-2",
-            "question": "Which cheese or dairy ingredient is included in Endorphin Magic imaGINe & Fever-Tree Tonic?",
-            "correctAnswer": "Color-changing gin infused with butterfly pea flower",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In Endorphin Magic imaGINe & Fever-Tree Tonic, this component is present: Color-changing gin infused with butterfly pea flower. Official FUZE menu: illusionistic with blueberries."
-          }
-        ]
-      },
-      {
-        "id": "gt-flame-of-passion",
-        "name": "Flame of Passion Pink Gin & Thomas Henry Pink Grapefruit Tonic",
-        "weight": "",
-        "price": "228 CZK",
-        "allergens": [],
-        "description": "Pink grapefruit",
-        "notes": "Pink grapefruit",
-        "questions": [
-          {
-            "id": "gt-flame-of-passion-ing-1",
-            "question": "Which vegetable or fruit component is included in Flame of Passion Pink Gin & Thomas Henry Pink Grapefruit Tonic?",
-            "correctAnswer": "Captivating with dried grapefruit",
-            "distractors": [
-              "White rum",
-              "Aged dark rum"
-            ],
-            "explanation": "In Flame of Passion Pink Gin & Thomas Henry Pink Grapefruit Tonic, this component is present: Captivating with dried grapefruit. Official FUZE menu: Pink grapefruit."
-          },
-          {
-            "id": "gt-flame-of-passion-ing-2",
-            "question": "Which vegetable or fruit component is included in Flame of Passion Pink Gin & Thomas Henry Pink Grapefruit Tonic?",
-            "correctAnswer": "Subtle fruity pink gin with grapefruit tonic",
-            "distractors": [
-              "Blue agave tequila",
-              "Campari"
-            ],
-            "explanation": "In Flame of Passion Pink Gin & Thomas Henry Pink Grapefruit Tonic, this component is present: Subtle fruity pink gin with grapefruit tonic. Official FUZE menu: Pink grapefruit."
-          }
-        ]
-      },
-      {
-        "id": "gt-endorphin-copper-moon",
-        "name": "Endorphin Copper Moon & Fever-Tree Mediterranean Tonic",
-        "weight": "",
-        "price": "228 CZK",
-        "allergens": [],
-        "description": "Mediterranean herbs",
-        "notes": "Mediterranean herbs",
-        "questions": [
-          {
-            "id": "gt-endorphin-copper-moon-ing-1",
-            "question": "Which fresh herb or spice seasoning finishes Endorphin Copper Moon & Fever-Tree Mediterranean Tonic?",
-            "correctAnswer": "Rich in herbs and pepper",
-            "distractors": [
-              "Aged dark rum",
-              "Blue agave tequila"
-            ],
-            "explanation": "In Endorphin Copper Moon & Fever-Tree Mediterranean Tonic, this component is present: Rich in herbs and pepper. Official FUZE menu: Mediterranean herbs."
-          },
-          {
-            "id": "gt-endorphin-copper-moon-ing-2",
-            "question": "Which spirit or liqueur is a signature component of Endorphin Copper Moon & Fever-Tree Mediterranean Tonic?",
-            "correctAnswer": "Craft gin and Mediterranean tonic",
-            "distractors": [
-              "Campari",
-              "Cointreau"
-            ],
-            "explanation": "In Endorphin Copper Moon & Fever-Tree Mediterranean Tonic, this component is present: Craft gin and Mediterranean tonic. Official FUZE menu: Mediterranean herbs."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "ovocne-destilaty",
-    "name": "Fruit distillates 0.03l",
-    "badge": "Fruit distillates 0.03l",
-    "description": "Traditional single-fruit distillates from acclaimed Czech master distillers",
-    "iconName": "Flame",
-    "items": [
-      {
-        "id": "slivovice-radlik",
-        "name": "Slivovice",
-        "weight": "0.03l",
-        "price": "105 CZK",
-        "allergens": [],
-        "description": "Radlík (Plum brandy)",
-        "notes": "Radlík (Plum brandy)",
-        "questions": [
-          {
-            "id": "slivovice-radlik-vol",
-            "question": "What is the serving volume / measure of Slivovice?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Slivovice is 0.03 l."
-          },
-          {
-            "id": "slivovice-radlik-ing-1",
-            "question": "Which ingredient is part of Slivovice?",
-            "correctAnswer": "Gentle plum brandy from the award-winning South Bohemian distillery Radlík near Jílové u Prahy",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Slivovice, this component is present: Gentle plum brandy from the award-winning South Bohemian distillery Radlík near Jílové u Prahy. Official FUZE menu: Radlík (Plum brandy)."
-          }
-        ]
-      },
-      {
-        "id": "slivovice-ze-sudu-radlik",
-        "name": "Slivovice ze sudu",
-        "weight": "0.03l",
-        "price": "140 CZK",
-        "allergens": [],
-        "description": "Radlík (Barrel-aged plum brandy)",
-        "notes": "Radlík (Barrel-aged plum brandy)",
-        "questions": [
-          {
-            "id": "slivovice-ze-sudu-radlik-vol",
-            "question": "What is the serving volume / measure of Slivovice ze sudu?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Slivovice ze sudu is 0.03 l."
-          },
-          {
-            "id": "slivovice-ze-sudu-radlik-ing-1",
-            "question": "Which ingredient is part of Slivovice ze sudu?",
-            "correctAnswer": "Plum spirit aged in oak wood casks",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Slivovice ze sudu, this component is present: Plum spirit aged in oak wood casks. Official FUZE menu: Radlík (Barrel-aged plum brandy)."
-          },
-          {
-            "id": "slivovice-ze-sudu-radlik-ing-2",
-            "question": "Which ingredient is part of Slivovice ze sudu?",
-            "correctAnswer": "Golden in color with vanilla notes",
-            "distractors": [
-              "Golden apricots",
-              "Oak barrel aging"
-            ],
-            "explanation": "In Slivovice ze sudu, this component is present: Golden in color with vanilla notes. Official FUZE menu: Radlík (Barrel-aged plum brandy)."
-          }
-        ]
-      },
-      {
-        "id": "hruskovice-skanzen",
-        "name": "Hruškovice Williams",
-        "weight": "0.03l",
-        "price": "110 CZK",
-        "allergens": [],
-        "description": "Skanzen (Williams pear brandy)",
-        "notes": "Skanzen (Williams pear brandy)",
-        "questions": [
-          {
-            "id": "hruskovice-skanzen-vol",
-            "question": "What is the serving volume / measure of Hruškovice Williams?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Hruškovice Williams is 0.03 l."
-          },
-          {
-            "id": "hruskovice-skanzen-ing-1",
-            "question": "Which ingredient is part of Hruškovice Williams?",
-            "correctAnswer": "Intensely aromatic spirit from ripe Williams pears from Skanzen Modrá distillery",
-            "distractors": [
-              "Fermented plum mash",
-              "Golden apricots"
-            ],
-            "explanation": "In Hruškovice Williams, this component is present: Intensely aromatic spirit from ripe Williams pears from Skanzen Modrá distillery. Official FUZE menu: Skanzen (Williams pear brandy)."
-          }
-        ]
-      },
-      {
-        "id": "hruskovice-ze-sudu-radlik",
-        "name": "Hruškovice ze sudu",
-        "weight": "0.03l",
-        "price": "140 CZK",
-        "allergens": [],
-        "description": "Radlík (Barrel-aged pear brandy)",
-        "notes": "Radlík (Barrel-aged pear brandy)",
-        "questions": [
-          {
-            "id": "hruskovice-ze-sudu-radlik-vol",
-            "question": "What is the serving volume / measure of Hruškovice ze sudu?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Hruškovice ze sudu is 0.03 l."
-          },
-          {
-            "id": "hruskovice-ze-sudu-radlik-ing-1",
-            "question": "Which ingredient is part of Hruškovice ze sudu?",
-            "correctAnswer": "Pear spirit aged in oak casks",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Hruškovice ze sudu, this component is present: Pear spirit aged in oak casks. Official FUZE menu: Radlík (Barrel-aged pear brandy)."
-          },
-          {
-            "id": "hruskovice-ze-sudu-radlik-ing-2",
-            "question": "Which ingredient is part of Hruškovice ze sudu?",
-            "correctAnswer": "Harmonious blend of orchard fruit and delicate wood",
-            "distractors": [
-              "Golden apricots",
-              "Oak barrel aging"
-            ],
-            "explanation": "In Hruškovice ze sudu, this component is present: Harmonious blend of orchard fruit and delicate wood. Official FUZE menu: Radlík (Barrel-aged pear brandy)."
-          }
-        ]
-      },
-      {
-        "id": "merunkovice-svach",
-        "name": "Meruňkovice",
-        "weight": "0.03l",
-        "price": "120 CZK",
-        "allergens": [],
-        "description": "Svach (Apricot brandy)",
-        "notes": "Svach (Apricot brandy)",
-        "questions": [
-          {
-            "id": "merunkovice-svach-vol",
-            "question": "What is the serving volume / measure of Meruňkovice?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Meruňkovice is 0.03 l."
-          },
-          {
-            "id": "merunkovice-svach-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Meruňkovice?",
-            "correctAnswer": "Delicious apricot brandy from family distillery Svachovka near Český Krumlov",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Meruňkovice, this component is present: Delicious apricot brandy from family distillery Svachovka near Český Krumlov. Official FUZE menu: Svach (Apricot brandy)."
-          }
-        ]
-      },
-      {
-        "id": "visnovice-zubri",
-        "name": "Višňovice",
-        "weight": "0.03l",
-        "price": "98 CZK",
-        "allergens": [],
-        "description": "Zubří (Cherry brandy)",
-        "notes": "Zubří (Cherry brandy)",
-        "questions": [
-          {
-            "id": "visnovice-zubri-vol",
-            "question": "What is the serving volume / measure of Višňovice?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Višňovice is 0.03 l."
-          },
-          {
-            "id": "visnovice-zubri-ing-1",
-            "question": "Which ingredient is part of Višňovice?",
-            "correctAnswer": "Authentic sour cherry spirit from Wallachian Zubří with delicate almond undertones from cherry pits",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Višňovice, this component is present: Authentic sour cherry spirit from Wallachian Zubří with delicate almond undertones from cherry pits. Official FUZE menu: Zubří (Cherry brandy)."
-          }
-        ]
-      },
-      {
-        "id": "jablkovice-galli",
-        "name": "Jablkovice",
-        "weight": "0.03l",
-        "price": "98 CZK",
-        "allergens": [],
-        "description": "Galí (Apple brandy)",
-        "notes": "Galí (Apple brandy)",
-        "questions": [
-          {
-            "id": "jablkovice-galli-vol",
-            "question": "What is the serving volume / measure of Jablkovice?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Jablkovice is 0.03 l."
-          },
-          {
-            "id": "jablkovice-galli-ing-1",
-            "question": "Which vegetable or fruit component is included in Jablkovice?",
-            "correctAnswer": "Crisp and fresh apple brandy from selected Czech apples from Galli distillery",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Jablkovice, this component is present: Crisp and fresh apple brandy from selected Czech apples from Galli distillery. Official FUZE menu: Galí (Apple brandy)."
-          }
-        ]
-      },
-      {
-        "id": "rybizovice-raspenava",
-        "name": "Rybízovice",
-        "weight": "0.03l",
-        "price": "160 CZK",
-        "allergens": [],
-        "description": "Raspenava (Currant brandy)",
-        "notes": "Raspenava (Currant brandy)",
-        "questions": [
-          {
-            "id": "rybizovice-raspenava-vol",
-            "question": "What is the serving volume / measure of Rybízovice?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Rybízovice is 0.03 l."
-          },
-          {
-            "id": "rybizovice-raspenava-ing-1",
-            "question": "Which ingredient is part of Rybízovice?",
-            "correctAnswer": "Rare and highly prized eau-de-vie from black and red currants from Raspenava",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Rybízovice, this component is present: Rare and highly prized eau-de-vie from black and red currants from Raspenava. Official FUZE menu: Raspenava (Currant brandy)."
-          }
-        ]
-      },
-      {
-        "id": "vinovice-ze-sudu-radlik",
-        "name": "Vínovice ze sudu",
-        "weight": "0.03l",
-        "price": "149 CZK",
-        "allergens": [],
-        "description": "Radlík (Barrel-aged grape brandy)",
-        "notes": "Radlík (Barrel-aged grape brandy)",
-        "questions": [
-          {
-            "id": "vinovice-ze-sudu-radlik-vol",
-            "question": "What is the serving volume / measure of Vínovice ze sudu?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Vínovice ze sudu is 0.03 l."
-          },
-          {
-            "id": "vinovice-ze-sudu-radlik-ing-1",
-            "question": "Which vegetable or fruit component is included in Vínovice ze sudu?",
-            "correctAnswer": "Grape spirit matured in oak barrels from Radlík distillery",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Vínovice ze sudu, this component is present: Grape spirit matured in oak barrels from Radlík distillery. Official FUZE menu: Radlík (Barrel-aged grape brandy)."
-          }
-        ]
-      },
-      {
-        "id": "traminovice-kolby",
-        "name": "Tramínovice",
-        "weight": "0.03l",
-        "price": "135 CZK",
-        "allergens": [],
-        "description": "Kolby (Grape brandy)",
-        "notes": "Kolby (Grape brandy)",
-        "questions": [
-          {
-            "id": "traminovice-kolby-vol",
-            "question": "What is the serving volume / measure of Tramínovice?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Tramínovice is 0.03 l."
-          },
-          {
-            "id": "traminovice-kolby-ing-1",
-            "question": "Which vegetable or fruit component is included in Tramínovice?",
-            "correctAnswer": "Varietal grape brandy from Gewürztraminer (Tramín červený) grapes from Kolby winery (Pouzdřany)",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Tramínovice, this component is present: Varietal grape brandy from Gewürztraminer (Tramín červený) grapes from Kolby winery (Pouzdřany). Official FUZE menu: Kolby (Grape brandy)."
-          }
-        ]
-      },
-      {
-        "id": "ponesicka-mrkvovice",
-        "name": "Poněšická Mrkvovice",
-        "weight": "0.03l",
-        "price": "123 CZK",
-        "allergens": [],
-        "description": "(Carrot brandy)",
-        "notes": "(Carrot brandy)",
-        "questions": [
-          {
-            "id": "ponesicka-mrkvovice-vol",
-            "question": "What is the serving volume / measure of Poněšická Mrkvovice?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Poněšická Mrkvovice is 0.03 l."
-          },
-          {
-            "id": "ponesicka-mrkvovice-ing-1",
-            "question": "Which ingredient is part of Poněšická Mrkvovice?",
-            "correctAnswer": "Unique and rare vegetable eau-de-vie from sweet carrots from legendary South Bohemian Poněšice distillery",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Poněšická Mrkvovice, this component is present: Unique and rare vegetable eau-de-vie from sweet carrots from legendary South Bohemian Poněšice distillery. Official FUZE menu: (Carrot brandy)."
-          }
-        ]
-      },
-      {
-        "id": "malinovice-silver-martenz",
-        "name": "Malinovice Silver",
-        "weight": "0.03l",
-        "price": "175 CZK",
-        "allergens": [],
-        "description": "Martenz (Raspberry Brandy)",
-        "notes": "Martenz (Raspberry Brandy)",
-        "questions": [
-          {
-            "id": "malinovice-silver-martenz-vol",
-            "question": "What is the serving volume / measure of Malinovice Silver?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Malinovice Silver is 0.03 l."
-          },
-          {
-            "id": "malinovice-silver-martenz-ing-1",
-            "question": "Which ingredient is part of Malinovice Silver?",
-            "correctAnswer": "Luxurious raspberry geist distilled from selected wild raspberries with intense forest berry aroma",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Malinovice Silver, this component is present: Luxurious raspberry geist distilled from selected wild raspberries with intense forest berry aroma. Official FUZE menu: Martenz (Raspberry Brandy)."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "vodky",
-    "name": "Vodka 0.03l",
-    "badge": "Vodka 0.03l",
-    "description": "Premium grain and artisanal vodkas served in 0.03L measures",
-    "iconName": "Flame",
-    "items": [
-      {
-        "id": "anton-kaapl-legionar",
-        "name": "Anton Kaapl LEGIONARY",
-        "weight": "0.03l",
-        "price": "75 CZK",
-        "allergens": [],
-        "description": "0.03l premium South Bohemian craft vodka from family distillery Jílovice, distilled with soft Bohemian Forest (Šumava) spring water",
-        "notes": "Anton Kaapl LEGIONARY",
-        "questions": [
-          {
-            "id": "anton-kaapl-legionar-vol",
-            "question": "What is the serving volume / measure of Anton Kaapl LEGIONARY?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Anton Kaapl LEGIONARY is 0.03 l."
-          },
-          {
-            "id": "anton-kaapl-legionar-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Anton Kaapl LEGIONARY?",
-            "correctAnswer": "Premium South Bohemian craft vodka from family distillery Jílovice",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Anton Kaapl LEGIONARY, this component is present: Premium South Bohemian craft vodka from family distillery Jílovice. Official FUZE menu: 0.03l premium South Bohemian craft vodka from family distillery Jílovice, distilled with soft Bohemian Forest (Šumava) spring water."
-          },
-          {
-            "id": "anton-kaapl-legionar-ing-2",
-            "question": "Which ingredient is part of Anton Kaapl LEGIONARY?",
-            "correctAnswer": "Distilled with soft Bohemian Forest (Šumava) spring water",
-            "distractors": [
-              "Golden apricots",
-              "Oak barrel aging"
-            ],
-            "explanation": "In Anton Kaapl LEGIONARY, this component is present: Distilled with soft Bohemian Forest (Šumava) spring water. Official FUZE menu: 0.03l premium South Bohemian craft vodka from family distillery Jílovice, distilled with soft Bohemian Forest (Šumava) spring water."
-          }
-        ]
-      },
-      {
-        "id": "nemiroff",
-        "name": "Nemiroff",
-        "weight": "0.03l",
-        "price": "85 CZK",
-        "allergens": [],
-        "description": "0.03l celebrated premium wheat vodka with multi-stage filtration",
-        "notes": "Nemiroff",
-        "questions": [
-          {
-            "id": "nemiroff-vol",
-            "question": "What is the serving volume / measure of Nemiroff?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Nemiroff is 0.03 l."
-          },
-          {
-            "id": "nemiroff-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Nemiroff?",
-            "correctAnswer": "Celebrated premium wheat vodka with multi-stage filtration",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Nemiroff, this component is present: Celebrated premium wheat vodka with multi-stage filtration. Official FUZE menu: 0.03l celebrated premium wheat vodka with multi-stage filtration."
-          }
-        ]
-      },
-      {
-        "id": "grey-goose",
-        "name": "Grey Goose",
-        "weight": "0.03l",
-        "price": "135 CZK",
-        "allergens": [],
-        "description": "0.03l luxurious French vodka crafted from winter wheat from Picardy and limestone-filtered spring water from Gensac-la-Pallue",
-        "notes": "Grey Goose",
-        "questions": [
-          {
-            "id": "grey-goose-vol",
-            "question": "What is the serving volume / measure of Grey Goose?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Grey Goose is 0.03 l."
-          },
-          {
-            "id": "grey-goose-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Grey Goose?",
-            "correctAnswer": "Luxurious French vodka crafted from winter wheat from Picardy and limestone-filtered spring water from Gensac-la-Pallue",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Grey Goose, this component is present: Luxurious French vodka crafted from winter wheat from Picardy and limestone-filtered spring water from Gensac-la-Pallue. Official FUZE menu: 0.03l luxurious French vodka crafted from winter wheat from Picardy and limestone-filtered spring water from Gensac-la-Pallue."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "giny",
-    "name": "Gin 0.03l",
-    "badge": "Gin 0.03l",
-    "description": "Exceptional artisanal and international gins served neat in 0.03L measures",
-    "iconName": "Flame",
-    "items": [
-      {
-        "name": "Tanqueray",
-        "weight": "0.03l",
-        "price": "89 CZK",
-        "allergens": [],
-        "description": "classic London Dry gin with distinct juniper and citrus notes",
-        "notes": "Iconic four-botanical distilled gin.",
-        "id": "gin-tanqueray",
-        "questions": [
-          {
-            "id": "gin-tanqueray-vol",
-            "question": "What is the serving measure of Tanqueray London Dry Gin?",
-            "correctAnswer": "0.03l",
-            "distractors": [
-              "0.02 L",
-              "0.04 L"
-            ],
-            "explanation": "The portion size / weight of Tanqueray London Dry Gin is 0.03l."
-          },
-          {
-            "id": "gin-tanqueray-ing-1",
-            "question": "Which ingredient is part of Tanqueray London Dry Gin?",
-            "correctAnswer": "Classic London Dry gin with distinct juniper",
-            "distractors": [
-              "Pork tenderloin",
-              "Veal leg"
-            ],
-            "explanation": "In Tanqueray, this component is present: Classic London Dry gin with distinct juniper. Official FUZE menu: classic London Dry gin with distinct juniper and citrus notes."
-          },
-          {
-            "id": "gin-tanqueray-ing-2",
-            "question": "Which ingredient is part of Tanqueray London Dry Gin?",
-            "correctAnswer": "Citrus notes",
-            "distractors": [
-              "Duck breast",
-              "Deboned trout"
-            ],
-            "explanation": "In Tanqueray, this component is present: Citrus notes. Official FUZE menu: classic London Dry gin with distinct juniper and citrus notes."
-          }
-        ]
-      },
-      {
-        "name": "Hendrick`s",
-        "weight": "0.03l",
-        "price": "126 CZK",
-        "allergens": [],
-        "description": "Scottish gin distilled with cucumber and Bulgarian rose petal essence",
-        "notes": "Uniquely refreshing botanical Scottish gin.",
-        "id": "gin-hendricks",
-        "questions": [
-          {
-            "id": "gin-hendricks-vol",
-            "question": "What is the serving measure of Hendrick`s Gin?",
-            "correctAnswer": "0.03l",
-            "distractors": [
-              "0.02 L",
-              "0.04 L"
-            ],
-            "explanation": "The portion size / weight of Hendrick`s Gin is 0.03l."
-          },
-          {
-            "id": "gin-hendricks-ing-1",
-            "question": "Which ingredient is part of Hendrick`s Gin?",
-            "correctAnswer": "Scottish gin distilled with cucumber",
-            "distractors": [
-              "Pork tenderloin",
-              "Veal leg"
-            ],
-            "explanation": "In Hendrick`s, this component is present: Scottish gin distilled with cucumber. Official FUZE menu: Scottish gin distilled with cucumber and Bulgarian rose petal essence."
-          },
-          {
-            "id": "gin-hendricks-ing-2",
-            "question": "Which ingredient is part of Hendrick`s Gin?",
-            "correctAnswer": "Bulgarian rose petal essence",
-            "distractors": [
-              "Duck breast",
-              "Deboned trout"
-            ],
-            "explanation": "In Hendrick`s, this component is present: Bulgarian rose petal essence. Official FUZE menu: Scottish gin distilled with cucumber and Bulgarian rose petal essence."
-          }
-        ]
-      },
-      {
-        "name": "Starej Dobrej Gin",
-        "weight": "0.03l",
-        "price": "159 CZK",
-        "allergens": [],
-        "description": "Poněšice",
-        "notes": "Craft small-batch Czech gin.",
-        "id": "gin-starej-dobrej",
-        "questions": [
-          {
-            "id": "gin-starej-dobrej-vol",
-            "question": "What is the serving measure of Starej Dobrej Gin?",
-            "correctAnswer": "0.03l",
-            "distractors": [
-              "0.02 L",
-              "0.04 L"
-            ],
-            "explanation": "The portion size / weight of Starej Dobrej Gin is 0.03l."
-          },
-          {
-            "id": "gin-starej-dobrej-ing-1",
-            "question": "Which fresh herb or spice seasoning finishes Starej Dobrej Gin?",
-            "correctAnswer": "Traditional Czech artisanal gin with rich herbal profile",
-            "distractors": [
-              "Lovage",
-              "Tarragon"
-            ],
-            "explanation": "In Starej Dobrej Gin, this component is present: Traditional Czech artisanal gin with rich herbal profile. Official FUZE menu: Poněšice."
-          }
-        ]
-      },
-      {
-        "name": "Truffle gin",
-        "weight": "0.03l",
-        "price": "155 CZK",
-        "allergens": [],
-        "description": "Garage 22",
-        "notes": "Earthy and luxurious gastronomic spirit.",
-        "id": "gin-truffle",
-        "questions": [
-          {
-            "id": "gin-truffle-vol",
-            "question": "What is the serving measure of Truffle Gin?",
-            "correctAnswer": "0.03l",
-            "distractors": [
-              "0.02 L",
-              "0.04 L"
-            ],
-            "explanation": "The portion size / weight of Truffle Gin is 0.03l."
-          },
-          {
-            "id": "gin-truffle-ing-1",
-            "question": "Which ingredient is part of Truffle Gin?",
-            "correctAnswer": "Exclusive craft gin infused with aromatic winter truffles",
-            "distractors": [
-              "Pork tenderloin",
-              "Veal leg"
-            ],
-            "explanation": "In Truffle gin, this component is present: Exclusive craft gin infused with aromatic winter truffles. Official FUZE menu: Garage 22."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "rumy",
-    "name": "Rum 0.03l",
-    "badge": "Rum 0.03l",
-    "description": "Aged Caribbean, Central American, and Cuban rums served in 0.03L measures",
-    "iconName": "Flame",
-    "items": [
-      {
-        "id": "havana-club-3",
-        "name": "Havana Club Anejo 3 Anos",
-        "weight": "0.03l",
-        "price": "66 CZK",
-        "allergens": [],
-        "description": "0.03l traditional Cuban white rum aged 3 years in white oak casks, essential base for Mojito and Daiquiri",
-        "notes": "Havana Club Anejo 3 Anos",
-        "questions": [
-          {
-            "id": "havana-club-3-vol",
-            "question": "What is the serving volume / measure of Havana Club Anejo 3 Anos?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Havana Club Anejo 3 Anos is 0.03 l."
-          },
-          {
-            "id": "havana-club-3-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Havana Club Anejo 3 Anos?",
-            "correctAnswer": "Traditional Cuban white rum aged 3 years in white oak casks",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Havana Club Anejo 3 Anos, this component is present: Traditional Cuban white rum aged 3 years in white oak casks. Official FUZE menu: 0.03l traditional Cuban white rum aged 3 years in white oak casks, essential base for Mojito and Daiquiri."
-          },
-          {
-            "id": "havana-club-3-ing-2",
-            "question": "Which ingredient is part of Havana Club Anejo 3 Anos?",
-            "correctAnswer": "Essential base for Mojito and Daiquiri",
-            "distractors": [
-              "Golden apricots",
-              "Oak barrel aging"
-            ],
-            "explanation": "In Havana Club Anejo 3 Anos, this component is present: Essential base for Mojito and Daiquiri. Official FUZE menu: 0.03l traditional Cuban white rum aged 3 years in white oak casks, essential base for Mojito and Daiquiri."
-          }
-        ]
-      },
-      {
-        "id": "el-dorado-12y",
-        "name": "El Dorado 12y",
-        "weight": "0.03l",
-        "price": "149 CZK",
-        "allergens": [],
-        "description": "0.03l Guyanese molasses rum aged 12 years in the tropics along Demerara river, rich notes of honey, raisins, and caramel",
-        "notes": "El Dorado 12y",
-        "questions": [
-          {
-            "id": "el-dorado-12y-vol",
-            "question": "What is the serving volume / measure of El Dorado 12y?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of El Dorado 12y is 0.03 l."
-          },
-          {
-            "id": "el-dorado-12y-ing-1",
-            "question": "Which spirit or liqueur is a signature component of El Dorado 12y?",
-            "correctAnswer": "Guyanese molasses rum aged 12 years in the tropics along Demerara river",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In El Dorado 12y, this component is present: Guyanese molasses rum aged 12 years in the tropics along Demerara river. Official FUZE menu: 0.03l Guyanese molasses rum aged 12 years in the tropics along Demerara river, rich notes of honey, raisins, and caramel."
-          },
-          {
-            "id": "el-dorado-12y-ing-2",
-            "question": "Which ingredient is part of El Dorado 12y?",
-            "correctAnswer": "Rich notes of honey",
-            "distractors": [
-              "Golden apricots",
-              "Oak barrel aging"
-            ],
-            "explanation": "In El Dorado 12y, this component is present: Rich notes of honey. Official FUZE menu: 0.03l Guyanese molasses rum aged 12 years in the tropics along Demerara river, rich notes of honey, raisins, and caramel."
-          },
-          {
-            "id": "el-dorado-12y-ing-3",
-            "question": "Which ingredient is part of El Dorado 12y?",
-            "correctAnswer": "Raisins",
-            "distractors": [
-              "Charcoal filtration",
-              "Mountain spring water"
-            ],
-            "explanation": "In El Dorado 12y, this component is present: Raisins. Official FUZE menu: 0.03l Guyanese molasses rum aged 12 years in the tropics along Demerara river, rich notes of honey, raisins, and caramel."
-          },
-          {
-            "id": "el-dorado-12y-ing-4",
-            "question": "Which ingredient is part of El Dorado 12y?",
-            "correctAnswer": "Caramel",
-            "distractors": [
-              "Cane molasses",
-              "100% blue agave"
-            ],
-            "explanation": "In El Dorado 12y, this component is present: Caramel. Official FUZE menu: 0.03l Guyanese molasses rum aged 12 years in the tropics along Demerara river, rich notes of honey, raisins, and caramel."
-          }
-        ]
-      },
-      {
-        "id": "mount-gay-xo",
-        "name": "Mount Gay XO",
-        "weight": "0.03l",
-        "price": "186 CZK",
-        "allergens": [],
-        "description": "0.03l premium Barbadian rum from the world's oldest operating distillery (since 1703), blend of reserves aged in bourbon, cognac, and American whiskey casks",
-        "notes": "Mount Gay XO",
-        "questions": [
-          {
-            "id": "mount-gay-xo-vol",
-            "question": "What is the serving volume / measure of Mount Gay XO?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Mount Gay XO is 0.03 l."
-          },
-          {
-            "id": "mount-gay-xo-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Mount Gay XO?",
-            "correctAnswer": "Premium Barbadian rum from the world's oldest operating distillery (since 1703)",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Mount Gay XO, this component is present: Premium Barbadian rum from the world's oldest operating distillery (since 1703). Official FUZE menu: 0.03l premium Barbadian rum from the world's oldest operating distillery (since 1703), blend of reserves aged in bourbon, cognac, and American whiskey casks."
-          },
-          {
-            "id": "mount-gay-xo-ing-2",
-            "question": "Which spirit or liqueur is a signature component of Mount Gay XO?",
-            "correctAnswer": "Blend of reserves aged in bourbon",
-            "distractors": [
-              "Golden apricots",
-              "Oak barrel aging"
-            ],
-            "explanation": "In Mount Gay XO, this component is present: Blend of reserves aged in bourbon. Official FUZE menu: 0.03l premium Barbadian rum from the world's oldest operating distillery (since 1703), blend of reserves aged in bourbon, cognac, and American whiskey casks."
-          },
-          {
-            "id": "mount-gay-xo-ing-3",
-            "question": "Which spirit or liqueur is a signature component of Mount Gay XO?",
-            "correctAnswer": "Cognac",
-            "distractors": [
-              "Charcoal filtration",
-              "Mountain spring water"
-            ],
-            "explanation": "In Mount Gay XO, this component is present: Cognac. Official FUZE menu: 0.03l premium Barbadian rum from the world's oldest operating distillery (since 1703), blend of reserves aged in bourbon, cognac, and American whiskey casks."
-          },
-          {
-            "id": "mount-gay-xo-ing-4",
-            "question": "Which ingredient is part of Mount Gay XO?",
-            "correctAnswer": "American whiskey casks",
-            "distractors": [
-              "Cane molasses",
-              "100% blue agave"
-            ],
-            "explanation": "In Mount Gay XO, this component is present: American whiskey casks. Official FUZE menu: 0.03l premium Barbadian rum from the world's oldest operating distillery (since 1703), blend of reserves aged in bourbon, cognac, and American whiskey casks."
-          }
-        ]
-      },
-      {
-        "id": "abuelo-7y",
-        "name": "Abuelo 7y",
-        "weight": "0.03l",
-        "price": "135 CZK",
-        "allergens": [],
-        "description": "0.03l Panamanian rum made from estate-grown cane molasses, aged 7 years in small white oak barrels",
-        "notes": "Abuelo 7y",
-        "questions": [
-          {
-            "id": "abuelo-7y-vol",
-            "question": "What is the serving volume / measure of Abuelo 7y?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Abuelo 7y is 0.03 l."
-          },
-          {
-            "id": "abuelo-7y-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Abuelo 7y?",
-            "correctAnswer": "Panamanian rum made from estate-grown cane molasses",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Abuelo 7y, this component is present: Panamanian rum made from estate-grown cane molasses. Official FUZE menu: 0.03l Panamanian rum made from estate-grown cane molasses, aged 7 years in small white oak barrels."
-          },
-          {
-            "id": "abuelo-7y-ing-2",
-            "question": "Which ingredient is part of Abuelo 7y?",
-            "correctAnswer": "Aged 7 years in small white oak barrels",
-            "distractors": [
-              "Golden apricots",
-              "Oak barrel aging"
-            ],
-            "explanation": "In Abuelo 7y, this component is present: Aged 7 years in small white oak barrels. Official FUZE menu: 0.03l Panamanian rum made from estate-grown cane molasses, aged 7 years in small white oak barrels."
-          }
-        ]
-      },
-      {
-        "id": "eminente-reserva-7y",
-        "name": "Eminente Reserva 7y",
-        "weight": "0.03l",
-        "price": "172 CZK",
-        "allergens": [],
-        "description": "0.03l Cuban premium rum with a high 70% share of aged aguardientes (cane spirits), aged in whisky casks",
-        "notes": "Eminente Reserva 7y",
-        "questions": [
-          {
-            "id": "eminente-reserva-7y-vol",
-            "question": "What is the serving volume / measure of Eminente Reserva 7y?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Eminente Reserva 7y is 0.03 l."
-          },
-          {
-            "id": "eminente-reserva-7y-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Eminente Reserva 7y?",
-            "correctAnswer": "Cuban premium rum with a high 70% share of aged aguardientes (cane spirits)",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Eminente Reserva 7y, this component is present: Cuban premium rum with a high 70% share of aged aguardientes (cane spirits). Official FUZE menu: 0.03l Cuban premium rum with a high 70% share of aged aguardientes (cane spirits), aged in whisky casks."
-          },
-          {
-            "id": "eminente-reserva-7y-ing-2",
-            "question": "Which spirit or liqueur is a signature component of Eminente Reserva 7y?",
-            "correctAnswer": "Aged in whisky casks",
-            "distractors": [
-              "Golden apricots",
-              "Oak barrel aging"
-            ],
-            "explanation": "In Eminente Reserva 7y, this component is present: Aged in whisky casks. Official FUZE menu: 0.03l Cuban premium rum with a high 70% share of aged aguardientes (cane spirits), aged in whisky casks."
-          }
-        ]
-      },
-      {
-        "id": "diplomatico",
-        "name": "Dimplomatico",
-        "weight": "0.03l",
-        "price": "149 CZK",
-        "allergens": [],
-        "description": "0.03l Venezuelan rum aged up to 12 years in bourbon casks, velvety sweet with notes of chocolate, vanilla, and orange peel",
-        "notes": "Dimplomatico",
-        "questions": [
-          {
-            "id": "diplomatico-vol",
-            "question": "What is the serving volume / measure of Dimplomatico?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Dimplomatico is 0.03 l."
-          },
-          {
-            "id": "diplomatico-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Dimplomatico?",
-            "correctAnswer": "Venezuelan rum aged up to 12 years in bourbon casks",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Dimplomatico, this component is present: Venezuelan rum aged up to 12 years in bourbon casks. Official FUZE menu: 0.03l Venezuelan rum aged up to 12 years in bourbon casks, velvety sweet with notes of chocolate, vanilla, and orange peel."
-          },
-          {
-            "id": "diplomatico-ing-2",
-            "question": "Which ingredient is part of Dimplomatico?",
-            "correctAnswer": "Velvety sweet with notes of chocolate",
-            "distractors": [
-              "Golden apricots",
-              "Oak barrel aging"
-            ],
-            "explanation": "In Dimplomatico, this component is present: Velvety sweet with notes of chocolate. Official FUZE menu: 0.03l Venezuelan rum aged up to 12 years in bourbon casks, velvety sweet with notes of chocolate, vanilla, and orange peel."
-          },
-          {
-            "id": "diplomatico-ing-3",
-            "question": "Which ingredient is part of Dimplomatico?",
-            "correctAnswer": "Vanilla",
-            "distractors": [
-              "Charcoal filtration",
-              "Mountain spring water"
-            ],
-            "explanation": "In Dimplomatico, this component is present: Vanilla. Official FUZE menu: 0.03l Venezuelan rum aged up to 12 years in bourbon casks, velvety sweet with notes of chocolate, vanilla, and orange peel."
-          },
-          {
-            "id": "diplomatico-ing-4",
-            "question": "Which ingredient is part of Dimplomatico?",
-            "correctAnswer": "Orange peel",
-            "distractors": [
-              "Cane molasses",
-              "100% blue agave"
-            ],
-            "explanation": "In Dimplomatico, this component is present: Orange peel. Official FUZE menu: 0.03l Venezuelan rum aged up to 12 years in bourbon casks, velvety sweet with notes of chocolate, vanilla, and orange peel."
-          }
-        ]
-      },
-      {
-        "id": "zacapa-23y",
-        "name": "Zacapa 23y",
-        "weight": "0.03l",
-        "price": "165 CZK",
-        "allergens": [],
-        "description": "rumy 0,03L",
-        "notes": "Zacapa 23y",
-        "questions": [
-          {
-            "id": "zacapa-23y-vol",
-            "question": "What is the serving volume / measure of Zacapa 23y?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Zacapa 23y is 0.03 l."
-          },
-          {
-            "id": "zacapa-23y-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Zacapa 23y?",
-            "correctAnswer": "Guatemalan rum from virgin sugarcane honey",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Zacapa 23y, this component is present: Guatemalan rum from virgin sugarcane honey. Official FUZE menu: rumy 0,03L."
-          },
-          {
-            "id": "zacapa-23y-ing-2",
-            "question": "Which ingredient is part of Zacapa 23y?",
-            "correctAnswer": "Aged via the Solera system at an altitude of 2,300 meters",
-            "distractors": [
-              "Golden apricots",
-              "Oak barrel aging"
-            ],
-            "explanation": "In Zacapa 23y, this component is present: Aged via the Solera system at an altitude of 2,300 meters. Official FUZE menu: rumy 0,03L."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "tequily",
-    "name": "Tequila 0.03l",
-    "badge": "Tequila 0.03l",
-    "description": "100% blue agave tequilas and handcrafted artisanal editions in 0.03L measures",
-    "iconName": "Flame",
-    "items": [
-      {
-        "id": "tres-alegres-compadres",
-        "name": "Tres Alegres Compadres Blanco",
-        "weight": "0.03l",
-        "price": "89 CZK",
-        "allergens": [],
-        "description": "0.03l unaged pure tequila from 100% blue agave with notes of wild herbs, citrus, and roasted agave",
-        "notes": "Tres Alegres Compadres Blanco",
-        "questions": [
-          {
-            "id": "tres-alegres-compadres-vol",
-            "question": "What is the serving volume / measure of Tres Alegres Compadres Blanco?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Tres Alegres Compadres Blanco is 0.03 l."
-          },
-          {
-            "id": "tres-alegres-compadres-ing-1",
-            "question": "Which fresh herb or spice seasoning finishes Tres Alegres Compadres Blanco?",
-            "correctAnswer": "Unaged pure tequila from 100% blue agave with notes of wild herbs",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Tres Alegres Compadres Blanco, this component is present: Unaged pure tequila from 100% blue agave with notes of wild herbs. Official FUZE menu: 0.03l unaged pure tequila from 100% blue agave with notes of wild herbs, citrus, and roasted agave."
-          },
-          {
-            "id": "tres-alegres-compadres-ing-2",
-            "question": "Which ingredient is part of Tres Alegres Compadres Blanco?",
-            "correctAnswer": "Citrus",
-            "distractors": [
-              "Golden apricots",
-              "Oak barrel aging"
-            ],
-            "explanation": "In Tres Alegres Compadres Blanco, this component is present: Citrus. Official FUZE menu: 0.03l unaged pure tequila from 100% blue agave with notes of wild herbs, citrus, and roasted agave."
-          },
-          {
-            "id": "tres-alegres-compadres-ing-3",
-            "question": "Which ingredient is part of Tres Alegres Compadres Blanco?",
-            "correctAnswer": "Roasted agave",
-            "distractors": [
-              "Charcoal filtration",
-              "Mountain spring water"
-            ],
-            "explanation": "In Tres Alegres Compadres Blanco, this component is present: Roasted agave. Official FUZE menu: 0.03l unaged pure tequila from 100% blue agave with notes of wild herbs, citrus, and roasted agave."
-          }
-        ]
-      },
-      {
-        "id": "herradura-reposado",
-        "name": "Herradura Reposado",
-        "weight": "0.03l",
-        "price": "168 CZK",
-        "allergens": [],
-        "description": "0.03l premium tequila aged a full 11 months in American white oak barrels (standards require only 2 months)",
-        "notes": "Herradura Reposado",
-        "questions": [
-          {
-            "id": "herradura-reposado-vol",
-            "question": "What is the serving volume / measure of Herradura Reposado?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Herradura Reposado is 0.03 l."
-          },
-          {
-            "id": "herradura-reposado-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Herradura Reposado?",
-            "correctAnswer": "Premium tequila aged a full 11 months in American white oak barrels (standards require only 2 months)",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Herradura Reposado, this component is present: Premium tequila aged a full 11 months in American white oak barrels (standards require only 2 months). Official FUZE menu: 0.03l premium tequila aged a full 11 months in American white oak barrels (standards require only 2 months)."
-          }
-        ]
-      },
-      {
-        "id": "corralejo-reposado",
-        "name": "Tequila Corralejo Reposado",
-        "weight": "0.03l",
-        "price": "149 CZK",
-        "allergens": [],
-        "description": "100% Agave",
-        "notes": "100% Agave",
-        "questions": [
-          {
-            "id": "corralejo-reposado-vol",
-            "question": "What is the serving volume / measure of Tequila Corralejo Reposado?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Tequila Corralejo Reposado is 0.03 l."
-          },
-          {
-            "id": "corralejo-reposado-ing-1",
-            "question": "Which ingredient is part of Tequila Corralejo Reposado?",
-            "correctAnswer": "100% Agave",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Tequila Corralejo Reposado, this component is present: 100% Agave. Official FUZE menu: 100% Agave."
-          },
-          {
-            "id": "corralejo-reposado-ing-2",
-            "question": "Which ingredient is part of Tequila Corralejo Reposado?",
-            "correctAnswer": "Aged 4 months in a unique combination of American",
-            "distractors": [
-              "Golden apricots",
-              "Oak barrel aging"
-            ],
-            "explanation": "In Tequila Corralejo Reposado, this component is present: Aged 4 months in a unique combination of American. Official FUZE menu: 100% Agave."
-          },
-          {
-            "id": "corralejo-reposado-ing-3",
-            "question": "Which ingredient is part of Tequila Corralejo Reposado?",
-            "correctAnswer": "French",
-            "distractors": [
-              "Charcoal filtration",
-              "Mountain spring water"
-            ],
-            "explanation": "In Tequila Corralejo Reposado, this component is present: French. Official FUZE menu: 100% Agave."
-          },
-          {
-            "id": "corralejo-reposado-ing-4",
-            "question": "Which ingredient is part of Tequila Corralejo Reposado?",
-            "correctAnswer": "Mexican oak barrels",
-            "distractors": [
-              "Cane molasses",
-              "100% blue agave"
-            ],
-            "explanation": "In Tequila Corralejo Reposado, this component is present: Mexican oak barrels. Official FUZE menu: 100% Agave."
-          }
-        ]
-      },
-      {
-        "id": "cofradia-rose-catrina",
-        "name": "La Cofradia Reposado Rosé „ ed.Catrina ”",
-        "weight": "0.03l",
-        "price": "185 CZK",
-        "allergens": [],
-        "description": "0.03l limited edition in hand-painted ceramic skull bottle Catrina, aged in red wine barrels with a pink hue",
-        "notes": "La Cofradia Reposado Rosé „ ed.Catrina ”",
-        "questions": [
-          {
-            "id": "cofradia-rose-catrina-vol",
-            "question": "What is the serving volume / measure of La Cofradia Reposado Rosé „ ed.Catrina ”?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of La Cofradia Reposado Rosé „ ed.Catrina ” is 0.03 l."
-          },
-          {
-            "id": "cofradia-rose-catrina-ing-1",
-            "question": "Which ingredient is part of La Cofradia Reposado Rosé „ ed.Catrina ”?",
-            "correctAnswer": "Limited edition in hand-painted ceramic skull bottle Catrina",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In La Cofradia Reposado Rosé „ ed.Catrina ”, this component is present: Limited edition in hand-painted ceramic skull bottle Catrina. Official FUZE menu: 0.03l limited edition in hand-painted ceramic skull bottle Catrina, aged in red wine barrels with a pink hue."
-          },
-          {
-            "id": "cofradia-rose-catrina-ing-2",
-            "question": "Which ingredient is part of La Cofradia Reposado Rosé „ ed.Catrina ”?",
-            "correctAnswer": "Aged in red wine barrels with a pink hue",
-            "distractors": [
-              "Golden apricots",
-              "Oak barrel aging"
-            ],
-            "explanation": "In La Cofradia Reposado Rosé „ ed.Catrina ”, this component is present: Aged in red wine barrels with a pink hue. Official FUZE menu: 0.03l limited edition in hand-painted ceramic skull bottle Catrina, aged in red wine barrels with a pink hue."
-          }
-        ]
-      },
-      {
-        "id": "cofradia-black-catrina",
-        "name": "La Cofradia Black „ ed.Catrina ”",
-        "weight": "0.03l",
-        "price": "185 CZK",
-        "allergens": [],
-        "description": "0.03l black collectible ceramic Catrina edition, tequila aged in heavily charred oak barrels with a smoky body",
-        "notes": "La Cofradia Black „ ed.Catrina ”",
-        "questions": [
-          {
-            "id": "cofradia-black-catrina-vol",
-            "question": "What is the serving volume / measure of La Cofradia Black „ ed.Catrina ”?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of La Cofradia Black „ ed.Catrina ” is 0.03 l."
-          },
-          {
-            "id": "cofradia-black-catrina-ing-1",
-            "question": "Which ingredient is part of La Cofradia Black „ ed.Catrina ”?",
-            "correctAnswer": "Black collectible ceramic Catrina edition",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In La Cofradia Black „ ed.Catrina ”, this component is present: Black collectible ceramic Catrina edition. Official FUZE menu: 0.03l black collectible ceramic Catrina edition, tequila aged in heavily charred oak barrels with a smoky body."
-          },
-          {
-            "id": "cofradia-black-catrina-ing-2",
-            "question": "Which spirit or liqueur is a signature component of La Cofradia Black „ ed.Catrina ”?",
-            "correctAnswer": "Tequila aged in heavily charred oak barrels with a smoky body",
-            "distractors": [
-              "Golden apricots",
-              "Oak barrel aging"
-            ],
-            "explanation": "In La Cofradia Black „ ed.Catrina ”, this component is present: Tequila aged in heavily charred oak barrels with a smoky body. Official FUZE menu: 0.03l black collectible ceramic Catrina edition, tequila aged in heavily charred oak barrels with a smoky body."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "whisky-whiskey-bourbon",
-    "name": "Whisky, whiskey, bourbon 0.03l",
-    "badge": "Whisky, whiskey, bourbon 0.03l",
-    "description": "Scotch single malts, Irish whiskeys, Czech grain whisky, and Kentucky bourbon",
-    "iconName": "Flame",
-    "items": [
-      {
-        "id": "goldcock-blended",
-        "name": "Goldcock blended",
-        "weight": "0.03l",
-        "price": "62 CZK",
-        "allergens": [],
-        "description": "0.03l traditional Czech whisky from Těšetice made from Moravian barley, matured in Czech oak casks crafted in Těšetice coopery",
-        "notes": "Goldcock blended",
-        "questions": [
-          {
-            "id": "goldcock-blended-vol",
-            "question": "What is the serving volume / measure of Goldcock blended?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Goldcock blended is 0.03 l."
-          },
-          {
-            "id": "goldcock-blended-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Goldcock blended?",
-            "correctAnswer": "Traditional Czech whisky from Těšetice made from Moravian barley",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Goldcock blended, this component is present: Traditional Czech whisky from Těšetice made from Moravian barley. Official FUZE menu: 0.03l traditional Czech whisky from Těšetice made from Moravian barley, matured in Czech oak casks crafted in Těšetice coopery."
-          },
-          {
-            "id": "goldcock-blended-ing-2",
-            "question": "Which ingredient is part of Goldcock blended?",
-            "correctAnswer": "Matured in Czech oak casks crafted in Těšetice coopery",
-            "distractors": [
-              "Golden apricots",
-              "Oak barrel aging"
-            ],
-            "explanation": "In Goldcock blended, this component is present: Matured in Czech oak casks crafted in Těšetice coopery. Official FUZE menu: 0.03l traditional Czech whisky from Těšetice made from Moravian barley, matured in Czech oak casks crafted in Těšetice coopery."
-          }
-        ]
-      },
-      {
-        "id": "glenfiddich-15y",
-        "name": "Glenfiddich 15y",
-        "weight": "0.03l",
-        "price": "165 CZK",
-        "allergens": [],
-        "description": "0.03l Scottish single malt whisky matured using a unique Solera vat in three cask types: sherry, bourbon, and new oak",
-        "notes": "Glenfiddich 15y",
-        "questions": [
-          {
-            "id": "glenfiddich-15y-vol",
-            "question": "What is the serving volume / measure of Glenfiddich 15y?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Glenfiddich 15y is 0.03 l."
-          },
-          {
-            "id": "glenfiddich-15y-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Glenfiddich 15y?",
-            "correctAnswer": "Scottish single malt whisky matured using a unique Solera vat in three cask types: sherry",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Glenfiddich 15y, this component is present: Scottish single malt whisky matured using a unique Solera vat in three cask types: sherry. Official FUZE menu: 0.03l Scottish single malt whisky matured using a unique Solera vat in three cask types: sherry, bourbon, and new oak."
-          },
-          {
-            "id": "glenfiddich-15y-ing-2",
-            "question": "Which spirit or liqueur is a signature component of Glenfiddich 15y?",
-            "correctAnswer": "Bourbon",
-            "distractors": [
-              "Golden apricots",
-              "Oak barrel aging"
-            ],
-            "explanation": "In Glenfiddich 15y, this component is present: Bourbon. Official FUZE menu: 0.03l Scottish single malt whisky matured using a unique Solera vat in three cask types: sherry, bourbon, and new oak."
-          },
-          {
-            "id": "glenfiddich-15y-ing-3",
-            "question": "Which ingredient is part of Glenfiddich 15y?",
-            "correctAnswer": "New oak",
-            "distractors": [
-              "Charcoal filtration",
-              "Mountain spring water"
-            ],
-            "explanation": "In Glenfiddich 15y, this component is present: New oak. Official FUZE menu: 0.03l Scottish single malt whisky matured using a unique Solera vat in three cask types: sherry, bourbon, and new oak."
-          }
-        ]
-      },
-      {
-        "id": "talisker-10y",
-        "name": "Talisker 10y",
-        "weight": "0.03l",
-        "price": "165 CZK",
-        "allergens": [],
-        "description": "0.03l iconic maritime single malt whisky from the rugged Isle of Skye, intensely peaty and smoky with sea salt and black pepper",
-        "notes": "Talisker 10y",
-        "questions": [
-          {
-            "id": "talisker-10y-vol",
-            "question": "What is the serving volume / measure of Talisker 10y?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Talisker 10y is 0.03 l."
-          },
-          {
-            "id": "talisker-10y-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Talisker 10y?",
-            "correctAnswer": "Iconic maritime single malt whisky from the rugged Isle of Skye",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Talisker 10y, this component is present: Iconic maritime single malt whisky from the rugged Isle of Skye. Official FUZE menu: 0.03l iconic maritime single malt whisky from the rugged Isle of Skye, intensely peaty and smoky with sea salt and black pepper."
-          },
-          {
-            "id": "talisker-10y-ing-2",
-            "question": "Which ingredient is part of Talisker 10y?",
-            "correctAnswer": "Intensely peaty and smoky with sea salt and black pepper",
-            "distractors": [
-              "Golden apricots",
-              "Oak barrel aging"
-            ],
-            "explanation": "In Talisker 10y, this component is present: Intensely peaty and smoky with sea salt and black pepper. Official FUZE menu: 0.03l iconic maritime single malt whisky from the rugged Isle of Skye, intensely peaty and smoky with sea salt and black pepper."
-          },
-          {
-            "id": "talisker-10y-ing-3",
-            "question": "Which ingredient is part of Talisker 10y?",
-            "correctAnswer": "Intensely peaty and smoky with sea salt and black pepper",
-            "distractors": [
-              "Charcoal filtration",
-              "Mountain spring water"
-            ],
-            "explanation": "In Talisker 10y, this component is present: Intensely peaty and smoky with sea salt and black pepper. Official FUZE menu: 0.03l iconic maritime single malt whisky from the rugged Isle of Skye, intensely peaty and smoky with sea salt and black pepper."
-          }
-        ]
-      },
-      {
-        "id": "monkey-shoulder",
-        "name": "Monkey Shoulder",
-        "weight": "0.03l",
-        "price": "112 CZK",
-        "allergens": [],
-        "description": "0.03l Scottish blended malt whisky marrying malts from three renowned Speyside distilleries, smooth with rich vanilla notes",
-        "notes": "Monkey Shoulder",
-        "questions": [
-          {
-            "id": "monkey-shoulder-vol",
-            "question": "What is the serving volume / measure of Monkey Shoulder?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Monkey Shoulder is 0.03 l."
-          },
-          {
-            "id": "monkey-shoulder-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Monkey Shoulder?",
-            "correctAnswer": "Scottish blended malt whisky marrying malts from three renowned Speyside distilleries",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Monkey Shoulder, this component is present: Scottish blended malt whisky marrying malts from three renowned Speyside distilleries. Official FUZE menu: 0.03l Scottish blended malt whisky marrying malts from three renowned Speyside distilleries, smooth with rich vanilla notes."
-          },
-          {
-            "id": "monkey-shoulder-ing-2",
-            "question": "Which ingredient is part of Monkey Shoulder?",
-            "correctAnswer": "Smooth with rich vanilla notes",
-            "distractors": [
-              "Golden apricots",
-              "Oak barrel aging"
-            ],
-            "explanation": "In Monkey Shoulder, this component is present: Smooth with rich vanilla notes. Official FUZE menu: 0.03l Scottish blended malt whisky marrying malts from three renowned Speyside distilleries, smooth with rich vanilla notes."
-          }
-        ]
-      },
-      {
-        "id": "jameson",
-        "name": "Jameson",
-        "weight": "0.03l",
-        "price": "75 CZK",
-        "allergens": [],
-        "description": "0.03l world's best-selling Irish whiskey, triple distilled for exceptional smoothness",
-        "notes": "Jameson",
-        "questions": [
-          {
-            "id": "jameson-vol",
-            "question": "What is the serving volume / measure of Jameson?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Jameson is 0.03 l."
-          },
-          {
-            "id": "jameson-ing-1",
-            "question": "Which ingredient is part of Jameson?",
-            "correctAnswer": "World's best-selling Irish whiskey",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Jameson, this component is present: World's best-selling Irish whiskey. Official FUZE menu: 0.03l world's best-selling Irish whiskey, triple distilled for exceptional smoothness."
-          },
-          {
-            "id": "jameson-ing-2",
-            "question": "Which ingredient is part of Jameson?",
-            "correctAnswer": "Triple distilled for exceptional smoothness",
-            "distractors": [
-              "Golden apricots",
-              "Oak barrel aging"
-            ],
-            "explanation": "In Jameson, this component is present: Triple distilled for exceptional smoothness. Official FUZE menu: 0.03l world's best-selling Irish whiskey, triple distilled for exceptional smoothness."
-          }
-        ]
-      },
-      {
-        "id": "jack-daniels",
-        "name": "Jack Daniels",
-        "weight": "0.03l",
-        "price": "105 CZK",
-        "allergens": [],
-        "description": "0.03l Tennessee whiskey filtered drop by drop through a 10-foot layer of sugar maple charcoal (Lincoln County Process)",
-        "notes": "Jack Daniels",
-        "questions": [
-          {
-            "id": "jack-daniels-vol",
-            "question": "What is the serving volume / measure of Jack Daniels?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Jack Daniels is 0.03 l."
-          },
-          {
-            "id": "jack-daniels-ing-1",
-            "question": "Which ingredient is part of Jack Daniels?",
-            "correctAnswer": "Tennessee whiskey filtered drop by drop through a 10-foot layer of sugar maple charcoal (Lincoln County Process)",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Jack Daniels, this component is present: Tennessee whiskey filtered drop by drop through a 10-foot layer of sugar maple charcoal (Lincoln County Process). Official FUZE menu: 0.03l Tennessee whiskey filtered drop by drop through a 10-foot layer of sugar maple charcoal (Lincoln County Process)."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "brandy-a-cognac",
-    "name": "Brandy & cognac 0.03l",
-    "badge": "Brandy & cognac 0.03l",
-    "description": "Noble aged brandies and French cognacs in 0.03L measures",
-    "iconName": "Flame",
-    "items": [
-      {
-        "id": "metaxa-5",
-        "name": "Metaxa *****",
-        "weight": "0.03l",
-        "price": "75 CZK",
-        "allergens": [],
-        "description": "0.03l Greek amber spirit blended with Muscat wines from Aegean islands Samos and Lemnos and Mediterranean botanicals",
-        "notes": "Metaxa *****",
-        "questions": [
-          {
-            "id": "metaxa-5-vol",
-            "question": "What is the serving volume / measure of Metaxa *****?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Metaxa ***** is 0.03 l."
-          },
-          {
-            "id": "metaxa-5-ing-1",
-            "question": "Which ingredient is part of Metaxa *****?",
-            "correctAnswer": "Greek amber spirit blended with Muscat wines from Aegean islands Samos and Lemnos and Mediterranean botanicals",
-            "distractors": [
-              "Pork tenderloin",
-              "Veal leg"
-            ],
-            "explanation": "In Metaxa *****, this component is present: Greek amber spirit blended with Muscat wines from Aegean islands Samos and Lemnos and Mediterranean botanicals. Official FUZE menu: 0.03l Greek amber spirit blended with Muscat wines from Aegean islands Samos and Lemnos and Mediterranean botanicals."
-          }
-        ]
-      },
-      {
-        "id": "remy-martin-1738",
-        "name": "Remy Martin 1738",
-        "weight": "0.03l",
-        "price": "170 CZK",
-        "allergens": [],
-        "description": "0.03l prestigious French Fine Champagne Cognac (1738 Accord Royal) matured in toasted oak barrels, rich with figs, plums, and caramel",
-        "notes": "Remy Martin 1738",
-        "questions": [
-          {
-            "id": "remy-martin-1738-vol",
-            "question": "What is the serving volume / measure of Remy Martin 1738?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Remy Martin 1738 is 0.03 l."
-          },
-          {
-            "id": "remy-martin-1738-ing-1",
-            "question": "Which bread, side, or crispy garnish accompanies Remy Martin 1738?",
-            "correctAnswer": "Prestigious French Fine Champagne Cognac (1738 Accord Royal) matured in toasted oak barrels",
-            "distractors": [
-              "Butter brioche",
-              "Sourdough bread"
-            ],
-            "explanation": "In Remy Martin 1738, this component is present: Prestigious French Fine Champagne Cognac (1738 Accord Royal) matured in toasted oak barrels. Official FUZE menu: 0.03l prestigious French Fine Champagne Cognac (1738 Accord Royal) matured in toasted oak barrels, rich with figs, plums, and caramel."
-          },
-          {
-            "id": "remy-martin-1738-ing-2",
-            "question": "Which ingredient is part of Remy Martin 1738?",
-            "correctAnswer": "Rich with figs",
-            "distractors": [
-              "Duck breast",
-              "Deboned trout"
-            ],
-            "explanation": "In Remy Martin 1738, this component is present: Rich with figs. Official FUZE menu: 0.03l prestigious French Fine Champagne Cognac (1738 Accord Royal) matured in toasted oak barrels, rich with figs, plums, and caramel."
-          },
-          {
-            "id": "remy-martin-1738-ing-3",
-            "question": "Which ingredient is part of Remy Martin 1738?",
-            "correctAnswer": "Plums",
-            "distractors": [
-              "Beef tenderloin",
-              "Duroc pork belly"
-            ],
-            "explanation": "In Remy Martin 1738, this component is present: Plums. Official FUZE menu: 0.03l prestigious French Fine Champagne Cognac (1738 Accord Royal) matured in toasted oak barrels, rich with figs, plums, and caramel."
-          },
-          {
-            "id": "remy-martin-1738-ing-4",
-            "question": "Which ingredient is part of Remy Martin 1738?",
-            "correctAnswer": "Caramel",
-            "distractors": [
-              "Venison saddle",
-              "Lamb chop"
-            ],
-            "explanation": "In Remy Martin 1738, this component is present: Caramel. Official FUZE menu: 0.03l prestigious French Fine Champagne Cognac (1738 Accord Royal) matured in toasted oak barrels, rich with figs, plums, and caramel."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "palenky-a-likery",
-    "name": "Spirits & liqueurs 0.03l",
-    "badge": "Spirits & liqueurs 0.03l",
-    "description": "Czech herbal liqueurs, absinthe, nut spirits, and traditional digestifs",
-    "iconName": "Flame",
-    "items": [
-      {
-        "id": "fuzovice",
-        "name": "Fuzovice",
-        "weight": "0.03l",
-        "price": "140 CZK",
-        "allergens": [],
-        "description": "FUZE/Agnes",
-        "notes": "FUZE/Agnes",
-        "questions": [
-          {
-            "id": "fuzovice-vol",
-            "question": "What is the serving volume / measure of Fuzovice?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Fuzovice is 0.03 l."
-          },
-          {
-            "id": "fuzovice-ing-1",
-            "question": "Which ingredient is part of Fuzovice?",
-            "correctAnswer": "FUZE/Agnes 45 %",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Fuzovice, this component is present: FUZE/Agnes 45 %. Official FUZE menu: FUZE/Agnes."
-          },
-          {
-            "id": "fuzovice-ing-2",
-            "question": "Which brewing raw material or trait characterizes Fuzovice?",
-            "correctAnswer": "Our signature custom beer spirit distilled from brewery wort brewed from Pilsner and Munich malt with Mandarina Bavaria hops",
-            "distractors": [
-              "Golden apricots",
-              "Oak barrel aging"
-            ],
-            "explanation": "In Fuzovice, this component is present: Our signature custom beer spirit distilled from brewery wort brewed from Pilsner and Munich malt with Mandarina Bavaria hops. Official FUZE menu: FUZE/Agnes."
-          }
-        ]
-      },
-      {
-        "id": "absinth-st-antoine",
-        "name": "Absinth St. Antoine",
-        "weight": "0.03l",
-        "price": "165 CZK",
-        "allergens": [],
-        "description": "Žufánek",
-        "notes": "Žufánek",
-        "questions": [
-          {
-            "id": "absinth-st-antoine-vol",
-            "question": "What is the serving volume / measure of Absinth St. Antoine?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Absinth St. Antoine is 0.03 l."
-          },
-          {
-            "id": "absinth-st-antoine-ing-1",
-            "question": "Which ingredient is part of Absinth St. Antoine?",
-            "correctAnswer": "Žufánek",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Absinth St. Antoine, this component is present: Žufánek. Official FUZE menu: Žufánek."
-          },
-          {
-            "id": "absinth-st-antoine-ing-2",
-            "question": "Which ingredient is part of Absinth St. Antoine?",
-            "correctAnswer": "All-natural distilled absinthe made from real grand wormwood (Artemisia absinthium)",
-            "distractors": [
-              "Golden apricots",
-              "Oak barrel aging"
-            ],
-            "explanation": "In Absinth St. Antoine, this component is present: All-natural distilled absinthe made from real grand wormwood (Artemisia absinthium). Official FUZE menu: Žufánek."
-          },
-          {
-            "id": "absinth-st-antoine-ing-3",
-            "question": "Which ingredient is part of Absinth St. Antoine?",
-            "correctAnswer": "Anise",
-            "distractors": [
-              "Charcoal filtration",
-              "Mountain spring water"
-            ],
-            "explanation": "In Absinth St. Antoine, this component is present: Anise. Official FUZE menu: Žufánek."
-          },
-          {
-            "id": "absinth-st-antoine-ing-4",
-            "question": "Which ingredient is part of Absinth St. Antoine?",
-            "correctAnswer": "Fennel",
-            "distractors": [
-              "Cane molasses",
-              "100% blue agave"
-            ],
-            "explanation": "In Absinth St. Antoine, this component is present: Fennel. Official FUZE menu: Žufánek."
-          }
-        ]
-      },
-      {
-        "id": "kminka-garage22",
-        "name": "Kmínka",
-        "weight": "0.03l",
-        "price": "78 CZK",
-        "allergens": [],
-        "description": "Garage 32 (Caraway spirit)",
-        "notes": "Garage 32 (Caraway spirit)",
-        "questions": [
-          {
-            "id": "kminka-garage22-vol",
-            "question": "What is the serving volume / measure of Kmínka?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Kmínka is 0.03 l."
-          },
-          {
-            "id": "kminka-garage22-ing-1",
-            "question": "Which ingredient is part of Kmínka?",
-            "correctAnswer": "Garage 22",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Kmínka, this component is present: Garage 22. Official FUZE menu: Garage 32 (Caraway spirit)."
-          },
-          {
-            "id": "kminka-garage22-ing-2",
-            "question": "Which fresh herb or spice seasoning finishes Kmínka?",
-            "correctAnswer": "Modern craft liqueur with distilled Czech caraway seeds and citrus peel from Prague's Holešovice",
-            "distractors": [
-              "Golden apricots",
-              "Oak barrel aging"
-            ],
-            "explanation": "In Kmínka, this component is present: Modern craft liqueur with distilled Czech caraway seeds and citrus peel from Prague's Holešovice. Official FUZE menu: Garage 32 (Caraway spirit)."
-          }
-        ]
-      },
-      {
-        "id": "kontusovka-zufanek",
-        "name": "Kontušovka",
-        "weight": "0.03l",
+        "name": "Modrý Portugal",
+        "weight": "0,15l",
         "price": "95 CZK",
-        "allergens": [],
-        "description": "Žufánek (Herbal liqueur)",
-        "notes": "Žufánek (Herbal liqueur)",
-        "questions": [
-          {
-            "id": "kontusovka-zufanek-vol",
-            "question": "What is the serving volume / measure of Kontušovka?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Kontušovka is 0.03 l."
-          },
-          {
-            "id": "kontusovka-zufanek-ing-1",
-            "question": "Which ingredient is part of Kontušovka?",
-            "correctAnswer": "Žufánek",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Kontušovka, this component is present: Žufánek. Official FUZE menu: Žufánek (Herbal liqueur)."
-          },
-          {
-            "id": "kontusovka-zufanek-ing-2",
-            "question": "Which fresh herb or spice seasoning finishes Kontušovka?",
-            "correctAnswer": "Traditional historic Bohemian herbal liqueur with anise",
-            "distractors": [
-              "Golden apricots",
-              "Oak barrel aging"
-            ],
-            "explanation": "In Kontušovka, this component is present: Traditional historic Bohemian herbal liqueur with anise. Official FUZE menu: Žufánek (Herbal liqueur)."
-          },
-          {
-            "id": "kontusovka-zufanek-ing-3",
-            "question": "Which fresh herb or spice seasoning finishes Kontušovka?",
-            "correctAnswer": "Coriander",
-            "distractors": [
-              "Charcoal filtration",
-              "Mountain spring water"
-            ],
-            "explanation": "In Kontušovka, this component is present: Coriander. Official FUZE menu: Žufánek (Herbal liqueur)."
-          },
-          {
-            "id": "kontusovka-zufanek-ing-4",
-            "question": "Which ingredient is part of Kontušovka?",
-            "correctAnswer": "Fennel",
-            "distractors": [
-              "Cane molasses",
-              "100% blue agave"
-            ],
-            "explanation": "In Kontušovka, this component is present: Fennel. Official FUZE menu: Žufánek (Herbal liqueur)."
-          },
-          {
-            "id": "kontusovka-zufanek-ing-5",
-            "question": "Which ingredient is part of Kontušovka?",
-            "correctAnswer": "Star anise after an authentic 19th-century recipe",
-            "distractors": [
-              "Botanical maceration",
-              "Traditional pot still distillation"
-            ],
-            "explanation": "In Kontušovka, this component is present: Star anise after an authentic 19th-century recipe. Official FUZE menu: Žufánek (Herbal liqueur)."
-          }
-        ]
-      },
-      {
-        "id": "orechovy-liker-radlik",
-        "name": "Walnut liqueur",
-        "weight": "0.03l",
-        "price": "119 CZK",
         "allergens": [
-          "8"
+          "12"
         ],
-        "description": "Radlik",
-        "notes": "Radlik",
+        "description": "Kolby Morava",
+        "notes": "Kolby Morava. Light, fruit-forward Moravian red wine with smooth soft tannins.",
         "questions": [
           {
-            "id": "orechovy-liker-radlik-vol",
-            "question": "What is the serving volume / measure of Walnut liqueur?",
-            "correctAnswer": "0.03 l",
+            "id": "sklo-modry-portugal-vol-en",
+            "question": "What is the serving volume of Modrý Portugal red by the glass?",
+            "correctAnswer": "0,15l",
             "distractors": [
-              "0.05 l",
-              "0.02 l"
+              "0.1 l",
+              "0.2 l"
             ],
-            "explanation": "The serving measure of Walnut liqueur is 0.03 l."
+            "explanation": "Serving volume is 0,15l."
           },
           {
-            "id": "orechovy-liker-radlik-ing-1",
-            "question": "Which ingredient is part of Walnut liqueur?",
-            "correctAnswer": "Radlík",
+            "id": "sklo-modry-portugal-region-en",
+            "question": "Which winery produces Modrý Portugal?",
+            "correctAnswer": "Kolby Morava",
             "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
+              "Kraus Čechy",
+              "Adulation Kalifornie"
             ],
-            "explanation": "In Walnut liqueur, this component is present: Radlík. Official FUZE menu: Radlik."
+            "explanation": "Produced by Kolby in Moravia."
           },
           {
-            "id": "orechovy-liker-radlik-ing-2",
-            "question": "Which ingredient is part of Walnut liqueur?",
-            "correctAnswer": "Gentle walnut liqueur macerated from unripe green St. John's walnuts and a secret spice blend",
+            "id": "sklo-modry-portugal-price-en",
+            "question": "What is the price of a glass of Modrý Portugal Kolby?",
+            "correctAnswer": "95 CZK",
             "distractors": [
-              "Golden apricots",
-              "Oak barrel aging"
+              "105 CZK",
+              "89 CZK"
             ],
-            "explanation": "In Walnut liqueur, this component is present: Gentle walnut liqueur macerated from unripe green St. John's walnuts and a secret spice blend. Official FUZE menu: Radlik."
+            "explanation": "Price per glass is 95 CZK."
+          },
+          {
+            "id": "sklo-modry-portugal-allergen-en",
+            "question": "Which allergen does Modrý Portugal contain?",
+            "correctAnswer": "Allergen No. 12 – Sulfur dioxide and sulfites",
+            "distractors": [
+              "Allergen No. 7 – Milk",
+              "Allergen No. 8 – Nuts"
+            ],
+            "explanation": "Contains Allergen No. 12 (Sulfites)."
           }
         ]
       },
       {
-        "id": "hustopecska-mandlovka",
-        "name": "Hustopečská Mandlovka",
-        "weight": "0.03l",
+        "id": "sklo-cuvee-cervene",
+        "name": "Cuvée červené",
+        "weight": "0,15l",
         "price": "98 CZK",
-        "allergens": [],
-        "description": "(almond liqueur)",
-        "notes": "(almond liqueur)",
-        "questions": [
-          {
-            "id": "hustopecska-mandlovka-vol",
-            "question": "What is the serving volume / measure of Hustopečská Mandlovka?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Hustopečská Mandlovka is 0.03 l."
-          },
-          {
-            "id": "hustopecska-mandlovka-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Hustopečská Mandlovka?",
-            "correctAnswer": "Original Moravian almond spirit specialty from the unique almond orchards in Hustopeče",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Hustopečská Mandlovka, this component is present: Original Moravian almond spirit specialty from the unique almond orchards in Hustopeče. Official FUZE menu: (almond liqueur)."
-          }
-        ]
-      },
-      {
-        "id": "jagermeister",
-        "name": "Jägermeister",
-        "weight": "0.03l",
-        "price": "65 CZK",
-        "allergens": [],
-        "description": "0.03l German herbal liqueur made from 56 botanicals, flowers, roots, and fruits, aged 1 year in oak barrels",
-        "notes": "Jägermeister",
-        "questions": [
-          {
-            "id": "jagermeister-vol",
-            "question": "What is the serving volume / measure of Jägermeister?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Jägermeister is 0.03 l."
-          },
-          {
-            "id": "jagermeister-ing-1",
-            "question": "Which fresh herb or spice seasoning finishes Jägermeister?",
-            "correctAnswer": "German herbal liqueur made from 56 botanicals",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Jägermeister, this component is present: German herbal liqueur made from 56 botanicals. Official FUZE menu: 0.03l German herbal liqueur made from 56 botanicals, flowers, roots, and fruits, aged 1 year in oak barrels."
-          },
-          {
-            "id": "jagermeister-ing-2",
-            "question": "Which ingredient is part of Jägermeister?",
-            "correctAnswer": "Flowers",
-            "distractors": [
-              "Golden apricots",
-              "Oak barrel aging"
-            ],
-            "explanation": "In Jägermeister, this component is present: Flowers. Official FUZE menu: 0.03l German herbal liqueur made from 56 botanicals, flowers, roots, and fruits, aged 1 year in oak barrels."
-          },
-          {
-            "id": "jagermeister-ing-3",
-            "question": "Which ingredient is part of Jägermeister?",
-            "correctAnswer": "Roots",
-            "distractors": [
-              "Charcoal filtration",
-              "Mountain spring water"
-            ],
-            "explanation": "In Jägermeister, this component is present: Roots. Official FUZE menu: 0.03l German herbal liqueur made from 56 botanicals, flowers, roots, and fruits, aged 1 year in oak barrels."
-          },
-          {
-            "id": "jagermeister-ing-4",
-            "question": "Which ingredient is part of Jägermeister?",
-            "correctAnswer": "Fruits",
-            "distractors": [
-              "Cane molasses",
-              "100% blue agave"
-            ],
-            "explanation": "In Jägermeister, this component is present: Fruits. Official FUZE menu: 0.03l German herbal liqueur made from 56 botanicals, flowers, roots, and fruits, aged 1 year in oak barrels."
-          },
-          {
-            "id": "jagermeister-ing-5",
-            "question": "Which ingredient is part of Jägermeister?",
-            "correctAnswer": "Aged 1 year in oak barrels",
-            "distractors": [
-              "Botanical maceration",
-              "Traditional pot still distillation"
-            ],
-            "explanation": "In Jägermeister, this component is present: Aged 1 year in oak barrels. Official FUZE menu: 0.03l German herbal liqueur made from 56 botanicals, flowers, roots, and fruits, aged 1 year in oak barrels."
-          }
-        ]
-      },
-      {
-        "id": "podebradska-samicka",
-        "name": "Poděbradská Samička",
-        "weight": "0.03l",
-        "price": "58 CZK",
-        "allergens": [],
-        "description": "(Regional herbal liqueur)",
-        "notes": "(Regional herbal liqueur)",
-        "questions": [
-          {
-            "id": "podebradska-samicka-vol",
-            "question": "What is the serving volume / measure of Poděbradská Samička?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Poděbradská Samička is 0.03 l."
-          },
-          {
-            "id": "podebradska-samicka-ing-1",
-            "question": "Which fresh herb or spice seasoning finishes Poděbradská Samička?",
-            "correctAnswer": "Traditional Elbe region herbal liqueur with a harmonious bittersweet profile",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Poděbradská Samička, this component is present: Traditional Elbe region herbal liqueur with a harmonious bittersweet profile. Official FUZE menu: (Regional herbal liqueur)."
-          }
-        ]
-      },
-      {
-        "id": "becherovka-unfiltered",
-        "name": "Becherovka",
-        "weight": "0.03l",
-        "price": "65 CZK",
-        "allergens": [],
-        "description": "Unfiltered",
-        "notes": "Unfiltered",
-        "questions": [
-          {
-            "id": "becherovka-unfiltered-vol",
-            "question": "What is the serving volume / measure of Becherovka?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Becherovka is 0.03 l."
-          },
-          {
-            "id": "becherovka-unfiltered-ing-1",
-            "question": "Which fresh herb or spice seasoning finishes Becherovka?",
-            "correctAnswer": "Karlovy Vary herbal liqueur in unfiltered premium edition with golden haze and intense herbal taste",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Becherovka, this component is present: Karlovy Vary herbal liqueur in unfiltered premium edition with golden haze and intense herbal taste. Official FUZE menu: Unfiltered."
-          }
-        ]
-      },
-      {
-        "id": "smoked-grappa-tosolini",
-        "name": "Smoked Grappa Bepi Tosolini",
-        "weight": "0.03l",
-        "price": "195 CZK",
-        "allergens": [],
-        "description": "0.03l noble Italian grappa distilled from grape pomace smoked over oak wood by family distillery Bepi Tosolini in Udine",
-        "notes": "Smoked Grappa Bepi Tosolini",
-        "questions": [
-          {
-            "id": "smoked-grappa-tosolini-vol",
-            "question": "What is the serving volume / measure of Smoked Grappa Bepi Tosolini?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Smoked Grappa Bepi Tosolini is 0.03 l."
-          },
-          {
-            "id": "smoked-grappa-tosolini-ing-1",
-            "question": "Which vegetable or fruit component is included in Smoked Grappa Bepi Tosolini?",
-            "correctAnswer": "Noble Italian grappa distilled from grape pomace smoked over oak wood by family distillery Bepi Tosolini in Udine",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Smoked Grappa Bepi Tosolini, this component is present: Noble Italian grappa distilled from grape pomace smoked over oak wood by family distillery Bepi Tosolini in Udine. Official FUZE menu: 0.03l noble Italian grappa distilled from grape pomace smoked over oak wood by family distillery Bepi Tosolini in Udine."
-          }
-        ]
-      },
-      {
-        "id": "bezovy-elixir-jelinek",
-        "name": "Bezový elixír R.Jelínek",
-        "weight": "0.03l",
-        "price": "58 CZK",
-        "allergens": [],
-        "description": "(Elderflower liquer)",
-        "notes": "(Elderflower liquer)",
-        "questions": [
-          {
-            "id": "bezovy-elixir-jelinek-vol",
-            "question": "What is the serving volume / measure of Bezový elixír R.Jelínek?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Bezový elixír R.Jelínek is 0.03 l."
-          },
-          {
-            "id": "bezovy-elixir-jelinek-ing-1",
-            "question": "Which ingredient is part of Bezový elixír R.Jelínek?",
-            "correctAnswer": "Moravian elderflower liqueur made from fragrant elder blossoms by Rudolf Jelínek in Vizovice",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Bezový elixír R.Jelínek, this component is present: Moravian elderflower liqueur made from fragrant elder blossoms by Rudolf Jelínek in Vizovice. Official FUZE menu: (Elderflower liquer)."
-          }
-        ]
-      },
-      {
-        "id": "creme-de-cassis",
-        "name": "Créme de cassis",
-        "weight": "0.03l",
-        "price": "68 CZK",
-        "allergens": [],
-        "description": "Le Duc Charmant, Jenčík",
-        "notes": "Le Duc Charmant, Jenčík",
-        "questions": [
-          {
-            "id": "creme-de-cassis-vol",
-            "question": "What is the serving volume / measure of Créme de cassis?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Créme de cassis is 0.03 l."
-          },
-          {
-            "id": "creme-de-cassis-ing-1",
-            "question": "Which ingredient is part of Créme de cassis?",
-            "correctAnswer": "Le Duc Charmant / Jenčík",
-            "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
-            ],
-            "explanation": "In Créme de cassis, this component is present: Le Duc Charmant / Jenčík. Official FUZE menu: Le Duc Charmant, Jenčík."
-          },
-          {
-            "id": "creme-de-cassis-ing-2",
-            "question": "Which ingredient is part of Créme de cassis?",
-            "correctAnswer": "Luscious blackcurrant liqueur",
-            "distractors": [
-              "Golden apricots",
-              "Oak barrel aging"
-            ],
-            "explanation": "In Créme de cassis, this component is present: Luscious blackcurrant liqueur. Official FUZE menu: Le Duc Charmant, Jenčík."
-          }
-        ]
-      },
-      {
-        "id": "vajecnak-bartida",
-        "name": "Egg liqueur",
-        "weight": "0.03l",
-        "price": "50 CZK",
         "allergens": [
-          "3",
-          "7"
+          "12"
         ],
-        "description": "Bartida",
-        "notes": "Bartida",
+        "description": "Kraus Čechy",
+        "notes": "Kraus Čechy. Distinctive Bohemian red blend from Mělník region with dark fruit complexity.",
         "questions": [
           {
-            "id": "vajecnak-bartida-vol",
-            "question": "What is the serving volume / measure of Egg liqueur?",
-            "correctAnswer": "0.03 l",
+            "id": "sklo-cuvee-cervene-vol-en",
+            "question": "What is the serving volume of Cuvée červené by the glass?",
+            "correctAnswer": "0,15l",
             "distractors": [
-              "0.05 l",
-              "0.02 l"
+              "0.1 l",
+              "0.2 l"
             ],
-            "explanation": "The serving measure of Egg liqueur is 0.03 l."
+            "explanation": "Serving volume is 0,15l."
           },
           {
-            "id": "vajecnak-bartida-ing-1",
-            "question": "Which spirit or liqueur is a signature component of Egg liqueur?",
-            "correctAnswer": "Honest thick egg liqueur with exceptionally high egg yolk content and a splash of cane rum",
+            "id": "sklo-cuvee-cervene-prod-en",
+            "question": "Which producer from Bohemia crafts this red cuvée?",
+            "correctAnswer": "Kraus Čechy",
             "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
+              "Kolby Morava",
+              "Heuriger Rakousko"
             ],
-            "explanation": "In Egg liqueur, this component is present: Honest thick egg liqueur with exceptionally high egg yolk content and a splash of cane rum. Official FUZE menu: Bartida."
+            "explanation": "Crafted by Kraus winery in Mělník region, Bohemia."
+          },
+          {
+            "id": "sklo-cuvee-cervene-price-en",
+            "question": "What is the price of a glass of Cuvée červené Kraus?",
+            "correctAnswer": "98 CZK",
+            "distractors": [
+              "95 CZK",
+              "109 CZK"
+            ],
+            "explanation": "Price per glass is 98 CZK."
+          },
+          {
+            "id": "sklo-cuvee-cervene-allergen-en",
+            "question": "Which allergen does Cuvée červené contain?",
+            "correctAnswer": "Allergen No. 12 – Sulfur dioxide and sulfites",
+            "distractors": [
+              "Allergen No. 1 – Gluten",
+              "Allergen No. 6 – Soy"
+            ],
+            "explanation": "Contains Allergen No. 12 (Sulfites)."
           }
         ]
       },
       {
-        "id": "griotte-bartida",
-        "name": "Griotte Original",
-        "weight": "0.03l",
-        "price": "50 CZK",
-        "allergens": [],
-        "description": "Bartida (Sour cherry liqueur)",
-        "notes": "Bartida (Sour cherry liqueur)",
+        "id": "sklo-pinot-noir",
+        "name": "Pinot Noir",
+        "weight": "0,15l",
+        "price": "125 CZK",
+        "allergens": [
+          "12"
+        ],
+        "description": "Adulation Kalifornie",
+        "notes": "Adulation Kalifornie. Velvety California Pinot Noir with dark cherry and vanilla spice.",
         "questions": [
           {
-            "id": "griotte-bartida-vol",
-            "question": "What is the serving volume / measure of Griotte Original?",
-            "correctAnswer": "0.03 l",
+            "id": "sklo-pinot-noir-vol-en",
+            "question": "What is the serving volume of Pinot Noir California by the glass?",
+            "correctAnswer": "0,15l",
             "distractors": [
-              "0.05 l",
-              "0.02 l"
+              "0.1 l",
+              "0.2 l"
             ],
-            "explanation": "The serving measure of Griotte Original is 0.03 l."
+            "explanation": "Serving volume is 0,15l."
           },
           {
-            "id": "griotte-bartida-ing-1",
-            "question": "Which ingredient is part of Griotte Original?",
-            "correctAnswer": "Premium sour cherry liqueur with high proportion of pure sour cherry juice and fruit eau-de-vie",
+            "id": "sklo-pinot-noir-region-en",
+            "question": "Which producer and region crafts this Pinot Noir?",
+            "correctAnswer": "Adulation Kalifornie",
             "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
+              "Kolby Morava",
+              "Kraus Čechy"
             ],
-            "explanation": "In Griotte Original, this component is present: Premium sour cherry liqueur with high proportion of pure sour cherry juice and fruit eau-de-vie. Official FUZE menu: Bartida (Sour cherry liqueur)."
-          }
-        ]
-      },
-      {
-        "id": "zelena-bartida",
-        "name": "Zelená",
-        "weight": "0.03l",
-        "price": "50 CZK",
-        "allergens": [],
-        "description": "Bartida (Herbal mint liqueur)",
-        "notes": "Bartida (Herbal mint liqueur)",
-        "questions": [
-          {
-            "id": "zelena-bartida-vol",
-            "question": "What is the serving volume / measure of Zelená?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Zelená is 0.03 l."
+            "explanation": "Crafted by Adulation in California, USA."
           },
           {
-            "id": "zelena-bartida-ing-1",
-            "question": "Which ingredient is part of Zelená?",
-            "correctAnswer": "Premium peppermint liqueur crafted from genuine natural peppermint essential oil",
+            "id": "sklo-pinot-noir-price-en",
+            "question": "What is the price of a glass of Pinot Noir Adulation?",
+            "correctAnswer": "125 CZK",
             "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
+              "115 CZK",
+              "98 CZK"
             ],
-            "explanation": "In Zelená, this component is present: Premium peppermint liqueur crafted from genuine natural peppermint essential oil. Official FUZE menu: Bartida (Herbal mint liqueur)."
-          }
-        ]
-      },
-      {
-        "id": "zelena-svach",
-        "name": "Zelená",
-        "weight": "0.03l",
-        "price": "58 CZK",
-        "allergens": [],
-        "description": "Svach (Herbal mint liqueur)",
-        "notes": "Svach (Herbal mint liqueur)",
-        "questions": [
-          {
-            "id": "zelena-svach-vol",
-            "question": "What is the serving volume / measure of Zelená?",
-            "correctAnswer": "0.03 l",
-            "distractors": [
-              "0.05 l",
-              "0.02 l"
-            ],
-            "explanation": "The serving measure of Zelená is 0.03 l."
+            "explanation": "Price per glass is 125 CZK."
           },
           {
-            "id": "zelena-svach-ing-1",
-            "question": "Which ingredient is part of Zelená?",
-            "correctAnswer": "Craft South Bohemian peppermint liqueur from Svachovka distillery made with real macerated peppermint",
+            "id": "sklo-pinot-noir-allergen-en",
+            "question": "Which allergen is contained in Pinot Noir Adulation?",
+            "correctAnswer": "Allergen No. 12 – Sulfur dioxide and sulfites",
             "distractors": [
-              "Fermented plum mash",
-              "Williams pears"
+              "Allergen No. 3 – Eggs",
+              "Allergen No. 7 – Milk"
             ],
-            "explanation": "In Zelená, this component is present: Craft South Bohemian peppermint liqueur from Svachovka distillery made with real macerated peppermint. Official FUZE menu: Svach (Herbal mint liqueur)."
+            "explanation": "Contains Allergen No. 12 (Sulfites)."
           }
         ]
       }
@@ -10631,250 +6654,210 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
     "items": [
       {
         "id": "bubliny-charmat-palava",
-        "name": "Charmat from Vinselekt Pálava",
-        "weight": "0.75l",
-        "price": "699 CZK",
+        "name": "Charmat de Vinselekt Pálava",
+        "weight": "0,1L / 0,75L",
+        "price": "0,1L 99 CZK / 0,75L 699 CZK",
         "allergens": [
           "12"
         ],
-        "description": "0,75L Vinselect Michlovský, extra dry – Moravia",
-        "notes": "Vinselect Michlovský, extra sec – Moravia. Wild effervescence, opulent aroma with hints of roses and exotic fruit, round captivating palate.",
+        "description": "Vinselect Michlovský, extra sec – Moravia",
+        "notes": "Vinselect Michlovský, extra sec – Moravia. Wild perlage, opulent floral aromas of rosebuds and exotic fruit, round harmonious palate.",
         "questions": [
           {
-            "id": "bubliny-charmat-palava-vol",
-            "question": "What is the serving volume / measure of Charmat de Vinselekt Pálava?",
-            "correctAnswer": "0,1l / 0,75l",
+            "id": "bubliny-charmat-palava-vol-en",
+            "question": "What are the serving sizes of Charmat de Vinselekt Pálava?",
+            "correctAnswer": "0,1L / 0,75L",
             "distractors": [
-              "0.02 l",
-              "0.03 l"
+              "0.75L only",
+              "0.15L / 0.75L"
             ],
-            "explanation": "The serving measure of Charmat de Vinselekt Pálava is 0,1l / 0,75l."
+            "explanation": "The bottle volume of Charmat de Vinselekt Pálava is 0,75L."
           },
           {
-            "id": "bubliny-charmat-palava-ing-1",
-            "question": "Which ingredient is part of Charmat de Vinselekt Pálava?",
+            "id": "bubliny-charmat-palava-prod-en",
+            "question": "Which winery produces Charmat de Vinselekt Pálava?",
             "correctAnswer": "Vinselect Michlovský",
             "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
+              "Gotberg Winery",
+              "Kolby Winery"
             ],
-            "explanation": "In Charmat from Vinselekt Pálava, this component is present: Vinselect Michlovský. Official FUZE menu: 0,75L Vinselect Michlovský, extra dry – Moravia."
+            "explanation": "Charmat de Vinselekt Pálava is crafted by renowned Moravian winery Vinselect Michlovský."
           },
           {
-            "id": "bubliny-charmat-palava-ing-2",
-            "question": "Which ingredient is part of Charmat de Vinselekt Pálava?",
-            "correctAnswer": "Extra sec – Moravia. Wild effervescence",
+            "id": "bubliny-charmat-palava-type-en",
+            "question": "What style/sugar classification is Charmat de Vinselekt Pálava?",
+            "correctAnswer": "extra sec",
             "distractors": [
-              "Kolby winery",
-              "Kraus winery"
+              "brut nature",
+              "doux"
             ],
-            "explanation": "In Charmat from Vinselekt Pálava, this component is present: Extra sec – Moravia. Wild effervescence. Official FUZE menu: 0,75L Vinselect Michlovský, extra dry – Moravia."
+            "explanation": "Charmat de Vinselekt Pálava is classified as extra sec."
           },
           {
-            "id": "bubliny-charmat-palava-ing-3",
-            "question": "Which ingredient is part of Charmat de Vinselekt Pálava?",
-            "correctAnswer": "Opulent aroma with hints of roses and exotic fruit",
+            "id": "bubliny-charmat-palava-reg-en",
+            "question": "Which wine region is Charmat de Vinselekt Pálava from?",
+            "correctAnswer": "Moravia",
             "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
+              "Bohemia",
+              "Lower Austria"
             ],
-            "explanation": "In Charmat from Vinselekt Pálava, this component is present: Opulent aroma with hints of roses and exotic fruit. Official FUZE menu: 0,75L Vinselect Michlovský, extra dry – Moravia."
+            "explanation": "Charmat de Vinselekt Pálava comes from the Moravia wine region."
           },
           {
-            "id": "bubliny-charmat-palava-ing-4",
-            "question": "Which ingredient is part of Charmat de Vinselekt Pálava?",
-            "correctAnswer": "Round captivating palate",
+            "id": "bubliny-charmat-palava-price-en",
+            "question": "What are the prices of Charmat de Vinselekt Pálava (0.1l and 0.75l)?",
+            "correctAnswer": "0,1L 99 CZK / 0,75L 699 CZK",
             "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
+              "0,1L 115 CZK / 0,75L 849 CZK",
+              "0,1L 89 CZK / 0,75L 649 CZK"
             ],
-            "explanation": "In Charmat from Vinselekt Pálava, this component is present: Round captivating palate. Official FUZE menu: 0,75L Vinselect Michlovský, extra dry – Moravia."
+            "explanation": "The price for a bottle of Charmat de Vinselekt Pálava (0,75L) is 699 CZK."
           },
           {
-            "id": "bubliny-charmat-palava-allergen-12",
-            "question": "Which of the following allergens is present in Charmat de Vinselekt Pálava?",
+            "id": "bubliny-charmat-palava-allergen-en",
+            "question": "Which allergen is present in Charmat de Vinselekt Pálava?",
             "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
             "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
+              "Allergen No. 1 – Cereals containing gluten",
+              "Allergen No. 7 – Milk and dairy products"
             ],
-            "explanation": "Charmat de Vinselekt Pálava contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "explanation": "Wines and sparkling wines contain allergen No. 12 (Sulphur dioxide and sulphites)."
           }
         ]
       },
       {
         "id": "bubliny-cremant-vinselekt",
-        "name": "Cremant de Vinselekt (Pinot, Chardonnay)",
-        "weight": "0.75l",
-        "price": "849 CZK",
+        "name": "Cremant de Vinselekt",
+        "weight": "0,1L / 0,75L",
+        "price": "0,1L 115 CZK / 0,75L 849 CZK",
         "allergens": [
           "12"
         ],
-        "description": "0,75L Vinselect Michlovský, extra brut – Moravia",
-        "notes": "Vinselect Michlovský, extra brut – Moravia. Fine impressive perlage, elegant aroma, harmonious creamy finish.",
+        "description": "(Pinot, Chardonnay) Vinselect Michlovský, extra brut – Moravia",
+        "notes": "(Pinot, Chardonnay) Vinselect Michlovský, extra brut – Moravia. Fine persistent perlage, elegant aroma, harmonious creamy finish.",
         "questions": [
           {
-            "id": "bubliny-cremant-vinselekt-vol",
-            "question": "What is the serving volume / measure of Crémant de Vinselekt (Pinot, Chardonnay)?",
-            "correctAnswer": "0,1l / 0,75l",
+            "id": "bubliny-cremant-vinselekt-vol-en",
+            "question": "What are the bottle and glass sizes of Cremant de Vinselekt?",
+            "correctAnswer": "0,1L / 0,75L",
             "distractors": [
-              "0.02 l",
-              "0.03 l"
+              "0.75L only",
+              "0.15L / 0.75L"
             ],
-            "explanation": "The serving measure of Crémant de Vinselekt (Pinot, Chardonnay) is 0,1l / 0,75l."
+            "explanation": "The bottle size of Cremant de Vinselekt is 0,75L."
           },
           {
-            "id": "bubliny-cremant-vinselekt-ing-1",
-            "question": "Which ingredient is part of Crémant de Vinselekt (Pinot, Chardonnay)?",
+            "id": "bubliny-cremant-vinselekt-details-en",
+            "question": "Which grape varieties compose Cremant de Vinselekt?",
+            "correctAnswer": "(Pinot, Chardonnay)",
+            "distractors": [
+              "(Riesling, Veltliner)",
+              "(Sauvignon, Pálava)"
+            ],
+            "explanation": "Cremant de Vinselekt is a blend of Pinot and Chardonnay grapes."
+          },
+          {
+            "id": "bubliny-cremant-vinselekt-prod-en",
+            "question": "Which winery crafts Cremant de Vinselekt?",
             "correctAnswer": "Vinselect Michlovský",
             "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
+              "Milan Sůkal",
+              "Kraus Winery"
             ],
-            "explanation": "In Cremant de Vinselekt (Pinot, Chardonnay), this component is present: Vinselect Michlovský. Official FUZE menu: 0,75L Vinselect Michlovský, extra brut – Moravia."
+            "explanation": "Cremant de Vinselekt is produced by Vinselect Michlovský from Moravia."
           },
           {
-            "id": "bubliny-cremant-vinselekt-ing-2",
-            "question": "Which ingredient is part of Crémant de Vinselekt (Pinot, Chardonnay)?",
-            "correctAnswer": "Extra brut – Moravia. Fine impressive perlage",
+            "id": "bubliny-cremant-vinselekt-type-en",
+            "question": "What is the dryness category of Cremant de Vinselekt?",
+            "correctAnswer": "extra brut",
             "distractors": [
-              "Kolby winery",
-              "Kraus winery"
+              "demi sec",
+              "semi-sweet"
             ],
-            "explanation": "In Cremant de Vinselekt (Pinot, Chardonnay), this component is present: Extra brut – Moravia. Fine impressive perlage. Official FUZE menu: 0,75L Vinselect Michlovský, extra brut – Moravia."
+            "explanation": "Cremant de Vinselekt is in the extra brut category."
           },
           {
-            "id": "bubliny-cremant-vinselekt-ing-3",
-            "question": "Which ingredient is part of Crémant de Vinselekt (Pinot, Chardonnay)?",
-            "correctAnswer": "Elegant aroma",
+            "id": "bubliny-cremant-vinselekt-price-en",
+            "question": "What are the prices of Cremant de Vinselekt (0.1l and 0.75l)?",
+            "correctAnswer": "0,1L 115 CZK / 0,75L 849 CZK",
             "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
+              "0,1L 99 CZK / 0,75L 699 CZK",
+              "0,1L 125 CZK / 0,75L 899 CZK"
             ],
-            "explanation": "In Cremant de Vinselekt (Pinot, Chardonnay), this component is present: Elegant aroma. Official FUZE menu: 0,75L Vinselect Michlovský, extra brut – Moravia."
+            "explanation": "The bottle price of Cremant de Vinselekt (0,75L) is 849 CZK."
           },
           {
-            "id": "bubliny-cremant-vinselekt-ing-4",
-            "question": "Which ingredient is part of Crémant de Vinselekt (Pinot, Chardonnay)?",
-            "correctAnswer": "Harmonious creamy finish",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Cremant de Vinselekt (Pinot, Chardonnay), this component is present: Harmonious creamy finish. Official FUZE menu: 0,75L Vinselect Michlovský, extra brut – Moravia."
-          },
-          {
-            "id": "bubliny-cremant-vinselekt-allergen-12",
-            "question": "Which of the following allergens is present in Crémant de Vinselekt (Pinot, Chardonnay)?",
+            "id": "bubliny-cremant-vinselekt-allergen-en",
+            "question": "Which allergen is contained in Cremant de Vinselekt?",
             "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
             "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
+              "Allergen No. 6 – Soybeans",
+              "Allergen No. 8 – Tree nuts"
             ],
-            "explanation": "Crémant de Vinselekt (Pinot, Chardonnay) contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "explanation": "Contains allergen No. 12 – Sulphur dioxide and sulphites."
           }
         ]
       },
       {
         "id": "bubliny-angels-cowboys",
         "name": "Angels & Cowboys",
-        "weight": "0.75l",
+        "weight": "0,75L",
         "price": "1199 CZK",
         "allergens": [
           "12"
         ],
-        "description": "0,75L NV, brut - North Coast, California",
-        "notes": "NV, brut – North Coast, California. Traditional bottle fermentation, elegant perlage, fresh orchard fruit, citrus, notes of brioche and toasted bread crust.",
+        "description": "NV, brut – North Coast, Kalifornie",
+        "notes": "North Coast, California. Secondary fermentation in the bottle, fine perlage, fresh orchard fruits, brioche, and bread crust notes.",
         "questions": [
           {
-            "id": "bubliny-angels-cowboys-vol",
-            "question": "What is the serving volume / measure of Angels & Cowboys Brut?",
-            "correctAnswer": "0,75l",
+            "id": "bubliny-angels-cowboys-vol-en",
+            "question": "What is the volume of Angels & Cowboys sparkling wine?",
+            "correctAnswer": "0,75L",
             "distractors": [
               "0.5 l",
-              "1.0 l"
+              "1.5 l"
             ],
-            "explanation": "The serving measure of Angels & Cowboys Brut is 0,75l."
+            "explanation": "The bottle volume of Angels & Cowboys is 0,75L."
           },
           {
-            "id": "bubliny-angels-cowboys-ing-1",
-            "question": "Which ingredient is part of Angels & Cowboys Brut?",
-            "correctAnswer": "NV",
+            "id": "bubliny-angels-cowboys-type-en",
+            "question": "What type classification is California sparkler Angels & Cowboys?",
+            "correctAnswer": "NV, brut",
             "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
+              "Vintage, demi sec",
+              "Extra dry"
             ],
-            "explanation": "In Angels & Cowboys, this component is present: NV. Official FUZE menu: 0,75L NV, brut - North Coast, California."
+            "explanation": "Angels & Cowboys is non-vintage (NV, brut)."
           },
           {
-            "id": "bubliny-angels-cowboys-ing-2",
-            "question": "Which ingredient is part of Angels & Cowboys Brut?",
-            "correctAnswer": "Brut – North Coast",
+            "id": "bubliny-angels-cowboys-region-en",
+            "question": "From which region and country does Angels & Cowboys originate?",
+            "correctAnswer": "North Coast, Kalifornie",
             "distractors": [
-              "Kolby winery",
-              "Kraus winery"
+              "Napa Valley, Washington",
+              "Sonoma, Oregon"
             ],
-            "explanation": "In Angels & Cowboys, this component is present: Brut – North Coast. Official FUZE menu: 0,75L NV, brut - North Coast, California."
+            "explanation": "Angels & Cowboys hails from the North Coast region in California, USA."
           },
           {
-            "id": "bubliny-angels-cowboys-ing-3",
-            "question": "Which brewing raw material or trait characterizes Angels & Cowboys Brut?",
-            "correctAnswer": "California. Traditional bottle fermentation",
+            "id": "bubliny-angels-cowboys-price-en",
+            "question": "What is the price of Angels & Cowboys bottle?",
+            "correctAnswer": "1199 CZK",
             "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
+              "999 CZK",
+              "1399 CZK"
             ],
-            "explanation": "In Angels & Cowboys, this component is present: California. Traditional bottle fermentation. Official FUZE menu: 0,75L NV, brut - North Coast, California."
+            "explanation": "The price for Angels & Cowboys (0,75L) is 1199 CZK."
           },
           {
-            "id": "bubliny-angels-cowboys-ing-4",
-            "question": "Which ingredient is part of Angels & Cowboys Brut?",
-            "correctAnswer": "Elegant perlage",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Angels & Cowboys, this component is present: Elegant perlage. Official FUZE menu: 0,75L NV, brut - North Coast, California."
-          },
-          {
-            "id": "bubliny-angels-cowboys-ing-5",
-            "question": "Which ingredient is part of Angels & Cowboys Brut?",
-            "correctAnswer": "Fresh orchard fruit",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Angels & Cowboys, this component is present: Fresh orchard fruit. Official FUZE menu: 0,75L NV, brut - North Coast, California."
-          },
-          {
-            "id": "bubliny-angels-cowboys-ing-6",
-            "question": "Which ingredient is part of Angels & Cowboys Brut?",
-            "correctAnswer": "Citrus",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Angels & Cowboys, this component is present: Citrus. Official FUZE menu: 0,75L NV, brut - North Coast, California."
-          },
-          {
-            "id": "bubliny-angels-cowboys-ing-7",
-            "question": "Which bread, side, or crispy garnish accompanies Angels & Cowboys Brut?",
-            "correctAnswer": "Notes of brioche and toasted bread crust",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Angels & Cowboys, this component is present: Notes of brioche and toasted bread crust. Official FUZE menu: 0,75L NV, brut - North Coast, California."
-          },
-          {
-            "id": "bubliny-angels-cowboys-allergen-12",
-            "question": "Which of the following allergens is present in Angels & Cowboys Brut?",
+            "id": "bubliny-angels-cowboys-allergen-en",
+            "question": "Which allergen is present in Angels & Cowboys?",
             "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
             "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
+              "Allergen No. 5 – Peanuts",
+              "Allergen No. 11 – Sesame seeds"
             ],
-            "explanation": "Angels & Cowboys Brut contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "explanation": "Sparkling wine Angels & Cowboys contains allergen No. 12 (Sulphur dioxide and sulphites)."
           }
         ]
       }
@@ -10890,1162 +6873,651 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
       {
         "id": "bile-ryzlink-gotberg",
         "name": "Riesling",
-        "weight": "0.75l",
+        "weight": "0,75L",
         "price": "469 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "0,75L late harvest Gotberg – Pálava, Moravia",
-        "notes": "Late harvest Gotberg – Pálava, Moravia. Fresh with vibrant acidity, aromas of citrus, green apple and white peach, mineral finish.",
+        "allergens": ["12"],
+        "description": "Late harvest Gotberg – Pálava, Moravia",
+        "notes": "Late harvest Gotberg – Pálava, Moravia. Fresh with vibrant acidity, aromas of citrus, green apple, and white peaches, mineral finish.",
         "questions": [
           {
-            "id": "bile-ryzlink-gotberg-vol",
-            "question": "What is the serving volume / measure of Riesling (Ryzlink rýnský) – Gotberg?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Riesling (Ryzlink rýnský) – Gotberg is 0,75l."
+            "id": "bile-ryzlink-gotberg-vol-en",
+            "question": "What is the bottle volume of Riesling Gotberg?",
+            "correctAnswer": "0,75L",
+            "distractors": ["0.5 l", "1.0 l"],
+            "explanation": "The bottle volume is 0,75L."
           },
           {
-            "id": "bile-ryzlink-gotberg-ing-1",
-            "question": "Which grape variety, winery, or characteristic belongs to Riesling (Ryzlink rýnský) – Gotberg?",
-            "correctAnswer": "Late harvest Gotberg – Pálava",
-            "distractors": [
-              "Gotberg winery",
-              "Kolby winery"
-            ],
-            "explanation": "In Riesling, this component is present: Late harvest Gotberg – Pálava. Official FUZE menu: 0,75L late harvest Gotberg – Pálava, Moravia."
+            "id": "bile-ryzlink-gotberg-type-en",
+            "question": "What harvest quality classification does Riesling Gotberg carry?",
+            "correctAnswer": "Late harvest (pozdní sběr)",
+            "distractors": ["Kabinet", "Auslese"],
+            "explanation": "Riesling Gotberg is classified as late harvest (pozdní sběr)."
           },
           {
-            "id": "bile-ryzlink-gotberg-ing-2",
-            "question": "Which grape variety, winery, or characteristic belongs to Riesling (Ryzlink rýnský) – Gotberg?",
-            "correctAnswer": "Moravia. Fresh with vibrant acidity",
-            "distractors": [
-              "Kraus winery",
-              "Michlovsky winery"
-            ],
-            "explanation": "In Riesling, this component is present: Moravia. Fresh with vibrant acidity. Official FUZE menu: 0,75L late harvest Gotberg – Pálava, Moravia."
+            "id": "bile-ryzlink-gotberg-prod-en",
+            "question": "Which winery and region produces this Riesling?",
+            "correctAnswer": "Gotberg – Pálava, Moravia",
+            "distractors": ["Reisten – Pavlov", "Kolby – Pouzdřany"],
+            "explanation": "Crafted by Gotberg winery from the Pálava area in Moravia."
           },
           {
-            "id": "bile-ryzlink-gotberg-ing-3",
-            "question": "Which ingredient is part of Riesling (Ryzlink rýnský) – Gotberg?",
-            "correctAnswer": "Aromas of citrus",
-            "distractors": [
-              "Mikulov subregion",
-              "Velke Pavlovice subregion"
-            ],
-            "explanation": "In Riesling, this component is present: Aromas of citrus. Official FUZE menu: 0,75L late harvest Gotberg – Pálava, Moravia."
+            "id": "bile-ryzlink-gotberg-price-en",
+            "question": "What is the price of Riesling Gotberg bottle?",
+            "correctAnswer": "469 CZK",
+            "distractors": ["399 CZK", "529 CZK"],
+            "explanation": "The price for a bottle of Riesling Gotberg (0,75L) is 469 CZK."
           },
           {
-            "id": "bile-ryzlink-gotberg-ing-4",
-            "question": "Which vegetable or fruit component is included in Riesling (Ryzlink rýnský) – Gotberg?",
-            "correctAnswer": "Green apple and white peach",
-            "distractors": [
-              "Melnik subregion",
-              "Vibrant acidity and mineral notes"
-            ],
-            "explanation": "In Riesling, this component is present: Green apple and white peach. Official FUZE menu: 0,75L late harvest Gotberg – Pálava, Moravia."
-          },
-          {
-            "id": "bile-ryzlink-gotberg-ing-5",
-            "question": "Which ingredient is part of Riesling (Ryzlink rýnský) – Gotberg?",
-            "correctAnswer": "Mineral finish",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Riesling, this component is present: Mineral finish. Official FUZE menu: 0,75L late harvest Gotberg – Pálava, Moravia."
-          },
-          {
-            "id": "bile-ryzlink-gotberg-allergen-12",
-            "question": "Which of the following allergens is present in Riesling (Ryzlink rýnský) – Gotberg?",
+            "id": "bile-ryzlink-gotberg-allergen-en",
+            "question": "Which allergen is present in Riesling Gotberg?",
             "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Riesling (Ryzlink rýnský) – Gotberg contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "distractors": ["Allergen No. 1 – Gluten", "Allergen No. 7 – Milk"],
+            "explanation": "Wine contains allergen No. 12 (Sulphur dioxide and sulphites)."
           }
         ]
       },
       {
         "id": "bile-pinot-gris-reisten",
         "name": "Pinot Gris",
-        "weight": "0.75l",
+        "weight": "0,75L",
         "price": "479 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "0,75L late harvest Reisten – Mikulov, Moravia",
-        "notes": "Late harvest Reisten – Mikulov region, Moravia. Full-bodied and smooth, subtle mineral touch on the palate, fresh grapefruit and orange zest.",
+        "allergens": ["12"],
+        "description": "Late harvest Reisten – Mikulov region, Moravia",
+        "notes": "Late harvest Reisten – Mikulovsko, Moravia. Full and smooth, subtle mineral touch on the palate, fresh grapefruit and orange peel.",
         "questions": [
           {
-            "id": "bile-pinot-gris-reisten-vol",
-            "question": "What is the serving volume / measure of Pinot Gris – Reisten?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Pinot Gris – Reisten is 0,75l."
+            "id": "bile-pinot-gris-reisten-vol-en",
+            "question": "What is the bottle volume of Pinot Gris Reisten?",
+            "correctAnswer": "0,75L",
+            "distractors": ["0.5 l", "1.0 l"],
+            "explanation": "The bottle volume is 0,75L."
           },
           {
-            "id": "bile-pinot-gris-reisten-ing-1",
-            "question": "Which grape variety, winery, or characteristic belongs to Pinot Gris – Reisten?",
-            "correctAnswer": "Late harvest Reisten – Mikulov region",
-            "distractors": [
-              "Gotberg winery",
-              "Kolby winery"
-            ],
-            "explanation": "In Pinot Gris, this component is present: Late harvest Reisten – Mikulov region. Official FUZE menu: 0,75L late harvest Reisten – Mikulov, Moravia."
+            "id": "bile-pinot-gris-reisten-prod-en",
+            "question": "Which winery from Mikulov region crafts this Pinot Gris?",
+            "correctAnswer": "Reisten",
+            "distractors": ["Sonberk", "Volařík"],
+            "explanation": "Pinot Gris is produced by Reisten winery in Mikulov region."
           },
           {
-            "id": "bile-pinot-gris-reisten-ing-2",
-            "question": "Which ingredient is part of Pinot Gris – Reisten?",
-            "correctAnswer": "Moravia. Full-bodied and smooth",
-            "distractors": [
-              "Kraus winery",
-              "Michlovsky winery"
-            ],
-            "explanation": "In Pinot Gris, this component is present: Moravia. Full-bodied and smooth. Official FUZE menu: 0,75L late harvest Reisten – Mikulov, Moravia."
+            "id": "bile-pinot-gris-reisten-type-en",
+            "question": "What quality classification is Pinot Gris Reisten?",
+            "correctAnswer": "Late harvest (pozdní sběr)",
+            "distractors": ["Table wine", "Berry selection"],
+            "explanation": "Pinot Gris Reisten is a late harvest wine."
           },
           {
-            "id": "bile-pinot-gris-reisten-ing-3",
-            "question": "Which ingredient is part of Pinot Gris – Reisten?",
-            "correctAnswer": "Subtle mineral touch on the palate",
-            "distractors": [
-              "Mikulov subregion",
-              "Velke Pavlovice subregion"
-            ],
-            "explanation": "In Pinot Gris, this component is present: Subtle mineral touch on the palate. Official FUZE menu: 0,75L late harvest Reisten – Mikulov, Moravia."
+            "id": "bile-pinot-gris-reisten-price-en",
+            "question": "What is the price of Pinot Gris Reisten bottle?",
+            "correctAnswer": "479 CZK",
+            "distractors": ["429 CZK", "549 CZK"],
+            "explanation": "The price for Pinot Gris Reisten (0,75L) is 479 CZK."
           },
           {
-            "id": "bile-pinot-gris-reisten-ing-4",
-            "question": "Which vegetable or fruit component is included in Pinot Gris – Reisten?",
-            "correctAnswer": "Fresh grapefruit and orange zest",
-            "distractors": [
-              "Melnik subregion",
-              "Vibrant acidity and mineral notes"
-            ],
-            "explanation": "In Pinot Gris, this component is present: Fresh grapefruit and orange zest. Official FUZE menu: 0,75L late harvest Reisten – Mikulov, Moravia."
-          },
-          {
-            "id": "bile-pinot-gris-reisten-allergen-12",
-            "question": "Which of the following allergens is present in Pinot Gris – Reisten?",
+            "id": "bile-pinot-gris-reisten-allergen-en",
+            "question": "Which allergen is contained in Pinot Gris Reisten?",
             "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Pinot Gris – Reisten contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "distractors": ["Allergen No. 6 – Soy", "Allergen No. 8 – Nuts"],
+            "explanation": "Contains allergen No. 12 (Sulphur dioxide and sulphites)."
           }
         ]
       },
       {
         "id": "bile-hibernal-bilkovi",
         "name": "Hibernal",
-        "weight": "0.75l",
+        "weight": "0,75L",
         "price": "495 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "0,75L late harvest Bílkovi – Velkopavlovicko, Moravia",
-        "notes": "Late harvest Bílkovi – Velké Pavlovice region, Moravia. Juicy, aromas of blackcurrant and elderflower, fruity with pleasant acidity and spiced finish.",
+        "allergens": ["12"],
+        "description": "Late harvest Bílkovi – Velké Pavlovice region, Moravia",
+        "notes": "Late harvest Bílkovi – Velkopavlovicko, Moravia. Juicy, bouquet of blackcurrant and elderflower, pleasant acidity, spicy finish.",
         "questions": [
           {
-            "id": "bile-hibernal-bilkovi-vol",
-            "question": "What is the serving volume / measure of Hibernal – Bílkovi?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Hibernal – Bílkovi is 0,75l."
+            "id": "bile-hibernal-bilkovi-vol-en",
+            "question": "What is the bottle volume of Hibernal Bílkovi?",
+            "correctAnswer": "0,75L",
+            "distractors": ["0.5 l", "1.0 l"],
+            "explanation": "The bottle volume is 0,75L."
           },
           {
-            "id": "bile-hibernal-bilkovi-ing-1",
-            "question": "Which grape variety, winery, or characteristic belongs to Hibernal – Bílkovi?",
-            "correctAnswer": "Late harvest Bílkovi – Velké Pavlovice region",
-            "distractors": [
-              "Gotberg winery",
-              "Kolby winery"
-            ],
-            "explanation": "In Hibernal, this component is present: Late harvest Bílkovi – Velké Pavlovice region. Official FUZE menu: 0,75L late harvest Bílkovi – Velkopavlovicko, Moravia."
+            "id": "bile-hibernal-bilkovi-prod-en",
+            "question": "Which family winery produces this Hibernal?",
+            "correctAnswer": "Bílkovi – Velké Pavlovice region",
+            "distractors": ["Kraus – Bohemia", "Hauser – Austria"],
+            "explanation": "Hibernal comes from Bílkovi family winery in Velké Pavlovice subregion."
           },
           {
-            "id": "bile-hibernal-bilkovi-ing-2",
-            "question": "Which ingredient is part of Hibernal – Bílkovi?",
-            "correctAnswer": "Moravia. Juicy",
-            "distractors": [
-              "Kraus winery",
-              "Michlovsky winery"
-            ],
-            "explanation": "In Hibernal, this component is present: Moravia. Juicy. Official FUZE menu: 0,75L late harvest Bílkovi – Velkopavlovicko, Moravia."
+            "id": "bile-hibernal-bilkovi-type-en",
+            "question": "What quality grade is Hibernal Bílkovi?",
+            "correctAnswer": "Late harvest",
+            "distractors": ["Kabinet", "Ice wine"],
+            "explanation": "Hibernal Bílkovi is late harvest."
           },
           {
-            "id": "bile-hibernal-bilkovi-ing-3",
-            "question": "Which ingredient is part of Hibernal – Bílkovi?",
-            "correctAnswer": "Aromas of blackcurrant and elderflower",
-            "distractors": [
-              "Mikulov subregion",
-              "Velke Pavlovice subregion"
-            ],
-            "explanation": "In Hibernal, this component is present: Aromas of blackcurrant and elderflower. Official FUZE menu: 0,75L late harvest Bílkovi – Velkopavlovicko, Moravia."
+            "id": "bile-hibernal-bilkovi-price-en",
+            "question": "What is the price of Hibernal Bílkovi bottle?",
+            "correctAnswer": "495 CZK",
+            "distractors": ["445 CZK", "555 CZK"],
+            "explanation": "The bottle price for Hibernal Bílkovi (0,75L) is 495 CZK."
           },
           {
-            "id": "bile-hibernal-bilkovi-ing-4",
-            "question": "Which grape variety, winery, or characteristic belongs to Hibernal – Bílkovi?",
-            "correctAnswer": "Fruity with pleasant acidity and spiced finish",
-            "distractors": [
-              "Melnik subregion",
-              "Vibrant acidity and mineral notes"
-            ],
-            "explanation": "In Hibernal, this component is present: Fruity with pleasant acidity and spiced finish. Official FUZE menu: 0,75L late harvest Bílkovi – Velkopavlovicko, Moravia."
-          },
-          {
-            "id": "bile-hibernal-bilkovi-ing-5",
-            "question": "Which grape variety, winery, or characteristic belongs to Hibernal – Bílkovi?",
-            "correctAnswer": "Fruity with pleasant acidity and spiced finish",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Hibernal, this component is present: Fruity with pleasant acidity and spiced finish. Official FUZE menu: 0,75L late harvest Bílkovi – Velkopavlovicko, Moravia."
-          },
-          {
-            "id": "bile-hibernal-bilkovi-allergen-12",
-            "question": "Which of the following allergens is present in Hibernal – Bílkovi?",
+            "id": "bile-hibernal-bilkovi-allergen-en",
+            "question": "Which allergen is present in Hibernal Bílkovi?",
             "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Hibernal – Bílkovi contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "distractors": ["Allergen No. 3 – Eggs", "Allergen No. 4 – Fish"],
+            "explanation": "Wine contains allergen No. 12 (Sulphur dioxide and sulphites)."
           }
         ]
       },
       {
         "id": "bile-sauvignon-halkoci",
         "name": "Sauvignon",
-        "weight": "0.75l",
+        "weight": "0,75L",
         "price": "626 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "0,75L Typik VOC Lukáš Halkoci – Znojemsko, Moravia",
-        "notes": "Typik VOC Lukáš Halkoci – Znojmo region, Moravia. Lighter-bodied, refreshing finish, crisp aromas of gooseberry, blackcurrant and citrus.",
+        "allergens": ["12"],
+        "description": "Typik VOC Lukáš Halkoci – Znojmo region, Moravia",
+        "notes": "Typik VOC Lukáš Halkoci – Znojemsko, Morava. Light, fresh finish, gooseberry, blackcurrant, and citrus aromatics.",
         "questions": [
           {
-            "id": "bile-sauvignon-halkoci-vol",
-            "question": "What is the serving volume / measure of Sauvignon – Typik VOC Lukáš Halkoci?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Sauvignon – Typik VOC Lukáš Halkoci is 0,75l."
+            "id": "bile-sauvignon-halkoci-vol-en",
+            "question": "What is the bottle size of Sauvignon Lukáš Halkoci?",
+            "correctAnswer": "0,75L",
+            "distractors": ["0.5 l", "1.0 l"],
+            "explanation": "Bottle size is 0,75L."
           },
           {
-            "id": "bile-sauvignon-halkoci-ing-1",
-            "question": "Which ingredient is part of Sauvignon – Typik VOC Lukáš Halkoci?",
-            "correctAnswer": "Typik VOC Lukáš Halkoci – Znojmo region",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Sauvignon, this component is present: Typik VOC Lukáš Halkoci – Znojmo region. Official FUZE menu: 0,75L Typik VOC Lukáš Halkoci – Znojemsko, Moravia."
+            "id": "bile-sauvignon-halkoci-type-en",
+            "question": "What appellation classification does Sauvignon Lukáš Halkoci hold?",
+            "correctAnswer": "Typik VOC",
+            "distractors": ["Late harvest", "Selection of grapes"],
+            "explanation": "It holds the Typik VOC classification from Znojmo region."
           },
           {
-            "id": "bile-sauvignon-halkoci-ing-2",
-            "question": "Which ingredient is part of Sauvignon – Typik VOC Lukáš Halkoci?",
-            "correctAnswer": "Moravia. Lighter-bodied",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Sauvignon, this component is present: Moravia. Lighter-bodied. Official FUZE menu: 0,75L Typik VOC Lukáš Halkoci – Znojemsko, Moravia."
+            "id": "bile-sauvignon-halkoci-prod-en",
+            "question": "Who is the winemaker of this Znojmo Sauvignon?",
+            "correctAnswer": "Lukáš Halkoci",
+            "distractors": ["Milan Sůkal", "Philipp Kuhn"],
+            "explanation": "Winemaker is Lukáš Halkoci from Znojmo."
           },
           {
-            "id": "bile-sauvignon-halkoci-ing-3",
-            "question": "Which ingredient is part of Sauvignon – Typik VOC Lukáš Halkoci?",
-            "correctAnswer": "Refreshing finish",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Sauvignon, this component is present: Refreshing finish. Official FUZE menu: 0,75L Typik VOC Lukáš Halkoci – Znojemsko, Moravia."
+            "id": "bile-sauvignon-halkoci-price-en",
+            "question": "What is the price of Sauvignon Lukáš Halkoci?",
+            "correctAnswer": "626 CZK",
+            "distractors": ["580 CZK", "690 CZK"],
+            "explanation": "The bottle price for Sauvignon Lukáš Halkoci (0,75L) is 626 CZK."
           },
           {
-            "id": "bile-sauvignon-halkoci-ing-4",
-            "question": "Which ingredient is part of Sauvignon – Typik VOC Lukáš Halkoci?",
-            "correctAnswer": "Crisp aromas of gooseberry",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Sauvignon, this component is present: Crisp aromas of gooseberry. Official FUZE menu: 0,75L Typik VOC Lukáš Halkoci – Znojemsko, Moravia."
-          },
-          {
-            "id": "bile-sauvignon-halkoci-ing-5",
-            "question": "Which ingredient is part of Sauvignon – Typik VOC Lukáš Halkoci?",
-            "correctAnswer": "Blackcurrant and citrus",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Sauvignon, this component is present: Blackcurrant and citrus. Official FUZE menu: 0,75L Typik VOC Lukáš Halkoci – Znojemsko, Moravia."
-          },
-          {
-            "id": "bile-sauvignon-halkoci-allergen-12",
-            "question": "Which of the following allergens is present in Sauvignon – Typik VOC Lukáš Halkoci?",
+            "id": "bile-sauvignon-halkoci-allergen-en",
+            "question": "Which allergen is present in Sauvignon Lukáš Halkoci?",
             "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Sauvignon – Typik VOC Lukáš Halkoci contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "distractors": ["Allergen No. 2 – Crustaceans", "Allergen No. 5 – Peanuts"],
+            "explanation": "Contains allergen No. 12 (Sulphur dioxide and sulphites)."
           }
         ]
       },
       {
         "id": "bile-ryzlink-vlassky-sukal",
-        "name": "Welschriesling",
-        "weight": "0.75l",
+        "name": "Ryzlink Vlašský",
+        "weight": "0,75L",
         "price": "660 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "0,75L late harvest Milan Sůkal – Slovácko, Moravia",
-        "notes": "Late harvest Milan Sůkal – Slovácko, Moravia. Medium-bodied wine, pleasant acidity, notes of ripe citrus, pomelo and stone fruit.",
+        "allergens": ["12"],
+        "description": "Late harvest Milan Sůkal – Slovácko region, Moravia",
+        "notes": "Late harvest Milan Sůkal – Slovácko, Morava. Medium-bodied wine, pleasant acidity, notes of ripe citrus, pomelo, and stone fruit.",
         "questions": [
           {
-            "id": "bile-ryzlink-vlassky-sukal-vol",
-            "question": "What is the serving volume / measure of Welschriesling (Ryzlink vlašský) – Milan Sůkal?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Welschriesling (Ryzlink vlašský) – Milan Sůkal is 0,75l."
+            "id": "bile-ryzlink-vlassky-sukal-vol-en",
+            "question": "What is the volume of Ryzlink Vlašský Milan Sůkal?",
+            "correctAnswer": "0,75L",
+            "distractors": ["0.5 l", "1.0 l"],
+            "explanation": "The bottle volume is 0,75L."
           },
           {
-            "id": "bile-ryzlink-vlassky-sukal-ing-1",
-            "question": "Which grape variety, winery, or characteristic belongs to Welschriesling (Ryzlink vlašský) – Milan Sůkal?",
-            "correctAnswer": "Late harvest Milan Sůkal – Slovácko",
-            "distractors": [
-              "Gotberg winery",
-              "Kolby winery"
-            ],
-            "explanation": "In Welschriesling, this component is present: Late harvest Milan Sůkal – Slovácko. Official FUZE menu: 0,75L late harvest Milan Sůkal – Slovácko, Moravia."
+            "id": "bile-ryzlink-vlassky-sukal-prod-en",
+            "question": "Which subregion and renowned winemaker crafts this Ryzlink Vlašský?",
+            "correctAnswer": "Milan Sůkal – Slovácko, Moravia",
+            "distractors": ["Gotberg – Mikulov", "Bílkovi – Velké Pavlovice"],
+            "explanation": "Winemaker Milan Sůkal from Slovácko subregion in Moravia."
           },
           {
-            "id": "bile-ryzlink-vlassky-sukal-ing-2",
-            "question": "Which ingredient is part of Welschriesling (Ryzlink vlašský) – Milan Sůkal?",
-            "correctAnswer": "Moravia. Medium-bodied wine",
-            "distractors": [
-              "Kraus winery",
-              "Michlovsky winery"
-            ],
-            "explanation": "In Welschriesling, this component is present: Moravia. Medium-bodied wine. Official FUZE menu: 0,75L late harvest Milan Sůkal – Slovácko, Moravia."
+            "id": "bile-ryzlink-vlassky-sukal-type-en",
+            "question": "What classification does Ryzlink Vlašský Milan Sůkal carry?",
+            "correctAnswer": "Late harvest",
+            "distractors": ["Kabinet", "Table wine"],
+            "explanation": "Ryzlink Vlašský Milan Sůkal is classified as late harvest."
           },
           {
-            "id": "bile-ryzlink-vlassky-sukal-ing-3",
-            "question": "Which grape variety, winery, or characteristic belongs to Welschriesling (Ryzlink vlašský) – Milan Sůkal?",
-            "correctAnswer": "Pleasant acidity",
-            "distractors": [
-              "Mikulov subregion",
-              "Velke Pavlovice subregion"
-            ],
-            "explanation": "In Welschriesling, this component is present: Pleasant acidity. Official FUZE menu: 0,75L late harvest Milan Sůkal – Slovácko, Moravia."
+            "id": "bile-ryzlink-vlassky-sukal-price-en",
+            "question": "What is the price of Ryzlink Vlašský Milan Sůkal?",
+            "correctAnswer": "660 CZK",
+            "distractors": ["590 CZK", "720 CZK"],
+            "explanation": "The price for Ryzlink Vlašský Milan Sůkal (0,75L) is 660 CZK."
           },
           {
-            "id": "bile-ryzlink-vlassky-sukal-ing-4",
-            "question": "Which ingredient is part of Welschriesling (Ryzlink vlašský) – Milan Sůkal?",
-            "correctAnswer": "Notes of ripe citrus",
-            "distractors": [
-              "Melnik subregion",
-              "Vibrant acidity and mineral notes"
-            ],
-            "explanation": "In Welschriesling, this component is present: Notes of ripe citrus. Official FUZE menu: 0,75L late harvest Milan Sůkal – Slovácko, Moravia."
-          },
-          {
-            "id": "bile-ryzlink-vlassky-sukal-ing-5",
-            "question": "Which ingredient is part of Welschriesling (Ryzlink vlašský) – Milan Sůkal?",
-            "correctAnswer": "Pomelo and stone fruit",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Welschriesling, this component is present: Pomelo and stone fruit. Official FUZE menu: 0,75L late harvest Milan Sůkal – Slovácko, Moravia."
-          },
-          {
-            "id": "bile-ryzlink-vlassky-sukal-allergen-12",
-            "question": "Which of the following allergens is present in Welschriesling (Ryzlink vlašský) – Milan Sůkal?",
+            "id": "bile-ryzlink-vlassky-sukal-allergen-en",
+            "question": "Which allergen is present in Ryzlink Vlašský Milan Sůkal?",
             "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Welschriesling (Ryzlink vlašský) – Milan Sůkal contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "distractors": ["Allergen No. 10 – Mustard", "Allergen No. 11 – Sesame"],
+            "explanation": "Contains allergen No. 12 (Sulphur dioxide and sulphites)."
           }
         ]
       },
       {
         "id": "bile-palava-michlovsky",
         "name": "Pálava",
-        "weight": "0.75l",
+        "weight": "0,75L",
         "price": "506 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "0,75L late harvest Vinselect Michlovský – Lednicko-Valtice area, Moravia",
-        "notes": "Late harvest Vinselect Michlovský – Lednice-Valtice area, Moravia. Delicate floral scent of orange blossoms and rosebuds, fresh palate of lychee and apple strudel.",
+        "allergens": ["12"],
+        "description": "Late harvest Vinselect Michlovský – Lednice-Valtice area, Moravia",
+        "notes": "Late harvest Vinselect Michlovský – Lednicko-Valtický areál, Morava. Delicate aroma of orange blossoms and rosebuds, fresh lychee and apple strudel finish.",
         "questions": [
           {
-            "id": "bile-palava-michlovsky-vol",
-            "question": "What is the serving volume / measure of Pálava – Vinselect Michlovský?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Pálava – Vinselect Michlovský is 0,75l."
+            "id": "bile-palava-michlovsky-vol-en",
+            "question": "What is the bottle volume of Pálava Vinselect Michlovský?",
+            "correctAnswer": "0,75L",
+            "distractors": ["0.5 l", "1.0 l"],
+            "explanation": "The bottle volume is 0,75L."
           },
           {
-            "id": "bile-palava-michlovsky-ing-1",
-            "question": "Which grape variety, winery, or characteristic belongs to Pálava – Vinselect Michlovský?",
-            "correctAnswer": "Late harvest Vinselect Michlovský – Lednice-Valtice area",
-            "distractors": [
-              "Gotberg winery",
-              "Kolby winery"
-            ],
-            "explanation": "In Pálava, this component is present: Late harvest Vinselect Michlovský – Lednice-Valtice area. Official FUZE menu: 0,75L late harvest Vinselect Michlovský – Lednicko-Valtice area, Moravia."
+            "id": "bile-palava-michlovsky-reg-en",
+            "question": "From which Moravian area do the grapes for this Pálava originate?",
+            "correctAnswer": "Lednice-Valtice area, Moravia",
+            "distractors": ["Znojmo subregion", "Mělník region"],
+            "explanation": "Grapes come from the UNESCO-listed Lednice-Valtice area."
           },
           {
-            "id": "bile-palava-michlovsky-ing-2",
-            "question": "Which ingredient is part of Pálava – Vinselect Michlovský?",
-            "correctAnswer": "Moravia. Delicate floral scent of orange blossoms and rosebuds",
-            "distractors": [
-              "Kraus winery",
-              "Michlovsky winery"
-            ],
-            "explanation": "In Pálava, this component is present: Moravia. Delicate floral scent of orange blossoms and rosebuds. Official FUZE menu: 0,75L late harvest Vinselect Michlovský – Lednicko-Valtice area, Moravia."
+            "id": "bile-palava-michlovsky-prod-en",
+            "question": "Which winery produces this still Pálava in late harvest?",
+            "correctAnswer": "Vinselect Michlovský",
+            "distractors": ["Gotberg", "Reisten"],
+            "explanation": "Produced by Vinselect Michlovský."
           },
           {
-            "id": "bile-palava-michlovsky-ing-3",
-            "question": "Which vegetable or fruit component is included in Pálava – Vinselect Michlovský?",
-            "correctAnswer": "Fresh palate of lychee and apple strudel",
-            "distractors": [
-              "Mikulov subregion",
-              "Velke Pavlovice subregion"
-            ],
-            "explanation": "In Pálava, this component is present: Fresh palate of lychee and apple strudel. Official FUZE menu: 0,75L late harvest Vinselect Michlovský – Lednicko-Valtice area, Moravia."
+            "id": "bile-palava-michlovsky-price-en",
+            "question": "What is the price of Pálava Vinselect Michlovský?",
+            "correctAnswer": "506 CZK",
+            "distractors": ["450 CZK", "560 CZK"],
+            "explanation": "The price for Pálava Vinselect Michlovský (0,75L) is 506 CZK."
           },
           {
-            "id": "bile-palava-michlovsky-allergen-12",
-            "question": "Which of the following allergens is present in Pálava – Vinselect Michlovský?",
+            "id": "bile-palava-michlovsky-allergen-en",
+            "question": "Which allergen is present in Pálava Vinselect Michlovský?",
             "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Pálava – Vinselect Michlovský contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "distractors": ["Allergen No. 7 – Milk", "Allergen No. 1 – Gluten"],
+            "explanation": "Contains allergen No. 12 (Sulphur dioxide and sulphites)."
           }
         ]
       },
       {
         "id": "bile-poysdorfer-saurussel",
         "name": "Poysdorfer Saurüssel",
-        "weight": "0.75l",
+        "weight": "0,75L",
         "price": "629 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "0,75L Grüner Veltliner, Hauser – Weinviertel, Austria",
-        "notes": "Weinviertel, Austria. Grüner Veltliner, aromas of green apple, citrus peel and white pepper, bright acidity and subtle minerality.",
+        "allergens": ["12"],
+        "description": "Grüner Veltliner, Hauser – Weinviertel, Austria",
+        "notes": "Weinviertel, Austria. Grüner Veltliner, aromas of green apple, citrus zest, and white pepper, bright acidity and delicate minerality.",
         "questions": [
           {
-            "id": "bile-poysdorfer-saurussel-vol",
-            "question": "What is the serving volume / measure of Poysdorfer Saurüssel – Hauser?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Poysdorfer Saurüssel – Hauser is 0,75l."
+            "id": "bile-poysdorfer-saurussel-vol-en",
+            "question": "What is the volume of Poysdorfer Saurüssel bottle?",
+            "correctAnswer": "0,75L",
+            "distractors": ["0.5 l", "1.0 l"],
+            "explanation": "Bottle volume is 0,75L."
           },
           {
-            "id": "bile-poysdorfer-saurussel-ing-1",
-            "question": "Which ingredient is part of Poysdorfer Saurüssel – Hauser?",
-            "correctAnswer": "Weinviertel",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Poysdorfer Saurüssel, this component is present: Weinviertel. Official FUZE menu: 0,75L Grüner Veltliner, Hauser – Weinviertel, Austria."
+            "id": "bile-poysdorfer-saurussel-grape-en",
+            "question": "Which grape variety is used for Austrian Poysdorfer Saurüssel?",
+            "correctAnswer": "Grüner Veltliner (Veltlínské zelené)",
+            "distractors": ["Riesling", "Chardonnay"],
+            "explanation": "Made 100% from Grüner Veltliner grapes."
           },
           {
-            "id": "bile-poysdorfer-saurussel-ing-2",
-            "question": "Which ingredient is part of Poysdorfer Saurüssel – Hauser?",
-            "correctAnswer": "Austria. Grüner Veltliner",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Poysdorfer Saurüssel, this component is present: Austria. Grüner Veltliner. Official FUZE menu: 0,75L Grüner Veltliner, Hauser – Weinviertel, Austria."
+            "id": "bile-poysdorfer-saurussel-prod-en",
+            "question": "Which winery and region produces Poysdorfer Saurüssel?",
+            "correctAnswer": "Hauser – Weinviertel, Austria",
+            "distractors": ["Schwarzbock – Burgenland", "Kuhn – Pfalz"],
+            "explanation": "Produced by Hauser winery in Weinviertel, Austria."
           },
           {
-            "id": "bile-poysdorfer-saurussel-ing-3",
-            "question": "Which vegetable or fruit component is included in Poysdorfer Saurüssel – Hauser?",
-            "correctAnswer": "Aromas of green apple",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Poysdorfer Saurüssel, this component is present: Aromas of green apple. Official FUZE menu: 0,75L Grüner Veltliner, Hauser – Weinviertel, Austria."
+            "id": "bile-poysdorfer-saurussel-price-en",
+            "question": "What is the price of Poysdorfer Saurüssel?",
+            "correctAnswer": "629 CZK",
+            "distractors": ["579 CZK", "689 CZK"],
+            "explanation": "The bottle price for Poysdorfer Saurüssel (0,75L) is 629 CZK."
           },
           {
-            "id": "bile-poysdorfer-saurussel-ing-4",
-            "question": "Which ingredient is part of Poysdorfer Saurüssel – Hauser?",
-            "correctAnswer": "Citrus peel and white pepper",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Poysdorfer Saurüssel, this component is present: Citrus peel and white pepper. Official FUZE menu: 0,75L Grüner Veltliner, Hauser – Weinviertel, Austria."
-          },
-          {
-            "id": "bile-poysdorfer-saurussel-ing-5",
-            "question": "Which grape variety, winery, or characteristic belongs to Poysdorfer Saurüssel – Hauser?",
-            "correctAnswer": "Bright acidity and subtle minerality",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Poysdorfer Saurüssel, this component is present: Bright acidity and subtle minerality. Official FUZE menu: 0,75L Grüner Veltliner, Hauser – Weinviertel, Austria."
-          },
-          {
-            "id": "bile-poysdorfer-saurussel-allergen-12",
-            "question": "Which of the following allergens is present in Poysdorfer Saurüssel – Hauser?",
+            "id": "bile-poysdorfer-saurussel-allergen-en",
+            "question": "Which allergen is present in Poysdorfer Saurüssel?",
             "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Poysdorfer Saurüssel – Hauser contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "distractors": ["Allergen No. 9 – Celery", "Allergen No. 13 – Lupin"],
+            "explanation": "Contains allergen No. 12 (Sulphur dioxide and sulphites)."
           }
         ]
       },
       {
         "id": "bile-gruner-satzen-schwarzbock",
         "name": "Grüner Veltliner",
-        "weight": "0.75l",
+        "weight": "0,75L",
         "price": "723 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "0,75L Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria",
-        "notes": "Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria. Rich golden color, intense aromas of ripe pears and citrus, elegant, mineral, peppery spiced finish.",
+        "allergens": ["12"],
+        "description": "Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria",
+        "notes": "Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria. Deep golden color, intense aromas of ripe pears and citrus, elegant mineral peppery finish.",
         "questions": [
           {
-            "id": "bile-gruner-satzen-schwarzbock-vol",
-            "question": "What is the serving volume / measure of Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Grüner Veltliner Premium Ried Satzen – Schwarzbock is 0,75l."
+            "id": "bile-gruner-satzen-schwarzbock-vol-en",
+            "question": "What is the serving volume of Grüner Veltliner Schwarzbock?",
+            "correctAnswer": "0,75L",
+            "distractors": ["0.5 l", "1.0 l"],
+            "explanation": "Bottle volume is 0,75L."
           },
           {
-            "id": "bile-gruner-satzen-schwarzbock-ing-1",
-            "question": "Which ingredient is part of Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
-            "correctAnswer": "Premium Ried Satzen DAC Schwarzbock – Weinviertel",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Grüner Veltliner, this component is present: Premium Ried Satzen DAC Schwarzbock – Weinviertel. Official FUZE menu: 0,75L Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria."
+            "id": "bile-gruner-satzen-schwarzbock-type-en",
+            "question": "What single-vineyard designation does Grüner Veltliner Schwarzbock have?",
+            "correctAnswer": "Premium Ried Satzen DAC",
+            "distractors": ["Klassik DAC", "Reserve Wachau"],
+            "explanation": "It comes from the premium single vineyard Ried Satzen DAC."
           },
           {
-            "id": "bile-gruner-satzen-schwarzbock-ing-2",
-            "question": "Which ingredient is part of Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
-            "correctAnswer": "Austria. Rich golden color",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Grüner Veltliner, this component is present: Austria. Rich golden color. Official FUZE menu: 0,75L Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria."
+            "id": "bile-gruner-satzen-schwarzbock-prod-en",
+            "question": "Which winery from Weinviertel produces this Grüner Veltliner?",
+            "correctAnswer": "Schwarzbock",
+            "distractors": ["Hauser", "Gunderloch"],
+            "explanation": "Crafted by Schwarzbock winery in Weinviertel, Austria."
           },
           {
-            "id": "bile-gruner-satzen-schwarzbock-ing-3",
-            "question": "Which ingredient is part of Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
-            "correctAnswer": "Intense aromas of ripe pears and citrus",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Grüner Veltliner, this component is present: Intense aromas of ripe pears and citrus. Official FUZE menu: 0,75L Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria."
+            "id": "bile-gruner-satzen-schwarzbock-price-en",
+            "question": "What is the price of Grüner Veltliner Schwarzbock?",
+            "correctAnswer": "723 CZK",
+            "distractors": ["650 CZK", "790 CZK"],
+            "explanation": "The bottle price for Grüner Veltliner Schwarzbock (0,75L) is 723 CZK."
           },
           {
-            "id": "bile-gruner-satzen-schwarzbock-ing-4",
-            "question": "Which ingredient is part of Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
-            "correctAnswer": "Elegant",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Grüner Veltliner, this component is present: Elegant. Official FUZE menu: 0,75L Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria."
-          },
-          {
-            "id": "bile-gruner-satzen-schwarzbock-ing-5",
-            "question": "Which ingredient is part of Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
-            "correctAnswer": "Mineral",
-            "distractors": [
-              "Late harvest",
-              "Aging in oak barrels"
-            ],
-            "explanation": "In Grüner Veltliner, this component is present: Mineral. Official FUZE menu: 0,75L Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria."
-          },
-          {
-            "id": "bile-gruner-satzen-schwarzbock-ing-6",
-            "question": "Which ingredient is part of Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
-            "correctAnswer": "Peppery spiced finish",
-            "distractors": [
-              "Gotberg winery",
-              "Kolby winery"
-            ],
-            "explanation": "In Grüner Veltliner, this component is present: Peppery spiced finish. Official FUZE menu: 0,75L Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria."
-          },
-          {
-            "id": "bile-gruner-satzen-schwarzbock-allergen-12",
-            "question": "Which of the following allergens is present in Grüner Veltliner Premium Ried Satzen – Schwarzbock?",
+            "id": "bile-gruner-satzen-schwarzbock-allergen-en",
+            "question": "Which allergen is present in Grüner Veltliner Schwarzbock?",
             "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Grüner Veltliner Premium Ried Satzen – Schwarzbock contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "distractors": ["Allergen No. 1 – Gluten", "Allergen No. 8 – Nuts"],
+            "explanation": "Contains allergen No. 12 (Sulphur dioxide and sulphites)."
           }
         ]
       },
       {
         "id": "bile-riesling-eva-fricke",
         "name": "Riesling Rheingau",
-        "weight": "0.75l",
+        "weight": "0,75L",
         "price": "999 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "0,75L QbA Dry Eva Fricke – Rheingau, Germany",
-        "notes": "Rheingau, Germany. Elegant, aromas of lime, green apple and white peaches with mineral slate undertones.",
+        "allergens": ["12"],
+        "description": "QbA Trocken Eva Fricke – Rheingau, Germany",
+        "notes": "Rheingau, Germany. Elegant, lime, green apple, and white peach aromatics with crystalline mineral undertones.",
         "questions": [
           {
-            "id": "bile-riesling-eva-fricke-vol",
-            "question": "What is the serving volume / measure of Riesling Rheingau QbA Dry – Eva Fricke?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Riesling Rheingau QbA Dry – Eva Fricke is 0,75l."
+            "id": "bile-riesling-eva-fricke-vol-en",
+            "question": "What is the bottle volume of Riesling Rheingau Eva Fricke?",
+            "correctAnswer": "0,75L",
+            "distractors": ["0.5 l", "1.0 l"],
+            "explanation": "Bottle volume is 0,75L."
           },
           {
-            "id": "bile-riesling-eva-fricke-ing-1",
-            "question": "Which ingredient is part of Riesling Rheingau QbA Dry – Eva Fricke?",
-            "correctAnswer": "Rheingau",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Riesling Rheingau, this component is present: Rheingau. Official FUZE menu: 0,75L QbA Dry Eva Fricke – Rheingau, Germany."
+            "id": "bile-riesling-eva-fricke-type-en",
+            "question": "What German quality classification is Eva Fricke Riesling?",
+            "correctAnswer": "QbA Trocken",
+            "distractors": ["Spätlese", "Auslese"],
+            "explanation": "It carries the QbA Trocken classification."
           },
           {
-            "id": "bile-riesling-eva-fricke-ing-2",
-            "question": "Which ingredient is part of Riesling Rheingau QbA Dry – Eva Fricke?",
-            "correctAnswer": "Germany. Elegant",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Riesling Rheingau, this component is present: Germany. Elegant. Official FUZE menu: 0,75L QbA Dry Eva Fricke – Rheingau, Germany."
+            "id": "bile-riesling-eva-fricke-prod-en",
+            "question": "Which famous winemaker and region crafts this dry Riesling?",
+            "correctAnswer": "Eva Fricke – Rheingau, Germany",
+            "distractors": ["Fritz Haag – Mosel", "Philipp Kuhn – Pfalz"],
+            "explanation": "Crafted by cult winemaker Eva Fricke in Rheingau, Germany."
           },
           {
-            "id": "bile-riesling-eva-fricke-ing-3",
-            "question": "Which ingredient is part of Riesling Rheingau QbA Dry – Eva Fricke?",
-            "correctAnswer": "Aromas of lime",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Riesling Rheingau, this component is present: Aromas of lime. Official FUZE menu: 0,75L QbA Dry Eva Fricke – Rheingau, Germany."
+            "id": "bile-riesling-eva-fricke-price-en",
+            "question": "What is the price of Riesling Rheingau Eva Fricke?",
+            "correctAnswer": "999 CZK",
+            "distractors": ["899 CZK", "1 099 CZK"],
+            "explanation": "The bottle price for Riesling Rheingau Eva Fricke (0,75L) is 999 CZK."
           },
           {
-            "id": "bile-riesling-eva-fricke-ing-4",
-            "question": "Which vegetable or fruit component is included in Riesling Rheingau QbA Dry – Eva Fricke?",
-            "correctAnswer": "Green apple and white peaches with mineral slate undertones",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Riesling Rheingau, this component is present: Green apple and white peaches with mineral slate undertones. Official FUZE menu: 0,75L QbA Dry Eva Fricke – Rheingau, Germany."
-          },
-          {
-            "id": "bile-riesling-eva-fricke-ing-5",
-            "question": "Which vegetable or fruit component is included in Riesling Rheingau QbA Dry – Eva Fricke?",
-            "correctAnswer": "Green apple and white peaches with mineral slate undertones",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Riesling Rheingau, this component is present: Green apple and white peaches with mineral slate undertones. Official FUZE menu: 0,75L QbA Dry Eva Fricke – Rheingau, Germany."
-          },
-          {
-            "id": "bile-riesling-eva-fricke-allergen-12",
-            "question": "Which of the following allergens is present in Riesling Rheingau QbA Dry – Eva Fricke?",
+            "id": "bile-riesling-eva-fricke-allergen-en",
+            "question": "Which allergen is present in Riesling Rheingau Eva Fricke?",
             "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Riesling Rheingau QbA Dry – Eva Fricke contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "distractors": ["Allergen No. 6 – Soy", "Allergen No. 14 – Molluscs"],
+            "explanation": "Contains allergen No. 12 (Sulphur dioxide and sulphites)."
           }
         ]
       },
       {
         "id": "bile-riesling-gunderloch-red-stone",
         "name": "Riesling",
-        "weight": "0.75l",
+        "weight": "0,75L",
         "price": "595 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "0,75L Red Stone QbA dry Gunderloch – Rheinhessen, Germany",
-        "notes": "Rheinhessen, Germany. Juicy, aromas of ripe citrus, vineyard peaches and herbs, mineral trace of red slate, spicy finish.",
+        "allergens": ["12"],
+        "description": "Red Stone QbA trocken Gunderloch – Rheinhessen, Germany",
+        "notes": "Rheinhessen, Germany. Juicy, ripe citrus, peach, and herbs bouquet, red slate minerality, spicy finish.",
         "questions": [
           {
-            "id": "bile-riesling-gunderloch-red-stone-vol",
-            "question": "What is the serving volume / measure of Riesling Red Stone QbA Dry – Gunderloch?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Riesling Red Stone QbA Dry – Gunderloch is 0,75l."
+            "id": "bile-riesling-gunderloch-red-stone-vol-en",
+            "question": "What is the bottle volume of Riesling Red Stone Gunderloch?",
+            "correctAnswer": "0,75L",
+            "distractors": ["0.5 l", "1.0 l"],
+            "explanation": "Bottle volume is 0,75L."
           },
           {
-            "id": "bile-riesling-gunderloch-red-stone-ing-1",
-            "question": "Which ingredient is part of Riesling Red Stone QbA Dry – Gunderloch?",
-            "correctAnswer": "Rheinhessen",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Riesling, this component is present: Rheinhessen. Official FUZE menu: 0,75L Red Stone QbA dry Gunderloch – Rheinhessen, Germany."
+            "id": "bile-riesling-gunderloch-red-stone-type-en",
+            "question": "What specific designation does Gunderloch Riesling have?",
+            "correctAnswer": "Red Stone QbA trocken",
+            "distractors": ["Tradition Brauneberg", "Kabinett trocken"],
+            "explanation": "Designated as Red Stone QbA trocken, reflecting the red slate terroir."
           },
           {
-            "id": "bile-riesling-gunderloch-red-stone-ing-2",
-            "question": "Which ingredient is part of Riesling Red Stone QbA Dry – Gunderloch?",
-            "correctAnswer": "Germany. Juicy",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Riesling, this component is present: Germany. Juicy. Official FUZE menu: 0,75L Red Stone QbA dry Gunderloch – Rheinhessen, Germany."
+            "id": "bile-riesling-gunderloch-red-stone-prod-en",
+            "question": "Which winery and German region produces Riesling Red Stone?",
+            "correctAnswer": "Gunderloch – Rheinhessen, Germany",
+            "distractors": ["Eva Fricke – Rheingau", "Fritz Haag – Mosel"],
+            "explanation": "Produced by Weingut Gunderloch in Rheinhessen, Germany."
           },
           {
-            "id": "bile-riesling-gunderloch-red-stone-ing-3",
-            "question": "Which ingredient is part of Riesling Red Stone QbA Dry – Gunderloch?",
-            "correctAnswer": "Aromas of ripe citrus",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Riesling, this component is present: Aromas of ripe citrus. Official FUZE menu: 0,75L Red Stone QbA dry Gunderloch – Rheinhessen, Germany."
+            "id": "bile-riesling-gunderloch-red-stone-price-en",
+            "question": "What is the price of Riesling Red Stone Gunderloch?",
+            "correctAnswer": "595 CZK",
+            "distractors": ["545 CZK", "645 CZK"],
+            "explanation": "The bottle price for Riesling Red Stone Gunderloch (0,75L) is 595 CZK."
           },
           {
-            "id": "bile-riesling-gunderloch-red-stone-ing-4",
-            "question": "Which fresh herb or spice seasoning finishes Riesling Red Stone QbA Dry – Gunderloch?",
-            "correctAnswer": "Vineyard peaches and herbs",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Riesling, this component is present: Vineyard peaches and herbs. Official FUZE menu: 0,75L Red Stone QbA dry Gunderloch – Rheinhessen, Germany."
-          },
-          {
-            "id": "bile-riesling-gunderloch-red-stone-ing-5",
-            "question": "Which ingredient is part of Riesling Red Stone QbA Dry – Gunderloch?",
-            "correctAnswer": "Mineral trace of red slate",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Riesling, this component is present: Mineral trace of red slate. Official FUZE menu: 0,75L Red Stone QbA dry Gunderloch – Rheinhessen, Germany."
-          },
-          {
-            "id": "bile-riesling-gunderloch-red-stone-ing-6",
-            "question": "Which ingredient is part of Riesling Red Stone QbA Dry – Gunderloch?",
-            "correctAnswer": "Spicy finish",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Riesling, this component is present: Spicy finish. Official FUZE menu: 0,75L Red Stone QbA dry Gunderloch – Rheinhessen, Germany."
-          },
-          {
-            "id": "bile-riesling-gunderloch-red-stone-allergen-12",
-            "question": "Which of the following allergens is present in Riesling Red Stone QbA Dry – Gunderloch?",
+            "id": "bile-riesling-gunderloch-red-stone-allergen-en",
+            "question": "Which allergen is present in Riesling Red Stone Gunderloch?",
             "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Riesling Red Stone QbA Dry – Gunderloch contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "distractors": ["Allergen No. 7 – Milk", "Allergen No. 1 – Gluten"],
+            "explanation": "Contains allergen No. 12 (Sulphur dioxide and sulphites)."
           }
         ]
       },
       {
         "id": "bile-riesling-fritz-haag",
         "name": "Riesling",
-        "weight": "0.75l",
+        "weight": "0,75L",
         "price": "975 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "0,75L Tradition Brauneberg Fritz Haag – Mosel, Germany",
-        "notes": "Mosel, Germany. Golden hue, intense citrus aromas, vibrant and harmonious palate with a hint of acacia honey.",
+        "allergens": ["12"],
+        "description": "Tradition Brauneberg Fritz Haag – Mosel, Germany",
+        "notes": "Mosel, Germany. Golden color, intense citrus aroma, zesty harmonious palate with hints of acacia honey.",
         "questions": [
           {
-            "id": "bile-riesling-fritz-haag-vol",
-            "question": "What is the serving volume / measure of Riesling Tradition Brauneberg – Fritz Haag?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Riesling Tradition Brauneberg – Fritz Haag is 0,75l."
+            "id": "bile-riesling-fritz-haag-vol-en",
+            "question": "What is the bottle volume of Riesling Fritz Haag?",
+            "correctAnswer": "0,75L",
+            "distractors": ["0.5 l", "1.0 l"],
+            "explanation": "Bottle volume is 0,75L."
           },
           {
-            "id": "bile-riesling-fritz-haag-ing-1",
-            "question": "Which ingredient is part of Riesling Tradition Brauneberg – Fritz Haag?",
-            "correctAnswer": "Mosel",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Riesling, this component is present: Mosel. Official FUZE menu: 0,75L Tradition Brauneberg Fritz Haag – Mosel, Germany."
+            "id": "bile-riesling-fritz-haag-type-en",
+            "question": "What is the cuvée/vineyard name of this Mosel Riesling?",
+            "correctAnswer": "Tradition Brauneberg",
+            "distractors": ["Red Stone", "Ried Satzen"],
+            "explanation": "It bears the designation Tradition Brauneberg."
           },
           {
-            "id": "bile-riesling-fritz-haag-ing-2",
-            "question": "Which ingredient is part of Riesling Tradition Brauneberg – Fritz Haag?",
-            "correctAnswer": "Germany. Golden hue",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Riesling, this component is present: Germany. Golden hue. Official FUZE menu: 0,75L Tradition Brauneberg Fritz Haag – Mosel, Germany."
+            "id": "bile-riesling-fritz-haag-prod-en",
+            "question": "Which iconic Mosel producer made this wine?",
+            "correctAnswer": "Fritz Haag – Mosel, Germany",
+            "distractors": ["Eva Fricke – Rheingau", "Gunderloch – Rheinhessen"],
+            "explanation": "Crafted by Fritz Haag in the Mosel valley, Germany."
           },
           {
-            "id": "bile-riesling-fritz-haag-ing-3",
-            "question": "Which ingredient is part of Riesling Tradition Brauneberg – Fritz Haag?",
-            "correctAnswer": "Intense citrus aromas",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Riesling, this component is present: Intense citrus aromas. Official FUZE menu: 0,75L Tradition Brauneberg Fritz Haag – Mosel, Germany."
+            "id": "bile-riesling-fritz-haag-price-en",
+            "question": "What is the price of Riesling Tradition Brauneberg Fritz Haag?",
+            "correctAnswer": "975 CZK",
+            "distractors": ["875 CZK", "1 050 CZK"],
+            "explanation": "The bottle price for Riesling Fritz Haag (0,75L) is 975 CZK."
           },
           {
-            "id": "bile-riesling-fritz-haag-ing-4",
-            "question": "Which ingredient is part of Riesling Tradition Brauneberg – Fritz Haag?",
-            "correctAnswer": "Vibrant and harmonious palate with a hint of acacia honey",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Riesling, this component is present: Vibrant and harmonious palate with a hint of acacia honey. Official FUZE menu: 0,75L Tradition Brauneberg Fritz Haag – Mosel, Germany."
-          },
-          {
-            "id": "bile-riesling-fritz-haag-ing-5",
-            "question": "Which ingredient is part of Riesling Tradition Brauneberg – Fritz Haag?",
-            "correctAnswer": "Vibrant and harmonious palate with a hint of acacia honey",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Riesling, this component is present: Vibrant and harmonious palate with a hint of acacia honey. Official FUZE menu: 0,75L Tradition Brauneberg Fritz Haag – Mosel, Germany."
-          },
-          {
-            "id": "bile-riesling-fritz-haag-ing-6",
-            "question": "Which ingredient is part of Riesling Tradition Brauneberg – Fritz Haag?",
-            "correctAnswer": "Vibrant and harmonious palate with a hint of acacia honey",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Riesling, this component is present: Vibrant and harmonious palate with a hint of acacia honey. Official FUZE menu: 0,75L Tradition Brauneberg Fritz Haag – Mosel, Germany."
-          },
-          {
-            "id": "bile-riesling-fritz-haag-allergen-12",
-            "question": "Which of the following allergens is present in Riesling Tradition Brauneberg – Fritz Haag?",
+            "id": "bile-riesling-fritz-haag-allergen-en",
+            "question": "Which allergen is present in Riesling Fritz Haag?",
             "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Riesling Tradition Brauneberg – Fritz Haag contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "distractors": ["Allergen No. 5 – Peanuts", "Allergen No. 8 – Nuts"],
+            "explanation": "Contains allergen No. 12 (Sulphur dioxide and sulphites)."
           }
         ]
       },
       {
         "id": "bile-weisser-burgunder-philipp-kuhn",
         "name": "Weisser Burgunder",
-        "weight": "0.75l",
+        "weight": "0,75L",
         "price": "725 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "0,75L Pinot Blanc, Tradition Trocken Philipp Kuhn – Pfalz, Germany",
-        "notes": "Pfalz, Germany. Pinot Blanc, flavors of roasted almonds, dried pears, walnuts and crisp minerality.",
+        "allergens": ["12"],
+        "description": "Pinot Blanc, Tradition Trocken Philipp Kuhn – Pfalz, Germany",
+        "notes": "Pfalz, Germany. Pinot Blanc, flavors of roasted almonds, dried pears, walnuts, and minerality.",
         "questions": [
           {
-            "id": "bile-weisser-burgunder-philipp-kuhn-vol",
-            "question": "What is the serving volume / measure of Weisser Burgunder (Pinot Blanc) – Philipp Kuhn?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Weisser Burgunder (Pinot Blanc) – Philipp Kuhn is 0,75l."
+            "id": "bile-weisser-burgunder-philipp-kuhn-vol-en",
+            "question": "What is the bottle volume of Weisser Burgunder Philipp Kuhn?",
+            "correctAnswer": "0,75L",
+            "distractors": ["0.5 l", "1.0 l"],
+            "explanation": "Bottle volume is 0,75L."
           },
           {
-            "id": "bile-weisser-burgunder-philipp-kuhn-ing-1",
-            "question": "Which ingredient is part of Weisser Burgunder (Pinot Blanc) – Philipp Kuhn?",
-            "correctAnswer": "Pfalz",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Weisser Burgunder, this component is present: Pfalz. Official FUZE menu: 0,75L Pinot Blanc, Tradition Trocken Philipp Kuhn – Pfalz, Germany."
+            "id": "bile-weisser-burgunder-philipp-kuhn-grape-en",
+            "question": "Which grape variety is Weisser Burgunder?",
+            "correctAnswer": "Pinot Blanc (Rulandské bílé)",
+            "distractors": ["Pinot Gris", "Riesling"],
+            "explanation": "Weisser Burgunder is the German name for Pinot Blanc."
           },
           {
-            "id": "bile-weisser-burgunder-philipp-kuhn-ing-2",
-            "question": "Which ingredient is part of Weisser Burgunder (Pinot Blanc) – Philipp Kuhn?",
-            "correctAnswer": "Germany. Pinot Blanc",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Weisser Burgunder, this component is present: Germany. Pinot Blanc. Official FUZE menu: 0,75L Pinot Blanc, Tradition Trocken Philipp Kuhn – Pfalz, Germany."
+            "id": "bile-weisser-burgunder-philipp-kuhn-prod-en",
+            "question": "Which winery and German region crafts this Weisser Burgunder?",
+            "correctAnswer": "Philipp Kuhn – Pfalz, Germany",
+            "distractors": ["Fritz Haag – Mosel", "Eva Fricke – Rheingau"],
+            "explanation": "Produced by Philipp Kuhn winery in Pfalz, Germany."
           },
           {
-            "id": "bile-weisser-burgunder-philipp-kuhn-ing-3",
-            "question": "Which ingredient is part of Weisser Burgunder (Pinot Blanc) – Philipp Kuhn?",
-            "correctAnswer": "Flavors of roasted almonds",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Weisser Burgunder, this component is present: Flavors of roasted almonds. Official FUZE menu: 0,75L Pinot Blanc, Tradition Trocken Philipp Kuhn – Pfalz, Germany."
+            "id": "bile-weisser-burgunder-philipp-kuhn-type-en",
+            "question": "What line designation does Weisser Burgunder Philipp Kuhn carry?",
+            "correctAnswer": "Tradition Trocken",
+            "distractors": ["Kabinett", "Spätlese"],
+            "explanation": "It carries the Tradition Trocken designation."
           },
           {
-            "id": "bile-weisser-burgunder-philipp-kuhn-ing-4",
-            "question": "Which ingredient is part of Weisser Burgunder (Pinot Blanc) – Philipp Kuhn?",
-            "correctAnswer": "Dried pears",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Weisser Burgunder, this component is present: Dried pears. Official FUZE menu: 0,75L Pinot Blanc, Tradition Trocken Philipp Kuhn – Pfalz, Germany."
+            "id": "bile-weisser-burgunder-philipp-kuhn-price-en",
+            "question": "What is the price of Weisser Burgunder Philipp Kuhn?",
+            "correctAnswer": "725 CZK",
+            "distractors": ["650 CZK", "795 CZK"],
+            "explanation": "The bottle price for Weisser Burgunder Philipp Kuhn (0,75L) is 725 CZK."
           },
           {
-            "id": "bile-weisser-burgunder-philipp-kuhn-ing-5",
-            "question": "Which ingredient is part of Weisser Burgunder (Pinot Blanc) – Philipp Kuhn?",
-            "correctAnswer": "Walnuts and crisp minerality",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Weisser Burgunder, this component is present: Walnuts and crisp minerality. Official FUZE menu: 0,75L Pinot Blanc, Tradition Trocken Philipp Kuhn – Pfalz, Germany."
-          },
-          {
-            "id": "bile-weisser-burgunder-philipp-kuhn-allergen-12",
-            "question": "Which of the following allergens is present in Weisser Burgunder (Pinot Blanc) – Philipp Kuhn?",
+            "id": "bile-weisser-burgunder-philipp-kuhn-allergen-en",
+            "question": "Which allergen is present in Weisser Burgunder Philipp Kuhn?",
             "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Weisser Burgunder (Pinot Blanc) – Philipp Kuhn contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "distractors": ["Allergen No. 11 – Sesame", "Allergen No. 4 – Fish"],
+            "explanation": "Contains allergen No. 12 (Sulphur dioxide and sulphites)."
           }
         ]
       },
       {
         "id": "bile-sauvignon-lapis-luna",
         "name": "Sauvignon Blanc",
-        "weight": "0.75l",
+        "weight": "0,75L",
         "price": "789 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "0,75L Lapis Luna - North Coast, California",
-        "notes": "North Coast, California. Fuller-bodied, zesty acidity, fruity varietal style, ripe white peach and tropical fruit on the palate.",
+        "allergens": ["12"],
+        "description": "Lapis Luna – North Coast, California",
+        "notes": "North Coast, California. Full-bodied, crisp acidity, fruit-forward style, ripe white peach and tropical fruits.",
         "questions": [
           {
-            "id": "bile-sauvignon-lapis-luna-vol",
-            "question": "What is the serving volume / measure of Sauvignon Blanc – Lapis Luna?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Sauvignon Blanc – Lapis Luna is 0,75l."
+            "id": "bile-sauvignon-lapis-luna-vol-en",
+            "question": "What is the bottle volume of Sauvignon Blanc Lapis Luna?",
+            "correctAnswer": "0,75L",
+            "distractors": ["0.5 l", "1.0 l"],
+            "explanation": "Bottle volume is 0,75L."
           },
           {
-            "id": "bile-sauvignon-lapis-luna-ing-1",
-            "question": "Which ingredient is part of Sauvignon Blanc – Lapis Luna?",
-            "correctAnswer": "North Coast",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Sauvignon Blanc, this component is present: North Coast. Official FUZE menu: 0,75L Lapis Luna - North Coast, California."
+            "id": "bile-sauvignon-lapis-luna-prod-en",
+            "question": "Which California winery crafts this Sauvignon Blanc?",
+            "correctAnswer": "Lapis Luna",
+            "distractors": ["Knotty Vines", "Angels & Cowboys"],
+            "explanation": "Produced by Lapis Luna winery in California."
           },
           {
-            "id": "bile-sauvignon-lapis-luna-ing-2",
-            "question": "Which ingredient is part of Sauvignon Blanc – Lapis Luna?",
-            "correctAnswer": "California. Fuller-bodied",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Sauvignon Blanc, this component is present: California. Fuller-bodied. Official FUZE menu: 0,75L Lapis Luna - North Coast, California."
+            "id": "bile-sauvignon-lapis-luna-reg-en",
+            "question": "From which American wine region does Sauvignon Blanc Lapis Luna come?",
+            "correctAnswer": "North Coast, Kalifornie",
+            "distractors": ["Central Valley, Washington", "Columbia Valley, Oregon"],
+            "explanation": "Originates from North Coast in California (USA)."
           },
           {
-            "id": "bile-sauvignon-lapis-luna-ing-3",
-            "question": "Which grape variety, winery, or characteristic belongs to Sauvignon Blanc – Lapis Luna?",
-            "correctAnswer": "Zesty acidity",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Sauvignon Blanc, this component is present: Zesty acidity. Official FUZE menu: 0,75L Lapis Luna - North Coast, California."
+            "id": "bile-sauvignon-lapis-luna-price-en",
+            "question": "What is the price of Sauvignon Blanc Lapis Luna?",
+            "correctAnswer": "789 CZK",
+            "distractors": ["729 CZK", "849 CZK"],
+            "explanation": "The bottle price for Sauvignon Blanc Lapis Luna (0,75L) is 789 CZK."
           },
           {
-            "id": "bile-sauvignon-lapis-luna-ing-4",
-            "question": "Which ingredient is part of Sauvignon Blanc – Lapis Luna?",
-            "correctAnswer": "Fruity varietal style",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Sauvignon Blanc, this component is present: Fruity varietal style. Official FUZE menu: 0,75L Lapis Luna - North Coast, California."
-          },
-          {
-            "id": "bile-sauvignon-lapis-luna-ing-5",
-            "question": "Which ingredient is part of Sauvignon Blanc – Lapis Luna?",
-            "correctAnswer": "Ripe white peach and tropical fruit on the palate",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Sauvignon Blanc, this component is present: Ripe white peach and tropical fruit on the palate. Official FUZE menu: 0,75L Lapis Luna - North Coast, California."
-          },
-          {
-            "id": "bile-sauvignon-lapis-luna-allergen-12",
-            "question": "Which of the following allergens is present in Sauvignon Blanc – Lapis Luna?",
+            "id": "bile-sauvignon-lapis-luna-allergen-en",
+            "question": "Which allergen is present in Sauvignon Blanc Lapis Luna?",
             "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Sauvignon Blanc – Lapis Luna contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "distractors": ["Allergen No. 1 – Gluten", "Allergen No. 7 – Milk"],
+            "explanation": "Contains allergen No. 12 (Sulphur dioxide and sulphites)."
           }
         ]
       },
       {
         "id": "bile-chardonnay-knotty-vines",
         "name": "Chardonnay",
-        "weight": "0.75l",
+        "weight": "0,75L",
         "price": "975 CZK",
-        "allergens": [
-          "12"
-        ],
-        "description": "0,75L Knotty Vines – California",
-        "notes": "California. Full-bodied oak-aged wine, juicy with an elegant finish, flavors of tropical fruit, baking spices and minerality.",
+        "allergens": ["12"],
+        "description": "Knotty Vines – California",
+        "notes": "California. Oak-aged, juicy, elegant finish, tropical fruit, baking spice, and minerality.",
         "questions": [
           {
-            "id": "bile-chardonnay-knotty-vines-vol",
-            "question": "What is the serving volume / measure of Chardonnay – Knotty Vines?",
-            "correctAnswer": "0,75l",
-            "distractors": [
-              "0.5 l",
-              "1.0 l"
-            ],
-            "explanation": "The serving measure of Chardonnay – Knotty Vines is 0,75l."
+            "id": "bile-chardonnay-knotty-vines-vol-en",
+            "question": "What is the bottle volume of Chardonnay Knotty Vines?",
+            "correctAnswer": "0,75L",
+            "distractors": ["0.5 l", "1.0 l"],
+            "explanation": "Bottle volume is 0,75L."
           },
           {
-            "id": "bile-chardonnay-knotty-vines-ing-1",
-            "question": "Which ingredient is part of Chardonnay – Knotty Vines?",
-            "correctAnswer": "California. Full-bodied oak-aged wine",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Chardonnay, this component is present: California. Full-bodied oak-aged wine. Official FUZE menu: 0,75L Knotty Vines – California."
+            "id": "bile-chardonnay-knotty-vines-prod-en",
+            "question": "Which winery produces this California Chardonnay?",
+            "correctAnswer": "Knotty Vines",
+            "distractors": ["Lapis Luna", "Hendry Ranch"],
+            "explanation": "Crafted by Knotty Vines winery in California."
           },
           {
-            "id": "bile-chardonnay-knotty-vines-ing-2",
-            "question": "Which ingredient is part of Chardonnay – Knotty Vines?",
-            "correctAnswer": "Juicy with an elegant finish",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Chardonnay, this component is present: Juicy with an elegant finish. Official FUZE menu: 0,75L Knotty Vines – California."
+            "id": "bile-chardonnay-knotty-vines-reg-en",
+            "question": "Which US state does Chardonnay Knotty Vines hail from?",
+            "correctAnswer": "Kalifornie",
+            "distractors": ["Oregon", "Washington"],
+            "explanation": "Originates from sunny California."
           },
           {
-            "id": "bile-chardonnay-knotty-vines-ing-3",
-            "question": "Which ingredient is part of Chardonnay – Knotty Vines?",
-            "correctAnswer": "Flavors of tropical fruit",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Chardonnay, this component is present: Flavors of tropical fruit. Official FUZE menu: 0,75L Knotty Vines – California."
+            "id": "bile-chardonnay-knotty-vines-price-en",
+            "question": "What is the price of Chardonnay Knotty Vines bottle?",
+            "correctAnswer": "975 CZK",
+            "distractors": ["875 CZK", "1 050 CZK"],
+            "explanation": "The price for a bottle of Chardonnay Knotty Vines (0,75L) is 975 CZK."
           },
           {
-            "id": "bile-chardonnay-knotty-vines-ing-4",
-            "question": "Which ingredient is part of Chardonnay – Knotty Vines?",
-            "correctAnswer": "Baking spices and minerality",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Chardonnay, this component is present: Baking spices and minerality. Official FUZE menu: 0,75L Knotty Vines – California."
-          },
-          {
-            "id": "bile-chardonnay-knotty-vines-ing-5",
-            "question": "Which ingredient is part of Chardonnay – Knotty Vines?",
-            "correctAnswer": "Baking spices and minerality",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Chardonnay, this component is present: Baking spices and minerality. Official FUZE menu: 0,75L Knotty Vines – California."
-          },
-          {
-            "id": "bile-chardonnay-knotty-vines-allergen-12",
-            "question": "Which of the following allergens is present in Chardonnay – Knotty Vines?",
+            "id": "bile-chardonnay-knotty-vines-allergen-en",
+            "question": "Which allergen is present in Chardonnay Knotty Vines?",
             "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
-            "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
-            ],
-            "explanation": "Chardonnay – Knotty Vines contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "distractors": ["Allergen No. 6 – Soy", "Allergen No. 3 – Eggs"],
+            "explanation": "Contains allergen No. 12 (Sulphur dioxide and sulphites)."
           }
         ]
       }
@@ -12055,89 +7527,79 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
     "id": "ruzova-vina",
     "name": "Rosé wines",
     "badge": "Rosé wines",
-    "description": "Crisp and fruity rosé wines",
+    "description": "Selection of Moravian rosé wines with captivating fruit freshness",
     "iconName": "Wine",
     "items": [
       {
         "id": "ruzove-merlot-rose-bilkovi",
         "name": "Merlot Rosé",
-        "weight": "0.75l",
+        "weight": "0,75L",
         "price": "405 CZK",
         "allergens": [
           "12"
         ],
-        "description": "0,75L late harvest Bílkovi – Velkopavlovicko, Moravia",
-        "notes": "Late harvest Bílkovi – Velké Pavlovice region, Moravia. Highly drinkable, aromas of raspberries, strawberries and cherries, fruity palate with hints of cream.",
+        "description": "Late harvest Bílkovi – Velkopavlovicko, Moravia",
+        "notes": "Late harvest Bílkovi – Velkopavlovicko, Moravia. Fresh rosé wine with bright wild strawberry, raspberry notes, and refreshing creamy finish.",
         "questions": [
           {
-            "id": "ruzove-merlot-rose-bilkovi-vol",
-            "question": "What is the serving volume / measure of Merlot Rosé – Bílkovi?",
-            "correctAnswer": "0,75l",
+            "id": "ruzove-merlot-rose-bilkovi-vol-en",
+            "question": "What is the bottle volume of Merlot Rosé Bílkovi?",
+            "correctAnswer": "0,75L",
             "distractors": [
               "0.5 l",
               "1.0 l"
             ],
-            "explanation": "The serving measure of Merlot Rosé – Bílkovi is 0,75l."
+            "explanation": "The bottle volume is 0,75L."
           },
           {
-            "id": "ruzove-merlot-rose-bilkovi-ing-1",
-            "question": "Which grape variety, winery, or characteristic belongs to Merlot Rosé – Bílkovi?",
-            "correctAnswer": "Late harvest Bílkovi – Velké Pavlovice region",
+            "id": "ruzove-merlot-rose-bilkovi-type-en",
+            "question": "What harvest quality classification does Merlot Rosé Bílkovi carry?",
+            "correctAnswer": "Late harvest (pozdní sběr)",
             "distractors": [
-              "Gotberg winery",
-              "Kolby winery"
+              "Kabinet",
+              "Auslese"
             ],
-            "explanation": "In Merlot Rosé, this component is present: Late harvest Bílkovi – Velké Pavlovice region. Official FUZE menu: 0,75L late harvest Bílkovi – Velkopavlovicko, Moravia."
+            "explanation": "Merlot Rosé Bílkovi is classified as Late harvest (pozdní sběr)."
           },
           {
-            "id": "ruzove-merlot-rose-bilkovi-ing-2",
-            "question": "Which ingredient is part of Merlot Rosé – Bílkovi?",
-            "correctAnswer": "Moravia. Highly drinkable",
+            "id": "ruzove-merlot-rose-bilkovi-prod-en",
+            "question": "Which producer crafts this rosé wine from Velkopavlovicko?",
+            "correctAnswer": "Bílkovi – Velkopavlovicko, Moravia",
             "distractors": [
-              "Kraus winery",
-              "Michlovsky winery"
+              "Gotberg – Pálava",
+              "Kolby – Mikulovsko"
             ],
-            "explanation": "In Merlot Rosé, this component is present: Moravia. Highly drinkable. Official FUZE menu: 0,75L late harvest Bílkovi – Velkopavlovicko, Moravia."
+            "explanation": "It is produced by family winery Bílkovi from Velkopavlovicko, Moravia."
           },
           {
-            "id": "ruzove-merlot-rose-bilkovi-ing-3",
-            "question": "Which ingredient is part of Merlot Rosé – Bílkovi?",
-            "correctAnswer": "Aromas of raspberries",
+            "id": "ruzove-merlot-rose-bilkovi-price-en",
+            "question": "What is the bottle price of Merlot Rosé Bílkovi?",
+            "correctAnswer": "405 CZK",
             "distractors": [
-              "Mikulov subregion",
-              "Velke Pavlovice subregion"
+              "465 CZK",
+              "365 CZK"
             ],
-            "explanation": "In Merlot Rosé, this component is present: Aromas of raspberries. Official FUZE menu: 0,75L late harvest Bílkovi – Velkopavlovicko, Moravia."
+            "explanation": "The bottle price is 405 CZK."
           },
           {
-            "id": "ruzove-merlot-rose-bilkovi-ing-4",
-            "question": "Which bread, side, or crispy garnish accompanies Merlot Rosé – Bílkovi?",
-            "correctAnswer": "Strawberries and cherries",
+            "id": "ruzove-merlot-rose-bilkovi-variety-en",
+            "question": "Which red grape variety is used to craft this rosé wine?",
+            "correctAnswer": "Merlot",
             "distractors": [
-              "Melnik subregion",
-              "Vibrant acidity and mineral notes"
+              "Blaufränkisch",
+              "Zweigelt"
             ],
-            "explanation": "In Merlot Rosé, this component is present: Strawberries and cherries. Official FUZE menu: 0,75L late harvest Bílkovi – Velkopavlovicko, Moravia."
+            "explanation": "It is crafted from the Merlot grape variety."
           },
           {
-            "id": "ruzove-merlot-rose-bilkovi-ing-5",
-            "question": "Which ingredient is part of Merlot Rosé – Bílkovi?",
-            "correctAnswer": "Fruity palate with hints of cream",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Merlot Rosé, this component is present: Fruity palate with hints of cream. Official FUZE menu: 0,75L late harvest Bílkovi – Velkopavlovicko, Moravia."
-          },
-          {
-            "id": "ruzove-merlot-rose-bilkovi-allergen-12",
-            "question": "Which of the following allergens is present in Merlot Rosé – Bílkovi?",
+            "id": "ruzove-merlot-rose-bilkovi-allergen-en",
+            "question": "Which allergen is present in Merlot Rosé Bílkovi?",
             "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
             "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
+              "Allergen No. 1 – Gluten",
+              "Allergen No. 7 – Milk"
             ],
-            "explanation": "Merlot Rosé – Bílkovi contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "explanation": "Contains allergen No. 12 (Sulphur dioxide and sulphites)."
           }
         ]
       }
@@ -12147,790 +7609,490 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
     "id": "cervena-vina",
     "name": "Red wines",
     "badge": "Red wines",
-    "description": "Full-bodied and elegant red wines from Czech and international terroirs",
+    "description": "Finest bottled red wines from Bohemia, Moravia, Austria, Germany, and California",
     "iconName": "Wine",
     "items": [
       {
-        "id": "cervene-pinot-noir-rouci-kraus",
+        "id": "cervene-pinot-noir-kraus",
         "name": "Pinot Noir",
-        "weight": "0.75l",
+        "weight": "0,75L",
         "price": "425 CZK",
         "allergens": [
           "12"
         ],
-        "description": "0,75L Roučí Malé Kraus – Mělnicko, Bohemia",
-        "notes": "Mělník region, Bohemia. Light-bodied red wine, flavors of wild strawberries and red summer garden fruit.",
+        "description": "Roučí Malé Kraus – Mělnicko, Bohemia",
+        "notes": "Roučí Malé Kraus – Mělnicko, Bohemia. Elegant cherry notes, wild berry aromas, delicate tannins.",
         "questions": [
           {
-            "id": "cervene-pinot-noir-rouci-kraus-vol",
-            "question": "What is the serving volume / measure of Pinot Noir Roučí Malé – Kraus?",
-            "correctAnswer": "0,75l",
+            "id": "cervene-pinot-noir-kraus-vol-en",
+            "question": "What is the bottle volume of Pinot Noir Roučí Malé Kraus?",
+            "correctAnswer": "0,75L",
             "distractors": [
               "0.5 l",
               "1.0 l"
             ],
-            "explanation": "The serving measure of Pinot Noir Roučí Malé – Kraus is 0,75l."
+            "explanation": "The bottle volume is 0,75L."
           },
           {
-            "id": "cervene-pinot-noir-rouci-kraus-ing-1",
-            "question": "Which ingredient is part of Pinot Noir Roučí Malé – Kraus?",
-            "correctAnswer": "Mělník region",
+            "id": "cervene-pinot-noir-kraus-prod-en",
+            "question": "Which winery and wine region produces this Pinot Noir?",
+            "correctAnswer": "Roučí Malé Kraus – Mělnicko, Bohemia",
             "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
+              "Gotberg – Pálava",
+              "Kolby – Pouzdřany"
             ],
-            "explanation": "In Pinot Noir, this component is present: Mělník region. Official FUZE menu: 0,75L Roučí Malé Kraus – Mělnicko, Bohemia."
+            "explanation": "It is produced by Roučí Malé Kraus from Mělnicko, Bohemia."
           },
           {
-            "id": "cervene-pinot-noir-rouci-kraus-ing-2",
-            "question": "Which ingredient is part of Pinot Noir Roučí Malé – Kraus?",
-            "correctAnswer": "Bohemia. Light-bodied red wine",
+            "id": "cervene-pinot-noir-kraus-price-en",
+            "question": "What is the bottle price of Pinot Noir Roučí Malé Kraus?",
+            "correctAnswer": "425 CZK",
             "distractors": [
-              "Kolby winery",
-              "Kraus winery"
+              "495 CZK",
+              "380 CZK"
             ],
-            "explanation": "In Pinot Noir, this component is present: Bohemia. Light-bodied red wine. Official FUZE menu: 0,75L Roučí Malé Kraus – Mělnicko, Bohemia."
+            "explanation": "The bottle price is 425 CZK."
           },
           {
-            "id": "cervene-pinot-noir-rouci-kraus-ing-3",
-            "question": "Which bread, side, or crispy garnish accompanies Pinot Noir Roučí Malé – Kraus?",
-            "correctAnswer": "Flavors of wild strawberries and red summer garden fruit",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Pinot Noir, this component is present: Flavors of wild strawberries and red summer garden fruit. Official FUZE menu: 0,75L Roučí Malé Kraus – Mělnicko, Bohemia."
-          },
-          {
-            "id": "cervene-pinot-noir-rouci-kraus-allergen-12",
-            "question": "Which of the following allergens is present in Pinot Noir Roučí Malé – Kraus?",
+            "id": "cervene-pinot-noir-kraus-allergen-en",
+            "question": "Which allergen is contained in Pinot Noir Roučí Malé Kraus?",
             "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
             "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
+              "Allergen No. 1 – Gluten",
+              "Allergen No. 7 – Milk"
             ],
-            "explanation": "Pinot Noir Roučí Malé – Kraus contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "explanation": "Contains allergen No. 12 (Sulphur dioxide and sulphites)."
           }
         ]
       },
       {
         "id": "cervene-dornfelder-bilkovi",
         "name": "Dornfelder",
-        "weight": "0.75l",
+        "weight": "0,75L",
         "price": "419 CZK",
         "allergens": [
           "12"
         ],
-        "description": "0,75L Bílkovi - Velkopavlovicko, Moravia",
-        "notes": "Velké Pavlovice region, Moravia. 12 months oak aging, blackberry bouquet, full and harmonious palate of currants, cherries and raspberries.",
+        "description": "Bílkovi – Velkopavlovicko, Moravia",
+        "notes": "Bílkovi – Velkopavlovicko, Moravia. Deep ruby color, rich aroma of ripe blackberries, blackcurrant, and plum butter with silky finish.",
         "questions": [
           {
-            "id": "cervene-dornfelder-bilkovi-vol",
-            "question": "What is the serving volume / measure of Dornfelder – Bílkovi?",
-            "correctAnswer": "0,75l",
+            "id": "cervene-dornfelder-bilkovi-vol-en",
+            "question": "What is the bottle volume of Dornfelder Bílkovi?",
+            "correctAnswer": "0,75L",
             "distractors": [
               "0.5 l",
               "1.0 l"
             ],
-            "explanation": "The serving measure of Dornfelder – Bílkovi is 0,75l."
+            "explanation": "The bottle volume is 0,75L."
           },
           {
-            "id": "cervene-dornfelder-bilkovi-ing-1",
-            "question": "Which ingredient is part of Dornfelder – Bílkovi?",
-            "correctAnswer": "Velké Pavlovice region",
+            "id": "cervene-dornfelder-bilkovi-prod-en",
+            "question": "Which winery produces this Dornfelder from Velkopavlovicko?",
+            "correctAnswer": "Bílkovi – Velkopavlovicko, Moravia",
             "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
+              "Reisten – Mikulovsko",
+              "Sůkal – Slovácko"
             ],
-            "explanation": "In Dornfelder, this component is present: Velké Pavlovice region. Official FUZE menu: 0,75L Bílkovi - Velkopavlovicko, Moravia."
+            "explanation": "It is produced by family winery Bílkovi from Velkopavlovicko, Moravia."
           },
           {
-            "id": "cervene-dornfelder-bilkovi-ing-2",
-            "question": "Which spirit or liqueur is a signature component of Dornfelder – Bílkovi?",
-            "correctAnswer": "Moravia. 12 months oak aging",
+            "id": "cervene-dornfelder-bilkovi-price-en",
+            "question": "What is the bottle price of Dornfelder Bílkovi?",
+            "correctAnswer": "419 CZK",
             "distractors": [
-              "Kolby winery",
-              "Kraus winery"
+              "469 CZK",
+              "379 CZK"
             ],
-            "explanation": "In Dornfelder, this component is present: Moravia. 12 months oak aging. Official FUZE menu: 0,75L Bílkovi - Velkopavlovicko, Moravia."
+            "explanation": "The bottle price is 419 CZK."
           },
           {
-            "id": "cervene-dornfelder-bilkovi-ing-3",
-            "question": "Which ingredient is part of Dornfelder – Bílkovi?",
-            "correctAnswer": "Blackberry bouquet",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Dornfelder, this component is present: Blackberry bouquet. Official FUZE menu: 0,75L Bílkovi - Velkopavlovicko, Moravia."
-          },
-          {
-            "id": "cervene-dornfelder-bilkovi-ing-4",
-            "question": "Which ingredient is part of Dornfelder – Bílkovi?",
-            "correctAnswer": "Full and harmonious palate of currants",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Dornfelder, this component is present: Full and harmonious palate of currants. Official FUZE menu: 0,75L Bílkovi - Velkopavlovicko, Moravia."
-          },
-          {
-            "id": "cervene-dornfelder-bilkovi-ing-5",
-            "question": "Which ingredient is part of Dornfelder – Bílkovi?",
-            "correctAnswer": "Cherries and raspberries",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Dornfelder, this component is present: Cherries and raspberries. Official FUZE menu: 0,75L Bílkovi - Velkopavlovicko, Moravia."
-          },
-          {
-            "id": "cervene-dornfelder-bilkovi-ing-6",
-            "question": "Which ingredient is part of Dornfelder – Bílkovi?",
-            "correctAnswer": "Cherries and raspberries",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Dornfelder, this component is present: Cherries and raspberries. Official FUZE menu: 0,75L Bílkovi - Velkopavlovicko, Moravia."
-          },
-          {
-            "id": "cervene-dornfelder-bilkovi-allergen-12",
-            "question": "Which of the following allergens is present in Dornfelder – Bílkovi?",
+            "id": "cervene-dornfelder-bilkovi-allergen-en",
+            "question": "Which allergen does Dornfelder Bílkovi contain?",
             "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
             "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
+              "Allergen No. 6 – Soy",
+              "Allergen No. 3 – Eggs"
             ],
-            "explanation": "Dornfelder – Bílkovi contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "explanation": "Contains allergen No. 12 (Sulphur dioxide and sulphites)."
           }
         ]
       },
       {
         "id": "cervene-cuvee-red-kolby",
-        "name": "Cuvée Red (Cabernet Sauvignon, Merlot)",
-        "weight": "0.75l",
+        "name": "Cuvée Red",
+        "weight": "0,75L",
         "price": "649 CZK",
         "allergens": [
           "12"
         ],
-        "description": "0,75L Kolby – Mikulovsko, Moravia",
-        "notes": "Mikulov region, Moravia. Full-bodied, complex, long finish, deep garnet color, notes of dark chocolate, spices, dark berries and subtle smoke.",
+        "description": "(Cabernet Sauvignon, Merlot) Kolby – Mikulovsko, Moravia",
+        "notes": "(Cabernet Sauvignon, Merlot) Kolby – Mikulovsko, Moravia. Harmonious blend with dark berries, bittersweet chocolate, and fine oak.",
         "questions": [
           {
-            "id": "cervene-cuvee-red-kolby-vol",
-            "question": "What is the serving volume / measure of Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
-            "correctAnswer": "0,75l",
+            "id": "cervene-cuvee-red-kolby-vol-en",
+            "question": "What is the bottle volume of Cuvée Red Kolby?",
+            "correctAnswer": "0,75L",
             "distractors": [
               "0.5 l",
               "1.0 l"
             ],
-            "explanation": "The serving measure of Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby is 0,75l."
+            "explanation": "The bottle volume is 0,75L."
           },
           {
-            "id": "cervene-cuvee-red-kolby-ing-1",
-            "question": "Which ingredient is part of Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
-            "correctAnswer": "Mikulov region",
+            "id": "cervene-cuvee-red-kolby-grapes-en",
+            "question": "Which two grape varieties compose Cuvée Red Kolby?",
+            "correctAnswer": "Cabernet Sauvignon and Merlot",
             "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
+              "Blaufränkisch and Zweigelt",
+              "Pinot Noir and Dornfelder"
             ],
-            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot), this component is present: Mikulov region. Official FUZE menu: 0,75L Kolby – Mikulovsko, Moravia."
+            "explanation": "Cuvée Red Kolby is a blend of Cabernet Sauvignon and Merlot."
           },
           {
-            "id": "cervene-cuvee-red-kolby-ing-2",
-            "question": "Which ingredient is part of Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
-            "correctAnswer": "Moravia. Full-bodied",
+            "id": "cervene-cuvee-red-kolby-prod-en",
+            "question": "Which winery produces this Cuvée Red?",
+            "correctAnswer": "Kolby – Mikulovsko, Moravia",
             "distractors": [
-              "Kolby winery",
-              "Kraus winery"
+              "Gotberg – Pálava",
+              "Bílkovi – Velkopavlovicko"
             ],
-            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot), this component is present: Moravia. Full-bodied. Official FUZE menu: 0,75L Kolby – Mikulovsko, Moravia."
+            "explanation": "It is produced by winery Kolby from Pouzdřany, Mikulovsko."
           },
           {
-            "id": "cervene-cuvee-red-kolby-ing-3",
-            "question": "Which ingredient is part of Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
-            "correctAnswer": "Complex",
+            "id": "cervene-cuvee-red-kolby-price-en",
+            "question": "What is the bottle price of Cuvée Red Kolby?",
+            "correctAnswer": "649 CZK",
             "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
+              "599 CZK",
+              "720 CZK"
             ],
-            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot), this component is present: Complex. Official FUZE menu: 0,75L Kolby – Mikulovsko, Moravia."
+            "explanation": "The bottle price is 649 CZK."
           },
           {
-            "id": "cervene-cuvee-red-kolby-ing-4",
-            "question": "Which ingredient is part of Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
-            "correctAnswer": "Long finish",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot), this component is present: Long finish. Official FUZE menu: 0,75L Kolby – Mikulovsko, Moravia."
-          },
-          {
-            "id": "cervene-cuvee-red-kolby-ing-5",
-            "question": "Which ingredient is part of Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
-            "correctAnswer": "Deep garnet color",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot), this component is present: Deep garnet color. Official FUZE menu: 0,75L Kolby – Mikulovsko, Moravia."
-          },
-          {
-            "id": "cervene-cuvee-red-kolby-ing-6",
-            "question": "Which ingredient is part of Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
-            "correctAnswer": "Notes of dark chocolate",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot), this component is present: Notes of dark chocolate. Official FUZE menu: 0,75L Kolby – Mikulovsko, Moravia."
-          },
-          {
-            "id": "cervene-cuvee-red-kolby-ing-7",
-            "question": "Which ingredient is part of Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
-            "correctAnswer": "Spices",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot), this component is present: Spices. Official FUZE menu: 0,75L Kolby – Mikulovsko, Moravia."
-          },
-          {
-            "id": "cervene-cuvee-red-kolby-ing-8",
-            "question": "Which ingredient is part of Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
-            "correctAnswer": "Dark berries and subtle smoke",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Cuvée Red (Cabernet Sauvignon, Merlot), this component is present: Dark berries and subtle smoke. Official FUZE menu: 0,75L Kolby – Mikulovsko, Moravia."
-          },
-          {
-            "id": "cervene-cuvee-red-kolby-allergen-12",
-            "question": "Which of the following allergens is present in Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby?",
+            "id": "cervene-cuvee-red-kolby-allergen-en",
+            "question": "Which allergen is contained in Cuvée Red Kolby?",
             "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
             "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
+              "Allergen No. 5 – Peanuts",
+              "Allergen No. 1 – Gluten"
             ],
-            "explanation": "Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "explanation": "Contains allergen No. 12 (Sulphur dioxide and sulphites)."
           }
         ]
       },
       {
         "id": "cervene-nina-cuvee-bilkovi",
-        "name": "Nina Cuvée (Merlot, Blaufränkisch)",
-        "weight": "0.75l",
+        "name": "Nina Cuvée",
+        "weight": "0,75L",
         "price": "699 CZK",
         "allergens": [
           "12"
         ],
-        "description": "0,75L Bílkovi – Velkopavlovicko, Moravia",
-        "notes": "Velké Pavlovice region, Moravia. Full-bodied, 14 months in oak barrels, aromas of currants and roasted coffee, palate of dark chocolate and plums.",
+        "description": "(Merlot, Frankovka) Bílkovi – Velkopavlovicko, Moravia",
+        "notes": "(Merlot, Frankovka) Bílkovi – Velkopavlovicko, Moravia. Juicy red blend featuring ripe cherries, mulberries, and subtle spice notes.",
         "questions": [
           {
-            "id": "cervene-nina-cuvee-bilkovi-vol",
-            "question": "What is the serving volume / measure of Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi?",
-            "correctAnswer": "0,75l",
+            "id": "cervene-nina-cuvee-bilkovi-vol-en",
+            "question": "What is the bottle volume of Nina Cuvée Bílkovi?",
+            "correctAnswer": "0,75L",
             "distractors": [
               "0.5 l",
               "1.0 l"
             ],
-            "explanation": "The serving measure of Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi is 0,75l."
+            "explanation": "The bottle volume is 0,75L."
           },
           {
-            "id": "cervene-nina-cuvee-bilkovi-ing-1",
-            "question": "Which ingredient is part of Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi?",
-            "correctAnswer": "Velké Pavlovice region",
+            "id": "cervene-nina-cuvee-bilkovi-grapes-en",
+            "question": "Which grape varieties are blended in Nina Cuvée Bílkovi?",
+            "correctAnswer": "Merlot and Frankovka",
             "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
+              "Cabernet Sauvignon and Pinot Noir",
+              "Dornfelder and St. Laurent"
             ],
-            "explanation": "In Nina Cuvée (Merlot, Blaufränkisch), this component is present: Velké Pavlovice region. Official FUZE menu: 0,75L Bílkovi – Velkopavlovicko, Moravia."
+            "explanation": "Nina Cuvée is a blend of Merlot and Frankovka (Blaufränkisch)."
           },
           {
-            "id": "cervene-nina-cuvee-bilkovi-ing-2",
-            "question": "Which ingredient is part of Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi?",
-            "correctAnswer": "Moravia. Full-bodied",
+            "id": "cervene-nina-cuvee-bilkovi-prod-en",
+            "question": "Which producer crafts Nina Cuvée?",
+            "correctAnswer": "Bílkovi – Velkopavlovicko, Moravia",
             "distractors": [
-              "Kolby winery",
-              "Kraus winery"
+              "Kolby – Mikulovsko",
+              "Kraus – Mělnicko"
             ],
-            "explanation": "In Nina Cuvée (Merlot, Blaufränkisch), this component is present: Moravia. Full-bodied. Official FUZE menu: 0,75L Bílkovi – Velkopavlovicko, Moravia."
+            "explanation": "Nina Cuvée is produced by family winery Bílkovi in Velkopavlovicko."
           },
           {
-            "id": "cervene-nina-cuvee-bilkovi-ing-3",
-            "question": "Which ingredient is part of Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi?",
-            "correctAnswer": "14 months in oak barrels",
+            "id": "cervene-nina-cuvee-bilkovi-price-en",
+            "question": "What is the bottle price of Nina Cuvée Bílkovi?",
+            "correctAnswer": "699 CZK",
             "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
+              "629 CZK",
+              "789 CZK"
             ],
-            "explanation": "In Nina Cuvée (Merlot, Blaufränkisch), this component is present: 14 months in oak barrels. Official FUZE menu: 0,75L Bílkovi – Velkopavlovicko, Moravia."
+            "explanation": "The bottle price is 699 CZK."
           },
           {
-            "id": "cervene-nina-cuvee-bilkovi-ing-4",
-            "question": "Which ingredient is part of Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi?",
-            "correctAnswer": "Aromas of currants and roasted coffee",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Nina Cuvée (Merlot, Blaufränkisch), this component is present: Aromas of currants and roasted coffee. Official FUZE menu: 0,75L Bílkovi – Velkopavlovicko, Moravia."
-          },
-          {
-            "id": "cervene-nina-cuvee-bilkovi-ing-5",
-            "question": "Which ingredient is part of Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi?",
-            "correctAnswer": "Palate of dark chocolate and plums",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Nina Cuvée (Merlot, Blaufränkisch), this component is present: Palate of dark chocolate and plums. Official FUZE menu: 0,75L Bílkovi – Velkopavlovicko, Moravia."
-          },
-          {
-            "id": "cervene-nina-cuvee-bilkovi-allergen-12",
-            "question": "Which of the following allergens is present in Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi?",
+            "id": "cervene-nina-cuvee-bilkovi-allergen-en",
+            "question": "Which allergen is present in Nina Cuvée?",
             "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
             "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
+              "Allergen No. 7 – Milk",
+              "Allergen No. 9 – Celery"
             ],
-            "explanation": "Nina Cuvée (Merlot, Blaufränkisch) – Bílkovi contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "explanation": "Contains allergen No. 12 (Sulphur dioxide and sulphites)."
           }
         ]
       },
       {
-        "id": "cervene-zweigelt-feller-artinger",
+        "id": "cervene-zweigelt-feiler-artinger",
         "name": "Zweigelt",
-        "weight": "0.75l",
+        "weight": "0,75L",
         "price": "660 CZK",
         "allergens": [
           "12"
         ],
-        "description": "0,75L Weingut Feiler-Artinger – Burgenland, Austria",
-        "notes": "Burgenland, Austria. Fresh, berry aromas, velvety palate of dark berries, oak, herbs and fine tobacco.",
+        "description": "Weingut Feiler-Artinger – Burgenland, Austria",
+        "notes": "Weingut Feiler-Artinger – Burgenland, Austria. Classic Austrian Zweigelt with dark sour cherries, white pepper, and smooth tannins.",
         "questions": [
           {
-            "id": "cervene-zweigelt-feller-artinger-vol",
-            "question": "What is the serving volume / measure of Zweigelt – Weingut Feiler-Artinger?",
-            "correctAnswer": "0,75l",
+            "id": "cervene-zweigelt-feiler-artinger-vol-en",
+            "question": "What is the bottle volume of Zweigelt Feiler-Artinger?",
+            "correctAnswer": "0,75L",
             "distractors": [
               "0.5 l",
               "1.0 l"
             ],
-            "explanation": "The serving measure of Zweigelt – Weingut Feiler-Artinger is 0,75l."
+            "explanation": "The bottle volume is 0,75L."
           },
           {
-            "id": "cervene-zweigelt-feller-artinger-ing-1",
-            "question": "Which ingredient is part of Zweigelt – Weingut Feiler-Artinger?",
-            "correctAnswer": "Burgenland",
+            "id": "cervene-zweigelt-feiler-artinger-prod-en",
+            "question": "Which winery and Austrian region produces this Zweigelt?",
+            "correctAnswer": "Weingut Feiler-Artinger – Burgenland, Austria",
             "distractors": [
-              "Gotberg winery",
-              "Kolby winery"
+              "Weinviertel, Austria",
+              "Pfalz, Germany"
             ],
-            "explanation": "In Zweigelt, this component is present: Burgenland. Official FUZE menu: 0,75L Weingut Feiler-Artinger – Burgenland, Austria."
+            "explanation": "Weingut Feiler-Artinger is based in Burgenland, Austria."
           },
           {
-            "id": "cervene-zweigelt-feller-artinger-ing-2",
-            "question": "Which ingredient is part of Zweigelt – Weingut Feiler-Artinger?",
-            "correctAnswer": "Austria. Fresh",
+            "id": "cervene-zweigelt-feiler-artinger-price-en",
+            "question": "What is the bottle price of Zweigelt Feiler-Artinger?",
+            "correctAnswer": "660 CZK",
             "distractors": [
-              "Kraus winery",
-              "Michlovsky winery"
+              "590 CZK",
+              "720 CZK"
             ],
-            "explanation": "In Zweigelt, this component is present: Austria. Fresh. Official FUZE menu: 0,75L Weingut Feiler-Artinger – Burgenland, Austria."
+            "explanation": "The bottle price is 660 CZK."
           },
           {
-            "id": "cervene-zweigelt-feller-artinger-ing-3",
-            "question": "Which ingredient is part of Zweigelt – Weingut Feiler-Artinger?",
-            "correctAnswer": "Berry aromas",
+            "id": "cervene-zweigelt-feiler-artinger-variety-en",
+            "question": "What traditional Austrian red grape variety is this wine?",
+            "correctAnswer": "Zweigelt",
             "distractors": [
-              "Mikulov subregion",
-              "Velke Pavlovice subregion"
+              "Blaufränkisch",
+              "St. Laurent"
             ],
-            "explanation": "In Zweigelt, this component is present: Berry aromas. Official FUZE menu: 0,75L Weingut Feiler-Artinger – Burgenland, Austria."
+            "explanation": "It is made from the classic Austrian red grape Zweigelt."
           },
           {
-            "id": "cervene-zweigelt-feller-artinger-ing-4",
-            "question": "Which ingredient is part of Zweigelt – Weingut Feiler-Artinger?",
-            "correctAnswer": "Velvety palate of dark berries",
-            "distractors": [
-              "Melnik subregion",
-              "Vibrant acidity and mineral notes"
-            ],
-            "explanation": "In Zweigelt, this component is present: Velvety palate of dark berries. Official FUZE menu: 0,75L Weingut Feiler-Artinger – Burgenland, Austria."
-          },
-          {
-            "id": "cervene-zweigelt-feller-artinger-ing-5",
-            "question": "Which ingredient is part of Zweigelt – Weingut Feiler-Artinger?",
-            "correctAnswer": "Oak",
-            "distractors": [
-              "Late harvest",
-              "Gotberg winery"
-            ],
-            "explanation": "In Zweigelt, this component is present: Oak. Official FUZE menu: 0,75L Weingut Feiler-Artinger – Burgenland, Austria."
-          },
-          {
-            "id": "cervene-zweigelt-feller-artinger-ing-6",
-            "question": "Which fresh herb or spice seasoning finishes Zweigelt – Weingut Feiler-Artinger?",
-            "correctAnswer": "Herbs and fine tobacco",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Zweigelt, this component is present: Herbs and fine tobacco. Official FUZE menu: 0,75L Weingut Feiler-Artinger – Burgenland, Austria."
-          },
-          {
-            "id": "cervene-zweigelt-feller-artinger-allergen-12",
-            "question": "Which of the following allergens is present in Zweigelt – Weingut Feiler-Artinger?",
+            "id": "cervene-zweigelt-feiler-artinger-allergen-en",
+            "question": "Which allergen is in Zweigelt Feiler-Artinger?",
             "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
             "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
+              "Allergen No. 2 – Crustaceans",
+              "Allergen No. 1 – Gluten"
             ],
-            "explanation": "Zweigelt – Weingut Feiler-Artinger contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "explanation": "Contains allergen No. 12 (Sulphur dioxide and sulphites)."
           }
         ]
       },
       {
-        "id": "cervene-pinot-noir-philipp-kuhn",
+        "id": "cervene-pinot-noir-kuhn",
         "name": "Pinot Noir",
-        "weight": "0.75l",
+        "weight": "0,75L",
         "price": "959 CZK",
         "allergens": [
           "12"
         ],
-        "description": "0,75L Tradition Philip Kuhn – Pfalz, Germany",
-        "notes": "Pfalz, Germany. Medium-bodied, bouquet of wild strawberries, dried prunes, almonds, cherries, dark chocolate and leather, structured tannins, finish of ripe cherries and violets.",
+        "description": "Tradition Philip Kuhn – Pfalz, Germany",
+        "notes": "Tradition Philip Kuhn – Pfalz, Germany. Outstanding German Pinot Noir (Spätburgunder) Tradition. Wild raspberries, subtle woodsmoke, and spicy depth.",
         "questions": [
           {
-            "id": "cervene-pinot-noir-philipp-kuhn-vol",
-            "question": "What is the serving volume / measure of Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "0,75l",
+            "id": "cervene-pinot-noir-kuhn-vol-en",
+            "question": "What is the bottle volume of Pinot Noir Tradition by Philip Kuhn?",
+            "correctAnswer": "0,75L",
             "distractors": [
               "0.5 l",
               "1.0 l"
             ],
-            "explanation": "The serving measure of Pinot Noir Tradition – Philipp Kuhn is 0,75l."
+            "explanation": "The bottle volume is 0,75L."
           },
           {
-            "id": "cervene-pinot-noir-philipp-kuhn-ing-1",
-            "question": "Which ingredient is part of Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "Pfalz",
+            "id": "cervene-pinot-noir-kuhn-type-en",
+            "question": "What tier label does this Pinot Noir by Philip Kuhn carry?",
+            "correctAnswer": "Tradition",
             "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
+              "Reserve",
+              "Grand Cru"
             ],
-            "explanation": "In Pinot Noir, this component is present: Pfalz. Official FUZE menu: 0,75L Tradition Philip Kuhn – Pfalz, Germany."
+            "explanation": "The wine belongs to Philip Kuhn's Tradition tier."
           },
           {
-            "id": "cervene-pinot-noir-philipp-kuhn-ing-2",
-            "question": "Which ingredient is part of Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "Germany. Medium-bodied",
+            "id": "cervene-pinot-noir-kuhn-prod-en",
+            "question": "Which German wine region is Philip Kuhn located in?",
+            "correctAnswer": "Pfalz, Germany",
             "distractors": [
-              "Kolby winery",
-              "Kraus winery"
+              "Mosel, Germany",
+              "Rheingau, Germany"
             ],
-            "explanation": "In Pinot Noir, this component is present: Germany. Medium-bodied. Official FUZE menu: 0,75L Tradition Philip Kuhn – Pfalz, Germany."
+            "explanation": "Philip Kuhn is located in the Pfalz region of Germany."
           },
           {
-            "id": "cervene-pinot-noir-philipp-kuhn-ing-3",
-            "question": "Which bread, side, or crispy garnish accompanies Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "Bouquet of wild strawberries",
+            "id": "cervene-pinot-noir-kuhn-price-en",
+            "question": "What is the bottle price of Pinot Noir Tradition Philip Kuhn?",
+            "correctAnswer": "959 CZK",
             "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
+              "879 CZK",
+              "1090 CZK"
             ],
-            "explanation": "In Pinot Noir, this component is present: Bouquet of wild strawberries. Official FUZE menu: 0,75L Tradition Philip Kuhn – Pfalz, Germany."
+            "explanation": "The bottle price is 959 CZK."
           },
           {
-            "id": "cervene-pinot-noir-philipp-kuhn-ing-4",
-            "question": "Which ingredient is part of Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "Dried prunes",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Pinot Noir, this component is present: Dried prunes. Official FUZE menu: 0,75L Tradition Philip Kuhn – Pfalz, Germany."
-          },
-          {
-            "id": "cervene-pinot-noir-philipp-kuhn-ing-5",
-            "question": "Which ingredient is part of Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "Almonds",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Pinot Noir, this component is present: Almonds. Official FUZE menu: 0,75L Tradition Philip Kuhn – Pfalz, Germany."
-          },
-          {
-            "id": "cervene-pinot-noir-philipp-kuhn-ing-6",
-            "question": "Which ingredient is part of Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "Cherries",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Pinot Noir, this component is present: Cherries. Official FUZE menu: 0,75L Tradition Philip Kuhn – Pfalz, Germany."
-          },
-          {
-            "id": "cervene-pinot-noir-philipp-kuhn-ing-7",
-            "question": "Which ingredient is part of Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "Dark chocolate and leather",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Pinot Noir, this component is present: Dark chocolate and leather. Official FUZE menu: 0,75L Tradition Philip Kuhn – Pfalz, Germany."
-          },
-          {
-            "id": "cervene-pinot-noir-philipp-kuhn-ing-8",
-            "question": "Which ingredient is part of Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "Structured tannins",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Pinot Noir, this component is present: Structured tannins. Official FUZE menu: 0,75L Tradition Philip Kuhn – Pfalz, Germany."
-          },
-          {
-            "id": "cervene-pinot-noir-philipp-kuhn-ing-9",
-            "question": "Which ingredient is part of Pinot Noir Tradition – Philipp Kuhn?",
-            "correctAnswer": "Finish of ripe cherries and violets",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Pinot Noir, this component is present: Finish of ripe cherries and violets. Official FUZE menu: 0,75L Tradition Philip Kuhn – Pfalz, Germany."
-          },
-          {
-            "id": "cervene-pinot-noir-philipp-kuhn-allergen-12",
-            "question": "Which of the following allergens is present in Pinot Noir Tradition – Philipp Kuhn?",
+            "id": "cervene-pinot-noir-kuhn-allergen-en",
+            "question": "Which allergen is present in Pinot Noir Philip Kuhn?",
             "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
             "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
+              "Allergen No. 11 – Sesame",
+              "Allergen No. 4 – Fish"
             ],
-            "explanation": "Pinot Noir Tradition – Philipp Kuhn contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "explanation": "Contains allergen No. 12 (Sulphur dioxide and sulphites)."
           }
         ]
       },
       {
-        "id": "cervene-cabernet-lapis-luna",
+        "id": "cervene-cabernet-sauvignon-lapis-luna",
         "name": "Cabernet Sauvignon",
-        "weight": "0.75l",
+        "weight": "0,75L",
         "price": "789 CZK",
         "allergens": [
           "12"
         ],
-        "description": "0,75L Lapis Luna - Lodi, California",
-        "notes": "Lodi, California. Medium to full-bodied, pleasing acidity, long finish, dark fruit, blackcurrant, baking spices, cinnamon and clove.",
+        "description": "Lapis Luna – Lodi, California",
+        "notes": "Lapis Luna – Lodi, California. Rich Californian Cabernet featuring blackcurrant, dark berries, vanilla, and toasted oak with a lingering finish.",
         "questions": [
           {
-            "id": "cervene-cabernet-lapis-luna-vol",
-            "question": "What is the serving volume / measure of Cabernet Sauvignon – Lapis Luna?",
-            "correctAnswer": "0,75l",
+            "id": "cervene-cabernet-sauvignon-lapis-luna-vol-en",
+            "question": "What is the bottle volume of Cabernet Sauvignon Lapis Luna?",
+            "correctAnswer": "0,75L",
             "distractors": [
               "0.5 l",
               "1.0 l"
             ],
-            "explanation": "The serving measure of Cabernet Sauvignon – Lapis Luna is 0,75l."
+            "explanation": "The bottle volume is 0,75L."
           },
           {
-            "id": "cervene-cabernet-lapis-luna-ing-1",
-            "question": "Which ingredient is part of Cabernet Sauvignon – Lapis Luna?",
-            "correctAnswer": "Lodi",
+            "id": "cervene-cabernet-sauvignon-lapis-luna-prod-en",
+            "question": "From which California region does Cabernet Sauvignon Lapis Luna originate?",
+            "correctAnswer": "Lodi, California",
             "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
+              "Napa Valley, California",
+              "Sonoma, California"
             ],
-            "explanation": "In Cabernet Sauvignon, this component is present: Lodi. Official FUZE menu: 0,75L Lapis Luna - Lodi, California."
+            "explanation": "Lapis Luna Cabernet Sauvignon hails from Lodi, California."
           },
           {
-            "id": "cervene-cabernet-lapis-luna-ing-2",
-            "question": "Which ingredient is part of Cabernet Sauvignon – Lapis Luna?",
-            "correctAnswer": "California. Medium to full-bodied",
+            "id": "cervene-cabernet-sauvignon-lapis-luna-price-en",
+            "question": "What is the bottle price of Cabernet Sauvignon Lapis Luna?",
+            "correctAnswer": "789 CZK",
             "distractors": [
-              "Kolby winery",
-              "Kraus winery"
+              "729 CZK",
+              "859 CZK"
             ],
-            "explanation": "In Cabernet Sauvignon, this component is present: California. Medium to full-bodied. Official FUZE menu: 0,75L Lapis Luna - Lodi, California."
+            "explanation": "The bottle price is 789 CZK."
           },
           {
-            "id": "cervene-cabernet-lapis-luna-ing-3",
-            "question": "Which grape variety, winery, or characteristic belongs to Cabernet Sauvignon – Lapis Luna?",
-            "correctAnswer": "Pleasing acidity",
+            "id": "cervene-cabernet-sauvignon-lapis-luna-variety-en",
+            "question": "What famous red grape variety is this wine?",
+            "correctAnswer": "Cabernet Sauvignon",
             "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
+              "Merlot",
+              "Syrah"
             ],
-            "explanation": "In Cabernet Sauvignon, this component is present: Pleasing acidity. Official FUZE menu: 0,75L Lapis Luna - Lodi, California."
+            "explanation": "It is 100% Cabernet Sauvignon."
           },
           {
-            "id": "cervene-cabernet-lapis-luna-ing-4",
-            "question": "Which ingredient is part of Cabernet Sauvignon – Lapis Luna?",
-            "correctAnswer": "Long finish",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Cabernet Sauvignon, this component is present: Long finish. Official FUZE menu: 0,75L Lapis Luna - Lodi, California."
-          },
-          {
-            "id": "cervene-cabernet-lapis-luna-ing-5",
-            "question": "Which ingredient is part of Cabernet Sauvignon – Lapis Luna?",
-            "correctAnswer": "Dark fruit",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Cabernet Sauvignon, this component is present: Dark fruit. Official FUZE menu: 0,75L Lapis Luna - Lodi, California."
-          },
-          {
-            "id": "cervene-cabernet-lapis-luna-ing-6",
-            "question": "Which ingredient is part of Cabernet Sauvignon – Lapis Luna?",
-            "correctAnswer": "Blackcurrant",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Cabernet Sauvignon, this component is present: Blackcurrant. Official FUZE menu: 0,75L Lapis Luna - Lodi, California."
-          },
-          {
-            "id": "cervene-cabernet-lapis-luna-ing-7",
-            "question": "Which ingredient is part of Cabernet Sauvignon – Lapis Luna?",
-            "correctAnswer": "Baking spices",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Cabernet Sauvignon, this component is present: Baking spices. Official FUZE menu: 0,75L Lapis Luna - Lodi, California."
-          },
-          {
-            "id": "cervene-cabernet-lapis-luna-ing-8",
-            "question": "Which ingredient is part of Cabernet Sauvignon – Lapis Luna?",
-            "correctAnswer": "Cinnamon and clove",
-            "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
-            ],
-            "explanation": "In Cabernet Sauvignon, this component is present: Cinnamon and clove. Official FUZE menu: 0,75L Lapis Luna - Lodi, California."
-          },
-          {
-            "id": "cervene-cabernet-lapis-luna-allergen-12",
-            "question": "Which of the following allergens is present in Cabernet Sauvignon – Lapis Luna?",
+            "id": "cervene-cabernet-sauvignon-lapis-luna-allergen-en",
+            "question": "Which allergen is in Cabernet Sauvignon Lapis Luna?",
             "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
             "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
+              "Allergen No. 8 – Nuts",
+              "Allergen No. 6 – Soy"
             ],
-            "explanation": "Cabernet Sauvignon – Lapis Luna contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "explanation": "Contains allergen No. 12 (Sulphur dioxide and sulphites)."
           }
         ]
       },
       {
-        "id": "cervene-zinfandel-hendry",
+        "id": "cervene-zinfandel-hendry-ranch",
         "name": "Zinfandel",
-        "weight": "0.75l",
+        "weight": "0,75L",
         "price": "995 CZK",
         "allergens": [
           "12"
         ],
-        "description": "0,75L Hendry Ranch HRW - Napa Valley, California",
-        "notes": "Napa Valley, California. Full-bodied, powerful with a long spiced finish, juicy acidity, rich flavors of dark berries, sweet spices and dark chocolate.",
+        "description": "Hendry Ranch HRW – Napa Valley, California",
+        "notes": "Hendry Ranch HRW – Napa Valley, California. Iconic California Zinfandel from Napa Valley with plums, cinnamon, cracked pepper, and vanilla.",
         "questions": [
           {
-            "id": "cervene-zinfandel-hendry-vol",
-            "question": "What is the serving volume / measure of Zinfandel Hendry Ranch HRW?",
-            "correctAnswer": "0,75l",
+            "id": "cervene-zinfandel-hendry-ranch-vol-en",
+            "question": "What is the bottle volume of Zinfandel Hendry Ranch HRW?",
+            "correctAnswer": "0,75L",
             "distractors": [
               "0.5 l",
               "1.0 l"
             ],
-            "explanation": "The serving measure of Zinfandel Hendry Ranch HRW is 0,75l."
+            "explanation": "The bottle volume is 0,75L."
           },
           {
-            "id": "cervene-zinfandel-hendry-ing-1",
-            "question": "Which ingredient is part of Zinfandel Hendry Ranch HRW?",
-            "correctAnswer": "Napa Valley",
+            "id": "cervene-zinfandel-hendry-ranch-prod-en",
+            "question": "From which premier California valley does Hendry Ranch HRW come?",
+            "correctAnswer": "Napa Valley, California",
             "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
+              "Lodi, California",
+              "Paso Robles, California"
             ],
-            "explanation": "In Zinfandel, this component is present: Napa Valley. Official FUZE menu: 0,75L Hendry Ranch HRW - Napa Valley, California."
+            "explanation": "Hendry Ranch HRW is located in Napa Valley, California."
           },
           {
-            "id": "cervene-zinfandel-hendry-ing-2",
-            "question": "Which ingredient is part of Zinfandel Hendry Ranch HRW?",
-            "correctAnswer": "California. Full-bodied",
+            "id": "cervene-zinfandel-hendry-ranch-price-en",
+            "question": "What is the bottle price of Zinfandel Hendry Ranch HRW?",
+            "correctAnswer": "995 CZK",
             "distractors": [
-              "Kolby winery",
-              "Kraus winery"
+              "895 CZK",
+              "1150 CZK"
             ],
-            "explanation": "In Zinfandel, this component is present: California. Full-bodied. Official FUZE menu: 0,75L Hendry Ranch HRW - Napa Valley, California."
+            "explanation": "The bottle price is 995 CZK."
           },
           {
-            "id": "cervene-zinfandel-hendry-ing-3",
-            "question": "Which ingredient is part of Zinfandel Hendry Ranch HRW?",
-            "correctAnswer": "Powerful with a long spiced finish",
+            "id": "cervene-zinfandel-hendry-ranch-variety-en",
+            "question": "What iconic California grape variety is this wine?",
+            "correctAnswer": "Zinfandel",
             "distractors": [
-              "Michlovsky winery",
-              "Mikulov subregion"
+              "Cabernet Franc",
+              "Malbec"
             ],
-            "explanation": "In Zinfandel, this component is present: Powerful with a long spiced finish. Official FUZE menu: 0,75L Hendry Ranch HRW - Napa Valley, California."
+            "explanation": "This wine is made from California's signature Zinfandel grape."
           },
           {
-            "id": "cervene-zinfandel-hendry-ing-4",
-            "question": "Which grape variety, winery, or characteristic belongs to Zinfandel Hendry Ranch HRW?",
-            "correctAnswer": "Juicy acidity",
-            "distractors": [
-              "Velke Pavlovice subregion",
-              "Melnik subregion"
-            ],
-            "explanation": "In Zinfandel, this component is present: Juicy acidity. Official FUZE menu: 0,75L Hendry Ranch HRW - Napa Valley, California."
-          },
-          {
-            "id": "cervene-zinfandel-hendry-ing-5",
-            "question": "Which ingredient is part of Zinfandel Hendry Ranch HRW?",
-            "correctAnswer": "Rich flavors of dark berries",
-            "distractors": [
-              "Vibrant acidity and mineral notes",
-              "Late harvest"
-            ],
-            "explanation": "In Zinfandel, this component is present: Rich flavors of dark berries. Official FUZE menu: 0,75L Hendry Ranch HRW - Napa Valley, California."
-          },
-          {
-            "id": "cervene-zinfandel-hendry-ing-6",
-            "question": "Which ingredient is part of Zinfandel Hendry Ranch HRW?",
-            "correctAnswer": "Sweet spices and dark chocolate",
-            "distractors": [
-              "Aging in oak barrels",
-              "Gotberg winery"
-            ],
-            "explanation": "In Zinfandel, this component is present: Sweet spices and dark chocolate. Official FUZE menu: 0,75L Hendry Ranch HRW - Napa Valley, California."
-          },
-          {
-            "id": "cervene-zinfandel-hendry-ing-7",
-            "question": "Which ingredient is part of Zinfandel Hendry Ranch HRW?",
-            "correctAnswer": "Sweet spices and dark chocolate",
-            "distractors": [
-              "Kolby winery",
-              "Kraus winery"
-            ],
-            "explanation": "In Zinfandel, this component is present: Sweet spices and dark chocolate. Official FUZE menu: 0,75L Hendry Ranch HRW - Napa Valley, California."
-          },
-          {
-            "id": "cervene-zinfandel-hendry-allergen-12",
-            "question": "Which of the following allergens is present in Zinfandel Hendry Ranch HRW?",
+            "id": "cervene-zinfandel-hendry-ranch-allergen-en",
+            "question": "Which allergen is contained in Zinfandel Hendry Ranch HRW?",
             "correctAnswer": "Allergen No. 12 – Sulphur dioxide and sulphites",
             "distractors": [
-              "Allergen No. 14 – Molluscs and products thereof",
-              "Allergen No. 5 – Peanuts and products thereof"
+              "Allergen No. 1 – Gluten",
+              "Allergen No. 7 – Milk"
             ],
-            "explanation": "Zinfandel Hendry Ranch HRW contains Allergen No. 12 – Sulphur dioxide and sulphites (wine, champagne, dried fruit). All allergens present in this item: Sulphur dioxide and sulphites."
+            "explanation": "Contains allergen No. 12 (Sulphur dioxide and sulphites)."
           }
         ]
       }

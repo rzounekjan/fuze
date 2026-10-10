@@ -137,6 +137,12 @@ export default function App() {
   });
 
   const [stats, setStats] = useState<UserStats>(() => getStoredStats(language));
+  const [librarySelectedItemId, setLibrarySelectedItemId] = useState<string | null>(null);
+
+  const handleNavigateToLibraryDetail = (item: MenuItem) => {
+    setLibrarySelectedItemId(item.id || item.name);
+    setCurrentTab('library');
+  };
   const [showResetModal, setShowResetModal] = useState<boolean>(false);
 
   // Dynamic total items and questions count based on active language
@@ -457,6 +463,7 @@ export default function App() {
           <MenuExplorer
             categories={activeCategories}
             onStartQuiz={handleStartQuizFromExplorer}
+            onNavigateToLibraryItem={handleNavigateToLibraryDetail}
             masteredIds={stats.masteredItemIds}
             language={language}
           />
@@ -473,7 +480,11 @@ export default function App() {
         )}
 
         {currentTab === 'library' && (
-          <LibraryView language={language} />
+          <LibraryView
+            language={language}
+            initialSelectedItemId={librarySelectedItemId}
+            onClearInitialSelectedItem={() => setLibrarySelectedItemId(null)}
+          />
         )}
       </main>
 

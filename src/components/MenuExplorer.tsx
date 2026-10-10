@@ -115,7 +115,7 @@ export const MenuExplorer: React.FC<MenuExplorerProps> = ({
 
               return (
                 <div
-                  key={item.id}
+                  key={`${category.id}-${item.id}`}
                   className="rounded-xl bg-stone-900/80 border border-stone-800 p-5 flex flex-col justify-between hover:border-amber-600/40 transition-all group shadow-sm hover:shadow-lg hover:shadow-amber-950/20"
                 >
                   <div>
@@ -152,11 +152,70 @@ export const MenuExplorer: React.FC<MenuExplorerProps> = ({
                           {item.weight}
                         </span>
                       )}
-                      {item.price && (
-                        <span className="text-amber-400 font-bold text-xs sm:text-sm">
-                          {item.price}
-                        </span>
-                      )}
+                      {item.price && (() => {
+                        if (item.price.includes('/')) return (
+                          <span className="text-amber-400 font-bold text-xs sm:text-sm">
+                            {item.price}
+                          </span>
+                        );
+                        const isGlassWine = category.id === 'vina-po-skle';
+                        const isBottleWine = category.id === 'vina-bile' || category.id === 'bubliny';
+                        const itemNameLower = item.name.toLowerCase();
+
+                        // Find matching counterpart
+                        let matchedCounterpart: { label: string; price: string } | null = null;
+                        if (isGlassWine) {
+                          const bottleCat = categories.find(c => c.id === 'vina-bile');
+                          const bublinyCat = categories.find(c => c.id === 'bubliny');
+                          if (itemNameLower.includes('pálava') || itemNameLower.includes('palava')) {
+                            const match = bottleCat?.items.find(b => b.name.toLowerCase().includes('pálava') || b.name.toLowerCase().includes('palava'));
+                            if (match && match.price) matchedCounterpart = { label: language === 'en' ? 'bottle' : 'láhev', price: match.price };
+                          } else if (itemNameLower.includes('chardonnay')) {
+                            const match = bottleCat?.items.find(b => b.name.toLowerCase().includes('chardonnay'));
+                            if (match && match.price) matchedCounterpart = { label: language === 'en' ? 'bottle' : 'láhev', price: match.price };
+                          } else if (itemNameLower.includes('cremant') || itemNameLower.includes('crémant')) {
+                            const match = bublinyCat?.items.find(b => b.name.toLowerCase().includes('cremant') || b.name.toLowerCase().includes('crémant'))
+                              || bottleCat?.items.find(b => b.name.toLowerCase().includes('cremant') || b.name.toLowerCase().includes('crémant'));
+                            if (match && match.price) matchedCounterpart = { label: language === 'en' ? 'bottle' : 'láhev', price: match.price };
+                          }
+                        } else if (isBottleWine) {
+                          const glassCat = categories.find(c => c.id === 'vina-po-skle');
+                          if (glassCat) {
+                            if (itemNameLower.includes('pálava') || itemNameLower.includes('palava')) {
+                              const match = glassCat.items.find(g => g.name.toLowerCase().includes('pálava') || g.name.toLowerCase().includes('palava'));
+                              if (match && match.price) matchedCounterpart = { label: language === 'en' ? 'glass' : 'sklenička', price: match.price };
+                            } else if (itemNameLower.includes('chardonnay')) {
+                              const match = glassCat.items.find(g => g.name.toLowerCase().includes('chardonnay'));
+                              if (match && match.price) matchedCounterpart = { label: language === 'en' ? 'glass' : 'sklenička', price: match.price };
+                            } else if (itemNameLower.includes('cremant') || itemNameLower.includes('crémant')) {
+                              const match = glassCat.items.find(g => g.name.toLowerCase().includes('cremant') || g.name.toLowerCase().includes('crémant'));
+                              if (match && match.price) matchedCounterpart = { label: language === 'en' ? 'glass' : 'sklenička', price: match.price };
+                            }
+                          }
+                        }
+
+                        if (matchedCounterpart) {
+                          const currentLabel = isGlassWine 
+                            ? (language === 'en' ? 'glass' : 'sklenička') 
+                            : (language === 'en' ? 'bottle' : 'láhev');
+                          const glassPrice = isGlassWine ? item.price : matchedCounterpart.price;
+                          const bottlePrice = isGlassWine ? matchedCounterpart.price : item.price;
+
+                          return (
+                            <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-amber-500/10 border border-amber-500/30 text-xs sm:text-sm font-bold text-amber-300">
+                              <span className="text-amber-400 font-extrabold">{language === 'en' ? 'glass' : 'sklenička'} ({glassPrice})</span>
+                              <span className="text-stone-500 font-normal">/</span>
+                              <span className="text-stone-300">{language === 'en' ? 'bottle' : 'láhev'} ({bottlePrice})</span>
+                            </span>
+                          );
+                        }
+
+                        return (
+                          <span className="text-amber-400 font-bold text-xs sm:text-sm">
+                            {item.price}
+                          </span>
+                        );
+                      })()}
                       {item.allergens && item.allergens.length > 0 && (
                         <span className="text-xs sm:text-sm text-stone-400">
                           {language === 'en' ? 'Allergens:' : 'Alg:'} {item.allergens.join('/')}

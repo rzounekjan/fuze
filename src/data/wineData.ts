@@ -1,181 +1,580 @@
 import { MenuCategory } from './menuData';
 
 export const WINE_CATEGORIES: MenuCategory[] = [
-  {
-    id: "vina-po-skle",
-    name: "Víno po skle (0,15l)",
-    badge: "Po skle",
-    description: "Pečlivě vybraná rozlévaná vína z Moravy, Čech, Rakouska a Kalifornie",
-    iconName: "GlassWater",
-    items: [
+    {
+    "id": "vina-po-skle",
+    "name": "Vína po skle",
+    "badge": "Vína po skle",
+    "description": "Pečlivě vybraná šumivá, bílá, růžová a červená vína rozlévaná po skle",
+    "iconName": "Wine",
+    "items": [
       {
-        id: "sklo-rulandske-sede",
-        name: "Rulandské šedé – Dva kopce Kolby",
-        weight: "0,15 l",
-        price: "95,-",
-        allergens: ["12"],
-        description: "Dva kopce Kolby, polosuché – Mikulovsko, Morava. Vyvážené, šťavnaté, aroma bílé broskve a drobného zahradního ovoce.",
-        questions: [
+        "id": "sklo-charmat-palava",
+        "name": "Charmat de Vinselekt Pálava",
+        "weight": "0,1L / 0,75L",
+        "price": "0,1L 99 Kč / 0,75L 699 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Vinselect Michlovský, Extra sec",
+        "notes": "Vinselect Michlovský, Extra sec. Aromatické moravské šumivé víno z odrůdy Pálava vyrobené metodou Charmat.",
+        "questions": [
           {
-            id: "sklo-rs-q1",
-            question: "Z jaké moravské vinařské podoblasti a od jakého vinařství pochází rozlévané Rulandské šedé?",
-            correctAnswer: "Vinařství Kolby (řada Dva kopce), Mikulovsko",
-            distractors: ["Vinařství Sonberk, Znojemsko", "Vinařství U Kapličky, Velkopavlovicko"],
-            explanation: "Jedná se o polosuché Rulandské šedé z řady Dva kopce z vinařství Kolby v Pouzdřanech na Mikulovsku."
+            "id": "sklo-charmat-palava-vol",
+            "question": "Jaký je servírovací objem / míra položky Charmat de Vinselekt Pálava po skle?",
+            "correctAnswer": "0,1l",
+            "distractors": [
+              "0,15 l",
+              "0,2 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Charmat de Vinselekt Pálava je 0,1l."
           },
           {
-            id: "sklo-rs-q2",
-            question: "Jakou chuťovou a aromatickou charakteristiku má toto Rulandské šedé po skle?",
-            correctAnswer: "Vyvážené, šťavnaté, aroma bílé broskve a drobného zahradního ovoce",
-            distractors: ["Výrazně minerální s tóny petroleje a zeleného pepře", "Těžké barikové s tóny vanilky a kouře"],
-            explanation: "V lístku je charakterizováno jako vyvážené a šťavnaté s aromatem bílé broskve a drobného zahradního ovoce."
-          }
-        ]
-      },
-      {
-        id: "sklo-cuvee-kraus-bile",
-        name: "Cuvée Kraus – bílé",
-        weight: "0,15 l",
-        price: "98,-",
-        allergens: ["12"],
-        description: "Mělnicko, Čechy. Lehké, svěží, harmonický projev citrusů a žlutého ovoce.",
-        questions: [
-          {
-            id: "sklo-kraus-b-q1",
-            question: "Z které české vinařské oblasti pochází rozlévané bílé Cuvée Kraus?",
-            correctAnswer: "Mělnicko (Čechy)",
-            distractors: ["Litoměřicko (Čechy)", "Slovácko (Morava)"],
-            explanation: "Vinařství Kraus sídlí v Mělníku v české vinařské oblasti."
+            "id": "sklo-charmat-palava-prod",
+            "question": "Které vinařství vyrábí šumivé víno Charmat de Vinselekt Pálava?",
+            "correctAnswer": "Vinselect Michlovský",
+            "distractors": [
+              "Gotberg",
+              "Reisten"
+            ],
+            "explanation": "Víno pochází z vinařství Vinselect Michlovský."
           },
           {
-            id: "sklo-kraus-b-q2",
-            question: "Jaké ovocné tóny tvoří harmonický projev bílého Cuvée Kraus?",
-            correctAnswer: "Citrusy a žluté ovoce",
-            distractors: ["Černý rybíz a angrešt", "Jahody a třešně"],
-            explanation: "Bílé Cuvée Kraus nabízí lehký a svěží projev citrusů a žlutého ovoce."
-          }
-        ]
-      },
-      {
-        id: "sklo-gruner-veltliner",
-        name: "Grüner Veltliner – Heuriger",
-        weight: "0,15 l",
-        price: "109,-",
-        allergens: ["12"],
-        description: "Heuriger – Niederösterreich, Rakousko. Svěží, lehké, jemné aroma citrusů s tóny zeleného jablka.",
-        questions: [
-          {
-            id: "sklo-gv-q1",
-            question: "Odkud pochází rozlévaný Grüner Veltliner Heuriger?",
-            correctAnswer: "Niederösterreich (Dolní Rakousko)",
-            distractors: ["Burgenland (Rakousko)", "Štýrsko (Rakousko)"],
-            explanation: "Víno pochází z vinařské oblasti Niederösterreich v sousedním Rakousku."
+            "id": "sklo-charmat-palava-type",
+            "question": "Do jaké kategorie zbytkového cukru spadá Charmat de Vinselekt Pálava?",
+            "correctAnswer": "Extra sec",
+            "distractors": [
+              "Brut Nature",
+              "Demi Sec"
+            ],
+            "explanation": "Charmat de Vinselekt Pálava je zatříděn v kategorii Extra sec."
           },
           {
-            id: "sklo-gv-q2",
-            question: "Které ovoce dává tomuto Heurigeru jeho svěží jiskru ve vůni?",
-            correctAnswer: "Citrusy a zelené jablko",
-            distractors: ["Přezrálý banán a mango", "Červený rybíz a brusinky"],
-            explanation: "Popis uvádí svěží, lehké tělo s jemným aromatem citrusů a zeleného jablka."
-          }
-        ]
-      },
-      {
-        id: "sklo-chardonnay-adulation",
-        name: "Chardonnay – Adulation",
-        weight: "0,15 l",
-        price: "125,-",
-        allergens: ["12"],
-        description: "Adulation – Kalifornie. Víno školené na dubu, plné, hedvábný závěr, tropické ovoce, sladké koření a vanilka.",
-        questions: [
-          {
-            id: "sklo-chard-q1",
-            question: "V čem je školeno kalifornské Chardonnay Adulation, což mu dodává tóny vanilky?",
-            correctAnswer: "Na dubovém dřevě (dubových sudech)",
-            distractors: ["V nerezovém tanku", "V hliněné amfoře qvevri"],
-            explanation: "Chardonnay Adulation je školené na dubu, proto má plnou strukturu, tóny vanilky a sladkého koření."
+            "id": "sklo-charmat-palava-price",
+            "question": "Jaká je prodejní cena rozlévané sklenky Charmat de Vinselekt Pálava (0,1l)?",
+            "correctAnswer": "99 Kč",
+            "distractors": [
+              "115 Kč",
+              "89 Kč"
+            ],
+            "explanation": "Cena rozlévané sklenky Charmat de Vinselekt Pálava je 99 Kč."
           },
           {
-            id: "sklo-chard-q2",
-            question: "Jaký chuťový profil a závěr charakterizuje toto kalifornské Chardonnay?",
-            correctAnswer: "Plné víno s hedvábným závěrem, tóny tropického ovoce a vanilky",
-            distractors: ["Lehké trávové víno s ostrou citronovou kyselinkou", "Polosladké perlivé víno s muškátovým květem"],
-            explanation: "Jedná se o plné kalifornské bílé víno s hedvábným závěrem a tóny tropického ovoce."
+            "id": "sklo-charmat-palava-allergen",
+            "question": "Který alergen obsahuje Charmat de Vinselekt Pálava?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 1 – Lepek",
+              "Alergen č. 7 – Mléko"
+            ],
+            "explanation": "Víno obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
           }
         ]
       },
       {
-        id: "sklo-modry-portugal-rose",
-        name: "Modrý Portugal – rosé Dva kopce Kolby",
-        weight: "0,15 l",
-        price: "95,-",
-        allergens: ["12"],
-        description: "Mikulovsko, Morava. Svěží, lososová barva, dochuť letního ovoce, vůně s tóny čerstvých jahod a třešní.",
-        questions: [
+        "id": "sklo-cremant-vinselekt",
+        "name": "Cremant de Vinselekt",
+        "weight": "0,1L / 0,75L",
+        "price": "0,1L 115 Kč / 0,75L 849 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "(Pinot, Chardonnay) Vinselect Michlovský, Extra brut",
+        "notes": "(Pinot, Chardonnay) Vinselect Michlovský, Extra brut. Prémiový moravský crémant kvašený v lahvi.",
+        "questions": [
           {
-            id: "sklo-mpr-q1",
-            question: "Z jaké modré odrůdy je vyrobeno naše rozlévané moravské rosé?",
-            correctAnswer: "Modrý Portugal",
-            distractors: ["Frankovka", "Svatovavřinecké"],
-            explanation: "Růžové víno po skle je vyrobeno z odrůdy Modrý Portugal z vinařství Kolby."
+            "id": "sklo-cremant-vinselekt-vol",
+            "question": "Jaký je servírovací objem / míra položky Cremant de Vinselekt po skle?",
+            "correctAnswer": "0,1l",
+            "distractors": [
+              "0,15 l",
+              "0,2 l"
+            ],
+            "explanation": "Servírovací míra / objem položky Cremant de Vinselekt je 0,1l."
           },
           {
-            id: "sklo-mpr-q2",
-            question: "Jakou barvu a ovocné tóny vykazuje toto rosé Kolby?",
-            correctAnswer: "Lososová barva s vůní čerstvých jahod a třešní",
-            distractors: ["Cihlová barva s tóny ostružin a povidel", "Zlatavá barva s tóny broskví a bezu"],
-            explanation: "Má svěží lososovou barvu, dochuť letního ovoce a tóny čerstvých jahod a třešní."
+            "id": "sklo-cremant-vinselekt-blend",
+            "question": "Ze kterých odrůd je složen Cremant de Vinselekt?",
+            "correctAnswer": "(Pinot, Chardonnay)",
+            "distractors": [
+              "(Ryzlink, Pálava)",
+              "(Sauvignon, Pinot Gris)"
+            ],
+            "explanation": "Cremant de Vinselekt je kupáž odrůd Pinot a Chardonnay."
+          },
+          {
+            "id": "sklo-cremant-vinselekt-prod",
+            "question": "Které vinařství produkuje Cremant de Vinselekt?",
+            "correctAnswer": "Vinselect Michlovský",
+            "distractors": [
+              "Gotberg",
+              "Kolby"
+            ],
+            "explanation": "Vyrábí jej doc. Miloš Michlovský – Vinselect Michlovský."
+          },
+          {
+            "id": "sklo-cremant-vinselekt-type",
+            "question": "V jaké kategorii suchosti je připraven Cremant de Vinselekt?",
+            "correctAnswer": "Extra brut",
+            "distractors": [
+              "Extra sec",
+              "Sec"
+            ],
+            "explanation": "Cremant de Vinselekt spadá do kategorie Extra brut."
+          },
+          {
+            "id": "sklo-cremant-vinselekt-price",
+            "question": "Jaká je cena rozlévané sklenky Cremant de Vinselekt (0,1l)?",
+            "correctAnswer": "115 Kč",
+            "distractors": [
+              "99 Kč",
+              "125 Kč"
+            ],
+            "explanation": "Cena položky Cremant de Vinselekt (0,1l) je 115 Kč."
+          },
+          {
+            "id": "sklo-cremant-vinselekt-allergen",
+            "question": "Který alergen obsahuje Cremant de Vinselekt?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 1 – Lepek",
+              "Alergen č. 8 – Skořápkové plody"
+            ],
+            "explanation": "Obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
           }
         ]
       },
       {
-        id: "sklo-modry-portugal-cervene",
-        name: "Modrý Portugal – červené Dva kopce Kolby",
-        weight: "0,15 l",
-        price: "95,-",
-        allergens: ["12"],
-        description: "Mikulovsko, Morava. Lehká rubínová barva, vůně drobného zahradního ovoce, dochuť jemně kořeněná.",
-        questions: [
+        "id": "sklo-rulandske-sede",
+        "name": "Rulandské šedé",
+        "weight": "0,15l",
+        "price": "95 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Kolby Morava, polosuché",
+        "notes": "Kolby Morava, polosuché. Ovocné, harmonické bílé víno z Pouzdřan s jemným zbytkovým cukrem.",
+        "questions": [
           {
-            id: "sklo-mpc-q1",
-            question: "Jakou barvu a dochuť má červený Modrý Portugal po skle?",
-            correctAnswer: "Lehká rubínová barva a jemně kořeněná dochuť",
-            distractors: ["Temně fialová barva a trpká tříslovina", "Granátová barva a kouřově čokoládová dochuť"],
-            explanation: "Modrý Portugal je lehké červené víno s rubínovou barvou, vůní zahradního ovoce a jemně kořeněnou dochutí."
+            "id": "sklo-rulandske-sede-vol",
+            "question": "Jaký je servírovací objem položky Rulandské šedé po skle?",
+            "correctAnswer": "0,15l",
+            "distractors": [
+              "0,1 l",
+              "0,2 l"
+            ],
+            "explanation": "Servírovací míra je 0,15l."
+          },
+          {
+            "id": "sklo-rulandske-sede-region",
+            "question": "Které vinařství a z jaké oblasti vyrábí toto rozlévané Rulandské šedé?",
+            "correctAnswer": "Kolby Morava",
+            "distractors": [
+              "Kraus Čechy",
+              "Heuriger Rakousko"
+            ],
+            "explanation": "Víno pochází z vinařství Kolby na Moravě."
+          },
+          {
+            "id": "sklo-rulandske-sede-type",
+            "question": "V jakém chuťovém stylu je zatříděno Rulandské šedé Kolby?",
+            "correctAnswer": "polosuché",
+            "distractors": [
+              "suché",
+              "sladké"
+            ],
+            "explanation": "Rulandské šedé Kolby je polosuché."
+          },
+          {
+            "id": "sklo-rulandske-sede-price",
+            "question": "Jaká je cena rozlévané sklenky Rulandské šedé (0,15l)?",
+            "correctAnswer": "95 Kč",
+            "distractors": [
+              "105 Kč",
+              "89 Kč"
+            ],
+            "explanation": "Cena za 0,15l je 95 Kč."
+          },
+          {
+            "id": "sklo-rulandske-sede-allergen",
+            "question": "Který alergen obsahuje Rulandské šedé?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 7 – Mléko",
+              "Alergen č. 6 – Sója"
+            ],
+            "explanation": "Obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
           }
         ]
       },
       {
-        id: "sklo-cuvee-kraus-cervene",
-        name: "Cuvée Kraus – červené",
-        weight: "0,15 l",
-        price: "98,-",
-        allergens: ["12"],
-        description: "Mělnicko, Čechy. Sytá barva, měkčí třísloviny, chuť červeného ovoce.",
-        questions: [
+        "id": "sklo-cuvee-bile",
+        "name": "Cuvée bílé",
+        "weight": "0,15l",
+        "price": "98 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Kraus Čechy",
+        "notes": "Kraus Čechy. Svěží suché bílé cuvée z mělnických vinic od profesora Krause.",
+        "questions": [
           {
-            id: "sklo-kraus-c-q1",
-            question: "Jaké třísloviny a chuťový profil nabízí české červené Cuvée Kraus?",
-            correctAnswer: "Měkčí třísloviny a chuť zralého červeného ovoce",
-            distractors: ["Mohutné drsné třísloviny a tóny zeleného pepře", "Sladkou povidlovou chuť s vysokým alkoholem"],
-            explanation: "V popisu je uvedena sytá barva, měkčí příjemné třísloviny a chuť červeného ovoce."
+            "id": "sklo-cuvee-bile-vol",
+            "question": "Jaký je servírovací objem položky Cuvée bílé po skle?",
+            "correctAnswer": "0,15l",
+            "distractors": [
+              "0,1 l",
+              "0,2 l"
+            ],
+            "explanation": "Servírovací objem je 0,15l."
+          },
+          {
+            "id": "sklo-cuvee-bile-prod",
+            "question": "Které vinařství z Čech produkuje toto bílé cuvée?",
+            "correctAnswer": "Kraus Čechy",
+            "distractors": [
+              "Kolby Morava",
+              "Adulation Kalifornie"
+            ],
+            "explanation": "Pochází z mělnického vinařství Kraus v Čechách."
+          },
+          {
+            "id": "sklo-cuvee-bile-price",
+            "question": "Jaká je cena sklenky Cuvée bílé Kraus (0,15l)?",
+            "correctAnswer": "98 Kč",
+            "distractors": [
+              "95 Kč",
+              "109 Kč"
+            ],
+            "explanation": "Cena je 98 Kč."
+          },
+          {
+            "id": "sklo-cuvee-bile-allergen",
+            "question": "Který alergen obsahuje Cuvée bílé Kraus?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 1 – Lepek",
+              "Alergen č. 3 – Vejce"
+            ],
+            "explanation": "Obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
           }
         ]
       },
       {
-        id: "sklo-pinot-noir-adulation",
-        name: "Pinot Noir – Adulation",
-        weight: "0,15 l",
-        price: "125,-",
-        allergens: ["12"],
-        description: "Adulation – Kalifornie. Plné, výrazně ovocné, chuť zralé červené bobulovité ovoce a třešně.",
-        questions: [
+        "id": "sklo-gruner-veltliner",
+        "name": "Grüner Veltliner",
+        "weight": "0,15l",
+        "price": "109 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Heuriger Rakousko",
+        "notes": "Heuriger Rakousko. Tradiční rakouský Veltlín s tóny zeleného jablka a bílého pepře.",
+        "questions": [
           {
-            id: "sklo-pn-q1",
-            question: "Odkud pochází rozlévaný Pinot Noir Adulation a jaké ovoce dominuje v chuti?",
-            correctAnswer: "Kalifornie, chuť zralého červeného bobulovitého ovoce a třešní",
-            distractors: ["Burgundsko, chuť lesního podrostu a lanýžů", "Morava, chuť trnek a rybízu"],
-            explanation: "Pinot Noir Adulation pochází z Kalifornie a má plnou ovocnou chuť zralých červených bobulí a třešní."
+            "id": "sklo-gruner-veltliner-vol",
+            "question": "Jaký je servírovací objem položky Grüner Veltliner po skle?",
+            "correctAnswer": "0,15l",
+            "distractors": [
+              "0,1 l",
+              "0,2 l"
+            ],
+            "explanation": "Servírovací objem je 0,15l."
+          },
+          {
+            "id": "sklo-gruner-veltliner-region",
+            "question": "Z jaké oblasti a stylu pochází toto rozlévané rakouské víno?",
+            "correctAnswer": "Heuriger Rakousko",
+            "distractors": [
+              "Kolby Morava",
+              "Kraus Čechy"
+            ],
+            "explanation": "Pochází z Rakouska ve stylu Heuriger."
+          },
+          {
+            "id": "sklo-gruner-veltliner-price",
+            "question": "Jaká je cena rozlévané sklenky Grüner Veltliner (0,15l)?",
+            "correctAnswer": "109 Kč",
+            "distractors": [
+              "98 Kč",
+              "125 Kč"
+            ],
+            "explanation": "Cena je 109 Kč."
+          },
+          {
+            "id": "sklo-gruner-veltliner-allergen",
+            "question": "Který alergen obsahuje Grüner Veltliner?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 2 – Korýši",
+              "Alergen č. 1 – Lepek"
+            ],
+            "explanation": "Obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
+          }
+        ]
+      },
+      {
+        "id": "sklo-chardonnay",
+        "name": "Chardonnay",
+        "weight": "0,15l",
+        "price": "125 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Adulation Kalifornie",
+        "notes": "Adulation Kalifornie. Bohaté kalifornské Chardonnay s tóny tropického ovoce, másla a vanilky.",
+        "questions": [
+          {
+            "id": "sklo-chardonnay-vol",
+            "question": "Jaký je servírovací objem rozlévaného Chardonnay Adulation?",
+            "correctAnswer": "0,15l",
+            "distractors": [
+              "0,1 l",
+              "0,2 l"
+            ],
+            "explanation": "Servírovací objem je 0,15l."
+          },
+          {
+            "id": "sklo-chardonnay-region",
+            "question": "Které vinařství a z jaké země produkuje toto Chardonnay?",
+            "correctAnswer": "Adulation Kalifornie",
+            "distractors": [
+              "Kolby Morava",
+              "Kraus Čechy"
+            ],
+            "explanation": "Vyrábí jej vinařství Adulation v Kalifornii (USA)."
+          },
+          {
+            "id": "sklo-chardonnay-price",
+            "question": "Jaká je cena sklenky Chardonnay Adulation (0,15l)?",
+            "correctAnswer": "125 Kč",
+            "distractors": [
+              "109 Kč",
+              "95 Kč"
+            ],
+            "explanation": "Cena za 0,15l je 125 Kč."
+          },
+          {
+            "id": "sklo-chardonnay-allergen",
+            "question": "Který alergen obsahuje Chardonnay Adulation?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 5 – Arašídy",
+              "Alergen č. 7 – Mléko"
+            ],
+            "explanation": "Obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
+          }
+        ]
+      },
+      {
+        "id": "sklo-modry-portugal-rose",
+        "name": "Modrý Portugal rosé",
+        "weight": "0,15l",
+        "price": "95 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Kolby Morava",
+        "notes": "Kolby Morava. Lehké a osvěžující růžové víno s tóny jahod a zahradního ovoce.",
+        "questions": [
+          {
+            "id": "sklo-modry-portugal-rose-vol",
+            "question": "Jaký je servírovací objem položky Modrý Portugal rosé po skle?",
+            "correctAnswer": "0,15l",
+            "distractors": [
+              "0,1 l",
+              "0,2 l"
+            ],
+            "explanation": "Servírovací objem je 0,15l."
+          },
+          {
+            "id": "sklo-modry-portugal-rose-region",
+            "question": "Které vinařství z Moravy vyrábí toto růžové víno po skle?",
+            "correctAnswer": "Kolby Morava",
+            "distractors": [
+              "Kraus Čechy",
+              "Gotberg Morava"
+            ],
+            "explanation": "Pochází z moravského vinařství Kolby."
+          },
+          {
+            "id": "sklo-modry-portugal-rose-price",
+            "question": "Jaká je prodejní cena rozlévaného Modrého Portugalu rosé (0,15l)?",
+            "correctAnswer": "95 Kč",
+            "distractors": [
+              "98 Kč",
+              "109 Kč"
+            ],
+            "explanation": "Cena za 0,15l je 95 Kč."
+          },
+          {
+            "id": "sklo-modry-portugal-rose-allergen",
+            "question": "Který alergen obsahuje Modrý Portugal rosé?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 4 – Ryby",
+              "Alergen č. 1 – Lepek"
+            ],
+            "explanation": "Obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
+          }
+        ]
+      },
+      {
+        "id": "sklo-modry-portugal",
+        "name": "Modrý Portugal",
+        "weight": "0,15l",
+        "price": "95 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Kolby Morava",
+        "notes": "Kolby Morava. Tradiční lehčí červené víno s rubínovou barvou, tóny třešní a sametovými tříslovinami.",
+        "questions": [
+          {
+            "id": "sklo-modry-portugal-vol",
+            "question": "Jaký je servírovací objem rozlévaného červeného vína Modrý Portugal?",
+            "correctAnswer": "0,15l",
+            "distractors": [
+              "0,1 l",
+              "0,2 l"
+            ],
+            "explanation": "Servírovací objem je 0,15l."
+          },
+          {
+            "id": "sklo-modry-portugal-region",
+            "question": "Které moravské vinařství dodává toto červené víno po skle?",
+            "correctAnswer": "Kolby Morava",
+            "distractors": [
+              "Kraus Čechy",
+              "Adulation Kalifornie"
+            ],
+            "explanation": "Dodává jej vinařství Kolby na Moravě."
+          },
+          {
+            "id": "sklo-modry-portugal-price",
+            "question": "Jaká je cena rozlévaného vína Modrý Portugal (0,15l)?",
+            "correctAnswer": "95 Kč",
+            "distractors": [
+              "105 Kč",
+              "89 Kč"
+            ],
+            "explanation": "Cena za 0,15l je 95 Kč."
+          },
+          {
+            "id": "sklo-modry-portugal-allergen",
+            "question": "Který alergen obsahuje Modrý Portugal?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 7 – Mléko",
+              "Alergen č. 8 – Ořechy"
+            ],
+            "explanation": "Obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
+          }
+        ]
+      },
+      {
+        "id": "sklo-cuvee-cervene",
+        "name": "Cuvée červené",
+        "weight": "0,15l",
+        "price": "98 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Kraus Čechy",
+        "notes": "Kraus Čechy. Charakteristické mělnické červené cuvée s tóny tmavého ovoce a lesních plodů.",
+        "questions": [
+          {
+            "id": "sklo-cuvee-cervene-vol",
+            "question": "Jaký je servírovací objem rozlévaného Cuvée červené?",
+            "correctAnswer": "0,15l",
+            "distractors": [
+              "0,1 l",
+              "0,2 l"
+            ],
+            "explanation": "Servírovací objem je 0,15l."
+          },
+          {
+            "id": "sklo-cuvee-cervene-prod",
+            "question": "Které české vinařství vyrábí toto červené cuvée?",
+            "correctAnswer": "Kraus Čechy",
+            "distractors": [
+              "Kolby Morava",
+              "Heuriger Rakousko"
+            ],
+            "explanation": "Vyrábí jej mělnické vinařství Kraus v Čechách."
+          },
+          {
+            "id": "sklo-cuvee-cervene-price",
+            "question": "Jaká je prodejní cena sklenky Cuvée červené Kraus (0,15l)?",
+            "correctAnswer": "98 Kč",
+            "distractors": [
+              "95 Kč",
+              "109 Kč"
+            ],
+            "explanation": "Cena za 0,15l je 98 Kč."
+          },
+          {
+            "id": "sklo-cuvee-cervene-allergen",
+            "question": "Který alergen obsahuje Cuvée červené Kraus?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 1 – Lepek",
+              "Alergen č. 6 – Sója"
+            ],
+            "explanation": "Obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
+          }
+        ]
+      },
+      {
+        "id": "sklo-pinot-noir",
+        "name": "Pinot Noir",
+        "weight": "0,15l",
+        "price": "125 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Adulation Kalifornie",
+        "notes": "Adulation Kalifornie. Sametový kalifornský Pinot Noir s tóny tmavých třešní, vanilky a jemného dřeva.",
+        "questions": [
+          {
+            "id": "sklo-pinot-noir-vol",
+            "question": "Jaký je servírovací objem sklenky kalifornského Pinot Noir Adulation?",
+            "correctAnswer": "0,15l",
+            "distractors": [
+              "0,1 l",
+              "0,2 l"
+            ],
+            "explanation": "Servírovací objem je 0,15l."
+          },
+          {
+            "id": "sklo-pinot-noir-region",
+            "question": "Odkud pochází toto červené víno Pinot Noir rozlévané po skle?",
+            "correctAnswer": "Adulation Kalifornie",
+            "distractors": [
+              "Kolby Morava",
+              "Kraus Čechy"
+            ],
+            "explanation": "Pochází z vinařství Adulation v Kalifornii (USA)."
+          },
+          {
+            "id": "sklo-pinot-noir-price",
+            "question": "Jaká je prodejní cena sklenky Pinot Noir Adulation (0,15l)?",
+            "correctAnswer": "125 Kč",
+            "distractors": [
+              "115 Kč",
+              "98 Kč"
+            ],
+            "explanation": "Cena je 125 Kč."
+          },
+          {
+            "id": "sklo-pinot-noir-allergen",
+            "question": "Který alergen obsahuje Pinot Noir Adulation?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 3 – Vejce",
+              "Alergen č. 7 – Mléko"
+            ],
+            "explanation": "Obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
           }
         ]
       }
@@ -191,8 +590,8 @@ export const WINE_CATEGORIES: MenuCategory[] = [
       {
         id: "bubliny-charmat-palava",
         name: "Charmat de Vinselekt Pálava",
-        weight: "0,1l / 0,75l",
-        price: "99,- / 699,-",
+        weight: "0,1L / 0,75L",
+        price: "0,1L 99 Kč / 0,75L 699 Kč",
         allergens: ["12"],
         description: "Vinselect Michlovský, extra sec – Morava. Divoké perlení, opulentní vůně s nádechem růží a exotického ovoce, kulatá podmanivá chuť.",
         questions: [
@@ -202,27 +601,20 @@ export const WINE_CATEGORIES: MenuCategory[] = [
             correctAnswer: "Metodou charmat z aromatické odrůdy Pálava",
             distractors: ["Tradiční metodou z odrůdy Ryzlink vlašský", "Metodou ancestrale (pét-nat) z Muškátu moravského"],
             explanation: "Jedná se o šumivé víno vyrobené metodou charmat z odrůdy Pálava s opulentní vůní růží."
-          },
-          {
-            id: "b-pal-q2",
-            question: "V jakých objemech a za jaké ceny se Charmat de Vinselekt Pálava nabízí?",
-            correctAnswer: "0,1 l za 99,- Kč a 0,75 l za 699,- Kč",
-            distractors: ["Pouze celá láhev 0,75 l za 750,- Kč", "0,15 l za 150,- Kč"],
-            explanation: "Lze jej objednat po sklence 0,1 l (99,- Kč) i v celé lahvi 0,75 l (699,- Kč)."
           }
         ]
       },
       {
         id: "bubliny-cremant-vinselekt",
-        name: "Crémant de Vinselekt (Pinot, Chardonnay)",
-        weight: "0,1l / 0,75l",
-        price: "115,- / 849,-",
+        name: "Cremant de Vinselekt",
+        weight: "0,1L / 0,75L",
+        price: "0,1L 115 Kč / 0,75L 849 Kč",
         allergens: ["12"],
-        description: "Vinselect Michlovský, extra brut – Morava. Jemné impozantní perlení, elegantní aroma, harmonická krémová dochuť.",
+        description: "(Pinot, Chardonnay) Vinselect Michlovský, extra brut – Morava. Jemné impozantní perlení, elegantní aroma, harmonická krémová dochuť.",
         questions: [
           {
             id: "b-crem-q1",
-            question: "Ze kterých dvou slavných odrůd je složen moravský Crémant de Vinselekt?",
+            question: "Ze kterých dvou odrůd je složen moravský Cremant de Vinselekt?",
             correctAnswer: "Pinot a Chardonnay",
             distractors: ["Ryzlink rýnský a Veltlínské zelené", "Sauvignon a Pálava"],
             explanation: "Crémant je kupáží odrůd Pinot a Chardonnay v kategorii extra brut s harmonickou krémovou dochutí."
@@ -231,11 +623,11 @@ export const WINE_CATEGORIES: MenuCategory[] = [
       },
       {
         id: "bubliny-angels-cowboys",
-        name: "Angels & Cowboys – NV, brut",
-        weight: "0,75 l",
-        price: "1 199,-",
+        name: "Angels & Cowboys",
+        weight: "0,75L",
+        price: "1199 Kč",
         allergens: ["12"],
-        description: "North Coast, Kalifornie. Druhotné zrání v láhvi, elegantní perlení, svěží sadové ovoce, citrusy, tóny briošky a chlebové kůrky.",
+        description: "NV, brut – North Coast, Kalifornie. Druhotné zrání v láhvi, elegantní perlení, svěží sadové ovoce, citrusy, tóny briošky a chlebové kůrky.",
         questions: [
           {
             id: "b-ac-q1",
@@ -243,13 +635,6 @@ export const WINE_CATEGORIES: MenuCategory[] = [
             correctAnswer: "Druhotným kvašením a zráním přímo v láhvi (tradiční metoda)",
             distractors: ["Kvašením v tlakových tancích (charmat)", "Syzením oxidem uhličitým"],
             explanation: "Víno zraje tradiční metodou přímo v láhvi, což vytváří jemné perlení a tóny briošky."
-          },
-          {
-            id: "b-ac-q2",
-            question: "Které typické autolytické tóny zrání na kvasinkách v Angels & Cowboys najdeme?",
-            correctAnswer: "Tóny briošky a chlebové kůrky",
-            distractors: ["Tóny uzeného masa a kůže", "Tóny čerstvě posečené trávy a mentolu"],
-            explanation: "Dlouhé zrání na kalech v láhvi přináší noblesní tóny máslové briošky a chlebové kůrky."
           }
         ]
       }
@@ -265,423 +650,692 @@ export const WINE_CATEGORIES: MenuCategory[] = [
       {
         id: "bile-ryzlink-gotberg",
         name: "Ryzlink rýnský – Gotberg",
-        weight: "0,75 l",
-        price: "469,-",
+        weight: "0,75L",
+        price: "469 Kč",
         allergens: ["12"],
-        description: "pozdní sběr Gotberg – Pálava, Morava. Svěží s výraznou kyselinou, aromatika citrusy, zelené jablko a bílé broskve, minerální dochuť.",
-        questions: [
-          {
-            id: "bv-got-q1",
-            question: "Jaké ovocné tóny a jaká kyselinka dominují v Ryzlinku rýnském Gotberg z Pálavy?",
-            correctAnswer: "Výrazná kyselina, citrusy, zelené jablko, bílé broskve a minerální dochuť",
-            distractors: ["Nízká kyselina, tóny liči, medu a kompotovaných meruněk", "Tóny angreštu, kopřiv a černorybízového listu"],
-            explanation: "Tento Ryzlink rýnský z Gotbergu vyniká svěžestí, výraznou kyselinou, citrusy a minerální dochutí."
-          }
-        ]
+        description: "pozdní sběr Gotberg – Pálava, Morava",
+        questions: []
       },
       {
         id: "bile-pinot-gris-reisten",
         name: "Pinot Gris – Reisten",
-        weight: "0,75 l",
-        price: "479,-",
+        weight: "0,75L",
+        price: "479 Kč",
         allergens: ["12"],
-        description: "pozdní sběr Reisten – Mikulovsko, Morava. Plné a hladké, v chuti jemný minerální dotek, čerstvý grep a pomerančová kůra.",
-        questions: [
-          {
-            id: "bv-reis-q1",
-            question: "Které citrusové tóny a jakou texturu má Pinot Gris z vinařství Reisten?",
-            correctAnswer: "Plné a hladké tělo, čerstvý grep a pomerančová kůra",
-            distractors: ["Ostré trávové tělo, limetková šťáva a zelené mango", "Hutné likérové tělo, kandovaný ananas a rozinky"],
-            explanation: "Popis uvádí plné a hladké víno s jemným minerálním dotekem, čerstvým grepem a pomerančovou kůrou."
-          }
-        ]
+        description: "pozdní sběr Reisten – Mikulovsko, Morava",
+        questions: []
       },
       {
         id: "bile-hibernal-bilkovi",
         name: "Hibernal – Bílkovi",
-        weight: "0,75 l",
-        price: "495,-",
+        weight: "0,75L",
+        price: "495 Kč",
         allergens: ["12"],
-        description: "pozdní sběr Bílkovi – Velkopavlovicko, Morava. Šťavnaté, vůně černého rybízu a bezového květu, ovocné, příjemná kyselinka a kořenitý dozvuk.",
-        questions: [
-          {
-            id: "bv-hib-q1",
-            question: "Které dvě typické květinové a ovocné složky tvoří vůni Hibernalu od Bílkových?",
-            correctAnswer: "Černý rybíz a bezový květ",
-            distractors: ["Banán a vanilkový lusk", "Sušené švestky a lesní jahody"],
-            explanation: "Hibernal vyniká intenzivní vůní černého rybízu a rozkvetlého bezového květu s kořenitým dozvukem."
-          }
-        ]
+        description: "pozdní sběr Bílkovi – Velkopavlovicko, Morava",
+        questions: []
       },
       {
         id: "bile-sauvignon-halkoci",
-        name: "Sauvignon – Typik VOC Lukáš Halkoci",
-        weight: "0,75 l",
-        price: "626,-",
+        name: "Sauvignon – Lukáš Halkoci",
+        weight: "0,75L",
+        price: "626 Kč",
         allergens: ["12"],
-        description: "Typik VOC Lukáš Halkoci – Znojemsko, Morava. Lehčí, svěží dochuť, aromatika angreštu, černého rybízu a citrusů.",
-        questions: [
-          {
-            id: "bv-sauv-q1",
-            question: "Z jaké moravské apelace a s jakou typickou aromatikou pochází Sauvignon Lukáše Halkociho?",
-            correctAnswer: "VOC Znojmo, aromatika angreštu, černého rybízu a citrusů",
-            distractors: ["VOC Pálava, aromatika kvetoucích růží a fialek", "VOC Modré hory, aromatika ostružin a vanilky"],
-            explanation: "Jedná se o klasický znojemský Sauvignon VOC s tóny angreštu, černého rybízu a citrusů."
-          }
-        ]
+        description: "Typik VOC Lukáš Halkoci – Znojemsko, Morava",
+        questions: []
       },
       {
         id: "bile-ryzlink-vlassky-sukal",
         name: "Ryzlink Vlašský – Milan Sůkal",
-        weight: "0,75 l",
-        price: "660,-",
+        weight: "0,75L",
+        price: "660 Kč",
         allergens: ["12"],
-        description: "pozdní sběr Milan Sůkal – Slovácko, Morava. Středně plné víno, příjemná kyselinka, tóny zralých citrusů, pomela a peckovic.",
-        questions: [
-          {
-            id: "bv-vlas-q1",
-            question: "Z které moravské podoblasti pochází Ryzlink vlašský od předního vinaře Milana Sůkala?",
-            correctAnswer: "Slovácko",
-            distractors: ["Litoměřicko", "Mělnicko"],
-            explanation: "Milan Sůkal hospodaří v Novém Poddvorově v podoblasti Slovácko."
-          }
-        ]
+        description: "pozdní sběr Milan Sůkal – Slovácko, Morava",
+        questions: []
       },
       {
         id: "bile-palava-michlovsky",
         name: "Pálava – Vinselect Michlovský",
-        weight: "0,75 l",
-        price: "506,-",
+        weight: "0,75L",
+        price: "506 Kč",
         allergens: ["12"],
-        description: "pozdní sběr Vinselect Michlovský – Lednicko-Valtický areál, Morava. Jemná vůně kvetoucích pomerančovníků a poupat růží, svěží chuť liči a jablečného závinu.",
-        questions: [
-          {
-            id: "bv-pal-q1",
-            question: "Jaké neobyčejné tóny poupat a dezertu najdeme v této tiché Pálavě od doc. Michlovského?",
-            correctAnswer: "Pomerančovníky, poupata růží, liči a jablečný závin",
-            distractors: ["Kopřivy, zelený hrášek a angrešt", "Kouř, slanina a tabákový list"],
-            explanation: "Pálava nabízí jemnou květinovou vůni pomerančovníků a růží s chutí liči a pečeného jablečného závinu."
-          }
-        ]
+        description: "pozdní sběr Vinselect Michlovský – Lednicko-Valtický areál, Morava",
+        questions: []
       },
       {
         id: "bile-poysdorfer-saurussel",
         name: "Poysdorfer Saurüssel – Hauser",
-        weight: "0,75 l",
-        price: "629,-",
+        weight: "0,75L",
+        price: "629 Kč",
         allergens: ["12"],
-        description: "Weinviertel, Rakousko. Veltlínské zelené, vůně zeleného jablka, citrusové kůry a bílého pepře, jasná kyselinka a jemná mineralita.",
-        questions: [
-          {
-            id: "bv-poy-q1",
-            question: "Které pikantní koření je typickým znakem rakouského Veltlínu Poysdorfer Saurüssel?",
-            correctAnswer: "Bílý pepř (rakouské 'Pfefferl')",
-            distractors: ["Nové koření", "Mletá skořice"],
-            explanation: "Klasický Veltlín z Weinviertelu se vyznačuje typickým pepřovým tónem (bílý pepř) a zeleným jablkem."
-          }
-        ]
+        description: "Veltlínské zelené, Hauser – Weinviertel, Rakousko",
+        questions: []
       },
       {
         id: "bile-gruner-satzen-schwarzbock",
-        name: "Grüner Veltliner Premium Ried Satzen – Schwarzbock",
-        weight: "0,75 l",
-        price: "723,-",
+        name: "Grüner Veltliner – Schwarzbock",
+        weight: "0,75L",
+        price: "723 Kč",
         allergens: ["12"],
-        description: "Premium Ried Satzen DAC Schwarzbock – Weinviertel, Rakousko. Sytá zlatavá barva, intenzivní vůně zralých hrušek a citrusů, dochuť elegantní, minerální, kořeněná pepřem.",
-        questions: [
-          {
-            id: "bv-sat-q1",
-            question: "Z jaké prémiové viniční trati (Ried) pochází Grüner Veltliner od Schwarzbocka?",
-            correctAnswer: "Ried Satzen DAC",
-            distractors: ["Ried Heiligenstein", "Ried Achleiten"],
-            explanation: "Jedná se o prémiový Veltlín z trati Ried Satzen DAC z oblasti Weinviertel."
-          }
-        ]
+        description: "Premium Ried Satzen DAC Schwarzbock – Weinviertel, Rakousko",
+        questions: []
       },
       {
         id: "bile-riesling-eva-fricke",
-        name: "Riesling Rheingau QbA Trocken – Eva Fricke",
-        weight: "0,75 l",
-        price: "999,-",
+        name: "Riesling Rheingau – Eva Fricke",
+        weight: "0,75L",
+        price: "999 Kč",
         allergens: ["12"],
-        description: "Rheingau, Německo. Elegantní, aromatika limetky, zeleného jablka a bílých broskví, minerální podkres.",
-        questions: [
-          {
-            id: "bv-eva-q1",
-            question: "Z jaké proslulé německé vinařské oblasti na řece Rýn pochází suchý Riesling od Evy Fricke?",
-            correctAnswer: "Rheingau",
-            distractors: ["Baden", "Franken"],
-            explanation: "Eva Fricke vyrábí své kultovní suché ryzlinky v prestižní oblasti Rheingau."
-          }
-        ]
+        description: "QbA Trocken Eva Fricke – Rheingau, Německo",
+        questions: []
       },
       {
         id: "bile-riesling-gunderloch-red-stone",
-        name: "Riesling Red Stone QbA trocken – Gunderloch",
-        weight: "0,75 l",
-        price: "595,-",
+        name: "Riesling – Gunderloch",
+        weight: "0,75L",
+        price: "595 Kč",
         allergens: ["12"],
-        description: "Rheinhessen, Německo. Šťavnaté, vůně zralých citrusů, broskví a bylinek, minerální stopa červené břidlice, kořenitá dochuť.",
-        questions: [
-          {
-            id: "bv-gund-q1",
-            question: "Jaké unikátní geologické podloží dává jméno a minerální stopu Rieslingu Red Stone Gunderloch?",
-            correctAnswer: "Červená břidlice (Rotliegend / Red Stone)",
-            distractors: ["Křídový vápenec", "Sopečný čedič"],
-            explanation: "Red Stone odkazuje na slavné červené břidlicové svahy Roter Hang v Rheinhessenu."
-          }
-        ]
+        description: "Red Stone QbA trocken Gunderloch – Rheinhessen, Německo",
+        questions: []
       },
       {
         id: "bile-riesling-fritz-haag",
-        name: "Riesling Tradition Brauneberg – Fritz Haag",
-        weight: "0,75 l",
-        price: "975,-",
+        name: "Riesling – Fritz Haag",
+        weight: "0,75L",
+        price: "975 Kč",
         allergens: ["12"],
-        description: "Mosel, Německo. Zlatavá barva, intenzivní citrusová aromatika, chuť pikantní, harmonická, nádech akátového medu.",
-        questions: [
-          {
-            id: "bv-haag-q1",
-            question: "Z jaké německé říční oblasti pochází legendární Fritz Haag a jeho Brauneberg Riesling?",
-            correctAnswer: "Mosel (údolí řeky Mosely)",
-            distractors: ["Ahr", "Nahe"],
-            explanation: "Fritz Haag je jedním z největších producentů ryzlinků v moselském údolí."
-          }
-        ]
+        description: "Tradition Brauneberg Fritz Haag – Mosel, Německo",
+        questions: []
       },
       {
         id: "bile-weisser-burgunder-philipp-kuhn",
-        name: "Weisser Burgunder Tradition Trocken – Philipp Kuhn",
-        weight: "0,75 l",
-        price: "725,-",
+        name: "Weisser Burgunder – Philipp Kuhn",
+        weight: "0,75L",
+        price: "725 Kč",
         allergens: ["12"],
-        description: "Pfalz, Německo. Rulandské bílé, chuť pražených mandlí, sušených hrušek, vlašských ořechů a minerality.",
-        questions: [
-          {
-            id: "bv-kuhn-q1",
-            question: "Které oříškové a sušené ovocné tóny dominují v Weisser Burgunder od Philippa Kuhna?",
-            correctAnswer: "Pražené mandle, vlašské ořechy a sušené hrušky",
-            distractors: ["Pistácie, zelené fíky a kokos", "Pražená kávová zrna a borůvky"],
-            explanation: "Tento německý Pinot Blanc nabízí bohatou chuť pražených mandlí, vlašských ořechů a sušených hrušek."
-          }
-        ]
+        description: "Rulandské bílé, Tradition Trocken Philipp Kuhn – Pfalz, Německo",
+        questions: []
       },
       {
         id: "bile-sauvignon-lapis-luna",
         name: "Sauvignon Blanc – Lapis Luna",
-        weight: "0,75 l",
-        price: "789,-",
+        weight: "0,75L",
+        price: "789 Kč",
         allergens: ["12"],
-        description: "North Coast, Kalifornie. Plnější, pikantní kyselinka, ovocný styl odrůdy, zralá bílá broskev a tropické ovoce v chuti.",
-        questions: [
-          {
-            id: "bv-luna-q1",
-            question: "Jaký styl Sauvignonu Blanc představuje kalifornská Lapis Luna?",
-            correctAnswer: "Plnější tělo, pikantní kyselinka, zralá bílá broskev a tropické ovoce",
-            distractors: ["Travnatý a kopřivový novozélandský styl", "Minerální a křemenný styl francouzského Sancerre"],
-            explanation: "Kalifornský styl Lapis Luna je bohatý, plnější, se zralou bílou broskví a tropickým ovocem."
-          }
-        ]
+        description: "Lapis Luna – North Coast, Kalifornie",
+        questions: []
       },
       {
         id: "bile-chardonnay-knotty-vines",
         name: "Chardonnay – Knotty Vines",
-        weight: "0,75 l",
-        price: "975,-",
+        weight: "0,75L",
+        price: "975 Kč",
         allergens: ["12"],
-        description: "Kalifornie. Plnější na dubových sudech, šťavnaté, elegantní závěr, chuť tropického ovoce, koření a mineralita.",
-        questions: [
+        description: "Knotty Vines – Kalifornie",
+        questions: []
+      }
+    ]
+  },
+  {
+    "id": "vina-ruzove",
+    "name": "Růžová vína (0,75l)",
+    "badge": "Růžová vína",
+    "description": "Svěží růžová vína z Moravy",
+    "iconName": "Wine",
+    "items": [
+      {
+        "id": "ruzove-merlot-rose-bilkovi",
+        "name": "Merlot Rosé – Bílkovi",
+        "weight": "0,75L",
+        "price": "405 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "pozdní sběr Bílkovi – Velkopavlovicko, Morava",
+        "questions": [
           {
-            id: "bv-knot-q1",
-            question: "V jakých sudech zrálo kalifornské Chardonnay Knotty Vines a jaký závěr nabízí?",
-            correctAnswer: "V dubových sudech, šťavnatý a elegantní závěr s tóny tropického ovoce a koření",
-            distractors: ["V akátových sudech s tóny čerstvých jablek", "V třešňových sudech s tóny červeného ovoce"],
-            explanation: "Knotty Vines zraje na dubu pro plnou chuť tropického ovoce a elegantní strukturu."
+            "id": "ruzove-merlot-rose-bilkovi-vol",
+            "question": "Jaký je servírovací objem lahve Merlot Rosé od Bílkových?",
+            "correctAnswer": "0,75L",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací objem lahve Merlot Rosé je 0,75L."
+          },
+          {
+            "id": "ruzove-merlot-rose-bilkovi-type",
+            "question": "Jaký přívlastek má víno Merlot Rosé od vinařství Bílkovi?",
+            "correctAnswer": "pozdní sběr",
+            "distractors": [
+              "kabinetní víno",
+              "výběr z hroznů"
+            ],
+            "explanation": "Merlot Rosé od Bílkových je zatříděn v kategorii pozdní sběr."
+          },
+          {
+            "id": "ruzove-merlot-rose-bilkovi-prod",
+            "question": "Které vinařství a z jaké oblasti vyrábí toto růžové víno?",
+            "correctAnswer": "Bílkovi – Velkopavlovicko, Morava",
+            "distractors": [
+              "Gotberg – Pálava",
+              "Kolby – Mikulovsko"
+            ],
+            "explanation": "Víno pochází z rodinného vinařství Bílkovi z Velkopavlovicka na Moravě."
+          },
+          {
+            "id": "ruzove-merlot-rose-bilkovi-price",
+            "question": "Jaká je prodejní cena lahve Merlot Rosé Bílkovi?",
+            "correctAnswer": "405 Kč",
+            "distractors": [
+              "465 Kč",
+              "365 Kč"
+            ],
+            "explanation": "Cena lahve Merlot Rosé (0,75L) je 405 Kč."
+          },
+          {
+            "id": "ruzove-merlot-rose-bilkovi-variety",
+            "question": "Ze které modré odrůdy je vyrobeno toto růžové víno od vinařství Bílkovi?",
+            "correctAnswer": "Merlot",
+            "distractors": [
+              "Frankovka",
+              "Zweigelt"
+            ],
+            "explanation": "Víno je vyrobeno z odrůdy Merlot šetrným lisováním pro růžové víno."
+          },
+          {
+            "id": "ruzove-merlot-rose-bilkovi-allergen",
+            "question": "Který alergen obsahuje víno Merlot Rosé?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 1 – Lepek",
+              "Alergen č. 7 – Mléko"
+            ],
+            "explanation": "Víno obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
           }
         ]
       }
     ]
   },
   {
-    id: "vina-ruzove",
-    name: "Růžová vína (0,75l)",
-    badge: "Růžová vína",
-    description: "Svěží a ovocitá růžová vína pro slunečné dny a lehké pokrmy",
-    iconName: "Wine",
-    items: [
+    "id": "vina-cervena",
+    "name": "Červená vína (0,75l)",
+    "badge": "Červená vína",
+    "description": "Špičková červená vína z Čech, Moravy, Rakouska, Německa a Kalifornie",
+    "iconName": "Wine",
+    "items": [
       {
-        id: "ruzove-merlot-rose-bilkovi",
-        name: "Merlot Rosé – Bílkovi",
-        weight: "0,75 l",
-        price: "405,-",
-        allergens: ["12"],
-        description: "pozdní sběr Bílkovi – Velkopavlovicko, Morava. Příjemně pitelné, vůně malin, jahod a třešní, ovocitá chuť s tóny smetany.",
-        questions: [
+        "id": "cervene-pinot-noir-kraus",
+        "name": "Pinot Noir – Roučí Malé Kraus",
+        "weight": "0,75L",
+        "price": "425 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Roučí Malé Kraus – Mělnicko, Čechy",
+        "questions": [
           {
-            id: "rv-mer-q1",
-            question: "Z jaké francouzské odrůdy je vyrobeno toto moravské růžové víno od Bílkových?",
-            correctAnswer: "Merlot",
-            distractors: ["Cabernet Sauvignon", "Syrah (Shiraz)"],
-            explanation: "Jedná se o Merlot Rosé v pozdním sběru z Velkopavlovické podoblasti."
+            "id": "cervene-pinot-noir-kraus-vol",
+            "question": "Jaký je servírovací objem lahve Pinot Noir Roučí Malé Kraus?",
+            "correctAnswer": "0,75L",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací objem lahve je 0,75L."
           },
           {
-            id: "rv-mer-q2",
-            question: "Jaký lahodný dezertní tón doplňuje ovocitost jahod a malin v chuti tohoto rosé?",
-            correctAnswer: "Tóny jemné smetany",
-            distractors: ["Tóny hořké čokolády", "Tóny čerstvého zázvoru"],
-            explanation: "V popisu je uvedena vůně malin, jahod a třešní s ovocitou chutí s tóny smetany."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    id: "vina-cervene",
-    name: "Červená vína (0,75l)",
-    badge: "Červená vína",
-    description: "Vyzrálá plná červená vína školená v dubových sudech z Čech, Moravy, Rakouska a Kalifornie",
-    iconName: "Wine",
-    items: [
-      {
-        id: "cervene-pinot-noir-rouci-kraus",
-        name: "Pinot Noir Roučí Malé – Kraus",
-        weight: "0,75 l",
-        price: "425,-",
-        allergens: ["12"],
-        description: "Mělnicko, Čechy. Lehké víno, chuť lesní jahody a červené zahradní ovoce.",
-        questions: [
-          {
-            id: "cv-rou-q1",
-            question: "Jak se nazývá tradiční český historický název pro odrůdu Pinot Noir použitý vinařstvím Kraus?",
-            correctAnswer: "Roučí",
-            distractors: ["Klaret", "Šedák"],
-            explanation: "Roučí je staročeský tradiční název pro Rulandské modré (Pinot Noir)."
-          }
-        ]
-      },
-      {
-        id: "cervene-dornfelder-bilkovi",
-        name: "Dornfelder – Bílkovi",
-        weight: "0,75 l",
-        price: "419,-",
-        allergens: ["12"],
-        description: "Velkopavlovicko, Morava. 12 měsíců zrání v sudu, vůně ostružin, plná, harmonická chuť rybízu, třešní a malin.",
-        questions: [
-          {
-            id: "cv-dorn-q1",
-            question: "Jak dlouho zrál Dornfelder od Bílkových v sudu a jaké tmavé ovoce tvoří jeho vůni?",
-            correctAnswer: "12 měsíců v sudu, vůně ostružin",
-            distractors: ["6 měsíců v sudu, vůně jahod", "24 měsíců v sudu, vůně povidel"],
-            explanation: "Víno zrálo 12 měsíců v sudu a vyznačuje se vůní ostružin a plnou chutí rybízu a třešní."
-          }
-        ]
-      },
-      {
-        id: "cervene-cuvee-red-kolby",
-        name: "Cuvée Red (Cabernet Sauvignon, Merlot) – Kolby",
-        weight: "0,75 l",
-        price: "649,-",
-        allergens: ["12"],
-        description: "Mikulovsko, Morava. Plné, komplexní, dlouhý závěr, sytá granátová barva, chuť čokolády, koření, tmavého ovoce a kouře.",
-        questions: [
-          {
-            id: "cv-cred-q1",
-            question: "Které dvě klasické bordeauxské odrůdy tvoří moravské Cuvée Red Kolby?",
-            correctAnswer: "Cabernet Sauvignon a Merlot",
-            distractors: ["Rulandské modré a Svatovavřinecké", "Zweigeltrebe a Frankovka"],
-            explanation: "Cuvée Red od Kolby je kupáží Cabernetu Sauvignon a Merlotu s tóny čokolády a kouře."
-          }
-        ]
-      },
-      {
-        id: "cervene-nina-cuvee-bilkovi",
-        name: "Nina Cuvée (Merlot, Frankovka) – Bílkovi",
-        weight: "0,75 l",
-        price: "699,-",
-        allergens: ["12"],
-        description: "Velkopavlovicko, Morava. Plné, 14 měsíců v dubových sudech, vůně rybízu a pražené kávy, chuť hořké čokolády a švestek.",
-        questions: [
-          {
-            id: "cv-nina-q1",
-            question: "Jaké dvě ušlechtilé odrůdy a jaké dřevo formují Nina Cuvée od Bílkových?",
-            correctAnswer: "Merlot a Frankovka, 14 měsíců v dubových sudech",
-            distractors: ["Cabernet Moravia a Modrý Portugal, 6 měsíců v nerezovém tanku", "Dornfelder a Alibernet, 8 měsíců v akátu"],
-            explanation: "Nina Cuvée spojuje Merlot a Frankovku po 14 měsících v dubových sudech s tóny kávy a čokolády."
-          }
-        ]
-      },
-      {
-        id: "cervene-zweigelt-feller-artinger",
-        name: "Zweigelt – Weingut Feller-Artinger",
-        weight: "0,75 l",
-        price: "660,-",
-        allergens: ["12"],
-        description: "Burgenland, Rakousko. Svěží, vůně po bobulovitém ovoci, sametová chuť tmavého ovoce, dubu, bylin a tabáku.",
-        questions: [
-          {
-            id: "cv-zwei-q1",
-            question: "Z jaké rakouské vinařské oblasti pochází Zweigelt od vinařství Feller-Artinger?",
-            correctAnswer: "Burgenland",
-            distractors: ["Kremstal", "Kamptal"],
-            explanation: "Červená vína Zweigelt od Feller-Artinger pocházejí ze slunného rakouského Burgenlandu."
-          }
-        ]
-      },
-      {
-        id: "cervene-pinot-noir-philipp-kuhn",
-        name: "Pinot Noir Tradition – Philipp Kuhn",
-        weight: "0,75 l",
-        price: "959,-",
-        allergens: ["12"],
-        description: "Pfalz, Německo. Středně plné, vůně lesních jahod, sušených švestek, mandlí, třešní, hořké čokolády a kůže, výrazné třísloviny, dochuť zralých třešní a fialek.",
-        questions: [
-          {
-            id: "cv-kuhn-pn-q1",
-            question: "Které květinové tóny zanechává v elegantní dochuti německý Pinot Noir Philipp Kuhn?",
-            correctAnswer: "Fialky (s tóny zralých třešní)",
-            distractors: ["Růže a heřmánek", "Levandule a šeřík"],
-            explanation: "Tento komplexní Pinot Noir z Pfalze zanechává ušlechtilou dochuť zralých třešní a lesních fialek."
-          }
-        ]
-      },
-      {
-        id: "cervene-cabernet-lapis-luna",
-        name: "Cabernet Sauvignon – Lapis Luna",
-        weight: "0,75 l",
-        price: "789,-",
-        allergens: ["12"],
-        description: "Lodi, Kalifornie. Středně plné, příjemná kyselina, dlouhý závěr, tmavé ovoce, černý rybíz, koření, skořice a hřebíček.",
-        questions: [
-          {
-            id: "cv-luna-cs-q1",
-            question: "Z jaké vyhlášené kalifornské oblasti pochází Cabernet Sauvignon Lapis Luna a jaké koření v něm ucítíte?",
-            correctAnswer: "Lodi (Kalifornie), koření se skořicí a hřebíčkem",
-            distractors: ["Sonoma Valley, zelený pepř a vanilka", "Monterey, badyán a muškátový oříšek"],
-            explanation: "Cabernet Lapis Luna pochází z teplé oblasti Lodi v Kalifornii a voní po černém rybízu, skořici a hřebíčku."
-          }
-        ]
-      },
-      {
-        id: "cervene-zinfandel-hendry",
-        name: "Zinfandel Hendry Ranch HRW",
-        weight: "0,75 l",
-        price: "995,-",
-        allergens: ["12"],
-        description: "Napa Valley, Kalifornie. Plné víno, mohutné, dlouhý kořenitý závěr, šťavnatá kyselinka, chuť tmavé bobulovité ovoce, sladké koření a hořká čokoláda.",
-        questions: [
-          {
-            id: "cv-zin-q1",
-            question: "Z jakého slavného kalifornského údolí pochází mohutný Zinfandel Hendry Ranch HRW?",
-            correctAnswer: "Napa Valley",
-            distractors: ["Santa Barbara", "Paso Robles"],
-            explanation: "Zinfandel Hendry Ranch HRW pochází z nejprestižnějšího amerického vinařského údolí Napa Valley."
+            "id": "cervene-pinot-noir-kraus-prod",
+            "question": "Které vinařství a z jaké oblasti produkuje tento Pinot Noir?",
+            "correctAnswer": "Roučí Malé Kraus – Mělnicko, Čechy",
+            "distractors": [
+              "Vinařství Gotberg – Pálava",
+              "Kolby – Pouzdřany"
+            ],
+            "explanation": "Víno pochází z vinařství Roučí Malé Kraus na Mělnicku v Čechách."
           },
           {
-            id: "cv-zin-q2",
-            question: "Jakou chuťovou kompozici nabízí tento plný kalifornský Zinfandel?",
-            correctAnswer: "Tmavé bobulovité ovoce, sladké koření a hořká čokoláda",
-            distractors: ["Zelená jablka, angrešt a máta", "Kandovaný pomeranč a bílá čokoláda"],
-            explanation: "Jedná se o mohutné víno s dlouhým kořenitým závěrem a tóny tmavého bobulovitého ovoce a hořké čokolády."
+            "id": "cervene-pinot-noir-kraus-price",
+            "question": "Jaká je prodejní cena lahve Pinot Noir Roučí Malé Kraus?",
+            "correctAnswer": "425 Kč",
+            "distractors": [
+              "495 Kč",
+              "380 Kč"
+            ],
+            "explanation": "Cena lahve Pinot Noir Roučí Malé Kraus je 425 Kč."
+          },
+          {
+            "id": "cervene-pinot-noir-kraus-allergen",
+            "question": "Který alergen obsahuje Pinot Noir Roučí Malé Kraus?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 1 – Lepek",
+              "Alergen č. 7 – Mléko"
+            ],
+            "explanation": "Víno obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
+          }
+        ]
+      },
+      {
+        "id": "cervene-dornfelder-bilkovi",
+        "name": "Dornfelder – Bílkovi",
+        "weight": "0,75L",
+        "price": "419 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Bílkovi – Velkopavlovicko, Morava",
+        "questions": [
+          {
+            "id": "cervene-dornfelder-bilkovi-vol",
+            "question": "Jaký je servírovací objem lahve Dornfelder od Bílkových?",
+            "correctAnswer": "0,75L",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací objem položky Dornfelder je 0,75L."
+          },
+          {
+            "id": "cervene-dornfelder-bilkovi-prod",
+            "question": "Které vinařství a z jaké moravské podoblasti produkuje tento Dornfelder?",
+            "correctAnswer": "Bílkovi – Velkopavlovicko, Morava",
+            "distractors": [
+              "Reisten – Mikulovsko",
+              "Sůkal – Slovácko"
+            ],
+            "explanation": "Dornfelder produkuje rodinné vinařství Bílkovi z Velkopavlovicka na Moravě."
+          },
+          {
+            "id": "cervene-dornfelder-bilkovi-price",
+            "question": "Jaká je prodejní cena lahve Dornfelder Bílkovi?",
+            "correctAnswer": "419 Kč",
+            "distractors": [
+              "469 Kč",
+              "379 Kč"
+            ],
+            "explanation": "Cena lahve Dornfelder od Bílkových je 419 Kč."
+          },
+          {
+            "id": "cervene-dornfelder-bilkovi-allergen",
+            "question": "Který alergen obsahuje Dornfelder Bílkovi?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 6 – Sója",
+              "Alergen č. 3 – Vejce"
+            ],
+            "explanation": "Víno obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
+          }
+        ]
+      },
+      {
+        "id": "cervene-cuvee-red-kolby",
+        "name": "Cuvée Red – (Cabernet Sauvignon, Merlot) Kolby",
+        "weight": "0,75L",
+        "price": "649 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "(Cabernet Sauvignon, Merlot) Kolby – Mikulovsko, Morava",
+        "questions": [
+          {
+            "id": "cervene-cuvee-red-kolby-vol",
+            "question": "Jaký je servírovací objem položky Cuvée Red Kolby?",
+            "correctAnswer": "0,75L",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací objem lahve Cuvée Red Kolby je 0,75L."
+          },
+          {
+            "id": "cervene-cuvee-red-kolby-grapes",
+            "question": "Ze kterých dvou odrůd je složeno víno Cuvée Red Kolby?",
+            "correctAnswer": "Cabernet Sauvignon a Merlot",
+            "distractors": [
+              "Frankovka a Zweigelt",
+              "Pinot Noir a Dornfelder"
+            ],
+            "explanation": "Cuvée Red z vinařství Kolby je kupáží odrůd Cabernet Sauvignon a Merlot."
+          },
+          {
+            "id": "cervene-cuvee-red-kolby-prod",
+            "question": "Které vinařství z Mikulovska připravuje toto Cuvée Red?",
+            "correctAnswer": "Kolby – Mikulovsko, Morava",
+            "distractors": [
+              "Gotberg – Pálava",
+              "Bílkovi – Velkopavlovicko"
+            ],
+            "explanation": "Cuvée Red vyrábí vinařství Kolby v Pouzdřanech na Mikulovsku."
+          },
+          {
+            "id": "cervene-cuvee-red-kolby-price",
+            "question": "Jaká je prodejní cena lahve Cuvée Red Kolby?",
+            "correctAnswer": "649 Kč",
+            "distractors": [
+              "599 Kč",
+              "720 Kč"
+            ],
+            "explanation": "Cena lahve Cuvée Red Kolby je 649 Kč."
+          },
+          {
+            "id": "cervene-cuvee-red-kolby-allergen",
+            "question": "Který alergen obsahuje víno Cuvée Red Kolby?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 5 – Arašídy",
+              "Alergen č. 1 – Lepek"
+            ],
+            "explanation": "Víno obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
+          }
+        ]
+      },
+      {
+        "id": "cervene-nina-cuvee-bilkovi",
+        "name": "Nina Cuvée – (Merlot, Frankovka) Bílkovi",
+        "weight": "0,75L",
+        "price": "699 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "(Merlot, Frankovka) Bílkovi – Velkopavlovicko, Morava",
+        "questions": [
+          {
+            "id": "cervene-nina-cuvee-bilkovi-vol",
+            "question": "Jaký je servírovací objem lahve Nina Cuvée od Bílkových?",
+            "correctAnswer": "0,75L",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací objem položky Nina Cuvée je 0,75L."
+          },
+          {
+            "id": "cervene-nina-cuvee-bilkovi-grapes",
+            "question": "Jaké dvě odrůdy tvoří kupáž Nina Cuvée od vinařství Bílkovi?",
+            "correctAnswer": "Merlot a Frankovka",
+            "distractors": [
+              "Cabernet Sauvignon a Pinot Noir",
+              "Dornfelder a Svatovavřinecké"
+            ],
+            "explanation": "Nina Cuvée je harmonická kupáž odrůd Merlot a Frankovka."
+          },
+          {
+            "id": "cervene-nina-cuvee-bilkovi-prod",
+            "question": "Které vinařství a z jaké oblasti produkuje Nina Cuvée?",
+            "correctAnswer": "Bílkovi – Velkopavlovicko, Morava",
+            "distractors": [
+              "Kolby – Mikulovsko",
+              "Kraus – Mělnicko"
+            ],
+            "explanation": "Nina Cuvée pochází z rodinného vinařství Bílkovi na Velkopavlovicku."
+          },
+          {
+            "id": "cervene-nina-cuvee-bilkovi-price",
+            "question": "Jaká je prodejní cena lahve Nina Cuvée Bílkovi?",
+            "correctAnswer": "699 Kč",
+            "distractors": [
+              "629 Kč",
+              "789 Kč"
+            ],
+            "explanation": "Cena lahve Nina Cuvée Bílkovi je 699 Kč."
+          },
+          {
+            "id": "cervene-nina-cuvee-bilkovi-allergen",
+            "question": "Který alergen obsahuje víno Nina Cuvée?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 7 – Mléko",
+              "Alergen č. 9 – Celer"
+            ],
+            "explanation": "Víno obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
+          }
+        ]
+      },
+      {
+        "id": "cervene-zweigelt-feiler-artinger",
+        "name": "Zweigelt – Weingut Feiler-Artinger",
+        "weight": "0,75L",
+        "price": "660 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Weingut Feiler-Artinger – Burgenland, Rakousko",
+        "questions": [
+          {
+            "id": "cervene-zweigelt-feiler-artinger-vol",
+            "question": "Jaký je servírovací objem položky Zweigelt Weingut Feiler-Artinger?",
+            "correctAnswer": "0,75L",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací objem lahve je 0,75L."
+          },
+          {
+            "id": "cervene-zweigelt-feiler-artinger-prod",
+            "question": "Ze které země a regionu pochází vinařství Feiler-Artinger?",
+            "correctAnswer": "Burgenland, Rakousko",
+            "distractors": [
+              "Weinviertel, Rakousko",
+              "Pfalz, Německo"
+            ],
+            "explanation": "Weingut Feiler-Artinger sídlí v rakouské vinařské oblasti Burgenland."
+          },
+          {
+            "id": "cervene-zweigelt-feiler-artinger-price",
+            "question": "Jaká je prodejní cena lahve Zweigelt Feiler-Artinger?",
+            "correctAnswer": "660 Kč",
+            "distractors": [
+              "590 Kč",
+              "720 Kč"
+            ],
+            "explanation": "Cena lahve Zweigelt Feiler-Artinger je 660 Kč."
+          },
+          {
+            "id": "cervene-zweigelt-feiler-artinger-variety",
+            "question": "O jakou typickou rakouskou odrůdu se jedná u tohoto červeného vína?",
+            "correctAnswer": "Zweigelt",
+            "distractors": [
+              "Blaufränkisch",
+              "St. Laurent"
+            ],
+            "explanation": "Jedná se o tradiční odrůdu Zweigelt (Zweigeltrebe)."
+          },
+          {
+            "id": "cervene-zweigelt-feiler-artinger-allergen",
+            "question": "Který alergen obsahuje Zweigelt Feiler-Artinger?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 2 – Korýši",
+              "Alergen č. 1 – Lepek"
+            ],
+            "explanation": "Víno obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
+          }
+        ]
+      },
+      {
+        "id": "cervene-pinot-noir-kuhn",
+        "name": "Pinot Noir – Tradition Philip Kuhn",
+        "weight": "0,75L",
+        "price": "959 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Tradition Philip Kuhn – Pfalz, Německo",
+        "questions": [
+          {
+            "id": "cervene-pinot-noir-kuhn-vol",
+            "question": "Jaký je servírovací objem lahve německého Pinot Noir Philip Kuhn?",
+            "correctAnswer": "0,75L",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací objem lahve je 0,75L."
+          },
+          {
+            "id": "cervene-pinot-noir-kuhn-type",
+            "question": "Jakou edici / typ představuje tento Pinot Noir od Philipa Kuhna?",
+            "correctAnswer": "Tradition",
+            "distractors": [
+              "Reserve",
+              "Grand Cru"
+            ],
+            "explanation": "Pinot Noir od Philipa Kuhna nese označení Tradition."
+          },
+          {
+            "id": "cervene-pinot-noir-kuhn-prod",
+            "question": "Ze které německé oblasti pochází vinař Philip Kuhn?",
+            "correctAnswer": "Pfalz, Německo",
+            "distractors": [
+              "Mosel, Německo",
+              "Rheingau, Německo"
+            ],
+            "explanation": "Vinařství Philip Kuhn sídlí v německé oblasti Pfalz."
+          },
+          {
+            "id": "cervene-pinot-noir-kuhn-price",
+            "question": "Jaká je prodejní cena lahve Pinot Noir Tradition Philip Kuhn?",
+            "correctAnswer": "959 Kč",
+            "distractors": [
+              "879 Kč",
+              "1090 Kč"
+            ],
+            "explanation": "Cena lahve Pinot Noir Tradition Philip Kuhn je 959 Kč."
+          },
+          {
+            "id": "cervene-pinot-noir-kuhn-allergen",
+            "question": "Který alergen obsahuje Pinot Noir Philip Kuhn?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 11 – Sezam",
+              "Alergen č. 4 – Ryby"
+            ],
+            "explanation": "Víno obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
+          }
+        ]
+      },
+      {
+        "id": "cervene-cabernet-sauvignon-lapis-luna",
+        "name": "Cabernet Sauvignon – Lapis Luna",
+        "weight": "0,75L",
+        "price": "789 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Lapis Luna – Lodi, Kalifornie",
+        "questions": [
+          {
+            "id": "cervene-cabernet-sauvignon-lapis-luna-vol",
+            "question": "Jaký je servírovací objem vína Cabernet Sauvignon Lapis Luna?",
+            "correctAnswer": "0,75L",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací objem položky Cabernet Sauvignon Lapis Luna je 0,75L."
+          },
+          {
+            "id": "cervene-cabernet-sauvignon-lapis-luna-prod",
+            "question": "Ze které kalifornské oblasti pochází Cabernet Sauvignon Lapis Luna?",
+            "correctAnswer": "Lodi, Kalifornie",
+            "distractors": [
+              "Napa Valley, Kalifornie",
+              "Sonoma, Kalifornie"
+            ],
+            "explanation": "Cabernet Sauvignon od Lapis Luna pochází z oblasti Lodi v Kalifornii."
+          },
+          {
+            "id": "cervene-cabernet-sauvignon-lapis-luna-price",
+            "question": "Jaká je prodejní cena lahve Cabernet Sauvignon Lapis Luna?",
+            "correctAnswer": "789 Kč",
+            "distractors": [
+              "729 Kč",
+              "859 Kč"
+            ],
+            "explanation": "Cena lahve Cabernet Sauvignon Lapis Luna je 789 Kč."
+          },
+          {
+            "id": "cervene-cabernet-sauvignon-lapis-luna-variety",
+            "question": "O jakou odrůdu se jedná u tohoto vína od Lapis Luna?",
+            "correctAnswer": "Cabernet Sauvignon",
+            "distractors": [
+              "Merlot",
+              "Syrah"
+            ],
+            "explanation": "Jedná se o odrůdu Cabernet Sauvignon."
+          },
+          {
+            "id": "cervene-cabernet-sauvignon-lapis-luna-allergen",
+            "question": "Který alergen obsahuje Cabernet Sauvignon Lapis Luna?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 8 – Ořechy",
+              "Alergen č. 6 – Sója"
+            ],
+            "explanation": "Víno obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
+          }
+        ]
+      },
+      {
+        "id": "cervene-zinfandel-hendry-ranch",
+        "name": "Zinfandel – Hendry Ranch HRW",
+        "weight": "0,75L",
+        "price": "995 Kč",
+        "allergens": [
+          "12"
+        ],
+        "description": "Hendry Ranch HRW – Napa Valley, Kalifornie",
+        "questions": [
+          {
+            "id": "cervene-zinfandel-hendry-ranch-vol",
+            "question": "Jaký je servírovací objem lahve Zinfandel Hendry Ranch HRW?",
+            "correctAnswer": "0,75L",
+            "distractors": [
+              "0,5 l",
+              "1,0 l"
+            ],
+            "explanation": "Servírovací objem lahve Zinfandel Hendry Ranch HRW je 0,75L."
+          },
+          {
+            "id": "cervene-zinfandel-hendry-ranch-prod",
+            "question": "Ze kterého slavného údolí v Kalifornii pochází Hendry Ranch HRW?",
+            "correctAnswer": "Napa Valley, Kalifornie",
+            "distractors": [
+              "Lodi, Kalifornie",
+              "Paso Robles, Kalifornie"
+            ],
+            "explanation": "Hendry Ranch HRW sídlí v prestižním údolí Napa Valley v Kalifornii."
+          },
+          {
+            "id": "cervene-zinfandel-hendry-ranch-price",
+            "question": "Jaká je prodejní cena lahve Zinfandel Hendry Ranch HRW?",
+            "correctAnswer": "995 Kč",
+            "distractors": [
+              "895 Kč",
+              "1150 Kč"
+            ],
+            "explanation": "Cena lahve Zinfandel Hendry Ranch HRW je 995 Kč."
+          },
+          {
+            "id": "cervene-zinfandel-hendry-ranch-variety",
+            "question": "Jaká typická kalifornská odrůda tvoří toto víno z Hendry Ranch?",
+            "correctAnswer": "Zinfandel",
+            "distractors": [
+              "Cabernet Franc",
+              "Malbec"
+            ],
+            "explanation": "Jedná se o vyhlášenou kalifornskou odrůdu Zinfandel."
+          },
+          {
+            "id": "cervene-zinfandel-hendry-ranch-allergen",
+            "question": "Který alergen obsahuje Zinfandel Hendry Ranch HRW?",
+            "correctAnswer": "Alergen č. 12 – Oxid siřičitý a siřičitany",
+            "distractors": [
+              "Alergen č. 1 – Lepek",
+              "Alergen č. 7 – Mléko"
+            ],
+            "explanation": "Víno obsahuje alergen č. 12 (Oxid siřičitý a siřičitany)."
           }
         ]
       }

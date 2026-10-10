@@ -31,11 +31,17 @@ import { AudioPronounceButton } from './AudioPronounceButton';
 
 interface LibraryViewProps {
   language?: 'cs' | 'en';
+  initialSelectedItemId?: string | null;
+  onClearInitialSelectedItem?: () => void;
 }
 
 type LibraryTab = 'culinary' | 'beverages';
 
-export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => {
+export const LibraryView: React.FC<LibraryViewProps> = ({
+  language = 'cs',
+  initialSelectedItemId = null,
+  onClearInitialSelectedItem
+}) => {
   const isEn = language === 'en';
 
   // Dynamic datasets based on active language
@@ -52,6 +58,45 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
     }
   });
 
+  // Auto-open item detail if navigated from Kniha menu or other tabs
+  useEffect(() => {
+    if (!initialSelectedItemId) return;
+
+    const findMatch = (rawId: string) => {
+      const normalized = rawId.trim().toLowerCase();
+      // Check beverages first
+      const bev = activeBeverageItems.find(b =>
+        b.id.toLowerCase() === normalized ||
+        b.name.toLowerCase() === normalized ||
+        b.name.toLowerCase().includes(normalized) ||
+        normalized.includes(b.name.toLowerCase())
+      );
+      if (bev) {
+        setActiveTab('beverages');
+        setSelectedBeverageCategory('all');
+        setActiveBeverageModal(bev);
+        return true;
+      }
+      // Check culinary terms
+      const cul = activeCulinaryTerms.find(c =>
+        c.id.toLowerCase() === normalized ||
+        c.name.toLowerCase() === normalized ||
+        c.name.toLowerCase().includes(normalized) ||
+        normalized.includes(c.name.toLowerCase()) ||
+        c.fuzeMenuAppearances.some(dish => dish.toLowerCase().includes(normalized) || normalized.includes(dish.toLowerCase()))
+      );
+      if (cul) {
+        setActiveTab('culinary');
+        setSelectedCulinaryCategory('all');
+        setActiveCulinaryModal(cul);
+        return true;
+      }
+      return false;
+    };
+
+    findMatch(initialSelectedItemId);
+    onClearInitialSelectedItem?.();
+  }, [initialSelectedItemId, activeBeverageItems, activeCulinaryTerms, onClearInitialSelectedItem]);
   // Search query
   const [searchQuery, setSearchQuery] = useState('');
 
@@ -153,8 +198,15 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
       id: 'all', 
       label: isEn ? 'All Drinks' : 'Všechny nápoje',
       description: isEn 
-        ? 'Complete beverage encyclopedia: wines, spirits, and craft beers.' 
-        : 'Kompletní nápojová encyklopedie: vína, destiláty a piva na čepu.'
+        ? 'Complete beverage encyclopedia: sparkling wines, spirits, and craft beers.' 
+        : 'Kompletní nápojová encyklopedie: šumivá vína, destiláty a piva na čepu.'
+    },
+    { 
+      id: 'wine_glass', 
+      label: isEn ? 'By the Glass' : 'Vína po skle',
+      description: isEn 
+        ? 'Carefully curated sparkling, white, rosé, and red wines served by the glass.' 
+        : 'Pečlivě vybraná šumivá, bílá, růžová a červená vína rozlévaná po skle.'
     },
     { 
       id: 'wine_white', 
@@ -167,15 +219,22 @@ export const LibraryView: React.FC<LibraryViewProps> = ({ language = 'cs' }) => 
       id: 'wine_red', 
       label: isEn ? 'Red Wines' : 'Červená vína',
       description: isEn 
-        ? 'Full-bodied red wines, pinot noir, and barrel-aged reserve vintages.' 
-        : 'Plná červená vína, pinoty a vyzrálá vína z dubových sudů.'
+        ? 'Selected bottle red wines from Bohemia, Moravia, Austria, Germany, and California.' 
+        : 'Výběrová červená vína z Čech, Moravy, Rakouska, Německa a Kalifornie.'
+    },
+    { 
+      id: 'wine_rose', 
+      label: isEn ? 'Rosé Wines' : 'Růžová vína',
+      description: isEn 
+        ? 'Crisp and refreshing Moravian rosé wines.' 
+        : 'Svěží a ovocná moravská růžová vína.'
     },
     { 
       id: 'wine_sparkling', 
-      label: isEn ? 'Sparkling & Crémant' : 'Šumivá & Sekty',
+      label: isEn ? 'Bubbles & Sparkling' : 'Bubliny & Šumivá',
       description: isEn 
-        ? 'Traditional method sparkling wines, crémants, and prosecco.' 
-        : 'Sekty kvašené v lahvi tradiční metodou, crémanty a prosecco.'
+        ? 'Sparkling wines, crémants, and method traditionelle.' 
+        : 'Špičková šumivá vína, moravský crémant a kalifornský sekt kvašený v lahvi.'
     },
     { 
       id: 'rum', 
