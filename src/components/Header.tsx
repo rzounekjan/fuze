@@ -1,5 +1,5 @@
 import React from 'react';
-import { Volume2, VolumeX, BookOpen, Trophy, Sparkles, Utensils, RotateCcw, MapPin, Library, Sun, Moon, ChevronLeft, ChevronRight, Disc3 } from 'lucide-react';
+import { Volume2, VolumeX, BookOpen, Trophy, Sparkles, Utensils, RotateCcw, MapPin, Library, Sun, Moon, ChevronLeft, ChevronRight, Radio } from 'lucide-react';
 import { UserStats } from '../utils/storage';
 import { soundManager } from '../utils/sound';
 import { PWAInstallButton } from './PWAInstallButton';
@@ -15,7 +15,6 @@ interface HeaderProps {
   onLanguageChange?: (lang: 'cs' | 'en') => void;
   theme?: 'dark' | 'light';
   onToggleTheme?: () => void;
-  onOpenAudioStudio?: () => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -28,8 +27,7 @@ export const Header: React.FC<HeaderProps> = ({
   language = 'cs',
   onLanguageChange,
   theme = 'dark',
-  onToggleTheme,
-  onOpenAudioStudio
+  onToggleTheme
 }) => {
   const [soundOn, setSoundOn] = React.useState<boolean>(soundManager.isEnabled());
   const tabsRef = React.useRef<HTMLDivElement>(null);
@@ -155,20 +153,24 @@ export const Header: React.FC<HeaderProps> = ({
               </div>
             </div>
 
-            {/* Action buttons: Zvuk, Stáhnutí, Světlý/Tmavý režim (řadí se vedle sebe nebo pod sebe dle šířky) */}
-            <div className="lg:hidden flex flex-wrap items-center justify-end gap-1 sm:gap-1.5 shrink-0 max-w-[125px] sm:max-w-none">
-              {/* Audio Studio */}
-              {onOpenAudioStudio && (
-                <button
-                  type="button"
-                  onClick={onOpenAudioStudio}
-                  title={language === 'en' ? 'Audio Studio & Recordings' : 'Audio Studio & Nahrávky'}
-                  className="p-1.5 sm:p-2 rounded-lg bg-amber-500/10 hover:bg-amber-500/25 text-amber-300 border border-amber-500/30 transition-colors shrink-0"
-                  aria-label="Audio Studio"
-                >
-                  <Disc3 className="w-4 h-4 text-amber-400" />
-                </button>
-              )}
+            {/* Action buttons: Audio Studio, Zvuk, Stáhnutí, Světlý/Tmavý režim */}
+            <div className="lg:hidden flex flex-wrap items-center justify-end gap-1 sm:gap-1.5 shrink-0 max-w-[145px] sm:max-w-none">
+              {/* 0. Audio Studio & Nahrávky */}
+              <button
+                type="button"
+                onClick={() => {
+                  setCurrentTab('library');
+                  try {
+                    sessionStorage.setItem('fuze_library_tab', 'beverages');
+                  } catch {}
+                  window.dispatchEvent(new CustomEvent('fuze-open-audio-studio'));
+                }}
+                title={language === 'en' ? 'Audio Studio & Recordings' : 'Audio studio & nahrávky'}
+                aria-label={language === 'en' ? 'Audio Studio & Recordings' : 'Audio studio & nahrávky'}
+                className="p-1.5 sm:p-2 rounded-lg bg-amber-500/10 hover:bg-amber-500/20 text-amber-400 border border-amber-500/30 hover:border-amber-400 transition-all shrink-0 active:scale-95"
+              >
+                <Radio className="w-4 h-4 text-amber-400" />
+              </button>
 
               {/* 1. Zvuk */}
               <button
@@ -342,19 +344,23 @@ export const Header: React.FC<HeaderProps> = ({
               </span>
             </div>
 
-            {/* Audio Studio button */}
-            {onOpenAudioStudio && (
-              <button
-                type="button"
-                onClick={onOpenAudioStudio}
-                title={language === 'en' ? 'Audio Studio & Recordings' : 'Audio Studio & Nahrávky (obsaženo na stránkách)'}
-                aria-label="Audio Studio"
-                className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-amber-500/10 hover:bg-amber-500/25 text-amber-300 hover:text-amber-200 border border-amber-500/30 hover:border-amber-400/50 shadow-xs transition-colors shrink-0"
-              >
-                <Disc3 className="w-4 h-4 text-amber-400 animate-spin-slow" />
-                <span className="font-semibold text-xs hidden xl:inline">{language === 'en' ? 'Audio Recordings' : 'Audio nahrávky'}</span>
-              </button>
-            )}
+            {/* Audio Studio & Nahrávky button */}
+            <button
+              type="button"
+              onClick={() => {
+                setCurrentTab('library');
+                try {
+                  sessionStorage.setItem('fuze_library_tab', 'beverages');
+                } catch {}
+                window.dispatchEvent(new CustomEvent('fuze-open-audio-studio'));
+              }}
+              title={language === 'en' ? 'Audio Studio & Recordings' : 'Audio studio & nahrávky'}
+              aria-label={language === 'en' ? 'Audio Studio & Recordings' : 'Audio studio & nahrávky'}
+              className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-amber-500/10 hover:bg-amber-500/20 text-amber-400 border border-amber-500/30 hover:border-amber-400 transition-colors shrink-0"
+            >
+              <Radio className="w-3.5 h-3.5 text-amber-400" />
+              <span className="font-semibold text-xs hidden xl:inline">{language === 'en' ? 'Audio Studio' : 'Audio studio'}</span>
+            </button>
 
             {/* Sound toggle */}
             <button

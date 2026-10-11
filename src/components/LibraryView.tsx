@@ -100,6 +100,22 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
     findMatch(initialSelectedItemId);
     onClearInitialSelectedItem?.();
   }, [initialSelectedItemId, activeBeverageItems, activeCulinaryTerms, onClearInitialSelectedItem]);
+
+  // Listener for header 'Audio Studio & Nahrávky' button
+  useEffect(() => {
+    const handleOpenAudioStudio = () => {
+      setActiveTab('beverages');
+      setSelectedBeverageCategory('wine_glass');
+      setTimeout(() => {
+        audioPanelRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }, 150);
+    };
+
+    window.addEventListener('fuze-open-audio-studio', handleOpenAudioStudio);
+    return () => {
+      window.removeEventListener('fuze-open-audio-studio', handleOpenAudioStudio);
+    };
+  }, []);
   // Search query
   const [searchQuery, setSearchQuery] = useState('');
 
