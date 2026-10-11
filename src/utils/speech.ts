@@ -1,8 +1,8 @@
-// Web Speech API utility for audio pronunciation of dishes and ingredients
-// - Czech Menu: Spoken 100% naturally by a Czech speaker in Czech (cs-CZ), no mangled phonetics or English dialect errors
-// - English Menu: Spoken 100% naturally by an English speaker in English (en-US / en-GB)
-// - Sentence/clause chunking: prevents mobile buffer overflow & mid-speech freeze
-// - Absolute mobile safety: NO destructive pause/resume calls
+// Web Speech API utility for autonomous synthetic voice pronunciation of dishes and ingredients
+// - Completely isolated from pre-recorded audio files
+// - Czech Menu: Spoken naturally by a Czech speaker in Czech (cs-CZ)
+// - English Menu: Spoken naturally by an English speaker in English (en-US / en-GB)
+// - Short clause chunking (<65 chars): prevents mobile WebKit/Chromium buffer timeouts & speech freezes
 // - Watchdog failsafe timer preventing endless blinking speaker icons
 // - Strong garbage-collection protection across WebKit and Chromium
 
@@ -85,7 +85,7 @@ class SpeechManager {
         window.speechSynthesis.onvoiceschanged = handler;
       }
 
-      setTimeout(onDone, 800);
+      setTimeout(onDone, 600);
     });
   }
 
@@ -138,12 +138,14 @@ class SpeechManager {
   }
 
   /**
-   * Split a block of text into natural, digestible sentence/clause chunks (<85 chars).
-   * This completely prevents mobile buffer timeouts, audio buffer overflows, and
-   * ensures speech never cuts off in the middle on Android or iOS.
+   * Split a block of text into natural, digestible sentence/clause chunks (<65 chars).
+   * Short chunks prevent mobile buffer overflows and 15s iOS Safari timeouts.
    */
-  private splitIntoChunks(text: string, maxLen = 85): string[] {
-    const rawParts = text.split(/(?<=[.?!,;–—])\s+/);
+  private splitIntoChunks(text: string, maxLen = 65): string[] {
+    if (!text || !text.trim()) return [];
+
+    // Split on punctuation or line breaks
+    const rawParts = text.split(/(?<=[.?!,;:–—\n])\s+/);
     const chunks: string[] = [];
     let current = '';
 
@@ -165,10 +167,10 @@ class SpeechManager {
       chunks.push(current.trim());
     }
 
-    // Safety fallback: if any individual chunk exceeds maxLen * 1.4, break it at word boundaries
+    // Safety fallback: if any individual chunk exceeds maxLen * 1.3, break at word boundaries
     const safeChunks: string[] = [];
     for (const chunk of chunks) {
-      if (chunk.length <= maxLen * 1.4) {
+      if (chunk.length <= maxLen * 1.3) {
         safeChunks.push(chunk);
       } else {
         const words = chunk.split(' ');
@@ -191,13 +193,12 @@ class SpeechManager {
   }
 
   /**
-   * Cleans text for Czech speech:
-   * Pure, natural Czech pronunciation without artificial English dialect distortions.
-   * Expands measurement units into natural Czech words.
+   * Clean text for Czech speech synthesis:
+   * Expands measurement units and formats characters for speech.
    */
   private cleanCzechText(text: string): string {
     return (text || '')
-      // Expand common culinary measurement units to natural spoken Czech
+      .replace(/<[^>]*>/g, '')
       .replace(/\b(\d+)\s*ml\b/gi, '$1 mililitrů')
       .replace(/\b(\d+)\s*cl\b/gi, '$1 centilitrů')
       .replace(/\b(\d+)\s*dl\b/gi, '$1 decilitrů')
@@ -205,29 +206,35 @@ class SpeechManager {
       .replace(/\b(\d+)\s*g\b/gi, '$1 gramů')
       .replace(/\b(\d+)\s*kg\b/gi, '$1 kilogramů')
       .replace(/\b(\d+)\s*ks\b/gi, '$1 kusů')
+      .replace(/\b(\d+)\s*%\b/gi, '$1 procent')
       .replace(/\bml\b/gi, 'mililitrů')
       .replace(/\bcl\b/gi, 'centilitrů')
       .replace(/\bdl\b/gi, 'decilitrů')
       .replace(/\bg\b/gi, 'gramů')
       .replace(/\bks\b/gi, 'kusů')
+      .replace(/&/g, ' a ')
       .replace(/[•;·]/g, ', ')
       .replace(/\s*\/\s*/g, ', ')
+      .replace(/["'“”«»]/g, '')
+      .replace(/[\r\n]+/g, '. ')
       .replace(/\s+/g, ' ')
       .trim();
   }
 
   /**
-   * Cleans text for English speech:
+   * Clean text for English speech synthesis:
    * Formats abbreviations and units for natural English pronunciation.
    */
   private cleanEnglishText(text: string): string {
     return (text || '')
+      .replace(/<[^>]*>/g, '')
       .replace(/\b(\d+)\s*ml\b/gi, '$1 milliliters')
       .replace(/\b(\d+)\s*cl\b/gi, '$1 centiliters')
       .replace(/\b(\d+)\s*l\b/gi, '$1 liters')
       .replace(/\b(\d+)\s*g\b/gi, '$1 grams')
       .replace(/\b(\d+)\s*kg\b/gi, '$1 kilograms')
       .replace(/\b(\d+)\s*ks\b/gi, '$1 pieces')
+      .replace(/\b(\d+)\s*%\b/gi, '$1 percent')
       .replace(/\bml\b/gi, 'milliliters')
       .replace(/\bcl\b/gi, 'centiliters')
       .replace(/\bl\b/gi, 'liters')
@@ -235,16 +242,19 @@ class SpeechManager {
       .replace(/\bkg\b/gi, 'kilograms')
       .replace(/\bks\b/gi, 'pieces')
       .replace(/\bFUZE\b/g, 'Fuse')
+      .replace(/&/g, ' and ')
       .replace(/[•;·]/g, ', ')
       .replace(/\s*\/\s*/g, ', ')
+      .replace(/["'“”«»]/g, '')
+      .replace(/[\r\n]+/g, '. ')
       .replace(/\s+/g, ' ')
       .trim();
   }
 
   /**
-   * Resolves appropriate voices:
-   * English: ONLY genuine English voice (en-US, en-GB, en-AU)
-   * Czech: High-quality or local Czech voice (with Slovak fallback if missing on PC)
+   * Resolves appropriate system voices:
+   * English: STRICTLY English voice (en-US, en-GB, en-AU)
+   * Czech: High-quality or local Czech voice (cs-CZ)
    */
   private getVoices(): { enVoice: SpeechSynthesisVoice | null; csVoice: SpeechSynthesisVoice | null } {
     if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
@@ -281,7 +291,7 @@ class SpeechManager {
           csVoices[0];
       }
     } else {
-      // Slovak fallback only if device does not have any Czech voice installed
+      // Slovak fallback if device has no Czech voice installed
       csVoice = voices.find(v => v.lang.toLowerCase().startsWith('sk')) || null;
     }
 
@@ -290,14 +300,12 @@ class SpeechManager {
 
   /**
    * Processes the speech chunk queue sequentially.
-   * On mobile, sequentially playing small chunks is 100% reliable,
-   * never pauses or freezes, and always completes the full text.
    */
   private processQueue(sessionId: string) {
     if (this.currentId !== sessionId) return;
 
     if (this.queue.length === 0) {
-      // All chunks finished cleanly!
+      // All chunks finished cleanly
       this.clearWatchdog();
       this.activeUtterances.clear();
       this.currentId = null;
@@ -344,9 +352,9 @@ class SpeechManager {
       utterance.onerror = (e) => {
         this.activeUtterances.delete(utterance);
         if (e.error !== 'canceled' && e.error !== 'interrupted') {
-          console.warn('Speech synthesis chunk notice:', e.error);
+          console.warn('Speech chunk notice:', e.error);
         }
-        // Continue playing next chunk
+        // Continue playing next chunk so error never hangs state
         this.processQueue(sessionId);
       };
 
@@ -358,6 +366,10 @@ class SpeechManager {
     }
   }
 
+  /**
+   * Main speech synthesis entry point for item text pronunciation.
+   * Completely autonomous and isolated from audio recordings.
+   */
   public speak(id: string, name: string, description: string, lang: 'cs' | 'en' = 'cs') {
     if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
       console.warn('SpeechSynthesis is not supported in this browser.');
@@ -385,9 +397,7 @@ class SpeechManager {
     const chunksToPlay: SpeechChunk[] = [];
     let totalTextChars = 0;
 
-    // ==========================================
-    // 1. ENGLISH MODE (English Menu) - ONLY ENGLISH SPEAKER
-    // ==========================================
+    // 1. ENGLISH MODE
     if (lang === 'en') {
       const cleanName = this.cleanEnglishText(name);
       let cleanDesc = this.cleanEnglishText(description);
@@ -416,7 +426,7 @@ class SpeechManager {
 
       const fullText = cleanName ? `${cleanName}. ${cleanDesc}` : cleanDesc;
       totalTextChars = fullText.length;
-      const textChunks = this.splitIntoChunks(fullText, 85);
+      const textChunks = this.splitIntoChunks(fullText, 65);
 
       for (const t of textChunks) {
         chunksToPlay.push({
@@ -427,11 +437,8 @@ class SpeechManager {
         });
       }
     }
-    // ==========================================
-    // 2. CZECH MODE (Czech Menu) - ONLY CZECH SPEAKER (NATURAL CZECH)
-    // ==========================================
+    // 2. CZECH MODE
     else {
-      // Natural Czech speech: clean original text, expand units, no artificial phonetics/distortions
       const cleanName = this.cleanCzechText(name);
       let cleanDesc = '';
       if (description && description.trim()) {
@@ -454,7 +461,7 @@ class SpeechManager {
 
       const fullCzechText = cleanDesc ? `${cleanName}. ${cleanDesc}` : `${cleanName}.`;
       totalTextChars = fullCzechText.length;
-      const descChunks = this.splitIntoChunks(fullCzechText, 85);
+      const descChunks = this.splitIntoChunks(fullCzechText, 65);
 
       for (const c of descChunks) {
         chunksToPlay.push({
@@ -477,7 +484,7 @@ class SpeechManager {
 
       // SAFETY WATCHDOG TIMER:
       // Prevents speaker icon from blinking indefinitely if mobile OS cuts off audio
-      const safeDurationMs = Math.max(9000, totalTextChars * 125 + 5000);
+      const safeDurationMs = Math.max(8000, totalTextChars * 110 + 4000);
       this.clearWatchdog();
       this.watchdogTimer = setTimeout(() => {
         if (this.currentId === id) {
@@ -488,7 +495,14 @@ class SpeechManager {
 
       // Start sequential queue processing
       this.processQueue(id);
-    }, 30);
+    }, 25);
+  }
+
+  /**
+   * Alias method for speakItem
+   */
+  public speakItem(id: string, name: string, description: string, lang: 'cs' | 'en' = 'cs') {
+    this.speak(id, name, description, lang);
   }
 }
 
