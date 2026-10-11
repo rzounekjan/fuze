@@ -12,6 +12,8 @@ import {
   Globe2
 } from 'lucide-react';
 
+const GOOGLE_DRIVE_DIRECT_URL = 'https://drive.google.com/uc?export=download&id=1euXcmve7i0ThfB2vKLP6nz_j9_gonb2R';
+
 interface WineGlassAudioPanelProps {
   language?: 'cs' | 'en';
   audioUrl?: string;
@@ -19,14 +21,23 @@ interface WineGlassAudioPanelProps {
 
 export const WineGlassAudioPanel: React.FC<WineGlassAudioPanelProps> = ({
   language = 'cs',
-  audioUrl = '/audio/vina-po-skle.mp3'
+  audioUrl
 }) => {
   const isEn = language === 'en';
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
+  const getFallbackLocalUrl = () => {
+    const base = import.meta.env.BASE_URL || './';
+    const cleanBase = base.endsWith('/') ? base : `${base}/`;
+    return `${cleanBase}audio/vina-po-skle.mp3`;
+  };
+
+  const [effectiveAudioSrc, setEffectiveAudioSrc] = useState<string>(
+    audioUrl || GOOGLE_DRIVE_DIRECT_URL
+  );
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
-  const [duration, setDuration] = useState(1351); // 22:31
+  const [duration, setDuration] = useState(1351); // 22:31 default
   const [playbackRate, setPlaybackRate] = useState<number>(1);
   const [isMuted, setIsMuted] = useState(false);
 
@@ -49,6 +60,14 @@ export const WineGlassAudioPanel: React.FC<WineGlassAudioPanelProps> = ({
     }
   };
 
+  const handleAudioError = () => {
+    console.warn('Primary audio stream notice: switching to local fallback audio');
+    const localUrl = getFallbackLocalUrl();
+    if (effectiveAudioSrc !== localUrl) {
+      setEffectiveAudioSrc(localUrl);
+    }
+  };
+
   const togglePlay = () => {
     if (!audioRef.current) return;
     if (isPlaying) {
@@ -58,7 +77,14 @@ export const WineGlassAudioPanel: React.FC<WineGlassAudioPanelProps> = ({
       audioRef.current.play().then(() => {
         setIsPlaying(true);
       }).catch((err) => {
-        console.warn('Audio playback error:', err);
+        console.warn('Primary playback error, trying local fallback:', err);
+        const localUrl = getFallbackLocalUrl();
+        if (effectiveAudioSrc !== localUrl) {
+          setEffectiveAudioSrc(localUrl);
+          setTimeout(() => {
+            audioRef.current?.play().then(() => setIsPlaying(true)).catch(() => {});
+          }, 150);
+        }
       });
     }
   };
@@ -107,12 +133,13 @@ export const WineGlassAudioPanel: React.FC<WineGlassAudioPanelProps> = ({
       {/* Background Glow */}
       <div className="absolute top-0 right-0 w-80 h-80 bg-amber-500/10 rounded-full blur-3xl pointer-events-none -mr-20 -mt-20" />
 
-      {/* HTML5 Audio Element */}
+      {/* HTML5 Audio Element with Cloud Google Drive + Local Fallback */}
       <audio
         ref={audioRef}
-        src={audioUrl}
+        src={effectiveAudioSrc}
         onTimeUpdate={handleTimeUpdate}
         onLoadedMetadata={handleLoadedMetadata}
+        onError={handleAudioError}
         onEnded={() => setIsPlaying(false)}
         preload="metadata"
       />
@@ -122,7 +149,7 @@ export const WineGlassAudioPanel: React.FC<WineGlassAudioPanelProps> = ({
         <div className="space-y-1">
           <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs font-bold uppercase tracking-wider">
             <Radio className={`w-3.5 h-3.5 ${isPlaying ? 'animate-pulse text-amber-400' : 'text-amber-500'}`} />
-            <span>{isEn ? 'Audio Recording • Vína po skle' : 'Audio nahrávka • Vína po skle'}</span>
+            <span>{isEn ? 'Cloud Audio • Vína po skle' : 'Cloud Audio • Vína po skle'}</span>
           </div>
           <h3 className="text-xl sm:text-2xl font-black text-stone-100 tracking-tight flex items-center gap-2">
             <Wine className="w-5 h-5 text-amber-400 shrink-0" />
@@ -147,7 +174,7 @@ export const WineGlassAudioPanel: React.FC<WineGlassAudioPanelProps> = ({
             <span className="text-amber-400 font-bold">{formatTime(currentTime)}</span>
             <div className="flex items-center gap-2 text-stone-300 font-medium text-xs">
               <Music className={`w-3.5 h-3.5 ${isPlaying ? 'text-amber-400 animate-spin' : 'text-stone-500'}`} />
-              <span>{isEn ? 'Vína po skle (Audio)' : 'Vína po skle (Oficiální nahrávka)'}</span>
+              <span>{isEn ? 'Vína po skle (Audio)' : 'Vína po skle (Nahrávka)'}</span>
             </div>
             <span>{formatTime(duration)}</span>
           </div>
