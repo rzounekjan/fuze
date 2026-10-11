@@ -104,6 +104,53 @@
         "mistakeQuestionIds",
         "updatedAt"
       ]
+    },
+    "AudioRecording": {
+      "title": "AudioRecording",
+      "description": "Shared audio recordings of dish names, pronunciations, and manager tips for restaurant staff",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Item ID or category ID of the audio recording",
+          "maxLength": 128
+        },
+        "name": {
+          "type": "string",
+          "description": "Name of the dish or category",
+          "maxLength": 128
+        },
+        "audioData": {
+          "type": "string",
+          "description": "Base64 data URI of the audio recording",
+          "maxLength": 800000
+        },
+        "duration": {
+          "type": "number",
+          "description": "Duration in seconds"
+        },
+        "recordedBy": {
+          "type": "string",
+          "description": "Name of the speaker or author",
+          "maxLength": 128
+        },
+        "lang": {
+          "type": "string",
+          "description": "Language code: cs or en",
+          "enum": ["cs", "en"]
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Creation timestamp"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Last updated timestamp"
+        }
+      },
+      "required": ["id", "audioData", "createdAt", "updatedAt"]
     }
   },
   "firestore": {
@@ -114,6 +161,10 @@
     "/users/{userId}/stats/{language}": {
       "schema": "UserLanguageStats",
       "description": "Per-language ABC training statistics synchronized across mobile devices and PC"
+    },
+    "/audio_recordings/{recordingId}": {
+      "schema": "AudioRecording",
+      "description": "Shared audio recordings accessible to all staff members and trainees"
     }
   }
 }

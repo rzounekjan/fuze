@@ -115,7 +115,15 @@ class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundaryState> {
   }
 }
 
-createRoot(document.getElementById('root')!).render(
+const container = document.getElementById('root')!;
+let root = (window as unknown as { __fuzeReactRoot?: ReturnType<typeof createRoot> }).__fuzeReactRoot;
+
+if (!root) {
+  root = createRoot(container);
+  (window as unknown as { __fuzeReactRoot?: ReturnType<typeof createRoot> }).__fuzeReactRoot = root;
+}
+
+root.render(
   <StrictMode>
     <ErrorBoundary>
       <App />

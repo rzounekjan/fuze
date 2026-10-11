@@ -64,6 +64,10 @@ service cloud.firestore {
       && data.updatedAt is timestamp;
     }
 
+    match /app_settings/{documentId} {
+      allow read, write: if true;
+    }
+
     match /users/{userId} {
       allow get, list: if isValidId(userId) && isOwner(userId);
       allow create: if isValidId(userId) && isOwner(userId)

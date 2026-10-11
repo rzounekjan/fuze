@@ -55,8 +55,25 @@ export default defineConfig(() => {
           ],
         },
         workbox: {
-          globPatterns: ['**/*.{js,css,html,ico,png,svg,woff,woff2}'],
+          maximumFileSizeToCacheInBytes: 40 * 1024 * 1024, // Allow up to 40 MB for 21MB audio file caching
+          globPatterns: ['**/*.{js,css,html,ico,png,svg,woff,woff2,mp3,m4a}'],
+          navigateFallbackDenylist: [/^\/audio\//],
           runtimeCaching: [
+            {
+              urlPattern: /.*\/audio\/.*|\.mp3$|\.m4a$/i,
+              handler: 'CacheFirst',
+              options: {
+                cacheName: 'audio-media-cache',
+                expiration: {
+                  maxEntries: 20,
+                  maxAgeSeconds: 60 * 60 * 24 * 30, // 30 days
+                },
+                cacheableResponse: {
+                  statuses: [0, 200, 206],
+                },
+                rangeRequests: true,
+              },
+            },
             {
               urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
               handler: 'CacheFirst',
@@ -99,11 +116,8 @@ export default defineConfig(() => {
       },
     },
     server: {
-      // HMR is disabled in AI Studio via DISABLE_HMR env var.
-      // Do not modify—file watching is disabled to prevent flickering during agent edits.
-      hmr: process.env.DISABLE_HMR !== 'true',
-      // Disable file watching when DISABLE_HMR is true to save CPU during agent edits.
-      watch: process.env.DISABLE_HMR === 'true' ? null : {},
+      port: 3000,
+      host: true,
     },
   };
 });

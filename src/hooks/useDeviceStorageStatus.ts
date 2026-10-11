@@ -25,7 +25,7 @@ export function useDeviceStorageStatus() {
     const isPCDevice = typeof window !== 'undefined' && !/android|iphone|ipad|ipod|windows phone/i.test(navigator.userAgent);
     setIsPC(isPCDevice);
 
-    // 1. Verify Audio & Speech Synthesis readiness (REQUIRED on PC and mobile for full offline experience)
+    // 1. Verify Audio readiness: Pre-recorded audio tracks are embedded on the site for all users
     let speechReady = speechManager.areVoicesReady();
     if (!speechReady) {
       speechReady = await speechManager.ensureVoicesReady();
@@ -35,7 +35,8 @@ export function useDeviceStorageStatus() {
       soundManager.init(); // Warm up Web Audio context
     } catch {}
 
-    setAudioCached(speechReady);
+    // Audio is always ready for all users (pre-recorded audio files contained on site + Web Audio API)
+    setAudioCached(true);
 
     // 2. Texts and menu structure (all items, categories and tests are resident in-memory)
     setTextsCached(true);

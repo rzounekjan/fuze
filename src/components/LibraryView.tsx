@@ -15,7 +15,9 @@ import {
   CheckCircle2, 
   ExternalLink,
   GlassWater,
-  ChefHat
+  ChefHat,
+  Play,
+  Disc3
 } from 'lucide-react';
 import { 
   CULINARY_TERMS, 
@@ -28,6 +30,7 @@ import {
   BEVERAGE_ITEMS_EN
 } from '../data/libraryDataEn';
 import { AudioPronounceButton } from './AudioPronounceButton';
+import { WineGlassAudioPanel } from './WineGlassAudioPanel';
 
 interface LibraryViewProps {
   language?: 'cs' | 'en';
@@ -107,6 +110,18 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
   // Modal active item
   const [activeCulinaryModal, setActiveCulinaryModal] = useState<CulinaryTerm | null>(null);
   const [activeBeverageModal, setActiveBeverageModal] = useState<BeverageItem | null>(null);
+
+  // Audio Play Panel state for Vína po skle
+  const [selectedWineForAudio, setSelectedWineForAudio] = useState<string | null>(null);
+  const audioPanelRef = useRef<HTMLDivElement>(null);
+
+  const handleSelectWineForAudio = useCallback((wineId: string) => {
+    setSelectedWineForAudio(wineId);
+    handleTabChange('beverages');
+    setTimeout(() => {
+      audioPanelRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }, 120);
+  }, []);
 
   // Subcategory horizontal scroll ref & buttons
   const subcatRef = useRef<HTMLDivElement>(null);
@@ -674,107 +689,135 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
       {/* SECTION 2: BEVERAGE ENCYCLOPEDIA CARDS GRID                              */}
       {/* ========================================================================= */}
       {activeTab === 'beverages' && (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {filteredBeverages.length === 0 ? (
-            <div className="col-span-full py-16 text-center rounded-2xl bg-stone-900/40 border border-stone-800/80">
-              <Search className="w-8 h-8 text-stone-600 mx-auto mb-2" />
-              <p className="text-stone-400 font-medium">
-                {isEn ? 'No beverages found matching your query.' : 'Nebyly nalezeny žádné nápoje odpovídající vašemu hledání.'}
-              </p>
-              <button
-                onClick={() => { setSearchQuery(''); setSelectedBeverageCategory('all'); }}
-                className="mt-3 text-xs text-amber-400 hover:underline"
-              >
-                {isEn ? 'Reset filters' : 'Obnovit filtry'}
-              </button>
+        <div className="space-y-6">
+          {/* Sommelier Audio Play Panel for Vína po skle */}
+          {(selectedBeverageCategory === 'wine_glass' || selectedBeverageCategory === 'all') && (
+            <div ref={audioPanelRef}>
+              <WineGlassAudioPanel
+                language={language}
+              />
             </div>
-          ) : (
-            filteredBeverages.map(item => (
-              <div
-                key={item.id}
-                onClick={() => setActiveBeverageModal(item)}
-                className="group flex flex-col justify-between rounded-xl bg-stone-900 border border-stone-800/90 hover:border-amber-500/50 p-5 transition-all cursor-pointer hover:shadow-lg hover:shadow-amber-950/20"
-              >
-                <div>
-                  {/* Clean unboxed metadata with typographic separators */}
-                  <div className="flex items-center gap-1.5 text-[11px] text-stone-500 mb-1.5 font-medium flex-wrap">
-                    <span className="text-amber-400/90">{item.categoryName}</span>
-                    <span aria-hidden="true">·</span>
-                    <span>{item.origin}</span>
-                    <span aria-hidden="true">·</span>
-                    <span className="font-mono text-stone-400">{item.abv}</span>
-                    {item.sweetness && (
-                      <>
-                        <span aria-hidden="true">·</span>
-                        <span className="text-purple-300 font-semibold">{item.sweetness}</span>
-                      </>
+          )}
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {filteredBeverages.length === 0 ? (
+              <div className="col-span-full py-16 text-center rounded-2xl bg-stone-900/40 border border-stone-800/80">
+                <Search className="w-8 h-8 text-stone-600 mx-auto mb-2" />
+                <p className="text-stone-400 font-medium">
+                  {isEn ? 'No beverages found matching your query.' : 'Nebyly nalezeny žádné nápoje odpovídající vašemu hledání.'}
+                </p>
+                <button
+                  onClick={() => { setSearchQuery(''); setSelectedBeverageCategory('all'); }}
+                  className="mt-3 text-xs text-amber-400 hover:underline"
+                >
+                  {isEn ? 'Reset filters' : 'Obnovit filtry'}
+                </button>
+              </div>
+            ) : (
+              filteredBeverages.map(item => (
+                <div
+                  key={item.id}
+                  onClick={() => setActiveBeverageModal(item)}
+                  className="group flex flex-col justify-between rounded-xl bg-stone-900 border border-stone-800/90 hover:border-amber-500/50 p-5 transition-all cursor-pointer hover:shadow-lg hover:shadow-amber-950/20"
+                >
+                  <div>
+                    {/* Clean unboxed metadata with typographic separators */}
+                    <div className="flex items-center gap-1.5 text-[11px] text-stone-500 mb-1.5 font-medium flex-wrap">
+                      <span className="text-amber-400/90">{item.categoryName}</span>
+                      <span aria-hidden="true">·</span>
+                      <span>{item.origin}</span>
+                      <span aria-hidden="true">·</span>
+                      <span className="font-mono text-stone-400">{item.abv}</span>
+                      {item.sweetness && (
+                        <>
+                          <span aria-hidden="true">·</span>
+                          <span className="text-purple-300 font-semibold">{item.sweetness}</span>
+                        </>
+                      )}
+                    </div>
+
+                    <div className="flex items-start justify-between gap-2 mb-1">
+                      <h3 className="text-lg font-bold text-stone-100 group-hover:text-amber-400 transition-colors tracking-tight">
+                        {item.name}
+                      </h3>
+                      <AudioPronounceButton
+                        itemId={`lib-bev-${item.id}`}
+                        name={item.name}
+                        description={`${item.producer}. ${item.categoryName} from ${item.origin}. ${item.flavorProfile}`}
+                        lang={language}
+                        size="sm"
+                        title={isEn ? `Listen to pronunciation: ${item.name}` : `Poslechnout výslovnost: ${item.name}`}
+                        className="shrink-0"
+                      />
+                    </div>
+
+                    <div className="mt-1 flex items-center justify-between text-xs text-stone-400">
+                      <span>{item.producer}</span>
+                      <span className="font-semibold text-stone-300">{item.price}</span>
+                    </div>
+
+                    {/* Raw Ingredients snippet */}
+                    <div className="mt-3 pt-3 border-t border-stone-800/60">
+                      <span className="text-[11px] font-semibold text-stone-400 uppercase tracking-wider block mb-1">
+                        {isEn ? 'Ingredients & Varieties:' : 'Suroviny & odrůdy:'}
+                      </span>
+                      <p className="text-xs text-stone-300 line-clamp-2">
+                        {item.rawIngredients}
+                      </p>
+                    </div>
+
+                    {/* Production process snippet */}
+                    <div className="mt-2">
+                      <span className="text-[11px] font-semibold text-stone-400 uppercase tracking-wider block mb-0.5">
+                        {isEn ? 'Production & Aging:' : 'Výroba a zrání:'}
+                      </span>
+                      <p className="text-xs text-stone-400 line-clamp-2">
+                        {item.productionProcess}
+                      </p>
+                    </div>
+
+                    {/* Flavor snippet */}
+                    <div className="mt-2">
+                      <span className="text-[11px] font-semibold text-stone-400 uppercase tracking-wider block mb-0.5">
+                        {isEn ? 'Tasting Notes:' : 'Aroma a chuť:'}
+                      </span>
+                      <p className="text-xs text-amber-200/90 italic line-clamp-2">
+                        "{item.flavorProfile}"
+                      </p>
+                    </div>
+
+                    {/* Play in Sommelier Audio Guide Button */}
+                    {(item.category === 'wine_glass' || item.id.startsWith('sklo-')) && (
+                      <div className="mt-3 pt-2 border-t border-stone-800/60">
+                        <button
+                          type="button"
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            handleSelectWineForAudio(item.id);
+                          }}
+                          className="w-full py-1.5 px-3 rounded-lg bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 text-amber-300 hover:text-amber-200 text-xs font-bold flex items-center justify-center gap-1.5 transition-all shadow-sm active:scale-95"
+                        >
+                          <Play className="w-3.5 h-3.5 fill-current text-amber-400" />
+                          <span>{isEn ? 'Play in Sommelier Audio Guide' : 'Přehrát v audio rozboru'}</span>
+                        </button>
+                      </div>
                     )}
                   </div>
 
-                  <div className="flex items-start justify-between gap-2 mb-1">
-                    <h3 className="text-lg font-bold text-stone-100 group-hover:text-amber-400 transition-colors tracking-tight">
-                      {item.name}
-                    </h3>
-                    <AudioPronounceButton
-                      itemId={`lib-bev-${item.id}`}
-                      name={item.name}
-                      description={`${item.producer}. ${item.categoryName} from ${item.origin}. ${item.flavorProfile}`}
-                      lang={language}
-                      size="sm"
-                      title={isEn ? `Listen to pronunciation: ${item.name}` : `Poslechnout výslovnost: ${item.name}`}
-                      className="shrink-0"
-                    />
-                  </div>
-
-                  <div className="mt-1 flex items-center justify-between text-xs text-stone-400">
-                    <span>{item.producer}</span>
-                    <span className="font-semibold text-stone-300">{item.price}</span>
-                  </div>
-
-                  {/* Raw Ingredients snippet */}
-                  <div className="mt-3 pt-3 border-t border-stone-800/60">
-                    <span className="text-[11px] font-semibold text-stone-400 uppercase tracking-wider block mb-1">
-                      {isEn ? 'Ingredients & Varieties:' : 'Suroviny & odrůdy:'}
+                  {/* Card footer */}
+                  <div className="mt-4 pt-3 border-t border-stone-800/80 flex items-center justify-between text-xs">
+                    <span className="text-stone-500 text-[11px] font-mono">
+                      {item.volume}
                     </span>
-                    <p className="text-xs text-stone-300 line-clamp-2">
-                      {item.rawIngredients}
-                    </p>
-                  </div>
-
-                  {/* Production process snippet */}
-                  <div className="mt-2">
-                    <span className="text-[11px] font-semibold text-stone-400 uppercase tracking-wider block mb-0.5">
-                      {isEn ? 'Production & Aging:' : 'Výroba a zrání:'}
-                    </span>
-                    <p className="text-xs text-stone-400 line-clamp-2">
-                      {item.productionProcess}
-                    </p>
-                  </div>
-
-                  {/* Flavor snippet */}
-                  <div className="mt-2">
-                    <span className="text-[11px] font-semibold text-stone-400 uppercase tracking-wider block mb-0.5">
-                      {isEn ? 'Tasting Notes:' : 'Aroma a chuť:'}
-                    </span>
-                    <p className="text-xs text-amber-200/90 italic line-clamp-2">
-                      "{item.flavorProfile}"
-                    </p>
+                    <div className="flex items-center gap-1 text-amber-400 font-medium group-hover:translate-x-0.5 transition-transform">
+                      <span>{isEn ? 'Pairing & Details' : 'Párování & Detail'}</span>
+                      <ChevronRight className="w-3.5 h-3.5" />
+                    </div>
                   </div>
                 </div>
-
-                {/* Card footer */}
-                <div className="mt-4 pt-3 border-t border-stone-800/80 flex items-center justify-between text-xs">
-                  <span className="text-stone-500 text-[11px] font-mono">
-                    {item.volume}
-                  </span>
-                  <div className="flex items-center gap-1 text-amber-400 font-medium group-hover:translate-x-0.5 transition-transform">
-                    <span>{isEn ? 'Pairing & Details' : 'Párování & Detail'}</span>
-                    <ChevronRight className="w-3.5 h-3.5" />
-                  </div>
-                </div>
-              </div>
-            ))
-          )}
+              ))
+            )}
+          </div>
         </div>
       )}
 
@@ -982,6 +1025,32 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
                 <strong className="text-stone-200 font-semibold text-sm">{currentBeverageModal.price}</strong>
               </div>
             </div>
+
+            {/* Sommelier Audio Guide Banner */}
+            {(currentBeverageModal.category === 'wine_glass' || currentBeverageModal.id.startsWith('sklo-')) && (
+              <div className="p-3.5 rounded-xl bg-gradient-to-r from-amber-500/10 via-amber-500/20 to-stone-950 border border-amber-500/40 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+                <div>
+                  <span className="text-[11px] font-bold uppercase tracking-wider text-amber-400 flex items-center gap-1.5">
+                    <Disc3 className="w-3.5 h-3.5 text-amber-400 animate-spin" />
+                    <span>{isEn ? 'Sommelier Audio Analysis' : 'Someliérský audio rozbor k tomuto vínu'}</span>
+                  </span>
+                  <p className="text-xs text-stone-300 mt-0.5">
+                    {isEn ? 'Listen to the 22 min podcast discussion and sommelier tips on this wine.' : 'Poslechněte si detailní 22min rozbor, doporučení a hodnocení tohoto vína z podcastu.'}
+                  </p>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => {
+                    handleSelectWineForAudio(currentBeverageModal.id);
+                    setActiveBeverageModal(null);
+                  }}
+                  className="shrink-0 px-3.5 py-2 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-950 text-xs font-black flex items-center gap-1.5 shadow-md shadow-amber-950/40 transition-colors"
+                >
+                  <Play className="w-3.5 h-3.5 fill-current" />
+                  <span>{isEn ? 'Play Audio Chapter' : 'Přehrát v audio průvodci'}</span>
+                </button>
+              </div>
+            )}
 
             {/* Raw Ingredients Section */}
             <div>

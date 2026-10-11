@@ -11,6 +11,7 @@ import { MenuExplorer } from './components/MenuExplorer';
 import { TableOrientationTrainer } from './components/TableOrientationTrainer';
 import { LibraryView } from './components/LibraryView';
 import { OfflineIndicator } from './components/OfflineIndicator';
+import { AudioStudioModal } from './components/AudioStudioModal';
 import { RotateCcw } from 'lucide-react';
 
 const NAV_STATE_KEY = 'fuze_nav_state';
@@ -138,6 +139,8 @@ export default function App() {
 
   const [stats, setStats] = useState<UserStats>(() => getStoredStats(language));
   const [librarySelectedItemId, setLibrarySelectedItemId] = useState<string | null>(null);
+  const [isAudioStudioOpen, setIsAudioStudioOpen] = useState<boolean>(false);
+  const [audioStudioTargetItem, setAudioStudioTargetItem] = useState<{ id?: string; name?: string }>({});
 
   const handleNavigateToLibraryDetail = (item: MenuItem) => {
     setLibrarySelectedItemId(item.id || item.name);
@@ -402,6 +405,10 @@ export default function App() {
         onLanguageChange={handleLanguageChange}
         theme={theme}
         onToggleTheme={handleToggleTheme}
+        onOpenAudioStudio={() => {
+          setAudioStudioTargetItem({});
+          setIsAudioStudioOpen(true);
+        }}
       />
 
       {/* Main Content Area */}
@@ -541,6 +548,15 @@ export default function App() {
 
       {/* PWA Offline Connectivity Indicator */}
       <OfflineIndicator language={language} />
+
+      {/* Audio Studio Modal */}
+      <AudioStudioModal
+        isOpen={isAudioStudioOpen}
+        onClose={() => setIsAudioStudioOpen(false)}
+        initialItemId={audioStudioTargetItem.id}
+        initialItemName={audioStudioTargetItem.name}
+        language={language}
+      />
     </div>
   );
 }
