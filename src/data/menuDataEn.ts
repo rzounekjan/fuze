@@ -6091,6 +6091,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "12"
         ],
+        "sweetness": "extra sec",
         "description": "Vinselect Michlovský, Extra sec",
         "notes": "Vinselect Michlovský, Extra sec. Aromatic sparkling Moravian wine from Pálava grape.",
         "questions": [
@@ -6101,8 +6102,19 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "distractors": [
               "0.75L only",
               "0.15L / 0.75L"
+            
             ],
             "explanation": "Charmat de Vinselekt Pálava is available both by the glass (0,1L) and by the bottle (0,75L)."
+          },
+          {
+            "id": "sklo-charmat-palava-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "extra sec",
+            "distractors": [
+              "brut",
+              "demi-sec"
+            ],
+            "explanation": "This wine is classified as extra sec."
           },
           {
             "id": "sklo-charmat-palava-prod-en",
@@ -6154,6 +6166,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "12"
         ],
+        "sweetness": "extra brut",
         "description": "(Pinot, Chardonnay) Vinselect Michlovský, Extra brut",
         "notes": "(Pinot, Chardonnay) Vinselect Michlovský, Extra brut. Premium Moravian sparkling crémant.",
         "questions": [
@@ -6164,8 +6177,19 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "distractors": [
               "0.75L only",
               "0.15L / 0.75L"
+            
             ],
             "explanation": "Serving volume is 0,1l."
+          },
+          {
+            "id": "sklo-cremant-vinselekt-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "extra brut",
+            "distractors": [
+              "extra sec",
+              "sec"
+            ],
+            "explanation": "This wine is classified as extra brut."
           },
           {
             "id": "sklo-cremant-vinselekt-blend-en",
@@ -6217,7 +6241,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Kolby Morava, polosuché",
+        "sweetness": "polosuché (medium dry)",
+        "description": "Kolby Morava, polosuché, polosuché (medium dry)",
         "notes": "Kolby Morava, off-dry (polosuché). Fruity, harmonious Moravian Pinot Gris.",
         "questions": [
           {
@@ -6227,8 +6252,19 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "distractors": [
               "0.1 l",
               "0.2 l"
+            
             ],
             "explanation": "Serving volume is 0,15l."
+          },
+          {
+            "id": "sklo-rulandske-sede-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "polosuché (medium dry)",
+            "distractors": [
+              "dry",
+              "sweet"
+            ],
+            "explanation": "This wine is classified as polosuché (medium dry)."
           },
           {
             "id": "sklo-rulandske-sede-region-en",
@@ -6280,7 +6316,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Kraus Čechy",
+        "sweetness": "suché (dry)",
+        "description": "Kraus Čechy, suché (dry)",
         "notes": "Kraus Čechy. Fresh dry white cuvée from Mělník region.",
         "questions": [
           {
@@ -6290,8 +6327,19 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "distractors": [
               "0.1 l",
               "0.2 l"
+            
             ],
             "explanation": "Serving volume is 0,15l."
+          },
+          {
+            "id": "sklo-cuvee-bile-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "suché (dry)",
+            "distractors": [
+              "medium dry",
+              "sweet"
+            ],
+            "explanation": "This wine is classified as suché (dry)."
           },
           {
             "id": "sklo-cuvee-bile-prod-en",
@@ -6333,7 +6381,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Heuriger Rakousko",
+        "sweetness": "suché (dry)",
+        "description": "Heuriger Rakousko, suché (dry)",
         "notes": "Heuriger Rakousko. Classic Austrian white pepper note with fresh green apple acidity.",
         "questions": [
           {
@@ -6343,8 +6392,19 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "distractors": [
               "0.1 l",
               "0.25 l"
+            
             ],
             "explanation": "Serving volume is 0,15l."
+          },
+          {
+            "id": "sklo-gruner-veltliner-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "suché (dry)",
+            "distractors": [
+              "medium dry",
+              "medium sweet"
+            ],
+            "explanation": "This wine is classified as suché (dry)."
           },
           {
             "id": "sklo-gruner-veltliner-region-en",
@@ -6386,7 +6446,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Adulation Kalifornie",
+        "sweetness": "suché (dry)",
+        "description": "Adulation Kalifornie, suché (dry)",
         "notes": "Adulation Kalifornie. Rich, buttery California Chardonnay with tropical fruit notes.",
         "questions": [
           {
@@ -6396,8 +6457,19 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "distractors": [
               "0.1 l",
               "0.2 l"
+            
             ],
             "explanation": "Serving volume is 0,15l."
+          },
+          {
+            "id": "sklo-chardonnay-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "suché (dry)",
+            "distractors": [
+              "medium dry",
+              "sweet"
+            ],
+            "explanation": "This wine is classified as suché (dry)."
           },
           {
             "id": "sklo-chardonnay-region-en",
@@ -6439,7 +6511,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Kolby Morava",
+        "sweetness": "suché (dry)",
+        "description": "Kolby Morava, suché (dry)",
         "notes": "Kolby Morava. Fresh, refreshing Moravian rosé with wild berry notes.",
         "questions": [
           {
@@ -6449,8 +6522,19 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "distractors": [
               "0.1 l",
               "0.2 l"
+            
             ],
             "explanation": "Serving volume is 0,15l."
+          },
+          {
+            "id": "sklo-modry-portugal-rose-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "suché (dry)",
+            "distractors": [
+              "medium dry",
+              "sweet"
+            ],
+            "explanation": "This wine is classified as suché (dry)."
           },
           {
             "id": "sklo-modry-portugal-rose-region-en",
@@ -6492,7 +6576,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Kolby Morava",
+        "sweetness": "suché (dry)",
+        "description": "Kolby Morava, suché (dry)",
         "notes": "Kolby Morava. Light, fruit-forward Moravian red wine with smooth soft tannins.",
         "questions": [
           {
@@ -6502,8 +6587,19 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "distractors": [
               "0.1 l",
               "0.2 l"
+            
             ],
             "explanation": "Serving volume is 0,15l."
+          },
+          {
+            "id": "sklo-modry-portugal-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "suché (dry)",
+            "distractors": [
+              "medium dry",
+              "sweet"
+            ],
+            "explanation": "This wine is classified as suché (dry)."
           },
           {
             "id": "sklo-modry-portugal-region-en",
@@ -6545,7 +6641,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Kraus Čechy",
+        "sweetness": "suché (dry)",
+        "description": "Kraus Čechy, suché (dry)",
         "notes": "Kraus Čechy. Distinctive Bohemian red blend from Mělník region with dark fruit complexity.",
         "questions": [
           {
@@ -6555,8 +6652,19 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "distractors": [
               "0.1 l",
               "0.2 l"
+            
             ],
             "explanation": "Serving volume is 0,15l."
+          },
+          {
+            "id": "sklo-cuvee-cervene-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "suché (dry)",
+            "distractors": [
+              "medium dry",
+              "sweet"
+            ],
+            "explanation": "This wine is classified as suché (dry)."
           },
           {
             "id": "sklo-cuvee-cervene-prod-en",
@@ -6598,7 +6706,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Adulation Kalifornie",
+        "sweetness": "suché (dry)",
+        "description": "Adulation Kalifornie, suché (dry)",
         "notes": "Adulation Kalifornie. Velvety California Pinot Noir with dark cherry and vanilla spice.",
         "questions": [
           {
@@ -6608,8 +6717,19 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "distractors": [
               "0.1 l",
               "0.2 l"
+            
             ],
             "explanation": "Serving volume is 0,15l."
+          },
+          {
+            "id": "sklo-pinot-noir-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "suché (dry)",
+            "distractors": [
+              "medium dry",
+              "sweet"
+            ],
+            "explanation": "This wine is classified as suché (dry)."
           },
           {
             "id": "sklo-pinot-noir-region-en",
@@ -6660,6 +6780,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "12"
         ],
+        "sweetness": "extra sec",
         "description": "Vinselect Michlovský, extra sec – Moravia",
         "notes": "Vinselect Michlovský, extra sec – Moravia. Wild perlage, opulent floral aromas of rosebuds and exotic fruit, round harmonious palate.",
         "questions": [
@@ -6670,8 +6791,19 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "distractors": [
               "0.75L only",
               "0.15L / 0.75L"
+            
             ],
             "explanation": "The bottle volume of Charmat de Vinselekt Pálava is 0,75L."
+          },
+          {
+            "id": "bubliny-charmat-palava-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "extra sec",
+            "distractors": [
+              "brut",
+              "demi-sec"
+            ],
+            "explanation": "This wine is classified as extra sec."
           },
           {
             "id": "bubliny-charmat-palava-prod-en",
@@ -6733,6 +6865,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "12"
         ],
+        "sweetness": "extra brut",
         "description": "(Pinot, Chardonnay) Vinselect Michlovský, extra brut – Moravia",
         "notes": "(Pinot, Chardonnay) Vinselect Michlovský, extra brut – Moravia. Fine persistent perlage, elegant aroma, harmonious creamy finish.",
         "questions": [
@@ -6743,8 +6876,19 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "distractors": [
               "0.75L only",
               "0.15L / 0.75L"
+            
             ],
             "explanation": "The bottle size of Cremant de Vinselekt is 0,75L."
+          },
+          {
+            "id": "bubliny-cremant-vinselekt-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "extra brut",
+            "distractors": [
+              "extra sec",
+              "sec"
+            ],
+            "explanation": "This wine is classified as extra brut."
           },
           {
             "id": "bubliny-cremant-vinselekt-details-en",
@@ -6806,6 +6950,7 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "12"
         ],
+        "sweetness": "brut",
         "description": "NV, brut – North Coast, Kalifornie",
         "notes": "North Coast, California. Secondary fermentation in the bottle, fine perlage, fresh orchard fruits, brioche, and bread crust notes.",
         "questions": [
@@ -6816,8 +6961,19 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "distractors": [
               "0.5 l",
               "1.5 l"
+            
             ],
             "explanation": "The bottle volume of Angels & Cowboys is 0,75L."
+          },
+          {
+            "id": "bubliny-angels-cowboys-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "brut",
+            "distractors": [
+              "extra brut",
+              "demi-sec"
+            ],
+            "explanation": "This wine is classified as brut."
           },
           {
             "id": "bubliny-angels-cowboys-type-en",
@@ -6876,15 +7032,27 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0,75L",
         "price": "469 CZK",
         "allergens": ["12"],
-        "description": "Late harvest Gotberg – Pálava, Moravia",
+        "sweetness": "suché (dry)",
+        "description": "Late harvest Gotberg – Pálava, Moravia, suché (dry)",
         "notes": "Late harvest Gotberg – Pálava, Moravia. Fresh with vibrant acidity, aromas of citrus, green apple, and white peaches, mineral finish.",
         "questions": [
           {
             "id": "bile-ryzlink-gotberg-vol-en",
             "question": "What is the bottle volume of Riesling Gotberg?",
             "correctAnswer": "0,75L",
-            "distractors": ["0.5 l", "1.0 l"],
+            "distractors": ["0.5 l", "1.0 l"
+            ],
             "explanation": "The bottle volume is 0,75L."
+          },
+          {
+            "id": "bile-ryzlink-gotberg-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "suché (dry)",
+            "distractors": [
+              "medium dry",
+              "sweet"
+            ],
+            "explanation": "This wine is classified as suché (dry)."
           },
           {
             "id": "bile-ryzlink-gotberg-type-en",
@@ -6922,15 +7090,27 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0,75L",
         "price": "479 CZK",
         "allergens": ["12"],
-        "description": "Late harvest Reisten – Mikulov region, Moravia",
+        "sweetness": "suché (dry)",
+        "description": "Late harvest Reisten – Mikulov region, Moravia, suché (dry)",
         "notes": "Late harvest Reisten – Mikulovsko, Moravia. Full and smooth, subtle mineral touch on the palate, fresh grapefruit and orange peel.",
         "questions": [
           {
             "id": "bile-pinot-gris-reisten-vol-en",
             "question": "What is the bottle volume of Pinot Gris Reisten?",
             "correctAnswer": "0,75L",
-            "distractors": ["0.5 l", "1.0 l"],
+            "distractors": ["0.5 l", "1.0 l"
+            ],
             "explanation": "The bottle volume is 0,75L."
+          },
+          {
+            "id": "bile-pinot-gris-reisten-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "suché (dry)",
+            "distractors": [
+              "medium dry",
+              "sweet"
+            ],
+            "explanation": "This wine is classified as suché (dry)."
           },
           {
             "id": "bile-pinot-gris-reisten-prod-en",
@@ -6968,15 +7148,27 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0,75L",
         "price": "495 CZK",
         "allergens": ["12"],
-        "description": "Late harvest Bílkovi – Velké Pavlovice region, Moravia",
+        "sweetness": "polosuché (medium dry)",
+        "description": "Late harvest Bílkovi – Velké Pavlovice region, Moravia, polosuché (medium dry)",
         "notes": "Late harvest Bílkovi – Velkopavlovicko, Moravia. Juicy, bouquet of blackcurrant and elderflower, pleasant acidity, spicy finish.",
         "questions": [
           {
             "id": "bile-hibernal-bilkovi-vol-en",
             "question": "What is the bottle volume of Hibernal Bílkovi?",
             "correctAnswer": "0,75L",
-            "distractors": ["0.5 l", "1.0 l"],
+            "distractors": ["0.5 l", "1.0 l"
+            ],
             "explanation": "The bottle volume is 0,75L."
+          },
+          {
+            "id": "bile-hibernal-bilkovi-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "polosuché (medium dry)",
+            "distractors": [
+              "dry",
+              "sweet"
+            ],
+            "explanation": "This wine is classified as polosuché (medium dry)."
           },
           {
             "id": "bile-hibernal-bilkovi-prod-en",
@@ -7014,15 +7206,27 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0,75L",
         "price": "626 CZK",
         "allergens": ["12"],
-        "description": "Typik VOC Lukáš Halkoci – Znojmo region, Moravia",
+        "sweetness": "suché (dry)",
+        "description": "Typik VOC Lukáš Halkoci – Znojmo region, Moravia, suché (dry)",
         "notes": "Typik VOC Lukáš Halkoci – Znojemsko, Morava. Light, fresh finish, gooseberry, blackcurrant, and citrus aromatics.",
         "questions": [
           {
             "id": "bile-sauvignon-halkoci-vol-en",
             "question": "What is the bottle size of Sauvignon Lukáš Halkoci?",
             "correctAnswer": "0,75L",
-            "distractors": ["0.5 l", "1.0 l"],
+            "distractors": ["0.5 l", "1.0 l"
+            ],
             "explanation": "Bottle size is 0,75L."
+          },
+          {
+            "id": "bile-sauvignon-halkoci-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "suché (dry)",
+            "distractors": [
+              "medium dry",
+              "sweet"
+            ],
+            "explanation": "This wine is classified as suché (dry)."
           },
           {
             "id": "bile-sauvignon-halkoci-type-en",
@@ -7060,15 +7264,27 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0,75L",
         "price": "660 CZK",
         "allergens": ["12"],
-        "description": "Late harvest Milan Sůkal – Slovácko region, Moravia",
+        "sweetness": "suché (dry)",
+        "description": "Late harvest Milan Sůkal – Slovácko region, Moravia, suché (dry)",
         "notes": "Late harvest Milan Sůkal – Slovácko, Morava. Medium-bodied wine, pleasant acidity, notes of ripe citrus, pomelo, and stone fruit.",
         "questions": [
           {
             "id": "bile-ryzlink-vlassky-sukal-vol-en",
             "question": "What is the volume of Ryzlink Vlašský Milan Sůkal?",
             "correctAnswer": "0,75L",
-            "distractors": ["0.5 l", "1.0 l"],
+            "distractors": ["0.5 l", "1.0 l"
+            ],
             "explanation": "The bottle volume is 0,75L."
+          },
+          {
+            "id": "bile-ryzlink-vlassky-sukal-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "suché (dry)",
+            "distractors": [
+              "medium dry",
+              "sweet"
+            ],
+            "explanation": "This wine is classified as suché (dry)."
           },
           {
             "id": "bile-ryzlink-vlassky-sukal-prod-en",
@@ -7106,15 +7322,27 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0,75L",
         "price": "506 CZK",
         "allergens": ["12"],
-        "description": "Late harvest Vinselect Michlovský – Lednice-Valtice area, Moravia",
+        "sweetness": "polosuché (medium dry)",
+        "description": "Late harvest Vinselect Michlovský – Lednice-Valtice area, Moravia, polosuché (medium dry)",
         "notes": "Late harvest Vinselect Michlovský – Lednicko-Valtický areál, Morava. Delicate aroma of orange blossoms and rosebuds, fresh lychee and apple strudel finish.",
         "questions": [
           {
             "id": "bile-palava-michlovsky-vol-en",
             "question": "What is the bottle volume of Pálava Vinselect Michlovský?",
             "correctAnswer": "0,75L",
-            "distractors": ["0.5 l", "1.0 l"],
+            "distractors": ["0.5 l", "1.0 l"
+            ],
             "explanation": "The bottle volume is 0,75L."
+          },
+          {
+            "id": "bile-palava-michlovsky-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "polosuché (medium dry)",
+            "distractors": [
+              "dry",
+              "sweet"
+            ],
+            "explanation": "This wine is classified as polosuché (medium dry)."
           },
           {
             "id": "bile-palava-michlovsky-reg-en",
@@ -7152,15 +7380,27 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0,75L",
         "price": "629 CZK",
         "allergens": ["12"],
-        "description": "Grüner Veltliner, Hauser – Weinviertel, Austria",
+        "sweetness": "suché (dry)",
+        "description": "Grüner Veltliner, Hauser – Weinviertel, Austria, suché (dry)",
         "notes": "Weinviertel, Austria. Grüner Veltliner, aromas of green apple, citrus zest, and white pepper, bright acidity and delicate minerality.",
         "questions": [
           {
             "id": "bile-poysdorfer-saurussel-vol-en",
             "question": "What is the volume of Poysdorfer Saurüssel bottle?",
             "correctAnswer": "0,75L",
-            "distractors": ["0.5 l", "1.0 l"],
+            "distractors": ["0.5 l", "1.0 l"
+            ],
             "explanation": "Bottle volume is 0,75L."
+          },
+          {
+            "id": "bile-poysdorfer-saurussel-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "suché (dry)",
+            "distractors": [
+              "medium dry",
+              "sweet"
+            ],
+            "explanation": "This wine is classified as suché (dry)."
           },
           {
             "id": "bile-poysdorfer-saurussel-grape-en",
@@ -7198,15 +7438,27 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0,75L",
         "price": "723 CZK",
         "allergens": ["12"],
-        "description": "Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria",
+        "sweetness": "suché (dry)",
+        "description": "Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria, suché (dry)",
         "notes": "Premium Ried Satzen DAC Schwarzbock – Weinviertel, Austria. Deep golden color, intense aromas of ripe pears and citrus, elegant mineral peppery finish.",
         "questions": [
           {
             "id": "bile-gruner-satzen-schwarzbock-vol-en",
             "question": "What is the serving volume of Grüner Veltliner Schwarzbock?",
             "correctAnswer": "0,75L",
-            "distractors": ["0.5 l", "1.0 l"],
+            "distractors": ["0.5 l", "1.0 l"
+            ],
             "explanation": "Bottle volume is 0,75L."
+          },
+          {
+            "id": "bile-gruner-satzen-schwarzbock-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "suché (dry)",
+            "distractors": [
+              "medium dry",
+              "sweet"
+            ],
+            "explanation": "This wine is classified as suché (dry)."
           },
           {
             "id": "bile-gruner-satzen-schwarzbock-type-en",
@@ -7244,15 +7496,27 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0,75L",
         "price": "999 CZK",
         "allergens": ["12"],
-        "description": "QbA Trocken Eva Fricke – Rheingau, Germany",
+        "sweetness": "suché (trocken / dry)",
+        "description": "QbA Trocken Eva Fricke – Rheingau, Germany, suché (trocken / dry)",
         "notes": "Rheingau, Germany. Elegant, lime, green apple, and white peach aromatics with crystalline mineral undertones.",
         "questions": [
           {
             "id": "bile-riesling-eva-fricke-vol-en",
             "question": "What is the bottle volume of Riesling Rheingau Eva Fricke?",
             "correctAnswer": "0,75L",
-            "distractors": ["0.5 l", "1.0 l"],
+            "distractors": ["0.5 l", "1.0 l"
+            ],
             "explanation": "Bottle volume is 0,75L."
+          },
+          {
+            "id": "bile-riesling-eva-fricke-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "suché (trocken / dry)",
+            "distractors": [
+              "medium dry",
+              "sweet"
+            ],
+            "explanation": "This wine is classified as suché (trocken / dry)."
           },
           {
             "id": "bile-riesling-eva-fricke-type-en",
@@ -7290,15 +7554,27 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0,75L",
         "price": "595 CZK",
         "allergens": ["12"],
-        "description": "Red Stone QbA trocken Gunderloch – Rheinhessen, Germany",
+        "sweetness": "suché (trocken / dry)",
+        "description": "Red Stone QbA trocken Gunderloch – Rheinhessen, Germany, suché (trocken / dry)",
         "notes": "Rheinhessen, Germany. Juicy, ripe citrus, peach, and herbs bouquet, red slate minerality, spicy finish.",
         "questions": [
           {
             "id": "bile-riesling-gunderloch-red-stone-vol-en",
             "question": "What is the bottle volume of Riesling Red Stone Gunderloch?",
             "correctAnswer": "0,75L",
-            "distractors": ["0.5 l", "1.0 l"],
+            "distractors": ["0.5 l", "1.0 l"
+            ],
             "explanation": "Bottle volume is 0,75L."
+          },
+          {
+            "id": "bile-riesling-gunderloch-red-stone-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "suché (trocken / dry)",
+            "distractors": [
+              "medium dry",
+              "sweet"
+            ],
+            "explanation": "This wine is classified as suché (trocken / dry)."
           },
           {
             "id": "bile-riesling-gunderloch-red-stone-type-en",
@@ -7336,15 +7612,27 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0,75L",
         "price": "975 CZK",
         "allergens": ["12"],
-        "description": "Tradition Brauneberg Fritz Haag – Mosel, Germany",
+        "sweetness": "polosuché (feinherb / medium dry)",
+        "description": "Tradition Brauneberg Fritz Haag – Mosel, Germany, polosuché (feinherb / medium dry)",
         "notes": "Mosel, Germany. Golden color, intense citrus aroma, zesty harmonious palate with hints of acacia honey.",
         "questions": [
           {
             "id": "bile-riesling-fritz-haag-vol-en",
             "question": "What is the bottle volume of Riesling Fritz Haag?",
             "correctAnswer": "0,75L",
-            "distractors": ["0.5 l", "1.0 l"],
+            "distractors": ["0.5 l", "1.0 l"
+            ],
             "explanation": "Bottle volume is 0,75L."
+          },
+          {
+            "id": "bile-riesling-fritz-haag-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "polosuché (feinherb / medium dry)",
+            "distractors": [
+              "dry",
+              "sweet"
+            ],
+            "explanation": "This wine is classified as polosuché (feinherb / medium dry)."
           },
           {
             "id": "bile-riesling-fritz-haag-type-en",
@@ -7382,15 +7670,27 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0,75L",
         "price": "725 CZK",
         "allergens": ["12"],
-        "description": "Pinot Blanc, Tradition Trocken Philipp Kuhn – Pfalz, Germany",
+        "sweetness": "suché (trocken / dry)",
+        "description": "Pinot Blanc, Tradition Trocken Philipp Kuhn – Pfalz, Germany, suché (trocken / dry)",
         "notes": "Pfalz, Germany. Pinot Blanc, flavors of roasted almonds, dried pears, walnuts, and minerality.",
         "questions": [
           {
             "id": "bile-weisser-burgunder-philipp-kuhn-vol-en",
             "question": "What is the bottle volume of Weisser Burgunder Philipp Kuhn?",
             "correctAnswer": "0,75L",
-            "distractors": ["0.5 l", "1.0 l"],
+            "distractors": ["0.5 l", "1.0 l"
+            ],
             "explanation": "Bottle volume is 0,75L."
+          },
+          {
+            "id": "bile-weisser-burgunder-philipp-kuhn-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "suché (trocken / dry)",
+            "distractors": [
+              "medium dry",
+              "sweet"
+            ],
+            "explanation": "This wine is classified as suché (trocken / dry)."
           },
           {
             "id": "bile-weisser-burgunder-philipp-kuhn-grape-en",
@@ -7435,15 +7735,27 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0,75L",
         "price": "789 CZK",
         "allergens": ["12"],
-        "description": "Lapis Luna – North Coast, California",
+        "sweetness": "suché (dry)",
+        "description": "Lapis Luna – North Coast, California, suché (dry)",
         "notes": "North Coast, California. Full-bodied, crisp acidity, fruit-forward style, ripe white peach and tropical fruits.",
         "questions": [
           {
             "id": "bile-sauvignon-lapis-luna-vol-en",
             "question": "What is the bottle volume of Sauvignon Blanc Lapis Luna?",
             "correctAnswer": "0,75L",
-            "distractors": ["0.5 l", "1.0 l"],
+            "distractors": ["0.5 l", "1.0 l"
+            ],
             "explanation": "Bottle volume is 0,75L."
+          },
+          {
+            "id": "bile-sauvignon-lapis-luna-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "suché (dry)",
+            "distractors": [
+              "medium dry",
+              "sweet"
+            ],
+            "explanation": "This wine is classified as suché (dry)."
           },
           {
             "id": "bile-sauvignon-lapis-luna-prod-en",
@@ -7481,15 +7793,27 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "weight": "0,75L",
         "price": "975 CZK",
         "allergens": ["12"],
-        "description": "Knotty Vines – California",
+        "sweetness": "suché (dry)",
+        "description": "Knotty Vines – California, suché (dry)",
         "notes": "California. Oak-aged, juicy, elegant finish, tropical fruit, baking spice, and minerality.",
         "questions": [
           {
             "id": "bile-chardonnay-knotty-vines-vol-en",
             "question": "What is the bottle volume of Chardonnay Knotty Vines?",
             "correctAnswer": "0,75L",
-            "distractors": ["0.5 l", "1.0 l"],
+            "distractors": ["0.5 l", "1.0 l"
+            ],
             "explanation": "Bottle volume is 0,75L."
+          },
+          {
+            "id": "bile-chardonnay-knotty-vines-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "suché (dry)",
+            "distractors": [
+              "medium dry",
+              "sweet"
+            ],
+            "explanation": "This wine is classified as suché (dry)."
           },
           {
             "id": "bile-chardonnay-knotty-vines-prod-en",
@@ -7538,7 +7862,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Late harvest Bílkovi – Velkopavlovicko, Moravia",
+        "sweetness": "polosuché (medium dry)",
+        "description": "Late harvest Bílkovi – Velkopavlovicko, Moravia, polosuché (medium dry)",
         "notes": "Late harvest Bílkovi – Velkopavlovicko, Moravia. Fresh rosé wine with bright wild strawberry, raspberry notes, and refreshing creamy finish.",
         "questions": [
           {
@@ -7548,8 +7873,19 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "distractors": [
               "0.5 l",
               "1.0 l"
+            
             ],
             "explanation": "The bottle volume is 0,75L."
+          },
+          {
+            "id": "ruzove-merlot-rose-bilkovi-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "polosuché (medium dry)",
+            "distractors": [
+              "dry",
+              "sweet"
+            ],
+            "explanation": "This wine is classified as polosuché (medium dry)."
           },
           {
             "id": "ruzove-merlot-rose-bilkovi-type-en",
@@ -7620,7 +7956,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Roučí Malé Kraus – Mělnicko, Bohemia",
+        "sweetness": "suché (dry)",
+        "description": "Roučí Malé Kraus – Mělnicko, Bohemia, suché (dry)",
         "notes": "Roučí Malé Kraus – Mělnicko, Bohemia. Elegant cherry notes, wild berry aromas, delicate tannins.",
         "questions": [
           {
@@ -7630,8 +7967,19 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "distractors": [
               "0.5 l",
               "1.0 l"
+            
             ],
             "explanation": "The bottle volume is 0,75L."
+          },
+          {
+            "id": "cervene-pinot-noir-kraus-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "suché (dry)",
+            "distractors": [
+              "medium dry",
+              "sweet"
+            ],
+            "explanation": "This wine is classified as suché (dry)."
           },
           {
             "id": "cervene-pinot-noir-kraus-prod-en",
@@ -7673,7 +8021,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Bílkovi – Velkopavlovicko, Moravia",
+        "sweetness": "suché (dry)",
+        "description": "Bílkovi – Velkopavlovicko, Moravia, suché (dry)",
         "notes": "Bílkovi – Velkopavlovicko, Moravia. Deep ruby color, rich aroma of ripe blackberries, blackcurrant, and plum butter with silky finish.",
         "questions": [
           {
@@ -7683,8 +8032,19 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "distractors": [
               "0.5 l",
               "1.0 l"
+            
             ],
             "explanation": "The bottle volume is 0,75L."
+          },
+          {
+            "id": "cervene-dornfelder-bilkovi-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "suché (dry)",
+            "distractors": [
+              "medium dry",
+              "sweet"
+            ],
+            "explanation": "This wine is classified as suché (dry)."
           },
           {
             "id": "cervene-dornfelder-bilkovi-prod-en",
@@ -7726,7 +8086,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "(Cabernet Sauvignon, Merlot) Kolby – Mikulovsko, Moravia",
+        "sweetness": "suché (dry)",
+        "description": "(Cabernet Sauvignon, Merlot) Kolby – Mikulovsko, Moravia, suché (dry)",
         "notes": "(Cabernet Sauvignon, Merlot) Kolby – Mikulovsko, Moravia. Harmonious blend with dark berries, bittersweet chocolate, and fine oak.",
         "questions": [
           {
@@ -7736,8 +8097,19 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "distractors": [
               "0.5 l",
               "1.0 l"
+            
             ],
             "explanation": "The bottle volume is 0,75L."
+          },
+          {
+            "id": "cervene-cuvee-red-kolby-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "suché (dry)",
+            "distractors": [
+              "medium dry",
+              "sweet"
+            ],
+            "explanation": "This wine is classified as suché (dry)."
           },
           {
             "id": "cervene-cuvee-red-kolby-grapes-en",
@@ -7789,7 +8161,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "(Merlot, Frankovka) Bílkovi – Velkopavlovicko, Moravia",
+        "sweetness": "suché (dry)",
+        "description": "(Merlot, Frankovka) Bílkovi – Velkopavlovicko, Moravia, suché (dry)",
         "notes": "(Merlot, Frankovka) Bílkovi – Velkopavlovicko, Moravia. Juicy red blend featuring ripe cherries, mulberries, and subtle spice notes.",
         "questions": [
           {
@@ -7799,8 +8172,19 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "distractors": [
               "0.5 l",
               "1.0 l"
+            
             ],
             "explanation": "The bottle volume is 0,75L."
+          },
+          {
+            "id": "cervene-nina-cuvee-bilkovi-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "suché (dry)",
+            "distractors": [
+              "medium dry",
+              "sweet"
+            ],
+            "explanation": "This wine is classified as suché (dry)."
           },
           {
             "id": "cervene-nina-cuvee-bilkovi-grapes-en",
@@ -7852,7 +8236,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Weingut Feiler-Artinger – Burgenland, Austria",
+        "sweetness": "suché (dry)",
+        "description": "Weingut Feiler-Artinger – Burgenland, Austria, suché (dry)",
         "notes": "Weingut Feiler-Artinger – Burgenland, Austria. Classic Austrian Zweigelt with dark sour cherries, white pepper, and smooth tannins.",
         "questions": [
           {
@@ -7862,8 +8247,19 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "distractors": [
               "0.5 l",
               "1.0 l"
+            
             ],
             "explanation": "The bottle volume is 0,75L."
+          },
+          {
+            "id": "cervene-zweigelt-feiler-artinger-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "suché (dry)",
+            "distractors": [
+              "medium dry",
+              "sweet"
+            ],
+            "explanation": "This wine is classified as suché (dry)."
           },
           {
             "id": "cervene-zweigelt-feiler-artinger-prod-en",
@@ -7915,7 +8311,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Tradition Philip Kuhn – Pfalz, Germany",
+        "sweetness": "suché (dry)",
+        "description": "Tradition Philip Kuhn – Pfalz, Germany, suché (dry)",
         "notes": "Tradition Philip Kuhn – Pfalz, Germany. Outstanding German Pinot Noir (Spätburgunder) Tradition. Wild raspberries, subtle woodsmoke, and spicy depth.",
         "questions": [
           {
@@ -7925,8 +8322,19 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "distractors": [
               "0.5 l",
               "1.0 l"
+            
             ],
             "explanation": "The bottle volume is 0,75L."
+          },
+          {
+            "id": "cervene-pinot-noir-kuhn-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "suché (dry)",
+            "distractors": [
+              "medium dry",
+              "sweet"
+            ],
+            "explanation": "This wine is classified as suché (dry)."
           },
           {
             "id": "cervene-pinot-noir-kuhn-type-en",
@@ -7978,7 +8386,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Lapis Luna – Lodi, California",
+        "sweetness": "suché (dry)",
+        "description": "Lapis Luna – Lodi, California, suché (dry)",
         "notes": "Lapis Luna – Lodi, California. Rich Californian Cabernet featuring blackcurrant, dark berries, vanilla, and toasted oak with a lingering finish.",
         "questions": [
           {
@@ -7988,8 +8397,19 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "distractors": [
               "0.5 l",
               "1.0 l"
+            
             ],
             "explanation": "The bottle volume is 0,75L."
+          },
+          {
+            "id": "cervene-cabernet-sauvignon-lapis-luna-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "suché (dry)",
+            "distractors": [
+              "medium dry",
+              "sweet"
+            ],
+            "explanation": "This wine is classified as suché (dry)."
           },
           {
             "id": "cervene-cabernet-sauvignon-lapis-luna-prod-en",
@@ -8041,7 +8461,8 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Hendry Ranch HRW – Napa Valley, California",
+        "sweetness": "suché (dry)",
+        "description": "Hendry Ranch HRW – Napa Valley, California, suché (dry)",
         "notes": "Hendry Ranch HRW – Napa Valley, California. Iconic California Zinfandel from Napa Valley with plums, cinnamon, cracked pepper, and vanilla.",
         "questions": [
           {
@@ -8051,8 +8472,19 @@ export const MENU_CATEGORIES_EN: MenuCategory[] = [
             "distractors": [
               "0.5 l",
               "1.0 l"
+            
             ],
             "explanation": "The bottle volume is 0,75L."
+          },
+          {
+            "id": "cervene-zinfandel-hendry-ranch-sweetness-en",
+            "question": "What is the residual sugar / sweetness classification of this wine?",
+            "correctAnswer": "suché (dry)",
+            "distractors": [
+              "medium dry",
+              "sweet"
+            ],
+            "explanation": "This wine is classified as suché (dry)."
           },
           {
             "id": "cervene-zinfandel-hendry-ranch-prod-en",

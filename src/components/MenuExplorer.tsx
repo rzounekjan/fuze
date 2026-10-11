@@ -6,6 +6,7 @@ import { AudioPronounceButton } from './AudioPronounceButton';
 interface MenuExplorerProps {
   categories: MenuCategory[];
   onStartQuiz: (cat: MenuCategory, item: MenuItem) => void;
+  onNavigateToLibraryItem?: (item: MenuItem) => void;
   masteredIds: string[];
   language?: 'cs' | 'en';
 }
@@ -13,6 +14,7 @@ interface MenuExplorerProps {
 export const MenuExplorer: React.FC<MenuExplorerProps> = ({
   categories,
   onStartQuiz,
+  onNavigateToLibraryItem,
   masteredIds,
   language = 'cs'
 }) => {
@@ -150,6 +152,11 @@ export const MenuExplorer: React.FC<MenuExplorerProps> = ({
                       {item.weight && (
                         <span className="bg-stone-800/90 px-2.5 py-0.5 rounded text-xs sm:text-sm text-stone-200 font-semibold">
                           {item.weight}
+                        </span>
+                      )}
+                      {item.sweetness && (
+                        <span className="bg-purple-950/60 border border-purple-700/50 px-2.5 py-0.5 rounded text-xs sm:text-sm text-purple-200 font-semibold">
+                          {item.sweetness}
                         </span>
                       )}
                       {item.price && (() => {

@@ -16,6 +16,7 @@ export const WINE_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
+        "sweetness": "extra sec",
         "description": "Vinselect Michlovský, Extra sec",
         "notes": "Vinselect Michlovský, Extra sec. Aromatické moravské šumivé víno z odrůdy Pálava vyrobené metodou Charmat.",
         "questions": [
@@ -79,6 +80,7 @@ export const WINE_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
+        "sweetness": "extra brut",
         "description": "(Pinot, Chardonnay) Vinselect Michlovský, Extra brut",
         "notes": "(Pinot, Chardonnay) Vinselect Michlovský, Extra brut. Prémiový moravský crémant kvašený v lahvi.",
         "questions": [
@@ -152,6 +154,7 @@ export const WINE_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
+        "sweetness": "polosuché",
         "description": "Kolby Morava, polosuché",
         "notes": "Kolby Morava, polosuché. Ovocné, harmonické bílé víno z Pouzdřan s jemným zbytkovým cukrem.",
         "questions": [
@@ -215,7 +218,8 @@ export const WINE_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Kraus Čechy",
+        "sweetness": "suché",
+        "description": "Kraus Čechy, suché",
         "notes": "Kraus Čechy. Svěží suché bílé cuvée z mělnických vinic od profesora Krause.",
         "questions": [
           {
@@ -268,7 +272,8 @@ export const WINE_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Heuriger Rakousko",
+        "sweetness": "suché",
+        "description": "Heuriger Rakousko, suché",
         "notes": "Heuriger Rakousko. Tradiční rakouský Veltlín s tóny zeleného jablka a bílého pepře.",
         "questions": [
           {
@@ -321,7 +326,8 @@ export const WINE_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Adulation Kalifornie",
+        "sweetness": "suché",
+        "description": "Adulation Kalifornie, suché",
         "notes": "Adulation Kalifornie. Bohaté kalifornské Chardonnay s tóny tropického ovoce, másla a vanilky.",
         "questions": [
           {
@@ -374,7 +380,8 @@ export const WINE_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Kolby Morava",
+        "sweetness": "suché",
+        "description": "Kolby Morava, suché",
         "notes": "Kolby Morava. Lehké a osvěžující růžové víno s tóny jahod a zahradního ovoce.",
         "questions": [
           {
@@ -427,7 +434,8 @@ export const WINE_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Kolby Morava",
+        "sweetness": "suché",
+        "description": "Kolby Morava, suché",
         "notes": "Kolby Morava. Tradiční lehčí červené víno s rubínovou barvou, tóny třešní a sametovými tříslovinami.",
         "questions": [
           {
@@ -480,7 +488,8 @@ export const WINE_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Kraus Čechy",
+        "sweetness": "suché",
+        "description": "Kraus Čechy, suché",
         "notes": "Kraus Čechy. Charakteristické mělnické červené cuvée s tóny tmavého ovoce a lesních plodů.",
         "questions": [
           {
@@ -533,7 +542,8 @@ export const WINE_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Adulation Kalifornie",
+        "sweetness": "suché",
+        "description": "Adulation Kalifornie, suché",
         "notes": "Adulation Kalifornie. Sametový kalifornský Pinot Noir s tóny tmavých třešní, vanilky a jemného dřeva.",
         "questions": [
           {
@@ -790,7 +800,8 @@ export const WINE_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "pozdní sběr Bílkovi – Velkopavlovicko, Morava",
+        "sweetness": "polosuché",
+        "description": "pozdní sběr Bílkovi – Velkopavlovicko, Morava, polosuché",
         "questions": [
           {
             "id": "ruzove-merlot-rose-bilkovi-vol",
@@ -871,7 +882,8 @@ export const WINE_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Roučí Malé Kraus – Mělnicko, Čechy",
+        "sweetness": "suché",
+        "description": "Roučí Malé Kraus – Mělnicko, Čechy, suché",
         "questions": [
           {
             "id": "cervene-pinot-noir-kraus-vol",
@@ -923,7 +935,8 @@ export const WINE_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Bílkovi – Velkopavlovicko, Morava",
+        "sweetness": "suché",
+        "description": "Bílkovi – Velkopavlovicko, Morava, suché",
         "questions": [
           {
             "id": "cervene-dornfelder-bilkovi-vol",
@@ -975,7 +988,8 @@ export const WINE_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "(Cabernet Sauvignon, Merlot) Kolby – Mikulovsko, Morava",
+        "sweetness": "suché",
+        "description": "(Cabernet Sauvignon, Merlot) Kolby – Mikulovsko, Morava, suché",
         "questions": [
           {
             "id": "cervene-cuvee-red-kolby-vol",
@@ -1037,7 +1051,8 @@ export const WINE_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "(Merlot, Frankovka) Bílkovi – Velkopavlovicko, Morava",
+        "sweetness": "suché",
+        "description": "(Merlot, Frankovka) Bílkovi – Velkopavlovicko, Morava, suché",
         "questions": [
           {
             "id": "cervene-nina-cuvee-bilkovi-vol",
@@ -1099,7 +1114,8 @@ export const WINE_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Weingut Feiler-Artinger – Burgenland, Rakousko",
+        "sweetness": "suché",
+        "description": "Weingut Feiler-Artinger – Burgenland, Rakousko, suché",
         "questions": [
           {
             "id": "cervene-zweigelt-feiler-artinger-vol",
@@ -1161,7 +1177,8 @@ export const WINE_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Tradition Philip Kuhn – Pfalz, Německo",
+        "sweetness": "suché",
+        "description": "Tradition Philip Kuhn – Pfalz, Německo, suché",
         "questions": [
           {
             "id": "cervene-pinot-noir-kuhn-vol",
@@ -1223,7 +1240,8 @@ export const WINE_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Lapis Luna – Lodi, Kalifornie",
+        "sweetness": "suché",
+        "description": "Lapis Luna – Lodi, Kalifornie, suché",
         "questions": [
           {
             "id": "cervene-cabernet-sauvignon-lapis-luna-vol",
@@ -1285,7 +1303,8 @@ export const WINE_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Hendry Ranch HRW – Napa Valley, Kalifornie",
+        "sweetness": "suché",
+        "description": "Hendry Ranch HRW – Napa Valley, Kalifornie, suché",
         "questions": [
           {
             "id": "cervene-zinfandel-hendry-ranch-vol",

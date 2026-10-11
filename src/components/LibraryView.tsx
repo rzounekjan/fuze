@@ -697,12 +697,18 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
               >
                 <div>
                   {/* Clean unboxed metadata with typographic separators */}
-                  <div className="flex items-center gap-1.5 text-[11px] text-stone-500 mb-1.5 font-medium">
+                  <div className="flex items-center gap-1.5 text-[11px] text-stone-500 mb-1.5 font-medium flex-wrap">
                     <span className="text-amber-400/90">{item.categoryName}</span>
                     <span aria-hidden="true">·</span>
                     <span>{item.origin}</span>
                     <span aria-hidden="true">·</span>
                     <span className="font-mono text-stone-400">{item.abv}</span>
+                    {item.sweetness && (
+                      <>
+                        <span aria-hidden="true">·</span>
+                        <span className="text-purple-300 font-semibold">{item.sweetness}</span>
+                      </>
+                    )}
                   </div>
 
                   <div className="flex items-start justify-between gap-2 mb-1">
@@ -956,7 +962,7 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
             </div>
 
             {/* Key Specs Bar */}
-            <div className="grid grid-cols-3 gap-3 p-3 rounded-xl bg-stone-950/60 border border-stone-800/80 text-center text-xs">
+            <div className={`grid ${currentBeverageModal.sweetness ? 'grid-cols-2 sm:grid-cols-4' : 'grid-cols-3'} gap-3 p-3 rounded-xl bg-stone-950/60 border border-stone-800/80 text-center text-xs`}>
               <div>
                 <span className="text-[11px] text-stone-500 block">{isEn ? 'Serving / Volume' : 'Objem / míra'}</span>
                 <strong className="text-stone-200 font-mono text-sm">{currentBeverageModal.volume}</strong>
@@ -965,6 +971,12 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
                 <span className="text-[11px] text-stone-500 block">{isEn ? 'Alcohol Content' : 'Obsah alkoholu'}</span>
                 <strong className="text-amber-400 font-mono text-sm">{currentBeverageModal.abv}</strong>
               </div>
+              {currentBeverageModal.sweetness && (
+                <div>
+                  <span className="text-[11px] text-stone-500 block">{isEn ? 'Sweetness' : 'Cukernatost'}</span>
+                  <strong className="text-purple-300 font-semibold text-sm">{currentBeverageModal.sweetness}</strong>
+                </div>
+              )}
               <div>
                 <span className="text-[11px] text-stone-500 block">{isEn ? 'Fuze Price' : 'Cena ve Fuze'}</span>
                 <strong className="text-stone-200 font-semibold text-sm">{currentBeverageModal.price}</strong>

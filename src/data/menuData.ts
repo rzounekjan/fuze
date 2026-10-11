@@ -12,6 +12,7 @@ export interface MenuItem {
   weight?: string;
   price?: string;
   allergens?: string[];
+  sweetness?: string;
   description: string;
   notes?: string;
   questions: Question[];
@@ -5606,6 +5607,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
+        "sweetness": "extra sec",
         "description": "Vinselect Michlovský, Extra sec",
         "notes": "Vinselect Michlovský, Extra sec. Aromatické moravské šumivé víno z odrůdy Pálava vyrobené metodou Charmat.",
         "questions": [
@@ -5616,8 +5618,19 @@ export const MENU_CATEGORIES: MenuCategory[] = [
             "distractors": [
               "pouze 0,75L",
               "0,15L / 0,75L"
+            
             ],
             "explanation": "Charmat de Vinselekt Pálava je k dispozici ve dvou objemech: po skle (0,1L) a v celé lahvi (0,75L)."
+          },
+          {
+            "id": "sklo-charmat-palava-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "extra sec",
+            "distractors": [
+              "brut",
+              "demi-sec"
+            ],
+            "explanation": "Víno je zatříděno v kategorii extra sec."
           },
           {
             "id": "sklo-charmat-palava-prod",
@@ -5669,6 +5682,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
+        "sweetness": "extra brut",
         "description": "(Pinot, Chardonnay) Vinselect Michlovský, Extra brut",
         "notes": "(Pinot, Chardonnay) Vinselect Michlovský, Extra brut. Prémiový moravský crémant kvašený v lahvi.",
         "questions": [
@@ -5679,8 +5693,19 @@ export const MENU_CATEGORIES: MenuCategory[] = [
             "distractors": [
               "pouze 0,75L",
               "0,15L / 0,75L"
+            
             ],
             "explanation": "Cremant de Vinselekt je k dispozici ve dvou objemech: po skle (0,1L) a v celé lahvi (0,75L)."
+          },
+          {
+            "id": "sklo-cremant-vinselekt-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "extra brut",
+            "distractors": [
+              "extra sec",
+              "sec"
+            ],
+            "explanation": "Víno je zatříděno v kategorii extra brut."
           },
           {
             "id": "sklo-cremant-vinselekt-blend",
@@ -5742,6 +5767,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
+        "sweetness": "polosuché",
         "description": "Kolby Morava, polosuché",
         "notes": "Kolby Morava, polosuché. Ovocné, harmonické bílé víno z Pouzdřan s jemným zbytkovým cukrem.",
         "questions": [
@@ -5752,8 +5778,19 @@ export const MENU_CATEGORIES: MenuCategory[] = [
             "distractors": [
               "0,1 l",
               "0,2 l"
+            
             ],
             "explanation": "Servírovací míra je 0,15l."
+          },
+          {
+            "id": "sklo-rulandske-sede-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "polosuché",
+            "distractors": [
+              "suché",
+              "sladké"
+            ],
+            "explanation": "Víno je zatříděno v kategorii polosuché."
           },
           {
             "id": "sklo-rulandske-sede-region",
@@ -5805,7 +5842,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Kraus Čechy",
+        "sweetness": "suché",
+        "description": "Kraus Čechy, suché",
         "notes": "Kraus Čechy. Svěží suché bílé cuvée z mělnických vinic od profesora Krause.",
         "questions": [
           {
@@ -5815,8 +5853,19 @@ export const MENU_CATEGORIES: MenuCategory[] = [
             "distractors": [
               "0,1 l",
               "0,2 l"
+            
             ],
             "explanation": "Servírovací objem je 0,15l."
+          },
+          {
+            "id": "sklo-cuvee-bile-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "suché",
+            "distractors": [
+              "polosuché",
+              "sladké"
+            ],
+            "explanation": "Víno je zatříděno v kategorii suché."
           },
           {
             "id": "sklo-cuvee-bile-prod",
@@ -5858,7 +5907,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Heuriger Rakousko",
+        "sweetness": "suché",
+        "description": "Heuriger Rakousko, suché",
         "notes": "Heuriger Rakousko. Tradiční rakouský Veltlín s tóny zeleného jablka a bílého pepře.",
         "questions": [
           {
@@ -5868,8 +5918,19 @@ export const MENU_CATEGORIES: MenuCategory[] = [
             "distractors": [
               "0,1 l",
               "0,2 l"
+            
             ],
             "explanation": "Servírovací objem je 0,15l."
+          },
+          {
+            "id": "sklo-gruner-veltliner-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "suché",
+            "distractors": [
+              "polosuché",
+              "polosladké"
+            ],
+            "explanation": "Víno je zatříděno v kategorii suché."
           },
           {
             "id": "sklo-gruner-veltliner-region",
@@ -5911,7 +5972,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Adulation Kalifornie",
+        "sweetness": "suché",
+        "description": "Adulation Kalifornie, suché",
         "notes": "Adulation Kalifornie. Bohaté kalifornské Chardonnay s tóny tropického ovoce, másla a vanilky.",
         "questions": [
           {
@@ -5921,8 +5983,19 @@ export const MENU_CATEGORIES: MenuCategory[] = [
             "distractors": [
               "0,1 l",
               "0,2 l"
+            
             ],
             "explanation": "Servírovací objem je 0,15l."
+          },
+          {
+            "id": "sklo-chardonnay-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "suché",
+            "distractors": [
+              "polosuché",
+              "sladké"
+            ],
+            "explanation": "Víno je zatříděno v kategorii suché."
           },
           {
             "id": "sklo-chardonnay-region",
@@ -5964,7 +6037,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Kolby Morava",
+        "sweetness": "suché",
+        "description": "Kolby Morava, suché",
         "notes": "Kolby Morava. Lehké a osvěžující růžové víno s tóny jahod a zahradního ovoce.",
         "questions": [
           {
@@ -5974,8 +6048,19 @@ export const MENU_CATEGORIES: MenuCategory[] = [
             "distractors": [
               "0,1 l",
               "0,2 l"
+            
             ],
             "explanation": "Servírovací objem je 0,15l."
+          },
+          {
+            "id": "sklo-modry-portugal-rose-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "suché",
+            "distractors": [
+              "polosuché",
+              "sladké"
+            ],
+            "explanation": "Víno je zatříděno v kategorii suché."
           },
           {
             "id": "sklo-modry-portugal-rose-region",
@@ -6017,7 +6102,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Kolby Morava",
+        "sweetness": "suché",
+        "description": "Kolby Morava, suché",
         "notes": "Kolby Morava. Tradiční lehčí červené víno s rubínovou barvou, tóny třešní a sametovými tříslovinami.",
         "questions": [
           {
@@ -6027,8 +6113,19 @@ export const MENU_CATEGORIES: MenuCategory[] = [
             "distractors": [
               "0,1 l",
               "0,2 l"
+            
             ],
             "explanation": "Servírovací objem je 0,15l."
+          },
+          {
+            "id": "sklo-modry-portugal-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "suché",
+            "distractors": [
+              "polosuché",
+              "sladké"
+            ],
+            "explanation": "Víno je zatříděno v kategorii suché."
           },
           {
             "id": "sklo-modry-portugal-region",
@@ -6070,7 +6167,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Kraus Čechy",
+        "sweetness": "suché",
+        "description": "Kraus Čechy, suché",
         "notes": "Kraus Čechy. Charakteristické mělnické červené cuvée s tóny tmavého ovoce a lesních plodů.",
         "questions": [
           {
@@ -6080,8 +6178,19 @@ export const MENU_CATEGORIES: MenuCategory[] = [
             "distractors": [
               "0,1 l",
               "0,2 l"
+            
             ],
             "explanation": "Servírovací objem je 0,15l."
+          },
+          {
+            "id": "sklo-cuvee-cervene-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "suché",
+            "distractors": [
+              "polosuché",
+              "sladké"
+            ],
+            "explanation": "Víno je zatříděno v kategorii suché."
           },
           {
             "id": "sklo-cuvee-cervene-prod",
@@ -6123,7 +6232,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Adulation Kalifornie",
+        "sweetness": "suché",
+        "description": "Adulation Kalifornie, suché",
         "notes": "Adulation Kalifornie. Sametový kalifornský Pinot Noir s tóny tmavých třešní, vanilky a jemného dřeva.",
         "questions": [
           {
@@ -6133,8 +6243,19 @@ export const MENU_CATEGORIES: MenuCategory[] = [
             "distractors": [
               "0,1 l",
               "0,2 l"
+            
             ],
             "explanation": "Servírovací objem je 0,15l."
+          },
+          {
+            "id": "sklo-pinot-noir-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "suché",
+            "distractors": [
+              "polosuché",
+              "sladké"
+            ],
+            "explanation": "Víno je zatříděno v kategorii suché."
           },
           {
             "id": "sklo-pinot-noir-region",
@@ -6185,6 +6306,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
+        "sweetness": "extra sec",
         "description": "Vinselect Michlovský, extra sec – Morava",
         "notes": "Vinselect Michlovský, extra sec – Morava. Divoké perlení, opulentní vůně s nádechem růží a exotického ovoce, kulatá podmanivá chuť.",
         "questions": [
@@ -6195,8 +6317,19 @@ export const MENU_CATEGORIES: MenuCategory[] = [
             "distractors": [
               "pouze 0,75L",
               "0,15L / 0,75L"
+            
             ],
             "explanation": "Charmat de Vinselekt Pálava je k dispozici ve dvou objemech: po skle (0,1L) a v celé lahvi (0,75L)."
+          },
+          {
+            "id": "bubliny-charmat-palava-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "extra sec",
+            "distractors": [
+              "brut",
+              "demi-sec"
+            ],
+            "explanation": "Víno je zatříděno v kategorii extra sec."
           },
           {
             "id": "bubliny-charmat-palava-prod",
@@ -6258,6 +6391,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
+        "sweetness": "extra brut",
         "description": "(Pinot, Chardonnay) Vinselect Michlovský, extra brut – Morava",
         "notes": "(Pinot, Chardonnay) Vinselect Michlovský, extra brut – Morava. Jemné impozantní perlení, elegantní aroma, harmonická krémová dochuť.",
         "questions": [
@@ -6268,8 +6402,19 @@ export const MENU_CATEGORIES: MenuCategory[] = [
             "distractors": [
               "pouze 0,75L",
               "0,15L / 0,75L"
+            
             ],
             "explanation": "Cremant de Vinselekt je k dispozici ve dvou objemech: po skle (0,1L) a v celé lahvi (0,75L)."
+          },
+          {
+            "id": "bubliny-cremant-vinselekt-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "extra brut",
+            "distractors": [
+              "extra sec",
+              "sec"
+            ],
+            "explanation": "Víno je zatříděno v kategorii extra brut."
           },
           {
             "id": "bubliny-cremant-vinselekt-details",
@@ -6331,6 +6476,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
+        "sweetness": "brut",
         "description": "NV, brut – North Coast, Kalifornie",
         "notes": "North Coast, Kalifornie. Druhotné zrání v láhvi, elegantní perlení, svěží sadové ovoce, citrusy, tóny briošky a chlebové kůrky.",
         "questions": [
@@ -6341,8 +6487,19 @@ export const MENU_CATEGORIES: MenuCategory[] = [
             "distractors": [
               "0,5 l",
               "1,5 l"
+            
             ],
             "explanation": "Objem lahve Angels & Cowboys je 0,75L."
+          },
+          {
+            "id": "bubliny-angels-cowboys-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "brut",
+            "distractors": [
+              "extra brut",
+              "demi-sec"
+            ],
+            "explanation": "Víno je zatříděno v kategorii brut."
           },
           {
             "id": "bubliny-angels-cowboys-type",
@@ -6401,15 +6558,27 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "weight": "0,75L",
         "price": "469 Kč",
         "allergens": ["12"],
-        "description": "pozdní sběr Gotberg – Pálava, Morava",
+        "sweetness": "suché",
+        "description": "pozdní sběr Gotberg – Pálava, Morava, suché",
         "notes": "pozdní sběr Gotberg – Pálava, Morava. Svěží s výraznou kyselinou, aromatika citrusy, zelené jablko a bílé broskve, minerální dochuť.",
         "questions": [
           {
             "id": "bile-ryzlink-gotberg-vol",
             "question": "Jaký je servírovací objem / míra položky Ryzlink rýnský Gotberg?",
             "correctAnswer": "0,75L",
-            "distractors": ["0,5 l", "1,0 l"],
+            "distractors": ["0,5 l", "1,0 l"
+            ],
             "explanation": "Servírovací míra / objem položky Ryzlink rýnský je 0,75L."
+          },
+          {
+            "id": "bile-ryzlink-gotberg-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "suché",
+            "distractors": [
+              "polosuché",
+              "sladké"
+            ],
+            "explanation": "Víno je zatříděno v kategorii suché."
           },
           {
             "id": "bile-ryzlink-gotberg-type",
@@ -6447,15 +6616,27 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "weight": "0,75L",
         "price": "479 Kč",
         "allergens": ["12"],
-        "description": "pozdní sběr Reisten – Mikulovsko, Morava",
+        "sweetness": "suché",
+        "description": "pozdní sběr Reisten – Mikulovsko, Morava, suché",
         "notes": "pozdní sběr Reisten – Mikulovsko, Morava. Plné a hladké, v chuti jemný minerální dotek, čerstvý grep a pomerančová kůra.",
         "questions": [
           {
             "id": "bile-pinot-gris-reisten-vol",
             "question": "Jaký je objem lahve položky Pinot Gris Reisten?",
             "correctAnswer": "0,75L",
-            "distractors": ["0,5 l", "1,0 l"],
+            "distractors": ["0,5 l", "1,0 l"
+            ],
             "explanation": "Objem lahve Pinot Gris Reisten je 0,75L."
+          },
+          {
+            "id": "bile-pinot-gris-reisten-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "suché",
+            "distractors": [
+              "polosuché",
+              "sladké"
+            ],
+            "explanation": "Víno je zatříděno v kategorii suché."
           },
           {
             "id": "bile-pinot-gris-reisten-prod",
@@ -6493,15 +6674,27 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "weight": "0,75L",
         "price": "495 Kč",
         "allergens": ["12"],
-        "description": "pozdní sběr Bílkovi – Velkopavlovicko, Morava",
+        "sweetness": "polosuché",
+        "description": "pozdní sběr Bílkovi – Velkopavlovicko, Morava, polosuché",
         "notes": "pozdní sběr Bílkovi – Velkopavlovicko, Morava. Šťavnaté, vůně černého rybízu a bezového květu, ovocné, příjemná kyselinka a kořenitý dozvuk.",
         "questions": [
           {
             "id": "bile-hibernal-bilkovi-vol",
             "question": "Jaký je servírovací objem lahve Hibernal Bílkovi?",
             "correctAnswer": "0,75L",
-            "distractors": ["0,5 l", "1,0 l"],
+            "distractors": ["0,5 l", "1,0 l"
+            ],
             "explanation": "Objem lahve Hibernal Bílkovi je 0,75L."
+          },
+          {
+            "id": "bile-hibernal-bilkovi-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "polosuché",
+            "distractors": [
+              "suché",
+              "sladké"
+            ],
+            "explanation": "Víno je zatříděno v kategorii polosuché."
           },
           {
             "id": "bile-hibernal-bilkovi-prod",
@@ -6539,15 +6732,27 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "weight": "0,75L",
         "price": "626 Kč",
         "allergens": ["12"],
-        "description": "Typik VOC Lukáš Halkoci – Znojemsko, Morava",
+        "sweetness": "suché",
+        "description": "Typik VOC Lukáš Halkoci – Znojemsko, Morava, suché",
         "notes": "Typik VOC Lukáš Halkoci – Znojemsko, Morava. Lehčí, svěží dochuť, aromatika angreštu, černého rybízu a citrusů.",
         "questions": [
           {
             "id": "bile-sauvignon-halkoci-vol",
             "question": "Jaký je objem lahve Sauvignon Lukáš Halkoci?",
             "correctAnswer": "0,75L",
-            "distractors": ["0,5 l", "1,0 l"],
+            "distractors": ["0,5 l", "1,0 l"
+            ],
             "explanation": "Objem lahve Sauvignon Halkoci je 0,75L."
+          },
+          {
+            "id": "bile-sauvignon-halkoci-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "suché",
+            "distractors": [
+              "polosuché",
+              "sladké"
+            ],
+            "explanation": "Víno je zatříděno v kategorii suché."
           },
           {
             "id": "bile-sauvignon-halkoci-type",
@@ -6585,15 +6790,27 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "weight": "0,75L",
         "price": "660 Kč",
         "allergens": ["12"],
-        "description": "pozdní sběr Milan Sůkal – Slovácko, Morava",
+        "sweetness": "suché",
+        "description": "pozdní sběr Milan Sůkal – Slovácko, Morava, suché",
         "notes": "pozdní sběr Milan Sůkal – Slovácko, Morava. Středně plné víno, příjemná kyselinka, tóny zralých citrusů, pomela a peckovic.",
         "questions": [
           {
             "id": "bile-ryzlink-vlassky-sukal-vol",
             "question": "Jaký je objem lahve položky Ryzlink Vlašský Milan Sůkal?",
             "correctAnswer": "0,75L",
-            "distractors": ["0,5 l", "1,0 l"],
+            "distractors": ["0,5 l", "1,0 l"
+            ],
             "explanation": "Objem lahve Ryzlink Vlašský Milan Sůkal je 0,75L."
+          },
+          {
+            "id": "bile-ryzlink-vlassky-sukal-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "suché",
+            "distractors": [
+              "polosuché",
+              "sladké"
+            ],
+            "explanation": "Víno je zatříděno v kategorii suché."
           },
           {
             "id": "bile-ryzlink-vlassky-sukal-prod",
@@ -6631,15 +6848,27 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "weight": "0,75L",
         "price": "506 Kč",
         "allergens": ["12"],
-        "description": "pozdní sběr Vinselect Michlovský – Lednicko-Valtický areál, Morava",
+        "sweetness": "polosuché",
+        "description": "pozdní sběr Vinselect Michlovský – Lednicko-Valtický areál, Morava, polosuché",
         "notes": "pozdní sběr Vinselect Michlovský – Lednicko-Valtický areál, Morava. Jemná vůně kvetoucích pomerančovníků a poupat růží, svěží chuť liči a jablečného závinu.",
         "questions": [
           {
             "id": "bile-palava-michlovsky-vol",
             "question": "Jaký je objem lahve položky Pálava Vinselect Michlovský?",
             "correctAnswer": "0,75L",
-            "distractors": ["0,5 l", "1,0 l"],
+            "distractors": ["0,5 l", "1,0 l"
+            ],
             "explanation": "Objem lahve tiché Pálavy je 0,75L."
+          },
+          {
+            "id": "bile-palava-michlovsky-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "polosuché",
+            "distractors": [
+              "suché",
+              "sladké"
+            ],
+            "explanation": "Víno je zatříděno v kategorii polosuché."
           },
           {
             "id": "bile-palava-michlovsky-reg",
@@ -6677,15 +6906,27 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "weight": "0,75L",
         "price": "629 Kč",
         "allergens": ["12"],
-        "description": "Veltlínské zelené, Hauser – Weinviertel, Rakousko",
+        "sweetness": "suché",
+        "description": "Veltlínské zelené, Hauser – Weinviertel, Rakousko, suché",
         "notes": "Weinviertel, Rakousko. Veltlínské zelené, vůně zeleného jablka, citrusové kůry a bílého pepře, jasná kyselinka a jemná mineralita.",
         "questions": [
           {
             "id": "bile-poysdorfer-saurussel-vol",
             "question": "Jaký je objem lahve Poysdorfer Saurüssel?",
             "correctAnswer": "0,75L",
-            "distractors": ["0,5 l", "1,0 l"],
+            "distractors": ["0,5 l", "1,0 l"
+            ],
             "explanation": "Objem lahve Poysdorfer Saurüssel je 0,75L."
+          },
+          {
+            "id": "bile-poysdorfer-saurussel-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "suché",
+            "distractors": [
+              "polosuché",
+              "sladké"
+            ],
+            "explanation": "Víno je zatříděno v kategorii suché."
           },
           {
             "id": "bile-poysdorfer-saurussel-grape",
@@ -6723,15 +6964,27 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "weight": "0,75L",
         "price": "723 Kč",
         "allergens": ["12"],
-        "description": "Premium Ried Satzen DAC Schwarzbock – Weinviertel, Rakousko",
+        "sweetness": "suché",
+        "description": "Premium Ried Satzen DAC Schwarzbock – Weinviertel, Rakousko, suché",
         "notes": "Premium Ried Satzen DAC Schwarzbock – Weinviertel, Rakousko. Sytá zlatavá barva, intenzivní vůně zralých hrušek a citrusů, dochuť elegantní, minerální, kořeněná pepřem.",
         "questions": [
           {
             "id": "bile-gruner-satzen-schwarzbock-vol",
             "question": "Jaký je servírovací objem lahve Grüner Veltliner Schwarzbock?",
             "correctAnswer": "0,75L",
-            "distractors": ["0,5 l", "1,0 l"],
+            "distractors": ["0,5 l", "1,0 l"
+            ],
             "explanation": "Objem lahve je 0,75L."
+          },
+          {
+            "id": "bile-gruner-satzen-schwarzbock-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "suché",
+            "distractors": [
+              "polosuché",
+              "sladké"
+            ],
+            "explanation": "Víno je zatříděno v kategorii suché."
           },
           {
             "id": "bile-gruner-satzen-schwarzbock-type",
@@ -6769,15 +7022,27 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "weight": "0,75L",
         "price": "999 Kč",
         "allergens": ["12"],
-        "description": "QbA Trocken Eva Fricke – Rheingau, Německo",
+        "sweetness": "suché",
+        "description": "QbA Trocken Eva Fricke – Rheingau, Německo, suché",
         "notes": "Rheingau, Německo. Elegantní, aromatika limetky, zeleného jablka a bílých broskví, minerální podkres.",
         "questions": [
           {
             "id": "bile-riesling-eva-fricke-vol",
             "question": "Jaký je objem lahve Riesling Rheingau Eva Fricke?",
             "correctAnswer": "0,75L",
-            "distractors": ["0,5 l", "1,0 l"],
+            "distractors": ["0,5 l", "1,0 l"
+            ],
             "explanation": "Objem lahve je 0,75L."
+          },
+          {
+            "id": "bile-riesling-eva-fricke-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "suché",
+            "distractors": [
+              "polosuché",
+              "sladké"
+            ],
+            "explanation": "Víno je zatříděno v kategorii suché."
           },
           {
             "id": "bile-riesling-eva-fricke-type",
@@ -6815,15 +7080,27 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "weight": "0,75L",
         "price": "595 Kč",
         "allergens": ["12"],
-        "description": "Red Stone QbA trocken Gunderloch – Rheinhessen, Německo",
+        "sweetness": "suché",
+        "description": "Red Stone QbA trocken Gunderloch – Rheinhessen, Německo, suché",
         "notes": "Rheinhessen, Německo. Šťavnaté, vůně zralých citrusů, broskví a bylinek, minerální stopa červené břidlice, kořenitá dochuť.",
         "questions": [
           {
             "id": "bile-riesling-gunderloch-red-stone-vol",
             "question": "Jaký je objem lahve Riesling Red Stone Gunderloch?",
             "correctAnswer": "0,75L",
-            "distractors": ["0,5 l", "1,0 l"],
+            "distractors": ["0,5 l", "1,0 l"
+            ],
             "explanation": "Objem lahve je 0,75L."
+          },
+          {
+            "id": "bile-riesling-gunderloch-red-stone-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "suché",
+            "distractors": [
+              "polosuché",
+              "sladké"
+            ],
+            "explanation": "Víno je zatříděno v kategorii suché."
           },
           {
             "id": "bile-riesling-gunderloch-red-stone-type",
@@ -6861,15 +7138,27 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "weight": "0,75L",
         "price": "975 Kč",
         "allergens": ["12"],
-        "description": "Tradition Brauneberg Fritz Haag – Mosel, Německo",
+        "sweetness": "polosuché",
+        "description": "Tradition Brauneberg Fritz Haag – Mosel, Německo, polosuché",
         "notes": "Mosel, Německo. Zlatavá barva, intenzivní citrusová aromatika, chuť pikantní, harmonická, nádech akátového medu.",
         "questions": [
           {
             "id": "bile-riesling-fritz-haag-vol",
             "question": "Jaký je objem lahve Riesling Fritz Haag?",
             "correctAnswer": "0,75L",
-            "distractors": ["0,5 l", "1,0 l"],
+            "distractors": ["0,5 l", "1,0 l"
+            ],
             "explanation": "Objem lahve je 0,75L."
+          },
+          {
+            "id": "bile-riesling-fritz-haag-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "polosuché",
+            "distractors": [
+              "suché",
+              "sladké"
+            ],
+            "explanation": "Víno je zatříděno v kategorii polosuché."
           },
           {
             "id": "bile-riesling-fritz-haag-type",
@@ -6907,15 +7196,27 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "weight": "0,75L",
         "price": "725 Kč",
         "allergens": ["12"],
-        "description": "Rulandské bílé, Tradition Trocken Philipp Kuhn – Pfalz, Německo",
+        "sweetness": "suché",
+        "description": "Rulandské bílé, Tradition Trocken Philipp Kuhn – Pfalz, Německo, suché",
         "notes": "Pfalz, Německo. Rulandské bílé, chuť pražených mandlí, sušených hrušek, vlašských ořechů a minerality.",
         "questions": [
           {
             "id": "bile-weisser-burgunder-philipp-kuhn-vol",
             "question": "Jaký je objem lahve Weisser Burgunder Philipp Kuhn?",
             "correctAnswer": "0,75L",
-            "distractors": ["0,5 l", "1,0 l"],
+            "distractors": ["0,5 l", "1,0 l"
+            ],
             "explanation": "Objem lahve je 0,75L."
+          },
+          {
+            "id": "bile-weisser-burgunder-philipp-kuhn-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "suché",
+            "distractors": [
+              "polosuché",
+              "sladké"
+            ],
+            "explanation": "Víno je zatříděno v kategorii suché."
           },
           {
             "id": "bile-weisser-burgunder-philipp-kuhn-grape",
@@ -6960,15 +7261,27 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "weight": "0,75L",
         "price": "789 Kč",
         "allergens": ["12"],
-        "description": "Lapis Luna – North Coast, Kalifornie",
+        "sweetness": "suché",
+        "description": "Lapis Luna – North Coast, Kalifornie, suché",
         "notes": "North Coast, Kalifornie. Plnější, pikantní kyselinka, ovocný styl odrůdy, zralá bílá broskev a tropické ovoce v chuti.",
         "questions": [
           {
             "id": "bile-sauvignon-lapis-luna-vol",
             "question": "Jaký je objem lahve Sauvignon Blanc Lapis Luna?",
             "correctAnswer": "0,75L",
-            "distractors": ["0,5 l", "1,0 l"],
+            "distractors": ["0,5 l", "1,0 l"
+            ],
             "explanation": "Objem lahve je 0,75L."
+          },
+          {
+            "id": "bile-sauvignon-lapis-luna-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "suché",
+            "distractors": [
+              "polosuché",
+              "sladké"
+            ],
+            "explanation": "Víno je zatříděno v kategorii suché."
           },
           {
             "id": "bile-sauvignon-lapis-luna-prod",
@@ -7006,15 +7319,27 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "weight": "0,75L",
         "price": "975 Kč",
         "allergens": ["12"],
-        "description": "Knotty Vines – Kalifornie",
+        "sweetness": "suché",
+        "description": "Knotty Vines – Kalifornie, suché",
         "notes": "Kalifornie. Plnější na dubových sudech, šťavnaté, elegantní závěr, chuť tropického ovoce, koření a mineralita.",
         "questions": [
           {
             "id": "bile-chardonnay-knotty-vines-vol",
             "question": "Jaký je objem lahve Chardonnay Knotty Vines?",
             "correctAnswer": "0,75L",
-            "distractors": ["0,5 l", "1,0 l"],
+            "distractors": ["0,5 l", "1,0 l"
+            ],
             "explanation": "Objem lahve je 0,75L."
+          },
+          {
+            "id": "bile-chardonnay-knotty-vines-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "suché",
+            "distractors": [
+              "polosuché",
+              "sladké"
+            ],
+            "explanation": "Víno je zatříděno v kategorii suché."
           },
           {
             "id": "bile-chardonnay-knotty-vines-prod",
@@ -7063,7 +7388,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "pozdní sběr Bílkovi – Velkopavlovicko, Morava",
+        "sweetness": "polosuché",
+        "description": "pozdní sběr Bílkovi – Velkopavlovicko, Morava, polosuché",
         "notes": "pozdní sběr Bílkovi – Velkopavlovicko, Morava. Svěží růžové víno s tóny lesních jahod, malin a jemné smetanovosti s harmonickou kyselinkou.",
         "questions": [
           {
@@ -7073,8 +7399,19 @@ export const MENU_CATEGORIES: MenuCategory[] = [
             "distractors": [
               "0,5 l",
               "1,0 l"
+            
             ],
             "explanation": "Servírovací objem lahve Merlot Rosé je 0,75L."
+          },
+          {
+            "id": "ruzove-merlot-rose-bilkovi-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "polosuché",
+            "distractors": [
+              "suché",
+              "sladké"
+            ],
+            "explanation": "Víno je zatříděno v kategorii polosuché."
           },
           {
             "id": "ruzove-merlot-rose-bilkovi-type",
@@ -7145,7 +7482,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Roučí Malé Kraus – Mělnicko, Čechy",
+        "sweetness": "suché",
+        "description": "Roučí Malé Kraus – Mělnicko, Čechy, suché",
         "notes": "Roučí Malé Kraus – Mělnicko, Čechy. Elegantní tóny třešní, lesního ovoce a jemná tříslovina.",
         "questions": [
           {
@@ -7155,8 +7493,19 @@ export const MENU_CATEGORIES: MenuCategory[] = [
             "distractors": [
               "0,5 l",
               "1,0 l"
+            
             ],
             "explanation": "Servírovací objem lahve je 0,75L."
+          },
+          {
+            "id": "cervene-pinot-noir-kraus-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "suché",
+            "distractors": [
+              "polosuché",
+              "sladké"
+            ],
+            "explanation": "Víno je zatříděno v kategorii suché."
           },
           {
             "id": "cervene-pinot-noir-kraus-prod",
@@ -7198,7 +7547,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Bílkovi – Velkopavlovicko, Morava",
+        "sweetness": "suché",
+        "description": "Bílkovi – Velkopavlovicko, Morava, suché",
         "notes": "Bílkovi – Velkopavlovicko, Morava. Tmavá granátová barva, aroma zralých ostružin, černého rybízu a povidel, sametová chuť.",
         "questions": [
           {
@@ -7208,8 +7558,19 @@ export const MENU_CATEGORIES: MenuCategory[] = [
             "distractors": [
               "0,5 l",
               "1,0 l"
+            
             ],
             "explanation": "Servírovací objem položky Dornfelder je 0,75L."
+          },
+          {
+            "id": "cervene-dornfelder-bilkovi-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "suché",
+            "distractors": [
+              "polosuché",
+              "sladké"
+            ],
+            "explanation": "Víno je zatříděno v kategorii suché."
           },
           {
             "id": "cervene-dornfelder-bilkovi-prod",
@@ -7251,7 +7612,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "(Cabernet Sauvignon, Merlot) Kolby – Mikulovsko, Morava",
+        "sweetness": "suché",
+        "description": "(Cabernet Sauvignon, Merlot) Kolby – Mikulovsko, Morava, suché",
         "notes": "(Cabernet Sauvignon, Merlot) Kolby – Mikulovsko, Morava. Harmonická kupáž s tóny tmavého lesního ovoce, čokolády a ušlechtilého dřeva.",
         "questions": [
           {
@@ -7261,8 +7623,19 @@ export const MENU_CATEGORIES: MenuCategory[] = [
             "distractors": [
               "0,5 l",
               "1,0 l"
+            
             ],
             "explanation": "Servírovací objem lahve Cuvée Red Kolby je 0,75L."
+          },
+          {
+            "id": "cervene-cuvee-red-kolby-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "suché",
+            "distractors": [
+              "polosuché",
+              "sladké"
+            ],
+            "explanation": "Víno je zatříděno v kategorii suché."
           },
           {
             "id": "cervene-cuvee-red-kolby-grapes",
@@ -7314,7 +7687,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "(Merlot, Frankovka) Bílkovi – Velkopavlovicko, Morava",
+        "sweetness": "suché",
+        "description": "(Merlot, Frankovka) Bílkovi – Velkopavlovicko, Morava, suché",
         "notes": "(Merlot, Frankovka) Bílkovi – Velkopavlovicko, Morava. Šťavnaté cuvée s tóny zralých třešní, moruší a jemného koření.",
         "questions": [
           {
@@ -7324,8 +7698,19 @@ export const MENU_CATEGORIES: MenuCategory[] = [
             "distractors": [
               "0,5 l",
               "1,0 l"
+            
             ],
             "explanation": "Servírovací objem položky Nina Cuvée je 0,75L."
+          },
+          {
+            "id": "cervene-nina-cuvee-bilkovi-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "suché",
+            "distractors": [
+              "polosuché",
+              "sladké"
+            ],
+            "explanation": "Víno je zatříděno v kategorii suché."
           },
           {
             "id": "cervene-nina-cuvee-bilkovi-grapes",
@@ -7377,7 +7762,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Weingut Feiler-Artinger – Burgenland, Rakousko",
+        "sweetness": "suché",
+        "description": "Weingut Feiler-Artinger – Burgenland, Rakousko, suché",
         "notes": "Weingut Feiler-Artinger – Burgenland, Rakousko. Klasický rakouský Zweigelt s tóny černých višní, pepře a měkkou tříslovinou.",
         "questions": [
           {
@@ -7387,8 +7773,19 @@ export const MENU_CATEGORIES: MenuCategory[] = [
             "distractors": [
               "0,5 l",
               "1,0 l"
+            
             ],
             "explanation": "Servírovací objem lahve je 0,75L."
+          },
+          {
+            "id": "cervene-zweigelt-feiler-artinger-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "suché",
+            "distractors": [
+              "polosuché",
+              "sladké"
+            ],
+            "explanation": "Víno je zatříděno v kategorii suché."
           },
           {
             "id": "cervene-zweigelt-feiler-artinger-prod",
@@ -7440,7 +7837,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Tradition Philip Kuhn – Pfalz, Německo",
+        "sweetness": "suché",
+        "description": "Tradition Philip Kuhn – Pfalz, Německo, suché",
         "notes": "Tradition Philip Kuhn – Pfalz, Německo. Špičkový německý Spätburgunder s tóny divokých malin, kouře, koření a ušlechtilého dřeva.",
         "questions": [
           {
@@ -7450,8 +7848,19 @@ export const MENU_CATEGORIES: MenuCategory[] = [
             "distractors": [
               "0,5 l",
               "1,0 l"
+            
             ],
             "explanation": "Servírovací objem lahve je 0,75L."
+          },
+          {
+            "id": "cervene-pinot-noir-kuhn-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "suché",
+            "distractors": [
+              "polosuché",
+              "sladké"
+            ],
+            "explanation": "Víno je zatříděno v kategorii suché."
           },
           {
             "id": "cervene-pinot-noir-kuhn-type",
@@ -7503,7 +7912,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Lapis Luna – Lodi, Kalifornie",
+        "sweetness": "suché",
+        "description": "Lapis Luna – Lodi, Kalifornie, suché",
         "notes": "Lapis Luna – Lodi, Kalifornie. Výrazný kalifornský Cabernet plný tónů ostružin, vanilky, černého rybízu a dubu s dlouhým závěrem.",
         "questions": [
           {
@@ -7513,8 +7923,19 @@ export const MENU_CATEGORIES: MenuCategory[] = [
             "distractors": [
               "0,5 l",
               "1,0 l"
+            
             ],
             "explanation": "Servírovací objem položky Cabernet Sauvignon Lapis Luna je 0,75L."
+          },
+          {
+            "id": "cervene-cabernet-sauvignon-lapis-luna-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "suché",
+            "distractors": [
+              "polosuché",
+              "sladké"
+            ],
+            "explanation": "Víno je zatříděno v kategorii suché."
           },
           {
             "id": "cervene-cabernet-sauvignon-lapis-luna-prod",
@@ -7566,7 +7987,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         "allergens": [
           "12"
         ],
-        "description": "Hendry Ranch HRW – Napa Valley, Kalifornie",
+        "sweetness": "suché",
+        "description": "Hendry Ranch HRW – Napa Valley, Kalifornie, suché",
         "notes": "Hendry Ranch HRW – Napa Valley, Kalifornie. Kultovní kalifornský Zinfandel, mohutné tělo s tóny švestek, skořice, pepře a vanilky.",
         "questions": [
           {
@@ -7576,8 +7998,19 @@ export const MENU_CATEGORIES: MenuCategory[] = [
             "distractors": [
               "0,5 l",
               "1,0 l"
+            
             ],
             "explanation": "Servírovací objem lahve Zinfandel Hendry Ranch HRW je 0,75L."
+          },
+          {
+            "id": "cervene-zinfandel-hendry-ranch-sweetness",
+            "question": "Jaký je druh cukernatosti / zbytkového cukru tohoto vína?",
+            "correctAnswer": "suché",
+            "distractors": [
+              "polosuché",
+              "sladké"
+            ],
+            "explanation": "Víno je zatříděno v kategorii suché."
           },
           {
             "id": "cervene-zinfandel-hendry-ranch-prod",

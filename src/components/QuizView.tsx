@@ -294,6 +294,11 @@ export const QuizView: React.FC<QuizViewProps> = ({
                     {item.weight}
                   </span>
                 )}
+                {item.sweetness && (
+                  <span className="text-xs font-semibold text-purple-200 bg-purple-950/60 border border-purple-700/50 px-2.5 py-1 rounded-md">
+                    {item.sweetness}
+                  </span>
+                )}
                 {item.price && (
                   <span className="text-sm font-bold text-amber-400 bg-amber-950/40 border border-amber-800/40 px-3 py-1 rounded-md">
                     {item.price}

@@ -169,6 +169,11 @@ export const ItemSelector: React.FC<ItemSelectorProps> = ({
                               {item.weight}
                             </span>
                           )}
+                          {item.sweetness && (
+                            <span className="font-semibold text-purple-200 bg-purple-950/60 border border-purple-700/50 px-2.5 py-0.5 rounded text-xs sm:text-sm">
+                              {item.sweetness}
+                            </span>
+                          )}
                           {item.price && (
                             <span className="font-bold text-amber-400 text-xs sm:text-sm">
                               {item.price}
