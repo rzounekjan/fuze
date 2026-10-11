@@ -3,9 +3,8 @@
 // - Czech Menu: Spoken naturally by a Czech speaker in Czech (cs-CZ)
 // - English Menu: Spoken naturally by an English speaker in English (en-US / en-GB)
 // - Synchronous user-gesture execution for Android & iOS mobile safety
-// - Native lang targeting (cs-CZ / en-US) ensuring 100% reliable speech across all devices
-// - Watchdog failsafe timer preventing endless blinking speaker icons
-// - Strong garbage-collection protection across WebKit and Chromium
+// - Automatic active speech verification check resetting state if mobile browser ignores speech
+// - Watchdog failsafe timer preventing endless yellow speaker icons on mobile
 
 import { soundManager } from './sound';
 
@@ -24,8 +23,9 @@ class SpeechManager {
   private voicesLoaded: boolean = false;
   private activeUtterances: Set<SpeechSynthesisUtterance> = new Set();
   private watchdogTimer: NodeJS.Timeout | null = null;
+  private pollInterval: NodeJS.Timeout | null = null;
   private queue: SpeechChunk[] = [];
-  private isProcessingQueue: boolean = false;
+  private isUnlocked: boolean = false;
 
   constructor() {
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
@@ -37,6 +37,24 @@ class SpeechManager {
           window.speechSynthesis.onvoiceschanged = () => this.initVoices();
         }
       }
+
+      // Unlock iOS Safari / Mobile Chrome SpeechSynthesis on first user interaction
+      const unlock = () => {
+        if (!this.isUnlocked) {
+          this.isUnlocked = true;
+          try {
+            window.speechSynthesis.resume();
+            // Silent dummy utterance to prime WebSpeech engine on WebKit/iOS
+            const dummy = new SpeechSynthesisUtterance('');
+            dummy.volume = 0;
+            window.speechSynthesis.speak(dummy);
+          } catch {}
+        }
+        window.removeEventListener('click', unlock);
+        window.removeEventListener('touchstart', unlock);
+      };
+      window.addEventListener('click', unlock, { passive: true });
+      window.addEventListener('touchstart', unlock, { passive: true });
     }
   }
 
@@ -109,17 +127,24 @@ class SpeechManager {
     return this.currentId !== null;
   }
 
-  private clearWatchdog() {
+  public getCurrentId(): string | null {
+    return this.currentId;
+  }
+
+  private clearTimers() {
     if (this.watchdogTimer) {
       clearTimeout(this.watchdogTimer);
       this.watchdogTimer = null;
     }
+    if (this.pollInterval) {
+      clearInterval(this.pollInterval);
+      this.pollInterval = null;
+    }
   }
 
   public stop() {
-    this.clearWatchdog();
+    this.clearTimers();
     this.queue = [];
-    this.isProcessingQueue = false;
 
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
       try {
@@ -139,13 +164,11 @@ class SpeechManager {
   }
 
   /**
-   * Split a block of text into natural, digestible sentence/clause chunks (<55 chars).
-   * Short chunks prevent mobile buffer overflows and 15s iOS Safari timeouts.
+   * Split text into short, natural sentence/phrase chunks (<60 chars) to prevent iOS 15s speech timeout.
    */
-  private splitIntoChunks(text: string, maxLen = 55): string[] {
+  private splitIntoChunks(text: string, maxLen = 60): string[] {
     if (!text || !text.trim()) return [];
 
-    // Split on punctuation or line breaks
     const rawParts = text.split(/(?<=[.?!,;:–—\n])\s+/);
     const chunks: string[] = [];
     let current = '';
@@ -168,7 +191,6 @@ class SpeechManager {
       chunks.push(current.trim());
     }
 
-    // Safety fallback: if any individual chunk exceeds maxLen * 1.3, break at word boundaries
     const safeChunks: string[] = [];
     for (const chunk of chunks) {
       if (chunk.length <= maxLen * 1.3) {
@@ -193,10 +215,6 @@ class SpeechManager {
     return safeChunks.length > 0 ? safeChunks : [text];
   }
 
-  /**
-   * Clean text for Czech speech synthesis:
-   * Expands measurement units and formats characters for speech.
-   */
   private cleanCzechText(text: string): string {
     return (text || '')
       .replace(/<[^>]*>/g, '')
@@ -222,10 +240,6 @@ class SpeechManager {
       .trim();
   }
 
-  /**
-   * Clean text for English speech synthesis:
-   * Formats abbreviations and units for natural English pronunciation.
-   */
   private cleanEnglishText(text: string): string {
     return (text || '')
       .replace(/<[^>]*>/g, '')
@@ -252,11 +266,6 @@ class SpeechManager {
       .trim();
   }
 
-  /**
-   * Resolves appropriate system voices:
-   * English: STRICTLY English voice (en-US, en-GB, en-AU)
-   * Czech: High-quality local Czech voice (cs-CZ)
-   */
   private getVoices(): { enVoice: SpeechSynthesisVoice | null; csVoice: SpeechSynthesisVoice | null } {
     if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
       return { enVoice: null, csVoice: null };
@@ -264,42 +273,34 @@ class SpeechManager {
 
     const voices = window.speechSynthesis.getVoices() || [];
 
-    // 1. English voice (STRICTLY 'en')
     const enVoices = voices.filter(v => v.lang.toLowerCase().startsWith('en'));
     let enVoice: SpeechSynthesisVoice | null = null;
     if (enVoices.length > 0) {
       enVoice =
         enVoices.find(v => v.localService && (v.name.includes('Natural') || v.name.includes('Google') || v.name.includes('Samantha') || v.name.includes('Daniel') || v.name.includes('David') || v.name.includes('Zira'))) ||
         enVoices.find(v => v.localService) ||
+        enVoices[0] ||
         null;
     }
 
-    // 2. Czech voice (STRICTLY 'cs-CZ' / 'cs')
     const csVoices = voices.filter(v => v.lang.toLowerCase().startsWith('cs'));
     let csVoice: SpeechSynthesisVoice | null = null;
     if (csVoices.length > 0) {
       csVoice =
         csVoices.find(v => v.localService && (v.name.includes('Natural') || v.name.includes('Google') || v.name.includes('Jakub') || v.name.includes('Zuzana') || v.name.includes('Jan') || v.name.includes('Vlasta'))) ||
         csVoices.find(v => v.localService) ||
+        csVoices[0] ||
         null;
     }
 
     return { enVoice, csVoice };
   }
 
-  /**
-   * Processes the speech chunk queue sequentially.
-   */
   private processQueue(sessionId: string) {
     if (this.currentId !== sessionId) return;
 
     if (this.queue.length === 0) {
-      // All chunks finished cleanly
-      this.clearWatchdog();
-      this.activeUtterances.clear();
-      this.currentId = null;
-      this.isProcessingQueue = false;
-      this.notify();
+      this.stop();
       return;
     }
 
@@ -310,19 +311,15 @@ class SpeechManager {
     }
 
     try {
-      if (typeof window !== 'undefined' && 'speechSynthesis' in window && window.speechSynthesis.paused) {
-        window.speechSynthesis.resume();
+      if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+        if (window.speechSynthesis.paused) {
+          window.speechSynthesis.resume();
+        }
       }
 
       const utterance = new SpeechSynthesisUtterance(currentChunk.text);
+      utterance.lang = currentChunk.lang === 'cs' ? 'cs-CZ' : 'en-US';
 
-      if (currentChunk.lang === 'cs') {
-        utterance.lang = 'cs-CZ';
-      } else {
-        utterance.lang = 'en-US';
-      }
-
-      // Only assign voice if explicitly verified local and matching
       if (currentChunk.voice) {
         try {
           utterance.voice = currentChunk.voice;
@@ -333,58 +330,53 @@ class SpeechManager {
       utterance.pitch = 1.0;
       utterance.volume = 1.0;
 
-      // Keep strong reference to prevent GC on mobile WebKit and Chrome
       this.activeUtterances.add(utterance);
-      (window as unknown as { __fuzeActiveUtterances?: Set<SpeechSynthesisUtterance> }).__fuzeActiveUtterances = this.activeUtterances;
+      if (typeof window !== 'undefined') {
+        (window as unknown as { __fuzeActiveUtterances?: Set<SpeechSynthesisUtterance> }).__fuzeActiveUtterances = this.activeUtterances;
+      }
 
       utterance.onend = () => {
         this.activeUtterances.delete(utterance);
-        // Continue to next chunk
         this.processQueue(sessionId);
       };
 
-      utterance.onerror = (e) => {
+      utterance.onerror = () => {
         this.activeUtterances.delete(utterance);
-        if (e.error !== 'canceled' && e.error !== 'interrupted') {
-          console.warn('Speech chunk notice:', e.error);
-        }
-        // Continue playing next chunk so error never hangs state
         this.processQueue(sessionId);
       };
 
-      // Speak current chunk
       window.speechSynthesis.speak(utterance);
     } catch (err) {
-      console.warn('Chunk playback error:', err);
+      console.warn('Speech chunk playback notice:', err);
       this.processQueue(sessionId);
     }
   }
 
   /**
-   * Main speech synthesis entry point for item text pronunciation.
-   * Completely autonomous and isolated from audio recordings.
+   * Main entry point for synthetic text-to-speech pronunciation.
+   * Completely autonomous, synchronous user-gesture start, with mobile auto-reset safety.
    */
   public speak(id: string, name: string, description: string, lang: 'cs' | 'en' = 'cs') {
     if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
-      console.warn('SpeechSynthesis is not supported in this browser.');
+      console.warn('SpeechSynthesis is not supported in this browser environment.');
       return;
     }
 
-    // Toggle off if currently speaking the exact same item
+    // Toggle off if currently speaking exact same item
     if (this.currentId === id) {
       this.stop();
       return;
     }
 
-    // 1. Play subtle audio click so Web Audio is unlocked
+    // Play subtle click sound for UI feedback
     try {
       soundManager.playClick();
     } catch {}
 
-    // 2. Stop any existing playback
+    // Cancel any previous speech
     this.stop();
 
-    // 3. Ensure speechSynthesis is active
+    // Direct synchronous speech engine preparation
     try {
       window.speechSynthesis.cancel();
       if (window.speechSynthesis.paused) {
@@ -392,43 +384,18 @@ class SpeechManager {
       }
     } catch {}
 
-    // 4. Refresh voices
     this.initVoices();
     const { enVoice, csVoice } = this.getVoices();
 
     const chunksToPlay: SpeechChunk[] = [];
     let totalTextChars = 0;
 
-    // 1. ENGLISH MODE
     if (lang === 'en') {
       const cleanName = this.cleanEnglishText(name);
-      let cleanDesc = this.cleanEnglishText(description);
-
-      if (
-        cleanDesc &&
-        !cleanDesc.toLowerCase().startsWith('ingredients') &&
-        !cleanDesc.toLowerCase().startsWith('recipe') &&
-        !cleanDesc.toLowerCase().startsWith('category') &&
-        !cleanDesc.toLowerCase().startsWith('subcategory') &&
-        !cleanDesc.toLowerCase().startsWith('section') &&
-        !cleanDesc.toLowerCase().startsWith('overview') &&
-        !cleanDesc.toLowerCase().startsWith('description') &&
-        !cleanDesc.toLowerCase().startsWith('culinary') &&
-        !cleanDesc.toLowerCase().startsWith('beverage') &&
-        !cleanDesc.toLowerCase().startsWith('wine') &&
-        !cleanDesc.toLowerCase().startsWith('fresh') &&
-        !cleanDesc.toLowerCase().startsWith('prestigious') &&
-        !cleanDesc.toLowerCase().startsWith('traditional') &&
-        !cleanDesc.toLowerCase().startsWith('authentic')
-      ) {
-        if (!cleanDesc.includes('.') || cleanDesc.split(',').length >= 2) {
-          cleanDesc = `Ingredients: ${cleanDesc}`;
-        }
-      }
-
-      const fullText = cleanName ? `${cleanName}. ${cleanDesc}` : cleanDesc;
+      const cleanDesc = this.cleanEnglishText(description);
+      const fullText = cleanName ? (cleanDesc ? `${cleanName}. ${cleanDesc}` : cleanName) : cleanDesc;
       totalTextChars = fullText.length;
-      const textChunks = this.splitIntoChunks(fullText, 55);
+      const textChunks = this.splitIntoChunks(fullText, 60);
 
       for (const t of textChunks) {
         chunksToPlay.push({
@@ -438,32 +405,12 @@ class SpeechManager {
           rate: 0.95
         });
       }
-    }
-    // 2. CZECH MODE
-    else {
+    } else {
       const cleanName = this.cleanCzechText(name);
-      let cleanDesc = '';
-      if (description && description.trim()) {
-        cleanDesc = this.cleanCzechText(description);
-        if (
-          !cleanDesc.toLowerCase().startsWith('složení') &&
-          !cleanDesc.toLowerCase().startsWith('popis') &&
-          !cleanDesc.toLowerCase().startsWith('kategorie') &&
-          !cleanDesc.toLowerCase().startsWith('podsložka') &&
-          !cleanDesc.toLowerCase().startsWith('sekce') &&
-          !cleanDesc.toLowerCase().startsWith('přehled') &&
-          !cleanDesc.toLowerCase().startsWith('tradiční') &&
-          !cleanDesc.toLowerCase().startsWith('čerstvé')
-        ) {
-          if (!cleanDesc.includes('.') || cleanDesc.split(',').length >= 2) {
-            cleanDesc = `Složení: ${cleanDesc}`;
-          }
-        }
-      }
-
-      const fullCzechText = cleanDesc ? `${cleanName}. ${cleanDesc}` : `${cleanName}.`;
-      totalTextChars = fullCzechText.length;
-      const descChunks = this.splitIntoChunks(fullCzechText, 55);
+      const cleanDesc = this.cleanCzechText(description);
+      const fullText = cleanDesc ? `${cleanName}. ${cleanDesc}` : `${cleanName}.`;
+      totalTextChars = fullText.length;
+      const descChunks = this.splitIntoChunks(fullText, 60);
 
       for (const c of descChunks) {
         chunksToPlay.push({
@@ -477,31 +424,44 @@ class SpeechManager {
 
     if (chunksToPlay.length === 0) return;
 
-    // SYNCHRONOUS USER GESTURE EXECUTION:
-    // Set active ID immediately so UI updates and gesture context is preserved
     this.currentId = id;
     this.queue = chunksToPlay;
-    this.isProcessingQueue = true;
     this.notify();
 
-    // SAFETY WATCHDOG TIMER:
-    // Prevents speaker icon from blinking indefinitely if mobile OS cuts off audio
-    const safeDurationMs = Math.max(7000, totalTextChars * 100 + 3500);
-    this.clearWatchdog();
+    // SAFETY WATCHDOG & MOBILE MONITOR:
+    // Periodically verifies if speech ended or was aborted on mobile browsers, preventing stuck yellow state!
+    const maxDurationMs = Math.max(5000, Math.min(25000, totalTextChars * 110 + 2000));
+    let silentCounter = 0;
+
     this.watchdogTimer = setTimeout(() => {
       if (this.currentId === id) {
-        console.warn('Speech watchdog failsafe: cleanly ending speech session.');
         this.stop();
       }
-    }, safeDurationMs);
+    }, maxDurationMs);
 
-    // Start processing queue immediately inside user gesture event
+    this.pollInterval = setInterval(() => {
+      if (this.currentId !== id) {
+        this.clearTimers();
+        return;
+      }
+
+      const isSpeakingInBrowser = typeof window !== 'undefined' && 'speechSynthesis' in window && (window.speechSynthesis.speaking || window.speechSynthesis.pending);
+
+      if (!isSpeakingInBrowser) {
+        silentCounter++;
+        // If browser speech synthesis is silent for 3 consecutive poll cycles (750ms) and queue is empty, auto-reset!
+        if (silentCounter >= 3 && this.queue.length === 0) {
+          this.stop();
+        }
+      } else {
+        silentCounter = 0;
+      }
+    }, 250);
+
+    // Start processing queue synchronously within click event
     this.processQueue(id);
   }
 
-  /**
-   * Alias method for speakItem
-   */
   public speakItem(id: string, name: string, description: string, lang: 'cs' | 'en' = 'cs') {
     this.speak(id, name, description, lang);
   }

@@ -191,7 +191,7 @@ export const ItemSelector: React.FC<ItemSelectorProps> = ({
                             {item.name}
                           </h3>
                           <AudioPronounceButton
-                            itemId={item.id}
+                            itemId={`select-item-${item.id}`}
                             name={item.name}
                             description={item.description}
                             lang={language}
@@ -251,7 +251,7 @@ export const ItemSelector: React.FC<ItemSelectorProps> = ({
 
                     <div className="flex items-center gap-2">
                       <AudioPronounceButton
-                        itemId={`btn-${item.id}`}
+                        itemId={`select-btn-${item.id}`}
                         name={item.name}
                         description={item.description}
                         lang={language}

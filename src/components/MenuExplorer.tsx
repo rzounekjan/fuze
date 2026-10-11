@@ -139,7 +139,7 @@ export const MenuExplorer: React.FC<MenuExplorerProps> = ({
                         {item.name}
                       </h3>
                       <AudioPronounceButton
-                        itemId={item.id}
+                        itemId={`menu-item-${item.id}`}
                         name={item.name}
                         description={item.description}
                         lang={language}
