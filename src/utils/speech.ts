@@ -2,7 +2,8 @@
 // - Completely isolated from pre-recorded audio files
 // - Czech Menu: Spoken naturally by a Czech speaker in Czech (cs-CZ)
 // - English Menu: Spoken naturally by an English speaker in English (en-US / en-GB)
-// - Short clause chunking (<65 chars): prevents mobile WebKit/Chromium buffer timeouts & speech freezes
+// - Synchronous user-gesture execution for Android & iOS mobile safety
+// - Native lang targeting (cs-CZ / en-US) ensuring 100% reliable speech across all devices
 // - Watchdog failsafe timer preventing endless blinking speaker icons
 // - Strong garbage-collection protection across WebKit and Chromium
 
@@ -85,7 +86,7 @@ class SpeechManager {
         window.speechSynthesis.onvoiceschanged = handler;
       }
 
-      setTimeout(onDone, 600);
+      setTimeout(onDone, 500);
     });
   }
 
@@ -138,10 +139,10 @@ class SpeechManager {
   }
 
   /**
-   * Split a block of text into natural, digestible sentence/clause chunks (<65 chars).
+   * Split a block of text into natural, digestible sentence/clause chunks (<55 chars).
    * Short chunks prevent mobile buffer overflows and 15s iOS Safari timeouts.
    */
-  private splitIntoChunks(text: string, maxLen = 65): string[] {
+  private splitIntoChunks(text: string, maxLen = 55): string[] {
     if (!text || !text.trim()) return [];
 
     // Split on punctuation or line breaks
@@ -254,7 +255,7 @@ class SpeechManager {
   /**
    * Resolves appropriate system voices:
    * English: STRICTLY English voice (en-US, en-GB, en-AU)
-   * Czech: High-quality or local Czech voice (cs-CZ)
+   * Czech: High-quality local Czech voice (cs-CZ)
    */
   private getVoices(): { enVoice: SpeechSynthesisVoice | null; csVoice: SpeechSynthesisVoice | null } {
     if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
@@ -262,37 +263,25 @@ class SpeechManager {
     }
 
     const voices = window.speechSynthesis.getVoices() || [];
-    const isOffline = typeof navigator !== 'undefined' && !navigator.onLine;
 
     // 1. English voice (STRICTLY 'en')
     const enVoices = voices.filter(v => v.lang.toLowerCase().startsWith('en'));
     let enVoice: SpeechSynthesisVoice | null = null;
     if (enVoices.length > 0) {
-      if (isOffline) {
-        enVoice = enVoices.find(v => v.localService) || enVoices[0];
-      } else {
-        enVoice =
-          enVoices.find(v => v.name.includes('Natural') || v.name.includes('Google') || v.name.includes('Samantha') || v.name.includes('Daniel') || v.name.includes('David') || v.name.includes('Zira') || v.name.includes('Premium')) ||
-          enVoices.find(v => v.localService) ||
-          enVoices[0];
-      }
+      enVoice =
+        enVoices.find(v => v.localService && (v.name.includes('Natural') || v.name.includes('Google') || v.name.includes('Samantha') || v.name.includes('Daniel') || v.name.includes('David') || v.name.includes('Zira'))) ||
+        enVoices.find(v => v.localService) ||
+        null;
     }
 
     // 2. Czech voice (STRICTLY 'cs-CZ' / 'cs')
     const csVoices = voices.filter(v => v.lang.toLowerCase().startsWith('cs'));
     let csVoice: SpeechSynthesisVoice | null = null;
     if (csVoices.length > 0) {
-      if (isOffline) {
-        csVoice = csVoices.find(v => v.localService) || csVoices[0];
-      } else {
-        csVoice =
-          csVoices.find(v => v.name.includes('Natural') || v.name.includes('Google') || v.name.includes('Jakub') || v.name.includes('Zuzana') || v.name.includes('Iveta') || v.name.includes('Jan') || v.name.includes('Vlasta') || v.name.includes('Premium')) ||
-          csVoices.find(v => v.localService) ||
-          csVoices[0];
-      }
-    } else {
-      // Slovak fallback if device has no Czech voice installed
-      csVoice = voices.find(v => v.lang.toLowerCase().startsWith('sk')) || null;
+      csVoice =
+        csVoices.find(v => v.localService && (v.name.includes('Natural') || v.name.includes('Google') || v.name.includes('Jakub') || v.name.includes('Zuzana') || v.name.includes('Jan') || v.name.includes('Vlasta'))) ||
+        csVoices.find(v => v.localService) ||
+        null;
     }
 
     return { enVoice, csVoice };
@@ -321,18 +310,23 @@ class SpeechManager {
     }
 
     try {
+      if (typeof window !== 'undefined' && 'speechSynthesis' in window && window.speechSynthesis.paused) {
+        window.speechSynthesis.resume();
+      }
+
       const utterance = new SpeechSynthesisUtterance(currentChunk.text);
 
       if (currentChunk.lang === 'cs') {
         utterance.lang = 'cs-CZ';
-        if (currentChunk.voice) {
-          utterance.voice = currentChunk.voice;
-        }
       } else {
-        utterance.lang = currentChunk.voice?.lang || 'en-US';
-        if (currentChunk.voice) {
+        utterance.lang = 'en-US';
+      }
+
+      // Only assign voice if explicitly verified local and matching
+      if (currentChunk.voice) {
+        try {
           utterance.voice = currentChunk.voice;
-        }
+        } catch {}
       }
 
       utterance.rate = currentChunk.rate;
@@ -390,7 +384,15 @@ class SpeechManager {
     // 2. Stop any existing playback
     this.stop();
 
-    // 3. Refresh voices
+    // 3. Ensure speechSynthesis is active
+    try {
+      window.speechSynthesis.cancel();
+      if (window.speechSynthesis.paused) {
+        window.speechSynthesis.resume();
+      }
+    } catch {}
+
+    // 4. Refresh voices
     this.initVoices();
     const { enVoice, csVoice } = this.getVoices();
 
@@ -426,7 +428,7 @@ class SpeechManager {
 
       const fullText = cleanName ? `${cleanName}. ${cleanDesc}` : cleanDesc;
       totalTextChars = fullText.length;
-      const textChunks = this.splitIntoChunks(fullText, 65);
+      const textChunks = this.splitIntoChunks(fullText, 55);
 
       for (const t of textChunks) {
         chunksToPlay.push({
@@ -461,7 +463,7 @@ class SpeechManager {
 
       const fullCzechText = cleanDesc ? `${cleanName}. ${cleanDesc}` : `${cleanName}.`;
       totalTextChars = fullCzechText.length;
-      const descChunks = this.splitIntoChunks(fullCzechText, 65);
+      const descChunks = this.splitIntoChunks(fullCzechText, 55);
 
       for (const c of descChunks) {
         chunksToPlay.push({
@@ -475,27 +477,26 @@ class SpeechManager {
 
     if (chunksToPlay.length === 0) return;
 
-    // Small delay after cancel() to start queue cleanly
-    setTimeout(() => {
-      this.currentId = id;
-      this.queue = chunksToPlay;
-      this.isProcessingQueue = true;
-      this.notify();
+    // SYNCHRONOUS USER GESTURE EXECUTION:
+    // Set active ID immediately so UI updates and gesture context is preserved
+    this.currentId = id;
+    this.queue = chunksToPlay;
+    this.isProcessingQueue = true;
+    this.notify();
 
-      // SAFETY WATCHDOG TIMER:
-      // Prevents speaker icon from blinking indefinitely if mobile OS cuts off audio
-      const safeDurationMs = Math.max(8000, totalTextChars * 110 + 4000);
-      this.clearWatchdog();
-      this.watchdogTimer = setTimeout(() => {
-        if (this.currentId === id) {
-          console.warn('Speech watchdog failsafe: cleanly ending speech session.');
-          this.stop();
-        }
-      }, safeDurationMs);
+    // SAFETY WATCHDOG TIMER:
+    // Prevents speaker icon from blinking indefinitely if mobile OS cuts off audio
+    const safeDurationMs = Math.max(7000, totalTextChars * 100 + 3500);
+    this.clearWatchdog();
+    this.watchdogTimer = setTimeout(() => {
+      if (this.currentId === id) {
+        console.warn('Speech watchdog failsafe: cleanly ending speech session.');
+        this.stop();
+      }
+    }, safeDurationMs);
 
-      // Start sequential queue processing
-      this.processQueue(id);
-    }, 25);
+    // Start processing queue immediately inside user gesture event
+    this.processQueue(id);
   }
 
   /**
