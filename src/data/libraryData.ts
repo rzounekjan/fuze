@@ -386,6 +386,38 @@ export const CULINARY_TERMS: CulinaryTerm[] = [
     ]
   },
   {
+    "id": "parmazan-parmigiano-reggiano",
+    "name": "Parmazán (Parmigiano Reggiano & Grana Padano)",
+    "originalTerm": "Parmigiano Reggiano DOP / Grana Padano DOP (Itálie)",
+    "category": "gourmet_ingredients",
+    "categoryName": "Gurmánské suroviny",
+    "origin": "Itálie (Emilia-Romagna: Parma, Reggio Emilia, Modena, Mantova, Bologna)",
+    "shortDescription": "Král italských tvrdých sýrů s Chráněným označením původu (DOP). Zraje od 12 do více než 48 měsíců a vyznačuje se zrnitou strukturou s krystalky umami.",
+    "ingredients": [
+      "Nepasterizované plnotučné kravské mléko z ranního a večerního dojení (pouze trávo-krmné bez siláže)",
+      "Přírodní syřátková kultura a tělískové telecí syřidlo",
+      "Přírodní mořská solná lázeň (100% bez jakýchkoliv konzervantů či barviv)"
+    ],
+    "flavorProfile": "Mimořádně komplexní, hluboce oříšková, máslová a nasládlá chuť s intenzivním přírodním Umami. Vyznačuje se křupavými krystalky tyrosinu.",
+    "culinaryUsage": "Strouhání na těstoviny, risotto (emulgace mantecatura), carpaccio, hovězí tatarák a saláty. Kůra se vaří do silných vývarů a omáček.",
+    "fuzeMenuAppearances": [
+      "Krájený hovězí tatarák s parmazánovou emulzí a křupavou kůrkou",
+      "Hovězí carpaccio s hoblinami parmazánu, rukolou a extra panenským olivovým olejem",
+      "Domácí krémové risotto a těstovinové omáčky"
+    ],
+    "staffTips": "Jak vysvětlit dělení a původ hostům: 1. PŮVOD: Pravý Parmigiano Reggiano DOP se vyrábí pouze v 5 provinciích Emilia-Romagna z čerstvého nepasterizovaného mléka krav krmených výhradně trávou/senem bez siláže. 2. ROZDĚLENÍ PODLE ZOBRÁNÍ (Stagionatura): • Mezzano (12–18 měsíců): jemný, mléčný, oříškový; • Vecchio / Klasik (18–24 měsíců): ideální rovnováha, křupavé krystalky, tóny sušeného ovoce a bujónu; • Stravecchio (22–36 měsíců): intenzivní, drobivý, plný Umami; • Extra Stravecchio (36–48+ měsíců): sběratelský ročníkový skvost s hlubokou dochutí koření a tabáku. 3. ŠÉFKUCHAŘSKÝ TIP: Přírodní kůru z Parmigiano Reggiano nikdy nevyhazujeme – očištěná se dává vařit do hovězího consommé a rajčatových omáček, kterým dodá nevšední hloubku Umami.",
+    "tags": [
+      "parmazán",
+      "parmigiano reggiano",
+      "grana padano",
+      "sýr",
+      "Itálie",
+      "DOP",
+      "umami",
+      "tatarák"
+    ]
+  },
+  {
     "id": "red-leicester",
     "name": "Red Leicester",
     "originalTerm": "Red Leicester Cheese (Anglie)",

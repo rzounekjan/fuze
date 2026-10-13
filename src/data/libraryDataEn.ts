@@ -377,6 +377,38 @@ export const CULINARY_TERMS_EN: CulinaryTerm[] = [
     ]
   },
   {
+    "id": "parmazan-parmigiano-reggiano",
+    "name": "Parmesan (Parmigiano Reggiano & Grana Padano)",
+    "originalTerm": "Parmigiano Reggiano DOP / Grana Padano DOP (Italy)",
+    "category": "gourmet_ingredients",
+    "categoryName": "Gourmet Ingredients",
+    "origin": "Italy (Emilia-Romagna: Parma, Reggio Emilia, Modena, Mantua, Bologna)",
+    "shortDescription": "The undisputed King of Italian hard cheeses with Protected Designation of Origin (DOP). Aged from 12 to 48+ months with signature umami tyrosine crystals.",
+    "ingredients": [
+      "Unpasteurized whole raw cow's milk (grass and hay fed only, strictly zero silage)",
+      "Natural whey starter culture and calf rennet",
+      "Natural sea salt brine bath (100% free of additives or preservatives)"
+    ],
+    "flavorProfile": "Extraordinarily complex, deeply nutty, buttery, and savory with concentrated natural Umami and crunchy tyrosine flavor crystals.",
+    "culinaryUsage": "Grated over pasta, whipped into risottos (mantecatura technique), shaved on beef carpaccio, steak tartare, and salads. The natural rind is simmered in broths.",
+    "fuzeMenuAppearances": [
+      "Sliced beef tartare with parmesan emulsion and crisp parmesan crust",
+      "Beef carpaccio with shaved parmesan, wild arugula, and extra virgin olive oil",
+      "Housemade creamy risotto and artisan pasta dishes"
+    ],
+    "staffTips": "How to explain origins and aging tiers to guests: 1. ORIGIN & DOP: Authentic Parmigiano Reggiano DOP is made exclusively in 5 provinces of Emilia-Romagna using raw milk from cows fed strictly grass/hay (no silage/additives). Grana Padano covers a broader Po Valley region and allows lysozyme. 2. AGING STAGES (Stagionatura): • Mezzano (12–18 mos): mild, buttery, floral; • Vecchio / Classic (18–24 mos): perfect balance of dried fruit, nuts, and bouillon with early crunchy crystals; • Stravecchio (22–36 mos): intense, crumbly, packed with Umami; • Extra Stravecchio (36–48+ mos): elite vintage cheese with deep notes of nutmeg, cocoa, and tobacco. 3. CHEF TRICK: We never throw away Parmigiano rinds – cleaned rinds are simmered in beef consommé and tomato sauces to infuse rich Umami.",
+    "tags": [
+      "parmesan",
+      "parmigiano reggiano",
+      "grana padano",
+      "cheese",
+      "Italy",
+      "DOP",
+      "umami",
+      "tartare"
+    ]
+  },
+  {
     "id": "foie-gras",
     "name": "Foie Gras",
     "originalTerm": "Foie gras (France)",
