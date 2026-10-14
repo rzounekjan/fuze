@@ -51,6 +51,20 @@ export const RandomExam: React.FC<RandomExamProps> = ({
     };
   }, []);
 
+  // Filter allowed categories and exclude allergen questions for Mix 100
+  const ALLOWED_EXAM_CATEGORY_IDS = new Set([
+    'predkrmy', 'chutovky', 'polevky', 'salaty', 'sporak', 'gril',
+    'teple-omacky', 'studene-omacky', 'prilohy', 'dezerty',
+    'pivo-na-cepu', 'vina-po-skle', 'bila-vina', 'cervena-vina',
+    'ruzova-vina', 'bubliny'
+  ]);
+
+  const isAllergenQuestion = (q: Question) => {
+    const text = (q.question || '').toLowerCase();
+    const id = (q.id || '').toLowerCase();
+    return text.includes('alergen') || text.includes('allergen') || id.includes('alergen') || id.includes('allergen');
+  };
+
   // Generate 100 questions with 4 options (A, B, C, D)
   const initExam = () => {
     if (autoAdvanceTimerRef.current) {
@@ -58,11 +72,15 @@ export const RandomExam: React.FC<RandomExamProps> = ({
       autoAdvanceTimerRef.current = null;
     }
 
-    // Gather global answers pool for dynamic 4th distractors
+    // Filter categories to only allowed categories
+    const allowedCategories = categories.filter(cat => ALLOWED_EXAM_CATEGORY_IDS.has(cat.id));
+
+    // Gather global answers pool for dynamic 4th distractors from non-allergen questions
     const allAnswersPool: string[] = [];
-    categories.forEach(cat => {
+    allowedCategories.forEach(cat => {
       cat.items.forEach(item => {
         item.questions.forEach(q => {
+          if (isAllergenQuestion(q)) return;
           if (q.correctAnswer) allAnswersPool.push(q.correctAnswer);
           if (q.distractors && q.distractors[0]) allAnswersPool.push(q.distractors[0]);
           if (q.distractors && q.distractors[1]) allAnswersPool.push(q.distractors[1]);
@@ -71,9 +89,10 @@ export const RandomExam: React.FC<RandomExamProps> = ({
     });
 
     const pool: { category: MenuCategory; item: MenuItem; question: Question }[] = [];
-    categories.forEach(cat => {
+    allowedCategories.forEach(cat => {
       cat.items.forEach(item => {
         item.questions.forEach(q => {
+          if (isAllergenQuestion(q)) return;
           pool.push({ category: cat, item, question: q });
         });
       });
@@ -122,7 +141,7 @@ export const RandomExam: React.FC<RandomExamProps> = ({
     setIsFinished(false);
   };
 
-  const EXAM_STORAGE_KEY = `fuze_exam_session_${language}_v100`;
+  const EXAM_STORAGE_KEY = `fuze_exam_session_${language}_v100_cat_filtered`;
 
   useEffect(() => {
     try {
