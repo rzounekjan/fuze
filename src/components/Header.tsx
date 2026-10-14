@@ -249,7 +249,7 @@ export const Header: React.FC<HeaderProps> = ({
                 }`}
               >
                 <Sparkles className="w-3.5 h-3.5" />
-                <span>{language === 'en' ? 'Exam (Mix 10)' : 'Zkouška (Mix 10)'}</span>
+                <span>{language === 'en' ? 'Exam (Mix 100)' : 'Zkouška (Mix 100)'}</span>
               </button>
 
               <button
