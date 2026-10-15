@@ -17,7 +17,9 @@ import {
   GlassWater,
   ChefHat,
   Play,
-  Disc3
+  Disc3,
+  Brain,
+  HelpCircle
 } from 'lucide-react';
 import { 
   CULINARY_TERMS, 
@@ -31,6 +33,7 @@ import {
 } from '../data/libraryDataEn';
 import { AudioPronounceButton } from './AudioPronounceButton';
 import { WineGlassAudioPanel } from './WineGlassAudioPanel';
+import { ItemQuizModal } from './ItemQuizModal';
 
 interface LibraryViewProps {
   language?: 'cs' | 'en';
@@ -126,6 +129,12 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
   // Modal active item
   const [activeCulinaryModal, setActiveCulinaryModal] = useState<CulinaryTerm | null>(null);
   const [activeBeverageModal, setActiveBeverageModal] = useState<BeverageItem | null>(null);
+
+  // Active quiz item for item mastery test
+  const [activeQuizItem, setActiveQuizItem] = useState<{
+    item: CulinaryTerm | BeverageItem;
+    type: 'culinary' | 'beverage';
+  } | null>(null);
 
   // Audio Play Panel state for Vína po skle
   const [selectedWineForAudio, setSelectedWineForAudio] = useState<string | null>(null);
@@ -686,12 +695,22 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
                 </div>
 
                 {/* Card footer */}
-                <div className="mt-4 pt-3 border-t border-stone-800/80 flex items-center justify-between text-xs">
-                  <span className="text-stone-500 text-[11px]">
-                    {term.fuzeMenuAppearances.length} {isEn ? 'menu dishes' : 'jídel v menu'}
-                  </span>
+                <div className="mt-4 pt-3 border-t border-stone-800/80 flex items-center justify-between text-xs gap-2">
+                  <button
+                    type="button"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setActiveQuizItem({ item: term, type: 'culinary' });
+                    }}
+                    className="px-2.5 py-1 rounded-lg bg-amber-500/15 hover:bg-amber-500/25 border border-amber-500/30 text-amber-300 hover:text-amber-200 text-[11px] font-bold flex items-center gap-1 transition-all active:scale-95 shrink-0"
+                    title={isEn ? `Take quiz on ${term.name}` : `Vyzkoušet se z položky ${term.name}`}
+                  >
+                    <Brain className="w-3.5 h-3.5 text-amber-400" />
+                    <span>{isEn ? 'Quiz' : 'Vyzkoušet se'}</span>
+                  </button>
+
                   <div className="flex items-center gap-1 text-amber-400 font-medium group-hover:translate-x-0.5 transition-transform">
-                    <span>{isEn ? 'Details & Staff Tips' : 'Detail & Tipy pro servis'}</span>
+                    <span>{isEn ? 'Detail & Tips' : 'Detail & Tipy'}</span>
                     <ChevronRight className="w-3.5 h-3.5" />
                   </div>
                 </div>
@@ -821,10 +840,20 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
                   </div>
 
                   {/* Card footer */}
-                  <div className="mt-4 pt-3 border-t border-stone-800/80 flex items-center justify-between text-xs">
-                    <span className="text-stone-500 text-[11px] font-mono">
-                      {item.volume}
-                    </span>
+                  <div className="mt-4 pt-3 border-t border-stone-800/80 flex items-center justify-between text-xs gap-2">
+                    <button
+                      type="button"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setActiveQuizItem({ item, type: 'beverage' });
+                      }}
+                      className="px-2.5 py-1 rounded-lg bg-amber-500/15 hover:bg-amber-500/25 border border-amber-500/30 text-amber-300 hover:text-amber-200 text-[11px] font-bold flex items-center gap-1 transition-all active:scale-95 shrink-0"
+                      title={isEn ? `Take quiz on ${item.name}` : `Vyzkoušet se z položky ${item.name}`}
+                    >
+                      <Brain className="w-3.5 h-3.5 text-amber-400" />
+                      <span>{isEn ? 'Quiz' : 'Vyzkoušet se'}</span>
+                    </button>
+
                     <div className="flex items-center gap-1 text-amber-400 font-medium group-hover:translate-x-0.5 transition-transform">
                       <span>{isEn ? 'Pairing & Details' : 'Párování & Detail'}</span>
                       <ChevronRight className="w-3.5 h-3.5" />
@@ -957,12 +986,24 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
               </p>
             </div>
 
-            {/* Bottom close action */}
-            <div className="pt-2 flex justify-end">
+            {/* Bottom actions */}
+            <div className="pt-2 flex flex-col sm:flex-row items-center justify-between gap-3">
+              <button
+                type="button"
+                onClick={() => {
+                  setActiveQuizItem({ item: currentCulinaryModal, type: 'culinary' });
+                  setActiveCulinaryModal(null);
+                }}
+                className="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-950 text-xs font-black flex items-center justify-center gap-2 shadow-md shadow-amber-950/40 transition-all active:scale-95"
+              >
+                <Brain className="w-4 h-4" />
+                <span>{isEn ? 'Quiz this Item' : 'Vyzkoušet se z téhle položky'}</span>
+              </button>
+
               <button
                 type="button"
                 onClick={() => setActiveCulinaryModal(null)}
-                className="px-5 py-2 rounded-xl bg-stone-800 hover:bg-stone-700 text-stone-200 text-xs font-semibold transition-colors"
+                className="w-full sm:w-auto px-5 py-2.5 rounded-xl bg-stone-800 hover:bg-stone-700 text-stone-200 text-xs font-semibold transition-colors"
               >
                 {isEn ? 'Close' : 'Zavřít'}
               </button>
@@ -1123,18 +1164,42 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
               </p>
             </div>
 
-            {/* Bottom close action */}
-            <div className="pt-2 flex justify-end">
+            {/* Bottom actions */}
+            <div className="pt-2 flex flex-col sm:flex-row items-center justify-between gap-3">
+              <button
+                type="button"
+                onClick={() => {
+                  setActiveQuizItem({ item: currentBeverageModal, type: 'beverage' });
+                  setActiveBeverageModal(null);
+                }}
+                className="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-950 text-xs font-black flex items-center justify-center gap-2 shadow-md shadow-amber-950/40 transition-all active:scale-95"
+              >
+                <Brain className="w-4 h-4" />
+                <span>{isEn ? 'Quiz this Item' : 'Vyzkoušet se z téhle položky'}</span>
+              </button>
+
               <button
                 type="button"
                 onClick={() => setActiveBeverageModal(null)}
-                className="px-5 py-2 rounded-xl bg-stone-800 hover:bg-stone-700 text-stone-200 text-xs font-semibold transition-colors"
+                className="w-full sm:w-auto px-5 py-2.5 rounded-xl bg-stone-800 hover:bg-stone-700 text-stone-200 text-xs font-semibold transition-colors"
               >
                 {isEn ? 'Close' : 'Zavřít'}
               </button>
             </div>
           </div>
         </div>
+      )}
+
+      {/* Item Mastery Quiz Modal */}
+      {activeQuizItem && (
+        <ItemQuizModal
+          item={activeQuizItem.item}
+          itemType={activeQuizItem.type}
+          allTerms={activeCulinaryTerms}
+          allBeverages={activeBeverageItems}
+          language={language}
+          onClose={() => setActiveQuizItem(null)}
+        />
       )}
     </div>
   );

@@ -150,6 +150,8 @@ export const CULINARY_TERMS: CulinaryTerm[] = [
     "flavorProfile": "Bylinkový, slaný, kyselkavý s hlubokou chutí umami. Intenzivnější a slanější než jihoamerické chimichurri díky ančovičkám a kaparům.",
     "culinaryUsage": "Klasický doprovod k vařenému i pečenému masu (bollito misto), rybám z pece a grilované zelenině.",
     "fuzeMenuAppearances": [
+      "Smažené kuřecí krokety (předkrm)",
+      "Thor's Hammer hovězí koleno (ze sporáku a trouby / z pece na dřevo)",
       "Naše salsa verde (samostatná studená omáčka k masům z grilu)"
     ],
     "staffTips": "Vysvětlete rozdíl mezi chimichurri a salsa verde: Chimichurri staví na oreganu a chilli, zatímco Salsa Verde je italská klasika s kapary a ančovičkami přinášejícími přirozené umami.",

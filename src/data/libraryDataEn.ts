@@ -115,6 +115,8 @@ export const CULINARY_TERMS_EN: CulinaryTerm[] = [
     "flavorProfile": "Herbaceous, savory, tangy with deep umami. More punchy and savory than chimichurri thanks to anchovies and capers.",
     "culinaryUsage": "Classic accompaniment to boiled and roasted meats (bollito misto), wood-oven fish, and grilled vegetables.",
     "fuzeMenuAppearances": [
+      "Fried chicken croquettes (starter)",
+      "Thor's Hammer beef knuckle (from wood-oven / slow braised)",
       "Our salsa verde (standalone cold sauce for grilled meats)"
     ],
     "staffTips": "Explain the difference: Chimichurri is oregano- and chilli-based, whereas Italian Salsa Verde derives its umami depth from capers and anchovies.",
