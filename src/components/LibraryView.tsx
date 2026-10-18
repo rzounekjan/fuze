@@ -1,38 +1,6 @@
-import React, { useState, useMemo, useRef, useEffect, useCallback } from 'react';
-import { 
-  BookOpen, 
-  Search, 
-  Wine, 
-  UtensilsCrossed, 
-  Sparkles, 
-  Layers, 
-  X, 
-  ChevronLeft,
-  ChevronRight, 
-  Info, 
-  Globe, 
-  Flame, 
-  CheckCircle2, 
-  ExternalLink,
-  GlassWater,
-  ChefHat,
-  Play,
-  Disc3,
-  Brain,
-  HelpCircle
-} from 'lucide-react';
-import { 
-  CULINARY_TERMS, 
-  BEVERAGE_ITEMS, 
-  CulinaryTerm, 
-  BeverageItem 
-} from '../data/libraryData';
-import {
-  CULINARY_TERMS_EN,
-  BEVERAGE_ITEMS_EN
-} from '../data/libraryDataEn';
-import { AudioPronounceButton } from './AudioPronounceButton';
-import { WineGlassAudioPanel } from './WineGlassAudioPanel';
+import React, { useState, useMemo, useEffect } from 'react';
+import { BookOpen, Search, Wine, Sparkles, ChevronRight, Play, Info, HelpCircle } from 'lucide-react';
+import { CULINARY_TERMS, CULINARY_TERMS_EN, BEVERAGE_ITEMS, BEVERAGE_ITEMS_EN, CulinaryTerm, BeverageItem } from '../data/libraryData';
 import { ItemQuizModal } from './ItemQuizModal';
 
 interface LibraryViewProps {
@@ -41,1164 +9,191 @@ interface LibraryViewProps {
   onClearInitialSelectedItem?: () => void;
 }
 
-type LibraryTab = 'culinary' | 'beverages';
-
 export const LibraryView: React.FC<LibraryViewProps> = ({
   language = 'cs',
-  initialSelectedItemId = null,
-  onClearInitialSelectedItem
+  initialSelectedItemId,
+  onClearInitialSelectedItem,
 }) => {
   const isEn = language === 'en';
+  const [activeTab, setActiveTab] = useState<'culinary' | 'beverage'>('culinary');
+  const [search, setSearch] = useState('');
 
-  // Dynamic datasets based on active language
-  const activeCulinaryTerms = isEn ? CULINARY_TERMS_EN : CULINARY_TERMS;
-  const activeBeverageItems = isEn ? BEVERAGE_ITEMS_EN : BEVERAGE_ITEMS;
-
-  // Active top tab in Library
-  const [activeTab, setActiveTab] = useState<LibraryTab>(() => {
-    try {
-      const saved = sessionStorage.getItem('fuze_library_tab');
-      return saved === 'beverages' ? 'beverages' : 'culinary';
-    } catch {
-      return 'culinary';
-    }
-  });
-
-  // Auto-open item detail if navigated from Kniha menu or other tabs
-  useEffect(() => {
-    if (!initialSelectedItemId) return;
-
-    const findMatch = (rawId: string) => {
-      const normalized = rawId.trim().toLowerCase();
-      // Check beverages first
-      const bev = activeBeverageItems.find(b =>
-        b.id.toLowerCase() === normalized ||
-        b.name.toLowerCase() === normalized ||
-        b.name.toLowerCase().includes(normalized) ||
-        normalized.includes(b.name.toLowerCase())
-      );
-      if (bev) {
-        setActiveTab('beverages');
-        setSelectedBeverageCategory('all');
-        setActiveBeverageModal(bev);
-        return true;
-      }
-      // Check culinary terms
-      const cul = activeCulinaryTerms.find(c =>
-        c.id.toLowerCase() === normalized ||
-        c.name.toLowerCase() === normalized ||
-        c.name.toLowerCase().includes(normalized) ||
-        normalized.includes(c.name.toLowerCase()) ||
-        c.fuzeMenuAppearances.some(dish => dish.toLowerCase().includes(normalized) || normalized.includes(dish.toLowerCase()))
-      );
-      if (cul) {
-        setActiveTab('culinary');
-        setSelectedCulinaryCategory('all');
-        setActiveCulinaryModal(cul);
-        return true;
-      }
-      return false;
-    };
-
-    findMatch(initialSelectedItemId);
-    onClearInitialSelectedItem?.();
-  }, [initialSelectedItemId, activeBeverageItems, activeCulinaryTerms, onClearInitialSelectedItem]);
-
-  // Listener for header 'Audio Studio & Nahrávky' button
-  useEffect(() => {
-    const handleOpenAudioStudio = () => {
-      setActiveTab('beverages');
-      setSelectedBeverageCategory('wine_glass');
-      setTimeout(() => {
-        audioPanelRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-      }, 150);
-    };
-
-    window.addEventListener('fuze-open-audio-studio', handleOpenAudioStudio);
-    return () => {
-      window.removeEventListener('fuze-open-audio-studio', handleOpenAudioStudio);
-    };
-  }, []);
-  // Search query
-  const [searchQuery, setSearchQuery] = useState('');
-
-  // Selected sub-category filter
-  const [selectedCulinaryCategory, setSelectedCulinaryCategory] = useState<string>('all');
-  const [selectedBeverageCategory, setSelectedBeverageCategory] = useState<string>('all');
-
-  // Modal active item
-  const [activeCulinaryModal, setActiveCulinaryModal] = useState<CulinaryTerm | null>(null);
-  const [activeBeverageModal, setActiveBeverageModal] = useState<BeverageItem | null>(null);
-
-  // Active quiz item for item mastery test
-  const [activeQuizItem, setActiveQuizItem] = useState<{
+  const [quizItem, setQuizItem] = useState<{
     item: CulinaryTerm | BeverageItem;
     type: 'culinary' | 'beverage';
   } | null>(null);
 
-  // Audio Play Panel state for Vína po skle
-  const [selectedWineForAudio, setSelectedWineForAudio] = useState<string | null>(null);
-  const audioPanelRef = useRef<HTMLDivElement>(null);
-
-  const handleSelectWineForAudio = useCallback((wineId: string) => {
-    setSelectedWineForAudio(wineId);
-    handleTabChange('beverages');
-    setTimeout(() => {
-      audioPanelRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-    }, 120);
-  }, []);
-
-  // Subcategory horizontal scroll ref & buttons
-  const subcatRef = useRef<HTMLDivElement>(null);
-  const [canSubcatLeft, setCanSubcatLeft] = useState(false);
-  const [canSubcatRight, setCanSubcatRight] = useState(false);
-
-  const updateSubcatScroll = useCallback(() => {
-    const el = subcatRef.current;
-    if (!el) return;
-    setCanSubcatLeft(el.scrollLeft > 4);
-    setCanSubcatRight(el.scrollLeft < el.scrollWidth - el.clientWidth - 4);
-  }, []);
+  const culinaryData = isEn ? CULINARY_TERMS_EN : CULINARY_TERMS;
+  const beverageData = isEn ? BEVERAGE_ITEMS_EN : BEVERAGE_ITEMS;
 
   useEffect(() => {
-    const el = subcatRef.current;
-    if (!el) return;
-    updateSubcatScroll();
-    el.addEventListener('scroll', updateSubcatScroll, { passive: true });
-    window.addEventListener('resize', updateSubcatScroll);
-    return () => {
-      el.removeEventListener('scroll', updateSubcatScroll);
-      window.removeEventListener('resize', updateSubcatScroll);
-    };
-  }, [updateSubcatScroll, activeTab]);
-
-  const handleTabChange = (tab: LibraryTab) => {
-    setActiveTab(tab);
-    try {
-      sessionStorage.setItem('fuze_library_tab', tab);
-    } catch {}
-  };
-
-  // Culinary Categories list with spoken descriptions
-  const culinaryCategories = useMemo(() => [
-    { 
-      id: 'all', 
-      label: isEn ? 'All Terms' : 'Všechny pojmy',
-      description: isEn 
-        ? 'All culinary terms, cuts, foreign food names, and techniques in Fuze.' 
-        : 'Všechny kulinářské pojmy, masné řezy, cizí názvy a techniky ve Fuze.'
-    },
-    { 
-      id: 'sauces_dressings', 
-      label: isEn ? 'Sauces & Salsas' : 'Omáčky a salsy',
-      description: isEn 
-        ? 'Authentic cold and hot sauces, dressings, marinades, and reductions.' 
-        : 'Autentické studené i teplé omáčky, dresinky, marinády a redukce.'
-    },
-    { 
-      id: 'meat_cuts', 
-      label: isEn ? 'Meat & Steak Cuts' : 'Maso a masné řezy',
-      description: isEn 
-        ? 'Heritage breeds, steak cuts, butchery terminology, and pork belly.' 
-        : 'Ušlechtilá plemena, steakové řezy, řeznická terminologie a vepřové boky.'
-    },
-    { 
-      id: 'gourmet_ingredients', 
-      label: isEn ? 'Gourmet Ingredients' : 'Gurmánské suroviny',
-      description: isEn 
-        ? 'Specialty gourmet delicacies, fresh cheeses, and premium ingredients.' 
-        : 'Speciality, delikatesy, čerstvé sýry a prémiové suroviny.'
-    },
-    { 
-      id: 'culinary_techniques', 
-      label: isEn ? 'Cooking Techniques' : 'Kulinářské techniky',
-      description: isEn 
-        ? 'Gastronomic culinary preparations, slow-cooking, and curing methods.' 
-        : 'Gastronomické postupy přípravy, pomalé vaření a zrání.'
-    },
-    { 
-      id: 'world_flavors', 
-      label: isEn ? 'World & Asian Flavors' : 'Světové chutě a asijská fúze',
-      description: isEn 
-        ? 'Asian fusion, citrus flavors, fermented seasonings, and exotic spices.' 
-        : 'Asijská fúze, citrusové tóny, fermentovaná ochucovadla a exotické koření.'
-    },
-    { 
-      id: 'pastry_sweets', 
-      label: isEn ? 'Pastry & Sweets' : 'Cukrářství a dezerty',
-      description: isEn 
-        ? 'Artisanal confectionery, sweet doughs, desserts, and finishes.' 
-        : 'Řemeslná cukrařina, sladká těsta, dezerty a karamelové trhance.'
+    if (initialSelectedItemId) {
+      const matchCulinary = culinaryData.find(c => c.id === initialSelectedItemId);
+      if (matchCulinary) {
+        setActiveTab('culinary');
+      } else {
+        const matchBev = beverageData.find(b => b.id === initialSelectedItemId);
+        if (matchBev) setActiveTab('beverage');
+      }
     }
-  ], [isEn]);
+  }, [initialSelectedItemId, culinaryData, beverageData]);
 
-  // Beverage Categories list with spoken descriptions
-  const beverageCategories = useMemo(() => [
-    { 
-      id: 'all', 
-      label: isEn ? 'All Drinks' : 'Všechny nápoje',
-      description: isEn 
-        ? 'Complete beverage encyclopedia: sparkling wines, spirits, and craft beers.' 
-        : 'Kompletní nápojová encyklopedie: šumivá vína, destiláty a piva na čepu.'
-    },
-    { 
-      id: 'wine_glass', 
-      label: isEn ? 'By the Glass' : 'Vína po skle',
-      description: isEn 
-        ? 'Carefully curated sparkling, white, rosé, and red wines served by the glass.' 
-        : 'Pečlivě vybraná šumivá, bílá, růžová a červená vína rozlévaná po skle.'
-    },
-    { 
-      id: 'wine_white', 
-      label: isEn ? 'White Wines' : 'Bílá vína',
-      description: isEn 
-        ? 'Moravian and international dry, crisp, and aromatic white wines.' 
-        : 'Moravská i mezinárodní suchá, svěží a aromatická bílá vína.'
-    },
-    { 
-      id: 'wine_red', 
-      label: isEn ? 'Red Wines' : 'Červená vína',
-      description: isEn 
-        ? 'Selected bottle red wines from Bohemia, Moravia, Austria, Germany, and California.' 
-        : 'Výběrová červená vína z Čech, Moravy, Rakouska, Německa a Kalifornie.'
-    },
-    { 
-      id: 'wine_rose', 
-      label: isEn ? 'Rosé Wines' : 'Růžová vína',
-      description: isEn 
-        ? 'Crisp and refreshing Moravian rosé wines.' 
-        : 'Svěží a ovocná moravská růžová vína.'
-    },
-    { 
-      id: 'wine_sparkling', 
-      label: isEn ? 'Bubbles & Sparkling' : 'Bubliny & Šumivá',
-      description: isEn 
-        ? 'Sparkling wines, crémants, and method traditionelle.' 
-        : 'Špičková šumivá vína, moravský crémant a kalifornský sekt kvašený v lahvi.'
-    },
-    { 
-      id: 'rum', 
-      label: isEn ? 'Rums' : 'Rumy',
-      description: isEn 
-        ? 'Aged rums from Cuba, Guyana, Dominican Republic, and Guatemala.' 
-        : 'Vyzrálé rumy z Kuby, Guyany, Dominikánské republiky a Guatemaly.'
-    },
-    { 
-      id: 'tequila', 
-      label: isEn ? 'Tequilas' : 'Tequily',
-      description: isEn 
-        ? '100% blue agave tequilas: Blanco, Reposado, and Añejo from Jalisco.' 
-        : 'Tequily ze 100% modré agáve: Blanco, Reposado i Añejo z Jalisca.'
-    },
-    { 
-      id: 'whisky', 
-      label: isEn ? 'Whisky & Bourbon' : 'Whisky & Bourbon',
-      description: isEn 
-        ? 'Single malt scotch, Irish whiskeys, and American oak bourbons.' 
-        : 'Skotské jednosladové whisky, irské whiskey a americké bourbony.'
-    },
-    { 
-      id: 'brandy_cognac', 
-      label: isEn ? 'Brandy & Cognac' : 'Brandy & Koňak',
-      description: isEn 
-        ? 'French cognacs, aged brandies, and fine grape distillates.' 
-        : 'Francouzské koňaky, stařené brandy a vinné destiláty.'
-    },
-    { 
-      id: 'liqueur_spirit', 
-      label: isEn ? 'Liqueurs & Spirits' : 'Pálenky & Likéry',
-      description: isEn 
-        ? 'Traditional fruit brandies, herbal liqueurs, and artisan digestifs.' 
-        : 'Tradiční ovocné pálenky, bylinné likéry a řemeslné digestivy.'
-    },
-    { 
-      id: 'gin', 
-      label: isEn ? 'Gins' : 'Giny',
-      description: isEn 
-        ? 'London dry gins, artisan Czech gins, and truffle-infused botanicals.' 
-        : 'London dry giny, české řemeslné giny a lanýžové botanicals.'
-    },
-    { 
-      id: 'vodka', 
-      label: isEn ? 'Vodkas' : 'Vodky',
-      description: isEn 
-        ? 'Ultra-smooth grain, wheat, and French winter wheat vodkas.' 
-        : 'Jemné obilné a francouzské pšeničné vodky.'
-    },
-    { 
-      id: 'beer_craft', 
-      label: isEn ? 'Craft Beers' : 'Pivo na čepu',
-      description: isEn 
-        ? 'Unpasteurized craft lagers and IPAs brewed directly at Fuze brewery.' 
-        : 'Nepasterizované ležáky a speciály vařené přímo v pivovaru Fuze.'
-    }
-  ], [isEn]);
+  const filteredCulinary = useMemo(() => {
+    if (!search.trim()) return culinaryData;
+    const t = search.toLowerCase();
+    return culinaryData.filter(c => 
+      c.name.toLowerCase().includes(t) || 
+      c.shortDescription.toLowerCase().includes(t) ||
+      c.tags.some(tag => tag.toLowerCase().includes(t))
+    );
+  }, [culinaryData, search]);
 
-  // Filtered Culinary Terms
-  const filteredCulinaryTerms = useMemo(() => {
-    const q = searchQuery.toLowerCase().trim();
-    return activeCulinaryTerms.filter(item => {
-      const matchesCategory = selectedCulinaryCategory === 'all' || item.category === selectedCulinaryCategory;
-      if (!matchesCategory) return false;
-      if (!q) return true;
-      return (
-        item.name.toLowerCase().includes(q) ||
-        (item.originalTerm && item.originalTerm.toLowerCase().includes(q)) ||
-        item.origin.toLowerCase().includes(q) ||
-        item.shortDescription.toLowerCase().includes(q) ||
-        item.flavorProfile.toLowerCase().includes(q) ||
-        item.ingredients.some(ing => ing.toLowerCase().includes(q)) ||
-        item.fuzeMenuAppearances.some(app => app.toLowerCase().includes(q)) ||
-        item.tags.some(tag => tag.toLowerCase().includes(q))
-      );
-    });
-  }, [searchQuery, selectedCulinaryCategory, activeCulinaryTerms]);
-
-  // Filtered Beverages
   const filteredBeverages = useMemo(() => {
-    const q = searchQuery.toLowerCase().trim();
-    return activeBeverageItems.filter(item => {
-      const matchesCategory = selectedBeverageCategory === 'all' || item.category === selectedBeverageCategory;
-      if (!matchesCategory) return false;
-      if (!q) return true;
-      return (
-        item.name.toLowerCase().includes(q) ||
-        item.producer.toLowerCase().includes(q) ||
-        item.origin.toLowerCase().includes(q) ||
-        item.region.toLowerCase().includes(q) ||
-        item.rawIngredients.toLowerCase().includes(q) ||
-        item.flavorProfile.toLowerCase().includes(q) ||
-        item.foodPairing.toLowerCase().includes(q) ||
-        item.tags.some(tag => tag.toLowerCase().includes(q))
-      );
-    });
-  }, [searchQuery, selectedBeverageCategory, activeBeverageItems]);
-
-  // Current active modal items resolved with language-specific data
-  const currentCulinaryModal = useMemo(() => {
-    if (!activeCulinaryModal) return null;
-    return activeCulinaryTerms.find(t => t.id === activeCulinaryModal.id) || activeCulinaryModal;
-  }, [activeCulinaryModal, activeCulinaryTerms]);
-
-  const currentBeverageModal = useMemo(() => {
-    if (!activeBeverageModal) return null;
-    return activeBeverageItems.find(b => b.id === activeBeverageModal.id) || activeBeverageModal;
-  }, [activeBeverageModal, activeBeverageItems]);
+    if (!search.trim()) return beverageData;
+    const t = search.toLowerCase();
+    return beverageData.filter(b => 
+      b.name.toLowerCase().includes(t) || 
+      b.producer.toLowerCase().includes(t) ||
+      b.origin.toLowerCase().includes(t) ||
+      b.region.toLowerCase().includes(t)
+    );
+  }, [beverageData, search]);
 
   return (
-    <div className="space-y-4 sm:space-y-6 max-w-7xl mx-auto pb-12">
-      {/* Top Hero Banner */}
-      <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-stone-900 via-stone-900 to-stone-950 border border-stone-800 p-4 sm:p-6 md:p-8 shadow-xl">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-amber-500/5 rounded-full blur-3xl pointer-events-none -mr-20 -mt-20" />
-        <div className="relative z-10 max-w-3xl">
-          <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-amber-400 mb-2">
-            <BookOpen className="w-4 h-4" />
-            <span>{isEn ? 'FUZE Knowledge Base' : 'Znalostní báze FUZE'}</span>
-          </div>
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-stone-100 tracking-tight">
-            {isEn ? 'Gastro Library & Encyclopedia' : 'Gastro Knihovna & Encyklopedie'}
+    <div className="space-y-6">
+      
+      {/* Search Header */}
+      <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4 bg-stone-900/80 p-5 rounded-2xl border border-stone-800">
+        <div>
+          <h2 className="text-xl font-black text-stone-100 flex items-center gap-2">
+            <BookOpen className="w-5 h-5 text-amber-500" />
+            {isEn ? 'Gastronomy & Beverage Library' : 'Knihovna: Lexikon & Nápoje'}
           </h2>
-          <p className="mt-2 text-xs sm:text-sm md:text-base text-stone-400 leading-relaxed">
-            {isEn 
-              ? 'Complete reference guide of gourmet culinary terms, cuts, sauces, and cooking techniques alongside our full wine and spirits library with ingredients, production secrets, and pairing tips.'
-              : 'Kompletní přehled cizích gastronomických názvů, masných řezů, omáček a kulinářských technik z jídelního lístku, doplněný o ucelenou encyklopedii vín, rumů, tequil, whisky a lihovin.'}
+          <p className="text-xs text-stone-400 mt-1">
+            {isEn ? 'Encyclopedic terms, ingredients, wines and spirits with instant question testing.' : 'Encyklopedie kulinářských pojmů a nápojů s tréninkovým systémem otázek.'}
           </p>
-
-          {/* Quick Counter badges */}
-          <div className="mt-4 flex flex-wrap items-center gap-2 sm:gap-3 text-xs text-stone-400">
-            <div className="flex items-center gap-1.5 px-2.5 sm:px-3 py-1 rounded-lg bg-stone-800/80 border border-stone-700/60 text-stone-300">
-              <UtensilsCrossed className="w-3.5 h-3.5 text-amber-400 shrink-0" />
-              <span><strong>{activeCulinaryTerms.length}</strong> {isEn ? 'culinary terms' : 'kulinářských pojmů'}</span>
-            </div>
-            <div className="flex items-center gap-1.5 px-2.5 sm:px-3 py-1 rounded-lg bg-stone-800/80 border border-stone-700/60 text-stone-300">
-              <Wine className="w-3.5 h-3.5 text-amber-400 shrink-0" />
-              <span><strong>{activeBeverageItems.length}</strong> {isEn ? 'wines & spirits' : 'vín a destilátů'}</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Main Mode Switcher: Kulinářský lexikon vs Nápojová encyklopedie */}
-      <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 sm:gap-4">
-        {/* Interactive Segmented Switcher */}
-        <div className="grid grid-cols-2 p-1 bg-stone-900 border border-stone-800 rounded-xl shadow-inner w-full sm:w-auto sm:inline-flex gap-1">
-          <button
-            type="button"
-            onClick={() => handleTabChange('culinary')}
-            className={`min-w-0 flex items-center justify-center gap-1.5 sm:gap-2 px-2 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-bold transition-all min-h-[42px] ${
-              activeTab === 'culinary'
-                ? 'bg-amber-600 text-stone-950 shadow-md shadow-amber-950/40 font-black'
-                : 'text-stone-400 hover:text-stone-200 hover:bg-stone-800/50'
-            }`}
-          >
-            <ChefHat className="w-4 h-4 shrink-0" />
-            <span className="truncate">
-              <span className="hidden sm:inline">{isEn ? 'Culinary Glossary' : 'Kulinářský lexikon'}</span>
-              <span className="sm:hidden">{isEn ? 'Glossary' : 'Lexikon'}</span>
-            </span>
-            <span className={`text-[10px] sm:text-[11px] px-1.5 py-0.5 rounded font-mono shrink-0 ${
-              activeTab === 'culinary' ? 'bg-amber-700/50 text-stone-950 font-bold' : 'text-stone-500'
-            }`}>
-              {activeCulinaryTerms.length}
-            </span>
-          </button>
-
-          <button
-            type="button"
-            onClick={() => handleTabChange('beverages')}
-            className={`min-w-0 flex items-center justify-center gap-1.5 sm:gap-2 px-2 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-bold transition-all min-h-[42px] ${
-              activeTab === 'beverages'
-                ? 'bg-amber-600 text-stone-950 shadow-md shadow-amber-950/40 font-black'
-                : 'text-stone-400 hover:text-stone-200 hover:bg-stone-800/50'
-            }`}
-          >
-            <GlassWater className="w-4 h-4 shrink-0" />
-            <span className="truncate">
-              <span className="hidden sm:inline">{isEn ? 'Beverage Encyclopedia' : 'Nápojová encyklopedie'}</span>
-              <span className="sm:hidden">{isEn ? 'Beverages' : 'Nápoje'}</span>
-            </span>
-            <span className={`text-[10px] sm:text-[11px] px-1.5 py-0.5 rounded font-mono shrink-0 ${
-              activeTab === 'beverages' ? 'bg-amber-700/50 text-stone-950 font-bold' : 'text-stone-500'
-            }`}>
-              {activeBeverageItems.length}
-            </span>
-          </button>
         </div>
 
-        {/* Search Bar */}
-        <div className="relative flex-1 sm:max-w-md w-full">
-          <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-stone-500" />
+        <div className="relative w-full sm:w-72">
+          <Search className="w-4 h-4 text-stone-500 absolute left-3.5 top-3" />
           <input
             type="text"
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder={
-              activeTab === 'culinary'
-                ? (isEn ? 'Search chimichurri, duroc, cornichons, sauces...' : 'Hledat chimichurri, duroc, cornichons, omáčky...')
-                : (isEn ? 'Search wine, rum, tequila, whisky, distillery...' : 'Hledat víno, rum, tequilu, whisky, lihovar...')
-            }
-            className="w-full pl-10 pr-9 py-2 rounded-xl bg-stone-900 border border-stone-800 text-xs sm:text-sm text-stone-100 placeholder-stone-500 focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500 transition-colors"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder={isEn ? 'Search library...' : 'Hledat v knihovně...'}
+            className="w-full pl-10 pr-4 py-2 rounded-xl bg-stone-950 border border-stone-800 text-stone-200 text-xs focus:outline-none focus:border-amber-500"
           />
-          {searchQuery && (
-            <button
-              onClick={() => setSearchQuery('')}
-              className="absolute right-3 top-1/2 -translate-y-1/2 text-stone-500 hover:text-stone-300"
-              title={isEn ? 'Clear search' : 'Vymazat hledání'}
-            >
-              <X className="w-4 h-4" />
-            </button>
-          )}
         </div>
       </div>
 
-      {/* Sub-Category Filters with Audio Accompaniment and Scroll Buttons */}
-      <div className="relative flex items-center w-full min-w-0">
-        {/* Tlačítko posunu filtrů doleva */}
+      {/* Main Tabs: Culinary vs Beverage */}
+      <div className="flex items-center gap-3 border-b border-stone-800 pb-3">
         <button
-          type="button"
-          onClick={() => subcatRef.current?.scrollBy({ left: -140, behavior: 'smooth' })}
-          disabled={!canSubcatLeft}
-          title={isEn ? 'Scroll filters left' : 'Posunout filtry doleva'}
-          aria-label={isEn ? 'Scroll filters left' : 'Posunout filtry doleva'}
-          className={`p-1.5 rounded-lg border transition-all shrink-0 mr-1 flex items-center justify-center min-w-[30px] min-h-[30px] ${
-            canSubcatLeft
-              ? 'bg-stone-900 hover:bg-stone-800 text-stone-200 hover:text-amber-400 border-stone-800 hover:border-amber-500/50 shadow-sm active:scale-95'
-              : 'bg-stone-950/40 text-stone-600 border-stone-900/60 opacity-30 cursor-not-allowed'
+          onClick={() => setActiveTab('culinary')}
+          className={`px-4 py-2.5 rounded-xl text-xs font-bold flex items-center gap-2 transition-all ${
+            activeTab === 'culinary'
+              ? 'bg-amber-500 text-stone-950 shadow-lg shadow-amber-500/20'
+              : 'bg-stone-900 text-stone-400 border border-stone-800 hover:text-stone-200'
           }`}
         >
-          <ChevronLeft className="w-3.5 h-3.5" />
+          <Sparkles className="w-4 h-4" />
+          <span>{isEn ? 'Culinary Lexicon' : 'Kulinářský lexikon'}</span>
         </button>
 
-        <div
-          ref={subcatRef}
-          className="flex-1 flex items-center gap-1.5 overflow-x-auto pb-1.5 no-scrollbar scroll-smooth min-w-0"
-        >
-          {activeTab === 'culinary' ? (
-            culinaryCategories.map(cat => {
-              const isSelected = selectedCulinaryCategory === cat.id;
-              return (
-                <div
-                  key={cat.id}
-                  className={`shrink-0 inline-flex items-center rounded-lg text-xs font-medium transition-all ${
-                    isSelected
-                      ? 'bg-amber-500/20 text-amber-300 border border-amber-500/50 shadow-sm shadow-amber-950/20'
-                      : 'bg-stone-900 text-stone-400 hover:text-stone-200 border border-stone-800 hover:border-stone-700'
-                  }`}
-                >
-                  <button
-                    type="button"
-                    onClick={() => setSelectedCulinaryCategory(cat.id)}
-                    className="pl-3 pr-1 py-1.5 text-xs font-medium focus:outline-none"
-                  >
-                    {cat.label}
-                  </button>
-                  <div className="pr-1.5 py-0.5">
-                    <AudioPronounceButton
-                      itemId={`subcat-cul-${cat.id}`}
-                      name={cat.label}
-                      description={cat.description}
-                      lang={language}
-                      size="xs"
-                      title={isEn ? `Listen to subcategory: ${cat.label}` : `Poslechnout podsložku: ${cat.label}`}
-                      className="!p-1 !rounded-md bg-transparent hover:bg-stone-800/80 text-stone-400 hover:text-amber-300 border-0 shadow-none"
-                    />
-                  </div>
-                </div>
-              );
-            })
-          ) : (
-            beverageCategories.map(cat => {
-              const isSelected = selectedBeverageCategory === cat.id;
-              return (
-                <div
-                  key={cat.id}
-                  className={`shrink-0 inline-flex items-center rounded-lg text-xs font-medium transition-all ${
-                    isSelected
-                      ? 'bg-amber-500/20 text-amber-300 border border-amber-500/50 shadow-sm shadow-amber-950/20'
-                      : 'bg-stone-900 text-stone-400 hover:text-stone-200 border border-stone-800 hover:border-stone-700'
-                  }`}
-                >
-                  <button
-                    type="button"
-                    onClick={() => setSelectedBeverageCategory(cat.id)}
-                    className="pl-3 pr-1 py-1.5 text-xs font-medium focus:outline-none"
-                  >
-                    {cat.label}
-                  </button>
-                  <div className="pr-1.5 py-0.5">
-                    <AudioPronounceButton
-                      itemId={`subcat-bev-${cat.id}`}
-                      name={cat.label}
-                      description={cat.description}
-                      lang={language}
-                      size="xs"
-                      title={isEn ? `Listen to subcategory: ${cat.label}` : `Poslechnout podsložku: ${cat.label}`}
-                      className="!p-1 !rounded-md bg-transparent hover:bg-stone-800/80 text-stone-400 hover:text-amber-300 border-0 shadow-none"
-                    />
-                  </div>
-                </div>
-              );
-            })
-          )}
-        </div>
-
-        {/* Tlačítko posunu filtrů doprava */}
         <button
-          type="button"
-          onClick={() => subcatRef.current?.scrollBy({ left: 140, behavior: 'smooth' })}
-          disabled={!canSubcatRight}
-          title={isEn ? 'Scroll filters right' : 'Posunout filtry doprava'}
-          aria-label={isEn ? 'Scroll filters right' : 'Posunout filtry doprava'}
-          className={`p-1.5 rounded-lg border transition-all shrink-0 ml-1 flex items-center justify-center min-w-[30px] min-h-[30px] ${
-            canSubcatRight
-              ? 'bg-stone-900 hover:bg-stone-800 text-stone-200 hover:text-amber-400 border-stone-800 hover:border-amber-500/50 shadow-sm active:scale-95'
-              : 'bg-stone-950/40 text-stone-600 border-stone-900/60 opacity-30 cursor-not-allowed'
+          onClick={() => setActiveTab('beverage')}
+          className={`px-4 py-2.5 rounded-xl text-xs font-bold flex items-center gap-2 transition-all ${
+            activeTab === 'beverage'
+              ? 'bg-amber-500 text-stone-950 shadow-lg shadow-amber-500/20'
+              : 'bg-stone-900 text-stone-400 border border-stone-800 hover:text-stone-200'
           }`}
         >
-          <ChevronRight className="w-3.5 h-3.5" />
+          <Wine className="w-4 h-4" />
+          <span>{isEn ? 'Beverage Encyclopedia' : 'Nápojová encyklopedie'}</span>
         </button>
       </div>
 
-      {/* Results Count & Active Status */}
-      <div className="flex items-center justify-between text-xs text-stone-500 px-1">
-        <span>
-          {isEn ? 'Showing ' : 'Zobrazeno '}
-          <strong className="text-stone-300">
-            {activeTab === 'culinary' ? filteredCulinaryTerms.length : filteredBeverages.length}
-          </strong>
-          {isEn ? ' items' : ' položek'}
-        </span>
-        {searchQuery && (
-          <span>
-            {isEn ? 'Filter active: ' : 'Aktivní filtr: '}
-            <strong className="text-amber-400">"{searchQuery}"</strong>
-          </span>
-        )}
-      </div>
-
-      {/* ========================================================================= */}
-      {/* SECTION 1: CULINARY GLOSSARY CARDS GRID                                  */}
-      {/* ========================================================================= */}
+      {/* Culinary Lexicon Content */}
       {activeTab === 'culinary' && (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {filteredCulinaryTerms.length === 0 ? (
-            <div className="col-span-full py-16 text-center rounded-2xl bg-stone-900/40 border border-stone-800/80">
-              <Search className="w-8 h-8 text-stone-600 mx-auto mb-2" />
-              <p className="text-stone-400 font-medium">
-                {isEn ? 'No culinary terms found matching your query.' : 'Nebyly nalezeny žádné pojmy odpovídající vašemu hledání.'}
-              </p>
-              <button
-                onClick={() => { setSearchQuery(''); setSelectedCulinaryCategory('all'); }}
-                className="mt-3 text-xs text-amber-400 hover:underline"
-              >
-                {isEn ? 'Reset filters' : 'Obnovit filtry'}
-              </button>
-            </div>
-          ) : (
-            filteredCulinaryTerms.map(term => (
-              <div
-                key={term.id}
-                onClick={() => setActiveCulinaryModal(term)}
-                className="group flex flex-col justify-between rounded-xl bg-stone-900 border border-stone-800/90 hover:border-amber-500/50 p-5 transition-all cursor-pointer hover:shadow-lg hover:shadow-amber-950/20"
-              >
-                <div>
-                  {/* Clean unboxed metadata with typographic separators (anti-slop guideline) */}
-                  <div className="flex items-center gap-1.5 text-[11px] text-stone-500 mb-1.5 font-medium">
-                    <span className="text-amber-400/90">{term.categoryName}</span>
-                    <span aria-hidden="true">·</span>
-                    <span>{term.origin}</span>
-                  </div>
-
-                  <div className="flex items-start justify-between gap-2 mb-1">
-                    <h3 className="text-lg font-bold text-stone-100 group-hover:text-amber-400 transition-colors tracking-tight flex items-baseline gap-2 flex-wrap">
-                      <span>{term.name}</span>
-                      {term.originalTerm && term.originalTerm !== term.name && (
-                        <span className="text-xs text-stone-500 font-normal italic">
-                          {term.originalTerm}
-                        </span>
-                      )}
-                    </h3>
-                    <AudioPronounceButton
-                      itemId={`lib-term-${term.id}`}
-                      name={term.name}
-                      description={`${term.shortDescription} ${isEn ? 'Key ingredients:' : 'Suroviny:'} ${term.ingredients.join(', ')}`}
-                      lang={language}
-                      size="sm"
-                      title={isEn ? `Listen to pronunciation: ${term.name}` : `Poslechnout výslovnost: ${term.name}`}
-                      className="shrink-0"
-                    />
-                  </div>
-
-                  <p className="mt-2 text-xs text-stone-300 leading-relaxed">
-                    {term.shortDescription}
-                  </p>
-
-                  {/* Key Ingredients snippet */}
-                  <div className="mt-3 pt-3 border-t border-stone-800/60">
-                    <span className="text-[11px] font-semibold text-stone-400 uppercase tracking-wider block mb-1">
-                      {isEn ? 'Key Ingredients / Components:' : 'Klíčové suroviny / složení:'}
-                    </span>
-                    <p className="text-xs text-stone-400 line-clamp-2">
-                      {term.ingredients.join(', ')}
-                    </p>
-                  </div>
-
-                  {/* Flavor profile snippet */}
-                  <div className="mt-2">
-                    <span className="text-[11px] font-semibold text-stone-400 uppercase tracking-wider block mb-0.5">
-                      {isEn ? 'Flavor Profile:' : 'Chuťový profil:'}
-                    </span>
-                    <p className="text-xs text-amber-200/90 italic line-clamp-2">
-                      "{term.flavorProfile}"
-                    </p>
-                  </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {filteredCulinary.map((term) => (
+            <div key={term.id} className="bg-stone-900 border border-stone-800 rounded-2xl p-5 flex flex-col justify-between space-y-4">
+              <div className="space-y-2">
+                <div className="flex items-center justify-between">
+                  <span className="px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/10 border border-amber-500/20 text-amber-400">
+                    {term.categoryName}
+                  </span>
+                  <span className="text-[11px] text-stone-300 font-medium">{term.origin}</span>
                 </div>
 
-                {/* Card footer */}
-                <div className="mt-4 pt-3 border-t border-stone-800/80 flex items-center justify-between text-xs gap-2">
-                  <button
-                    type="button"
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      setActiveQuizItem({ item: term, type: 'culinary' });
-                    }}
-                    className="px-2.5 py-1 rounded-lg bg-amber-500/15 hover:bg-amber-500/25 border border-amber-500/30 text-amber-300 hover:text-amber-200 text-[11px] font-bold flex items-center gap-1 transition-all active:scale-95 shrink-0"
-                    title={isEn ? `Take quiz on ${term.name}` : `Vyzkoušet se z položky ${term.name}`}
-                  >
-                    <Brain className="w-3.5 h-3.5 text-amber-400" />
-                    <span>{isEn ? 'Quiz' : 'Vyzkoušet se'}</span>
-                  </button>
+                <h3 className="text-lg font-bold text-stone-100">{term.name}</h3>
+                <p className="text-xs text-stone-400 leading-relaxed">{term.shortDescription}</p>
 
-                  <div className="flex items-center gap-1 text-amber-400 font-medium group-hover:translate-x-0.5 transition-transform">
-                    <span>{isEn ? 'Detail & Tips' : 'Detail & Tipy'}</span>
-                    <ChevronRight className="w-3.5 h-3.5" />
-                  </div>
-                </div>
-              </div>
-            ))
-          )}
-        </div>
-      )}
-
-      {/* ========================================================================= */}
-      {/* SECTION 2: BEVERAGE ENCYCLOPEDIA CARDS GRID                              */}
-      {/* ========================================================================= */}
-      {activeTab === 'beverages' && (
-        <div className="space-y-6">
-          {/* Sommelier Audio Play Panel for Vína po skle */}
-          {(selectedBeverageCategory === 'wine_glass' || selectedBeverageCategory === 'all') && (
-            <div ref={audioPanelRef}>
-              <WineGlassAudioPanel
-                language={language}
-              />
-            </div>
-          )}
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {filteredBeverages.length === 0 ? (
-              <div className="col-span-full py-16 text-center rounded-2xl bg-stone-900/40 border border-stone-800/80">
-                <Search className="w-8 h-8 text-stone-600 mx-auto mb-2" />
-                <p className="text-stone-400 font-medium">
-                  {isEn ? 'No beverages found matching your query.' : 'Nebyly nalezeny žádné nápoje odpovídající vašemu hledání.'}
-                </p>
-                <button
-                  onClick={() => { setSearchQuery(''); setSelectedBeverageCategory('all'); }}
-                  className="mt-3 text-xs text-amber-400 hover:underline"
-                >
-                  {isEn ? 'Reset filters' : 'Obnovit filtry'}
-                </button>
-              </div>
-            ) : (
-              filteredBeverages.map(item => (
-                <div
-                  key={item.id}
-                  onClick={() => setActiveBeverageModal(item)}
-                  className="group flex flex-col justify-between rounded-xl bg-stone-900 border border-stone-800/90 hover:border-amber-500/50 p-5 transition-all cursor-pointer hover:shadow-lg hover:shadow-amber-950/20"
-                >
-                  <div>
-                    {/* Clean unboxed metadata with typographic separators */}
-                    <div className="flex items-center gap-1.5 text-[11px] text-stone-500 mb-1.5 font-medium flex-wrap">
-                      <span className="text-amber-400/90">{item.categoryName}</span>
-                      <span aria-hidden="true">·</span>
-                      <span>{item.origin}</span>
-                      <span aria-hidden="true">·</span>
-                      <span className="font-mono text-stone-400">{item.abv}</span>
-                      {item.sweetness && (
-                        <>
-                          <span aria-hidden="true">·</span>
-                          <span className="text-purple-300 font-semibold">{item.sweetness}</span>
-                        </>
-                      )}
-                    </div>
-
-                    <div className="flex items-start justify-between gap-2 mb-1">
-                      <h3 className="text-lg font-bold text-stone-100 group-hover:text-amber-400 transition-colors tracking-tight">
-                        {item.name}
-                      </h3>
-                      <AudioPronounceButton
-                        itemId={`lib-bev-${item.id}`}
-                        name={item.name}
-                        description={`${item.producer}. ${item.categoryName} from ${item.origin}. ${item.flavorProfile}`}
-                        lang={language}
-                        size="sm"
-                        title={isEn ? `Listen to pronunciation: ${item.name}` : `Poslechnout výslovnost: ${item.name}`}
-                        className="shrink-0"
-                      />
-                    </div>
-
-                    <div className="mt-1 flex items-center justify-between text-xs text-stone-400">
-                      <span>{item.producer}</span>
-                      <span className="font-semibold text-stone-300">{item.price}</span>
-                    </div>
-
-                    {/* Raw Ingredients snippet */}
-                    <div className="mt-3 pt-3 border-t border-stone-800/60">
-                      <span className="text-[11px] font-semibold text-stone-400 uppercase tracking-wider block mb-1">
-                        {isEn ? 'Ingredients & Varieties:' : 'Suroviny & odrůdy:'}
-                      </span>
-                      <p className="text-xs text-stone-300 line-clamp-2">
-                        {item.rawIngredients}
-                      </p>
-                    </div>
-
-                    {/* Production process snippet */}
-                    <div className="mt-2">
-                      <span className="text-[11px] font-semibold text-stone-400 uppercase tracking-wider block mb-0.5">
-                        {isEn ? 'Production & Aging:' : 'Výroba a zrání:'}
-                      </span>
-                      <p className="text-xs text-stone-400 line-clamp-2">
-                        {item.productionProcess}
-                      </p>
-                    </div>
-
-                    {/* Flavor snippet */}
-                    <div className="mt-2">
-                      <span className="text-[11px] font-semibold text-stone-400 uppercase tracking-wider block mb-0.5">
-                        {isEn ? 'Tasting Notes:' : 'Aroma a chuť:'}
-                      </span>
-                      <p className="text-xs text-amber-200/90 italic line-clamp-2">
-                        "{item.flavorProfile}"
-                      </p>
-                    </div>
-
-                    {/* Play in Sommelier Audio Guide Button */}
-                    {(item.category === 'wine_glass' || item.id.startsWith('sklo-')) && (
-                      <div className="mt-3 pt-2 border-t border-stone-800/60">
-                        <button
-                          type="button"
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            handleSelectWineForAudio(item.id);
-                          }}
-                          className="w-full py-1.5 px-3 rounded-lg bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 text-amber-300 hover:text-amber-200 text-xs font-bold flex items-center justify-center gap-1.5 transition-all shadow-sm active:scale-95"
-                        >
-                          <Play className="w-3.5 h-3.5 fill-current text-amber-400" />
-                          <span>{isEn ? 'Play in Sommelier Audio Guide' : 'Přehrát v audio rozboru'}</span>
-                        </button>
-                      </div>
-                    )}
-                  </div>
-
-                  {/* Card footer */}
-                  <div className="mt-4 pt-3 border-t border-stone-800/80 flex items-center justify-between text-xs gap-2">
-                    <button
-                      type="button"
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        setActiveQuizItem({ item, type: 'beverage' });
-                      }}
-                      className="px-2.5 py-1 rounded-lg bg-amber-500/15 hover:bg-amber-500/25 border border-amber-500/30 text-amber-300 hover:text-amber-200 text-[11px] font-bold flex items-center gap-1 transition-all active:scale-95 shrink-0"
-                      title={isEn ? `Take quiz on ${item.name}` : `Vyzkoušet se z položky ${item.name}`}
-                    >
-                      <Brain className="w-3.5 h-3.5 text-amber-400" />
-                      <span>{isEn ? 'Quiz' : 'Vyzkoušet se'}</span>
-                    </button>
-
-                    <div className="flex items-center gap-1 text-amber-400 font-medium group-hover:translate-x-0.5 transition-transform">
-                      <span>{isEn ? 'Pairing & Details' : 'Párování & Detail'}</span>
-                      <ChevronRight className="w-3.5 h-3.5" />
-                    </div>
-                  </div>
-                </div>
-              ))
-            )}
-          </div>
-        </div>
-      )}
-
-      {/* ========================================================================= */}
-      {/* MODAL 1: DETAILED CULINARY TERM DIALOG                                    */}
-      {/* ========================================================================= */}
-      {currentCulinaryModal && (
-        <div 
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-stone-950/80 backdrop-blur-sm animate-in fade-in duration-200"
-          onClick={() => setActiveCulinaryModal(null)}
-        >
-          <div 
-            className="relative w-full max-w-2xl max-h-[90vh] overflow-y-auto rounded-2xl bg-stone-900 border border-stone-700/80 p-6 sm:p-8 shadow-2xl space-y-6 text-stone-100"
-            onClick={(e) => e.stopPropagation()}
-          >
-            {/* Close button */}
-            <button
-              onClick={() => setActiveCulinaryModal(null)}
-              className="absolute top-5 right-5 p-1.5 rounded-lg bg-stone-800 text-stone-400 hover:text-stone-100 hover:bg-stone-700 transition-colors"
-            >
-              <X className="w-5 h-5" />
-            </button>
-
-            {/* Modal Header */}
-            <div className="flex items-start justify-between gap-3 pr-8">
-              <div>
-                <div className="flex items-center gap-2 text-xs text-stone-400 font-medium mb-1">
-                  <span className="text-amber-400">{currentCulinaryModal.categoryName}</span>
-                  <span aria-hidden="true">·</span>
-                  <span>{currentCulinaryModal.origin}</span>
-                </div>
-                <h3 className="text-2xl sm:text-3xl font-black text-stone-100 tracking-tight">
-                  {currentCulinaryModal.name}
-                </h3>
-                {currentCulinaryModal.originalTerm && (
-                  <p className="text-xs text-stone-400 italic mt-0.5">
-                    {currentCulinaryModal.originalTerm}
+                {term.flavorProfile && (
+                  <p className="text-[11px] text-stone-300 bg-stone-950/60 p-2.5 rounded-xl border border-stone-800">
+                    <strong className="text-amber-400">Chuťový profil:</strong> {term.flavorProfile}
                   </p>
                 )}
               </div>
-              <AudioPronounceButton
-                itemId={`modal-term-${currentCulinaryModal.id}`}
-                name={currentCulinaryModal.name}
-                description={`${currentCulinaryModal.shortDescription} ${isEn ? 'Key ingredients:' : 'Suroviny:'} ${currentCulinaryModal.ingredients.join(', ')}`}
-                lang={language}
-                size="md"
-                showLabel
-                title={isEn ? `Listen to pronunciation: ${currentCulinaryModal.name}` : `Poslechnout výslovnost: ${currentCulinaryModal.name}`}
-                className="shrink-0 mt-1"
-              />
-            </div>
 
-            {/* Main Description */}
-            <div className="p-4 rounded-xl bg-stone-950/60 border border-stone-800/80">
-              <p className="text-sm text-stone-200 leading-relaxed font-medium">
-                {currentCulinaryModal.shortDescription}
-              </p>
-            </div>
-
-            {/* Ingredients Section */}
-            <div>
-              <h4 className="text-xs font-bold uppercase tracking-wider text-amber-400 mb-2.5 flex items-center gap-1.5">
-                <ChefHat className="w-4 h-4" />
-                <span>{isEn ? 'Exact Ingredients & Composition:' : 'Přesné ingredience a složení:'}</span>
-              </h4>
-              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
-                {currentCulinaryModal.ingredients.map((ing, idx) => (
-                  <li key={idx} className="flex items-start gap-2 p-2 rounded-lg bg-stone-800/50 border border-stone-800 text-stone-300">
-                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0 mt-0.5" />
-                    <span>{ing}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* Flavor Profile & Culinary Usage */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="p-3.5 rounded-xl bg-stone-800/30 border border-stone-800">
-                <span className="text-[11px] font-bold uppercase tracking-wider text-amber-400 block mb-1">
-                  {isEn ? 'Flavor Profile:' : 'Chuťový profil a textura:'}
-                </span>
-                <p className="text-xs text-stone-300 leading-relaxed">
-                  {currentCulinaryModal.flavorProfile}
-                </p>
-              </div>
-
-              <div className="p-3.5 rounded-xl bg-stone-800/30 border border-stone-800">
-                <span className="text-[11px] font-bold uppercase tracking-wider text-amber-400 block mb-1">
-                  {isEn ? 'Culinary Usage & Preparation:' : 'Kulinářské využití a příprava:'}
-                </span>
-                <p className="text-xs text-stone-300 leading-relaxed">
-                  {currentCulinaryModal.culinaryUsage}
-                </p>
-              </div>
-            </div>
-
-            {/* Appearances in Fuze Menu */}
-            <div>
-              <h4 className="text-xs font-bold uppercase tracking-wider text-amber-400 mb-2 flex items-center gap-1.5">
-                <UtensilsCrossed className="w-4 h-4" />
-                <span>{isEn ? 'Appears in Fuze Menu Dishes:' : 'Vyskytuje se v jídelním lístku FUZE:'}</span>
-              </h4>
-              <div className="space-y-1.5">
-                {currentCulinaryModal.fuzeMenuAppearances.map((dish, idx) => (
-                  <div key={idx} className="flex items-center gap-2 p-2.5 rounded-lg bg-amber-500/10 border border-amber-500/20 text-xs text-amber-200">
-                    <span className="w-1.5 h-1.5 rounded-full bg-amber-400" />
-                    <span className="font-semibold">{dish}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* Staff Tips & Selling Points */}
-            <div className="p-4 rounded-xl bg-stone-800/70 border border-stone-700/80">
-              <h4 className="text-xs font-bold uppercase tracking-wider text-amber-300 mb-1 flex items-center gap-1.5">
-                <Info className="w-4 h-4" />
-                <span>{isEn ? 'Staff Tips & Guest Presentation:' : 'Důležité informace a tipy pro personál k obsluze hosta:'}</span>
-              </h4>
-              <p className="text-xs text-stone-300 leading-relaxed">
-                {currentCulinaryModal.staffTips}
-              </p>
-            </div>
-
-            {/* Bottom actions */}
-            <div className="pt-2 flex flex-col sm:flex-row items-center justify-between gap-3">
-              <button
-                type="button"
-                onClick={() => {
-                  setActiveQuizItem({ item: currentCulinaryModal, type: 'culinary' });
-                  setActiveCulinaryModal(null);
-                }}
-                className="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-950 text-xs font-black flex items-center justify-center gap-2 shadow-md shadow-amber-950/40 transition-all active:scale-95"
-              >
-                <Brain className="w-4 h-4" />
-                <span>{isEn ? 'Quiz this Item' : 'Vyzkoušet se z téhle položky'}</span>
-              </button>
-
-              <button
-                type="button"
-                onClick={() => setActiveCulinaryModal(null)}
-                className="w-full sm:w-auto px-5 py-2.5 rounded-xl bg-stone-800 hover:bg-stone-700 text-stone-200 text-xs font-semibold transition-colors"
-              >
-                {isEn ? 'Close' : 'Zavřít'}
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
-
-      {/* ========================================================================= */}
-      {/* MODAL 2: DETAILED BEVERAGE DIALOG                                         */}
-      {/* ========================================================================= */}
-      {currentBeverageModal && (
-        <div 
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-stone-950/80 backdrop-blur-sm animate-in fade-in duration-200"
-          onClick={() => setActiveBeverageModal(null)}
-        >
-          <div 
-            className="relative w-full max-w-2xl max-h-[90vh] overflow-y-auto rounded-2xl bg-stone-900 border border-stone-700/80 p-6 sm:p-8 shadow-2xl space-y-6 text-stone-100"
-            onClick={(e) => e.stopPropagation()}
-          >
-            {/* Close button */}
-            <button
-              onClick={() => setActiveBeverageModal(null)}
-              className="absolute top-5 right-5 p-1.5 rounded-lg bg-stone-800 text-stone-400 hover:text-stone-100 hover:bg-stone-700 transition-colors"
-            >
-              <X className="w-5 h-5" />
-            </button>
-
-            {/* Modal Header */}
-            <div className="flex items-start justify-between gap-3 pr-8">
-              <div>
-                <div className="flex flex-wrap items-center gap-1.5 text-xs text-stone-400 font-medium mb-1">
-                  <span className="text-amber-400">{currentBeverageModal.categoryName}</span>
-                  <span aria-hidden="true">·</span>
-                  <span>{currentBeverageModal.origin}</span>
-                  <span aria-hidden="true">·</span>
-                  <span>{currentBeverageModal.region}</span>
-                </div>
-                <h3 className="text-2xl sm:text-3xl font-black text-stone-100 tracking-tight">
-                  {currentBeverageModal.name}
-                </h3>
-                <p className="text-xs text-amber-300 font-medium mt-0.5">
-                  {currentBeverageModal.producer}
-                </p>
-              </div>
-              <AudioPronounceButton
-                itemId={`modal-bev-${currentBeverageModal.id}`}
-                name={currentBeverageModal.name}
-                description={`${currentBeverageModal.producer}. ${currentBeverageModal.categoryName} from ${currentBeverageModal.origin}. ${currentBeverageModal.flavorProfile}`}
-                lang={language}
-                size="md"
-                showLabel
-                title={isEn ? `Listen to pronunciation: ${currentBeverageModal.name}` : `Poslechnout výslovnost: ${currentBeverageModal.name}`}
-                className="shrink-0 mt-1"
-              />
-            </div>
-
-            {/* Key Specs Bar */}
-            <div className={`grid ${currentBeverageModal.sweetness ? 'grid-cols-2 sm:grid-cols-4' : 'grid-cols-3'} gap-3 p-3 rounded-xl bg-stone-950/60 border border-stone-800/80 text-center text-xs`}>
-              <div>
-                <span className="text-[11px] text-stone-500 block">{isEn ? 'Serving / Volume' : 'Objem / míra'}</span>
-                <strong className="text-stone-200 font-mono text-sm">{currentBeverageModal.volume}</strong>
-              </div>
-              <div>
-                <span className="text-[11px] text-stone-500 block">{isEn ? 'Alcohol Content' : 'Obsah alkoholu'}</span>
-                <strong className="text-amber-400 font-mono text-sm">{currentBeverageModal.abv}</strong>
-              </div>
-              {currentBeverageModal.sweetness && (
-                <div>
-                  <span className="text-[11px] text-stone-500 block">{isEn ? 'Sweetness' : 'Cukernatost'}</span>
-                  <strong className="text-purple-300 font-semibold text-sm">{currentBeverageModal.sweetness}</strong>
-                </div>
-              )}
-              <div>
-                <span className="text-[11px] text-stone-500 block">{isEn ? 'Fuze Price' : 'Cena ve Fuze'}</span>
-                <strong className="text-stone-200 font-semibold text-sm">{currentBeverageModal.price}</strong>
-              </div>
-            </div>
-
-            {/* Sommelier Audio Guide Banner */}
-            {(currentBeverageModal.category === 'wine_glass' || currentBeverageModal.id.startsWith('sklo-')) && (
-              <div className="p-3.5 rounded-xl bg-gradient-to-r from-amber-500/10 via-amber-500/20 to-stone-950 border border-amber-500/40 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
-                <div>
-                  <span className="text-[11px] font-bold uppercase tracking-wider text-amber-400 flex items-center gap-1.5">
-                    <Disc3 className="w-3.5 h-3.5 text-amber-400 animate-spin" />
-                    <span>{isEn ? 'Sommelier Audio Analysis' : 'Someliérský audio rozbor k tomuto vínu'}</span>
-                  </span>
-                  <p className="text-xs text-stone-300 mt-0.5">
-                    {isEn ? 'Listen to the 22 min podcast discussion and sommelier tips on this wine.' : 'Poslechněte si detailní 22min rozbor, doporučení a hodnocení tohoto vína z podcastu.'}
-                  </p>
-                </div>
+              <div className="pt-3 border-t border-stone-800/80 flex items-center justify-between">
                 <button
-                  type="button"
-                  onClick={() => {
-                    handleSelectWineForAudio(currentBeverageModal.id);
-                    setActiveBeverageModal(null);
-                  }}
-                  className="shrink-0 px-3.5 py-2 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-950 text-xs font-black flex items-center gap-1.5 shadow-md shadow-amber-950/40 transition-colors"
+                  onClick={() => setQuizItem({ item: term, type: 'culinary' })}
+                  className="w-full py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-950 text-xs font-bold flex items-center justify-center gap-2 shadow-md shadow-amber-500/20 transition-all"
                 >
                   <Play className="w-3.5 h-3.5 fill-current" />
-                  <span>{isEn ? 'Play Audio Chapter' : 'Přehrát v audio průvodci'}</span>
+                  <span>{isEn ? 'Test Questions for Item' : 'Spustit test otázek k položce'}</span>
                 </button>
               </div>
-            )}
-
-            {/* Raw Ingredients Section */}
-            <div>
-              <h4 className="text-xs font-bold uppercase tracking-wider text-amber-400 mb-1 flex items-center gap-1.5">
-                <Layers className="w-4 h-4" />
-                <span>{isEn ? 'Raw Ingredients, Varietals & Origin:' : 'Suroviny, odrůdy a složení:'}</span>
-              </h4>
-              <p className="text-xs text-stone-200 p-3 rounded-lg bg-stone-800/40 border border-stone-800 leading-relaxed">
-                {currentBeverageModal.rawIngredients}
-              </p>
             </div>
-
-            {/* Production & Distillation Process */}
-            <div>
-              <h4 className="text-xs font-bold uppercase tracking-wider text-amber-400 mb-1 flex items-center gap-1.5">
-                <Flame className="w-4 h-4" />
-                <span>{isEn ? 'Production Process, Distillation & Aging:' : 'Výrobní postup, destilace a zrání v sudech:'}</span>
-              </h4>
-              <p className="text-xs text-stone-200 p-3 rounded-lg bg-stone-800/40 border border-stone-800 leading-relaxed">
-                {currentBeverageModal.productionProcess}
-              </p>
-            </div>
-
-            {/* Flavor Profile & Aroma */}
-            <div>
-              <h4 className="text-xs font-bold uppercase tracking-wider text-amber-400 mb-1 flex items-center gap-1.5">
-                <Sparkles className="w-4 h-4" />
-                <span>{isEn ? 'Tasting Notes & Aromas:' : 'Aroma a chuťový profil:'}</span>
-              </h4>
-              <p className="text-xs text-amber-200/90 italic p-3 rounded-lg bg-stone-800/40 border border-stone-800 leading-relaxed">
-                "{currentBeverageModal.flavorProfile}"
-              </p>
-            </div>
-
-            {/* Recommended Food Pairing */}
-            <div className="p-3.5 rounded-xl bg-amber-500/10 border border-amber-500/20">
-              <h4 className="text-xs font-bold uppercase tracking-wider text-amber-300 mb-1 flex items-center gap-1.5">
-                <UtensilsCrossed className="w-4 h-4" />
-                <span>{isEn ? 'Recommended Food Pairing at Fuze:' : 'Doporučené párování s jídly Fuze:'}</span>
-              </h4>
-              <p className="text-xs text-stone-200 leading-relaxed font-medium">
-                {currentBeverageModal.foodPairing}
-              </p>
-            </div>
-
-            {/* Staff Notes & Service Insights */}
-            <div className="p-4 rounded-xl bg-stone-800/70 border border-stone-700/80">
-              <h4 className="text-xs font-bold uppercase tracking-wider text-amber-300 mb-1 flex items-center gap-1.5">
-                <Info className="w-4 h-4" />
-                <span>{isEn ? 'Staff Tips & Story for the Guest:' : 'Důležité informace a příběh pro hosta:'}</span>
-              </h4>
-              <p className="text-xs text-stone-300 leading-relaxed">
-                {currentBeverageModal.staffNotes}
-              </p>
-            </div>
-
-            {/* Bottom actions */}
-            <div className="pt-2 flex flex-col sm:flex-row items-center justify-between gap-3">
-              <button
-                type="button"
-                onClick={() => {
-                  setActiveQuizItem({ item: currentBeverageModal, type: 'beverage' });
-                  setActiveBeverageModal(null);
-                }}
-                className="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-950 text-xs font-black flex items-center justify-center gap-2 shadow-md shadow-amber-950/40 transition-all active:scale-95"
-              >
-                <Brain className="w-4 h-4" />
-                <span>{isEn ? 'Quiz this Item' : 'Vyzkoušet se z téhle položky'}</span>
-              </button>
-
-              <button
-                type="button"
-                onClick={() => setActiveBeverageModal(null)}
-                className="w-full sm:w-auto px-5 py-2.5 rounded-xl bg-stone-800 hover:bg-stone-700 text-stone-200 text-xs font-semibold transition-colors"
-              >
-                {isEn ? 'Close' : 'Zavřít'}
-              </button>
-            </div>
-          </div>
+          ))}
         </div>
       )}
 
-      {/* Item Mastery Quiz Modal */}
-      {activeQuizItem && (
+      {/* Beverage Encyclopedia Content */}
+      {activeTab === 'beverage' && (
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {filteredBeverages.map((bev) => (
+            <div key={bev.id} className="bg-stone-900 border border-stone-800 rounded-2xl p-5 flex flex-col justify-between space-y-4">
+              <div className="space-y-2">
+                <div className="flex items-center justify-between">
+                  <span className="px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/10 border border-amber-500/20 text-amber-400">
+                    {bev.categoryName}
+                  </span>
+                  <span className="text-[11px] text-amber-400 font-bold">{bev.price}</span>
+                </div>
+
+                <h3 className="text-lg font-bold text-stone-100">{bev.name}</h3>
+                <p className="text-xs text-stone-300 font-medium">{bev.producer} · {bev.region}, {bev.origin}</p>
+                
+                {bev.flavorProfile && (
+                  <p className="text-xs text-stone-400 leading-relaxed line-clamp-2">{bev.flavorProfile}</p>
+                )}
+              </div>
+
+              <div className="pt-3 border-t border-stone-800/80 flex items-center justify-between">
+                <button
+                  onClick={() => setQuizItem({ item: bev, type: 'beverage' })}
+                  className="w-full py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-950 text-xs font-bold flex items-center justify-center gap-2 shadow-md shadow-amber-500/20 transition-all"
+                >
+                  <Play className="w-3.5 h-3.5 fill-current" />
+                  <span>{isEn ? 'Test Questions for Item' : 'Spustit test otázek k položce'}</span>
+                </button>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+
+      {/* Quiz Modal */}
+      {quizItem && (
         <ItemQuizModal
-          item={activeQuizItem.item}
-          itemType={activeQuizItem.type}
-          allTerms={activeCulinaryTerms}
-          allBeverages={activeBeverageItems}
+          item={quizItem.item}
+          itemType={quizItem.type}
+          allTerms={culinaryData}
+          allBeverages={beverageData}
           language={language}
-          onClose={() => setActiveQuizItem(null)}
+          onClose={() => setQuizItem(null)}
         />
       )}
     </div>

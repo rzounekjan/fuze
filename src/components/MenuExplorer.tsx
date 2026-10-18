@@ -1,13 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useMemo } from 'react';
+import { Compass, Search, ChevronRight, Play, CheckCircle2, BookOpen } from 'lucide-react';
 import { MenuCategory, MenuItem } from '../data/menuData';
-import { Search, Play, HelpCircle, Utensils, CheckCircle2, ChevronRight, Tag } from 'lucide-react';
-import { AudioPronounceButton } from './AudioPronounceButton';
 
 interface MenuExplorerProps {
   categories: MenuCategory[];
   onStartQuiz: (cat: MenuCategory, item: MenuItem) => void;
-  onNavigateToLibraryItem?: (item: MenuItem) => void;
-  masteredIds: string[];
+  onNavigateToLibraryItem: (item: MenuItem) => void;
+  masteredIds?: string[];
   language?: 'cs' | 'en';
 }
 
@@ -15,244 +14,127 @@ export const MenuExplorer: React.FC<MenuExplorerProps> = ({
   categories,
   onStartQuiz,
   onNavigateToLibraryItem,
-  masteredIds,
-  language = 'cs'
+  masteredIds = [],
+  language = 'cs',
 }) => {
-  const [search, setSearch] = useState(() => {
-    try {
-      return sessionStorage.getItem('fuze_catalog_search') || '';
-    } catch (e) {
-      return '';
-    }
-  });
-  const [selectedCatId, setSelectedCatId] = useState<string>(() => {
-    try {
-      return sessionStorage.getItem('fuze_catalog_cat') || 'all';
-    } catch (e) {
-      return 'all';
-    }
-  });
+  const isEn = language === 'en';
+  const [search, setSearch] = useState('');
+  const [selectedCatId, setSelectedCatId] = useState<string>('all');
 
-  useEffect(() => {
-    try {
-      sessionStorage.setItem('fuze_catalog_search', search);
-      sessionStorage.setItem('fuze_catalog_cat', selectedCatId);
-    } catch (e) {}
-  }, [search, selectedCatId]);
+  const filteredCategories = useMemo(() => {
+    return categories.filter(cat => {
+      if (selectedCatId !== 'all' && cat.id !== selectedCatId) return false;
+      if (!search.trim()) return true;
 
-  const filteredItems = categories.flatMap(cat => {
-    if (selectedCatId !== 'all' && cat.id !== selectedCatId) return [];
-    return cat.items
-      .filter(item => {
-        const q = search.toLowerCase();
-        return (
-          item.name.toLowerCase().includes(q) ||
-          item.description.toLowerCase().includes(q)
-        );
-      })
-      .map(item => ({ item, category: cat }));
-  });
+      const term = search.toLowerCase();
+      return (
+        cat.name.toLowerCase().includes(term) ||
+        cat.items.some(it => 
+          it.name.toLowerCase().includes(term) || 
+          it.description.toLowerCase().includes(term)
+        )
+      );
+    });
+  }, [categories, selectedCatId, search]);
 
   return (
-    <div className="space-y-4 sm:space-y-6">
-      {/* Header */}
-      <div className="rounded-2xl bg-stone-900 border border-stone-800 p-4 sm:p-6 md:p-8">
-        <div className="max-w-2xl">
-          <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-amber-500/10 text-amber-400 border border-amber-500/20 text-xs font-semibold mb-2">
-            <Utensils className="w-3.5 h-3.5" />
-            <span>{language === 'en' ? 'Official Menu Catalog' : 'Katalog menu dle lístků'}</span>
-          </div>
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold font-serif text-stone-100 mb-2">
-            {language === 'en' ? 'Official FUZE Restaurant Menu' : 'Oficiální lístek restaurace FUZE'}
+    <div className="space-y-6">
+      
+      {/* Search Header */}
+      <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4 bg-stone-900/80 p-5 rounded-2xl border border-stone-800">
+        <div>
+          <h2 className="text-xl font-black text-stone-100 flex items-center gap-2">
+            <Compass className="w-5 h-5 text-amber-500" />
+            {isEn ? 'Menu Catalog' : 'Katalog menu FUZE'}
           </h2>
-          <p className="text-xs sm:text-sm text-stone-300 leading-relaxed">
-            {language === 'en'
-              ? 'Menu items and recipes exactly according to official FUZE menus. Listen to authentic English pronunciation or launch quiz tests for each item.'
-              : 'Položky a jejich oficiální popis přesně dle dodaných lístků. U každé položky můžete ihned spustit výukový test A, B, C.'}
+          <p className="text-xs text-stone-400 mt-1">
+            {isEn ? 'Browse all dishes and beverages with complete recipes and ingredients.' : 'Procházejte všechna jídla a nápoje s podrobnými recepturami.'}
           </p>
         </div>
 
-        {/* Filter & Search */}
-        <div className="mt-4 sm:mt-6 flex flex-col sm:flex-row gap-3">
-          <div className="relative flex-1">
-            <Search className="w-4 h-4 text-stone-400 absolute left-3 top-1/2 -translate-y-1/2" />
-            <input
-              type="text"
-              value={search}
-              onChange={(e) => setSearch(e.target.value)}
-              placeholder={language === 'en' ? 'Filter ingredient, dish, drink, sauce...' : 'Filtrovat ingredienci, pokrm, omáčku...'}
-              className="w-full bg-stone-950 border border-stone-800 rounded-xl pl-9 pr-4 py-2.5 text-xs sm:text-sm text-stone-200 placeholder-stone-500 focus:outline-none focus:border-amber-500 transition-colors"
-            />
-          </div>
-
-          <select
-            value={selectedCatId}
-            onChange={(e) => setSelectedCatId(e.target.value)}
-            className="bg-stone-950 border border-stone-800 text-stone-200 text-xs sm:text-sm rounded-xl px-3 py-2.5 focus:outline-none focus:border-amber-500 transition-colors"
-          >
-            <option value="all">{language === 'en' ? `All categories (${categories.length})` : `Všechny skupiny (${categories.length})`}</option>
-            {categories.map(cat => (
-              <option key={cat.id} value={cat.id}>
-                {cat.name} ({cat.items.length})
-              </option>
-            ))}
-          </select>
+        <div className="relative w-full sm:w-72">
+          <Search className="w-4 h-4 text-stone-500 absolute left-3.5 top-3" />
+          <input
+            type="text"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder={isEn ? 'Search item...' : 'Hledat položku...'}
+            className="w-full pl-10 pr-4 py-2 rounded-xl bg-stone-950 border border-stone-800 text-stone-200 text-xs focus:outline-none focus:border-amber-500"
+          />
         </div>
       </div>
 
-      {/* Item list */}
-      <div>
-        <div className="text-xs font-semibold text-stone-400 uppercase tracking-wider mb-4">
-          {language === 'en' ? `Found ${filteredItems.length} items` : `Nalezeno ${filteredItems.length} podsložek`}
-        </div>
+      {/* Category Pills */}
+      <div className="flex items-center gap-2 overflow-x-auto pb-2 no-scrollbar">
+        <button
+          onClick={() => setSelectedCatId('all')}
+          className={`px-3.5 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-colors ${
+            selectedCatId === 'all'
+              ? 'bg-amber-500 text-stone-950'
+              : 'bg-stone-900 text-stone-400 border border-stone-800 hover:text-stone-200'
+          }`}
+        >
+          {isEn ? 'All Categories' : 'Všechny kategorie'}
+        </button>
 
-        {filteredItems.length === 0 ? (
-          <div className="p-12 text-center bg-stone-900/40 border border-stone-800 rounded-xl text-stone-400 text-sm">
-            {language === 'en' ? 'No items match your search query.' : 'Žádné pokrmy neodpovídají zadanému dotazu.'}
-          </div>
-        ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {filteredItems.map(({ item, category }) => {
-              const isMastered = masteredIds.includes(item.id);
+        {categories.map(cat => (
+          <button
+            key={cat.id}
+            onClick={() => setSelectedCatId(cat.id)}
+            className={`px-3.5 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-colors ${
+              selectedCatId === cat.id
+                ? 'bg-amber-500 text-stone-950'
+                : 'bg-stone-900 text-stone-400 border border-stone-800 hover:text-stone-200'
+            }`}
+          >
+            {cat.name}
+          </button>
+        ))}
+      </div>
 
-              return (
-                <div
-                  key={`${category.id}-${item.id}`}
-                  className="rounded-xl bg-stone-900/80 border border-stone-800 p-5 flex flex-col justify-between hover:border-amber-600/40 transition-all group shadow-sm hover:shadow-lg hover:shadow-amber-950/20"
-                >
+      {/* Items list */}
+      <div className="space-y-6">
+        {filteredCategories.map(cat => (
+          <div key={cat.id} className="space-y-3">
+            <h3 className="text-base font-bold text-amber-500 flex items-center gap-2">
+              <span>{cat.name}</span>
+              <span className="text-xs text-stone-500 font-normal">({cat.items.length})</span>
+            </h3>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {cat.items.map(item => (
+                <div key={item.id} className="bg-stone-900 border border-stone-800 rounded-2xl p-5 space-y-3 flex flex-col justify-between">
                   <div>
-                    {/* Category tag & status */}
-                    <div className="flex items-center justify-between gap-2 mb-2">
-                      <span className="text-[11px] font-bold text-amber-500/90 uppercase tracking-wider">
-                        {category.name}
-                      </span>
-                      {isMastered && (
-                        <span className="text-[11px] font-semibold text-emerald-400 flex items-center gap-1 bg-emerald-950/60 border border-emerald-800/40 px-2 py-0.5 rounded">
-                          <CheckCircle2 className="w-3 h-3" />
-                          {language === 'en' ? 'Mastered' : 'Naučeno'}
+                    <div className="flex items-center justify-between gap-2 mb-1">
+                      <h4 className="text-base font-bold text-stone-100">{item.name}</h4>
+                      {item.price && (
+                        <span className="px-2 py-0.5 rounded text-xs font-bold bg-stone-950 text-amber-400 border border-stone-800">
+                          {item.price}
                         </span>
                       )}
                     </div>
-
-                    <div className="flex items-center justify-between gap-2 mb-1.5">
-                      <h3 className="text-lg sm:text-xl font-bold text-stone-100 group-hover:text-amber-300 transition-colors">
-                        {item.name}
-                      </h3>
-                      <AudioPronounceButton
-                        itemId={`menu-item-${item.id}`}
-                        name={item.name}
-                        description={item.description}
-                        lang={language}
-                        size="sm"
-                        title={language === 'en' ? 'Listen to English pronunciation' : 'Přečíst název a složení česky'}
-                      />
-                    </div>
-
-                    <div className="flex items-center gap-2 flex-wrap text-xs sm:text-sm text-stone-300 mb-2.5 font-medium">
-                      {item.weight && (
-                        <span className="bg-stone-800/90 px-2.5 py-0.5 rounded text-xs sm:text-sm text-stone-200 font-semibold">
-                          {item.weight}
-                        </span>
-                      )}
-                      {item.sweetness && (
-                        <span className="bg-purple-950/60 border border-purple-700/50 px-2.5 py-0.5 rounded text-xs sm:text-sm text-purple-200 font-semibold">
-                          {item.sweetness}
-                        </span>
-                      )}
-                      {item.price && (() => {
-                        if (item.price.includes('/')) return (
-                          <span className="text-amber-400 font-bold text-xs sm:text-sm">
-                            {item.price}
-                          </span>
-                        );
-                        const isGlassWine = category.id === 'vina-po-skle';
-                        const isBottleWine = category.id === 'vina-bile' || category.id === 'bubliny';
-                        const itemNameLower = item.name.toLowerCase();
-
-                        // Find matching counterpart
-                        let matchedCounterpart: { label: string; price: string } | null = null;
-                        if (isGlassWine) {
-                          const bottleCat = categories.find(c => c.id === 'vina-bile');
-                          const bublinyCat = categories.find(c => c.id === 'bubliny');
-                          if (itemNameLower.includes('pálava') || itemNameLower.includes('palava')) {
-                            const match = bottleCat?.items.find(b => b.name.toLowerCase().includes('pálava') || b.name.toLowerCase().includes('palava'));
-                            if (match && match.price) matchedCounterpart = { label: language === 'en' ? 'bottle' : 'láhev', price: match.price };
-                          } else if (itemNameLower.includes('chardonnay')) {
-                            const match = bottleCat?.items.find(b => b.name.toLowerCase().includes('chardonnay'));
-                            if (match && match.price) matchedCounterpart = { label: language === 'en' ? 'bottle' : 'láhev', price: match.price };
-                          } else if (itemNameLower.includes('cremant') || itemNameLower.includes('crémant')) {
-                            const match = bublinyCat?.items.find(b => b.name.toLowerCase().includes('cremant') || b.name.toLowerCase().includes('crémant'))
-                              || bottleCat?.items.find(b => b.name.toLowerCase().includes('cremant') || b.name.toLowerCase().includes('crémant'));
-                            if (match && match.price) matchedCounterpart = { label: language === 'en' ? 'bottle' : 'láhev', price: match.price };
-                          }
-                        } else if (isBottleWine) {
-                          const glassCat = categories.find(c => c.id === 'vina-po-skle');
-                          if (glassCat) {
-                            if (itemNameLower.includes('pálava') || itemNameLower.includes('palava')) {
-                              const match = glassCat.items.find(g => g.name.toLowerCase().includes('pálava') || g.name.toLowerCase().includes('palava'));
-                              if (match && match.price) matchedCounterpart = { label: language === 'en' ? 'glass' : 'sklenička', price: match.price };
-                            } else if (itemNameLower.includes('chardonnay')) {
-                              const match = glassCat.items.find(g => g.name.toLowerCase().includes('chardonnay'));
-                              if (match && match.price) matchedCounterpart = { label: language === 'en' ? 'glass' : 'sklenička', price: match.price };
-                            } else if (itemNameLower.includes('cremant') || itemNameLower.includes('crémant')) {
-                              const match = glassCat.items.find(g => g.name.toLowerCase().includes('cremant') || g.name.toLowerCase().includes('crémant'));
-                              if (match && match.price) matchedCounterpart = { label: language === 'en' ? 'glass' : 'sklenička', price: match.price };
-                            }
-                          }
-                        }
-
-                        if (matchedCounterpart) {
-                          const currentLabel = isGlassWine 
-                            ? (language === 'en' ? 'glass' : 'sklenička') 
-                            : (language === 'en' ? 'bottle' : 'láhev');
-                          const glassPrice = isGlassWine ? item.price : matchedCounterpart.price;
-                          const bottlePrice = isGlassWine ? matchedCounterpart.price : item.price;
-
-                          return (
-                            <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-amber-500/10 border border-amber-500/30 text-xs sm:text-sm font-bold text-amber-300">
-                              <span className="text-amber-400 font-extrabold">{language === 'en' ? 'glass' : 'sklenička'} ({glassPrice})</span>
-                              <span className="text-stone-500 font-normal">/</span>
-                              <span className="text-stone-300">{language === 'en' ? 'bottle' : 'láhev'} ({bottlePrice})</span>
-                            </span>
-                          );
-                        }
-
-                        return (
-                          <span className="text-amber-400 font-bold text-xs sm:text-sm">
-                            {item.price}
-                          </span>
-                        );
-                      })()}
-                      {item.allergens && item.allergens.length > 0 && (
-                        <span className="text-xs sm:text-sm text-stone-400">
-                          {language === 'en' ? 'Allergens:' : 'Alg:'} {item.allergens.join('/')}
-                        </span>
-                      )}
-                    </div>
-
-                    <p className="text-sm sm:text-base text-stone-200 italic mb-3 leading-relaxed font-normal">
-                      "{item.description}"
-                    </p>
+                    <p className="text-xs text-stone-400 leading-relaxed">{item.description}</p>
+                    {item.notes && (
+                      <p className="text-[11px] text-amber-400/80 mt-2 bg-amber-500/5 p-2 rounded-lg border border-amber-500/10">
+                        💡 {item.notes}
+                      </p>
+                    )}
                   </div>
 
-                  <div className="pt-3 border-t border-stone-800/80 flex items-center justify-between gap-3">
-                    <span className="text-xs sm:text-sm text-stone-400 font-medium">
-                      {item.questions.length} {language === 'en' ? 'questions' : 'otázky A, B, C'}
-                    </span>
-
+                  <div className="pt-3 border-t border-stone-800 flex items-center justify-between">
                     <button
-                      onClick={() => onStartQuiz(category, item)}
-                      className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-amber-600 hover:bg-amber-500 text-stone-950 font-bold text-xs transition-colors shadow-sm"
+                      onClick={() => onStartQuiz(cat, item)}
+                      className="px-3 py-1.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-stone-950 text-xs font-bold flex items-center gap-1.5 transition-colors"
                     >
                       <Play className="w-3.5 h-3.5 fill-current" />
-                      <span>{language === 'en' ? 'Practice' : 'Testovat'}</span>
+                      <span>{isEn ? 'Test item' : 'Vyzkoušet jídlo'}</span>
                     </button>
                   </div>
                 </div>
-              );
-            })}
+              ))}
+            </div>
           </div>
-        )}
+        ))}
       </div>
     </div>
   );
