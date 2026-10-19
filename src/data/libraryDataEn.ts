@@ -16,20 +16,20 @@ export const CULINARY_TERMS_EN: CulinaryTerm[] = [
     "category": "world_flavors",
     "categoryName": "Wine Stories & Cuvées",
     "origin": "Moravia, Velkopavlovická sub-region, Velké Bílovice (Bílkovi Winery)",
-    "shortDescription": "The story of two family cuvées from Bílkovi Winery in Velké Bílovice. Red Nina Cuvée (Merlot & Frankovka) was created by winemaker František Bílek in tribute to his daughter Nina, while the partner cuvée Maxmilián (Pinot Noir & Merlot) honors his son Maxmilián.",
+    "shortDescription": "The story of two family cuvées from Bílkovi Winery in Velké Bílovice. Red Nina Cuvée (Merlot & Frankovka) was created by winemaker František Bílek in tribute to his daughter Nina, while the partner cuvée Maxmilian (Pinot Noir & Merlot) honors his son Maxmilian.",
     "ingredients": [
       "Nina Cuvée: Merlot & Blaufränkisch (matured 14 months in oak barrels)",
-      "Maxmilián Cuvée: Pinot Noir & Merlot (matured 14–16 months in oak barrels)",
+      "Maxmilian Cuvée: Pinot Noir & Merlot (matured 14–16 months in oak barrels)",
       "100% estate-grown grapes from Velké Bílovice",
       "French and Moravian oak barriques"
     ],
-    "flavorProfile": "Nina Cuvée presents a deep ruby hue, intense blackberries, blackcurrant, dark chocolate, roasted coffee, and vanilla with velvety tannins. Maxmilián boasts Pinot Noir elegance with ripe cherries, subtle smoke, and plums.",
+    "flavorProfile": "Nina Cuvée presents a deep ruby hue, intense blackberries, blackcurrant, dark chocolate, roasted coffee, and vanilla with velvety tannins. Maxmilian boasts Pinot Noir elegance with ripe cherries, subtle smoke, and plums.",
     "culinaryUsage": "At FUZE, it pairs wonderfully with beef steaks, braised cheeks, venison, roasted duck, and mature hard cheeses.",
     "fuzeMenuAppearances": [
       "FUZE Wine List (Nina Cuvée Bílkovi 0.75L)",
       "Recommended pairing for premium red meats"
     ],
-    "staffTips": "How Nina Cuvée originated: Created by František Bílek as a celebration and tribute to his daughter Nina, blending silky Merlot with structured Blaufränkisch aged 14 months in oak. How Maxmilián originated: Created in honor of his son Maxmilián blending Pinot Noir with Merlot aged up to 16 months in oak. Both cuvées celebrate family heritage in Velké Bílovice.",
+    "staffTips": "How Nina Cuvée originated: Created by František Bílek as a celebration and tribute to his daughter Nina, blending silky Merlot with structured Blaufränkisch aged 14 months in oak. How Maxmilian originated: Created in honor of his son Maxmilian blending Pinot Noir with Merlot aged up to 16 months in oak. Both cuvées celebrate family heritage in Velké Bílovice.",
     "tags": [
       "nina",
       "cuvee",

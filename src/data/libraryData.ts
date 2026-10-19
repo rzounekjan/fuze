@@ -47,24 +47,24 @@ export const CULINARY_TERMS: CulinaryTerm[] = [
   {
     "id": "nina-cuvee",
     "name": "Nina Cuvée",
-    "originalTerm": "Nina Cuvée & Maxmilián Cuvée – Vinařství Bílkovi (Velké Bílovice)",
+    "originalTerm": "Nina Cuvée & Maxmilian Cuvée – Vinařství Bílkovi (Velké Bílovice)",
     "category": "world_flavors",
     "categoryName": "Příběhy vín a cuvée",
     "origin": "Morava, Velkopavlovická vinařská podoblast, Velké Bílovice (Vinařství Bílkovi)",
-    "shortDescription": "Ikonické rodinné cuvée z rodinného vinařství Bílkovi ve Velkých Bílovicích. Červené Nina Cuvée (Merlot a Frankovka) bylo stvořeno vinařem Františkem Bílkem jako pocta a věnování své milované dceři Nině, zatímco partnerské prestižní cuvée Maxmilián (Rulandské modré a Merlot) nese jméno jeho syna Maxmiliána.",
+    "shortDescription": "Ikonické rodinné cuvée z rodinného vinařství Bílkovi ve Velkých Bílovicích. Červené Nina Cuvée (Merlot a Frankovka) bylo stvořeno vinařem Františkem Bílkem jako pocta a věnování své milované dceři Nině, zatímco partnerské prestižní cuvée Maxmilian (Rulandské modré a Merlot) nese jméno jeho syna Maxmiliana.",
     "ingredients": [
       "Nina Cuvée: harmonická kupáž Merlot a Frankovka (Blaufränkisch)",
-      "Maxmilián Cuvée: noblesní kupáž Rulandské modré (Pinot Noir) a Merlot",
+      "Maxmilian Cuvée: noblesní kupáž Rulandské modré (Pinot Noir) a Merlot",
       "Zrání: 14 až 16 měsíců v prémiových francouzských a moravských dubových sudech",
       "Původ: výhradně vlastní vinice rodiny Bílkových ve Velkých Bílovicích"
     ],
-    "flavorProfile": "Nina Cuvée nabízí sytě rubínovou barvu, intenzivní aroma černého rybízu, zralých ostružin, hořké čokolády, pražené kávy a vanilky se sametovými tříslovinami. Maxmilián vyniká burgundskou elegancí Pinot Noir, tóny zralých višní, lesního ovoce, kouře a jemného koření.",
+    "flavorProfile": "Nina Cuvée nabízí sytě rubínovou barvu, intenzivní aroma černého rybízu, zralých ostružin, hořké čokolády, pražené kávy a vanilky se sametovými tříslovinami. Maxmilian vyniká burgundskou elegancí Pinot Noir, tóny zralých višní, lesního ovoce, kouře a jemného koření.",
     "culinaryUsage": "V restauraci FUZE se doporučuje podávat k hovězím steakům, pomalu taženému líčku na červeném víně, zvěřině, pečenému kachnímu masu a vyzrálým sýrům.",
     "fuzeMenuAppearances": [
       "Vinný lístek FUZE (Nina Cuvée Bílkovi 0,75l)",
       "Doporučené párování k prémiovým červeným masům a sýrovému prkénku"
     ],
-    "staffTips": "Jak vzniklo víno Nina Cuvée:\nRodinné vinařství Bílkovi z Velkých Bílovic vytvořilo toto speciální červené víno jako projev hluboké rodinné lásky a hrdosti k dceři Nině. Vinař František Bílek v něm mistrovsky zkomponoval dvě odrůdy – mezinárodní odrůdu Merlot (pro její sametovou hebkost, plnost a tóny čokolády a švestek) s tradiční moravskou Frankovkou (která dodává nezaměnitelnou pikantní kořenitost, svěžest a pevnou strukturu kyselin). Víno zraje 14 měsíců v dubových sudech a ztělesňuje jemnost i charakter dcery Niny.\n\nJak vzniklo víno Maxmilián:\nPartnerské exkluzivní cuvée vytvořil František Bílek na počest svého syna Maxmiliána (bratra Niny). Jako základ zvolil královskou burgundskou odrůdu Rulandské modré (Pinot Noir) spojenou se šťavnatým Merlotem. Obě vína tvoří klenoty vinařství a symbolizují předávání rodinného řemesla a lásky k vinohradu nové generaci. Zajímavostí je, že malý Maxmilián a Nina později pro své rodiče sami namalovali dětské kresby, které se staly slavnými etiketami speciálních rodinných edic (např. edice Pikasso Max a Nina Da Vinči).",
+    "staffTips": "Jak vzniklo víno Nina Cuvée:\nRodinné vinařství Bílkovi z Velkých Bílovic vytvořilo toto speciální červené víno jako projev hluboké rodinné lásky a hrdosti k dceři Nině. Vinař František Bílek v něm mistrovsky zkomponoval dvě odrůdy – mezinárodní odrůdu Merlot (pro její sametovou hebkost, plnost a tóny čokolády a švestek) s tradiční moravskou Frankovkou (která dodává nezaměnitelnou pikantní kořenitost, svěžest a pevnou strukturu kyselin). Víno zraje 14 měsíců v dubových sudech a ztělesňuje jemnost i charakter dcery Niny.\n\nJak vzniklo víno Maxmilian:\nPartnerské exkluzivní cuvée vytvořil František Bílek na počest svého syna Maxmiliana (bratra Niny). Jako základ zvolil královskou burgundskou odrůdu Rulandské modré (Pinot Noir) spojenou se šťavnatým Merlotem. Obě vína tvoří klenoty vinařství a symbolizují předávání rodinného řemesla a lásky k vinohradu nové generaci. Zajímavostí je, že malý Maxmilian a Nina později pro své rodiče sami namalovali dětské kresby, které se staly slavnými etiketami speciálních rodinných edic (např. edice Pikasso Max a Nina Da Vinči).",
     "tags": [
       "nina",
       "cuvee",
