@@ -4,11 +4,14 @@ import { MENU_CATEGORIES_EN } from '../data/menuDataEn';
 export interface UserStats {
   totalAnswered: number;
   correctCount: number;
+  totalQuestionsAnswered?: number;
+  correctAnswers?: number;
   currentStreak: number;
   bestStreak: number;
   masteredItemIds: string[];
   masteredQuestionIds: string[];
   mistakeQuestionIds: string[];
+  categoryStats?: Record<string, { total: number; correct: number }>;
 }
 
 export type AppLanguage = 'cs' | 'en';
@@ -70,14 +73,20 @@ export function getStoredStats(lang: AppLanguage = 'cs'): UserStats {
       // Filter to unique valid item IDs
       const uniqueValidItemIds = Array.from(new Set(masteredItemIds)).filter(id => ALL_ITEM_IDS_SET.has(id));
 
+      const totalAnswered = Number(parsed.totalAnswered) || 0;
+      const correctCount = Number(parsed.correctCount) || 0;
+
       return {
-        totalAnswered: Number(parsed.totalAnswered) || 0,
-        correctCount: Number(parsed.correctCount) || 0,
+        totalAnswered,
+        correctCount,
+        totalQuestionsAnswered: totalAnswered,
+        correctAnswers: correctCount,
         currentStreak: Number(parsed.currentStreak) || 0,
         bestStreak: Number(parsed.bestStreak) || 0,
         masteredItemIds: uniqueValidItemIds,
         masteredQuestionIds,
-        mistakeQuestionIds: Array.isArray(parsed.mistakeQuestionIds) ? parsed.mistakeQuestionIds : []
+        mistakeQuestionIds: Array.isArray(parsed.mistakeQuestionIds) ? parsed.mistakeQuestionIds : [],
+        categoryStats: parsed.categoryStats || {}
       };
     }
   } catch {
@@ -86,11 +95,14 @@ export function getStoredStats(lang: AppLanguage = 'cs'): UserStats {
   return {
     totalAnswered: 0,
     correctCount: 0,
+    totalQuestionsAnswered: 0,
+    correctAnswers: 0,
     currentStreak: 0,
     bestStreak: 0,
     masteredItemIds: [],
     masteredQuestionIds: [],
-    mistakeQuestionIds: []
+    mistakeQuestionIds: [],
+    categoryStats: {}
   };
 }
 

@@ -134,6 +134,16 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
                     <strong className="text-amber-400">Chuťový profil:</strong> {term.flavorProfile}
                   </p>
                 )}
+
+                {term.staffTips && (
+                  <div className="text-[11px] text-amber-200/90 bg-amber-500/10 p-3 rounded-xl border border-amber-500/20 space-y-1.5 mt-2">
+                    <p className="font-bold text-amber-400 flex items-center gap-1.5 text-xs">
+                      <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+                      {isEn ? 'History & Story / Tips' : 'Historie vzniku & Příběh'}
+                    </p>
+                    <p className="text-stone-300 leading-relaxed whitespace-pre-line text-[11px]">{term.staffTips}</p>
+                  </div>
+                )}
               </div>
 
               <div className="pt-3 border-t border-stone-800/80 flex items-center justify-between">
@@ -168,6 +178,16 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
                 
                 {bev.flavorProfile && (
                   <p className="text-xs text-stone-400 leading-relaxed line-clamp-2">{bev.flavorProfile}</p>
+                )}
+
+                {bev.staffNotes && (
+                  <div className="text-[11px] text-amber-200/90 bg-amber-500/10 p-2.5 rounded-xl border border-amber-500/20 space-y-0.5 mt-2">
+                    <p className="font-bold text-amber-400 text-[11px] flex items-center gap-1">
+                      <Sparkles className="w-3 h-3 text-amber-400" />
+                      {isEn ? 'Notes & Story' : 'Poznámka sommeliera & Příběh'}
+                    </p>
+                    <p className="text-stone-300 leading-relaxed text-[11px]">{bev.staffNotes}</p>
+                  </div>
                 )}
               </div>
 

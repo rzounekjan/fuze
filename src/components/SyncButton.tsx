@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Cloud, CloudCheck, RefreshCw, Smartphone, Laptop } from 'lucide-react';
+import { Cloud, RefreshCw, Smartphone, Laptop } from 'lucide-react';
 import { syncService, SyncState } from '../utils/syncService';
 
 interface SyncButtonProps {

@@ -44,8 +44,10 @@ export const Header: React.FC<HeaderProps> = ({
   onOpenAudioStudio,
 }) => {
   const isEn = language === 'en';
-  const percentage = stats.totalQuestionsAnswered > 0 
-    ? Math.round((stats.correctAnswers / stats.totalQuestionsAnswered) * 100) 
+  const total = stats.totalAnswered ?? stats.totalQuestionsAnswered ?? 0;
+  const correct = stats.correctCount ?? stats.correctAnswers ?? 0;
+  const percentage = total > 0 
+    ? Math.round((correct / total) * 100) 
     : 0;
 
   return (
@@ -94,7 +96,7 @@ export const Header: React.FC<HeaderProps> = ({
                   {isEn ? 'Answers' : 'Správně / Celkem'}
                 </p>
                 <p className="text-sm font-bold text-stone-200">
-                  {stats.correctAnswers} / {stats.totalQuestionsAnswered}
+                  {correct} / {total}
                 </p>
               </div>
             </div>

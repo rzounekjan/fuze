@@ -46,6 +46,44 @@ export { CULINARY_TERMS_EN, BEVERAGE_ITEMS_EN } from './libraryDataEn';
 
 export const CULINARY_TERMS: CulinaryTerm[] = [
   {
+    "id": "nina-cuvee",
+    "name": "Nina Cuvée",
+    "originalTerm": "Nina Cuvée & Maxmilián Cuvée – Vinařství Bílkovi (Velké Bílovice)",
+    "category": "world_flavors",
+    "categoryName": "Příběhy vín a cuvée",
+    "origin": "Morava, Velkopavlovická vinařská podoblast, Velké Bílovice (Vinařství Bílkovi)",
+    "shortDescription": "Ikonické rodinné cuvée z rodinného vinařství Bílkovi ve Velkých Bílovicích. Červené Nina Cuvée (Merlot a Frankovka) bylo stvořeno vinařem Františkem Bílkem jako pocta a věnování své milované dceři Nině, zatímco partnerské prestižní cuvée Maxmilián (Rulandské modré a Merlot) nese jméno jeho syna Maxmiliána.",
+    "ingredients": [
+      "Nina Cuvée: harmonická kupáž Merlot a Frankovka (Blaufränkisch)",
+      "Maxmilián Cuvée: noblesní kupáž Rulandské modré (Pinot Noir) a Merlot",
+      "Zrání: 14 až 16 měsíců v prémiových francouzských a moravských dubových sudech",
+      "Původ: výhradně vlastní vinice rodiny Bílkových ve Velkých Bílovicích"
+    ],
+    "flavorProfile": "Nina Cuvée nabízí sytě rubínovou barvu, intenzivní aroma černého rybízu, zralých ostružin, hořké čokolády, pražené kávy a vanilky se sametovými tříslovinami. Maxmilián vyniká burgundskou elegancí Pinot Noir, tóny zralých višní, lesního ovoce, kouře a jemného koření.",
+    "culinaryUsage": "V restauraci FUZE se doporučuje podávat k hovězím steakům, pomalu taženému líčku na červeném víně, zvěřině, pečenému kachnímu masu a vyzrálým sýrům.",
+    "fuzeMenuAppearances": [
+      "Vinný lístek FUZE (Nina Cuvée Bílkovi 0,75l)",
+      "Doporučené párování k prémiovým červeným masům a sýrovému prkénku"
+    ],
+    "staffTips": "Jak vzniklo víno Nina Cuvée:\nRodinné vinařství Bílkovi z Velkých Bílovic vytvořilo toto speciální červené víno jako projev hluboké rodinné lásky a hrdosti k dceři Nině. Vinař František Bílek v něm mistrovsky zkomponoval dvě odrůdy – mezinárodní odrůdu Merlot (pro její sametovou hebkost, plnost a tóny čokolády a švestek) s tradiční moravskou Frankovkou (která dodává nezaměnitelnou pikantní kořenitost, svěžest a pevnou strukturu kyselin). Víno zraje 14 měsíců v dubových sudech a ztělesňuje jemnost i charakter dcery Niny.\n\nJak vzniklo víno Maxmilián:\nPartnerské exkluzivní cuvée vytvořil František Bílek na počest svého syna Maxmiliána (bratra Niny). Jako základ zvolil královskou burgundskou odrůdu Rulandské modré (Pinot Noir) spojenou se šťavnatým Merlotem. Obě vína tvoří klenoty vinařství a symbolizují předávání rodinného řemesla a lásky k vinohradu nové generaci. Zajímavostí je, že malý Maxmilián a Nina později pro své rodiče sami namalovali dětské kresby, které se staly slavnými etiketami speciálních rodinných edic (např. edice Pikasso Max a Nina Da Vinči).",
+    "tags": [
+      "nina",
+      "cuvee",
+      "nina cuvee",
+      "maxmilian",
+      "maxmilián",
+      "bilkovi",
+      "bílkovi",
+      "velké bílovice",
+      "víno",
+      "merlot",
+      "frankovka",
+      "rulandské modré",
+      "historie",
+      "vinařství bílkovi"
+    ]
+  },
+  {
     "id": "parmazan",
     "name": "Parmazán (Parmigiano Reggiano DOP)",
     "originalTerm": "Parmigiano Reggiano DOP (Italia)",
@@ -1288,6 +1326,33 @@ export const BEVERAGE_ITEMS: BeverageItem[] = [
       "Dornfelder",
       "Morava",
       "Bílkovi"
+    ]
+  },
+  {
+    "id": "cervene-nina-cuvee-bilkovi",
+    "name": "Nina Cuvée Bílkovi",
+    "category": "wine_red",
+    "categoryName": "Červená vína",
+    "producer": "Vinařství Bílkovi",
+    "origin": "Česká republika",
+    "region": "Morava, Velkopavlovická podoblast, Velké Bílovice",
+    "volume": "0,75l",
+    "abv": "13,0 % obj.",
+    "price": "699 Kč",
+    "rawIngredients": "Kupáž odrůd Merlot a Frankovka (Blaufränkisch) z vlastních vinic.",
+    "productionProcess": "Společná macerace a kvašení na rmutu s následným 14měsíčním zráním ve francouzských a moravských dubových sudech.",
+    "flavorProfile": "Sytá rubínová barva s granátovými odlesky. Vůně černého rybízu, pražené kávy, ostružin a vanilky. Chuť je plná, se sametovými tříslovinami, hořkou čokoládou a zralými višněmi.",
+    "foodPairing": "Výtečné k hovězím steakům, zvěřině, pečeným masům a vyzrálým sýrům.",
+    "staffNotes": "Exkluzivní rodinné cuvée věnované dceři Nině vinařem Františkem Bílkem. Skvělá harmonie jemného Merlotu a kořenité moravské Frankovky.",
+    "tags": [
+      "víno",
+      "červené víno",
+      "Nina Cuvée",
+      "Merlot",
+      "Frankovka",
+      "Bílkovi",
+      "Velkopavlovicko",
+      "Morava"
     ]
   },
   {

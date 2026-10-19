@@ -7,7 +7,7 @@ import {
   serverTimestamp
 } from 'firebase/firestore';
 import { db, auth } from '../firebase';
-import { EMBEDDED_AUDIO_TRACKS, AudioTrackInfo } from '../data/audioManifest';
+import { EMBEDDED_AUDIO_TRACKS, EmbeddedAudioTrack } from '../data/audioManifest';
 import { speechManager } from './speech';
 
 export interface SharedAudioRecording {
@@ -395,13 +395,13 @@ class SharedAudioService {
     }> = [];
 
     // Add embedded tracks
-    for (const [id, track] of Object.entries(EMBEDDED_AUDIO_TRACKS)) {
-      const custom = this.customRecordings[id];
+    for (const track of EMBEDDED_AUDIO_TRACKS) {
+      const custom = this.customRecordings[track.id];
       if (custom) {
         list.push({
-          id,
-          name: custom.name || track.name,
-          categoryName: track.categoryName || 'Kategorie',
+          id: track.id,
+          name: custom.name || track.title,
+          categoryName: track.category || 'Kategorie',
           source: 'custom',
           author: custom.recordedBy,
           audioData: custom.audioData,
@@ -409,19 +409,20 @@ class SharedAudioService {
         });
       } else {
         list.push({
-          id,
-          name: track.name,
-          categoryName: track.categoryName || 'Kategorie',
+          id: track.id,
+          name: track.title,
+          categoryName: track.category || 'Kategorie',
           source: 'embedded',
           author: 'Přednahrané audio Fuze',
-          audioUrl: track.audioUrl
+          audioUrl: track.url
         });
       }
     }
 
     // Add any custom recordings that weren't in embedded tracks
+    const embeddedIds = new Set(EMBEDDED_AUDIO_TRACKS.map(t => t.id));
     for (const [id, custom] of Object.entries(this.customRecordings)) {
-      if (!EMBEDDED_AUDIO_TRACKS[id]) {
+      if (!embeddedIds.has(id)) {
         list.push({
           id,
           name: custom.name,

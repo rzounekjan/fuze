@@ -93,7 +93,7 @@ export const CategorySelector: React.FC<CategorySelectorProps> = ({
       {/* Categories Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {filteredCategories.map((cat) => {
-          const catStat = stats.categoryStats[cat.id] || { total: 0, correct: 0 };
+          const catStat = stats.categoryStats?.[cat.id] || { total: 0, correct: 0 };
           const percent = catStat.total > 0 ? Math.round((catStat.correct / catStat.total) * 100) : 0;
 
           return (
