@@ -22,23 +22,39 @@ const ALL_ITEMS_MAP: Record<string, MenuItem> = {};
 const ALL_ITEM_IDS_SET = new Set<string>();
 
 MENU_CATEGORIES.forEach(cat => {
-  cat.items.forEach(item => {
-    ALL_ITEM_IDS_SET.add(item.id);
-    ALL_ITEMS_MAP[item.id] = item;
-    item.questions.forEach(q => {
-      QUESTION_TO_ITEM_MAP[q.id] = item.id;
+  if (Array.isArray(cat?.items)) {
+    cat.items.forEach(item => {
+      if (item && item.id) {
+        ALL_ITEM_IDS_SET.add(item.id);
+        ALL_ITEMS_MAP[item.id] = item;
+        if (Array.isArray(item.questions)) {
+          item.questions.forEach(q => {
+            if (q && q.id) {
+              QUESTION_TO_ITEM_MAP[q.id] = item.id;
+            }
+          });
+        }
+      }
     });
-  });
+  }
 });
 
 MENU_CATEGORIES_EN.forEach(cat => {
-  cat.items.forEach(item => {
-    ALL_ITEM_IDS_SET.add(item.id);
-    ALL_ITEMS_MAP[item.id] = item;
-    item.questions.forEach(q => {
-      QUESTION_TO_ITEM_MAP[q.id] = item.id;
+  if (Array.isArray(cat?.items)) {
+    cat.items.forEach(item => {
+      if (item && item.id) {
+        ALL_ITEM_IDS_SET.add(item.id);
+        ALL_ITEMS_MAP[item.id] = item;
+        if (Array.isArray(item.questions)) {
+          item.questions.forEach(q => {
+            if (q && q.id) {
+              QUESTION_TO_ITEM_MAP[q.id] = item.id;
+            }
+          });
+        }
+      }
     });
-  });
+  }
 });
 
 export function getStatsKey(lang: AppLanguage = 'cs'): string {
@@ -61,7 +77,7 @@ export function getStoredStats(lang: AppLanguage = 'cs'): UserStats {
       // Check all items: if all questions for an item are mastered, ensure the item is in masteredItemIds
       for (const itemId of ALL_ITEM_IDS_SET) {
         const item = ALL_ITEMS_MAP[itemId];
-        if (item && item.questions.length > 0) {
+        if (item && Array.isArray(item.questions) && item.questions.length > 0) {
           if (item.questions.every(q => masteredQuestionIds.includes(q.id))) {
             if (!masteredItemIds.includes(itemId)) {
               masteredItemIds.push(itemId);
@@ -129,7 +145,7 @@ export function mergeUserStats(local: UserStats, remote?: Partial<UserStats> | n
 
   for (const itemId of ALL_ITEM_IDS_SET) {
     const item = ALL_ITEMS_MAP[itemId];
-    if (item && item.questions.length > 0) {
+    if (item && Array.isArray(item.questions) && item.questions.length > 0) {
       if (item.questions.every(q => mergedMasteredQuestionIds.includes(q.id))) {
         mergedMasteredItemIds.add(itemId);
       }
@@ -219,7 +235,8 @@ export function recordAnswer(questionId: string, itemId: string, isCorrect: bool
     if (resolvedItemId) {
       const parentItem = ALL_ITEMS_MAP[resolvedItemId];
       if (parentItem) {
-        const allQuestionsMastered = parentItem.questions.length === 0 || parentItem.questions.every(q => stats.masteredQuestionIds.includes(q.id));
+        const questions = Array.isArray(parentItem.questions) ? parentItem.questions : [];
+        const allQuestionsMastered = questions.length === 0 || questions.every(q => stats.masteredQuestionIds.includes(q.id));
         if (allQuestionsMastered && !stats.masteredItemIds.includes(resolvedItemId)) {
           stats.masteredItemIds.push(resolvedItemId);
         }

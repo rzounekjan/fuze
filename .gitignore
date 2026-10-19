@@ -11,3 +11,4 @@ page_*.jpg
 transcription_*.txt
 doc_*.json
 bun.lock
+dev-dist/

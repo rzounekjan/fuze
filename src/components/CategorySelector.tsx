@@ -1,31 +1,46 @@
-import React, { useState, useMemo } from 'react';
-import { 
-  Utensils, 
-  Beer, 
-  Wine, 
-  Flame, 
-  Sparkles, 
-  Soup, 
-  Salad, 
-  Cake, 
-  ChevronRight, 
-  Search,
-  CheckCircle2,
-  BookOpen,
-  Award,
-  Layers
-} from 'lucide-react';
+import React, { useEffect } from 'react';
 import { MenuCategory } from '../data/menuData';
 import { UserStats } from '../utils/storage';
+import { AudioPronounceButton } from './AudioPronounceButton';
+import { 
+  Utensils, Flame, Soup, Salad, CookingPot, 
+  FlameKindling, Droplet, Wheat, Cake, Sparkles, 
+  Beer, Wine, GlassWater, ChevronRight, CheckCircle2,
+  CupSoda, Coffee, Martini, ShieldAlert, AlertCircle,
+  MapPin, LayoutGrid
+} from 'lucide-react';
 
 interface CategorySelectorProps {
   categories: MenuCategory[];
-  onSelectCategory: (cat: MenuCategory) => void;
+  onSelectCategory: (category: MenuCategory) => void;
   stats: UserStats;
-  lastSelectedCategoryId: string | null;
-  onClearLastSelectedCategory: () => void;
-  language: 'cs' | 'en';
+  lastSelectedCategoryId?: string | null;
+  onClearLastSelectedCategory?: () => void;
+  language?: 'cs' | 'en';
 }
+
+const ICON_MAP: Record<string, React.ElementType> = {
+  Utensils,
+  Flame,
+  Soup,
+  Salad,
+  CookingPot,
+  FlameKindling,
+  Droplet,
+  Wheat,
+  Cake,
+  Sparkles,
+  Beer,
+  Wine,
+  GlassWater,
+  CupSoda,
+  Coffee,
+  Martini,
+  ShieldAlert,
+  AlertCircle,
+  MapPin,
+  LayoutGrid
+};
 
 export const CategorySelector: React.FC<CategorySelectorProps> = ({
   categories,
@@ -33,106 +48,169 @@ export const CategorySelector: React.FC<CategorySelectorProps> = ({
   stats,
   lastSelectedCategoryId,
   onClearLastSelectedCategory,
-  language,
+  language = 'cs'
 }) => {
-  const [search, setSearch] = useState('');
-  const isEn = language === 'en';
+  // When returning to the main menu with a previously selected category,
+  // automatically scroll and center the viewport on that category
+  useEffect(() => {
+    if (!lastSelectedCategoryId) return;
 
-  const filteredCategories = useMemo(() => {
-    if (!search.trim()) return categories;
-    const term = search.toLowerCase();
-    return categories.filter(cat => 
-      cat.name.toLowerCase().includes(term) || 
-      cat.description.toLowerCase().includes(term) ||
-      cat.items.some(it => it.name.toLowerCase().includes(term))
-    );
-  }, [categories, search]);
+    const timer = setTimeout(() => {
+      const targetElement = document.getElementById(`category-card-${lastSelectedCategoryId}`);
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+      onClearLastSelectedCategory?.();
+    }, 120);
 
-  const getIcon = (name: string) => {
-    switch (name) {
-      case 'Utensils': return <Utensils className="w-5 h-5 text-amber-400" />;
-      case 'Beer': return <Beer className="w-5 h-5 text-amber-400" />;
-      case 'Wine': return <Wine className="w-5 h-5 text-amber-400" />;
-      case 'Flame': return <Flame className="w-5 h-5 text-amber-400" />;
-      case 'Soup': return <Soup className="w-5 h-5 text-amber-400" />;
-      case 'Salad': return <Salad className="w-5 h-5 text-amber-400" />;
-      case 'Cake': return <Cake className="w-5 h-5 text-amber-400" />;
-      default: return <Sparkles className="w-5 h-5 text-amber-400" />;
-    }
-  };
+    return () => clearTimeout(timer);
+  }, [lastSelectedCategoryId, onClearLastSelectedCategory]);
 
   return (
-    <div className="space-y-6">
-      
-      {/* Search Header */}
-      <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4 bg-stone-900/60 p-4 rounded-2xl border border-stone-800">
-        <div>
-          <h2 className="text-xl font-black text-stone-100 flex items-center gap-2">
-            <Layers className="w-5 h-5 text-amber-500" />
-            {isEn ? 'Select Menu Category' : 'Vyberte kategorii menu'}
+    <div className="space-y-4 sm:space-y-6">
+      {/* Intro Hero Banner */}
+      <div className="rounded-2xl p-4 sm:p-6 md:p-8 bg-gradient-to-br from-stone-900 via-stone-900/90 to-amber-950/30 border border-stone-800 shadow-xl relative overflow-hidden">
+        <div className="absolute -right-8 -top-8 w-64 h-64 bg-amber-500/5 rounded-full blur-3xl pointer-events-none" />
+        
+        <div className="relative z-10 max-w-2xl">
+          <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded-md bg-amber-500/10 border border-amber-500/20 text-amber-300 text-xs font-semibold mb-3">
+            <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse" />
+            1. KROK: Vyberte skupinu pokrmů nebo nápojů
+          </div>
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-stone-100 tracking-tight font-serif mb-2">
+            Interaktivní výuka menu restaurace FUZE
           </h2>
-          <p className="text-xs text-stone-400 mt-1">
-            {isEn 
-              ? 'Train knowledge for each specific food section or beverage list.' 
-              : 'Trénujte znalosti pro jednotlivé sekce jídelního i nápojového lístku.'}
+          <p className="text-sm sm:text-base md:text-lg text-stone-200 leading-relaxed font-normal">
+            Vyberte si kategorii ze stálého či sezónního lístku a následně zvolte konkrétní podsložku (jídlo). V navazujícím testu systému <strong className="text-amber-400 font-bold">A, B, C</strong> prověříte své znalosti přesného složení, ingrediencí a specifik přípravy.
           </p>
-        </div>
-
-        <div className="relative w-full sm:w-72">
-          <Search className="w-4 h-4 text-stone-500 absolute left-3.5 top-3" />
-          <input
-            type="text"
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            placeholder={isEn ? 'Search category or item...' : 'Hledat kategorii nebo jídlo...'}
-            className="w-full pl-10 pr-4 py-2 rounded-xl bg-stone-950 border border-stone-800 text-stone-200 text-xs focus:outline-none focus:border-amber-500 transition-colors"
-          />
         </div>
       </div>
 
-      {/* Categories Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {filteredCategories.map((cat) => {
-          const catStat = stats.categoryStats?.[cat.id] || { total: 0, correct: 0 };
-          const percent = catStat.total > 0 ? Math.round((catStat.correct / catStat.total) * 100) : 0;
+      {/* Grid of categories */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5 sm:gap-4">
+        {categories.map((cat) => {
+          const Icon = ICON_MAP[cat.iconName] || Utensils;
+          const itemsCount = cat.items.length;
+          const totalCatQuestions = cat.items.reduce((acc, it) => acc + it.questions.length, 0);
+          const masteredQuestionsInCat = (stats.masteredQuestionIds || []).filter(qid =>
+            cat.items.some(it => it.questions.some(q => q.id === qid))
+          ).length;
+          const masteredInCat = cat.items.filter(item => {
+            const qCount = item.questions.length;
+            const qMastered = (stats.masteredQuestionIds || []).filter(qid => item.questions.some(q => q.id === qid)).length;
+            return qCount > 0 ? qMastered === qCount : stats.masteredItemIds.includes(item.id);
+          }).length;
+          const progressPercent = totalCatQuestions > 0
+            ? Math.round((masteredQuestionsInCat / totalCatQuestions) * 100)
+            : itemsCount > 0 ? Math.round((masteredInCat / itemsCount) * 100) : 0;
+          const isFullyMastered = itemsCount > 0 && masteredInCat === itemsCount;
+          const isSelected = cat.id === lastSelectedCategoryId;
 
           return (
             <div
               key={cat.id}
+              id={`category-card-${cat.id}`}
+              role="button"
+              tabIndex={0}
               onClick={() => onSelectCategory(cat)}
-              className="group bg-stone-900 border border-stone-800 hover:border-amber-500/50 rounded-2xl p-5 cursor-pointer transition-all hover:shadow-xl hover:shadow-amber-950/20 flex flex-col justify-between"
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  e.preventDefault();
+                  onSelectCategory(cat);
+                }
+              }}
+              className={`group text-left p-5 rounded-xl transition-all duration-300 flex flex-col justify-between relative overflow-hidden scroll-mt-24 cursor-pointer select-none focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 ${
+                isSelected
+                  ? 'bg-stone-900 border-2 border-amber-500 shadow-2xl shadow-amber-950/50 ring-2 ring-amber-500/40'
+                  : 'bg-stone-900/80 hover:bg-stone-800/90 border border-stone-800/90 hover:border-amber-600/50 shadow-md hover:shadow-xl hover:shadow-amber-950/20'
+              }`}
             >
+              {/* Highlight accent bar */}
+              <div
+                className={`absolute top-0 left-0 right-0 h-1 transition-all ${
+                  isSelected
+                    ? 'bg-gradient-to-r from-amber-400 via-amber-500 to-amber-600'
+                    : 'bg-stone-800 group-hover:bg-gradient-to-r group-hover:from-amber-500 group-hover:to-amber-600'
+                }`}
+              />
+
               <div>
-                <div className="flex items-center justify-between mb-3">
-                  <div className="w-10 h-10 rounded-xl bg-stone-950 border border-stone-800 flex items-center justify-center group-hover:scale-105 transition-transform">
-                    {getIcon(cat.iconName)}
+                <div className="flex items-start justify-between gap-3 mb-3">
+                  <div
+                    className={`w-10 h-10 rounded-lg flex items-center justify-center transition-colors ${
+                      isSelected
+                        ? 'bg-amber-500/20 border border-amber-500/40 text-amber-300 shadow-inner'
+                        : 'bg-stone-800 border border-stone-700/60 text-amber-400 group-hover:bg-amber-500/10 group-hover:border-amber-500/30'
+                    }`}
+                  >
+                    <Icon className="w-5 h-5" />
                   </div>
-                  {cat.badge && (
-                    <span className="px-2.5 py-1 rounded-full text-[10px] font-bold bg-amber-500/10 border border-amber-500/20 text-amber-400">
-                      {cat.badge}
-                    </span>
-                  )}
+                  <div className="flex items-center gap-1.5 text-xs flex-wrap justify-end">
+                    {(cat.id === 'plan-stolu' || cat.id === 'rozmisteni-stolu') && (
+                      <span className="inline-flex items-center gap-1 text-[11px] font-bold text-amber-300 bg-amber-500/20 px-2 py-0.5 rounded border border-amber-500/40">
+                        <MapPin className="w-3 h-3 text-amber-400" />
+                        {language === 'en' ? 'Visual Trainer & Rush Drill' : 'Vizuální trenažér & Bleskovka'}
+                      </span>
+                    )}
+                    {isSelected && (
+                      <span className="inline-flex items-center gap-1 text-[11px] font-bold text-amber-300 bg-amber-500/20 px-2 py-0.5 rounded border border-amber-500/40 animate-pulse">
+                        <Sparkles className="w-3 h-3 text-amber-400" />
+                        {language === 'en' ? 'Selected group' : 'Vybraná skupina'}
+                      </span>
+                    )}
+                    {isFullyMastered ? (
+                      <span className="inline-flex items-center gap-1 text-emerald-400 font-semibold bg-emerald-950/50 px-2 py-0.5 rounded border border-emerald-800/40">
+                        <CheckCircle2 className="w-3.5 h-3.5" />
+                        {language === 'en' ? 'Mastered' : 'Zvládnuto'}
+                      </span>
+                    ) : (
+                      <span className="text-stone-300 font-semibold text-xs sm:text-sm">
+                        {itemsCount} {language === 'en' ? (itemsCount === 1 ? 'item' : 'items') : (itemsCount === 1 ? 'položka' : itemsCount < 5 ? 'položky' : 'položek')}
+                      </span>
+                    )}
+                  </div>
                 </div>
 
-                <h3 className="text-base font-bold text-stone-100 group-hover:text-amber-400 transition-colors flex items-center justify-between">
-                  <span>{cat.name}</span>
-                  <ChevronRight className="w-4 h-4 text-stone-600 group-hover:text-amber-400 group-hover:translate-x-0.5 transition-all" />
-                </h3>
-                <p className="text-xs text-stone-400 mt-1.5 line-clamp-2 leading-relaxed">
+                <div className="flex items-center justify-between gap-2 mb-1.5">
+                  <h3 className={`text-base sm:text-lg font-bold transition-colors ${
+                    isSelected ? 'text-amber-300' : 'text-stone-100 group-hover:text-amber-300'
+                  }`}>
+                    {cat.name}
+                  </h3>
+                  <AudioPronounceButton
+                    itemId={`category-${cat.id}`}
+                    name={cat.name}
+                    description={cat.description}
+                    lang={language}
+                    size="sm"
+                    title={language === 'en' ? 'Pronounce category in English' : 'Přečíst kategorii česky'}
+                  />
+                </div>
+                <p className="text-sm sm:text-base text-stone-200 line-clamp-3 leading-relaxed mb-4">
                   {cat.description}
                 </p>
               </div>
 
-              <div className="pt-4 mt-4 border-t border-stone-800/80 flex items-center justify-between text-xs text-stone-400">
-                <span className="font-semibold text-stone-400">
-                  {cat.items.length} {isEn ? 'items' : 'položek'}
-                </span>
-                {catStat.total > 0 && (
-                  <div className="flex items-center gap-1.5 font-bold text-amber-400">
-                    <Award className="w-3.5 h-3.5" />
-                    <span>{percent}%</span>
+              {/* Progress bar and arrow */}
+              <div className="pt-3 border-t border-stone-800/60 flex items-center justify-between gap-3">
+                <div className="flex-1">
+                  <div className="flex items-center justify-between text-xs sm:text-sm mb-1 text-stone-300 font-medium">
+                    <span>Naučeno</span>
+                    <span className="font-semibold text-stone-100">{masteredInCat} / {itemsCount} podsložek</span>
                   </div>
-                )}
+                  <div className="w-full h-1.5 bg-stone-800 rounded-full overflow-hidden">
+                    <div 
+                      className={`h-full rounded-full transition-all duration-500 ${
+                        isFullyMastered ? 'bg-emerald-500' : 'bg-amber-500'
+                      }`}
+                      style={{ width: `${progressPercent}%` }}
+                    />
+                  </div>
+                </div>
+
+                <div className="w-7 h-7 rounded-full bg-stone-800/60 flex items-center justify-center text-stone-400 group-hover:text-amber-400 group-hover:translate-x-0.5 transition-all">
+                  <ChevronRight className="w-4 h-4" />
+                </div>
               </div>
             </div>
           );
