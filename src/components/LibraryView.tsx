@@ -337,7 +337,7 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
   // Filtered Culinary Terms
   const filteredCulinaryTerms = useMemo(() => {
     const q = searchQuery.toLowerCase().trim();
-    return activeCulinaryTerms.filter(item => {
+    const filtered = activeCulinaryTerms.filter(item => {
       const matchesCategory = selectedCulinaryCategory === 'all' || item.category === selectedCulinaryCategory;
       if (!matchesCategory) return false;
       if (!q) return true;
@@ -352,7 +352,11 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
         item.tags.some(tag => tag.toLowerCase().includes(q))
       );
     });
-  }, [searchQuery, selectedCulinaryCategory, activeCulinaryTerms]);
+
+    return [...filtered].sort((a, b) =>
+      a.name.localeCompare(b.name, isEn ? 'en' : 'cs', { sensitivity: 'base' })
+    );
+  }, [searchQuery, selectedCulinaryCategory, activeCulinaryTerms, isEn]);
 
   // Filtered Beverages
   const filteredBeverages = useMemo(() => {
@@ -601,13 +605,20 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
 
       {/* Results Count & Active Status */}
       <div className="flex items-center justify-between text-xs text-stone-500 px-1">
-        <span>
-          {isEn ? 'Showing ' : 'Zobrazeno '}
-          <strong className="text-stone-300">
-            {activeTab === 'culinary' ? filteredCulinaryTerms.length : filteredBeverages.length}
-          </strong>
-          {isEn ? ' items' : ' položek'}
-        </span>
+        <div className="flex items-center gap-2">
+          <span>
+            {isEn ? 'Showing ' : 'Zobrazeno '}
+            <strong className="text-stone-300">
+              {activeTab === 'culinary' ? filteredCulinaryTerms.length : filteredBeverages.length}
+            </strong>
+            {isEn ? ' items' : ' položek'}
+          </span>
+          {activeTab === 'culinary' && (
+            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-semibold bg-amber-500/10 text-amber-400 border border-amber-500/20">
+              A → Z {isEn ? 'Alphabetical' : 'Abecedně'}
+            </span>
+          )}
+        </div>
         {searchQuery && (
           <span>
             {isEn ? 'Filter active: ' : 'Aktivní filtr: '}

@@ -10,34 +10,179 @@ import { CulinaryTerm, BeverageItem } from './libraryData';
 
 export const CULINARY_TERMS_EN: CulinaryTerm[] = [
   {
-    "id": "nina-cuvee",
-    "name": "Nina Cuvée",
-    "originalTerm": "Nina Cuvée & Maxmilian Cuvée – Bílkovi Winery (Velké Bílovice)",
-    "category": "world_flavors",
-    "categoryName": "Wine Stories & Cuvées",
-    "origin": "Moravia, Velkopavlovická sub-region, Velké Bílovice (Bílkovi Winery)",
-    "shortDescription": "The story of two family cuvées from Bílkovi Winery in Velké Bílovice. Red Nina Cuvée (Merlot & Frankovka) was created by winemaker František Bílek in tribute to his daughter Nina, while the partner cuvée Maxmilian (Pinot Noir & Merlot) honors his son Maxmilian.",
+    "id": "consomme",
+    "name": "Beef Consommé",
+    "originalTerm": "Consommé de bœuf (France)",
+    "category": "gourmet_ingredients",
+    "categoryName": "Gourmet Ingredients",
+    "origin": "France",
+    "shortDescription": "Crystal-clear, deeply concentrated double beef broth clarified through the classical egg white and lean beef raft technique.",
     "ingredients": [
-      "Nina Cuvée: Merlot & Blaufränkisch (matured 14 months in oak barrels)",
-      "Maxmilian Cuvée: Pinot Noir & Merlot (matured 14–16 months in oak barrels)",
-      "100% estate-grown grapes from Velké Bílovice",
-      "French and Moravian oak barriques"
+      "Beef bones and shank slowly simmered for hours",
+      "Root vegetables (carrots, celery, parsley root, leek)",
+      "Clarification raft: egg whites, lean ground beef, aromatics",
+      "Delicate beef liver dumpling"
     ],
-    "flavorProfile": "Nina Cuvée presents a deep ruby hue, intense blackberries, blackcurrant, dark chocolate, roasted coffee, and vanilla with velvety tannins. Maxmilian boasts Pinot Noir elegance with ripe cherries, subtle smoke, and plums.",
-    "culinaryUsage": "At FUZE, it pairs wonderfully with beef steaks, braised cheeks, venison, roasted duck, and mature hard cheeses.",
+    "flavorProfile": "Pure, deep essence of roasted beef with high natural gelatin content that coats the palate with a velvet sheen.",
+    "culinaryUsage": "Served piping hot as an elegant soup course with fine vegetable garnishes and delicate dumplings.",
     "fuzeMenuAppearances": [
-      "FUZE Wine List (Nina Cuvée Bílkovi 0.75L)",
-      "Recommended pairing for premium red meats"
+      "Beef consommé with delicate liver dumpling and root vegetables"
     ],
-    "staffTips": "How Nina Cuvée originated: Created by František Bílek as a celebration and tribute to his daughter Nina, blending silky Merlot with structured Blaufränkisch aged 14 months in oak. How Maxmilian originated: Created in honor of his son Maxmilian blending Pinot Noir with Merlot aged up to 16 months in oak. Both cuvées celebrate family heritage in Velké Bílovice.",
+    "staffTips": "Guests appreciate understanding the craftsmanship: consommé is not ordinary broth, but a double-reduced stock clarified with egg whites over hours of gentle simmering.",
     "tags": [
-      "nina",
-      "cuvee",
-      "nina cuvee",
-      "maxmilian",
-      "bilkovi",
-      "wine",
-      "history"
+      "soup",
+      "broth",
+      "consommé",
+      "French technique"
+    ]
+  },
+  {
+    "id": "picanha-kvetova-spicka",
+    "name": "Beef Rump Cap (Picanha)",
+    "originalTerm": "Picanha / Rump Cap / Tafelspitz",
+    "category": "meat_cuts",
+    "categoryName": "Meat & Steak Cuts",
+    "origin": "Brazil / South America & Austria",
+    "shortDescription": "Triangular muscle from the top of the rump (biceps femoris) crowned with a signature layer of crisp white fat cap.",
+    "ingredients": [
+      "Beef top sirloin cap (rump cap)",
+      "Fat cap (renders during roasting to baste and protect the meat)"
+    ],
+    "flavorProfile": "Intense beefiness, firm yet tender texture. The melting fat cap bastes the cut continuously during grilling, providing profound savory depth.",
+    "culinaryUsage": "Queen of Brazilian churrasco, central to Austrian Tafelspitz, and in modern gastropubs an outstanding steak and hand-cut tartare cut.",
+    "fuzeMenuAppearances": [
+      "Hand-cut beef tartare from rump cap",
+      "US Prime beef rump cap from the wood-fired grill with Padrón peppers"
+    ],
+    "staffTips": "Share with guests that our tartare isn't ground from bland tenderloin, but hand-sliced from rump cap, which offers vastly superior natural beef flavor.",
+    "tags": [
+      "beef",
+      "picanha",
+      "steak",
+      "tartare",
+      "meat"
+    ]
+  },
+  {
+    "id": "pivni-susenka",
+    "name": "Beer Biscuit / Beer Cracker (Pivní sušenka)",
+    "originalTerm": "Pivní sušenka (FUZE Craft Bakery)",
+    "category": "pastry_sweets",
+    "categoryName": "Pastry & Bakery",
+    "origin": "Czech Republic (FUZE in-house kitchen & craft brewery)",
+    "shortDescription": "Crispy savory biscuit baked in-house using fresh craft beer brewed at FUZE, rich butter, and selected spices. Provides an essential textural crunch for rich starters.",
+    "ingredients": [
+      "Fresh craft beer from the FUZE on-site brewery",
+      "Selected wheat flour",
+      "Rich farm butter",
+      "Coarse sea salt and crushed caraway seeds",
+      "Brewer's malt and yeast"
+    ],
+    "flavorProfile": "Wonderfully crunchy, buttery with delicate toasted malt and bready notes, a hint of hop bitterness, and a clean savory finish.",
+    "culinaryUsage": "Served as a crispy textural garnish and accompaniment to savory starters and artisanal meats, most notably with our veal morel sausage.",
+    "fuzeMenuAppearances": [
+      "In-house veal sausage with morels, chestnuts, dried prunes, truffle sauce, beer biscuit"
+    ],
+    "staffTips": "Explain to guests that the biscuit is baked in-house using FUZE's own freshly brewed beer. Its crispy bite perfectly balances the softness of the sausage and the decadence of the truffle sauce.",
+    "tags": [
+      "beer biscuit",
+      "beer cracker",
+      "pivní sušenka",
+      "fuze",
+      "starter",
+      "pastry",
+      "craft beer"
+    ]
+  },
+  {
+    "id": "pivni-vinaigrette",
+    "name": "Beer Vinaigrette (Pivní vinaigrette)",
+    "originalTerm": "Vinaigrette à la Bière / Beer Vinaigrette",
+    "category": "sauces_dressings",
+    "categoryName": "Sauces & Salsas",
+    "origin": "Czech Republic (FUZE in-house kitchen & craft brewery)",
+    "shortDescription": "Crisp artisanal salad dressing emulsified from fresh unpasteurized craft beer brewed at FUZE, wine vinegar, virgin oil, honey, and Dijon mustard.",
+    "ingredients": [
+      "Fresh craft beer from the FUZE on-site brewery",
+      "Smooth Dijon mustard for emulsion stability (allergen 10 – mustard)",
+      "White wine vinegar or artisanal cider vinegar",
+      "Extra virgin oil",
+      "Wildflower honey to balance the gentle hop bitterness",
+      "Finely minced shallots, sea salt, and freshly cracked pepper"
+    ],
+    "flavorProfile": "Bright, tangy, and refreshing with gentle malt complexity, a crisp hop bitterness on the finish, and a smooth emulsion.",
+    "culinaryUsage": "Dressing for crisp torn lettuce salads, pickled green tomatoes, garden greens, and light cold starters.",
+    "fuzeMenuAppearances": [
+      "Salad of torn lettuce leaves with green tomatoes, beer vinaigrette"
+    ],
+    "staffTips": "Contains allergen 10 (mustard). Explain to guests that this dressing is made with our fresh unpasteurized FUZE beer. The hop aroma and bright acidity elevate the crisp greens and tangy pickled green tomatoes.",
+    "tags": [
+      "beer vinaigrette",
+      "pivní vinaigrette",
+      "vinaigrette",
+      "dressing",
+      "craft beer",
+      "salad",
+      "cold sauce"
+    ]
+  },
+  {
+    "id": "brioche",
+    "name": "Brioche",
+    "originalTerm": "Brioche (France, Normandy)",
+    "category": "pastry_sweets",
+    "categoryName": "Pastry & Bakery",
+    "origin": "France (Normandy, 15th century)",
+    "shortDescription": "Enriched French yeast bread packed with butter and eggs, creating a golden crust and tender, feather-light crumb.",
+    "ingredients": [
+      "Wheat flour",
+      "Exceptionally high butter proportion (up to 50% flour weight)",
+      "Fresh eggs and egg yolks",
+      "Milk, yeast, pinch of sugar and sea salt"
+    ],
+    "flavorProfile": "Rich, buttery, mildly sweet with a delicate golden crust and pillow-soft interior crumb.",
+    "culinaryUsage": "Sliced and toasted to accompany pâtés and foie gras, or baked into premium burger and rib buns.",
+    "fuzeMenuAppearances": [
+      "Toasted butter brioche with duck foie gras pâté",
+      "Toasted garlic brioche with beer-glazed pork ribs",
+      "Toasted garlic brioche (standalone side)"
+    ],
+    "staffTips": "The butter richness in brioche absorbs the savory juices from ribs and pairs flawlessly with foie gras.",
+    "tags": [
+      "brioche",
+      "bakery",
+      "butter",
+      "France",
+      "side"
+    ]
+  },
+  {
+    "id": "kaiserschmarrn",
+    "name": "Caramelized Kaiserschmarrn",
+    "originalTerm": "Kaiserschmarrn (Austro-Hungarian Empire)",
+    "category": "pastry_sweets",
+    "categoryName": "Pastry & Sweets",
+    "origin": "Austria (favorite dessert of Emperor Franz Joseph I)",
+    "shortDescription": "Imperial fluffy shredded pancake soufflé cooked in butter, torn with two forks, and caramelized with sugar in the pan.",
+    "ingredients": [
+      "Egg yolks and whipped egg white meringue",
+      "Flour, whole milk, and butter",
+      "Clarified butter for pan searing",
+      "Pan-caramelized sugar glaze",
+      "Roasted spiced plums and egg liqueur ice cream"
+    ],
+    "flavorProfile": "Fluffy, cloud-soft interior with a crackling caramelized sugar crust, paired with warm tart plums and cooling rich ice cream.",
+    "culinaryUsage": "Prepared to order and served steaming hot straight from the skillet alongside cool ice cream.",
+    "fuzeMenuAppearances": [
+      "Caramelized Kaiserschmarrn with roasted plums and egg liqueur ice cream"
+    ],
+    "staffTips": "A great sharing dessert for the table after dinner with an espresso or digestive drink.",
+    "tags": [
+      "dessert",
+      "shredded pancake",
+      "Kaiserschmarrn",
+      "plums",
+      "caramel"
     ]
   },
   {
@@ -73,30 +218,151 @@ export const CULINARY_TERMS_EN: CulinaryTerm[] = [
     ]
   },
   {
-    "id": "duroc",
-    "name": "Duroc Pork",
-    "originalTerm": "Duroc Pork (USA)",
-    "category": "meat_cuts",
-    "categoryName": "Meat & Steak Cuts",
-    "origin": "North America (New York & New Jersey, mid-19th century)",
-    "shortDescription": "Prestigious heritage pig breed renowned for high intramuscular marbling, fine muscle fibers, and extraordinary tenderness.",
+    "id": "choron",
+    "name": "Choron Sauce",
+    "originalTerm": "Sauce Choron (France)",
+    "category": "sauces_dressings",
+    "categoryName": "Sauces & Salsas",
+    "origin": "France (Paris, 19th century, Chef Alexandre Étienne Choron)",
+    "shortDescription": "Luxurious warm emulsified sauce based on classic Béarnaise enriched with a rich reduction of sweet roasted tomatoes.",
     "ingredients": [
-      "100% purebred or crossbred Duroc pork (red-brown heritage breed)",
-      "Abundant intramuscular marbling fat",
-      "High oleic acid profile"
+      "Fresh egg yolks",
+      "Clarified butter",
+      "White wine and shallot tarragon vinegar reduction",
+      "Fresh tarragon and chervil",
+      "Concentrated tomato reduction / roasted tomato purée",
+      "Pinch of cayenne pepper and salt"
     ],
-    "flavorProfile": "Distinctive deep savory pork flavor, incomparably juicier and more tender than commercial pork, with a subtle nutty sweetness from rendered fat.",
-    "culinaryUsage": "Ideal for thick-cut schnitzels, chops, and slow roasting. The marbling ensures the meat stays exceptionally succulent and never dries out during frying or grilling.",
+    "flavorProfile": "Velvety, buttery sauce with an aniseed nuance from tarragon and a sweet-tart depth from roasted tomatoes, glowing with coral-pink color.",
+    "culinaryUsage": "Served warm over beef steaks, rump cap, grilled fish, and roasted vegetables.",
     "fuzeMenuAppearances": [
-      "Thick-cut Duroc pork schnitzel with fines herbes sauce, potato mash, and potato crisps"
+      "Choron – warm sauce for grilled meats and wood-fired specialities"
     ],
-    "staffTips": "Explain to guests that Duroc is the pork equivalent of Black Angus in beef. Our schnitzel is served thick-cut and remains remarkably juicy inside.",
+    "staffTips": "A splendid choice for guests who love Béarnaise or Hollandaise, but appreciate a warmer, fruitier tomato accent with their beef steak.",
     "tags": [
-      "pork",
-      "meat",
-      "Duroc",
-      "schnitzel",
-      "marbling"
+      "warm sauce",
+      "butter",
+      "egg yolks",
+      "tomatoes",
+      "France"
+    ]
+  },
+  {
+    "id": "cider-pojem",
+    "name": "Cider",
+    "originalTerm": "Cidre / Cider (France / England)",
+    "category": "gourmet_ingredients",
+    "categoryName": "Gourmet Ingredients & Drinks",
+    "origin": "Normandy & Brittany (France) / Southwestern England",
+    "shortDescription": "Natural sparkling alcoholic beverage made through controlled fermentation of freshly pressed apple juice.",
+    "ingredients": [
+      "Freshly pressed juice from dedicated cider apple varieties",
+      "Wild or cultured cider yeast",
+      "Natural carbonation from fermentation"
+    ],
+    "flavorProfile": "Crisp apple flavor with pleasant acidity, gentle tannins, and refreshing effervescence.",
+    "culinaryUsage": "Classic pairing with roast pork, artisanal sausages, and cheeses.",
+    "fuzeMenuAppearances": [
+      "Opre` Cider and Opre` Sour Cherry (artisanal craft ciders from a family farm)"
+    ],
+    "staffTips": "Opre' Cider is not an overly sweet industrial soda, but a genuine artisanal fermented apple cider from a family-owned orchard.",
+    "tags": [
+      "cider",
+      "apples",
+      "fermentation",
+      "Opre",
+      "beverage"
+    ]
+  },
+  {
+    "id": "koktejlova-omacka-s-konakem",
+    "name": "Cocktail Sauce with Cognac (Koktejlová omáčka s koňakem)",
+    "originalTerm": "Cocktail Sauce au Cognac / Sauce Marie Rose",
+    "category": "sauces_dressings",
+    "categoryName": "Sauces & Salsas",
+    "origin": "France / United Kingdom (classic seafood pairing)",
+    "shortDescription": "Aristocratic cold emulsion combining silky homemade mayonnaise, rich tomato glace, aged French cognac, Worcestershire sauce, and a dash of Tabasco.",
+    "ingredients": [
+      "In-house mayonnaise made with pasteurized egg yolks (allergen 3 – eggs)",
+      "Aged French cognac (Cognac)",
+      "Concentrated tomato reduction / artisanal ketchup",
+      "Worcestershire sauce (allergen 4 – fish in anchovies)",
+      "Fresh lemon juice and a dash of Tabasco for gentle piquancy",
+      "Sea salt and ground white pepper"
+    ],
+    "flavorProfile": "Gently sweet, refreshing and rich with smooth oak and grape notes from the cognac, balanced acidity, and a delicate spicy kick.",
+    "culinaryUsage": "Classic pairing for shellfish, wild prawns, lobster rolls, and seafood cocktails; heart of our Shrimp Roll.",
+    "fuzeMenuAppearances": [
+      "Shrimp Roll (12 wild Argentine red prawns in buttery brioche, cocktail sauce with cognac, side salad, house fries, choron sauce)"
+    ],
+    "staffTips": "Contains allergens 3 (eggs) and 4 (fish). The cognac imparts warmth and sophistication that elevates the natural sweetness of wild Argentine red prawns inside a toasted buttery brioche.",
+    "tags": [
+      "cocktail sauce",
+      "koktejlová omáčka s koňakem",
+      "cognac",
+      "shrimp roll",
+      "prawns",
+      "seafood",
+      "marie rose"
+    ]
+  },
+  {
+    "id": "omacka-konakova",
+    "name": "Cognac Sauce (Koňaková omáčka)",
+    "originalTerm": "Sauce au Cognac (France)",
+    "category": "sauces_dressings",
+    "categoryName": "Sauces & Salsas",
+    "origin": "France (Classic haute cuisine)",
+    "shortDescription": "Noble warm sauce prepared by flambéing aged French cognac, reduced with rich meat glace/fond, cream, Dijon mustard, and aromatics.",
+    "ingredients": [
+      "Aged French cognac (flambéed)",
+      "Concentrated veal/beef demi-glace with root mirepoix (allergen 9 – celery)",
+      "Heavy cream and cold butter for mounting (allergen 7 – milk)",
+      "Shallots and smooth Dijon mustard (allergen 10 – mustard)",
+      "Cracked green peppercorns and sea salt"
+    ],
+    "flavorProfile": "Deep, velvety and savory with distinct oak and vanilla notes from the cognac, balanced by gentle Dijon warmth and rich creaminess.",
+    "culinaryUsage": "Classic warm steak sauce ideally matched with prime cuts (tenderloin, ribeye, striploin), veal chops, and roasted game.",
+    "fuzeMenuAppearances": [
+      "Warm Cognac Sauce (standalone warm sauce on the FUZE menu)",
+      "Recommended pairing for grilled steaks and roasted cuts"
+    ],
+    "staffTips": "Contains allergens 7 (milk), 9 (celery), and 10 (mustard). Recommend it to guests looking for a traditional, deeply flavored, and comforting steak sauce.",
+    "tags": [
+      "cognac sauce",
+      "koňaková omáčka",
+      "sauce",
+      "cognac",
+      "steak",
+      "demi-glace",
+      "warm sauce"
+    ]
+  },
+  {
+    "id": "confit-cesnek",
+    "name": "Confit Garlic",
+    "originalTerm": "Ail confit (France)",
+    "category": "culinary_techniques",
+    "categoryName": "Cooking Techniques",
+    "origin": "France (Southwest)",
+    "shortDescription": "Classical technique of slowly poaching whole garlic cloves fully submerged in fat at a gentle temperature (~85°C).",
+    "ingredients": [
+      "Whole peeled garlic cloves",
+      "Quality oil, beef tallow, or duck fat",
+      "Thyme, rosemary, and black peppercorns"
+    ],
+    "flavorProfile": "Cooking removes all harsh sulfurous pungency, leaving cloves butter-soft, sweet, and nutty with caramel notes.",
+    "culinaryUsage": "Spread over warm sourdough toast, folded into mashed potatoes, or used as a sweet aromatic base in pan sauces.",
+    "fuzeMenuAppearances": [
+      "Sliced beef tartare with toast fried in beef tallow and confit garlic"
+    ],
+    "staffTips": "Guests sensitive to raw garlic can enjoy confit garlic without worry – it is gentle, sweet, and highly digestible.",
+    "tags": [
+      "garlic",
+      "confit",
+      "tartare",
+      "toast",
+      "French technique"
     ]
   },
   {
@@ -128,65 +394,115 @@ export const CULINARY_TERMS_EN: CulinaryTerm[] = [
     ]
   },
   {
-    "id": "salsa-verde",
-    "name": "Salsa Verde",
-    "originalTerm": "Salsa verde (Italy / Mediterranean)",
-    "category": "sauces_dressings",
-    "categoryName": "Sauces & Salsas",
-    "origin": "Italy (Piedmont / Lombardy)",
-    "shortDescription": "Traditional Mediterranean uncooked green herb salsa loaded with natural umami from salted anchovies and pickled capers.",
+    "id": "humri-bisque",
+    "name": "Creamy Lobster Soup (Bisque)",
+    "originalTerm": "Bisque de homard (France)",
+    "category": "gourmet_ingredients",
+    "categoryName": "Gourmet Ingredients",
+    "origin": "France (Bay of Biscay)",
+    "shortDescription": "One of the most luxurious seafood soups in the world, prepared by roasting crustacean shells, flambéing with cognac, and simmering with wine and cream.",
     "ingredients": [
-      "Fresh flat-leaf parsley",
-      "Salted anchovy fillets",
-      "Brined capers",
-      "Garlic",
-      "Dijon mustard or white bread crumb soaked in vinegar",
-      "Extra virgin olive oil and a dash of wine vinegar"
+      "Lobster and shrimp shells and claws",
+      "Cognac for flambéing and white wine",
+      "Shallots, celery, fennel, and tomato paste",
+      "Heavy cream",
+      "Sausage and vegetable garnish, baked under puff pastry"
     ],
-    "flavorProfile": "Herbaceous, savory, tangy with deep umami. More punchy and savory than chimichurri thanks to anchovies and capers.",
-    "culinaryUsage": "Classic accompaniment to boiled and roasted meats (bollito misto), wood-oven fish, and grilled vegetables.",
+    "flavorProfile": "Deeply savory, sweet-mineral crustacean richness with smoky cognac nuance and a velvety cream finish.",
+    "culinaryUsage": "Served piping hot in a bowl sealed with a domed puff pastry crust that locks in aromatic steam.",
     "fuzeMenuAppearances": [
-      "Fried chicken croquettes (starter)",
-      "Thor's Hammer beef knuckle (from wood-oven / slow braised)",
-      "Our salsa verde (standalone cold sauce for grilled meats)"
+      "Creamy lobster soup with sausage and vegetables, baked under puff pastry"
     ],
-    "staffTips": "Explain the difference: Chimichurri is oregano- and chilli-based, whereas Italian Salsa Verde derives its umami depth from capers and anchovies.",
+    "staffTips": "Allergen reminder: contains crustaceans (no. 2) and fish. The puff pastry dome presentation is an eye-catching table favorite.",
     "tags": [
-      "sauce",
-      "herbs",
-      "anchovies",
-      "capers",
-      "Italy"
+      "lobster",
+      "soup",
+      "bisque",
+      "crustaceans",
+      "puff pastry"
     ]
   },
   {
-    "id": "choron",
-    "name": "Choron Sauce",
-    "originalTerm": "Sauce Choron (France)",
-    "category": "sauces_dressings",
-    "categoryName": "Sauces & Salsas",
-    "origin": "France (Paris, 19th century, Chef Alexandre Étienne Choron)",
-    "shortDescription": "Luxurious warm emulsified sauce based on classic Béarnaise enriched with a rich reduction of sweet roasted tomatoes.",
+    "id": "demi-glace",
+    "name": "Demi-Glace",
+    "originalTerm": "Demi-glace (France)",
+    "category": "culinary_techniques",
+    "categoryName": "Cooking Techniques & Foundations",
+    "origin": "France (Auguste Escoffier)",
+    "shortDescription": "The crown jewel of brown sauces – rich roasted veal stock reduced slowly to a glossy, gelatinous essence.",
     "ingredients": [
-      "Fresh egg yolks",
-      "Clarified butter",
-      "White wine and shallot tarragon vinegar reduction",
-      "Fresh tarragon and chervil",
-      "Concentrated tomato reduction / roasted tomato purée",
-      "Pinch of cayenne pepper and salt"
+      "Roasted veal and beef marrow bones rich in collagen",
+      "Mirepoix root vegetables (carrots, celery, onions)",
+      "Red wine, tomato paste, bouquet garni (thyme, bay leaf)",
+      "Simmered and reduced for over 24 hours"
     ],
-    "flavorProfile": "Velvety, buttery sauce with an aniseed nuance from tarragon and a sweet-tart depth from roasted tomatoes, glowing with coral-pink color.",
-    "culinaryUsage": "Served warm over beef steaks, rump cap, grilled fish, and roasted vegetables.",
+    "flavorProfile": "Massive concentration of pure umami, savory roast notes, and mouth-coating gelatinous body.",
+    "culinaryUsage": "Foundation for our warm cognac sauce, truffle reduction, and steak gravies.",
     "fuzeMenuAppearances": [
-      "Choron – warm sauce for grilled meats and wood-fired specialities"
+      "Warm cognac sauce",
+      "Warm truffle sauce",
+      "Base of pan jus for roasted meats and ribs"
     ],
-    "staffTips": "A splendid choice for guests who love Béarnaise or Hollandaise, but appreciate a warmer, fruitier tomato accent with their beef steak.",
+    "staffTips": "A true hallmark of scratch cooking: no flour or artificial thickeners, our sauces achieve body purely through slow reduction and natural collagen.",
     "tags": [
-      "warm sauce",
-      "butter",
-      "egg yolks",
-      "tomatoes",
-      "France"
+      "stock",
+      "reduction",
+      "umami",
+      "veal",
+      "sauces"
+    ]
+  },
+  {
+    "id": "duroc",
+    "name": "Duroc Pork",
+    "originalTerm": "Duroc Pork (USA)",
+    "category": "meat_cuts",
+    "categoryName": "Meat & Steak Cuts",
+    "origin": "North America (New York & New Jersey, mid-19th century)",
+    "shortDescription": "Prestigious heritage pig breed renowned for high intramuscular marbling, fine muscle fibers, and extraordinary tenderness.",
+    "ingredients": [
+      "100% purebred or crossbred Duroc pork (red-brown heritage breed)",
+      "Abundant intramuscular marbling fat",
+      "High oleic acid profile"
+    ],
+    "flavorProfile": "Distinctive deep savory pork flavor, incomparably juicier and more tender than commercial pork, with a subtle nutty sweetness from rendered fat.",
+    "culinaryUsage": "Ideal for thick-cut schnitzels, chops, and slow roasting. The marbling ensures the meat stays exceptionally succulent and never dries out during frying or grilling.",
+    "fuzeMenuAppearances": [
+      "Thick-cut Duroc pork schnitzel with fines herbes sauce, potato mash, and potato crisps"
+    ],
+    "staffTips": "Explain to guests that Duroc is the pork equivalent of Black Angus in beef. Our schnitzel is served thick-cut and remains remarkably juicy inside.",
+    "tags": [
+      "pork",
+      "meat",
+      "Duroc",
+      "schnitzel",
+      "marbling"
+    ]
+  },
+  {
+    "id": "espuma",
+    "name": "Espuma",
+    "originalTerm": "Espuma (Spain)",
+    "category": "culinary_techniques",
+    "categoryName": "Cooking Techniques",
+    "origin": "Spain (Catalonia, Chef Ferran Adrià at elBulli)",
+    "shortDescription": "Modern culinary technique producing ethereal foam in a pressurized siphon canister using nitrous oxide (N2O).",
+    "ingredients": [
+      "Flavored liquid base or purée (semolina cream, milk, vanilla)",
+      "Natural binding agent (fat, gelatin, agar, or albumin)",
+      "Food-grade N2O nitrous oxide gas"
+    ],
+    "flavorProfile": "Weightless as a cloud, releasing flavor compounds and aromas instantly on the tongue without heavy density.",
+    "culinaryUsage": "Transforms traditional hearty dishes into modern, airy textures.",
+    "fuzeMenuAppearances": [
+      "Semolina porridge made from espuma with cocoa and melted butter"
+    ],
+    "staffTips": "Our semolina porridge isn't heavy pot porridge – thanks to the culinary siphon, it is an astonishingly light, cloud-like cream beloved by both kids and adults.",
+    "tags": [
+      "espuma",
+      "molecular gastronomy",
+      "siphon",
+      "semolina"
     ]
   },
   {
@@ -219,6 +535,237 @@ export const CULINARY_TERMS_EN: CulinaryTerm[] = [
     ]
   },
   {
+    "id": "foie-gras",
+    "name": "Foie Gras",
+    "originalTerm": "Foie gras (France)",
+    "category": "gourmet_ingredients",
+    "categoryName": "Gourmet Ingredients",
+    "origin": "France",
+    "shortDescription": "Iconic French culinary delicacy – naturally fattened duck or goose liver celebrated for its silky, buttery richness.",
+    "ingredients": [
+      "Duck liver (Foie gras de canard)",
+      "Cognac or Armagnac and port wine marinade",
+      "White pepper, nutmeg, fine sea salt",
+      "Kasteel Rouge cherry beer jelly"
+    ],
+    "flavorProfile": "Extraordinarily rich, velvety, buttery mouthfeel that literally melts at body temperature.",
+    "culinaryUsage": "Prepared into fine terrines and pâtés, or flash-seared in a pan. Always demands an acidic or fruit-sweet counterpart.",
+    "fuzeMenuAppearances": [
+      "Duck foie gras pâté in Kasteel Rouge cherry beer jelly, cherry sauce, toasted butter brioche"
+    ],
+    "staffTips": "Recommend pairing with our draft Belgian Kasteel Rouge cherry beer or a glass of Pálava wine – the fruit sweetness and acidity create heavenly harmony.",
+    "tags": [
+      "foie gras",
+      "duck liver",
+      "pâté",
+      "France",
+      "delicacy"
+    ]
+  },
+  {
+    "id": "ganache",
+    "name": "Ganache",
+    "originalTerm": "Ganache (France)",
+    "category": "pastry_sweets",
+    "categoryName": "Pastry & Sweets",
+    "origin": "France / Switzerland (Parisian confectioner Siraudin, circa 1860)",
+    "shortDescription": "Pillar of French pastry – a glossy emulsion of hot heavy cream and couverture chocolate.",
+    "ingredients": [
+      "Premium couverture chocolate (dark, milk, or blond)",
+      "Fresh high-fat heavy whipping cream (min. 35% fat)",
+      "Butter or glucose for velvety sheen and elasticity"
+    ],
+    "flavorProfile": "Silky-smooth, luscious cream that melts evenly across the tongue, delivering pure chocolate essence.",
+    "culinaryUsage": "Filling for cakes, macarons, tarts, truffles, and modern sculpted desserts.",
+    "fuzeMenuAppearances": [
+      "Hop-cone shaped ganache cakes"
+    ],
+    "staffTips": "Proper emulsification produces a lump-free, velvety texture that forms the creamy heart of our signature dessert.",
+    "tags": [
+      "pastry",
+      "ganache",
+      "chocolate",
+      "cream",
+      "dessert"
+    ]
+  },
+  {
+    "id": "kasteel-rouge",
+    "name": "Kasteel Rouge Beer",
+    "originalTerm": "Kasteel Rouge (Belgium)",
+    "category": "gourmet_ingredients",
+    "categoryName": "Beers & Culinary Ingredients",
+    "origin": "Belgium (Ingelmunster, Van Honsebrouck Family Brewery)",
+    "shortDescription": "Celebrated Belgian strong top-fermented ale (8.0% ABV) aged 6 months on authentic ripe sour cherries.",
+    "ingredients": [
+      "Dark Belgian specialty beer base (Kasteel Donker)",
+      "Real sour cherries and pure cherry juice",
+      "Barley malt, hops, water, and Belgian ale yeast"
+    ],
+    "flavorProfile": "Deep ruby color, luscious sweet-tart cherry flavor, notes of dark chocolate, almonds, and port wine with a warming alcoholic finish.",
+    "culinaryUsage": "Poured on draft at our bar, and reduced in the Fuze kitchen into a glossy beer jelly atop duck foie gras.",
+    "fuzeMenuAppearances": [
+      "Duck foie gras pâté in Kasteel Rouge cherry beer jelly, cherry reduction",
+      "Kasteel Rouge 18 – on tap 0.25l"
+    ],
+    "staffTips": "A great example of bar and kitchen collaboration: the Belgian cherry ale we pour on draft is reduced by our chefs to glaze our foie gras pâté!",
+    "tags": [
+      "Belgian beer",
+      "cherries",
+      "foie gras",
+      "jelly",
+      "draft beer"
+    ]
+  },
+  {
+    "id": "kombucha-pojem",
+    "name": "Kombucha",
+    "originalTerm": "Kombucha (East Asia)",
+    "category": "gourmet_ingredients",
+    "categoryName": "Gourmet Ingredients & Drinks",
+    "origin": "Ancient China / Manchuria (over 2,000 years of history)",
+    "shortDescription": "Naturally effervescent fermented tea beverage crafted with a symbiotic culture of bacteria and yeast (SCOBY).",
+    "ingredients": [
+      "Premium green or black tea",
+      "Cane sugar (nutrient for fermenting cultures)",
+      "Live SCOBY culture",
+      "Natural fruit juices or herbs for secondary fermentation"
+    ],
+    "flavorProfile": "Gently sparkling, refreshing, sweet-tart with crisp cider-like fermented undertones.",
+    "culinaryUsage": "Served chilled as a healthy premium non-alcoholic aperitif or post-meal digestive.",
+    "fuzeMenuAppearances": [
+      "Kombucha – Magu kombucha and artisanal fermented beverages on our drink menu"
+    ],
+    "staffTips": "A superb non-alcoholic alternative to beer and cider that promotes digestion after a satisfying meal.",
+    "tags": [
+      "fermentation",
+      "tea",
+      "non-alcoholic",
+      "kombucha",
+      "wellness"
+    ]
+  },
+  {
+    "id": "smrze",
+    "name": "Morels (Morchella)",
+    "originalTerm": "Morchella / Morels",
+    "category": "gourmet_ingredients",
+    "categoryName": "Gourmet Ingredients",
+    "origin": "Temperate woodland zones of Europe and North America",
+    "shortDescription": "Among the most sought-after and precious wild spring mushrooms, recognizable by their hollow honeycomb-like cap.",
+    "ingredients": [
+      "Authentic wild morel mushrooms (dried or fresh spring harvest)",
+      "Hollow fruiting bodies packed with aromatic savory compounds"
+    ],
+    "flavorProfile": "Deeply earthy, nutty, woody, and meaty with intense umami that enriches sauces and farce.",
+    "culinaryUsage": "Sautéed in butter, folded into artisanal sausages, terrines, and cream reductions for veal and poultry.",
+    "fuzeMenuAppearances": [
+      "Our veal sausage with morels, chestnuts, and prunes, truffle sauce"
+    ],
+    "staffTips": "In gastronomy, morels rank right behind truffles as royalty among mushrooms. They lend our veal sausage an unmistakable noble depth.",
+    "tags": [
+      "mushrooms",
+      "morels",
+      "delicacy",
+      "veal",
+      "forest"
+    ]
+  },
+  {
+    "id": "smes-duxelles",
+    "name": "Mushroom Duxelles (Směs duxelles)",
+    "originalTerm": "Duxelles (France, François Pierre de La Varenne, 17th Century)",
+    "category": "gourmet_ingredients",
+    "categoryName": "Gourmet Ingredients & Techniques",
+    "origin": "France (classical French haute cuisine)",
+    "shortDescription": "Legendary French preparation of finely minced wild mushrooms and brown cremini cooked slowly in butter with shallots and herbs until dry, seasoned in our kitchen with black truffles.",
+    "ingredients": [
+      "Fresh wild forest mushrooms and cremini finely minced (brunoise)",
+      "Minced shallots",
+      "Pure farm butter (allergen 7 – milk)",
+      "Fresh thyme and flat-leaf parsley",
+      "Real black truffles and concentrated truffle paste",
+      "Dry white wine and sea salt"
+    ],
+    "flavorProfile": "Concentrated, savory umami mushroom essence with the unmistakable earthy perfume of black truffle, melted butter, and sweet shallots.",
+    "culinaryUsage": "Crucial element of Beef Wellington (coats the tenderloin to seal in juices and prevent the pastry from becoming soggy), ravioli fillings, and steak garnish.",
+    "fuzeMenuAppearances": [
+      "Beef Wellington (cooked pink with truffle-infused duxelles, warm cognac sauce, smoked fingerling potatoes)"
+    ],
+    "staffTips": "Named after Marquis d'Uxelles. Cooking the mushrooms until all moisture evaporates concentrates the flavor and forms an aromatic barrier around the tenderloin, keeping the puff pastry crisp.",
+    "tags": [
+      "duxelles",
+      "směs duxelles",
+      "mushrooms",
+      "truffle",
+      "beef wellington",
+      "wellington",
+      "french cuisine"
+    ]
+  },
+  {
+    "id": "nina-cuvee",
+    "name": "Nina Cuvée",
+    "originalTerm": "Nina Cuvée & Maxmilian Cuvée – Bílkovi Winery (Velké Bílovice)",
+    "category": "world_flavors",
+    "categoryName": "Wine Stories & Cuvées",
+    "origin": "Moravia, Velkopavlovická sub-region, Velké Bílovice (Bílkovi Winery)",
+    "shortDescription": "The story of two family cuvées from Bílkovi Winery in Velké Bílovice. Red Nina Cuvée (Merlot & Frankovka) was created by winemaker František Bílek in tribute to his daughter Nina, while the partner cuvée Maxmilian (Pinot Noir & Merlot) honors his son Maxmilian.",
+    "ingredients": [
+      "Nina Cuvée: Merlot & Blaufränkisch (matured 14 months in oak barrels)",
+      "Maxmilian Cuvée: Pinot Noir & Merlot (matured 14–16 months in oak barrels)",
+      "100% estate-grown grapes from Velké Bílovice",
+      "French and Moravian oak barriques"
+    ],
+    "flavorProfile": "Nina Cuvée presents a deep ruby hue, intense blackberries, blackcurrant, dark chocolate, roasted coffee, and vanilla with velvety tannins. Maxmilian boasts Pinot Noir elegance with ripe cherries, subtle smoke, and plums.",
+    "culinaryUsage": "At FUZE, it pairs wonderfully with beef steaks, braised cheeks, venison, roasted duck, and mature hard cheeses.",
+    "fuzeMenuAppearances": [
+      "FUZE Wine List (Nina Cuvée Bílkovi 0.75L)",
+      "Recommended pairing for premium red meats"
+    ],
+    "staffTips": "How Nina Cuvée originated: Created by František Bílek as a celebration and tribute to his daughter Nina, blending silky Merlot with structured Blaufränkisch aged 14 months in oak. How Maxmilian originated: Created in honor of his son Maxmilian blending Pinot Noir with Merlot aged up to 16 months in oak. Both cuvées celebrate family heritage in Velké Bílovice.",
+    "tags": [
+      "nina",
+      "cuvee",
+      "nina cuvee",
+      "maxmilian",
+      "bilkovi",
+      "wine",
+      "history"
+    ]
+  },
+  {
+    "id": "cibulova-marmelada",
+    "name": "Onion Jam (Cibulová marmeláda)",
+    "originalTerm": "Confit d'Oignons / Onion Jam (France / UK)",
+    "category": "sauces_dressings",
+    "categoryName": "Sauces & Condiments",
+    "origin": "France / United Kingdom (classic bistro relish)",
+    "shortDescription": "Slowly caramelized onions simmered down to a sticky, unctuous relish with raw brown sugar, dry red wine, fresh thyme, and wine vinegar.",
+    "ingredients": [
+      "Finely sliced red and yellow onions",
+      "Raw cane sugar for gradual deep caramelization",
+      "Dry red wine (allergen 12 – sulphites)",
+      "Red wine vinegar and touch of aged balsamic",
+      "Fresh thyme, bay leaf, farm butter (allergen 7 – milk), sea salt, pepper"
+    ],
+    "flavorProfile": "Intensely sweet-and-sour, deep caramelized onion sweetness supported by rich red wine depth and aromatic herbal thyme.",
+    "culinaryUsage": "Essential element in craft burgers, paired with charcuterie, pâtés, roasted meats, and mature cheeses (cheddar, raclette).",
+    "fuzeMenuAppearances": [
+      "US Prime Beef Burger (crispy bacon, cheddar, onion jam, spicy mayonnaise)"
+    ],
+    "staffTips": "Slow confit cooking breaks down the sharp raw onion pungency into natural sugars. In our US Prime burger, it seamlessly balances the sharp saltiness of the cheddar and smoked bacon.",
+    "tags": [
+      "onion jam",
+      "cibulová marmeláda",
+      "caramelized onions",
+      "burger",
+      "red wine",
+      "confit d'oignons",
+      "relish"
+    ]
+  },
+  {
     "id": "padron-peppers",
     "name": "Padrón Peppers",
     "originalTerm": "Pimientos de Padrón (Spain)",
@@ -246,87 +793,59 @@ export const CULINARY_TERMS_EN: CulinaryTerm[] = [
     ]
   },
   {
-    "id": "us-prime",
-    "name": "US Prime Beef",
-    "originalTerm": "USDA Prime Beef (USA)",
-    "category": "meat_cuts",
-    "categoryName": "Meat & Steak Cuts",
-    "origin": "United States (USDA Certification Grade)",
-    "shortDescription": "The pinnacle of American beef – the highest quality grade awarded to less than 3% of all graded cattle in the USA.",
+    "id": "panko",
+    "name": "Panko Breadcrumbs",
+    "originalTerm": "Panko (Japan)",
+    "category": "world_flavors",
+    "categoryName": "World & Asian Flavors",
+    "origin": "Japan",
+    "shortDescription": "Flaky Japanese breadcrumbs made from crustless white bread baked by electrical resistance.",
     "ingredients": [
-      "Young grain-fed beef (predominantly Black Angus breed)",
-      "Extended grain finishing (corn, barley)",
-      "Dense, uniform intramuscular marbling"
+      "Wheat bread baked with electrical current without dark crust"
     ],
-    "flavorProfile": "Incredibly buttery, deep, savory beef flavor. Due to high intramuscular marbling, the steak self-bastes on the grill and melts on the palate.",
-    "culinaryUsage": "Prime rib eye, rump cap, striploin, and the basis for our luxury burgers and wood-fired pastrami.",
+    "flavorProfile": "Neutral vehicle for savory seasoning that yields incomparable long-lasting crispness.",
+    "culinaryUsage": "Larger jagged flakes absorb far less oil than ordinary breadcrumbs, keeping fried foods light and crisp.",
     "fuzeMenuAppearances": [
-      "US Prime beef rump cap from the wood-fired grill",
-      "US Prime rib eye from the grill",
-      "US Prime beef burger with bacon and cheddar",
-      "Our pastrami from US Prime beef ribs"
+      "Crispy croquettes and fried specialties"
     ],
-    "staffTips": "Key selling point: US Prime is the guaranteed highest grade of American beef available (superior to Choice and Select), offering peak marbling and succulence.",
+    "staffTips": "Panko breadcrumbs stay crisp much longer and feel significantly lighter than ordinary dense breadcrumbs.",
     "tags": [
-      "beef",
-      "meat",
-      "steaks",
-      "USA",
-      "marbling",
-      "grill"
+      "breadcrumbs",
+      "crisp",
+      "frying",
+      "Japan"
     ]
   },
   {
-    "id": "picanha-kvetova-spicka",
-    "name": "Beef Rump Cap (Picanha)",
-    "originalTerm": "Picanha / Rump Cap / Tafelspitz",
-    "category": "meat_cuts",
-    "categoryName": "Meat & Steak Cuts",
-    "origin": "Brazil / South America & Austria",
-    "shortDescription": "Triangular muscle from the top of the rump (biceps femoris) crowned with a signature layer of crisp white fat cap.",
+    "id": "parmazan-parmigiano-reggiano",
+    "name": "Parmesan (Parmigiano Reggiano & Grana Padano)",
+    "originalTerm": "Parmigiano Reggiano DOP / Grana Padano DOP (Italy)",
+    "category": "gourmet_ingredients",
+    "categoryName": "Gourmet Ingredients",
+    "origin": "Italy (Emilia-Romagna: Parma, Reggio Emilia, Modena, Mantua, Bologna)",
+    "shortDescription": "The undisputed King of Italian hard cheeses with Protected Designation of Origin (DOP). Aged from 12 to 48+ months with signature umami tyrosine crystals.",
     "ingredients": [
-      "Beef top sirloin cap (rump cap)",
-      "Fat cap (renders during roasting to baste and protect the meat)"
+      "Unpasteurized whole raw cow's milk (grass and hay fed only, strictly zero silage)",
+      "Natural whey starter culture and calf rennet",
+      "Natural sea salt brine bath (100% free of additives or preservatives)"
     ],
-    "flavorProfile": "Intense beefiness, firm yet tender texture. The melting fat cap bastes the cut continuously during grilling, providing profound savory depth.",
-    "culinaryUsage": "Queen of Brazilian churrasco, central to Austrian Tafelspitz, and in modern gastropubs an outstanding steak and hand-cut tartare cut.",
+    "flavorProfile": "Extraordinarily complex, deeply nutty, buttery, and savory with concentrated natural Umami and crunchy tyrosine flavor crystals.",
+    "culinaryUsage": "Grated over pasta, whipped into risottos (mantecatura technique), shaved on beef carpaccio, steak tartare, and salads. The natural rind is simmered in broths.",
     "fuzeMenuAppearances": [
-      "Hand-cut beef tartare from rump cap",
-      "US Prime beef rump cap from the wood-fired grill with Padrón peppers"
+      "Sliced beef tartare with parmesan emulsion and crisp parmesan crust",
+      "Beef carpaccio with shaved parmesan, wild arugula, and extra virgin olive oil",
+      "Housemade creamy risotto and artisan pasta dishes"
     ],
-    "staffTips": "Share with guests that our tartare isn't ground from bland tenderloin, but hand-sliced from rump cap, which offers vastly superior natural beef flavor.",
+    "staffTips": "How to explain origins and aging tiers to guests: 1. ORIGIN & DOP: Authentic Parmigiano Reggiano DOP is made exclusively in 5 provinces of Emilia-Romagna using raw milk from cows fed strictly grass/hay (no silage/additives). Grana Padano covers a broader Po Valley region and allows lysozyme. 2. AGING STAGES (Stagionatura): • Mezzano (12–18 mos): mild, buttery, floral; • Vecchio / Classic (18–24 mos): perfect balance of dried fruit, nuts, and bouillon with early crunchy crystals; • Stravecchio (22–36 mos): intense, crumbly, packed with Umami; • Extra Stravecchio (36–48+ mos): elite vintage cheese with deep notes of nutmeg, cocoa, and tobacco. 3. CHEF TRICK: We never throw away Parmigiano rinds – cleaned rinds are simmered in beef consommé and tomato sauces to infuse rich Umami.",
     "tags": [
-      "beef",
-      "picanha",
-      "steak",
-      "tartare",
-      "meat"
-    ]
-  },
-  {
-    "id": "rib-eye-rostenec",
-    "name": "Rib Eye (Entrecôte)",
-    "originalTerm": "Rib Eye Steak / Entrecôte",
-    "category": "meat_cuts",
-    "categoryName": "Meat & Steak Cuts",
-    "origin": "Classic beef cut (France / USA)",
-    "shortDescription": "The juiciest and most popular steak cut from the rib section, featuring an unmistakable central eye of marbling fat.",
-    "ingredients": [
-      "Beef rib section between the 6th and 12th ribs",
-      "Central fat eye and extensive intramuscular marbling"
-    ],
-    "flavorProfile": "Robust, succulent, deeply savory. The central fat kernel melts under intense heat, basting the meat from within.",
-    "culinaryUsage": "Best cooked over high heat (charcoal, Josper, cast iron). Recommended Medium-Rare to Medium so the rich marbling fully renders.",
-    "fuzeMenuAppearances": [
-      "US Prime rib eye from the grill with blistered Padrón peppers"
-    ],
-    "staffTips": "Recommend Medium Rare to Medium. With a marbled rib eye, rendering that interior fat creates an incomparably flavorful steak.",
-    "tags": [
-      "beef",
-      "steak",
-      "grill",
-      "rib eye",
-      "roštěnec"
+      "parmesan",
+      "parmigiano reggiano",
+      "grana padano",
+      "cheese",
+      "Italy",
+      "DOP",
+      "umami",
+      "tartare"
     ]
   },
   {
@@ -355,6 +874,34 @@ export const CULINARY_TERMS_EN: CulinaryTerm[] = [
       "beef",
       "sandwich",
       "bakery"
+    ]
+  },
+  {
+    "id": "bramborova-slama",
+    "name": "Potato Straw (Pommes Pailles)",
+    "originalTerm": "Pommes pailles (France)",
+    "category": "culinary_techniques",
+    "categoryName": "Cooking Techniques",
+    "origin": "France",
+    "shortDescription": "Potatoes sliced into matchstick-thin threads (~1 mm), rinsed of starch, and flash-fried into an airy, golden crispy nest.",
+    "ingredients": [
+      "High-starch baking potatoes",
+      "High smoke-point frying oil",
+      "Fine sea salt"
+    ],
+    "flavorProfile": "Crisp, airy, light crunch with a clean roasted potato taste without greasiness.",
+    "culinaryUsage": "Used as a decorative, textured garnish providing vertical height and delicate crisp contrast.",
+    "fuzeMenuAppearances": [
+      "Hand-cut beef tartare from rump cap (crowned with potato straw)",
+      "Potato mash with butter and potato straw"
+    ],
+    "staffTips": "On both tartare and mashed potatoes, the straw provides an enjoyable crunchy contrast to the smooth textures underneath.",
+    "tags": [
+      "potatoes",
+      "crisps",
+      "crunch",
+      "tartare",
+      "garnish"
     ]
   },
   {
@@ -410,90 +957,223 @@ export const CULINARY_TERMS_EN: CulinaryTerm[] = [
     ]
   },
   {
-    "id": "parmazan-parmigiano-reggiano",
-    "name": "Parmesan (Parmigiano Reggiano & Grana Padano)",
-    "originalTerm": "Parmigiano Reggiano DOP / Grana Padano DOP (Italy)",
-    "category": "gourmet_ingredients",
-    "categoryName": "Gourmet Ingredients",
-    "origin": "Italy (Emilia-Romagna: Parma, Reggio Emilia, Modena, Mantua, Bologna)",
-    "shortDescription": "The undisputed King of Italian hard cheeses with Protected Designation of Origin (DOP). Aged from 12 to 48+ months with signature umami tyrosine crystals.",
+    "id": "rib-eye-rostenec",
+    "name": "Rib Eye (Entrecôte)",
+    "originalTerm": "Rib Eye Steak / Entrecôte",
+    "category": "meat_cuts",
+    "categoryName": "Meat & Steak Cuts",
+    "origin": "Classic beef cut (France / USA)",
+    "shortDescription": "The juiciest and most popular steak cut from the rib section, featuring an unmistakable central eye of marbling fat.",
     "ingredients": [
-      "Unpasteurized whole raw cow's milk (grass and hay fed only, strictly zero silage)",
-      "Natural whey starter culture and calf rennet",
-      "Natural sea salt brine bath (100% free of additives or preservatives)"
+      "Beef rib section between the 6th and 12th ribs",
+      "Central fat eye and extensive intramuscular marbling"
     ],
-    "flavorProfile": "Extraordinarily complex, deeply nutty, buttery, and savory with concentrated natural Umami and crunchy tyrosine flavor crystals.",
-    "culinaryUsage": "Grated over pasta, whipped into risottos (mantecatura technique), shaved on beef carpaccio, steak tartare, and salads. The natural rind is simmered in broths.",
+    "flavorProfile": "Robust, succulent, deeply savory. The central fat kernel melts under intense heat, basting the meat from within.",
+    "culinaryUsage": "Best cooked over high heat (charcoal, Josper, cast iron). Recommended Medium-Rare to Medium so the rich marbling fully renders.",
     "fuzeMenuAppearances": [
-      "Sliced beef tartare with parmesan emulsion and crisp parmesan crust",
-      "Beef carpaccio with shaved parmesan, wild arugula, and extra virgin olive oil",
-      "Housemade creamy risotto and artisan pasta dishes"
+      "US Prime rib eye from the grill with blistered Padrón peppers"
     ],
-    "staffTips": "How to explain origins and aging tiers to guests: 1. ORIGIN & DOP: Authentic Parmigiano Reggiano DOP is made exclusively in 5 provinces of Emilia-Romagna using raw milk from cows fed strictly grass/hay (no silage/additives). Grana Padano covers a broader Po Valley region and allows lysozyme. 2. AGING STAGES (Stagionatura): • Mezzano (12–18 mos): mild, buttery, floral; • Vecchio / Classic (18–24 mos): perfect balance of dried fruit, nuts, and bouillon with early crunchy crystals; • Stravecchio (22–36 mos): intense, crumbly, packed with Umami; • Extra Stravecchio (36–48+ mos): elite vintage cheese with deep notes of nutmeg, cocoa, and tobacco. 3. CHEF TRICK: We never throw away Parmigiano rinds – cleaned rinds are simmered in beef consommé and tomato sauces to infuse rich Umami.",
+    "staffTips": "Recommend Medium Rare to Medium. With a marbled rib eye, rendering that interior fat creates an incomparably flavorful steak.",
     "tags": [
-      "parmesan",
-      "parmigiano reggiano",
-      "grana padano",
-      "cheese",
-      "Italy",
-      "DOP",
-      "umami",
-      "tartare"
+      "beef",
+      "steak",
+      "grill",
+      "rib eye",
+      "roštěnec"
     ]
   },
   {
-    "id": "foie-gras",
-    "name": "Foie Gras",
-    "originalTerm": "Foie gras (France)",
-    "category": "gourmet_ingredients",
-    "categoryName": "Gourmet Ingredients",
-    "origin": "France",
-    "shortDescription": "Iconic French culinary delicacy – naturally fattened duck or goose liver celebrated for its silky, buttery richness.",
+    "id": "majoneza-z-pecene-cibule",
+    "name": "Roasted Onion Mayonnaise (Majonéza z pečené cibule)",
+    "originalTerm": "Roasted Onion Mayonnaise",
+    "category": "sauces_dressings",
+    "categoryName": "Sauces & Salsas",
+    "origin": "Modern craft gastronomy & steakhouse dining",
+    "shortDescription": "Velvety mayonnaise blended with whole onions slow-roasted to golden caramelization in our oven, pureed into a silky emulsion with mild Dijon and vinegar.",
     "ingredients": [
-      "Duck liver (Foie gras de canard)",
-      "Cognac or Armagnac and port wine marinade",
-      "White pepper, nutmeg, fine sea salt",
-      "Kasteel Rouge cherry beer jelly"
+      "Whole sweet onions roasted in the clay oven until deeply caramelized",
+      "Pasteurized egg yolks (allergen 3 – eggs)",
+      "Selected neutral oil",
+      "Smooth Dijon mustard (allergen 10 – mustard)",
+      "White wine vinegar and lemon juice",
+      "Sea salt and freshly ground black pepper"
     ],
-    "flavorProfile": "Extraordinarily rich, velvety, buttery mouthfeel that literally melts at body temperature.",
-    "culinaryUsage": "Prepared into fine terrines and pâtés, or flash-seared in a pan. Always demands an acidic or fruit-sweet counterpart.",
+    "flavorProfile": "Exceptionally smooth, savory-sweet roasted onion essence with subtle nutty undertones and a delicate, creamy mouthfeel.",
+    "culinaryUsage": "Decadent sauce for gourmet burgers featuring foie gras and blue cheese, grilled beef steaks, and roasted potato sides.",
     "fuzeMenuAppearances": [
-      "Duck foie gras pâté in Kasteel Rouge cherry beer jelly, cherry sauce, toasted butter brioche"
+      "Beef Burger with Smoked Blue Cheese & Duck Foie Gras (roasted onion mayonnaise, potato straw, small house fries)"
     ],
-    "staffTips": "Recommend pairing with our draft Belgian Kasteel Rouge cherry beer or a glass of Pálava wine – the fruit sweetness and acidity create heavenly harmony.",
+    "staffTips": "Contains allergens 3 (eggs) and 10 (mustard). The roasted onion gives a mellow roasted sweetness that bridges the intense salty funk of the smoked Niva blue cheese with the lush decadence of duck foie gras.",
     "tags": [
+      "roasted onion mayonnaise",
+      "majonéza z pečené cibule",
+      "roasted onion",
+      "burger",
       "foie gras",
-      "duck liver",
-      "pâté",
-      "France",
-      "delicacy"
+      "mayo",
+      "sauce"
     ]
   },
   {
-    "id": "consomme",
-    "name": "Beef Consommé",
-    "originalTerm": "Consommé de bœuf (France)",
-    "category": "gourmet_ingredients",
-    "categoryName": "Gourmet Ingredients",
-    "origin": "France",
-    "shortDescription": "Crystal-clear, deeply concentrated double beef broth clarified through the classical egg white and lean beef raft technique.",
+    "id": "salsa-verde",
+    "name": "Salsa Verde",
+    "originalTerm": "Salsa verde (Italy / Mediterranean)",
+    "category": "sauces_dressings",
+    "categoryName": "Sauces & Salsas",
+    "origin": "Italy (Piedmont / Lombardy)",
+    "shortDescription": "Traditional Mediterranean uncooked green herb salsa loaded with natural umami from salted anchovies and pickled capers.",
     "ingredients": [
-      "Beef bones and shank slowly simmered for hours",
-      "Root vegetables (carrots, celery, parsley root, leek)",
-      "Clarification raft: egg whites, lean ground beef, aromatics",
-      "Delicate beef liver dumpling"
+      "Fresh flat-leaf parsley",
+      "Salted anchovy fillets",
+      "Brined capers",
+      "Garlic",
+      "Dijon mustard or white bread crumb soaked in vinegar",
+      "Extra virgin olive oil and a dash of wine vinegar"
     ],
-    "flavorProfile": "Pure, deep essence of roasted beef with high natural gelatin content that coats the palate with a velvet sheen.",
-    "culinaryUsage": "Served piping hot as an elegant soup course with fine vegetable garnishes and delicate dumplings.",
+    "flavorProfile": "Herbaceous, savory, tangy with deep umami. More punchy and savory than chimichurri thanks to anchovies and capers.",
+    "culinaryUsage": "Classic accompaniment to boiled and roasted meats (bollito misto), wood-oven fish, and grilled vegetables.",
     "fuzeMenuAppearances": [
-      "Beef consommé with delicate liver dumpling and root vegetables"
+      "Fried chicken croquettes (starter)",
+      "Thor's Hammer beef knuckle (from wood-oven / slow braised)",
+      "Our salsa verde (standalone cold sauce for grilled meats)"
     ],
-    "staffTips": "Guests appreciate understanding the craftsmanship: consommé is not ordinary broth, but a double-reduced stock clarified with egg whites over hours of gentle simmering.",
+    "staffTips": "Explain the difference: Chimichurri is oregano- and chilli-based, whereas Italian Salsa Verde derives its umami depth from capers and anchovies.",
     "tags": [
-      "soup",
-      "broth",
-      "consommé",
-      "French technique"
+      "sauce",
+      "herbs",
+      "anchovies",
+      "capers",
+      "Italy"
+    ]
+  },
+  {
+    "id": "pikantni-majoneza",
+    "name": "Spicy Mayonnaise (Pikantní majonéza)",
+    "originalTerm": "Spicy Mayo / Mayonnaise Épicée",
+    "category": "sauces_dressings",
+    "categoryName": "Sauces & Salsas",
+    "origin": "Modern burger & street food gastronomy",
+    "shortDescription": "Rich creamy emulsion of egg yolks, vegetable oil, chilli peppers, and a splash of citrus acidity. Delivers a vibrant, spicy punch to burgers and grilled meats.",
+    "ingredients": [
+      "Pasteurized egg yolks (allergen 3 – eggs)",
+      "High quality vegetable oil",
+      "Chilli paste / crushed chillies (sriracha / cayenne)",
+      "Dijon mustard (allergen 10 – mustard)",
+      "Fresh lemon juice and apple cider vinegar",
+      "Sea salt and white pepper"
+    ],
+    "flavorProfile": "Creamy, rich and pleasantly warm with bright citrus acidity and a clean, lingering chilli kick.",
+    "culinaryUsage": "Signature dressing for our beef burgers, crispy bacon sandwiches, french fries, and fried prawns.",
+    "fuzeMenuAppearances": [
+      "US Prime Beef Burger (crispy bacon, cheddar, onion jam, spicy mayonnaise)"
+    ],
+    "staffTips": "Contains allergens 3 (eggs) and 10 (mustard). In the US Prime burger, it creates a sensational contrast with the sweet onion jam – the onion sweetness tames the heat while magnifying the beefiness of the prime patty.",
+    "tags": [
+      "spicy mayonnaise",
+      "pikantní majonéza",
+      "spicy mayo",
+      "chilli",
+      "burger",
+      "us prime",
+      "sauce"
+    ]
+  },
+  {
+    "id": "pikantni-zauzena-majoneza",
+    "name": "Spicy Smoked Mayonnaise (Pikantní zauzená majonéza)",
+    "originalTerm": "Spicy Smoked Mayonnaise",
+    "category": "sauces_dressings",
+    "categoryName": "Sauces & Salsas",
+    "origin": "Modern craft smokehouse gastronomy",
+    "shortDescription": "Thick emulsion of fresh egg yolks, beechwood-smoked oil, smoked Spanish paprika, and fiery chilli peppers rounded out with a touch of cream.",
+    "ingredients": [
+      "Pasteurized egg yolks (allergen 3 – eggs)",
+      "Beechwood-smoked vegetable oil and Spanish smoked paprika (Pimentón)",
+      "Chilli peppers (chipotle / cayenne) for vibrant warmth",
+      "Fresh lemon juice and vinegar",
+      "Touch of dairy milk / cream (allergen 7 – milk)",
+      "Sea salt and freshly ground pepper"
+    ],
+    "flavorProfile": "Silky smooth, rich, and savory with prominent campfire woodsmoke notes and an invigorating, lingering spicy chilli kick.",
+    "culinaryUsage": "Ultimate cold dipping sauce for house fries, fried crispy bites, burgers, pulled meats, and clay oven chicken.",
+    "fuzeMenuAppearances": [
+      "Spicy Smoked Mayonnaise (standalone cold dip / sauce)",
+      "Recommended dip for homemade fries and grilled dishes"
+    ],
+    "staffTips": "Contains allergens 3 (eggs) and 7 (milk). Highlight its pleasant smoky warmth – it is our guests' top choice with our freshly cut fries and TransFUZE beer.",
+    "tags": [
+      "spicy smoked mayonnaise",
+      "pikantní zauzená majonéza",
+      "mayonnaise",
+      "smoked",
+      "chilli",
+      "dip",
+      "fries",
+      "cold sauce"
+    ]
+  },
+  {
+    "id": "omacka-lanyzova",
+    "name": "Truffle Sauce (Lanýžová omáčka)",
+    "originalTerm": "Sauce à la Truffe (France / Italy)",
+    "category": "sauces_dressings",
+    "categoryName": "Sauces & Salsas",
+    "origin": "France / Italy (Piedmont / Périgord)",
+    "shortDescription": "Luxurious warm creamy sauce enriched with heavy cream and butter, infused with black truffles, truffle butter, and light stock.",
+    "ingredients": [
+      "Real black truffles and concentrated truffle paste",
+      "Artisanal truffle butter and dairy butter (allergen 7 – milk)",
+      "Fresh double cream (allergen 7 – milk)",
+      "Reduced light veal stock / aromatics",
+      "Shallots, smooth Dijon mustard (allergen 10 – mustard), and ground white pepper"
+    ],
+    "flavorProfile": "Deeply aromatic, earthy, and mushroom-forward with the unmistakable decadence of black truffle, smooth velvety cream, and subtle savory seasoning.",
+    "culinaryUsage": "Featured with our in-house veal morel sausage, prime beef steaks, clay oven roasted chicken, and creamy potato sides.",
+    "fuzeMenuAppearances": [
+      "Warm Truffle Sauce (standalone warm sauce on the FUZE menu)",
+      "In-house veal sausage with morels, chestnuts, dried prunes, truffle sauce, beer biscuit"
+    ],
+    "staffTips": "Contains allergens 7 (milk) and 10 (mustard). The warm creamy emulsion releases the aroma of black truffles across the palate. Pairs exceptionally well with Pinot Noir or Nina Cuvée.",
+    "tags": [
+      "truffle sauce",
+      "lanýžová omáčka",
+      "truffle",
+      "sauce",
+      "morels",
+      "sausage",
+      "steaks",
+      "warm sauce"
+    ]
+  },
+  {
+    "id": "us-prime",
+    "name": "US Prime Beef",
+    "originalTerm": "USDA Prime Beef (USA)",
+    "category": "meat_cuts",
+    "categoryName": "Meat & Steak Cuts",
+    "origin": "United States (USDA Certification Grade)",
+    "shortDescription": "The pinnacle of American beef – the highest quality grade awarded to less than 3% of all graded cattle in the USA.",
+    "ingredients": [
+      "Young grain-fed beef (predominantly Black Angus breed)",
+      "Extended grain finishing (corn, barley)",
+      "Dense, uniform intramuscular marbling"
+    ],
+    "flavorProfile": "Incredibly buttery, deep, savory beef flavor. Due to high intramuscular marbling, the steak self-bastes on the grill and melts on the palate.",
+    "culinaryUsage": "Prime rib eye, rump cap, striploin, and the basis for our luxury burgers and wood-fired pastrami.",
+    "fuzeMenuAppearances": [
+      "US Prime beef rump cap from the wood-fired grill",
+      "US Prime rib eye from the grill",
+      "US Prime beef burger with bacon and cheddar",
+      "Our pastrami from US Prime beef ribs"
+    ],
+    "staffTips": "Key selling point: US Prime is the guaranteed highest grade of American beef available (superior to Choice and Select), offering peak marbling and succulence.",
+    "tags": [
+      "beef",
+      "meat",
+      "steaks",
+      "USA",
+      "marbling",
+      "grill"
     ]
   },
   {
@@ -521,223 +1201,6 @@ export const CULINARY_TERMS_EN: CulinaryTerm[] = [
       "dessert",
       "caramel",
       "hops"
-    ]
-  },
-  {
-    "id": "ganache",
-    "name": "Ganache",
-    "originalTerm": "Ganache (France)",
-    "category": "pastry_sweets",
-    "categoryName": "Pastry & Sweets",
-    "origin": "France / Switzerland (Parisian confectioner Siraudin, circa 1860)",
-    "shortDescription": "Pillar of French pastry – a glossy emulsion of hot heavy cream and couverture chocolate.",
-    "ingredients": [
-      "Premium couverture chocolate (dark, milk, or blond)",
-      "Fresh high-fat heavy whipping cream (min. 35% fat)",
-      "Butter or glucose for velvety sheen and elasticity"
-    ],
-    "flavorProfile": "Silky-smooth, luscious cream that melts evenly across the tongue, delivering pure chocolate essence.",
-    "culinaryUsage": "Filling for cakes, macarons, tarts, truffles, and modern sculpted desserts.",
-    "fuzeMenuAppearances": [
-      "Hop-cone shaped ganache cakes"
-    ],
-    "staffTips": "Proper emulsification produces a lump-free, velvety texture that forms the creamy heart of our signature dessert.",
-    "tags": [
-      "pastry",
-      "ganache",
-      "chocolate",
-      "cream",
-      "dessert"
-    ]
-  },
-  {
-    "id": "espuma",
-    "name": "Espuma",
-    "originalTerm": "Espuma (Spain)",
-    "category": "culinary_techniques",
-    "categoryName": "Cooking Techniques",
-    "origin": "Spain (Catalonia, Chef Ferran Adrià at elBulli)",
-    "shortDescription": "Modern culinary technique producing ethereal foam in a pressurized siphon canister using nitrous oxide (N2O).",
-    "ingredients": [
-      "Flavored liquid base or purée (semolina cream, milk, vanilla)",
-      "Natural binding agent (fat, gelatin, agar, or albumin)",
-      "Food-grade N2O nitrous oxide gas"
-    ],
-    "flavorProfile": "Weightless as a cloud, releasing flavor compounds and aromas instantly on the tongue without heavy density.",
-    "culinaryUsage": "Transforms traditional hearty dishes into modern, airy textures.",
-    "fuzeMenuAppearances": [
-      "Semolina porridge made from espuma with cocoa and melted butter"
-    ],
-    "staffTips": "Our semolina porridge isn't heavy pot porridge – thanks to the culinary siphon, it is an astonishingly light, cloud-like cream beloved by both kids and adults.",
-    "tags": [
-      "espuma",
-      "molecular gastronomy",
-      "siphon",
-      "semolina"
-    ]
-  },
-  {
-    "id": "brioche",
-    "name": "Brioche",
-    "originalTerm": "Brioche (France, Normandy)",
-    "category": "pastry_sweets",
-    "categoryName": "Pastry & Bakery",
-    "origin": "France (Normandy, 15th century)",
-    "shortDescription": "Enriched French yeast bread packed with butter and eggs, creating a golden crust and tender, feather-light crumb.",
-    "ingredients": [
-      "Wheat flour",
-      "Exceptionally high butter proportion (up to 50% flour weight)",
-      "Fresh eggs and egg yolks",
-      "Milk, yeast, pinch of sugar and sea salt"
-    ],
-    "flavorProfile": "Rich, buttery, mildly sweet with a delicate golden crust and pillow-soft interior crumb.",
-    "culinaryUsage": "Sliced and toasted to accompany pâtés and foie gras, or baked into premium burger and rib buns.",
-    "fuzeMenuAppearances": [
-      "Toasted butter brioche with duck foie gras pâté",
-      "Toasted garlic brioche with beer-glazed pork ribs",
-      "Toasted garlic brioche (standalone side)"
-    ],
-    "staffTips": "The butter richness in brioche absorbs the savory juices from ribs and pairs flawlessly with foie gras.",
-    "tags": [
-      "brioche",
-      "bakery",
-      "butter",
-      "France",
-      "side"
-    ]
-  },
-  {
-    "id": "smrze",
-    "name": "Morels (Morchella)",
-    "originalTerm": "Morchella / Morels",
-    "category": "gourmet_ingredients",
-    "categoryName": "Gourmet Ingredients",
-    "origin": "Temperate woodland zones of Europe and North America",
-    "shortDescription": "Among the most sought-after and precious wild spring mushrooms, recognizable by their hollow honeycomb-like cap.",
-    "ingredients": [
-      "Authentic wild morel mushrooms (dried or fresh spring harvest)",
-      "Hollow fruiting bodies packed with aromatic savory compounds"
-    ],
-    "flavorProfile": "Deeply earthy, nutty, woody, and meaty with intense umami that enriches sauces and farce.",
-    "culinaryUsage": "Sautéed in butter, folded into artisanal sausages, terrines, and cream reductions for veal and poultry.",
-    "fuzeMenuAppearances": [
-      "Our veal sausage with morels, chestnuts, and prunes, truffle sauce"
-    ],
-    "staffTips": "In gastronomy, morels rank right behind truffles as royalty among mushrooms. They lend our veal sausage an unmistakable noble depth.",
-    "tags": [
-      "mushrooms",
-      "morels",
-      "delicacy",
-      "veal",
-      "forest"
-    ]
-  },
-  {
-    "id": "yuzu",
-    "name": "Yuzu",
-    "originalTerm": "Yuzu / Citrus junos (East Asia)",
-    "category": "world_flavors",
-    "categoryName": "World & Asian Flavors",
-    "origin": "Japan and East Asia",
-    "shortDescription": "Prized Asian citrus fruit with an extraordinarily complex, intensely aromatic essential oil profile.",
-    "ingredients": [
-      "Pure juice and zest of Yuzu citrus fruit (Citrus junos)"
-    ],
-    "flavorProfile": "A captivating fusion echoing mandarin orange, bitter grapefruit, lime, and delicate floral jasmine blossoms.",
-    "culinaryUsage": "Glazes, dressings, dipping sauces for rich meats, refined pastries, and craft cocktails.",
-    "fuzeMenuAppearances": [
-      "Grilled pork belly with caramelized yuzu sauce and chimichurri"
-    ],
-    "staffTips": "The yuzu in our pork belly glaze brings the signature Asian 'fuze' dimension, transforming a classic pork roast into a modern gastronomic experience.",
-    "tags": [
-      "yuzu",
-      "citrus",
-      "Japan",
-      "pork belly",
-      "glaze"
-    ]
-  },
-  {
-    "id": "confit-cesnek",
-    "name": "Confit Garlic",
-    "originalTerm": "Ail confit (France)",
-    "category": "culinary_techniques",
-    "categoryName": "Cooking Techniques",
-    "origin": "France (Southwest)",
-    "shortDescription": "Classical technique of slowly poaching whole garlic cloves fully submerged in fat at a gentle temperature (~85°C).",
-    "ingredients": [
-      "Whole peeled garlic cloves",
-      "Quality oil, beef tallow, or duck fat",
-      "Thyme, rosemary, and black peppercorns"
-    ],
-    "flavorProfile": "Cooking removes all harsh sulfurous pungency, leaving cloves butter-soft, sweet, and nutty with caramel notes.",
-    "culinaryUsage": "Spread over warm sourdough toast, folded into mashed potatoes, or used as a sweet aromatic base in pan sauces.",
-    "fuzeMenuAppearances": [
-      "Sliced beef tartare with toast fried in beef tallow and confit garlic"
-    ],
-    "staffTips": "Guests sensitive to raw garlic can enjoy confit garlic without worry – it is gentle, sweet, and highly digestible.",
-    "tags": [
-      "garlic",
-      "confit",
-      "tartare",
-      "toast",
-      "French technique"
-    ]
-  },
-  {
-    "id": "bramborova-slama",
-    "name": "Potato Straw (Pommes Pailles)",
-    "originalTerm": "Pommes pailles (France)",
-    "category": "culinary_techniques",
-    "categoryName": "Cooking Techniques",
-    "origin": "France",
-    "shortDescription": "Potatoes sliced into matchstick-thin threads (~1 mm), rinsed of starch, and flash-fried into an airy, golden crispy nest.",
-    "ingredients": [
-      "High-starch baking potatoes",
-      "High smoke-point frying oil",
-      "Fine sea salt"
-    ],
-    "flavorProfile": "Crisp, airy, light crunch with a clean roasted potato taste without greasiness.",
-    "culinaryUsage": "Used as a decorative, textured garnish providing vertical height and delicate crisp contrast.",
-    "fuzeMenuAppearances": [
-      "Hand-cut beef tartare from rump cap (crowned with potato straw)",
-      "Potato mash with butter and potato straw"
-    ],
-    "staffTips": "On both tartare and mashed potatoes, the straw provides an enjoyable crunchy contrast to the smooth textures underneath.",
-    "tags": [
-      "potatoes",
-      "crisps",
-      "crunch",
-      "tartare",
-      "garnish"
-    ]
-  },
-  {
-    "id": "kasteel-rouge",
-    "name": "Kasteel Rouge Beer",
-    "originalTerm": "Kasteel Rouge (Belgium)",
-    "category": "gourmet_ingredients",
-    "categoryName": "Beers & Culinary Ingredients",
-    "origin": "Belgium (Ingelmunster, Van Honsebrouck Family Brewery)",
-    "shortDescription": "Celebrated Belgian strong top-fermented ale (8.0% ABV) aged 6 months on authentic ripe sour cherries.",
-    "ingredients": [
-      "Dark Belgian specialty beer base (Kasteel Donker)",
-      "Real sour cherries and pure cherry juice",
-      "Barley malt, hops, water, and Belgian ale yeast"
-    ],
-    "flavorProfile": "Deep ruby color, luscious sweet-tart cherry flavor, notes of dark chocolate, almonds, and port wine with a warming alcoholic finish.",
-    "culinaryUsage": "Poured on draft at our bar, and reduced in the Fuze kitchen into a glossy beer jelly atop duck foie gras.",
-    "fuzeMenuAppearances": [
-      "Duck foie gras pâté in Kasteel Rouge cherry beer jelly, cherry reduction",
-      "Kasteel Rouge 18 – on tap 0.25l"
-    ],
-    "staffTips": "A great example of bar and kitchen collaboration: the Belgian cherry ale we pour on draft is reduced by our chefs to glaze our foie gras pâté!",
-    "tags": [
-      "Belgian beer",
-      "cherries",
-      "foie gras",
-      "jelly",
-      "draft beer"
     ]
   },
   {
@@ -770,277 +1233,28 @@ export const CULINARY_TERMS_EN: CulinaryTerm[] = [
     ]
   },
   {
-    "id": "demi-glace",
-    "name": "Demi-Glace",
-    "originalTerm": "Demi-glace (France)",
-    "category": "culinary_techniques",
-    "categoryName": "Cooking Techniques & Foundations",
-    "origin": "France (Auguste Escoffier)",
-    "shortDescription": "The crown jewel of brown sauces – rich roasted veal stock reduced slowly to a glossy, gelatinous essence.",
-    "ingredients": [
-      "Roasted veal and beef marrow bones rich in collagen",
-      "Mirepoix root vegetables (carrots, celery, onions)",
-      "Red wine, tomato paste, bouquet garni (thyme, bay leaf)",
-      "Simmered and reduced for over 24 hours"
-    ],
-    "flavorProfile": "Massive concentration of pure umami, savory roast notes, and mouth-coating gelatinous body.",
-    "culinaryUsage": "Foundation for our warm cognac sauce, truffle reduction, and steak gravies.",
-    "fuzeMenuAppearances": [
-      "Warm cognac sauce",
-      "Warm truffle sauce",
-      "Base of pan jus for roasted meats and ribs"
-    ],
-    "staffTips": "A true hallmark of scratch cooking: no flour or artificial thickeners, our sauces achieve body purely through slow reduction and natural collagen.",
-    "tags": [
-      "stock",
-      "reduction",
-      "umami",
-      "veal",
-      "sauces"
-    ]
-  },
-  {
-    "id": "kaiserschmarrn",
-    "name": "Caramelized Kaiserschmarrn",
-    "originalTerm": "Kaiserschmarrn (Austro-Hungarian Empire)",
-    "category": "pastry_sweets",
-    "categoryName": "Pastry & Sweets",
-    "origin": "Austria (favorite dessert of Emperor Franz Joseph I)",
-    "shortDescription": "Imperial fluffy shredded pancake soufflé cooked in butter, torn with two forks, and caramelized with sugar in the pan.",
-    "ingredients": [
-      "Egg yolks and whipped egg white meringue",
-      "Flour, whole milk, and butter",
-      "Clarified butter for pan searing",
-      "Pan-caramelized sugar glaze",
-      "Roasted spiced plums and egg liqueur ice cream"
-    ],
-    "flavorProfile": "Fluffy, cloud-soft interior with a crackling caramelized sugar crust, paired with warm tart plums and cooling rich ice cream.",
-    "culinaryUsage": "Prepared to order and served steaming hot straight from the skillet alongside cool ice cream.",
-    "fuzeMenuAppearances": [
-      "Caramelized Kaiserschmarrn with roasted plums and egg liqueur ice cream"
-    ],
-    "staffTips": "A great sharing dessert for the table after dinner with an espresso or digestive drink.",
-    "tags": [
-      "dessert",
-      "shredded pancake",
-      "Kaiserschmarrn",
-      "plums",
-      "caramel"
-    ]
-  },
-  {
-    "id": "humri-bisque",
-    "name": "Creamy Lobster Soup (Bisque)",
-    "originalTerm": "Bisque de homard (France)",
-    "category": "gourmet_ingredients",
-    "categoryName": "Gourmet Ingredients",
-    "origin": "France (Bay of Biscay)",
-    "shortDescription": "One of the most luxurious seafood soups in the world, prepared by roasting crustacean shells, flambéing with cognac, and simmering with wine and cream.",
-    "ingredients": [
-      "Lobster and shrimp shells and claws",
-      "Cognac for flambéing and white wine",
-      "Shallots, celery, fennel, and tomato paste",
-      "Heavy cream",
-      "Sausage and vegetable garnish, baked under puff pastry"
-    ],
-    "flavorProfile": "Deeply savory, sweet-mineral crustacean richness with smoky cognac nuance and a velvety cream finish.",
-    "culinaryUsage": "Served piping hot in a bowl sealed with a domed puff pastry crust that locks in aromatic steam.",
-    "fuzeMenuAppearances": [
-      "Creamy lobster soup with sausage and vegetables, baked under puff pastry"
-    ],
-    "staffTips": "Allergen reminder: contains crustaceans (no. 2) and fish. The puff pastry dome presentation is an eye-catching table favorite.",
-    "tags": [
-      "lobster",
-      "soup",
-      "bisque",
-      "crustaceans",
-      "puff pastry"
-    ]
-  },
-  {
-    "id": "pak-choi",
-    "name": "Pak Choi",
-    "originalTerm": "Bok Choy / Pak Choi (China)",
-    "category": "world_flavors",
-    "categoryName": "World & Asian Flavors",
-    "origin": "China / East Asia",
-    "shortDescription": "Crisp Chinese cabbage featuring juicy white stems and tender dark green leaves.",
-    "ingredients": [
-      "100% fresh Brassica rapa subsp. Chinensis"
-    ],
-    "flavorProfile": "Mild, fresh, pleasantly sweet and crisp with a gentle peppery undertone.",
-    "culinaryUsage": "Flash-stir-fried on a wok or grill to keep the stems snappy while wilting the leaves.",
-    "fuzeMenuAppearances": [
-      "Sides and Asian-inspired daily specials at Fuze"
-    ],
-    "staffTips": "A wonderful light alternative to traditional cabbage that pairs beautifully with pork belly.",
-    "tags": [
-      "vegetables",
-      "Asia",
-      "wok",
-      "side"
-    ]
-  },
-  {
-    "id": "ponzu",
-    "name": "Ponzu Sauce",
-    "originalTerm": "Ponzu (Japan)",
-    "category": "world_flavors",
-    "categoryName": "World & Asian Flavors",
-    "origin": "Japan",
-    "shortDescription": "Iconic Japanese citrus sauce combining soy sauce, yuzu or sudachi citrus juice, mirin, and dashi stock.",
-    "ingredients": [
-      "Japanese brewed soy sauce",
-      "Citrus juice (Yuzu / Sudachi)",
-      "Mirin (sweet rice wine)",
-      "Dashi broth brewed from kombu seaweed and bonito flakes"
-    ],
-    "flavorProfile": "Savory, bright citrus tang, tart and refreshing with deep umami undercurrents.",
-    "culinaryUsage": "Dipping sauce for tataki, sashimi, dumplings, grilled meats, and modern vinaigrettes.",
-    "fuzeMenuAppearances": [
-      "Marinades and dressings for salads and grilled meats"
-    ],
-    "staffTips": "Instantly refreshes the palate after rich bites of roasted meats.",
-    "tags": [
-      "sauce",
-      "Japan",
-      "yuzu",
-      "soy sauce",
-      "umami"
-    ]
-  },
-  {
-    "id": "panko",
-    "name": "Panko Breadcrumbs",
-    "originalTerm": "Panko (Japan)",
-    "category": "world_flavors",
-    "categoryName": "World & Asian Flavors",
-    "origin": "Japan",
-    "shortDescription": "Flaky Japanese breadcrumbs made from crustless white bread baked by electrical resistance.",
-    "ingredients": [
-      "Wheat bread baked with electrical current without dark crust"
-    ],
-    "flavorProfile": "Neutral vehicle for savory seasoning that yields incomparable long-lasting crispness.",
-    "culinaryUsage": "Larger jagged flakes absorb far less oil than ordinary breadcrumbs, keeping fried foods light and crisp.",
-    "fuzeMenuAppearances": [
-      "Crispy croquettes and fried specialties"
-    ],
-    "staffTips": "Panko breadcrumbs stay crisp much longer and feel significantly lighter than ordinary dense breadcrumbs.",
-    "tags": [
-      "breadcrumbs",
-      "crisp",
-      "frying",
-      "Japan"
-    ]
-  },
-  {
-    "id": "kimchi",
-    "name": "Kimchi",
-    "originalTerm": "Kimchi (Korean Peninsula)",
-    "category": "world_flavors",
-    "categoryName": "World & Asian Flavors",
-    "origin": "Korea (inscribed on UNESCO Intangible Cultural Heritage list)",
-    "shortDescription": "Traditional Korean spicy fermented napa cabbage pickle teeming with beneficial probiotics.",
-    "ingredients": [
-      "Napa cabbage",
-      "Korean gochugaru chilli pepper flakes",
-      "Garlic and fresh ginger",
-      "Scallions and daikon radish",
-      "Fermented fish sauce and salted shrimp"
-    ],
-    "flavorProfile": "Punchy, spicy, tangy, fizzy with fermented depth and aromatic garlic pungency.",
-    "culinaryUsage": "Served as a side to rich roasted meats, layered into burgers, or tossed into stir-fries.",
-    "fuzeMenuAppearances": [
-      "Garnishes and sides for pork belly and grilled meats"
-    ],
-    "staffTips": "The sparkling acidity and heat of kimchi brilliantly cut through rich pork belly fat.",
-    "tags": [
-      "fermentation",
-      "Korea",
-      "chilli",
-      "cabbage",
-      "probiotics"
-    ]
-  },
-  {
-    "id": "edamame",
-    "name": "Edamame",
-    "originalTerm": "Edamame (Japan / East Asia)",
+    "id": "yuzu",
+    "name": "Yuzu",
+    "originalTerm": "Yuzu / Citrus junos (East Asia)",
     "category": "world_flavors",
     "categoryName": "World & Asian Flavors",
     "origin": "Japan and East Asia",
-    "shortDescription": "Young green soybeans harvested before ripening while still inside their pods.",
+    "shortDescription": "Prized Asian citrus fruit with an extraordinarily complex, intensely aromatic essential oil profile.",
     "ingredients": [
-      "100% immature soybeans (Glycine max)",
-      "Flaky sea salt"
+      "Pure juice and zest of Yuzu citrus fruit (Citrus junos)"
     ],
-    "flavorProfile": "Sweet, nutty, fresh green pea flavor with a firm, satisfying pop.",
-    "culinaryUsage": "Boiled briefly in salted water and served whole in pods, or shelled into fresh salads and bowls.",
+    "flavorProfile": "A captivating fusion echoing mandarin orange, bitter grapefruit, lime, and delicate floral jasmine blossoms.",
+    "culinaryUsage": "Glazes, dressings, dipping sauces for rich meats, refined pastries, and craft cocktails.",
     "fuzeMenuAppearances": [
-      "Salad additions and Asian fusion sides"
+      "Grilled pork belly with caramelized yuzu sauce and chimichurri"
     ],
-    "staffTips": "Allergen reminder: contains soy (no. 6). The fibrous pods are not swallowed; beans are popped into the mouth using the teeth.",
+    "staffTips": "The yuzu in our pork belly glaze brings the signature Asian 'fuze' dimension, transforming a classic pork roast into a modern gastronomic experience.",
     "tags": [
-      "soy",
-      "edamame",
+      "yuzu",
+      "citrus",
       "Japan",
-      "beans",
-      "vegetable"
-    ]
-  },
-  {
-    "id": "kombucha-pojem",
-    "name": "Kombucha",
-    "originalTerm": "Kombucha (East Asia)",
-    "category": "gourmet_ingredients",
-    "categoryName": "Gourmet Ingredients & Drinks",
-    "origin": "Ancient China / Manchuria (over 2,000 years of history)",
-    "shortDescription": "Naturally effervescent fermented tea beverage crafted with a symbiotic culture of bacteria and yeast (SCOBY).",
-    "ingredients": [
-      "Premium green or black tea",
-      "Cane sugar (nutrient for fermenting cultures)",
-      "Live SCOBY culture",
-      "Natural fruit juices or herbs for secondary fermentation"
-    ],
-    "flavorProfile": "Gently sparkling, refreshing, sweet-tart with crisp cider-like fermented undertones.",
-    "culinaryUsage": "Served chilled as a healthy premium non-alcoholic aperitif or post-meal digestive.",
-    "fuzeMenuAppearances": [
-      "Kombucha – Magu kombucha and artisanal fermented beverages on our drink menu"
-    ],
-    "staffTips": "A superb non-alcoholic alternative to beer and cider that promotes digestion after a satisfying meal.",
-    "tags": [
-      "fermentation",
-      "tea",
-      "non-alcoholic",
-      "kombucha",
-      "wellness"
-    ]
-  },
-  {
-    "id": "cider-pojem",
-    "name": "Cider",
-    "originalTerm": "Cidre / Cider (France / England)",
-    "category": "gourmet_ingredients",
-    "categoryName": "Gourmet Ingredients & Drinks",
-    "origin": "Normandy & Brittany (France) / Southwestern England",
-    "shortDescription": "Natural sparkling alcoholic beverage made through controlled fermentation of freshly pressed apple juice.",
-    "ingredients": [
-      "Freshly pressed juice from dedicated cider apple varieties",
-      "Wild or cultured cider yeast",
-      "Natural carbonation from fermentation"
-    ],
-    "flavorProfile": "Crisp apple flavor with pleasant acidity, gentle tannins, and refreshing effervescence.",
-    "culinaryUsage": "Classic pairing with roast pork, artisanal sausages, and cheeses.",
-    "fuzeMenuAppearances": [
-      "Opre` Cider and Opre` Sour Cherry (artisanal craft ciders from a family farm)"
-    ],
-    "staffTips": "Opre' Cider is not an overly sweet industrial soda, but a genuine artisanal fermented apple cider from a family-owned orchard.",
-    "tags": [
-      "cider",
-      "apples",
-      "fermentation",
-      "Opre",
-      "beverage"
+      "pork belly",
+      "glaze"
     ]
   }
 ];
