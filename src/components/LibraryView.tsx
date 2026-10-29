@@ -34,6 +34,7 @@ import {
 import { AudioPronounceButton } from './AudioPronounceButton';
 import { WineGlassAudioPanel } from './WineGlassAudioPanel';
 import { ItemQuizModal } from './ItemQuizModal';
+import { StoryView } from './StoryView';
 
 interface LibraryViewProps {
   language?: 'cs' | 'en';
@@ -41,7 +42,7 @@ interface LibraryViewProps {
   onClearInitialSelectedItem?: () => void;
 }
 
-type LibraryTab = 'culinary' | 'beverages';
+type LibraryTab = 'culinary' | 'beverages' | 'story';
 
 export const LibraryView: React.FC<LibraryViewProps> = ({
   language = 'cs',
@@ -58,7 +59,8 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
   const [activeTab, setActiveTab] = useState<LibraryTab>(() => {
     try {
       const saved = sessionStorage.getItem('fuze_library_tab');
-      return saved === 'beverages' ? 'beverages' : 'culinary';
+      if (saved === 'beverages' || saved === 'story') return saved;
+      return 'culinary';
     } catch {
       return 'culinary';
     }
@@ -418,18 +420,22 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
               <Wine className="w-3.5 h-3.5 text-amber-400 shrink-0" />
               <span><strong>{activeBeverageItems.length}</strong> {isEn ? 'wines & spirits' : 'vín a destilátů'}</span>
             </div>
+            <div className="flex items-center gap-1.5 px-2.5 sm:px-3 py-1 rounded-lg bg-stone-800/80 border border-stone-700/60 text-stone-300">
+              <BookOpen className="w-3.5 h-3.5 text-amber-400 shrink-0" />
+              <span><strong>7</strong> {isEn ? 'story chapters' : 'kapitol příběhu'}</span>
+            </div>
           </div>
         </div>
       </div>
 
-      {/* Main Mode Switcher: Kulinářský lexikon vs Nápojová encyklopedie */}
-      <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 sm:gap-4">
+      {/* Main Mode Switcher: Kulinářský lexikon vs Nápojová encyklopedie vs Příběh o surovinách */}
+      <div className="flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-3 sm:gap-4">
         {/* Interactive Segmented Switcher */}
-        <div className="grid grid-cols-2 p-1 bg-stone-900 border border-stone-800 rounded-xl shadow-inner w-full sm:w-auto sm:inline-flex gap-1">
+        <div className="grid grid-cols-3 p-1 bg-stone-900 border border-stone-800 rounded-xl shadow-inner w-full lg:w-auto gap-1">
           <button
             type="button"
             onClick={() => handleTabChange('culinary')}
-            className={`min-w-0 flex items-center justify-center gap-1.5 sm:gap-2 px-2 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-bold transition-all min-h-[42px] ${
+            className={`min-w-0 flex items-center justify-center gap-1.5 sm:gap-2 px-2 sm:px-3.5 py-2 rounded-lg text-xs sm:text-sm font-bold transition-all min-h-[42px] ${
               activeTab === 'culinary'
                 ? 'bg-amber-600 text-stone-950 shadow-md shadow-amber-950/40 font-black'
                 : 'text-stone-400 hover:text-stone-200 hover:bg-stone-800/50'
@@ -450,7 +456,7 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
           <button
             type="button"
             onClick={() => handleTabChange('beverages')}
-            className={`min-w-0 flex items-center justify-center gap-1.5 sm:gap-2 px-2 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-bold transition-all min-h-[42px] ${
+            className={`min-w-0 flex items-center justify-center gap-1.5 sm:gap-2 px-2 sm:px-3.5 py-2 rounded-lg text-xs sm:text-sm font-bold transition-all min-h-[42px] ${
               activeTab === 'beverages'
                 ? 'bg-amber-600 text-stone-950 shadow-md shadow-amber-950/40 font-black'
                 : 'text-stone-400 hover:text-stone-200 hover:bg-stone-800/50'
@@ -467,165 +473,192 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
               {activeBeverageItems.length}
             </span>
           </button>
-        </div>
 
-        {/* Search Bar */}
-        <div className="relative flex-1 sm:max-w-md w-full">
-          <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-stone-500" />
-          <input
-            type="text"
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder={
-              activeTab === 'culinary'
-                ? (isEn ? 'Search chimichurri, duroc, cornichons, sauces...' : 'Hledat chimichurri, duroc, cornichons, omáčky...')
-                : (isEn ? 'Search wine, rum, tequila, whisky, distillery...' : 'Hledat víno, rum, tequilu, whisky, lihovar...')
-            }
-            className="w-full pl-10 pr-9 py-2 rounded-xl bg-stone-900 border border-stone-800 text-xs sm:text-sm text-stone-100 placeholder-stone-500 focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500 transition-colors"
-          />
-          {searchQuery && (
-            <button
-              onClick={() => setSearchQuery('')}
-              className="absolute right-3 top-1/2 -translate-y-1/2 text-stone-500 hover:text-stone-300"
-              title={isEn ? 'Clear search' : 'Vymazat hledání'}
-            >
-              <X className="w-4 h-4" />
-            </button>
-          )}
-        </div>
-      </div>
-
-      {/* Sub-Category Filters with Audio Accompaniment and Scroll Buttons */}
-      <div className="relative flex items-center w-full min-w-0">
-        {/* Tlačítko posunu filtrů doleva */}
-        <button
-          type="button"
-          onClick={() => subcatRef.current?.scrollBy({ left: -140, behavior: 'smooth' })}
-          disabled={!canSubcatLeft}
-          title={isEn ? 'Scroll filters left' : 'Posunout filtry doleva'}
-          aria-label={isEn ? 'Scroll filters left' : 'Posunout filtry doleva'}
-          className={`p-1.5 rounded-lg border transition-all shrink-0 mr-1 flex items-center justify-center min-w-[30px] min-h-[30px] ${
-            canSubcatLeft
-              ? 'bg-stone-900 hover:bg-stone-800 text-stone-200 hover:text-amber-400 border-stone-800 hover:border-amber-500/50 shadow-sm active:scale-95'
-              : 'bg-stone-950/40 text-stone-600 border-stone-900/60 opacity-30 cursor-not-allowed'
-          }`}
-        >
-          <ChevronLeft className="w-3.5 h-3.5" />
-        </button>
-
-        <div
-          ref={subcatRef}
-          className="flex-1 flex items-center gap-1.5 overflow-x-auto pb-1.5 no-scrollbar scroll-smooth min-w-0"
-        >
-          {activeTab === 'culinary' ? (
-            culinaryCategories.map(cat => {
-              const isSelected = selectedCulinaryCategory === cat.id;
-              return (
-                <div
-                  key={cat.id}
-                  className={`shrink-0 inline-flex items-center rounded-lg text-xs font-medium transition-all ${
-                    isSelected
-                      ? 'bg-amber-500/20 text-amber-300 border border-amber-500/50 shadow-sm shadow-amber-950/20'
-                      : 'bg-stone-900 text-stone-400 hover:text-stone-200 border border-stone-800 hover:border-stone-700'
-                  }`}
-                >
-                  <button
-                    type="button"
-                    onClick={() => setSelectedCulinaryCategory(cat.id)}
-                    className="pl-3 pr-1 py-1.5 text-xs font-medium focus:outline-none"
-                  >
-                    {cat.label}
-                  </button>
-                  <div className="pr-1.5 py-0.5">
-                    <AudioPronounceButton
-                      itemId={`subcat-cul-${cat.id}`}
-                      name={cat.label}
-                      description={cat.description}
-                      lang={language}
-                      size="xs"
-                      title={isEn ? `Listen to subcategory: ${cat.label}` : `Poslechnout podsložku: ${cat.label}`}
-                      className="!p-1 !rounded-md bg-transparent hover:bg-stone-800/80 text-stone-400 hover:text-amber-300 border-0 shadow-none"
-                    />
-                  </div>
-                </div>
-              );
-            })
-          ) : (
-            beverageCategories.map(cat => {
-              const isSelected = selectedBeverageCategory === cat.id;
-              return (
-                <div
-                  key={cat.id}
-                  className={`shrink-0 inline-flex items-center rounded-lg text-xs font-medium transition-all ${
-                    isSelected
-                      ? 'bg-amber-500/20 text-amber-300 border border-amber-500/50 shadow-sm shadow-amber-950/20'
-                      : 'bg-stone-900 text-stone-400 hover:text-stone-200 border border-stone-800 hover:border-stone-700'
-                  }`}
-                >
-                  <button
-                    type="button"
-                    onClick={() => setSelectedBeverageCategory(cat.id)}
-                    className="pl-3 pr-1 py-1.5 text-xs font-medium focus:outline-none"
-                  >
-                    {cat.label}
-                  </button>
-                  <div className="pr-1.5 py-0.5">
-                    <AudioPronounceButton
-                      itemId={`subcat-bev-${cat.id}`}
-                      name={cat.label}
-                      description={cat.description}
-                      lang={language}
-                      size="xs"
-                      title={isEn ? `Listen to subcategory: ${cat.label}` : `Poslechnout podsložku: ${cat.label}`}
-                      className="!p-1 !rounded-md bg-transparent hover:bg-stone-800/80 text-stone-400 hover:text-amber-300 border-0 shadow-none"
-                    />
-                  </div>
-                </div>
-              );
-            })
-          )}
-        </div>
-
-        {/* Tlačítko posunu filtrů doprava */}
-        <button
-          type="button"
-          onClick={() => subcatRef.current?.scrollBy({ left: 140, behavior: 'smooth' })}
-          disabled={!canSubcatRight}
-          title={isEn ? 'Scroll filters right' : 'Posunout filtry doprava'}
-          aria-label={isEn ? 'Scroll filters right' : 'Posunout filtry doprava'}
-          className={`p-1.5 rounded-lg border transition-all shrink-0 ml-1 flex items-center justify-center min-w-[30px] min-h-[30px] ${
-            canSubcatRight
-              ? 'bg-stone-900 hover:bg-stone-800 text-stone-200 hover:text-amber-400 border-stone-800 hover:border-amber-500/50 shadow-sm active:scale-95'
-              : 'bg-stone-950/40 text-stone-600 border-stone-900/60 opacity-30 cursor-not-allowed'
-          }`}
-        >
-          <ChevronRight className="w-3.5 h-3.5" />
-        </button>
-      </div>
-
-      {/* Results Count & Active Status */}
-      <div className="flex items-center justify-between text-xs text-stone-500 px-1">
-        <div className="flex items-center gap-2">
-          <span>
-            {isEn ? 'Showing ' : 'Zobrazeno '}
-            <strong className="text-stone-300">
-              {activeTab === 'culinary' ? filteredCulinaryTerms.length : filteredBeverages.length}
-            </strong>
-            {isEn ? ' items' : ' položek'}
-          </span>
-          {activeTab === 'culinary' && (
-            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-semibold bg-amber-500/10 text-amber-400 border border-amber-500/20">
-              A → Z {isEn ? 'Alphabetical' : 'Abecedně'}
+          <button
+            type="button"
+            onClick={() => handleTabChange('story')}
+            className={`min-w-0 flex items-center justify-center gap-1.5 sm:gap-2 px-2 sm:px-3.5 py-2 rounded-lg text-xs sm:text-sm font-bold transition-all min-h-[42px] ${
+              activeTab === 'story'
+                ? 'bg-amber-600 text-stone-950 shadow-md shadow-amber-950/40 font-black'
+                : 'text-stone-400 hover:text-stone-200 hover:bg-stone-800/50'
+            }`}
+          >
+            <BookOpen className="w-4 h-4 shrink-0" />
+            <span className="truncate">
+              <span className="hidden sm:inline">{isEn ? 'Story of Ingredients' : 'Příběh o surovinách'}</span>
+              <span className="sm:hidden">{isEn ? 'Story' : 'Příběh'}</span>
             </span>
-          )}
+            <span className={`text-[10px] sm:text-[11px] px-1.5 py-0.5 rounded font-mono shrink-0 ${
+              activeTab === 'story' ? 'bg-amber-700/50 text-stone-950 font-bold' : 'text-stone-500'
+            }`}>
+              7
+            </span>
+          </button>
         </div>
-        {searchQuery && (
-          <span>
-            {isEn ? 'Filter active: ' : 'Aktivní filtr: '}
-            <strong className="text-amber-400">"{searchQuery}"</strong>
-          </span>
+
+        {/* Search Bar (for glossary & beverages) */}
+        {activeTab !== 'story' && (
+          <div className="relative flex-1 sm:max-w-md w-full">
+            <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-stone-500" />
+            <input
+              type="text"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder={
+                activeTab === 'culinary'
+                  ? (isEn ? 'Search chimichurri, duroc, cornichons, sauces...' : 'Hledat chimichurri, duroc, cornichons, omáčky...')
+                  : (isEn ? 'Search wine, rum, tequila, whisky, distillery...' : 'Hledat víno, rum, tequilu, whisky, lihovar...')
+              }
+              className="w-full pl-10 pr-9 py-2 rounded-xl bg-stone-900 border border-stone-800 text-xs sm:text-sm text-stone-100 placeholder-stone-500 focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500 transition-colors"
+            />
+            {searchQuery && (
+              <button
+                onClick={() => setSearchQuery('')}
+                className="absolute right-3 top-1/2 -translate-y-1/2 text-stone-500 hover:text-stone-300"
+                title={isEn ? 'Clear search' : 'Vymazat hledání'}
+              >
+                <X className="w-4 h-4" />
+              </button>
+            )}
+          </div>
         )}
       </div>
+
+      {activeTab !== 'story' && (
+        <>
+          {/* Sub-Category Filters with Audio Accompaniment and Scroll Buttons */}
+          <div className="relative flex items-center w-full min-w-0">
+            {/* Tlačítko posunu filtrů doleva */}
+            <button
+              type="button"
+              onClick={() => subcatRef.current?.scrollBy({ left: -140, behavior: 'smooth' })}
+              disabled={!canSubcatLeft}
+              title={isEn ? 'Scroll filters left' : 'Posunout filtry doleva'}
+              aria-label={isEn ? 'Scroll filters left' : 'Posunout filtry doleva'}
+              className={`p-1.5 rounded-lg border transition-all shrink-0 mr-1 flex items-center justify-center min-w-[30px] min-h-[30px] ${
+                canSubcatLeft
+                  ? 'bg-stone-900 hover:bg-stone-800 text-stone-200 hover:text-amber-400 border-stone-800 hover:border-amber-500/50 shadow-sm active:scale-95'
+                  : 'bg-stone-950/40 text-stone-600 border-stone-900/60 opacity-30 cursor-not-allowed'
+              }`}
+            >
+              <ChevronLeft className="w-3.5 h-3.5" />
+            </button>
+
+            <div
+              ref={subcatRef}
+              className="flex-1 flex items-center gap-1.5 overflow-x-auto pb-1.5 no-scrollbar scroll-smooth min-w-0"
+            >
+              {activeTab === 'culinary' ? (
+                culinaryCategories.map(cat => {
+                  const isSelected = selectedCulinaryCategory === cat.id;
+                  return (
+                    <div
+                      key={cat.id}
+                      className={`shrink-0 inline-flex items-center rounded-lg text-xs font-medium transition-all ${
+                        isSelected
+                          ? 'bg-amber-500/20 text-amber-300 border border-amber-500/50 shadow-sm shadow-amber-950/20'
+                          : 'bg-stone-900 text-stone-400 hover:text-stone-200 border border-stone-800 hover:border-stone-700'
+                      }`}
+                    >
+                      <button
+                        type="button"
+                        onClick={() => setSelectedCulinaryCategory(cat.id)}
+                        className="pl-3 pr-1 py-1.5 text-xs font-medium focus:outline-none"
+                      >
+                        {cat.label}
+                      </button>
+                      <div className="pr-1.5 py-0.5">
+                        <AudioPronounceButton
+                          itemId={`subcat-cul-${cat.id}`}
+                          name={cat.label}
+                          description={cat.description}
+                          lang={language}
+                          size="xs"
+                          title={isEn ? `Listen to subcategory: ${cat.label}` : `Poslechnout podsložku: ${cat.label}`}
+                          className="!p-1 !rounded-md bg-transparent hover:bg-stone-800/80 text-stone-400 hover:text-amber-300 border-0 shadow-none"
+                        />
+                      </div>
+                    </div>
+                  );
+                })
+              ) : (
+                beverageCategories.map(cat => {
+                  const isSelected = selectedBeverageCategory === cat.id;
+                  return (
+                    <div
+                      key={cat.id}
+                      className={`shrink-0 inline-flex items-center rounded-lg text-xs font-medium transition-all ${
+                        isSelected
+                          ? 'bg-amber-500/20 text-amber-300 border border-amber-500/50 shadow-sm shadow-amber-950/20'
+                          : 'bg-stone-900 text-stone-400 hover:text-stone-200 border border-stone-800 hover:border-stone-700'
+                      }`}
+                    >
+                      <button
+                        type="button"
+                        onClick={() => setSelectedBeverageCategory(cat.id)}
+                        className="pl-3 pr-1 py-1.5 text-xs font-medium focus:outline-none"
+                      >
+                        {cat.label}
+                      </button>
+                      <div className="pr-1.5 py-0.5">
+                        <AudioPronounceButton
+                          itemId={`subcat-bev-${cat.id}`}
+                          name={cat.label}
+                          description={cat.description}
+                          lang={language}
+                          size="xs"
+                          title={isEn ? `Listen to subcategory: ${cat.label}` : `Poslechnout podsložku: ${cat.label}`}
+                          className="!p-1 !rounded-md bg-transparent hover:bg-stone-800/80 text-stone-400 hover:text-amber-300 border-0 shadow-none"
+                        />
+                      </div>
+                    </div>
+                  );
+                })
+              )}
+            </div>
+
+            {/* Tlačítko posunu filtrů doprava */}
+            <button
+              type="button"
+              onClick={() => subcatRef.current?.scrollBy({ left: 140, behavior: 'smooth' })}
+              disabled={!canSubcatRight}
+              title={isEn ? 'Scroll filters right' : 'Posunout filtry doprava'}
+              aria-label={isEn ? 'Scroll filters right' : 'Posunout filtry doprava'}
+              className={`p-1.5 rounded-lg border transition-all shrink-0 ml-1 flex items-center justify-center min-w-[30px] min-h-[30px] ${
+                canSubcatRight
+                  ? 'bg-stone-900 hover:bg-stone-800 text-stone-200 hover:text-amber-400 border-stone-800 hover:border-amber-500/50 shadow-sm active:scale-95'
+                  : 'bg-stone-950/40 text-stone-600 border-stone-900/60 opacity-30 cursor-not-allowed'
+              }`}
+            >
+              <ChevronRight className="w-3.5 h-3.5" />
+            </button>
+          </div>
+
+          {/* Results Count & Active Status */}
+          <div className="flex items-center justify-between text-xs text-stone-500 px-1">
+            <div className="flex items-center gap-2">
+              <span>
+                {isEn ? 'Showing ' : 'Zobrazeno '}
+                <strong className="text-stone-300">
+                  {activeTab === 'culinary' ? filteredCulinaryTerms.length : filteredBeverages.length}
+                </strong>
+                {isEn ? ' items' : ' položek'}
+              </span>
+              {activeTab === 'culinary' && (
+                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-semibold bg-amber-500/10 text-amber-400 border border-amber-500/20">
+                  A → Z {isEn ? 'Alphabetical' : 'Abecedně'}
+                </span>
+              )}
+            </div>
+            {searchQuery && (
+              <span>
+                {isEn ? 'Filter active: ' : 'Aktivní filtr: '}
+                <strong className="text-amber-400">"{searchQuery}"</strong>
+              </span>
+            )}
+          </div>
+        </>
+      )}
 
       {/* ========================================================================= */}
       {/* SECTION 1: CULINARY GLOSSARY CARDS GRID                                  */}
@@ -875,6 +908,17 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
             )}
           </div>
         </div>
+      )}
+
+      {/* ========================================================================= */}
+      {/* SECTION 3: STORY OF INGREDIENTS (PŘÍBĚH O SUROVINÁCH)                     */}
+      {/* ========================================================================= */}
+      {activeTab === 'story' && (
+        <StoryView
+          language={language}
+          culinaryTerms={activeCulinaryTerms}
+          onOpenCulinaryTerm={(term) => setActiveCulinaryModal(term)}
+        />
       )}
 
       {/* ========================================================================= */}
