@@ -35,6 +35,7 @@ import { AudioPronounceButton } from './AudioPronounceButton';
 import { WineGlassAudioPanel } from './WineGlassAudioPanel';
 import { ItemQuizModal } from './ItemQuizModal';
 import { StoryView } from './StoryView';
+import { BarriqueCuveeGuide } from './BarriqueCuveeGuide';
 
 interface LibraryViewProps {
   language?: 'cs' | 'en';
@@ -265,6 +266,13 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
         : 'Výběrová červená vína z Čech, Moravy, Rakouska, Německa a Kalifornie.'
     },
     { 
+      id: 'wine_barrique', 
+      label: isEn ? 'Barrique & Cuvée' : 'Bariková vína & Cuvée',
+      description: isEn 
+        ? 'Deep sommelier guide to barrique oak aging, large casks, price breakdowns, and cuvée blending (mash vs. assemblage).' 
+        : 'Sommeliérský průvodce barikovým zráním, velkými sudy, cenovou kalkulací a mícháním cuvée ze rmutu a hotových vín.'
+    },
+    { 
       id: 'wine_rose', 
       label: isEn ? 'Rosé Wines' : 'Růžová vína',
       description: isEn 
@@ -364,7 +372,38 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
   const filteredBeverages = useMemo(() => {
     const q = searchQuery.toLowerCase().trim();
     return activeBeverageItems.filter(item => {
-      const matchesCategory = selectedBeverageCategory === 'all' || item.category === selectedBeverageCategory;
+      let matchesCategory = false;
+      if (selectedBeverageCategory === 'all') {
+        matchesCategory = true;
+      } else if (selectedBeverageCategory === 'wine_barrique') {
+        const t = item.tags.map(x => x.toLowerCase());
+        const proc = item.productionProcess.toLowerCase();
+        const raw = item.rawIngredients.toLowerCase();
+        const name = item.name.toLowerCase();
+        matchesCategory = (
+          item.category === 'wine_barrique' ||
+          t.includes('barik') ||
+          t.includes('barrique') ||
+          t.includes('cuvée') ||
+          t.includes('cuvee') ||
+          t.includes('velký sud') ||
+          t.includes('large cask') ||
+          proc.includes('barrique') ||
+          proc.includes('barik') ||
+          proc.includes('sud') ||
+          proc.includes('cask') ||
+          proc.includes('dubov') ||
+          proc.includes('oak') ||
+          raw.includes('cuvée') ||
+          raw.includes('kupáž') ||
+          raw.includes('blend') ||
+          name.includes('cuvée') ||
+          name.includes('cuvee') ||
+          name.includes('barrique')
+        );
+      } else {
+        matchesCategory = item.category === selectedBeverageCategory;
+      }
       if (!matchesCategory) return false;
       if (!q) return true;
       return (
@@ -769,6 +808,53 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
       {/* ========================================================================= */}
       {activeTab === 'beverages' && (
         <div className="space-y-6">
+          {/* Sommelier Masterclass Panel for Bariková vína & Cuvée */}
+          {selectedBeverageCategory === 'wine_barrique' && (
+            <BarriqueCuveeGuide
+              language={language}
+              onSelectWine={(wineId) => {
+                const found = activeBeverageItems.find(b => b.id === wineId);
+                if (found) {
+                  setActiveBeverageModal(found);
+                }
+              }}
+            />
+          )}
+
+          {/* Quick Sommelier Masterclass Banner when not in wine_barrique view */}
+          {selectedBeverageCategory !== 'wine_barrique' && (
+            <div 
+              onClick={() => setSelectedBeverageCategory('wine_barrique')}
+              className="p-3.5 sm:p-4 rounded-xl bg-gradient-to-r from-amber-950/40 via-stone-900 to-stone-900 border border-amber-500/30 hover:border-amber-400/60 transition-all cursor-pointer flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-md hover:shadow-amber-950/20 group"
+            >
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-xl bg-amber-500/20 border border-amber-500/30 flex items-center justify-center text-amber-300 shrink-0 group-hover:scale-105 transition-transform">
+                  <Wine className="w-5 h-5 text-amber-400" />
+                </div>
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-amber-400 font-mono">
+                      SOMMELIER MASTERCLASS
+                    </span>
+                    <span className="text-stone-600">·</span>
+                    <span className="text-xs text-stone-400">
+                      {isEn ? 'Aging, Pricing & Blending' : 'Zrání v sudech, Ceny & Cuvée'}
+                    </span>
+                  </div>
+                  <h4 className="text-sm sm:text-base font-bold text-stone-100 group-hover:text-amber-300 transition-colors">
+                    {isEn 
+                      ? 'Barrique vs. Large Casks & The Secrets of Cuvée Blending' 
+                      : 'Barik vs. Velký sud & Tajemství míchání Cuvée'}
+                  </h4>
+                </div>
+              </div>
+              <div className="flex items-center gap-1.5 text-xs font-bold text-amber-400 group-hover:translate-x-1 transition-transform self-end sm:self-center">
+                <span>{isEn ? 'Open Masterclass' : 'Otevřít průvodce'}</span>
+                <ChevronRight className="w-4 h-4" />
+              </div>
+            </div>
+          )}
+
           {/* Sommelier Audio Play Panel for Vína po skle */}
           {(selectedBeverageCategory === 'wine_glass' || selectedBeverageCategory === 'all') && (
             <div ref={audioPanelRef}>

@@ -1975,7 +1975,11 @@ export const BEVERAGE_ITEMS_EN: BeverageItem[] = [
       "Merlot",
       "Kolby",
       "Mikulovsko",
-      "Moravia"
+      "Moravia",
+      "barrique",
+      "cuvee",
+      "assemblage",
+      "french oak"
     ]
   },
   {
@@ -2003,7 +2007,11 @@ export const BEVERAGE_ITEMS_EN: BeverageItem[] = [
       "Frankovka",
       "Bílkovi",
       "Velkopavlovicko",
-      "Moravia"
+      "Moravia",
+      "barrique",
+      "cuvee",
+      "co-fermentation",
+      "mash"
     ]
   },
   {
@@ -2029,7 +2037,9 @@ export const BEVERAGE_ITEMS_EN: BeverageItem[] = [
       "Zweigelt",
       "Feiler-Artinger",
       "Burgenland",
-      "Austria"
+      "Austria",
+      "large cask",
+      "traditional oak"
     ]
   },
   {
@@ -2057,7 +2067,9 @@ export const BEVERAGE_ITEMS_EN: BeverageItem[] = [
       "Philip Kuhn",
       "Tradition",
       "Pfalz",
-      "Germany"
+      "Germany",
+      "barrique",
+      "french oak"
     ]
   },
   {
@@ -2084,7 +2096,9 @@ export const BEVERAGE_ITEMS_EN: BeverageItem[] = [
       "Lapis Luna",
       "Lodi",
       "California",
-      "USA"
+      "USA",
+      "barrique",
+      "american oak"
     ]
   },
   {

@@ -26,7 +26,7 @@ export interface CulinaryTerm {
 export interface BeverageItem {
   id: string;
   name: string;
-  category: 'wine_glass' | 'wine_white' | 'wine_red' | 'wine_rose' | 'wine_sparkling' | 'rum' | 'tequila' | 'whisky' | 'brandy_cognac' | 'liqueur_spirit' | 'gin' | 'vodka' | 'beer_craft';
+  category: 'wine_glass' | 'wine_white' | 'wine_red' | 'wine_rose' | 'wine_sparkling' | 'wine_barrique' | 'rum' | 'tequila' | 'whisky' | 'brandy_cognac' | 'liqueur_spirit' | 'gin' | 'vodka' | 'beer_craft';
   categoryName: string;
   sweetness?: string;
   producer: string;
@@ -2022,7 +2022,12 @@ export const BEVERAGE_ITEMS: BeverageItem[] = [
       "Merlot",
       "Kolby",
       "Mikulovsko",
-      "Morava"
+      "Morava",
+      "barik",
+      "barrique",
+      "cuvée",
+      "assemblage",
+      "kupáž"
     ]
   },
   {
@@ -2050,7 +2055,12 @@ export const BEVERAGE_ITEMS: BeverageItem[] = [
       "Frankovka",
       "Bílkovi",
       "Velkopavlovicko",
-      "Morava"
+      "Morava",
+      "barik",
+      "cuvée",
+      "co-fermentace",
+      "rmut",
+      "společné kvašení"
     ]
   },
   {
@@ -2076,7 +2086,9 @@ export const BEVERAGE_ITEMS: BeverageItem[] = [
       "Zweigelt",
       "Feiler-Artinger",
       "Burgenland",
-      "Rakousko"
+      "Rakousko",
+      "velký sud",
+      "tradiční sud"
     ]
   },
   {
@@ -2104,7 +2116,10 @@ export const BEVERAGE_ITEMS: BeverageItem[] = [
       "Philip Kuhn",
       "Tradition",
       "Pfalz",
-      "Německo"
+      "Německo",
+      "barik",
+      "barrique",
+      "francouzský dub"
     ]
   },
   {
@@ -2131,7 +2146,10 @@ export const BEVERAGE_ITEMS: BeverageItem[] = [
       "Lapis Luna",
       "Lodi",
       "Kalifornie",
-      "USA"
+      "USA",
+      "barik",
+      "barrique",
+      "americký dub"
     ]
   },
   {
